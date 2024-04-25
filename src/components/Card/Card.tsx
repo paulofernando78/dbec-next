@@ -6,6 +6,6 @@ interface ICard {
 
 export const Card = ({children}:ICard) => {
   return (
-    <p>{children}</p>
+    <>{children}</>
   )
 }

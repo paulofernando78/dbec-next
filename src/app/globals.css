@@ -1,7 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
 
+/* ROOT */
+
+:root {
+    --navbar-icon-size: 2rem;
+    --font: 'Walter Turncoat', cursive;
+    --h1-size: 2.3rem;
+    --h2-size: 1.8rem;
+    --h3-size: 1.5rem;
+    --p-size: 1.3rem;
+    --font-size-small: 0.9rem;
+    --img-border: 5px solid rgba(211, 211, 211, 0.233);
+    --container-padding: 5px 7px;
+    --container-border: 7px solid rgb(201, 201, 201);
+    --container-box-shadow: 0 0 5px .5px #999;
+    --container-border-radius: 5px;
+    --container-background-image: url('/assets/img/textures/container-title-background.png');
+    --isActive: #F77D7A;
+}
+
 * {
-    margin: 0;
+    margin: 2px;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Walter Turncoat', cursive;
+}
+
+::-webkit-scrollbar {
+    width: .7rem;
+}
+
+::-webkit-scrollbar-track {
+    background: hsl(10, 10%, 90%);
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background: hsl(10, 5%, 70%);
+    border-radius: 100vw;
+    border: .1rem solid hsl(10, 10%, 90%);
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: var(--font);
+
+}
+
+h1 {
+    font-size: var(--h1-size);
+}
+
+h2 {
+    font-size: var(--h2-size);
+}
+
+h3 {
+    font-size: var(--h3-size);
+}
+
+p {
+    font-size: var(--p-size);
+}
+
+.line-break {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.active {
+    color: var(--isActive)
 }

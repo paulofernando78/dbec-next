@@ -1,0 +1,8 @@
+.containerWhiteboard {
+    border: var(--container-border);
+    background-image: var(--container-background-image);
+    border-radius: var(--container-border-radius);
+    padding: 1px 7px;
+    box-shadow: var(--container-box-shadow);
+    margin-bottom: 50px
+}
