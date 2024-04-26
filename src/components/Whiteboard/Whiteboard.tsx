@@ -1,19 +1,19 @@
 import React from "react";
-import styles from "./Whiteboard.module.css";
+import whiteboard from "./Whiteboard.module.css";
 
 interface IWhiteboard {
   title: string;
-  subtitle: string;
+  subtitle: string[];
   descriptions: string[];
 }
 
 export const Whiteboard = ({
   title,
-  subtitle,
+  subtitle = [],
   descriptions = [],
 }: IWhiteboard) => {
   return (
-    <div className={styles.containerWhiteboard}>
+    <div className={whiteboard.container}>
       <h1>{title}</h1>
       <h3>{subtitle}</h3>
       {descriptions.map((description, index) => (

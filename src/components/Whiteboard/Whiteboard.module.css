@@ -1,4 +1,4 @@
-.containerWhiteboard {
+.container {
     border: var(--container-border);
     background-image: var(--container-background-image);
     border-radius: var(--container-border-radius);

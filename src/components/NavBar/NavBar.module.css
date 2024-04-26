@@ -1,0 +1,36 @@
+.navBar {
+    width: 283px;
+    padding: 8px;
+    color: white;
+    font-family: var(--font);
+    font-size: var(--nav-font-size);
+    background-color: #062745;
+    border-radius: 5px;
+    overflow: auto;
+    box-shadow: var(--container-box-shadow);
+    height: 92vh;
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.navBarLink {
+    color: white;
+}
+
+.navBarIconSize {
+    width: 50px;
+}
+
+@media (max-width: 768px) {
+
+.navBar nav {
+    width: 100% !important;
+    height: 100%;
+}
+ 
+}

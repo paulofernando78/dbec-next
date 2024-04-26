@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
 
 /* ROOT */
@@ -24,6 +25,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Walter Turncoat', cursive;
+    text-decoration: none;
+    list-style: none;
 }
 
 ::-webkit-scrollbar {
