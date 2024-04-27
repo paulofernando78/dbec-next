@@ -1,4 +1,5 @@
 import { ReactNode } from 'react'
+import card from "./Card.module.css"
 
 interface ICard {
     children: ReactNode;
@@ -6,6 +7,8 @@ interface ICard {
 
 export const Card = ({children}:ICard) => {
   return (
-    <>{children}</>
+    <div className={card["card"]}> 
+    {children}
+    </div>
   )
 }

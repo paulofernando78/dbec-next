@@ -7,7 +7,7 @@
   background-color: #062745;
   border-radius: 5px;
   margin-bottom: 10px;
-  box-shadow: var(--container-box-shadow);
+  box-shadow: var(--box-shadow);
   color: white;
 }
 
@@ -33,7 +33,7 @@
   background-color: #062745;
 }
 
-.logoName {
+.logo-name {
   font-family: "Lato", sans-serif;
   font-size: 0.95rem;
   color: white;

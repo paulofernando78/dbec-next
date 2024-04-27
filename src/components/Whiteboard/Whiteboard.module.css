@@ -1,8 +1,8 @@
 .container {
-    border: var(--container-border);
-    background-image: var(--container-background-image);
-    border-radius: var(--container-border-radius);
-    padding: 1px 7px;
-    box-shadow: var(--container-box-shadow);
+    border: 7px solid rgb(201, 201, 201);
+    background-image: url('/img/textures/container-title-background.png');
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 0 7px;
     margin-bottom: 50px
 }

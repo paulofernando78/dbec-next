@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
-import layout from "./layout.module.css";
-import headerNavBar from "./headerNavBar.module.css";
+
+// CSS
+import "../assets/css/globals.css";
+import layout from "../assets/css/layout.module.css";
+import headerNavBar from "../assets/css/headerNavBar.module.css";
+
+// components
 import { Header } from "@/components/Header/Header"
 import { NavBar } from "@/components/NavBar/NavBar"
 

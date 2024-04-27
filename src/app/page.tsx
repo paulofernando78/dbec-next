@@ -6,8 +6,6 @@ export default function Home() {
     <main>
       <Whiteboard
       title="Dashboard"
-      subtitle="aaa"
-      descriptions={["aaa"]}
       />
       <div className="line-break">
         <h2>Welcome to Daily Basis English Course</h2>

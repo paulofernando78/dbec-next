@@ -1,16 +1,17 @@
-import "./NavBar.module.css";
+import navBar from "./NavBar.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
 import homeIcon from "/public/img/icon/home.png";
 
 // Courses
-import beginner from "/public/img/icon/beginner.png"
-import elementary from "/public/img/icon/elementary.png"
-import preIntermediate from "/public/img/icon/pre-intermediate.png"
-import intermediate from "/public/img/icon/intermediate.png"
-import upperIntermediate from "/public/img/icon/upper-intermediate.png"
-import advanced from "/public/img/icon/advanced.png"
+import placementTest from "/public/img/icon/placement-test.png";
+import beginner from "/public/img/icon/beginner.png";
+import elementary from "/public/img/icon/elementary.png";
+import preIntermediate from "/public/img/icon/pre-intermediate.png";
+import intermediate from "/public/img/icon/intermediate.png";
+import upperIntermediate from "/public/img/icon/upper-intermediate.png";
+import advanced from "/public/img/icon/advanced.png";
 
 // Extra
 import grammarIcon from "/public/img/icon/grammar.png";
@@ -31,12 +32,11 @@ import examsIcon from "/public/img/icon/exams.png";
 
 export const NavBar = () => {
   return (
-    <nav className="navBar">
+    <nav className={navBar["nav-bar"]}>
       <ul>
-        <div className="navList">
-          <Image src={homeIcon} alt="Home" className="navBarIconSize" />
+        <div className={navBar["nav-list"]}>
+          <Image src={homeIcon} alt="Home" className="icon-general" />
           <li>
-
             {/* Home */}
             <Link href="/">
               <p>
@@ -50,63 +50,88 @@ export const NavBar = () => {
         <p>
           <b>COURSES</b>
         </p>
-        <br />
+
+        {/* Placement text */}
+        <div className={navBar["nav-list"]}>
+          <Image src={placementTest} alt="Book" className="icon-general" />
+          <li>
+            <Link href="/courses/placement-test" className={navBar["nav-bar-link"]}>
+              <p>Placement text</p>
+            </Link>
+          </li>
+        </div>
 
         {/* Beginner */}
-        <div className="navList">
-          <Image src={beginner} alt="Book" className="navBarIconSize" />
+        <div className={navBar["nav-list"]}>
+          <Image src={beginner} alt="Book" className="icon-general" />
           <li>
-            <Link href="#">
+            <Link href="#" className={navBar["nav-bar-link"]}>
               <p>Beginner (A1)</p>
             </Link>
           </li>
-
-          {/* Elementary */}
         </div>
-        <div className="navList">
-          <Image src={elementary} alt="Book" className="navBarIconSize" />
+
+        {/* Elementary */}
+        <div className={navBar["nav-list"]}>
+          <Image
+            src={elementary}
+            alt="Book"
+            className="icon-general"
+          />
           <li>
-            <Link href="#">
+            <Link href="#" className={navBar["nav-bar-link"]}>
               <p>Elementary (A2)</p>
             </Link>
           </li>
         </div>
 
         {/* Pre-Intermediate */}
-        <div className="navList">
-          <Image src={preIntermediate} alt="Book" className="navBarIconSize" />
+        <div className={navBar["nav-list"]}>
+          <Image
+            src={preIntermediate}
+            alt="Book"
+            className="icon-general"
+          />
           <li>
-            <Link href="/course/pre-intermediate">
+            <Link href="/course/pre-intermediate" className={navBar["nav-bar-link"]}>
               <p style={{ fontSize: "1.07rem" }}>Pre-Intermediate (A2-B1)</p>
             </Link>
           </li>
         </div>
 
         {/* Intermediate */}
-        <div className="navList">
-          <Image src={intermediate} alt="Book" className="navBarIconSize" />
+        <div className={navBar["nav-list"]}>
+          <Image
+            src={intermediate}
+            alt="Book"
+            className="icon-general"
+          />
           <li>
-            <Link href="#">
+            <Link href="#" className={navBar["nav-bar-link"]}>
               <p>Intermediate (B1)</p>
             </Link>
           </li>
         </div>
 
         {/* Upper-Intermediate */}
-        <div className="navList">
-          <Image src={upperIntermediate} alt="Book" className="navBarIconSize" />
+        <div className={navBar["nav-list"]}>
+          <Image
+            src={upperIntermediate}
+            alt="Book"
+            className="icon-general"
+          />
           <li>
-            <Link href="#">
+            <Link href="#" className={navBar["nav-bar-link"]}>
               <p style={{ fontSize: "1.1rem" }}>Upper-Intermediate (B2)</p>
             </Link>
           </li>
         </div>
 
         {/* Advanced */}
-        <div className="navList">
-          <Image src={advanced} alt="Book" className="navBarIconSize" />
+        <div className={navBar["nav-list"]}>
+          <Image src={advanced} alt="Book" className="icon-general" />
           <li>
-            <Link href="#">
+            <Link href="#" className={navBar["nav-bar-link"]}>
               <p>Advanced (C1)</p>
             </Link>
           </li>
@@ -115,103 +140,103 @@ export const NavBar = () => {
 
         <div>
           <p>
-            <b>EXTRA</b>
+            <b>EXTRAS</b>
           </p>
           <br />
 
           {/* Grammar */}
-          <div className="navList">
+          <div className={navBar["nav-list"]}>
             <Image
               src={grammarIcon}
               alt="Grammar icon"
-              className="navBarIconSize"
+              className="icon-general"
             />
             <li>
-              <Link href="#">
+              <Link href="#" className={navBar["nav-bar-link"]}>
                 <p>Grammar</p>
               </Link>
             </li>
           </div>
 
           {/* Listening */}
-          <div className="navList">
+          <div className={navBar["nav-list"]}>
             <Image
               src={listeningIcon}
               alt="Listening icon"
-              className="navBarIconSize"
+              className="icon-general"
             />
             <li>
-              <Link href="#">
+              <Link href="#" className={navBar["nav-bar-link"]}>
                 <p>Listening</p>
               </Link>
             </li>
           </div>
 
           {/* Reading */}
-          <div className="navList">
+          <div className={navBar["nav-list"]}>
             <Image
               src={readingIcon}
               alt="Reading icon"
-              className="navBarIconSize"
+              className="icon-general"
             />
             <li>
-              <Link href="#">
+              <Link href="#" className={navBar["nav-bar-link"]}>
                 <p>Reading</p>
               </Link>
             </li>
           </div>
 
           {/* Speaking */}
-          <div className="navList">
+          <div className={navBar["nav-list"]}>
             <Image
               src={speakingIcon}
               alt="Speaking icon"
-              className="navBarIconSize"
+              className="icon-general"
             />
             <li>
-              <Link href="#">
+              <Link href="#" className={navBar["nav-bar-link"]}>
                 <p>Speaking</p>
               </Link>
             </li>
           </div>
 
           {/* Pronunciation */}
-          <div className="navList">
+          <div className={navBar["nav-list"]}>
             <Image
               src={pronunciationIcon}
               alt="Pronunciation"
-              className="navBarIconSize"
+              className="icon-general"
             />
             <li>
-              <Link href="#">
+              <Link href="#" className={navBar["nav-bar-link"]}>
                 <p>Pronunciation</p>
               </Link>
             </li>
           </div>
 
           {/* Vocabulary */}
-          <div className="navList">
+          <div className={navBar["nav-list"]}>
             <Image
               src={bookDictionaryIcon}
               alt="Book with letter A"
-              className="navBarIconSize"
+              className="icon-general"
             />
             <li>
-              <Link href="#">
+              <Link href="#" className={navBar["nav-bar-link"]}>
                 <p>Vocabulary</p>
               </Link>
             </li>
           </div>
 
           {/* Expressions */}
-          <div className="navList">
+          <div className={navBar["nav-list"]}>
             <Image
               src={bookDictionaryIcon}
               alt="Book with letter A"
-              className="navBarIconSize"
+              className="icon-general"
             />
             <li>
-              <Link href="#">
+              <Link href="#" className={navBar["nav-bar-link"]}>
                 <p>Expressions / Idioms</p>
               </Link>
             </li>
@@ -225,98 +250,98 @@ export const NavBar = () => {
           <br />
 
           {/* Business */}
-          <div className="navList">
+          <div className={navBar["nav-list"]}>
             <Image
               src={businessIcon}
               alt="Suitcase icon"
-              className="navBarIconSize"
+              className="icon-general"
             />
             <li>
-              <Link href="#">
+              <Link href="#" className={navBar["nav-bar-link"]}>
                 <p>Business</p>
               </Link>
             </li>
           </div>
 
           {/* Coding */}
-          <div className="navList">
+          <div className={navBar["nav-list"]}>
             <Image
               src={codingIcon}
               alt="Computer icon"
-              className="navBarIconSize"
+              className="icon-general"
             />
             <li>
-              <Link href="#">
+              <Link href="#" className={navBar["nav-bar-link"]}>
                 <p>Coding</p>
               </Link>
             </li>
           </div>
 
           {/* Cooking */}
-          <div className="navList">
+          <div className={navBar["nav-list"]}>
             <Image
               src={cookingIcon}
               alt="Utensils icon"
-              className="navBarIconSize"
+              className="icon-general"
             />
             <li>
-              <Link href="#">
+              <Link href="#" className={navBar["nav-bar-link"]}>
                 <p>Cooking</p>
               </Link>
             </li>
           </div>
 
           {/* Dentistry */}
-          <div className="navList">
+          <div className={navBar["nav-list"]}>
             <Image
               src={dentistryIcon}
               alt="Dentistry icon"
-              className="navBarIconSize"
+              className="icon-general"
             />
             <li>
-              <Link href="#">
+              <Link href="#" className={navBar["nav-bar-link"]}>
                 <p>Dentistry</p>
               </Link>
             </li>
           </div>
 
           {/* Job Interviews */}
-          <div className="navList">
+          <div className={navBar["nav-list"]}>
             <Image
               src={jobInterviewIcon}
               alt="Job interview icon"
-              className="navBarIconSize"
+              className="icon-general"
             />
             <li>
-              <Link href="#">
+              <Link href="#" className={navBar["nav-bar-link"]}>
                 <p>Job Interviews</p>
               </Link>
             </li>
           </div>
 
           {/* Medicine */}
-          <div className="navList">
+          <div className={navBar["nav-list"]}>
             <Image
               src={medicineIcon}
               alt="Medical icon"
-              className="navBarIconSize"
+              className="icon-general"
             />
             <li>
-              <Link href="#">
+              <Link href="/specific-purposes/medicine" className={navBar["nav-bar-link"]}>
                 <p>Medicine</p>
               </Link>
             </li>
           </div>
 
           {/* Exams */}
-          <div className="navList">
+          <div className={navBar["nav-list"]}>
             <Image
               src={examsIcon}
               alt="Book icon"
-              className="navBarIconSize"
+              className="icon-general"
             />
             <li>
-              <Link href="#">
+              <Link href="#" className={navBar["nav-bar-link"]}>
                 <p>Exams</p>
               </Link>
             </li>

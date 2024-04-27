@@ -1,4 +1,4 @@
-.navBar {
+.nav-bar {
     width: 283px;
     padding: 8px;
     color: white;
@@ -7,28 +7,25 @@
     background-color: #062745;
     border-radius: 5px;
     overflow: auto;
-    box-shadow: var(--container-box-shadow);
+    box-shadow: var(--box-shadow);
     height: 92vh;
 }
 
-.navList {
+.nav-list {
     display: flex;
     align-items: center;
     gap: 10px;
     margin-top: 5px;
+    height: 50px;
 }
 
-.navBarLink {
+.nav-bar-link {
     color: white;
-}
-
-.navBarIconSize {
-    width: 50px;
 }
 
 @media (max-width: 768px) {
 
-.navBar nav {
+.nav-bar nav {
     width: 100% !important;
     height: 100%;
 }
