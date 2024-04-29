@@ -64,6 +64,10 @@ p {
     font-size: var(--p-size);
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .line-break {
     display: flex;
     flex-direction: column;

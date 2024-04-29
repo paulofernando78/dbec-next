@@ -1,11 +1,11 @@
-.headerContent {
+.header-content {
   width: 283px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px;
   background-color: #062745;
-  border-radius: 5px;
+  border-radius: var(--border-radius);
   margin-bottom: 10px;
   box-shadow: var(--box-shadow);
   color: white;
@@ -35,7 +35,7 @@
 
 .logo-name {
   font-family: "Lato", sans-serif;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   color: white;
   text-align: center;
 }

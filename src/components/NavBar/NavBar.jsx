@@ -30,12 +30,194 @@ import jobInterviewIcon from "/public/img/icon/job-interviews.png";
 import medicineIcon from "/public/img/icon/medicine.png";
 import examsIcon from "/public/img/icon/exams.png";
 
+const navBarLinks = [
+  {
+    label: "COURSES",
+    links: [
+      {
+        imgSrc: placementTest,
+        link: "/courses/placement-test",
+        name: "Placement Test",
+      },
+      {
+        imgSrc: beginner,
+        link: "/courses/beginner",
+        name: "Beginer (A1)",
+      },
+      {
+        imgSrc: elementary,
+        link: "/courses/elementary",
+        name: "Elementary (A2)",
+      },
+      {
+        imgSrc: preIntermediate,
+        link: "/courses/pre-intermediate",
+        name: "Pre-Inter. (A2-B1)",
+      },
+      {
+        imgSrc: intermediate,
+        link: "/courses/intermediate",
+        name: "Intermediate (B1)",
+      },
+      {
+        imgSrc: upperIntermediate,
+        link: "/courses/upper-intermediate",
+        name: "Upper-Inter. (B2)",
+      },
+      {
+        imgSrc: advanced,
+        link: "/courses/advanced",
+        name: "Advanced (C1)",
+      },
+    ],
+  },
+  {
+    label: "EXTRAS",
+    links: [
+      {
+        imgSrc: "",
+        link: "/extras/",
+        name: "Grammar"
+      },
+      {
+        imgSrc: "",
+        link: "/extras/",
+        name: "Listening"
+      },
+      {
+        imgSrc: "",
+        link: "/extras/",
+        name: "Reading"
+      },
+      {
+        imgSrc: "",
+        link: "/extras/",
+        name: "Speaking"
+      },
+      {
+        imgSrc: "",
+        link: "/extras/",
+        name: "Pronunciation"
+      },
+      {
+        imgSrc: "",
+        link: "/extras/vocabulary",
+        name: "Vocabulary"
+      },
+    ],
+  },
+  {
+    label: "SPECIFIC PURPOSES",
+    links: [
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Automobile"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Business"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Chemistry"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Coding"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Cooking"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Dentistry"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Geography"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Gym"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Hair"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "History"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Law"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Job Interview"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Medicine"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Travel"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Science"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Stock Market"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Exams"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Miscellaneous"
+      },
+      {
+        imgSrc: "",
+        link: "/specific-purposes/",
+        name: "Resumão"
+      },
+    ],
+  },
+];
+
 export const NavBar = () => {
   return (
     <nav className={navBar["nav-bar"]}>
-      <ul>
+      <ul className="line-break">
         <div className={navBar["nav-list"]}>
-          <Image src={homeIcon} alt="Home" className="icon-general" />
+          <Image
+            src={homeIcon}
+            alt="Home"
+            className={navBar["nav-icon-size"]}
+          />
           <li>
             {/* Home */}
             <Link href="/">
@@ -45,314 +227,33 @@ export const NavBar = () => {
             </Link>
           </li>
         </div>
-        <br />
 
-        <p>
-          <b>COURSES</b>
-        </p>
-
-        {/* Placement text */}
-        <div className={navBar["nav-list"]}>
-          <Image src={placementTest} alt="Book" className="icon-general" />
-          <li>
-            <Link href="/courses/placement-test" className={navBar["nav-bar-link"]}>
-              <p>Placement text</p>
-            </Link>
-          </li>
+        <div className="">
+          {navBarLinks.map((navBarLink, index) => (
+            <div key={index} className="line-break">
+              <p className="bold">{navBarLink.label}</p>
+              <div>
+                {navBarLink.links.map((link, linkIndex) => (
+                  <div key={linkIndex} className={navBar["nav-list"]}>
+                    <Image
+                      src={link.imgSrc}
+                      alt={link.altName}
+                      className={navBar["nav-icon-size"]}
+                    />
+                    <Link href={link.link} className={navBar["nav-bar-link"]}>
+                      <p>{link.name}</p>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
 
-        {/* Beginner */}
-        <div className={navBar["nav-list"]}>
-          <Image src={beginner} alt="Book" className="icon-general" />
-          <li>
-            <Link href="#" className={navBar["nav-bar-link"]}>
-              <p>Beginner (A1)</p>
-            </Link>
-          </li>
-        </div>
-
-        {/* Elementary */}
-        <div className={navBar["nav-list"]}>
-          <Image
-            src={elementary}
-            alt="Book"
-            className="icon-general"
-          />
-          <li>
-            <Link href="#" className={navBar["nav-bar-link"]}>
-              <p>Elementary (A2)</p>
-            </Link>
-          </li>
-        </div>
-
-        {/* Pre-Intermediate */}
-        <div className={navBar["nav-list"]}>
-          <Image
-            src={preIntermediate}
-            alt="Book"
-            className="icon-general"
-          />
-          <li>
-            <Link href="/course/pre-intermediate" className={navBar["nav-bar-link"]}>
-              <p style={{ fontSize: "1.07rem" }}>Pre-Intermediate (A2-B1)</p>
-            </Link>
-          </li>
-        </div>
-
-        {/* Intermediate */}
-        <div className={navBar["nav-list"]}>
-          <Image
-            src={intermediate}
-            alt="Book"
-            className="icon-general"
-          />
-          <li>
-            <Link href="#" className={navBar["nav-bar-link"]}>
-              <p>Intermediate (B1)</p>
-            </Link>
-          </li>
-        </div>
-
-        {/* Upper-Intermediate */}
-        <div className={navBar["nav-list"]}>
-          <Image
-            src={upperIntermediate}
-            alt="Book"
-            className="icon-general"
-          />
-          <li>
-            <Link href="#" className={navBar["nav-bar-link"]}>
-              <p style={{ fontSize: "1.1rem" }}>Upper-Intermediate (B2)</p>
-            </Link>
-          </li>
-        </div>
-
-        {/* Advanced */}
-        <div className={navBar["nav-list"]}>
-          <Image src={advanced} alt="Book" className="icon-general" />
-          <li>
-            <Link href="#" className={navBar["nav-bar-link"]}>
-              <p>Advanced (C1)</p>
-            </Link>
-          </li>
-        </div>
-        <br />
-
-        <div>
-          <p>
-            <b>EXTRAS</b>
-          </p>
-          <br />
-
-          {/* Grammar */}
-          <div className={navBar["nav-list"]}>
-            <Image
-              src={grammarIcon}
-              alt="Grammar icon"
-              className="icon-general"
-            />
-            <li>
-              <Link href="#" className={navBar["nav-bar-link"]}>
-                <p>Grammar</p>
-              </Link>
-            </li>
-          </div>
-
-          {/* Listening */}
-          <div className={navBar["nav-list"]}>
-            <Image
-              src={listeningIcon}
-              alt="Listening icon"
-              className="icon-general"
-            />
-            <li>
-              <Link href="#" className={navBar["nav-bar-link"]}>
-                <p>Listening</p>
-              </Link>
-            </li>
-          </div>
-
-          {/* Reading */}
-          <div className={navBar["nav-list"]}>
-            <Image
-              src={readingIcon}
-              alt="Reading icon"
-              className="icon-general"
-            />
-            <li>
-              <Link href="#" className={navBar["nav-bar-link"]}>
-                <p>Reading</p>
-              </Link>
-            </li>
-          </div>
-
-          {/* Speaking */}
-          <div className={navBar["nav-list"]}>
-            <Image
-              src={speakingIcon}
-              alt="Speaking icon"
-              className="icon-general"
-            />
-            <li>
-              <Link href="#" className={navBar["nav-bar-link"]}>
-                <p>Speaking</p>
-              </Link>
-            </li>
-          </div>
-
-          {/* Pronunciation */}
-          <div className={navBar["nav-list"]}>
-            <Image
-              src={pronunciationIcon}
-              alt="Pronunciation"
-              className="icon-general"
-            />
-            <li>
-              <Link href="#" className={navBar["nav-bar-link"]}>
-                <p>Pronunciation</p>
-              </Link>
-            </li>
-          </div>
-
-          {/* Vocabulary */}
-          <div className={navBar["nav-list"]}>
-            <Image
-              src={bookDictionaryIcon}
-              alt="Book with letter A"
-              className="icon-general"
-            />
-            <li>
-              <Link href="#" className={navBar["nav-bar-link"]}>
-                <p>Vocabulary</p>
-              </Link>
-            </li>
-          </div>
-
-          {/* Expressions */}
-          <div className={navBar["nav-list"]}>
-            <Image
-              src={bookDictionaryIcon}
-              alt="Book with letter A"
-              className="icon-general"
-            />
-            <li>
-              <Link href="#" className={navBar["nav-bar-link"]}>
-                <p>Expressions / Idioms</p>
-              </Link>
-            </li>
-          </div>
-
-          <br />
-
-          <p>
-            <b>SPECIFIC PURPOSES</b>
-          </p>
-          <br />
-
-          {/* Business */}
-          <div className={navBar["nav-list"]}>
-            <Image
-              src={businessIcon}
-              alt="Suitcase icon"
-              className="icon-general"
-            />
-            <li>
-              <Link href="#" className={navBar["nav-bar-link"]}>
-                <p>Business</p>
-              </Link>
-            </li>
-          </div>
-
-          {/* Coding */}
-          <div className={navBar["nav-list"]}>
-            <Image
-              src={codingIcon}
-              alt="Computer icon"
-              className="icon-general"
-            />
-            <li>
-              <Link href="#" className={navBar["nav-bar-link"]}>
-                <p>Coding</p>
-              </Link>
-            </li>
-          </div>
-
-          {/* Cooking */}
-          <div className={navBar["nav-list"]}>
-            <Image
-              src={cookingIcon}
-              alt="Utensils icon"
-              className="icon-general"
-            />
-            <li>
-              <Link href="#" className={navBar["nav-bar-link"]}>
-                <p>Cooking</p>
-              </Link>
-            </li>
-          </div>
-
-          {/* Dentistry */}
-          <div className={navBar["nav-list"]}>
-            <Image
-              src={dentistryIcon}
-              alt="Dentistry icon"
-              className="icon-general"
-            />
-            <li>
-              <Link href="#" className={navBar["nav-bar-link"]}>
-                <p>Dentistry</p>
-              </Link>
-            </li>
-          </div>
-
-          {/* Job Interviews */}
-          <div className={navBar["nav-list"]}>
-            <Image
-              src={jobInterviewIcon}
-              alt="Job interview icon"
-              className="icon-general"
-            />
-            <li>
-              <Link href="#" className={navBar["nav-bar-link"]}>
-                <p>Job Interviews</p>
-              </Link>
-            </li>
-          </div>
-
-          {/* Medicine */}
-          <div className={navBar["nav-list"]}>
-            <Image
-              src={medicineIcon}
-              alt="Medical icon"
-              className="icon-general"
-            />
-            <li>
-              <Link href="/specific-purposes/medicine" className={navBar["nav-bar-link"]}>
-                <p>Medicine</p>
-              </Link>
-            </li>
-          </div>
-
-          {/* Exams */}
-          <div className={navBar["nav-list"]}>
-            <Image
-              src={examsIcon}
-              alt="Book icon"
-              className="icon-general"
-            />
-            <li>
-              <Link href="#" className={navBar["nav-bar-link"]}>
-                <p>Exams</p>
-              </Link>
-            </li>
-          </div>
-          <br />
-
-          {/* Drafts */}
-          <Link href="/drafts">
-            <p>Mock</p>
-          </Link>
-        </div>
+        {/* Drafts */}
+        <Link href="/drafts">
+          <p>Mock</p>
+        </Link>
       </ul>
     </nav>
   );
