@@ -240,7 +240,7 @@ export const NavBar = () => {
           </li>
         </div>
 
-        <div className="">
+        <div className="line-break">
           {navBarLinks.map((navBarLink, index) => (
             <div key={index} className="line-break">
               <p className="bold">{navBarLink.label}</p>
