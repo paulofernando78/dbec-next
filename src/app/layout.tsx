@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 
 // CSS
-import "../assets/css/globals.css";
-import layout from "../assets/css/layout.module.css";
-import headerNavBar from "../assets/css/headerNavBar.module.css";
+import "./globals.css";
+import styles from "./layout.module.css";
 
 // components
 import { Header } from "@/components/Header/Header"
@@ -25,8 +24,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className={layout.layout}>
-          <div className={headerNavBar.headerNav}>
+        <div className={styles.layout}>
+          <div className={styles.headerNav}>
             <Header />
             <NavBar />
           </div>

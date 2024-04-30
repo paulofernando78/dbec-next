@@ -17,6 +17,9 @@ export default function Home() {
         <div>
           <h2>How are you feeling today?</h2>
         </div>
+        <textarea className="textarea">
+         
+        </textarea>
         <Card>
           <p>Teste!</p>
         </Card>

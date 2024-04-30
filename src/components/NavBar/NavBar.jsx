@@ -1,34 +1,46 @@
-import navBar from "./NavBar.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import navBar from "./NavBar.module.css";
 
-import homeIcon from "/public/img/icon/home.png";
+import homeIcon from "../../assets/img/icon/home.png";
 
 // Courses
-import placementTest from "/public/img/icon/placement-test.png";
-import beginner from "/public/img/icon/beginner.png";
-import elementary from "/public/img/icon/elementary.png";
-import preIntermediate from "/public/img/icon/pre-intermediate.png";
-import intermediate from "/public/img/icon/intermediate.png";
-import upperIntermediate from "/public/img/icon/upper-intermediate.png";
-import advanced from "/public/img/icon/advanced.png";
+import placementTest from "../../assets/img/icon/placement-test.png";
+import beginner from "../../assets/img/icon/beginner.png";
+import elementary from "../../assets/img/icon/elementary.png";
+import preIntermediate from "../../assets/img/icon/pre-intermediate.png";
+import intermediate from "../../assets/img/icon/intermediate.png";
+import upperIntermediate from "../../assets/img/icon/upper-intermediate.png";
+import advanced from "../../assets/img/icon/advanced.png";
 
 // Extra
-import grammarIcon from "/public/img/icon/grammar.png";
-import listeningIcon from "/public/img/icon/listening.png";
-import readingIcon from "/public/img/icon/reading.png";
-import speakingIcon from "/public/img/icon/speaking.png";
-import pronunciationIcon from "/public/img/icon/pronunciation.png";
-import bookDictionaryIcon from "/public/img/icon/dictionary.png";
+import grammarIcon from "../../assets/img/icon/grammar.png";
+import listeningIcon from "../../assets/img/icon/listening.png";
+import readingIcon from "../../assets/img/icon/reading.png";
+import speakingIcon from "../../assets/img/icon/speaking.png";
+import pronunciationIcon from "../../assets/img/icon/pronunciation.png";
+import vocabularyIcon from "../../assets/img/icon/dictionary.png";
 
 // Specific Purposes
-import businessIcon from "/public/img/icon/business.png";
-import codingIcon from "/public/img/icon/coding.png";
-import cookingIcon from "/public/img/icon/cooking.png";
-import dentistryIcon from "/public/img/icon/dentistry.png";
-import jobInterviewIcon from "/public/img/icon/job-interviews.png";
-import medicineIcon from "/public/img/icon/medicine.png";
-import examsIcon from "/public/img/icon/exams.png";
+import automobileIcon from "../../assets/img/icon/automobile.png";
+import businessIcon from "../../assets/img/icon/business.png";
+import chemistryIcon from "../../assets/img/icon/chemistry.png";
+import codingIcon from "../../assets/img/icon/coding.png";
+import cookingIcon from "../../assets/img/icon/cooking.png";
+import dentistryIcon from "../../assets/img/icon/dentistry.png";
+import geographyIcon from "../../assets/img/icon/geography.png";
+import gymIcon from "../../assets/img/icon/gym.png";
+import hairdressingIcon from "../../assets/img/icon/hairdressing.png";
+import historyIcon from "../../assets/img/icon/history.png";
+import lawIcon from "../../assets/img/icon/law.png";
+import jobInterviewIcon from "../../assets/img/icon/job-interviews.png";
+import medicineIcon from "../../assets/img/icon/medicine.png";
+import travelIcon from "../../assets/img/icon/travel.png";
+import scienceIcon from "../../assets/img/icon/science.png";
+import stockMarketIcon from "../../assets/img/icon/stock-market.png";
+import resumaotIcon from "../../assets/img/icon/dictionary.png";
+import examsIcon from "../../assets/img/icon/exams.png";
+import miscIcon from "../../assets/img/icon/misc.png";
 
 const navBarLinks = [
   {
@@ -42,7 +54,7 @@ const navBarLinks = [
       {
         imgSrc: beginner,
         link: "/courses/beginner",
-        name: "Beginer (A1)",
+        name: "Beginner (A1)",
       },
       {
         imgSrc: elementary,
@@ -75,32 +87,32 @@ const navBarLinks = [
     label: "EXTRAS",
     links: [
       {
-        imgSrc: "",
+        imgSrc: grammarIcon,
         link: "/extras/",
         name: "Grammar"
       },
       {
-        imgSrc: "",
+        imgSrc: listeningIcon,
         link: "/extras/",
         name: "Listening"
       },
       {
-        imgSrc: "",
+        imgSrc: readingIcon,
         link: "/extras/",
         name: "Reading"
       },
       {
-        imgSrc: "",
+        imgSrc: speakingIcon,
         link: "/extras/",
         name: "Speaking"
       },
       {
-        imgSrc: "",
+        imgSrc: pronunciationIcon,
         link: "/extras/",
         name: "Pronunciation"
       },
       {
-        imgSrc: "",
+        imgSrc: vocabularyIcon,
         link: "/extras/vocabulary",
         name: "Vocabulary"
       },
@@ -110,97 +122,97 @@ const navBarLinks = [
     label: "SPECIFIC PURPOSES",
     links: [
       {
-        imgSrc: "",
+        imgSrc: automobileIcon,
         link: "/specific-purposes/",
         name: "Automobile"
       },
       {
-        imgSrc: "",
+        imgSrc: businessIcon,
         link: "/specific-purposes/",
         name: "Business"
       },
       {
-        imgSrc: "",
+        imgSrc: chemistryIcon,
         link: "/specific-purposes/",
         name: "Chemistry"
       },
       {
-        imgSrc: "",
+        imgSrc: codingIcon,
         link: "/specific-purposes/",
         name: "Coding"
       },
       {
-        imgSrc: "",
+        imgSrc: cookingIcon,
         link: "/specific-purposes/",
         name: "Cooking"
       },
       {
-        imgSrc: "",
+        imgSrc: dentistryIcon,
         link: "/specific-purposes/",
         name: "Dentistry"
       },
       {
-        imgSrc: "",
+        imgSrc: geographyIcon,
         link: "/specific-purposes/",
         name: "Geography"
       },
       {
-        imgSrc: "",
+        imgSrc: gymIcon,
         link: "/specific-purposes/",
         name: "Gym"
       },
       {
-        imgSrc: "",
+        imgSrc: hairdressingIcon,
         link: "/specific-purposes/",
-        name: "Hair"
+        name: "Hairdressing"
       },
       {
-        imgSrc: "",
+        imgSrc: historyIcon,
         link: "/specific-purposes/",
         name: "History"
       },
       {
-        imgSrc: "",
+        imgSrc: lawIcon,
         link: "/specific-purposes/",
         name: "Law"
       },
       {
-        imgSrc: "",
+        imgSrc: jobInterviewIcon,
         link: "/specific-purposes/",
         name: "Job Interview"
       },
       {
-        imgSrc: "",
+        imgSrc: medicineIcon,
         link: "/specific-purposes/",
         name: "Medicine"
       },
       {
-        imgSrc: "",
-        link: "/specific-purposes/",
+        imgSrc: travelIcon,
+        link: "/specific-purposes/travel",
         name: "Travel"
       },
       {
-        imgSrc: "",
+        imgSrc: scienceIcon,
         link: "/specific-purposes/",
         name: "Science"
       },
       {
-        imgSrc: "",
+        imgSrc: stockMarketIcon,
         link: "/specific-purposes/",
         name: "Stock Market"
       },
       {
-        imgSrc: "",
+        imgSrc: examsIcon,
         link: "/specific-purposes/",
         name: "Exams"
       },
       {
-        imgSrc: "",
+        imgSrc: miscIcon,
         link: "/specific-purposes/",
         name: "Miscellaneous"
       },
       {
-        imgSrc: "",
+        imgSrc: resumaotIcon,
         link: "/specific-purposes/",
         name: "Resumão"
       },

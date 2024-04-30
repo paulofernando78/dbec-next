@@ -1,8 +1,9 @@
 .container {
     border: 7px solid rgb(201, 201, 201);
-    background-image: url('/img/textures/container-title-background.png');
+    background-image: url('/assets/img/textures/container-title-background.png');
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
     padding: 0 7px;
-    margin-bottom: 50px
+    margin-bottom: 50px;
+    height: fit-content;
 }
