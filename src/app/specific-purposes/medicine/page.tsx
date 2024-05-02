@@ -11,8 +11,12 @@ export default function Medicine() {
         />
         <div className="line-break">
             <p><b>Vocabulary</b></p>
-            <p>embryoscope</p>
-            <p>Polycystic Ovary Syndrome (PCOS)</p>
+            <div>
+              <p>embryoscope</p>
+              <p>Polycystic Ovary Syndrome (PCOS)</p>
+            </div>
+            <p><b>Articles</b></p>
+            <p></p>
         </div>
     </main>
   )

@@ -5,8 +5,8 @@ import Image from "next/image";
 import header from "@/components/Header/Header.module.css";
 
 // Images
-import usaUkIcon from "../../assets/img/header-usa-uk-icon.png"
-import btnIcon from "../../assets/img/icon/btn-menu.png"
+import usaUkIcon from "../../../public/assets/img/header-usa-uk-icon.png"
+import btnIcon from "../../../public/assets/img/icon/btn-menu.png"
 
 export const Header = () => {
   return (

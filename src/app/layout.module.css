@@ -8,6 +8,8 @@
 .headerNav {
   display: flex;
   flex-direction: column;
+  /* position: fixed;
+  left: 0px; */
 }
 
 @media (max-width: 768px) {
