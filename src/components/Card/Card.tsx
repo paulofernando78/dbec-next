@@ -8,7 +8,7 @@ interface ICard {
 export const Card = ({children}:ICard) => {
   return (
     <div className={card["card"]}> 
-    {children}
+    <p>{children}</p>
     </div>
   )
 }

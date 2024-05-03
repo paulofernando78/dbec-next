@@ -2,6 +2,7 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { Paragraph } from "@/components/Paragraph/Paragraph";
 
 import doc from "./doctor-patient.png";
+import sickle from "./sickle.jpg";
 
 const paragraphs = [
   {
@@ -33,11 +34,13 @@ const paragraphs = [
     ptParagraph: "Ao redor do mundo, 34 milhões de crianças têm surdez ou perda de audição. E informações dos Centros de Controle e Prevenção de Doenças dos Estados Unidos indicam que os genes são responsáveis por até 60 por cento dos casos."
   },
   {
-    enParagraph: "Deafness caused by genes is passed down from parents to children. It is called hereditary deafness. It is the latest condition scientists are targeting with gene therapy. Gene therapy is already approved to treat illnesses such as sickle cell disease and severe hemophilia.",
-    ptParagraph: "A surdez causada por genes é transmitida dos pais para os filhos. É chamada de surdez hereditária. É a mais recente condição que os cientistas estão visando com terapia genética. A terapia genética já é aprovada para tratar doenças como a anemia falciforme e a hemofilia grave"
+    enParagraph: "Deafness caused by genes is passed down from parents to children. It is called he<mark>re</mark>ditary deafness. It is the latest condition scientists are targeting with gene therapy. Gene therapy is already approved to treat illnesses such as sickle cell disease and severe hemophilia.",
+    ptParagraph: "A surdez causada por genes é transmitida dos pais para os filhos. É chamada de surdez hereditária. É a mais recente condição que os cientistas estão visando com terapia genética. A terapia genética já é aprovada para tratar doenças como a anemia falciforme e a hemofilia grave",
+    imgSrcAfter: sickle,
+    altNameAfter: "...",
   },
   {
-    enParagraph: "Children with hereditary deafness often get a device called a cochlear implant that helps them hear sound.",
+    enParagraph: "Children with he<mark>re</mark>ditary deafness often get a device called a cochlear implant that helps them hear sound.",
     ptParagraph: "Crianças com surdez hereditária frequentemente recebem um dispositivo chamado implante coclear, que as ajuda a ouvir os sons.",
     imgSrcAfter: "",
     altNameAfter: "..."

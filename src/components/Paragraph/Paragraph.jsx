@@ -5,6 +5,7 @@ export const Paragraph = ({ paragraphs, imgSrcBefore}) => {
     <div className="line-break">
       {paragraphs.map((paragraph, index) => (
         <div key={index} className="line-break">
+            
           {paragraph.imgSrcBefore && <Image
             src={paragraph.imgSrcBefore}
             alt={paragraph.altNameBefore}
