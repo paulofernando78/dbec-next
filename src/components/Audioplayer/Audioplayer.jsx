@@ -8,6 +8,7 @@ const AudioPlayerCustomization = styled.div`
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
     background-color: #f0f0f0;
+    filter: invert();
   }
 `
 

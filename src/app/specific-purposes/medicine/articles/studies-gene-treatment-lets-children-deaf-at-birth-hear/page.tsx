@@ -9,17 +9,16 @@ const paragraphs = [
     imgSrcBefore: doc,
     altNameBefore: "Doctor with patient",
     enParagraph: "Gene treatments are being credited with permitting several children born with deafness to hear again.",
-    ptParagraph: "Os tratamentos genéticos estão sendo creditados por permitir que várias crianças nascidas com surdez voltem a ouvir.",
-    imgSrcAfter: "",
-    altNameAfter: "...",
+    ptParagraph: "Os tratamentos genéticos estão sendo creditados por permitir que várias crianças nascidas com surdez voltem a ouvir."
   },
   {
     enParagraph: "Gene therapy is a medical treatment that aims to change a few of a patient's genes to cure a genetic disease.",
     ptParagraph: "A terapia genética é um tratamento médico que visa modificar alguns dos genes de um paciente para curar uma doença genética."
   },
   {
-    enParagraph: "A small study <mark>re</mark>cently published in The Lancet reported improvements in the hearing in five of six children who were treated in China.",
-    ptParagraph: "Um pequeno estudo publicado recentemente no The Lancet relatou melhorias na audição em cinco de seis crianças que foram tratadas na China."
+    enParagraph: "A small study <mark>re</mark>cently published in *The Lancet reported improvements in the hearing in five of six children who were treated in China.",
+    ptParagraph: "Um pequeno estudo publicado recentemente no The Lancet relatou melhorias na audição em cinco de seis crianças que foram tratadas na China.",
+    smaller: "*The Lancet is a weekly peer-reviewed general medical journal and one of the oldest of its kind. It is also one of the world's highest-impact academic journals. It was founded in England in 1823."
   },
   {
     enParagraph: "Around the same time, the Children's Hospital of Philadelphia in the U.S. eastern state of Pennsylvania announced similar improvements in an 11-year-old boy treated there. And earlier, Chinese researchers published a study showing similar improvements in two other children.",

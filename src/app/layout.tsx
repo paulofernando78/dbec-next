@@ -8,6 +8,7 @@ import styles from "./layout.module.css";
 // components
 import { Header } from "@/components/Header/Header"
 import { NavBar } from "@/components/NavBar/NavBar"
+import styled from "styled-components";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,7 +30,7 @@ export default function RootLayout({
             <Header />
             <NavBar />
           </div>
-          {children}
+          <span className={styles.children}>{children}</span>
         </div>
       </body>
     </html>

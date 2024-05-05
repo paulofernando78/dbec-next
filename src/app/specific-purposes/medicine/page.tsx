@@ -14,6 +14,9 @@ export default function Medicine() {
               <p>embryoscope</p>
               <p>hemophilia</p>
               <p>hemoglobin</p>
+              <p>Lymph nodes</p>
+              <p>Malignant <span className="phonetics">/məˈlɪɡ.nənt/</span></p>
+              <p>Opportunistic Infections (Ols)</p>
               <p>Polycystic Ovary Syndrome (PCOS)</p>
               <p>sickle cell disease</p>
             </div>

@@ -85,6 +85,20 @@ p {
     color: #00a2ff
 }
 
+.times-new-roman-dictionary {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.smaller {
+    font-size: var(--font-size-small)
+}
+
 .active {
     color: var(--isActive)
 }

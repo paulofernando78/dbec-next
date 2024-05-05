@@ -1,19 +1,30 @@
 .layout {
-  display: grid;
-  grid-template-columns: 283px 1fr;
   margin: 10px;
-  gap: 11px;
+  gap: 12px;
+  display: flex;
 }
 
 .headerNav {
   display: flex;
   flex-direction: column;
-  /* position: fixed; */
+  position: fixed;
+}
+
+.children {
+  margin-left: 294px;
 }
 
 @media (max-width: 768px) {
   .layout {
-    display: flex;
     flex-direction: column;
+  }
+
+  .headerNav {
+    width: 100%;
+    position: static;
+  }
+
+  .children {
+    margin-left: 0;
   }
 }
