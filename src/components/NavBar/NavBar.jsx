@@ -30,6 +30,7 @@ import chemistryIcon from "../../../public/assets/img/icon/chemistry.png";
 import codingIcon from "../../../public/assets/img/icon/coding.png";
 import cookingIcon from "../../../public/assets/img/icon/cooking.png";
 import dentistryIcon from "../../../public/assets/img/icon/dentistry.png";
+import gamesIcon from "../../../public/assets/img/icon/games.png";
 import geographyIcon from "../../../public/assets/img/icon/geography.png";
 import workoutIcon from "../../../public/assets/img/icon/workout.png";
 import hairdressingIcon from "../../../public/assets/img/icon/hairdressing.png";
@@ -50,43 +51,43 @@ const navBarLinks = [
     links: [
       {
         imgSrc: placementTest,
-        altName: "book icon",
+        altName: "Book icon",
         link: "/courses/placement-test",
         name: "Placement Test",
       },
       {
         imgSrc: beginner,
-        altName: "book icon",
+        altName: "Book icon",
         link: "/courses/beginner",
         name: "Beginner (A1)",
       },
       {
         imgSrc: elementary,
-        altName: "book icon",
+        altName: "Book icon",
         link: "/courses/elementary",
         name: "Elementary (A2)",
       },
       {
         imgSrc: preIntermediate,
-        altName: "book icon",
+        altName: "Book icon",
         link: "/courses/pre-intermediate",
         name: "Pre-Inter. (A2-B1)",
       },
       {
         imgSrc: intermediate,
-        altName: "book icon",
+        altName: "Book icon",
         link: "/courses/intermediate",
         name: "Intermediate (B1)",
       },
       {
         imgSrc: upperIntermediate,
-        altName: "book icon",
+        altName: "Book icon",
         link: "/courses/upper-intermediate",
         name: "Upper-Inter. (B2)",
       },
       {
         imgSrc: advanced,
-        altName: "book icon",
+        altName: "Book icon",
         link: "/courses/advanced",
         name: "Advanced (C1)",
       },
@@ -97,13 +98,13 @@ const navBarLinks = [
     links: [
       {
         imgSrc: grammarIcon,
-        altName: "grammar icon",
+        altName: "Grammar icon",
         link: "/extras/grammar",
         name: "Grammar"
       },
       {
         imgSrc: listeningIcon,
-        altName: "listening icon",
+        altName: "Listening icon",
         link: "/extras/listening",
         name: "Listening"
       },
@@ -115,19 +116,19 @@ const navBarLinks = [
       // },
       {
         imgSrc: speakingIcon,
-        altName: "speaking icon",
+        altName: "Speaking icon",
         link: "/extras/speaking",
         name: "Speaking"
       },
       {
         imgSrc: pronunciationIcon,
-        altName: "pronunciation icon",
+        altName: "Pronunciation icon",
         link: "/extras/pronunciation",
         name: "Pronunciation"
       },
       {
         imgSrc: vocabularyIcon,
-        altName: "book a-z icon",
+        altName: "Book a-z icon",
         link: "/extras/vocabulary",
         name: "Vocabulary"
       },
@@ -138,115 +139,121 @@ const navBarLinks = [
     links: [
       {
         imgSrc: automobileIcon,
-        altName: "automobile icon",
+        altName: "Automobile icon",
         link: "/specific-purposes/automobile",
         name: "Automobile"
       },
       {
         imgSrc: businessIcon,
-        altName: "business icon",
+        altName: "Business icon",
         link: "/specific-purposes/business",
         name: "Business"
       },
       {
         imgSrc: chemistryIcon,
-        altName: "chemistry icon",
+        altName: "Chemistry icon",
         link: "/specific-purposes/chemistry",
         name: "Chemistry"
       },
       {
         imgSrc: codingIcon,
-        altName: "coding icon",
+        altName: "Coding icon",
         link: "/specific-purposes/coding",
         name: "Coding"
       },
       {
         imgSrc: cookingIcon,
-        altName: "cooking icon",
+        altName: "Cooking icon",
         link: "/specific-purposes/cooking",
         name: "Cooking"
       },
       {
         imgSrc: dentistryIcon,
-        altName: "dentistry icon",
+        altName: "Dentistry icon",
         link: "/specific-purposes/dentistry",
         name: "Dentistry"
       },
       {
+        imgSrc: gamesIcon,
+        altName: "Games icon",
+        link: "/specific-purposes/games",
+        name: "Games"
+      },
+      {
         imgSrc: geographyIcon,
-        altName: "geography icon",
+        altName: "Geography icon",
         link: "/specific-purposes/geography",
         name: "Geography"
       },
       {
         imgSrc: workoutIcon,
-        altName: "workout icon",
+        altName: "Workout icon",
         link: "/specific-purposes/workout",
         name: "Workout"
       },
       {
         imgSrc: hairdressingIcon,
-        altName: "hairdressing icon",
+        altName: "Hairdressing icon",
         link: "/specific-purposes/hairdressing",
         name: "Hairdressing"
       },
       {
         imgSrc: historyIcon,
-        altName: "history icon",
+        altName: "History icon",
         link: "/specific-purposes/history",
         name: "History"
       },
       {
+        imgSrc: jobInterviewIcon,
+        altName: "Job interview icon",
+        link: "/specific-purposes/job-interviews",
+        name: "Job Interview"
+      },
+      {
         imgSrc: lawIcon,
-        altName: "law icon",
+        altName: "Law icon",
         link: "/specific-purposes/law",
         name: "Law"
       },
       {
-        imgSrc: jobInterviewIcon,
-        altName: "job interview icon",
-        link: "/specific-purposes/job-interview",
-        name: "Job Interview"
-      },
-      {
         imgSrc: medicineIcon,
-        altName: "medicine icon",
+        altName: "Medicine icon",
         link: "/specific-purposes/medicine",
         name: "Medicine"
       },
       {
         imgSrc: travelIcon,
-        altName: "travel icon",
+        altName: "Travel icon",
         link: "/specific-purposes/travel",
         name: "Travel"
       },
       {
         imgSrc: scienceIcon,
-        altName: "science icon",
+        altName: "Science icon",
         link: "/specific-purposes/science",
         name: "Science"
       },
       {
         imgSrc: stockMarketIcon,
-        altName: "stock market icon",
+        altName: "Stock market icon",
         link: "/specific-purposes/stock-market",
         name: "Stock Market"
       },
       {
         imgSrc: examsIcon,
-        altName: "exam icon",
+        altName: "Exam icon",
         link: "/specific-purposes/exams",
         name: "Exams"
       },
       {
         imgSrc: miscIcon,
-        altName: "ellipsis icon",
+        altName: "Ellipsis icon",
         link: "/specific-purposes/misc",
         name: "Miscellaneous"
       },
       {
         imgSrc: resumaotIcon,
-        altName: "book a-z icon",
+        altName: "Book a-z icon",
         link: "/specific-purposes/resumao",
         name: "Resumão"
       },

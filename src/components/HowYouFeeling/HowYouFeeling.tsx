@@ -16,6 +16,7 @@ import inLove from "../../../public/assets/img/gif/in-love.gif";
 import crazy from "../../../public/assets/img/gif/crazy.gif";
 import tired from "../../../public/assets/img/gif/tired.gif";
 import anxious from "../../../public/assets/img/gif/anxious.gif";
+import worried from "../../../public/assets/img/gif/worried.gif";
 import bored from "../../../public/assets/img/gif/bored.gif";
 import silly from "../../../public/assets/img/gif/silly.gif";
 import scared from "../../../public/assets/img/gif/scared.gif";
@@ -93,6 +94,11 @@ const emojis = [
     imgSrc: tired,
     altLabel: "...",
     label: "tired",
+  },
+  {
+    imgSrc: anxious,
+    altLabel: "...",
+    label: "worried",
   },
   {
     imgSrc: anxious,

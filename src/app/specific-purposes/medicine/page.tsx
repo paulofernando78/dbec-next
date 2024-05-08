@@ -18,10 +18,11 @@ export default function Medicine() {
               <p>Malignant <span className="phonetics">/məˈlɪɡ.nənt/</span></p>
               <p>Opportunistic Infections (Ols)</p>
               <p>Polycystic Ovary Syndrome (PCOS)</p>
+              <p>prostate (cancer)</p>
               <p>sickle cell disease</p>
             </div>
             <Link href="/specific-purposes/medicine/articles"><p><b>Articles</b></p></Link>
-            <p></p>
+            <p>...</p>
         </div>
     </div>
   )

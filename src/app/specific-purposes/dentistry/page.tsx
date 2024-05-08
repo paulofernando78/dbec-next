@@ -1,22 +1,27 @@
-import { Card } from '@/components/Card/Card'
-import { Whiteboard } from '@/components/Whiteboard/Whiteboard'
-import React from 'react'
+import { Card } from "@/components/Card/Card";
+import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 export default function Dentistry() {
   return (
-    <div>
-        <Whiteboard title="Specific Purposes" subtitle=''/>
+    <>
+      <Whiteboard title="Specific Purposes" subtitle="Dentistry" />
+      <div className="line-break">
         <Card>
-            <p>Vocabulary</p>
+          <p>
+            <b>Vocabulary</b>
+          </p>
         </Card>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-        <p>...</p>
-    </div>
-  )
+        <div>
+          <p>...</p>
+          <p>...</p>
+          <p>...</p>
+          <p>...</p>
+          <p>...</p>
+          <p>...</p>
+          <p>...</p>
+          <p>...</p>
+        </div>
+      </div>
+    </>
+  );
 }

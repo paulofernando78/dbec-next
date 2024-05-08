@@ -1,11 +1,16 @@
+import Link from "next/link";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import React from "react";
 
 export default function Business() {
   return (
     <div>
     <Whiteboard title="Specific Purposes" subtitle="Business" />
-      <p>...</p>
+      <Link href="/specific-purposes/business/sbelaa">
+        <p>Speak Business English Like an American</p>
+      </Link>
+      <Link href="/specific-purposes/business/sbbelaa">
+        <p>Speak BETTER Business English Like an American</p>
+      </Link>
     </div>
   );
 }

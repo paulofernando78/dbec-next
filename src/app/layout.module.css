@@ -12,6 +12,7 @@
 
 .children {
   margin-left: 294px;
+  flex-grow: 1;
 }
 
 @media (max-width: 768px) {
