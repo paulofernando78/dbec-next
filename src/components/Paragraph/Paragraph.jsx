@@ -4,7 +4,7 @@ import { AudioPlayer } from "../Audioplayer/Audioplayer";
 export const Paragraph = ({ paragraphs }) => {
   return (
     <div className="line-break">
-      <AudioPlayer audioSrc="/src/audio.mp3" />
+      <AudioPlayer audioSrc="..." />
       {paragraphs.map((paragraph, index) => (
         <div key={index} className="line-break">
           {paragraph.imgSrcBefore && (

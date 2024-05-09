@@ -40,6 +40,7 @@ import jobInterviewIcon from "../../../public/assets/img/icon/job-interviews.png
 import medicineIcon from "../../../public/assets/img/icon/medicine.png";
 import travelIcon from "../../../public/assets/img/icon/travel.png";
 import scienceIcon from "../../../public/assets/img/icon/science.png";
+import songsIcon from "../../../public/assets/img/icon/songs.png";
 import stockMarketIcon from "../../../public/assets/img/icon/stock-market.png";
 import resumaotIcon from "../../../public/assets/img/icon/dictionary.png";
 import examsIcon from "../../../public/assets/img/icon/exams.png";
@@ -232,6 +233,12 @@ const navBarLinks = [
         altName: "Science icon",
         link: "/specific-purposes/science",
         name: "Science"
+      },
+      {
+        imgSrc: songsIcon,
+        altName: "Songs icon",
+        link: "/specific-purposes/songs",
+        name: "Songs"
       },
       {
         imgSrc: stockMarketIcon,

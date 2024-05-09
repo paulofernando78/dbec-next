@@ -97,6 +97,7 @@ export default function page() {
             divertida ou passar tempo com seus entes queridos.
           </p>
         </div>
+          <p>to dim</p>
         <div>
           <p>
             Dr. Annise Wilson of Baylor University said, "Anything that helps to
@@ -132,7 +133,7 @@ export default function page() {
             really large job to do right before sleep at a time when things are
             supposed to be shutting down."
           </p>
-          <p>
+          <p className="portuguese">
             Atwood disse que comer uma refeição grande é "como dar ao seu corpo
             um trabalho realmente grande para fazer antes de dormir, num momento
             em que as coisas deveriam estar desacelerando".
@@ -158,40 +159,59 @@ export default function page() {
         </div>
         <div>
           <p>Having an alcoholic drink or espresso after dinner could lead to a long night.</p>
-          <p>Tomar uma bebida alcoólica ou um café espresso depois do jantar pode resultar em uma noite longa.</p>
+          <p className="portuguese">Tomar uma bebida alcoólica ou um café espresso depois do jantar pode resultar em uma noite longa.</p>
         </div>
         <div>
           <p>While alcohol can help you fall asleep at first, it can also hurt your sleep cycle. As a result, the quality of sleep declines. The chances that you will wake up more often in the middle of the night increase.</p>
-          <p className="portuguese"></p>
+          <p className="portuguese">Embora o álcool possa ajudá-lo a pegar no sono inicialmente, também pode prejudicar o seu ciclo de sono. Como resultado, a qualidade do sono diminui. As chances de você acordar mais vezes durante a noite aumentam.</p>
         </div>
         <div>
           <p>Caffeine blocks adenosine, a chemical that helps make you feel sleepy. And it can take your body up to 10 hours to clear caffeine.</p>
-          <p  className="portuguese"></p>
+          <p  className="portuguese">A cafeína bloqueia a adenosina, uma substância química que ajuda a fazer você se sentir sonolento. E pode levar até 10 horas para o seu corpo eliminar a cafeína.</p>
         </div>
         <div>
           <p>For these reasons, experts suggest finishing up your caffeinated or alcoholic drinks many hours before bed.</p>
-          <p className="portuguese"></p>
+          <p className="portuguese">Por esses motivos, os especialistas sugerem terminar de consumir bebidas com cafeína ou álcool muitas horas antes de dormir.</p>
         </div>
         <div>
           <p>
             <b>4. Limit technology</b>
           </p>
-          <p></p>
+          <p className="portuguese">Limite o uso de tecnologia.</p>
+        </div>
+        <div>
+          <p>Light from phones and computer screens can interfere with the circadian rhythm – or the internal clock that naturally wakes us up. Light has this effect by suppressing melatonin, which assists with sleep.</p>
+          <p className="portuguese">A luz dos telefones e das telas de computador pode interferir no ritmo circadiano - ou no relógio interno que naturalmente nos desperta. A luz tem esse efeito ao suprimir a melatonina, que ajuda no sono.</p>
+        </div>
+        <div>
+          <p>But you will need self-control to stop looking at screens, suggested Dr. Dianne Augelli of Weill Cornell Medicine.</p>
+          <p className="portuguese">Mas você precisará de autocontrole para parar de olhar para telas, sugeriu a Dra. Dianne Augelli da Weill Cornell Medicine.
+          </p>
+        </div>
+        <div>
+          <p>"TikTok doesn’t want you to stop,” Augelli said. “Only you can stop you, so you have to learn to put that stuff away."</p>
+          <p className="portuguese">"O TikTok não quer que você pare", disse Augelli. "Apenas você pode se impedir, então você precisa aprender a guardar essas coisas."</p>
         </div>
         <div>
           <p>
             <b>5. See your doctor</b>
           </p>
-          <p></p>
+          <p className="portuguese">Consulte o seu médico</p>
         </div>
         <div>
-          <p>
-            <b>4. Limit technology</b>
-          </p>
-          <p></p>
+          <p>If you are still having a hard time getting a good night’s sleep after more than one month of trying, experts say it is time to go to a doctor.</p>
+          <p className="portuguese">Se você ainda está tendo dificuldade para dormir bem após mais de um mês tentando, os especialistas dizem que é hora de ir ao médico.</p>
         </div>
         <div>
-          <p></p>
+          <p>This is especially true if your sleepless nights are hurting your work performance or your mood.</p>
+          <p className="portuguese">Isso é especialmente verdadeiro se suas noites sem dormir estiverem prejudicando seu desempenho no trabalho ou seu humor.</p>
+        </div>
+        <div>
+          <p>Atwood said, "It doesn’t matter how much relaxation you do. At a certain point, it's not going to be effective if there’s a sig<mark>ni</mark>ficant amount of stress... It might involve some problem-solving to figure that out."</p>
+          <p className="portuguese">Atwood disse: "Não importa o quanto você relaxe. Em certo ponto, não será eficaz se houver uma quantidade significativa de estresse... Pode envolver um pouco de resolução de problemas para descobrir isso."</p>
+        </div>
+        <div>
+          <p>I’m John Russell.</p>
         </div>
       </div>
     </div>

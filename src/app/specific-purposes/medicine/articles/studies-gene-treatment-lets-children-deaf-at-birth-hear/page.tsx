@@ -105,7 +105,7 @@ const paragraphs = [
     ptParagraph: "No entanto, Chen disse: \"Esta é uma prova real de que a terapia genética está funcionando.\" E ele acrescentou: \"Isso abre todo o campo (da genética para novas possibilidades e oportunidades).\""
   },
   {
-    enParagraph: "I’m Faith Pirlo. And I’m Gregory Stachel.",
+    enParagraph: "I'm Faith Pirlo. And I'm Gregory Stachel.",
   },
 ];
 
