@@ -1,5 +1,5 @@
-import { Whiteboard } from '@/components/Whiteboard/Whiteboard'
 import Link from 'next/link'
+import { Whiteboard } from '@/components/Whiteboard/Whiteboard'
 
 export default function TaylorSwift() {
   return (

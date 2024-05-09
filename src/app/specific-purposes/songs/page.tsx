@@ -1,6 +1,5 @@
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import Link from "next/link";
-import React from "react";
+import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 export default function Songs() {
   return (

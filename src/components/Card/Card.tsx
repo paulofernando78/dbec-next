@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import card from "./Card.module.css"
+import style from "./Card.module.css"
 
 interface ICard {
     children: ReactNode;
@@ -7,7 +7,7 @@ interface ICard {
 
 export const Card = ({children}:ICard) => {
   return (
-    <div className={card["card"]}> 
+    <div className={style["card"]}> 
     <p>{children}</p>
     </div>
   )
