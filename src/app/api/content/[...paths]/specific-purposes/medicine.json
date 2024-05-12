@@ -1,0 +1,10 @@
+[
+    {
+        "en": "Hello <audio label=\"eat\" src=\"/assets/audio/dictionary/e/eat.mp3\"></audio> world!",
+        "pt": "Olá Mundo!"
+      },
+      {
+        "en": "Hello <audio label=\"eat\" src=\"/assets/audio/dictionary/e/eat.mp3\"></audio> world!",
+        "pt": "Olá Mundo!"
+      }
+]

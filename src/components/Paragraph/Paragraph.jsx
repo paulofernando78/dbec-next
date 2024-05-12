@@ -1,10 +1,12 @@
 import Image from "next/image";
 import { AudioPlayer } from "../Audioplayer/Audioplayer";
 
-export const Paragraph = ({ paragraphs }) => {
+export const Paragraph = ({ paragraphs, audioSrc }) => {
   return (
     <div className="line-break">
-      <AudioPlayer audioSrc="..." />
+      <div style={{ position: "sticky", top: "0", paddingTop: "10px" }}>
+        <AudioPlayer audioSrc={audioSrc} />
+      </div>
       {paragraphs.map((paragraph, index) => (
         <div key={index} className="line-break">
           {paragraph.imgSrcBefore && (
@@ -16,7 +18,7 @@ export const Paragraph = ({ paragraphs }) => {
             />
           )}
           <div>
-            <p dangerouslySetInnerHTML={{ __html: paragraph.enParagraph }}></p>
+            <p>{paragraph.enParagraph}</p>
             <p className="portuguese">{paragraph.ptParagraph}</p>
             <p className="smaller">{paragraph.smaller}</p>
           </div>

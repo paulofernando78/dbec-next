@@ -1,7 +1,7 @@
 import React from "react";
 import whiteboard from "./Whiteboard.module.css";
 
-interface IWhiteboard {
+interface WhiteboardProps {
   title: string;
   subtitle?: string;
   descriptions?: string[];
@@ -11,7 +11,7 @@ export const Whiteboard = ({
   title,
   subtitle,
   descriptions = [],
-}: IWhiteboard) => {
+}: WhiteboardProps) => {
   return (
     <div className={whiteboard.container}>
       <h1>{title}</h1>

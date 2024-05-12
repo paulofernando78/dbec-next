@@ -9,12 +9,12 @@ import Eye from "../../../public/assets/img/icon/eye.png";
 import style from "./DictionaryCard.module.css"
 
 // Typescript
-interface IDictionaryCard {
+interface DictionaryCardProps {
   audioSrc: string;
   label: string;
 }
 
-export const DictionaryCard = ({ audioSrc, label }: IDictionaryCard) => {
+export const DictionaryCard = ({ audioSrc, label }: DictionaryCardProps) => {
   const playAudio = () => {
     let audio = new Audio(audioSrc);
     audio.play();
@@ -22,20 +22,20 @@ export const DictionaryCard = ({ audioSrc, label }: IDictionaryCard) => {
   
   return (
     <>
-      <div className={style["dictionary-card"]}>
+      <span className={style["dictionary-card"]}>
         <Image
           src={PlayButton}
           alt="Play icon"
           onClick={playAudio}
           className={style["play-button"]}
         />
-        <p className={style["label"]}>{label}</p>
+        <span className={style["label"]}>{label}</span>
         <Image
           src={Eye}
           alt="Eye icon"
           className={style["eye"]}
         />
-      </div>
+      </span>
     </>
   );
 };

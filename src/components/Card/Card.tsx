@@ -1,11 +1,11 @@
 import { ReactNode } from 'react'
 import style from "./Card.module.css"
 
-interface ICard {
+interface CardProps {
     children: ReactNode;
 }
 
-export const Card = ({children}:ICard) => {
+export const Card = ({children}:CardProps) => {
   return (
     <div className={style["card"]}> 
     <p>{children}</p>

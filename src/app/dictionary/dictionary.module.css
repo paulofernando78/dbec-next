@@ -1,5 +1,14 @@
-.dictionary-input {
+.input-button {
     display: flex;
-    
-    gap: 5;
+    gap: 10px;
+}
+
+.input-style {
+    padding: 6px 0 0 5px;
+    border-radius: var(--border-radius);
+    width: 300px;
+}
+
+.input-style::placeholder {
+    font-size: var(--p-size);
 }

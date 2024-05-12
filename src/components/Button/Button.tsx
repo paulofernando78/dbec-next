@@ -1,10 +1,14 @@
+"use client"
 import  { useState } from 'react';
 import style from './Button.module.css';
 
-import React from 'react'
+interface ButtonProps {
+  label: string;
+  onClick: () => void
+  toggle?: boolean
+}
 
-
-export const Button = ({ label, onClick, toggle }) => {
+export const Button = ({ label, onClick, toggle }: ButtonProps) => {
   const [show, setShow] = useState(false);
 
   const handleClick = () => {

@@ -72,7 +72,7 @@ const navBarLinks = [
         imgSrc: preIntermediate,
         altName: "Book icon",
         link: "/courses/pre-intermediate",
-        name: "Pre-Inter. (A2-B1)",
+        name: "Pre-Int. (A2-B1)",
       },
       {
         imgSrc: intermediate,

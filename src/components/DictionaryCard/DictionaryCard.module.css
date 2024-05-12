@@ -1,25 +1,28 @@
 .dictionary-card {
   display: inline;
+  width: fit-content;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
+  margin: 0 5px;
   padding: 0 7px;
 }
 
 .play-button {
   width: 15px;
-  height: fit-content;
+  height: 20px;
   position: relative;
-  top: 4px;
+  top: 2px;
 }
 
 .label {
     display: inline;
-    margin: 5px;
+    margin: 6px;
 }
 
 .eye {
     width: 23px;
     height: fit-content;
     position: relative;
-    top: 5px;
+    top: 4px;
+    margin-left: 1px;
   }

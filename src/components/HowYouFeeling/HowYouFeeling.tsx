@@ -1,202 +1,231 @@
-"use client";
 import Image from "next/image";
-import styled from "styled-components";
+import style from "./HowYouFelling.module.css";
 
-// Component
-import { Card } from "../Card/Card";
+// Components
+import { AudioPlayer } from "../Audioplayer/Audioplayer";
+import { DictionaryCard } from "../DictionaryCard/DictionaryCard";
+import { Component } from "react";
 
-// Images Emojis
-import good from "../../../public/assets/img/gif/good.gif";
-import happy from "../../../public/assets/img/gif/happy.gif";
-import sad from "../../../public/assets/img/gif/sad.gif";
-import angry from "../../../public/assets/img/gif/angry.gif";
-import annoyed from "../../../public/assets/img/gif/annoyed.gif";
-import calm from "../../../public/assets/img/gif/calm.gif";
-import inLove from "../../../public/assets/img/gif/in-love.gif";
-import crazy from "../../../public/assets/img/gif/crazy.gif";
-import tired from "../../../public/assets/img/gif/tired.gif";
-import anxious from "../../../public/assets/img/gif/anxious.gif";
-import worried from "../../../public/assets/img/gif/worried.gif";
-import bored from "../../../public/assets/img/gif/bored.gif";
-import silly from "../../../public/assets/img/gif/silly.gif";
-import scared from "../../../public/assets/img/gif/scared.gif";
-import thoughtful from "../../../public/assets/img/gif/thoughtful.gif";
-import frustrated from "../../../public/assets/img/gif/frustrated.gif";
-import disappointed from "../../../public/assets/img/gif/disappointed.gif";
-import embarrassed from "../../../public/assets/img/gif/embarrassed.gif";
-import sleepy from "../../../public/assets/img/gif/sleepy.gif";
-import lazy from "../../../public/assets/img/gif/sleepy.gif";
-import strong from "../../../public/assets/img/gif/strong.gif";
-import peaceful from "../../../public/assets/img/gif/peaceful.gif";
-import thankful from "../../../public/assets/img/gif/thankful.gif";
-import sick from "../../../public/assets/img/gif/sick.gif";
-import idk from "../../../public/assets/img/gif/idk.gif";
-
-// Styled Components
-
-const Welcome = styled.h2`
-text-align: center;
-`
-const EmojiGridContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 150px);
-  justify-content: center;
-`;
-
-const EmojiFlexContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
+// Dynamically import all images in the gif directory
+const images = require.context(
+  "../../../public/assets/img/gif",
+  false,
+  /\.(gif)$/
+);
 
 const emojis = [
   {
-    imgSrc: good,
-    altLabel: "Thumb up gif",
-    label: "good",
+    component: DictionaryCard,
+    props: {
+      audioSrc: "/assets/audio/dictionary/g/good.mp3",
+      label: "good",
+    },
+    altLabel: "ok",
   },
   {
-    imgSrc: happy,
-    altLabel: "...",
-    label: "happy",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "happy",
+    },
+    altLabel: "happy",
   },
   {
-    imgSrc: sad,
-    altLabel: "...",
-    label: "sad",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "sad",
+    },
+    altLabel: "sad",
   },
   {
-    imgSrc: angry,
-    altLabel: "...",
-    label: "angry",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "angry",
+    },
+    altLabel: "angry",
   },
   {
-    imgSrc: annoyed,
-    altLabel: "...",
-    label: "annoyed",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "annoyed",
+    },
+    altLabel: "annoyed",
   },
   {
-    imgSrc: calm,
-    altLabel: "...",
-    label: "calm",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "calm",
+      altLabel: "calm",
+    },
+  },
+  // {
+
+  //   altLabel: "...",
+  //   label: "in love",
+  // },
+  {
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "crazy",
+    },
+    altLabel: "crazy",
   },
   {
-    imgSrc: inLove,
-    altLabel: "...",
-    label: "in love",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "tired",
+    },
+    altLabel: "tired",
+  },
+  // {
+
+  //   altLabel: "...",
+  //   label: "worried",
+  // },
+  {
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "anxious",
+    },
+    altLabel: "anxious",
   },
   {
-    imgSrc: crazy,
-    altLabel: "...",
-    label: "crazy",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "bored",
+    },
+    altLabel: "bored",
   },
   {
-    imgSrc: tired,
-    altLabel: "...",
-    label: "tired",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "silly",
+    },
+    altLabel: "silly",
   },
   {
-    imgSrc: anxious,
-    altLabel: "...",
-    label: "worried",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "scared",
+    },
+    altLabel: "scared",
   },
   {
-    imgSrc: anxious,
-    altLabel: "...",
-    label: "anxious",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "thoughtful",
+    },
+    altLabel: "thoughtful",
   },
   {
-    imgSrc: bored,
-    altLabel: "...",
-    label: "bored",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "frustrated",
+    },
+    altLabel: "frustrated",
   },
   {
-    imgSrc: silly,
-    altLabel: "...",
-    label: "silly",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "disappointed",
+    },
+    altLabel: "disappointed",
   },
   {
-    imgSrc: scared,
-    altLabel: "...",
-    label: "scared",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "embarrassed",
+    },
+    altLabel: "embarrassed",
   },
   {
-    imgSrc: thoughtful,
-    altLabel: "...",
-    label: "thoughtful",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "sleepy",
+    },
+    altLabel: "sleepy",
+  },
+  // {
+
+  //   altLabel: "...",
+  //   label: "lazy",
+  // },
+  {
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "strong",
+    },
+    altLabel: "strong",
   },
   {
-    imgSrc: frustrated,
-    altLabel: "...",
-    label: "frustrated",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "peaceful",
+    },
+    altLabel: "peaceful",
   },
   {
-    imgSrc: disappointed,
-    altLabel: "...",
-    label: "disappointed",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "thankful",
+    },
+    altLabel: "thankful",
   },
   {
-    imgSrc: embarrassed,
-    altLabel: "...",
-    label: "embarassed",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "sick",
+    },
+    altLabel: "sick",
   },
   {
-    imgSrc: sleepy,
-    altLabel: "...",
-    label: "sleepy",
-  },
-  {
-    imgSrc: lazy,
-    altLabel: "...",
-    label: "lazy",
-  },
-  {
-    imgSrc: strong,
-    altLabel: "...",
-    label: "strong",
-  },
-  {
-    imgSrc: peaceful,
-    altLabel: "...",
-    label: "peaceful",
-  },
-  {
-    imgSrc: thankful,
-    altLabel: "...",
-    label: "thankful",
-  },
-  {
-    imgSrc: sick,
-    altLabel: "...",
-    label: "sick",
-  },
-  {
-    imgSrc: idk,
-    altLabel: "...",
-    label: "I don't know",
+    component: DictionaryCard,
+    props: {
+      audioScr: "/assets/audio/dictionary/",
+      label: "I don't know",
+    },
+    altLabel: "I don't know",
   },
 ];
 
 export default function HowYouFeeling() {
   return (
     <>
-      <Card>
-          <div className="line-break">
-              <Welcome>How are you feeling today?</Welcome>
-              <EmojiGridContainer>
-                {emojis.map((emoji, index) => (
-                  <EmojiFlexContainer key={index}>
-                    <Image
-                      src={emoji.imgSrc}
-                      alt={emoji.altLabel}
-                      style={{ width: "60px", height: "100%" }}
-                    />
-                    <p>{emoji.label}</p>
-                  </EmojiFlexContainer>
-                ))}
-              </EmojiGridContainer>
-          </div>
-      </Card>
+      <div className="line-break">
+        <AudioPlayer audioSrc="/assets/audio/how-you-feeling.mp3" />
+        <h3 className={style["feeling"]}>How are you feeling today?</h3>
+        <div className={style["emoji-container"]}>
+          {emojis.map((emoji) => (
+            <div key={emoji.label} className={style["emoji-inner-container"]}>
+              <Image
+                src={images(`./${emoji.props.label}.gif`)} // Use dynamic image import
+                alt={emoji.altLabel}
+                className={style["emoji-size"]}
+              />
+              <p>{emoji.component && <emoji.component {...emoji.props} />}</p>
+            </div>
+          ))}
+        </div>
+      </div>
     </>
   );
 }
