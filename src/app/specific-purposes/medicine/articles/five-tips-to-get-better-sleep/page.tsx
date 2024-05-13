@@ -1,9 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Card } from "@/components/Card/Card";
 import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
+import { VideoPlayer } from "@/components/VideoPlayer/VideoPlayer";
 
 // Images
 
@@ -32,11 +34,11 @@ const radio = [
     options: [
       {
         label:
-          "b) It helps in falling asleep but disrupts sleep cycles later on",
+          "a) It helps in falling asleep but disrupts sleep cycles later on",
         isCorrect: true,
       },
       {
-        label: "a) It improves sleep quality by promoting deep sleep",
+        label: "b) It improves sleep quality by promoting deep sleep",
         isCorrect: false,
       },
       {
@@ -87,11 +89,11 @@ const radio = [
     options: [
       {
         label:
-          "b) If sleepless nights are impacting work or mood after more than one month",
+          "a) If sleepless nights are impacting work or mood after more than one month",
         isCorrect: true,
       },
       {
-        label: "a) After just a few nights of poor sleep",
+        label: "b) After just a few nights of poor sleep",
         isCorrect: false,
       },
       {
@@ -112,131 +114,175 @@ export default function FiveTipsHowToGetBetterSleep() {
         descriptions={["Five Tips to Get Better Sleep"]}
       />
       <div className="line-break">
-      <AudioPlayer  audioSrc="/assets/audio/specific-purposes/medicine/articles/five-tips-to-get-better-sleep/five-tips-to-get-better-sleep.mp3" />
+        <Card>
+          <b>Discuss.</b>
+        </Card>
+        <p>What are some tips to get better sleep in your opinion?</p>
+        <p>
+          <b>Now listen to the article.</b>
+        </p>
+        <AudioPlayer audioSrc="/assets/audio/specific-purposes/medicine/articles/five-tips-to-get-better-sleep/five-tips-to-get-better-sleep.mp3" />
         <div>
           <p>
-          Do you spend too many nights trying to fall asleep? You are not alone.
+            Do you spend too many nights trying to fall asleep? You are not
+            alone.
           </p>
           <p className="portuguese">
-          Você passa muitas noites tentando adormecer? Você não está sozinho.
+            Você passa muitas noites tentando adormecer? Você não está sozinho.
           </p>
         </div>
 
         <div>
           <p>
-          Nearly one-third of American adults say they do not get the suggested seven to nine hours of sleep a night.
+            Nearly one-third of American adults say they do not get the
+            suggested seven to nine hours of sleep a night.
           </p>
           <p className="portuguese">
-          Quase um terço dos adultos americanos dizem que não dormem as sete a nove horas sugeridas por noite.
+            Quase um terço dos adultos americanos dizem que não dormem as sete a
+            nove horas sugeridas por noite.
           </p>
         </div>
 
         <div>
           <p>
-          Some of the major causes are <b>stress</b>, <b>anxiety</b>, and a culture that experts say is about pro<mark>duc</mark>tivity, not rest.
+            Some of the major causes are <b>stress</b>, {" "}
+            <DictionaryCard
+              label="anxiety"
+              audioSrc="/assets/audio/dictionary/a/anxiety.mp3"
+            />
+            , and a culture that experts say is about{" "}
+            <DictionaryCard
+              label="Aproductivity"
+              audioSrc="/assets/audio/dictionary/p/productivity.mp3"
+            />
+            , not rest.
           </p>
           <p className="portuguese">
-          Algumas das principais causas são o estresse, a ansiedade e uma cultura que os especialistas dizem ser sobre produtividade, não sobre descanso.
+            Algumas das principais causas são o estresse, a ansiedade e uma
+            cultura que os especialistas dizem ser sobre produtividade, não
+            sobre descanso.
           </p>
         </div>
 
         <div>
           <p>
-          Molly Atwood of Johns Hopkins School of Medicine said, "You need to understand what your body needs and try your hardest to prioritize that and not just see sleep as kind of what’s left over of the day.
+            Molly Atwood of Johns Hopkins School of Medicine said, "You need to
+            understand what your body needs and try your hardest to{" "}
+            <DictionaryCard
+              label="prioritize"
+              audioSrc="/assets/audio/dictionary/p/prioritize.mp3"
+            />{" "}
+            that and not just see sleep as kind of what’s left over of the day.
           </p>
           <p className="portuguese">
-          Molly Atwood, da Escola de Medicina Johns Hopkins, disse: "Você precisa entender o que seu corpo precisa e tentar ao máximo priorizar isso e não apenas ver o sono como o que sobra do dia".
+            Molly Atwood, da Escola de Medicina Johns Hopkins, disse: "Você
+            precisa entender o que seu corpo precisa e tentar ao máximo
+            priorizar isso e não apenas ver o sono como o que sobra do dia".
           </p>
         </div>
 
         <div>
           <p>
-          Sleep experts say that you should avoid unproven methods to fall asleep and stay asleep. Instead, they suggest five simple ideas:
+            Sleep experts say that you should avoid unproven methods to fall
+            asleep and stay asleep. Instead, they suggest five simple ideas:
           </p>
           <p className="portuguese">
-          Os especialistas em sono dizem que você deve evitar métodos não comprovados para adormecer e permanecer dormindo. Em vez disso, eles sugerem cinco ideias simples:
+            Os especialistas em sono dizem que você deve evitar métodos não
+            comprovados para adormecer e permanecer dormindo. Em vez disso, eles
+            sugerem cinco ideias simples:
+          </p>
+        </div>
+
+        <div>
+          <p>1. Create a buffer zone</p>
+          <p className="portuguese">Criar um "ambiente".</p>
+        </div>
+
+        <div>
+          <p>
+            First, try creating a “buffer zone” - a time of separation - between
+            the end of your work day and your bedtime. Experts suggest leaving
+            your work and daily responsibilities alone about an hour before bed.
+          </p>
+          <p className="portuguese">
+            Primeiro, tente criar uma "zona de buffer" - um período de separação
+            - entre o final do seu dia de trabalho e a hora de dormir.
+            Especialistas sugerem deixar o trabalho e as responsabilidades
+            diárias de lado cerca de uma hora antes de dormir.
           </p>
         </div>
 
         <div>
           <p>
-          1. Create a buffer zone
+            While in this "buffer zone," you should not check email, pay bills,
+            do housework, or look on social media. Instead, try to relax with a
+            book, enjoy a fun activity or spend time with loved ones.
           </p>
           <p className="portuguese">
-          Criar um "ambiente".
+            Durante esta "zona de buffer", você não deve verificar e-mails,
+            pagar contas, fazer tarefas domésticas ou acessar as redes sociais.
+            Em vez disso, tente relaxar com um livro, desfrutar de uma atividade
+            divertida ou passar tempo com seus entes queridos.
           </p>
         </div>
 
         <div>
           <p>
-          First, try creating a “buffer zone” - a time of separation - between the end of your work day and your bedtime. Experts suggest leaving your work and daily responsibilities alone about an hour before bed.
+            Dr. Annise Wilson of Baylor University said, "Anything that helps to
+            center you and just helps you <DictionaryCard label="focus" audioSrc="/assets/audio/dictionary/f/focus.mp3"/> and release a lot of that
+            tension from the day will then help promote sleep.
           </p>
           <p className="portuguese">
-          Primeiro, tente criar uma "zona de buffer" - um período de separação - entre o final do seu dia de trabalho e a hora de dormir. Especialistas sugerem deixar o trabalho e as responsabilidades diárias de lado cerca de uma hora antes de dormir.
+            A Dra. Annise Wilson da Universidade Baylor disse: "Qualquer coisa
+            que ajude a te centrar e apenas te ajude a focar e liberar muita
+            daquela tensão do dia então ajudará a promover o sono.
           </p>
         </div>
 
         <div>
           <p>
-          While in this "buffer zone," you should not check email, pay bills, do housework, or look on social media. Instead, try to relax with a book, enjoy a fun activity or spend time with loved ones.
+            2. Watch what you{" "}
+            <DictionaryCard
+              label="eat"
+              audioSrc="/assets/audio/dictionary/e/eat.mp3"
+            />
+          </p>
+          <p className="portuguese">Fique de olho no que você come.</p>
+        </div>
+
+        <div>
+          <p>
+            Eating a large meal right before bedtime can also hurt your sleep.
+            So, try to eat in the early evening hours.
           </p>
           <p className="portuguese">
-          Durante esta "zona de buffer", você não deve verificar e-mails, pagar contas, fazer tarefas domésticas ou acessar as redes sociais. Em vez disso, tente relaxar com um livro, desfrutar de uma atividade divertida ou passar tempo com seus entes queridos.
+            Comer uma refeição grande imediatamente antes de dormir também pode
+            prejudicar seu sono. Portanto, tente comer nas primeiras horas da
+            noite.
           </p>
         </div>
 
         <div>
           <p>
-          Dr. Annise Wilson of Baylor University said, "Anything that helps to center you and just helps you focus and release a lot of that tension from the day will then help promote sleep.
+            Atwood said that eating a large meal is "like giving your body a
+            really large job to do right before sleep at a time when things are
+            supposed to be shutting down."
           </p>
           <p className="portuguese">
-          A Dra. Annise Wilson da Universidade Baylor disse: "Qualquer coisa que ajude a te centrar e apenas te ajude a focar e liberar muita daquela tensão do dia então ajudará a promover o sono.
+            Atwood disse que comer uma refeição grande é "como dar ao seu corpo
+            um trabalho realmente grande para fazer antes de dormir, num momento
+            em que as coisas deveriam estar desacelerando".
           </p>
         </div>
 
         <div>
-          <p>
-          2. Watch what you <DictionaryCard label="eat" audioSrc="/assets/audio/dictionary/e/eat.mp3"/>
-          </p>
-          <p className="portuguese">
-          Fique de olho no que você come.
-          </p>
+          <p></p>
+          <p className="portuguese"></p>
         </div>
 
         <div>
-          <p>
-          Eating a large meal right before bedtime can also hurt your sleep. So, try to eat in the early evening hours.
-          </p>
-          <p className="portuguese">
-          Comer uma refeição grande imediatamente antes de dormir também pode prejudicar seu sono. Portanto, tente comer nas primeiras horas da noite.
-          </p>
-        </div>
-
-        <div>
-          <p>
-          Atwood said that eating a large meal is "like giving your body a really large job to do right before sleep at a time when things are supposed to be shutting down."
-          </p>
-          <p className="portuguese">
-          Atwood disse que comer uma refeição grande é "como dar ao seu corpo um trabalho realmente grande para fazer antes de dormir, num momento em que as coisas deveriam estar desacelerando".
-          </p>
-        </div>
-
-        <div>
-          <p>
-            
-          </p>
-          <p className="portuguese">
-            
-          </p>
-        </div>
-
-        <div>
-          <p>
-            
-          </p>
-          <p className="portuguese">
-            
-          </p>
+          <p></p>
+          <p className="portuguese"></p>
         </div>
         <div>
           <p>
@@ -282,7 +328,7 @@ export default function FiveTipsHowToGetBetterSleep() {
         </div>
         <div>
           <p>
-            Caffeine blocks adenosine, a chemical that helps make you feel
+            <DictionaryCard label="Caffeine" audioSrc="/assets/audio/dictionary/c/caffeine.mp3"/> blocks <DictionaryCard label="adenosine" audioSrc="/assets/audio/dictionary/a/adenosine.mp3"/>, a chemical that helps make you feel
             sleepy. And it can take your body up to 10 hours to clear caffeine.
           </p>
           <p className="portuguese">
@@ -293,7 +339,7 @@ export default function FiveTipsHowToGetBetterSleep() {
         </div>
         <div>
           <p>
-            For these reasons, experts suggest finishing up your caffeinated or
+            For these reasons, experts <DictionaryCard label="suggest" audioSrc="/assets/audio/dictionary/s/suggest.mp3"/> finishing up your caffeinated or
             alcoholic drinks many hours before bed.
           </p>
           <p className="portuguese">
@@ -309,7 +355,7 @@ export default function FiveTipsHowToGetBetterSleep() {
         </div>
         <div>
           <p>
-            Light from phones and computer screens can interfere with the
+            Light from phones and computer screens can <DictionaryCard label="interfere" audioSrc="/assets/audio/dictionary/i/interfere.mp3"/> with the
             circadian rhythm – or the internal clock that naturally wakes us up.
             Light has this effect by suppressing melatonin, which assists with
             sleep.
@@ -323,7 +369,7 @@ export default function FiveTipsHowToGetBetterSleep() {
         </div>
         <div>
           <p>
-            But you will need self-control to stop looking at screens, suggested
+            But you will need self-control to stop looking at screens, <DictionaryCard label="suggested" audioSrc="/assets/audio/dictionary/s/suggested.mp3"/>
             Dr. Dianne Augelli of Weill Cornell Medicine.
           </p>
           <p className="portuguese">
@@ -371,8 +417,7 @@ export default function FiveTipsHowToGetBetterSleep() {
         <div>
           <p>
             Atwood said, "It doesn’t matter how much relaxation you do. At a
-            certain point, it's not going to be effective if there’s a sig
-            <mark>ni</mark>ficant amount of stress... It might involve some
+            certain point, it's not going to be effective if there’s a <DictionaryCard label="significant" audioSrc="/assets/audio/dictionary/s/significant.mp3"/> amount of stress... It might involve some
             problem-solving to figure that out."
           </p>
           <p className="portuguese">
@@ -385,8 +430,12 @@ export default function FiveTipsHowToGetBetterSleep() {
         <div>
           <p>I’m John Russell.</p>
         </div>
-      </div>
       <Radio questions={radio} />
+      <Card>
+        Extra
+      </Card>
+      <VideoPlayer videoSrc="https://www.youtube.com/embed/foLf5Bi9qXs?si=vtShmFVU_Cl-wZDG" />
+      </div>
     </div>
   );
 }
