@@ -1,10 +1,11 @@
+"use client"
+
 import Image from "next/image";
 import style from "./HowYouFelling.module.css";
 
 // Components
 import { AudioPlayer } from "../Audioplayer/Audioplayer";
 import { DictionaryCard } from "../DictionaryCard/DictionaryCard";
-import { Component } from "react";
 
 // Dynamically import all images in the gif directory
 const images = require.context(
@@ -16,7 +17,7 @@ const images = require.context(
 const emojis = [
   {
     altLabel: "ok",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/g/good.mp3",
       label: "good",
@@ -24,7 +25,7 @@ const emojis = [
   },
   {
     altLabel: "happy",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/h/happy.mp3",
       label: "happy",
@@ -32,7 +33,7 @@ const emojis = [
   },
   {
     altLabel: "sad",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/s/sad.mp3",
       label: "sad",
@@ -40,7 +41,7 @@ const emojis = [
   },
   {
     altLabel: "angry",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/a/angry.mp3",
       label: "angry",
@@ -48,7 +49,7 @@ const emojis = [
   },
   {
     altLabel: "annoyed",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/a/annoyed.mp3",
       label: "annoyed",
@@ -56,7 +57,7 @@ const emojis = [
   },
   {
     altLabel: "calm",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/c/calm.mp3",
       label: "calm",
@@ -68,7 +69,7 @@ const emojis = [
   // },
   {
     altLabel: "crazy",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/c/crazy.mp3",
       label: "crazy",
@@ -76,7 +77,7 @@ const emojis = [
   },
   {
     altLabel: "tired",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/t/tired.mp3",
       label: "tired",
@@ -88,7 +89,7 @@ const emojis = [
   // },
   {
     altLabel: "anxious",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/a/anxious.mp3",
       label: "anxious",
@@ -96,7 +97,7 @@ const emojis = [
   },
   {
     altLabel: "bored",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/b/bored.mp3",
       label: "bored",
@@ -104,7 +105,7 @@ const emojis = [
   },
   {
     altLabel: "silly",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/s/silly.mp3",
       label: "silly",
@@ -112,7 +113,7 @@ const emojis = [
   },
   {
     altLabel: "scared",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/s/scared.mp3",
       label: "scared",
@@ -120,7 +121,7 @@ const emojis = [
   },
   {
     altLabel: "thoughtful",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/t/thoughtful.mp3",
       label: "thoughtful",
@@ -128,7 +129,7 @@ const emojis = [
   },
   {
     altLabel: "frustrated",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/f/frustrated.mp3",
       label: "frustrated",
@@ -136,7 +137,7 @@ const emojis = [
   },
   {
     altLabel: "disappointed",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/d/disappointed.mp3",
       label: "disappointed",
@@ -144,7 +145,7 @@ const emojis = [
   },
   {
     altLabel: "embarrassed",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/e/embarrassed.mp3",
       label: "embarrassed",
@@ -152,7 +153,7 @@ const emojis = [
   },
   {
     altLabel: "sleepy",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/s/sleepy.mp3",
       label: "sleepy",
@@ -165,7 +166,7 @@ const emojis = [
   // },
   {
     altLabel: "strong",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/s/strong.mp3",
       label: "strong",
@@ -173,7 +174,7 @@ const emojis = [
   },
   {
     altLabel: "peaceful",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/p/peaceful.mp3",
       label: "peaceful",
@@ -181,7 +182,7 @@ const emojis = [
   },
   {
     altLabel: "thankful",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/t/thankful.mp3",
       label: "thankful",
@@ -189,7 +190,7 @@ const emojis = [
   },
   {
     altLabel: "sick",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/s/sick.mp3",
       label: "sick",
@@ -197,7 +198,7 @@ const emojis = [
   },
   {
     altLabel: "I don't know",
-    component: DictionaryCard,
+    component: (props: any) => <DictionaryCard {...props} />,
     props: {
       audioSrc: "/assets/audio/dictionary/i/I-dont-know.mp3",
       label: "I don't know",
@@ -213,13 +214,20 @@ export default function HowYouFeeling() {
         <h3 className={style["feeling"]}>How are you feeling today?</h3>
         <div className={style["emoji-container"]}>
           {emojis.map((emoji) => (
-            <div key={emoji.label} className={style["emoji-inner-container"]}>
+            <div
+              key={emoji.altLabel}
+              className={style["emoji-inner-container"]}
+            >
               <Image
                 src={images(`./${emoji.props.label}.gif`)} // Use dynamic image import
                 alt={emoji.altLabel}
                 className={style["emoji-size"]}
               />
-              <p>{emoji.component && <DictionaryCard {...emoji.props} />}</p>
+              <p>
+                {emoji.component?.(emoji.props) && (
+                  <DictionaryCard {...emoji.props} />
+                )}
+              </p>
             </div>
           ))}
         </div>

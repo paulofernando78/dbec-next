@@ -1,6 +1,9 @@
 
+interface VideoPlayerProps {
+  videoSrc: string
+}
 
-export const VideoPlayer = ({ videoSrc }) => {
+export const VideoPlayer = ({ videoSrc }: VideoPlayerProps) => {
   return (
     <>
     <iframe
