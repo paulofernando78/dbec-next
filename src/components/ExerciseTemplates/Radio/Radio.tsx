@@ -3,16 +3,17 @@ import { Button } from "@/components/Button/Button";
 import style from "./Radio.module.css";
 import { IQuestion } from "@/types/question";
 
+
+const getRadioClassName = (isCorrect: boolean) => {
+  return isCorrect ? style["radio-correct"] : style["radio-incorrect"];
+};
+
 interface RadioOptionProps {
   name: string;
   id: string;
   label: string;
   isCorrect: boolean;
 }
-
-const getRadioClassName = (isCorrect: boolean) => {
-  return isCorrect ? style["radio-correct"] : style["radio-incorrect"];
-};
 
 const RadioOption = ({ name, id, label, isCorrect }: RadioOptionProps) => {
   return (
@@ -34,7 +35,7 @@ interface RadioProps {
   questions: IQuestion[];
 }
 
-export const Radio = ({ questions }: RadioProps) => {
+const Radio: React.FC<RadioProps> = ({ questions }) => {
   const resetRadio = () => {
     const radioInputs = document.querySelectorAll<HTMLInputElement>('input[type="radio"]');
     radioInputs.forEach((radio) => {

@@ -69,23 +69,13 @@ export default function Mocks() {
         </Card>
 
         <p>
-          I&apos;m feeling{" "}
+          I'm feeling{" "}
           <DictionaryCard
             audioSrc="/assets/audio/dictionary/g/good.mp3"
             label="good"
           />{" "}
           today.
         </p>
-
-        {/* <div className="p-font">
-          I&apos;m feeling
-          <DictionaryCard
-            audioSrc="/assets/audio/dictionary/g/good.mp3"
-            label="good"
-          />
-         today.
-        </div> */}
-
       </div>
     </div>
   );
