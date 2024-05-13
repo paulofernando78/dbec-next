@@ -15,7 +15,7 @@ export default function Dictionary() {
           placeholder="Enter a word"
           className={style["input-style"]}
         />
-        <Button label="search"/>
+        {/* <Button label="search"/> */}
       </div>
     </>
   );
