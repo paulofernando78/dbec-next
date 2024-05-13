@@ -5,10 +5,19 @@ export default function Songs() {
   return (
     <>
       <Whiteboard title="Specific Purposes" subtitle="Songs" />
-      <div>
-        <Link href="/specific-purposes/songs/taylor-swift">
-          <p>Taylor Swift</p>
-        </Link>
+      <div className="line-break">
+        <div>
+          <p>What's your favorite band?</p>
+          <p>What's your favorite singer / artist?</p>
+        </div>
+        <p><b>Artists</b></p>
+        <div>
+          <p>Red Hot Chili Peppers</p>
+          <p>Soundgarden</p>
+          <Link href="/specific-purposes/songs/taylor-swift">
+            <p>Taylor Swift</p>
+          </Link>
+        </div>
       </div>
     </>
   );

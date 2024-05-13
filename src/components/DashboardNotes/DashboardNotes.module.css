@@ -7,4 +7,6 @@
 .text-area {
     height: 500px;
     border-radius: var(--border-radius);
+    font-size: var(--p-size);
+    padding: 7px 8px;
 }

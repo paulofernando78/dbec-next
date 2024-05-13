@@ -126,6 +126,11 @@ p {
     height: fit-content
 }
 
+.icon-position-top {
+    position: relative;
+    top: 3px;
+}
+
 /* AUDIO PLAYER / VIDEO */
 
 #audio-player-sticky-top {
