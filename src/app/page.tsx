@@ -1,3 +1,4 @@
+import { DashboardNotes } from "@/components/DashboardNotes/DashboardNotes";
 import HowYouFeeling from "@/components/HowYouFeeling/HowYouFeeling";
 import { Welcome } from "@/components/Welcome/Welcome";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
@@ -9,7 +10,7 @@ export default function Home() {
       <div className="line-break">
         <Welcome />
         <HowYouFeeling />
-        <textarea className="textarea"></textarea>
+        <DashboardNotes />
       </div>
     </main>
   );

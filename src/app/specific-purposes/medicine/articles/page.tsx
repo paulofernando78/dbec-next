@@ -9,13 +9,13 @@ export default function Articles() {
         subtitle="Medicine"
         descriptions={["Articles"]}
       />
+        <Link href="/specific-purposes/medicine/articles/five-tips-to-get-better-sleep"><p>Five Tips to Get Better Sleep (April 29, 2024)</p></Link>
       <div>
         <Link href="/specific-purposes/medicine/articles/studies-gene-treatment-lets-children-deaf-at-birth-hear">
           <p>
             Studies: Gene Treatment Lets Children Deaf at Birth Hear (Jan 29, 2024)
           </p>
         </Link>
-        <Link href="/specific-purposes/medicine/articles/five-tips-to-get-better-sleep"><p>Five Tips to Get Better Sleep</p></Link>
       </div>
     </div>
   );

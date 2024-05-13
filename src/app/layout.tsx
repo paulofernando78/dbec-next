@@ -8,7 +8,6 @@ import styles from "./layout.module.css";
 // components
 import { Header } from "@/components/Header/Header"
 import { NavBar } from "@/components/NavBar/NavBar"
-import styled from "styled-components";
 
 const inter = Inter({ subsets: ["latin"] });
 

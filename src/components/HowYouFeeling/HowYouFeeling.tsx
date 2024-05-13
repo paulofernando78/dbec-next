@@ -15,150 +15,148 @@ const images = require.context(
 
 const emojis = [
   {
+    altLabel: "ok",
     component: DictionaryCard,
     props: {
       audioSrc: "/assets/audio/dictionary/g/good.mp3",
       label: "good",
     },
-    altLabel: "ok",
   },
   {
+    altLabel: "happy",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/h/happy.mp3",
       label: "happy",
     },
-    altLabel: "happy",
   },
   {
+    altLabel: "sad",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/s/sad.mp3",
       label: "sad",
     },
-    altLabel: "sad",
   },
   {
+    altLabel: "angry",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/a/angry.mp3",
       label: "angry",
     },
-    altLabel: "angry",
   },
   {
+    altLabel: "annoyed",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/a/annoyed.mp3",
       label: "annoyed",
     },
-    altLabel: "annoyed",
   },
   {
+    altLabel: "calm",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/c/calm.mp3",
       label: "calm",
-      altLabel: "calm",
     },
   },
   // {
-
   //   altLabel: "...",
   //   label: "in love",
   // },
   {
+    altLabel: "crazy",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/c/crazy.mp3",
       label: "crazy",
     },
-    altLabel: "crazy",
   },
   {
+    altLabel: "tired",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/t/tired.mp3",
       label: "tired",
     },
-    altLabel: "tired",
   },
   // {
-
   //   altLabel: "...",
   //   label: "worried",
   // },
   {
+    altLabel: "anxious",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/a/anxious.mp3",
       label: "anxious",
     },
-    altLabel: "anxious",
   },
   {
+    altLabel: "bored",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/b/bored.mp3",
       label: "bored",
     },
-    altLabel: "bored",
   },
   {
+    altLabel: "silly",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/s/silly.mp3",
       label: "silly",
     },
-    altLabel: "silly",
   },
   {
+    altLabel: "scared",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/s/scared.mp3",
       label: "scared",
     },
-    altLabel: "scared",
   },
   {
+    altLabel: "thoughtful",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/t/thoughtful.mp3",
       label: "thoughtful",
     },
-    altLabel: "thoughtful",
   },
   {
+    altLabel: "frustrated",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/f/frustrated.mp3",
       label: "frustrated",
     },
-    altLabel: "frustrated",
   },
   {
+    altLabel: "disappointed",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/d/disappointed.mp3",
       label: "disappointed",
     },
-    altLabel: "disappointed",
   },
   {
+    altLabel: "embarrassed",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/e/embarrassed.mp3",
       label: "embarrassed",
     },
-    altLabel: "embarrassed",
   },
   {
+    altLabel: "sleepy",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/s/sleepy.mp3",
       label: "sleepy",
     },
-    altLabel: "sleepy",
   },
   // {
 
@@ -166,44 +164,44 @@ const emojis = [
   //   label: "lazy",
   // },
   {
+    altLabel: "strong",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/s/strong.mp3",
       label: "strong",
     },
-    altLabel: "strong",
   },
   {
+    altLabel: "peaceful",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/p/peaceful.mp3",
       label: "peaceful",
     },
-    altLabel: "peaceful",
   },
   {
+    altLabel: "thankful",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/t/thankful.mp3",
       label: "thankful",
     },
-    altLabel: "thankful",
   },
   {
+    altLabel: "sick",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/s/sick.mp3",
       label: "sick",
     },
-    altLabel: "sick",
   },
   {
+    altLabel: "I don't know",
     component: DictionaryCard,
     props: {
-      audioScr: "/assets/audio/dictionary/",
+      audioSrc: "/assets/audio/dictionary/i/I-dont-know.mp3",
       label: "I don't know",
     },
-    altLabel: "I don't know",
   },
 ];
 
@@ -221,7 +219,7 @@ export default function HowYouFeeling() {
                 alt={emoji.altLabel}
                 className={style["emoji-size"]}
               />
-              <p>{emoji.component && <emoji.component {...emoji.props} />}</p>
+              <p>{emoji.component && <DictionaryCard {...emoji.props} />}</p>
             </div>
           ))}
         </div>
