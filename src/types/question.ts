@@ -1,5 +1,5 @@
 export interface IQuestion {
-  title: string;
+  title?: string;
   subtitle: string;
   options: {
     label: string;
