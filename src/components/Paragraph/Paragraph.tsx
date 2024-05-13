@@ -1,7 +1,14 @@
 import Image from "next/image";
 import { AudioPlayer } from "../Audioplayer/Audioplayer";
+import { IParagraph } from "@/types/paragraph";
 
-export const Paragraph = ({ paragraphs, audioSrc }) => {
+
+interface ParagraphProps {
+  paragraphs: IParagraph[]
+  audioSrc?: string
+}
+
+export const Paragraph = ({ paragraphs, audioSrc }: ParagraphProps) => {
   return (
     <div className="line-break">
       <div style={{ position: "sticky", top: "0", paddingTop: "10px" }}>
@@ -12,7 +19,7 @@ export const Paragraph = ({ paragraphs, audioSrc }) => {
           {paragraph.imgSrcBefore && (
             <Image
               src={paragraph.imgSrcBefore}
-              alt={paragraph.altNameBefore}
+              alt={paragraph.altNameBefore??""}
               width={350}
               height={200}
             />
@@ -25,7 +32,7 @@ export const Paragraph = ({ paragraphs, audioSrc }) => {
           {paragraph.imgSrcAfter && (
             <Image
               src={paragraph.imgSrcAfter}
-              alt={paragraph.altNameAfter}
+              alt={paragraph.altNameAfter??""}
               width={100}
               height={100}
             />

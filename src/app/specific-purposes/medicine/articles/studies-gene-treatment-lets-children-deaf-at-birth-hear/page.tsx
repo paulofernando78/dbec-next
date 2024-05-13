@@ -3,6 +3,7 @@ import { Paragraph } from "@/components/Paragraph/Paragraph";
 
 import doc from "./doctor-patient.png";
 import sickle from "./sickle.jpg";
+import { IParagraph } from "@/types/paragraph";
 
 const paragraphs = [
   {
@@ -107,7 +108,7 @@ const paragraphs = [
   {
     enParagraph: "I'm Faith Pirlo. And I'm Gregory Stachel.",
   },
-];
+]satisfies IParagraph[] ; 
 
 export default function StudiesGeneTreatmentLetsChildrenDeafAtBirthHear() {
   return (
