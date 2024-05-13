@@ -46,6 +46,7 @@ import stockMarketIcon from "../../../public/assets/img/icon/stock-market.png";
 import resumaotIcon from "../../../public/assets/img/icon/dictionary.png";
 import examsIcon from "../../../public/assets/img/icon/exams.png";
 import miscIcon from "../../../public/assets/img/icon/misc.png";
+import { useMediaQuery } from "@/hooks/useMediaQuery";
 
 const navBarLinks = [
   {
@@ -275,9 +276,15 @@ const navBarLinks = [
   },
 ];
 
-export const NavBar = () => {
+interface NavBarProps {
+  show: boolean
+  toggleShow:() => void 
+}
+
+export const NavBar = ({show, toggleShow}: NavBarProps) => {
+  const isSmallDevice = useMediaQuery("only screen and (max-width : 768px)");
   return (
-    <nav className={navBar["nav-bar"]}>
+    show || !isSmallDevice ? <nav className={navBar["nav-bar"]}>
       <ul className="line-break">
         <div>
           <div className={navBar["nav-list"]}>
@@ -288,7 +295,7 @@ export const NavBar = () => {
             />
             <li>
               {/* Home */}
-              <Link href="/">
+              <Link href="/" onClick= { () => toggleShow()}>
                 <p>
                   <b>Home</b>
                 </p>
@@ -302,8 +309,8 @@ export const NavBar = () => {
               className={navBar["nav-icon-size"]}
             />
             <li>
-              {/* Home */}
-              <Link href="/dictionary">
+              {/* Dictionary */}
+              <Link href="/dictionary" onClick= { () => toggleShow()}>
                 <p>
                   <b>Dictionary</b>
                 </p>
@@ -324,7 +331,7 @@ export const NavBar = () => {
                       alt={link.altName}
                       className={navBar["nav-icon-size"]}
                     />
-                    <Link href={link.link} className={navBar["nav-bar-link"]}>
+                    <Link href={link.link} className={navBar["nav-bar-link"]} onClick= { () => toggleShow()}>
                       <p>{link.name}</p>
                     </Link>
                   </div>
@@ -334,6 +341,6 @@ export const NavBar = () => {
           ))}
         </div>
       </ul>
-    </nav>
+    </nav> : ""
   );
 };
