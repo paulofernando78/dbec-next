@@ -152,7 +152,7 @@ export default function FiveTipsHowToGetBetterSleep() {
             />
             , and a culture that experts say is about{" "}
             <DictionaryCard
-              label="Aproductivity"
+              label="productivity"
               audioSrc="/assets/audio/dictionary/p/productivity.mp3"
             />
             , not rest.
