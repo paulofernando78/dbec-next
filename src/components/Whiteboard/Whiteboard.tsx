@@ -17,7 +17,9 @@ export const Whiteboard = ({
       <h1>{title}</h1>
       {subtitle && <h3>{subtitle}</h3>}
       {descriptions.map((description, index) => (
-        <p key={index}><b>{description}</b></p>
+        <p key={index}>
+          <b>{description}</b>
+        </p>
       ))}
     </div>
   );
