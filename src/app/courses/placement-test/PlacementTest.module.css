@@ -1,0 +1,28 @@
+.main-container {
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+}
+
+.main-container-level {
+  background-color: lightblue;
+  color: white;
+  font-weight: bold;
+  padding: var(--padding);
+}
+
+.inner-container {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--padding);
+  gap: 8px
+}
+
+.bold {
+  font-weight: bold;
+}
+
+@media (max-width: 820px) {
+  .inner-container {
+    flex-direction: column;
+  }
+}

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .header-content {
-  width: 283px;
+  width: 250px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,7 +14,7 @@
 }
 
 .usa-uk-flag-icon {
-  width: 26px;
+  width: 23px;
   height: fit-content;
   margin-right: 7px;
 }
@@ -27,7 +27,7 @@
 
 .logo-name {
   font-family: "Lato", sans-serif !important;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   color: white;
   margin-right: 3px;
 }
