@@ -1,6 +1,6 @@
 .input-size[type="radio"] {
-    min-width: 27px;
-    min-height: 27px;
+    min-width: 25px;
+    min-height: 25px;
     position: relative;
     padding: 5px;
   }
@@ -26,8 +26,8 @@
     top: -1px;
     left: -2px;
     background-size: contain;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
 }
 
 /* RADIO INCORRECT*/
@@ -39,8 +39,8 @@
     top: -1px;
     left: -1px;
     background-size: contain;
-    width: 30px;
-    height: 30px;
+    width: 28px;
+    height: 28px;
 }
 
 /* @media (max-width: 768px) {

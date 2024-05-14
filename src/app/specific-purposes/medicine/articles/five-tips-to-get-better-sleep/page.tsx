@@ -107,7 +107,7 @@ const radio = [
 
 export default function FiveTipsHowToGetBetterSleep() {
   return (
-    <div>
+    <>
       <Whiteboard
         title="Specific Purposes"
         subtitle="Medicine"
@@ -115,7 +115,7 @@ export default function FiveTipsHowToGetBetterSleep() {
       />
       <div className="line-break">
         <Card>
-          <b>Discuss.</b>
+          <b>Discussion</b>
         </Card>
         <p>What are some tips to get better sleep in your opinion?</p>
         <p>
@@ -147,7 +147,8 @@ export default function FiveTipsHowToGetBetterSleep() {
           <p>
             Some of the major causes are <b>stress</b>, {" "}
             <DictionaryCard
-              label="anxiety"
+              label="<b>anxiety</b>"
+              phonetics="/æŋˈzaɪ.ə.t̬i/"
               audioSrc="/assets/audio/dictionary/a/anxiety.mp3"
             />
             , and a culture that experts say is about{" "}
@@ -430,12 +431,15 @@ export default function FiveTipsHowToGetBetterSleep() {
         <div>
           <p>I’m John Russell.</p>
         </div>
+        <Card>
+          <b>Exercises</b>
+        </Card>
       <Radio questions={radio} />
       <Card>
         Extra
       </Card>
       <VideoPlayer videoSrc="https://www.youtube.com/embed/foLf5Bi9qXs?si=vtShmFVU_Cl-wZDG" />
       </div>
-    </div>
+    </>
   );
 }

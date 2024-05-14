@@ -20,6 +20,10 @@
     margin: 6px;
 }
 
+.phonetics-margin {
+  margin-right: 6px;
+}
+
 .eye {
     width: 20px;
     height: fit-content;
