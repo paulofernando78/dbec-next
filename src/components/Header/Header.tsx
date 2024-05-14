@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 
 // CSS
-import header from "@/components/Header/Header.module.css";
+import styles from "@/components/Header/Header.module.css";
 
 // Images
 import usaUkIcon from "../../../public/assets/img/header-usa-uk-icon.png"
@@ -16,10 +16,10 @@ interface HeaderProps {
 
 export const Header = ({show, toggleShow} :HeaderProps) => {
   return (
-    <div className={header["header-content"]}>
-      <Image src={usaUkIcon} alt="Flag icon" className={header["usa-uk-flag-icon"]} />
-      <Image src={btnIcon} alt="Button icon" className={header["btn-menu"]} onClick={() => toggleShow()}/>
-      <p className={header["logo-name"]}><b>DAILY BASIS ENGLISH COURSE</b></p>
+    <div className={styles["header-content"]}>
+      <Image src={usaUkIcon} alt="Flag icon" className={styles["usa-uk-flag-icon"]} />
+      <Image src={btnIcon} alt="Button icon" className={styles["btn-menu"]} onClick={() => toggleShow()}/>
+      <p className={styles["logo-name"]}><b>DAILY BASIS ENGLISH COURSE</b></p>
     </div>
   );
 };

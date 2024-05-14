@@ -1,4 +1,5 @@
 "use client"
+import { useMediaQuery } from "@/hooks/useMediaQuery";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -47,7 +48,6 @@ import stockMarketIcon from "../../../public/assets/img/icon/stock-market.png";
 import resumaotIcon from "../../../public/assets/img/icon/dictionary.png";
 import examsIcon from "../../../public/assets/img/icon/exams.png";
 import miscIcon from "../../../public/assets/img/icon/misc.png";
-import { useMediaQuery } from "@/hooks/useMediaQuery";
 
 const navBarLinks = [
   {
