@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { Header } from "../Header/Header";
 import { NavBar } from "../NavBar/NavBar";
-import styles from "./HeaderNavBar.module.css";
 
 export default function HeaderNavBar() {
   const [show, setShow] = useState(false);
@@ -13,7 +12,7 @@ export default function HeaderNavBar() {
   return (
     <>
       <Header toggleShow={toggleShow} />
-      <NavBar show={show} toggleShow={toggleShow} />
+        <NavBar show={show} toggleShow={toggleShow} />
     </>
   );
 }

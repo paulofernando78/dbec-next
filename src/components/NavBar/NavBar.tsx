@@ -47,7 +47,7 @@ import stockMarketIcon from "../../../public/assets/img/icon/stock-market.png";
 import resumaotIcon from "../../../public/assets/img/icon/dictionary.png";
 import examsIcon from "../../../public/assets/img/icon/exams.png";
 import miscIcon from "../../../public/assets/img/icon/misc.png";
-// import { useMediaQuery } from "@/hooks/useMediaQuery";
+import { useMediaQuery } from "@/hooks/useMediaQuery";
 
 const navBarLinks = [
   {
@@ -283,9 +283,9 @@ interface NavBarProps {
 }
 
 export const NavBar = ({show, toggleShow}: NavBarProps) => {
-  // const isSmallDevice = useMediaQuery("only screen and (max-width : 768px)");
+  const isSmallDevice = useMediaQuery("only screen and (max-width : 768px)");
   return (
-    show ? <nav className={navBar["nav-bar"]}>
+    show || !isSmallDevice ? <nav className={navBar["nav-bar"]}>
       <ul className="line-break">
         <div>
           <div className={navBar["nav-list"]}>
