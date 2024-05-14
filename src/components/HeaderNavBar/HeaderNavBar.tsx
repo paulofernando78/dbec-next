@@ -1,10 +1,11 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { Header } from "../Header/Header";
 import { NavBar } from "../NavBar/NavBar";
+import styles from "./HeaderNavBar.module.css";
 
 export default function HeaderNavBar() {
-    const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false);
   function toggleShow() {
     setShow(!show);
   }
@@ -12,7 +13,7 @@ export default function HeaderNavBar() {
   return (
     <>
       <Header toggleShow={toggleShow} />
-      <NavBar show={show} toggleShow={toggleShow}/>
+      <NavBar show={show} toggleShow={toggleShow} />
     </>
   );
 }
