@@ -1,3 +1,4 @@
+import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
 import React from "react";
 
 export default function Priscila() {
@@ -6,6 +7,14 @@ export default function Priscila() {
       <p>
         <b>Resúme</b>
       </p>
+      <div>
+        <p>slow</p>
+        <AudioPlayer audioSrc="/assets/audio/priscila-slow.mp3" />
+      </div>
+      <div>
+        <p>fast</p>
+        <AudioPlayer audioSrc="/assets/audio/priscila-fast.mp3" />
+      </div>
       <p>
         <mark>
           I have over twenty years of experience{" "}
@@ -17,7 +26,12 @@ export default function Priscila() {
         chemical, agribusiness, among other sectors.
       </p>
       <p>
-        <mark><span className="underline">Addtionally</span></mark> , I have a solid academic background, <mark>having served as a</mark>{" "}Lecturer, Master Professor and Speaker in Specialization Courses on Social Security and Labor Law.
+        <mark>
+          <span className="underline">Additionally</span>
+        </mark>{" "}
+        , I have a solid academic background, <mark>having served as a</mark>{" "}
+        Lecturer, Master Professor and Speaker in Specialization Courses on
+        Social Security and Labor Law.
       </p>
       <p>
         <mark>I have</mark> solid leadership in managing challenging projects

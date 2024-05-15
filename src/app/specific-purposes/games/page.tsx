@@ -88,6 +88,12 @@ export default function Games() {
               <p>Full Throttle (1995)</p>
             </Link>
           </div>
+          <div>
+            <Card>Misc</Card>
+          </div>
+          <Link href="/specific-purposes/games/minecraft">
+              <p>Minecraft (2011)</p>
+            </Link>
         </div>
       </div>
     </>
