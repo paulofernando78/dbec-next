@@ -9,20 +9,24 @@ const defaultLevels: Level[] = [
       {
         taskNumber: "1",
         taskType: "Greetings, \nIntroductions",
-        languageFocus: "• Simple present of be\n• Subject pronouns \n• Possessive adjectives",
-        examples: "• Hello. How are you?\n• What's your name?\n• Where are you from?",
+        languageFocus:
+          "• Simple present of be\n• Subject pronouns \n• Possessive adjectives",
+        examples:
+          "• Hello. How are you?\n• What's your name?\n• Where are you from?",
       },
       {
         taskNumber: "2",
         taskType: "Talk about yourself",
         languageFocus: "• Simple Present\n• Present continuous",
-        examples: "• Tell me a little about yourself.\n• Why are you studying English?\n• What's your schedule like?\n• Do you have a job?\n• Do you study?",
+        examples:
+          "• Tell me a little about yourself.\n• Why are you studying English?\n• What's your schedule like?\n• Do you have a job?\n• Do you study?",
       },
       {
         taskNumber: "3",
         taskType: "Talk about your free time",
         languageFocus: "• Simple present\n• Can for ability",
-        examples: "• What do you do in your free time?\n• Do you like sports?\n• Can you play tennis (volleyball/soccer, etc.)",
+        examples:
+          "• What do you do in your free time?\n• Do you like sports?\n• Can you play tennis (volleyball/soccer, etc.)",
       },
     ],
   },
@@ -34,19 +38,22 @@ const defaultLevels: Level[] = [
         taskNumber: "4",
         taskType: "Talk about likes and dislikes",
         languageFocus: "Simple present",
-        examples: "• Do you like movies (TV, music, etc.)\n• What kinds of movies (TV shows, music, etc.) do you like?\n• What's your favorite movie (TV show/type of music, etc.)?",
+        examples:
+          "• Do you like movies (TV, music, etc.)\n• What kinds of movies (TV shows, music, etc.) do you like?\n• What's your favorite movie (TV show/type of music, etc.)?",
       },
       {
         taskNumber: "5",
         taskType: "Talk about the past",
         languageFocus: "• Simple past\n•Past be",
-        examples: "• Where did you grow up?\n• Did you study English in elementary school (middle school/high school)?\n• What other languages did you study?\n• What was your favorite class?",
+        examples:
+          "• Where did you grow up?\n• Did you study English in elementary school (middle school/high school)?\n• What other languages did you study?\n• What was your favorite class?",
       },
       {
         taskNumber: "6",
         taskType: "...",
         languageFocus: "Future with present continuous and be going to",
-        examples: "• What are you doing later today?\n• Are you doing anything special tonight?\n• What are you going to do this weekend?",
+        examples:
+          "• What are you doing later today?\n• Are you doing anything special tonight?\n• What are you going to do this weekend?",
       },
     ],
   },
@@ -142,8 +149,8 @@ const defaultLevels: Level[] = [
   },
 ];
 
-interface PlacementTestProps {
-  levels: Level[];
+interface PlacementTestProps2 {
+  levels: any[];
 }
 
 interface Level {
@@ -160,12 +167,13 @@ interface Task {
 }
 
 export default function PlacementTest({
-  levels = defaultLevels,
-}: PlacementTestProps) {
+  levels
+}: any) {
+  levels=defaultLevels
   return (
     <>
       <Whiteboard title="Courses" subtitle="Placement Test" />
-      {levels.map((level, levelIndex) => (
+      {levels.map((level:any, levelIndex:any) => (
         <div className={styles["main-container"]} key={levelIndex}>
           <p
             className={styles["main-container-level"]}
@@ -173,7 +181,7 @@ export default function PlacementTest({
           >
             {level.level}
           </p>
-          {level.tasks.map((task, taskIndex) => (
+          {level.tasks.map((task:any, taskIndex:any) => (
             <div className={styles["inner-container"]} key={taskIndex}>
               <div className={styles["inner-container-text"]}>
                 <p className={styles["bold"]}>TASK # {task.taskNumber}</p>

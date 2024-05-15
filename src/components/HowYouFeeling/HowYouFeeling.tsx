@@ -211,9 +211,11 @@ export default function HowYouFeeling() {
     <>
       <div className="line-break">
         <AudioPlayer audioSrc="/assets/audio/how-you-feeling.mp3" />
-        <h3 className={style["feeling"]}>How are you doing?</h3>
-        <h3 className={style["feeling"]}>How's it going?</h3>
-        <h3 className={style["feeling"]}>How are you feeling today?</h3>
+        <div>
+          <h3 className={style["feeling"]}>How are you doing?</h3>
+          <h3 className={style["feeling"]}>How's it going?</h3>
+          <h3 className={style["feeling"]}>How are you feeling today?</h3>
+        </div>
         <div className={style["emoji-container"]}>
           {emojis.map((emoji) => (
             <div
