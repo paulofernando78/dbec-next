@@ -45,8 +45,8 @@ const defaultLevels: Level[] = [
       {
         taskNumber: "6",
         taskType: "...",
-        languageFocus: "...",
-        examples: "...",
+        languageFocus: "Future with present continuous and be going to",
+        examples: "• What are you doing later today?\n• Are you doing anything special tonight?\n• What are you going to do this weekend?",
       },
     ],
   },

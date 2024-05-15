@@ -30,7 +30,7 @@ import automobileIcon from "../../../public/assets/img/icon/automobile.png";
 import businessIcon from "../../../public/assets/img/icon/business.png";
 import chemistryIcon from "../../../public/assets/img/icon/chemistry.png";
 import codingIcon from "../../../public/assets/img/icon/coding.png";
-import cookingIcon from "../../../public/assets/img/icon/cooking.png";
+import foodDrinkIcon from "../../../public/assets/img/icon/food-drink.png";
 import dentistryIcon from "../../../public/assets/img/icon/dentistry.png";
 import gamesIcon from "../../../public/assets/img/icon/games.png";
 import geographyIcon from "../../../public/assets/img/icon/geography.png";
@@ -166,10 +166,10 @@ const navBarLinks = [
         name: "Coding"
       },
       {
-        imgSrc: cookingIcon,
+        imgSrc: foodDrinkIcon,
         altName: "Cooking icon",
-        link: "/specific-purposes/cooking",
-        name: "Cooking"
+        link: "/specific-purposes/food-drink",
+        name: "Food / Drink"
       },
       {
         imgSrc: dentistryIcon,

@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { Card } from "@/components/Card/Card";
