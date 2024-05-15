@@ -31,7 +31,7 @@ export const DictionaryCard = ({ audioSrc, label, phonetics }: DictionaryCardPro
           className={styles["play-button"]}
         />
         <span className={styles["label"]} dangerouslySetInnerHTML={{ __html: label }}></span>
-        {phonetics && <span className={`${"phonetics" } ${styles["phonetics-margin"]}`}>{phonetics}</span>}
+        {phonetics && <span className={`${"phonetics"} ${styles["phonetics-margin"]}`}>{phonetics}</span>}
         <Image
           src={Eye}
           alt="Eye icon"

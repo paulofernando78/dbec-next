@@ -78,6 +78,10 @@ p {
     text-decoration: underline;
 }
 
+.white-space-pw {
+    white-space: pre-wrap;
+}
+
 .line-break {
     display: flex;
     flex-direction: column;
