@@ -1,7 +1,7 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { Paragraph } from "@/components/Paragraph/Paragraph";
 
-import doc from "./doctor-patient.png";
+import doc from "@/img/cat1.jpg";
 import sickle from "./sickle.jpg";
 import { IParagraph } from "@/types/paragraph";
 

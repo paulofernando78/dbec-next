@@ -1,0 +1,675 @@
+[
+  {
+    "audio": "/assets/audio/dictionary/a/annoy-present.mp3",
+    "keyword": "annoy",
+    "phonetics": "/əˈnɔɪ/",
+    "partOfSpeech": "regular verb",
+    "definitions": [
+      {
+        "ptDefinition": "aborrecer, chatear, incomodar, irritar",
+        "examples": [
+          {
+            "enExample": "It's important to respect others' personal space and not do things that might annoy them.",
+            "ptExample": "É importante respeitar o espaço pessoal dos outros e não fazer coisas que possam incomodá-los."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "bother, irritate, bug",
+            "antonyms": "please, gratify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/a/annoyed-past.mp3",
+    "keyword": "annoyed",
+    "phonetics": "/əˈnɔɪd/",
+    "partOfSpeech": "past of annoy",
+    "definitions": [
+      {
+        "examples": [
+          {
+            "enExample": "Tina really annoyed me in the meeting this morning.",
+            "ptExample": "Tina realmente me chateou na reunião esta manhã."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/a/annoyed-past-participle.mp3",
+    "keyword": "annoyed",
+    "phonetics": "/əˈnɔɪd/",
+    "partOfSpeech": "past participle of annoy",
+    "definitions": [
+      {
+        "examples": [
+          {
+            "enExample": "The loud music has annoyed the neighbors for weeks.",
+            "ptExample": "A música alta tem incomodado os vizinhos há semanas."
+          },
+          {
+            "enExample": "The ongoing construction work has annoyed residents in the area.",
+            "ptExample": "As obras em andamento incomodaram/tem incomodado os moradores da região."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/a/annoying-present-participle.mp3",
+    "keyword": "annoying",
+    "phonetics": "/əˈnɔɪ.ɪŋ/",
+    "partOfSpeech": "present participle of annoy",
+    "definitions": [
+      {
+        "examples": [
+          {
+            "enExample": "I'm sorry - is my cough annoying you?",
+            "ptExample": "Sinto muito - minha tosse está incomodando você?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/a/annoys-he-she-it.mp3",
+    "keyword": "annoys",
+    "phonetics": "/əˈnɔɪz/",
+    "partOfSpeech": "he/she/it: affirmative only",
+    "definitions": [
+      {
+        "examples": [
+          {
+            "enExample": "It really annoys me when people cut in line.",
+            "ptExample": "Realmente me irrita quando as pessoas furam a fila."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/a/annoying-adjective.mp3",
+    "keyword": "annoying",
+    "phonetics": "/əˈnɔɪ.ɪŋ/",
+    "partOfSpeech": "adjective",
+    "definitions": [
+      {
+        "examples": [
+          {
+            "enExample": "It's really annoying when a train is late and there's no explanation.",
+            "ptExample": "É muito irritante quando um trem está atrasado e não há nenhuma explicação."
+          },
+          {
+            "enExample": "He's got a really annoying laugh.",
+            "ptExample": "Ele tem mesmo uma risada irritante."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/a/anxiety.mp3",
+    "keyword": "anxiety",
+    "phonetics": "",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "examples": [
+          {
+            "enExample": "....",
+            "ptExample": "..."
+          },
+          {
+            "enExample": "...",
+            "ptExample": "..."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/b/back-and-forth-issue.mp3",
+    "keyword": "back and forth on an issue",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "repeatedly changing one's mind about something; having trouble settling on an opinion or decision",
+        "examples": [
+          {
+            "enExample": "Should we change our company health plan? I can't make up my mind. I go back and forth on the issue."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/b/blockbuster.mp3",
+    "keyword": "blockbuster",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "a big success, something or someone that is forcefully or overwhelmingly impressive, effective or influential",
+        "examples": [
+          {
+            "enExample": "The campaign was a blockbuster."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/b/bells-and-whistles.mp3",
+    "keyword": "bells and whistles",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "extra product features, usually using the latest technology; product features which are attractive, but not essential for the product to function.",
+        "examples": [
+          {
+            "enExample": "Our office just got a new copier with all the bells and whistles. I'll probably never learn how to use all of its features!",
+            "ptExample": "Nosso escritório acaba de receber uma nova copiadora com todos os acessórios. Provavelmente nunca aprenderei como usar todos os seus recursos!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/t/to-the-letter.mp3",
+    "keyword": "to the letter",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "If you obey instructions or rules to the letter, you do exactly what you have been told to do, giving great attention to every detail.",
+        "examples": [
+          {
+            "enExample": "I followed the instructions to the letter and it still went wrong.",
+            "ptExample": "Segui as instruções ao pé da letra e mesmo assim deu errado."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/c/come-up-with-a winner.mp3",
+    "keyword": "come up with a winner",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "to think up a very good idea",
+        "examples": [
+          {
+            "enExample": "Everybody likes Pepsi's new advertising campaign. Their advertising agency has come up with a winner."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/f/face-the-music.mp3",
+    "keyword": "face the music",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "to admit that there's a problem; to deal with an unpleasant situation realistically",
+        "examples": [
+          {
+            "enExample": "Enron executives finally had to face the music and admit that they were involved in some illegal activities.",
+            "ptExample": "Os executivos da Enron finalmente tiveram que encarar a realidade e admitir que estavam envolvidos em algumas atividades ilegais."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/g/good.mp3",
+    "keyword": "good",
+    "phonetics": "/ɡʊd/",
+    "partOfSpeech": "adjective",
+    "definitions": [
+      {
+        "enDefinition": "very satisfactory, enjoyable, pleasant, or interesting",
+        "ptDefinition": "bom",
+        "examples": [
+          {
+            "enExample": "It's a good book.",
+            "ptExample": "É um bom livro."
+          }
+        ]
+      },
+      {
+        "enDefinition": "successful, or able to do something well",
+        "ptDefinition": "bom",
+        "examples": [
+          {
+            "enExample": "Kate's a good cook.",
+            "ptExample": "Kate é uma boa cozinheira."
+          },
+          {
+            "enExample": "He's very good <u>at</u> geography.",
+            "ptExample": "Ele é muito boa em geografia."
+          },
+          {
+            "enExample": "She's very good with children.",
+            "ptExample": "Ela é muito boa com crianças."
+          }
+        ]
+      },
+      {
+        "enDefinition": "kind or helpful",
+        "ptDefinition": "bom, gentil",
+        "examples": [
+          {
+            "enExample": "He's a good friend.",
+            "ptExample": "Ele é um bom amigo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/g/goods.mp3",
+    "keyword": "goods",
+    "phonetics": "/ɡʊdz/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "enDefinition": "things that are made to be sold",
+        "ptDefinition": "mercadorias, bens",
+        "examples": [
+          {
+            "enExample": "expensive goods",
+            "ptExample": "bens caros"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/h/hard-stop.mp3",
+    "keyword": "hard stop",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "It refers to a predetermined, non-negotiable point where an activity or process must come to an immediate halt or conclusion.",
+        "examples": [
+          {
+            "enExample": "I know some of you have a hard stop at 4:00 for another meeting, so I will keep my remarks brief.",
+            "ptExample": "Sei que alguns de vocês precisam encerrar às 16h para começar outra reunião, por isso serei breve."
+          },
+          {
+            "enExample": "Can we have a meeting with a hard stop at 10am?",
+            "ptExample": "Podemos ter uma reunião com encerramento às 10:00? "
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/n/nip.mp3",
+    "keyword": "nip ",
+    "phonetics": " /nɪp/",
+    "partOfSpeech": "verb",
+    "definitions": [
+      {
+        "enDefinition": "bite sharply",
+        "ptDefinition": "abocanhar, morder",
+        "examples": [
+          {
+            "enExample": "The puppy nipped me on the leg.",
+            "ptExample": "O cachorrinho me mordeu na perna."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "bite, , pinch, snap",
+            "antonyms": "lot???"
+          }
+        ]
+      },
+      {
+        "enDefinition": "frost",
+        "ptDefinition": "congelar",
+        "examples": [
+          {
+            "enExample": "The frost nipped the flowers.",
+            "ptExample": "A geada congelou as flores"
+          }
+        ]
+      },
+      {
+        "enDefinition": "[UK informal] to go somewhere quickly or be somewhere for only a short time",
+        "ptDefinition": "dar uma saída rápida",
+        "examples": [
+          {
+            "enExample": "Can you nip out/round/down to the shop for me?",
+            "ptExample": "Você pode ir rapidinho na loja para mim?"
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "go, rush, dash, stop by"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/n/nip-off.mp3",
+    "keyword": "nip off",
+    "partOfSpeech": "phrasal verb",
+    "definitions": [
+      {
+        "enDefinition": "remove something by pinching or squeezing sharply",
+        "ptDefinition": "arrancar, cortar",
+        "examples": [
+          {
+            "enExample": "He nipped off a length of wire with the cutters.",
+            "ptExample": "Ele cortou um pedaço de arame com o alicate."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "cut off, trim, remove"
+          }
+        ]
+      }
+    ],
+    "synonyms": "neck and neck, even, drawn, tied, balanced"
+  },
+  {
+    "audio": "/assets/audio/dictionary/n/nip-and-tuck-noun.mp3",
+    "keyword": "nip and tuck",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "enDefinition": "cosmetic surgery",
+        "ptDefinition": "cirurgia plástica",
+        "examples": [
+          {
+            "enExample": "Tessa has consulted a cosmetic surgeon about having a nip and tuck.",
+            "ptExample": "Tessa consultou um cirurgião plástico sobre fazer uma cirurgia plástica."
+          }
+        ]
+      }
+    ],
+    "synonyms": "neck and neck, even, drawn, tied, balanced",
+    "antonyms": "..."
+  },
+  {
+    "audio": "/assets/audio/dictionary/n/nip-and-tuck-adjective.mp3",
+    "keyword": "nip and tuck",
+    "partOfSpeech": "adjective",
+    "definitions": [
+      {
+        "enDefinition": "If a competition is nip and tuck, first one side seems to be winning and then the other, so that the result is not certain.",
+        "ptDefinition": "acirrado, indefinido",
+        "examples": [
+          {
+            "enExample": "It was nip and tuck as to who would win the playoffs.",
+            "ptExample": "A competição estava taco a taco, então era difícil saber quem venceria as finais."
+          },
+          {
+            "enExample": "That race was so nip and tuck that I had no idea who would win until the very end.",
+            "ptExample": "Aquela corrida foi tão acirrada que eu não tinha ideia de quem venceria até o final."
+          }
+        ]
+      }
+    ],
+    "synonyms": "neck and neck, even, drawn, tied, balanced",
+    "antonyms": "..."
+  },
+  {
+    "audio": "/assets/audio/dictionary/n/nip-in-the-bud.mp3",
+    "keyword": "nip (something) in the bud",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "to stop (something) as soon as it starts",
+        "ptDefinition": "cortar pela raiz",
+        "examples": [
+          {
+            "enExample": "The managers nipped the strike in the bud.",
+            "ptExample": "Os dirigentes cortaram a greve pela raiz."
+          }
+        ]
+      }
+    ],
+    "synonyms": "abort",
+    "antonyms": "cut off, cut short"
+  },
+  {
+    "audio": "/assets/audio/dictionary/p/petty.mp3",
+    "keyword": "(to be) petty",
+    "partOfSpeech": "adjective",
+    "definitions": [
+      {
+        "enDefinition": "complaining too much about things that are not important",
+        "ptDefinition": "mesquinho",
+        "examples": [
+          {
+            "enExample": "<u>Don't be</u> so <b>petty</b>!",
+            "ptExample": "Não seja tão mesquinho!"
+          }
+        ]
+      },
+      {
+        "enDefinition": "not important and not worth giving attention to",
+        "ptDefinition": "pequeno, insignificante",
+        "examples": [
+          {
+            "enExample": "a <b>petty</b> theft",
+            "ptExample": "um pequeno roubo"
+          },
+          {
+            "enExample": "a <b>petty</b> crime",
+            "ptExample": "um pequeno crime"
+          },
+          {
+            "enExample": "a <b>petty</b> official",
+            "ptExample": "official de ranque baixo"
+          },
+          {
+            "enExample": "I don’t have time for <b>petty</b> matters like that.",
+            "ptExample": "Não tenho tempo para assuntos sem importância."
+          },
+          {
+            "enExample": "Prisoners complain that they are subjected to too many <b>petty</b> rules and restrictions.",
+            "ptExample": "Os presos queixam-se de que estão sujeitos a demasiadas regras e restrições insignificantes."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "frivolous, trivial, minor, small, slight, unimportant, insig<u>ni</u>ficant, narrow-minded",
+            "antonyms": "greater, major, serious"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/s/seem-present.mp3",
+    "keyword": "seem",
+    "partOfSpeech": "regular verb",
+    "phonetics": "/siːm/",
+    "definitions": [
+      {
+        "enDefinition": "to give the effect of being; to be judged to be",
+        "ptDefinition": "parecer",
+        "examples": [
+          {
+            "enExample": "[+ infinitive] I seem <u>to know</u> more about him than anyone else.",
+            "ptExample": "Parece que sei mais sobre ele do que qualquer outra pessoa."
+          },
+          {
+            "enExample": "[+ noun] They seem to be good <u>people</u>.",
+            "ptExample": "Eles parecem ser pessoas boas."
+          },
+          {
+            "enExample": "[+ adjective] You seem <u>happy</u>.",
+            "ptExample": "Você parece feliz"
+          },
+          {
+            "enExample": "[+ adjective] You seem (to be) <u>nervous</u>.",
+            "ptExample": "Você parece estar nervoso(a)."
+          },
+          {
+            "enExample": "Things are seldom <u>as</u>/<u>how</u>/<u>what</u> they seem.",
+            "ptExample": "As coisas raramente são como/o que parecem."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "look, sound, suggest, imply",
+            "antonyms": "be real"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/s/seemed-past.mp3",
+    "keyword": "seemed",
+    "phonetics": "/siːmd/",
+    "partOfSpeech": "past of verb seem",
+    "definitions": [
+      {
+        "examples": [
+          {
+            "enExample": "The patient seemed to be in good health, with a healthy glow in his cheeks.",
+            "ptExample": "O paciente parecia estar com boa saúde, com um brilho saudável nas bochechas."
+          },
+          {
+            "enExample": "The children seemed (<u>as if</u>/<u>as though</u>/<u>like</u> they were) tired.",
+            "ptExample": "As crianças pareciam (como se / estivessem) cansadas."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/s/seems-he-she-it.mp3",
+    "keyword": "seems",
+    "phonetics": "/siːmz/",
+    "partOfSpeech": "he/she/it: affirmative only",
+    "definitions": [
+      {
+        "examples": [
+          {
+            "enExample": "It seems a good ideia.",
+            "ptExample": "Parece uma boa ideia."
+          },
+          {
+            "enExample": "He's 16, but he often seems (to be) younger.",
+            "ptExample": "Ele tem 16 anos, mas muitas vezes parece (ser) mais jovem."
+          },
+          {
+            "enExample": "[+ noun] He seems (to be) a nice <u>man</u>.",
+            "ptExample": "Ele parece (ser) um homem legal."
+          },
+          {
+            "enExample": "[+ adjective] She seems (to be) sad.",
+            "ptExample": "Ela parece (estar) triste."
+          },
+          {
+            "enExample": "It seems <u>clear</u> that there has been a mistake.",
+            "ptExample": "Parece claro que houve um erro."
+          },
+          {
+            "enExample": "Do whatever seems best to you.",
+            "ptExample": "Faça o que achar melhor."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/s/seeming-adjective.mp3",
+    "keyword": "seeming",
+    "phonetics": "/ˈsiː.mɪŋ/",
+    "partOfSpeech": "adjective",
+    "definitions": [
+      {
+        "ptDefinition": "aparente",
+        "examples": [
+          {
+            "enExample": "He said, with seeming embarrassment, that he would have to cancel the meeting.",
+            "ptExample": "Ele disse, com aparente constrangimento, que teria que cancelar a reunião."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/s/seemingly-adverb.mp3",
+    "keyword": "seemingly",
+    "phonetics": "/ˈsiː.mɪŋ.li/",
+    "partOfSpeech": "adverb",
+    "definitions": [
+      {
+        "ptDefinition": "aparentemente",
+        "examples": [
+          {
+            "enExample": "The factory closure is seemingly i<u>ne</u>vitable.",
+            "ptExample": "Aparentemente o fechamento da fábrica é inevitável."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/s/slippery-slope.mp3",
+    "keyword": "sliperry slope",
+    "phonetics": "...",
+    "partOfSpeech": "adverb",
+    "definitions": [
+      {
+        "ptDefinition": "bola de neve",
+        "examples": [
+          {
+            "enExample": "You're on a slippery slope once you start lying about your age!",
+            "ptExample": "Uma vez que você passa a mentir sobre sua idade, isso pode virar uma bola de neve."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/w/weird.mp3",
+    "keyword": "weird",
+    "partOfSpeech": "adjective",
+    "definitions": [
+      {
+        "ptDefinition": "esquisito, estranho",
+        "examples": [
+          {
+            "enExample": "He's weird.",
+            "ptExample": "Ele é esquisito."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/w/weirdo.mp3",
+    "keyword": "weirdo",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "ptDefinition": "pessoa estranha, esquisita",
+        "examples": [
+          {
+            "enExample": "He's a weirdo.",
+            "ptExample": "Ele é um \"bicho\" estranho."
+          },
+          {
+            "enExample": "[Radiohead's song: I'm a weirdo.",
+            "ptExample": "Eu sou um esquisitão."
+          }
+        ]
+      }
+    ]
+  }
+]

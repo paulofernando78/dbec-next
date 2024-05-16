@@ -1,14 +1,20 @@
 .input-button {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 .input-style {
-    padding: 6px 0 0 5px;
-    border-radius: var(--border-radius);
-    width: 300px;
+  padding: 6px 0 0 5px;
+  border-radius: var(--border-radius);
+  width: 300px;
 }
 
 .input-style::placeholder {
-    font-size: var(--p-size);
+  font-size: var(--p-size);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

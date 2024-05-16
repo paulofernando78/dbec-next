@@ -1,4 +1,6 @@
-"use client"
+"use client";
+import { useEffect, useState } from "react";
+import { Card } from "../Card/Card";
 import Image from "next/image";
 
 // Images
@@ -6,21 +8,43 @@ import PlayButton from "../../../public/assets/img/icon/play-button.png";
 import Eye from "../../../public/assets/img/icon/eye.png";
 
 // CSS
-import styles from "./DictionaryCard.module.css"
+import styles from "./DictionaryCard.module.css";
+import { CardWord, IDictionary, searchWords } from "@/app/dictionary/page";
 
 // Typescript
 interface DictionaryCardProps {
   audioSrc: string;
   label: string;
-  phonetics?: string
+  phonetics?: string;
 }
 
-export const DictionaryCard = ({ audioSrc, label, phonetics }: DictionaryCardProps) => {
+const baseAudioSrc = "/assets/audio/dictionary";
+
+export const DictionaryCard = ({
+  audioSrc,
+  label,
+  phonetics,
+}: DictionaryCardProps) => {
+  const [visible, setVisible] = useState(false);
+  const [dictionary, setDictionary] = useState<IDictionary | null>(null);
+
   const playAudio = () => {
     let audio = new Audio(audioSrc);
     audio.play();
   };
-  
+  audioSrc = baseAudioSrc + audioSrc;
+
+  useEffect(() => {
+      if (!dictionary) {
+          searchWords(label)
+            .then((dict) => {
+                if (dict?.length) {
+                  setDictionary(dict[0]);
+                }
+            });
+      }
+  }, []);
+
   return (
     <>
       <span className={styles["dictionary-card"]}>
@@ -30,14 +54,29 @@ export const DictionaryCard = ({ audioSrc, label, phonetics }: DictionaryCardPro
           onClick={playAudio}
           className={styles["play-button"]}
         />
-        <span className={styles["label"]} dangerouslySetInnerHTML={{ __html: label }}></span>
-        {phonetics && <span className={`${"phonetics"} ${styles["phonetics-margin"]}`}>{phonetics}</span>}
+        <span
+          className={styles["label"]}
+          dangerouslySetInnerHTML={{ __html: label }}
+        ></span>
+        {phonetics && (
+          <span className={`${"phonetics"} ${styles["phonetics-margin"]}`}>
+            {phonetics}
+          </span>
+        )}
         <Image
           src={Eye}
           alt="Eye icon"
           className={styles["eye"]}
+          onClick={() => setVisible(!visible)}
         />
       </span>
+
+      {/* {visible && <Card>
+        <p>English example</p>
+        <p>Portuguese example</p>
+      </Card>} */}
+
+      {visible && dictionary && <CardWord dictionary={dictionary} />}
     </>
   );
 };

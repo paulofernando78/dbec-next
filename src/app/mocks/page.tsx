@@ -36,7 +36,7 @@ const radio = [
 
 export default function Mocks() {
   // const [isClient, setIsClient] = useState(false)
- 
+
   // useEffect(() => {
   //   setIsClient(true)
   // }, [])
@@ -69,11 +69,7 @@ export default function Mocks() {
         </Card>
 
         <p>
-          I'm feeling{" "}
-          <DictionaryCard
-            audioSrc="/assets/audio/dictionary/g/good.mp3"
-            label="good"
-          />{" "}
+          I'm feeling <DictionaryCard audioSrc="/g/good.mp3" label="good" />{" "}
           today.
         </p>
       </div>

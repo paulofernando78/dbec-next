@@ -2,9 +2,10 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { Card } from "@/components/Card/Card";
 import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
-import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { VideoPlayer } from "@/components/VideoPlayer/VideoPlayer";
+import { Anxiety } from "@/components/Dictionary/Anxiety";
+import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 // Images
 
@@ -113,7 +114,7 @@ export default function FiveTipsHowToGetBetterSleep() {
         descriptions={["Five Tips to Get Better Sleep"]}
       />
       <div className="line-break">
-        <Card>
+        <Card bgColor="black" textColor="white">
           <b>Discussion</b>
         </Card>
         <p>What are some tips to get better sleep in your opinion?</p>
@@ -144,16 +145,16 @@ export default function FiveTipsHowToGetBetterSleep() {
 
         <div>
           <p>
-            Some of the major causes are <b>stress</b>, {" "}
+            Some of the major causes are <b>stress</b>,{" "}
             <DictionaryCard
-              label="<b>anxiety</b>"
+              label="anxiety"
               phonetics="/æŋˈzaɪ.ə.t̬i/"
-              audioSrc="/assets/audio/dictionary/a/anxiety.mp3"
+              audioSrc="/a/anxiety.mp3"
             />
             , and a culture that experts say is about{" "}
             <DictionaryCard
               label="productivity"
-              audioSrc="/assets/audio/dictionary/p/productivity.mp3"
+              audioSrc="/p/productivity.mp3"
             />
             , not rest.
           </p>
@@ -168,10 +169,7 @@ export default function FiveTipsHowToGetBetterSleep() {
           <p>
             Molly Atwood of Johns Hopkins School of Medicine said, "You need to
             understand what your body needs and try your hardest to{" "}
-            <DictionaryCard
-              label="prioritize"
-              audioSrc="/assets/audio/dictionary/p/prioritize.mp3"
-            />{" "}
+            <DictionaryCard label="prioritize" audioSrc="/p/prioritize.mp3" />{" "}
             that and not just see sleep as kind of what’s left over of the day.
           </p>
           <p className="portuguese">
@@ -229,8 +227,9 @@ export default function FiveTipsHowToGetBetterSleep() {
         <div>
           <p>
             Dr. Annise Wilson of Baylor University said, "Anything that helps to
-            center you and just helps you <DictionaryCard label="focus" audioSrc="/assets/audio/dictionary/f/focus.mp3"/> and release a lot of that
-            tension from the day will then help promote sleep.
+            center you and just helps you{" "}
+            <DictionaryCard label="focus" audioSrc="/f/focus.mp3" /> and release
+            a lot of that tension from the day will then help promote sleep.
           </p>
           <p className="portuguese">
             A Dra. Annise Wilson da Universidade Baylor disse: "Qualquer coisa
@@ -242,10 +241,7 @@ export default function FiveTipsHowToGetBetterSleep() {
         <div>
           <p>
             2. Watch what you{" "}
-            <DictionaryCard
-              label="eat"
-              audioSrc="/assets/audio/dictionary/e/eat.mp3"
-            />
+            <DictionaryCard label="eat" audioSrc="/e/eat.mp3" />
           </p>
           <p className="portuguese">Fique de olho no que você come.</p>
         </div>
@@ -328,8 +324,11 @@ export default function FiveTipsHowToGetBetterSleep() {
         </div>
         <div>
           <p>
-            <DictionaryCard label="Caffeine" audioSrc="/assets/audio/dictionary/c/caffeine.mp3"/> blocks <DictionaryCard label="adenosine" audioSrc="/assets/audio/dictionary/a/adenosine.mp3"/>, a chemical that helps make you feel
-            sleepy. And it can take your body up to 10 hours to clear caffeine.
+            <DictionaryCard label="Caffeine" audioSrc="/c/caffeine.mp3" />{" "}
+            blocks{" "}
+            <DictionaryCard label="adenosine" audioSrc="/a/adenosine.mp3" />, a
+            chemical that helps make you feel sleepy. And it can take your body
+            up to 10 hours to clear caffeine.
           </p>
           <p className="portuguese">
             A cafeína bloqueia a adenosina, uma substância química que ajuda a
@@ -339,8 +338,10 @@ export default function FiveTipsHowToGetBetterSleep() {
         </div>
         <div>
           <p>
-            For these reasons, experts <DictionaryCard label="suggest" audioSrc="/assets/audio/dictionary/s/suggest.mp3"/> finishing up your caffeinated or
-            alcoholic drinks many hours before bed.
+            For these reasons, experts{" "}
+            <DictionaryCard label="suggest" audioSrc="/s/suggest.mp3" />{" "}
+            finishing up your caffeinated or alcoholic drinks many hours before
+            bed.
           </p>
           <p className="portuguese">
             Por esses motivos, os especialistas sugerem terminar de consumir
@@ -355,10 +356,11 @@ export default function FiveTipsHowToGetBetterSleep() {
         </div>
         <div>
           <p>
-            Light from phones and computer screens can <DictionaryCard label="interfere" audioSrc="/assets/audio/dictionary/i/interfere.mp3"/> with the
-            circadian rhythm – or the internal clock that naturally wakes us up.
-            Light has this effect by suppressing melatonin, which assists with
-            sleep.
+            Light from phones and computer screens can{" "}
+            <DictionaryCard label="interfere" audioSrc="/i/interfere.mp3" />{" "}
+            with the circadian rhythm – or the internal clock that naturally
+            wakes us up. Light has this effect by suppressing melatonin, which
+            assists with sleep.
           </p>
           <p className="portuguese">
             A luz dos telefones e das telas de computador pode interferir no
@@ -369,7 +371,8 @@ export default function FiveTipsHowToGetBetterSleep() {
         </div>
         <div>
           <p>
-            But you will need self-control to stop looking at screens, <DictionaryCard label="suggested" audioSrc="/assets/audio/dictionary/s/suggested.mp3"/>
+            But you will need self-control to stop looking at screens,{" "}
+            <DictionaryCard label="suggested" audioSrc="/s/suggested.mp3" />
             Dr. Dianne Augelli of Weill Cornell Medicine.
           </p>
           <p className="portuguese">
@@ -417,8 +420,10 @@ export default function FiveTipsHowToGetBetterSleep() {
         <div>
           <p>
             Atwood said, "It doesn’t matter how much relaxation you do. At a
-            certain point, it's not going to be effective if there’s a <DictionaryCard label="significant" audioSrc="/assets/audio/dictionary/s/significant.mp3"/> amount of stress... It might involve some
-            problem-solving to figure that out."
+            certain point, it's not going to be effective if there’s a{" "}
+            <DictionaryCard label="significant" audioSrc="/s/significant.mp3" />{" "}
+            amount of stress... It might involve some problem-solving to figure
+            that out."
           </p>
           <p className="portuguese">
             Atwood disse: "Não importa o quanto você relaxe. Em certo ponto, não
@@ -430,14 +435,14 @@ export default function FiveTipsHowToGetBetterSleep() {
         <div>
           <p>I’m John Russell.</p>
         </div>
-        <Card>
+        <Card bgColor="black" textColor="white">
           <b>Exercises</b>
         </Card>
-      <Radio questions={radio} />
-      <Card>
-        Extra
-      </Card>
-      <VideoPlayer videoSrc="https://www.youtube.com/embed/foLf5Bi9qXs?si=vtShmFVU_Cl-wZDG" />
+        <Radio questions={radio} />
+        <Card bgColor="black" textColor="white">
+          Extra
+        </Card>
+        <VideoPlayer videoSrc="https://www.youtube.com/embed/foLf5Bi9qXs?si=vtShmFVU_Cl-wZDG" />
       </div>
     </>
   );

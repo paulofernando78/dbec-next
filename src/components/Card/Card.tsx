@@ -3,11 +3,13 @@ import style from "./Card.module.css"
 
 interface CardProps {
     children: ReactNode;
+    bgColor?: string
+    textColor?: string
 }
 
-export const Card = ({children}:CardProps) => {
+export const Card = ({children, bgColor, textColor}: CardProps) => {
   return (
-    <div className={style["card"]}> 
+    <div className={style["card"]} style={{ backgroundColor: bgColor, color: textColor }}>
     <p>{children}</p>
     </div>
   )

@@ -10,15 +10,14 @@ export default function Articles() {
         descriptions={["Articles"]}
       />
       <Link href="/specific-purposes/medicine/articles/five-tips-to-get-better-sleep">
-        <p>Five Tips to Get Better Sleep (April 29, 2024)</p>
+        <p>(April 29, 2024) Five Tips to Get Better Sleep</p>
       </Link>
       <Link href="/specific-purposes/medicine/articles/study-humans-give-more-viruses-to-animals-than-they-give-us">
-        <p>Study: Humans Give More Viruses to Animals Than They Give Us</p>
+        <p>(April, 8, 2024) Study: Humans Give More Viruses to Animals Than They Give Us</p>
         </Link>
       <Link href="/specific-purposes/medicine/articles/studies-gene-treatment-lets-children-deaf-at-birth-hear">
         <p>
-          Studies: Gene Treatment Lets Children Deaf at Birth Hear (Jan 29,
-          2024)
+        (Jan 29, 2024) Studies: Gene Treatment Lets Children Deaf at Birth Hear 
         </p>
       </Link>
     </>
