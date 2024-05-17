@@ -4,45 +4,41 @@ import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
+// const radio = [
+//     {
+//         title: "1. Choose the correct answer.",
+//         question: "1. Question",
+//         options: [
+//             { id: "1", option: "Answer 1" },
+//             { id: "2", option: "Answer 2" },
+//             { id: "3", option: "Answer 3" },
+//         ],
+//         correctOptionId: 1
+//   }
+// ];
+
+// const radio = [
+//   {
+//     title: "1. Choose the correct answer.",
+//     question: "1. Question",
+//     options: ["Answer 1", "Answer 2", "Answer 3"],
+//     correctOptionId: 1,
+//   },
+// ];
+
 const radio = [
   {
-    title: "<b>1. Choose the correct answer.</b>",
-    subtitle: "1. Question",
+    title: "1. Choose the correct answer.",
+    question: "1. Question",
     options: [
-      {
-        label: "Answer 1",
-        isCorrect: true,
-      },
-      {
-        label: "Answer 2",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    subtitle: "2. Question",
-    options: [
-      {
-        label: "Answer 1",
-        isCorrect: true,
-      },
-      {
-        label: "Answer 2",
-        isCorrect: false,
-      },
+        { isCorrect: false, label: "Answer 1" },
+        { isCorrect: true, label: "Answer 2" },
+        { isCorrect: false, label: "Answer 3" },
     ],
   },
 ];
 
 export default function Mocks() {
-  // const [isClient, setIsClient] = useState(false)
-
-  // useEffect(() => {
-  //   setIsClient(true)
-  // }, [])
-
-  // if (!isClient) return "Loading"
-
   return (
     <div>
       <Whiteboard title="Mocks" />
