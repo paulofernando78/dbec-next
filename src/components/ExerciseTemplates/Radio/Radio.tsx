@@ -47,10 +47,7 @@ export const Radio = ({ questions }: RadioProps) => {
   return (
     <div className="line-break">
       {questions.map((question, qIndex) => (
-        <div
-          key={qIndex}
-          className="line-break"
-        >
+        <div key={qIndex} className="line-break">
           {!!question.title && (
             <div>
               <p dangerouslySetInnerHTML={{ __html: question.title }} />

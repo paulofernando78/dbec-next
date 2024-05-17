@@ -111,20 +111,17 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/a/anxiety.mp3",
+    "audio": "/assets/audio/dictionary/a/anxiety-d.mp3",
     "keyword": "anxiety",
-    "phonetics": "",
+    "phonetics": "/æŋˈzaɪ.ə.t̬i/",
     "partOfSpeech": "noun",
     "definitions": [
       {
+        "ptDefinition": "apreensão, inquietude, ansiedade",
         "examples": [
           {
-            "enExample": "....",
-            "ptExample": "..."
-          },
-          {
-            "enExample": "...",
-            "ptExample": "..."
+            "enExample": "Children normally feel a lot of anxiety about their first day at school.",
+            "ptExample": "As crianças normalmente sentem muita ansiedade no seu primeiro dia na escola."
           }
         ]
       }
@@ -177,22 +174,6 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/t/to-the-letter.mp3",
-    "keyword": "to the letter",
-    "partOfSpeech": "idiom",
-    "definitions": [
-      {
-        "enDefinition": "If you obey instructions or rules to the letter, you do exactly what you have been told to do, giving great attention to every detail.",
-        "examples": [
-          {
-            "enExample": "I followed the instructions to the letter and it still went wrong.",
-            "ptExample": "Segui as instruções ao pé da letra e mesmo assim deu errado."
-          }
-        ]
-      }
-    ]
-  },
-  {
     "audio": "/assets/audio/dictionary/c/come-up-with-a winner.mp3",
     "keyword": "come up with a winner",
     "partOfSpeech": "idiom",
@@ -218,6 +199,69 @@
           {
             "enExample": "Enron executives finally had to face the music and admit that they were involved in some illegal activities.",
             "ptExample": "Os executivos da Enron finalmente tiveram que encarar a realidade e admitir que estavam envolvidos em algumas atividades ilegais."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/xxx.mp3",
+    "keyword": "feel like",
+    "definitions": [
+      {
+        "ptDefinition": "sentir-se como",
+        "examples": [
+          {
+            "enExample": "I feel like a princess in this beautiful dress.",
+            "ptExample": "Eu me sinto como uma princesa neste lindo vestido."
+          },
+          {
+            "enExample": "He felt like an idiot (= He felt very foolish).",
+            "ptExample": "Ele se sentiu como um idiota (= Ele se sentiu muito tolo)."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "fancy (UK)"
+          }
+        ]
+      },
+      {
+        "ptDefinition": "ter vontade, apetecer",
+        "examples": [
+          {
+            "enExample": "I feel like a drink",
+            "ptExample": "Estou com vontade de beber."
+          },
+          {
+            "enExample": "[+ing] I feel like drinking something.",
+            "ptExample": "Estou com vontade de beber algo."
+          },
+          {
+            "enExample": "[+ing] Do you feel like going to the movies?",
+            "ptExample": "Você está a fim de ir ao cinema?."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/f/focus.mp3",
+    "keyword": "focus",
+    "phonetics": "/ˈfoʊ.kəs/",
+    "partOfSpeech": "verb",
+    "definitions": [
+      {
+        "ptDefinition": "foco",
+        "examples": [
+          {
+            "enExample": "I think Dave likes to be the focus of attention.",
+            "ptExample": "Acho que o Dave gosta de ser o centro das atenções."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "center, spotlight, limelight"
           }
         ]
       }
@@ -450,7 +494,7 @@
         "ptDefinition": "mesquinho",
         "examples": [
           {
-            "enExample": "<u>Don't be</u> so <b>petty</b>!",
+            "enExample": "<u>Don't be</u> so petty!",
             "ptExample": "Não seja tão mesquinho!"
           }
         ]
@@ -460,30 +504,71 @@
         "ptDefinition": "pequeno, insignificante",
         "examples": [
           {
-            "enExample": "a <b>petty</b> theft",
+            "enExample": "a petty theft",
             "ptExample": "um pequeno roubo"
           },
           {
-            "enExample": "a <b>petty</b> crime",
+            "enExample": "a petty crime",
             "ptExample": "um pequeno crime"
           },
           {
-            "enExample": "a <b>petty</b> official",
+            "enExample": "a petty official",
             "ptExample": "official de ranque baixo"
           },
           {
-            "enExample": "I don’t have time for <b>petty</b> matters like that.",
+            "enExample": "I don’t have time for petty matters like that.",
             "ptExample": "Não tenho tempo para assuntos sem importância."
           },
           {
-            "enExample": "Prisoners complain that they are subjected to too many <b>petty</b> rules and restrictions.",
+            "enExample": "Prisoners complain that they are subjected to too many petty rules and restrictions.",
             "ptExample": "Os presos queixam-se de que estão sujeitos a demasiadas regras e restrições insignificantes."
           }
         ],
         "thesauri": [
           {
-            "synonyms": "frivolous, trivial, minor, small, slight, unimportant, insig<u>ni</u>ficant, narrow-minded",
+            "synonyms": "frivolous, trivial, minor, small, slight, unimportant, insignificant, narrow-minded",
             "antonyms": "greater, major, serious"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/xxx.mp3",
+    "keyword": "plantain",
+    "phonetics": "...",
+    "partOfSpeech": "...",
+    "definitions": [
+      {
+        "enDefinition": "...",
+        "ptDefinition": "banana-da-terra",
+        "examples": [
+          {
+            "enExample": "...",
+            "ptExample": "..."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "...",
+            "antonyms": "..."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/p/productivity-d.mp3",
+    "keyword": "productivity",
+    "phonetics": "/ˌproʊ.dəkˈtɪv.ə.t̬i/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "ptDefinition": "produtividade",
+        "examples": [
+          {
+            "enExample": "Studies show that if a working environment is pleasant, productivity increases.",
+            "ptExample": "Estudos demonstram que, se um ambiente de trabalho é agradável, a produtividade aumenta."
           }
         ]
       }
@@ -504,19 +589,60 @@
             "ptExample": "Parece que sei mais sobre ele do que qualquer outra pessoa."
           },
           {
-            "enExample": "[+ noun] They seem to be good <u>people</u>.",
+            "enExample": "[+ noun] They seem to be good people.",
             "ptExample": "Eles parecem ser pessoas boas."
           },
           {
-            "enExample": "[+ adjective] You seem <u>happy</u>.",
+            "enExample": "[+ adjective] You seem happy.",
             "ptExample": "Você parece feliz"
           },
           {
-            "enExample": "[+ adjective] You seem (to be) <u>nervous</u>.",
+            "enExample": "[+ adjective] You seem (to be) nervous.",
             "ptExample": "Você parece estar nervoso(a)."
           },
           {
-            "enExample": "Things are seldom <u>as</u>/<u>how</u>/<u>what</u> they seem.",
+            "enExample": "Things are seldom as/how/what they seem.",
+            "ptExample": "As coisas raramente são como/o que parecem."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "look, sound, suggest, imply",
+            "antonyms": "be real"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "audio": "/assets/audio/dictionary/s/seem-present.mp3",
+    "keyword": "seem",
+    "partOfSpeech": "regular verb",
+    "phonetics": "/siːm/",
+    "definitions": [
+      {
+        "enDefinition": "to give the effect of being; to be judged to be",
+        "ptDefinition": "parecer",
+        "examples": [
+          {
+            "enExample": "[+ infinitive] I seem <u>to know</u> more about him than anyone else.",
+            "ptExample": "Parece que sei mais sobre ele do que qualquer outra pessoa."
+          },
+          {
+            "enExample": "[+ noun] They seem to be good people.",
+            "ptExample": "Eles parecem ser pessoas boas."
+          },
+          {
+            "enExample": "[+ adjective] You seem happy.",
+            "ptExample": "Você parece feliz"
+          },
+          {
+            "enExample": "[+ adjective] You seem (to be) nervous.",
+            "ptExample": "Você parece estar nervoso(a)."
+          },
+          {
+            "enExample": "Things are seldom as/how/what they seem.",
             "ptExample": "As coisas raramente são como/o que parecem."
           }
         ],
@@ -631,6 +757,22 @@
           {
             "enExample": "You're on a slippery slope once you start lying about your age!",
             "ptExample": "Uma vez que você passa a mentir sobre sua idade, isso pode virar uma bola de neve."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/t/to-the-letter.mp3",
+    "keyword": "to the letter",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "If you obey instructions or rules to the letter, you do exactly what you have been told to do, giving great attention to every detail.",
+        "examples": [
+          {
+            "enExample": "I followed the instructions to the letter and it still went wrong.",
+            "ptExample": "Segui as instruções ao pé da letra e mesmo assim deu errado."
           }
         ]
       }

@@ -71,11 +71,6 @@ export const DictionaryCard = ({
         />
       </span>
 
-      {/* {visible && <Card>
-        <p>English example</p>
-        <p>Portuguese example</p>
-      </Card>} */}
-
       {visible && dictionary && <CardWord dictionary={dictionary} />}
     </>
   );

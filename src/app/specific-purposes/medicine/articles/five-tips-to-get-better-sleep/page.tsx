@@ -148,7 +148,6 @@ export default function FiveTipsHowToGetBetterSleep() {
             Some of the major causes are <b>stress</b>,{" "}
             <DictionaryCard
               label="anxiety"
-              phonetics="/æŋˈzaɪ.ə.t̬i/"
               audioSrc="/a/anxiety.mp3"
             />
             , and a culture that experts say is about{" "}
