@@ -1,0 +1,35 @@
+.input-button {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1.15rem
+  }
+  
+  .input-style {
+    padding: 6px 0 0 5px;
+    border-radius: var(--border-radius);
+    width: 300px;
+    font-size: var(--p-size);
+  }
+  
+  .input-style::placeholder {
+    font-size: var(--p-size);
+  }
+  
+  .card-word-margin-top {
+    margin: 3px 0
+  }
+  
+  .margin-right {
+      display: inline-block;
+      margin-right: 5px;
+  }
+  
+  .flex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .audio-player-margin-top {
+  margin-top: 5px;
+  }
