@@ -1,4 +1,4 @@
-import { IDictionary } from "@/app/dictionary/page";
+import { IDictionary } from "../../interfaces";
 
 export async function searchWords(word: string) {
     try {

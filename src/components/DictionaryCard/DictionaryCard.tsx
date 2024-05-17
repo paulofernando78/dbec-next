@@ -1,6 +1,5 @@
 "use client";
 import { useEffect, useState } from "react";
-import { Card } from "../Card/Card";
 import Image from "next/image";
 
 // Images
@@ -9,7 +8,9 @@ import Eye from "../../../public/assets/img/icon/eye.png";
 
 // CSS
 import styles from "./DictionaryCard.module.css";
-import { CardWord, IDictionary, searchWords } from "@/app/dictionary/page";
+import { IDictionary } from "../../../interfaces";
+import { searchWords } from "@/utils/searchWords";
+import { CardWord } from "../CardWord/CardWord";
 
 // Typescript
 interface DictionaryCardProps {
@@ -35,6 +36,7 @@ export const DictionaryCard = ({
   audioSrc = baseAudioSrc + audioSrc;
 
   useEffect(() => {
+    console.log("kkkkk")
       if (!dictionary) {
           searchWords(label)
             .then((dict) => {
@@ -43,7 +45,7 @@ export const DictionaryCard = ({
                 }
             });
       }
-  }, []);
+  },);
 
   return (
     <>
