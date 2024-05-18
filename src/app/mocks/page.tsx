@@ -4,28 +4,6 @@ import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
-// const radio = [
-//     {
-//         title: "1. Choose the correct answer.",
-//         question: "1. Question",
-//         options: [
-//             { id: "1", option: "Answer 1" },
-//             { id: "2", option: "Answer 2" },
-//             { id: "3", option: "Answer 3" },
-//         ],
-//         correctOptionId: 1
-//   }
-// ];
-
-// const radio = [
-//   {
-//     title: "1. Choose the correct answer.",
-//     question: "1. Question",
-//     options: ["Answer 1", "Answer 2", "Answer 3"],
-//     correctOptionId: 1,
-//   },
-// ];
-
 const radio = [
   {
     title: "1. Choose the correct answer.",
