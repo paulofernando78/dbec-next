@@ -11,96 +11,12 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const radio = [
   {
-    title: "<b>Choose the correct answer.</b>",
-    subtitle:
-      "1. What is one suggested way to improve sleep quality according to sleep experts?",
+    title: "1. Choose the correct answer.",
+    question: "1. Question",
     options: [
-      {
-        label: "a) Checking email and social media before bed",
-        isCorrect: false,
-      },
-      {
-        label: "b) Eating a large meal right before bedtime",
-        isCorrect: false,
-      },
-      {
-        label: "c) Creating a buffer zone between work and bedtime",
-        isCorrect: true,
-      },
-    ],
-  },
-  {
-    subtitle: "2. How does alcohol consumption affect sleep?",
-    options: [
-      {
-        label:
-          "a) It helps in falling asleep but disrupts sleep cycles later on",
-        isCorrect: true,
-      },
-      {
-        label: "b) It improves sleep quality by promoting deep sleep",
-        isCorrect: false,
-      },
-      {
-        label: "c) It has no impact on sleep patterns",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    subtitle:
-      "3. What is the recommended timeframe for finishing caffeinated or alcoholic drinks before bed?",
-    options: [
-      {
-        label: "a) Just before bedtime",
-        isCorrect: false,
-      },
-      {
-        label: "b) Many hours before bedtime",
-        isCorrect: true,
-      },
-      {
-        label: "c) Right after dinner",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    subtitle:
-      "4. Why is it suggested to limit technology usage before bedtime?",
-    options: [
-      {
-        label: "a) Technology helps in relaxing the mind and promoting sleep",
-        isCorrect: false,
-      },
-      {
-        label:
-          "b) Light from screens can interfere with the natural sleep cycle",
-        isCorrect: true,
-      },
-      {
-        label: "c) Watching screens before bed has no impact on sleep quality",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    subtitle: "5. When should you consider seeing a doctor about sleep issues?",
-    options: [
-      {
-        label:
-          "a) If sleepless nights are impacting work or mood after more than one month",
-        isCorrect: true,
-      },
-      {
-        label: "b) After just a few nights of poor sleep",
-        isCorrect: false,
-      },
-      {
-        label:
-          "c) Only if you have trouble falling asleep, not if you have trouble staying asleep",
-        isCorrect: false,
-      },
+        { isCorrect: false, label: "Answer 1" },
+        { isCorrect: true, label: "Answer 2" },
+        { isCorrect: false, label: "Answer 3" },
     ],
   },
 ];
