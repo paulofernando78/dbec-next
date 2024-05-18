@@ -23,6 +23,6 @@ export interface IDictionaryDefinitionsThesauri {
     definitions: IDictionaryDefinitions[];
   }
   
-  export interface ICardWord {
+  export interface WordCardProps {
     dictionary: IDictionary;
   }

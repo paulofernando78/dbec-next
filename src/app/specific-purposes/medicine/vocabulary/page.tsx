@@ -13,6 +13,7 @@ export default function Vocabulary() {
             <p>
               Malignant <span className="phonetics">/məˈlɪɡ.nənt/</span>
             </p>
+            <p>MS flare up (Multiple Sclerosis)</p>
             <p>Opportunistic Infections (Ols)</p>
             <p>Polycystic Ovary Syndrome (PCOS)</p>
             <p>prostate (cancer)</p>

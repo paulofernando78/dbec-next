@@ -11,7 +11,13 @@ const radio = [
     options: [
         { label: "Answer 1", isCorrect: true },
         { label: "Answer 2", isCorrect: false },
-        { label: "Answer 3", isCorrect: false },
+    ],
+  },
+  {
+    question: "2. Question",
+    options: [
+        { label: "Answer 1", isCorrect: true },
+        { label: "Answer 2", isCorrect: false },
     ],
   },
 ];
@@ -21,30 +27,29 @@ export default function Mocks() {
     <div>
       <Whiteboard title="Mocks" />
       <div className="line-break">
-        <Card>
+        <Card bgColor="black" textColor="white">
           <b>Audio Player</b>
         </Card>
         <AudioPlayer audioSrc="https://actions.google.com/sounds/v1/alarms/bugle_tune.ogg" />
-        <Card>
+        <Card bgColor="black" textColor="white">
           <b>Radio</b>
         </Card>
         <Radio questions={radio} />
-        <Card>
+        <Card bgColor="black" textColor="white">
           <b>Checkbox</b>
         </Card>
-        <Card>
+        <Card bgColor="black" textColor="white">
           <b>Dropdown</b>
         </Card>
-        <Card>
+        <Card bgColor="black" textColor="white">
           <b>Fill in The Blanks</b>
         </Card>
-        <Card>
+        <Card bgColor="black" textColor="white">
           <b>Dictionary Card</b>
         </Card>
 
         <p>
-          I'm feeling <DictionaryCard audioSrc="/g/good.mp3" label="good" />{" "}
-          today.
+          I'm feeling <DictionaryCard audioSrc="/g/good.mp3" label="annoy"/> today.
         </p>
       </div>
     </div>

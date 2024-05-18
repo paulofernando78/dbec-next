@@ -174,8 +174,8 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/c/chimpanzees.mp3",
-    "keyword": "chimpanzees",
+    "audio": "/assets/audio/dictionary/c/chimpanzee.mp3",
+    "keyword": "chimpanzee",
     "phonetics": "/ˌtʃɪm.pænˈziːz/",
     "partOfSpeech": "noun",
     "definitions": [
@@ -201,6 +201,23 @@
         "examples": [
           {
             "enExample": "Everybody likes Pepsi's new advertising campaign. Their advertising agency has come up with a winner."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/d/deadliest.mp3",
+    "keyword": "deadliest",
+    "phonetics": "/ˈded.li/",
+    "partOfSpeech": "superlative of deadly",
+    "definitions": [
+      {
+        "ptDefinition": "mais mortal",
+        "examples": [
+          {
+            "enExample": "It's one of the deadliest virus.",
+            "ptExample": "..."
           }
         ]
       }

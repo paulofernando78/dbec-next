@@ -4,7 +4,6 @@ import { Card } from "@/components/Card/Card";
 import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { VideoPlayer } from "@/components/VideoPlayer/VideoPlayer";
-import { Anxiety } from "@/components/Dictionary/Anxiety";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 // Images

@@ -1,11 +1,11 @@
-import { ICardWord, IDictionaryDefinitions, IDictionaryDefinitionsThesauri } from "../../../interfaces";
+import { WordCardProps, IDictionaryDefinitions, IDictionaryDefinitionsThesauri } from "../../../interfaces";
 import { AudioPlayer } from "../Audioplayer/Audioplayer";
 import { Card } from "../Card/Card";
 
-import styles from "./CardWord.module.css"
+import styles from "./WordCard.module.css"
 
 
-export function CardWord({ dictionary }: ICardWord) {
+export function WordCard({ dictionary }: WordCardProps) {
     return (
       <div className={styles["card-word-margin-top"]}>
         <Card bgColor="#FFF8B8">

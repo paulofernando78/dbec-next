@@ -10,7 +10,7 @@ import Eye from "../../../public/assets/img/icon/eye.png";
 import styles from "./DictionaryCard.module.css";
 import { IDictionary } from "../../../interfaces";
 import { searchWords } from "@/utils/searchWords";
-import { CardWord } from "../CardWord/CardWord";
+import { WordCard } from "../WordCard/WordCard";
 
 // Typescript
 interface DictionaryCardProps {
@@ -73,7 +73,7 @@ export const DictionaryCard = ({
         />
       </span>
 
-      {visible && dictionary && <CardWord dictionary={dictionary} />}
+      {visible && dictionary && <WordCard dictionary={dictionary} />}
     </>
   );
 };

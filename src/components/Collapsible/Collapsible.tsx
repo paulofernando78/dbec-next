@@ -2,6 +2,9 @@
 import { useState } from "react";
 import { Card } from "../Card/Card";
 
+import plusIcon from "@/img/icon/plus.png"
+import minusIcon from "@/img/icon/minus.png"
+
 interface CollapsibleProps {
   label?: string;
   labelBold?: string;
@@ -17,7 +20,8 @@ export const Collapsible = ({ label, labelBold, children }: CollapsibleProps) =>
   return (
     <>
       <Card>
-        <span onClick={toggleCollapse}>
+        <span onClick={toggleCollapse} className="cursor-pointer">
+        {isOpen ? "-" : "+"}
           {label}
           <b>{labelBold}</b>
         </span>

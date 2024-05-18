@@ -163,6 +163,10 @@ p {
     height: fit-content; */
 }
 
+.cursor-pointer {
+    cursor: pointer;
+}
+
 /* Icons */
 
 .icon-general {

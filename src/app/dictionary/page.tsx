@@ -9,7 +9,7 @@ import { Button } from "@/components/Button/Button";
 import styles from "./dictionary.module.css";
 import { searchWords } from "@/utils/searchWords";
 import { IDictionary } from "../../../interfaces";
-import { CardWord } from "@/components/CardWord/CardWord";
+import { WordCard } from "@/components/WordCard/WordCard";
 
 export default function Dictionary() {
   const [text, setText] = useState("");
@@ -38,20 +38,26 @@ export default function Dictionary() {
         title="Dictionary"
         descriptions={["verb", "phrasal verb", "noun", "adjective", "idiom"]}
       />
-      <div className={styles["input-button"]}>
-        <input
-          type="text"
-          placeholder="Enter a word"
-          className={styles["input-style"]}
-          onChange={(e) => setText(e.target.value)}
-          onKeyUp={detectEnterClick}
-        />
-        <Button label="search" onClick={handleClick} />
-      </div>
-      <div className={styles["flex"]}>
-        {dicts.map((dict, index) => {
-          return <CardWord key={index} dictionary={dict} />;
-        })}
+      <div className="line-break">
+        <div>
+          <a href="https://youglish.com/"><p>Youglish</p></a>
+          <a href="https://www.playphrase.me/"><p>Play Phrase</p></a>
+        </div>
+        <div className={styles["input-button"]}>
+          <input
+            type="text"
+            placeholder="Enter a word"
+            className={styles["input-style"]}
+            onChange={(e) => setText(e.target.value)}
+            onKeyUp={detectEnterClick}
+          />
+          <Button label="search" onClick={handleClick} />
+        </div>
+        <div className={styles["flex"]}>
+          {dicts.map((dict, index) => {
+            return <WordCard key={index} dictionary={dict} />;
+          })}
+        </div>
       </div>
     </>
   );
