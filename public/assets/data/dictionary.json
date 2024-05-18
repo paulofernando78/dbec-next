@@ -536,8 +536,8 @@
   {
     "audio": "/assets/audio/dictionary/xxx.mp3",
     "keyword": "plantain",
-    "phonetics": "...",
-    "partOfSpeech": "...",
+    "phonetics": "/ˈplæn.tɪn/",
+    "partOfSpeech": "noun",
     "definitions": [
       {
         "enDefinition": "...",
@@ -546,12 +546,6 @@
           {
             "enExample": "...",
             "ptExample": "..."
-          }
-        ],
-        "thesauri": [
-          {
-            "synonyms": "...",
-            "antonyms": "..."
           }
         ]
       }
