@@ -9,7 +9,7 @@ interface Option {
 }
 
 interface Question {
-  title: string;
+  title?: string;
   question: string;
   options: Option[];
 }

@@ -9,9 +9,9 @@ const radio = [
     title: "1. Choose the correct answer.",
     question: "1. Question",
     options: [
-        { isCorrect: false, label: "Answer 1" },
-        { isCorrect: true, label: "Answer 2" },
-        { isCorrect: false, label: "Answer 3" },
+        { label: "Answer 1", isCorrect: true },
+        { label: "Answer 2", isCorrect: false },
+        { label: "Answer 3", isCorrect: false },
     ],
   },
 ];

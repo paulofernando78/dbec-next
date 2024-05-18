@@ -4,47 +4,130 @@ import { Card } from "@/components/Card/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { Collapsible } from "@/components/Collapsible/Collapsible";
+import Image from "next/image";
 
-// const radio = [
-//   {
-//     title: "1. Choose the correct answer.",
-//     question: "1. What does the story say about disease transmissions from one animal species to another?",
-//     options: [
-//         { isCorrect: false, label: "Transmissions are a problem because one animal species may cause another species to have immunity." },
-//         { isCorrect: true, label: "Most disease transmissions go from one animal species to another." },
-//         { isCorrect: false, label: "Humans give as many viruses to animal species as animal species give to humans." },
-//         { isCorrect: false, label: "This event is called zoonosis." },
-//     ],
-//   },
-//   {
+// Images
+import civet from "@/img/civet.jpg";
 
-//     question: "2. Question",
-//     options: [
-//         { isCorrect: false, label: "Answer 1" },
-//         { isCorrect: false, label: "Answer 2" },
-//         { isCorrect: false, label: "Answer 3" },
-//         { isCorrect: false, label: "Answer 4" },
-//     ],
-//   },
-//   {
-//     question: "3. Question",
-//     options: [
-//         { isCorrect: false, label: "Answer 1" },
-//         { isCorrect: false, label: "Answer 2" },
-//         { isCorrect: false, label: "Answer 3" },
-//         { isCorrect: false, label: "Answer 4" },
-//     ],
-//   },
-//   {
-//     question: "4. Question",
-//     options: [
-//         { isCorrect: false, label: "Answer 1" },
-//         { isCorrect: false, label: "Answer 2" },
-//         { isCorrect: false, label: "Answer 3" },
-//         { isCorrect: false, label: "Answer 4" },
-//     ],
-//   },
-// ];
+const radio = [
+  {
+    title: "1. Choose the correct answer.",
+    question:
+      "1. What does the story say about disease transmissions from one animal species to another?",
+    options: [
+      {
+        label:
+          "Transmissions are a problem because one animal species may cause another species to have immunity.",
+        isCorrect: false,
+      },
+      {
+        label:
+          "Most disease transmissions go from one animal species to another.",
+        isCorrect: true,
+      },
+      {
+        label:
+          "Humans give as many viruses to animal species as animal species give to humans.",
+        isCorrect: false,
+      },
+      {
+        label: "This event is called zoonosis." ,
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    question: "2. What is an example of a disease that is believed to have spread from animals to humans?",
+    options: [
+      {
+        label: "AIDS",
+        isCorrect: false,
+      },
+      {
+        label: "COVID-19",
+        isCorrect: false,
+      },
+      {
+        label: "Ebola",
+        isCorrect: false,
+      },
+      { 
+        label: "All of the above.",
+        isCorrect: true,
+      },
+    ],
+  },
+  {
+    question: "3. What is true about human-to-animal disease transmission?",
+    options: [
+      {
+        label: "Humans give about two times as many viruses to animals than they give to humans.",
+        isCorrect: true,
+      },
+      {
+        label: "About 36 percent of transmissions are human-to-animal.",
+        isCorrect: false,
+      },
+      {
+        label: "Human-to-animal disease transmission is called zoonosis.",
+        isCorrect: false,
+      },
+      { 
+        label: "It happens less often than animal-to-human transmission.",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    question: "4. Why does Cedric Tan say bird flu H591 is especially dangerous to other species?",
+    options: [
+      {
+        label: "Birds have no immunity to the disease.",
+        isCorrect: false,
+      },
+      {
+        label: "Diseases that come from birds are usually harmful.",
+        isCorrect: true,
+      },
+      {
+        label: "The new species has no pre-existing immunity to the disease.",
+        isCorrect: true,
+      },
+      { 
+        label: "It is a serious case of anthroponosis.",
+        isCorrect: false,
+      },
+    ],
+  },
+  // {
+
+  //   question: "2. Question",
+  //   options: [
+  //       { isCorrect: false, label: "Answer 1" },
+  //       { isCorrect: false, label: "Answer 2" },
+  //       { isCorrect: false, label: "Answer 3" },
+  //       { isCorrect: false, label: "Answer 4" },
+  //   ],
+  // },
+  // {
+  //   question: "3. Question",
+  //   options: [
+  //       { isCorrect: false, label: "Answer 1" },
+  //       { isCorrect: false, label: "Answer 2" },
+  //       { isCorrect: false, label: "Answer 3" },
+  //       { isCorrect: false, label: "Answer 4" },
+  //   ],
+  // },
+  // {
+  //   question: "4. Question",
+  //   options: [
+  //       { isCorrect: false, label: "Answer 1" },
+  //       { isCorrect: false, label: "Answer 2" },
+  //       { isCorrect: false, label: "Answer 3" },
+  //       { isCorrect: false, label: "Answer 4" },
+  //   ],
+  // },
+];
 
 export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
   return (
@@ -61,86 +144,113 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
           <b>Discussion</b>
         </Card>
         <Collapsible labelBold="Can virus be transmitted from animals to humans and vice verse?">
-          <p>
-            <span className="line-break">
-              <span>
-                Yes, certain viruses can infect both humans and animals. These
-                viruses are known as zoonotic viruses. Zoonotic viruses can be
-                transmitted from animals to humans and vice versa. Here are some
-                examples:
-              </span>
-              <span>
-                <b>1. Influenza Virus:</b> Some strains of the influenza virus,
-                such as H1N1 and H5N1, can infect both humans and animals,
-                particularly birds and pigs.
-              </span>
-              <span className="portuguese">
+          <div className="line-break">
+            <p>
+              Yes, certain viruses can infect both humans and animals. These
+              viruses are known as zoonotic viruses. Zoonotic viruses can be
+              transmitted from animals to humans and vice versa. Here are some
+              examples:
+            </p>
+            <div>
+              <p>
+                <span className="bold">1. Influenza Virus:</span> Some strains
+                of the influenza virus, such as H1N1 and H5N1, can infect both
+                humans and animals, particularly birds and pigs.
+              </p>
+              <p className="portuguese">
                 {" "}
                 Vírus da Influenza: Algumas cepas do vírus da influenza, (tais)
                 como H1N1 e H5N1, podem infectar tanto humanos quanto animais,
                 particularmente aves e suínos.
-              </span>
-              <span>
-                <b>2. Coronaviruses:</b> The SARS-CoV-2 virus, responsible for
-                COVID-19, likely originated in animals (possibly bats) and
-                jumped to humans. Other coronaviruses, like SARS-CoV and
-                MERS-CoV, have also crossed from animals (civets and camels,
-                respectively) to humans.
-              </span>
-              <span className="portuguese">
+              </p>
+            </div>
+            <div>
+              <p>
+                <span className="bold">2. Coronaviruses:</span> The SARS-CoV-2
+                virus, responsible for COVID-19, likely originated in animals
+                (possibly bats) and jumped to humans. Other coronaviruses, like
+                SARS-CoV and MERS-CoV, have also crossed from animals (civets
+                and camels, respectively) to humans.
+              </p>
+              <p className="portuguese">
                 O vírus SARS-CoV-2, responsável pela COVID-19, provavelmente se
                 originou em animais (possivelmente morcegos) e passou para os
                 humanos. Outros coronavírus, como o SARS-CoV e o MERS-CoV,
                 também cruzaram de animais (civetas e camelos, respectivamente)
                 para humanos.
-              </span>
-              <span>
-                <b>3. Rabies Virus:</b> Rabies is a well-known zoonotic virus
-                that affects mammals, including humans, dogs, bats, and other
-                wildlife.
-              </span>
-              <span className="portuguese">
-              3. Vírus da Raiva: A raiva é um vírus zoonótico bem conhecido que afeta mamíferos, incluindo humanos, cães, morcegos e outros animais selvagens.
-              </span>
-              <span>
-                <b>4. Ebola Virus:</b> This virus, which causes severe
-                hemorrhagic fever, is thought to be transmitted to humans from
-                fruit bats and other wildlife.
-              </span>
-              <span className="portuguese">
-              4. Vírus Ebola: Este vírus, que causa febre hemorrágica grave, é considerado transmitido para os humanos a partir de morcegos frugívoros e outros animais selvagens.
-              </span>
-              <span>
-                <b>5. West Nile Virus:</b> Transmitted by mosquitoes, this virus
-                can infect humans, birds, and horses.
-              </span>
-              <span className="portuguese">
-              5. Vírus do Nilo Ocidental: Transmitido por mosquitos, este vírus pode infectar humanos, aves e cavalos.
-              </span>
-              <span>
-                <b>6. Zika Virus:</b> Also transmitted by mosquitoes, it can
-                infect humans and non-human primates.
-              </span>
-              <span className="portuguese">
-              6. Vírus Zika: Também transmitido por mosquitos, pode infectar humanos e primatas não humanos.
-              </span>
-              <span>
+              </p>
+            </div>
+            <div>
+              <p>African civet</p>
+              <Image
+                src={civet}
+                alt="African civet"
+                width={300}
+                className="img-border"
+              />
+            </div>
+            <div>
+              <p>
+                <span className="bold">3. Rabies Virus:</span> Rabies is a
+                well-known zoonotic virus that affects mammals, including
+                humans, dogs, bats, and other wildlife.
+              </p>
+              <p className="portuguese">
+                3. Vírus da Raiva: A raiva é um vírus zoonótico bem conhecido
+                que afeta mamíferos, incluindo humanos, cães, morcegos e outros
+                animais selvagens.
+              </p>
+            </div>
+            <div>
+              <p>
+                <span className="bold">4. Ebola Virus:</span> This virus, which
+                causes severe hemorrhagic fever, is thought to be transmitted to
+                humans from fruit bats and other wildlife.
+              </p>
+              <p className="portuguese">
+                4. Vírus Ebola: Este vírus, que causa febre hemorrágica grave, é
+                considerado transmitido para os humanos a partir de morcegos
+                frugívoros e outros animais selvagens.
+              </p>
+            </div>
+            <div>
+              <p>
+                <span className="bold">5. West Nile Virus:</span> Transmitted by
+                mosquitoes, this virus can infect humans, birds, and horses.
+              </p>
+              <p className="portuguese">
+                5. Vírus do Nilo Ocidental: Transmitido por mosquitos, este
+                vírus pode infectar humanos, aves e cavalos.
+              </p>
+            </div>
+            <div>
+              <p>
+                <span className="bold">6. Zika Virus:</span> Also transmitted by
+                mosquitoes, it can infect humans and non-human primates.
+              </p>
+              <p className="portuguese">
+                6. Vírus Zika: Também transmitido por mosquitos, pode infectar
+                humanos e primatas não humanos.
+              </p>
+            </div>
+            <div>
+              <p>
                 These viruses can sometimes mutate and adapt to different
                 hosts,making cross-species transmission possible. The study of
                 zoonotic viruses is crucial for understanding how diseases
                 spread and for developing preventive measures to protect both
                 human and animal health.
-              </span>
-              <span className="portuguese">
+              </p>
+              <p className="portuguese">
                 Esses vírus podem, às vezes, sofrer mutações e se adaptar a
                 diferentes hospedeiros, tornando possível a transmissão entre
                 espécies. O estudo de vírus zoonóticos é crucial para entender
                 como as doenças se espalham e para desenvolver medidas
                 preventivas para proteger tanto a saúde humana quanto a saúde
                 animal.
-              </span>
-            </span>
-          </p>
+              </p>
+            </div>
+          </div>
         </Collapsible>
         <p>
           <b>Now listen to the article.</b>
@@ -154,8 +264,10 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
             <DictionaryCard label="deadliest" audioSrc="/d/deadliest.mp3" />{" "}
             diseases to infect humans have come from pathogens that jumped from
             animals to people. The virus that causes AIDS, for example, came
-            from <DictionaryCard label="chimpanzees" audioSrc="/c/chimpanzees.mp3"/>. And many experts believe the virus that caused the
-            COVID-19 pandemic came from bats.
+            from{" "}
+            <DictionaryCard label="chimpanzees" audioSrc="/c/chimpanzees.mp3" />
+            . And many experts believe the virus that caused the COVID-19
+            pandemic came from bats.
           </p>
           <p className="portuguese">
             Algumas das doenças mais mortais a infectar os seres humanos
@@ -319,7 +431,8 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
             "The current biggest threat is probably bird flu H5N1, which is
             circulating in wild birds,” he said. The main reason recent pathogen
             jumps can be so harmful is because the “population of host species
-            <mark> has no pre-existing immunity” to the new disease</mark>, he added.
+            <mark> has no pre-existing immunity” to the new disease</mark>, he
+            added.
           </p>
           <p className="portuguese">
             "O maior perigo atual provavelmente é a gripe aviária H5N1, que está
@@ -389,7 +502,7 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
         <Card bgColor="black" textColor="white">
           <b>Exercises</b>
         </Card>
-        {/* <Radio questions={radio} /> */}
+        <Radio questions={radio} />
       </div>
     </>
   );

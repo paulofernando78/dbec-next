@@ -79,28 +79,6 @@ p {
     text-decoration: underline;
 }
 
-.white-space-pw {
-    white-space: pre-wrap;
-}
-
-.line-break {
-    display: flex;
-    flex-direction: column;
-    gap: 1.25rem;
-}
-
-.margin-bottom {
-    margin-bottom: 1.25rem;
-}
-
-.margin-bottom:last-child {
-    margin-bottom: 0;
-}
-
-.margin-top {
-    margin-top: 1.25rem;
-}
-
 .portuguese {
     color: rgba(128, 128, 128, 0.750);
 }
@@ -136,7 +114,56 @@ p {
     border-radius: var(--border-radius);
 }
 
-/* ICONS */
+.white-space-pw {
+    white-space: pre-wrap;
+}
+
+.line-break {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.margin-bottom {
+    margin-bottom: 1.25rem;
+}
+
+.margin-bottom:last-child {
+    margin-bottom: 0;
+}
+
+.margin-top {
+    margin-top: 1.25rem;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Image */
+
+.img-border {
+    border: var(--img-border);
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+    /* width: 100%;
+    height: fit-content; */
+}
+
+/* Icons */
 
 .icon-general {
     width: 1.6rem;
@@ -160,4 +187,11 @@ p {
 .video-player {
     width: 100%;
     aspect-ratio: 16/9;
+}
+
+@media (max-width: 768px) {
+    .img-border {
+        width: 100%;
+        height: fit-content;
+    }
 }

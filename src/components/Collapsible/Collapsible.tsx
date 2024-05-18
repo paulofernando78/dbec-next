@@ -21,7 +21,7 @@ export const Collapsible = ({ label, labelBold, children }: CollapsibleProps) =>
           {label}
           <b>{labelBold}</b>
         </span>
-        <span>{isOpen && <p>{children}</p>}</span>
+        <span>{isOpen && <p className="block margin-top">{children}</p>}</span>
       </Card>
     </>
   );
