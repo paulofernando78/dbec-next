@@ -7,77 +7,13 @@ import { Collapsible } from "@/components/Collapsible/Collapsible";
 
 const radio = [
   {
-    title: "Answer the questions.",
-    subtitle:
-      "1. What does the story say about disease transmissions from one animal species to another?",
-
+    title: "1. Choose the correct answer.",
+    question: "1. Question",
     options: [
-      {
-        id: 1, label:
-          "Transmissions are a problem because one animal species may cause another species to have immunity.",
-      },
-      {
-        id: 2, label:
-          "Most disease transmissions go from one animal species to another.",
-      },
-      {
-        id: 3, label:
-          "Humans give as many viruses to animal species as animal species give to humans.",
-      },
-      { id: 4, label: "This event is called zoonosis." },
+        { isCorrect: false, label: "Answer 1" },
+        { isCorrect: true, label: "Answer 2" },
+        { isCorrect: false, label: "Answer 3" },
     ],
-    correctAnswer: 2,
-  },
-  {
-    subtitle:
-      "2. What is an example of a disease that is believed to have spread from animals to humans?",
-    question: "...",
-    options: [
-      { id: 1, label: "AIDS" },
-      { id: 2, label: "COVID-19" },
-      { id: 3, label: "Ebola" },
-      { id: 4, label: "All of the above." },
-    ],
-    correctAnswer: 4,
-  },
-  {
-    subtitle: "3. What is true about human-to-animal disease transmission?",
-    question: "...",
-    options: [
-      {
-        id: 1,
-        label:
-          "Humans give about two times as many viruses to animals than they give to humans.",
-      },
-      {
-        id: 2,
-        label: "About 36 percent of transmissions are human-to-animal.",
-      },
-      {
-        id: 3,
-        label: "Human-to-animal disease transmission is called zoonosis.",
-      },
-      {
-        id: 4,
-        label: "It happens less often than animal-to-human transmission.",
-      },
-    ],
-    correctAnswer: 1,
-  },
-  {
-    subtitle:
-      "4. Why does Cedric Tan say bird flu H591 is especially dangerous to other species?",
-    question: "...",
-    options: [
-      { id: 1, label: "Birds have no immunity to the disease." },
-      { id: 2, label: "Diseases that come from birds are usually harmful." },
-      {
-        id: 3,
-        label: "The new species has no pre-existing immunity to the disease.",
-      },
-      { id: 4, label: "It is a serious case of anthroponosis." },
-    ],
-    correctAnswer: 3,
   },
 ];
 
