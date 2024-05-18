@@ -3,51 +3,45 @@ import { useState } from "react";
 import styles from "./Radio.module.css";
 import { Button } from "@/components/Button/Button";
 
-interface RadioOption {
+interface Option {
   isCorrect: boolean;
   label: string;
 }
 
-interface RadioQuestion {
+interface Question {
   title: string;
   question: string;
-  options: RadioOption[];
+  options: Option[];
 }
 
 interface RadioProps {
-  questions: RadioQuestion[];
+  questions: Question[];
 }
 
 export const Radio = ({ questions }: RadioProps) => {
-  const [selectedAnswers, setSelectedAnswers] = useState<(number | null)[]>(Array(questions.length).fill(null));
-
-  const handleAnswerChange = (questionIndex: number, optionIndex: number) => {
-    const newSelectedAnswers = [...selectedAnswers];
-    newSelectedAnswers[questionIndex] = optionIndex;
-    setSelectedAnswers(newSelectedAnswers);
-  };
+  const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
 
   const resetRadio = () => {
-    setSelectedAnswers(Array(questions.length).fill(null));
+    setSelectedAnswer(null);
   };
 
   return (
     <div>
-      {questions.map((question, questionIndex) => (
-        <div key={questionIndex}>
+      {questions.map((question, index) => (
+        <div key={index}>
           <p className="margin-bottom bold">{question.title}</p>
           <p>{question.question}</p>
           <div>
-            {question.options.map((option, optionIndex) => {
-              const isChecked = selectedAnswers[questionIndex] === optionIndex;
+            {question.options.map((option, indexQuestion) => {
+              const isChecked = selectedAnswer === indexQuestion;
               const optionIsCorrect = isChecked && option.isCorrect;
               const radioColor = styles[optionIsCorrect ? "radio-correct" : "radio-incorrect"];
               return (
-                <label key={optionIndex} className={styles["align-radio"]}>
+                <label key={indexQuestion} className={styles["align-radio"]}>
                   <input
                     type="radio"
                     checked={isChecked}
-                    onChange={() => handleAnswerChange(questionIndex, optionIndex)}
+                    onClick={() => setSelectedAnswer(indexQuestion)}
                     className={`${radioColor} ${styles["input-size"]}`}
                   />
                   <p>{option.label}</p>
