@@ -5,46 +5,46 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { Collapsible } from "@/components/Collapsible/Collapsible";
 
-const radio = [
-  {
-    title: "1. Choose the correct answer.",
-    question: "1. What does the story say about disease transmissions from one animal species to another?",
-    options: [
-        { isCorrect: false, label: "Transmissions are a problem because one animal species may cause another species to have immunity." },
-        { isCorrect: true, label: "Most disease transmissions go from one animal species to another." },
-        { isCorrect: false, label: "Humans give as many viruses to animal species as animal species give to humans." },
-        { isCorrect: false, label: "This event is called zoonosis." },
-    ],
-  },
-  {
+// const radio = [
+//   {
+//     title: "1. Choose the correct answer.",
+//     question: "1. What does the story say about disease transmissions from one animal species to another?",
+//     options: [
+//         { isCorrect: false, label: "Transmissions are a problem because one animal species may cause another species to have immunity." },
+//         { isCorrect: true, label: "Most disease transmissions go from one animal species to another." },
+//         { isCorrect: false, label: "Humans give as many viruses to animal species as animal species give to humans." },
+//         { isCorrect: false, label: "This event is called zoonosis." },
+//     ],
+//   },
+//   {
 
-    question: "2. Question",
-    options: [
-        { isCorrect: false, label: "Answer 1" },
-        { isCorrect: false, label: "Answer 2" },
-        { isCorrect: false, label: "Answer 3" },
-        { isCorrect: false, label: "Answer 4" },
-    ],
-  },
-  {
-    question: "3. Question",
-    options: [
-        { isCorrect: false, label: "Answer 1" },
-        { isCorrect: false, label: "Answer 2" },
-        { isCorrect: false, label: "Answer 3" },
-        { isCorrect: false, label: "Answer 4" },
-    ],
-  },
-  {
-    question: "4. Question",
-    options: [
-        { isCorrect: false, label: "Answer 1" },
-        { isCorrect: false, label: "Answer 2" },
-        { isCorrect: false, label: "Answer 3" },
-        { isCorrect: false, label: "Answer 4" },
-    ],
-  },
-];
+//     question: "2. Question",
+//     options: [
+//         { isCorrect: false, label: "Answer 1" },
+//         { isCorrect: false, label: "Answer 2" },
+//         { isCorrect: false, label: "Answer 3" },
+//         { isCorrect: false, label: "Answer 4" },
+//     ],
+//   },
+//   {
+//     question: "3. Question",
+//     options: [
+//         { isCorrect: false, label: "Answer 1" },
+//         { isCorrect: false, label: "Answer 2" },
+//         { isCorrect: false, label: "Answer 3" },
+//         { isCorrect: false, label: "Answer 4" },
+//     ],
+//   },
+//   {
+//     question: "4. Question",
+//     options: [
+//         { isCorrect: false, label: "Answer 1" },
+//         { isCorrect: false, label: "Answer 2" },
+//         { isCorrect: false, label: "Answer 3" },
+//         { isCorrect: false, label: "Answer 4" },
+//     ],
+//   },
+// ];
 
 export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
   return (
@@ -389,7 +389,7 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
         <Card bgColor="black" textColor="white">
           <b>Exercises</b>
         </Card>
-        <Radio questions={radio} />
+        {/* <Radio questions={radio} /> */}
       </div>
     </>
   );
