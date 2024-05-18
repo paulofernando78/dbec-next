@@ -8,11 +8,40 @@ import { Collapsible } from "@/components/Collapsible/Collapsible";
 const radio = [
   {
     title: "1. Choose the correct answer.",
-    question: "1. Question",
+    question: "1. What does the story say about disease transmissions from one animal species to another?",
+    options: [
+        { isCorrect: false, label: "Transmissions are a problem because one animal species may cause another species to have immunity." },
+        { isCorrect: true, label: "Most disease transmissions go from one animal species to another." },
+        { isCorrect: false, label: "Humans give as many viruses to animal species as animal species give to humans." },
+        { isCorrect: false, label: "This event is called zoonosis." },
+    ],
+  },
+  {
+
+    question: "2. Question",
     options: [
         { isCorrect: false, label: "Answer 1" },
-        { isCorrect: true, label: "Answer 2" },
+        { isCorrect: false, label: "Answer 2" },
         { isCorrect: false, label: "Answer 3" },
+        { isCorrect: false, label: "Answer 4" },
+    ],
+  },
+  {
+    question: "3. Question",
+    options: [
+        { isCorrect: false, label: "Answer 1" },
+        { isCorrect: false, label: "Answer 2" },
+        { isCorrect: false, label: "Answer 3" },
+        { isCorrect: false, label: "Answer 4" },
+    ],
+  },
+  {
+    question: "4. Question",
+    options: [
+        { isCorrect: false, label: "Answer 1" },
+        { isCorrect: false, label: "Answer 2" },
+        { isCorrect: false, label: "Answer 3" },
+        { isCorrect: false, label: "Answer 4" },
     ],
   },
 ];
@@ -31,7 +60,7 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
         <Card bgColor="black" textColor="white">
           <b>Discussion</b>
         </Card>
-        <Collapsible labelBold="Can the same virus infect both humans and animals?">
+        <Collapsible labelBold="Can virus be transmitted from animals to humans and vice verse?">
           <p>
             <span className="line-break">
               <span>
@@ -70,18 +99,30 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
                 that affects mammals, including humans, dogs, bats, and other
                 wildlife.
               </span>
+              <span className="portuguese">
+              3. Vírus da Raiva: A raiva é um vírus zoonótico bem conhecido que afeta mamíferos, incluindo humanos, cães, morcegos e outros animais selvagens.
+              </span>
               <span>
                 <b>4. Ebola Virus:</b> This virus, which causes severe
                 hemorrhagic fever, is thought to be transmitted to humans from
                 fruit bats and other wildlife.
               </span>
+              <span className="portuguese">
+              4. Vírus Ebola: Este vírus, que causa febre hemorrágica grave, é considerado transmitido para os humanos a partir de morcegos frugívoros e outros animais selvagens.
+              </span>
               <span>
                 <b>5. West Nile Virus:</b> Transmitted by mosquitoes, this virus
                 can infect humans, birds, and horses.
               </span>
+              <span className="portuguese">
+              5. Vírus do Nilo Ocidental: Transmitido por mosquitos, este vírus pode infectar humanos, aves e cavalos.
+              </span>
               <span>
                 <b>6. Zika Virus:</b> Also transmitted by mosquitoes, it can
                 infect humans and non-human primates.
+              </span>
+              <span className="portuguese">
+              6. Vírus Zika: Também transmitido por mosquitos, pode infectar humanos e primatas não humanos.
               </span>
               <span>
                 These viruses can sometimes mutate and adapt to different
@@ -113,7 +154,7 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
             <DictionaryCard label="deadliest" audioSrc="/d/deadliest.mp3" />{" "}
             diseases to infect humans have come from pathogens that jumped from
             animals to people. The virus that causes AIDS, for example, came
-            from chimpanzees. And many experts believe the virus that caused the
+            from <DictionaryCard label="chimpanzees" audioSrc="/c/chimpanzees.mp3"/>. And many experts believe the virus that caused the
             COVID-19 pandemic came from bats.
           </p>
           <p className="portuguese">
@@ -278,7 +319,7 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
             "The current biggest threat is probably bird flu H5N1, which is
             circulating in wild birds,” he said. The main reason recent pathogen
             jumps can be so harmful is because the “population of host species
-            has no pre-existing immunity” to the new disease, he added.
+            <mark> has no pre-existing immunity” to the new disease</mark>, he added.
           </p>
           <p className="portuguese">
             "O maior perigo atual provavelmente é a gripe aviária H5N1, que está

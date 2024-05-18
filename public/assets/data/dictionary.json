@@ -174,6 +174,24 @@
     ]
   },
   {
+    "audio": "/assets/audio/dictionary/c/chimpanzees.mp3",
+    "keyword": "chimpanzees",
+    "phonetics": "/ˌtʃɪm.pænˈziːz/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "enDefinition": "...",
+        "ptDefinition": "chimpanzé",
+        "examples": [
+          {
+            "enExample": "...",
+            "ptExample": "..."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "audio": "/assets/audio/dictionary/c/come-up-with-a winner.mp3",
     "keyword": "come up with a winner",
     "partOfSpeech": "idiom",
