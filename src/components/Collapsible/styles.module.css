@@ -1,0 +1,12 @@
+.label {
+    position: relative;
+    top: 1.5px;
+}
+
+.plus-minus-icons {
+    width: 19px;
+    height: fit-content;
+    position: relative;
+    top: 3px;
+
+}

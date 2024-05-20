@@ -107,6 +107,10 @@ p {
     color: var(--isActive)
 }
 
+.user-select-none {
+    user-select: none;
+}
+
 .textarea {
     padding: 5px;
     font-size: var(--p-size);
@@ -124,17 +128,26 @@ p {
     gap: 1.25rem;
 }
 
+.margin-top {
+    margin-top: 1.25rem;
+}
+
+.margin-right {
+    margin-right: 8px;
+}
+
 .margin-bottom {
     margin-bottom: 1.25rem;
+}
+
+.margin-left {
+    margin-right: 8px;
 }
 
 .margin-bottom:last-child {
     margin-bottom: 0;
 }
 
-.margin-top {
-    margin-top: 1.25rem;
-}
 
 .inline {
     display: inline;
