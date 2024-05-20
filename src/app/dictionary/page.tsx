@@ -1,15 +1,23 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 
 // Components
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { Button } from "@/components/Button/Button";
+import { WordCard } from "@/components/WordCard/WordCard";
+
+// Utils
+import { searchWords } from "@/utils/searchWords";
+
+// Interface
+import { IDictionary } from "../../../interfaces";
 
 // CSS
 import styles from "./dictionary.module.css";
-import { searchWords } from "@/utils/searchWords";
-import { IDictionary } from "../../../interfaces";
-import { WordCard } from "@/components/WordCard/WordCard";
+
+// Images
+import globe from "@/img/icon/globe.png"
 
 export default function Dictionary() {
   const [text, setText] = useState("");
@@ -40,8 +48,14 @@ export default function Dictionary() {
       />
       <div className="line-break">
         <div>
-          <a href="https://youglish.com/"><p>Youglish</p></a>
-          <a href="https://www.playphrase.me/"><p>Play Phrase</p></a>
+          <div className="flex-8-center">
+            <Image src={globe} alt="Globe icon" className="icon-general"/>
+            <a href="https://youglish.com/" target="_self"><p> Youglish (Youtube videos)</p></a>
+          </div>
+          <div className="flex-8-center">
+            <Image src={globe} alt="Globe icon" className="icon-general"/>
+            <a href="https://www.playphrase.me/" target="_self"><p>Play Phrase (Movie videos)</p></a>
+          </div>
         </div>
         <div className={styles["input-button"]}>
           <input

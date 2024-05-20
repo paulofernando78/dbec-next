@@ -36,7 +36,6 @@ export const DictionaryCard = ({
   audioSrc = baseAudioSrc + audioSrc;
 
   useEffect(() => {
-    console.log("kkkkk")
       if (!dictionary) {
           searchWords(label)
             .then((dict) => {

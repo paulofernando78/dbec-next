@@ -1,7 +1,7 @@
 import { IDictionary } from "../../interfaces";
 import Dictionary from "../../public/assets/data/dictionary.json";
 
-export async function searchWords(word: string): Promise<IDictionary[]> {
+export async function searchWords(word: string):Promise<IDictionary[]> {
   try {
     // Directly use the imported dictionary data
     const data: IDictionary[] = Dictionary as IDictionary[];

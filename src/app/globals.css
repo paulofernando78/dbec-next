@@ -161,6 +161,12 @@ p {
     display: block;
 }
 
+.flex-8-center {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
 .flex-col {
     display: flex;
     flex-direction: column;
