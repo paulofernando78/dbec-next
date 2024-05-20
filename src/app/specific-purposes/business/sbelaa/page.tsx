@@ -1,4 +1,4 @@
-import { CardDescription } from "@/components/CardDescription/CardDescription";
+import { CardDescription } from "@/components/DescriptionCard/CardDescription";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 export default function SpeakBusinessEnglishLikeAnAmerican() {

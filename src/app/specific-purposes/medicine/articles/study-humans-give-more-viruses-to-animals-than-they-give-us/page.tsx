@@ -99,34 +99,6 @@ const radio = [
       },
     ],
   },
-  // {
-
-  //   question: "2. Question",
-  //   options: [
-  //       { isCorrect: false, label: "Answer 1" },
-  //       { isCorrect: false, label: "Answer 2" },
-  //       { isCorrect: false, label: "Answer 3" },
-  //       { isCorrect: false, label: "Answer 4" },
-  //   ],
-  // },
-  // {
-  //   question: "3. Question",
-  //   options: [
-  //       { isCorrect: false, label: "Answer 1" },
-  //       { isCorrect: false, label: "Answer 2" },
-  //       { isCorrect: false, label: "Answer 3" },
-  //       { isCorrect: false, label: "Answer 4" },
-  //   ],
-  // },
-  // {
-  //   question: "4. Question",
-  //   options: [
-  //       { isCorrect: false, label: "Answer 1" },
-  //       { isCorrect: false, label: "Answer 2" },
-  //       { isCorrect: false, label: "Answer 3" },
-  //       { isCorrect: false, label: "Answer 4" },
-  //   ],
-  // },
 ];
 
 export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
