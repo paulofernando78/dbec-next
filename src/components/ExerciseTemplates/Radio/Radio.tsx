@@ -19,29 +19,39 @@ interface RadioProps {
 }
 
 export const Radio = ({ questions }: RadioProps) => {
-  const [selectedAnswer, setSelectedAnswer] = useState<number | null>(null);
+  // Use an array to store the selected answers for each question
+  const [selectedAnswers, setSelectedAnswers] = useState<(number | null)[]>(Array(questions.length).fill(null));
 
+  // Reset all selected answers to null
   const resetRadio = () => {
-    setSelectedAnswer(null);
+    setSelectedAnswers(Array(questions.length).fill(null));
+  };
+
+  // Update the selected answer for a specific question
+  const handleSelectAnswer = (questionIndex: number, optionIndex: number) => {
+    const newSelectedAnswers = [...selectedAnswers];
+    newSelectedAnswers[questionIndex] = optionIndex;
+    setSelectedAnswers(newSelectedAnswers);
   };
 
   return (
     <div>
-      {questions.map((question, index) => (
-        <div key={index}>
+      {questions.map((question, questionIndex) => (
+        <div key={questionIndex}>
           <p className="margin-bottom bold">{question.title}</p>
           <p>{question.question}</p>
           <div>
-            {question.options.map((option, indexQuestion) => {
-              const isChecked = selectedAnswer === indexQuestion;
+            {question.options.map((option, optionIndex) => {
+              // Determine if the current option is selected for the current question
+              const isChecked = selectedAnswers[questionIndex] === optionIndex;
               const optionIsCorrect = isChecked && option.isCorrect;
               const radioColor = styles[optionIsCorrect ? "radio-correct" : "radio-incorrect"];
               return (
-                <label key={indexQuestion} className={styles["align-radio"]}>
+                <label key={optionIndex} className={styles["align-radio"]}>
                   <input
                     type="radio"
                     checked={isChecked}
-                    onClick={() => setSelectedAnswer(indexQuestion)}
+                    onClick={() => handleSelectAnswer(questionIndex, optionIndex)}
                     className={`${radioColor} ${styles["input-size"]}`}
                   />
                   <p>{option.label}</p>

@@ -87,7 +87,7 @@ const radio = [
       },
       {
         label: "Diseases that come from birds are usually harmful.",
-        isCorrect: true,
+        isCorrect: false,
       },
       {
         label: "The new species has no pre-existing immunity to the disease.",

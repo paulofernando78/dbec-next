@@ -22,6 +22,7 @@ interface DictionaryCardProps {
 const baseAudioSrc = "/assets/audio/dictionary";
 
 export const DictionaryCard = ({
+  
   audioSrc,
   label,
   phonetics,

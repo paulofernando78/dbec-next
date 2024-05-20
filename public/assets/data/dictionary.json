@@ -281,10 +281,46 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/f/focus.mp3",
+    "audio": "/assets/audio/dictionary/f/focus-regular-verb.mp3",
     "keyword": "focus",
     "phonetics": "/ˈfoʊ.kəs/",
-    "partOfSpeech": "verb",
+    "partOfSpeech": "regular verb",
+    "definitions": [
+      {
+        "ptDefinition": "focar, focalizar",
+        "examples": [
+          {
+            "enExample": "You need to focus the camera.",
+            "ptExample": "Você precisa focar a câmera."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "aim, ..."
+          }
+        ]
+      },
+      {
+        "ptDefinition": "concentrar",
+        "examples": [
+          {
+            "enExample": "Focus your attention on what is important",
+            "ptExample": "Concentre sua atenção no que é importante."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "concentrate, ..."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/f/focus-noun.mp3",
+    "keyword": "focus",
+    "phonetics": "/ˈfoʊ.kəs/",
+    "partOfSpeech": "noun",
     "definitions": [
       {
         "ptDefinition": "foco",
@@ -296,7 +332,7 @@
         ],
         "thesauri": [
           {
-            "synonyms": "center, spotlight, limelight"
+            "synonyms": "concentration, attention, center, spotlight, limelight"
           }
         ]
       }
@@ -366,6 +402,7 @@
       }
     ]
   },
+  
   {
     "audio": "/assets/audio/dictionary/h/hard-stop.mp3",
     "keyword": "hard stop",
