@@ -1,4 +1,5 @@
-import { CardDescription } from "@/components/DescriptionCard/CardDescription";
+
+import { DescriptionCard } from "@/components/DescriptionCard/DescriptionCard";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 export default function SpeakBusinessEnglishLikeAnAmerican() {
@@ -10,12 +11,7 @@ export default function SpeakBusinessEnglishLikeAnAmerican() {
         descriptions={["Speak Business English Like an American"]}
       />
       <div>
-        <CardDescription
-        label="Units 1-5"
-        content="AAA"
-        link="/specific-purposes/business/sbelaa/unit-1"
-        linkLabel="Lesson 1 • Talking About a New Project"
-        />
+        {/* <DescriptionCard descriptions={descripttion}/> */}
       </div>
     </>
   );
