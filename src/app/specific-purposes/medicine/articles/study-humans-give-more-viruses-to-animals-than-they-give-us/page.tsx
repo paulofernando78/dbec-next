@@ -12,97 +12,8 @@ import { ScrollToTop } from "@/components/ScrollToTop";
 import africanCivet from "@/img/african-civet.jpg";
 import asianCivet from "@/img/asian-palm-civet.jpg";
 
-const radio = [
-  {
-    title: "1. Choose the correct answer.",
-    question:
-      "1. What does the story say about disease transmissions from one animal species to another?",
-    options: [
-      {
-        label:
-          "a) Transmissions are a problem because one animal species may cause another species to have immunity.",
-        isCorrect: false,
-      },
-      {
-        label:
-          "b) Most disease transmissions go from one animal species to another.",
-        isCorrect: true,
-      },
-      {
-        label:
-          "c) Humans give as many viruses to animal species as animal species give to humans.",
-        isCorrect: false,
-      },
-      {
-        label: "d) This event is called zoonosis." ,
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    question: "2. What is an example of a disease that is believed to have spread from animals to humans?",
-    options: [
-      {
-        label: "a) AIDS",
-        isCorrect: false,
-      },
-      {
-        label: "b) COVID-19",
-        isCorrect: false,
-      },
-      {
-        label: "c) Ebola",
-        isCorrect: false,
-      },
-      { 
-        label: "d) All of the above.",
-        isCorrect: true,
-      },
-    ],
-  },
-  {
-    question: "3. What is true about human-to-animal disease transmission?",
-    options: [
-      {
-        label: "a) Humans give about two times as many viruses to animals than they give to humans.",
-        isCorrect: true,
-      },
-      {
-        label: "b) About 36 percent of transmissions are human-to-animal.",
-        isCorrect: false,
-      },
-      {
-        label: "c) Human-to-animal disease transmission is called zoonosis.",
-        isCorrect: false,
-      },
-      { 
-        label: "d) It happens less often than animal-to-human transmission.",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    question: "4. Why does Cedric Tan say bird flu H591 is especially dangerous to other species?",
-    options: [
-      {
-        label: "a) Birds have no immunity to the disease.",
-        isCorrect: false,
-      },
-      {
-        label: "b) Diseases that come from birds are usually harmful.",
-        isCorrect: false,
-      },
-      {
-        label: "c) The new species has no pre-existing immunity to the disease.",
-        isCorrect: true,
-      },
-      { 
-        label: "d) It is a serious case of anthroponosis.",
-        isCorrect: false,
-      },
-    ],
-  },
-];
+import { radioExercises } from "./radioExercises";
+
 
 export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
   return (
@@ -247,11 +158,11 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
         <div>
           <p>
             Some of the{" "}
-            <DictionaryCard label="deadliest" audioSrc="/d/deadliest.mp3" />{" "}
+            <DictionaryCard audioSrc="/d/deadliest.mp3" label="deadliest"  />{" "}
             diseases to infect humans have come from pathogens that jumped from
             animals to people. The virus that causes AIDS, for example, came
             from{" "}
-            <DictionaryCard keyword="chimpanzee" label="chimpanzees" audioSrc="/c/chimpanzees.mp3" />
+            <DictionaryCard audioSrc="/c/chimpanzees.mp3" keyword="chimpanzee" label="chimpanzees"  />
             . And many experts believe the virus that caused the COVID-19
             pandemic came from bats.
           </p>
@@ -266,7 +177,7 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
         <div>
           <p>
             But, as a new study shows, this disease exchange has not been just
-            from animals to humans. In fact, research of all the <DictionaryCard audioSrc="" label="publicly" /> publicly
+            from animals to humans. In fact, research of all the <DictionaryCard audioSrc="/p/publicly.mp3" label="publicly" />
             available viral genome sequences produced a surprising result:
             humans give about two times as many viruses to animals than they
             give to us.
@@ -488,7 +399,7 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
         <Card bgColor="black" textColor="white">
           <b>Exercises</b>
         </Card>
-        <Radio questions={radio} />
+        <Radio questions={radioExercises} />
         <ScrollToTop />
       </div>
     </>

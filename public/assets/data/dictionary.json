@@ -208,7 +208,7 @@
   {
     "audio": "/assets/audio/dictionary/d/deadliest-d.mp3",
     "keyword": "deadliest",
-    "phonetics": "/ˈded.li/",
+    "phonetics": "/ˈded.liəst/",
     "partOfSpeech": "superlative of deadly",
     "definitions": [
       {
@@ -645,6 +645,28 @@
           {
             "enExample": "Studies show that if a working environment is pleasant, productivity increases.",
             "ptExample": "Estudos demonstram que, se um ambiente de trabalho é agradável, a produtividade aumenta."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/p/publicly-d.mp3",
+    "keyword": "publicly",
+    "phonetics": "/ˈpʌb.lɪ.kli/",
+    "partOfSpeech": "adverb",
+    "definitions": [
+      {
+        "ptDefinition": "publicamente",
+        "examples": [
+          {
+            "enExample": "The company publicly apologized and agreed to contribute some money to charity.",
+            "ptExample": "A empresa pediu desculpas publicamente e concordou em contribuir com uma quantia para caridade."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "honestly, openly, plainly"
           }
         ]
       }
