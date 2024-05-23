@@ -174,18 +174,17 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/c/chimpanzee.mp3",
+    "audio": "/assets/audio/dictionary/c/chimpanzee-d.mp3",
     "keyword": "chimpanzee",
     "phonetics": "/ˌtʃɪm.pænˈziːz/",
     "partOfSpeech": "noun",
     "definitions": [
       {
-        "enDefinition": "...",
         "ptDefinition": "chimpanzé",
         "examples": [
           {
-            "enExample": "...",
-            "ptExample": "..."
+            "enExample": "Chimpanzees are known for their ability to use tools, such as sticks to extract termites from holes.",
+            "ptExample": "Os chimpanzés são conhecidos por sua habilidade de usar ferramentas, como gravetos para extrair cupins de buracos."
           }
         ]
       }
@@ -207,7 +206,7 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/d/deadliest.mp3",
+    "audio": "/assets/audio/dictionary/d/deadliest-d.mp3",
     "keyword": "deadliest",
     "phonetics": "/ˈded.li/",
     "partOfSpeech": "superlative of deadly",
@@ -216,8 +215,20 @@
         "ptDefinition": "mais mortal",
         "examples": [
           {
-            "enExample": "It's one of the deadliest virus.",
-            "ptExample": "..."
+            "enExample": "The Spanish Flu pandemic of 1918 is considered one of the deadliest in human history, with an estimated 50 million deaths worldwide.",
+            "ptExample": "A pandemia de gripe espanhola de 1918 é considerada uma das mais mortais da história humana, com um número estimado de 50 milhões de mortes em todo o mundo."
+          },
+          {
+            "enExample": "Mount Vesuvius's eruption in AD 79 is among the deadliest volcanic eruptions ever recorded, burying the cities of Pompeii and Herculaneum under ash and rock.",
+            "ptExample": "A erupção do Monte Vesúvio em 79 d.C. está entre as erupções vulcânicas mais mortais já registradas, enterrando as cidades de Pompeia e Herculano sob cinzas e rochas."
+          },
+          {
+            "enExample": "The Battle of Stalingrad during World War II was one of the deadliest battles, resulting in nearly two million casualties.",
+            "ptExample": "A Batalha de Stalingrado durante a Segunda Guerra Mundial foi uma das batalhas mais mortais, resultando em quase dois milhões de baixas."
+          },
+          {
+            "enExample": "The bubonic plague, or Black Death, was one of the deadliest pandemics, killing an estimated 25 million people in 14th-century Europe.",
+            "ptExample": "A peste bubônica, ou Peste Negra, foi uma das pandemias mais mortais, matando cerca de 25 milhões de pessoas na Europa do século XIV."
           }
         ]
       }
@@ -606,13 +617,12 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/xxx.mp3",
+    "audio": "/assets/audio/dictionary/plantain.mp3",
     "keyword": "plantain",
     "phonetics": "/ˈplæn.tɪn/",
     "partOfSpeech": "noun",
     "definitions": [
       {
-        "enDefinition": "...",
         "ptDefinition": "banana-da-terra",
         "examples": [
           {

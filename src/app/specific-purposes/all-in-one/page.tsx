@@ -1,16 +1,16 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import CardinalOrdinalNumbers from "@/components/exercises/CardinalOrdinalNumbers/CardinalOrdinalNumbers";
+
 
 export default function Resumao() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subtitle="Resumão" />
+      <Whiteboard title="Specific Purposes" subtitle="All-in-one Review" />
       <div className="line-break">
         <div>
           <a href="#">
             <p>Pronouns</p>
           </a>
-          <a href="#">
+          <a href="#numbers">
             <p>Cardinal and Ordinal Numbers</p>
           </a>
           <a href="#">
@@ -20,7 +20,8 @@ export default function Resumao() {
             <p>Regular and Irregular verbs</p>
           </a>
         </div>
-        <CardinalOrdinalNumbers />
+        <div id="numbers"></div>
+          
       </div>
     </>
   );

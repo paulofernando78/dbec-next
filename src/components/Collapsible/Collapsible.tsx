@@ -26,9 +26,8 @@ export const Collapsible = ({ label, labelBold, children }: CollapsibleProps) =>
     <>
         <Card>
           <span onClick={toggleCollapse} className="cursor-pointer">
-          <Image src={isOpen ? minusIcon : plusIcon} alt="Icons" className={styles["plus-minus-icons"]}/>
-            <p className={`${"inline-block user-select-none margin-left user-select-none"} ${styles["label"]}`}>{label}</p>
-            <p className={`${"inline-block user-select-none margin-left user-select-none"} ${styles["label"]}`}><b>{labelBold}</b></p>
+          
+            <span className={`${"user-select-none"}  ${styles["label"]}`}><b><Image src={isOpen ? minusIcon : plusIcon} alt="Icons" className={` ${"margin-right"} ${styles["plus-minus-icons"]}`}/>{labelBold}</b></span>
           </span>
           <span>{isOpen && <p className="block margin-top">{children}</p>}</span>
         </Card>

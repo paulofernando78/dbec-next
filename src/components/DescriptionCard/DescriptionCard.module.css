@@ -6,10 +6,23 @@
 .card-description-label {
   background-color: black;
   color: white;
-  padding: 4px 12px;
+  padding: var(--padding);
   border-radius: 5px 5px 0 0;
 }
 
 .card-description-content {
-  padding: 2px 11px;
+  padding: 4px 7px;
+  line-height: 1;
+}
+
+.globe-icon {
+  position: relative;
+  right: 3px;
+  /* bottom: 2px; */
+}
+
+.globe-link {
+  position: relative;
+  right: 4px;
+  top: 1px;
 }

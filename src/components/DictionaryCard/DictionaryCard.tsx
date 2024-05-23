@@ -15,6 +15,7 @@ import { WordCard } from "../WordCard/WordCard";
 // Typescript
 interface DictionaryCardProps {
   audioSrc: string;
+  keyword?: string
   label: string;
   phonetics?: string;
 }
@@ -25,6 +26,7 @@ export const DictionaryCard = ({
   
   audioSrc,
   label,
+  keyword,
   phonetics,
 }: DictionaryCardProps) => {
   const [visible, setVisible] = useState(false);
@@ -38,7 +40,7 @@ export const DictionaryCard = ({
 
   useEffect(() => {
       if (!dictionary) {
-          searchWords(label)
+          searchWords(keyword??label)
             .then((dict) => {
                 if (dict?.length) {
                   setDictionary(dict[0]);

@@ -1,13 +1,16 @@
+"use client"
+import Image from "next/image";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
 import { Card } from "@/components/Card/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { Collapsible } from "@/components/Collapsible/Collapsible";
-import Image from "next/image";
+import { ScrollToTop } from "@/components/ScrollToTop";
 
 // Images
-import civet from "@/img/civet.jpg";
+import africanCivet from "@/img/african-civet.jpg";
+import asianCivet from "@/img/asian-palm-civet.jpg";
 
 const radio = [
   {
@@ -17,21 +20,21 @@ const radio = [
     options: [
       {
         label:
-          "Transmissions are a problem because one animal species may cause another species to have immunity.",
+          "a) Transmissions are a problem because one animal species may cause another species to have immunity.",
         isCorrect: false,
       },
       {
         label:
-          "Most disease transmissions go from one animal species to another.",
+          "b) Most disease transmissions go from one animal species to another.",
         isCorrect: true,
       },
       {
         label:
-          "Humans give as many viruses to animal species as animal species give to humans.",
+          "c) Humans give as many viruses to animal species as animal species give to humans.",
         isCorrect: false,
       },
       {
-        label: "This event is called zoonosis." ,
+        label: "d) This event is called zoonosis." ,
         isCorrect: false,
       },
     ],
@@ -40,19 +43,19 @@ const radio = [
     question: "2. What is an example of a disease that is believed to have spread from animals to humans?",
     options: [
       {
-        label: "AIDS",
+        label: "a) AIDS",
         isCorrect: false,
       },
       {
-        label: "COVID-19",
+        label: "b) COVID-19",
         isCorrect: false,
       },
       {
-        label: "Ebola",
+        label: "c) Ebola",
         isCorrect: false,
       },
       { 
-        label: "All of the above.",
+        label: "d) All of the above.",
         isCorrect: true,
       },
     ],
@@ -61,19 +64,19 @@ const radio = [
     question: "3. What is true about human-to-animal disease transmission?",
     options: [
       {
-        label: "Humans give about two times as many viruses to animals than they give to humans.",
+        label: "a) Humans give about two times as many viruses to animals than they give to humans.",
         isCorrect: true,
       },
       {
-        label: "About 36 percent of transmissions are human-to-animal.",
+        label: "b) About 36 percent of transmissions are human-to-animal.",
         isCorrect: false,
       },
       {
-        label: "Human-to-animal disease transmission is called zoonosis.",
+        label: "c) Human-to-animal disease transmission is called zoonosis.",
         isCorrect: false,
       },
       { 
-        label: "It happens less often than animal-to-human transmission.",
+        label: "d) It happens less often than animal-to-human transmission.",
         isCorrect: false,
       },
     ],
@@ -82,19 +85,19 @@ const radio = [
     question: "4. Why does Cedric Tan say bird flu H591 is especially dangerous to other species?",
     options: [
       {
-        label: "Birds have no immunity to the disease.",
+        label: "a) Birds have no immunity to the disease.",
         isCorrect: false,
       },
       {
-        label: "Diseases that come from birds are usually harmful.",
+        label: "b) Diseases that come from birds are usually harmful.",
         isCorrect: false,
       },
       {
-        label: "The new species has no pre-existing immunity to the disease.",
+        label: "c) The new species has no pre-existing immunity to the disease.",
         isCorrect: true,
       },
       { 
-        label: "It is a serious case of anthroponosis.",
+        label: "d) It is a serious case of anthroponosis.",
         isCorrect: false,
       },
     ],
@@ -115,7 +118,7 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
         <Card bgColor="black" textColor="white">
           <b>Discussion</b>
         </Card>
-        <Collapsible labelBold="Can virus be transmitted from animals to humans and vice verse?">
+        <Collapsible labelBold="Can virus be transmitted from animals to humans and vice verse? Do you any names?">
           <div className="line-break">
             <p>
               Yes, certain viruses can infect both humans and animals. These
@@ -153,13 +156,24 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
               </p>
             </div>
             <div>
-              <p>African civet</p>
-              <Image
-                src={civet}
-                alt="African civet"
-                width={300}
-                className="img-border"
-              />
+              <div>
+                <p>African civet</p>
+                <Image
+                  src={africanCivet}
+                  alt="African civet"
+                  width={300}
+                  className="img-border"
+                />
+              </div>
+              <div>
+                <p>Asian Palm civet</p>
+                <Image
+                  src={asianCivet}
+                  alt="African civet"
+                  width={300}
+                  className="img-border"
+                />
+              </div>
             </div>
             <div>
               <p>
@@ -237,7 +251,7 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
             diseases to infect humans have come from pathogens that jumped from
             animals to people. The virus that causes AIDS, for example, came
             from{" "}
-            <DictionaryCard label="chimpanzees" audioSrc="/c/chimpanzees.mp3" />
+            <DictionaryCard keyword="chimpanzee" label="chimpanzees" audioSrc="/c/chimpanzees.mp3" />
             . And many experts believe the virus that caused the COVID-19
             pandemic came from bats.
           </p>
@@ -252,7 +266,7 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
         <div>
           <p>
             But, as a new study shows, this disease exchange has not been just
-            from animals to humans. In fact, research of all the publicly
+            from animals to humans. In fact, research of all the <DictionaryCard audioSrc="" label="publicly" /> publicly
             available viral genome sequences produced a surprising result:
             humans give about two times as many viruses to animals than they
             give to us.
@@ -475,6 +489,7 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
           <b>Exercises</b>
         </Card>
         <Radio questions={radio} />
+        <ScrollToTop />
       </div>
     </>
   );

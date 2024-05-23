@@ -20,7 +20,6 @@ import advanced from "../../../public/assets/img/icon/advanced.png";
 // Extra
 import grammarIcon from "../../../public/assets/img/icon/grammar.png";
 import listeningIcon from "../../../public/assets/img/icon/listening.png";
-import readingIcon from "../../../public/assets/img/icon/reading.png";
 import speakingIcon from "../../../public/assets/img/icon/speaking.png";
 import pronunciationIcon from "../../../public/assets/img/icon/pronunciation.png";
 import vocabularyIcon from "../../../public/assets/img/icon/dictionary.png";
@@ -45,7 +44,7 @@ import scienceIcon from "../../../public/assets/img/icon/science.png";
 import songsIcon from "../../../public/assets/img/icon/songs.png";
 import sportsIcon from "../../../public/assets/img/icon/sports.png";
 import stockMarketIcon from "../../../public/assets/img/icon/stock-market.png";
-import resumaotIcon from "../../../public/assets/img/icon/dictionary.png";
+import allInOneReviewIcon from "../../../public/assets/img/icon/dictionary.png";
 import examsIcon from "../../../public/assets/img/icon/exams.png";
 import miscIcon from "../../../public/assets/img/icon/misc.png";
 
@@ -268,10 +267,10 @@ const navBarLinks = [
         name: "Miscellaneous"
       },
       {
-        imgSrc: resumaotIcon,
+        imgSrc: allInOneReviewIcon,
         altName: "Book a-z icon",
-        link: "/specific-purposes/resumao",
-        name: "Resumão"
+        link: "/specific-purposes/all-in-one",
+        name: "all-in-one"
       },
     ],
   },
