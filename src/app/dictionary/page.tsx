@@ -1,11 +1,12 @@
 "use client";
+
 import { useState } from "react";
-import Image from "next/image";
 
 // Components
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { Button } from "@/components/Button/Button";
 import { WordCard } from "@/components/WordCard/WordCard";
+import { DescriptionCard } from "@/components/DescriptionCard/DescriptionCard";
 
 // Utils
 import { searchWords } from "@/utils/searchWords";
@@ -16,8 +17,22 @@ import { IDictionary } from "../../../interfaces";
 // CSS
 import styles from "./dictionary.module.css";
 
-// Images
-import globe from "@/img/icon/globe.png"
+
+const descriptions = [
+  {
+    label: "Sites",
+    contents: [
+      {
+        globeLink: "https://youglish.com/",
+        globeLabel: "Youglish (Words from youtube videos)",
+      },
+      {
+        globeLink: "https://www.playphrase.me/",
+        globeLabel: "Play Phrase (Phrases from movies)",
+      },
+    ],
+  },
+]
 
 export default function Dictionary() {
   const [text, setText] = useState("");
@@ -47,16 +62,7 @@ export default function Dictionary() {
         descriptions={["verb", "phrasal verb", "noun", "adjective", "idiom"]}
       />
       <div className="line-break">
-        <div>
-          <div className="flex-8-center">
-            <Image src={globe} alt="Globe icon" className="icon-general"/>
-            <a href="https://youglish.com/" target="_self"><p> Youglish (Youtube videos)</p></a>
-          </div>
-          <div className="flex-8-center">
-            <Image src={globe} alt="Globe icon" className="icon-general"/>
-            <a href="https://www.playphrase.me/" target="_self"><p>Play Phrase (Movie videos)</p></a>
-          </div>
-        </div>
+        <DescriptionCard descriptions={descriptions} />
         <div className={styles["input-button"]}>
           <input
             type="text"

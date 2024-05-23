@@ -5,7 +5,14 @@ export default function History() {
     <>
       <Whiteboard title="Specific Purposes" subtitle="History" />
       <div className="line-break">
-        <p><b>Vocabulary</b></p>
+        <div>
+          <p>John VI (John the sixth)</p>
+          <p>Peter I (Peter the first)</p>
+          <p>Peter II (Peter the second)</p>
+        </div>
+        <div>
+          <p>Charles III</p>
+        </div>
       </div>
     </>
   );

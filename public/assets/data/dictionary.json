@@ -128,6 +128,44 @@
     ]
   },
   {
+    "audio": "/assets/audio/dictionary/a/apple-d.mp3",
+    "keyword": "apple",
+    "phonetics": "/ˈæp.əl/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "ptDefinition": "maçã",
+        "examples": [
+          {
+            "enExample": "an apple tree",
+            "ptExample": "uma macieira"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/b/bladder-d.mp3",
+    "keyword": "bladder",
+    "phonetics": "/ˈblæd.ɚ/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "enDefinition": "an organ like a bag inside the body of a person or animal, where urine is stored before it leaves the body",
+        "ptDefinition": "bexiga"
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/b/bladder-stones.mp3",
+    "keyword": "bladder stones",
+    "definitions": [
+      {
+        "ptDefinition": "cálculos na bexiga"
+      }
+    ]
+  },
+  {
     "audio": "/assets/audio/dictionary/b/back-and-forth-issue.mp3",
     "keyword": "back and forth on an issue",
     "partOfSpeech": "idiom",
@@ -350,7 +388,7 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/g/genome.mp3",
+    "audio": "/assets/audio/dictionary/g/genome-d.mp3",
     "keyword": "genome",
     "phonetics": "/ˈdʒiː.noʊm/",
     "partOfSpeech": "noun",
@@ -629,19 +667,13 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/plantain.mp3",
+    "audio": "/assets/audio/dictionary/p/plantain.mp3",
     "keyword": "plantain",
     "phonetics": "/ˈplæn.tɪn/",
     "partOfSpeech": "noun",
     "definitions": [
       {
-        "ptDefinition": "banana-da-terra",
-        "examples": [
-          {
-            "enExample": "...",
-            "ptExample": "..."
-          }
-        ]
+        "ptDefinition": "banana-da-terra"
       }
     ]
   },
@@ -679,6 +711,23 @@
         "thesauri": [
           {
             "synonyms": "honestly, openly, plainly"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/p/put-in-a-good-word.mp3",
+    "keyword": "put in a good word",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "to say something good about someone",
+        "ptDefinition": "fazer uma boa recomendação",
+        "examples": [
+          {
+            "enExample": "Would you mind putting in a good word for me?",
+            "ptExample": "Você se importaria de fazer uma boa recomendação para mim?"
           }
         ]
       }
