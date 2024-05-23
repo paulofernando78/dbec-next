@@ -178,7 +178,7 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
           <p>
             But, as a new study shows, this disease exchange has not been just
             from animals to humans. In fact, research of all the <DictionaryCard audioSrc="/p/publicly.mp3" label="publicly" />
-            available viral genome sequences produced a surprising result:
+            available viral <DictionaryCard audioSrc="/g/genome.mp3" label="genome"/> sequences produced a surprising result:
             humans give about two times as many viruses to animals than they
             give to us.
           </p>

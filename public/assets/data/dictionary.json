@@ -350,6 +350,18 @@
     ]
   },
   {
+    "audio": "/assets/audio/dictionary/g/genome.mp3",
+    "keyword": "genome",
+    "phonetics": "/ˈdʒiː.noʊm/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "enDefinition": "the complete set of genetic material of a human, animal, plant, or other living thing",
+        "ptDefinition": "genoma"
+      }
+    ]
+  },
+  {
     "audio": "/assets/audio/dictionary/g/good.mp3",
     "keyword": "good",
     "phonetics": "/ɡʊd/",

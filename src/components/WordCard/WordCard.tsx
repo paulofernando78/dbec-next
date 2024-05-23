@@ -55,18 +55,16 @@ export function WordCard({ dictionary }: WordCardProps) {
                   )}
 
                   {/* Percorre a lista de exemplos da palavra em frases*/}
-                  {definition.examples.map((example, index) => {
+                  {definition.examples?.map((example, exampleIndex) => {
                     return (
-                      <p key={index}>
+                      <p key={exampleIndex}>
                         <b>• </b>
                         {/* Se houver um exemplo em inglês > Exiba-o */}
                         {example.enExample && <span>{example.enExample} </span>}
 
                         {/* Se houver um exemplo em português > Exiba-o */}
-                        {example.ptExample && (
-                          <span className="portuguese">
-                            {example.ptExample}
-                          </span>
+                        {example.ptExample && (<span className="portuguese">{example.ptExample}
+</span>
                         )}
                       </p>
                     );
