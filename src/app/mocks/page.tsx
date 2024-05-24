@@ -28,19 +28,17 @@ const fillInTheBlanksExercise = [
     width: "100px",
     title: "1. Fill in the blank with the correct word.",
     beforeBlank: "The sky is",
-    afterBlank: "during a clear day.",
-    options: ["blue", "red", "green"],
-    correctAnswer: ["blue"],
     placeholder: "color",
+    correctAnswer: ["blue"],
+    afterBlank: "during a clear day.",
     // lineBreakAfter: true
   },
   {
     width: "100px",
     beforeBlank: "The sky is",
-    afterBlank: "during a clear day.",
-    options: ["blue", "red", "green"],
-    correctAnswer: ["blue"],
-    placeholder: "color"
+    placeholder: "color",
+    correctAnswer: ["dark"],
+    afterBlank: "during night.",
   },
 ];
 
@@ -66,13 +64,13 @@ export default function Mocks() {
         <Card bgColor="black" textColor="white">
           <b>Fill in The Blanks</b>
         </Card>
-        <FillInTheBlanks questions={fillInTheBlanksExercise} />
+        <FillInTheBlanks questions={fillInTheBlanksExercise} display={""} />
         <Card bgColor="black" textColor="white">
           <b>Dictionary Card</b>
         </Card>
 
         <p>
-          I'm feeling <DictionaryCard audioSrc="/g/good.mp3" label="annoy" />{" "}
+          I'm feeling <DictionaryCard audioSrc="/a/annoyed.mp3" label="annoyed" />{" "}
           today.
         </p>
       </div>

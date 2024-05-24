@@ -21,46 +21,40 @@ interface Question {
   title?: string;
   subtitle?: string;
   beforeBlank: string;
-  afterBlank: string;
   lineBreakBefore?: boolean;
-  lineBreakAfter?: boolean;
-  options: string[];
+  placeholder?: string;
   correctAnswer: string[];
   width?: string;
-  placeholder?: string;
+  afterBlank: string;
+  lineBreakAfter?: boolean;
 }
 
 export const FillInTheBlanks = ({ questions, display }: FillInTheBlanksProps) => {
-  const initialSelectedOptions = questions.map(() => ['']);
-  const [selectedOptions, setSelectedOptions] = useState(initialSelectedOptions);
+  const [selectedOptions, setSelectedOptions] = useState(questions.map(() => ['']));
   const [isCorrects, setIsCorrects] = useState(Array(questions.length).fill(null));
   const [showAnswers, setShowAnswers] = useState(false);
 
-  const handleOptionChange = (questionIndex: number, event: React.ChangeEvent<HTMLInputElement>) => {
-    const newSelectedOptions = [...selectedOptions];
-    newSelectedOptions[questionIndex] = [event.target.value];
-    setSelectedOptions(newSelectedOptions);
+  const handleOptionChange = (index: number, event: React.ChangeEvent<HTMLInputElement>) => {
+    const newOptions = [...selectedOptions];
+    newOptions[index] = [event.target.value];
+    setSelectedOptions(newOptions);
   };
 
   const handleCheckAnswers = () => {
-    const newIsCorrects = selectedOptions.map((options, index) => {
-      if (options.length === 0) return false;
-      return options.every(option => questions[index].correctAnswer.includes(option.trim()));
-    });
+    const newIsCorrects = selectedOptions.map((options, index) =>
+      options.every(option => questions[index].correctAnswer.includes(option.trim()))
+    );
     setIsCorrects(newIsCorrects);
   };
 
   const handleShowAnswers = () => setShowAnswers(!showAnswers);
 
   const handleReset = () => {
-    setSelectedOptions(initialSelectedOptions);
+    setSelectedOptions(questions.map(() => ['']));
     setIsCorrects(Array(questions.length).fill(null));
   };
 
-  const renderAnswers = (answers: string | string[]) => {
-    if (typeof answers === "string") return answers;
-    return answers.join(" / ");
-  };
+  const renderAnswers = (answers: string | string[]) => Array.isArray(answers) ? answers.join(" / ") : answers;
 
   return (
     <>
@@ -73,7 +67,6 @@ export const FillInTheBlanks = ({ questions, display }: FillInTheBlanksProps) =>
                 <p dangerouslySetInnerHTML={{ __html: question.subtitle }} />
               </div>
             )}
-
             <span>
               <span dangerouslySetInnerHTML={{ __html: question.beforeBlank }} />{" "}
               {question.lineBreakBefore && <br />}
@@ -85,13 +78,11 @@ export const FillInTheBlanks = ({ questions, display }: FillInTheBlanksProps) =>
                 placeholder={question.placeholder || ""}
               />{" "}
               {isCorrects[index] !== null && (
-                <>
-                  {isCorrects[index] ? (
-                    <Image src={correctIcon} alt="Correct icon" className={`icon-general ${styles['correct-icon']}`} />
-                  ) : (
-                    <Image src={incorrectIcon} alt="Incorrect icon" className={`icon-general ${styles['incorrect-icon']}`} />
-                  )}
-                </>
+                <Image
+                  src={isCorrects[index] ? correctIcon : incorrectIcon}
+                  alt={isCorrects[index] ? "Correct icon" : "Incorrect icon"}
+                  className={`icon-general ${styles[isCorrects[index] ? 'correct-icon' : 'incorrect-icon']}`}
+                />
               )}{" "}
               <span dangerouslySetInnerHTML={{ __html: question.afterBlank }} />{" "}
               {question.lineBreakAfter && <br />}

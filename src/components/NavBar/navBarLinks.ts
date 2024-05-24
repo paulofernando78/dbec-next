@@ -1,43 +1,4 @@
-import { placementTest, beginner } from "../../../public/assets/img";
-
-// Courses
-
-import elementary from "../../../public/assets/img/icon/elementary.png";
-import preIntermediate from "../../../public/assets/img/icon/pre-intermediate.png";
-import intermediate from "../../../public/assets/img/icon/intermediate.png";
-import upperIntermediate from "../../../public/assets/img/icon/upper-intermediate.png";
-import advanced from "../../../public/assets/img/icon/advanced.png";
-
-// Extra
-import grammarIcon from "../../../public/assets/img/icon/grammar.png";
-import listeningIcon from "../../../public/assets/img/icon/listening.png";
-import speakingIcon from "../../../public/assets/img/icon/speaking.png";
-import pronunciationIcon from "../../../public/assets/img/icon/pronunciation.png";
-import vocabularyIcon from "../../../public/assets/img/icon/dictionary.png";
-
-// Specific Purposes
-import automobileIcon from "../../../public/assets/img/icon/automobile.png";
-import businessIcon from "../../../public/assets/img/icon/business.png";
-import chemistryIcon from "../../../public/assets/img/icon/chemistry.png";
-import codingIcon from "../../../public/assets/img/icon/coding.png";
-import foodDrinkIcon from "../../../public/assets/img/icon/food-drink.png";
-import dentistryIcon from "../../../public/assets/img/icon/dentistry.png";
-import gamesIcon from "../../../public/assets/img/icon/games.png";
-import geographyIcon from "../../../public/assets/img/icon/geography.png";
-import workoutIcon from "../../../public/assets/img/icon/workout.png";
-import hairdressingIcon from "../../../public/assets/img/icon/hairdressing.png";
-import historyIcon from "../../../public/assets/img/icon/history.png";
-import lawIcon from "../../../public/assets/img/icon/law.png";
-import jobInterviewIcon from "../../../public/assets/img/icon/job-interviews.png";
-import medicineIcon from "../../../public/assets/img/icon/medicine.png";
-import travelIcon from "../../../public/assets/img/icon/travel.png";
-import scienceIcon from "../../../public/assets/img/icon/science.png";
-import songsIcon from "../../../public/assets/img/icon/songs.png";
-import sportsIcon from "../../../public/assets/img/icon/sports.png";
-import stockMarketIcon from "../../../public/assets/img/icon/stock-market.png";
-import allInOneReviewIcon from "../../../public/assets/img/icon/dictionary.png";
-import examsIcon from "../../../public/assets/img/icon/exams.png";
-import miscIcon from "../../../public/assets/img/icon/misc.png";
+import { placementTest, beginner, elementary, preIntermediate, intermediate, upperIntermediate, advanced, grammarIcon, listeningIcon, speakingIcon, pronunciationIcon, vocabularyIcon, automobileIcon, businessIcon, chemistryIcon, codingIcon, foodDrinkIcon, dentistryIcon, gamesIcon, geographyIcon, workoutIcon, hairdressingIcon, historyIcon, lawIcon, jobInterviewIcon, medicineIcon, travelIcon, scienceIcon, songsIcon, sportsIcon, stockMarketIcon, examsIcon, allInOneIcon, miscIcon } from "../../../public/assets/img";
 
 export const navBarLinks = [
   {
@@ -259,7 +220,7 @@ export const navBarLinks = [
         name: "Miscellaneous",
       },
       {
-        imgSrc: allInOneReviewIcon,
+        imgSrc: allInOneIcon,
         altName: "Book a-z icon",
         link: "/specific-purposes/all-in-one",
         name: "all-in-one",
