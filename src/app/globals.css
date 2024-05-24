@@ -14,7 +14,7 @@
     --box-shadow: 0 0 5px .5px #999;
     --border-radius: 5px;
     --padding: 4px 8px;
-    --isActive: #F77D7A;
+    /* --isActive: #F77D7A; */
 }
 
 * {
@@ -103,8 +103,8 @@ p {
     font-size: var(--font-size-small)
 }
 
-.active {
-    color: var(--isActive)
+.is-active {
+    text-decoration: underline;
 }
 
 .user-select-none {

@@ -39,6 +39,10 @@
   color: white;
 }
 
+.active:active {
+  color: var(--isActive)
+}
+
 @media (max-width: 768px) {
   .nav-bar {
     width: 100%;

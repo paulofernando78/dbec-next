@@ -74,5 +74,22 @@
         ]
       }
     ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/g/grass-other-side.mp3",
+    "keyword": "the grass is always greener on the other side",
+    "partOfSpeech": "proverb",
+    "definitions": [
+      {
+        "enDefinition": "The circumstances of others seem more desirable than one's own but in reality often are not.",
+        "ptDefinition": "mercadorias, bens",
+        "examples": [
+          {
+            "enExample": "I sometimes think I'd be happier teaching in Spain. Oh well, the grass is always greener on the other side!",
+            "ptExample": "Às vezes penso que seria mais feliz ensinando na Espanha. Ah, bem, a grama do vizinho é sempre mais verde!"
+          }
+        ]
+      }
+    ]
   }
 ]
