@@ -6,9 +6,9 @@ import "./globals.css";
 import styles from "./layout.module.css";
 
 // components
-import { Header } from "@/components/Header/Header";
-import { NavBar } from "@/components/NavBar/NavBar";
-import { useState } from "react";
+// import { Header } from "@/components/Header/Header";
+// import { NavBar } from "@/components/NavBar/NavBar";
+// import { useState } from "react";
 import HeaderNavBar from "@/components/HeaderNavBar/HeaderNavBar";
 
 const inter = Inter({ subsets: ["latin"] });
