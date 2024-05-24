@@ -1,0 +1,34 @@
+[
+  {
+    "audio": "/assets/audio/dictionary/c/chimpanzee-d.mp3",
+    "keyword": "chimpanzee",
+    "phonetics": "/ˌtʃɪm.pænˈziːz/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "ptDefinition": "chimpanzé",
+        "examples": [
+          {
+            "enExample": "Chimpanzees are known for their ability to use tools, such as sticks to extract termites from holes.",
+            "ptExample": "Os chimpanzés são conhecidos por sua habilidade de usar ferramentas, como gravetos para extrair cupins de buracos."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/c/come-up-with-a winner.mp3",
+    "keyword": "come up with a winner",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "to think up a very good idea",
+        "examples": [
+          {
+            "enExample": "Everybody likes Pepsi's new advertising campaign. Their advertising agency has come up with a winner."
+          }
+        ]
+      }
+    ]
+  }
+]

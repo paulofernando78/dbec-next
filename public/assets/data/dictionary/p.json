@@ -1,0 +1,118 @@
+[
+  {
+    "audio": "/assets/audio/dictionary/p/petty.mp3",
+    "keyword": "(to be) petty",
+    "partOfSpeech": "adjective",
+    "definitions": [
+      {
+        "enDefinition": "complaining too much about things that are not important",
+        "ptDefinition": "mesquinho",
+        "examples": [
+          {
+            "enExample": "<u>Don't be</u> so petty!",
+            "ptExample": "Não seja tão mesquinho!"
+          }
+        ]
+      },
+      {
+        "enDefinition": "not important and not worth giving attention to",
+        "ptDefinition": "pequeno, insignificante",
+        "examples": [
+          {
+            "enExample": "a petty theft",
+            "ptExample": "um pequeno roubo"
+          },
+          {
+            "enExample": "a petty crime",
+            "ptExample": "um pequeno crime"
+          },
+          {
+            "enExample": "a petty official",
+            "ptExample": "official de ranque baixo"
+          },
+          {
+            "enExample": "I don’t have time for petty matters like that.",
+            "ptExample": "Não tenho tempo para assuntos sem importância."
+          },
+          {
+            "enExample": "Prisoners complain that they are subjected to too many petty rules and restrictions.",
+            "ptExample": "Os presos queixam-se de que estão sujeitos a demasiadas regras e restrições insignificantes."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "frivolous, trivial, minor, small, slight, unimportant, insignificant, narrow-minded",
+            "antonyms": "greater, major, serious"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/p/plantain.mp3",
+    "keyword": "plantain",
+    "phonetics": "/ˈplæn.tɪn/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "ptDefinition": "banana-da-terra"
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/p/productivity-d.mp3",
+    "keyword": "productivity",
+    "phonetics": "/ˌproʊ.dəkˈtɪv.ə.t̬i/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "ptDefinition": "produtividade",
+        "examples": [
+          {
+            "enExample": "Studies show that if a working environment is pleasant, productivity increases.",
+            "ptExample": "Estudos demonstram que, se um ambiente de trabalho é agradável, a produtividade aumenta."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/p/publicly-d.mp3",
+    "keyword": "publicly",
+    "phonetics": "/ˈpʌb.lɪ.kli/",
+    "partOfSpeech": "adverb",
+    "definitions": [
+      {
+        "ptDefinition": "publicamente",
+        "examples": [
+          {
+            "enExample": "The company publicly apologized and agreed to contribute some money to charity.",
+            "ptExample": "A empresa pediu desculpas publicamente e concordou em contribuir com uma quantia para caridade."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "honestly, openly, plainly"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/p/put-in-a-good-word.mp3",
+    "keyword": "put in a good word",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "to say something good about someone",
+        "ptDefinition": "fazer uma boa recomendação",
+        "examples": [
+          {
+            "enExample": "Would you mind putting in a good word for me?",
+            "ptExample": "Você se importaria de fazer uma boa recomendação para mim?"
+          }
+        ]
+      }
+    ]
+  }
+]

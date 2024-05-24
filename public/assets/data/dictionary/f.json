@@ -1,0 +1,117 @@
+[
+  {
+    "audio": "/assets/audio/dictionary/f/face-the-music.mp3",
+    "keyword": "face the music",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "to admit that there's a problem; to deal with an unpleasant situation realistically",
+        "examples": [
+          {
+            "enExample": "Enron executives finally had to face the music and admit that they were involved in some illegal activities.",
+            "ptExample": "Os executivos da Enron finalmente tiveram que encarar a realidade e admitir que estavam envolvidos em algumas atividades ilegais."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/f/feel like.mp3",
+    "keyword": "feel like",
+    "definitions": [
+      {
+        "ptDefinition": "sentir-se como",
+        "examples": [
+          {
+            "enExample": "I feel like a princess in this beautiful dress.",
+            "ptExample": "Eu me sinto como uma princesa neste lindo vestido."
+          },
+          {
+            "enExample": "He felt like an idiot (= He felt very foolish).",
+            "ptExample": "Ele se sentiu como um idiota (= Ele se sentiu muito tolo)."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "fancy (UK)"
+          }
+        ]
+      },
+      {
+        "ptDefinition": "ter vontade, apetecer",
+        "examples": [
+          {
+            "enExample": "I feel like a drink",
+            "ptExample": "Estou com vontade de beber."
+          },
+          {
+            "enExample": "[+ing] I feel like drinking something.",
+            "ptExample": "Estou com vontade de beber algo."
+          },
+          {
+            "enExample": "[+ing] Do you feel like going to the movies?",
+            "ptExample": "Você está a fim de ir ao cinema?."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/f/focus-regular-verb.mp3",
+    "keyword": "focus",
+    "phonetics": "/ˈfoʊ.kəs/",
+    "partOfSpeech": "regular verb",
+    "definitions": [
+      {
+        "ptDefinition": "focar, focalizar",
+        "examples": [
+          {
+            "enExample": "You need to focus the camera.",
+            "ptExample": "Você precisa focar a câmera."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "aim, ..."
+          }
+        ]
+      },
+      {
+        "ptDefinition": "concentrar",
+        "examples": [
+          {
+            "enExample": "Focus your attention on what is important",
+            "ptExample": "Concentre sua atenção no que é importante."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "concentrate, ..."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/f/focus-noun.mp3",
+    "keyword": "focus",
+    "phonetics": "/ˈfoʊ.kəs/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "ptDefinition": "foco",
+        "examples": [
+          {
+            "enExample": "I think Dave likes to be the focus of attention.",
+            "ptExample": "Acho que o Dave gosta de ser o centro das atenções."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "concentration, attention, center, spotlight, limelight"
+          }
+        ]
+      }
+    ]
+  }
+]

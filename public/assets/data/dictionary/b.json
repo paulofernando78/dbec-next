@@ -1,0 +1,69 @@
+[
+  {
+    "audio": "/assets/audio/dictionary/b/bladder-d.mp3",
+    "keyword": "bladder",
+    "phonetics": "/ˈblæd.ɚ/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "enDefinition": "an organ like a bag inside the body of a person or animal, where urine is stored before it leaves the body",
+        "ptDefinition": "bexiga"
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/b/bladder-stones.mp3",
+    "keyword": "bladder stones",
+    "definitions": [
+      {
+        "ptDefinition": "cálculos na bexiga"
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/b/back-and-forth-issue.mp3",
+    "keyword": "back and forth on an issue",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "repeatedly changing one's mind about something; having trouble settling on an opinion or decision",
+        "examples": [
+          {
+            "enExample": "Should we change our company health plan? I can't make up my mind. I go back and forth on the issue."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/b/blockbuster.mp3",
+    "keyword": "blockbuster",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "a big success, something or someone that is forcefully or overwhelmingly impressive, effective or influential",
+        "examples": [
+          {
+            "enExample": "The campaign was a blockbuster."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/b/bells-and-whistles.mp3",
+    "keyword": "bells and whistles",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "extra product features, usually using the latest technology; product features which are attractive, but not essential for the product to function.",
+        "examples": [
+          {
+            "enExample": "Our office just got a new copier with all the bells and whistles. I'll probably never learn how to use all of its features!",
+            "ptExample": "Nosso escritório acaba de receber uma nova copiadora com todos os acessórios. Provavelmente nunca aprenderei como usar todos os seus recursos!"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -15,8 +15,7 @@ import { searchWords } from "@/utils/searchWords";
 import { IDictionary } from "../../../interfaces";
 
 // CSS
-import styles from "./dictionary.module.css";
-
+import styles from "./styles.module.css";
 
 const descriptions = [
   {
@@ -67,7 +66,6 @@ export default function Dictionary() {
           <input
             type="text"
             placeholder="Enter a word"
-            className={styles["input-style"]}
             onChange={(e) => setText(e.target.value)}
             onKeyUp={detectEnterClick}
           />

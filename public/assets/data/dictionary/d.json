@@ -1,0 +1,31 @@
+[
+  {
+    "audio": "/assets/audio/dictionary/d/deadliest-d.mp3",
+    "keyword": "deadliest",
+    "phonetics": "/ˈded.liəst/",
+    "partOfSpeech": "superlative of deadly",
+    "definitions": [
+      {
+        "ptDefinition": "mais mortal",
+        "examples": [
+          {
+            "enExample": "The Spanish Flu pandemic of 1918 is considered one of the deadliest in human history, with an estimated 50 million deaths worldwide.",
+            "ptExample": "A pandemia de gripe espanhola de 1918 é considerada uma das mais mortais da história humana, com um número estimado de 50 milhões de mortes em todo o mundo."
+          },
+          {
+            "enExample": "Mount Vesuvius's eruption in AD 79 is among the deadliest volcanic eruptions ever recorded, burying the cities of Pompeii and Herculaneum under ash and rock.",
+            "ptExample": "A erupção do Monte Vesúvio em 79 d.C. está entre as erupções vulcânicas mais mortais já registradas, enterrando as cidades de Pompeia e Herculano sob cinzas e rochas."
+          },
+          {
+            "enExample": "The Battle of Stalingrad during World War II was one of the deadliest battles, resulting in nearly two million casualties.",
+            "ptExample": "A Batalha de Stalingrado durante a Segunda Guerra Mundial foi uma das batalhas mais mortais, resultando em quase dois milhões de baixas."
+          },
+          {
+            "enExample": "The bubonic plague, or Black Death, was one of the deadliest pandemics, killing an estimated 25 million people in 14th-century Europe.",
+            "ptExample": "A peste bubônica, ou Peste Negra, foi uma das pandemias mais mortais, matando cerca de 25 milhões de pessoas na Europa do século XIV."
+          }
+        ]
+      }
+    ]
+  }
+]

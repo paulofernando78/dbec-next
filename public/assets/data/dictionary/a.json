@@ -1,0 +1,147 @@
+[
+  {
+    "audio": "/assets/audio/dictionary/a/annoy-present.mp3",
+    "keyword": "annoy",
+    "phonetics": "/əˈnɔɪ/",
+    "partOfSpeech": "regular verb",
+    "definitions": [
+      {
+        "ptDefinition": "aborrecer, chatear, incomodar, irritar",
+        "examples": [
+          {
+            "enExample": "It's important to respect others' personal space and not do things that might annoy them.",
+            "ptExample": "É importante respeitar o espaço pessoal dos outros e não fazer coisas que possam incomodá-los."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "bother, irritate, bug",
+            "antonyms": "please, gratify"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/a/annoyed-past.mp3",
+    "keyword": "annoyed",
+    "phonetics": "/əˈnɔɪd/",
+    "partOfSpeech": "past of annoy",
+    "definitions": [
+      {
+        "examples": [
+          {
+            "enExample": "Tina really annoyed me in the meeting this morning.",
+            "ptExample": "Tina realmente me chateou na reunião esta manhã."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/a/annoyed-past-participle.mp3",
+    "keyword": "annoyed",
+    "phonetics": "/əˈnɔɪd/",
+    "partOfSpeech": "past participle of annoy",
+    "definitions": [
+      {
+        "examples": [
+          {
+            "enExample": "The loud music has annoyed the neighbors for weeks.",
+            "ptExample": "A música alta tem incomodado os vizinhos há semanas."
+          },
+          {
+            "enExample": "The ongoing construction work has annoyed residents in the area.",
+            "ptExample": "As obras em andamento incomodaram/tem incomodado os moradores da região."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/a/annoying-present-participle.mp3",
+    "keyword": "annoying",
+    "phonetics": "/əˈnɔɪ.ɪŋ/",
+    "partOfSpeech": "present participle of annoy",
+    "definitions": [
+      {
+        "examples": [
+          {
+            "enExample": "I'm sorry - is my cough annoying you?",
+            "ptExample": "Sinto muito - minha tosse está incomodando você?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/a/annoys-he-she-it.mp3",
+    "keyword": "annoys",
+    "phonetics": "/əˈnɔɪz/",
+    "partOfSpeech": "he/she/it: affirmative only",
+    "definitions": [
+      {
+        "examples": [
+          {
+            "enExample": "It really annoys me when people cut in line.",
+            "ptExample": "Realmente me irrita quando as pessoas furam a fila."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/a/annoying-adjective.mp3",
+    "keyword": "annoying",
+    "phonetics": "/əˈnɔɪ.ɪŋ/",
+    "partOfSpeech": "adjective",
+    "definitions": [
+      {
+        "examples": [
+          {
+            "enExample": "It's really annoying when a train is late and there's no explanation.",
+            "ptExample": "É muito irritante quando um trem está atrasado e não há nenhuma explicação."
+          },
+          {
+            "enExample": "He's got a really annoying laugh.",
+            "ptExample": "Ele tem mesmo uma risada irritante."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/a/anxiety-d.mp3",
+    "keyword": "anxiety",
+    "phonetics": "/æŋˈzaɪ.ə.t̬i/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "ptDefinition": "apreensão, inquietude, ansiedade",
+        "examples": [
+          {
+            "enExample": "Children normally feel a lot of anxiety about their first day at school.",
+            "ptExample": "As crianças normalmente sentem muita ansiedade no seu primeiro dia na escola."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/a/apple-d.mp3",
+    "keyword": "apple",
+    "phonetics": "/ˈæp.əl/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "ptDefinition": "maçã",
+        "examples": [
+          {
+            "enExample": "an apple tree",
+            "ptExample": "uma macieira"
+          }
+        ]
+      }
+    ]
+  }
+]

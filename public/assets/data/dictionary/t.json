@@ -1,0 +1,18 @@
+[
+  {
+    "audio": "/assets/audio/dictionary/t/to-the-letter.mp3",
+    "keyword": "to the letter",
+    "partOfSpeech": "idiom",
+    "definitions": [
+      {
+        "enDefinition": "If you obey instructions or rules to the letter, you do exactly what you have been told to do, giving great attention to every detail.",
+        "examples": [
+          {
+            "enExample": "I followed the instructions to the letter and it still went wrong.",
+            "ptExample": "Segui as instruções ao pé da letra e mesmo assim deu errado."
+          }
+        ]
+      }
+    ]
+  }
+]

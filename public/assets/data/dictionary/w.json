@@ -1,0 +1,38 @@
+[
+  {
+    "audio": "/assets/audio/dictionary/w/weird.mp3",
+    "keyword": "weird",
+    "partOfSpeech": "adjective",
+    "definitions": [
+      {
+        "ptDefinition": "esquisito, estranho",
+        "examples": [
+          {
+            "enExample": "He's weird.",
+            "ptExample": "Ele é esquisito."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/w/weirdo.mp3",
+    "keyword": "weirdo",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "ptDefinition": "pessoa estranha, esquisita",
+        "examples": [
+          {
+            "enExample": "He's a weirdo.",
+            "ptExample": "Ele é um \"bicho\" estranho."
+          },
+          {
+            "enExample": "[Radiohead's song: I'm a weirdo.",
+            "ptExample": "Eu sou um esquisitão."
+          }
+        ]
+      }
+    ]
+  }
+]

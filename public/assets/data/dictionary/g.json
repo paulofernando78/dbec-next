@@ -1,0 +1,78 @@
+[
+  {
+    "audio": "/assets/audio/dictionary/g/genome-d.mp3",
+    "keyword": "genome",
+    "phonetics": "/ˈdʒiː.noʊm/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "enDefinition": "the complete set of genetic material of a human, animal, plant, or other living thing",
+        "ptDefinition": "genoma"
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/g/good.mp3",
+    "keyword": "good",
+    "phonetics": "/ɡʊd/",
+    "partOfSpeech": "adjective",
+    "definitions": [
+      {
+        "enDefinition": "very satisfactory, enjoyable, pleasant, or interesting",
+        "ptDefinition": "bom",
+        "examples": [
+          {
+            "enExample": "It's a good book.",
+            "ptExample": "É um bom livro."
+          }
+        ]
+      },
+      {
+        "enDefinition": "successful, or able to do something well",
+        "ptDefinition": "bom",
+        "examples": [
+          {
+            "enExample": "Kate's a good cook.",
+            "ptExample": "Kate é uma boa cozinheira."
+          },
+          {
+            "enExample": "He's very good <u>at</u> geography.",
+            "ptExample": "Ele é muito boa em geografia."
+          },
+          {
+            "enExample": "She's very good with children.",
+            "ptExample": "Ela é muito boa com crianças."
+          }
+        ]
+      },
+      {
+        "enDefinition": "kind or helpful",
+        "ptDefinition": "bom, gentil",
+        "examples": [
+          {
+            "enExample": "He's a good friend.",
+            "ptExample": "Ele é um bom amigo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "audio": "/assets/audio/dictionary/g/goods.mp3",
+    "keyword": "goods",
+    "phonetics": "/ɡʊdz/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "enDefinition": "things that are made to be sold",
+        "ptDefinition": "mercadorias, bens",
+        "examples": [
+          {
+            "enExample": "expensive goods",
+            "ptExample": "bens caros"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -241,6 +241,14 @@ input[type="checkbox"]:checked::before {
     left: -1px;
   }
 
+  input[type="text"] {
+    padding-left: .3rem;
+    margin: .1rem 0 .1rem 0;
+    font-family: var(--font);
+    font-size: var(--p-size);
+    border-radius: var(--border-radius);
+}
+
 @media (max-width: 768px) {
     .img-border {
         width: 100%;

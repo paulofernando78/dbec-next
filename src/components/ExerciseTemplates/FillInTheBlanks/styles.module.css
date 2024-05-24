@@ -1,0 +1,18 @@
+
+
+.correct-icon {
+    position: relative;
+    top: 2px;
+    width: 1.58rem
+}
+
+.incorrect-icon {
+    position: relative;
+    top: 3.5px;
+    width: 1.58rem
+}
+
+.show-answers {
+    display: block;
+    color: green
+}
