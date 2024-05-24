@@ -64,7 +64,7 @@ export const FillInTheBlanks = ({ questions, display }: FillInTheBlanksProps) =>
             {question.title && (
               <div className='margin-bottom'>
                 <p className='bold'>{question.title}</p>
-                <p dangerouslySetInnerHTML={{ __html: question.subtitle }} />
+                <p className='bold'>{question.subtitle}</p>
               </div>
             )}
             <span>
