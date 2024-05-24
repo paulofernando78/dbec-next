@@ -1,5 +1,29 @@
 [
   {
+    "audio": "/assets/audio/dictionary/a/all-you-can-eat-d.mp3",
+    "keyword": "all-you-can-eat",
+    "phonetics": "/ɑːl.jə.kənˈiːt/",
+    "partOfSpeech": "adjective",
+    "definitions": [
+      {
+        "enDefinition": "used to describe a meal at a restaurant where people can serve themselves as much food as they want",
+        "ptDefinition": "rodízio, coma à vontade, *continuous table-side meat service",
+        "examples": [
+          {
+            "enExample": "The bar has an all-you-can-eat buffet lunch for $10.",
+            "ptExample": "O bar tem um buffet de almoço \"coma à vontade\" por $10."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "...",
+            "antonyms": "..."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "audio": "/assets/audio/dictionary/a/annoy-present.mp3",
     "keyword": "annoy",
     "phonetics": "/əˈnɔɪ/",

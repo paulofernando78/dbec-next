@@ -58,7 +58,7 @@ export default function Dictionary() {
     <>
       <Whiteboard
         title="Dictionary"
-        descriptions={["verb", "phrasal verb", "noun", "adjective", "idiom"]}
+        descriptions={["verbs", "phrasal verbs", "nouns", "adjectives", "idioms"]}
       />
       <div className="line-break">
         <DescriptionCard descriptions={descriptions} />
