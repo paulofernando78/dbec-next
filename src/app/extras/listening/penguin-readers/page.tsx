@@ -57,7 +57,7 @@ const descriptions = [
     contents: [
       {
         globeLink: "...",
-        globeLabel: "...",
+        globeLabel: "AAA",
       },
     ],
   },

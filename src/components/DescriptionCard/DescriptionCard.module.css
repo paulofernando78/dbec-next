@@ -15,14 +15,19 @@
   line-height: 1;
 }
 
+.link-label-position {
+  position: relative;
+  top: 1.5px;
+}
+
 .globe-icon {
   position: relative;
   right: 3px;
-  bottom: 2px;
+  /* bottom: 2px; */
 }
 
 .globe-link {
   position: relative;
   right: 4px;
-  /* top: 1px; */
+  top: 2px;
 }
