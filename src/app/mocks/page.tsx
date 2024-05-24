@@ -38,7 +38,7 @@ const fillInTheBlanksExercise = [
     beforeBlank: "The sky is",
     placeholder: "color",
     correctAnswer: ["dark"],
-    afterBlank: "during night.",
+    afterBlank: "during at night.",
   },
 ];
 
