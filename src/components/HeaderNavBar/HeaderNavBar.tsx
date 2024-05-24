@@ -12,7 +12,7 @@ export default function HeaderNavBar() {
   return (
     <>
       <Header toggleShow={toggleShow} />
-      <NavBar show={show} toggleShow={toggleShow} />
+      <NavBar show={show} toggleShow={toggleShow} width={""} />
     </>
   );
 }
