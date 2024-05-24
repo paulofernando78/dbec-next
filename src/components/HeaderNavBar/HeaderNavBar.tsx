@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Header } from "../Header/Header";
-import { NavBar } from "../NavBar/NavBar";
+import { NavBar } from "../NavBar/page";
 
 export default function HeaderNavBar() {
   const [show, setShow] = useState(false);

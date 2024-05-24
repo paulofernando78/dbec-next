@@ -3,8 +3,10 @@ import { useMediaQuery } from "@/hooks/useMediaQuery";
 import Image from "next/image";
 import Link from "next/link";
 
-import navBar from "./NavBar.module.css";
+// CSS
+import styles from "./styles.module.css";
 
+// Images
 import homeIcon from "../../../public/assets/img/icon/home.png";
 import dictionaryIcon from "../../../public/assets/img/icon/dictionary.png";
 
@@ -284,14 +286,14 @@ interface NavBarProps {
 export const NavBar = ({show, toggleShow}: NavBarProps) => {
   const isSmallDevice = useMediaQuery("only screen and (max-width : 768px)");
   return (
-    show || !isSmallDevice ? <nav className={navBar["nav-bar"]}>
+    show || !isSmallDevice ? <nav className={styles["nav-bar"]}>
       <ul className="line-break">
         <div>
-          <div className={navBar["nav-list"]}>
+          <div className={styles["nav-list"]}>
             <Image
               src={homeIcon}
               alt="Home"
-              className={navBar["nav-icon-size"]}
+              className={styles["nav-icon-size"]}
             />
             <li>
               {/* Home */}
@@ -302,11 +304,11 @@ export const NavBar = ({show, toggleShow}: NavBarProps) => {
               </Link>
             </li>
           </div>
-          <div className={navBar["nav-list"]}>
+          <div className={styles["nav-list"]}>
             <Image
               src={dictionaryIcon}
               alt="Home"
-              className={navBar["nav-icon-size"]}
+              className={styles["nav-icon-size"]}
             />
             <li>
               {/* Dictionary */}
@@ -325,13 +327,13 @@ export const NavBar = ({show, toggleShow}: NavBarProps) => {
               <p className="bold">{navBarLink.label}</p>
               <div>
                 {navBarLink.links.map((link, linkIndex) => (
-                  <div key={linkIndex} className={navBar["nav-list"]}>
+                  <div key={linkIndex} className={styles["nav-list"]}>
                     <Image
                       src={link.imgSrc}
                       alt={link.altName}
-                      className={navBar["nav-icon-size"]}
+                      className={styles["nav-icon-size"]}
                     />
-                    <Link href={link.link} className={navBar["nav-bar-link"]} onClick= { () => toggleShow()}>
+                    <Link href={link.link} className={styles["nav-bar-link"]} onClick= { () => toggleShow()}>
                       <p>{link.name}</p>
                     </Link>
                   </div>
