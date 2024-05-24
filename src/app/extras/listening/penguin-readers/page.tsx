@@ -56,8 +56,8 @@ const descriptions = [
     label: "Level 1",
     contents: [
       {
-        globeLink: "...",
-        globeLabel: "AAA",
+        checkboxLink: "...",
+        checkboxLabelLink: "...",
       },
     ],
   },
@@ -65,8 +65,8 @@ const descriptions = [
     label: "Level 2",
     contents: [
       {
-        link: "A",
-        linkLabel: "A",
+        checkboxLink: "...",
+        checkboxLabelLink: "...",
       },
     ],
   },
@@ -74,10 +74,6 @@ const descriptions = [
     label: "Level 3",
     contents: [
       {
-        link: "A",
-        linkLabel: "A",
-        globeLink: "...",
-        globeLabel: "...",
         checkboxLink: "...",
         checkboxLabelLink: "...",
       },
