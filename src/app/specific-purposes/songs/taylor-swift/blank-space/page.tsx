@@ -1,6 +1,8 @@
+"use client"
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { VideoPlayer } from "@/components/VideoPlayer/VideoPlayer";
 import { Songs } from "@/components/Songs";
+import { ScrollToTop } from "@/components/ScrollToTop";
 
 const songs = [
   {
@@ -347,6 +349,7 @@ export default function TaylorSwiftbBlankSpace() {
         </div>
         <Songs  songs={songs}/>
       </div>
+      <ScrollToTop />
     </>
   );
 }
