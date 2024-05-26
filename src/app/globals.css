@@ -71,6 +71,10 @@ p {
     display: block;
 }
 
+.p-size-smaller {
+    font-size: var(--font-size-small)
+}
+
 .bold {
     font-weight: bold;
 }
@@ -99,9 +103,6 @@ p {
     font-style: italic;
 }
 
-.smaller {
-    font-size: var(--font-size-small)
-}
 
 .is-active {
     text-decoration: underline;
@@ -191,8 +192,7 @@ p {
     border: var(--img-border);
     box-shadow: var(--box-shadow);
     border-radius: var(--border-radius);
-    /* width: 100%;
-    height: fit-content; */
+    width: 100%;
 }
 
 .video-border {

@@ -4,105 +4,31 @@ import React from "react";
 
 const descriptions = [
   {
-    label: "EASYSTARTS",
+    label: "Levels",
     contents: [
       {
-        checkboxLink: "...",
-        checkboxLabelLink: "A New Zealand Adventure • 08:05",
+        link: "/extras/listening/penguin-readers/beginner",
+        linkLabel: "Beginner",
       },
       {
-        checkboxLink: "...",
-        checkboxLabelLink: "Flying home • 10:13",
+        link: "/extras/listening/penguin-readers/elementary",
+        linkLabel: "Elementary",
       },
       {
-        checkboxLink: "...",
-        checkboxLabelLink: "Marcel and the White Star • 09:54",
+        link: "/extras/listening/penguin-readers/pre-intermediate",
+        linkLabel: "Pre-Intermediate",
       },
       {
-        checkboxLink: "...",
-        checkboxLabelLink: "Newspaper Chase • 08:18",
+        link: "/extras/listening/penguin-readers/intermediate",
+        linkLabel: "Intermediate",
       },
       {
-        link: "...",
-        linkLabel: "AAA",
-        globeLink: "...",
-        globeLabel: "AAA",
-        checkboxLink: "...",
-        checkboxLabelLink: "Simon and the Spy • 11:21",
+        link: "/extras/listening/penguin-readers/upper-intermediate",
+        linkLabel: "Upper-Intermediate",
       },
       {
-        checkboxLink: "...",
-        checkboxLabelLink: "The Fireboy • 12:34",
-      },
-      {
-        checkboxLink: "...",
-        checkboxLabelLink: "The Last Photo • 08:48",
-      },
-      {
-        checkboxLink: "...",
-        checkboxLabelLink: "The Leopard and the Lighthouse • 10:30",
-      },
-      {
-        checkboxLink: "...",
-        checkboxLabelLink: "The Pearl Girl • 11:47",
-      },
-      {
-        checkboxLink: "...",
-        checkboxLabelLink: "Who wants to be a star • 10:09",
-      },
-    ],
-  },
-  {
-    label: "Level 1",
-    contents: [
-      {
-        checkboxLink: "...",
-        checkboxLabelLink: "...",
-      },
-    ],
-  },
-  {
-    label: "Level 2",
-    contents: [
-      {
-        checkboxLink: "...",
-        checkboxLabelLink: "...",
-      },
-    ],
-  },
-  {
-    label: "Level 3",
-    contents: [
-      {
-        checkboxLink: "...",
-        checkboxLabelLink: "...",
-      },
-    ],
-  },
-  {
-    label: "Level 4",
-    contents: [
-      {
-        checkboxLink: "...",
-        checkboxLabelLink: "...",
-      },
-    ],
-  },
-  {
-    label: "Level 5",
-    contents: [
-      {
-        checkboxLink: "...",
-        checkboxLabelLink: "...",
-      },
-    ],
-  },
-  {
-    label: "Level 6",
-    contents: [
-      {
-        checkboxLink: "...",
-        checkboxLabelLink: "...",
+        link: "/extras/listening/penguin-readers/advanced",
+        linkLabel: "advanced",
       },
     ],
   },
@@ -111,7 +37,7 @@ const descriptions = [
 export default function PenguinReaders() {
   return (
     <>
-    <Whiteboard title="Litening" subtitle="Penguin Readers" />
+    <Whiteboard title="Extras" subtitle="Litening" descriptions={["Penguin Readers"]} />
       <DescriptionCard descriptions={descriptions} />
     </>
   );

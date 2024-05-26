@@ -23,10 +23,11 @@
 .globe-icon {
   position: relative;
   right: 3px;
+  bottom: 1px;
 }
 
 .globe-link {
   position: relative;
   right: 4px;
-  top: 2px;
+  top: 1px;
 }
