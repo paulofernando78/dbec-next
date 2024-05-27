@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { AudioPlayer } from "../Audioplayer/Audioplayer";
-// import { ArticlesProps } from "@/types/articles";
 
 import { StaticImageData } from "next/image";
 

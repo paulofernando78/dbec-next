@@ -1,9 +1,9 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { Paragraph } from "@/components/Articles/Articles";
+import { Articles } from "@/components/Articles/Articles";
 
 import doc from "@/img/cat1.jpg";
 import sickle from "./sickle.jpg";
-import { IParagraph } from "@/types/paragraph";
+import { ArticlesProps } from "@/types/articles";
 
 const paragraphs = [
   {
@@ -152,7 +152,7 @@ const paragraphs = [
   {
     enParagraph: "I'm Faith Pirlo. And I'm Gregory Stachel.",
   },
-] satisfies IParagraph[];
+] satisfies ArticlesProps[];
 
 export default function StudiesGeneTreatmentLetsChildrenDeafAtBirthHear() {
   return (
@@ -166,7 +166,7 @@ export default function StudiesGeneTreatmentLetsChildrenDeafAtBirthHear() {
         ]}
       />
       <div>
-        <Paragraph paragraphs={paragraphs} />
+        <Articles articles={paragraphs} />
       </div>
     </div>
   );
