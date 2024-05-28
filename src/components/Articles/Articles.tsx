@@ -1,55 +1,91 @@
 import Image from "next/image";
-import { AudioPlayer } from "../Audioplayer/Audioplayer";
-
 import { StaticImageData } from "next/image";
+import { AudioPlayer } from "../Audioplayer/Audioplayer";
+import { Card } from "../Card/Card";
+import styles from "./styles.module.css";
 
 interface ArticlesProps {
-  imgSrcBefore?: StaticImageData | string;
-  altNameBefore?: string;
-  enText?: string;
-  ptText?: string;
-  imgSrcAfter?: StaticImageData | string;
-  altNameAfter?: string;
-  smaller?: string
+  BeforeImgSrc?: StaticImageData | string;
+  BeforeAltName?: string;
+  BeforeImgSrcWidth?: string;
+  BeforeImgSrcHeight?: string;
+  firstComponent?: (props: any) => JSX.Element;
+  firstComponentProps?: any;
+  firstEnParagraph: string
+  secondComponent?: (props: any) => JSX.Element;
+  secondComponentProps?: any;
+  secondEnParagraph: string
+  enParagraph?: string;
+  ptParagraph?: string;
+  AfterImgSrc?: StaticImageData | string;
+  AfterAltName?: string;
+  AfterImgSrcWidth?: string;
+  AfterImgSrcHeight?: string;
+  smaller?: string;
 
 }
 
 interface Articles {
-  articles: ArticlesProps[]
-  audioSrc?: string
+  articles: ArticlesProps[];
+  audioSrc?: string;
 }
 
 export const Articles = ({ articles, audioSrc }: Articles) => {
   return (
     <div className="line-break">
+      <Card bgColor="Black" textColor="White">
+        <p>Discussion</p>
+      </Card>
       <div style={{ position: "sticky", top: "0", paddingTop: "10px" }}>
         <AudioPlayer audioSrc={audioSrc} />
       </div>
-      {articles.map((articles, index) => (
+      {articles.map((article, index) => (
         <div key={index} className="line-break">
-          {articles.imgSrcBefore && (
+          {article.BeforeImgSrc && (
             <Image
-              src={articles.imgSrcBefore}
-              alt={articles.altNameBefore??""}
-              width={350}
-              height={200}
+              src={article.BeforeImgSrc}
+              alt={article.BeforeAltName ?? ""}
+              className="img-border"
+              style={{ width: article.BeforeImgSrcWidth, height: article.BeforeImgSrcHeight}}
             />
           )}
           <div>
-            <p>{articles.enText}</p>
-            <p className="portuguese">{articles.ptText}</p>
-            <p className="smaller">{articles.smaller}</p>
+            <p>
+              {article.firstComponent && (
+                <span style={{ marginRight: "8px" }}>
+                  {article.firstComponent(article.firstComponentProps)}
+                </span>
+              )}
+              {article.firstEnParagraph}
+
+              {article.secondComponent && (
+                <span style={{ margin: "8px" }}>
+                  {article.secondComponent(article.secondComponentProps)}
+                </span>
+              )}
+              {article.secondEnParagraph}
+            </p>
+
+            <p className="portuguese">{article.ptParagraph}</p>
+            <p className="smaller">{article.smaller}</p>
           </div>
-          {articles.imgSrcAfter && (
+          {article.AfterImgSrc && (
             <Image
-              src={articles.imgSrcAfter}
-              alt={articles.altNameAfter??""}
-              width={100}
-              height={100}
+              src={article.AfterImgSrc}
+              alt={article.AfterAltName ?? ""}
+              className="img-border"
+              style={{ width: article.AfterImgSrcWidth, height: article.AfterImgSrcHeight}}
             />
           )}
         </div>
       ))}
+      <Card bgColor="Black" textColor="White">
+        <p className="bold">Extra</p>
+        
+      </Card>
+      <Card bgColor="Black" textColor="White">
+        <p className="bold">Exercises</p>
+      </Card>
     </div>
   );
 };

@@ -195,6 +195,25 @@
     ]
   },
   {
+    "audio": "/assets/audio/dictionary/s/several.mp3",
+    "keyword": "several",
+    "phonetics": " /ˈsev.ɚ.əl/",
+    "partOfSpeech": "...",
+    "definitions": [
+      {
+        "enDefinition": "...",
+        "ptDefinition": "vários",
+        "examples": [
+          {
+            "enExample": "...",
+            "ptExample": "..."
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     "audio": "/assets/audio/dictionary/s/slippery-slope-d.mp3",
     "keyword": "sliperry slope",
     "phonetics": "...",

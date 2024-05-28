@@ -1,5 +1,49 @@
 [
   {
+    "audio": "/assets/audio/dictionary/a/ask-present-d.mp3",
+    "keyword": "ask",
+    "phonetics": "/æsk/",
+    "partOfSpeech": "regular verb - present",
+    "definitions": [
+      {
+        "enDefinition": "to put a question to someone, or to request an answer from someone",
+        "ptDefinition": "perguntar",
+        "examples": [
+          {
+            "enExample": "Ask me anything.",
+            "ptExample": "Pergunte-me qualquer coisa."
+          },
+          {
+            "enExample": "Can I ask you something?",
+            "ptExample": "Posso te perguntar algo?"
+          },
+          {
+            "enExample": "Can I ask you a question?",
+            "ptExample": "Posso te fazer uma pergunta?"
+          },
+          {
+            "enExample": "Can I ask you a favor?",
+            "ptExample": "Posso te pedir um conselho?"
+          },
+          {
+            "enExample": "I usually ask for directions when I'm lost.",
+            "ptExample": "Eu geralmente peço informações quando estou perdido."
+          },
+          {
+            "enExample": "We usually ask our neighbors to keep an eye on our house when we're away.",
+            "ptExample": "Costumamos pedir aos nossos vizinhos para ficarem de olho na nossa casa quando estamos fora."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "request, inquire",
+            "antonyms": "answer, reply"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "audio": "/assets/audio/dictionary/a/all-you-can-eat-d.mp3",
     "keyword": "all-you-can-eat",
     "phonetics": "/ɑːl.jə.kənˈiːt/",

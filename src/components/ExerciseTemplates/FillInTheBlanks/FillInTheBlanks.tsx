@@ -100,7 +100,7 @@ export const FillInTheBlanks = ({ questions, display }: FillInTheBlanksProps) =>
         {showAnswers && (
           <div style={{ marginTop: "1.25rem" }}>
             {questions.map((question, index) => (
-              <span key={index} className='show-answers'>
+              <span key={index} className={styles['show-answers']}>
                 {index + 1}. {renderAnswers(question.correctAnswer)}
               </span>
             ))}

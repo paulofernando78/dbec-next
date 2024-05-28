@@ -1,7 +1,8 @@
+import { RegularVerbs } from "@/components/Lessons/RegularVerbs";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 
-export default function Resumao() {
+export default function AllInOne() {
   return (
     <>
       <Whiteboard title="Specific Purposes" subtitle="All-in-one Review" />
@@ -21,7 +22,7 @@ export default function Resumao() {
           </a>
         </div>
         <div id="numbers"></div>
-          
+          <RegularVerbs />
       </div>
     </>
   );

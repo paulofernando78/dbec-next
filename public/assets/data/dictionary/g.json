@@ -1,5 +1,17 @@
 [
   {
+    "audio": "/assets/audio/dictionary/g/gene-d.mp3",
+    "keyword": "gene",
+    "phonetics": "",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "enDefinition": "...",
+        "ptDefinition": "gene"
+      }
+    ]
+  },
+  {
     "audio": "/assets/audio/dictionary/g/genome-d.mp3",
     "keyword": "genome",
     "phonetics": "/ˈdʒiː.noʊm/",

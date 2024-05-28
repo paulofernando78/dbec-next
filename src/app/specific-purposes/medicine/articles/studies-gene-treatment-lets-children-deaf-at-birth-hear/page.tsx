@@ -1,18 +1,30 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { Articles } from "@/components/Articles/Articles";
 
-import doc from "@/img/cat1.jpg";
+// Images
+import doctorPatient from "./doctor-patient.png";
 import sickle from "./sickle.jpg";
-import { ArticlesProps } from "@/types/articles";
+import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const paragraphs = [
   {
-    imgSrcBefore: doc,
-    altNameBefore: "Doctor with patient",
-    enParagraph:
-      "Gene treatments are being credited with permitting several children born with deafness to hear again.",
-    ptParagraph:
-      "Os tratamentos genéticos estão sendo creditados por permitir que várias crianças nascidas com surdez voltem a ouvir.",
+    BeforeImgSrc: doctorPatient,
+    BeforeImgSrcWidth: "350px",
+    BeforeImgSrcHeight: "250px",
+    BeforeAltName: "Doctor with patient",
+    firstComponent: (props: any) => <DictionaryCard {...props} />,
+    firstComponentProps: {
+      audioSrc: "/g/gene.mp3",
+      label: "Gene",
+    },
+    firstEnParagraph: "treatments are being credited with permitting",
+    secondComponent: (props: any) => <DictionaryCard {...props} />,
+    secondComponentProps: {
+      audioSrc: "/s/several.mp3",
+      label: "several",
+    },
+    secondEnParagraph: "children born with deafness to hear again.",
+    ptParagraph: "Os tratamentos genéticos estão sendo creditados por permitir que várias crianças nascidas com surdez voltem a ouvir.",
   },
   {
     enParagraph:
@@ -22,7 +34,7 @@ const paragraphs = [
   },
   {
     enParagraph:
-      "A small study <mark>re</mark>cently published in *The Lancet reported improvements in the hearing in five of six children who were treated in China.",
+      "A small study recently published in *The Lancet reported improvements in the hearing in five of six children who were treated in China.",
     ptParagraph:
       "Um pequeno estudo publicado recentemente no The Lancet relatou melhorias na audição em cinco de seis crianças que foram tratadas na China.",
     smaller:
@@ -51,7 +63,9 @@ const paragraphs = [
       "Deafness caused by genes is passed down from parents to children. It is called he<mark>re</mark>ditary deafness. It is the latest condition scientists are targeting with gene therapy. Gene therapy is already approved to treat illnesses such as sickle cell disease and severe hemophilia.",
     ptParagraph:
       "A surdez causada por genes é transmitida dos pais para os filhos. É chamada de surdez hereditária. É a mais recente condição que os cientistas estão visando com terapia genética. A terapia genética já é aprovada para tratar doenças como a anemia falciforme e a hemofilia grave",
-    imgSrcAfter: sickle,
+    AfterImgSrc: sickle,
+    AfterImgSrcWidth: "350px",
+    AfterImgSrcHeight: "550px",
     altNameAfter: "...",
   },
   {
@@ -59,8 +73,6 @@ const paragraphs = [
       "Children with he<mark>re</mark>ditary deafness often get a device called a cochlear implant that helps them hear sound.",
     ptParagraph:
       "Crianças com surdez hereditária frequentemente recebem um dispositivo chamado implante coclear, que as ajuda a ouvir os sons.",
-    imgSrcAfter: "",
-    altNameAfter: "...",
   },
   {
     enParagraph: "<b>Treatment results</b>",
@@ -152,7 +164,7 @@ const paragraphs = [
   {
     enParagraph: "I'm Faith Pirlo. And I'm Gregory Stachel.",
   },
-] satisfies ArticlesProps[];
+];
 
 export default function StudiesGeneTreatmentLetsChildrenDeafAtBirthHear() {
   return (
@@ -166,7 +178,10 @@ export default function StudiesGeneTreatmentLetsChildrenDeafAtBirthHear() {
         ]}
       />
       <div>
-        <Articles articles={paragraphs} />
+        <Articles
+          articles={paragraphs}
+          audioSrc="/assets/audio/specific-purposes/medicine/articles/studies-gene-treatment-lets-children-deaf-at-birth-hear/audio.mp3"
+        />
       </div>
     </div>
   );

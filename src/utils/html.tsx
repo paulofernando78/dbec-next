@@ -1,7 +1,7 @@
 import parse from "html-react-parser";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
-export function convertToComponent(text: string) {
+export function htmlParser(text: string) {
   const options = {
     replace: (domNode: any) => {
         console.log(domNode)
