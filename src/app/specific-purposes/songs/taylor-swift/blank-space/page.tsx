@@ -22,8 +22,8 @@ const songs = [
     ptLine: "Te vi ali, e eu pensei"
   },
   {
-    enLine: "Ai, meu Deus, olhe esse rosto!",
-    ptLine: "Oh, my God, look at that face!"
+    enLine: "Oh, my God, look at that face!",
+    ptLine: "Ai, meu Deus, olhe esse rosto!"
   },
   {
     enLine: "You look like my next mistake",
@@ -246,8 +246,8 @@ const songs = [
     ptLine: "Eles te dirão que sou maluca"
   },
   {
-    enLine: "Mas eu tenho um espaço em branco, querido",
-    ptLine: "But I've got a blank space, baby"
+    enLine: "But I've got a blank space, baby",
+    ptLine: "Mas eu tenho um espaço em branco, querido"
   },
   {
     enLine: "And I'll write your name",

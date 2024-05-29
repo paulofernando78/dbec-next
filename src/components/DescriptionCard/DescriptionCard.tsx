@@ -58,7 +58,7 @@ export const DescriptionCard = ({ descriptions }: DescriptionCardProps) => {
 
               {/* Globe Image / Globe Link */}
               {content.globeLink && content.globeLabel && (
-                <div className="flex-8px-center">
+                <div className="flex-8px-center-wrap">
                   <Image
                     src={globeIcon}
                     alt="Globe icon"

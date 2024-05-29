@@ -14,7 +14,7 @@ export default function Sports() {
       <Whiteboard title="Specific Purposes" subtitle="Sports" />
       <div className="line-break">
         <div>
-          <Link href="/specific-purposes/sports/">
+          <Link href="/specific-purposes/sports/soccer-football">
             <p>
               <Image
                 src={usaIcon}
