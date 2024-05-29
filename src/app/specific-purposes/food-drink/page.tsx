@@ -14,9 +14,16 @@ export default function FoodDrink() {
       <div className="line-break">
         <div className="line-break">
           <Card bgColor="black" textColor="white">
+            <span className="bold">Verbs</span>
+          </Card>
+            <DictionaryCard label="husk" phonetics="" audioSrc="/" />
+            <p>We can husk apple's seed.</p>
+            <DictionaryCard label="peel" phonetics="" audioSrc="/" />
+            <p>We can peel apple, banana, potaot, tomato, etc.</p>
+          <Card bgColor="black" textColor="white">
             <span className="bold">Fruit</span>
           </Card>
-          <div className={styles["flex"]}>
+          <div className="flex-col-8px">
             <DictionaryCard label="apple" phonetics="" audioSrc="/" />
             <DictionaryCard
               label="plantain"
@@ -90,11 +97,14 @@ export default function FoodDrink() {
             <p>I'm starving (to death)</p>
             <p>I'll have chicken salad.</p>
           </div>
-          <div>
+          <Card bgColor="black" textColor="white">
+            <span className="bold">Drinks</span>
+          </Card>
+          <div className="flex-col-8px">
             <DictionaryCard audioSrc="" label="iced-cold beer" />
             <DictionaryCard audioSrc="" label="sparking water" />
+            <DictionaryCard audioSrc="" label="draft wine" />
           </div>
-          <div></div>
           <ScrollToTop />
         </div>
       </div>

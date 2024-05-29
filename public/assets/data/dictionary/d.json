@@ -1,5 +1,23 @@
 [
   {
+    "audio": "/assets/audio/dictionary/d/deafness-d.mp3",
+    "keyword": "deafness",
+    "phonetics": "/ˈdef.nəs/",
+    "partOfSpeech": "noun",
+    "definitions": [
+      {
+        "enDefinition": "the state of being deaf",
+        "ptDefinition": "surdez",
+        "examples": [
+          {
+            "enExample": "She was finally diagnosed with profound deafness at 19 months.",
+            "ptExample": "Such tumours occur in one of the nerves in the brain and can lead to deafness in one ear."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "audio": "/assets/audio/dictionary/d/deadliest-d.mp3",
     "keyword": "deadliest",
     "phonetics": "/ˈded.liəst/",

@@ -29,6 +29,7 @@ export default function Vocabulary() {
             <p>meningitis</p>
             <p>Opportunistic Infections (Ols)</p>
             <DictionaryCard label="pacemaker" audioSrc="" />
+            <DictionaryCard audioSrc="" label="petri dish"/>
             <p>Polycystic Ovary Syndrome (PCOS)</p>
             <p>prostate (cancer)</p>
             <DictionaryCard audioSrc="" label="sick leave" />

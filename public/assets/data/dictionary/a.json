@@ -1,5 +1,29 @@
 [
   {
+    "audio": "/assets/audio/dictionary/a/aim-d.mp3",
+    "keyword": "aim",
+    "phonetics": "/eɪm/",
+    "partOfSpeech": "regular verb • present",
+    "definitions": [
+      {
+        "enDefinition": "a result that your plans or actions are intended to achieve",
+        "ptDefinition": "...",
+        "examples": [
+          {
+            "enExample": "...",
+            "ptExample": "..."
+          }
+        ],
+        "thesauri": [
+          {
+            "synonyms": "...",
+            "antonyms": "..."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "audio": "/assets/audio/dictionary/a/ask-present-d.mp3",
     "keyword": "ask",
     "phonetics": "/æsk/",
