@@ -10,7 +10,7 @@ interface CardProps {
 export const Card = ({children, bgColor, textColor}: CardProps) => {
   return (
     <div className={style["card"]} style={{ backgroundColor: bgColor, color: textColor }}>
-    <span>{children}</span>
+    <span className='p-font'>{children}</span>
     </div>
   )
 }

@@ -93,7 +93,7 @@ p {
 
 .phonetics {
   font-family: "Times New Roman", Times, serif;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #00a2ff;
 }
 
@@ -202,14 +202,6 @@ p {
   width: 100%;
 }
 
-.video-border {
-  border: solid black 10px;
-  box-shadow: var(--box-shadow);
-  border-radius: var(--border-radius);
-  /* width: 100%;
-    height: fit-content; */
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
@@ -235,10 +227,6 @@ p {
   z-index: 1;
 }
 
-.video-player {
-  width: 100%;
-  aspect-ratio: 16/9;
-}
 input[type="checkbox"] {
   min-width: 21px;
   min-height: 21px;

@@ -1,0 +1,7 @@
+.video-customization {
+  width: 100%;
+  aspect-ratio: 16/9;
+    border: solid black 10px;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--border-radius);
+  }

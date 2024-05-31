@@ -6,6 +6,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import styles from "./food-drink.module.css";
 import { Collapsible } from "@/components/Collapsible/Collapsible";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import Link from "next/link";
 
 export default function FoodDrink() {
   return (
@@ -105,6 +106,12 @@ export default function FoodDrink() {
             <DictionaryCard audioSrc="" label="sparking water" />
             <DictionaryCard audioSrc="" label="draft wine" />
           </div>
+          <Card bgColor="black" textColor="white">
+            <span className="bold">Extra</span>
+          </Card>
+          <Link href="/specific-purposes/food-drink/how-to-clean-and-remove-pesticides">
+          <p>How to Clean and Remove Pesticides From Your Fruits and Vegetables</p>
+          </Link>
           <ScrollToTop />
         </div>
       </div>

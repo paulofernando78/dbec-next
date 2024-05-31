@@ -4,20 +4,18 @@ import { AudioPlayer } from "../Audioplayer/Audioplayer";
 import { Card } from "../Card/Card";
 import styles from "./styles.module.css";
 
+export interface EnParagraph {
+  component?: (props: { audioSrc: string; label: string }) => JSX.Element;
+  componentProps?: any;
+  enParagraph: string;
+}
+
 export interface ArticleData {
   beforeImgSrc?: StaticImageData | string;
   beforeAltName?: string;
   beforeImgSrcWidth?: string;
   beforeImgSrcHeight?: string;
-  firstComponent?: (props: { audioSrc: string; label: string }) => JSX.Element;
-  firstComponentProps?: any;
-  firstEnParagraph: string;
-  secondComponent?: (props: { audioSrc: string; label: string }) => JSX.Element;
-  secondComponentProps?: any;
-  secondEnParagraph?: string;
-  thirdComponent?: (props: { audioSrc: string; label: string }) => JSX.Element;
-  thirdComponentProps?: any;
-  thirdEnParagraph?: string;
+  enParagraphs: EnParagraph[];
   ptParagraph?: string;
   afterImgSrc?: StaticImageData | string;
   afterAltName?: string;
@@ -40,8 +38,8 @@ export const Articles = ({ articles, audioSrc }: ArticlesProps) => {
       <div style={{ position: "sticky", top: "0", paddingTop: "10px" }}>
         <AudioPlayer audioSrc={audioSrc} />
       </div>
-      {articles.map((article, index) => (
-        <div key={index} className="line-break">
+      {articles.map((article, articleIndex) => (
+        <div key={articleIndex} className="line-break">
           {article.beforeImgSrc && (
             <Image
               src={article.beforeImgSrc}
@@ -54,32 +52,21 @@ export const Articles = ({ articles, audioSrc }: ArticlesProps) => {
             />
           )}
           <div>
-            <p>
-              {article.firstComponent && (
-                <span className="margin-right">
-                  {article.firstComponent(article.firstComponentProps)}
-                </span>
-              )}
-              <span className="margin-right">{article.firstEnParagraph}</span>
-
-              {article.secondComponent && (
-                <span className="margin-right">
-                  {article.secondComponent(article.secondComponentProps)}
-                </span>
-              )}
-              <span className="margin-right">{article.secondEnParagraph}</span>
-
-              {article.thirdComponent && (
-                <span className="margin-right">
-                  {article.thirdComponent(article.thirdComponentProps)}
-                </span>
-              )}
-              <span className="margin-right">{article.thirdEnParagraph}</span>
-            </p>
-
-            <p className="portuguese">{article.ptParagraph}</p>
-            <p className="p-size-smaller">{article.smaller}</p>
+            {article.enParagraphs.map((enParagraph, enParagraphIndex) => (
+              <span key={enParagraphIndex}>
+                
+                  {enParagraph.component && (
+                    <span className="margin-right">
+                      {enParagraph.component(enParagraph.componentProps)}
+                    </span>
+                  )}
+                  <span className="p-font inline margin-right">{enParagraph.enParagraph}</span>
+                
+              </span>
+            ))}
           </div>
+          <p className="portuguese">{article.ptParagraph}</p>
+          <p className="p-size-smaller">{article.smaller}</p>
           {article.afterImgSrc && (
             <Image
               src={article.afterImgSrc}

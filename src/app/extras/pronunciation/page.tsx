@@ -1,6 +1,8 @@
 "use client";
 
+import Dictionary from "@/app/dictionary/page";
 import { Card } from "@/components/Card/Card";
+import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { LetterA } from "@/components/Extras/Pronunciation/Letters/LetterA";
 import { LettersAwAwe } from "@/components/Extras/Pronunciation/Letters/LettersAwAwe";
 import { ScrollToTop } from "@/components/ScrollToTop";
@@ -58,7 +60,9 @@ export default function Pronunciation() {
           </a>
         </div>
         <div>
-          <a href="#linked-sounds"><p>Linked sounds</p></a>
+          <a href="#linked-sounds">
+            <p>Linked sounds</p>
+          </a>
         </div>
         <Card bgColor="black" textColor="white">
           <p className="bold">Sounds of letters</p>
@@ -67,6 +71,29 @@ export default function Pronunciation() {
           <LetterA />
         </div>
         <LettersAwAwe />
+       
+        <span className="line-break">
+          <Card bgColor="Black" textColor="White">
+            <p className="bold">Letter y</p>
+          </Card>
+          <div className="flex-8px-center-wrap">
+            <DictionaryCard audioSrc="" label="chimney" />
+            <DictionaryCard audioSrc="" label="city" />
+            <DictionaryCard audioSrc="" label="donkey" />
+            <DictionaryCard audioSrc="" label="healthy" />
+            <DictionaryCard audioSrc="" label="money" />
+            <DictionaryCard audioSrc="" label="monkey" />
+          </div >
+          <div className="flex-8px-center-wrap">
+            <DictionaryCard audioSrc="" label="seat" />
+            <p>vs.</p>
+            <DictionaryCard audioSrc="" label="sit" />
+            <p>vs.</p>
+            <DictionaryCard audioSrc="" label="city" />
+          </div>
+        </span>
+
+
         <span id="linked-sounds">
           <Card bgColor="Black" textColor="White">
             <p className="bold">Linked sound examples</p>

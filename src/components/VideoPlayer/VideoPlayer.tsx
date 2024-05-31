@@ -1,3 +1,4 @@
+import styles from "./styles.module.css"
 
 interface VideoPlayerProps {
   videoSrc: string
@@ -9,7 +10,7 @@ export const VideoPlayer = ({ videoSrc }: VideoPlayerProps) => {
     <iframe
     src={videoSrc}
     allowFullScreen
-    className='video-player'
+    className={styles["video-customization"]}
     />    
     </>
   )
