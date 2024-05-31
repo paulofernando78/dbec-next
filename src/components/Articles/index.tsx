@@ -61,12 +61,11 @@ export const Articles = ({ articles, audioSrc }: ArticlesProps) => {
                     </span>
                   )}
                   <span className="p-font inline margin-right">{enParagraph.enParagraph}</span>
-                
               </span>
             ))}
           </div>
           <p className="portuguese">{article.ptParagraph}</p>
-          <p className="p-size-smaller">{article.smaller}</p>
+          {article.smaller && <p className="p-size-smaller">{article.smaller}</p>}
           {article.afterImgSrc && (
             <Image
               src={article.afterImgSrc}
