@@ -1,4 +1,4 @@
-import { placementTest, beginner, elementary, preIntermediate, intermediate, upperIntermediate, advanced, grammarIcon, listeningIcon, speakingIcon, pronunciationIcon, vocabularyIcon, automobileIcon, businessIcon, chemistryIcon, codingIcon, foodDrinkIcon, dentistryIcon, gamesIcon, geographyIcon, workoutIcon, hairdressingIcon, historyIcon, lawIcon, jobInterviewIcon, medicineIcon, travelIcon, scienceIcon, songsIcon, sportsIcon, stockMarketIcon, examsIcon, allInOneIcon, miscIcon } from "../../../public/assets/img";
+import { placementTest, beginner, elementary, preIntermediate, intermediate, upperIntermediate, advanced, grammarIcon, listeningIcon, speakingIcon, pronunciationIcon, vocabularyIcon, automobileIcon, businessIcon, chemistryIcon, codingIcon, foodDrinkIcon, dentistryIcon, gamesIcon, geographyIcon, workoutIcon, hairdressingIcon, historyIcon, lawIcon, jobInterviewIcon, medicineIcon, travelIcon, scienceIcon, songsIcon, sportsIcon, stockMarketIcon, technologyIcon, examsIcon, allInOneIcon, miscIcon } from "../../../public/assets/img";
 
 export const navBarLinks = [
   {
@@ -206,6 +206,12 @@ export const navBarLinks = [
         altName: "Stock market icon",
         link: "/specific-purposes/stock-market",
         name: "Stock Market",
+      },
+      {
+        imgSrc: technologyIcon,
+        altName: "Technology icon",
+        link: "/specific-purposes/technology",
+        name: "Technology",
       },
       {
         imgSrc: examsIcon,

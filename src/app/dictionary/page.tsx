@@ -16,7 +16,6 @@ import { IDictionary } from "../../../interfaces";
 
 // CSS
 import styles from "./styles.module.css";
-
 const descriptions = [
   {
     label: "Sites",
@@ -28,6 +27,10 @@ const descriptions = [
       {
         globeLink: "https://www.playphrase.me/",
         globeLabel: "Play Phrase (Phrases from movies)",
+      },
+      {
+        globeLink: "https://www.languagereactor.com/",
+        globeLabel: "Language Reactor",
       },
     ],
   },

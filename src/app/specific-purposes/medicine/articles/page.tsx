@@ -9,6 +9,9 @@ export default function Articles() {
         subtitle="Medicine"
         descriptions={["Articles"]}
       />
+      <Link href="/specific-purposes/medicine/articles/xxx">
+        <p>(xxx) xxx</p>
+      </Link>
       <Link href="/specific-purposes/medicine/articles/five-tips-to-get-better-sleep">
         <p>(April 29, 2024) Five Tips to Get Better Sleep</p>
       </Link>

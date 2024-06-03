@@ -1,0 +1,7 @@
+.dashed-card {
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: var(--padding);
+    padding-block: 6px;
+    border: dashed 1px;
+}

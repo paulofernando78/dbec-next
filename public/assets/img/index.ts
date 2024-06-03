@@ -34,8 +34,9 @@ import scienceIcon from "./icon/science.png";
 import songsIcon from "./icon/songs.png";
 import sportsIcon from "./icon/sports.png";
 import stockMarketIcon from "./icon/stock-market.png";
+import technologyIcon from "./icon/technology.png";
 import allInOneIcon from "./icon/dictionary.png";
 import examsIcon from "./icon/exams.png";
 import miscIcon from "./icon/misc.png";
 
-export { placementTest, beginner, elementary, preIntermediate, intermediate, upperIntermediate, advanced, grammarIcon, listeningIcon, speakingIcon, pronunciationIcon, vocabularyIcon, automobileIcon, businessIcon, chemistryIcon, codingIcon, foodDrinkIcon, dentistryIcon, gamesIcon, geographyIcon, workoutIcon, hairdressingIcon, historyIcon, lawIcon, jobInterviewIcon, medicineIcon, travelIcon, scienceIcon, songsIcon, sportsIcon, stockMarketIcon, allInOneIcon, examsIcon, miscIcon};
+export { placementTest, beginner, elementary, preIntermediate, intermediate, upperIntermediate, advanced, grammarIcon, listeningIcon, speakingIcon, pronunciationIcon, vocabularyIcon, automobileIcon, businessIcon, chemistryIcon, codingIcon, foodDrinkIcon, dentistryIcon, gamesIcon, geographyIcon, workoutIcon, hairdressingIcon, historyIcon, lawIcon, jobInterviewIcon, medicineIcon, travelIcon, scienceIcon, songsIcon, sportsIcon, stockMarketIcon, technologyIcon, allInOneIcon, examsIcon, miscIcon};
