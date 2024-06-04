@@ -1,110 +1,92 @@
-import {
-  WordCardProps,
-  IDictionaryDefinitions,
-  IDictionaryDefinitionsThesauri,
-} from "../../../interfaces";
+import { WordCardProps, IDictionaryDefinitions } from "../../../interfaces";
 import { AudioPlayer } from "../Audioplayer/Audioplayer";
 import { Card } from "../Card";
 
-import styles from "./WordCard.module.css";
+import styles from "./styles.module.css";
 
 export function WordCard({ dictionary }: WordCardProps) {
   return (
-    <div className={styles["card-word-margin-top"]}>
-      <Card bgColor="#FFF8B8">
-        <div className={styles["audio-player-margin-top"]}>
-          <AudioPlayer audioSrc={dictionary.audio} />
-        </div>
-
-        {/* Palavra, fonética e sua classe gramátical*/}
-        <div className="margin-bottom">
-          <p className={styles["margin-right"]}>
-            <b>{dictionary.keyword}</b>
-          </p>
-          <p className={styles["margin-right"]}>
-            <span className="phonetics">{dictionary.phonetics}</span>
-          </p>
-          <p className={styles["margin-right"]}>
-            <span className="times-new-roman-dictionary">
-              {dictionary.partOfSpeech}
-            </span>
-          </p>
-        </div>
-
-        {/* Descrição, definição, tradução, sinônimos e antônimos */}
-        <div>
-          {dictionary.definitions.map((definition: IDictionaryDefinitions) => {
-            return (
-              <>
-                {/* Se houver uma definição em inglês > Exiba-a */}
-                <div className="margin-bottom">
-                  {definition.enDefinition && (
-                    <p>
-                      <span>
-                        {">"} {definition.enDefinition}
-                      </span>
-                    </p>
-                  )}
-                  {/* Se houver uma definição em português > Exiba-a */}
-                  {definition.ptDefinition && (
-                    <p>
-                      <span className="portuguese">
-                        {">"} {definition.ptDefinition}
-                      </span>
-                    </p>
-                  )}
-
-                  {/* Percorre a lista de exemplos da palavra em frases*/}
-                  {definition.examples?.map((example, exampleIndex) => {
-                    return (
-                      <p key={exampleIndex}>
-                        <b>• </b>
-                        {/* Se houver um exemplo em inglês > Exiba-o */}
-                        {example.enExample && <span>{example.enExample} </span>}
-
-                        {/* Se houver um exemplo em português > Exiba-o */}
-                        {example.ptExample && (
-                          <span className="portuguese">
-                            {example.ptExample}
-                          </span>
-                        )}
-                      </p>
-                    );
-                  })}
-
-                  {/* Percorre a lista de sinônimos e antônimos da palavra*/}
-                  {definition.thesauri?.map(
-                    (thesaurus: IDictionaryDefinitionsThesauri) => {
-                      return (
-                        <>
-                          {/* Se houver um sinônimo > Exiba-o */}
-                          {thesaurus.synonyms && (
-                            <p>
-                              <span className="times-new-roman-dictionary">
-                                synonym(s):{" "}
-                              </span>
-                              <span>{thesaurus.synonyms}</span>
-                            </p>
-                          )}
-                          {/* Se houver um antônimos > Exiba-o */}
-                          {thesaurus.antonyms && (
-                            <p>
-                              <span className="times-new-roman-dictionary">
-                                antonym(s):{" "}
-                              </span>
-                              <span>{thesaurus.antonyms}</span>
-                            </p>
-                          )}
-                        </>
-                      );
-                    }
-                  )}
+    <Card bgColor="#FFF8B8">
+      <p className="display-none">
+        <b>{dictionary.keyword}</b>
+      </p>
+      <div>
+        {dictionary.definitions.map((definition: IDictionaryDefinitions) => {
+          return (
+            <>
+              {definition.audio && (
+                <div className={styles["audio-player-margin-top"]}>
+                  <AudioPlayer audioSrc={definition.audio} />
                 </div>
-              </>
-            );
-          })}
-        </div>
-      </Card>
-    </div>
+              )}
+              {definition.word && (
+                <p className={`margin-bottom ${styles["margin-right"]}`}>
+                  <span className="bold">{definition.word}</span>
+                </p>
+              )}
+              {definition.phonetics && (
+                <p className={styles["margin-right"]}>
+                  <span className="phonetics">{definition.phonetics}</span>
+                </p>
+              )}
+              <p className={styles["margin-right"]}>
+                <span className="times-new-roman-dictionary">
+                  {definition.partOfSpeech}
+                </span>
+              </p>
+              <div className="margin-bottom">
+                {definition.enDefinition && (
+                  <p>
+                    <span>
+                      {">"} {definition.enDefinition}
+                    </span>
+                  </p>
+                )}
+                {definition.ptDefinition && (
+                  <p>
+                    <span className="portuguese">
+                      {">"} {definition.ptDefinition}
+                    </span>
+                  </p>
+                )}
+                {definition.examples?.map((example, exampleIndex) => {
+                  return (
+                    <p key={exampleIndex}>
+                      <b>• </b>
+                      {example.enExample && (
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: example.enExample,
+                          }}
+                        />
+                      )}
+                      {example.ptExample && (
+                        <span className="portuguese"> {example.ptExample}</span>
+                      )}
+                    </p>
+                  );
+                })}
+                {definition.synonyms && (
+                  <p>
+                    <span className="times-new-roman-dictionary">
+                      synonym(s):{" "}
+                    </span>
+                    <span>{definition.synonyms}</span>
+                  </p>
+                )}
+                {definition.antonyms && (
+                  <p>
+                    <span className="times-new-roman-dictionary">
+                      antonym(s):{" "}
+                    </span>
+                    <span>{definition.antonyms}</span>
+                  </p>
+                )}
+              </div>
+            </>
+          );
+        })}
+      </div>
+    </Card>
   );
 }

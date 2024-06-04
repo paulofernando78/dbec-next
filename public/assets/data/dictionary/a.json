@@ -1,11 +1,12 @@
 [
   {
-    "audio": "/assets/audio/dictionary/a/aim-d.mp3",
     "keyword": "aim",
-    "phonetics": "/eɪm/",
-    "partOfSpeech": "regular verb • present",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/a/aim-d.mp3",
+        "word": "aim",
+        "phonetics": "/eɪm/",
+        "partOfSpeech": "regular verb • present",
         "enDefinition": "a result that your plans or actions are intended to achieve",
         "ptDefinition": "...",
         "examples": [
@@ -14,22 +15,19 @@
             "ptExample": "..."
           }
         ],
-        "thesauri": [
-          {
-            "synonyms": "...",
-            "antonyms": "..."
-          }
-        ]
+        "synonyms": "...",
+        "antonyms": "..."
       }
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/a/ask-present-d.mp3",
     "keyword": "ask",
-    "phonetics": "/æsk/",
-    "partOfSpeech": "regular verb - present",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/a/ask-present-d.mp3",
+        "word": "ask",
+        "phonetics": "/æsk/",
+        "partOfSpeech": "regular verb • present",
         "enDefinition": "to put a question to someone, or to request an answer from someone",
         "ptDefinition": "perguntar",
         "examples": [
@@ -44,13 +42,20 @@
           {
             "enExample": "Can I ask you a question?",
             "ptExample": "Posso te fazer uma pergunta?"
-          },
+          }
+        ],
+        "synonyms": "inquire, consult",
+        "antonyms": "answer, reply"
+      },
+      {
+        "ptDefinition": "pedir",
+        "examples": [
           {
             "enExample": "Can I ask you a favor?",
             "ptExample": "Posso te pedir um conselho?"
           },
           {
-            "enExample": "I usually ask for directions when I'm lost.",
+            "enExample": "I usually ask <b>for</b> directions when I'm lost.",
             "ptExample": "Eu geralmente peço informações quando estou perdido."
           },
           {
@@ -58,22 +63,118 @@
             "ptExample": "Costumamos pedir aos nossos vizinhos para ficarem de olho na nossa casa quando estamos fora."
           }
         ],
-        "thesauri": [
+        "synonyms": "request",
+        "antonyms": "refuse, reject, deny"
+      },
+      {
+        "ptDefinition": "pedir (preço), cobrar, demandar",
+        "examples": [
           {
-            "synonyms": "request, inquire",
-            "antonyms": "answer, reply"
+            "enExample": "I always ask <b>for</b> $50 per hour for my services.",
+            "ptExample": "Sempre cobro 50 dólares por hora pelos meus serviços."
+          }
+        ],
+        "synonyms": "demand, expect, charge",
+        "antonyms": "give, offer"
+      },
+      {
+        "ptDefinition": "convidar",
+        "examples": [
+         {
+          "enExample": "My grandma always asks me over.",
+          "ptExample": "Minha avó sempre me convida para ir na casa dela."
+         }
+       ],
+       "synonyms": "invite",
+       "antonyms": "..."
+       },
+      {
+        "audio": "/assets/audio/dictionary/ask-past.mp3",
+        "word": "asked",
+        "phonetics": "/æskt/",
+        "partOfSpeech": "past of ask",
+        "examples": [
+          {
+            "enExample": "She asked about Brazil history.",
+            "ptExample": "Ela perguntou sobre a história do Brasil."
+          },
+          {
+            "enExample": "He asked if he could come with us.",
+            "ptExample": "Ele perguntou se ele podia vir conosco."
+          }
+        ]
+      },
+      {
+        "audio": "/assets/audio/dictionary/ask-past-participle.mp3",
+        "word": "asked",
+        "phonetics": "/æskt/",
+        "partOfSpeech": "past participle of ask",
+        "examples": [
+          {
+            "enExample": "I've asked David to come to the party.",
+            "ptExample": "Convidei o David para vir à festa."
+          },
+          {
+            "enExample": "John has asked us over for dinner next Friday.",
+            "ptExample": "John nos convidou para jantar na próxima sexta-feira."
+          }
+        ]
+      },
+      {
+        "audio": "/assets/audio/dictionary/ask-present-participle.mp3",
+        "word": "asking",
+        "phonetics": "/æsk.ɪŋ/",
+        "partOfSpeech": "present participle of ask",
+        "examples": [
+          {
+            "enExample": "Mike's asking $250,000 for his house.",
+            "ptExample": "Mike está pedindo 250.000 dólares pela sua casa."
+          },
+          {
+            "enExample": "How much are you asking? / Quanto você quer (por isso)?",
+            "ptExample": "Quanto está pedindo?"
+          },
+          {
+            "enExample": "*It's asking a lot when your boss wants you to work weekends as well as evenings.",
+            "ptExample": "É pedir muito quando seu chefe quer que você trabalhe nos finais de semana e também à noite."
+          }
+        ]
+      },
+      {
+        "audio": "/assets/audio/dictionary/ask-he-she-it.mp3",
+        "word": "asks",
+        "phonetics": "/æsks/",
+        "partOfSpeech": "he/she/it of ask: affirmative only",
+        "examples": [
+          {
+            "enExample": "George always asks his parents for advice whenever he's in trouble.",
+            "ptExample": "George sempre pede conselhos aos pais sempre que está com problemas."
+          }
+        ]
+      },
+      {
+	      "audio": "/assets/audio/dictionary/ask-for-it.mp3",
+	      "word": "ask for it/trouble",
+		    "partOfSpeech": "idiom",
+        "enDefinition": "to be behaving stupidly in a way that is likely to cause problems for you",
+        "ptDefinition": "procurar confusão",
+        "examples": [
+          {
+            "enExample": "Drinking alcohol before driving is really asking for trouble.",
+            "ptExample": "Beber antes de dirigir é pedir para ter problemas."
           }
         ]
       }
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/a/all-you-can-eat-d.mp3",
     "keyword": "all-you-can-eat",
-    "phonetics": "/ɑːl.jə.kənˈiːt/",
-    "partOfSpeech": "adjective",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/a/all-you-can-eat-d.mp3",
+        "word": "all-you-can-eat",
+        "phonetics": "/ɑːl.jə.kənˈiːt/",
+        "partOfSpeech": "adjective",
         "enDefinition": "used to describe a meal at a restaurant where people can serve themselves as much food as they want",
         "ptDefinition": "rodízio, coma à vontade, *continuous table-side meat service",
         "examples": [
@@ -82,22 +183,19 @@
             "ptExample": "O bar tem um buffet de almoço \"coma à vontade\" por $10."
           }
         ],
-        "thesauri": [
-          {
-            "synonyms": "...",
-            "antonyms": "..."
-          }
-        ]
+        "synonyms": "...",
+        "antonyms": "..."
       }
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/a/annoy-present.mp3",
     "keyword": "annoy",
-    "phonetics": "/əˈnɔɪ/",
-    "partOfSpeech": "regular verb",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/a/annoy-present.mp3",
+        "word": "annoy",
+        "phonetics": "/əˈnɔɪ/",
+        "partOfSpeech": "regular verb",
         "ptDefinition": "aborrecer, chatear, incomodar, irritar",
         "examples": [
           {
@@ -105,38 +203,26 @@
             "ptExample": "É importante respeitar o espaço pessoal dos outros e não fazer coisas que possam incomodá-los."
           }
         ],
-        "thesauri": [
-          {
-            "synonyms": "bother, irritate, bug",
-            "antonyms": "please, gratify"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "audio": "/assets/audio/dictionary/a/annoyed-past.mp3",
-    "keyword": "annoyed",
-    "phonetics": "/əˈnɔɪd/",
-    "partOfSpeech": "past of annoy",
-    "definitions": [
+        "synonyms": "bother, irritate, bug",
+        "antonyms": "please, gratify"
+      },
       {
+        "audio": "/assets/audio/dictionary/a/annoyed-past.mp3",
+        "word": "annoyed",
+        "phonetics": "/əˈnɔɪd/",
+        "partOfSpeech": "past of annoy",
         "examples": [
           {
             "enExample": "Tina really annoyed me in the meeting this morning.",
             "ptExample": "Tina realmente me chateou na reunião esta manhã."
           }
         ]
-      }
-    ]
-  },
-  {
-    "audio": "/assets/audio/dictionary/a/annoyed-past-participle.mp3",
-    "keyword": "annoyed",
-    "phonetics": "/əˈnɔɪd/",
-    "partOfSpeech": "past participle of annoy",
-    "definitions": [
+      },
       {
+        "audio": "/assets/audio/dictionary/a/annoyed-past-participle.mp3",
+        "word": "annoyed",
+        "phonetics": "/əˈnɔɪd/",
+        "partOfSpeech": "past participle of annoy",
         "examples": [
           {
             "enExample": "The loud music has annoyed the neighbors for weeks.",
@@ -147,48 +233,36 @@
             "ptExample": "As obras em andamento incomodaram/tem incomodado os moradores da região."
           }
         ]
-      }
-    ]
-  },
-  {
-    "audio": "/assets/audio/dictionary/a/annoying-present-participle.mp3",
-    "keyword": "annoying",
-    "phonetics": "/əˈnɔɪ.ɪŋ/",
-    "partOfSpeech": "present participle of annoy",
-    "definitions": [
+      },
       {
+        "audio": "/assets/audio/dictionary/a/annoying-present-participle.mp3",
+        "word": "annoying",
+        "phonetics": "/əˈnɔɪ.ɪŋ/",
+        "partOfSpeech": "present participle of annoy",
         "examples": [
           {
             "enExample": "I'm sorry - is my cough annoying you?",
             "ptExample": "Sinto muito - minha tosse está incomodando você?"
           }
         ]
-      }
-    ]
-  },
-  {
-    "audio": "/assets/audio/dictionary/a/annoys-he-she-it.mp3",
-    "keyword": "annoys",
-    "phonetics": "/əˈnɔɪz/",
-    "partOfSpeech": "he/she/it: affirmative only",
-    "definitions": [
+      },
       {
+        "audio": "/assets/audio/dictionary/a/annoys-he-she-it.mp3",
+        "word": "annoys",
+        "phonetics": "/əˈnɔɪz/",
+        "partOfSpeech": "he/she/it: affirmative only",
         "examples": [
           {
             "enExample": "It really annoys me when people cut in line.",
             "ptExample": "Realmente me irrita quando as pessoas furam a fila."
           }
         ]
-      }
-    ]
-  },
-  {
-    "audio": "/assets/audio/dictionary/a/annoying-adjective.mp3",
-    "keyword": "annoying",
-    "phonetics": "/əˈnɔɪ.ɪŋ/",
-    "partOfSpeech": "adjective",
-    "definitions": [
+      },
       {
+        "audio": "/assets/audio/dictionary/a/annoying-adjective.mp3",
+        "word": "annoying",
+        "phonetics": "/əˈnɔɪ.ɪŋ/",
+        "partOfSpeech": "adjective",
         "examples": [
           {
             "enExample": "It's really annoying when a train is late and there's no explanation.",
@@ -203,12 +277,13 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/a/anxiety-d.mp3",
     "keyword": "anxiety",
-    "phonetics": "/æŋˈzaɪ.ə.t̬i/",
-    "partOfSpeech": "noun",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/a/anxiety-d.mp3",
+        "word": "anxiety",
+        "phonetics": "/æŋˈzaɪ.ə.t̬i/",
+        "partOfSpeech": "noun",
         "ptDefinition": "apreensão, inquietude, ansiedade",
         "examples": [
           {
@@ -220,12 +295,13 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/a/apple-d.mp3",
     "keyword": "apple",
-    "phonetics": "/ˈæp.əl/",
-    "partOfSpeech": "noun",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/a/apple-d.mp3",
+        "word": "apple",
+        "phonetics": "/ˈæp.əl/",
+        "partOfSpeech": "noun",
         "ptDefinition": "maçã",
         "examples": [
           {

@@ -1,31 +1,29 @@
 [
   {
-    "audio": "/assets/audio/dictionary/b/bladder-d.mp3",
     "keyword": "bladder",
-    "phonetics": "/ˈblæd.ɚ/",
-    "partOfSpeech": "noun",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/b/bladder-d.mp3",
+        "word": "bladder",
+        "phonetics": "/ˈblæd.ɚ/",
+        "partOfSpeech": "noun",
         "enDefinition": "an organ like a bag inside the body of a person or animal, where urine is stored before it leaves the body",
         "ptDefinition": "bexiga"
-      }
-    ]
-  },
-  {
-    "audio": "/assets/audio/dictionary/b/bladder-stones.mp3",
-    "keyword": "bladder stones",
-    "definitions": [
+      },
       {
+        "audio": "/assets/audio/dictionary/b/bladder-stones.mp3",
+        "word": "bladder stones",
         "ptDefinition": "cálculos na bexiga"
       }
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/b/back-and-forth-issue.mp3",
     "keyword": "back and forth on an issue",
-    "partOfSpeech": "idiom",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/b/back-and-forth-issue.mp3",
+        "word": "back and forth on an issue",
+        "partOfSpeech": "idiom",
         "enDefinition": "repeatedly changing one's mind about something; having trouble settling on an opinion or decision",
         "examples": [
           {
@@ -36,11 +34,12 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/b/blockbuster.mp3",
     "keyword": "blockbuster",
-    "partOfSpeech": "idiom",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/b/blockbuster.mp3",
+        "word": "blockbuster",
+        "partOfSpeech": "idiom",
         "enDefinition": "a big success, something or someone that is forcefully or overwhelmingly impressive, effective or influential",
         "examples": [
           {
@@ -51,11 +50,12 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/b/bells-and-whistles.mp3",
-    "keyword": "bells and whistles",
-    "partOfSpeech": "idiom",
+    "keyword": "bell",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/b/bells-and-whistles.mp3",
+        "word": "bells and whistles",
+        "partOfSpeech": "idiom",
         "enDefinition": "extra product features, usually using the latest technology; product features which are attractive, but not essential for the product to function.",
         "examples": [
           {

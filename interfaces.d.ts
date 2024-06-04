@@ -1,26 +1,23 @@
-export interface IDictionaryDefinitionsThesauri {
-  synonyms?: string;
-  antonyms?: string;
-}
-
 export interface IDictionaryDefinitionsExamples {
   enExample?: string;
   ptExample?: string;
 }
 
 export interface IDictionaryDefinitions {
+  audio?: string;
+  word?: string
+  phonetics?: string;
+  partOfSpeech: string;
   enDefinition?: string;
   ptDefinition?: string;
   examples?: IDictionaryDefinitionsExamples[];
-  thesauri?: IDictionaryDefinitionsThesauri[];
+  synonyms?: string;
+  antonyms?: string;
 }
 
 export interface IDictionary {
-  audio: string;
-  keyword: string;
-  phonetics?: string;
-  partOfSpeech: string;
   definitions: IDictionaryDefinitions[];
+  keyword: string;
 }
 
 export interface WordCardProps {

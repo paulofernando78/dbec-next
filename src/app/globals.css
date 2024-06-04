@@ -239,6 +239,10 @@ p {
   z-index: 1;
 }
 
+.display-none {
+  display: none;
+}
+
 input[type="checkbox"] {
   min-width: 21px;
   min-height: 21px;

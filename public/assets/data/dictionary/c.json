@@ -1,11 +1,12 @@
 [
   {
-    "audio": "/assets/audio/dictionary/c/chimpanzee-d.mp3",
     "keyword": "chimpanzee",
-    "phonetics": "/ˌtʃɪm.pænˈziːz/",
-    "partOfSpeech": "noun",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/c/chimpanzee-d.mp3",
+        "word": "chimpanzee",
+        "phonetics": "/ˌtʃɪm.pænˈziːz/",
+        "partOfSpeech": "noun",
         "ptDefinition": "chimpanzé",
         "examples": [
           {
@@ -17,11 +18,12 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/c/come-up-with-a winner.mp3",
     "keyword": "come up with a winner",
-    "partOfSpeech": "idiom",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/c/come-up-with-a winner.mp3",
+        "word": "come up with a winner",
+        "partOfSpeech": "idiom",
         "enDefinition": "to think up a very good idea",
         "examples": [
           {

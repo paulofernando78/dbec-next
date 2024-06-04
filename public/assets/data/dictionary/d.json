@@ -1,11 +1,12 @@
 [
   {
-    "audio": "/assets/audio/dictionary/d/deafness-d.mp3",
-    "keyword": "deafness",
-    "phonetics": "/ˈdef.nəs/",
-    "partOfSpeech": "noun",
+    "keyword": "deaf",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/d/deafness-d.mp3",
+        "word": "deafness",
+        "phonetics": "/ˈdef.nəs/",
+        "partOfSpeech": "noun",
         "enDefinition": "the state of being deaf",
         "ptDefinition": "surdez",
         "examples": [
@@ -18,12 +19,13 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/d/deadliest-d.mp3",
-    "keyword": "deadliest",
-    "phonetics": "/ˈded.liəst/",
-    "partOfSpeech": "superlative of deadly",
+    "keyword": "dead",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/d/deadliest-d.mp3",
+        "word": "deadliest",
+        "phonetics": "/ˈded.liəst/",
+        "partOfSpeech": "superlative of deadly",
         "ptDefinition": "mais mortal",
         "examples": [
           {
