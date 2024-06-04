@@ -3,7 +3,7 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { usaFlagIcon, brFlagIcon } from "../../../../../public/assets/img";
 
-const wordLists = [
+const wordLists :WordList[] = [
   {
     enComponent: (props) => <DictionaryCard {...props} />,
     enComponentProps: {
@@ -57,9 +57,9 @@ interface WordList {
   ptComponentProps: any;
 }
 
-interface FalseCognatesProps {
-  wordLists: WordList[];
-}
+// interface FalseCognatesProps {
+//   wordLists: WordList[];
+// }
 
 export default function FalseCognates() {
   return (
