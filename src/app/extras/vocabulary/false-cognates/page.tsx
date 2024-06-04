@@ -61,7 +61,7 @@ interface FalseCognatesProps {
   wordLists: WordList[];
 }
 
-export default function FalseCognates({}: FalseCognatesProps) {
+export default function FalseCognates() {
   return (
     <>
       <Whiteboard
