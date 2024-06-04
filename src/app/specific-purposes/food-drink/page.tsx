@@ -1,6 +1,6 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { Card } from "@/components/Card/Card";
+import { Card } from "@/components/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 import styles from "./food-drink.module.css";
@@ -17,10 +17,10 @@ export default function FoodDrink() {
           <Card bgColor="black" textColor="white">
             <span className="bold">Verbs</span>
           </Card>
-            <DictionaryCard label="husk" phonetics="" audioSrc="/" />
-            <p>We can husk apple's seed.</p>
-            <DictionaryCard label="peel" phonetics="" audioSrc="/" />
-            <p>We can peel apple, banana, potaot, tomato, etc.</p>
+          <DictionaryCard label="husk" phonetics="" audioSrc="/" />
+          <p>We can husk apple's seed.</p>
+          <DictionaryCard label="peel" phonetics="" audioSrc="/" />
+          <p>We can peel apple, banana, potaot, tomato, etc.</p>
           <Card bgColor="black" textColor="white">
             <span className="bold">Fruit</span>
           </Card>
@@ -110,7 +110,9 @@ export default function FoodDrink() {
             <span className="bold">Extra</span>
           </Card>
           <Link href="/specific-purposes/food-drink/how-to-clean-and-remove-pesticides">
-          <p>How to Clean and Remove Pesticides From Your Fruits and Vegetables</p>
+            <p>
+              How to Clean and Remove Pesticides From Your Fruits and Vegetables
+            </p>
           </Link>
           <ScrollToTop />
         </div>

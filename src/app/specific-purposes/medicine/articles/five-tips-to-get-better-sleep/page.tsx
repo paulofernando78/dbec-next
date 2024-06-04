@@ -1,6 +1,6 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { Card } from "@/components/Card/Card";
+import { Card } from "@/components/Card";
 import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { VideoPlayer } from "@/components/VideoPlayer/VideoPlayer";
@@ -13,9 +13,9 @@ const radio = [
     title: "1. Choose the correct answer.",
     question: "1. Question",
     options: [
-        { isCorrect: false, label: "Answer 1" },
-        { isCorrect: true, label: "Answer 2" },
-        { isCorrect: false, label: "Answer 3" },
+      { isCorrect: false, label: "Answer 1" },
+      { isCorrect: true, label: "Answer 2" },
+      { isCorrect: false, label: "Answer 3" },
     ],
   },
 ];
@@ -61,11 +61,8 @@ export default function FiveTipsHowToGetBetterSleep() {
         <div>
           <p>
             Some of the major causes are <b>stress</b>,{" "}
-            <DictionaryCard
-              label="anxiety"
-              audioSrc="/a/anxiety.mp3"
-            />
-            , and a culture that experts say is about{" "}
+            <DictionaryCard label="anxiety" audioSrc="/a/anxiety.mp3" />, and a
+            culture that experts say is about{" "}
             <DictionaryCard
               label="productivity"
               audioSrc="/p/productivity.mp3"

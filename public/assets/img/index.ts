@@ -39,4 +39,9 @@ import allInOneIcon from "./icon/dictionary.png";
 import examsIcon from "./icon/exams.png";
 import miscIcon from "./icon/misc.png";
 
-export { placementTest, beginner, elementary, preIntermediate, intermediate, upperIntermediate, advanced, grammarIcon, listeningIcon, speakingIcon, pronunciationIcon, vocabularyIcon, automobileIcon, businessIcon, chemistryIcon, codingIcon, foodDrinkIcon, dentistryIcon, gamesIcon, geographyIcon, workoutIcon, hairdressingIcon, historyIcon, lawIcon, jobInterviewIcon, medicineIcon, travelIcon, scienceIcon, songsIcon, sportsIcon, stockMarketIcon, technologyIcon, allInOneIcon, examsIcon, miscIcon};
+// Flags
+import usaFlagIcon from "./icon/flag/usa.png"
+import ukFlagIcon from "./icon/flag/uk.png"
+import brFlagIcon from "./icon/flag/brazil.png"
+
+export { placementTest, beginner, elementary, preIntermediate, intermediate, upperIntermediate, advanced, grammarIcon, listeningIcon, speakingIcon, pronunciationIcon, vocabularyIcon, automobileIcon, businessIcon, chemistryIcon, codingIcon, foodDrinkIcon, dentistryIcon, gamesIcon, geographyIcon, workoutIcon, hairdressingIcon, historyIcon, lawIcon, jobInterviewIcon, medicineIcon, travelIcon, scienceIcon, songsIcon, sportsIcon, stockMarketIcon, technologyIcon, allInOneIcon, examsIcon, miscIcon, usaFlagIcon, ukFlagIcon, brFlagIcon};

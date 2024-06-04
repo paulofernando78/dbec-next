@@ -1,8 +1,8 @@
-"use client"
+"use client";
 import Image from "next/image";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
-import { Card } from "@/components/Card/Card";
+import { Card } from "@/components/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { Collapsible } from "@/components/Collapsible/Collapsible";
@@ -13,7 +13,6 @@ import africanCivet from "@/img/african-civet.jpg";
 import asianCivet from "@/img/asian-palm-civet.jpg";
 
 import { radioExercises } from "./radioExercises";
-
 
 export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
   return (
@@ -158,11 +157,15 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
         <div>
           <p>
             Some of the{" "}
-            <DictionaryCard audioSrc="/d/deadliest.mp3" label="deadliest"  />{" "}
+            <DictionaryCard audioSrc="/d/deadliest.mp3" label="deadliest" />{" "}
             diseases to infect humans have come from pathogens that jumped from
             animals to people. The virus that causes AIDS, for example, came
             from{" "}
-            <DictionaryCard audioSrc="/c/chimpanzees.mp3" keyword="chimpanzee" label="chimpanzees"  />
+            <DictionaryCard
+              audioSrc="/c/chimpanzees.mp3"
+              keyword="chimpanzee"
+              label="chimpanzees"
+            />
             . And many experts believe the virus that caused the COVID-19
             pandemic came from bats.
           </p>
@@ -177,10 +180,12 @@ export default function StudyHumansGiveMoreVirusesToAnimalsThanTheyGiveUs() {
         <div>
           <p>
             But, as a new study shows, this disease exchange has not been just
-            from animals to humans. In fact, research of all the <DictionaryCard audioSrc="/p/publicly.mp3" label="publicly" />
-            available viral <DictionaryCard audioSrc="/g/genome.mp3" label="genome"/> sequences produced a surprising result:
-            humans give about two times as many viruses to animals than they
-            give to us.
+            from animals to humans. In fact, research of all the{" "}
+            <DictionaryCard audioSrc="/p/publicly.mp3" label="publicly" />
+            available viral{" "}
+            <DictionaryCard audioSrc="/g/genome.mp3" label="genome" /> sequences
+            produced a surprising result: humans give about two times as many
+            viruses to animals than they give to us.
           </p>
           <p className="portuguese">
             Mas, como um novo estudo mostra, essa troca de doenças não tem sido

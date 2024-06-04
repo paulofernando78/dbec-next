@@ -4,7 +4,7 @@ import {
   IDictionaryDefinitionsThesauri,
 } from "../../../interfaces";
 import { AudioPlayer } from "../Audioplayer/Audioplayer";
-import { Card } from "../Card/Card";
+import { Card } from "../Card";
 
 import styles from "./WordCard.module.css";
 
@@ -63,8 +63,10 @@ export function WordCard({ dictionary }: WordCardProps) {
                         {example.enExample && <span>{example.enExample} </span>}
 
                         {/* Se houver um exemplo em português > Exiba-o */}
-                        {example.ptExample && (<span className="portuguese">{example.ptExample}
-</span>
+                        {example.ptExample && (
+                          <span className="portuguese">
+                            {example.ptExample}
+                          </span>
                         )}
                       </p>
                     );

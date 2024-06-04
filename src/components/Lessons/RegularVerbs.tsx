@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "../Card/Card";
+import { Card } from "../Card";
 import { DictionaryCard } from "../DictionaryCard/DictionaryCard";
 
 export const RegularVerbs = () => {
@@ -11,9 +11,9 @@ export const RegularVerbs = () => {
         </Card>
       </div>
       <div className="flex-8px-center">
-          <DictionaryCard audioSrc="/a/ask.mp3" label="ask"/>
-          <DictionaryCard audioSrc="/a/ask.mp3" label="asked"/>
-          <DictionaryCard audioSrc="/a/ask.mp3" label="asked"/>
+        <DictionaryCard audioSrc="/a/ask.mp3" label="ask" />
+        <DictionaryCard audioSrc="/a/ask.mp3" label="asked" />
+        <DictionaryCard audioSrc="/a/ask.mp3" label="asked" />
       </div>
       <div className="line-break">
         <p className="bold">Simple Present: </p>

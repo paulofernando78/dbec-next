@@ -1,4 +1,4 @@
-import { Card } from "@/components/Card/Card";
+import { Card } from "@/components/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
@@ -38,9 +38,9 @@ export default function Coding() {
           />
         </div>
         <div>
-        <Card bgColor="black" textColor="white">
-          <p className="bold">Back-End</p>
-        </Card>
+          <Card bgColor="black" textColor="white">
+            <p className="bold">Back-End</p>
+          </Card>
         </div>
       </div>
     </>

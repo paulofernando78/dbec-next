@@ -1,4 +1,4 @@
-import { Card } from "@/components/Card/Card";
+import { Card } from "@/components/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import React from "react";
 

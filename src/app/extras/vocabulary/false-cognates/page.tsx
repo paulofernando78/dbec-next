@@ -1,43 +1,67 @@
-import { DashedCard } from "@/components/DashedCard";
+import Image from "next/image";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import styles from "./styles.module.css";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+import { usaFlagIcon, brFlagIcon } from "../../../../../public/assets/img";
 
-const lists = [
+const wordLists = [
   {
     enComponent: (props) => <DictionaryCard {...props} />,
     enComponentProps: {
-      audioSrc: "/l/actual.mp3",
+      audioSrc: "/a/actual.mp3",
       label: "actual",
     },
-    portuguese: "atual",
+    enPT: "real, verdadeiro",
+    ptEN: "atual",
     ptComponent: (props) => <DictionaryCard {...props} />,
     ptComponentProps: {
-      audioSrc: "/c/currentl.mp3",
+      audioSrc: "/c/current.mp3",
       label: "current",
     },
   },
   {
     enComponent: (props) => <DictionaryCard {...props} />,
     enComponentProps: {
-      audioSrc: "/l/actual.mp3",
-      label: "actual",
+      audioSrc: "/a/actually.mp3",
+      label: "actually",
     },
-    portuguese: "atual",
+    enPT: "na realidade, na verdade",
+    ptEN: "atualmente",
     ptComponent: (props) => <DictionaryCard {...props} />,
     ptComponentProps: {
-      audioSrc: "/c/currentl.mp3",
-      label: "current",
+      audioSrc: "/c/currently.mp3",
+      label: "currently",
     },
-  }
+  },
+  {
+    enComponent: (props) => <DictionaryCard {...props} />,
+    enComponentProps: {
+      audioSrc: "/a/anticipate.mp3",
+      label: "anticipate",
+    },
+    enPT: "prever, estar na expectativa",
+    ptEN: "antecipar (horário)",
+    ptComponent: (props) => <DictionaryCard {...props} />,
+    ptComponentProps: {
+      audioSrc: "/a/advance.mp3",
+      label: "advance",
+    },
+  },
 ];
 
-interface FalseCognatesProps {
-  component: (props: { audioSrc: string; label: string }) => JSX.Element;
-  componentProps: { audioSrc: string; label: string };
+interface WordList {
+  enComponent: (props: { audioSrc: string; label: string }) => JSX.Element;
+  enComponentProps: any;
+  enPT: string;
+  ptEN: string;
+  ptComponent: (props: { audioSrc: string; label: string }) => JSX.Element;
+  ptComponentProps: any;
 }
 
-export default function FalseCognates() {
+interface FalseCognatesProps {
+  wordLists: WordList[];
+}
+
+export default function FalseCognates({}: FalseCognatesProps) {
   return (
     <>
       <Whiteboard
@@ -46,11 +70,30 @@ export default function FalseCognates() {
         descriptions={["False Cognates"]}
       />
       <div className="line-break">
-        {lists.map((list, index) => (
-          <DashedCard key={index}>
-              <p>{list.enComponent(list.enComponentProps)} isn't "atual"</p>
-              <p>For "{list.portuguese}", say {list.ptComponent(list.ptComponentProps)}</p>
-          </DashedCard>
+        {wordLists.map((wordList, index) => (
+          <div key={index}>
+            <div className="flex-8px-center-wrap">
+              <Image
+                src={usaFlagIcon}
+                alt="USA flag icon"
+                className="icon-general"
+              />
+              <p className="inline">
+                {wordList.enComponent(wordList.enComponentProps)} ➜ {wordList.enPT}
+              </p>
+            </div>
+            <div className="flex-8px-center-wrap">
+              <Image
+                src={brFlagIcon}
+                alt="Brazil flag icon"
+                className="icon-general"
+              />
+              <p className="inline">
+                {wordList.ptEN} ➜ {wordList.ptComponent(wordList.ptComponentProps)}
+              </p>
+            </div>
+            <hr className="margin-top" />
+          </div>
         ))}
       </div>
     </>

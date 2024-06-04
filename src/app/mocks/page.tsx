@@ -1,5 +1,5 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { Card } from "@/components/Card/Card";
+import { Card } from "@/components/Card";
 import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
@@ -70,8 +70,8 @@ export default function Mocks() {
         </Card>
 
         <p>
-          I'm feeling <DictionaryCard audioSrc="/a/annoyed.mp3" label="annoyed" />{" "}
-          today.
+          I'm feeling{" "}
+          <DictionaryCard audioSrc="/a/annoyed.mp3" label="annoyed" /> today.
         </p>
       </div>
     </div>

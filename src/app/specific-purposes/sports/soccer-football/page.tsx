@@ -1,4 +1,4 @@
-import { Card } from "@/components/Card/Card";
+import { Card } from "@/components/Card";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 export default function SoocerFootball() {
@@ -14,7 +14,9 @@ export default function SoocerFootball() {
           <p className="bold">Brazilian ...</p>
         </div>
         <div className="line-break">
-          <p className="bold">The Union European Football Associations (UEFA)</p>
+          <p className="bold">
+            The Union European Football Associations (UEFA)
+          </p>
           <div className="line-break">
             <p className="bold">Countries</p>
             <p>Albania</p>

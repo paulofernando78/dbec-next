@@ -3,12 +3,12 @@ import { useState } from "react";
 import Image from "next/image";
 
 // CSS
-import styles from "./styles.module.css"
+import styles from "./styles.module.css";
 
 // Images Icons
-import plusIcon from "@/img/icon/plus.png"
-import minusIcon from "@/img/icon/minus.png"
-import { Card } from "../Card/Card";
+import plusIcon from "@/img/icon/plus.png";
+import minusIcon from "@/img/icon/minus.png";
+import { Card } from "../Card";
 
 interface CollapsibleProps {
   label?: string;
@@ -16,7 +16,11 @@ interface CollapsibleProps {
   children: React.ReactElement;
 }
 
-export const Collapsible = ({ label, labelBold, children }: CollapsibleProps) => {
+export const Collapsible = ({
+  label,
+  labelBold,
+  children,
+}: CollapsibleProps) => {
   const [isOpen, setOpen] = useState(false);
 
   const toggleCollapse = () => {
@@ -24,13 +28,21 @@ export const Collapsible = ({ label, labelBold, children }: CollapsibleProps) =>
   };
   return (
     <>
-        <Card>
-          <span onClick={toggleCollapse} className="cursor-pointer">
-          
-            <span className={`${"user-select-none"}  ${styles["label"]}`}><b><Image src={isOpen ? minusIcon : plusIcon} alt="Icons" className={` ${"margin-right"} ${styles["plus-minus-icons"]}`}/>{labelBold}</b></span>
+      <Card>
+        <span onClick={toggleCollapse} className="cursor-pointer">
+          <span className={`${"user-select-none"}  ${styles["label"]}`}>
+            <b>
+              <Image
+                src={isOpen ? minusIcon : plusIcon}
+                alt="Icons"
+                className={` ${"margin-right"} ${styles["plus-minus-icons"]}`}
+              />
+              {labelBold}
+            </b>
           </span>
-          <span>{isOpen && <p className="block margin-top">{children}</p>}</span>
-        </Card>
+        </span>
+        <span>{isOpen && <p className="block margin-top">{children}</p>}</span>
+      </Card>
     </>
   );
 };

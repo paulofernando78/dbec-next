@@ -1,34 +1,34 @@
 import Link from "next/link";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { Card } from "@/components/Card/Card";
+import { Card } from "@/components/Card";
 
 export default function Games() {
   return (
     <>
       <Whiteboard title="Specific Purposes" subtitle="Games" />
       <div className="line-break">
-      <div className="line-break">
+        <div className="line-break">
           <Card>
             <b>SIERRA</b>
           </Card>
           <div>
             <Link href="/specific-purposes/games/">
-            <p>Larry I</p>
+              <p>Larry I</p>
             </Link>
           </div>
           <div>
             <Link href="/specific-purposes/games/">
-            <p>Police Quest I</p>
+              <p>Police Quest I</p>
             </Link>
           </div>
           <div>
             <Link href="/specific-purposes/games/">
-            <p>Space Quest I</p>
+              <p>Space Quest I</p>
             </Link>
           </div>
           <div>
             <Link href="/specific-purposes/games/">
-            <p>Quest for Glory I</p>
+              <p>Quest for Glory I</p>
             </Link>
           </div>
           <div>
@@ -92,8 +92,8 @@ export default function Games() {
             <Card>Misc</Card>
           </div>
           <Link href="/specific-purposes/games/minecraft">
-              <p>Minecraft (2011)</p>
-            </Link>
+            <p>Minecraft (2011)</p>
+          </Link>
         </div>
       </div>
     </>

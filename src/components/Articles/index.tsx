@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { StaticImageData } from "next/image";
 import { AudioPlayer } from "../Audioplayer/Audioplayer";
-import { Card } from "../Card/Card";
-import styles from "./styles.module.css";
+import { Card } from "../Card";
+// import styles from "./styles.module.css";
 
 export interface EnParagraph {
   component?: (props: { audioSrc: string; label: string }) => JSX.Element;
@@ -54,18 +54,21 @@ export const Articles = ({ articles, audioSrc }: ArticlesProps) => {
           <div>
             {article.enParagraphs.map((enParagraph, enParagraphIndex) => (
               <span key={enParagraphIndex}>
-                
-                  {enParagraph.component && (
-                    <span className="margin-right">
-                      {enParagraph.component(enParagraph.componentProps)}
-                    </span>
-                  )}
-                  <span className="p-font inline margin-right">{enParagraph.enParagraph}</span>
+                {enParagraph.component && (
+                  <span className="margin-right">
+                    {enParagraph.component(enParagraph.componentProps)}
+                  </span>
+                )}
+                <span className="p-font inline margin-right">
+                  {enParagraph.enParagraph}
+                </span>
               </span>
             ))}
           </div>
           <p className="portuguese">{article.ptParagraph}</p>
-          {article.smaller && <p className="p-size-smaller">{article.smaller}</p>}
+          {article.smaller && (
+            <p className="p-size-smaller">{article.smaller}</p>
+          )}
           {article.afterImgSrc && (
             <Image
               src={article.afterImgSrc}

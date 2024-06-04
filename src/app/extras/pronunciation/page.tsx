@@ -1,7 +1,7 @@
 "use client";
 
 import Dictionary from "@/app/dictionary/page";
-import { Card } from "@/components/Card/Card";
+import { Card } from "@/components/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { LetterA } from "@/components/Extras/Pronunciation/Letters/LetterA";
 import { LettersAwAwe } from "@/components/Extras/Pronunciation/Letters/LettersAwAwe";
@@ -71,7 +71,7 @@ export default function Pronunciation() {
           <LetterA />
         </div>
         <LettersAwAwe />
-       
+
         <span className="line-break">
           <Card bgColor="Black" textColor="White">
             <p className="bold">Letter y</p>
@@ -83,7 +83,7 @@ export default function Pronunciation() {
             <DictionaryCard audioSrc="" label="healthy" />
             <DictionaryCard audioSrc="" label="money" />
             <DictionaryCard audioSrc="" label="monkey" />
-          </div >
+          </div>
           <div className="flex-8px-center-wrap">
             <DictionaryCard audioSrc="" label="seat" />
             <p>vs.</p>
@@ -92,7 +92,6 @@ export default function Pronunciation() {
             <DictionaryCard audioSrc="" label="city" />
           </div>
         </span>
-
 
         <span id="linked-sounds">
           <Card bgColor="Black" textColor="White">
