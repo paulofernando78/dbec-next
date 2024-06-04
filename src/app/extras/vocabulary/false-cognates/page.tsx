@@ -3,7 +3,7 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { usaFlagIcon, brFlagIcon } from "../../../../../public/assets/img";
 
-const wordLists :WordList[] = [
+const wordLists: WordList[] = [
   {
     enComponent: (props) => <DictionaryCard {...props} />,
     enComponentProps: {
@@ -79,7 +79,8 @@ export default function FalseCognates() {
                 className="icon-general"
               />
               <p className="inline">
-                {wordList.enComponent(wordList.enComponentProps)} ➜ {wordList.enPT}
+                {wordList.enComponent(wordList.enComponentProps)} ➜{" "}
+                {wordList.enPT}
               </p>
             </div>
             <div className="flex-8px-center-wrap">
@@ -89,7 +90,8 @@ export default function FalseCognates() {
                 className="icon-general"
               />
               <p className="inline">
-                {wordList.ptEN} ➜ {wordList.ptComponent(wordList.ptComponentProps)}
+                {wordList.ptEN} ➜{" "}
+                {wordList.ptComponent(wordList.ptComponentProps)}
               </p>
             </div>
             <hr className="margin-top" />
