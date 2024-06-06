@@ -1,11 +1,12 @@
 [
   {
-    "audio": "/assets/audio/dictionary/g/gene-d.mp3",
     "keyword": "gene",
-    "phonetics": "",
-    "partOfSpeech": "noun",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/g/gene-d.mp3",
+        "word": "gene",
+        "phonetics": "",
+        "partOfSpeech": "noun",
         "enDefinition": "...",
         "ptDefinition": "gene"
       }

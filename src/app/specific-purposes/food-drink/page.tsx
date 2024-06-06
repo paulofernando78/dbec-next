@@ -1,12 +1,10 @@
 "use client";
+import Link from "next/link";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { Card } from "@/components/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-
-import styles from "./food-drink.module.css";
 import { Collapsible } from "@/components/Collapsible/Collapsible";
 import { ScrollToTop } from "@/components/ScrollToTop";
-import Link from "next/link";
 
 export default function FoodDrink() {
   return (
@@ -17,50 +15,42 @@ export default function FoodDrink() {
           <Card bgColor="black" textColor="white">
             <span className="bold">Verbs</span>
           </Card>
-          <DictionaryCard label="husk" phonetics="" audioSrc="/" />
+          <DictionaryCard label="husk" audioSrc="/h/husk.mp3" />
           <p>We can husk apple's seed.</p>
-          <DictionaryCard label="peel" phonetics="" audioSrc="/" />
-          <p>We can peel apple, banana, potaot, tomato, etc.</p>
+          <DictionaryCard label="peel" audioSrc="/p/peel.mp3" />
+          <p>We can peel apples, bananas, potatos, tomatos, carrots, etc.</p>
           <Card bgColor="black" textColor="white">
             <span className="bold">Fruit</span>
           </Card>
-          <div className="flex-col-8px">
-            <DictionaryCard label="apple" phonetics="" audioSrc="/" />
-            <DictionaryCard
-              label="plantain"
-              phonetics=""
-              audioSrc="/p/plantain.mp3"
-            />
-            <DictionaryCard label="strawberry" phonetics="" audioSrc="/" />
+          <div className="flex-col">
+            <DictionaryCard label="apple" audioSrc="/a/apple.mp3" />
+            <DictionaryCard label="plantain" audioSrc="/p/plantain.mp3" />
+            <DictionaryCard label="strawberry" audioSrc="/s/strawberry.mp3" />
           </div>
+        </div>
+        <Card bgColor="black" textColor="white">
+          <span className="bold">Seed</span>
+        </Card>
+        <div className="flex-col">
+          <DictionaryCard audioSrc="/c/chia.mp3" label="chia"/>
+          <DictionaryCard audioSrc="/f/flaxseed.mp3" label="flaxseed"/>
         </div>
         <div className="line-break">
           <Card bgColor="black" textColor="white">
             <span className="bold">Vegetables</span>
           </Card>
-          <div className={styles["flex"]}>
-            <DictionaryCard
-              label="broccoli"
-              phonetics="/ˈbrɑː.kəl.i/"
-              audioSrc="/"
-            />
-            <DictionaryCard
-              label="cucumber"
-              phonetics="/ˈkjuː.kʌm.bɚ/"
-              audioSrc="/"
-            />
-            <DictionaryCard
-              label="cauliflower"
-              phonetics="/ˈkɑː.ləˌflaʊ.ɚ/"
-              audioSrc="/"
-            />
-            <DictionaryCard label="kale" phonetics="/keɪl/" audioSrc="/" />
+          <div className="flex-col">
+            <DictionaryCard audioSrc="/b/broccoli.mp3" label="broccoli" />
+            <DictionaryCard audioSrc="/b/brussels-sprout.mp3" label="brussels sprout" />
+            <DictionaryCard audioSrc="/c/cucumber.mp3" label="cucumber" />
+            <DictionaryCard audioSrc="/c/cauliflower.mp3" label="cauliflower" />
+            <DictionaryCard audioSrc="/k/kale.mp3" label="kale" />
           </div>
           <Card bgColor="black" textColor="white">
             <span className="bold">Meat</span>
           </Card>
           <div className="line-break">
-            <DictionaryCard audioSrc="" label="minced meat" />
+            <DictionaryCard audioSrc="/m/minced-meat.mp3" label="minced meat" />
             <Collapsible labelBold="What's the difference between 'minced meat' and ground meat'?">
               <div className="line-break">
                 <p>
@@ -89,7 +79,6 @@ export default function FoodDrink() {
               </div>
             </Collapsible>
           </div>
-
           <div>
             <p>A table for 2, 3, 4, etc.</p>
             <p>Can I have the menu?</p>
@@ -99,9 +88,9 @@ export default function FoodDrink() {
             <p>I'll have chicken salad.</p>
           </div>
           <Card bgColor="black" textColor="white">
-            <span className="bold">Drinks</span>
+            <span className="bold">Drink</span>
           </Card>
-          <div className="flex-col-8px">
+          <div className="flex-col">
             <DictionaryCard audioSrc="" label="iced-cold beer" />
             <DictionaryCard audioSrc="" label="sparking water" />
             <DictionaryCard audioSrc="" label="draft wine" />
@@ -114,9 +103,9 @@ export default function FoodDrink() {
               How to Clean and Remove Pesticides From Your Fruits and Vegetables
             </p>
           </Link>
-          <ScrollToTop />
         </div>
       </div>
+      <ScrollToTop />
     </>
   );
 }

@@ -1,5 +1,23 @@
 [
   {
+    "keyword": "capital flight",
+    "definitions": [
+      {
+	      "audio": "/assets/audio/dictionary/c/capital-flight-noun.mp3",
+	      "word": "capital flight",
+		    "partOfSpeech": "noun",
+        "enDefinition": "a situation in which large amounts of money are sent out of a country to be kept or invested in other countries, for example, because of fears about the economy:",
+        "ptDefinition": "fuga de capital",
+        "examples": [
+          {
+            "enExample": "How can capital flight be skyrocketing and the market crashing when, on the surface, things look so good?",
+            "ptExample": "Como pode haver uma fuga de capitais em alta e o mercado em queda quando, na superfície, as coisas parecem tão boas?"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "chimpanzee",
     "definitions": [
       {

@@ -64,8 +64,8 @@ export const Articles = ({ articles, audioSrc }: ArticlesProps) => {
                 </span>
               </span>
             ))}
-          </div>
           <p className="portuguese">{article.ptParagraph}</p>
+          </div>
           {article.smaller && (
             <p className="p-size-smaller">{article.smaller}</p>
           )}

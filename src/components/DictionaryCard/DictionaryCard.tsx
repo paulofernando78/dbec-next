@@ -7,7 +7,7 @@ import PlayButton from "../../../public/assets/img/icon/play-button.png";
 import Eye from "../../../public/assets/img/icon/eye.png";
 
 // CSS
-import styles from "./DictionaryCard.module.css";
+import styles from "./styles.module.css";
 import { IDictionary } from "../../../interfaces";
 import { searchWords } from "@/utils/searchWords";
 import { WordCard } from "../WordCard/WordCard";
@@ -24,8 +24,8 @@ const baseAudioSrc = "/assets/audio/dictionary";
 
 export const DictionaryCard = ({
   audioSrc,
-  label,
   keyword,
+  label,
   phonetics,
 }: DictionaryCardProps) => {
   const [visible, setVisible] = useState(false);
@@ -56,12 +56,9 @@ export const DictionaryCard = ({
           onClick={playAudio}
           className={styles["play-button"]}
         />
-        <span
-          className={styles["label"]}
-          dangerouslySetInnerHTML={{ __html: label }}
-        ></span>
+        <span className={styles["label"]} dangerouslySetInnerHTML={{ __html: label}}></span>
         {phonetics && (
-          <span className={`${"phonetics"} ${styles["phonetics-margin"]}`}>
+          <span className={`phonetics ${styles["phonetics-margin"]}`}>
             {phonetics}
           </span>
         )}

@@ -21,10 +21,41 @@
     ]
   },
   {
+    "keyword": "an",
+    "definitions": [
+      {
+        "audio": "/assets/audio/dictionary/a/an.mp3",
+        "word": "an",
+        "phonetics": "/an/",
+        "partOfSpeech": "article",
+        "enDefinition": "used instead of \"a\" when the following word begins with a vowel sound",
+        "ptDefinition": "Usado em vez de \"a\" quando a palavra seguinte começa com um som de vogal.",
+        "examples": [
+          {
+            "enExample": "an orange",
+            "ptExample": "uma laranja"
+          },
+          {
+            "enExample": "an honour",
+            "ptExample": "uma honra"
+          },
+          {
+            "enExample": "an easy question",
+            "ptExample": "uma pergunta fácil"
+          },
+          {
+            "enExample": "an interesting story",
+            "ptExample": "uma história interessante"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "ask",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/a/ask-present-d.mp3",
+        "audio": "/assets/audio/dictionary/a/ask-present.mp3",
         "word": "ask",
         "phonetics": "/æsk/",
         "partOfSpeech": "regular verb • present",
@@ -86,10 +117,10 @@
          }
        ],
        "synonyms": "invite",
-       "antonyms": "..."
+       "antonyms": "avoid, refrain (from)"
        },
       {
-        "audio": "/assets/audio/dictionary/ask-past.mp3",
+        "audio": "/assets/audio/dictionary/a/ask-past.mp3",
         "word": "asked",
         "phonetics": "/æskt/",
         "partOfSpeech": "past of ask",
@@ -105,7 +136,7 @@
         ]
       },
       {
-        "audio": "/assets/audio/dictionary/ask-past-participle.mp3",
+        "audio": "/assets/audio/dictionary/a/ask-past-participle.mp3",
         "word": "asked",
         "phonetics": "/æskt/",
         "partOfSpeech": "past participle of ask",
@@ -121,7 +152,7 @@
         ]
       },
       {
-        "audio": "/assets/audio/dictionary/ask-present-participle.mp3",
+        "audio": "/assets/audio/dictionary/a/ask-present-participle.mp3",
         "word": "asking",
         "phonetics": "/æsk.ɪŋ/",
         "partOfSpeech": "present participle of ask",
@@ -131,8 +162,8 @@
             "ptExample": "Mike está pedindo 250.000 dólares pela sua casa."
           },
           {
-            "enExample": "How much are you asking? / Quanto você quer (por isso)?",
-            "ptExample": "Quanto está pedindo?"
+            "enExample": "How much are you asking?",
+            "ptExample": "Quanto está pedindo? / Quanto você quer (por isso)?"
           },
           {
             "enExample": "*It's asking a lot when your boss wants you to work weekends as well as evenings.",
@@ -141,10 +172,10 @@
         ]
       },
       {
-        "audio": "/assets/audio/dictionary/ask-he-she-it.mp3",
+        "audio": "/assets/audio/dictionary/a/ask-he-she-it.mp3",
         "word": "asks",
         "phonetics": "/æsks/",
-        "partOfSpeech": "he/she/it of ask: affirmative only",
+        "partOfSpeech": "he, she, it of ask: affirmative only",
         "examples": [
           {
             "enExample": "George always asks his parents for advice whenever he's in trouble.",
@@ -153,7 +184,7 @@
         ]
       },
       {
-	      "audio": "/assets/audio/dictionary/ask-for-it.mp3",
+	      "audio": "/assets/audio/dictionary/a/ask-for-it-idiom.mp3",
 	      "word": "ask for it/trouble",
 		    "partOfSpeech": "idiom",
         "enDefinition": "to be behaving stupidly in a way that is likely to cause problems for you",
@@ -250,7 +281,7 @@
         "audio": "/assets/audio/dictionary/a/annoys-he-she-it.mp3",
         "word": "annoys",
         "phonetics": "/əˈnɔɪz/",
-        "partOfSpeech": "he/she/it: affirmative only",
+        "partOfSpeech": "he • she • it: affirmative only",
         "examples": [
           {
             "enExample": "It really annoys me when people cut in line.",

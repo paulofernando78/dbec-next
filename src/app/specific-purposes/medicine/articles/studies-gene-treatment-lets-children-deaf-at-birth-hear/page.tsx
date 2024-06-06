@@ -33,6 +33,7 @@ const articles: ArticleData[] = [
         component: (props) => <DictionaryCard {...props} />,
         componentProps: {
           audioSrc: "/d/deafness.mp3",
+          keyword: "deaf",
           label: "deafness",
         },
         enParagraph: "to hear again.",

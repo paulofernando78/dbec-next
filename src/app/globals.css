@@ -188,6 +188,11 @@ p {
   flex-wrap: wrap;
 }
 
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
 .flex-col-4px {
   display: flex;
   flex-direction: column;
