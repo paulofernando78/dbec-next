@@ -1,1 +1,25 @@
-[]
+[
+    {
+        "keyword": "Israeli",
+        "definitions": [
+          {
+              "audio": "/assets/audio/dictionary/i/israeli-adjective.mp3",
+              "word": "Israeli",
+                "phonetics": "/ɪzˈreɪ.li/",
+                "partOfSpeech": "adjective",
+            "enDefinition": "belonging to or relating to Israel or its people",
+            "ptDefinition": "pertencente ou relacionado a Israel ou seu povo",
+            "examples": [
+              {
+                "enExample": "Israeli exports",
+                "ptExample": "exportações israelenses"
+              },
+              {
+                "enExample": "an Israeli newspaper",
+                "ptExample": "um jornal israelense"
+              }
+            ]
+          }
+        ]
+      }
+]

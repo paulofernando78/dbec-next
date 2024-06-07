@@ -8,6 +8,11 @@ import { LettersAwAwe } from "@/components/Extras/Pronunciation/Letters/LettersA
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { LettersY } from "@/components/Extras/Pronunciation/Letters/LetterY";
 import { LettersEY } from "@/components/Extras/Pronunciation/Letters/LetterEY";
+import { LetterI } from "@/components/Extras/Pronunciation/Letters/LetterI";
+import { LetterIE } from "@/components/Extras/Pronunciation/Letters/LetterIE";
+import { LetterE } from "@/components/Extras/Pronunciation/Letters/LetterE";
+import { LetterAvsE } from "@/components/Extras/Pronunciation/Letters/LettersAvsE";
+import { LetterEaEE } from "@/components/Extras/Pronunciation/Letters/LettersEaEE";
 
 export default function Pronunciation() {
   return (
@@ -24,17 +29,20 @@ export default function Pronunciation() {
           <a href="#letters-aw-awe">
             <p>Letters aw • awe</p>
           </a>
-          <a href="#letter-a-e">
+          <a href="#letter-a">
+            <p>Letter e</p>
+          </a>
+          <a href="#letters-a-vs-e">
             <p>Letter a vs. e</p>
           </a>
-          <a href="#letters-ea">
-            <p>Letters ea</p>
-          </a>
-          <a href="#letters-ee-ea-i">
-            <p>Letters ee • ea (long) vs. i (short)</p>
+          <a href="#letters-ea-ee">
+            <p>Letters ea • ee</p>
           </a>
           <a href="#letter-i">
             <p>Letter i</p>
+          </a>
+          <a href="#letter-ee-long-vs-i-(short)">
+            <p>Letters ee • ea (long) vs. i (short)</p>
           </a>
           <a href="#letter-ie">
             <p>Letters ie</p>
@@ -45,7 +53,7 @@ export default function Pronunciation() {
           <a href="#letter-oo">
             <p>Letter oo</p>
           </a>
-          <a href="#letters-ow">
+          <a href="#letter-ow">
             <p>Letter ow</p>
           </a>
           <a href="#letter-t">
@@ -75,6 +83,26 @@ export default function Pronunciation() {
         <div id="letters-aw-awe">
           <LettersAwAwe />
         </div>
+        <div id="letter-e">
+          <LetterE />
+        </div>
+        <div id="letters-a-vs-e">
+          <LetterAvsE />
+        </div>
+        <div id="letters-ea-ee">
+          <LetterEaEE />
+        </div>
+        <div id="letter-i">
+          <LetterI />
+        </div>
+        <div id="letter-ie">
+          <LetterIE />
+        </div>
+        <div id="letter-o"></div>
+        <div id="letter-oo"></div>
+        <div id="letter-ow"></div>
+        <div id="letter-t"></div>
+        <div id="letter-u"></div>
         <div id="letter-y">
           <LettersY />
         </div>
@@ -86,11 +114,19 @@ export default function Pronunciation() {
           <p className="bold">Comparisons</p>
         </Card>
         <div className="flex-8px-center-wrap">
-          <DictionaryCard audioSrc="/s/seat.mp3" label="seat" phonetics="/siːt/"/>
+          <DictionaryCard
+            audioSrc="/s/seat.mp3"
+            label="seat"
+            phonetics="/siːt/"
+          />
           <p>vs.</p>
-          <DictionaryCard audioSrc="/s/sit.mp3" label="sit" phonetics="/sɪt/"/>
+          <DictionaryCard audioSrc="/s/sit.mp3" label="sit" phonetics="/sɪt/" />
           <p>vs.</p>
-          <DictionaryCard audioSrc="/c/city.mp3" label="city" phonetics="/ˈsɪt̬.i/"/>
+          <DictionaryCard
+            audioSrc="/c/city.mp3"
+            label="city"
+            phonetics="/ˈsɪt̬.i/"
+          />
         </div>
 
         <span className="line-break"></span>

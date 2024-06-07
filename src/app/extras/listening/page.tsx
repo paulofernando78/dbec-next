@@ -29,6 +29,23 @@ const descriptions = [
     ],
   },
   {
+    label: "Articles",
+    contents: [
+      {
+        globeLink: "/extras/listening/articles/arts-and-culture",
+        globeLabel: "Arts & Culture",
+      },
+      {
+        globeLink: "/extras/listening/articles/health-and-lifestyle",
+        globeLabel: "Health & Lifestyle",
+      },
+      {
+        globeLink: "/extras/listening/articles/science-and-technology",
+        globeLabel: "Science & Technology",
+      }
+    ],
+  },
+  {
     label: "Miscellaneous",
     contents: [
       {

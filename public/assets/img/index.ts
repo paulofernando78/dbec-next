@@ -40,8 +40,59 @@ import examsIcon from "./icon/exams.png";
 import miscIcon from "./icon/misc.png";
 
 // Flags
-import usaFlagIcon from "./icon/flag/usa.png"
-import ukFlagIcon from "./icon/flag/uk.png"
-import brFlagIcon from "./icon/flag/brazil.png"
+import usaFlagIcon from "./icon/flag/usa.png";
+import ukFlagIcon from "./icon/flag/uk.png";
+import brFlagIcon from "./icon/flag/brazil.png";
 
-export { placementTest, beginner, elementary, preIntermediate, intermediate, upperIntermediate, advanced, grammarIcon, listeningIcon, speakingIcon, pronunciationIcon, vocabularyIcon, automobileIcon, businessIcon, chemistryIcon, codingIcon, foodDrinkIcon, dentistryIcon, gamesIcon, geographyIcon, workoutIcon, hairdressingIcon, historyIcon, lawIcon, jobInterviewIcon, medicineIcon, travelIcon, scienceIcon, songsIcon, sportsIcon, stockMarketIcon, technologyIcon, allInOneIcon, examsIcon, miscIcon, usaFlagIcon, ukFlagIcon, brFlagIcon};
+// Folder
+import labEmbryo from "./lab-embryo.avif"
+import labEmbryo2 from "./lab-embryo2.jpg"
+import labEmbryo3 from "./lab-embryo3.jpg"
+import labScientist from "./lab-scientist.avif"
+
+export {
+  placementTest,
+  beginner,
+  elementary,
+  preIntermediate,
+  intermediate,
+  upperIntermediate,
+  advanced,
+  grammarIcon,
+  listeningIcon,
+  speakingIcon,
+  pronunciationIcon,
+  vocabularyIcon,
+  automobileIcon,
+  businessIcon,
+  chemistryIcon,
+  codingIcon,
+  foodDrinkIcon,
+  dentistryIcon,
+  gamesIcon,
+  geographyIcon,
+  workoutIcon,
+  hairdressingIcon,
+  historyIcon,
+  lawIcon,
+  jobInterviewIcon,
+  medicineIcon,
+  travelIcon,
+  scienceIcon,
+  songsIcon,
+  sportsIcon,
+  stockMarketIcon,
+  technologyIcon,
+  allInOneIcon,
+  examsIcon,
+  miscIcon,
+  usaFlagIcon,
+  ukFlagIcon,
+  brFlagIcon,
+
+  // Folder 
+  labEmbryo,
+  labEmbryo2,
+  labEmbryo3,
+  labScientist
+};

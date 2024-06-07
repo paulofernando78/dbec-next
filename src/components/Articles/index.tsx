@@ -11,6 +11,7 @@ export interface EnParagraph {
 }
 
 export interface ArticleData {
+  paragraphNumber: string
   beforeImgSrc?: StaticImageData | string;
   beforeAltName?: string;
   beforeImgSrcWidth?: string;
@@ -26,16 +27,18 @@ export interface ArticleData {
 
 interface ArticlesProps {
   articles: ArticleData[];
+  discussion: string;
   audioSrc?: string;
 }
 
-export const Articles = ({ articles, audioSrc }: ArticlesProps) => {
+export const Articles = ({ articles, discussion, audioSrc }: ArticlesProps) => {
   return (
     <div className="line-break">
       <Card bgColor="Black" textColor="White">
         <p>Discussion</p>
       </Card>
-      <div style={{ position: "sticky", top: "0", paddingTop: "10px" }}>
+      <p>{discussion}</p>
+      <div className="sticky">
         <AudioPlayer audioSrc={audioSrc} />
       </div>
       {articles.map((article, articleIndex) => (
@@ -51,6 +54,9 @@ export const Articles = ({ articles, audioSrc }: ArticlesProps) => {
               }}
             />
           )}
+          <Card bgColor="lightgray">
+            <p className="bold">{article.paragraphNumber}</p>
+          </Card>
           <div>
             {article.enParagraphs.map((enParagraph, enParagraphIndex) => (
               <span key={enParagraphIndex}>
@@ -64,7 +70,7 @@ export const Articles = ({ articles, audioSrc }: ArticlesProps) => {
                 </span>
               </span>
             ))}
-          <p className="portuguese">{article.ptParagraph}</p>
+            <p className="portuguese">{article.ptParagraph}</p>
           </div>
           {article.smaller && (
             <p className="p-size-smaller">{article.smaller}</p>

@@ -1,6 +1,5 @@
 import { Card } from "@/components/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import React from "react";
 
 export const LetterA = () => {
   return (
