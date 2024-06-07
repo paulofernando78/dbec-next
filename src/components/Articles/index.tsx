@@ -2,6 +2,7 @@ import Image from "next/image";
 import { StaticImageData } from "next/image";
 import { AudioPlayer } from "../Audioplayer/Audioplayer";
 import { Card } from "../Card";
+import { Collapsible } from "../Collapsible/Collapsible";
 // import styles from "./styles.module.css";
 
 export interface EnParagraph {
@@ -11,7 +12,7 @@ export interface EnParagraph {
 }
 
 export interface ArticleData {
-  paragraphNumber: string
+  paragraphNumber?: string
   beforeImgSrc?: StaticImageData | string;
   beforeAltName?: string;
   beforeImgSrcWidth?: string;
@@ -28,16 +29,19 @@ export interface ArticleData {
 interface ArticlesProps {
   articles: ArticleData[];
   discussion: string;
+  discussionAnswer: string;
   audioSrc?: string;
 }
 
-export const Articles = ({ articles, discussion, audioSrc }: ArticlesProps) => {
+export const Articles = ({ articles, discussion, discussionAnswer, audioSrc }: ArticlesProps) => {
   return (
     <div className="line-break">
       <Card bgColor="Black" textColor="White">
         <p>Discussion</p>
       </Card>
-      <p>{discussion}</p>
+      <Collapsible labelBold={discussion}>
+      <p>{discussionAnswer}</p>
+      </Collapsible>
       <div className="sticky">
         <AudioPlayer audioSrc={audioSrc} />
       </div>
@@ -54,9 +58,9 @@ export const Articles = ({ articles, discussion, audioSrc }: ArticlesProps) => {
               }}
             />
           )}
-          <Card bgColor="lightgray">
+          {article.paragraphNumber && <Card bgColor="lightgray">
             <p className="bold">{article.paragraphNumber}</p>
-          </Card>
+          </Card>}
           <div>
             {article.enParagraphs.map((enParagraph, enParagraphIndex) => (
               <span key={enParagraphIndex}>

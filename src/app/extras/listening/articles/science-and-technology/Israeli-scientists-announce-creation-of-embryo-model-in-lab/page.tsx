@@ -196,7 +196,6 @@ const articles: ArticleData[] = [
       "Hanna disse que o próximo objetivo da equipe será estender o desenvolvimento do modelo para 21 dias e também alcançar uma taxa de sucesso de pelo menos 50 por cento.",
   },
   {
-    paragraphNumber: "Paragraph 16 ",
     enParagraphs: [
       {
         enParagraph: "I’m Bryan Lynn.",
@@ -220,8 +219,9 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
       <div>
         <Articles
           articles={articles}
-          discussion="Embryo ethical"
-          audioSrc="/assets/audio/extras/listening/"
+          discussion="What ethical issues could arise from using embryonic cells?"
+          discussionAnswer="The main issues that raise ethical dilemmas following the development of assisted reproduction techniques are: the right to procreate or reproduce; the process of in vitro fertilization itself — is it morally acceptable to interfere in the reproduction process?; the moral status of the embryo; the involvement of a third party in the reproductive process by genetic material donation; the practice of surrogacy; cryopreservation of pre-embryos; genetic manipulation; experiments on pre-embryos, etc."
+          audioSrc="/assets/audio/extras/listening/articles/science-and-technology/Israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3"
         />
       </div>
     </>
