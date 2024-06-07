@@ -196,7 +196,7 @@ const articles: ArticleData[] = [
       "Hanna disse que o próximo objetivo da equipe será estender o desenvolvimento do modelo para 21 dias e também alcançar uma taxa de sucesso de pelo menos 50 por cento.",
   },
   {
-    paragraphNumber: "Paragraph 16",
+    paragraphNumber: "Paragraph 16 ",
     enParagraphs: [
       {
         enParagraph: "I’m Bryan Lynn.",
