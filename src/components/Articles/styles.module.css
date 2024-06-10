@@ -1,6 +1,5 @@
 .container-paragraph-img {
     display: grid;
-    align-items: end;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
