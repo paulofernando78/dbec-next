@@ -63,19 +63,120 @@
     "keyword": "portmanteau",
     "definitions": [
       {
-	      "audio": "/assets/audio/dictionary/p/portmanteau-noun.mp3",
-	      "word": "portmanteau",
-		    "phonetics": " /pɔːrtˈmæn.toʊ/",
-		    "partOfSpeech": "noun",
+        "audio": "/assets/audio/dictionary/p/portmanteau-noun.mp3",
+        "word": "portmanteau",
+        "phonetics": " /pɔːrtˈmæn.toʊ/",
+        "partOfSpeech": "noun",
         "enDefinition": "a word formed by combining two other words",
         "ptDefinition": "palavra formada pela união de dois ou mais radicais",
         "examples": [
           {
             "enExample": "\"Podcast\" is a portmanteau word formed from \"iPod\" and \"broadcast\".",
             "ptExample": "\"Podcast\" é uma palavra-valise formada a partir de \"iPod\" e \"broadcast\"."
+          }
+        ],
+        "notes": [
+          {
+            "note": "The word <b>portmanteau</b> itself is an appropriate embodiment of this word form, since portmanteau, which is French for porte (“to carry”) + manteau (“cloak”), describes a suitcase that opens in two halves."
           },
           {
-            "enExample": "The word <b>portmanteau</b> itself is an appropriate embodiment of this word form, since portmanteau, which is French for porte (“to carry”) + manteau (“cloak”), describes a suitcase that opens in two halves. More examples:\n- animatronics (animation + electronics): the electronic animation of puppets or similar figures to create lifelike effects.\n- anklet (ankle + bracelet): jewelry designed to wrap around the ankle\n- biopic (biography + picture): a biographical film\n- Bollywood (Bombay + Hollywood): the Hindi film industry based in Mumbai\n- Botox (botulism + toxin): an injectable drug that uses a strain of botulism to treat signs of aging on the skin\n- brainiac (brain + maniac): a highly intelligent person\n- breathalyzer (breath + analyzer): a device used to analyze a person’s breath for their blood alcohol content or to detect viruses\n- Brexit (Britain + exit): the withdrawal of Great Britain from the European Union in 2020, after voting to leave in a 2016 referendum\n- bromance (brother + romance): a close platonic relationship between two male friends\n- brunch (breakfast + lunch): a meal that takes place between breakfast and lunch hours\n- carjack (car + hijack): theft of an automobile using violence or intimidation\n- cosplay (costume + roleplay): an art or practice where people dress as fictional characters\n- cyborg (cybernetic + organism): a creature with human features created using mechanical components\n- electrocute (electricity + execute): to harm or kill with electricity\n- email (electronic + mail): the electronic alternative to paper mail communication\n- emoticon (emotion + icon): facial expressions or emotions expressed through keyboard symbols\n- froyo (frozen + yogurt): a frozen dessert made of yogurt\n- fauxhawk (faux + mohawk): hair that’s styled to look like a mohawk\n- hazmat (hazardous + material) – substances that could be dangerous if not properly contained\n- intercom (internal + communication): a two-way speaker system used to communicate among people in a specific location\n- internet (interconnected + network): a computer network of information\n- jeggings (jeans + leggings): leggings designed to resemble denim jeans\n- Juneteenth (June + nineteenth): the day that commemorates the announcement of the Emancipation Proclamation, and the end of slavery, in the United States\n- Medicare (medical + care): the government-administered US health insurance program for people with disabilities and those who are age sixty-five or older; similar to Medicaid (medical + aid), the health insurance program for people with limited income.\n- metaverse (meta + universe): a virtual environment meant for social connection\n- mocktail (mock + cocktail): a cocktail that contains no alcohol\n- motel (motor + hotel): a hotel designed for motorists\n- newscast (news + broadcast): a radio or television segment that features current events\n- Pokémon (pocket + monsters): an animated Japanese media franchise centered around creatures that are kept in pocket-sized balls and trained to battle each other\n- popsicle (pop + icicle): a frozen dessert, typically made with fruit juice or fruit flavor\n- smog (smoke + fog): hazy, polluted air\n- stash (store + cache): a secret hiding place where valuables are kept\n- vlog (video + log): a video-based diary published online\n- webinar (web + seminar): a presentation or seminar held online"
+            "note": "- animatronics (animation + electronics): the electronic animation of puppets or similar figures to create lifelike effects."
+          },
+          {
+            "note": "- anklet (ankle + bracelet): jewelry designed to wrap around the ankle"
+          },
+          {
+            "note": "- biopic (biography + picture): a biographical film"
+          },
+          {
+            "note": "- Bollywood (Bombay + Hollywood): the Hindi film industry based in Mumbai"
+          },
+          {
+            "note": "- Botox (botulism + toxin): an injectable drug that uses a strain of botulism to treat signs of aging on the skin"
+          },
+          {
+            "note": "- brainiac (brain + maniac): a highly intelligent person"
+          },
+          {
+            "note": "- breathalyzer (breath + analyzer): a device used to analyze a person’s breath for their blood alcohol content or to detect viruses"
+          },
+          {
+            "note": "- Brexit (Britain + exit): the withdrawal of Great Britain from the European Union in 2020, after voting to leave in a 2016 referendum"
+          },
+          {
+            "note": "- bromance (brother + romance): a close platonic relationship between two male friends"
+          },
+          {
+            "note": "- brunch (breakfast + lunch): a meal that takes place between breakfast and lunch hours"
+          },
+          {
+            "note": "- carjack (car + hijack): theft of an automobile using violence or intimidation"
+          },
+          {
+            "note": "- cosplay (costume + roleplay): an art or practice where people dress as fictional characters"
+          },
+          {
+            "note": "- cyborg (cybernetic + organism): a creature with human features created using mechanical components"
+          },
+          {
+            "note": "- electrocute (electricity + execute): to harm or kill with electricity"
+          },
+          {
+            "note": "- email (electronic + mail): the electronic alternative to paper mail communication"
+          },
+          {
+            "note": "- emoticon (emotion + icon): facial expressions or emotions expressed through keyboard symbols"
+          },
+          {
+            "note": "- froyo (frozen + yogurt): a frozen dessert made of yogurt"
+          },
+          {
+            "note": "- fauxhawk (faux + mohawk): hair that’s styled to look like a mohawk"
+          },
+          {
+            "note": "- hazmat (hazardous + material) – substances that could be dangerous if not properly contained"
+          },
+          {
+            "note": "- intercom (internal + communication): a two-way speaker system used to communicate among people in a specific location"
+          },
+          {
+            "note": "- internet (interconnected + network): a computer network of information"
+          },
+          {
+            "note": "- jeggings (jeans + leggings): leggings designed to resemble denim jeans"
+          },
+          {
+            "note": "- Juneteenth (June + nineteenth): the day that commemorates the announcement of the Emancipation Proclamation, and the end of slavery, in the United States"
+          },
+          {
+            "note": "- Medicare (medical + care): the government-administered US health insurance program for people with disabilities and those who are age sixty-five or older; similar to Medicaid (medical + aid), the health insurance program for people with limited income."
+          },
+          {
+            "note": "- metaverse (meta + universe): a virtual environment meant for social connection\n- mocktail (mock + cocktail): a cocktail that contains no alcohol"
+          },
+          {
+            "note": "- motel (motor + hotel): a hotel designed for motorists"
+          },
+          {
+            "note": "- newscast (news + broadcast): a radio or television segment that features current events"
+          },
+          {
+            "note": "- Pokémon (pocket + monsters): an animated Japanese media franchise centered around creatures that are kept in pocket-sized balls and trained to battle each other"
+          },
+          {
+            "note": "- popsicle (pop + icicle): a frozen dessert, typically made with fruit juice or fruit flavor"
+          },
+          {
+            "note": "- smog (smoke + fog): hazy, polluted air"
+          },
+          {
+            "note": "- stash (store + cache): a secret hiding place where valuables are kept"
+          },
+          {
+            "note": "- vlog (video + log): a video-based diary published online"
+          },
+          {
+            "note": "- webinar (web + seminar): a presentation or seminar held online"
           }
         ]
       }

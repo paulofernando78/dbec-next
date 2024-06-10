@@ -67,6 +67,21 @@ export function WordCard({ dictionary }: WordCardProps) {
                       </p>
                     );
                   })}
+                  <div className="margin-top">
+                    {definition.notes?.map((note, noteIndex) => {
+                      return (
+                        <p key={noteIndex}>
+                          {note.note && (
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: note.note,
+                              }}
+                            />
+                          )}
+                        </p>
+                      );
+                    })}
+                  </div>
                   {definition.synonyms && (
                     <p>
                       <span className="times-new-roman-dictionary">
