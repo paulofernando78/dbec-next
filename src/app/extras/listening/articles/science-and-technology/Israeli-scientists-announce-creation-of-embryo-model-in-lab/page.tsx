@@ -98,7 +98,7 @@ const articles: ArticleData[] = [
           label: "published",
         },
         enParagraph:
-          "published their research results on the subject in recent months.",
+          "their research results on the subject in recent months.",
       },
     ],
     imgSrc: labEmbryo2,

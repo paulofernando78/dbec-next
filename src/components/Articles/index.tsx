@@ -63,7 +63,7 @@ export const Articles = ({
             </Card>
           )}
           <div>
-            <div className={styles["container-paragraph-img"]}>
+            <div className={article.imgSrc ? styles["container-paragraph-img"] : ""}>
               <div>
                 {article.enParagraphs.map((enParagraph, enParagraphIndex) => (
                   <span key={enParagraphIndex}>
