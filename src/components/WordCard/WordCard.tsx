@@ -35,7 +35,7 @@ export function WordCard({ dictionary }: WordCardProps) {
                     {definition.partOfSpeech}
                   </span>
                 </p>
-                <div className="margin-bottom">
+                <div className="margin-bottom white-space-pre-wrap">
                   {definition.enDefinition && (
                     <p>
                       <span>

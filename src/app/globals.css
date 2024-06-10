@@ -122,7 +122,7 @@ p {
   border-radius: var(--border-radius);
 }
 
-.white-space-pw {
+.white-space-pre-wrap {
   white-space: pre-wrap;
 }
 

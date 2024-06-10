@@ -229,5 +229,18 @@
         ]
       }
     ]
+  },
+  {
+    "keyword": "stem cell",
+    "definitions": [
+      {
+	      "audio": "/assets/audio/dictionary/s/stem-cell-noun.mp3",
+	      "word": "stem cell",
+		    "phonetics": "/ˈstem ˌsel/",
+		    "partOfSpeech": "noun",
+        "enDefinition": "a cell, especially one taken from a person or animal in a very early stage of development, that can develop into any other type of cell",
+        "ptDefinition": "célula-tronco"
+      }
+    ]
   }
 ]

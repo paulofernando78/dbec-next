@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "keyword": "uterus",
+    "definitions": [
+      {
+        "audio": "/assets/audio/dictionary/u/uterus-noun.mp3",
+        "word": "uterus",
+        "phonetics": "/ˈjuː.t̬ɚ.əs/",
+        "partOfSpeech": "noun",
+        "enDefinition": "the organ in the body of a woman or other female mammal in which a baby develops before birth",
+        "ptDefinition": "o órgão no corpo de uma mulher ou de outro mamífero fêmea onde um bebê se desenvolve antes do nascimento",
+        "examples": [
+          {
+            "enExample": "Conception is the moment when a fertilized egg implants itself in a woman's uterus.",
+            "ptExample": "Concepção é o momento em que um ovo fertilizado se implanta no útero da mulher."
+          }
+        ],
+        "synonyms": "womb"
+      }
+    ]
+  }
+]

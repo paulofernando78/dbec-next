@@ -16,20 +16,7 @@ const descriptions = [
     ],
   },
   {
-    label: "Radios",
-    contents: [
-      {
-        globeLink: "https://laist.com/",
-        globeLabel: "LAist",
-      },
-      {
-        globeLink: "https://www.bbc.co.uk/sounds/play/live:bbc_world_service",
-        globeLabel: "BBC Service",
-      },
-    ],
-  },
-  {
-    label: "Articles",
+    label: "Articles (Intermediate +)",
     contents: [
       {
         globeLink: "/extras/listening/articles/arts-and-culture",
@@ -45,6 +32,20 @@ const descriptions = [
       }
     ],
   },
+  {
+    label: "Radios",
+    contents: [
+      {
+        globeLink: "https://laist.com/",
+        globeLabel: "LAist",
+      },
+      {
+        globeLink: "https://www.bbc.co.uk/sounds/play/live:bbc_world_service",
+        globeLabel: "BBC Service",
+      },
+    ],
+  },
+ 
   {
     label: "Miscellaneous",
     contents: [

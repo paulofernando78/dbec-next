@@ -83,10 +83,10 @@ export const Articles = ({
                   src={article.imgSrc}
                   alt={article.imgAlt ?? ""}
                   className="img-border "
-                  style={{
-                    width: article.imgSrcWidth,
-                    height: article.imgSrcHeight,
-                  }}
+                  // style={{
+                  //   width: article.imgSrcWidth,
+                  //   height: article.imgSrcHeight,
+                  // }}
                 />
               )}
             </div>

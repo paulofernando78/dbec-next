@@ -188,15 +188,15 @@ export default function PlacementTest({
               </div>
               <div className={styles["inner-container-text"]}>
                 <p className={styles["bold"]}>TASK TYPE</p>
-                <p className="white-space-pw">{task.taskType}</p>
+                <p className="white-space-pre-wrap">{task.taskType}</p>
               </div>
               <div className={styles["inner-container-text"]}>
                 <p className={styles["bold"]}>LANGUAGE FOCUS</p>
-                <p className="white-space-pw">{task.languageFocus}</p>
+                <p className="white-space-pre-wrap">{task.languageFocus}</p>
               </div>
               <div className={styles["inner-container-text"]}>
                 <p className={styles["bold"]}>EXAMPLES</p>
-                <p className="white-space-pw">{task.examples}</p>
+                <p className="white-space-pre-wrap">{task.examples}</p>
               </div>
             </div>
           ))}

@@ -1,5 +1,6 @@
 import { ArticleData, Articles } from "@/components/Articles";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 import { labEmbryo, labEmbryo2, labEmbryo3, labScientist } from "@/img/index";
@@ -18,10 +19,6 @@ const articles: ArticleData[] = [
           "scientists say they have created a model of a human embryo from stem cells in a laboratory.",
       },
     ],
-    // ImgSrc: ...,
-    // ImgAlt: "...",
-    // ImgSrcWidth: "350px",
-    // ImgSrcHeight: "200px",
     ptParagraph:
       "Cientistas israelenses dizem que criaram um modelo de embrião humano a partir de células-tronco em laboratório.",
   },
@@ -30,7 +27,15 @@ const articles: ArticleData[] = [
     enParagraphs: [
       {
         enParagraph:
-          "The embryo model – created without using sperm, eggs or a uterus – is designed to support research on early human development.",
+          "The embryo model – created without using sperm, eggs or a",
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/u/uterus.mp3",
+          label: "uterus",
+        },
+        enParagraph: "– is designed to support research on early human development.",
       },
     ],
     ptParagraph:
@@ -229,27 +234,74 @@ const articles: ArticleData[] = [
   },
 ];
 
+const radioExercises = [
+  {
+    title: "1. Choose the correct answer.",
+    question: "1. What did Israeli scientists create in a laboratory?",
+    options: [
+        { label: "a) A model of a human embryo from stem cells.", isCorrect: true },
+        { label: "b) A full human embryo using eggs and sperm.", isCorrect: false },
+        { label: "c) A synthetic organ from adult cells.", isCorrect: false },
+    ],
+  },
+  {
+    question: "2. What is the main purpose of the embryo model created by Israeli scientists?",
+    options: [
+        { label: "a) To grow into a full human baby.", isCorrect: false },
+        { label: "b) To support research on early human development.", isCorrect: true },
+        { label: "c) To develop new types of stem cells.", isCorrect: false },
+    ],
+  },
+  {
+    question: "3. At what stage does the embryo model created by the Israeli researchers resemble a real human embryo?",
+    options: [
+      { label: "a) At day 7.", isCorrect: false },
+      { label: "b) At day 14.", isCorrect: true },
+      { label: "c) At day 21.", isCorrect: false },
+    ],
+  },
+  {
+    question: "4. What is one potential application of these embryo models mentioned by the researchers?",
+    options: [
+      { label: "a) To test the effect of drugs on pregnancies.", isCorrect: true },
+      { label: "b) To create fully functional synthetic humans.", isCorrect: false },
+      { label: "c) To replace the need for organ donations.", isCorrect: false },
+    ],
+  },
+  {
+    question: "5. What was the maximum development stage reached by the embryo model in the study?",
+    options: [
+      { label: "a) Day 7.", isCorrect: false },
+      { label: "b) Day 14.", isCorrect: true },
+      { label: "c) Day 21.", isCorrect: false },
+    ],
+  },
+];
+
 export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
   return (
     <>
-      <Whiteboard
-        title="Extras"
-        subtitle="Listening"
-        descriptions={[
-          "Articles",
-          "Israeli Scientists Announce Creation of Embryo Model in Lab",
-          "(September 11, 2023)",
-        ]}
-      />
-      <div>
-        <Articles
-          articles={articles}
-          titleImgSrc={labEmbryo}
-          titleImgAlt="Examining an embryo with a mycroscope."
-          discussion="Why is embryo research unethical?"
-          discussionAnswer="To some opponents of stem cell research, the destruction of an embryo means that a potential fetus and ultimately a potential human being were killed; therefore this act and the research effort behind it is unethical and immoral. The basic argument is that an embryo is a potential fetus and is an innocent human being."
-          audioSrc="/assets/audio/extras/listening/articles/science-and-technology/Israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3"
+      <div className="line-break">
+        <Whiteboard
+          title="Extras"
+          subtitle="Listening"
+          descriptions={[
+            "Articles",
+            "Israeli Scientists Announce Creation of Embryo Model in Lab",
+            "(September 11, 2023)",
+          ]}
         />
+        <div>
+          <Articles
+            articles={articles}
+            titleImgSrc={labEmbryo}
+            titleImgAlt="Examining an embryo with a mycroscope."
+            discussion="Why is embryo research unethical?"
+            discussionAnswer="To some opponents of stem cell research, the destruction of an embryo means that a potential fetus and ultimately a potential human being were killed; therefore this act and the research effort behind it is unethical and immoral. The basic argument is that an embryo is a potential fetus and is an innocent human being."
+            audioSrc="/assets/audio/extras/listening/articles/science-and-technology/Israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3"
+          />
+        </div>
+        <Radio questions={radioExercises} />
       </div>
     </>
   );
