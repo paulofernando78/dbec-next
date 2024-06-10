@@ -30,13 +30,14 @@ export const Collapsible = ({
     <>
       <Card>
         <span onClick={toggleCollapse} className="cursor-pointer">
-          <span className={`${"user-select-none"}  ${styles["label"]}`}>
+          <span className={`bold ${styles["plus-minus-position"]}`}>{isOpen ? "-" : "+"} </span>
+          <span className={`${"user-select-none"}  `}>
             <b>
-              <Image
+              {/* <Image
                 src={isOpen ? minusIcon : plusIcon}
                 alt="Icons"
                 className={` ${"margin-right"} ${styles["plus-minus-icons"]}`}
-              />
+              /> */}
               {labelBold}
             </b>
           </span>

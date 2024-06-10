@@ -6,10 +6,6 @@ import { labEmbryo, labEmbryo2, labEmbryo3, labScientist } from "@/img/index";
 
 const articles: ArticleData[] = [
   {
-    beforeImgSrc: labEmbryo,
-    beforeImgSrcWidth: "350px",
-    beforeImgSrcHeight: "200px",
-    beforeAltName: "Microscope",
     paragraphNumber: "Paragraph 1",
     enParagraphs: [
       {
@@ -22,12 +18,12 @@ const articles: ArticleData[] = [
           "scientists say they have created a model of a human embryo from stem cells in a laboratory.",
       },
     ],
+    // ImgSrc: ...,
+    // ImgAlt: "...",
+    // ImgSrcWidth: "350px",
+    // ImgSrcHeight: "200px",
     ptParagraph:
       "Cientistas israelenses dizem que criaram um modelo de embrião humano a partir de células-tronco em laboratório.",
-    ///   afterImgSrc: ...,
-    //   afterImgSrcWidth: "350px",
-    //   afterImgSrcHeight: "200px",
-    //   afterAltName: "...",
   },
   {
     paragraphNumber: "Paragraph 2",
@@ -44,8 +40,25 @@ const articles: ArticleData[] = [
     paragraphNumber: "Paragraph 3",
     enParagraphs: [
       {
+        enParagraph: "Only",
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/s/stem-cell.mp3",
+          label: "stem cell",
+        },
         enParagraph:
-          "Only stem cells were used in the process. Stem cells are simple cells in the body that can develop into one of many specialized cells. Researchers say the embryo models cannot grow into babies. But they are complete enough to provide information about what happens in the embryo during a pregnancy.",
+          "were used in the process. Stem cells are simple cells in the body that can develop into one of many",
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/s/specialized.mp3",
+          label: "specialized",
+        },
+        enParagraph:
+          "cells. Researchers say the embryo models cannot grow into babies. But they are complete enough to provide information about what happens in the embryo during a pregnancy.",
       },
     ],
     ptParagraph:
@@ -55,8 +68,16 @@ const articles: ArticleData[] = [
     paragraphNumber: "Paragraph 4",
     enParagraphs: [
       {
+        enParagraph: "The use of embryo models permits scientists to",
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/c/carry-out.mp3",
+          label: "carry out",
+        },
         enParagraph:
-          "The use of embryo models permits scientists to carry out research without the ethical concerns linked to experiments using real embryos.",
+          "research without the ethical concerns linked to experiments using real embryos.",
       },
     ],
     ptParagraph:
@@ -64,16 +85,24 @@ const articles: ArticleData[] = [
   },
   {
     paragraphNumber: "Paragraph 5",
-    beforeImgSrc: labEmbryo2,
-    beforeImgSrcWidth: "350px",
-    beforeImgSrcHeight: "250px",
-    beforeAltName: "Man looking through a microscope",
+
     enParagraphs: [
       {
         enParagraph:
-          "Several international research teams have been working separately on studies involving human embryo models. Scientists from the United States, Britain and China published their research results on the subject in recent months.",
+          "Several international research teams have been working separately on studies involving human embryo models. Scientists from the United States, Britain and China",
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/p/published.mp3",
+          label: "published",
+        },
+        enParagraph:
+          "published their research results on the subject in recent months.",
       },
     ],
+    imgSrc: labEmbryo2,
+    imgAlt: "Man looking through a microscope",
     ptParagraph:
       "Várias equipes de pesquisa internacionais têm trabalhado separadamente em estudos envolvendo modelos de embriões humanos. Cientistas dos Estados Unidos, da Grã-Bretanha e da China publicaram os resultados de suas pesquisas sobre o assunto nos últimos meses.",
   },
@@ -123,16 +152,14 @@ const articles: ArticleData[] = [
   },
   {
     paragraphNumber: "Paragraph 10",
-    beforeImgSrc: labEmbryo3,
-    beforeImgSrcWidth: "350px",
-    beforeImgSrcHeight: "250px",
-    beforeAltName: "Man looking through a microscope",
     enParagraphs: [
       {
         enParagraph:
           "But the researchers said the work could open the door to new ways to study early human development. For example, the embryo models could test the effect of drugs on pregnancies. They could also help scientists better understand miscarriages and genetic diseases. And they might one day be used to grow transplant tissues and organs.",
       },
     ],
+    imgSrc: labEmbryo3,
+    imgAlt: "Man looking through a microscope",
     ptParagraph:
       "Mas os pesquisadores disseram que o trabalho poderia abrir portas para novas formas de estudar o desenvolvimento humano inicial. Por exemplo, os modelos de embrião poderiam testar o efeito de medicamentos nas gestações. Eles também poderiam ajudar os cientistas a entender melhor abortos espontâneos e doenças genéticas. Eles também podem um dia ser usados para cultivar tecidos e órgãos para transplantes.",
   },
@@ -160,16 +187,14 @@ const articles: ArticleData[] = [
   },
   {
     paragraphNumber: "Paragraph 13",
-    beforeImgSrc: labScientist,
-    beforeImgSrcWidth: "350px",
-    beforeImgSrcHeight: "250px",
-    beforeAltName: "Scientist looking at models of early-stage human embryos",
     enParagraphs: [
       {
         enParagraph:
           "The team then genetically changed the cells in an effort to get them to start developing into something that looks and behaves like a real human embryo. However, the researchers said their creation is not an actual or synthetic embryo. Instead, it is considered a model that shows how a real embryo works.",
       },
     ],
+    imgSrc: labScientist,
+    imgAlt: "Scientist looking at models of early-stage human embryos",
     ptParagraph:
       "A equipe então modificou geneticamente as células na tentativa de fazê-las começar a se desenvolver em algo que se parece e se comporta como um embrião humano real. No entanto, os pesquisadores afirmaram que sua criação não é um embrião real ou sintético. Em vez disso, é considerado um modelo que mostra como um embrião real funciona.",
   },
@@ -219,8 +244,10 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
       <div>
         <Articles
           articles={articles}
-          discussion="What ethical issues could arise from using embryonic cells?"
-          discussionAnswer="The main issues that raise ethical dilemmas following the development of assisted reproduction techniques are: the right to procreate or reproduce; the process of in vitro fertilization itself — is it morally acceptable to interfere in the reproduction process?; the moral status of the embryo; the involvement of a third party in the reproductive process by genetic material donation; the practice of surrogacy; cryopreservation of pre-embryos; genetic manipulation; experiments on pre-embryos, etc."
+          titleImgSrc={labEmbryo}
+          titleImgAlt="Examining an embryo with a mycroscope."
+          discussion="Why is embryo research unethical?"
+          discussionAnswer="To some opponents of stem cell research, the destruction of an embryo means that a potential fetus and ultimately a potential human being were killed; therefore this act and the research effort behind it is unethical and immoral. The basic argument is that an embryo is a potential fetus and is an innocent human being."
           audioSrc="/assets/audio/extras/listening/articles/science-and-technology/Israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3"
         />
       </div>

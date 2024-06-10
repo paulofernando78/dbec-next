@@ -3,7 +3,7 @@ import { StaticImageData } from "next/image";
 import { AudioPlayer } from "../Audioplayer/Audioplayer";
 import { Card } from "../Card";
 import { Collapsible } from "../Collapsible/Collapsible";
-// import styles from "./styles.module.css";
+import styles from "./styles.module.css";
 
 export interface EnParagraph {
   component?: (props: { audioSrc: string; label: string }) => JSX.Element;
@@ -12,83 +12,94 @@ export interface EnParagraph {
 }
 
 export interface ArticleData {
-  paragraphNumber?: string
-  beforeImgSrc?: StaticImageData | string;
-  beforeAltName?: string;
-  beforeImgSrcWidth?: string;
-  beforeImgSrcHeight?: string;
+  paragraphNumber?: string;
   enParagraphs: EnParagraph[];
   ptParagraph?: string;
-  afterImgSrc?: StaticImageData | string;
-  afterAltName?: string;
-  afterImgSrcWidth?: string;
-  afterImgSrcHeight?: string;
+  imgSrc?: StaticImageData | string;
+  imgAlt?: string;
+  imgSrcWidth?: string;
+  imgSrcHeight?: string;
   smaller?: string;
 }
 
 interface ArticlesProps {
-  articles: ArticleData[];
+  titleImgSrc: StaticImageData;
+  titleImgAlt: string;
   discussion: string;
   discussionAnswer: string;
+  articles: ArticleData[];
   audioSrc?: string;
 }
 
-export const Articles = ({ articles, discussion, discussionAnswer, audioSrc }: ArticlesProps) => {
+export const Articles = ({
+  titleImgSrc,
+  titleImgAlt,
+  discussion,
+  discussionAnswer,
+  articles,
+  audioSrc,
+}: ArticlesProps) => {
   return (
     <div className="line-break">
+      <Image
+        src={titleImgSrc}
+        alt={titleImgAlt}
+        className={`img-border ${styles["image"]}`}
+      />
       <Card bgColor="Black" textColor="White">
         <p>Discussion</p>
       </Card>
       <Collapsible labelBold={discussion}>
-      <p>{discussionAnswer}</p>
+        <p>{discussionAnswer}</p>
       </Collapsible>
       <div className="sticky">
         <AudioPlayer audioSrc={audioSrc} />
       </div>
       {articles.map((article, articleIndex) => (
         <div key={articleIndex} className="line-break">
-          {article.beforeImgSrc && (
-            <Image
-              src={article.beforeImgSrc}
-              alt={article.beforeAltName ?? ""}
-              className="img-border"
-              style={{
-                width: article.beforeImgSrcWidth,
-                height: article.beforeImgSrcHeight,
-              }}
-            />
+          {article.paragraphNumber && (
+            <Card bgColor="lightgray">
+              <p className="bold">{article.paragraphNumber}</p>
+            </Card>
           )}
-          {article.paragraphNumber && <Card bgColor="lightgray">
-            <p className="bold">{article.paragraphNumber}</p>
-          </Card>}
           <div>
-            {article.enParagraphs.map((enParagraph, enParagraphIndex) => (
-              <span key={enParagraphIndex}>
-                {enParagraph.component && (
-                  <span className="margin-right">
-                    {enParagraph.component(enParagraph.componentProps)}
+            <div className={styles["container-paragraph-img"]}>
+              <div>
+                {article.enParagraphs.map((enParagraph, enParagraphIndex) => (
+                  <span key={enParagraphIndex}>
+                    {enParagraph.component && (
+                      <span className="margin-right">
+                        {enParagraph.component(enParagraph.componentProps)}
+                      </span>
+                    )}
+                    <span className="p-font inline margin-right">
+                      {enParagraph.enParagraph}
+                    </span>
                   </span>
-                )}
-                <span className="p-font inline margin-right">
-                  {enParagraph.enParagraph}
-                </span>
-              </span>
-            ))}
-            <p className="portuguese">{article.ptParagraph}</p>
+                ))}
+              </div>
+              {article.imgSrc && (
+                <Image
+                  src={article.imgSrc}
+                  alt={article.imgAlt ?? ""}
+                  className="img-border "
+                  style={{
+                    width: article.imgSrcWidth,
+                    height: article.imgSrcHeight,
+                  }}
+                />
+              )}
+            </div>
+            {article.ptParagraph && (
+              <div className="margin-top">
+                <Collapsible labelBold="Translation">
+                  <p className="portuguese">{article.ptParagraph}</p>
+                </Collapsible>
+              </div>
+            )}
           </div>
           {article.smaller && (
             <p className="p-size-smaller">{article.smaller}</p>
-          )}
-          {article.afterImgSrc && (
-            <Image
-              src={article.afterImgSrc}
-              alt={article.afterAltName ?? ""}
-              className="img-border"
-              style={{
-                width: article.afterImgSrcWidth,
-                height: article.afterImgSrcHeight,
-              }}
-            />
           )}
         </div>
       ))}

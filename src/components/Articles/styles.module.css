@@ -1,5 +1,19 @@
-@media (max-width: 600px) {
-    .img-media-query {
-        width: 100%;
+.container-paragraph-img {
+    display: grid;
+    align-items: end;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.image {
+    width: 100%;
+    height: fit-content;
+}
+
+@media (max-width: 1000px) {
+
+    .container-paragraph-img {
+        display: flex;
+        flex-direction: column;
     }
 }
