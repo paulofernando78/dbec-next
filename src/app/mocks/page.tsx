@@ -5,6 +5,10 @@ import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { FillInTheBlanks } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
 
+// Images
+import { cat } from "@/img/index"
+import Carousel from "@/components/carousel";
+
 const radioExercise = [
   {
     title: "1. Choose the correct answer.",
@@ -44,7 +48,7 @@ const fillInTheBlanksExercise = [
 
 export default function Mocks() {
   return (
-    <div>
+    <>
       <Whiteboard title="Mocks" />
       <div className="line-break">
         <Card bgColor="black" textColor="white">
@@ -71,9 +75,15 @@ export default function Mocks() {
 
         <p>
           I'm feeling{" "}
-          <DictionaryCard audioSrc="/a/annoyed.mp3" label="annoyed" /> today.
+          <DictionaryCard
+            audioSrc="/a/annoyed.mp3"
+            keyword="annoy"
+            label="annoyed"
+          />{" "}
+          today.
         </p>
       </div>
-    </div>
+      <Carousel imgSrc={cat} imgAlt=""/>
+    </>
   );
 }
