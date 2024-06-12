@@ -298,7 +298,7 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
             titleImgAlt="Examining an embryo with a mycroscope."
             discussion="Why is embryo research unethical?"
             discussionAnswer="To some opponents of stem cell research, the destruction of an embryo means that a potential fetus and ultimately a potential human being were killed; therefore this act and the research effort behind it is unethical and immoral. The basic argument is that an embryo is a potential fetus and is an innocent human being."
-            audioSrc="/assets/audio/extras/listening/articles/science-and-technology/Israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3"
+            audioSrc="/science-and-technology/Israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3"
           />
         </div>
         <Radio questions={radioExercises} />

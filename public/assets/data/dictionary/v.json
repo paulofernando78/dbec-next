@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "keyword": "traffic restriction policy, vehicle restriction, driving restriction, license plate restriction, car rotation",
+    "definitions": [
+      {
+        "audio": "/assets/audio/dictionary/xxx.mp3",
+        "word": "traffic restriction policy, vehicle restriction, driving restriction, license plate restriction, car rotation",
+        "ptDefinition": "rodízio",
+        "examples": [
+          {
+            "enExample": "São Paulo has a car rotation system to reduce traffic congestion."
+          },
+          {
+            "enExample": "The city implemented a driving restriction based on license plate numbers to control pollution."
+          }
+        ]
+      }
+    ]
+  }
+]

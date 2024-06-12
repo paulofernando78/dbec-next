@@ -3,7 +3,7 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 const descriptions = [
   {
-    label: "Audiobooks",
+    label: "Audiobooks (Beginner to Intermediate)",
     contents: [
       {
         link: "/extras/listening/penguin-kids",
@@ -33,7 +33,7 @@ const descriptions = [
     ],
   },
   {
-    label: "Radios",
+    label: "Radios (Intermediate +)",
     contents: [
       {
         globeLink: "https://laist.com/",

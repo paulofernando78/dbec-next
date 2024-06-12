@@ -18,7 +18,7 @@ export default function FoodDrink() {
           <DictionaryCard label="husk" audioSrc="/h/husk.mp3" />
           <p>We can husk apple's seed.</p>
           <DictionaryCard label="peel" audioSrc="/p/peel.mp3" />
-          <p>We can peel apples, bananas, potatos, tomatos, carrots, etc.</p>
+          <p>We peel potatos' skin.</p>
           <Card bgColor="black" textColor="white">
             <span className="bold">Fruit</span>
           </Card>

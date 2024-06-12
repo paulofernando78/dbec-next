@@ -45,10 +45,15 @@ import ukFlagIcon from "./icon/flag/uk.png";
 import brFlagIcon from "./icon/flag/brazil.png";
 
 // Folder
+import cat from "@/img/cat.png"
+import iceCreamHiddenValleyRanch from "./ice-cream-hidden-valley-ranch.webp"
+import macAndCheeseIceCreamFlavor from "./mac-and-cheese-ice-cream-flavor.avif"
 import labEmbryo from "./lab-embryo.avif"
 import labEmbryo2 from "./lab-embryo2.jpg"
 import labEmbryo3 from "./lab-embryo3.jpg"
 import labScientist from "./lab-scientist.avif"
+import potatoChipLaysFlamminHotDillPickle from "./potato-chip-lays-flamin-hot-dill-pickle.png"
+import potatoChipLaysStrawBerryBacon from "./potato-chip-lays-strawberry-bacon.jpg"
 
 export {
   placementTest,
@@ -90,9 +95,14 @@ export {
   ukFlagIcon,
   brFlagIcon,
 
-  // Folder 
+  // Folder
+  cat,
+  iceCreamHiddenValleyRanch,
+  macAndCheeseIceCreamFlavor,
   labEmbryo,
   labEmbryo2,
   labEmbryo3,
-  labScientist
+  labScientist,
+  potatoChipLaysFlamminHotDillPickle,
+  potatoChipLaysStrawBerryBacon
 };

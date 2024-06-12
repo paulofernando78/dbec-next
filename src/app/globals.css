@@ -174,7 +174,7 @@ p {
   align-items: start;
 }
 
-.flex-8px-start-between {
+.flex-8px-start-space-between {
   display: flex;
   gap: 8px;
   align-items: start;

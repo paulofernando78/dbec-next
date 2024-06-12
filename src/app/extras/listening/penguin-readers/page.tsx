@@ -22,14 +22,14 @@ const descriptions = [
         link: "/extras/listening/penguin-readers/intermediate",
         linkLabel: "Intermediate",
       },
-      {
-        link: "/extras/listening/penguin-readers/upper-intermediate",
-        linkLabel: "Upper-Intermediate",
-      },
-      {
-        link: "/extras/listening/penguin-readers/advanced",
-        linkLabel: "advanced",
-      },
+      // {
+      //   link: "/extras/listening/penguin-readers/upper-intermediate",
+      //   linkLabel: "Upper-Intermediate",
+      // },
+      // {
+      //   link: "/extras/listening/penguin-readers/advanced",
+      //   linkLabel: "advanced",
+      // },
     ],
   },
 ];
