@@ -45,7 +45,9 @@ import ukFlagIcon from "./icon/flag/uk.png";
 import brFlagIcon from "./icon/flag/brazil.png";
 
 // Folder
-import cat from "@/img/cat.png"
+import cat1 from "@/img/cat1.jpg"
+import cat2 from "@/img/cat2.jpeg"
+import cat3 from "@/img/cat3.png"
 import iceCreamHiddenValleyRanch from "@/img/ice-cream-hidden-valley-ranch.webp"
 import macAndCheeseIceCreamFlavor from "./mac-and-cheese-ice-cream-flavor.avif"
 import labEmbryo from "./lab-embryo.avif"
@@ -96,7 +98,9 @@ export {
   brFlagIcon,
 
   // Folder
-  cat,
+  cat1,
+  cat2,
+  cat3,
   iceCreamHiddenValleyRanch,
   macAndCheeseIceCreamFlavor,
   labEmbryo,

@@ -4,10 +4,10 @@ import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { FillInTheBlanks } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
+import Slider from "@/components/Slider";
 
 // Images
-import { cat } from "@/img/index"
-import Carousel from "@/components/carousel";
+
 
 const radioExercise = [
   {
@@ -82,8 +82,11 @@ export default function Mocks() {
           />{" "}
           today.
         </p>
+      <Card bgColor="black" textColor="white">
+          <b>Slider</b>
+        </Card>
+        <Slider />
       </div>
-      <Carousel imgSrc={cat} imgAlt=""/>
     </>
   );
 }
