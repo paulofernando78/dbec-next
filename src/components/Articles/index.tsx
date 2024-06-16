@@ -58,19 +58,9 @@ interface ArticlesProps {
 
 const baseAudioSrc = "/assets/audio/extras/listening/articles";
 
-export const Articles = ({
-  titleImgSrc,
-  titleImgAlt,
-  articles
-}: ArticlesProps) => {
+export const Articles = ({ articles }: ArticlesProps) => {
   return (
     <div className="line-break">
-      <Image
-        src={titleImgSrc}
-        alt={titleImgAlt}
-        className={`img-border ${styles["image"]}`}
-      />
-
       {/* ARTICLES */}
       {articles.map((article, articleIndex) => (
         <div key={articleIndex} className="line-break">
@@ -124,7 +114,7 @@ export const Articles = ({
             </div>
           )}
           {article.audioSrc && (
-            <div className="sticky">
+            <div className="sticky dis">
               <AudioPlayer audioSrc={`${baseAudioSrc}${article.audioSrc}`} />
             </div>
           )}

@@ -4,10 +4,10 @@ import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { FillInTheBlanks } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
-import Slider from "@/components/Slider";
+import Slider, { SliderData } from "@/components/Slider";
 
 // Images
-
+import { cat1, cat2, cat3 } from "@/img/index";
 
 const radioExercise = [
   {
@@ -46,9 +46,24 @@ const fillInTheBlanksExercise = [
   },
 ];
 
+const slider: SliderData[] = [
+  {
+    imgSrc: cat1,
+    imgAlt: "A cat picture 1",
+  },
+  {
+    imgSrc: cat2,
+    imgAlt: "A cat picture 2",
+  },
+  {
+    imgSrc: cat3,
+    imgAlt: "A cat picture 3",
+  },
+];
+
 export default function Mocks() {
   return (
-    <>
+    <div>
       <Whiteboard title="Mocks" />
       <div className="line-break">
         <Card bgColor="black" textColor="white">
@@ -82,11 +97,17 @@ export default function Mocks() {
           />{" "}
           today.
         </p>
-      <Card bgColor="black" textColor="white">
-          <b>Slider</b>
+        <Card bgColor="black" textColor="white">
+          <b>Slider Fraction</b>
         </Card>
-        <Slider />
+        <Slider images={slider} />
+        <Card bgColor="black" textColor="white">
+          <b>Flip Cards</b>
+        </Card>
+        <Card bgColor="black" textColor="white">
+          <b>Memory Game</b>
+        </Card>
       </div>
-    </>
+    </div>
   );
 }

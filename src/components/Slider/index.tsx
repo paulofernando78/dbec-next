@@ -1,5 +1,6 @@
 "use client";
 
+// Swiper
 import { register } from "swiper/element/bundle";
 register();
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -9,33 +10,42 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import styles from "./style.module.css"
+import Image, { StaticImageData } from "next/image";
+import styles from "./style.module.css";
 
-import { cat1, labEmbryo , cat3 } from "@/img/index";
-import Image from "next/image";
+export interface SliderData {
+  imgSrc: StaticImageData;
+  imgAlt: string;
+}
 
-export default function Slider() {
+interface SliderProps {
+  images: SliderData[];
+}
+
+export default function Slider({ images }: SliderProps) {
   return (
     <>
       <div className={styles["container"]}>
-          <Swiper
-            pagination={{
-              type: "fraction",
-            }}
-            navigation={true}
-            modules={[Pagination, Navigation]}
-            className={styles["swipe-container"]}
-          >
-            <SwiperSlide className={styles["swipe-slide-container"]}>
-              <Image src={cat1} alt="" className={styles["image"]}/>
+        <Swiper
+        pagination={{
+            type: "fraction",
+        }}
+        navigation={true}
+        modules={[Pagination, Navigation]}
+        >
+          {images.map((image, index) => (
+            <SwiperSlide
+              key={index}
+              className={styles["swipe-slide"]}
+            >
+              <Image
+                src={image.imgSrc}
+                alt={image.imgAlt}
+                className={styles["image"]}
+              />
             </SwiperSlide>
-            <SwiperSlide className={styles["swipe-slide-container"]}>
-              <Image src={labEmbryo} alt="" className={styles["image"]}/>
-            </SwiperSlide>
-            <SwiperSlide className={styles["swipe-slide-container"]}>
-              <Image src={cat3} alt="" className={styles["image"]}/>
-            </SwiperSlide>
-          </Swiper>
+          ))}
+        </Swiper>
       </div>
     </>
   );

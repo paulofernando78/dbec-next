@@ -6,7 +6,7 @@ export default function ScienceAndTechnologyArticles() {
     <>
       <Whiteboard title="Extras" subtitle="Listening" descriptions={["Articles", "Science & Technology"]}/>
       <div>
-        <Link href="/extras/listening/articles/science-and-technology/Israeli-scientists-announce-creation-of-embryo-model-in-lab">
+        <Link href="/extras/listening/articles/science-and-technology/israeli-scientists-announce-creation-of-embryo-model-in-lab">
         <p>(September 11, 2023) Israeli Scientists Announce Creation of Embryo Model in Lab</p>
         </Link>
       </div>

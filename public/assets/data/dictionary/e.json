@@ -1,3 +1,21 @@
 [
-    
+  {
+    "keyword": "escarole",
+    "definitions": [
+      {
+        "audio": "/assets/audio/dictionary/e/escarole-noun.mp3",
+        "word": "escarole",
+        "phonetics": "/ˈes.kə.roʊl/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a type of endive or chicory (= a plant with a slightly bitter taste that is eaten uncooked in salads or as a vegetable) with wide, curly green leaves",
+        "ptDefinition": "Um tipo de chicória ou endívia com folhas verdes largas e encaracoladas.",
+        "examples": [
+          {
+            "enExample": "Add a drained can of chickpeas and the coarsely chopped escarole.",
+            "ptExample": "Adicione uma lata de grão-de-bico escorrida e a escarola bem picada (grosseiramente)."
+          }
+        ]
+      }
+    ]
+  }
 ]

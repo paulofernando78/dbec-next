@@ -60,6 +60,25 @@
     ]
   },
   {
+    "keyword": "fetus",
+    "definitions": [
+      {
+	      "audio": "/assets/audio/dictionary/f/fetus-noun.mp3",
+	      "word": "fetus",
+		    "phonetics": "/ˈfiː.t̬əs/",
+		    "partOfSpeech": "noun",
+        "enDefinition": "a young human being or animal before birth, after the organs have started to develop",
+        "ptDefinition": "feto",
+        "examples": [
+          {
+            "enExample": "The ultrasound showed that the fetus was developing normally.",
+            "ptExample": "O ultrassom mostrou que o feto estava se desenvolvendo normalmente."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "focus",
     "definitions": [
       {

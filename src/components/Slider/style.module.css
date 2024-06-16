@@ -1,20 +1,21 @@
 .container {
-  width: 33%;
-  margin: 0 auto;  
+  display: flex;
+  max-width: 100%;
+  overflow: hidden;
 }
 
-.swipe-container {
+.swipe-slide {
   aspect-ratio: 16/9;
-}
-
-.swipe-slide-container {
- display: flex;
- justify-content: center; 
+  display: flex;
+  justify-content: center;
 }
 
 .image {
+  display: block;
   width: fit-content;
   height: 100%;
+  border: var(--img-border);
+  box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
-  
+  margin: 4px;
 }

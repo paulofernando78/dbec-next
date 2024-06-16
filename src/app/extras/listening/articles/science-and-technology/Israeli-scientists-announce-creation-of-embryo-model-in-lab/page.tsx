@@ -1,12 +1,89 @@
 import { ArticleData, Articles } from "@/components/Articles";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
+import Slider from "@/components/Slider";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 import { labEmbryo, labEmbryo2, labEmbryo3, labScientist } from "@/img/index";
 
+const slider = [
+  {
+    imgSrc: labEmbryo,
+    imgAlt: "",
+  },
+  {
+    imgSrc: labEmbryo2,
+    imgAlt: "",
+  },
+  {
+    imgSrc: labEmbryo3,
+    imgAlt: "",
+  },
+  {
+    imgSrc: labScientist,
+    imgAlt: "",
+  }
+]
+
 const articles: ArticleData[] = [
   {
+    discussion: true,
+    discussionQuestion: "Look at the picture above.",
+    discussionQuestions: [
+      {
+        question: "Where's is it?"
+      },
+      {
+        question: "What's happening?"
+      }
+    ],
+    preVocabulary: true,
+    vocabularies: [
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/c/carry-out.mp3",
+          label: "carry out",
+        },
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/e/ethical.mp3",
+          label: "ethical",
+        },
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/m/miscarriage.mp3",
+          label: "miscarriage",
+        },
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/p/pregnancy.mp3",
+          label: "pregnancy",
+        },
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/s/synthetic.mp3",
+          label: "synthetic",
+        },
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/s/stem-cell.mp3",
+          label: "stem cell",
+        },
+      },
+    ],
+    listeningGist: true,
+    audioSrc: "/assets/audio/extras/listening/articles/science-and-technology/israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3",
     paragraphNumber: "Paragraph 1",
     enParagraphs: [
       {
@@ -35,7 +112,8 @@ const articles: ArticleData[] = [
           audioSrc: "/u/uterus.mp3",
           label: "uterus",
         },
-        enParagraph: "– is designed to support research on early human development.",
+        enParagraph:
+          "– is designed to support research on early human development.",
       },
     ],
     ptParagraph:
@@ -102,8 +180,7 @@ const articles: ArticleData[] = [
           audioSrc: "/p/published.mp3",
           label: "published",
         },
-        enParagraph:
-          "their research results on the subject in recent months.",
+        enParagraph: "their research results on the subject in recent months.",
       },
     ],
     imgSrc: labEmbryo2,
@@ -232,6 +309,21 @@ const articles: ArticleData[] = [
       },
     ],
   },
+  {
+    listeningScan: true,
+    scanQuestion: true,
+    scanQuestions: [
+      {
+        question: "..."
+      }
+    ],
+    followupQuestion: true,
+    followupQuestions: [
+      {
+        question: "...",
+      }
+    ]
+  }
 ];
 
 const radioExercises = [
@@ -239,21 +331,32 @@ const radioExercises = [
     title: "1. Choose the correct answer.",
     question: "1. What did Israeli scientists create in a laboratory?",
     options: [
-        { label: "a) A model of a human embryo from stem cells.", isCorrect: true },
-        { label: "b) A full human embryo using eggs and sperm.", isCorrect: false },
-        { label: "c) A synthetic organ from adult cells.", isCorrect: false },
+      {
+        label: "a) A model of a human embryo from stem cells.",
+        isCorrect: true,
+      },
+      {
+        label: "b) A full human embryo using eggs and sperm.",
+        isCorrect: false,
+      },
+      { label: "c) A synthetic organ from adult cells.", isCorrect: false },
     ],
   },
   {
-    question: "2. What is the main purpose of the embryo model created by Israeli scientists?",
+    question:
+      "2. What is the main purpose of the embryo model created by Israeli scientists?",
     options: [
-        { label: "a) To grow into a full human baby.", isCorrect: false },
-        { label: "b) To support research on early human development.", isCorrect: true },
-        { label: "c) To develop new types of stem cells.", isCorrect: false },
+      { label: "a) To grow into a full human baby.", isCorrect: false },
+      {
+        label: "b) To support research on early human development.",
+        isCorrect: true,
+      },
+      { label: "c) To develop new types of stem cells.", isCorrect: false },
     ],
   },
   {
-    question: "3. At what stage does the embryo model created by the Israeli researchers resemble a real human embryo?",
+    question:
+      "3. At what stage does the embryo model created by the Israeli researchers resemble a real human embryo?",
     options: [
       { label: "a) At day 7.", isCorrect: false },
       { label: "b) At day 14.", isCorrect: true },
@@ -261,15 +364,26 @@ const radioExercises = [
     ],
   },
   {
-    question: "4. What is one potential application of these embryo models mentioned by the researchers?",
+    question:
+      "4. What is one potential application of these embryo models mentioned by the researchers?",
     options: [
-      { label: "a) To test the effect of drugs on pregnancies.", isCorrect: true },
-      { label: "b) To create fully functional synthetic humans.", isCorrect: false },
-      { label: "c) To replace the need for organ donations.", isCorrect: false },
+      {
+        label: "a) To test the effect of drugs on pregnancies.",
+        isCorrect: true,
+      },
+      {
+        label: "b) To create fully functional synthetic humans.",
+        isCorrect: false,
+      },
+      {
+        label: "c) To replace the need for organ donations.",
+        isCorrect: false,
+      },
     ],
   },
   {
-    question: "5. What was the maximum development stage reached by the embryo model in the study?",
+    question:
+      "5. What was the maximum development stage reached by the embryo model in the study?",
     options: [
       { label: "a) Day 7.", isCorrect: false },
       { label: "b) Day 14.", isCorrect: true },
@@ -291,14 +405,13 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
             "(September 11, 2023)",
           ]}
         />
+          <Slider images={slider}/>
         <div>
           <Articles
             articles={articles}
             titleImgSrc={labEmbryo}
             titleImgAlt="Examining an embryo with a mycroscope."
-            discussion="Why is embryo research unethical?"
             discussionAnswer="To some opponents of stem cell research, the destruction of an embryo means that a potential fetus and ultimately a potential human being were killed; therefore this act and the research effort behind it is unethical and immoral. The basic argument is that an embryo is a potential fetus and is an innocent human being."
-            audioSrc="/assets/audio/extras/listening/articles/science-and-technology/Israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3"
           />
         </div>
         <Radio questions={radioExercises} />
