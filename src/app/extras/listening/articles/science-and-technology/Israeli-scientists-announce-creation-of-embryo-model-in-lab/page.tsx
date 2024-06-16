@@ -83,7 +83,7 @@ const articles: ArticleData[] = [
       },
     ],
     listeningGist: true,
-    audioSrc: "/assets/audio/extras/listening/articles/science-and-technology/israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3",
+    audioSrc: "/science-and-technology/israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3",
     paragraphNumber: "Paragraph 1",
     enParagraphs: [
       {
@@ -405,13 +405,13 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
             "(September 11, 2023)",
           ]}
         />
-          <Slider images={slider}/>
+        <p>To some opponents of stem cell research, the destruction of an embryo means that a potential fetus and ultimately a potential human being were killed; therefore this act and the research effort behind it is unethical and immoral. The basic argument is that an embryo is a potential fetus and is an innocent human being."</p>
+          <Slider images={slider}/> 
         <div>
           <Articles
             articles={articles}
             titleImgSrc={labEmbryo}
             titleImgAlt="Examining an embryo with a mycroscope."
-            discussionAnswer="To some opponents of stem cell research, the destruction of an embryo means that a potential fetus and ultimately a potential human being were killed; therefore this act and the research effort behind it is unethical and immoral. The basic argument is that an embryo is a potential fetus and is an innocent human being."
           />
         </div>
         <Radio questions={radioExercises} />
