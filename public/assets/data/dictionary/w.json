@@ -1,10 +1,11 @@
 [
   {
-    "audio": "/assets/audio/dictionary/w/weird.mp3",
     "keyword": "weird",
-    "partOfSpeech": "adjective",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/w/weird.mp3",
+        "word": "weird",
+        "partOfSpeech": "adjective",
         "ptDefinition": "esquisito, estranho",
         "examples": [
           {
@@ -12,15 +13,11 @@
             "ptExample": "Ele é esquisito."
           }
         ]
-      }
-    ]
-  },
-  {
-    "audio": "/assets/audio/dictionary/w/weirdo.mp3",
-    "keyword": "weirdo",
-    "partOfSpeech": "noun",
-    "definitions": [
+      },
       {
+        "audio": "/assets/audio/dictionary/w/weirdo.mp3",
+        "word": "weirdo",
+        "partOfSpeech": "noun",
         "ptDefinition": "pessoa estranha, esquisita",
         "examples": [
           {

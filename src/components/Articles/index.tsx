@@ -38,10 +38,6 @@ export interface ArticleData {
   audioSrc?: string;
   paragraphNumber?: string;
   enParagraphs?: EnParagraph[];
-  imgSrc?: StaticImageData | string;
-  imgAlt?: string;
-  imgSrcWidth?: string;
-  imgSrcHeight?: string;
   ptParagraph?: string;
   listeningScan?: boolean;
   scanQuestion?: boolean;
@@ -51,8 +47,6 @@ export interface ArticleData {
 }
 
 interface ArticlesProps {
-  titleImgSrc: StaticImageData;
-  titleImgAlt: string;
   articles: ArticleData[];
 }
 
@@ -109,7 +103,7 @@ export const Articles = ({ articles }: ArticlesProps) => {
                 </div>
               </Card>
               <p>
-                What's the article talking about? Are your predictions correct?
+                What's the main point in the article? After listening, discuss it with your partner.
               </p>
             </div>
           )}

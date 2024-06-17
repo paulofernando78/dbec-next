@@ -13,24 +13,26 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/g/genome-d.mp3",
     "keyword": "genome",
-    "phonetics": "/ˈdʒiː.noʊm/",
-    "partOfSpeech": "noun",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/g/genome-d.mp3",
+        "word": "genome",
+        "phonetics": "/ˈdʒiː.noʊm/",
+        "partOfSpeech": "noun",
         "enDefinition": "the complete set of genetic material of a human, animal, plant, or other living thing",
         "ptDefinition": "genoma"
       }
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/g/good.mp3",
     "keyword": "good",
-    "phonetics": "/ɡʊd/",
-    "partOfSpeech": "adjective",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/g/good.mp3",
+        "word": "good",
+        "phonetics": "/ɡʊd/",
+        "partOfSpeech": "adjective",
         "enDefinition": "very satisfactory, enjoyable, pleasant, or interesting",
         "ptDefinition": "bom",
         "examples": [
@@ -71,12 +73,13 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/g/goods.mp3",
     "keyword": "goods",
-    "phonetics": "/ɡʊdz/",
-    "partOfSpeech": "noun",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/g/goods.mp3",
+        "word": "goods",
+        "phonetics": "/ɡʊdz/",
+        "partOfSpeech": "noun",
         "enDefinition": "things that are made to be sold",
         "ptDefinition": "mercadorias, bens",
         "examples": [
@@ -89,17 +92,18 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/g/grass-other-side.mp3",
     "keyword": "the grass is always greener on the other side",
-    "partOfSpeech": "proverb",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/g/grass-other-side.mp3",
+        "word": "the grass is always greener on the other side",
+        "partOfSpeech": "proverb",
         "enDefinition": "The circumstances of others seem more desirable than one's own but in reality often are not.",
-        "ptDefinition": "mercadorias, bens",
+        "ptDefinition": "a grama do vizinho é sempre mais verde",
         "examples": [
           {
-            "enExample": "I sometimes think I'd be happier teaching in Spain. Oh well, the grass is always greener on the other side!",
-            "ptExample": "Às vezes penso que seria mais feliz ensinando na Espanha. Ah, bem, a grama do vizinho é sempre mais verde!"
+            "enExample": "<b>A:</b> It just seems like they have this perfect life, always traveling and spending time together. <b>B:</b> Hey, the grass is always greener. I'm sure they have their own problems that no one else can see.",
+            "ptExample": "A: Parece que eles têm uma vida perfeita, sempre viajando e passando tempo juntos. B: Ei, a grama sempre parece mais verde. Tenho certeza de que eles têm seus próprios problemas que ninguém mais pode ver."
           }
         ]
       }

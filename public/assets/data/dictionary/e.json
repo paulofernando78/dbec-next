@@ -17,5 +17,26 @@
         ]
       }
     ]
+  },
+  {
+    "keyword": "ethical",
+    "definitions": [
+      {
+	      "audio": "/assets/audio/dictionary/e/ethical-adjective.mp3",
+	      "word": "ethical",
+		    "phonetics": "/ˈeθ.ɪ.kəl/",
+		    "partOfSpeech": "adjective",
+        "enDefinition": "relating to beliefs about what is morally right and wrong",
+        "ptDefinition": "ético",
+        "examples": [
+          {
+            "enExample": "Ensuring patient confidentiality is an essential aspect of ethical practice in the medical profession.",
+            "ptExample": "Assegurar / Garantir a confidencialidade do paciente é uma parte fundamental da conduta ética na medicina."
+          }
+        ],
+	      "synonyms": "honest, honoroble, humane, proper",
+        "antonyms": "dishonest, immoral, corrupt, improper, unjust"
+      }
+    ]
   }
 ]

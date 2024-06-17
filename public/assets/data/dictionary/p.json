@@ -1,10 +1,11 @@
 [
   {
-    "audio": "/assets/audio/dictionary/p/petty.mp3",
     "keyword": "(to be) petty",
-    "partOfSpeech": "adjective",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/p/petty.mp3",
+        "word": "(to be) petty",
+        "partOfSpeech": "adjective",
         "enDefinition": "complaining too much about things that are not important",
         "ptDefinition": "mesquinho",
         "examples": [
@@ -39,22 +40,19 @@
             "ptExample": "Os presos queixam-se de que estão sujeitos a demasiadas regras e restrições insignificantes."
           }
         ],
-        "thesauri": [
-          {
-            "synonyms": "frivolous, trivial, minor, small, slight, unimportant, insignificant, narrow-minded",
-            "antonyms": "greater, major, serious"
-          }
-        ]
+
+        "synonyms": "frivolous, trivial, minor, small, slight, unimportant, insignificant, narrow-minded",
+        "antonyms": "greater, major, serious"
       }
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/p/plantain.mp3",
     "keyword": "plantain",
-    "phonetics": "/ˈplæn.tɪn/",
-    "partOfSpeech": "noun",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/p/plantain.mp3",
+        "phonetics": "/ˈplæn.tɪn/",
+        "partOfSpeech": "noun",
         "ptDefinition": "banana-da-terra"
       }
     ]
@@ -183,12 +181,33 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/p/productivity-d.mp3",
-    "keyword": "productivity",
-    "phonetics": "/ˌproʊ.dəkˈtɪv.ə.t̬i/",
-    "partOfSpeech": "noun",
+    "keyword": "pregnancy",
     "definitions": [
       {
+	      "audio": "/assets/audio/dictionary/p/pregnancy-noun.mp3",
+	      "word": "pregnancy",
+		    "phonetics": "/ˈpreɡ.nən.si/",
+		    "partOfSpeech": "noun",
+        "enDefinition": "the state of being pregnant:",
+        "ptDefinition": "gravidez",
+        "examples": [
+          {
+            "enExample": "Most women feel sick in the mornings during their first months of pregnancy.",
+            "ptExample": "A maioria das mulheres sente-se mal pela manhã durante os primeiros meses de gravidez."
+          }
+        ],
+	      "synonyms": "gestation"
+      }
+    ]
+  },
+  {
+    "keyword": "productivity",
+    "definitions": [
+      {
+        "audio": "/assets/audio/dictionary/p/productivity-d.mp3",
+        "word": "word",
+        "phonetics": "/ˌproʊ.dəkˈtɪv.ə.t̬i/",
+        "partOfSpeech": "noun",
         "ptDefinition": "produtividade",
         "examples": [
           {
@@ -200,12 +219,12 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/p/publicly-d.mp3",
     "keyword": "publicly",
-    "phonetics": "/ˈpʌb.lɪ.kli/",
-    "partOfSpeech": "adverb",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/p/publicly-d.mp3",
+        "phonetics": "/ˈpʌb.lɪ.kli/",
+        "partOfSpeech": "adverb",
         "ptDefinition": "publicamente",
         "examples": [
           {
@@ -222,11 +241,37 @@
     ]
   },
   {
-    "audio": "/assets/audio/dictionary/p/put-in-a-good-word.mp3",
-    "keyword": "put in a good word",
-    "partOfSpeech": "idiom",
+    "keyword": "publish",
     "definitions": [
       {
+	      "audio": "/assets/audio/dictionary/p/publish-regular-verb.mp3",
+	      "word": "publish",
+		    "phonetics": "/ˈpʌb.lɪʃ/",
+		    "partOfSpeech": "regular verb",
+        "enDefinition": "to make information available to people, especially in a book, magazine, or newspaper, or to produce and sell a book, magazine, or newspaper",
+        "ptDefinition": "publicar",
+        "examples": [
+          {
+            "enExample": "She's just had an article published in their weekend supplement.",
+            "ptExample": "Um artigo dela acabou de ser publicado no caderno especial de final de semana."
+          },
+          {
+            "enExample": "She was only 19 when her first novel was published.",
+            "ptExample": "Ela tinha apenas 19 anos quando seu primeiro romance foi publicado."
+          }
+        ],
+	      "synonyms": "issue",
+        "antonyms": "reject"
+      }
+    ]
+  },
+  {
+    "keyword": "put in a good word",
+    "definitions": [
+      {
+        "audio": "/assets/audio/dictionary/p/put-in-a-good-word.mp3",
+        "word": "put in a good word",
+        "partOfSpeech": "idiom",
         "enDefinition": "to say something good about someone",
         "ptDefinition": "fazer uma boa recomendação",
         "examples": [

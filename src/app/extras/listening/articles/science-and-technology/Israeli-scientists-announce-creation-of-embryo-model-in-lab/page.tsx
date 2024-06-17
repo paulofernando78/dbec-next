@@ -9,32 +9,32 @@ import { labEmbryo, labEmbryo2, labEmbryo3, labScientist } from "@/img/index";
 const slider = [
   {
     imgSrc: labEmbryo,
-    imgAlt: "",
+    imgAlt: "PhD student, Nir Livnat, works at the laboratory on models of an early-stage human embryo, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023.",
   },
   {
     imgSrc: labEmbryo2,
-    imgAlt: "",
+    imgAlt: "PhD student, Nir Livnat, works at the laboratory on models of an early-stage human embryo, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023.",
   },
   {
     imgSrc: labEmbryo3,
-    imgAlt: "",
+    imgAlt: "PhD student, Mehmet Yunus Comar, looks at a model of an early-stage human embryo, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023.",
   },
   {
     imgSrc: labScientist,
-    imgAlt: "",
+    imgAlt: "Prof Josef Hanna demonstrates the process he and his team of scientists used to develop models of early-stage human embryos, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023. ",
   }
 ]
 
 const articles: ArticleData[] = [
   {
     discussion: true,
-    discussionQuestion: "Look at the picture above.",
+    discussionQuestion: "Check out the picture above. Swipe them to the right and answer the questions.",
     discussionQuestions: [
       {
-        question: "Where's is it?"
+        question: "What place is it?"
       },
       {
-        question: "What's happening?"
+        question: "What are these scientists doing?"
       }
     ],
     preVocabulary: true,
@@ -43,6 +43,7 @@ const articles: ArticleData[] = [
         component: (props) => <DictionaryCard {...props} />,
         componentProps: {
           audioSrc: "/c/carry-out.mp3",
+          keyword: "carry",
           label: "carry out",
         },
       },
@@ -157,6 +158,7 @@ const articles: ArticleData[] = [
         component: (props) => <DictionaryCard {...props} />,
         componentProps: {
           audioSrc: "/c/carry-out.mp3",
+          keyword: "carry",
           label: "carry out",
         },
         enParagraph:
@@ -178,13 +180,12 @@ const articles: ArticleData[] = [
         component: (props) => <DictionaryCard {...props} />,
         componentProps: {
           audioSrc: "/p/published.mp3",
+          keyword: "publish",
           label: "published",
         },
         enParagraph: "their research results on the subject in recent months.",
       },
     ],
-    imgSrc: labEmbryo2,
-    imgAlt: "Man looking through a microscope",
     ptParagraph:
       "Várias equipes de pesquisa internacionais têm trabalhado separadamente em estudos envolvendo modelos de embriões humanos. Cientistas dos Estados Unidos, da Grã-Bretanha e da China publicaram os resultados de suas pesquisas sobre o assunto nos últimos meses.",
   },
@@ -240,8 +241,6 @@ const articles: ArticleData[] = [
           "But the researchers said the work could open the door to new ways to study early human development. For example, the embryo models could test the effect of drugs on pregnancies. They could also help scientists better understand miscarriages and genetic diseases. And they might one day be used to grow transplant tissues and organs.",
       },
     ],
-    imgSrc: labEmbryo3,
-    imgAlt: "Man looking through a microscope",
     ptParagraph:
       "Mas os pesquisadores disseram que o trabalho poderia abrir portas para novas formas de estudar o desenvolvimento humano inicial. Por exemplo, os modelos de embrião poderiam testar o efeito de medicamentos nas gestações. Eles também poderiam ajudar os cientistas a entender melhor abortos espontâneos e doenças genéticas. Eles também podem um dia ser usados para cultivar tecidos e órgãos para transplantes.",
   },
@@ -275,8 +274,6 @@ const articles: ArticleData[] = [
           "The team then genetically changed the cells in an effort to get them to start developing into something that looks and behaves like a real human embryo. However, the researchers said their creation is not an actual or synthetic embryo. Instead, it is considered a model that shows how a real embryo works.",
       },
     ],
-    imgSrc: labScientist,
-    imgAlt: "Scientist looking at models of early-stage human embryos",
     ptParagraph:
       "A equipe então modificou geneticamente as células na tentativa de fazê-las começar a se desenvolver em algo que se parece e se comporta como um embrião humano real. No entanto, os pesquisadores afirmaram que sua criação não é um embrião real ou sintético. Em vez disso, é considerado um modelo que mostra como um embrião real funciona.",
   },
@@ -410,8 +407,6 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
         <div>
           <Articles
             articles={articles}
-            titleImgSrc={labEmbryo}
-            titleImgAlt="Examining an embryo with a mycroscope."
           />
         </div>
         <Radio questions={radioExercises} />

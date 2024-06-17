@@ -1,11 +1,12 @@
 [
   {
-    "audio": "/assets/audio/dictionary/n/nip.mp3",
     "keyword": "nip ",
-    "phonetics": " /nɪp/",
-    "partOfSpeech": "verb",
     "definitions": [
       {
+        "audio": "/assets/audio/dictionary/n/nip.mp3",
+        "word": "nip ",
+        "phonetics": " /nɪp/",
+        "partOfSpeech": "verb",
         "enDefinition": "bite sharply",
         "ptDefinition": "abocanhar, morder",
         "examples": [
@@ -14,12 +15,8 @@
             "ptExample": "O cachorrinho me mordeu na perna."
           }
         ],
-        "thesauri": [
-          {
-            "synonyms": "bite, , pinch, snap",
-            "antonyms": "lot???"
-          }
-        ]
+        "synonyms": "bite, , pinch, snap",
+        "antonyms": "lot???"
       },
       {
         "enDefinition": "frost",
@@ -45,15 +42,11 @@
             "synonyms": "go, rush, dash, stop by"
           }
         ]
-      }
-    ]
-  },
-  {
-    "audio": "/assets/audio/dictionary/n/nip-off.mp3",
-    "keyword": "nip off",
-    "partOfSpeech": "phrasal verb",
-    "definitions": [
+      },
       {
+        "audio": "/assets/audio/dictionary/n/nip-off.mp3",
+        "word": "nip off",
+        "partOfSpeech": "phrasal verb",
         "enDefinition": "remove something by pinching or squeezing sharply",
         "ptDefinition": "arrancar, cortar",
         "examples": [
@@ -66,17 +59,13 @@
           {
             "synonyms": "cut off, trim, remove"
           }
-        ]
-      }
-    ],
-    "synonyms": "neck and neck, even, drawn, tied, balanced"
-  },
-  {
-    "audio": "/assets/audio/dictionary/n/nip-and-tuck-noun.mp3",
-    "keyword": "nip and tuck",
-    "partOfSpeech": "noun",
-    "definitions": [
+        ],
+        "synonyms": "neck and neck, even, drawn, tied, balanced"
+      },
       {
+        "audio": "/assets/audio/dictionary/n/nip-and-tuck-noun.mp3",
+        "word": "nip and tuck",
+        "partOfSpeech": "noun",
         "enDefinition": "cosmetic surgery",
         "ptDefinition": "cirurgia plástica",
         "examples": [
@@ -84,18 +73,14 @@
             "enExample": "Tessa has consulted a cosmetic surgeon about having a nip and tuck.",
             "ptExample": "Tessa consultou um cirurgião plástico sobre fazer uma cirurgia plástica."
           }
-        ]
-      }
-    ],
-    "synonyms": "neck and neck, even, drawn, tied, balanced",
-    "antonyms": "..."
-  },
-  {
-    "audio": "/assets/audio/dictionary/n/nip-and-tuck-adjective.mp3",
-    "keyword": "nip and tuck",
-    "partOfSpeech": "adjective",
-    "definitions": [
+        ],
+        "synonyms": "neck and neck, even, drawn, tied, balanced",
+        "antonyms": "..."
+      },
       {
+        "audio": "/assets/audio/dictionary/n/nip-and-tuck-adjective.mp3",
+        "word": "nip and tuck",
+        "partOfSpeech": "adjective",
         "enDefinition": "If a competition is nip and tuck, first one side seems to be winning and then the other, so that the result is not certain.",
         "ptDefinition": "acirrado, indefinido",
         "examples": [
@@ -107,18 +92,14 @@
             "enExample": "That race was so nip and tuck that I had no idea who would win until the very end.",
             "ptExample": "Aquela corrida foi tão acirrada que eu não tinha ideia de quem venceria até o final."
           }
-        ]
-      }
-    ],
-    "synonyms": "neck and neck, even, drawn, tied, balanced",
-    "antonyms": "..."
-  },
-  {
-    "audio": "/assets/audio/dictionary/n/nip-in-the-bud.mp3",
-    "keyword": "nip (something) in the bud",
-    "partOfSpeech": "idiom",
-    "definitions": [
+        ],
+        "synonyms": "neck and neck, even, drawn, tied, balanced",
+        "antonyms": "..."
+      },
       {
+        "audio": "/assets/audio/dictionary/n/nip-in-the-bud.mp3",
+        "word": "nip (something) in the bud",
+        "partOfSpeech": "idiom",
         "enDefinition": "to stop (something) as soon as it starts",
         "ptDefinition": "cortar pela raiz",
         "examples": [
@@ -126,10 +107,10 @@
             "enExample": "The managers nipped the strike in the bud.",
             "ptExample": "Os dirigentes cortaram a greve pela raiz."
           }
-        ]
+        ],
+        "synonyms": "abort",
+        "antonyms": "cut off, cut short"
       }
-    ],
-    "synonyms": "abort",
-    "antonyms": "cut off, cut short"
+    ]
   }
 ]
