@@ -1,16 +1,14 @@
-import Image from "next/image";
-import { StaticImageData } from "next/image";
 import { AudioPlayer } from "../Audioplayer/Audioplayer";
 import { Card } from "../Card";
 import { Collapsible } from "../Collapsible/Collapsible";
 import styles from "./styles.module.css";
 
-interface FollowupQuestion {
+export interface FollowupQuestion {
   question?: string;
 }
 
-interface ScanQuestion {
-  question?: string;
+export interface ScanQuestion {
+  question: string;
 }
 
 interface EnParagraph {
@@ -19,99 +17,89 @@ interface EnParagraph {
   enParagraph?: string;
 }
 
-interface Vocabulary {
+export interface PreVocabulary {
   component: (props: { audioSrc: string; label: string }) => JSX.Element;
   componentProps: any;
 }
 
-interface DiscussionQuestion {
+export interface DiscussionQuestion {
   question?: string;
 }
 
 export interface ArticleData {
-  discussion?: boolean;
-  discussionQuestion?: string;
-  discussionQuestions?: DiscussionQuestion[];
-  preVocabulary?: boolean;
-  vocabularies?: Vocabulary[];
-  listeningGist?: boolean;
-  audioSrc?: string;
   paragraphNumber?: string;
   enParagraphs?: EnParagraph[];
   ptParagraph?: string;
-  listeningScan?: boolean;
-  scanQuestion?: boolean;
-  scanQuestions?: ScanQuestion[];
-  followupQuestion?: boolean;
-  followupQuestions?: FollowupQuestion[];
 }
 
 interface ArticlesProps {
+  discussion: string;
+  discussionQuestions: DiscussionQuestion[];
+  preVocabularies: PreVocabulary[];
+  audioSrc: string;
   articles: ArticleData[];
+  scanQuestions: ScanQuestion[];
+  followupQuestions: FollowupQuestion[];
 }
 
 const baseAudioSrc = "/assets/audio/extras/listening/articles";
 
-export const Articles = ({ articles }: ArticlesProps) => {
+export const Articles = ({
+  discussion,
+  discussionQuestions,
+  preVocabularies,
+  audioSrc,
+  articles,
+  scanQuestions,
+  followupQuestions,
+}: ArticlesProps) => {
   return (
     <div className="line-break">
+      <Card bgColor="Black" textColor="White">
+        <div className="flex-8px-start-space-between">
+          <p className="bold">Discussion</p>
+          <p className="p-size-smaller">'5</p>
+        </div>
+      </Card>
+      <p className="bold">{discussion}</p>
+
+      <div>
+        {discussionQuestions.map((discussionQuestion, discussionQuestionIndex) => (
+          <p key={discussionQuestionIndex}>
+            <b>{discussionQuestionIndex + 1}</b> {discussionQuestion.question}
+          </p>
+        ))}
+      </div>
+      <Card bgColor="Black" textColor="White">
+        <div className="flex-8px-start-space-between">
+          <p className="bold">Pre-Vocabulary</p>
+          <p className="p-size-smaller">'10</p>
+        </div>
+      </Card>
+      <div className="flex-8px-center-wrap">
+        {preVocabularies?.map((preVocabulary, indexPreVocabulary) => (
+          <span key={indexPreVocabulary}>
+            {preVocabulary.component(preVocabulary.componentProps)}
+          </span>
+        ))}
+      </div>
+      <Card bgColor="Black" textColor="White">
+        <div className="flex-8px-start-space-between">
+          <p className="bold">Listening (Gist)</p>
+          <p className="p-size-smaller">10'</p>
+        </div>
+      </Card>
+      <p>
+        What's the main point in the article? After listening, discuss it with
+        your partner.
+      </p>
+      <div className="sticky">
+        <AudioPlayer audioSrc={`${baseAudioSrc}${audioSrc}`} />
+      </div>
+
       {/* ARTICLES */}
       {articles.map((article, articleIndex) => (
         <div key={articleIndex} className="line-break">
-          {/* COLOCAR CAROSSEL */}
-          {article.discussion && (
-            <Card bgColor="Black" textColor="White">
-              <div className="flex-8px-start-space-between">
-                <p className="bold">Discussion</p>
-                <p className="p-size-smaller">'5</p>
-              </div>
-            </Card>
-          )}
-          {article.discussionQuestion && (
-            <p className="bold">{article.discussionQuestion}</p>
-          )}
-          <div>
-            {article.discussionQuestions?.map(
-              (discussionQuestion, discussionQuestionIndex) => (
-                <p key={discussionQuestionIndex}>
-                  <span className="bold">•</span> {discussionQuestion.question}
-                </p>
-              )
-            )}
-          </div>
-          {article.preVocabulary && (
-            <Card bgColor="Black" textColor="White">
-              <div className="flex-8px-start-space-between">
-                <p className="bold">Pre-Vocabulary</p>
-                <p className="p-size-smaller">'10</p>
-              </div>
-            </Card>
-          )}
-          <div className="flex-8px-center-wrap">
-            {article.vocabularies?.map((vocabulary, indexVocabulary) => (
-              <span key={indexVocabulary}>
-                {vocabulary.component(vocabulary.componentProps)}
-              </span>
-            ))}
-          </div>
-          {article.listeningGist && (
-            <div className="line-break">
-              <Card bgColor="Black" textColor="White">
-                <div className="flex-8px-start-space-between">
-                  <p className="bold">Listening (Gist)</p>
-                  <p className="p-size-smaller">10'</p>
-                </div>
-              </Card>
-              <p>
-                What's the main point in the article? After listening, discuss it with your partner.
-              </p>
-            </div>
-          )}
-          {article.audioSrc && (
-            <div className="sticky dis">
-              <AudioPlayer audioSrc={`${baseAudioSrc}${article.audioSrc}`} />
-            </div>
-          )}
           {article.paragraphNumber && (
             <Card bgColor="lightgray">
               <p className="bold">{article.paragraphNumber}</p>
@@ -144,48 +132,39 @@ export const Articles = ({ articles }: ArticlesProps) => {
               </div>
             )}
           </div>
-          <div className="line-break">
-            {article.listeningScan && (
-              <Card bgColor="Black" textColor="White">
-                <div className="flex-8px-start-space-between">
-                  <p className="bold">Listening (Scan)</p>
-                  <p className="p-size-smaller">'10</p>
-                </div>
-              </Card>
-            )}
-          </div>
-          {article.scanQuestion && (
-            <p className="bold">
-              Grab a piece of paper. Check out the quesitons below. Listen again
-              and take notes.
-            </p>
-          )}
-          <div>
-            {article.scanQuestions?.map((scanQuestion, scanQuestionIndex) => (
-              <p key={scanQuestionIndex}>
-                <span className="bold">•</span> {scanQuestion.question}
-              </p>
-            ))}
-          </div>
-          {article.followupQuestion && (
-            <Card bgColor="Black" textColor="White">
-              <div className="flex-8px-start-space-between">
-                <p className="bold">Follow-up question</p>
-                <p className="p-size-smaller">'10</p>
-              </div>
-            </Card>
-          )}
-          <div>
-            {article.followupQuestions?.map(
-              (followupQuestion, followQuestionIndex) => (
-                <p key={followQuestionIndex}>
-                  <b>•</b> {followupQuestion.question}
-                </p>
-              )
-            )}
-          </div>
         </div>
       ))}
+
+      <Card bgColor="Black" textColor="White">
+        <div className="flex-8px-start-space-between">
+          <p className="bold">Listening (Scan)</p>
+          <p className="p-size-smaller">'10</p>
+        </div>
+      </Card>
+      <p className="bold">
+        Grab a piece of paper. Check out the quesitons below. Listen again and
+        take notes.
+      </p>
+      <div>
+        {scanQuestions.map((scanQuestion, scanQuestionIndex) => (
+          <p key={scanQuestionIndex}>
+            <span className="bold">{scanQuestionIndex + 1}</span> {scanQuestion.question}
+          </p>
+        ))}
+      </div>
+      <Card bgColor="Black" textColor="White">
+        <div className="flex-8px-start-space-between">
+          <p className="bold">Follow-up question</p>
+          <p className="p-size-smaller">'10</p>
+        </div>
+      </Card>
+      <div>
+        {followupQuestions.map((followupQuestion, followQuestionIndex) => (
+          <p key={followQuestionIndex}>
+            <span className="bold">{followQuestionIndex + 1}</span> {followupQuestion.question}
+          </p>
+        ))}
+      </div>
 
       <div></div>
       <Card bgColor="Black" textColor="White">

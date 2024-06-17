@@ -1,4 +1,11 @@
-import { ArticleData, Articles } from "@/components/Articles";
+import {
+  DiscussionQuestion,
+  PreVocabulary,
+  Articles,
+  ArticleData,
+  ScanQuestion,
+  FollowupQuestion,
+} from "@/components/Articles";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import Slider from "@/components/Slider";
@@ -9,82 +16,86 @@ import { labEmbryo, labEmbryo2, labEmbryo3, labScientist } from "@/img/index";
 const slider = [
   {
     imgSrc: labEmbryo,
-    imgAlt: "PhD student, Nir Livnat, works at the laboratory on models of an early-stage human embryo, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023.",
+    imgAlt:
+      "PhD student, Nir Livnat, works at the laboratory on models of an early-stage human embryo, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023.",
   },
   {
     imgSrc: labEmbryo2,
-    imgAlt: "PhD student, Nir Livnat, works at the laboratory on models of an early-stage human embryo, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023.",
+    imgAlt:
+      "PhD student, Nir Livnat, works at the laboratory on models of an early-stage human embryo, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023.",
   },
   {
     imgSrc: labEmbryo3,
-    imgAlt: "PhD student, Mehmet Yunus Comar, looks at a model of an early-stage human embryo, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023.",
+    imgAlt:
+      "PhD student, Mehmet Yunus Comar, looks at a model of an early-stage human embryo, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023.",
   },
   {
     imgSrc: labScientist,
-    imgAlt: "Prof Josef Hanna demonstrates the process he and his team of scientists used to develop models of early-stage human embryos, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023. ",
-  }
-]
+    imgAlt:
+      "Prof Josef Hanna demonstrates the process he and his team of scientists used to develop models of early-stage human embryos, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023. ",
+  },
+];
+
+const discussionQuestions: DiscussionQuestion[] = [
+  {
+    question: "What place is it?",
+  },
+  {
+    question: "What are these scientists working on?",
+  },
+  {
+    question: "What do you know about \"embryos\" and \"stem cells\"",
+  },
+];
+
+const preVocabularies: PreVocabulary[] = [
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/c/carry-out.mp3",
+      keyword: "carry",
+      label: "carry out",
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/e/ethical.mp3",
+      label: "ethical",
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/m/miscarriage.mp3",
+      label: "miscarriage",
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/p/pregnancy.mp3",
+      label: "pregnancy",
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/s/synthetic.mp3",
+      label: "synthetic",
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/s/stem-cell.mp3",
+      label: "stem cell",
+    },
+  },
+];
 
 const articles: ArticleData[] = [
   {
-    discussion: true,
-    discussionQuestion: "Check out the picture above. Swipe them to the right and answer the questions.",
-    discussionQuestions: [
-      {
-        question: "What place is it?"
-      },
-      {
-        question: "What are these scientists doing?"
-      }
-    ],
-    preVocabulary: true,
-    vocabularies: [
-      {
-        component: (props) => <DictionaryCard {...props} />,
-        componentProps: {
-          audioSrc: "/c/carry-out.mp3",
-          keyword: "carry",
-          label: "carry out",
-        },
-      },
-      {
-        component: (props) => <DictionaryCard {...props} />,
-        componentProps: {
-          audioSrc: "/e/ethical.mp3",
-          label: "ethical",
-        },
-      },
-      {
-        component: (props) => <DictionaryCard {...props} />,
-        componentProps: {
-          audioSrc: "/m/miscarriage.mp3",
-          label: "miscarriage",
-        },
-      },
-      {
-        component: (props) => <DictionaryCard {...props} />,
-        componentProps: {
-          audioSrc: "/p/pregnancy.mp3",
-          label: "pregnancy",
-        },
-      },
-      {
-        component: (props) => <DictionaryCard {...props} />,
-        componentProps: {
-          audioSrc: "/s/synthetic.mp3",
-          label: "synthetic",
-        },
-      },
-      {
-        component: (props) => <DictionaryCard {...props} />,
-        componentProps: {
-          audioSrc: "/s/stem-cell.mp3",
-          label: "stem cell",
-        },
-      },
-    ],
-    listeningGist: true,
-    audioSrc: "/science-and-technology/israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3",
     paragraphNumber: "Paragraph 1",
     enParagraphs: [
       {
@@ -311,16 +322,73 @@ const articles: ArticleData[] = [
     scanQuestion: true,
     scanQuestions: [
       {
-        question: "..."
-      }
+        question:
+          "How were the human embryo models created without using sperm, eggs, or a uterus?",
+      },
+      {
+        question:
+          "What stage of development do the embryo models resemble, according to the researchers?",
+      },
+      {
+        question: "What are some potential uses for these embryo models?",
+      },
+      {
+        question:
+          "Why do scientists believe these models are important for research?",
+      },
+      {
+        question:
+          "What did Jacob Hanna say about the current state of the research?",
+      },
     ],
     followupQuestion: true,
     followupQuestions: [
       {
-        question: "...",
-      }
-    ]
+        question:
+          "How do you feel about the creation of human embryo models for scientific research?",
+      },
+      {
+        question:
+          "What are the potential benefits and risks of this technology?",
+      },
+      {
+        question:
+          "How should scientists address the ethical concerns related to this research?",
+      },
+    ],
+  },
+];
+
+const scanQuestions: ScanQuestion[] = [
+  {
+    question: "What institute conducted the research?",
+  },
+  {
+    question: "What date is mentioned in relation to the stage of the embryo model?",
+  },
+  {
+    question: "Who led the research team?",
+  },
+  {
+    question: "What is one potential use of the embryo models mentioned in the article?",
+  },
+  {
+    question: "How far did the embryo model develop?",
+  },
+  {
+    question: "What is the team's next goal?",
   }
+];
+const followupQuestions: FollowupQuestion[] = [
+  {
+    question: "What are your thoughts on using stem cells to create embryo models?",
+  },
+  {
+    question: "Do you think the benefits of this research outweigh the ethical concerns? Why or why not?",
+  },
+  {
+    question: "How do you think this research could impact future medical treatments?",
+  },
 ];
 
 const radioExercises = [
@@ -402,14 +470,26 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
             "(September 11, 2023)",
           ]}
         />
-        <p>To some opponents of stem cell research, the destruction of an embryo means that a potential fetus and ultimately a potential human being were killed; therefore this act and the research effort behind it is unethical and immoral. The basic argument is that an embryo is a potential fetus and is an innocent human being."</p>
-          <Slider images={slider}/> 
+        <Slider images={slider} />
         <div>
           <Articles
+            discussion="Check out the pictures above. Swipe them to the right and answer the questions."
+            discussionQuestions={discussionQuestions}
+            preVocabularies={preVocabularies}
+            audioSrc="/science-and-technology/israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3"
             articles={articles}
+            scanQuestions={scanQuestions}
+            followupQuestions={followupQuestions}
           />
         </div>
         <Radio questions={radioExercises} />
+        <p>
+          To some opponents of stem cell research, the destruction of an embryo
+          means that a potential fetus and ultimately a potential human being
+          were killed; therefore this act and the research effort behind it is
+          unethical and immoral. The basic argument is that an embryo is a
+          potential fetus and is an innocent human being."
+        </p>
       </div>
     </>
   );
