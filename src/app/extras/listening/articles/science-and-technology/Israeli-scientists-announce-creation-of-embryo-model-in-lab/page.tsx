@@ -2,7 +2,7 @@ import {
   DiscussionQuestion,
   PreVocabulary,
   Articles,
-  ArticleData,
+  Paragraph,
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Articles";
@@ -38,15 +38,37 @@ const slider = [
 
 const discussionQuestions: DiscussionQuestion[] = [
   {
-    question: "What place is it?",
+    questions: [
+      {
+        question: "1.",
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "",
+          label: "...",
+        },
+        question: "...",
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "",
+          label: "...",
+        },
+        question: "...",
+      },
+    ],
   },
   {
-    question: "What are these scientists working on?",
-  },
-  {
-    question: "What do you know about \"embryos\" and \"stem cells\"",
+    questions: [
+      {
+        question: "2. ",
+      }
+    ],
   },
 ];
+
 
 const preVocabularies: PreVocabulary[] = [
   {
@@ -94,7 +116,7 @@ const preVocabularies: PreVocabulary[] = [
   },
 ];
 
-const articles: ArticleData[] = [
+const paragraphs: Paragraph[] = [
   {
     paragraphNumber: "Paragraph 1",
     enParagraphs: [
@@ -304,7 +326,7 @@ const articles: ArticleData[] = [
     enParagraphs: [
       {
         enParagraph:
-          "Hanna said the team’s next goal will be to extend model development to 21 days and also reach a success rate of at least 50 percent.",
+          "Hanna said the team's next goal will be to extend model development to 21 days and also reach a success rate of at least 50 percent.",
       },
     ],
     ptParagraph:
@@ -313,47 +335,7 @@ const articles: ArticleData[] = [
   {
     enParagraphs: [
       {
-        enParagraph: "I’m Bryan Lynn.",
-      },
-    ],
-  },
-  {
-    listeningScan: true,
-    scanQuestion: true,
-    scanQuestions: [
-      {
-        question:
-          "How were the human embryo models created without using sperm, eggs, or a uterus?",
-      },
-      {
-        question:
-          "What stage of development do the embryo models resemble, according to the researchers?",
-      },
-      {
-        question: "What are some potential uses for these embryo models?",
-      },
-      {
-        question:
-          "Why do scientists believe these models are important for research?",
-      },
-      {
-        question:
-          "What did Jacob Hanna say about the current state of the research?",
-      },
-    ],
-    followupQuestion: true,
-    followupQuestions: [
-      {
-        question:
-          "How do you feel about the creation of human embryo models for scientific research?",
-      },
-      {
-        question:
-          "What are the potential benefits and risks of this technology?",
-      },
-      {
-        question:
-          "How should scientists address the ethical concerns related to this research?",
+        enParagraph: "I'm Bryan Lynn.",
       },
     ],
   },
@@ -364,30 +346,40 @@ const scanQuestions: ScanQuestion[] = [
     question: "What institute conducted the research?",
   },
   {
-    question: "What date is mentioned in relation to the stage of the embryo model?",
+    question:
+      "What date is mentioned in relation to the stage of the embryo model?",
   },
   {
     question: "Who led the research team?",
   },
   {
-    question: "What is one potential use of the embryo models mentioned in the article?",
+    question:
+      "What is one potential use of the embryo models mentioned in the article?",
   },
   {
     question: "How far did the embryo model develop?",
   },
   {
     question: "What is the team's next goal?",
-  }
+  },
 ];
+
 const followupQuestions: FollowupQuestion[] = [
   {
-    question: "What are your thoughts on using stem cells to create embryo models?",
+    question:
+      "What are your thoughts on using stem cells to create embryo models?",
   },
   {
-    question: "Do you think the benefits of this research outweigh the ethical concerns? Why or why not?",
+    question:
+      "Do you think the benefits of this research outweigh the ethical concerns? Why or why not?",
   },
   {
-    question: "How do you think this research could impact future medical treatments?",
+    question:
+      "How do you think this research could impact future medical treatments?",
+  },
+  {
+    question:
+      "Why do some opponents of stem cell research consider it unethical and immoral?",
   },
 ];
 
@@ -467,8 +459,8 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
           descriptions={[
             "Articles",
             "Israeli Scientists Announce Creation of Embryo Model in Lab",
-            "(September 11, 2023)",
           ]}
+          subdescription="September 11, 2023"
         />
         <Slider images={slider} />
         <div>
@@ -477,7 +469,7 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
             discussionQuestions={discussionQuestions}
             preVocabularies={preVocabularies}
             audioSrc="/science-and-technology/israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3"
-            articles={articles}
+            paragraphs={paragraphs}
             scanQuestions={scanQuestions}
             followupQuestions={followupQuestions}
           />

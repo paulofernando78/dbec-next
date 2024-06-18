@@ -1,50 +1,65 @@
-import { ArticleData, Articles } from "@/components/Articles";
+import {
+  DiscussionQuestion,
+  PreVocabulary,
+  Articles,
+  Paragraph,
+  ScanQuestion,
+  FollowupQuestion,
+} from "@/components/Articles";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 import {
-  iceCreamHiddenValleyRanch,
   macAndCheeseIceCreamFlavor,
+  iceCreamHiddenValleyRanch,
   potatoChipLaysFlamminHotDillPickle,
   potatoChipLaysStrawBerryBacon,
 } from "@/img/index";
 
-const articlesProps = {
-  titleImgSrc: macAndCheeseIceCreamFlavor,
-  titleImgAlt: "Hidden Valley Ranch Ice Cream Flavor",
-};
-
-const articles: ArticleData[] = [
+const slider = [
   {
-    discussion: true,
-    discussionQuestion: "Swipe the pictures above.",
-    discussionQuestions: [
-      {
-        question: "What can you see?",
-      },
-      {
-        question: "Do you see anything unusual?",
-      },
-    ],
-    preVocabulary: true,
-    vocabularies: [
-      {
-        component: (props) => <DictionaryCard {...props} />,
-        componentProps: {
-          audioSrc: "/b/brussels-sprout.mp3",
-          label: "brussels sprout",
-        },
-      },
-      {
-        component: (props) => <DictionaryCard {...props} />,
-        componentProps: {
-          audioSrc: "/f/flavors.mp3",
-          label: "flavors",
-        },
-      },
-    ],
-    listeningGist: true,
-    audioSrc: "/arts-and-culture/new-food-flavors-coming-to-stores/audio.mp3",
+    imgSrc: macAndCheeseIceCreamFlavor,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: iceCreamHiddenValleyRanch,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: potatoChipLaysFlamminHotDillPickle,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: potatoChipLaysStrawBerryBacon,
+    imgAlt: "...",
+  },
+];
+
+const discussionQuestions: DiscussionQuestion[] = [
+  {
+    question: "What place is it?",
+  },
+  {
+    question: "What are these scientists working on?",
+  },
+  {
+    question: 'What do you know about "embryos" and "stem cells"',
+  },
+];
+
+const preVocabularies: PreVocabulary[] = [
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/.../....mp3",
+      keyword: "...",
+      label: "...",
+    },
+  },
+];
+
+const paragraphs: Paragraph[] = [
+  {
     paragraphNumber: "Paragraph 1",
     enParagraphs: [
       {
@@ -257,46 +272,66 @@ const articles: ArticleData[] = [
     ],
   },
   {
-    listeningScan: true,
-    scanQuestion: true,
     scanQuestions: [
       {
-        question: "What unusual flavor did Hershey add to its Kit Kats?"
+        question: "What unusual flavor did Hershey add to its Kit Kats?",
       },
       {
-        question: "Which generation is driving the trend for new flavors?"
-      }
+        question: "Which generation is driving the trend for new flavors?",
+      },
     ],
     followupQuestion: true,
     followupQuestions: [
       {
-        question: "Have you ever tried any of the unusual flavors mentioned in the article? Share your experience.",
+        question:
+          "Have you ever tried any of the unusual flavors mentioned in the article? Share your experience.",
       },
       {
-        question: "Do you think introducing “shock flavors” is a good marketing strategy? Why or why not?",
+        question:
+          "Do you think introducing “shock flavors” is a good marketing strategy? Why or why not?",
       },
       {
-        question: "What unusual flavor combinations would you like to see in the future?",
+        question:
+          "What unusual flavor combinations would you like to see in the future?",
       },
       {
         question: "Are these flavors healthy?",
       },
       {
         question: "What are better choices?",
-      }
-    ]
-  }
+      },
+    ],
+  },
+];
+
+const scanQuestions: ScanQuestion[] = [
+  {
+    question: "...",
+  },
+];
+const followupQuestions: FollowupQuestion[] = [
+  {
+    question: "...",
+  },
 ];
 
 export default function NewFoodFlavorsComingToStores() {
   return (
     <>
       <Whiteboard
-        title="Listening / Speaking"
-        subtitle="Articles"
-        descriptions={["New Food Flavors Coming To Stores"]}
+        title="Extras"
+        subtitle="Listening"
+        descriptions={["Article", "New Food Flavors Coming To Stores"]}
       />
-      <Articles {...articlesProps} articles={articles} />
+      <Articles
+        discussion="..."
+        discussionQuestions={discussionQuestions}
+        preVocabularies={preVocabularies}
+        audioSrc="/arts-and-culture/new-food-flavors-coming-to-stores/audio.mp3"
+        paragraphs={paragraphs}
+        scanQuestions={scanQuestions}
+        followupQuestions={followupQuestions}
+      />
     </>
   );
 }
