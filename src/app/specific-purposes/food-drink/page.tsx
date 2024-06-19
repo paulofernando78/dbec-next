@@ -6,7 +6,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Collapsible } from "@/components/Collapsible/Collapsible";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
-export default function FoodDrink() {
+export default function FoodAndDrink() {
   return (
     <>
       <Whiteboard title="Specific Purposes" subtitle="Food / Drink" />
@@ -24,6 +24,8 @@ export default function FoodDrink() {
           </Card>
           <div className="flex-col">
             <DictionaryCard label="apple" audioSrc="/a/apple.mp3" />
+            <DictionaryCard audioSrc="/c/caper.mp3" label="caper" />
+
             <DictionaryCard label="plantain" audioSrc="/p/plantain.mp3" />
             <DictionaryCard label="strawberry" audioSrc="/s/strawberry.mp3" />
           </div>

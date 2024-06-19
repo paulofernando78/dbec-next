@@ -1,3 +1,4 @@
+import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import {
   DiscussionQuestion,
   PreVocabulary,
@@ -6,8 +7,9 @@ import {
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Articles";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import Slider from "@/components/Slider";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 
 import {
   macAndCheeseIceCreamFlavor,
@@ -19,31 +21,52 @@ import {
 const slider = [
   {
     imgSrc: macAndCheeseIceCreamFlavor,
-    imgAlt: "...",
+    imgAlt: "Ben Van Leeuwen scoops Kraft Mac & Cheese flavored ice cream Wednesday, May 15, 2024, in the Brooklyn borough of New York. (AP Photo/Frank Franklin II)",
   },
   {
     imgSrc: iceCreamHiddenValleyRanch,
-    imgAlt: "...",
+    imgAlt: "Ranch Hidden Valley ice cream flavor",
   },
   {
     imgSrc: potatoChipLaysFlamminHotDillPickle,
-    imgAlt: "...",
+    imgAlt: "Lays Flammin Hot Dill Pickle potato chip",
   },
   {
     imgSrc: potatoChipLaysStrawBerryBacon,
-    imgAlt: "...",
+    imgAlt: "Lays Strawberry with Bacon potato chip",
   },
 ];
 
 const discussionQuestions: DiscussionQuestion[] = [
   {
-    question: "What place is it?",
+    questions: [
+      {
+        question: "1. Is there anything",
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "",
+          label: "unusual",
+        },
+        question: "about these flavors?",
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "",
+          label: "flavors",
+        },
+        question: "?",
+      },
+    ],
   },
   {
-    question: "What are these scientists working on?",
-  },
-  {
-    question: 'What do you know about "embryos" and "stem cells"',
+    questions: [
+      {
+        question: "2. Would you like to try them? Which ones?",
+      }
+    ],
   },
 ];
 
@@ -309,6 +332,7 @@ const scanQuestions: ScanQuestion[] = [
     question: "...",
   },
 ];
+
 const followupQuestions: FollowupQuestion[] = [
   {
     question: "...",
@@ -323,8 +347,9 @@ export default function NewFoodFlavorsComingToStores() {
         subtitle="Listening"
         descriptions={["Article", "New Food Flavors Coming To Stores"]}
       />
+      <Slider images={slider} />
       <Articles
-        discussion="..."
+        discussion="Check out the pictures above. Swipe them to the right and answer the questions."
         discussionQuestions={discussionQuestions}
         preVocabularies={preVocabularies}
         audioSrc="/arts-and-culture/new-food-flavors-coming-to-stores/audio.mp3"

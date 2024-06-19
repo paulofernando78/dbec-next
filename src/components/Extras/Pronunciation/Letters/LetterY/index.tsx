@@ -1,7 +1,7 @@
 import { Card } from "@/components/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
-export const LettersY = () => {
+export const LetterY = () => {
   return (
     <>
       <div className="line-break">
@@ -43,7 +43,12 @@ export const LettersY = () => {
             phonetics="/ɪ/"
           />
         <DictionaryCard
-            audioSrc="/i/sphynx.mp3"
+            audioSrc="/p/physics.mp3"
+            label="ph<span class='underline'>y</span>sics"
+            phonetics="/ˈfɪz.ɪks/"
+          />
+        <DictionaryCard
+            audioSrc="/s/sphynx.mp3"
             label="sph<span class='underline'>y</span>nx"
             phonetics="/sfɪŋks/"
           />

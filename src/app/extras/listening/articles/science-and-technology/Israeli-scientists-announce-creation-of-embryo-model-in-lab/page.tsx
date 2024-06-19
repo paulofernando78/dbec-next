@@ -1,3 +1,4 @@
+import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import {
   DiscussionQuestion,
   PreVocabulary,
@@ -6,10 +7,9 @@ import {
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Articles";
+import Slider from "@/components/Slider";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
-import Slider from "@/components/Slider";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 import { labEmbryo, labEmbryo2, labEmbryo3, labScientist } from "@/img/index";
 
@@ -63,7 +63,7 @@ const discussionQuestions: DiscussionQuestion[] = [
   {
     questions: [
       {
-        question: "2. ",
+        question: "2. ...",
       }
     ],
   },

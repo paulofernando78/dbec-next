@@ -64,6 +64,16 @@ export const LetterA = () => {
             phonetics="/ɑː/"
           />
           <DictionaryCard
+            audioSrc="/m/mall.mp3"
+            label="m<span class='underline'>a</span>ll"
+            phonetics="/mɑːl/"
+          />
+          <DictionaryCard
+            audioSrc="/m/mall.mp3"
+            label="sm<span class='underline'>a</span>ll"
+            phonetics="/smɑːl/"
+          />
+          <DictionaryCard
             audioSrc="/s/spa.mp3"
             label="sp<span class='underline'>a</span>"
             phonetics="/spɑː/"

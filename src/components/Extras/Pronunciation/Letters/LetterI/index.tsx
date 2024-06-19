@@ -26,6 +26,7 @@ export const LetterI = () => {
           />
         </div>
         <hr />
+        <p>The letter "i" will have this sound most of the time:</p>
         <div className="flex-8px-center-wrap">
           <DictionaryCard
             audioSrc="/phonetics/x.mp3"
@@ -39,7 +40,7 @@ export const LetterI = () => {
           />
           <DictionaryCard
             audioSrc="/d/difficult.mp3"
-            label="d<span class='underline'>i</span>ff<span class='underline'>i</span>cult"
+            label="d<span class='underline'>i</span>ffi</span>cult"
             phonetics="/ˈdɪf.ə.kəlt/"
           />
           <DictionaryCard
@@ -116,9 +117,19 @@ export const LetterI = () => {
             phonetics="/naɪt/"
           />
           <DictionaryCard
+            audioSrc="/s/swipe.mp3"
+            label="swipe"
+            phonetics="/.../"
+          />
+          <DictionaryCard
             audioSrc="/t/time.mp3"
             label="time"
             phonetics="/taɪm/"
+          />
+          <DictionaryCard
+            audioSrc="/w/wipe.mp3"
+            label="wipe"
+            phonetics="/.../"
           />
         </div>
       </div>

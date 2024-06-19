@@ -6,7 +6,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { LetterA } from "@/components/Extras/Pronunciation/Letters/LetterA";
 import { LettersAwAwe } from "@/components/Extras/Pronunciation/Letters/LettersAwAwe";
 import { ScrollToTop } from "@/components/ScrollToTop";
-import { LettersY } from "@/components/Extras/Pronunciation/Letters/LetterY";
+import { LetterY } from "@/components/Extras/Pronunciation/Letters/LetterY";
 import { LettersEY } from "@/components/Extras/Pronunciation/Letters/LetterEY";
 import { LetterI } from "@/components/Extras/Pronunciation/Letters/LetterI";
 import { LetterIE } from "@/components/Extras/Pronunciation/Letters/LetterIE";
@@ -15,6 +15,7 @@ import { LetterAvsE } from "@/components/Extras/Pronunciation/Letters/LettersAvs
 import { LetterEaEE } from "@/components/Extras/Pronunciation/Letters/LettersEaEE";
 import { LettersEAi } from "@/components/Extras/Pronunciation/Letters/LettersEAi";
 import { LetterU } from "@/components/Extras/Pronunciation/Letters/LetterU";
+import { LettersAU } from "@/components/Extras/Pronunciation/Letters/LettersAU";
 
 export default function Pronunciation() {
   return (
@@ -43,7 +44,7 @@ export default function Pronunciation() {
           <a href="#letter-i">
             <p>Letter i</p>
           </a>
-          <a href="#letter-ee-long-vs-i-(short)">
+          <a href="#letter-ee-long-vs-i-short">
             <p>Letters ee • ea (long) vs. i (short)</p>
           </a>
           <a href="#letter-ie">
@@ -82,6 +83,9 @@ export default function Pronunciation() {
         <div id="letter-a">
           <LetterA />
         </div>
+        <div id="letter-a">
+          <LettersAU />
+        </div>
         <div id="letters-aw-awe">
           <LettersAwAwe />
         </div>
@@ -97,7 +101,7 @@ export default function Pronunciation() {
         <div id="letter-i">
           <LetterI />
         </div>
-        <div id="letter-i">
+        <div id="letter-ee-long-vs-i-short">
           <LettersEAi />
         </div>
         <div id="letter-ie">
@@ -111,7 +115,7 @@ export default function Pronunciation() {
           <LetterU />
         </div>
         <div id="letter-y">
-          <LettersY />
+          <LetterY />
         </div>
         <div id="letter-ey">
           <LettersEY />
