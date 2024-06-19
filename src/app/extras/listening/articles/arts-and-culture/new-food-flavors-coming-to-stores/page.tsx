@@ -13,9 +13,13 @@ import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 
 import {
   macAndCheeseIceCreamFlavor,
+  chocolatePinkLemonadeKitKat,
   iceCreamHiddenValleyRanch,
-  potatoChipLaysFlamminHotDillPickle,
   potatoChipLaysStrawBerryBacon,
+  iceCreamLittleMoonFishMochi,
+  potatoChipLaysFlamminHotDillPickle,
+  potatoChipWalkersBrusselsSprout,
+  cookieOreoSourPatch
 } from "@/img/index";
 
 const slider = [
@@ -28,12 +32,28 @@ const slider = [
     imgAlt: "Ranch Hidden Valley ice cream flavor",
   },
   {
-    imgSrc: potatoChipLaysFlamminHotDillPickle,
-    imgAlt: "Lays Flammin Hot Dill Pickle potato chip",
+    imgSrc: chocolatePinkLemonadeKitKat,
+    imgAlt: "Lemonade Pink Kit Kat chocolate",
   },
   {
     imgSrc: potatoChipLaysStrawBerryBacon,
     imgAlt: "Lays Strawberry with Bacon potato chip",
+  },
+  {
+    imgSrc: iceCreamLittleMoonFishMochi,
+    imgAlt: "Little Moon's fish mochi ice cream",
+  },
+  {
+    imgSrc: potatoChipLaysFlamminHotDillPickle,
+    imgAlt: "Lays Flammin Hot Dill Pickle potato chip",
+  },
+  {
+    imgSrc: potatoChipWalkersBrusselsSprout,
+    imgAlt: "Walker's Brussels sprout potato chip",
+  },
+  {
+    imgSrc: cookieOreoSourPatch,
+    imgAlt: "Oreo's Sour Patch cookies",
   },
 ];
 

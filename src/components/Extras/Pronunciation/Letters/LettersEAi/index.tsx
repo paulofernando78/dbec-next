@@ -52,7 +52,7 @@ export const LettersEAi = () => {
               phonetics="/liːv/"
             />
             <DictionaryCard
-              audioSrc="/l/live.mp3"
+              audioSrc="/l/live1.mp3"
               label="l<span class='underline'>i</spand>ve"
               phonetics="/lɪv/"
             />
@@ -66,12 +66,12 @@ export const LettersEAi = () => {
             <DictionaryCard
               audioSrc="/r/rid.mp3"
               label="r<span class='underline'>i</spand>d"
-              phonetics="/dɪd/"
+              phonetics="/rɪd/"
             />
           </div>
           <div className="flex-8px-center-wrap">
             <DictionaryCard
-              audioSrc="/seat/seat.mp3"
+              audioSrc="/s/seat.mp3"
               label="s<span class='underline'>ea</span>t"
               phonetics="/siːt/"
             />
