@@ -1,4 +1,4 @@
-import { Card } from "@/components/Card";
+import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 export const LetterY = () => {
@@ -9,7 +9,7 @@ export const LetterY = () => {
           <p className="bold">Letter y</p>
         </Card>
         <div className="flex-8px-center-wrap">
-        <DictionaryCard
+          <DictionaryCard
             audioSrc="/.../.mp3"
             label="phonetics"
             phonetics="/i/"
@@ -37,17 +37,17 @@ export const LetterY = () => {
         </div>
         <hr />
         <div className="flex-8px-center-wrap">
-        <DictionaryCard
+          <DictionaryCard
             audioSrc="/.../.mp3"
             label="phonetics"
             phonetics="/ɪ/"
           />
-        <DictionaryCard
+          <DictionaryCard
             audioSrc="/p/physics.mp3"
             label="ph<span class='underline'>y</span>sics"
             phonetics="/ˈfɪz.ɪks/"
           />
-        <DictionaryCard
+          <DictionaryCard
             audioSrc="/s/sphynx.mp3"
             label="sph<span class='underline'>y</span>nx"
             phonetics="/sfɪŋks/"

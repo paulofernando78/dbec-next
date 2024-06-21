@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
-import { Card } from "@/components/Card";
+import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { Collapsible } from "@/components/Collapsible/Collapsible";

@@ -236,6 +236,14 @@ p {
   top: 3px;
 }
 
+/* BORDER */
+
+.border-red-dashed {
+  border-radius: var(--border-radius);
+  padding: 8px;
+  border: 2px dashed red;
+}
+
 /* AUDIO PLAYER / VIDEO */
 
 .sticky {

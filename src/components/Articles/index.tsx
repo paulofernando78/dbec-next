@@ -1,5 +1,5 @@
 import { AudioPlayer } from "../Audioplayer/Audioplayer";
-import { Card } from "../Card";
+import { Card } from "../Cards/Card";
 import { Collapsible } from "../Collapsible/Collapsible";
 
 export interface FollowupQuestion {
@@ -67,23 +67,27 @@ export const Articles = ({
       <p className="bold">{discussion}</p>
 
       <div>
+        {/* dicussionQuestions */}
         {discussionQuestions.map(
           (discussionQuestion, discussionQuestionIndex) => (
             <div key={discussionQuestionIndex}>
               {discussionQuestion.questions.map((question, questionIndex) => (
                 <span key={questionIndex}>
+                  {/* question.component */}
                   {question.component && (
                     <span className="margin-right">
                       {question.component(question.componentProps)}
                     </span>
                   )}
+                  {/* question */}
                   <span className="p-font inline margin-right">
                     {question.question}
                   </span>
                 </span>
               ))}
             </div>
-          ))}
+          )
+        )}
       </div>
       <Card bgColor="Black" textColor="White">
         <div className="flex-8px-start-space-between">
@@ -91,6 +95,7 @@ export const Articles = ({
           <p className="p-size-smaller">'10</p>
         </div>
       </Card>
+      {/* preVocabularies */}
       <div className="flex-8px-center-wrap">
         {preVocabularies?.map((preVocabulary, indexPreVocabulary) => (
           <span key={indexPreVocabulary}>
@@ -123,14 +128,17 @@ export const Articles = ({
           <div>
             <div>
               <div>
+                {/* enParagraphs */}
                 {paragraph.enParagraphs?.map(
                   (enParagraph, enParagraphIndex) => (
                     <span key={enParagraphIndex}>
+                      {/* enParagraph.component */}
                       {enParagraph.component && (
                         <span className="margin-right">
                           {enParagraph.component(enParagraph.componentProps)}
                         </span>
                       )}
+                      {/* enParagraph */}
                       {enParagraph.enParagraph && (
                         <span className="p-font inline margin-right">
                           {enParagraph.enParagraph}
@@ -141,6 +149,7 @@ export const Articles = ({
                 )}
               </div>
             </div>
+            {/* ptParagraph */}
             {paragraph.ptParagraph && (
               <div className="margin-top">
                 <Collapsible labelBold="Translation">
@@ -163,6 +172,7 @@ export const Articles = ({
         take notes.
       </p>
       <div>
+        {/* scanQuestions */}
         {scanQuestions.map((scanQuestion, scanQuestionIndex) => (
           <p key={scanQuestionIndex}>
             <span className="bold">{scanQuestionIndex + 1}</span>{" "}
@@ -177,6 +187,7 @@ export const Articles = ({
         </div>
       </Card>
       <div>
+        {/* followupQuestions */}
         {followupQuestions.map((followupQuestion, followQuestionIndex) => (
           <p key={followQuestionIndex}>
             <span className="bold">{followQuestionIndex + 1}</span>{" "}

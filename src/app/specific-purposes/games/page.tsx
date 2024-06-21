@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { Card } from "@/components/Card";
+import { Card } from "@/components/Cards/Card";
 
 export default function Games() {
   return (

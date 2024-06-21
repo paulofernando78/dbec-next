@@ -1,4 +1,4 @@
-import { Card } from "@/components/Card";
+import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 export const LetterA = () => {
@@ -64,6 +64,21 @@ export const LetterA = () => {
             phonetics="/ɑː/"
           />
           <DictionaryCard
+            audioSrc="/b/call.mp3"
+            label="b<span class='underline'>a</span>ll"
+            phonetics="/bɑːl/"
+          />
+          <DictionaryCard
+            audioSrc="/phonetics/c/call.mp3"
+            label="c<span class='underline'>a</span>ll"
+            phonetics="/kɑːl/"
+          />
+          <DictionaryCard
+            audioSrc="/f/fall.mp3"
+            label="f<span class='underline'>a</span>ll"
+            phonetics="/fɑːl/"
+          />
+          <DictionaryCard
             audioSrc="/m/mall.mp3"
             label="m<span class='underline'>a</span>ll"
             phonetics="/mɑːl/"
@@ -78,6 +93,26 @@ export const LetterA = () => {
             label="sp<span class='underline'>a</span>"
             phonetics="/spɑː/"
           />
+        </div>
+        <hr />
+        <div className="border-red-dashed line-break">
+          <div className="flex-8px-center-wrap">
+            <DictionaryCard
+              audioSrc="/c/call.mp3"
+              label="c<span class='underline'>a</span>ll"
+              phonetics="/kɑːl/"
+            />
+            <DictionaryCard
+              audioSrc="/c/cow.mp3"
+              label="c<span class='underline'>ow</span>"
+              phonetics="/kaʊ/"
+            />
+          </div>
+          <p className="bold">Listen to the differences. </p>
+          <div>
+            <p>Call me later.</p>
+            <p>Look! There's a cow.</p>
+          </div>
         </div>
       </div>
     </>

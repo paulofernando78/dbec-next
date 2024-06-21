@@ -69,7 +69,7 @@ const discussionQuestions: DiscussionQuestion[] = [
           audioSrc: "",
           label: "unusual",
         },
-        question: "about these flavors?",
+        question: "about these",
       },
       {
         component: (props) => <DictionaryCard {...props} />,
@@ -314,49 +314,33 @@ const paragraphs: Paragraph[] = [
       },
     ],
   },
-  {
-    scanQuestions: [
-      {
-        question: "What unusual flavor did Hershey add to its Kit Kats?",
-      },
-      {
-        question: "Which generation is driving the trend for new flavors?",
-      },
-    ],
-    followupQuestion: true,
-    followupQuestions: [
-      {
-        question:
-          "Have you ever tried any of the unusual flavors mentioned in the article? Share your experience.",
-      },
-      {
-        question:
-          "Do you think introducing “shock flavors” is a good marketing strategy? Why or why not?",
-      },
-      {
-        question:
-          "What unusual flavor combinations would you like to see in the future?",
-      },
-      {
-        question: "Are these flavors healthy?",
-      },
-      {
-        question: "What are better choices?",
-      },
-    ],
-  },
 ];
 
 const scanQuestions: ScanQuestion[] = [
   {
-    question: "...",
+    question: "What unusual flavor did Hershey add to its Kit Kats?",
+  },
+  {
+    question: "Which generation is driving the trend for new flavors?",
   },
 ];
 
 const followupQuestions: FollowupQuestion[] = [
   {
-    question: "...",
+    question: "Have you ever tried any of the unusual flavors mentioned in the article? Share your experience.",
   },
+  {
+    question: "Do you think introducing “shock flavors” is a good marketing strategy? Why or why not?",
+  },
+  {
+    question: "What unusual flavor combinations would you like to see in the future?",
+  },
+  {
+    question: "Are these flavors healthy?",
+  },
+  {
+    question: "What are better choices?",
+  }
 ];
 
 export default function NewFoodFlavorsComingToStores() {

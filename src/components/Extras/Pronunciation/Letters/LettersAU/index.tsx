@@ -1,4 +1,4 @@
-import { Card } from "@/components/Card";
+import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 export const LettersAU = () => {
@@ -20,7 +20,7 @@ export const LettersAU = () => {
             label="m<span class='underline'>au</span>l"
             phonetics="/mɑːl/"
           />
-         </div>
+        </div>
       </div>
     </>
   );

@@ -1,19 +1,23 @@
 import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
-export const LetterEaEE = () => {
+export const LettersOW = () => {
   return (
     <>
       <div className="line-break">
         <Card bgColor="lightgray" textColor="black">
-          <p className="bold">Letter ea • ee</p>
+          <p className="bold">Letters ow</p>
         </Card>
         <div className="flex-8px-center-wrap">
-          <DictionaryCard audioSrc="/.../....mp3" label="..." phonetics="/i/" />
           <DictionaryCard
-            audioSrc="/.../....mp3"
-            label="th<span class='underline'>ea</span>ter"
-            phonetics="/ˈθiː.ə.t̬ɚ/"
+            audioSrc="/c/cow.mp3"
+            label="phonetics"
+            phonetics="/aʊ/"
+          />
+          <DictionaryCard
+            audioSrc="/c/cow.mp3"
+            label="c<span class='underline'>ow</span>"
+            phonetics="/kaʊ/"
           />
         </div>
       </div>

@@ -1,4 +1,4 @@
-import { Card } from "@/components/Card";
+import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 export const LetterIE = () => {
@@ -9,7 +9,7 @@ export const LetterIE = () => {
           <p className="bold">Letter ie</p>
         </Card>
         <div className="flex-8px-center-wrap">
-        <DictionaryCard
+          <DictionaryCard
             audioSrc="/phonetics/i.mp3"
             label="<span class='display-none'>...</span>"
             phonetics="/i/"

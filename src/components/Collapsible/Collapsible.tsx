@@ -8,7 +8,7 @@ import styles from "./styles.module.css";
 // Images Icons
 import plusIcon from "@/img/icon/plus.png";
 import minusIcon from "@/img/icon/minus.png";
-import { Card } from "../Card";
+import { Card } from "../Cards/Card";
 
 interface CollapsibleProps {
   label?: string;
@@ -30,7 +30,9 @@ export const Collapsible = ({
     <>
       <Card>
         <span onClick={toggleCollapse} className="cursor-pointer">
-          <span className={`bold ${styles["plus-minus-position"]}`}>{isOpen ? "-" : "+"} </span>
+          <span className={`bold ${styles["plus-minus-position"]}`}>
+            {isOpen ? "-" : "+"}{" "}
+          </span>
           <span className={`${"user-select-none"}  `}>
             <b>
               {/* <Image

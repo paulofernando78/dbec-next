@@ -1,4 +1,4 @@
-import { Card } from "@/components/Card";
+import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 export const LettersEAi = () => {
@@ -94,11 +94,17 @@ export const LettersEAi = () => {
             />
           </div>
         </div>
-        <p className="bold">Listen and reapet.</p>
+        <p className="bold">Listen and repeat.</p>
         <div>
-          <p><span className="bold">A:</span> Please, have a seat.</p>
-          <p><span className="bold">B:</span> Oh, I can't sit here.</p>
-          <p><span className="bold">A:</span> This seat is broken.</p>
+          <p>
+            <span className="bold">A:</span> Please, have a seat.
+          </p>
+          <p>
+            <span className="bold">B:</span> Oh, I can't sit here.
+          </p>
+          <p>
+            <span className="bold">A:</span> This seat is broken.
+          </p>
         </div>
       </div>
     </>

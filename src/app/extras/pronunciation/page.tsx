@@ -1,7 +1,7 @@
 "use client";
 
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { Card } from "@/components/Card";
+import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { LetterA } from "@/components/Extras/Pronunciation/Letters/LetterA";
 import { LettersAwAwe } from "@/components/Extras/Pronunciation/Letters/LettersAwAwe";
@@ -14,8 +14,10 @@ import { LetterE } from "@/components/Extras/Pronunciation/Letters/LetterE";
 import { LetterAvsE } from "@/components/Extras/Pronunciation/Letters/LettersAvsE";
 import { LetterEaEE } from "@/components/Extras/Pronunciation/Letters/LettersEaEE";
 import { LettersEAi } from "@/components/Extras/Pronunciation/Letters/LettersEAi";
+import { LettersOW } from "@/components/Extras/Pronunciation/Letters/LetterOW";
 import { LetterU } from "@/components/Extras/Pronunciation/Letters/LetterU";
 import { LettersAU } from "@/components/Extras/Pronunciation/Letters/LettersAU";
+import { DashedCard } from "@/components/DashedCard";
 
 export default function Pronunciation() {
   return (
@@ -110,6 +112,7 @@ export default function Pronunciation() {
         <div id="letter-o"></div>
         <div id="letter-oo"></div>
         <div id="letter-ow"></div>
+        <LettersOW />
         <div id="letter-t"></div>
         <div id="letter-u">
           <LetterU />
