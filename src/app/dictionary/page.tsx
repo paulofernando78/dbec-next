@@ -6,7 +6,7 @@ import { useState } from "react";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { Button } from "@/components/Button/Button";
 import { WordCard } from "@/components/WordCard/WordCard";
-import { DescriptionCard } from "@/components/DescriptionCard/DescriptionCard";
+import { DescriptionCard } from "@/components/Cards/DescriptionCard";
 
 // Utils
 import { searchWords } from "@/utils/searchWords";
@@ -34,7 +34,7 @@ const descriptions = [
       },
     ],
   },
-]
+];
 
 export default function Dictionary() {
   const [text, setText] = useState("");
@@ -61,7 +61,13 @@ export default function Dictionary() {
     <>
       <Whiteboard
         title="Dictionary"
-        descriptions={["verbs", "phrasal verbs", "nouns", "adjectives", "idioms"]}
+        descriptions={[
+          "verbs",
+          "phrasal verbs",
+          "nouns",
+          "adjectives",
+          "idioms",
+        ]}
       />
       <div className="line-break">
         <DescriptionCard descriptions={descriptions} />

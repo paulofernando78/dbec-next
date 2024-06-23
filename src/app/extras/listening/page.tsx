@@ -1,4 +1,4 @@
-import { DescriptionCard } from "@/components/DescriptionCard/DescriptionCard";
+import { DescriptionCard } from "@/components/Cards/DescriptionCard";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 const descriptions = [
@@ -29,7 +29,7 @@ const descriptions = [
       {
         globeLink: "/extras/listening/articles/science-and-technology",
         globeLabel: "Science & Technology",
-      }
+      },
     ],
   },
   {
@@ -45,7 +45,7 @@ const descriptions = [
       },
     ],
   },
- 
+
   {
     label: "Miscellaneous",
     contents: [
@@ -64,7 +64,7 @@ const descriptions = [
       {
         globeLink: "https://lyricstraining.com/",
         globeLabel: "Lyrics training",
-      }
+      },
     ],
   },
 ];

@@ -17,7 +17,6 @@ import { LettersEAi } from "@/components/Extras/Pronunciation/Letters/LettersEAi
 import { LettersOW } from "@/components/Extras/Pronunciation/Letters/LetterOW";
 import { LetterU } from "@/components/Extras/Pronunciation/Letters/LetterU";
 import { LettersAU } from "@/components/Extras/Pronunciation/Letters/LettersAU";
-import { DashedCard } from "@/components/DashedCard";
 
 export default function Pronunciation() {
   return (
@@ -85,7 +84,7 @@ export default function Pronunciation() {
         <div id="letter-a">
           <LetterA />
         </div>
-        <div id="letter-a">
+        <div id="letter-au">
           <LettersAU />
         </div>
         <div id="letters-aw-awe">

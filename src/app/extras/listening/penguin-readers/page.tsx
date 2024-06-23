@@ -1,4 +1,4 @@
-import { DescriptionCard } from "@/components/DescriptionCard/DescriptionCard";
+import { DescriptionCard } from "@/components/Cards/DescriptionCard";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import React from "react";
 
@@ -37,7 +37,11 @@ const descriptions = [
 export default function PenguinReaders() {
   return (
     <>
-    <Whiteboard title="Extras" subtitle="Litening" descriptions={["Penguin Readers"]} />
+      <Whiteboard
+        title="Extras"
+        subtitle="Litening"
+        descriptions={["Penguin Readers"]}
+      />
       <DescriptionCard descriptions={descriptions} />
     </>
   );

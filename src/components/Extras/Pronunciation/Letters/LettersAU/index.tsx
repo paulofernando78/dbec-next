@@ -1,26 +1,62 @@
 import { Card } from "@/components/Cards/Card";
+import { Pronunciation, PronunciationCard } from "@/components/Cards/PronunciationCard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+
+const pronunciations: Pronunciation[] = [
+  {
+    label: 'Letter "au"',
+    phonetics: [
+      {
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/phonetics/xxx.xmp3",
+              label: "sound:",
+              phonetics: "/ɑː/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/m/maul.xmp3",
+              label: "maul",
+              phonetics: "/mɑːl/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "..."
+          },
+          {
+            enExample: "...",
+            ptExample: "..."
+          },
+          {
+            enExample: "...",
+            ptExample: "..."
+          },
+          {
+            enExample: "...",
+            ptExample: "..."
+          },
+          {
+            enExample: "...",
+            ptExample: "..."
+          },
+        ],
+      },
+    ],
+  },
+];
 
 export const LettersAU = () => {
   return (
     <>
       <div className="line-break">
-        <Card bgColor="lightgray" textColor="black">
-          <p className="bold">Letter "au"</p>
-        </Card>
-        <div className="flex-8px-center-wrap">
-          <DictionaryCard
-            audioSrc="/phonetics/x.mp3"
-            label="Phonetics"
-            phonetics="/ɑː/"
-          />
-          <DictionaryCard
-            audioSrc="/m/maul.mp3"
-            keyword="an"
-            label="m<span class='underline'>au</span>l"
-            phonetics="/mɑːl/"
-          />
-        </div>
+        <PronunciationCard pronunciations={pronunciations} />
       </div>
     </>
   );

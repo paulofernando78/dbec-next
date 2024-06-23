@@ -1,4 +1,4 @@
-import { DescriptionCard } from "@/components/DescriptionCard/DescriptionCard";
+import { DescriptionCard } from "@/components/Cards/DescriptionCard";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 const descriptions = [
@@ -35,7 +35,8 @@ const descriptions = [
       },
       {
         link: "/extras/grammar/uni-",
-        labelLink: "Unit 8 • I am doing (present continouos) and I do (simple present)",
+        labelLink:
+          "Unit 8 • I am doing (present continouos) and I do (simple present)",
       },
       {
         link: "/extras/grammar/uni-",

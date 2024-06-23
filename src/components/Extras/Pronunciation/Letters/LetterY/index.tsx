@@ -15,6 +15,11 @@ export const LetterY = () => {
             phonetics="/i/"
           />
           <DictionaryCard
+            audioSrc="/a/army.mp3"
+            label="arm<span class='underline'>y</span>"
+            phonetics="/ˈɑːr.mi/"
+          />
+          <DictionaryCard
             audioSrc="/c/city.mp3"
             label="cit<span class='underline'>y</span>"
             phonetics="/ˈsɪt̬.i/"

@@ -56,7 +56,7 @@ export const DictionaryCard = ({
           onClick={playAudio}
           className={styles["play-button"]}
         />
-        <span className={styles["label"]} dangerouslySetInnerHTML={{ __html: label}}></span>
+        {label && <span className={styles["label"]} dangerouslySetInnerHTML={{ __html: label}}></span>}
         {phonetics && (
           <span className={`phonetics ${styles["phonetics-margin"]}`}>
             {phonetics}

@@ -1,79 +1,148 @@
 import { Card } from "@/components/Cards/Card";
+import {
+  Pronunciation,
+  PronunciationCard,
+} from "@/components/Cards/PronunciationCard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+
+const pronunciations: Pronunciation[] = [
+  {
+    label: 'Letters "aw" and "awe"',
+    phonetics: [
+      {
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/phonetics/ɑ.mp3",
+              label: "phonetics",
+              phonetics: "/ɑː/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/a/awful.mp3",
+              label: "awful",
+              phonetics: "/ˈɑː.fəl/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/a/awfully.mp3",
+              label: "awfully",
+              phonetics: "/ˈɑː.fəl.i/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/c/caw.mp3",
+              label: "caw",
+              phonetics: "/kɑː/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/d/dawn.mp3",
+              label: "dawn",
+              phonetics: "/dɑːn/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/d/draw.mp3",
+              label: "draw",
+              phonetics: "/drɑː/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/g/gnaw.mp3",
+              label: "gnaw",
+              phonetics: "/nɑː/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/l/law.mp3",
+              label: "law",
+              phonetics: "/lɑː/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/l/lawsuit.mp3",
+              label: "lawsuit",
+              phonetics: "xxx",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/saw.mp3",
+              label: "saw",
+              phonetics: "/sɑː/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/spawn.mp3",
+              label: "spawn",
+              phonetics: "/spɑːn/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "..."
+          },
+        ],
+        showHR: true
+      },
+      {
+          words: [
+            {
+              component: (props) => <DictionaryCard {...props} />,
+              componentProps: {
+                audioSrc: "/a/awesome.xmp3",
+                label: "awesome",
+                phonetics: " /ˈɑː.səm/",
+              },
+            },
+            {
+              component: (props) => <DictionaryCard {...props} />,
+              componentProps: {
+                audioSrc: "/a/awe.xmp3",
+                label: "awe",
+                phonetics: "/ɑː/",
+              },
+            },
+          ],
+          examples: [
+            {
+              enExample: "...",
+              ptExample: "..."
+            },
+          ],
+        },
+    ],
+  },
+];
 
 export const LettersAwAwe = () => {
   return (
     <>
       <div className="line-break">
-        <Card bgColor="lightgray" textColor="black">
-          <p className="bold">Letters aw • awe</p>
-        </Card>
-        <div className="flex-8px-center-wrap">
-          <DictionaryCard audioSrc="/a/" label="phonetics" phonetics="/ɑː/" />
-          <DictionaryCard
-            audioSrc="/a/awful.mp3"
-            label="<span class='underline'>aw</span>ful"
-            phonetics="/ˈɑː.fəl/"
-          />
-          <DictionaryCard
-            audioSrc="/a/awfully.mp3"
-            label="<span class='underline'>aw</span>fully"
-            phonetics="/ˈɑː.fəl.i/"
-          />
-          <DictionaryCard
-            audioSrc="/c/caw.mp3"
-            label="c<span class='underline'>aw</span>"
-            phonetics="/kɑː/"
-          />
-          <DictionaryCard
-            audioSrc="/d/dawn.mp3"
-            label="d<span class='underline'>aw</span>n"
-            phonetics="/dɑːn/"
-          />
-          <DictionaryCard
-            audioSrc="/d/draw.mp3"
-            label="dr<span class='underline'>aw</span>"
-            phonetics="/drɑː/"
-          />
-          <DictionaryCard
-            audioSrc="/g/gnaw.mp3"
-            label="gn<span class='underline'>aw</span>"
-            phonetics="/nɑː/"
-          />
-          <DictionaryCard
-            audioSrc="/l/law.mp3"
-            label="l<span class='underline'>aw</span>"
-            phonetics="/lɑː/"
-          />
-          <DictionaryCard
-            audioSrc="/l/lawsuit.mp3"
-            label="l<span class='underline'>aw</span>suit"
-            phonetics="/ˈlɑː.suːt/"
-          />
-          <DictionaryCard
-            audioSrc="/s/saw.mp3"
-            label="s<span class='underline'>aw</span>"
-            phonetics="/sɑː/"
-          />
-          <DictionaryCard
-            audioSrc="/s/spawn.mp3"
-            label="sp<span class='underline'>aw</span>n"
-            phonetics="/spɑːn/"
-          />
-        </div>
-        <hr />
-        <div className="flex-8px-center-wrap">
-          <DictionaryCard
-            audioSrc="/a/awesome.mp3"
-            label="<span class='underline'>awe</span>some"
-            phonetics=" /ˈɑː.səm/"
-          />
-          <DictionaryCard
-            audioSrc="/a/awe.mp3"
-            label="<span class='underline'>awe</span>"
-            phonetics="/ɑː/"
-          />
-        </div>
+      <PronunciationCard pronunciations={pronunciations} />
       </div>
     </>
   );
