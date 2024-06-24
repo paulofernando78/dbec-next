@@ -18,3 +18,10 @@
 .hr-margin {
   margin-block: 1rem;
 }
+
+.grid-words {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: start;
+  gap: 8px;
+}

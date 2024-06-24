@@ -33,7 +33,7 @@ export default function Pronunciation() {
           <a href="#letters-aw-awe">
             <p>Letters aw • awe</p>
           </a>
-          <a href="#letter-a">
+          <a href="#letter-e">
             <p>Letter e</p>
           </a>
           <a href="#letters-a-vs-e">

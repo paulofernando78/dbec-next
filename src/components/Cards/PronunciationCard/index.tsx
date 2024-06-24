@@ -7,7 +7,7 @@ export interface Example {
 
 export interface Word {
   component: (props: { audioSrc: string; label: string }) => JSX.Element;
-  componentProps: { audioSrc: string; label: string; phonetics: string };
+  componentProps: { audioSrc: string; keyword?: string; label: string; phonetics: string };
   showHr?: boolean;
 }
 
@@ -17,6 +17,7 @@ interface Phonetic {
   words: Word[];
   examples?: Example[];
   showHR?: boolean;
+  applyGrid?: boolean
 }
 
 export interface Pronunciation {
@@ -50,7 +51,8 @@ export const PronunciationCard = ({ pronunciations }: PronunciationProps) => {
                 {phonetic.beforeText && (
                   <p className="bold margin-bottom">{phonetic.beforeText}</p>
                 )}
-                <div className="flex-8px-center-wrap">
+
+                <div className={`${phonetic.applyGrid ? styles["grid-words"] : "flex-8px-center-wrap"}`}>
                   {/* words */}
                   {phonetic.words.map((word, wordIndex) => (
                     <div key={wordIndex}>
@@ -58,6 +60,7 @@ export const PronunciationCard = ({ pronunciations }: PronunciationProps) => {
                     </div>
                   ))}
                 </div>
+
                 {/* examples */}
                 <div className="margin-top">
                   <p className="bold margin-bottom">Listen and repeat.</p>
