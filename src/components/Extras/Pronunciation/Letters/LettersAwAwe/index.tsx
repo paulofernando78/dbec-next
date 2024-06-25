@@ -1,4 +1,3 @@
-import { Card } from "@/components/Cards/Card";
 import {
   Pronunciation,
   PronunciationCard,
@@ -8,17 +7,16 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: 'Letters "aw" and "awe"',
+    sound: "/ɑː/",
     phonetics: [
       {
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/ɑ.mp3",
+          label: "phonetics",
+          phonetics: "/ɑː/",
+        },
         words: [
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/phonetics/ɑ.mp3",
-              label: "phonetics",
-              phonetics: "/ɑː/",
-            },
-          },
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -85,6 +83,15 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/l/lawn.mp3",
+              keyword: "lawn",
+              label: "l<span class='underline'>awn</span>",
+              phonetics: "/lɑːn/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/l/lawsuit.mp3",
               keyword: "lawsuit",
               label: "l<span class='underline'>aw</span>suit",
@@ -113,69 +120,59 @@ const pronunciations: Pronunciation[] = [
         examples: [
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
-          },
-          {
-            enExample: "...",
-            ptExample: "..."
-          },
-          {
-            enExample: "...",
-            ptExample: "..."
-          },
-          {
-            enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
         ],
-        showHR: true
+        showHR: true,
       },
       {
-          words: [
-            {
-              component: (props) => <DictionaryCard {...props} />,
-              componentProps: {
-                audioSrc: "/a/awesome.mp3",
-                label: "<span class='underline'>awe</span>some",
-                phonetics: " /ˈɑː.səm/",
-              },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/a/awesome.mp3",
+              keyword: "awesome",
+              label: "<span class='underline'>awe</span>some",
+              phonetics: " /ˈɑː.səm/",
             },
-            {
-              component: (props) => <DictionaryCard {...props} />,
-              componentProps: {
-                audioSrc: "/a/awe.mp3",
-                label: "<span class='underline'>awe</span>",
-                phonetics: "/ɑː/",
-              },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/a/awe.mp3",
+              keyword: "awe",
+              label: "<span class='underline'>awe</span>",
+              phonetics: "/ɑː/",
             },
-          ],
-          examples: [
-            {
-              enExample: "...",
-              ptExample: "..."
-            },
-            {
-              enExample: "...",
-              ptExample: "..."
-            },
-            {
-              enExample: "...",
-              ptExample: "..."
-            },
-            {
-              enExample: "...",
-              ptExample: "..."
-            },
-            {
-              enExample: "...",
-              ptExample: "..."
-            },
-          ],
-        },
+          },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+        ],
+      },
     ],
   },
 ];
@@ -184,7 +181,7 @@ export const LettersAwAwe = () => {
   return (
     <>
       <div className="line-break">
-      <PronunciationCard pronunciations={pronunciations} />
+        <PronunciationCard pronunciations={pronunciations} />
       </div>
     </>
   );

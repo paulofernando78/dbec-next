@@ -59,19 +59,17 @@ const pronunciations: Pronunciation[] = [
       {
         beforeText:
           'When the letter "i" has a different sound. It\'ll sound close to "ê" in portuguese:',
+          phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/ɪ.mp3",
+          label: "phonetics",
+          phonetics: "/ɪ/",
+        },
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/phonetics/ɪ.mp3",
-              label: "phonetics",
-              phonetics: "/ɪ/",
-            },
-          },
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/p/police.mp3",
+              audioSrc: "/f/fix.mp3",
               keyword: "fix",
               label: "f<span class='underline'>i</span>x",
               phonetics: "/fɪks/",

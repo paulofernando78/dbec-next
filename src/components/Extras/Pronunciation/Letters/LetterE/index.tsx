@@ -4,18 +4,17 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: 'Letter "e"',
+    sound: "/e/, /i/",
     phonetics: [
       {
       beforeText: "...",
+      phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/e.mp3",
+          label: "phonetics",
+          phonetics: "/e/",
+        },
         words: [
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/phonetics/e.mp3",
-              label: "phonetics",
-              phonetics: "/e/",
-            },
-          },
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -60,15 +59,13 @@ const pronunciations: Pronunciation[] = [
         showHR: true
       },
       {
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/i.mp3",
+          label: "phonetics",
+          phonetics: "/i/",
+        },
         words: [
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/phonetics/i.mp3",
-              label: "phonetics",
-              phonetics: "/i/",
-            },
-          },
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {

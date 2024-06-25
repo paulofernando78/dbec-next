@@ -40,7 +40,7 @@ interface Phonetic {
 
 export interface Pronunciation {
   label: string;
-  sound: string;
+  sound?: string;
   phonetics: Phonetic[];
 }
 
