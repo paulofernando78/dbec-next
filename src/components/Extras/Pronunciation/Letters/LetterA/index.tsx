@@ -150,6 +150,7 @@ const pronunciations: Pronunciation[] = [
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
               audioSrc: "/b/ball.mp3",
+              keyword: "",
               label: "b<span class='underline'>a</span>ll",
               phonetics: "/bɑːl/",
             },
@@ -157,6 +158,7 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              keyword: "",
               audioSrc: "/c/call.mp3",
               label: "c<span class='underline'>a</span>ll",
               phonetics: "/kɑːl/",
@@ -165,6 +167,7 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              keyword: "",
               audioSrc: "/f/fall.mp3",
               label: "f<span class='underline'>a</span>ll",
               phonetics: "/fɑːl/",
@@ -173,6 +176,7 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              keyword: "",
               audioSrc: "/m/mall.mp3",
               label: "m<span class='underline'>a</span>ll",
               phonetics: "/mɑːl/",
@@ -181,6 +185,7 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              keyword: "",
               audioSrc: "/s/small.mp3",
               label: "sm<span class='underline'>a</span>ll",
               phonetics: "/smɑːl/",
@@ -189,6 +194,7 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              keyword: "",
               audioSrc: "/s/spa.mp3",
               label: "sp<span class='underline'>a</span>",
               phonetics: "/spɑː/",
@@ -259,6 +265,7 @@ const pronunciations: Pronunciation[] = [
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/ə.mp3",
+          keyword: "",
           label: "phonetics",
           phonetics: "/ə/",
         },

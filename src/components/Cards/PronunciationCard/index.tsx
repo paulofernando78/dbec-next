@@ -6,10 +6,10 @@ export interface Example {
 }
 
 export interface Word {
-  component: (props: { audioSrc: string; label: string }) => JSX.Element;
+  component: (props: { audioSrc: string; keyword: string; label: string }) => JSX.Element;
   componentProps: {
     audioSrc: string;
-    keyword?: string;
+    keyword: string;
     label: string;
     phonetics: string;
   };
@@ -19,14 +19,18 @@ export interface Word {
 interface Phonetic {
   applyRedDashedBorder?: boolean;
   beforeText?: string;
-  phoneticsComponent: (props: {
-    audioSrc: string;
-    label: string;
+  phoneticsComponent?: (props: {
+    audioSrc?: string;
+    keyword?: string
+    label?: string;
+    phonetics?: string
   }) => JSX.Element;
-  phoneticsComponentProps: {
-    audioSrc: string;
-    label: string;
-    phonetics: string;
+  phoneticsComponentProps?: {
+    audioSrc?: string;
+    keyword?: string
+    label?: string;
+    phonetics?: string
+
   };
   words: Word[];
   examples?: Example[];
