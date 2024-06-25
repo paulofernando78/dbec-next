@@ -8,17 +8,18 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: 'Letter "a"',
+    sound: "/æ/, /ɑː/, /ə/, /eɪ/",
     phonetics: [
+      // /æ/
       {
+        beforeText: "Listen and repeat.",
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/æ.mp3",
+          label: "phonetics",
+          phonetics: "/æ/",
+        },
         words: [
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/phonetics/æ.mp3",
-              label: "phonetics",
-              phonetics: "/æ/",
-            },
-          },
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -103,42 +104,48 @@ const pronunciations: Pronunciation[] = [
         ],
         examples: [
           {
-            enExample: "It's <span class='underline'>a</span>n <span class='underline'>a</span>pple.",
-            ptExample: "É uma maçã."
+            enExample:
+              "It's <span class='underline'>a</span>n <span class='underline'>a</span>pple.",
+            ptExample: "É uma maçã.",
           },
           {
-            enExample: "We're going to celebrate our wedding <span class='underline'>a</span>nniversary.",
-            ptExample: "Vamos celebrar nosso aniversário de casamento."
+            enExample:
+              "We're going to celebrate our wedding <span class='underline'>a</span>nniversary.",
+            ptExample: "Vamos celebrar nosso aniversário de casamento.",
           },
           {
-            enExample: "He's a b<span class='underline'>a</span>d m<span class='underline'>a</span>n.",
-            ptExample: "Ele é um homem mau."
+            enExample:
+              "He's a b<span class='underline'>a</span>d m<span class='underline'>a</span>n.",
+            ptExample: "Ele é um homem mau.",
           },
           {
-            enExample: "It's a bl<span class='underline'>a</span>ck b<span class='underline'>a</span>t.",
-            ptExample: "É um morgego preto."
+            enExample:
+              "It's a bl<span class='underline'>a</span>ck b<span class='underline'>a</span>t.",
+            ptExample: "É um morgego preto.",
           },
           {
-            enExample: "The c<span class='underline'>a</span>t is f<span class='underline'>a</span>t.",
-            ptExample: "O gato está gordo."
+            enExample:
+              "The c<span class='underline'>a</span>t is f<span class='underline'>a</span>t.",
+            ptExample: "O gato está gordo.",
           },
           {
-            enExample: "Your c<span class='underline'>a</span>p is r<span class='underline'>a</span>d.",
-            ptExample: "Seu boné é incrível/radical."
+            enExample:
+              "Your c<span class='underline'>a</span>p is r<span class='underline'>a</span>d.",
+            ptExample: "Seu boné é incrível/radical.",
           },
         ],
         showHR: true,
       },
+      // /ɑː/
       {
+        beforeText: "Listen and repeat.",
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/ɑ.mp3",
+          label: "phonetics",
+          phonetics: "/ɑː/",
+        },
         words: [
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/phonetics/ɑ.mp3",
-              label: "phonetics",
-              phonetics: "/ɑː/",
-            },
-          },
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -191,26 +198,27 @@ const pronunciations: Pronunciation[] = [
         examples: [
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
         ],
       },
+      // Difference between call and cow
       {
         applyRedDashedBorder: true,
         beforeText: "Listen to the differences.",
@@ -237,13 +245,76 @@ const pronunciations: Pronunciation[] = [
         examples: [
           {
             enExample: "Call me later.",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "Look, there's a cow.",
-            ptExample: "..."
-          }
-        ]
+            ptExample: "...",
+          },
+        ],
+      },
+      // /ə/
+      {
+        beforeText: "Listen and repeat.",
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/ə.mp3",
+          label: "phonetics",
+          phonetics: "/ə/",
+        },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/a/about.mp3",
+              keyword: "about",
+              label: "<span class='underline'>a</span>bout",
+              phonetics: "/əˈbaʊt/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/a/among.mp3",
+              keyword: "among",
+              label: "<span class='underline'>a</span>mong",
+              phonetics: "/.../",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+        ],
+      },
+      // /eɪ/
+      {
+        beforeText: "Listen and repeat.",
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/eɪ.mp3",
+          label: "phonetics",
+          phonetics: "/eɪ/",
+        },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/c/creative.mp3",
+              keyword: "creative",
+              label: "cre<span class='underline'>a</span>tive",
+              phonetics: "/kriˈeɪ.t̬ɪv/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+        ],
       },
     ],
   },

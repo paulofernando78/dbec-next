@@ -1,7 +1,6 @@
 .card-pronunciation {
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
-  
 }
 
 .card-pronunciation-label {
@@ -13,6 +12,10 @@
 
 .card-pronunciation-content {
   margin: 7px;
+}
+
+.phonetics-margin-bottom {
+  margin-bottom: .55rem;
 }
 
 .hr-margin {

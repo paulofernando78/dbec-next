@@ -42,7 +42,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/c/caw.mp3",
               keyword: "caw",
-              label: "<span class='underline'>aw</span>w",
+              label: "c<span class='underline'>aw</span>",
               phonetics: "/kɑː/",
             },
           },
@@ -139,7 +139,7 @@ const pronunciations: Pronunciation[] = [
             {
               component: (props) => <DictionaryCard {...props} />,
               componentProps: {
-                audioSrc: "/a/awesome.xmp3",
+                audioSrc: "/a/awesome.mp3",
                 label: "<span class='underline'>awe</span>some",
                 phonetics: " /ˈɑː.səm/",
               },
@@ -147,7 +147,7 @@ const pronunciations: Pronunciation[] = [
             {
               component: (props) => <DictionaryCard {...props} />,
               componentProps: {
-                audioSrc: "/a/awe.xmp3",
+                audioSrc: "/a/awe.mp3",
                 label: "<span class='underline'>awe</span>",
                 phonetics: "/ɑː/",
               },

@@ -126,7 +126,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/s/steal.mp3",
               keyword: "steel",
-              label: "steal / steel",
+              label: "steal",
               phonetics: "/stiːl/",
             },
           },
@@ -141,6 +141,22 @@ const pronunciations: Pronunciation[] = [
           },
         ],
         examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
           {
             enExample: "...",
             ptExample: "...",

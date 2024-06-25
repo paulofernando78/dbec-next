@@ -42,7 +42,7 @@ const pronunciations: Pronunciation[] = [
               audioSrc: "/b/bed.mp3",
               keyword: "bed",
               label: "b<span class='underline'>e</span>d",
-              phonetics: "/bæd/",
+              phonetics: "/bed/",
             },
           },
           {
