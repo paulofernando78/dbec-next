@@ -10,11 +10,6 @@ export default function Medicine() {
             <b>Vocabulary</b>
           </p>
         </Link>
-        <Link href="/specific-purposes/medicine/articles">
-          <p>
-            <b>Articles</b>
-          </p>
-        </Link>
       </div>
   );
 }
