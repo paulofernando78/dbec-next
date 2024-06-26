@@ -164,6 +164,7 @@ export default function Pronunciation() {
             I wor<span className="underline">k in an o</span>ffice.
           </p>
           <p>Let's ha<span className="underline">ve an a</span>dventure.</p>
+          <p>It'<span className="underline">s an e</span>asy job.</p>
           <p>
             Embar<span className="underline">k on an e</span>xtraordinary
             journey...
