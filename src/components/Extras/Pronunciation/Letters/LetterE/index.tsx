@@ -6,8 +6,8 @@ const pronunciations: Pronunciation[] = [
     label: 'Letter "e"',
     sound: "/e/, /i/",
     phonetics: [
+      // /e/
       {
-      beforeText: "...",
       phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/e.mp3",
@@ -58,6 +58,49 @@ const pronunciations: Pronunciation[] = [
         ],
         showHR: true
       },
+      // /ɝː/
+      {
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/i.mp3",
+          label: "phonetics",
+          phonetics: "/i/",
+        },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/p/person.mp3",
+              keyword: "person",
+              label: "p<span class='underline'>er</span>son",
+              phonetics: "/ˈpɝː.sən/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "..."
+          },
+          {
+            enExample: "...",
+            ptExample: "..."
+          },
+          {
+            enExample: "...",
+            ptExample: "..."
+          },
+          {
+            enExample: "...",
+            ptExample: "..."
+          },
+          {
+            enExample: "...",
+            ptExample: "..."
+          },
+        ],
+      },
+      // /i/
       {
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {

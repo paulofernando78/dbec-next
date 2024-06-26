@@ -109,7 +109,7 @@ export default function Pronunciation() {
         </div>
         <div id="letter-ie">
           <LetterIE />
-        </div>
+        </div> 
         <div id="letter-o">
           <LettersO />
         </div>

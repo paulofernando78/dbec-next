@@ -221,25 +221,26 @@ const pronunciations: Pronunciation[] = [
         ],
         examples: [
           {
-            enExample: "...",
-            ptExample: "...",
+            enExample: "That's all folks!",
+            ptExample: "É isso aí pessoal!",
           },
           {
-            enExample: "...",
-            ptExample: "...",
+            enExample: "Kick the ball.",
+            ptExample: "Chute a bola.",
           },
           {
-            enExample: "...",
-            ptExample: "...",
+            enExample: "Can I call you now?",
+            ptExample: "Posso te ligar mais agora?",
           },
           {
-            enExample: "...",
-            ptExample: "...",
+            enExample: "Let's go to the mall.",
+            ptExample: "Vamos para o shopping.",
           },
           {
-            enExample: "...",
-            ptExample: "...",
+            enExample: "The building is very tall.",
+            ptExample: "O prédio/edifício é muito alto.",
           },
+
         ],
       },
       // Difference between call and cow
@@ -300,7 +301,7 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/a/about.mp3",
+              audioSrc: "/a/adventure.mp3",
               keyword: "about",
               label: "<span class='underline'>a</span>dventure",
               phonetics: "/ədˈven.tʃɚ/",
@@ -317,6 +318,10 @@ const pronunciations: Pronunciation[] = [
           },
         ],
         examples: [
+          {
+            enExample: "What is it about?",
+            ptExample: "Do que se trata / Sobre o que é?",
+          },
           {
             enExample: "...",
             ptExample: "...",

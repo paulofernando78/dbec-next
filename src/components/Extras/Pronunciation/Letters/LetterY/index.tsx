@@ -1,81 +1,144 @@
-import { Card } from "@/components/Cards/Card";
+import {
+  Pronunciation,
+  PronunciationCard,
+} from "@/components/Cards/PronunciationCard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+
+const pronunciations: Pronunciation[] = [
+  {
+    label: 'Letter "y"',
+    sound: "/i/, /j/",
+    phonetics: [
+      {
+        beforeText: "...",
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/i.mp3",
+          label: "phonetics",
+          phonetics: "/i/",
+        },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/a/anniversary.mp3",
+              keyword: "anniversary",
+              label: "anniversar<span class='underline'>y</span>",
+              phonetics: "/ˌæn.əˈvɝː.sɚ.i/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/a/army.mp3",
+              keyword: "army",
+              label: "arm<span class='underline'>y</span>",
+              phonetics: "/ˈɑːr.mi/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/c/country.mp3",
+              keyword: "country",
+              label: "countr<span class='underline'>y</span>",
+              phonetics: "/ˈkʌn.tri/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/h/healthy.mp3",
+              keyword: "healthy",
+              label: "health<span class='underline'>y</span>",
+              phonetics: "/ˈhel.θi/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/i/itchy.mp3",
+              keyword: "itchy",
+              label: "itch<span class='underline'>y</span>",
+              phonetics: "/ˈɪtʃ.i/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "Let's go to Disney Land to see Mickey Mouse.",
+            ptExample: "...",
+          },
+        ],
+        showHR: true
+      },
+      {
+        beforeText: "***",
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/j.mp3",
+          label: "phonetics",
+          phonetics: "/j/",
+        },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/y/year.mp3",
+              keyword: "year",
+              label: "<span class='underline'>y</span>ear",
+              phonetics: "/jɪr/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "John's 50 (years old).",
+            ptExample: "O John tem 50 (anos de idade).",
+          },
+        ],
+      },
+      {
+        beforeText: "Listen to the differences.",
+        applyGrid: true,
+        applyRedDashedBorder: true,
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/y/year.mp3",
+              keyword: "year",
+              label: "<span class='underline'>y</span>ear",
+              phonetics: "/jɪr/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/e/ear.mp3",
+              keyword: "ear",
+              label: "<span class='underline'>ea</span>r",
+              phonetics: "/ɪr/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "....",
+          },
+        ],
+      },
+    ],
+    
+  },
+];
 
 export const LetterY = () => {
   return (
     <>
       <div className="line-break">
-        <Card bgColor="lightgray" textColor="black">
-          <p className="bold">Letter y</p>
-        </Card>
-        <div className="flex-8px-center-wrap">
-          <DictionaryCard
-            audioSrc="/.../.mp3"
-            label="phonetics"
-            phonetics="/i/"
-          />
-          <DictionaryCard
-            audioSrc="/.../.mp3"
-            label="anniversar<span class='underline'>y</span>"
-            phonetics="/i/"
-          />
-          <DictionaryCard
-            audioSrc="/a/army.mp3"
-            label="arm<span class='underline'>y</span>"
-            phonetics="/ˈɑːr.mi/"
-          />
-          <DictionaryCard
-            audioSrc="/c/city.mp3"
-            label="cit<span class='underline'>y</span>"
-            phonetics="/ˈsɪt̬.i/"
-          />
-          <DictionaryCard
-            audioSrc="/c/country.mp3"
-            label="countr<span class='underline'>y</span>"
-            phonetics="/ˈkʌn.tri/"
-          />
-          <DictionaryCard
-            audioSrc="/h/healthy.mp3"
-            label="health<span class='underline'>y</span>"
-            phonetics="/ˈhel.θi/"
-          />
-          <DictionaryCard
-            audioSrc="/i/itchy.mp3"
-            label="itch<span class='underline'>y</span>"
-            phonetics="/ˈɪtʃ.i/"
-          />
-        </div>
-        <hr />
-        <div className="flex-8px-center-wrap">
-          <DictionaryCard
-            audioSrc="/.../.mp3"
-            label="phonetics"
-            phonetics="/ɪ/"
-          />
-          <DictionaryCard
-            audioSrc="/p/physics.mp3"
-            label="ph<span class='underline'>y</span>sics"
-            phonetics="/ˈfɪz.ɪks/"
-          />
-          <DictionaryCard
-            audioSrc="/s/sphynx.mp3"
-            label="sph<span class='underline'>y</span>nx"
-            phonetics="/sfɪŋks/"
-          />
-        </div>
-        <hr />
-        <div className="flex-8px-center-wrap">
-          <DictionaryCard
-            audioSrc="/.../.mp3"
-            label="phonetics"
-            phonetics="/j/"
-          />
-          <DictionaryCard
-            audioSrc="/p/physics.mp3"
-            label="<span class='underline'>y</span>ear"
-            phonetics="/jɪr/"
-          />
-        </div>
+        <PronunciationCard pronunciations={pronunciations} />
       </div>
     </>
   );

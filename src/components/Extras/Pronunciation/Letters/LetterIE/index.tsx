@@ -1,5 +1,8 @@
 import { Card } from "@/components/Cards/Card";
-import { Pronunciation, PronunciationCard } from "@/components/Cards/PronunciationCard";
+import {
+  Pronunciation,
+  PronunciationCard,
+} from "@/components/Cards/PronunciationCard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
@@ -7,7 +10,13 @@ const pronunciations: Pronunciation[] = [
     label: 'Letter "ie"',
     phonetics: [
       {
-      beforeText: "...",
+        beforeText: "...",
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/i.mp3",
+          label: "phonetics",
+          phonetics: "/i/",
+        },
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,
@@ -40,15 +49,15 @@ const pronunciations: Pronunciation[] = [
         examples: [
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
         ],
       },
@@ -60,7 +69,7 @@ export const LetterIE = () => {
   return (
     <>
       <div className="line-break">
-      <PronunciationCard pronunciations={pronunciations} />
+        <PronunciationCard pronunciations={pronunciations} />
       </div>
     </>
   );
