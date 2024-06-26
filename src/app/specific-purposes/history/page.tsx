@@ -5,6 +5,33 @@ export default function History() {
     <>
       <Whiteboard title="Specific Purposes" subtitle="History" />
       <div className="line-break">
+        <div className="line-break">
+          <p className="bold">World War II</p>
+          <p>Unit 731</p>
+          <div>
+            <p>
+              The North Atlantic Treaty Organization, also called the North
+              Atlantic Alliance, is an intergovernmental military alliance of 32
+              member states—30 European and 2 North American.
+            </p>
+            <p>
+              <b>Founded:</b> April 4, 1949, Washington, D.C., United States
+            </p>
+            <p>
+              <b>Founders:</b> United States, France, United Kingdom, Italy,
+              Canada, MORE
+            </p>
+          </div>
+          <p>V2 Rocket (Wernher Von Brauner)</p>
+          <p>
+            Did the V-2 rocket ever work? V-2 Missile | National Air and Space
+            Museum The V-2 was to be an even more decisive terror weapon, but
+            the rocket was neither accurate, reliable, nor cost effective. On 7
+            September 1944 the first two operational rockets were fired against
+            Paris, but both failed due to premature cutoffs.
+          </p>
+        </div>
+        <p>Gold Rush (1848 - 1855)</p>
         <div>
           <p>John VI (John the sixth)</p>
           <p>Peter I (Peter the first)</p>
