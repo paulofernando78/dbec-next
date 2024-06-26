@@ -17,6 +17,8 @@ import { LettersEAi } from "@/components/Extras/Pronunciation/Letters/LettersEAi
 import { LettersOW } from "@/components/Extras/Pronunciation/Letters/LetterOW";
 import { LetterU } from "@/components/Extras/Pronunciation/Letters/LetterU";
 import { LettersAU } from "@/components/Extras/Pronunciation/Letters/LettersAU";
+import { LettersO } from "@/components/Extras/Pronunciation/Letters/LetterO";
+import { LettersOO } from "@/components/Extras/Pronunciation/Letters/LetterOO";
 
 export default function Pronunciation() {
   return (
@@ -108,10 +110,15 @@ export default function Pronunciation() {
         <div id="letter-ie">
           <LetterIE />
         </div>
-        <div id="letter-o"></div>
-        <div id="letter-oo"></div>
-        <div id="letter-ow"></div>
-        <LettersOW />
+        <div id="letter-o">
+          <LettersO />
+        </div>
+        <div id="letter-oo">
+          <LettersOO />
+        </div>
+        <div id="letter-ow">
+          <LettersOW />
+        </div>
         <div id="letter-t"></div>
         <div id="letter-u">
           <LetterU />

@@ -10,6 +10,7 @@ const pronunciations: Pronunciation[] = [
     label: 'Letter "i"',
     sound: "/i/, /ɪ/, /ə/, /aɪ/",
     phonetics: [
+      // /i/
       {
         beforeText: 'When the letter "i" sounds like portuguese:',
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
@@ -54,6 +55,7 @@ const pronunciations: Pronunciation[] = [
         ],
         showHR: true,
       },
+      // /ɪ/
       {
         beforeText:
           'When the letter "i" has a different sound. It\'ll sound close to "ê" in portuguese:',
@@ -94,7 +96,7 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/l/live.mp3",
+              audioSrc: "/l/live1.mp3",
               keyword: "live",
               label: "l<span class='underline'>i</span>ve",
               phonetics: "/lɪv/",
@@ -179,17 +181,16 @@ const pronunciations: Pronunciation[] = [
         ],
         showHR: true,
       },
+      // /ə/
       {
         beforeText: "...",
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+	        phoneticsComponentProps: {
+          audioSrc: "/phonetics/ə.mp3",
+          label: "phonetics",
+          phonetics: "/ə/",
+        },
         words: [
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/phonetics/ə.mp3",
-              label: "phonetics",
-              phonetics: "/ə/",
-            },
-          },
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -216,17 +217,16 @@ const pronunciations: Pronunciation[] = [
         ],
         showHR: true,
       },
+      // /aɪ/
       {
         beforeText: "...",
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+        audioSrc: "/phonetics/aɪ.mp3",
+        label: "phonetics",
+        phonetics: "/aɪ/",
+      },
         words: [
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/phonetics/aɪ.mp3",
-              label: "phonetics",
-              phonetics: "/aɪ/",
-            },
-          },
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -241,7 +241,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/k/knight.mp3",
               keyword: "knight",
-              label: "knight",
+              label: "kn<span class='underline'>i</span>ght",
               phonetics: "/naɪt/",
             },
           },
@@ -259,7 +259,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/m/mind.mp3",
               keyword: "mind",
-              label: "mind",
+              label: "m<span class='underline'>i</span>nd",
               phonetics: "/maɪnd/",
             },
           },
@@ -268,7 +268,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/n/night.mp3",
               keyword: "night",
-              label: "night",
+              label: "n<span class='underline'>i</span>ght",
               phonetics: "/naɪt/",
             },
           },
@@ -277,7 +277,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/s/slide.mp3",
               keyword: "slide",
-              label: "slide",
+              label: "sl<span class='underline'>i</span>de",
               phonetics: "/slaɪd/",
             },
           },
@@ -286,7 +286,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/s/swipe.mp3",
               keyword: "swipe",
-              label: "swipe",
+              label: "sw<span class='underline'>i</span>pe",
               phonetics: " /swaɪp/",
             },
           },
@@ -295,7 +295,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/t/time.mp3",
               keyword: "time",
-              label: "time",
+              label: "t<span class='underline'>i</span>me",
               phonetics: "/taɪm/",
             },
           },
@@ -304,7 +304,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/w/wipe.mp3",
               keyword: "wipe",
-              label: "wipe",
+              label: "w<span class='underline'>i</span>pe",
               phonetics: "/waɪp/",
             },
           },

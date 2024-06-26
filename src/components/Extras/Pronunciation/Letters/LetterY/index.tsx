@@ -15,6 +15,11 @@ export const LetterY = () => {
             phonetics="/i/"
           />
           <DictionaryCard
+            audioSrc="/.../.mp3"
+            label="anniversar<span class='underline'>y</span>"
+            phonetics="/i/"
+          />
+          <DictionaryCard
             audioSrc="/a/army.mp3"
             label="arm<span class='underline'>y</span>"
             phonetics="/ˈɑːr.mi/"
@@ -56,6 +61,19 @@ export const LetterY = () => {
             audioSrc="/s/sphynx.mp3"
             label="sph<span class='underline'>y</span>nx"
             phonetics="/sfɪŋks/"
+          />
+        </div>
+        <hr />
+        <div className="flex-8px-center-wrap">
+          <DictionaryCard
+            audioSrc="/.../.mp3"
+            label="phonetics"
+            phonetics="/j/"
+          />
+          <DictionaryCard
+            audioSrc="/p/physics.mp3"
+            label="<span class='underline'>y</span>ear"
+            phonetics="/jɪr/"
           />
         </div>
       </div>

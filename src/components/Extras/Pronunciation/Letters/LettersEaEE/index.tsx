@@ -69,8 +69,8 @@ const pronunciations: Pronunciation[] = [
               component: (props) => <DictionaryCard {...props} />,
               componentProps: {
                 audioSrc: "/l/lead2.mp3",
-                keyword: "lead",
-                label: "lead",
+                keyword: "ledd",
+                label: "l<span class='underline'>ea</span>d",
                 phonetics: "/led/",
               },
             },

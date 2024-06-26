@@ -3,7 +3,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: "Letter \"ow\"",
+    label: "Letter \"o\"",
     sound: "...",
     phonetics: [
       {
@@ -12,15 +12,15 @@ const pronunciations: Pronunciation[] = [
 	        phoneticsComponentProps: {
           audioSrc: "/phonetics/xxx.mp3",
           label: "phonetics",
-          phonetics: "/aʊ/",
+          phonetics: "/xxx/",
         },
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/c/cow.mp3",
-              keyword: "cow",
-              label: "c<span class='underline'>ow</span>",
+              audioSrc: "/x/xxx.mp3",
+              keyword: "",
+              label: "xxx",
               phonetics: "/.../",
             },
           },
@@ -36,12 +36,11 @@ const pronunciations: Pronunciation[] = [
   },
 ];
 
-export const LettersOW = () => {
+export const LettersO = () => {
   return (
     <>
       <div className="line-break">
       <PronunciationCard pronunciations={pronunciations} />
-
       </div>
     </>
   );
