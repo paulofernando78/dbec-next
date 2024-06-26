@@ -1,0 +1,30 @@
+.card-pronunciation {
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.card-pronunciation-label {
+  background-color: lightgray;
+  color: black;
+  padding: var(--padding);
+  border-radius: 5px 5px 0 0;
+}
+
+.card-pronunciation-content {
+  margin: 7px;
+}
+
+.phonetics-margin-bottom {
+  margin-bottom: .55rem;
+}
+
+.hr-margin {
+  margin-block: 1rem;
+}
+
+.grid-words {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-content: start;
+  gap: 8px;
+}

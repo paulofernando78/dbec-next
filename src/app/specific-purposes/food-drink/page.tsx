@@ -1,12 +1,12 @@
 "use client";
 import Link from "next/link";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { Card } from "@/components/Card";
+import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Collapsible } from "@/components/Collapsible/Collapsible";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
-export default function FoodDrink() {
+export default function FoodAndDrink() {
   return (
     <>
       <Whiteboard title="Specific Purposes" subtitle="Food / Drink" />
@@ -24,6 +24,8 @@ export default function FoodDrink() {
           </Card>
           <div className="flex-col">
             <DictionaryCard label="apple" audioSrc="/a/apple.mp3" />
+            <DictionaryCard audioSrc="/c/caper.mp3" label="caper" />
+
             <DictionaryCard label="plantain" audioSrc="/p/plantain.mp3" />
             <DictionaryCard label="strawberry" audioSrc="/s/strawberry.mp3" />
           </div>
@@ -32,8 +34,8 @@ export default function FoodDrink() {
           <span className="bold">Seed</span>
         </Card>
         <div className="flex-col">
-          <DictionaryCard audioSrc="/c/chia.mp3" label="chia"/>
-          <DictionaryCard audioSrc="/f/flaxseed.mp3" label="flaxseed"/>
+          <DictionaryCard audioSrc="/c/chia.mp3" label="chia" />
+          <DictionaryCard audioSrc="/f/flaxseed.mp3" label="flaxseed" />
         </div>
         <div className="line-break">
           <Card bgColor="black" textColor="white">
@@ -41,7 +43,10 @@ export default function FoodDrink() {
           </Card>
           <div className="flex-col">
             <DictionaryCard audioSrc="/b/broccoli.mp3" label="broccoli" />
-            <DictionaryCard audioSrc="/b/brussels-sprout.mp3" label="brussels sprout" />
+            <DictionaryCard
+              audioSrc="/b/brussels-sprout.mp3"
+              label="brussels sprout"
+            />
             <DictionaryCard audioSrc="/c/cucumber.mp3" label="cucumber" />
             <DictionaryCard audioSrc="/c/cauliflower.mp3" label="cauliflower" />
             <DictionaryCard audioSrc="/k/kale.mp3" label="kale" />

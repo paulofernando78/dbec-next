@@ -1,0 +1,196 @@
+import { Card } from "@/components/Cards/Card";
+import {
+  Pronunciation,
+  PronunciationCard,
+} from "@/components/Cards/PronunciationCard";
+import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+
+const pronunciations: Pronunciation[] = [
+  {
+    label: 'Letters "ea" • "ee" (long) vs. "i" (short)',
+    phonetics: [
+      {
+        beforeText: "Listen and repeat.",
+        applyGrid: true,
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/bead.mp3",
+              keyword: "bead",
+              label: "b<span class='underline'>ea</span>d",
+              phonetics: "/biːd/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/bid.mp3",
+              keyword: "bid",
+              label: "b<span class='underline'>i</span>d",
+              phonetics: "/bɪd/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/e/eat.mp3",
+              keyword: "eat",
+              label: "<span class='underline'>ea</span>t",
+              phonetics: "/iːt/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/i/it.mp3",
+              keyword: "it",
+              label: "<span class='underline'>i</span>t",
+              phonetics: "/ɪt/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/d/deed.mp3",
+              keyword: "deed",
+              label: "deed",
+              phonetics: "/diːd/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/d/did.mp3",
+              keyword: "did",
+              label: "d<span class='underline'>i</span>d",
+              phonetics: "/dɪd/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/l/leave.mp3",
+              keyword: "leave",
+              label: "l<span class='underline'>ea</span>ve",
+              phonetics: "/liːv/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/l/live1.mp3",
+              keyword: "live",
+              label: "l<span class='underline'>i</span>ve",
+              phonetics: "/lɪv/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/r/read.mp3",
+              keyword: "read",
+              label: "r<span class='underline'>ea</span>d",
+              phonetics: "/riːd/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/r/rid.mp3",
+              keyword: "rid",
+              label: "r<span class='underline'>i</span>d",
+              phonetics: "/rɪd/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/seat.mp3",
+              keyword: "seat",
+              label: "s<span class='underline'>ea</span>t",
+              phonetics: "/siːt/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/sit.mp3",
+              keyword: "sit",
+              label: "s<span class='underline'>i</span>t",
+              phonetics: "/sɪt/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/sleep.mp3",
+              keyword: "sleep",
+              label: "sleep",
+              phonetics: "/sliːp/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/slip.mp3",
+              keyword: "slip",
+              label: "sl<span class='underline'>i</span>p",
+              phonetics: "/slɪp/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/steal.mp3",
+              keyword: "steel",
+              label: "st<span class='underline'>ea</span>l",
+              phonetics: "/stiːl/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/still.mp3",
+              keyword: "still",
+              label: "st<span class='underline'>i</span>ll",
+              phonetics: "/stɪl/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+        ],
+      },
+    ],
+  },
+];
+
+export const LettersEAi = () => {
+  return (
+    <>
+      <div className="line-break">
+        <PronunciationCard pronunciations={pronunciations} />
+      </div>
+    </>
+  );
+};

@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "keyword": "redundancy",
+    "definitions": [
+      {
+        "audio": "/assets/audio/dictionary/r/redundancy-noun.mp3",
+        "word": "redundancy",
+        "phonetics": "/rɪˈdʌn.dən.si/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a situation in which someone loses their job because their employer does not need them.",
+        "ptDefinition": "dispensa, corte de pessoal",
+        "examples": [
+          {
+            "enExample": "The economic downturn has meant 10,000 redundancies in the Northeast.",
+            "ptExample": "A crise econômica significou 10.000 desempregados no Nordeste."
+          },
+          {
+            "enExample": "She took voluntary redundancy.",
+            "ptExample": "Ela optou pela dispensa voluntária."
+          }
+        ],
+        "synonyms": "repetition",
+        "antonyms": "lack, need, want"
+      }
+    ]
+  }
+]

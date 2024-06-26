@@ -1,46 +1,46 @@
 [
-    {
+  {
+    "keyword": "happy",
+    "definitions": [
+      {
         "audio": "/assets/audio/dictionary/h/happy.mp3",
-        "keyword": "happy",
         "phonetics": "...",
         "partOfSpeech": "...",
-        "definitions": [
+        "enDefinition": "...",
+        "ptDefinition": "...",
+        "examples": [
           {
-            "enDefinition": "...",
-            "ptDefinition": "...",
-            "examples": [
-              {
-                "enExample": "...",
-                "ptExample": "..."
-              }
-            ],
-            "thesauri": [
-              {
-                "synonyms": "...",
-                "antonyms": "..."
-              }
-            ]
+            "enExample": "...",
+            "ptExample": "..."
           }
-        ]
-      },
-      {
-        "audio": "/assets/audio/dictionary/h/hard-stop.mp3",
-        "keyword": "hard stop",
-        "partOfSpeech": "idiom",
-        "definitions": [
+        ],
+        "thesauri": [
           {
-            "enDefinition": "It refers to a predetermined, non-negotiable point where an activity or process must come to an immediate halt or conclusion.",
-            "examples": [
-              {
-                "enExample": "I know some of you have a hard stop at 4:00 for another meeting, so I will keep my remarks brief.",
-                "ptExample": "Sei que alguns de vocês precisam encerrar às 16h para começar outra reunião, por isso serei breve."
-              },
-              {
-                "enExample": "Can we have a meeting with a hard stop at 10am?",
-                "ptExample": "Podemos ter uma reunião com encerramento às 10:00? "
-              }
-            ]
+            "synonyms": "...",
+            "antonyms": "..."
           }
         ]
       }
+    ]
+  },
+  {
+    "keyword": "hard stop",
+    "definitions": [
+      {
+        "audio": "/assets/audio/dictionary/h/hard-stop.mp3",
+        "partOfSpeech": "idiom",
+        "enDefinition": "It refers to a predetermined, non-negotiable point where an activity or process must come to an immediate halt or conclusion.",
+        "examples": [
+          {
+            "enExample": "I know some of you have a hard stop at 4:00 for another meeting, so I will keep my remarks brief.",
+            "ptExample": "Sei que alguns de vocês precisam encerrar às 16h para começar outra reunião, por isso serei breve."
+          },
+          {
+            "enExample": "Can we have a meeting with a hard stop at 10am?",
+            "ptExample": "Podemos ter uma reunião com encerramento às 10:00? "
+          }
+        ]
+      }
+    ]
+  }
 ]

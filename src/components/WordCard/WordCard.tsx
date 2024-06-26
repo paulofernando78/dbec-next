@@ -1,6 +1,6 @@
 import { WordCardProps, IDictionaryDefinitions } from "../../../interfaces";
 import { AudioPlayer } from "../Audioplayer/Audioplayer";
-import { Card } from "../Card";
+import { Card } from "../Cards/Card";
 
 import styles from "./styles.module.css";
 
@@ -62,7 +62,10 @@ export function WordCard({ dictionary }: WordCardProps) {
                           />
                         )}
                         {example.ptExample && (
-                          <span className="portuguese"> {example.ptExample}</span>
+                          <span className="portuguese">
+                            {" "}
+                            {example.ptExample}
+                          </span>
                         )}
                       </p>
                     );

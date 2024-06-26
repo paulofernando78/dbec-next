@@ -1,5 +1,4 @@
-
-import { DescriptionCard } from "@/components/DescriptionCard/DescriptionCard";
+import { DescriptionCard } from "@/components/Cards/DescriptionCard";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 export default function SpeakBusinessEnglishLikeAnAmerican() {
@@ -10,9 +9,7 @@ export default function SpeakBusinessEnglishLikeAnAmerican() {
         subtitle="Business"
         descriptions={["Speak Business English Like an American"]}
       />
-      <div>
-        {/* <DescriptionCard descriptions={descripttion}/> */}
-      </div>
+      <div>{/* <DescriptionCard descriptions={descripttion}/> */}</div>
     </>
   );
 }

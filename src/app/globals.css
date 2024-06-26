@@ -24,7 +24,6 @@
   font-family: "Walter Turncoat", cursive;
   text-decoration: none;
   list-style: none;
-  scrollbar-gutter: stable;
 }
 
 ::-webkit-scrollbar {
@@ -40,6 +39,7 @@
   background: hsl(10, 5%, 70%);
   border-radius: 100vw;
   border: 0.1rem solid hsl(10, 10%, 90%);
+  
 }
 
 body {
@@ -168,13 +168,23 @@ p {
   display: block;
 }
 
+.flex-8px {
+  display: flex;
+  gap: 8px
+}
 .flex-8px-start {
   display: flex;
   gap: 8px;
   align-items: start;
 }
 
-.flex-8px-start-between {
+.flex-8px-end {
+  display: flex;
+  gap: 8px;
+  align-items: end;
+}
+
+.flex-8px-start-space-between {
   display: flex;
   gap: 8px;
   align-items: start;
@@ -234,6 +244,14 @@ p {
 .icon-position-top {
   position: relative;
   top: 3px;
+}
+
+/* BORDER */
+
+.border-red-dashed {
+  border-radius: var(--border-radius);
+  padding: 8px;
+  border: 2px dashed red;
 }
 
 /* AUDIO PLAYER / VIDEO */

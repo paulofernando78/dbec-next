@@ -3,20 +3,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 // CSS
-import styles from "./DescriptionCard.module.css";
+import styles from "./styles.module.css";
 
 // Images
 import globeIcon from "@/img/icon/globe.png";
-
-interface DescriptionCardProps {
-  descriptions: Description[];
-}
-
-interface Description {
-  label: string;
-  contents: Content[];
-}
-
 interface Content {
   content?: string;
   link?: string;
@@ -25,6 +15,15 @@ interface Content {
   checkboxLabelLink?: string;
   globeLink?: string;
   globeLabel?: string;
+}
+
+interface Description {
+  label: string;
+  contents: Content[];
+}
+
+interface DescriptionCardProps {
+  descriptions: Description[];
 }
 
 export const DescriptionCard = ({ descriptions }: DescriptionCardProps) => {
@@ -50,7 +49,9 @@ export const DescriptionCard = ({ descriptions }: DescriptionCardProps) => {
                 <div>
                   <div>
                     <Link href={content.link}>
-                      <p className={styles["link-label-position"]}>{content.linkLabel}</p>
+                      <p className={styles["link-label-position"]}>
+                        {content.linkLabel}
+                      </p>
                     </Link>
                   </div>
                 </div>
@@ -76,7 +77,10 @@ export const DescriptionCard = ({ descriptions }: DescriptionCardProps) => {
               {/* Checkbox Link / Checkbox Label Link */}
               {content.checkboxLink && content.checkboxLabelLink && (
                 <div className="flex-8px-start">
-                  <input type="checkbox" style={{position: "relative", bottom: ".6px"}}/>
+                  <input
+                    type="checkbox"
+                    style={{ position: "relative", bottom: ".6px" }}
+                  />
                   <Link href={content.checkboxLink}>
                     <p>{content.checkboxLabelLink}</p>
                   </Link>

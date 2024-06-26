@@ -18,6 +18,47 @@
     ]
   },
   {
+    "keyword": "carry",
+    "definitions": [
+      {
+        "audio": "/assets/audio/dictionary/c/carry-regular-verb.mp3",
+        "word": "carry",
+        "phonetics": "/ˈker.i/",
+        "partOfSpeech": "regular verb",
+        "enDefinition": "to hold something or someone with your hands, arms, or on your back and transport it, him, or her from one place to another",
+        "ptDefinition": "levar, carregar",
+        "examples": [
+         {
+          "enExample": "These books are too heavy for me to carry.",
+          "ptExample": "Estes livros são muito pesados para eu carregar."
+         }
+       ],
+       "synonyms": "bear, take",
+       "antonyms": "drop "
+       },
+      {
+	      "audio": "/assets/audio/dictionary/c/carry-out-phrasal-verb.mp3",
+	      "word": "carry out",
+		    "phonetics": "/ˈkær·i/ ",
+		    "partOfSpeech": "phrasal verb",
+        "enDefinition": "to perform or complete a job or activity; to fulfill",
+        "ptDefinition": "cumprir algo, levar algo adiante, pôr algo em prática",
+        "examples": [
+          {
+            "enExample": "The hospital is carrying out tests to find out what's wrong with the patient.",
+            "ptExample": "O hospital está realizando exames para descobrir o que há de errado com o paciente."
+          },
+          {
+            "enExample": "Don't blame me, I'm only carrying out my orders/instructions.",
+            "ptExample": "Não me culpe, estou apenas fazendo o que me foi pedido."
+          }
+        ],
+	      "synonyms": "perform, execute, accomplish",
+        "antonyms": "fail, abandon, halt, ignore, miss"
+      }
+    ]
+  },
+  {
     "keyword": "chimpanzee",
     "definitions": [
       {

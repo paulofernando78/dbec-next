@@ -33,6 +33,7 @@ export default function Sports() {
           <Link href="/specific-purposes/sports/">
             <p>Basketball</p>
           </Link>
+          <p>Croquet</p>
           <Link href="/specific-purposes/sports/">
             <p>Voleyball</p>
           </Link>

@@ -92,7 +92,7 @@ export const FillInTheBlanks = ({ questions, display }: FillInTheBlanksProps) =>
       </div>
 
       <div>
-        <div className='flex-8px-center'>
+        <div className='flex-8px-center-wrap'>
           <Button label="Check answers" onClick={handleCheckAnswers} />
           <Button label={`${showAnswers ? "Hide" : "Show"} answers`} onClick={handleShowAnswers} />
           <Button label="Reset" onClick={handleReset} />

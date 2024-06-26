@@ -45,10 +45,21 @@ import ukFlagIcon from "./icon/flag/uk.png";
 import brFlagIcon from "./icon/flag/brazil.png";
 
 // Folder
+import cat1 from "@/img/cat1.jpg"
+import cat2 from "@/img/cat2.jpeg"
+import cat3 from "@/img/cat3.png"
+import chocolatePinkLemonadeKitKat from "@/img/chocolate-kit-kat-pink-lemonad.jpg"
+import cookieOreoSourPatch from "@/img/cookie-oreo-sour-patch.png"
+import iceCreamHiddenValleyRanch from "@/img/ice-cream-hidden-valley-ranch.webp"
+import iceCreamLittleMoonFishMochi from "@/img/ice-cream-little-moon-fish-mochi.avif"
+import macAndCheeseIceCreamFlavor from "./mac-and-cheese-ice-cream-flavor.avif"
 import labEmbryo from "./lab-embryo.avif"
 import labEmbryo2 from "./lab-embryo2.jpg"
 import labEmbryo3 from "./lab-embryo3.jpg"
 import labScientist from "./lab-scientist.avif"
+import potatoChipLaysFlamminHotDillPickle from "./potato-chip-lays-flamin-hot-dill-pickle.png"
+import potatoChipLaysStrawBerryBacon from "./potato-chip-lays-strawberry-bacon.jpg"
+import potatoChipWalkersBrusselsSprout from "./potato-chip-walkers-brussels-sprout.webp"
 
 export {
   placementTest,
@@ -90,9 +101,20 @@ export {
   ukFlagIcon,
   brFlagIcon,
 
-  // Folder 
+  // Folder
+  cat1,
+  cat2,
+  cat3,
+  chocolatePinkLemonadeKitKat,
+  cookieOreoSourPatch,
+  iceCreamHiddenValleyRanch,
+  iceCreamLittleMoonFishMochi,
+  macAndCheeseIceCreamFlavor,
   labEmbryo,
   labEmbryo2,
   labEmbryo3,
-  labScientist
+  labScientist,
+  potatoChipLaysFlamminHotDillPickle,
+  potatoChipLaysStrawBerryBacon,
+  potatoChipWalkersBrusselsSprout,
 };

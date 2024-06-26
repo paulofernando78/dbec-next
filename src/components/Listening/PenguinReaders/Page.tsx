@@ -3,7 +3,7 @@ import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
 
 // CSS
 import styles from "./styles.module.css";
-import { Card } from "@/components/Card";
+import { Card } from "@/components/Cards/Card";
 
 interface Paragraph {
   paragraphNumber: string;

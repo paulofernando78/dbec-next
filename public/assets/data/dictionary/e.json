@@ -1,3 +1,42 @@
 [
-    
+  {
+    "keyword": "escarole",
+    "definitions": [
+      {
+        "audio": "/assets/audio/dictionary/e/escarole-noun.mp3",
+        "word": "escarole",
+        "phonetics": "/ˈes.kə.roʊl/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a type of endive or chicory (= a plant with a slightly bitter taste that is eaten uncooked in salads or as a vegetable) with wide, curly green leaves",
+        "ptDefinition": "Um tipo de chicória ou endívia com folhas verdes largas e encaracoladas.",
+        "examples": [
+          {
+            "enExample": "Add a drained can of chickpeas and the coarsely chopped escarole.",
+            "ptExample": "Adicione uma lata de grão-de-bico escorrida e a escarola bem picada (grosseiramente)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "ethical",
+    "definitions": [
+      {
+	      "audio": "/assets/audio/dictionary/e/ethical-adjective.mp3",
+	      "word": "ethical",
+		    "phonetics": "/ˈeθ.ɪ.kəl/",
+		    "partOfSpeech": "adjective",
+        "enDefinition": "relating to beliefs about what is morally right and wrong",
+        "ptDefinition": "ético",
+        "examples": [
+          {
+            "enExample": "Ensuring patient confidentiality is an essential aspect of ethical practice in the medical profession.",
+            "ptExample": "Assegurar / Garantir a confidencialidade do paciente é uma parte fundamental da conduta ética na medicina."
+          }
+        ],
+	      "synonyms": "honest, honoroble, humane, proper",
+        "antonyms": "dishonest, immoral, corrupt, improper, unjust"
+      }
+    ]
+  }
 ]

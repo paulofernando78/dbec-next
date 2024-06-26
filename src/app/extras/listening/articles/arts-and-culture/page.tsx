@@ -10,8 +10,8 @@ export default function ArtsAndCulture() {
         descriptions={["Arts and Culture"]}
       />
       <div>
-        <Link href="">
-          <p>...</p>
+        <Link href="/extras/listening/articles/arts-and-culture/new-food-flavors-coming-to-stores">
+          <p>New Food falvors coming to stores (May 24, 2024)</p>
         </Link>
       </div>
     </>

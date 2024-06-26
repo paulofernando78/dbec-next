@@ -6,9 +6,7 @@ export default function Technology() {
     <>
       <Whiteboard title="Specific Purposes" subtitle="Technology" />
       <div className="line-break">
-          <Link href="/specific-purposes/technology/articles">
-            <p>Articles</p>
-          </Link>
+          <p>...</p>
       </div>
     </>
   );

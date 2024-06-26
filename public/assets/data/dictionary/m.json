@@ -1,1 +1,21 @@
-[]
+[
+    {
+        "keyword": "miscarriage",
+        "definitions": [
+          {
+              "audio": "/assets/audio/dictionary/m/miscarriage-noun.mp3",
+              "word": "miscarriage",
+                "phonetics": "/ˈmɪsˌker.ɪdʒ/",
+                "partOfSpeech": "noun",
+            "enDefinition": "an early, unintentional end to a pregnancy when the foetus is born too early and dies because it has not developed enough",
+            "ptDefinition": "aborto espontâneo",
+            "examples": [
+              {
+                "enExample": "The amniocentesis test carries a significant risk of miscarriage.",
+                "ptExample": "O teste de amniocentese carrega um risco significativo de aborto espontâneo."
+              }
+            ]
+          }
+        ]
+      }
+]

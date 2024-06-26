@@ -14,9 +14,9 @@ import { WordCard } from "../WordCard/WordCard";
 
 // Typescript
 interface DictionaryCardProps {
-  audioSrc: string;
+  audioSrc?: string;
   keyword?: string;
-  label: string;
+  label?: string;
   phonetics?: string;
 }
 
@@ -39,13 +39,13 @@ export const DictionaryCard = ({
 
   useEffect(() => {
     if (!dictionary) {
-      searchWords(keyword ?? label).then((dict) => {
+      searchWords(keyword ?? "").then((dict) => {
         if (dict?.length) {
           setDictionary(dict[0]);
         }
       });
     }
-  });
+  }, [dictionary, keyword, label]);
 
   return (
     <>
@@ -56,7 +56,12 @@ export const DictionaryCard = ({
           onClick={playAudio}
           className={styles["play-button"]}
         />
-        <span className={styles["label"]} dangerouslySetInnerHTML={{ __html: label}}></span>
+        {label && (
+          <span
+            className={styles["label"]}
+            dangerouslySetInnerHTML={{ __html: label }}
+          ></span>
+        )}
         {phonetics && (
           <span className={`phonetics ${styles["phonetics-margin"]}`}>
             {phonetics}

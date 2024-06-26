@@ -19,10 +19,11 @@ export default function Hairdressing() {
           <div>
             <p>Phrases</p>
             <p>
-              I'm gonna <span className="underline">have my haircut</span>.
+              I'm gonna <span className="underline">have my haircut today</span>.
             </p>
             <p>How much the haircut?</p>
             <p>How much is it?</p>
+            <p>I had my haircut today.</p>
           </div>
           <div>
             <p>

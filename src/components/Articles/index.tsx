@@ -1,114 +1,207 @@
-import Image from "next/image";
-import { StaticImageData } from "next/image";
 import { AudioPlayer } from "../Audioplayer/Audioplayer";
-import { Card } from "../Card";
+import { Card } from "../Cards/Card";
 import { Collapsible } from "../Collapsible/Collapsible";
-import styles from "./styles.module.css";
 
-export interface EnParagraph {
-  component?: (props: { audioSrc: string; label: string }) => JSX.Element;
-  componentProps?: any;
-  enParagraph: string;
+export interface FollowupQuestion {
+  question?: string;
 }
 
-export interface ArticleData {
+export interface ScanQuestion {
+  question: string;
+}
+
+interface EnParagraph {
+  component?: (props: { audioSrc: string; label: string }) => JSX.Element;
+  componentProps?: any;
+  enParagraph?: string;
+}
+
+export interface PreVocabulary {
+  component: (props: { audioSrc: string; label: string }) => JSX.Element;
+  componentProps: any;
+}
+
+export interface Paragraph {
   paragraphNumber?: string;
-  enParagraphs: EnParagraph[];
+  enParagraphs?: EnParagraph[];
   ptParagraph?: string;
-  imgSrc?: StaticImageData | string;
-  imgAlt?: string;
-  imgSrcWidth?: string;
-  imgSrcHeight?: string;
-  smaller?: string;
+}
+
+export interface DiscussionQuestion {
+  questions: {
+    question: string;
+    component?: (props: any) => JSX.Element;
+    componentProps?: any;
+  }[];
 }
 
 interface ArticlesProps {
-  titleImgSrc: StaticImageData;
-  titleImgAlt: string;
   discussion: string;
-  discussionAnswer: string;
-  articles: ArticleData[];
-  audioSrc?: string;
+  discussionQuestions: DiscussionQuestion[];
+  preVocabularies: PreVocabulary[];
+  audioSrc: string;
+  paragraphs: Paragraph[];
+  scanQuestions: ScanQuestion[];
+  followupQuestions: FollowupQuestion[];
 }
 
+const baseAudioSrc = "/assets/audio/extras/listening/articles";
+
 export const Articles = ({
-  titleImgSrc,
-  titleImgAlt,
   discussion,
-  discussionAnswer,
-  articles,
+  discussionQuestions,
+  preVocabularies,
   audioSrc,
+  paragraphs,
+  scanQuestions,
+  followupQuestions,
 }: ArticlesProps) => {
   return (
     <div className="line-break">
-      <Image
-        src={titleImgSrc}
-        alt={titleImgAlt}
-        className={`img-border ${styles["image"]}`}
-      />
       <Card bgColor="Black" textColor="White">
-        <p>Discussion</p>
+        <div className="flex-8px-start-space-between">
+          <p className="bold">Discussion</p>
+          <p className="p-size-smaller">'5</p>
+        </div>
       </Card>
-      <Collapsible labelBold={discussion}>
-        <p>{discussionAnswer}</p>
-      </Collapsible>
-      <div className="sticky">
-        <AudioPlayer audioSrc={audioSrc} />
+      <p className="bold">{discussion}</p>
+
+      <div>
+        {/* dicussionQuestions */}
+        {discussionQuestions.map(
+          (discussionQuestion, discussionQuestionIndex) => (
+            <div key={discussionQuestionIndex}>
+              {discussionQuestion.questions.map((question, questionIndex) => (
+                <span key={questionIndex}>
+                  {/* question.component */}
+                  {question.component && (
+                    <span className="margin-right">
+                      {question.component(question.componentProps)}
+                    </span>
+                  )}
+                  {/* question */}
+                  <span className="p-font inline margin-right">
+                    {question.question}
+                  </span>
+                </span>
+              ))}
+            </div>
+          )
+        )}
       </div>
-      {articles.map((article, articleIndex) => (
-        <div key={articleIndex} className="line-break">
-          {article.paragraphNumber && (
+      <Card bgColor="Black" textColor="White">
+        <div className="flex-8px-start-space-between">
+          <p className="bold">Pre-Vocabulary</p>
+          <p className="p-size-smaller">'10</p>
+        </div>
+      </Card>
+      {/* preVocabularies */}
+      <div className="flex-8px-center-wrap">
+        {preVocabularies?.map((preVocabulary, indexPreVocabulary) => (
+          <span key={indexPreVocabulary}>
+            {preVocabulary.component(preVocabulary.componentProps)}
+          </span>
+        ))}
+      </div>
+      <Card bgColor="Black" textColor="White">
+        <div className="flex-8px-start-space-between">
+          <p className="bold">Listening (Gist)</p>
+          <p className="p-size-smaller">10'</p>
+        </div>
+      </Card>
+      <p>
+        What's the main point in the article? After listening, discuss it with
+        your partner.
+      </p>
+      <div className="sticky">
+        <AudioPlayer audioSrc={`${baseAudioSrc}${audioSrc}`} />
+      </div>
+
+      {/* Paragraphs */}
+      {paragraphs.map((paragraph, paragraphIndex) => (
+        <div key={paragraphIndex} className="line-break">
+          {paragraph.paragraphNumber && (
             <Card bgColor="lightgray">
-              <p className="bold">{article.paragraphNumber}</p>
+              <p className="bold">{paragraph.paragraphNumber}</p>
             </Card>
           )}
           <div>
-            <div className={article.imgSrc ? styles["container-paragraph-img"] : ""}>
+            <div>
               <div>
-                {article.enParagraphs.map((enParagraph, enParagraphIndex) => (
-                  <span key={enParagraphIndex}>
-                    {enParagraph.component && (
-                      <span className="margin-right">
-                        {enParagraph.component(enParagraph.componentProps)}
-                      </span>
-                    )}
-                    <span className="p-font inline margin-right">
-                      {enParagraph.enParagraph}
+                {/* enParagraphs */}
+                {paragraph.enParagraphs?.map(
+                  (enParagraph, enParagraphIndex) => (
+                    <span key={enParagraphIndex}>
+                      {/* enParagraph.component */}
+                      {enParagraph.component && (
+                        <span className="margin-right">
+                          {enParagraph.component(enParagraph.componentProps)}
+                        </span>
+                      )}
+                      {/* enParagraph */}
+                      {enParagraph.enParagraph && (
+                        <span className="p-font inline margin-right">
+                          {enParagraph.enParagraph}
+                        </span>
+                      )}
                     </span>
-                  </span>
-                ))}
+                  )
+                )}
               </div>
-              {article.imgSrc && (
-                <Image
-                  src={article.imgSrc}
-                  alt={article.imgAlt ?? ""}
-                  className="img-border "
-                  // style={{
-                  //   width: article.imgSrcWidth,
-                  //   height: article.imgSrcHeight,
-                  // }}
-                />
-              )}
             </div>
-            {article.ptParagraph && (
+            {/* ptParagraph */}
+            {paragraph.ptParagraph && (
               <div className="margin-top">
                 <Collapsible labelBold="Translation">
-                  <p className="portuguese">{article.ptParagraph}</p>
+                  <p className="portuguese">{paragraph.ptParagraph}</p>
                 </Collapsible>
               </div>
             )}
           </div>
-          {article.smaller && (
-            <p className="p-size-smaller">{article.smaller}</p>
-          )}
         </div>
       ))}
-      <Card bgColor="Black" textColor="White">
-        <p className="bold">Extra</p>
-      </Card>
 
       <Card bgColor="Black" textColor="White">
-        <p className="bold">Exercises</p>
+        <div className="flex-8px-start-space-between">
+          <p className="bold">Listening (Scan)</p>
+          <p className="p-size-smaller">'10</p>
+        </div>
+      </Card>
+      <p className="bold">
+        Grab a piece of paper. Check out the quesitons below. Listen again and
+        take notes.
+      </p>
+      <div>
+        {/* scanQuestions */}
+        {scanQuestions.map((scanQuestion, scanQuestionIndex) => (
+          <p key={scanQuestionIndex}>
+            <span className="bold">{scanQuestionIndex + 1}</span>{" "}
+            {scanQuestion.question}
+          </p>
+        ))}
+      </div>
+      <Card bgColor="Black" textColor="White">
+        <div className="flex-8px-start-space-between">
+          <p className="bold">Follow-up question</p>
+          <p className="p-size-smaller">'10</p>
+        </div>
+      </Card>
+      <div>
+        {/* followupQuestions */}
+        {followupQuestions.map((followupQuestion, followQuestionIndex) => (
+          <p key={followQuestionIndex}>
+            <span className="bold">{followQuestionIndex + 1}</span>{" "}
+            {followupQuestion.question}
+          </p>
+        ))}
+      </div>
+
+      <div></div>
+      <Card bgColor="Black" textColor="White">
+        <div className="flex-8px-start-space-between">
+          <p className="bold">Exercises</p>
+          <p className="p-size-smaller">'10</p>
+        </div>
       </Card>
     </div>
   );

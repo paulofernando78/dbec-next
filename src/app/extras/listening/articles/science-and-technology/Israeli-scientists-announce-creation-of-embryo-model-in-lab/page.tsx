@@ -1,11 +1,122 @@
-import { ArticleData, Articles } from "@/components/Articles";
+import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import {
+  DiscussionQuestion,
+  PreVocabulary,
+  Articles,
+  Paragraph,
+  ScanQuestion,
+  FollowupQuestion,
+} from "@/components/Articles";
+import Slider from "@/components/Slider";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 import { labEmbryo, labEmbryo2, labEmbryo3, labScientist } from "@/img/index";
 
-const articles: ArticleData[] = [
+const slider = [
+  {
+    imgSrc: labEmbryo,
+    imgAlt:
+      "PhD student, Nir Livnat, works at the laboratory on models of an early-stage human embryo, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023.",
+  },
+  {
+    imgSrc: labEmbryo2,
+    imgAlt:
+      "PhD student, Nir Livnat, works at the laboratory on models of an early-stage human embryo, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023.",
+  },
+  {
+    imgSrc: labEmbryo3,
+    imgAlt:
+      "PhD student, Mehmet Yunus Comar, looks at a model of an early-stage human embryo, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023.",
+  },
+  {
+    imgSrc: labScientist,
+    imgAlt:
+      "Prof Josef Hanna demonstrates the process he and his team of scientists used to develop models of early-stage human embryos, in a laboratory at the Weizmann Institute of Science in Rehovot, Israel September 7, 2023. ",
+  },
+];
+
+const discussionQuestions: DiscussionQuestion[] = [
+  {
+    questions: [
+      {
+        question: "1.",
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "",
+          label: "...",
+        },
+        question: "...",
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "",
+          label: "...",
+        },
+        question: "...",
+      },
+    ],
+  },
+  {
+    questions: [
+      {
+        question: "2. ...",
+      }
+    ],
+  },
+];
+
+
+const preVocabularies: PreVocabulary[] = [
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/c/carry-out.mp3",
+      keyword: "carry",
+      label: "carry out",
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/e/ethical.mp3",
+      label: "ethical",
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/m/miscarriage.mp3",
+      label: "miscarriage",
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/p/pregnancy.mp3",
+      label: "pregnancy",
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/s/synthetic.mp3",
+      label: "synthetic",
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/s/stem-cell.mp3",
+      label: "stem cell",
+    },
+  },
+];
+
+const paragraphs: Paragraph[] = [
   {
     paragraphNumber: "Paragraph 1",
     enParagraphs: [
@@ -35,7 +146,8 @@ const articles: ArticleData[] = [
           audioSrc: "/u/uterus.mp3",
           label: "uterus",
         },
-        enParagraph: "– is designed to support research on early human development.",
+        enParagraph:
+          "– is designed to support research on early human development.",
       },
     ],
     ptParagraph:
@@ -79,6 +191,7 @@ const articles: ArticleData[] = [
         component: (props) => <DictionaryCard {...props} />,
         componentProps: {
           audioSrc: "/c/carry-out.mp3",
+          keyword: "carry",
           label: "carry out",
         },
         enParagraph:
@@ -100,14 +213,12 @@ const articles: ArticleData[] = [
         component: (props) => <DictionaryCard {...props} />,
         componentProps: {
           audioSrc: "/p/published.mp3",
+          keyword: "publish",
           label: "published",
         },
-        enParagraph:
-          "their research results on the subject in recent months.",
+        enParagraph: "their research results on the subject in recent months.",
       },
     ],
-    imgSrc: labEmbryo2,
-    imgAlt: "Man looking through a microscope",
     ptParagraph:
       "Várias equipes de pesquisa internacionais têm trabalhado separadamente em estudos envolvendo modelos de embriões humanos. Cientistas dos Estados Unidos, da Grã-Bretanha e da China publicaram os resultados de suas pesquisas sobre o assunto nos últimos meses.",
   },
@@ -163,8 +274,6 @@ const articles: ArticleData[] = [
           "But the researchers said the work could open the door to new ways to study early human development. For example, the embryo models could test the effect of drugs on pregnancies. They could also help scientists better understand miscarriages and genetic diseases. And they might one day be used to grow transplant tissues and organs.",
       },
     ],
-    imgSrc: labEmbryo3,
-    imgAlt: "Man looking through a microscope",
     ptParagraph:
       "Mas os pesquisadores disseram que o trabalho poderia abrir portas para novas formas de estudar o desenvolvimento humano inicial. Por exemplo, os modelos de embrião poderiam testar o efeito de medicamentos nas gestações. Eles também poderiam ajudar os cientistas a entender melhor abortos espontâneos e doenças genéticas. Eles também podem um dia ser usados para cultivar tecidos e órgãos para transplantes.",
   },
@@ -198,8 +307,6 @@ const articles: ArticleData[] = [
           "The team then genetically changed the cells in an effort to get them to start developing into something that looks and behaves like a real human embryo. However, the researchers said their creation is not an actual or synthetic embryo. Instead, it is considered a model that shows how a real embryo works.",
       },
     ],
-    imgSrc: labScientist,
-    imgAlt: "Scientist looking at models of early-stage human embryos",
     ptParagraph:
       "A equipe então modificou geneticamente as células na tentativa de fazê-las começar a se desenvolver em algo que se parece e se comporta como um embrião humano real. No entanto, os pesquisadores afirmaram que sua criação não é um embrião real ou sintético. Em vez disso, é considerado um modelo que mostra como um embrião real funciona.",
   },
@@ -219,7 +326,7 @@ const articles: ArticleData[] = [
     enParagraphs: [
       {
         enParagraph:
-          "Hanna said the team’s next goal will be to extend model development to 21 days and also reach a success rate of at least 50 percent.",
+          "Hanna said the team's next goal will be to extend model development to 21 days and also reach a success rate of at least 50 percent.",
       },
     ],
     ptParagraph:
@@ -228,9 +335,51 @@ const articles: ArticleData[] = [
   {
     enParagraphs: [
       {
-        enParagraph: "I’m Bryan Lynn.",
+        enParagraph: "I'm Bryan Lynn.",
       },
     ],
+  },
+];
+
+const scanQuestions: ScanQuestion[] = [
+  {
+    question: "What institute conducted the research?",
+  },
+  {
+    question:
+      "What date is mentioned in relation to the stage of the embryo model?",
+  },
+  {
+    question: "Who led the research team?",
+  },
+  {
+    question:
+      "What is one potential use of the embryo models mentioned in the article?",
+  },
+  {
+    question: "How far did the embryo model develop?",
+  },
+  {
+    question: "What is the team's next goal?",
+  },
+];
+
+const followupQuestions: FollowupQuestion[] = [
+  {
+    question:
+      "What are your thoughts on using stem cells to create embryo models?",
+  },
+  {
+    question:
+      "Do you think the benefits of this research outweigh the ethical concerns? Why or why not?",
+  },
+  {
+    question:
+      "How do you think this research could impact future medical treatments?",
+  },
+  {
+    question:
+      "Why do some opponents of stem cell research consider it unethical and immoral?",
   },
 ];
 
@@ -239,21 +388,32 @@ const radioExercises = [
     title: "1. Choose the correct answer.",
     question: "1. What did Israeli scientists create in a laboratory?",
     options: [
-        { label: "a) A model of a human embryo from stem cells.", isCorrect: true },
-        { label: "b) A full human embryo using eggs and sperm.", isCorrect: false },
-        { label: "c) A synthetic organ from adult cells.", isCorrect: false },
+      {
+        label: "a) A model of a human embryo from stem cells.",
+        isCorrect: true,
+      },
+      {
+        label: "b) A full human embryo using eggs and sperm.",
+        isCorrect: false,
+      },
+      { label: "c) A synthetic organ from adult cells.", isCorrect: false },
     ],
   },
   {
-    question: "2. What is the main purpose of the embryo model created by Israeli scientists?",
+    question:
+      "2. What is the main purpose of the embryo model created by Israeli scientists?",
     options: [
-        { label: "a) To grow into a full human baby.", isCorrect: false },
-        { label: "b) To support research on early human development.", isCorrect: true },
-        { label: "c) To develop new types of stem cells.", isCorrect: false },
+      { label: "a) To grow into a full human baby.", isCorrect: false },
+      {
+        label: "b) To support research on early human development.",
+        isCorrect: true,
+      },
+      { label: "c) To develop new types of stem cells.", isCorrect: false },
     ],
   },
   {
-    question: "3. At what stage does the embryo model created by the Israeli researchers resemble a real human embryo?",
+    question:
+      "3. At what stage does the embryo model created by the Israeli researchers resemble a real human embryo?",
     options: [
       { label: "a) At day 7.", isCorrect: false },
       { label: "b) At day 14.", isCorrect: true },
@@ -261,15 +421,26 @@ const radioExercises = [
     ],
   },
   {
-    question: "4. What is one potential application of these embryo models mentioned by the researchers?",
+    question:
+      "4. What is one potential application of these embryo models mentioned by the researchers?",
     options: [
-      { label: "a) To test the effect of drugs on pregnancies.", isCorrect: true },
-      { label: "b) To create fully functional synthetic humans.", isCorrect: false },
-      { label: "c) To replace the need for organ donations.", isCorrect: false },
+      {
+        label: "a) To test the effect of drugs on pregnancies.",
+        isCorrect: true,
+      },
+      {
+        label: "b) To create fully functional synthetic humans.",
+        isCorrect: false,
+      },
+      {
+        label: "c) To replace the need for organ donations.",
+        isCorrect: false,
+      },
     ],
   },
   {
-    question: "5. What was the maximum development stage reached by the embryo model in the study?",
+    question:
+      "5. What was the maximum development stage reached by the embryo model in the study?",
     options: [
       { label: "a) Day 7.", isCorrect: false },
       { label: "b) Day 14.", isCorrect: true },
@@ -288,20 +459,29 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
           descriptions={[
             "Articles",
             "Israeli Scientists Announce Creation of Embryo Model in Lab",
-            "(September 11, 2023)",
           ]}
+          subdescription="September 11, 2023"
         />
+        <Slider images={slider} />
         <div>
           <Articles
-            articles={articles}
-            titleImgSrc={labEmbryo}
-            titleImgAlt="Examining an embryo with a mycroscope."
-            discussion="Why is embryo research unethical?"
-            discussionAnswer="To some opponents of stem cell research, the destruction of an embryo means that a potential fetus and ultimately a potential human being were killed; therefore this act and the research effort behind it is unethical and immoral. The basic argument is that an embryo is a potential fetus and is an innocent human being."
-            audioSrc="/assets/audio/extras/listening/articles/science-and-technology/Israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3"
+            discussion="Check out the pictures above. Swipe them to the right and answer the questions."
+            discussionQuestions={discussionQuestions}
+            preVocabularies={preVocabularies}
+            audioSrc="/science-and-technology/israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3"
+            paragraphs={paragraphs}
+            scanQuestions={scanQuestions}
+            followupQuestions={followupQuestions}
           />
         </div>
         <Radio questions={radioExercises} />
+        <p>
+          To some opponents of stem cell research, the destruction of an embryo
+          means that a potential fetus and ultimately a potential human being
+          were killed; therefore this act and the research effort behind it is
+          unethical and immoral. The basic argument is that an embryo is a
+          potential fetus and is an innocent human being."
+        </p>
       </div>
     </>
   );
