@@ -7,17 +7,26 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: 'Letter "u"',
-    sound: "...",
+    sound: "/ʌ/, /ɪ/",
     phonetics: [
       {
         beforeText: "...",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
-          audioSrc: "/phonetics/ɪ.mp3",
+          audioSrc: "/phonetics/ʌ.mp3",
           label: "phonetics",
-          phonetics: "/ɪ/",
+          phonetics: "/ʌ/",
         },
         words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/d/dust.mp3",
+              keyword: "dusy",
+              label: "d<span class='underline'>u</span>st",
+              phonetics: "/dʌst/",
+            },
+          },
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -53,6 +62,32 @@ const pronunciations: Pronunciation[] = [
           },
         ],
       },
+      {
+        beforeText: "...",
+            phoneticsComponent: (props) => <DictionaryCard {...props} />,
+            phoneticsComponentProps: {
+            audioSrc: "/phonetics/ɪ.mp3",
+            label: "phonetics",
+            phonetics: "/ɪ/",
+          },
+          words: [
+            {
+              component: (props) => <DictionaryCard {...props} />,
+              componentProps: {
+                audioSrc: "/b/build.mp3",
+                keyword: "build",
+                label: "b<span class='underline'>ui</span>ld",
+                phonetics: "/bɪld/",
+              },
+            },
+          ],
+          examples: [
+            {
+              enExample: "...",
+              ptExample: "..."
+            },
+          ],
+        },
     ],
   },
 ];

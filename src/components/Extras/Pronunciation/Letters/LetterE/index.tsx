@@ -1,14 +1,17 @@
-import { Pronunciation, PronunciationCard } from "@/components/Cards/PronunciationCard";
+import {
+  Pronunciation,
+  PronunciationCard,
+} from "@/components/Cards/PronunciationCard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
     label: 'Letter "e"',
-    sound: "/e/, /i/",
+    sound: "/e/, /i/, /ɪ/, /ɝː/",
     phonetics: [
       // /e/
       {
-      phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/e.mp3",
           label: "phonetics",
@@ -37,68 +40,26 @@ const pronunciations: Pronunciation[] = [
         examples: [
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
         ],
-        showHR: true
-      },
-      // /ɝː/
-      {
-        phoneticsComponent: (props) => <DictionaryCard {...props} />,
-        phoneticsComponentProps: {
-          audioSrc: "/phonetics/i.mp3",
-          label: "phonetics",
-          phonetics: "/i/",
-        },
-        words: [
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/p/person.mp3",
-              keyword: "person",
-              label: "p<span class='underline'>er</span>son",
-              phonetics: "/ˈpɝː.sən/",
-            },
-          },
-        ],
-        examples: [
-          {
-            enExample: "...",
-            ptExample: "..."
-          },
-          {
-            enExample: "...",
-            ptExample: "..."
-          },
-          {
-            enExample: "...",
-            ptExample: "..."
-          },
-          {
-            enExample: "...",
-            ptExample: "..."
-          },
-          {
-            enExample: "...",
-            ptExample: "..."
-          },
-        ],
+        showHR: true,
       },
       // /i/
       {
@@ -118,27 +79,105 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/kriˈeɪ.t̬ɪv/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/p/pediatrics.mp3",
+              keyword: "pediatrics",
+              label: "p<span class='underline'>e</span>diatrics",
+              phonetics: "/ˌpiː.diˈæt.rɪks/",
+            },
+          },
         ],
         examples: [
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
+          },
+        ],
+        showHR: true,
+      },
+      // /ɪ/
+      {
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/ɪ.mp3",
+          label: "phonetics",
+          phonetics: "/ɪ/",
+        },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/r/redundancy.mp3",
+              keyword: "redundancy",
+              label: "r<span class='underline'>e</span>dundancy",
+              phonetics: "/rɪˈdʌn.dən.si/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+        ],
+      },
+      // /ɝː/
+      {
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/ɝ.mp3",
+          label: "phonetics",
+          phonetics: "/ɝː/",
+        },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/p/person.mp3",
+              keyword: "person",
+              label: "p<span class='underline'>er</span>son",
+              phonetics: "/ˈpɝː.sən/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+          {
+            enExample: "...",
+            ptExample: "...",
           },
         ],
       },
@@ -150,7 +189,7 @@ export const LetterE = () => {
   return (
     <>
       <div className="line-break">
-      <PronunciationCard pronunciations={pronunciations} />
+        <PronunciationCard pronunciations={pronunciations} />
       </div>
     </>
   );

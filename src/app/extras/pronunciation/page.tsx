@@ -19,6 +19,7 @@ import { LetterU } from "@/components/Extras/Pronunciation/Letters/LetterU";
 import { LettersAU } from "@/components/Extras/Pronunciation/Letters/LettersAU";
 import { LettersO } from "@/components/Extras/Pronunciation/Letters/LetterO";
 import { LettersOO } from "@/components/Extras/Pronunciation/Letters/LetterOO";
+import { LetterUI } from "@/components/Extras/Pronunciation/Letters/LetterUI";
 
 export default function Pronunciation() {
   return (
@@ -68,6 +69,9 @@ export default function Pronunciation() {
           <a href="#letter-u">
             <p>Letter u</p>
           </a>
+          <a href="#letter-ui">
+            <p>Letter ui</p>
+          </a>
           <a href="#letter-y">
             <p>Letter y</p>
           </a>
@@ -109,7 +113,7 @@ export default function Pronunciation() {
         </div>
         <div id="letter-ie">
           <LetterIE />
-        </div> 
+        </div>
         <div id="letter-o">
           <LettersO />
         </div>
@@ -122,6 +126,9 @@ export default function Pronunciation() {
         <div id="letter-t"></div>
         <div id="letter-u">
           <LetterU />
+        </div>
+        <div id="letter-ui">
+          <LetterUI />
         </div>
         <div id="letter-y">
           <LetterY />
@@ -163,8 +170,12 @@ export default function Pronunciation() {
           <p>
             I wor<span className="underline">k in an o</span>ffice.
           </p>
-          <p>Let's ha<span className="underline">ve an a</span>dventure.</p>
-          <p>It'<span className="underline">s an e</span>asy job.</p>
+          <p>
+            Let's ha<span className="underline">ve an a</span>dventure.
+          </p>
+          <p>
+            It'<span className="underline">s an e</span>asy job.
+          </p>
           <p>
             Embar<span className="underline">k on an e</span>xtraordinary
             journey...
