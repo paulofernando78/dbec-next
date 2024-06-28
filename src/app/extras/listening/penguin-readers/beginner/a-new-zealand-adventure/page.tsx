@@ -1,6 +1,5 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { PenguinReadersTemplate } from "@/components/Listening/PenguinReaders/Page";
-import React from "react";
 
 const structure = [
   {

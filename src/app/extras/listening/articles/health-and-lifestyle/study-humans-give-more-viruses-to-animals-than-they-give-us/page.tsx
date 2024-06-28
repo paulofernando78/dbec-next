@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
+import { AudioPlayer } from "@/components/Audioplayer";
 import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";

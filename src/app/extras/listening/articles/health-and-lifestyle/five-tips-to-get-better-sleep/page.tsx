@@ -1,7 +1,7 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { Card } from "@/components/Cards/Card";
-import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
+import { AudioPlayer } from "@/components/Audioplayer";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { VideoPlayer } from "@/components/VideoPlayer/VideoPlayer";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
