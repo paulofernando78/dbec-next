@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
+import { AudioPlayer } from "@/components/Audioplayer";
 
 // CSS
 import styles from "./styles.module.css";

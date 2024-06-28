@@ -9,7 +9,7 @@ const structure = [
       "/assets/img/extras/listening/penguin-readers/beginner/.../cover.jpg",
     summaryAltText: "Cover image",
     audioSrc:
-      "/assets/audio/extras/listening/penguin-readers/beginner/.../audio.mp3",
+      "/assets/audio/extras/listening/penguin-readers/beginner/flying-home/audio.mp3",
     paragraphs: [
       {
         paragraphNumber: "Paragraph 1",

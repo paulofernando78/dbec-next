@@ -1,6 +1,5 @@
 import { DescriptionCard } from "@/components/Cards/DescriptionCard";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import React from "react";
 
 const descriptions = [
   {

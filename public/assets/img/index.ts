@@ -57,11 +57,13 @@ import labEmbryo from "./lab-embryo.avif"
 import labEmbryo2 from "./lab-embryo2.jpg"
 import labEmbryo3 from "./lab-embryo3.jpg"
 import labScientist from "./lab-scientist.avif"
+import personAtASupermarketBrowsingVeggies from "./person-at-a-supermaket-browsing-veggies.avif"
+import peoplePreparingFood from "./people-preparing-food.avif"
 import potatoChipLaysFlamminHotDillPickle from "./potato-chip-lays-flamin-hot-dill-pickle.png"
 import potatoChipLaysStrawBerryBacon from "./potato-chip-lays-strawberry-bacon.jpg"
 import potatoChipWalkersBrusselsSprout from "./potato-chip-walkers-brussels-sprout.webp"
 import teenChoppingVegetable from "./teen-chopping-vegetable.avif"
-import peoplePreparingFood from "./people-preparing-food.avif"
+import teenLookingAtFoodLabel from "./teen-looking-at-food-label.avif"
 
 export {
   placementTest,
@@ -116,9 +118,11 @@ export {
   labEmbryo2,
   labEmbryo3,
   labScientist,
+  personAtASupermarketBrowsingVeggies,
+  peoplePreparingFood,
   potatoChipLaysFlamminHotDillPickle,
   potatoChipLaysStrawBerryBacon,
   potatoChipWalkersBrusselsSprout,
   teenChoppingVegetable,
-  peoplePreparingFood
+  teenLookingAtFoodLabel
 };

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import {
   DiscussionQuestion,
@@ -11,8 +11,12 @@ import {
 import Slider from "@/components/Slider";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
-
-import { peoplePreparingFood, teenChoppingVegetable } from "@/img/index";
+import {
+  peoplePreparingFood,
+  personAtASupermarketBrowsingVeggies,
+  teenChoppingVegetable,
+  teenLookingAtFoodLabel,
+} from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
 const slider = [
@@ -24,16 +28,35 @@ const slider = [
     imgSrc: peoplePreparingFood,
     imgAlt: "People prearing food",
   },
+  {
+    imgSrc: teenLookingAtFoodLabel,
+    imgAlt: "Teen looking at food label",
+  },
+  {
+    imgSrc: personAtASupermarketBrowsingVeggies,
+    imgAlt: "Person at a supermarket-browsing-veggies",
+  },
 ];
 
 const discussionQuestions: DiscussionQuestion[] = [
   {
     questions: [
       {
-        question: "1. What can you see? What's happening?",
+        question: "1. What can you see?",
       },
+    ],
+  },
+  {
+    questions: [
       {
-        question: "What's she preparing?",
+        question: "2. What's happening?",
+      },
+    ],
+  },
+  {
+    questions: [
+      {
+        question: "3. Why is it happening?",
       },
     ],
   },
@@ -46,7 +69,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/c/counseling.mp3",
       keyword: "counseling",
       label: "counseling",
-      phonetics: "/ˈkaʊnsəlɪŋ/"
+      phonetics: "/ˈkaʊnsəlɪŋ/",
     },
   },
   {
@@ -55,7 +78,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/i/insurance.mp3",
       keyword: "insurance",
       label: "insurance",
-      phonetics: "/ɪnˈʃɜ.r.əns/"
+      phonetics: "/ɪnˈʃɜ.r.əns/",
     },
   },
   {
@@ -64,7 +87,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/o/obesity.mp3",
       keyword: "obesity",
       label: "obesity",
-      phonetics: "/oʊˈbiː.sə.t̬i/"
+      phonetics: "/oʊˈbiː.sə.t̬i/",
     },
   },
   {
@@ -73,7 +96,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/p/pediatrics.mp3",
       keyword: "pediatrics",
       label: "pediatrics",
-      phonetics: "/ˌpiː.diˈæt.rɪks/"
+      phonetics: "/ˌpiː.diˈæt.rɪks/",
     },
   },
   {
@@ -82,7 +105,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/a/adolescent.mp3",
       keyword: "adolescent",
       label: "adolescent",
-      phonetics: "/ˌæd.əˈles.ənt/"
+      phonetics: "/ˌæd.əˈles.ənt/",
     },
   },
   {
@@ -91,7 +114,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/l/lifestyle.mp3",
       keyword: "lifestyle",
       label: "lifestyle",
-      phonetics: "/ˈlaɪf.staɪl/"
+      phonetics: "/ˈlaɪf.staɪl/",
     },
   },
   {
@@ -100,7 +123,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/t/tempting.mp3",
       keyword: "tempting",
       label: "tempting",
-      phonetics: "/ˈtemp.tɪŋ/"
+      phonetics: "/ˈtemp.tɪŋ/",
     },
   },
   {
@@ -109,7 +132,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/a/adopt.mp3",
       keyword: "adopt",
       label: "adopt",
-      phonetics: "/əˈdɑːpt/"
+      phonetics: "/əˈdɑːpt/",
     },
   },
   {
@@ -118,7 +141,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/c/calorie.mp3",
       keyword: "calorie",
       label: "calorie",
-      phonetics: "/ˈkæl.ɚ.i/"
+      phonetics: "/ˈkæl.ɚ.i/",
     },
   },
   {
@@ -127,7 +150,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/l/label.mp3",
       keyword: "label",
       label: "label",
-      phonetics: "/ˈleɪ.bəl/"
+      phonetics: "/ˈleɪ.bəl/",
     },
   },
   {
@@ -136,7 +159,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/c/clinical.mp3",
       keyword: "clinical",
       label: "clinical",
-      phonetics: "/ˈklɪn.ɪ.kəl/"
+      phonetics: "/ˈklɪn.ɪ.kəl/",
     },
   },
 ];
@@ -156,7 +179,17 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 2",
     enParagraphs: [
       {
-        enParagraph: "For many parents in the United States, finding help for an overweight child is not easy. That is because the most widely suggested treatment is not widely available.",
+        enParagraph:
+          "For many parents in the United States, finding help for an",
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/o/overweight.mp3",
+          label: "overweight",
+        },
+        enParagraph:
+          "child is not easy. That is because the most widely suggested treatment is not widely available.",
       },
     ],
     ptParagraph: "...",
@@ -165,7 +198,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 3",
     enParagraphs: [
       {
-        enParagraph: "Leading medical groups suggest intense behavioral counseling. These types of programs teach children and their families about easy ways to eat healthier and exercise more.",
+        enParagraph:
+          "Leading medical groups suggest intense behavioral counseling. These types of programs teach children and their families about easy ways to eat healthier and exercise more.",
       },
     ],
     ptParagraph: "...",
@@ -174,7 +208,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 4",
     enParagraphs: [
       {
-        enParagraph: "However, these programs have long waiting periods. They are often not covered by health insurance. And they require a lot of time. As a result, less than one percent of the nearly 15 million U.S. children who struggle with obesity get the recommended kind of care. That information comes from the U.S. Centers for Disease Control and Prevention, or CDC.",
+        enParagraph:
+          "However, these programs have long waiting periods. They are often not covered by health insurance. And they require a lot of time. As a result, less than one percent of the nearly 15 million U.S. children who struggle with obesity get the recommended kind of care. That information comes from the U.S. Centers for Disease Control and Prevention, or CDC.",
       },
     ],
     ptParagraph: "...",
@@ -184,7 +219,8 @@ const paragraphs: Paragraph[] = [
 
     enParagraphs: [
       {
-        enParagraph: "Reporters with the Reuters news agency spoke with doctors, parents and other experts about the difficulties of getting such treatment for obese children.",
+        enParagraph:
+          "Reporters with the Reuters news agency spoke with doctors, parents and other experts about the difficulties of getting such treatment for obese children.",
       },
     ],
     ptParagraph: "...",
@@ -193,7 +229,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 6",
     enParagraphs: [
       {
-        enParagraph: "The CDC and others have tried to expand insurance coverage for the behavioral counseling programs. But so far, that has not happened, doctors told Reuters.",
+        enParagraph:
+          "The CDC and others have tried to expand insurance coverage for the behavioral counseling programs. But so far, that has not happened, doctors told Reuters.",
       },
     ],
     ptParagraph: "...",
@@ -202,7 +239,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 7",
     enParagraphs: [
       {
-        enParagraph: "\"The coverage for these programs was never good, and we're not seeing any movement toward improvement,\" said Dr. Joseph Skelton. He is a professor of child medicine, or pediatrics. Skelton is also an obesity medicine specialist at Wake Forest University School of Medicine in North Carolina.",
+        enParagraph:
+          '"The coverage for these programs was never good, and we\'re not seeing any movement toward improvement," said Dr. Joseph Skelton. He is a professor of child medicine, or pediatrics. Skelton is also an obesity medicine specialist at Wake Forest University School of Medicine in North Carolina.',
       },
     ],
     ptParagraph: "...",
@@ -211,7 +249,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 8",
     enParagraphs: [
       {
-        enParagraph: "Obesity among U.S. children has increased from five percent in 1980 to nearly 20 percent today, CDC experts say.",
+        enParagraph:
+          "Obesity among U.S. children has increased from five percent in 1980 to nearly 20 percent today, CDC experts say.",
       },
     ],
     ptParagraph: "...",
@@ -220,7 +259,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 9",
     enParagraphs: [
       {
-        enParagraph: "Novo Nordisk's weight-loss drug Wegovy was approved for adults in 2021 and for adolescents in late 2022. The drug provides a highly effective way to lose weight. The drugmaker still cannot meet demand for the drug among adults. Each week, there are at least 25,000 first-time users of the drug.",
+        enParagraph:
+          "Novo Nordisk's weight-loss drug Wegovy was approved for adults in 2021 and for adolescents in late 2022. The drug provides a highly effective way to lose weight. The drugmaker still cannot meet demand for the drug among adults. Each week, there are at least 25,000 first-time users of the drug.",
       },
     ],
     ptParagraph: "...",
@@ -229,7 +269,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 10",
     enParagraphs: [
       {
-        enParagraph: "A much smaller, but growing, number of families are seeking the drug for their adolescents, Reuters reported earlier this year. Many doctors and parents are unsure of using the medication. They do not know if Wegovy can affect a child’s development or create other long-term risks.",
+        enParagraph:
+          "A much smaller, but growing, number of families are seeking the drug for their adolescents, Reuters reported earlier this year. Many doctors and parents are unsure of using the medication. They do not know if Wegovy can affect a child’s development or create other long-term risks.",
       },
     ],
     ptParagraph: "...",
@@ -238,7 +279,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 11",
     enParagraphs: [
       {
-        enParagraph: "Ruth Medina of Holyoke, Massachusetts, was worried about her daughter, Jalainie. At age 15, Jelainie weighed over 90 kilograms. The family has a history of type 2 diabetes, a condition worsened by being overweight. Medina did not want that to happen.",
+        enParagraph:
+          "Ruth Medina of Holyoke, Massachusetts, was worried about her daughter, Jalainie. At age 15, Jelainie weighed over 90 kilograms. The family has a history of type 2 diabetes, a condition worsened by being overweight. Medina did not want that to happen.",
       },
     ],
     ptParagraph: "...",
@@ -247,7 +289,7 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 12",
     enParagraphs: [
       {
-        enParagraph: "\"…That's when I got scared,\" Medina said.",
+        enParagraph: '"…That\'s when I got scared," Medina said.',
       },
     ],
     ptParagraph: "...",
@@ -256,7 +298,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 13",
     enParagraphs: [
       {
-        enParagraph: "So, she wanted make healthy changes for her family and sought help. Jelainie's doctor suggested the healthy weight program at Holyoke Health Center. In this program, children and their parents meet with a food expert and a community health worker. Together they set individual weight goals, cook healthy meals, learn how to read food labels, and talk about healthy lifestyle choices.",
+        enParagraph:
+          "So, she wanted make healthy changes for her family and sought help. Jelainie's doctor suggested the healthy weight program at Holyoke Health Center. In this program, children and their parents meet with a food expert and a community health worker. Together they set individual weight goals, cook healthy meals, learn how to read food labels, and talk about healthy lifestyle choices.",
       },
     ],
     ptParagraph: "...",
@@ -265,7 +308,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 14",
     enParagraphs: [
       {
-        enParagraph: "Dr. Vinny Biggs runs the program. He said there is a four-month wait to get into the program. Biggs said Medina and her daughter’s treatment is partly covered by the state Medicaid health insurance.",
+        enParagraph:
+          "Dr. Vinny Biggs runs the program. He said there is a four-month wait to get into the program. Biggs said Medina and her daughter’s treatment is partly covered by the state Medicaid health insurance.",
       },
     ],
     ptParagraph: "...",
@@ -274,7 +318,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 15",
     enParagraphs: [
       {
-        enParagraph: "At the family's first meeting, Jelainie prepared a rice and vegetables dish with her teachers. She and her mother both said they liked the healthy meal.",
+        enParagraph:
+          "At the family's first meeting, Jelainie prepared a rice and vegetables dish with her teachers. She and her mother both said they liked the healthy meal.",
       },
     ],
     ptParagraph: "...",
@@ -283,7 +328,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 16",
     enParagraphs: [
       {
-        enParagraph: "Jelainie has lost some weight. She started walking more, playing tennis and eating more fruits and vegetables. However, her mother still worries about the appeal of the many fast-food restaurants close to their home. For her daughter, they are tempting.",
+        enParagraph:
+          "Jelainie has lost some weight. She started walking more, playing tennis and eating more fruits and vegetables. However, her mother still worries about the appeal of the many fast-food restaurants close to their home. For her daughter, they are tempting.",
       },
     ],
     ptParagraph: "...",
@@ -292,7 +338,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 17",
     enParagraphs: [
       {
-        enParagraph: "\"We walk by so many temptations,\" Medina said. \"I want to do whatever I can to get her to a healthy weight.\"",
+        enParagraph:
+          '"We walk by so many temptations," Medina said. "I want to do whatever I can to get her to a healthy weight."',
       },
     ],
     ptParagraph: "...",
@@ -301,7 +348,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 18",
     enParagraphs: [
       {
-        enParagraph: "Dr. Thomas Robinson is director of the Center for Healthy Weight at Stanford Medicine Children’s Health in California. He said, \"Many of us believe it would make sense to offer behavioral counseling along with the drug.\"",
+        enParagraph:
+          'Dr. Thomas Robinson is director of the Center for Healthy Weight at Stanford Medicine Children’s Health in California. He said, "Many of us believe it would make sense to offer behavioral counseling along with the drug."',
       },
     ],
     ptParagraph: "...",
@@ -310,7 +358,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 19",
     enParagraphs: [
       {
-        enParagraph: "He added, \"These drugs are very effective at reducing weight and health risks, but you don't all of a sudden adopt a healthy diet or become more physically active,\" he said.",
+        enParagraph:
+          'He added, "These drugs are very effective at reducing weight and health risks, but you don\'t all of a sudden adopt a healthy diet or become more physically active," he said.',
       },
     ],
     ptParagraph: "...",
@@ -319,7 +368,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 20",
     enParagraphs: [
       {
-        enParagraph: "With Stanford's lifestyle-counseling program, instructors give parents and their children long-established lessons about eating wisely. They use the colors of a traffic light to teach these lessons.",
+        enParagraph:
+          "With Stanford's lifestyle-counseling program, instructors give parents and their children long-established lessons about eating wisely. They use the colors of a traffic light to teach these lessons.",
       },
     ],
     ptParagraph: "...",
@@ -328,7 +378,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 21",
     enParagraphs: [
       {
-        enParagraph: "High-calorie foods, such as ice cream or even almonds, are \"red-light\" foods. They should not be eaten often. Vegetables are \"green light\" foods. Kids can eat as many green light foods as they want. Most foods, Robinson explained, are \"yellow light\" and fall somewhere in between.",
+        enParagraph:
+          'High-calorie foods, such as ice cream or even almonds, are "red-light" foods. They should not be eaten often. Vegetables are "green light" foods. Kids can eat as many green light foods as they want. Most foods, Robinson explained, are "yellow light" and fall somewhere in between.',
       },
     ],
     ptParagraph: "...",
@@ -337,7 +388,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 22",
     enParagraphs: [
       {
-        enParagraph: "Health insurance does not cover Stanford's program. So families pay out-of-pocket or receive financial help from the hospital, Robinson said. The full cost of the program is $3,500.",
+        enParagraph:
+          "Health insurance does not cover Stanford's program. So families pay out-of-pocket or receive financial help from the hospital, Robinson said. The full cost of the program is $3,500.",
       },
     ],
     ptParagraph: "...",
@@ -346,7 +398,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 23",
     enParagraphs: [
       {
-        enParagraph: "Since 2022, the CDC, American Academy of Pediatrics and other experts have pushed for better insurance coverage of obesity counseling. In September, an American Medical Association (AMA) group of experts rejected one of those efforts. The effort was a request for the creation of a medical code for the intensive program. This code would help providers bill insurance companies for their services.",
+        enParagraph:
+          "Since 2022, the CDC, American Academy of Pediatrics and other experts have pushed for better insurance coverage of obesity counseling. In September, an American Medical Association (AMA) group of experts rejected one of those efforts. The effort was a request for the creation of a medical code for the intensive program. This code would help providers bill insurance companies for their services.",
       },
     ],
     ptParagraph: "...",
@@ -355,7 +408,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 24",
     enParagraphs: [
       {
-        enParagraph: "However, in a statement, the AMA told Reuters the application did not meet the group's standards. The AMA explained that a new code may not be approved by insurance providers if the programs include non-clinical services, such as cooking classes. Even if a new code is created, health insurers can still refuse to pay for medical services.",
+        enParagraph:
+          "However, in a statement, the AMA told Reuters the application did not meet the group's standards. The AMA explained that a new code may not be approved by insurance providers if the programs include non-clinical services, such as cooking classes. Even if a new code is created, health insurers can still refuse to pay for medical services.",
       },
     ],
     ptParagraph: "...",
@@ -364,7 +418,8 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 25",
     enParagraphs: [
       {
-        enParagraph: "In a statement to Reuters, the CDC said that guaranteeing fair access to both obesity medications and lifestyle treatment is critical. That would give families more choices when deciding how to best support their child’s health.",
+        enParagraph:
+          "In a statement to Reuters, the CDC said that guaranteeing fair access to both obesity medications and lifestyle treatment is critical. That would give families more choices when deciding how to best support their child’s health.",
       },
     ],
     ptParagraph: "...",
