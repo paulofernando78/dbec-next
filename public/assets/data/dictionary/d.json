@@ -47,5 +47,23 @@
         ]
       }
     ]
+  },
+  {
+    "keyword": "dulce de leche",
+    "definitions": [
+      {
+	      "audio": "/assets/audio/dictionary/d/dulce-de-leche.mp3",
+	      "word": "dulce de leche",
+		    "phonetics": "/ˌdʌl.seɪ də ˈletʃ.eɪ/",
+		    "partOfSpeech": "noun",
+        "enDefinition": "a sweet food, originally from Latin America, made from milk that has been caramelized until it becomes sweet and brown",
+        "examples": [
+          {
+            "enExample": "The dessert was a dulce de leche and vanilla ice cream.",
+            "ptExample": "A sobremesa era doce de leite e sorvete de baunilha."
+          }
+        ]
+      }
+    ]
   }
 ]

@@ -266,8 +266,38 @@
     ]
   },
   {
-    "keyword": "put in a good word",
+    "keyword": "put",
     "definitions": [
+      {
+	      "audio": "/assets/audio/dictionary/p/put.mp3",
+	      "word": "put",
+		    "phonetics": "...",
+		    "partOfSpeech": "irregular verb",
+        "enDefinition": "...",
+        "ptDefinition": "...",
+        "examples": [
+          {
+            "enExample": "...",
+            "ptExample": "..."
+          }
+        ],
+	      "synonyms": "...",
+        "antonyms": "..."
+      },
+      {
+        "audio": "/assets/audio/dictionary/p/put-a-spoke-in-someones-wheel.mp3",
+        "word": "put a spoke in someone's wheel",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to make it difficult for someone to achieve something they had planned to do",
+        "ptDefinition": "atrapalhar, dificultar",
+        "examples": [
+          {
+            "enExample": "His letter really put a spoke in our wheel.",
+            "ptExample": "A carta dele realmente atrapalhou nossos planos."
+          }
+        ],
+        "synonyms": "hinder"
+      },
       {
         "audio": "/assets/audio/dictionary/p/put-in-a-good-word.mp3",
         "word": "put in a good word",
