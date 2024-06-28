@@ -20,6 +20,7 @@ import { LettersAU } from "@/components/Extras/Pronunciation/Letters/LettersAU";
 import { LettersO } from "@/components/Extras/Pronunciation/Letters/LetterO";
 import { LettersOO } from "@/components/Extras/Pronunciation/Letters/LetterOO";
 import { LetterUI } from "@/components/Extras/Pronunciation/Letters/LetterUI";
+import { LetterEI } from "@/components/Extras/Pronunciation/Letters/LetterEI";
 
 export default function Pronunciation() {
   return (
@@ -38,6 +39,9 @@ export default function Pronunciation() {
           </a>
           <a href="#letter-e">
             <p>Letter e</p>
+          </a>
+          <a href="#letter-ei">
+            <p>Letter ei</p>
           </a>
           <a href="#letters-a-vs-e">
             <p>Letter a vs. e</p>
@@ -98,6 +102,9 @@ export default function Pronunciation() {
         </div>
         <div id="letter-e">
           <LetterE />
+        </div>
+        <div id="letter-ei">
+          <LetterEI />
         </div>
         <div id="letters-a-vs-e">
           <LetterAvsE />

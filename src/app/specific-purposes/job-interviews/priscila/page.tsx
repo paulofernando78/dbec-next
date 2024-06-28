@@ -1,4 +1,4 @@
-import { AudioPlayer } from "@/components/Audioplayer/Audioplayer";
+import { AudioPlayer } from "@/components/Audioplayer";
 import React from "react";
 
 export default function Priscila() {

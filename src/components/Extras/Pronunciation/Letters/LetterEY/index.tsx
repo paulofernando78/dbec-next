@@ -1,14 +1,18 @@
-import { Pronunciation, PronunciationCard } from "@/components/Cards/PronunciationCard";
+import {
+  Pronunciation,
+  PronunciationCard,
+} from "@/components/Cards/PronunciationCard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: "Letter \"ey\"",
-    sound: "/i/ ",
+    label: 'Letter "ey"',
+    sound: "/i/ /eɪ/ ",
     phonetics: [
+      // /i/
       {
-          phoneticsComponent: (props) => <DictionaryCard {...props} />,
-	        phoneticsComponentProps: {
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
           audioSrc: "/phonetics/i.mp3",
           label: "phonetics",
           phonetics: "/i/",
@@ -72,7 +76,34 @@ const pronunciations: Pronunciation[] = [
         examples: [
           {
             enExample: "Let's go to Disney Land to see Mickey Mouse.",
-            ptExample: "..."
+            ptExample: "Vamos para a Disneyland para ver o Mickey Mouse.",
+          },
+        ],
+        showHR: true
+      },
+      // /eɪ/
+      {
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/eɪ.mp3",
+          label: "phonetics",
+          phonetics: "/eɪ/",
+        },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/w/whey.mp3",
+              keyword: "whey",
+              label: "wh<span class='underline'>ey</span>",
+              phonetics: "/weɪ/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
           },
         ],
       },
@@ -84,7 +115,7 @@ export const LettersEY = () => {
   return (
     <>
       <div className="line-break">
-      <PronunciationCard pronunciations={pronunciations} />
+        <PronunciationCard pronunciations={pronunciations} />
       </div>
     </>
   );

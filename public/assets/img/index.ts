@@ -60,6 +60,8 @@ import labScientist from "./lab-scientist.avif"
 import potatoChipLaysFlamminHotDillPickle from "./potato-chip-lays-flamin-hot-dill-pickle.png"
 import potatoChipLaysStrawBerryBacon from "./potato-chip-lays-strawberry-bacon.jpg"
 import potatoChipWalkersBrusselsSprout from "./potato-chip-walkers-brussels-sprout.webp"
+import teenChoppingVegetable from "./teen-chopping-vegetable.avif"
+import peoplePreparingFood from "./people-preparing-food.avif"
 
 export {
   placementTest,
@@ -117,4 +119,6 @@ export {
   potatoChipLaysFlamminHotDillPickle,
   potatoChipLaysStrawBerryBacon,
   potatoChipWalkersBrusselsSprout,
+  teenChoppingVegetable,
+  peoplePreparingFood
 };

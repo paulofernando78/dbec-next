@@ -12,13 +12,17 @@ import Slider from "@/components/Slider";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 
-import { cat1 } from "@/img/index";
+import { peoplePreparingFood, teenChoppingVegetable } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
 const slider = [
   {
-    imgSrc: cat1,
-    imgAlt: "...",
+    imgSrc: teenChoppingVegetable,
+    imgAlt: "A teenager chipping vegetables",
+  },
+  {
+    imgSrc: peoplePreparingFood,
+    imgAlt: "People prearing food",
   },
 ];
 
@@ -26,15 +30,10 @@ const discussionQuestions: DiscussionQuestion[] = [
   {
     questions: [
       {
-        question: "1.",
+        question: "1. What can you see? What's happening?",
       },
       {
-        component: (props) => <DictionaryCard {...props} />,
-        componentProps: {
-          audioSrc: "",
-          label: "...",
-        },
-        question: "...",
+        question: "What's she preparing?",
       },
     ],
   },
@@ -98,10 +97,10 @@ const preVocabularies: PreVocabulary[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
-      audioSrc: "/t/tempt.mp3",
-      keyword: "tempt",
-      label: "tempt",
-      phonetics: "/tempt/"
+      audioSrc: "/t/tempting.mp3",
+      keyword: "tempting",
+      label: "tempting",
+      phonetics: "/ˈtemp.tɪŋ/"
     },
   },
   {
@@ -120,6 +119,15 @@ const preVocabularies: PreVocabulary[] = [
       keyword: "calorie",
       label: "calorie",
       phonetics: "/ˈkæl.ɚ.i/"
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/l/label.mp3",
+      keyword: "label",
+      label: "label",
+      phonetics: "/ˈleɪ.bəl/"
     },
   },
   {
@@ -421,7 +429,7 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
         <Slider images={slider} />
         <div>
           <Articles
-            discussion="Check out the pictures above. Swipe them to the right and answer the questions."
+            discussion="Check out the pictures above and answer the questions."
             discussionQuestions={discussionQuestions}
             preVocabularies={preVocabularies}
             audioSrc="https://voa-audio-ns.akamaized.net/vle/2024/06/21/01000000-0aff-0242-830c-08dc923fce0e.mp3"

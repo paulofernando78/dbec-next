@@ -23,10 +23,28 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/s/sushi.mp3",
+              keyword: "sashimi",
+              label: "sash<span class='underline'>i</span>m<span class='underline'>i</span>",
+              phonetics: "/sæʃˈiː.mi/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/p/police.mp3",
               keyword: "police",
               label: "pol<span class='underline'>i</span>ce",
               phonetics: "/pəˈliːs/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/r/ravine.mp3",
+              keyword: "ravine",
+              label: "rav<span class='underline'>i</span>ne",
+              phonetics: "/rəˈviːn/",
             },
           },
           {
@@ -73,6 +91,15 @@ const pronunciations: Pronunciation[] = [
               keyword: "fix",
               label: "f<span class='underline'>i</span>x",
               phonetics: "/fɪks/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/d/disease.mp3",
+              keyword: "disease",
+              label: "d<span class='underline'>i</span>sease",
+              phonetics: "/dɪˈziːz/",
             },
           },
           {

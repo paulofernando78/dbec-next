@@ -323,8 +323,12 @@ const pronunciations: Pronunciation[] = [
             ptExample: "Do que se trata / Sobre o que é?",
           },
           {
-            enExample: "...",
-            ptExample: "...",
+            enExample: "an exciting adventure",
+            ptExample: "uma aventura emocionante",
+          },
+          {
+            enExample: "among the crowd",
+            ptExample: "entre a multidão",
           },
         ],
       },
@@ -350,8 +354,8 @@ const pronunciations: Pronunciation[] = [
         ],
         examples: [
           {
-            enExample: "...",
-            ptExample: "...",
+            enExample: "a creative person",
+            ptExample: "uma pessoa criativa",
           },
         ],
       },
