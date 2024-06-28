@@ -138,6 +138,7 @@ const pronunciations: Pronunciation[] = [
             ptExample: "...",
           },
         ],
+        showHR: true
       },
       // /ɝː/
       {
