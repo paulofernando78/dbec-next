@@ -1,5 +1,5 @@
 import { WordCardProps, IDictionaryDefinitions } from "../../../interfaces";
-import { AudioPlayer } from "../Audioplayer/Audioplayer";
+import { AudioPlayer } from "../Audioplayer";
 import { Card } from "../Cards/Card";
 
 import styles from "./styles.module.css";

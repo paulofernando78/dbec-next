@@ -1,4 +1,4 @@
-import { AudioPlayer } from "../Audioplayer/Audioplayer";
+import { AudioPlayer } from "../Audioplayer";
 import { Card } from "../Cards/Card";
 
 import styles from "./DictionaryCardDefinition.module.css";

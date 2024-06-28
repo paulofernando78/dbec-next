@@ -4,8 +4,9 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: "Letter \"o\"",
-    sound: "/ɑː/",
+    sound: "/ɑː/, /oʊ/",
     phonetics: [
+      // ɑ
       {
       phoneticsComponent: (props) => <DictionaryCard {...props} />,
 	        phoneticsComponentProps: {
@@ -19,8 +20,34 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/s/sponsor.mp3",
               keyword: "sponser",
-              label: "sponsor",
+              label: "sp<span class='underline'>o</span>nsor",
               phonetics: "/ˈspɑːn.sɚ/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "..."
+          },
+        ],
+      },
+      // oʊ
+      {
+      phoneticsComponent: (props) => <DictionaryCard {...props} />,
+	        phoneticsComponentProps: {
+          audioSrc: "/phonetics/ɑ.mp3",
+          label: "phonetics",
+          phonetics: "/oʊ/",
+        },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/c/cold.mp3",
+              keyword: "cold",
+              label: "c<span class='underline'>o</span>ld",
+              phonetics: "/koʊld/",
             },
           },
         ],

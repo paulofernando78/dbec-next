@@ -4,7 +4,7 @@ import Image from "next/image";
 import style from "./HowYouFelling.module.css";
 
 // Components
-import { AudioPlayer } from "../Audioplayer/Audioplayer";
+import { AudioPlayer } from "../Audioplayer";
 import { DictionaryCard } from "../DictionaryCard/DictionaryCard";
 
 // Dynamically import all images in the gif directory

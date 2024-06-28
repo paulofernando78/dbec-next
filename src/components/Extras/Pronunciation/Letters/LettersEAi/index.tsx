@@ -124,6 +124,24 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/s/seek.mp3",
+              keyword: "seek",
+              label: "s<span class='underline'>ee</span>k",
+              phonetics: "/siːk/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/sick.mp3",
+              keyword: "sick",
+              label: "s<span class='underline'>i</span>ck",
+              phonetics: "/sɪk/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/s/sleep.mp3",
               keyword: "sleep",
               label: "sleep",
@@ -155,6 +173,24 @@ const pronunciations: Pronunciation[] = [
               keyword: "still",
               label: "st<span class='underline'>i</span>ll",
               phonetics: "/stɪl/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/w/wheel.mp3",
+              keyword: "wheel",
+              label: "wh<span class='underline'>ee</span>l",
+              phonetics: "/wiːl/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/w/will.mp3",
+              keyword: "will",
+              label: "w<span class='underline'>i</span>ll",
+              phonetics: "/wɪl/",
             },
           },
         ],

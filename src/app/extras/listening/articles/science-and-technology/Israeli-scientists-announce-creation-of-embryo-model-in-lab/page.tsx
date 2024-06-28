@@ -69,7 +69,6 @@ const discussionQuestions: DiscussionQuestion[] = [
   },
 ];
 
-
 const preVocabularies: PreVocabulary[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
@@ -452,7 +451,6 @@ const radioExercises = [
 export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
   return (
     <>
-      <div className="line-break">
         <Whiteboard
           title="Extras"
           subtitle="Listening"
@@ -462,6 +460,7 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
           ]}
           subdescription="September 11, 2023"
         />
+      <div className="line-break">
         <Slider images={slider} />
         <div>
           <Articles

@@ -9,6 +9,7 @@
   overflow: auto;
   box-shadow: var(--box-shadow);
   height: 92.4vh;
+  z-index: 1;
 }
 
 .nav-icon-size {

@@ -1,4 +1,4 @@
-import { AudioPlayer } from "../Audioplayer/Audioplayer";
+import { AudioPlayer } from "../Audioplayer";
 import { Card } from "../Cards/Card";
 import { Collapsible } from "../Collapsible/Collapsible";
 
@@ -114,9 +114,8 @@ export const Articles = ({
         your partner.
       </p>
       <div className="sticky">
-        <AudioPlayer audioSrc={`${baseAudioSrc}${audioSrc}`} />
+        <AudioPlayer audioSrc={audioSrc} />
       </div>
-
       {/* Paragraphs */}
       {paragraphs.map((paragraph, paragraphIndex) => (
         <div key={paragraphIndex} className="line-break">
@@ -168,8 +167,7 @@ export const Articles = ({
         </div>
       </Card>
       <p className="bold">
-        Grab a piece of paper. Check out the quesitons below. Listen again and
-        take notes.
+        Check out the quesitons below. Listen again and take notes.
       </p>
       <div>
         {/* scanQuestions */}
