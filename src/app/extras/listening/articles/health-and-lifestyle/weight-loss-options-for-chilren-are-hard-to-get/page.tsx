@@ -186,10 +186,37 @@ const paragraphs: Paragraph[] = [
         component: (props) => <DictionaryCard {...props} />,
         componentProps: {
           audioSrc: "/o/overweight.mp3",
+          keyword: "overweight",
           label: "overweight",
         },
         enParagraph:
-          "child is not easy. That is because the most widely suggested treatment is not widely available.",
+          "child is not easy. That is because the most ",
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/w/widely.mp3",
+          keyword: "widely",
+          label: "widely",
+        },
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/s/suggested.mp3",
+          keyword: "suggested",
+          label: "suggested",
+        },
+        enParagraph: "treatment is not widely",
+      },
+      {
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/a/available.mp3",
+          keyword: "available",
+          label: "available",
+        },
+        enParagraph: ".",
       },
     ],
     ptParagraph: "...",
