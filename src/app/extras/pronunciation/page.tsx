@@ -172,7 +172,6 @@ export default function Pronunciation() {
         <div id="letter-y">
           <LetterY />
         </div>
-
         <Card bgColor="Black" textColor="White">
           <p className="bold">Comparisons</p>
         </Card>

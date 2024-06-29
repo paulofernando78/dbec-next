@@ -1,5 +1,4 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import React from "react";
 
 export default function MicrosoftAnnouncesNewPcsWithBultInAi() {
   return (

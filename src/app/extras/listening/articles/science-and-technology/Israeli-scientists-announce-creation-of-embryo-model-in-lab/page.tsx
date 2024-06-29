@@ -2,11 +2,11 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import {
   DiscussionQuestion,
   PreVocabulary,
-  Articles,
+  Listening,
   Paragraph,
   ScanQuestion,
   FollowupQuestion,
-} from "@/components/Lessons/Articles";
+} from "@/components/Lessons/Listening";
 import Slider from "@/components/Slider";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
@@ -463,7 +463,7 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
       <div className="line-break">
         <Slider images={slider} />
         <div>
-          <Articles
+          <Listening
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."
             discussionQuestions={discussionQuestions}
             preVocabularies={preVocabularies}
