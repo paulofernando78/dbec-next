@@ -68,15 +68,6 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/b/brazil.mp3",
-              keyword: "brazil",
-              label: "Br<span class='underline'>a</span>zil",
-              phonetics: "/brəˈzɪl/",
-            },
-          },
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
               audioSrc: "/c/cap.mp3",
               keyword: "cap",
               label: "c<span class='underline'>a</span>p",
@@ -111,36 +102,37 @@ const pronunciations: Pronunciation[] = [
             },
           },
         ],
+        exampleAudioSrc:
+          "/assets/audio/extras/pronunciation/letter-a-æ.mp3",
         examples: [
           {
             enExample:
-              "an <span class='underline'>a</span>n <span class='underline'>a</span>pple.",
-            ptExample: "uma maçã.",
+              "<span class='underline'>a</span>n <span class='underline'>a</span>pple.",
+            ptExample: "uma maçã",
           },
           {
-            enExample:
-              "a wedding <span class='underline'>a</span>nniversary",
-            ptExample: "um aniversário de casamento.",
+            enExample: "a wedding <span class='underline'>a</span>nniversary",
+            ptExample: "um aniversário de casamento",
           },
           {
             enExample:
               "a b<span class='underline'>a</span>d m<span class='underline'>a</span>n",
-            ptExample: "um homem mau.",
+            ptExample: "um homem mau",
           },
           {
             enExample:
               "a bl<span class='underline'>a</span>ck b<span class='underline'>a</span>t",
-            ptExample: "um morgego preto.",
+            ptExample: "um morgego preto",
           },
           {
             enExample:
               "a f<span class='underline'>a</span>t c<span class='underline'>a</span>t",
-            ptExample: "um gato gordo.",
+            ptExample: "um gato gordo",
           },
           {
             enExample:
-              "a r<span class='underline'>a</span>d c<span class='underline'>a</span>p .",
-            ptExample: "um incrível/radical.",
+              "a r<span class='underline'>a</span>d c<span class='underline'>a</span>p",
+            ptExample: "um incrível/radical boné",
           },
         ],
         showHR: true,
@@ -228,6 +220,7 @@ const pronunciations: Pronunciation[] = [
             },
           },
         ],
+        exampleAudioSrc: "",
         examples: [
           {
             enExample: "That's all folks!",
@@ -249,7 +242,6 @@ const pronunciations: Pronunciation[] = [
             enExample: "The building is very tall.",
             ptExample: "O prédio/edifício é muito alto.",
           },
-
         ],
       },
       // Difference between call and cow
@@ -276,6 +268,7 @@ const pronunciations: Pronunciation[] = [
             },
           },
         ],
+        exampleAudioSrc: "",
         examples: [
           {
             enExample: "Call me later.",
@@ -319,6 +312,15 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/b/brazil.mp3",
+              keyword: "brazil",
+              label: "Br<span class='underline'>a</span>zil",
+              phonetics: "/brəˈzɪl/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/a/among.mp3",
               keyword: "among",
               label: "<span class='underline'>a</span>mong",
@@ -326,6 +328,7 @@ const pronunciations: Pronunciation[] = [
             },
           },
         ],
+        exampleAudioSrc: "",
         examples: [
           {
             enExample: "What is it about?",
@@ -361,6 +364,7 @@ const pronunciations: Pronunciation[] = [
             },
           },
         ],
+        exampleAudioSrc: "",
         examples: [
           {
             enExample: "a creative person",

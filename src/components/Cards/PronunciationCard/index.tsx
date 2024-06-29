@@ -1,3 +1,4 @@
+import { AudioPlayer } from "@/components/Audioplayer";
 import styles from "./styles.module.css";
 
 export interface Example {
@@ -6,7 +7,11 @@ export interface Example {
 }
 
 export interface Word {
-  component: (props: { audioSrc: string; keyword: string; label: string }) => JSX.Element;
+  component: (props: {
+    audioSrc: string;
+    keyword: string;
+    label: string;
+  }) => JSX.Element;
   componentProps: {
     audioSrc: string;
     keyword: string;
@@ -21,18 +26,18 @@ interface Phonetic {
   beforeText?: string;
   phoneticsComponent?: (props: {
     audioSrc?: string;
-    keyword?: string
+    keyword?: string;
     label?: string;
-    phonetics?: string
+    phonetics?: string;
   }) => JSX.Element;
   phoneticsComponentProps?: {
     audioSrc?: string;
-    keyword?: string
+    keyword?: string;
     label?: string;
-    phonetics?: string
-
+    phonetics?: string;
   };
   words: Word[];
+  exampleAudioSrc: string;
   examples?: Example[];
   showHR?: boolean;
   applyGrid?: boolean;
@@ -100,6 +105,11 @@ export const PronunciationCard = ({ pronunciations }: PronunciationProps) => {
                       <span>{word.component({ ...word.componentProps })}</span>
                     </div>
                   ))}
+                </div>
+
+                {/* Audioplayer */}
+                <div className="margin-top">
+                  <AudioPlayer audioSrc={phonetic.exampleAudioSrc} />
                 </div>
 
                 {/* examples */}
