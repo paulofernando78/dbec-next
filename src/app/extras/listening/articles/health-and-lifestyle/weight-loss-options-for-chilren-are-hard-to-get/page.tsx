@@ -198,8 +198,7 @@ const paragraphs: Paragraph[] = [
           keyword: "overweight",
           label: "overweight",
         },
-        enParagraph:
-          "child is not easy. That is because the most ",
+        enParagraph: "child is not easy. That is because the most ",
       },
       {
         component: (props) => <DictionaryCard {...props} />,
@@ -479,54 +478,126 @@ const paragraphs: Paragraph[] = [
 
 const scanQuestions: ScanQuestion[] = [
   {
-    question: "What is the most widely suggested treatment for overweight children in the U.S.?",
+    question:
+      "What is the most widely suggested treatment for overweight children in the U.S.?",
   },
   {
     question: "What are some barriers to accessing these programs?",
   },
   {
-    question: "Who is Dr. Joseph Skelton, and what does he say about insurance coverage?",
+    question:
+      "Who is Dr. Joseph Skelton, and what does he say about insurance coverage?",
   },
   {
     question: "What did Ruth Medina do to help her daughter, Jelainie?",
   },
   {
-    question: "What method does Stanford's lifestyle-counseling program use to teach healthy eating?",
+    question:
+      "What method does Stanford's lifestyle-counseling program use to teach healthy eating?",
   },
   {
-    question: "What are the three types of \"light\" foods mentioned in the article?",
+    question:
+      'What are the three types of "light" foods mentioned in the article?',
   },
 ];
 
 const followupQuestions: FollowupQuestion[] = [
   {
-    question: "Do you think behavioral counseling should be more widely available? Why or why not?",
+    question:
+      "Do you think behavioral counseling should be more widely available? Why or why not?",
   },
   {
     question: "How important is insurance coverage for these programs?",
   },
   {
-    question: "What do you think of the \"red light, green light\" method? Could it be effective?",
+    question:
+      'What do you think of the "red light, green light" method? Could it be effective?',
   },
   {
-    question: "How can schools and communities help address the issue of childhood obesity?",
+    question:
+      "How can schools and communities help address the issue of childhood obesity?",
   },
 ];
 
 const radioExercises = [
   {
-    title: "1. Choose the correct answer.",
-    question: "1. ...",
+    title: "Answer the questions.",
+    question:
+      "1. What has the CDC and other organizations tried to do regarding behavioral counseling programs?",
     options: [
       {
-        label: "a) ...",
+        label: "a) Reduce the length of the programs",
+        isCorrect: false,
+      },
+      {
+        label: "b) Expand insurance coverage for the programs",
+        isCorrect: true,
+      },
+      { label: "c) Decrease the intensity of the programs", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "2. What motivated Ruth Medina to seek help for her daughter, Jalainie?",
+    options: [
+      {
+        label: "a) She wanted her daughter to join a sports team",
+        isCorrect: false,
+      },
+      {
+        label: "b) She noticed her daughter’s weight was affecting her health",
         isCorrect: true,
       },
       {
-        label: "b) ...",
+        label: "c) She was pressured by her daughter’s school",
         isCorrect: false,
       },
-      { label: "c) ...", isCorrect: false },
+    ],
+  },
+  {
+    question:
+      "3. What happens during the first meeting of the Holyoke Health Center's program?",
+    options: [
+      {
+        label: "a) Children receive a medical check-up",
+        isCorrect: false,
+      },
+      {
+        label: "b) Parents and children prepare a healthy meal together",
+        isCorrect: true,
+      },
+      {
+        label: "c) Families watch a video about healthy eating",
+        isCorrect: false,
+      },
+    ],
+  },
+  {
+    question: "4. How does Stanford's program categorize \"red-light\" foods?",
+    options: [
+      {
+        label: "a) Foods that should be eaten in moderation",
+        isCorrect: true,
+      },
+      {
+        label: "b) Foods that should be eaten rarely due to high-calorie content",
+        isCorrect: true,
+      },
+      { label: "c) Foods that can be eaten freely without restriction", isCorrect: false },
+    ],
+  },
+  {
+    question: "5. What is one of the reasons insurance companies may not cover obesity counseling programs?",
+    options: [
+      {
+        label: "a) The programs are too new",
+        isCorrect: false,
+      },
+      {
+        label: "b) They are not recommended by medical professionals",
+        isCorrect: false,
+      },
+      { label: "c) They include non-clinical services like cooking classes", isCorrect: true },
     ],
   },
 ];

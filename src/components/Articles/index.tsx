@@ -167,7 +167,7 @@ export const Articles = ({
         </div>
       </Card>
       <p className="bold">
-        Check out the quesitons below. Listen again and take notes.
+        Check out the questons below. Listen again and take notes.
       </p>
       <div>
         {/* scanQuestions */}
@@ -180,7 +180,7 @@ export const Articles = ({
       </div>
       <Card bgColor="Black" textColor="White">
         <div className="flex-8px-start-space-between">
-          <p className="bold">Follow-up question</p>
+          <p className="bold">Follow-up questions</p>
           <p className="p-size-smaller">'10</p>
         </div>
       </Card>
