@@ -1,10 +1,13 @@
 import { Card } from "@/components/Cards/Card";
-import { Pronunciation, PronunciationCard } from "@/components/Cards/PronunciationCard";
+import {
+  Pronunciation,
+  PronunciationCard,
+} from "@/components/Cards/PronunciationCard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: "Letter \"a\" vs. \"e\"",
+    label: 'Letter "a" vs. "e"',
     phonetics: [
       {
         applyGrid: true,
@@ -85,23 +88,7 @@ const pronunciations: Pronunciation[] = [
         examples: [
           {
             enExample: "...",
-            ptExample: "..."
-          },
-          {
-            enExample: "...",
-            ptExample: "..."
-          },
-          {
-            enExample: "...",
-            ptExample: "..."
-          },
-          {
-            enExample: "...",
-            ptExample: "..."
-          },
-          {
-            enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
         ],
       },
@@ -113,7 +100,7 @@ export const LetterAvsE = () => {
   return (
     <>
       <div className="line-break">
-      <PronunciationCard pronunciations={pronunciations} />
+        <PronunciationCard pronunciations={pronunciations} />
       </div>
     </>
   );

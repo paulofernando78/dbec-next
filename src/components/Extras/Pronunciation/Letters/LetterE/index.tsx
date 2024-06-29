@@ -42,22 +42,6 @@ const pronunciations: Pronunciation[] = [
             enExample: "...",
             ptExample: "...",
           },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
         ],
         showHR: true,
       },
@@ -96,25 +80,9 @@ const pronunciations: Pronunciation[] = [
               label: "th<span class='underline'>e</span>ater",
               phonetics: "/ˈθiː.ə.t̬ɚ/",
             },
-          }
+          },
         ],
         examples: [
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
           {
             enExample: "...",
             ptExample: "...",
@@ -147,7 +115,7 @@ const pronunciations: Pronunciation[] = [
             ptExample: "...",
           },
         ],
-        showHR: true
+        showHR: true,
       },
       // /ɪ/
       {
@@ -174,7 +142,7 @@ const pronunciations: Pronunciation[] = [
             ptExample: "...",
           },
         ],
-        showHR: true
+        showHR: true,
       },
       // /ɝː/
       {

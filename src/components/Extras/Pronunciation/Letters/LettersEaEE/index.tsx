@@ -42,22 +42,6 @@ const pronunciations: Pronunciation[] = [
             enExample: "...",
             ptExample: "...",
           },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
         ],
         showHR: true,
       },
