@@ -48,8 +48,16 @@ const pronunciations: Pronunciation[] = [
         ],
         examples: [
           {
-            enExample: "....",
-            ptExample: "...",
+            enExample: "a ballet dancer",
+            ptExample: "um bailarino(a)",
+          },
+          {
+            enExample: "a buffet wedding",
+            ptExample: "um casamento com buffet.",
+          },
+          {
+            enExample: "lemon sorbet",
+            ptExample: "sorbet de limão",
           },
         ],
       },

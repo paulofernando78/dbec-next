@@ -114,33 +114,33 @@ const pronunciations: Pronunciation[] = [
         examples: [
           {
             enExample:
-              "It's <span class='underline'>a</span>n <span class='underline'>a</span>pple.",
-            ptExample: "É uma maçã.",
+              "an <span class='underline'>a</span>n <span class='underline'>a</span>pple.",
+            ptExample: "uma maçã.",
           },
           {
             enExample:
-              "We're going to celebrate our wedding <span class='underline'>a</span>nniversary.",
-            ptExample: "Vamos celebrar nosso aniversário de casamento.",
+              "a wedding <span class='underline'>a</span>nniversary",
+            ptExample: "um aniversário de casamento.",
           },
           {
             enExample:
-              "He's a b<span class='underline'>a</span>d m<span class='underline'>a</span>n.",
-            ptExample: "Ele é um homem mau.",
+              "a b<span class='underline'>a</span>d m<span class='underline'>a</span>n",
+            ptExample: "um homem mau.",
           },
           {
             enExample:
-              "It's a bl<span class='underline'>a</span>ck b<span class='underline'>a</span>t.",
-            ptExample: "É um morgego preto.",
+              "a bl<span class='underline'>a</span>ck b<span class='underline'>a</span>t",
+            ptExample: "um morgego preto.",
           },
           {
             enExample:
-              "The c<span class='underline'>a</span>t is f<span class='underline'>a</span>t.",
-            ptExample: "O gato está gordo.",
+              "a f<span class='underline'>a</span>t c<span class='underline'>a</span>t",
+            ptExample: "um gato gordo.",
           },
           {
             enExample:
-              "Your c<span class='underline'>a</span>p is r<span class='underline'>a</span>d.",
-            ptExample: "Seu boné é incrível/radical.",
+              "a r<span class='underline'>a</span>d c<span class='underline'>a</span>p .",
+            ptExample: "um incrível/radical.",
           },
         ],
         showHR: true,
