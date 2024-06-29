@@ -14,7 +14,7 @@ const pronunciations: Pronunciation[] = [
       {
         beforeText: 'When the letter "i" sounds like portuguese:',
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
-	        phoneticsComponentProps: {
+        phoneticsComponentProps: {
           audioSrc: "/phonetics/i.mp3",
           label: "phonetics",
           phonetics: "/i/",
@@ -23,10 +23,28 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/s/sushi.mp3",
-              keyword: "sashimi",
-              label: "sash<span class='underline'>i</span>m<span class='underline'>i</span>",
-              phonetics: "/sæʃˈiː.mi/",
+              audioSrc: "/m/maori.mp3",
+              keyword: "maori",
+              label: "maor<span class='underline'>i</span>",
+              phonetics: "/ˈmaʊ.ri/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/h/haiti.mp3",
+              keyword: "haiti",
+              label: "Hait<span class='underline'>i</span>",
+              phonetics: "/ˈheɪ.ti/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/p/pediatrics.mp3",
+              keyword: "pediatrics",
+              label: "ped<span class='underline'>i</span>atrics",
+              phonetics: "/ˌpiː.diˈæt.rɪks/",
             },
           },
           {
@@ -45,6 +63,16 @@ const pronunciations: Pronunciation[] = [
               keyword: "ravine",
               label: "rav<span class='underline'>i</span>ne",
               phonetics: "/rəˈviːn/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/sushi.mp3",
+              keyword: "sashimi",
+              label:
+                "sash<span class='underline'>i</span>m<span class='underline'>i</span>",
+              phonetics: "/sæʃˈiː.mi/",
             },
           },
           {
@@ -221,7 +249,7 @@ const pronunciations: Pronunciation[] = [
       {
         beforeText: "...",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
-	        phoneticsComponentProps: {
+        phoneticsComponentProps: {
           audioSrc: "/phonetics/ə.mp3",
           label: "phonetics",
           phonetics: "/ə/",
@@ -234,6 +262,15 @@ const pronunciations: Pronunciation[] = [
               keyword: "anniversary",
               label: "ann<span class='underline'>i</span>versary",
               phonetics: "/ˌæn.əˈvɝː.sɚ.i/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/e/episode.mp3",
+              keyword: "episode",
+              label: "ep<span class='underline'>i</span>sode",
+              phonetics: "/ˈep.ə.soʊd/",
             },
           },
         ],
@@ -258,10 +295,10 @@ const pronunciations: Pronunciation[] = [
         beforeText: "...",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
-        audioSrc: "/phonetics/aɪ.mp3",
-        label: "phonetics",
-        phonetics: "/aɪ/",
-      },
+          audioSrc: "/phonetics/aɪ.mp3",
+          label: "phonetics",
+          phonetics: "/aɪ/",
+        },
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,

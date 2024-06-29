@@ -7,10 +7,10 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: 'Letter "u"',
-    sound: "/ʌ/, /ɪ/",
+    sound: "/ʌ/, /ɪ/, /ʊ/",
     phonetics: [
+      // /ʌ/
       {
-        beforeText: "...",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/ʌ.mp3",
@@ -61,33 +61,78 @@ const pronunciations: Pronunciation[] = [
             ptExample: "...",
           },
         ],
+        showHR: true
       },
+      // /ɪ/
       {
-        beforeText: "...",
-            phoneticsComponent: (props) => <DictionaryCard {...props} />,
-            phoneticsComponentProps: {
-            audioSrc: "/phonetics/ɪ.mp3",
-            label: "phonetics",
-            phonetics: "/ɪ/",
-          },
-          words: [
-            {
-              component: (props) => <DictionaryCard {...props} />,
-              componentProps: {
-                audioSrc: "/b/build.mp3",
-                keyword: "build",
-                label: "b<span class='underline'>ui</span>ld",
-                phonetics: "/bɪld/",
-              },
-            },
-          ],
-          examples: [
-            {
-              enExample: "...",
-              ptExample: "..."
-            },
-          ],
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/ɪ.mp3",
+          label: "phonetics",
+          phonetics: "/ɪ/",
         },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/business.mp3",
+              keyword: "business",
+              label: "b<span class='underline'>u</span>siness",
+              phonetics: "/ˈbɪz.nɪs/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+        ],
+      },
+      // /ɪ/
+      {
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/ʊ.mp3",
+          label: "phonetics",
+          phonetics: "/ʊ/",
+        },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/c/cure.mp3",
+              keyword: "cure",
+              label: "c<span class='underline'>u</span>re",
+              phonetics: "/kjʊr/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/l/lure.mp3",
+              keyword: "lure",
+              label: "l<span class='underline'>u</span>re",
+              phonetics: "/lʊr/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/p/pure.mp3",
+              keyword: "pure",
+              label: "p<span class='underline'>u</span>re",
+              phonetics: "/pjʊr/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+        ],
+      },
     ],
   },
 ];

@@ -88,6 +88,15 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˌpiː.diˈæt.rɪks/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/theater.mp3",
+              keyword: "theater",
+              label: "th<span class='underline'>e</span>ater",
+              phonetics: "/ˈθiː.ə.t̬ɚ/",
+            },
+          }
         ],
         examples: [
           {

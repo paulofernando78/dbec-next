@@ -1,4 +1,7 @@
-import { Pronunciation, PronunciationCard } from "@/components/Cards/PronunciationCard";
+import {
+  Pronunciation,
+  PronunciationCard,
+} from "@/components/Cards/PronunciationCard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
@@ -6,6 +9,7 @@ const pronunciations: Pronunciation[] = [
     label: 'Letters "ea" and "ee"',
     sound: "/i/",
     phonetics: [
+      // /i/
       {
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
@@ -26,62 +30,83 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/t/theater.mp3",
-              keyword: "theater",
-              label: "th<span class='underline'>ea</span>ter",
-              phonetics: "/ˈθiː.ə.t̬ɚ/",
+              audioSrc: "/s/sweet.mp3",
+              keyword: "sweet",
+              label: "sw<span class='underline'>ee</span>t",
+              phonetics: " /ˈswiːt/",
             },
           },
         ],
         examples: [
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
         ],
-        showHR: true
+        showHR: true,
       },
+      // /e/
       {
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
-          phoneticsComponentProps: {
-            audioSrc: "/phonetics/e.mp3",
-            label: "phonetics",
-            phonetics: "/e/",
-          },
-          words: [
-            {
-              component: (props) => <DictionaryCard {...props} />,
-              componentProps: {
-                audioSrc: "/l/lead2.mp3",
-                keyword: "ledd",
-                label: "l<span class='underline'>ea</span>d",
-                phonetics: "/led/",
-              },
-            },
-          ],
-          examples: [
-            {
-              enExample: "The screen was made of lead to prevent X-rays from passing through.",
-              ptExample: "A tela era feita de chumbo para evitar a passagem de raios X."
-            },
-          ],
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/e.mp3",
+          label: "phonetics",
+          phonetics: "/e/",
         },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/bread.mp3",
+              keyword: "bread",
+              label: "br<span class='underline'>ea</span>d",
+              phonetics: "/bred/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/l/lead2.mp3",
+              keyword: "lead",
+              label: "l<span class='underline'>ea</span>d",
+              phonetics: "/led/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/tear2.mp3",
+              keyword: "tear",
+              label: "<span class='color-red'>*</span>t<span class='underline'>ea</span>r",
+              phonetics: "/ter/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample:
+              "The screen was made of lead to prevent X-rays from passing through.",
+            ptExample:
+              "A tela era feita de chumbo para evitar a passagem de raios X.",
+          },
+        ],
+      },
     ],
   },
 ];
@@ -90,7 +115,7 @@ export const LetterEaEE = () => {
   return (
     <>
       <div className="line-break">
-      <PronunciationCard pronunciations={pronunciations} />
+        <PronunciationCard pronunciations={pronunciations} />
       </div>
     </>
   );

@@ -1,3 +1,4 @@
+import { Card } from "@/components/Cards/Card";
 import {
   Pronunciation,
   PronunciationCard,
@@ -6,24 +7,25 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: 'Letter "ui"',
-    sound: "/ɪ/",
+    label: 'Letter "ir"',
+    sound: "/ɝː/",
     phonetics: [
+      // /i/
       {
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
-          audioSrc: "/phonetics/ɪ.mp3",
+          audioSrc: "/phonetics/i.mp3",
           label: "phonetics",
-          phonetics: "/ɪ/",
+          phonetics: "/ɝː/",
         },
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/b/build.mp3",
-              keyword: "build",
-              label: "b<span class='underline'>ui</span>ld",
-              phonetics: "/bɪld/",
+              audioSrc: "/b/bird.mp3",
+              keyword: "bird",
+              label: "b<span class='underline'>ir</span>d",
+              phonetics: "/bɝːd/",
             },
           },
         ],
@@ -38,7 +40,7 @@ const pronunciations: Pronunciation[] = [
   },
 ];
 
-export const LetterUI = () => {
+export const LetterIR = () => {
   return (
     <>
       <div className="line-break">

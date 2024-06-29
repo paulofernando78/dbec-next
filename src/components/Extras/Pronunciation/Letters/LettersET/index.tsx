@@ -1,0 +1,68 @@
+import {
+  Pronunciation,
+  PronunciationCard,
+} from "@/components/Cards/PronunciationCard";
+import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+
+const pronunciations: Pronunciation[] = [
+  {
+    label: 'Letter "et"',
+    sound: "/eɪ/",
+    phonetics: [
+      // /eɪ/
+      {
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/eɪ.mp3",
+          label: "phonetics",
+          phonetics: "/eɪ/",
+        },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/ballet.mp3",
+              keyword: "ballet",
+              label: "ball<span class='underline'>et</span>",
+              phonetics: "/bælˈeɪ/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/buffet.mp3",
+              keyword: "buffet",
+              label: "buff<span class='underline'>et</span>",
+              phonetics: "/bəˈfeɪ/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/sorbet.mp3",
+              keyword: "sorbet",
+              label: "sorb<span class='underline'>et</span>",
+              phonetics: "/sɔːrˈbeɪ/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "....",
+            ptExample: "...",
+          },
+        ],
+      },
+    ],
+  },
+];
+
+export const LettersET = () => {
+  return (
+    <>
+      <div className="line-break">
+        <PronunciationCard pronunciations={pronunciations} />
+      </div>
+    </>
+  );
+};

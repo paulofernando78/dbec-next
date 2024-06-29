@@ -21,6 +21,8 @@ import { LettersO } from "@/components/Extras/Pronunciation/Letters/LetterO";
 import { LettersOO } from "@/components/Extras/Pronunciation/Letters/LetterOO";
 import { LetterUI } from "@/components/Extras/Pronunciation/Letters/LetterUI";
 import { LetterEI } from "@/components/Extras/Pronunciation/Letters/LetterEI";
+import { LetterIR } from "@/components/Extras/Pronunciation/Letters/LetterIR";
+import { LettersET } from "@/components/Extras/Pronunciation/Letters/LettersET";
 
 export default function Pronunciation() {
   return (
@@ -34,37 +36,49 @@ export default function Pronunciation() {
           <a href="#letter-a">
             <p>Letter a</p>
           </a>
+          <a href="#letters-au">
+            <p>Letter au</p>
+          </a>
           <a href="#letters-aw-awe">
             <p>Letters aw • awe</p>
           </a>
           <a href="#letter-e">
             <p>Letter e</p>
           </a>
-          <a href="#letter-ei">
+          <a href="#letters-ea-ee">
+            <p>Letters ea • ee</p>
+          </a>
+          <a href="#letters-ei">
             <p>Letter ei</p>
+          </a>
+          <a href="#letters-et">
+            <p>Letter et</p>
+          </a>
+          <a href="#letters-ey">
+            <p>Letter ey</p>
           </a>
           <a href="#letters-a-vs-e">
             <p>Letter a vs. e</p>
           </a>
-          <a href="#letters-ea-ee">
-            <p>Letters ea • ee</p>
-          </a>
           <a href="#letter-i">
             <p>Letter i</p>
+          </a>
+          <a href="#letter-ir">
+            <p>Letter ir</p>
           </a>
           <a href="#letter-ee-long-vs-i-short">
             <p>Letters ee • ea (long) vs. i (short)</p>
           </a>
-          <a href="#letter-ie">
+          <a href="#letters-ie">
             <p>Letters ie</p>
           </a>
           <a href="#letter-o">
             <p>Letter o</p>
           </a>
-          <a href="#letter-oo">
+          <a href="#letters-oo">
             <p>Letter oo</p>
           </a>
-          <a href="#letter-ow">
+          <a href="#letters-ow">
             <p>Letter ow</p>
           </a>
           <a href="#letter-t">
@@ -73,14 +87,11 @@ export default function Pronunciation() {
           <a href="#letter-u">
             <p>Letter u</p>
           </a>
-          <a href="#letter-ui">
+          <a href="#letters-ui">
             <p>Letter ui</p>
           </a>
           <a href="#letter-y">
             <p>Letter y</p>
-          </a>
-          <a href="#letter-ey">
-            <p>Letter ey</p>
           </a>
         </div>
         <div>
@@ -94,7 +105,7 @@ export default function Pronunciation() {
         <div id="letter-a">
           <LetterA />
         </div>
-        <div id="letter-au">
+        <div id="letters-au">
           <LettersAU />
         </div>
         <div id="letters-aw-awe">
@@ -103,45 +114,51 @@ export default function Pronunciation() {
         <div id="letter-e">
           <LetterE />
         </div>
-        <div id="letter-ei">
+        <div id="letters-ea-ee">
+          <LetterEaEE />
+        </div>
+        <div id="letters-ei">
           <LetterEI />
+        </div>
+        <div id="letters-et">
+          <LettersET />
+        </div>
+        <div id="letters-ey">
+          <LettersEY />
         </div>
         <div id="letters-a-vs-e">
           <LetterAvsE />
         </div>
-        <div id="letters-ea-ee">
-          <LetterEaEE />
-        </div>
         <div id="letter-i">
           <LetterI />
+        </div>
+        <div id="letter-ir">
+          <LetterIR />
         </div>
         <div id="letter-ee-long-vs-i-short">
           <LettersEAi />
         </div>
-        <div id="letter-ie">
+        <div id="letters-ie">
           <LetterIE />
         </div>
         <div id="letter-o">
           <LettersO />
         </div>
-        <div id="letter-oo">
+        <div id="letters-oo">
           <LettersOO />
         </div>
-        <div id="letter-ow">
+        <div id="letters-ow">
           <LettersOW />
         </div>
         <div id="letter-t"></div>
         <div id="letter-u">
           <LetterU />
         </div>
-        <div id="letter-ui">
+        <div id="letters-ui">
           <LetterUI />
         </div>
         <div id="letter-y">
           <LetterY />
-        </div>
-        <div id="letter-ey">
-          <LettersEY />
         </div>
 
         <Card bgColor="Black" textColor="White">

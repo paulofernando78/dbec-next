@@ -7,10 +7,10 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: 'Letter "y"',
-    sound: "/i/, /j/",
+    sound: "/i/, /j/, /aɪ/",
     phonetics: [
+      // /i/
       {
-        beforeText: "...",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/i.mp3",
@@ -81,6 +81,7 @@ const pronunciations: Pronunciation[] = [
         ],
         showHR: true
       },
+      // /j/
       {
         beforeText: "***",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
@@ -106,11 +107,13 @@ const pronunciations: Pronunciation[] = [
             ptExample: "O John tem 50 (anos de idade).",
           },
         ],
+        showHR: true
       },
+      // Listen to the difference
       {
-        beforeText: "Listen to the differences.",
-        applyGrid: true,
+        applyGrid:true,
         applyRedDashedBorder: true,
+        beforeText: "Listen to the differences.",
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,
@@ -130,6 +133,32 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ɪr/",
             },
           },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "....",
+          },
+        ],
+      },
+      // /aɪ/
+      {
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/aɪ.mp3",
+          label: "phonetics",
+          phonetics: "/aɪ/",
+        },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/a/archetype.mp3",
+              keyword: "archetype",
+              label: "archet<span class='underline'>y</span>pe",
+              phonetics: "/ˈɑːr.kə.taɪp/",
+            },
+          }
         ],
         examples: [
           {

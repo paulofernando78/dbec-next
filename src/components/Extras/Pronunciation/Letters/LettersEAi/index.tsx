@@ -8,6 +8,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: 'Letters "ea" • "ee" (long) vs. "i" (short)',
+    sound: "/i/ vs /ɪ/",
     phonetics: [
       {
         beforeText: "Listen and repeat.",
@@ -103,7 +104,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/fɪt/",
             },
           },
-          
+
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -268,22 +269,6 @@ const pronunciations: Pronunciation[] = [
           },
         ],
         examples: [
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
           {
             enExample: "...",
             ptExample: "...",
