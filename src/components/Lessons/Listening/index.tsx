@@ -1,6 +1,6 @@
-import { AudioPlayer } from "../Audioplayer";
-import { Card } from "../Cards/Card";
-import { Collapsible } from "../Collapsible/Collapsible";
+import { AudioPlayer } from "../../Audioplayer";
+import { Card } from "../../Cards/Card";
+import { Collapsible } from "../../Collapsible/Collapsible";
 
 export interface FollowupQuestion {
   question?: string;
@@ -35,7 +35,7 @@ export interface DiscussionQuestion {
   }[];
 }
 
-interface ArticlesProps {
+interface ListeningProps {
   discussion: string;
   discussionQuestions: DiscussionQuestion[];
   preVocabularies: PreVocabulary[];
@@ -47,7 +47,7 @@ interface ArticlesProps {
 
 const baseAudioSrc = "/assets/audio/extras/listening/articles";
 
-export const Articles = ({
+export const Listening = ({
   discussion,
   discussionQuestions,
   preVocabularies,
@@ -55,7 +55,7 @@ export const Articles = ({
   paragraphs,
   scanQuestions,
   followupQuestions,
-}: ArticlesProps) => {
+}: ListeningProps) => {
   return (
     <div className="line-break">
       <Card bgColor="Black" textColor="White">

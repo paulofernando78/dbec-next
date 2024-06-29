@@ -7,7 +7,7 @@ import {
   Paragraph,
   ScanQuestion,
   FollowupQuestion,
-} from "@/components/Articles";
+} from "@/components/Lessons/Articles";
 import Slider from "@/components/Slider";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
@@ -573,21 +573,26 @@ const radioExercises = [
     ],
   },
   {
-    question: "4. How does Stanford's program categorize \"red-light\" foods?",
+    question: '4. How does Stanford\'s program categorize "red-light" foods?',
     options: [
       {
         label: "a) Foods that should be eaten in moderation",
         isCorrect: true,
       },
       {
-        label: "b) Foods that should be eaten rarely due to high-calorie content",
+        label:
+          "b) Foods that should be eaten rarely due to high-calorie content",
         isCorrect: true,
       },
-      { label: "c) Foods that can be eaten freely without restriction", isCorrect: false },
+      {
+        label: "c) Foods that can be eaten freely without restriction",
+        isCorrect: false,
+      },
     ],
   },
   {
-    question: "5. What is one of the reasons insurance companies may not cover obesity counseling programs?",
+    question:
+      "5. What is one of the reasons insurance companies may not cover obesity counseling programs?",
     options: [
       {
         label: "a) The programs are too new",
@@ -597,7 +602,10 @@ const radioExercises = [
         label: "b) They are not recommended by medical professionals",
         isCorrect: false,
       },
-      { label: "c) They include non-clinical services like cooking classes", isCorrect: true },
+      {
+        label: "c) They include non-clinical services like cooking classes",
+        isCorrect: true,
+      },
     ],
   },
 ];

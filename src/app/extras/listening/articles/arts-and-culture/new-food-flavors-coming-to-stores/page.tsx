@@ -6,7 +6,7 @@ import {
   Paragraph,
   ScanQuestion,
   FollowupQuestion,
-} from "@/components/Articles";
+} from "@/components/Lessons/Articles";
 import Slider from "@/components/Slider";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
@@ -19,13 +19,14 @@ import {
   iceCreamLittleMoonFishMochi,
   potatoChipLaysFlamminHotDillPickle,
   potatoChipWalkersBrusselsSprout,
-  cookieOreoSourPatch
+  cookieOreoSourPatch,
 } from "@/img/index";
 
 const slider = [
   {
     imgSrc: macAndCheeseIceCreamFlavor,
-    imgAlt: "Ben Van Leeuwen scoops Kraft Mac & Cheese flavored ice cream Wednesday, May 15, 2024, in the Brooklyn borough of New York. (AP Photo/Frank Franklin II)",
+    imgAlt:
+      "Ben Van Leeuwen scoops Kraft Mac & Cheese flavored ice cream Wednesday, May 15, 2024, in the Brooklyn borough of New York. (AP Photo/Frank Franklin II)",
   },
   {
     imgSrc: iceCreamHiddenValleyRanch,
@@ -85,7 +86,7 @@ const discussionQuestions: DiscussionQuestion[] = [
     questions: [
       {
         question: "2. Would you like to try them? Which ones?",
-      }
+      },
     ],
   },
 ];
@@ -327,20 +328,23 @@ const scanQuestions: ScanQuestion[] = [
 
 const followupQuestions: FollowupQuestion[] = [
   {
-    question: "Have you ever tried any of the unusual flavors mentioned in the article? Share your experience.",
+    question:
+      "Have you ever tried any of the unusual flavors mentioned in the article? Share your experience.",
   },
   {
-    question: "Do you think introducing “shock flavors” is a good marketing strategy? Why or why not?",
+    question:
+      "Do you think introducing “shock flavors” is a good marketing strategy? Why or why not?",
   },
   {
-    question: "What unusual flavor combinations would you like to see in the future?",
+    question:
+      "What unusual flavor combinations would you like to see in the future?",
   },
   {
     question: "Are these flavors healthy?",
   },
   {
     question: "What are better choices?",
-  }
+  },
 ];
 
 export default function NewFoodFlavorsComingToStores() {

@@ -6,7 +6,7 @@ import {
   Paragraph,
   ScanQuestion,
   FollowupQuestion,
-} from "@/components/Articles";
+} from "@/components/Lessons/Articles";
 import Slider from "@/components/Slider";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
@@ -64,7 +64,7 @@ const discussionQuestions: DiscussionQuestion[] = [
     questions: [
       {
         question: "2. ...",
-      }
+      },
     ],
   },
 ];
@@ -451,15 +451,15 @@ const radioExercises = [
 export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
   return (
     <>
-        <Whiteboard
-          title="Extras"
-          subtitle="Listening"
-          descriptions={[
-            "Articles",
-            "Israeli Scientists Announce Creation of Embryo Model in Lab",
-          ]}
-          subdescription="September 11, 2023"
-        />
+      <Whiteboard
+        title="Extras"
+        subtitle="Listening"
+        descriptions={[
+          "Articles",
+          "Israeli Scientists Announce Creation of Embryo Model in Lab",
+        ]}
+        subdescription="September 11, 2023"
+      />
       <div className="line-break">
         <Slider images={slider} />
         <div>
