@@ -52,6 +52,24 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/d/deed.mp3",
+              keyword: "deed",
+              label: "deed",
+              phonetics: "/diːd/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/d/did.mp3",
+              keyword: "did",
+              label: "d<span class='underline'>i</span>d",
+              phonetics: "/dɪd/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/e/eat.mp3",
               keyword: "eat",
               label: "<span class='underline'>ea</span>t",
@@ -70,21 +88,22 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/d/deed.mp3",
-              keyword: "deed",
-              label: "deed",
-              phonetics: "/diːd/",
+              audioSrc: "/f/feet.mp3",
+              keyword: "feet",
+              label: "f<span class='underline'>ee</span>t",
+              phonetics: "/fiːt/",
             },
           },
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/d/did.mp3",
-              keyword: "did",
-              label: "d<span class='underline'>i</span>d",
-              phonetics: "/dɪd/",
+              audioSrc: "/f/fit.mp3",
+              keyword: "fit",
+              label: "f<span class='underline'>i</span>t",
+              phonetics: "/fɪt/",
             },
           },
+          
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {

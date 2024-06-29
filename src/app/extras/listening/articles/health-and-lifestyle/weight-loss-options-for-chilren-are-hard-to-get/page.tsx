@@ -84,6 +84,15 @@ const preVocabularies: PreVocabulary[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
+      audioSrc: "/o/obese.mp3",
+      keyword: "obese",
+      label: "obese",
+      phonetics: "/oʊˈbiːs/",
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
       audioSrc: "/o/obesity.mp3",
       keyword: "obesity",
       label: "obesity",
@@ -307,7 +316,7 @@ const paragraphs: Paragraph[] = [
     enParagraphs: [
       {
         enParagraph:
-          "Ruth Medina of Holyoke, Massachusetts, was worried about her daughter, Jalainie. At age 15, Jelainie weighed over 90 kilograms. The family has a history of type 2 diabetes, a condition worsened by being overweight. Medina did not want that to happen.",
+          "Ruth Medina of Holyoke, Massachusetts, was worried about her daughter, Jelainie. At age 15, Jelainie weighed over 90 kilograms. The family has a history of type 2 diabetes, a condition worsened by being overweight. Medina did not want that to happen.",
       },
     ],
     ptParagraph: "...",
@@ -470,13 +479,37 @@ const paragraphs: Paragraph[] = [
 
 const scanQuestions: ScanQuestion[] = [
   {
-    question: "...",
+    question: "What is the most widely suggested treatment for overweight children in the U.S.?",
+  },
+  {
+    question: "What are some barriers to accessing these programs?",
+  },
+  {
+    question: "Who is Dr. Joseph Skelton, and what does he say about insurance coverage?",
+  },
+  {
+    question: "What did Ruth Medina do to help her daughter, Jelainie?",
+  },
+  {
+    question: "What method does Stanford's lifestyle-counseling program use to teach healthy eating?",
+  },
+  {
+    question: "What are the three types of \"light\" foods mentioned in the article?",
   },
 ];
 
 const followupQuestions: FollowupQuestion[] = [
   {
-    question: "...",
+    question: "Do you think behavioral counseling should be more widely available? Why or why not?",
+  },
+  {
+    question: "How important is insurance coverage for these programs?",
+  },
+  {
+    question: "What do you think of the \"red light, green light\" method? Could it be effective?",
+  },
+  {
+    question: "How can schools and communities help address the issue of childhood obesity?",
   },
 ];
 

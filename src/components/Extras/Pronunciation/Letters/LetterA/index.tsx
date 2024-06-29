@@ -68,6 +68,15 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/b/brazil.mp3",
+              keyword: "brazil",
+              label: "Br<span class='underline'>a</span>zil",
+              phonetics: "/brəˈzɪl/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/c/cap.mp3",
               keyword: "cap",
               label: "c<span class='underline'>a</span>p",

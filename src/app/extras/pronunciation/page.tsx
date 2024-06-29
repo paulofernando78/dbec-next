@@ -188,6 +188,24 @@ export default function Pronunciation() {
             journey...
           </p>
         </div>
+        <div className="line-break">
+          <p className="bold">
+            S + Y <span className="phonetics">/tʃ/, /ʒ/</span>
+          </p>
+          <p className="phonetics">/tʃ/</p>
+          <p>What's your name?</p>
+          <p className="phonetics">/ʒ/</p>
+          <div>
+            <p>How's your family doing?</p>
+            <p>How's your friends?</p>
+          </div>
+        </div>
+        <div>
+          <p className="bold">
+            T + Y <span className="phonetics">/tʃ/</span>
+          </p>
+          <p>Don't you want it?</p>
+        </div>
       </div>
       <ScrollToTop />
     </>

@@ -7,7 +7,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: 'Letter "e"',
-    sound: "/e/, /i/, /ɪ/, /ɝː/",
+    sound: "/e/, /i/, /ɪ/,/ə/ ,/ɝː/",
     phonetics: [
       // /e/
       {
@@ -112,6 +112,33 @@ const pronunciations: Pronunciation[] = [
           },
         ],
         showHR: true,
+      },
+      // /ə/
+      {
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/ə.mp3",
+          label: "phonetics",
+          phonetics: "/ə/",
+        },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/c/category.mp3",
+              keyword: "categpry",
+              label: "cat<span class='underline'>e</span>gory",
+              phonetics: "/ˈkæt̬.ə.ɡɔːri/",
+            },
+          },
+        ],
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+        ],
+        showHR: true
       },
       // /ɪ/
       {
