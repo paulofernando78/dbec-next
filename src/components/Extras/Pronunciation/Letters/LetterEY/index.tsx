@@ -73,6 +73,7 @@ const pronunciations: Pronunciation[] = [
             },
           },
         ],
+        exampleAudioSrc: "",
         examples: [
           {
             enExample: "Let's go to Disney Land to see Mickey Mouse.",
@@ -100,6 +101,7 @@ const pronunciations: Pronunciation[] = [
             },
           },
         ],
+        exampleAudioSrc: "",
         examples: [
           {
             enExample: "...",

@@ -25,6 +25,7 @@ const pronunciations: Pronunciation[] = [
             },
           },
         ],
+        exampleAudioSrc: "",
         examples: [
           {
             enExample: "...",
@@ -51,6 +52,7 @@ const pronunciations: Pronunciation[] = [
             },
           },
         ],
+        exampleAudioSrc: "",
         examples: [
           {
             enExample: "...",

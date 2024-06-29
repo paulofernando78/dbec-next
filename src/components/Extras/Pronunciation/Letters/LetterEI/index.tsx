@@ -37,6 +37,7 @@ const pronunciations: Pronunciation[] = [
             },
           },
         ],
+        exampleAudioSrc: "",
         examples: [
           {
             enExample: "He's only eight (years old).",

@@ -85,6 +85,7 @@ const pronunciations: Pronunciation[] = [
             },
           },
         ],
+        exampleAudioSrc: "",
         examples: [
           {
             enExample: "...",

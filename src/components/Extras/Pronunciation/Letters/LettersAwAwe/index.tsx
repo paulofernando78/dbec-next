@@ -117,15 +117,12 @@ const pronunciations: Pronunciation[] = [
             },
           },
         ],
+        exampleAudioSrc: "",
         examples: [
           {
             enExample: "...",
             ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
+          }
         ],
         showHR: true,
       },
@@ -150,27 +147,12 @@ const pronunciations: Pronunciation[] = [
             },
           },
         ],
+        exampleAudioSrc: "",
         examples: [
           {
             enExample: "...",
             ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
+          }
         ],
       },
     ],
