@@ -1,7 +1,7 @@
 .scroll-to-top {
+    position: fixed;
     width: 35px;
     height: fit-content;
-    position: fixed;
     bottom: 8px;
     right: 8px;
     cursor: pointer;

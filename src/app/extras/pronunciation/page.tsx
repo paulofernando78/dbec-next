@@ -3,26 +3,33 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+
 import { LetterA } from "@/components/Extras/Pronunciation/Letters/LetterA";
-import { LettersAwAwe } from "@/components/Extras/Pronunciation/Letters/LettersAwAwe";
-import { ScrollToTop } from "@/components/ScrollToTop";
-import { LetterY } from "@/components/Extras/Pronunciation/Letters/LetterY";
-import { LettersEY } from "@/components/Extras/Pronunciation/Letters/LetterEY";
-import { LetterI } from "@/components/Extras/Pronunciation/Letters/LetterI";
-import { LetterIE } from "@/components/Extras/Pronunciation/Letters/LetterIE";
+import { LettersAW } from "@/components/Extras/Pronunciation/Letters/LettersAW";
+import { LettersAWE } from "@/components/Extras/Pronunciation/Letters/LettersAWE";
+import { LettersAU } from "@/components/Extras/Pronunciation/Letters/LettersAU";
 import { LetterE } from "@/components/Extras/Pronunciation/Letters/LetterE";
 import { LetterAvsE } from "@/components/Extras/Pronunciation/Letters/LettersAvsE";
-import { LetterEaEE } from "@/components/Extras/Pronunciation/Letters/LettersEaEE";
+import { LettersET } from "@/components/Extras/Pronunciation/Letters/LettersET";
+import { LetterEA } from "@/components/Extras/Pronunciation/Letters/LettersEA";
+import { LetterEI } from "@/components/Extras/Pronunciation/Letters/LetterEI";
+import { LetterEE } from "@/components/Extras/Pronunciation/Letters/LettersEE";
+import { LettersEY } from "@/components/Extras/Pronunciation/Letters/LetterEY";
 import { LettersEAi } from "@/components/Extras/Pronunciation/Letters/LettersEAi";
+import { LetterI } from "@/components/Extras/Pronunciation/Letters/LetterI";
+import { LetterIE } from "@/components/Extras/Pronunciation/Letters/LetterIE";
+import { LetterIR } from "@/components/Extras/Pronunciation/Letters/LetterIR";
 import { LettersOW } from "@/components/Extras/Pronunciation/Letters/LetterOW";
 import { LetterU } from "@/components/Extras/Pronunciation/Letters/LetterU";
-import { LettersAU } from "@/components/Extras/Pronunciation/Letters/LettersAU";
 import { LettersO } from "@/components/Extras/Pronunciation/Letters/LetterO";
 import { LettersOO } from "@/components/Extras/Pronunciation/Letters/LetterOO";
 import { LetterUI } from "@/components/Extras/Pronunciation/Letters/LetterUI";
-import { LetterEI } from "@/components/Extras/Pronunciation/Letters/LetterEI";
-import { LetterIR } from "@/components/Extras/Pronunciation/Letters/LetterIR";
-import { LettersET } from "@/components/Extras/Pronunciation/Letters/LettersET";
+import { LetterY } from "@/components/Extras/Pronunciation/Letters/LetterY";
+
+import { ScrollToTop } from "@/components/ScrollToTop";
+import { LettersCH } from "@/components/Extras/Pronunciation/Letters/LettersCH";
+import { LettersSH } from "@/components/Extras/Pronunciation/Letters/LettersSH";
+import { LettersSHvsCH } from "@/components/Extras/Pronunciation/Letters/LettersSHvsCH";
 
 export default function Pronunciation() {
   return (
@@ -39,19 +46,21 @@ export default function Pronunciation() {
           <a href="#letters-au">
             <p>Letter au</p>
           </a>
-          <a href="#letters-aw-awe">
-            <p>Letters aw • awe</p>
+          <a href="#letters-aw">
+            <p>Letters aw</p>
           </a>
-          <hr />
-          <a href="#letters-sh-ch">
-            <p>Letters sh • ch</p>
+          <a href="#letters-awe">
+            <p>Letters awe</p>
           </a>
           <hr />
           <a href="#letter-e">
             <p>Letter e</p>
           </a>
-          <a href="#letters-ea-ee">
-            <p>Letters ea • ee</p>
+          <a href="#letters-ea">
+            <p>Letters ea</p>
+          </a>
+          <a href="#letters-ee">
+            <p>Letters ee</p>
           </a>
           <a href="#letters-ei">
             <p>Letter ei</p>
@@ -79,6 +88,16 @@ export default function Pronunciation() {
           <hr />
           <a href="#letter-ee-long-vs-i-short">
             <p>Letters ee • ea (long) vs. i (short)</p>
+          </a>
+          <hr />
+          <a href="#letters-sh">
+            <p>Letters sh</p>
+          </a>
+          <a href="#letters-ch">
+            <p>Letters ch</p>
+          </a>
+          <a href="#letters-sh-ch">
+            <p>Letters sh • ch</p>
           </a>
           <hr />
           <a href="#letter-o">
@@ -120,14 +139,20 @@ export default function Pronunciation() {
         <div id="letters-au">
           <LettersAU />
         </div>
-        <div id="letters-aw-awe">
-          <LettersAwAwe />
+        <div id="letters-aw">
+          <LettersAW />
+        </div>
+        <div id="letters-awe">
+          <LettersAWE />
         </div>
         <div id="letter-e">
           <LetterE />
         </div>
-        <div id="letters-ea-ee">
-          <LetterEaEE />
+        <div id="letters-ea">
+          <LetterEA />
+        </div>
+        <div id="letters-ee">
+          <LetterEE />
         </div>
         <div id="letters-ei">
           <LetterEI />
@@ -152,6 +177,15 @@ export default function Pronunciation() {
         </div>
         <div id="letter-ee-long-vs-i-short">
           <LettersEAi />
+        </div>
+        <div id="letters-sh">
+          <LettersSH />
+        </div>
+        <div id="letters-ch">
+          <LettersCH />
+        </div>
+        <div id="letters-sh-ch">
+          <LettersSHvsCH />
         </div>
         <div id="letter-o">
           <LettersO />

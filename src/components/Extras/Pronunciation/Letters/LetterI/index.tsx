@@ -1,4 +1,3 @@
-import { Card } from "@/components/Cards/Card";
 import {
   Pronunciation,
   PronunciationCard,
@@ -12,7 +11,7 @@ const pronunciations: Pronunciation[] = [
     phonetics: [
       // /i/
       {
-        beforeText: 'When the letter "i" sounds like portuguese:',
+        beforeText: 'When the letter "i" sounds like in portuguese. Listen and repeat.',
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/i.mp3",
@@ -68,7 +67,7 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/s/sushi.mp3",
+              audioSrc: "/s/sashimi.mp3",
               keyword: "sashimi",
               label:
                 "sash<span class='underline'>i</span>m<span class='underline'>i</span>",
@@ -105,7 +104,7 @@ const pronunciations: Pronunciation[] = [
       // /ɪ/
       {
         beforeText:
-          'When the letter "i" has a different sound. It\'ll sound close to "ê" in portuguese:',
+          'When the letter "i" has a different sound. It\'ll sound close to "ê" in portuguese. Listen and repeat.',
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/ɪ.mp3",
@@ -227,29 +226,13 @@ const pronunciations: Pronunciation[] = [
           {
             enExample: "...",
             ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
+          }
         ],
         showHR: true,
       },
       // /ə/
       {
-        beforeText: "...",
+        beforeText: "Listen and repeat",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/ə.mp3",
@@ -283,11 +266,10 @@ const pronunciations: Pronunciation[] = [
             ptExample: "...",
           }
         ],
-        showHR: true,
       },
       // /aɪ/
       {
-        beforeText: "...",
+        beforeText: "Listen and repeat",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/aɪ.mp3",

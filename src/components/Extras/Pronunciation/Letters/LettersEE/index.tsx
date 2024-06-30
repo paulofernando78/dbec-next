@@ -1,4 +1,3 @@
-import { Card } from "@/components/Cards/Card";
 import {
   Pronunciation,
   PronunciationCard,
@@ -7,8 +6,8 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: 'Letter "ie"',
-    sound: "/i/, /aɪ/",
+    label: "Letters \"ee\"",
+    sound: "/i/, /ɪ/",
     phonetics: [
       // /i/
       {
@@ -23,28 +22,10 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/c/cookie.mp3",
-              keyword: "cookie",
-              label: "cook<span class='underline'>ie</span>",
-              phonetics: "/ˈkʊk.i/",
-            },
-          },
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/m/movie.mp3",
-              keyword: "movie",
-              label: "mov<span class='underline'>ie</span>",
-              phonetics: "/ˈmuː.vi/",
-            },
-          },
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/s/series.mp3",
-              keyword: "series",
-              label: "ser<span class='underline'>ie</span>s",
-              phonetics: "/ˈsɪr.iːz/",
+              audioSrc: "/s/sweet.mp3",
+              keyword: "sweet",
+              label: "sw<span class='underline'>ee</span>t",
+              phonetics: " /ˈswiːt/",
             },
           },
         ],
@@ -53,42 +34,42 @@ const pronunciations: Pronunciation[] = [
           {
             enExample: "...",
             ptExample: "...",
-          }
+          },
         ],
       },
-      // /aɪ/
+      // /ɪ/
       {
         beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
-          audioSrc: "/phonetics/i.mp3",
+          audioSrc: "/phonetics/ɪ.mp3",
           label: "phonetics",
-          phonetics: "/aɪ/",
+          phonetics: "/ɪ/",
         },
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/l/lie.mp3",
-              keyword: "lie",
-              label: "l<span class='underline'>ie</span>",
-              phonetics: "/laɪ/",
+              audioSrc: "/e/engineer.mp3",
+              keyword: "engineer",
+              label: "engin<span class='underline'>ee</span>r",
+              phonetics: " /ˌen.dʒɪˈnɪr/",
             },
-          }
+          },
         ],
         exampleAudioSrc: "",
         examples: [
           {
             enExample: "...",
             ptExample: "...",
-          }
+          },
         ],
-      },
+      }
     ],
   },
 ];
 
-export const LetterIE = () => {
+export const LetterEE = () => {
   return (
     <>
       <div className="line-break">

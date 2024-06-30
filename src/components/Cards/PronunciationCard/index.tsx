@@ -72,7 +72,7 @@ export const PronunciationCard = ({ pronunciations }: PronunciationProps) => {
               <div
                 key={phoneticsIndex}
                 className={`${
-                  phonetic.applyRedDashedBorder ? "border-red-dashed" : ""
+                  phonetic.applyRedDashedBorder ? "border-red-dashed" : "border-gray-dashed"
                 } ${styles["card-pronunciation-content"]}`}
               >
                 {/* beforeText */}

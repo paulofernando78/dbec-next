@@ -12,7 +12,7 @@ const scrollToTop = () => {
 export const ScrollToTop = () => {
   return (
     <div>
-    <Image src={scrollToTopIcon} alt='Back to top icon' className={styles["scroll-to-top"]} onClick={scrollToTop}/>
+    <Image src={scrollToTopIcon} alt='Back-to-top icon' className={styles["scroll-to-top"]} onClick={scrollToTop}/>
     </div>
   )
 }

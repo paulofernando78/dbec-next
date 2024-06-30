@@ -6,43 +6,46 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: 'Letters "au"',
-    sound: "/ɑː/",
+    label: "Letters \"sh\" vs. \"ch\"",
     phonetics: [
       {
-        phoneticsComponent: (props) => <DictionaryCard {...props} />,
-        phoneticsComponentProps: {
-          audioSrc: "/phonetics/æ.mp3",
-          label: "phonetics",
-          phonetics: "/ɑː/",
-        },
-        beforeText: "Listen and repeat.",
+        applyGrid: true,
+        beforeText: "Listen to the differences.",
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/e/exhausted.mp3",
-              keyword: "exhausted",
-              label: "exh<span class='underline'>au</span>sted",
-              phonetics: "/ɪɡˈzɑː.stɪd/",
+              audioSrc: "/w/wash.mp3",
+              keyword: "wash",
+              label: "wa<span class='underline'>sh</span>",
+              phonetics: "/.../",
             },
           },
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/f/fault.mp3",
-              keyword: "fault",
-              label: "f<span class='underline'>au</span>lt",
-              phonetics: "/fɑːlt/",
+              audioSrc: "/w/watch.mp3",
+              keyword: "watch",
+              label: "wat<span class='underline'>ch</span>",
+              phonetics: "/.../",
             },
           },
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/m/maul.mp3",
-              keyword: "maul",
-              label: "m<span class='underline'>au</span>l",
-              phonetics: "/mɑːl/",
+              audioSrc: "/w/wash.mp3",
+              keyword: "wash",
+              label: "wa<span class='underline'>sh</span>",
+              phonetics: "/.../",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/w/watch.mp3",
+              keyword: "watch",
+              label: "wat<span class='underline'>ch</span>",
+              phonetics: "/.../",
             },
           },
         ],
@@ -51,14 +54,14 @@ const pronunciations: Pronunciation[] = [
           {
             enExample: "...",
             ptExample: "...",
-          }
+          },
         ],
       },
     ],
   },
 ];
 
-export const LettersAU = () => {
+export const LettersSHvsCH = () => {
   return (
     <>
       <div className="line-break">

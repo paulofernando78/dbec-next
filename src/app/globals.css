@@ -252,6 +252,12 @@ p {
 
 /* BORDER */
 
+.border-gray-dashed {
+  border-radius: var(--border-radius);
+  padding: 8px;
+  border: 2px dashed gray;
+}
+
 .border-red-dashed {
   border-radius: var(--border-radius);
   padding: 8px;

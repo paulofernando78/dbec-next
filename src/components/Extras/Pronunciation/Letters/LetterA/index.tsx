@@ -135,7 +135,6 @@ const pronunciations: Pronunciation[] = [
             ptExample: "um incrível/radical boné",
           },
         ],
-        showHR: true,
       },
       // /ɑː/
       {

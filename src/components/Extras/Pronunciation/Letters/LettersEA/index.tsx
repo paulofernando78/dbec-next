@@ -6,7 +6,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: 'Letters "ea" and "ee"',
+    label: "Letters \"ea\"",
     sound: "/i/",
     phonetics: [
       // /i/
@@ -17,6 +17,7 @@ const pronunciations: Pronunciation[] = [
           label: "phonetics",
           phonetics: "/i/",
         },
+        beforeText: "Listen and repeat.",
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,
@@ -27,15 +28,6 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/driːm/",
             },
           },
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/s/sweet.mp3",
-              keyword: "sweet",
-              label: "sw<span class='underline'>ee</span>t",
-              phonetics: " /ˈswiːt/",
-            },
-          },
         ],
         exampleAudioSrc: "",
         examples: [
@@ -44,7 +36,6 @@ const pronunciations: Pronunciation[] = [
             ptExample: "...",
           },
         ],
-        showHR: true,
       },
       // /e/
       {
@@ -54,6 +45,7 @@ const pronunciations: Pronunciation[] = [
           label: "phonetics",
           phonetics: "/e/",
         },
+        beforeText: "Listen and repeat.",
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,
@@ -97,7 +89,7 @@ const pronunciations: Pronunciation[] = [
   },
 ];
 
-export const LetterEaEE = () => {
+export const LetterEA = () => {
   return (
     <>
       <div className="line-break">

@@ -6,10 +6,11 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: 'Letters "aw" and "awe"',
+    label: "Letters \"aw\"",
     sound: "/ɑː/",
     phonetics: [
       {
+        beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/ɑ.mp3",
@@ -124,42 +125,12 @@ const pronunciations: Pronunciation[] = [
             ptExample: "...",
           }
         ],
-        showHR: true,
-      },
-      {
-        words: [
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/a/awesome.mp3",
-              keyword: "awesome",
-              label: "<span class='underline'>awe</span>some",
-              phonetics: " /ˈɑː.səm/",
-            },
-          },
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/a/awe.mp3",
-              keyword: "awe",
-              label: "<span class='underline'>awe</span>",
-              phonetics: "/ɑː/",
-            },
-          },
-        ],
-        exampleAudioSrc: "",
-        examples: [
-          {
-            enExample: "...",
-            ptExample: "...",
-          }
-        ],
-      },
+      }
     ],
   },
 ];
 
-export const LettersAwAwe = () => {
+export const LettersAW = () => {
   return (
     <>
       <div className="line-break">

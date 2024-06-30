@@ -6,11 +6,12 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: 'Letter "et"',
+    label: 'Letters "et"',
     sound: "/eɪ/",
     phonetics: [
       // /eɪ/
       {
+        beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/eɪ.mp3",

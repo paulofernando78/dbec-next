@@ -11,6 +11,7 @@ const pronunciations: Pronunciation[] = [
     phonetics: [
       // /e/
       {
+        beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/e.mp3",
@@ -43,11 +44,11 @@ const pronunciations: Pronunciation[] = [
             enExample: "...",
             ptExample: "...",
           },
-        ],
-        showHR: true,
+        ]
       },
       // /i/
       {
+        beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/i.mp3",
@@ -90,10 +91,10 @@ const pronunciations: Pronunciation[] = [
             ptExample: "...",
           },
         ],
-        showHR: true,
       },
       // /ə/
       {
+        beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/ə.mp3",
@@ -118,10 +119,10 @@ const pronunciations: Pronunciation[] = [
             ptExample: "...",
           },
         ],
-        showHR: true,
       },
       // /ɪ/
       {
+        beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/ɪ.mp3",
@@ -146,10 +147,10 @@ const pronunciations: Pronunciation[] = [
             ptExample: "...",
           },
         ],
-        showHR: true,
       },
       // /ɝː/
       {
+        beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/ɝ.mp3",

@@ -6,11 +6,12 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: 'Letter "ey"',
+    label: 'Letters "ey"',
     sound: "/i/ /eɪ/ ",
     phonetics: [
       // /i/
       {
+        beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/i.mp3",
@@ -48,7 +49,16 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/x/xxx.mp3",
+              audioSrc: "/h/honey.mp3",
+              keyword: "honey",
+              label: "hon<span class='underline'>ey</span>",
+              phonetics: " /ˈhʌn.i/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/k/key.mp3",
               keyword: "key",
               label: "k<span class='underline'>ey</span>",
               phonetics: "/kiː/",
@@ -79,11 +89,11 @@ const pronunciations: Pronunciation[] = [
             enExample: "Let's go to Disney Land to see Mickey Mouse.",
             ptExample: "Vamos para a Disneyland para ver o Mickey Mouse.",
           },
-        ],
-        showHR: true
+        ]
       },
       // /eɪ/
       {
+        beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/eɪ.mp3",

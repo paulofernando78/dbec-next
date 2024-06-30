@@ -6,43 +6,34 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: 'Letters "au"',
+    label: "Letters \"awe\"",
     sound: "/ɑː/",
     phonetics: [
       {
+        beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
-          audioSrc: "/phonetics/æ.mp3",
+          audioSrc: "/phonetics/ɑ.mp3",
           label: "phonetics",
           phonetics: "/ɑː/",
         },
-        beforeText: "Listen and repeat.",
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/e/exhausted.mp3",
-              keyword: "exhausted",
-              label: "exh<span class='underline'>au</span>sted",
-              phonetics: "/ɪɡˈzɑː.stɪd/",
+              audioSrc: "/a/awesome.mp3",
+              keyword: "awesome",
+              label: "<span class='underline'>awe</span>some",
+              phonetics: " /ˈɑː.səm/",
             },
           },
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/f/fault.mp3",
-              keyword: "fault",
-              label: "f<span class='underline'>au</span>lt",
-              phonetics: "/fɑːlt/",
-            },
-          },
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/m/maul.mp3",
-              keyword: "maul",
-              label: "m<span class='underline'>au</span>l",
-              phonetics: "/mɑːl/",
+              audioSrc: "/a/awe.mp3",
+              keyword: "awe",
+              label: "<span class='underline'>awe</span>",
+              phonetics: "/ɑː/",
             },
           },
         ],
@@ -58,7 +49,7 @@ const pronunciations: Pronunciation[] = [
   },
 ];
 
-export const LettersAU = () => {
+export const LettersAWE = () => {
   return (
     <>
       <div className="line-break">
