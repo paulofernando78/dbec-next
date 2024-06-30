@@ -15,7 +15,7 @@ import { LetterEA } from "@/components/Extras/Pronunciation/Letters/LettersEA";
 import { LetterEI } from "@/components/Extras/Pronunciation/Letters/LetterEI";
 import { LetterEE } from "@/components/Extras/Pronunciation/Letters/LettersEE";
 import { LettersEY } from "@/components/Extras/Pronunciation/Letters/LetterEY";
-import { LettersEAi } from "@/components/Extras/Pronunciation/Letters/LettersEAi";
+import { LettersEAvsI } from "@/components/Extras/Pronunciation/Letters/LettersEAvsI";
 import { LetterI } from "@/components/Extras/Pronunciation/Letters/LetterI";
 import { LetterIE } from "@/components/Extras/Pronunciation/Letters/LetterIE";
 import { LetterIR } from "@/components/Extras/Pronunciation/Letters/LetterIR";
@@ -176,7 +176,7 @@ export default function Pronunciation() {
           <LetterIR />
         </div>
         <div id="letter-ee-long-vs-i-short">
-          <LettersEAi />
+          <LettersEAvsI />
         </div>
         <div id="letters-sh">
           <LettersSH />

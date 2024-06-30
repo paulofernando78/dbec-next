@@ -17,6 +17,24 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/b/beach.mp3",
+              keyword: "beach",
+              label: "b<span class='underline'>ea</span>ch",
+              phonetics: "/biːtʃ/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/bitch.mp3",
+              keyword: "bitch",
+              label: "b<span class='underline'>i</span>tch",
+              phonetics: "/bɪtʃ/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/b/bead.mp3",
               keyword: "bead",
               label: "b<span class='underline'>ea</span>d",
@@ -298,7 +316,8 @@ const pronunciations: Pronunciation[] = [
   },
 ];
 
-export const LettersEAi = () => {
+export const LettersEAvsI
+ = () => {
   return (
     <>
       <div className="line-break">

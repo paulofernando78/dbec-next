@@ -15,19 +15,19 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/w/wash.mp3",
-              keyword: "wash",
-              label: "wa<span class='underline'>sh</span>",
-              phonetics: "/.../",
+              audioSrc: "/s/share.mp3",
+              keyword: "share",
+              label: "<span class='underline'>sh</span>are",
+              phonetics: "/ʃer/",
             },
           },
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/w/watch.mp3",
-              keyword: "watch",
-              label: "wat<span class='underline'>ch</span>",
-              phonetics: "/.../",
+              audioSrc: "/c/chair.mp3",
+              keyword: "chair",
+              label: "<span class='underline'>ch</span>air",
+              phonetics: "/tʃer/",
             },
           },
           {
