@@ -7,7 +7,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: 'Letter "ir"',
+    label: 'Letters "ir"',
     sound: "/ɝː/",
     phonetics: [
       // /i/

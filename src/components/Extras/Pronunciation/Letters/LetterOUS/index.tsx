@@ -3,11 +3,11 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: "Letter \"ous\"",
+    label: "Letters \"ous\"",
     sound: "/əs/",
     phonetics: [
       {
-      beforeText: "Listen and repeat",
+      beforeText: "Listen and repeat.",
       phoneticsComponent: (props) => <DictionaryCard {...props} />,
 	        phoneticsComponentProps: {
           audioSrc: "/phonetics/əs.mp3",

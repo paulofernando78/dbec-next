@@ -232,7 +232,7 @@ const pronunciations: Pronunciation[] = [
       },
       // /ə/
       {
-        beforeText: "Listen and repeat",
+        beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/ə.mp3",
@@ -269,7 +269,7 @@ const pronunciations: Pronunciation[] = [
       },
       // /aɪ/
       {
-        beforeText: "Listen and repeat",
+        beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/aɪ.mp3",

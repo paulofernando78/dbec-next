@@ -7,11 +7,11 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: 'Letter "a" vs. "e"',
+    label: 'Letters "a" vs. "e"',
     sound: "/æ/ vs. /e/",
     phonetics: [
       {
-        applyGrid: true,
+        applyRedDashedBorder: true,
         beforeText: "Listen to the diffences and repeat.",
         words: [
           {

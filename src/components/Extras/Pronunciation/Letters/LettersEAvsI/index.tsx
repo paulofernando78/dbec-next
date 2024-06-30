@@ -11,6 +11,7 @@ const pronunciations: Pronunciation[] = [
     sound: "/i/ vs /ɪ/",
     phonetics: [
       {
+        applyRedDashedBorder: true,
         beforeText: "Listen to the differences and repeat.",
         applyGrid: true,
         words: [

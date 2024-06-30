@@ -3,7 +3,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: "Letter \"ow\"",
+    label: "Letters \"ow\"",
     sound: "/oʊ/, /aʊ/",
     phonetics: [
       {

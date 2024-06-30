@@ -31,6 +31,7 @@ import { LettersCH } from "@/components/Extras/Pronunciation/Letters/LettersCH";
 import { LettersSH } from "@/components/Extras/Pronunciation/Letters/LettersSH";
 import { LettersSHvsCH } from "@/components/Extras/Pronunciation/Letters/LettersSHvsCH";
 import { LettersOUS } from "@/components/Extras/Pronunciation/Letters/LetterOUS";
+import { LetterOOvsU } from "@/components/Extras/Pronunciation/Letters/LetterOOvsU";
 
 export default function Pronunciation() {
   return (
@@ -42,91 +43,95 @@ export default function Pronunciation() {
         <div>
           <p className="bold">Sounds of Letters</p>
           <a href="#letter-a">
-            <p>Letter a</p>
+            <p>Letter "a"</p>
           </a>
           <a href="#letters-au">
-            <p>Letter au</p>
+            <p>Letter "au"</p>
           </a>
           <a href="#letters-aw">
-            <p>Letters aw</p>
+            <p>Letters "aw"</p>
           </a>
           <a href="#letters-awe">
-            <p>Letters awe</p>
+            <p>Letters "awe"</p>
           </a>
           <hr />
           <a href="#letter-e">
-            <p>Letter e</p>
+            <p>Letter "e"</p>
           </a>
           <a href="#letters-ea">
-            <p>Letters ea</p>
+            <p>Letters "ea"</p>
           </a>
           <a href="#letters-ee">
-            <p>Letters ee</p>
+            <p>Letters "ee"</p>
           </a>
           <a href="#letters-ei">
-            <p>Letter ei</p>
+            <p>Letters "ei"</p>
           </a>
           <a href="#letters-et">
-            <p>Letter et</p>
+            <p>Letters "et"</p>
           </a>
           <a href="#letters-ey">
-            <p>Letter ey</p>
+            <p>Letters "ey"</p>
           </a>
           <hr />
           <a href="#letters-a-vs-e">
-            <p>Letter a vs. e</p>
+            <p>Letters "a" vs. "e"</p>
           </a>
           <hr />
           <a href="#letter-i">
-            <p>Letter i</p>
+            <p>Letter "i"</p>
           </a>
           <a href="#letters-ie">
-            <p>Letters ie</p>
+            <p>Letters "ie"</p>
           </a>
-          <a href="#letter-ir">
-            <p>Letter ir</p>
+          <a href="#letters-ir">
+            <p>Letters "ir"</p>
           </a>
           <hr />
           <a href="#letter-ee-long-vs-i-short">
-            <p>Letters ee • ea (long) vs. i (short)</p>
+            <p>Letters "ee" • "ea" (long) vs. "i" (short)</p>
           </a>
           <hr />
           <a href="#letters-sh">
-            <p>Letters sh</p>
+            <p>Letters "sh"</p>
           </a>
           <a href="#letters-ch">
-            <p>Letters ch</p>
+            <p>Letters "ch"</p>
           </a>
           <a href="#letters-sh-ch">
-            <p>Letters sh • ch</p>
+            <p>Letters "sh" • "ch"</p>
           </a>
           <hr />
           <a href="#letter-o">
-            <p>Letter o</p>
+            <p>Letter "o"</p>
           </a>
           <a href="#letters-oo">
-            <p>Letter oo</p>
+            <p>Letter "oo"</p>
           </a>
           <a href="#letters-ous">
-            <p>Letter ous</p>
+            <p>Letters "ous"</p>
           </a>
           <a href="#letters-ow">
-            <p>Letter ow</p>
+            <p>Letter "ow"</p>
           </a>
           <hr />
           <a href="#letter-t">
-            <p>Letter t</p>
+            <p>Letter "t"</p>
           </a>
           <hr />
           <a href="#letter-u">
-            <p>Letter u</p>
+            <p>Letter "u"</p>
           </a>
           <a href="#letters-ui">
-            <p>Letter ui</p>
+            <p>Letters "ui"</p>
+          </a>
+          <hr />
+          <a href="#letters-oo-vs-u">
+            <p>Letters "oo" vs. "u"</p>
           </a>
           <hr />
           <a href="#letter-y">
-            <p>Letter y</p>
+            <p>Letter "y"</p>
           </a>
         </div>
         <div>
@@ -176,7 +181,7 @@ export default function Pronunciation() {
         <div id="letters-ie">
           <LetterIE />
         </div>
-        <div id="letter-ir">
+        <div id="letters-ir">
           <LetterIR />
         </div>
         <div id="letter-ee-long-vs-i-short">
@@ -209,6 +214,9 @@ export default function Pronunciation() {
         </div>
         <div id="letters-ui">
           <LetterUI />
+        </div>
+        <div id="letters-oo-vs-u">
+          <LetterOOvsU />
         </div>
         <div id="letter-y">
           <LetterY />

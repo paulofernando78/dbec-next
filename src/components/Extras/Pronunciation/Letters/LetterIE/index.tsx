@@ -7,7 +7,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: 'Letter "ie"',
+    label: 'Letters "ie"',
     sound: "/i/, /aɪ/",
     phonetics: [
       // /i/

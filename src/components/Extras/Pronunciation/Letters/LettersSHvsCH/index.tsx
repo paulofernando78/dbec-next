@@ -9,6 +9,7 @@ const pronunciations: Pronunciation[] = [
     label: "Letters \"sh\" vs. \"ch\"",
     phonetics: [
       {
+        applyRedDashedBorder: true,
         applyGrid: true,
         beforeText: "Listen to the differences.",
         words: [
@@ -36,7 +37,7 @@ const pronunciations: Pronunciation[] = [
               audioSrc: "/w/wash.mp3",
               keyword: "wash",
               label: "wa<span class='underline'>sh</span>",
-              phonetics: "/.../",
+              phonetics: "/wɑːʃ/",
             },
           },
           {
@@ -45,7 +46,25 @@ const pronunciations: Pronunciation[] = [
               audioSrc: "/w/watch.mp3",
               keyword: "watch",
               label: "wat<span class='underline'>ch</span>",
-              phonetics: "/.../",
+              phonetics: "/wɑːtʃ/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/w/wish.mp3",
+              keyword: "wish",
+              label: "wi<span class='underline'>sh</span>",
+              phonetics: "/wɪʃ/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/w/witch.mp3",
+              keyword: "witch",
+              label: "wit<span class='underline'>ch</span>",
+              phonetics: "/wɪtʃ/",
             },
           },
         ],
