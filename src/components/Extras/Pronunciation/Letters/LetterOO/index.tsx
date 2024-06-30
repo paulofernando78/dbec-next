@@ -8,7 +8,7 @@ const pronunciations: Pronunciation[] = [
     phonetics: [
       // /ʌ/ 
       {
-      beforeText: "Listen and repeat",
+      beforeText: "Listen and repeat.",
       phoneticsComponent: (props) => <DictionaryCard {...props} />,
 	        phoneticsComponentProps: {
           audioSrc: "/phonetics/ʌ.mp3",
@@ -45,7 +45,7 @@ const pronunciations: Pronunciation[] = [
       },
       // ʊ
       {
-      beforeText: "listen and repeat",
+      beforeText: "listen and repeat.",
       phoneticsComponent: (props) => <DictionaryCard {...props} />,
 	        phoneticsComponentProps: {
           audioSrc: "/phonetics/ʊ.mp3",
@@ -62,6 +62,15 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/kʊk/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/g/good.mp3",
+              keyword: "good",
+              label: "good",
+              phonetics: "/gʊd/",
+            },
+          }
         ],
         exampleAudioSrc: "",
         examples: [
@@ -73,7 +82,7 @@ const pronunciations: Pronunciation[] = [
       },
       // uː
       {
-      beforeText: "Listen and repeat",
+      beforeText: "Listen and repeat.",
       phoneticsComponent: (props) => <DictionaryCard {...props} />,
 	        phoneticsComponentProps: {
           audioSrc: "/phonetics/ʊ.mp3",

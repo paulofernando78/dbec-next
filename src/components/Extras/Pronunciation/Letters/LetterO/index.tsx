@@ -56,6 +56,15 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/koʊld/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/o/old.mp3",
+              keyword: "old",
+              label: "<span class='underline'>o</span>ld",
+              phonetics: "/oʊld/",
+            },
+          },
         ],
         exampleAudioSrc: "",
         examples: [

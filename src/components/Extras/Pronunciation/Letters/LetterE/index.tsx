@@ -83,6 +83,15 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈθiː.ə.t̬ɚ/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/z/zebra.mp3",
+              keyword: "zebra",
+              label: "z<span class='underline'>e</span>bra",
+              phonetics: "/ˈziː.brə/",
+            },
+          },
         ],
         exampleAudioSrc: "",
         examples: [

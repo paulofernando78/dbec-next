@@ -17,10 +17,22 @@ export default function LawVocabulary() {
           phonetics="/ˈæɡ.rəˌbɪz.nɪs/"
         />
         <DictionaryCard
+          audioSrc="/c/court.mp3"
+          keyword="court"
+          label="court"
+          phonetics="/kɔːrt/"
+        />
+        <DictionaryCard
           audioSrc="/e/enact.mp3"
           keyword="enact"
           label="enact"
           phonetics="/ɪˈnækt/"
+        />
+        <DictionaryCard
+          audioSrc="/d/defendant.mp3"
+          keyword="enact"
+          label="defendant"
+          phonetics="/dɪˈfen.dənt/"
         />
         <DictionaryCard
           audioSrc="/h/heinous.mp3"

@@ -311,6 +311,15 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/a/among.mp3",
+              keyword: "among",
+              label: "<span class='underline'>a</span>mong",
+              phonetics: "/əˈmʌŋ/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/b/brazil.mp3",
               keyword: "brazil",
               label: "Br<span class='underline'>a</span>zil",
@@ -320,10 +329,19 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/a/among.mp3",
-              keyword: "among",
-              label: "<span class='underline'>a</span>mong",
-              phonetics: "/.../",
+              audioSrc: "/p/pajamas.mp3",
+              keyword: "pajamas",
+              label: "p<span class='underline'>a</span>jam<span class='underline'>a</span>s",
+              phonetics: "/pəˈdʒɑː.məz/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/z/zebra.mp3",
+              keyword: "zebra",
+              label: "zebr<span class='underline'>a</span>",
+              phonetics: "/ˈziː.brə/",
             },
           },
         ],
@@ -331,7 +349,7 @@ const pronunciations: Pronunciation[] = [
         examples: [
           {
             enExample: "What is it about?",
-            ptExample: "Do que se trata / Sobre o que é?",
+            ptExample: "Do que se trata / É sobre o quê?",
           },
           {
             enExample: "an exciting adventure",
@@ -362,12 +380,25 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/kriˈeɪ.t̬ɪv/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/l/lazy.mp3",
+              keyword: "lazy",
+              label: "l<span class='underline'>a</span>zy",
+              phonetics: "/ˈleɪ.zi/",
+            },
+          },
         ],
         exampleAudioSrc: "",
         examples: [
           {
             enExample: "a creative person",
             ptExample: "uma pessoa criativa",
+          },
+          {
+            enExample: "a lazy person",
+            ptExample: "uma pessoa preguiçosa",
           },
         ],
       },

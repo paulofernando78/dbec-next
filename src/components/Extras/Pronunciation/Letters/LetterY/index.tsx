@@ -76,10 +76,37 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/d/dirty.mp3",
+              keyword: "dirty",
+              label: "dirt<span class='underline'>y</span>",
+              phonetics: "/ˈdɝː.t̬i/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/e/early.mp3",
               keyword: "early",
               label: "earl<span class='underline'>y</span>",
               phonetics: "/ˈɝː.li/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/e/easy.mp3",
+              keyword: "easy",
+              label: "eas<span class='underline'>y</span>",
+              phonetics: "/ˈɝː.li/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/e/empty.mp3",
+              keyword: "empty",
+              label: "empt<span class='underline'>y</span>",
+              phonetics: "/ˈemp.ti/",
             },
           },
           {
@@ -139,10 +166,46 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/l/lazy.mp3",
+              keyword: "lazy",
+              label: "laz<span class='underline'>y</span>",
+              phonetics: "/ˈleɪ.zi/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/l/library.mp3",
+              keyword: "library",
+              label: "librar<span class='underline'>y</span>",
+              phonetics: "/ˈlaɪ.brer.i/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/n/noisy.mp3",
+              keyword: "noisy",
+              label: "nois<span class='underline'>y</span>",
+              phonetics: "/ˈnɔɪ.zi/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/s/slowly.mp3",
               keyword: "slowly",
               label: "slowl<span class='underline'>y</span>",
               phonetics: "/ˈsloʊ.li/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/strawberry.mp3",
+              keyword: "strawberry",
+              label: "strawberr<span class='underline'>y</span>",
+              phonetics: "/ˈstrɑːˌber.i/",
             },
           },
           {
@@ -154,9 +217,22 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈθɝː.sti/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/u/ugly.mp3",
+              keyword: "ugly",
+              label: "ugl<span class='underline'>y</span>",
+              phonetics: "/ˈʌɡ.li/",
+            },
+          },
         ],
         exampleAudioSrc: "",
         examples: [
+          {
+            enExample: "a fresh strawberriy",
+            ptExample: "um morango fresco",
+          },
           {
             enExample: "...",
             ptExample: "...",
@@ -189,6 +265,15 @@ const pronunciations: Pronunciation[] = [
               keyword: "you",
               label: "<span class='underline'>y</span>ou",
               phonetics: "/juː/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/y/yo-yo.mp3",
+              keyword: "yo-yo",
+              label: "<span class='underline'>y</span>o-<span class='underline'>y</span>o",
+              phonetics: "/ˈjoʊ.joʊ/",
             },
           },
         ],

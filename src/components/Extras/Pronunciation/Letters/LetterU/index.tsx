@@ -171,12 +171,30 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/f/full.mp3",
+              keyword: "full",
+              label: "f<span class='underline'>u</span>ll",
+              phonetics: "/fʊl/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/l/lure.mp3",
               keyword: "lure",
               label: "l<span class='underline'>u</span>re",
               phonetics: "/lʊr/",
             },
-          }
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/p/put.mp3",
+              keyword: "put",
+              label: "put",
+              phonetics: "/pʊt/",
+            },
+          },
         ],
         exampleAudioSrc: "",
         examples: [

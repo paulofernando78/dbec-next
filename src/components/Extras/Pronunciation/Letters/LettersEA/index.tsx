@@ -28,6 +28,24 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/driːm/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/teacher.mp3",
+              keyword: "teacher",
+              label: "t<span class='underline'>ea</span>cher",
+              phonetics: "/ˈtiː.tʃɚ/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/team.mp3",
+              keyword: "team",
+              label: "t<span class='underline'>ea</span>m",
+              phonetics: "/ˈtiːm/",
+            },
+          },
         ],
         exampleAudioSrc: "",
         examples: [

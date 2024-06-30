@@ -352,6 +352,15 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/w/wide.mp3",
+              keyword: "wide",
+              label: "w<span class='underline'>i</span>de",
+              phonetics: "/waɪd/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/w/wipe.mp3",
               keyword: "wipe",
               label: "w<span class='underline'>i</span>pe",

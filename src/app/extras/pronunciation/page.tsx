@@ -30,6 +30,7 @@ import { ScrollToTop } from "@/components/ScrollToTop";
 import { LettersCH } from "@/components/Extras/Pronunciation/Letters/LettersCH";
 import { LettersSH } from "@/components/Extras/Pronunciation/Letters/LettersSH";
 import { LettersSHvsCH } from "@/components/Extras/Pronunciation/Letters/LettersSHvsCH";
+import { LettersOUS } from "@/components/Extras/Pronunciation/Letters/LetterOUS";
 
 export default function Pronunciation() {
   return (
@@ -105,6 +106,9 @@ export default function Pronunciation() {
           </a>
           <a href="#letters-oo">
             <p>Letter oo</p>
+          </a>
+          <a href="#letters-ous">
+            <p>Letter ous</p>
           </a>
           <a href="#letters-ow">
             <p>Letter ow</p>
@@ -192,6 +196,9 @@ export default function Pronunciation() {
         </div>
         <div id="letters-oo">
           <LettersOO />
+        </div>
+        <div id="letters-ous">
+          <LettersOUS />
         </div>
         <div id="letters-ow">
           <LettersOW />
