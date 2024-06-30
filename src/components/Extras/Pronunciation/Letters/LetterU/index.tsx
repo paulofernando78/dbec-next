@@ -11,6 +11,7 @@ const pronunciations: Pronunciation[] = [
     phonetics: [
       // /uː/
       {
+        beforeText: "Listen and repeat",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/u.mp3",
@@ -38,6 +39,7 @@ const pronunciations: Pronunciation[] = [
       },
       // /juː/
       {
+        beforeText: "Listen and repeat",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/xxx.mp3",
@@ -65,6 +67,7 @@ const pronunciations: Pronunciation[] = [
       },
       // /ʌ/
       {
+        beforeText: "Listen and repeat",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/ʌ.mp3",
@@ -120,6 +123,7 @@ const pronunciations: Pronunciation[] = [
       },
       // /ɪ/
       {
+        beforeText: "Listen and repeat",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/ɪ.mp3",
@@ -156,6 +160,7 @@ const pronunciations: Pronunciation[] = [
       },
       // /ʊ/
       {
+        beforeText: "Listen and repeat",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/ʊ.mp3",
@@ -183,6 +188,7 @@ const pronunciations: Pronunciation[] = [
       },
       // /jʊ/
       {
+        beforeText: "Listen and repeat",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/xxx.mp3",

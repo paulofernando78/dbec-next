@@ -4,24 +4,90 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: "Letter \"oo\"",
-    sound: "...",
+    sound: "/ʌ/, /ʊ/, /uː/",
     phonetics: [
+      // /ʌ/ 
       {
-      beforeText: "...",
+      beforeText: "Listen and repeat",
       phoneticsComponent: (props) => <DictionaryCard {...props} />,
 	        phoneticsComponentProps: {
-          audioSrc: "/phonetics/xxx.mp3",
+          audioSrc: "/phonetics/ʌ.mp3",
           label: "phonetics",
-          phonetics: "/xxx/",
+          phonetics: "/ʌ/",
         },
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/x/xxx.mp3",
-              keyword: "",
-              label: "xxx",
-              phonetics: "/.../",
+              audioSrc: "/b/blood.mp3",
+              keyword: "blood",
+              label: "blood",
+              phonetics: "/blʌd/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/f/flood.mp3",
+              keyword: "blood",
+              label: "flood",
+              phonetics: "/flʌd/",
+            },
+          },
+        ],
+        exampleAudioSrc: "",
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "..."
+          },
+        ],
+      },
+      // ʊ
+      {
+      beforeText: "listen and repeat",
+      phoneticsComponent: (props) => <DictionaryCard {...props} />,
+	        phoneticsComponentProps: {
+          audioSrc: "/phonetics/ʊ.mp3",
+          label: "phonetics",
+          phonetics: "/ʊ/",
+        },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/c/cook.mp3",
+              keyword: "cook",
+              label: "cook",
+              phonetics: "/kʊk/",
+            },
+          },
+        ],
+        exampleAudioSrc: "",
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "..."
+          },
+        ],
+      },
+      // uː
+      {
+      beforeText: "Listen and repeat",
+      phoneticsComponent: (props) => <DictionaryCard {...props} />,
+	        phoneticsComponentProps: {
+          audioSrc: "/phonetics/ʊ.mp3",
+          label: "phonetics",
+          phonetics: "/uː/",
+        },
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/m/moon.mp3",
+              keyword: "moon",
+              label: "moon",
+              phonetics: "/muːn/",
             },
           },
         ],

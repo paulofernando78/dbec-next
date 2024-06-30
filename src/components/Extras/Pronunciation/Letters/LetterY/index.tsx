@@ -11,6 +11,7 @@ const pronunciations: Pronunciation[] = [
     phonetics: [
       // /i/
       {
+        beforeText: "Listen and repeat",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/i.mp3",
@@ -164,7 +165,7 @@ const pronunciations: Pronunciation[] = [
       },
       // /j/
       {
-        beforeText: "***",
+        beforeText: "Listen and repeat",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/j.mp3",
@@ -203,7 +204,7 @@ const pronunciations: Pronunciation[] = [
       {
         applyGrid:true,
         applyRedDashedBorder: true,
-        beforeText: "Listen to the differences.",
+        beforeText: "Listen to the differences and repeat.",
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,
@@ -234,6 +235,7 @@ const pronunciations: Pronunciation[] = [
       },
       // /aɪ/
       {
+        beforeText: "Listen and repeat",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/aɪ.mp3",
@@ -248,6 +250,24 @@ const pronunciations: Pronunciation[] = [
               keyword: "archetype",
               label: "archet<span class='underline'>y</span>pe",
               phonetics: "/ˈɑːr.kə.taɪp/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/type.mp3",
+              keyword: "type",
+              label: "t<span class='underline'>y</span>pe",
+              phonetics: "/taɪp/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/x/xylophone.mp3",
+              keyword: "xylophone",
+              label: "x<span class='underline'>y</span>lophone",
+              phonetics: "/ˈzaɪ.lə.foʊn/",
             },
           }
         ],

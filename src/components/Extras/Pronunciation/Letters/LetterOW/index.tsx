@@ -7,7 +7,7 @@ const pronunciations: Pronunciation[] = [
     sound: "...",
     phonetics: [
       {
-      beforeText: "...",
+        beforeText: "Listen and repeat",
       phoneticsComponent: (props) => <DictionaryCard {...props} />,
 	        phoneticsComponentProps: {
           audioSrc: "/phonetics/xxx.mp3",
