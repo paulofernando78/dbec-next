@@ -302,6 +302,15 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/a/alone.mp3",
+              keyword: "alone",
+              label: "<span class='underline'>a</span>lone",
+              phonetics: "/əˈloʊn/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/a/adventure.mp3",
               keyword: "about",
               label: "<span class='underline'>a</span>dventure",
@@ -387,6 +396,15 @@ const pronunciations: Pronunciation[] = [
               keyword: "lazy",
               label: "l<span class='underline'>a</span>zy",
               phonetics: "/ˈleɪ.zi/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/safe.mp3",
+              keyword: "safe",
+              label: "s<span class='underline'>a</span>fe",
+              phonetics: "/seɪf/",
             },
           },
         ],

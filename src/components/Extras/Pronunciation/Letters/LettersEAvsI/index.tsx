@@ -74,7 +74,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/d/deed.mp3",
               keyword: "deed",
-              label: "deed",
+              label: "d<span class='underline'>ee</span>d",
               phonetics: "/diːd/",
             },
           },
@@ -85,6 +85,24 @@ const pronunciations: Pronunciation[] = [
               keyword: "did",
               label: "d<span class='underline'>i</span>d",
               phonetics: "/dɪd/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/d/deep.mp3",
+              keyword: "deep",
+              label: "d<span class='underline'>ee</span>p",
+              phonetics: "/diːp/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/d/dip.mp3",
+              keyword: "dip",
+              label: "d<span class='underline'>i</span>p",
+              phonetics: "/dɪp/",
             },
           },
           {

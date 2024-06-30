@@ -24,6 +24,24 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/loʊ/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/n/narrow.mp3",
+              keyword: "narrow",
+              label: "narr<span class='underline'>ow</span>",
+              phonetics: "/ˈner.oʊ/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/shallow.mp3",
+              keyword: "shallow",
+              label: "shall<span class='underline'>ow</span>",
+              phonetics: "/ˈʃæl.oʊ/",
+            },
+          },
         ],
         exampleAudioSrc: "",
         examples: [
@@ -49,7 +67,7 @@ const pronunciations: Pronunciation[] = [
               audioSrc: "/c/cow.mp3",
               keyword: "cow",
               label: "c<span class='underline'>ow</span>",
-              phonetics: "/.../",
+              phonetics: "/kaʊ/",
             },
           },
         ],

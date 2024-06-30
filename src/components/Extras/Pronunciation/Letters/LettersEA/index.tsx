@@ -7,7 +7,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: "Letters \"ea\"",
-    sound: "/i/",
+    sound: "/i/, /j/, /e/",
     phonetics: [
       // /i/
       {
@@ -19,6 +19,15 @@ const pronunciations: Pronunciation[] = [
         },
         beforeText: "Listen and repeat.",
         words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/beautiful.mp3",
+              keyword: "beautiful",
+              label: "b<span class='underline'>ea</span>utiful",
+              phonetics: "/driːm/",
+            },
+          },
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -44,6 +53,34 @@ const pronunciations: Pronunciation[] = [
               keyword: "team",
               label: "t<span class='underline'>ea</span>m",
               phonetics: "/ˈtiːm/",
+            },
+          },
+        ],
+        exampleAudioSrc: "",
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+        ],
+      },
+      // /juː/
+      {
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/i.mp3",
+          label: "phonetics",
+          phonetics: "/j/",
+        },
+        beforeText: "Listen and repeat.",
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/beautiful.mp3",
+              keyword: "beautiful",
+              label: "b<span class='underline'>ea</span>utiful",
+              phonetics: "/ˈbjuː.t̬ə.fəl/",
             },
           },
         ],

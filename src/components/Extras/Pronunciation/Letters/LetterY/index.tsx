@@ -148,6 +148,15 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/h/heavy.mp3",
+              keyword: "heavy",
+              label: "heav<span class='underline'>y</span>",
+              phonetics: "/ˈhev.i/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/h/hungry.mp3",
               keyword: "hungry",
               label: "hungr<span class='underline'>y</span>",
@@ -261,6 +270,15 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/y/yo-yo.mp3",
+              keyword: "yo-yo",
+              label: "<span class='underline'>y</span>o-<span class='underline'>y</span>o",
+              phonetics: "/ˈjoʊ.joʊ/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/y/you.mp3",
               keyword: "you",
               label: "<span class='underline'>y</span>ou",
@@ -270,10 +288,10 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/y/yo-yo.mp3",
-              keyword: "yo-yo",
-              label: "<span class='underline'>y</span>o-<span class='underline'>y</span>o",
-              phonetics: "/ˈjoʊ.joʊ/",
+              audioSrc: "/y/young.mp3",
+              keyword: "young",
+              label: "<span class='underline'>y</span>oung",
+              phonetics: "/juː/",
             },
           },
         ],

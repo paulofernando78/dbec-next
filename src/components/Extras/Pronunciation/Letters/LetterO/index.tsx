@@ -28,6 +28,15 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈspɑːn.sɚ/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/strong.mp3",
+              keyword: "strong",
+              label: "str<span class='underline'>o</span>ng",
+              phonetics: "/strɑːŋ/",
+            },
+          },
         ],
         exampleAudioSrc: "",
         examples: [
