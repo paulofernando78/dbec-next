@@ -111,6 +111,15 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈʌl.tə.mət.li/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/u/up.mp3",
+              keyword: "up",
+              label: "up",
+              phonetics: "/ʌp/",
+            },
+          },
         ],
         exampleAudioSrc: "",
         examples: [
