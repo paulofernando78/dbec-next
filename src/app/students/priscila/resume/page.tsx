@@ -13,23 +13,36 @@ export default function PriscilaTanaca() {
       </Card>
       <p>
         <span className="line-break">
-            <span className="bold">
-              I have over twenty years of experience across various Legal subsystems
-              with executive performance and expertise...
-            </span>{" "}
-            <span className="bold">With over twenty years years of experience in various subsystems of the legal field, I have demonstrated executive performance and expertise...</span>
-        <span>
-            in Labor and Social Security, Union Relations, Compliance, Contracts,
-            and LGPD in large multinational companies in the healthcare, consumer
-            goods, chemical, agribusiness, among other sectors.
-        </span>
+          <span className="bold">
+            I have over twenty years of experience across various Legal
+            subsystems with executive performance and expertise...
+          </span>{" "}
+          <span className="bold">
+            With over twenty years years of experience in various subsystems of
+            the legal field, I have demonstrated executive performance and
+            expertise...
+          </span>
+          <span>
+            in Labor and Social Security, Union Relations, Compliance,
+            Contracts, and LGPD in large multinational companies in the
+            healthcare, consumer goods, chemical, agribusiness, among other
+            sectors.
+          </span>
         </span>
       </p>
-      <p>
-        <span className="bold">Additionally</span>, I have a solid academic
-        background, <span className="bold">having served as a</span> Lecturer,
-        Master Professor and Speaker in Specialization Courses on Social
-        Security and Labor Law.
+      <p className="line-break">
+        <span className="bold">
+          Additionally, I have a solid academic background, having served as
+          a...
+        </span>
+        <p className="bold">
+          My solid academic background includes roles as...
+        </p>
+
+        <span>
+          Lecturer, Master Professor and Speaker in Specialization Courses on
+          Social Security and Labor Law.
+        </span>
       </p>
       <p>
         <span className="bold">I have</span> solid leadership in managing
