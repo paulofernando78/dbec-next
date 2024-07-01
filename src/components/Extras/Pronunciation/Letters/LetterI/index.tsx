@@ -115,6 +115,15 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/b/big.mp3",
+              keyword: "big",
+              label: "b<span class='underline'>i</span>g",
+              phonetics: "/bɪg/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/f/fix.mp3",
               keyword: "fix",
               label: "f<span class='underline'>i</span>x",
@@ -205,6 +214,15 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/s/swim.mp3",
+              keyword: "swim",
+              label: "sw<span class='underline'>i</span>m",
+              phonetics: "/swɪm/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/t/thing.mp3",
               keyword: "thing",
               label: "th<span class='underline'>i</span>ng",
@@ -228,7 +246,6 @@ const pronunciations: Pronunciation[] = [
             ptExample: "...",
           }
         ],
-        showHR: true,
       },
       // /ə/
       {
@@ -356,6 +373,15 @@ const pronunciations: Pronunciation[] = [
               keyword: "time",
               label: "t<span class='underline'>i</span>me",
               phonetics: "/taɪm/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/v/vital.mp3",
+              keyword: "vital",
+              label: "v<span class='underline'>i</span>tal",
+              phonetics: "/ˈvaɪ.t̬əl/",
             },
           },
           {

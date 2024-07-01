@@ -101,9 +101,18 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/mæn/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/sad.mp3",
+              keyword: "sad",
+              label: "s<span class='underline'>a</span>d",
+              phonetics: "/sæd/",
+            },
+          },
         ],
         exampleAudioSrc:
-          "/assets/audio/extras/pronunciation/letter-a-æ.mp3",
+          "/assets/audio/extras/pronunciation/letter-a/æ.mp3",
         examples: [
           {
             enExample:
@@ -185,10 +194,28 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              keyword: "hard",
+              audioSrc: "/h/hard.mp3",
+              label: "h<span class='underline'>a</span>rd",
+              phonetics: "/hɑːrd/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               keyword: "mall",
               audioSrc: "/m/mall.mp3",
               label: "m<span class='underline'>a</span>ll",
               phonetics: "/mɑːl/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              keyword: "park",
+              audioSrc: "/p/park.mp3",
+              label: "p<span class='underline'>a</span>rk",
+              phonetics: "/pɑːrk/",
             },
           },
           {

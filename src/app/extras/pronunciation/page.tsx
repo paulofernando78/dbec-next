@@ -25,13 +25,17 @@ import { LettersO } from "@/components/Extras/Pronunciation/Letters/LetterO";
 import { LettersOO } from "@/components/Extras/Pronunciation/Letters/LetterOO";
 import { LetterUI } from "@/components/Extras/Pronunciation/Letters/LetterUI";
 import { LetterY } from "@/components/Extras/Pronunciation/Letters/LetterY";
-
-import { ScrollToTop } from "@/components/ScrollToTop";
 import { LettersCH } from "@/components/Extras/Pronunciation/Letters/LettersCH";
 import { LettersSH } from "@/components/Extras/Pronunciation/Letters/LettersSH";
 import { LettersSHvsCH } from "@/components/Extras/Pronunciation/Letters/LettersSHvsCH";
 import { LettersOUS } from "@/components/Extras/Pronunciation/Letters/LetterOUS";
 import { LetterOOvsU } from "@/components/Extras/Pronunciation/Letters/LetterOOvsU";
+import { LettersOA } from "@/components/Extras/Pronunciation/Letters/LetterOA";
+
+import { ScrollToTop } from "@/components/ScrollToTop";
+import { LetterT } from "@/components/Extras/Pronunciation/Letters/LetterT";
+import { LetterTH } from "@/components/Extras/Pronunciation/Letters/LetterTH";
+import { LettersOR } from "@/components/Extras/Pronunciation/Letters/LetterOR";
 
 export default function Pronunciation() {
   return (
@@ -105,8 +109,14 @@ export default function Pronunciation() {
           <a href="#letter-o">
             <p>Letter "o"</p>
           </a>
+          <a href="#letter-oa">
+            <p>Letters "oa"</p>
+          </a>
           <a href="#letters-oo">
             <p>Letter "oo"</p>
+          </a>
+          <a href="#letters-or">
+            <p>Letter "or"</p>
           </a>
           <a href="#letters-ous">
             <p>Letters "ous"</p>
@@ -117,6 +127,10 @@ export default function Pronunciation() {
           <hr />
           <a href="#letter-t">
             <p>Letter "t"</p>
+          </a>
+          <hr />
+          <a href="#letter-th">
+            <p>Letters "th"</p>
           </a>
           <hr />
           <a href="#letter-u">
@@ -199,8 +213,14 @@ export default function Pronunciation() {
         <div id="letter-o">
           <LettersO />
         </div>
+        <div id="letter-oa">
+          <LettersOA />
+        </div>
         <div id="letters-oo">
           <LettersOO />
+        </div>
+        <div id="letters-or">
+          <LettersOR />
         </div>
         <div id="letters-ous">
           <LettersOUS />
@@ -208,7 +228,12 @@ export default function Pronunciation() {
         <div id="letters-ow">
           <LettersOW />
         </div>
-        <div id="letter-t"></div>
+        <div id="letter-t">
+          <LetterT />
+        </div>
+        <div id="letter-th">
+          <LetterTH />
+        </div>
         <div id="letter-u">
           <LetterU />
         </div>
