@@ -23,7 +23,7 @@ export default function PriscilaTanaca() {
       <p>
         <span className="bold">
           Additionally
-        </span>{" "}
+        </span>
         , I have a solid academic background, <span className="bold">having served as a</span>{" "}
         Lecturer, Master Professor and Speaker in Specialization Courses on
         Social Security and Labor Law.

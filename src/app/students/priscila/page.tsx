@@ -6,12 +6,19 @@ import React from "react";
 export default function Priscila() {
   return (
     <>
-    <Whiteboard subtitle="Priscila Tanaca's page"/>
+      <Whiteboard title="Student's page" subtitle="Priscila Tanaca" />
       <div className="line-break">
         <Link href="/students/priscila/resume">
-          <p><b>Resúme</b></p>
+          <p>
+            <b>Resúme</b>
+          </p>
         </Link>
-        
+        <div className="line-break">
+          <p className="bold">Dates</p>
+          <div>
+            <p>...</p>
+          </div>
+        </div>
       </div>
     </>
   );
