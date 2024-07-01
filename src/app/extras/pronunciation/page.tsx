@@ -103,7 +103,7 @@ export default function Pronunciation() {
             <p>Letters "ch"</p>
           </a>
           <a href="#letters-sh-ch">
-            <p>Letters "sh" • "ch"</p>
+            <p>Letters "sh" vs. "ch"</p>
           </a>
           <hr />
           <a href="#letter-o">

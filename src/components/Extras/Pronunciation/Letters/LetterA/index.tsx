@@ -77,6 +77,15 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/f/fast.mp3",
+              keyword: "fast",
+              label: "f<span class='underline'>a</span>st",
+              phonetics: "/fæst/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/f/fat.mp3",
               keyword: "fat",
               label: "f<span class='underline'>a</span>t",

@@ -402,6 +402,15 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/waɪp/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/w/write.mp3",
+              keyword: "weite",
+              label: "wr<span class='underline'>i</span>te",
+              phonetics: "/raɪt/",
+            },
+          },
         ],
         exampleAudioSrc: "",
         examples: [

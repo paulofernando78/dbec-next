@@ -22,10 +22,19 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/b/beautiful.mp3",
-              keyword: "beautiful",
-              label: "b<span class='underline'>ea</span>utiful",
-              phonetics: "/driːm/",
+              audioSrc: "/c/clean.mp3",
+              keyword: "clean",
+              label: "cl<span class='underline'>ea</span>n",
+              phonetics: "/kliːn/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/f/feast.mp3",
+              keyword: "feast",
+              label: "f<span class='underline'>ea</span>st",
+              phonetics: "/fiːst/",
             },
           },
           {
