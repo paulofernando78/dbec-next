@@ -15,6 +15,7 @@ const pronunciations: Pronunciation[] = [
         beforeText: "Listen to the differences and repeat.",
         applyGrid: true,
         words: [
+          // /iː/
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -24,6 +25,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/iː/",
             },
           },
+          // /ɪ/
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -33,6 +35,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ɪ/",
             },
           },
+          // beach
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -42,6 +45,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/biːtʃ/",
             },
           },
+          // bitch
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -51,6 +55,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/bɪtʃ/",
             },
           },
+          // bead
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -60,6 +65,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/biːd/",
             },
           },
+          // bid
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -69,6 +75,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/bɪd/",
             },
           },
+          // cheap
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -78,6 +85,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/tʃiːp/",
             },
           },
+          // chip
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -87,6 +95,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/tʃɪp/",
             },
           },
+          // deed
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -96,6 +105,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/diːd/",
             },
           },
+          // did
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -105,6 +115,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/dɪd/",
             },
           },
+          // deep
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -114,6 +125,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/diːp/",
             },
           },
+          // dip
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -123,6 +135,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/dɪp/",
             },
           },
+          // eat
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -132,6 +145,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/iːt/",
             },
           },
+          // it
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -141,6 +155,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ɪt/",
             },
           },
+          // feet
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -150,6 +165,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/fiːt/",
             },
           },
+          // fit
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -159,7 +175,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/fɪt/",
             },
           },
-
+          // least
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -169,6 +185,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/liːst/",
             },
           },
+          // list
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -178,6 +195,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/lɪst/",
             },
           },
+          // leave
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -187,6 +205,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/liːv/",
             },
           },
+          // live
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -196,6 +215,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/lɪv/",
             },
           },
+          // read
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -205,6 +225,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/riːd/",
             },
           },
+          // rid
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -214,6 +235,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/rɪd/",
             },
           },
+          // seat
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -223,6 +245,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/siːt/",
             },
           },
+          // sit
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -232,6 +255,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/sɪt/",
             },
           },
+          // seek
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -241,6 +265,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/siːk/",
             },
           },
+          // sick
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -250,6 +275,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/sɪk/",
             },
           },
+          // sheep
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -259,6 +285,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ʃiːp/",
             },
           },
+          // ship
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -268,6 +295,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ʃɪp/",
             },
           },
+          // sleep
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -277,6 +305,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/sliːp/",
             },
           },
+          // slip
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -286,6 +315,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/slɪp/",
             },
           },
+          // steel
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -295,6 +325,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/stiːl/",
             },
           },
+          // still
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -304,6 +335,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/stɪl/",
             },
           },
+          // weak
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -313,6 +345,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/.../",
             },
           },
+          // wick
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -322,6 +355,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/.../",
             },
           },
+          // wheel
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -331,6 +365,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/wiːl/",
             },
           },
+          // will
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -340,12 +375,48 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/wɪl/",
             },
           },
+          // wheep
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/w/wheep.mp3",
+              keyword: "wheep",
+              label: "wh<span class='underline'>ee</span>p",
+              phonetics: "/wiːp/",
+            },
+          },
+          // whip
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/w/whip.mp3",
+              keyword: "will",
+              label: "wh<span class='underline'>i</span>p",
+              phonetics: "/wɪp/",
+            },
+          },
         ],
         exampleAudioSrc: "",
         examples: [
           {
-            enExample: "...",
-            ptExample: "...",
+            enExample: "a cheap house",
+            ptExample: "uma casa barata",
+          },
+          {
+            enExample: "a bag of chips",
+            ptExample: "um saco de batata chips",
+          },
+          {
+            enExample: "Eat it!",
+            ptExample: "Coma!",
+          },
+          {
+            enExample: "Leave it there.",
+            ptExample: "deixe isso aí/lá.",
+          },
+          {
+            enExample: "live in a big city",
+            ptExample: "morar em uma grande cidade",
           },
         ],
       },
