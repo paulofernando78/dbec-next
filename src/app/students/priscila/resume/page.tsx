@@ -11,8 +11,8 @@ export default function PriscilaTanaca() {
       <Card bgColor="lightgray">
         <p className="bold">EXECUTIVE SUMMARY</p>
       </Card>
-      <p>
-        <span className="line-break">
+      <Card>
+        <p className="line-break">
           <span className="bold">
             I have over twenty years of experience across various Legal
             subsystems with executive performance and expertise...
@@ -28,30 +28,34 @@ export default function PriscilaTanaca() {
             healthcare, consumer goods, chemical, agribusiness, among other
             sectors.
           </span>
-        </span>
-      </p>
-      <p className="line-break">
-        <span className="bold">
-          Additionally, I have a solid academic background, having served as
-          a...
-        </span>
-        <p className="bold">
-          My solid academic background includes roles as...
         </p>
+      </Card>
+      <Card>
+        <p className="line-break">
+          <span className="bold">
+            Additionally, I have a solid academic background, having served as
+            a...
+          </span>
+          <span className="bold">
+            My solid academic background includes roles as...
+          </span>
 
-        <span>
-          Lecturer, Master Professor and Speaker in Specialization Courses on
-          Social Security and Labor Law.
-        </span>
-      </p>
-      <p>
-        <span className="bold">I have</span> solid leadership in managing
-        challenging projects with strategic and preventive knowledge for legal
-        and Compliance issues to mitigate legal and reputational risks.{" "}
-        <span className="bold">I also have</span> experience in business
-        restructuring, process management, implementation of labor policies,
-        contracts, audits (due diligence) and internal investigations.
-      </p>
+          <span>
+            Lecturer, Master Professor and Speaker in Specialization Courses on
+            Social Security and Labor Law.
+          </span>
+        </p>
+      </Card>
+      <Card>
+        <p>
+          <span className="bold">I have solid leadership...</span> in managing
+          challenging projects with strategic and preventive knowledge for legal
+          and Compliance issues to mitigate legal and reputational risks.{" "}
+          <span className="bold">I also have</span> experience in business
+          restructuring, process management, implementation of labor policies,
+          contracts, audits (due diligence) and internal investigations.
+        </p>
+      </Card>
       <p>
         <span className="bold">I've developed a</span> reputation for strategy
         and communication skills leading multidisciplinary projects, aiming to

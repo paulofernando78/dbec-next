@@ -40,6 +40,15 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/t/thin.mp3",
+              keyword: "thin",
+              label: "<span class='underline'>th</span>in",
+              phonetics: "/θɪn/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/t/thing.mp3",
               keyword: "thing",
               label: "<span class='underline'>th</span>ing",
@@ -53,6 +62,57 @@ const pronunciations: Pronunciation[] = [
               keyword: "think",
               label: "<span class='underline'>th</span>ink",
               phonetics: "/θɪŋk/",
+            },
+          },
+        ],
+        exampleAudioSrc: "",
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+        ],
+      },
+      // Listen to the difference
+      {
+        applyGrid: true,
+        applyRedDashedBorder: true,
+        beforeText: "Listen to the difference.",
+        words: [
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/thick.mp3",
+              keyword: "",
+              label: "phonetics",
+              phonetics: "/n/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/thank.mp3",
+              keyword: "",
+              label: "phonetics",
+              phonetics: "/ŋ/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/thick.mp3",
+              keyword: "thin",
+              label: "<span class='underline'>th</span>ick",
+              phonetics: "/θɪn/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/thank.mp3",
+              keyword: "thing",
+              label: "<span class='underline'>th</span>ank",
+              phonetics: "/θɪŋ/",
             },
           },
         ],

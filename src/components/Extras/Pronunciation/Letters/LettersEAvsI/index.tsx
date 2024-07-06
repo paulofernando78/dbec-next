@@ -18,6 +18,24 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/phonetics/i.mp3",
+              keyword: "beach",
+              label: "phonetics",
+              phonetics: "/iː/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/phonetics/ɪ.mp3",
+              keyword: "bitch",
+              label: "phonetics",
+              phonetics: "/ɪ/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/b/beach.mp3",
               keyword: "beach",
               label: "b<span class='underline'>ea</span>ch",

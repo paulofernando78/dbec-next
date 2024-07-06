@@ -26,6 +26,19 @@
     ]
   },
   {
+    "keyword": "genetic code",
+    "definitions": [
+      {
+        "audio": "/assets/audio/dictionary/g/genetic-code.mp3",
+        "word": "genetic code",
+        "phonetics": "/.../",
+        "partOfSpeech": "noun",
+        "enDefinition": "the instructions contained in a gene that tell a cell how to make a specific protein",
+        "ptDefinition": "código genético"
+      }
+    ]
+  },
+  {
     "keyword": "good",
     "definitions": [
       {

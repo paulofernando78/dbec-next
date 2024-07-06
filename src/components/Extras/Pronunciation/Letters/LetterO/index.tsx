@@ -31,10 +31,28 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/c/clock.mp3",
+              keyword: "box",
+              label: "cl<span class='underline'>o</span>ck",
+              phonetics: "/klɑːk/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/h/hot.mp3",
               keyword: "hot",
               label: "h<span class='underline'>o</span>t",
               phonetics: "/hɑːt/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/l/lot.mp3",
+              keyword: "lot",
+              label: "l<span class='underline'>o</span>t",
+              phonetics: "/lɑːt/",
             },
           },
           {
@@ -128,6 +146,39 @@ const pronunciations: Pronunciation[] = [
               keyword: "old",
               label: "<span class='underline'>o</span>ld",
               phonetics: "/oʊld/",
+            },
+          },
+        ],
+        exampleAudioSrc: "",
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+        ],
+      },
+      // Listen to the difference.
+      {
+        applyRedDashedBorder: true,
+        beforeText: "Listen to the difference.",
+        words: [
+        
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/g/go.mp3",
+              keyword: "go",
+              label: "g<span class='underline'>o</span>",
+              phonetics: "/goʊ/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/g/goal.mp3",
+              keyword: "goal",
+              label: "g<span class='underline'>oa</span>l",
+              phonetics: "/goʊl/",
             },
           },
         ],

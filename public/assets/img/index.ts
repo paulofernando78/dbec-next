@@ -50,6 +50,7 @@ import cat2 from "@/img/cat2.jpeg"
 import cat3 from "@/img/cat3.png"
 import chocolatePinkLemonadeKitKat from "@/img/chocolate-kit-kat-pink-lemonad.jpg"
 import cookieOreoSourPatch from "@/img/cookie-oreo-sour-patch.png"
+import humanChromosomes from "@/img/human-chromosomes.avif"
 import iceCreamHiddenValleyRanch from "@/img/ice-cream-hidden-valley-ranch.webp"
 import iceCreamLittleMoonFishMochi from "@/img/ice-cream-little-moon-fish-mochi.avif"
 import macAndCheeseIceCreamFlavor from "./mac-and-cheese-ice-cream-flavor.avif"
@@ -111,6 +112,7 @@ export {
   cat3,
   chocolatePinkLemonadeKitKat,
   cookieOreoSourPatch,
+  humanChromosomes,
   iceCreamHiddenValleyRanch,
   iceCreamLittleMoonFishMochi,
   macAndCheeseIceCreamFlavor,

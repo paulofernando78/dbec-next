@@ -13,6 +13,9 @@ export default function HealthAndLifestyle() {
         <Link href="/extras/listening/articles/health-and-lifestyle/weight-loss-options-for-chilren-are-hard-to-get">
           <p>Weight-loss Options for Children Are Hard to Get (June 24, 2024)</p>
         </Link>
+        <Link href="/extras/listening/articles/health-and-lifestyle/researchers-find-gene-behind-disorder-causing-intellectual-disability">
+          <p>Researchers Find Gene behind Disorder Causing Intellectual Disability(June 24, 2024)</p>
+        </Link>
         <Link href="/extras/listening/articles/health-and-lifestyle">
           <p>Scientists Test mRNA Vaccines to Protect Against Bird Flu (June 10, 2024)</p>
         </Link>

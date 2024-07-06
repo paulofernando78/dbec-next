@@ -11,9 +11,11 @@ const pronunciations: Pronunciation[] = [
     sound: "/æ/ vs. /e/",
     phonetics: [
       {
+        applyGrid: true,
         applyRedDashedBorder: true,
         beforeText: "Listen to the diffences and repeat.",
         words: [
+          // and
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -23,6 +25,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ænd/",
             },
           },
+          // end
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -32,6 +35,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/end/",
             },
           },
+          // bad
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -41,6 +45,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/bæd/",
             },
           },
+          // bed
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -50,6 +55,27 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/bed/",
             },
           },
+          // bat
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/bat.mp3",
+              keyword: "bat",
+              label: "b<span class='underline'>a</span>t",
+              phonetics: "/bæt/",
+            },
+          },
+          // bet
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/bet.mp3",
+              keyword: "bet",
+              label: "b<span class='underline'>e</span>t",
+              phonetics: "/bet/",
+            },
+          },
+          // man
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -59,6 +85,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/mæn/",
             },
           },
+          // men
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -68,6 +95,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/men/",
             },
           },
+          // tan
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -77,6 +105,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/tæn/",
             },
           },
+          // ten
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -84,6 +113,46 @@ const pronunciations: Pronunciation[] = [
               keyword: "ten",
               label: "t<span class='underline'>e</span>n",
               phonetics: "/ten/",
+            },
+          },
+          // rad
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/r/rad.mp3",
+              keyword: "rad",
+              label: "r<span class='underline'>a</span>d",
+              phonetics: "/ræd/",
+            },
+          },
+          // red
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/r/red.mp3",
+              keyword: "red",
+              label: "r<span class='underline'>e</span>d",
+              phonetics: "/red/",
+            },
+          },
+          // than
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/than.mp3",
+              keyword: "than",
+              label: "th<span class='underline'>a</span>n",
+              phonetics: "/ðæn/",
+            },
+          },
+          // then
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/then.mp3",
+              keyword: "then",
+              label: "th<span class='underline'>e</span>n",
+              phonetics: "/ðen/",
             },
           },
         ],

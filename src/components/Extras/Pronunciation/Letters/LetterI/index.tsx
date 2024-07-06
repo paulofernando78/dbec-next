@@ -315,6 +315,15 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/l/light.mp3",
+              keyword: "light",
+              label: "l<span class='underline'>i</span>ght",
+              phonetics: "/laɪt/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/l/live2.mp3",
               keyword: "live",
               label: "l<span class='underline'>i</span>ve",

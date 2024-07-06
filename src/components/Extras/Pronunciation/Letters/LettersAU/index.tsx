@@ -18,6 +18,17 @@ const pronunciations: Pronunciation[] = [
         },
         beforeText: "Listen and repeat.",
         words: [
+          // auto
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/a/auto.mp3",
+              keyword: "auto",
+              label: "<span class='underline'>au</span>to" ,
+              phonetics: "/ˈɑː.t̬oʊ/",
+            },
+          },
+          // exhausted
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -27,6 +38,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ɪɡˈzɑː.stɪd/",
             },
           },
+          // fault
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -36,6 +48,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/fɑːlt/",
             },
           },
+          // maul
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -43,6 +56,16 @@ const pronunciations: Pronunciation[] = [
               keyword: "maul",
               label: "m<span class='underline'>au</span>l",
               phonetics: "/mɑːl/",
+            },
+          },
+          // vaul
+          { 
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/v/vaul.mp3",
+              keyword: "vaul",
+              label: "v<span class='underline'>au</span>lt",
+              phonetics: "/vɑːlt/",
             },
           },
         ],

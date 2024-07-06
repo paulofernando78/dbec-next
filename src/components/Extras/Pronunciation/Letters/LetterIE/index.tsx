@@ -47,6 +47,15 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈsɪr.iːz/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/z/zombie.mp3",
+              keyword: "zombie",
+              label: "zomb<span class='underline'>ie</span>",
+              phonetics: "/ˈzɑːm.bi/",
+            },
+          }
         ],
         exampleAudioSrc: "",
         examples: [
@@ -61,7 +70,7 @@ const pronunciations: Pronunciation[] = [
         beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
-          audioSrc: "/phonetics/i.mp3",
+          audioSrc: "/phonetics/aɪ.mp3",
           label: "phonetics",
           phonetics: "/aɪ/",
         },
@@ -73,6 +82,24 @@ const pronunciations: Pronunciation[] = [
               keyword: "lie",
               label: "l<span class='underline'>ie</span>",
               phonetics: "/laɪ/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/p/pie.mp3",
+              keyword: "pie",
+              label: "p<span class='underline'>ie</span>",
+              phonetics: "/paɪ/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/tie.mp3",
+              keyword: "tie",
+              label: "t<span class='underline'>ie</span>",
+              phonetics: "/taɪ/",
             },
           }
         ],

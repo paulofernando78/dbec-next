@@ -5,37 +5,38 @@ import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 import { LetterA } from "@/components/Extras/Pronunciation/Letters/LetterA";
+import { LetterAI } from "@/components/Extras/Pronunciation/Letters/LetterAI";
+import { LettersAU } from "@/components/Extras/Pronunciation/Letters/LettersAU";
 import { LettersAW } from "@/components/Extras/Pronunciation/Letters/LettersAW";
 import { LettersAWE } from "@/components/Extras/Pronunciation/Letters/LettersAWE";
-import { LettersAU } from "@/components/Extras/Pronunciation/Letters/LettersAU";
 import { LetterE } from "@/components/Extras/Pronunciation/Letters/LetterE";
-import { LetterAvsE } from "@/components/Extras/Pronunciation/Letters/LettersAvsE";
-import { LettersET } from "@/components/Extras/Pronunciation/Letters/LettersET";
 import { LetterEA } from "@/components/Extras/Pronunciation/Letters/LettersEA";
-import { LetterEI } from "@/components/Extras/Pronunciation/Letters/LetterEI";
 import { LetterEE } from "@/components/Extras/Pronunciation/Letters/LettersEE";
+import { LetterEI } from "@/components/Extras/Pronunciation/Letters/LetterEI";
+import { LettersET } from "@/components/Extras/Pronunciation/Letters/LettersET";
 import { LettersEY } from "@/components/Extras/Pronunciation/Letters/LetterEY";
-import { LettersEAvsI } from "@/components/Extras/Pronunciation/Letters/LettersEAvsI";
+import { LetterAvsE } from "@/components/Extras/Pronunciation/Letters/LettersAvsE";
 import { LetterI } from "@/components/Extras/Pronunciation/Letters/LetterI";
 import { LetterIE } from "@/components/Extras/Pronunciation/Letters/LetterIE";
 import { LetterIR } from "@/components/Extras/Pronunciation/Letters/LetterIR";
-import { LettersOW } from "@/components/Extras/Pronunciation/Letters/LetterOW";
-import { LetterU } from "@/components/Extras/Pronunciation/Letters/LetterU";
-import { LettersO } from "@/components/Extras/Pronunciation/Letters/LetterO";
-import { LettersOO } from "@/components/Extras/Pronunciation/Letters/LetterOO";
-import { LetterUI } from "@/components/Extras/Pronunciation/Letters/LetterUI";
-import { LetterY } from "@/components/Extras/Pronunciation/Letters/LetterY";
+import { LettersEAvsI } from "@/components/Extras/Pronunciation/Letters/LettersEAvsI";
 import { LettersCH } from "@/components/Extras/Pronunciation/Letters/LettersCH";
 import { LettersSH } from "@/components/Extras/Pronunciation/Letters/LettersSH";
 import { LettersSHvsCH } from "@/components/Extras/Pronunciation/Letters/LettersSHvsCH";
-import { LettersOUS } from "@/components/Extras/Pronunciation/Letters/LetterOUS";
-import { LetterOOvsU } from "@/components/Extras/Pronunciation/Letters/LetterOOvsU";
+import { LettersO } from "@/components/Extras/Pronunciation/Letters/LetterO";
 import { LettersOA } from "@/components/Extras/Pronunciation/Letters/LetterOA";
-
-import { ScrollToTop } from "@/components/ScrollToTop";
+import { LettersOO } from "@/components/Extras/Pronunciation/Letters/LetterOO";
+import { LettersOR } from "@/components/Extras/Pronunciation/Letters/LetterOR";
+import { LettersOUS } from "@/components/Extras/Pronunciation/Letters/LetterOUS";
+import { LettersOW } from "@/components/Extras/Pronunciation/Letters/LetterOW";
 import { LetterT } from "@/components/Extras/Pronunciation/Letters/LetterT";
 import { LetterTH } from "@/components/Extras/Pronunciation/Letters/LetterTH";
-import { LettersOR } from "@/components/Extras/Pronunciation/Letters/LetterOR";
+import { LetterU } from "@/components/Extras/Pronunciation/Letters/LetterU";
+import { LetterUI } from "@/components/Extras/Pronunciation/Letters/LetterUI";
+import { LetterOOvsU } from "@/components/Extras/Pronunciation/Letters/LetterOOvsU";
+import { LetterY } from "@/components/Extras/Pronunciation/Letters/LetterY";
+
+import { ScrollToTop } from "@/components/ScrollToTop";
 
 export default function Pronunciation() {
   return (
@@ -47,7 +48,10 @@ export default function Pronunciation() {
         <div>
           <p className="bold">Sounds of Letters</p>
           <a href="#letter-a">
-            <p>Letter "a"</p>
+            <p>Letter "a" : phonetics: <span className="phonetics">/æ/, /ɑː/, /ə/, /eɪ/</span></p>
+          </a>
+          <a href="#letter-ai">
+            <p>Letter "ai"</p>
           </a>
           <a href="#letters-au">
             <p>Letter "au"</p>
@@ -96,11 +100,11 @@ export default function Pronunciation() {
             <p>Letters "ee" • "ea" (long) vs. "i" (short)</p>
           </a>
           <hr />
-          <a href="#letters-sh">
-            <p>Letters "sh"</p>
-          </a>
           <a href="#letters-ch">
             <p>Letters "ch"</p>
+          </a>
+          <a href="#letters-sh">
+            <p>Letters "sh"</p>
           </a>
           <a href="#letters-sh-ch">
             <p>Letters "sh" vs. "ch"</p>
@@ -159,6 +163,9 @@ export default function Pronunciation() {
         <div id="letter-a">
           <LetterA />
         </div>
+        <div id="letter-ai">
+          <LetterAI />
+        </div>
         <div id="letters-au">
           <LettersAU />
         </div>
@@ -201,11 +208,11 @@ export default function Pronunciation() {
         <div id="letter-ee-long-vs-i-short">
           <LettersEAvsI />
         </div>
-        <div id="letters-sh">
-          <LettersSH />
-        </div>
         <div id="letters-ch">
           <LettersCH />
+        </div>
+        <div id="letters-sh">
+          <LettersSH />
         </div>
         <div id="letters-sh-ch">
           <LettersSHvsCH />
