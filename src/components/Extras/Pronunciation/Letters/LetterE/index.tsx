@@ -19,6 +19,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/e/",
         },
         words: [
+          // end
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -28,6 +29,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/end/",
             },
           },
+          // men
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -56,6 +58,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/i/",
         },
         words: [
+          // creative
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -65,6 +68,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/kriˈeɪ.t̬ɪv/",
             },
           },
+          // pediatrics
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -74,6 +78,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˌpiː.diˈæt.rɪks/",
             },
           },
+          // theater
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -83,6 +88,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈθiː.ə.t̬ɚ/",
             },
           },
+          // zebra
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -90,34 +96,6 @@ const pronunciations: Pronunciation[] = [
               keyword: "zebra",
               label: "z<span class='underline'>e</span>bra",
               phonetics: "/ˈziː.brə/",
-            },
-          },
-        ],
-        exampleAudioSrc: "",
-        examples: [
-          {
-            enExample: "...",
-            ptExample: "...",
-          },
-        ],
-      },
-      // /ə/
-      {
-        beforeText: "Listen and repeat.",
-        phoneticsComponent: (props) => <DictionaryCard {...props} />,
-        phoneticsComponentProps: {
-          audioSrc: "/phonetics/ə.mp3",
-          label: "phonetics",
-          phonetics: "/ə/",
-        },
-        words: [
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/c/category.mp3",
-              keyword: "categpry",
-              label: "cat<span class='underline'>e</span>gory",
-              phonetics: "/ˈkæt̬.ə.ɡɔːri/",
             },
           },
         ],
@@ -139,6 +117,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/ɪ/",
         },
         words: [
+          // redundancy
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -146,6 +125,35 @@ const pronunciations: Pronunciation[] = [
               keyword: "redundancy",
               label: "r<span class='underline'>e</span>dundancy",
               phonetics: "/rɪˈdʌn.dən.si/",
+            },
+          },
+        ],
+        exampleAudioSrc: "",
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+        ],
+      },
+      // /ə/
+      {
+        beforeText: "Listen and repeat.",
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/ə.mp3",
+          label: "phonetics",
+          phonetics: "/ə/",
+        },
+        words: [
+          // category
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/c/category.mp3",
+              keyword: "categpry",
+              label: "cat<span class='underline'>e</span>gory",
+              phonetics: "/ˈkæt̬.ə.ɡɔːri/",
             },
           },
         ],

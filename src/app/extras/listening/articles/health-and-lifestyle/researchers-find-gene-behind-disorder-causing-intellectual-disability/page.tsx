@@ -1,5 +1,6 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import SwiperFraction from "@/components/SwiperFraction";
 import {
   DiscussionQuestion,
   PreVocabulary,
@@ -8,13 +9,12 @@ import {
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
-import Slider from "@/components/Slider";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { humanChromosomes } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
-const slider = [
+const swiperFraction = [
   {
     imgSrc: humanChromosomes,
     imgAlt:
@@ -381,7 +381,7 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
         subdescription="June 10, 2024"
       />
       <div className="line-break">
-        <Slider images={slider} />
+        <SwiperFraction images={swiperFraction} />
         <div>
           <Listening
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."
@@ -396,7 +396,7 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
         <Radio questions={radioExercises} />
       </div>
       <div className="line-break">
-        <Slider images={slider} />
+        <SwiperFraction images={swiperFraction} />
         <div>
           <Listening
             discussion="Check out the pictures above and answer the questions."

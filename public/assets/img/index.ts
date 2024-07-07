@@ -59,6 +59,7 @@ import labEmbryo2 from "./lab-embryo2.jpg"
 import labEmbryo3 from "./lab-embryo3.jpg"
 import labScientist from "./lab-scientist.avif"
 import personAtASupermarketBrowsingVeggies from "./person-at-a-supermaket-browsing-veggies.avif"
+import personHoldingTwoComputers from "@/img/person-holding-two-computers.avif"
 import peoplePreparingFood from "./people-preparing-food.avif"
 import potatoChipLaysFlamminHotDillPickle from "./potato-chip-lays-flamin-hot-dill-pickle.png"
 import potatoChipLaysStrawBerryBacon from "./potato-chip-lays-strawberry-bacon.jpg"
@@ -121,6 +122,7 @@ export {
   labEmbryo3,
   labScientist,
   personAtASupermarketBrowsingVeggies,
+  personHoldingTwoComputers,
   peoplePreparingFood,
   potatoChipLaysFlamminHotDillPickle,
   potatoChipLaysStrawBerryBacon,

@@ -8,7 +8,7 @@ import {
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
-import Slider from "@/components/Slider";
+import Slider from "@/components/SwiperFraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import {

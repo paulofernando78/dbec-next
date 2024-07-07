@@ -110,7 +110,7 @@ export const Listening = ({
         </div>
       </Card>
       <p>
-        What's the main point in the article? After listening, discuss it with
+        What do you think the article is about? After listening, discuss it with
         your partner.
       </p>
       <div className="sticky">

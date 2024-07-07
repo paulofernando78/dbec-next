@@ -13,16 +13,16 @@ import "swiper/css/navigation";
 import Image, { StaticImageData } from "next/image";
 import styles from "./style.module.css";
 
-export interface SliderData {
+export interface SwiperFractionData {
   imgSrc: StaticImageData;
   imgAlt: string;
 }
 
-interface SliderProps {
-  images: SliderData[];
+interface SwiperFractionProps {
+  images: SwiperFractionData[];
 }
 
-export default function Slider({ images }: SliderProps) {
+export default function SwiperFraction({ images }: SwiperFractionProps) {
   return (
     <>
       <div className={styles["container"]}>
