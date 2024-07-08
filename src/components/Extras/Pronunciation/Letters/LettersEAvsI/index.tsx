@@ -1,4 +1,3 @@
-import { Card } from "@/components/Cards/Card";
 import {
   Pronunciation,
   PronunciationCard,
@@ -73,6 +72,26 @@ const pronunciations: Pronunciation[] = [
               keyword: "bid",
               label: "b<span class='underline'>i</span>d",
               phonetics: "/bɪd/",
+            },
+          },
+          // beat
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/beat.mp3",
+              keyword: "beat",
+              label: "b<span class='underline'>ea</span>t",
+              phonetics: "/biːt/",
+            },
+          },
+          // bit
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/bit.mp3",
+              keyword: "bit",
+              label: "b<span class='underline'>i</span>t",
+              phonetics: "/bɪt/",
             },
           },
           // cheap

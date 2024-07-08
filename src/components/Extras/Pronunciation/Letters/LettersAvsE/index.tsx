@@ -95,24 +95,24 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/men/",
             },
           },
-          // tan
+          // pan
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/t/tan.mp3",
-              keyword: "tan",
-              label: "t<span class='underline'>a</span>n",
-              phonetics: "/tæn/",
+              audioSrc: "/p/pan.mp3",
+              keyword: "pan",
+              label: "p<span class='underline'>a</span>n",
+              phonetics: "/pæn/",
             },
           },
-          // ten
+          // pen
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/t/ten.mp3",
-              keyword: "ten",
-              label: "t<span class='underline'>e</span>n",
-              phonetics: "/ten/",
+              audioSrc: "/p/pen.mp3",
+              keyword: "pen",
+              label: "p<span class='underline'>e</span>n",
+              phonetics: "/pen/",
             },
           },
           // rad
@@ -135,6 +135,27 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/red/",
             },
           },
+          // tan
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/tan.mp3",
+              keyword: "tan",
+              label: "t<span class='underline'>a</span>n",
+              phonetics: "/tæn/",
+            },
+          },
+          // ten
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/ten.mp3",
+              keyword: "ten",
+              label: "t<span class='underline'>e</span>n",
+              phonetics: "/ten/",
+            },
+          },
+
           // than
           {
             component: (props) => <DictionaryCard {...props} />,

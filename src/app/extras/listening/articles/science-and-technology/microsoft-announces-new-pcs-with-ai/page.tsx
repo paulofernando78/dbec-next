@@ -8,13 +8,13 @@ import {
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
-import Slider from "@/components/SwiperFraction";
+import SwiperFraction from "@/components/SwiperFraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { personHoldingTwoComputers } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
-const slider = [
+const swiperFraction = [
   {
     imgSrc: personHoldingTwoComputers,
     imgAlt:
@@ -356,7 +356,7 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
         subdescription="May 23, 2024"
       />
       <div className="line-break">
-        <Slider images={slider} />
+        <SwiperFraction images={swiperFraction} />
         <div>
           <Listening
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."

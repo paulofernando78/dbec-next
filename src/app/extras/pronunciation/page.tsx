@@ -37,18 +37,25 @@ import { LetterOOvsU } from "@/components/Extras/Pronunciation/Letters/LetterOOv
 import { LetterY } from "@/components/Extras/Pronunciation/Letters/LetterY";
 
 import { ScrollToTop } from "@/components/ScrollToTop";
+import TheAlphabet from "@/components/Lessons/Topic/TheAlphabet/page";
 
 export default function Pronunciation() {
   return (
     <>
       <Whiteboard title="Extras" subtitle="Pronunciation" />
       <div className="line-break">
-        <p className="bold">jump to:</p>
+        <TheAlphabet />
+        <Card bgColor="black" textColor="white">
+      <p className="bold">Sounds of Letters</p>
+      </Card>
         {/* Links */}
         <div>
-          <p className="bold">Sounds of Letters</p>
+          <p className="bold">jump to:</p>
           <a href="#letter-a">
-            <p>Letter "a" : phonetics: <span className="phonetics">/æ/, /ɑː/, /ə/, /eɪ/</span></p>
+            <p>
+              Letter "a" : phonetics:{" "}
+              <span className="phonetics">/æ/, /ɑː/, /ə/, /eɪ/</span>
+            </p>
           </a>
           <a href="#letter-ai">
             <p>Letter "ai"</p>
