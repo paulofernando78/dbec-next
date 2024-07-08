@@ -183,7 +183,7 @@ export default function TheAlphabet() {
           <p>There are 26 (twenty-six) letters in the English alphabet.</p>
           <p>Click / Tap to listen.</p>
       </div>
-      <div className="grid-repeat-auto-fit-110px">
+      <div className="grid-repeat-auto-fit-110px-justify">
         {alphabets.map((alphabet, index) => (
           <div
             className="flex-col img-border cursor-pointer"
