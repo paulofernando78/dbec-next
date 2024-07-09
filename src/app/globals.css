@@ -171,6 +171,33 @@ p {
   display: block;
 }
 
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.position-sticky {
+  position: sticky;
+}
+
+audio.position-sticky {
+  top: 0;
+  position: sticky;
+  padding: 5px;
+  z-index: 1;
+}
+
+.display-none {
+  display: none;
+}
+
 .flex-8px {
   display: flex;
   gap: 8px;
@@ -274,19 +301,6 @@ p {
   border-radius: var(--border-radius);
   padding: 8px;
   border: 2px dashed red;
-}
-
-/* AUDIO PLAYER / VIDEO */
-
-.sticky {
-  top: 0;
-  position: sticky;
-  padding: 5px;
-  z-index: 1;
-}
-
-.display-none {
-  display: none;
 }
 
 input[type="checkbox"] {
