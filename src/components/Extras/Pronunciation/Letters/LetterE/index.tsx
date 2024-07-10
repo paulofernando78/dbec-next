@@ -7,7 +7,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: 'Letter "e"',
-    sound: "/e/, /i/, /ɪ/,/ə/ ,/ɝː/",
+    sound: "/e/, /i/, /ɪ/,/ə/",
     phonetics: [
       // /e/
       {
@@ -163,34 +163,6 @@ const pronunciations: Pronunciation[] = [
             enExample: "...",
             ptExample: "...",
           },
-        ],
-      },
-      // /ɝː/
-      {
-        beforeText: "Listen and repeat.",
-        phoneticsComponent: (props) => <DictionaryCard {...props} />,
-        phoneticsComponentProps: {
-          audioSrc: "/phonetics/ɝ.mp3",
-          label: "phonetics",
-          phonetics: "/ɝː/",
-        },
-        words: [
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/p/person.mp3",
-              keyword: "person",
-              label: "p<span class='underline'>er</span>son",
-              phonetics: "/ˈpɝː.sən/",
-            },
-          },
-        ],
-        exampleAudioSrc: "",
-        examples: [
-          {
-            enExample: "...",
-            ptExample: "...",
-          }
         ],
       },
     ],

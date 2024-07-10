@@ -9,6 +9,7 @@ const pronunciations: Pronunciation[] = [
     label: "Letters \"aw\"",
     sound: "/ɑː/",
     phonetics: [
+      // /ɑː/
       {
         beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
@@ -61,6 +62,15 @@ const pronunciations: Pronunciation[] = [
               keyword: "draw",
               label: "dr<span class='underline'>aw</span>",
               phonetics: "/drɑː/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/f/flaw.mp3",
+              keyword: "flaw",
+              label: "fl<span class='underline'>aw</span>",
+              phonetics: "/flɑː/",
             },
           },
           {

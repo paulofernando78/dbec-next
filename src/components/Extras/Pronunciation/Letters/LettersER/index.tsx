@@ -1,32 +1,31 @@
-import { Card } from "@/components/Cards/Card";
 import {
-  PronunciationCard,
   Pronunciation,
+  PronunciationCard,
 } from "@/components/Cards/PronunciationCard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: 'Letter "ai"',
-    sound: "/e/",
+    label: 'Letters "er"',
+    sound: "/ɝː/",
     phonetics: [
-      // /æ/
+      // /ɝː/
       {
         beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
-          audioSrc: "/phonetics/e.mp3",
+          audioSrc: "/phonetics/ɝ.mp3",
           label: "phonetics",
-          phonetics: "/e/",
+          phonetics: "/ɝː/",
         },
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/s/stair.mp3",
-              keyword: "stair",
-              label: "st<span class='underline'>ai</span>r",
-              phonetics: "/ster/",
+              audioSrc: "/p/person.mp3",
+              keyword: "person",
+              label: "p<span class='underline'>er</span>son",
+              phonetics: "/ˈpɝː.sən/",
             },
           },
         ],
@@ -42,7 +41,7 @@ const pronunciations: Pronunciation[] = [
   },
 ];
 
-export const LetterAI = () => {
+export const LettersER = () => {
   return (
     <>
       <div className="line-break">

@@ -194,7 +194,7 @@ const pronunciations: Pronunciation[] = [
   },
 ];
 
-export const LettersO = () => {
+export const LetterO = () => {
   return (
     <>
       <div className="line-break">
