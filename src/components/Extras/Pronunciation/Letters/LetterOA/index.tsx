@@ -50,10 +50,37 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/o/oat.mp3",
+              keyword: "oat",
+              label: "<span class='underline'>oa</span>t",
+              phonetics: "/oʊt/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/b/boat.mp3",
               keyword: "boat",
               label: "b<span class='underline'>oa</span>t",
               phonetics: "/boʊt/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/c/coat.mp3",
+              keyword: "coat",
+              label: "c<span class='underline'>oa</span>t",
+              phonetics: "/coʊt/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/m/moat.mp3",
+              keyword: "moat",
+              label: "m<span class='underline'>oa</span>t",
+              phonetics: "/moʊt/",
             },
           },
           {
