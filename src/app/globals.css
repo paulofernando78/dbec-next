@@ -187,7 +187,7 @@ p {
   position: sticky;
 }
 
-audio.position-sticky {
+.audio-position-sticky {
   top: 0;
   position: sticky;
   padding: 5px;

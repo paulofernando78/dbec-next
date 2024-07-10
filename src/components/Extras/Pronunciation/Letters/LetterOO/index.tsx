@@ -108,6 +108,15 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/muːn/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/n/noon.mp3",
+              keyword: "noon",
+              label: "noon",
+              phonetics: "/nuːn/",
+            },
+          },
         ],
         exampleAudioSrc: "",
         examples: [

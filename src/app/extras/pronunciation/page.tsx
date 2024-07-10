@@ -40,170 +40,165 @@ import { LetterY } from "@/components/Extras/Pronunciation/Letters/LetterY";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import TheAlphabet from "@/components/Lessons/Topic/TheAlphabet/page";
 
-const hrefs = [
+const links = [
   {
     href: "#letter-a",
-    letter: "Letter \"a\"",
+    letter: 'Letter "a"',
     phonetics: "/æ/, /ɑː/, /ə/, /eɪ/",
   },
   {
     href: "#letters-ai",
-    letter: "Letter \"ai\"",
-    phonetics: "...",
+    letter: 'Letter "ai"',
+    phonetics: "/e/",
   },
   {
     href: "#letters-au",
-    letter: "Letter \"au\"",
+    letter: 'Letter "au"',
     phonetics: "...",
   },
   {
     href: "#letters-aw",
-    letter: "Letter \"aw\"",
+    letter: 'Letter "aw"',
     phonetics: "...",
   },
   {
     href: "#letters-awe",
-    letter: "Letter \"awe\"",
+    letter: 'Letter "awe"',
     phonetics: "...",
   },
   {
     href: "#letters-e",
-    letter: "Letter \"e\"",
+    letter: 'Letter "e"',
     phonetics: "...",
   },
   {
     href: "#letters-ea",
-    letter: "Letter \"ea\"",
+    letter: 'Letter "ea"',
     phonetics: "...",
   },
   {
     href: "#letters-ee",
-    letter: "Letter \"ee\"",
+    letter: 'Letter "ee"',
     phonetics: "...",
   },
   {
     href: "#letters-ei",
-    letter: "Letter \"ei\"",
+    letter: 'Letter "ei"',
     phonetics: "...",
   },
   {
     href: "#letters-er",
-    letter: "Letter \"er\"",
+    letter: 'Letter "er"',
     phonetics: "...",
   },
   {
     href: "#letters-et",
-    letter: "Letter \"et\"",
+    letter: 'Letter "et"',
     phonetics: "...",
   },
   {
     href: "#letters-ey",
-    letter: "Letter \"ey\"",
+    letter: 'Letter "ey"',
     phonetics: "...",
   },
   {
-    href: "#letter-a-vs-e",
-    letter: "Letter \"a\" vs. \"e\"",
+    href: "#letters-a-vs-e",
+    letter: 'Letter "a" vs. "e"',
     phonetics: "...",
   },
   {
     href: "#letter-i",
-    letter: "Letter \"i\"",
+    letter: 'Letter "i"',
     phonetics: "...",
   },
   {
     href: "#letters-ie",
-    letter: "Letters \"ie\"",
+    letter: 'Letters "ie"',
     phonetics: "...",
   },
   {
     href: "#letters-ir",
-    letter: "Letters \"ir\"",
+    letter: 'Letters "ir"',
     phonetics: "...",
   },
   {
     href: "#letters-ea-vs-i",
-    letter: "Letters \"ea\" vs. \"i\"",
-    phonetics: "...",
-  },
-  {
-    href: "#letters-ea-vs-i",
-    letter: "Letters \"ea\" vs. \"i\"",
+    letter: 'Letters "ea" vs. "i"',
     phonetics: "...",
   },
   {
     href: "#letters-sh",
-    letter: "Letters \"sh\"",
+    letter: 'Letters "sh"',
     phonetics: "...",
   },
   {
     href: "#letters-ch",
-    letter: "Letters \"ch\"",
+    letter: 'Letters "ch"',
     phonetics: "...",
   },
   {
-    href: "#letters-sh-ch",
-    letter: "Letters \"sh\" vs. \"ch\"",
+    href: "#letters-sh-vs-ch",
+    letter: 'Letters "sh" vs. "ch"',
     phonetics: "...",
   },
   {
     href: "#letter-o",
-    letter: "Letter \"o\"",
+    letter: 'Letter "o"',
     phonetics: "...",
   },
   {
     href: "#letters-oa",
-    letter: "Letters \"oa\"",
+    letter: 'Letters "oa"',
     phonetics: "...",
   },
   {
     href: "#letters-oo",
-    letter: "Letters \"oo\"",
+    letter: 'Letters "oo"',
     phonetics: "...",
   },
   {
     href: "#letters-or",
-    letter: "Letters \"or\"",
+    letter: 'Letters "or"',
     phonetics: "...",
   },
   {
     href: "#letters-ous",
-    letter: "Letters \"ous\"",
+    letter: 'Letters "ous"',
     phonetics: "...",
   },
   {
     href: "#letters-ow",
-    letter: "Letters \"ow\"",
+    letter: 'Letters "ow"',
     phonetics: "...",
   },
   {
     href: "#letters-th",
-    letter: "Letters \"th\"",
+    letter: 'Letters "th"',
     phonetics: "...",
   },
   {
     href: "#letter-t",
-    letter: "Letter \"t\"",
+    letter: 'Letter "t"',
     phonetics: "...",
   },
   {
     href: "#letter-u",
-    letter: "Letter \"u\"",
-    phonetics: "...",
+    letter: 'Letter "u"',
+    phonetics: "/uː/, /ʌ/, /ɪ/, /ʊ/, /jʊ/",
   },
   {
     href: "#letters-ui",
-    letter: "Letters \"ui\"",
+    letter: 'Letters "ui"',
     phonetics: "...",
   },
   {
     href: "#letters-oo-vs-u",
-    letter: "Letters \"oo\" vs. \"u\"",
+    letter: 'Letters "oo" vs. "u"',
     phonetics: "...",
   },
   {
     href: "#letter-y",
-    letter: "Letters \"y\"",
+    letter: 'Letters "y"',
     phonetics: "...",
   },
 ];
@@ -354,9 +349,10 @@ export default function Pronunciation() {
         </Card>
 
         <p className="bold">jump to:</p>
+
         {/* Links */}
         <div>
-          {hrefs.map((href, index) => (
+          {links.map((href, index) => (
             <div key={index}>
               <a href={href.href}>
                 <p>
@@ -367,183 +363,13 @@ export default function Pronunciation() {
             </div>
           ))}
         </div>
-
-        <div>
-          {/* Links backup */}
-          {/* <div>
-          <a href="#letter-ai">
-            <p>
-              Letter "ai" (phonetics: <span className="phonetics">/e/</span>)
-            </p>
-          </a>
-            <a href="#letters-au">
-              <p>
-                Letter "au" (phonetics: <span className="phonetics">/ɑː/</span>)
-              </p>
-            </a>
-            <a href="#letters-aw">
-              <p>
-                Letters "aw" (phonetics: <span className="phonetics">/ɑː/</span>)
-              </p>
-            </a>
-            <a href="#letters-awe">
-              <p>
-                Letters "awe" (phonetics: <span className="phonetics">/ɑː/</span>)
-              </p>
-            </a>
-            <hr />
-            <a href="#letter-e">
-              <p>
-                Letter "e" (phonetics:{" "}
-                <span className="phonetics">/e/, /i/, /ɪ/,/ə/</span>)
-              </p>
-            </a>
-            <a href="#letters-ea">
-              <p>
-                Letters "ea" (phonetics:{" "}
-                <span className="phonetics">/i/, /j/, /e/</span>)
-              </p>
-            </a>
-            <a href="#letters-ee">
-              <p>
-                Letters "ee" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <a href="#letters-ei">
-              <p>
-                Letters "ei" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <a href="#letters-er">
-              <p>
-                Letters "er" (phonetics: <span className="phonetics">/ɝː/</span>)
-              </p>
-            </a>
-            <a href="#letters-et">
-              <p>
-                Letters "et" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <a href="#letters-ey">
-              <p>
-                Letters "ey" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <hr />
-            <a href="#letters-a-vs-e">
-              <p>Letters "a" vs. "e"</p>
-            </a>
-            <hr />
-            <a href="#letter-i">
-              <p>
-                Letter "i" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <a href="#letters-ie">
-              <p>
-                Letters "ie" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <a href="#letters-ir">
-              <p>
-                Letters "ir" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <hr />
-            <a href="#letter-ee-long-vs-i-short">
-              <p>Letters "ee" • "ea" (long) vs. "i" (short)</p>
-            </a>
-            <hr />
-            <a href="#letters-ch">
-              <p>
-                Letters "ch" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <a href="#letters-sh">
-              <p>
-                Letters "sh" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <a href="#letters-sh-ch">
-              <p>Letters "sh" vs. "ch"</p>
-            </a>
-            <hr />
-            <a href="#letter-o">
-              <p>
-                Letter "o" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <a href="#letter-oa">
-              <p>
-                Letters "oa" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <a href="#letters-oo">
-              <p>
-                Letter "oo" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <a href="#letters-or">
-              <p>
-                Letter "or" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <a href="#letters-ous">
-              <p>
-                Letters "ous" (phonetics: <span className="phonetics">/.../</span>
-                )
-              </p>
-            </a>
-            <a href="#letters-ow">
-              <p>
-                Letter "ow" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <hr />
-            <a href="#letter-t">
-              <p>
-                Letter "t" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <hr />
-            <a href="#letter-th">
-              <p>
-                Letters "th" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <hr />
-            <a href="#letter-u">
-              <p>
-                Letter "u" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <a href="#letters-ui">
-              <p>
-                Letters "ui" (phonetics: <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <hr />
-            <a href="#letters-oo-vs-u">
-              <p>
-                Letters "oo" vs. "u" (phonetics:{" "}
-                <span className="phonetics">/.../</span>)
-              </p>
-            </a>
-            <a href="#letter-y">
-            <p>
-              Letter "y" (phonetics: <span className="phonetics">/.../</span>)
-            </p>
-          </a>
-          </div> */}
-        </div>
-
         <hr />
-
         <div>
           <a href="#linked-sounds">
             <p>Linked sounds</p>
           </a>
         </div>
+        
         <hr />
 
         {/* Letters */}
@@ -615,6 +441,7 @@ export default function Pronunciation() {
           </p>
           <p>Don't you want it?</p>
         </div>
+          <ScrollToTop />
       </div>
     </>
   );
