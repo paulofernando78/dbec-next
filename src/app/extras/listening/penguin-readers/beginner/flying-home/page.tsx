@@ -1,4 +1,4 @@
-import { PenguinReadersTemplate } from "@/components/Listening/PenguinReaders/Page";
+import { PenguinReadersTemplate } from "@/components/Listening/PenguinReaders";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 const structure = [

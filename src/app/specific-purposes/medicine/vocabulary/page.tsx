@@ -1,10 +1,401 @@
-import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+import { Card } from "@/components/Cards/Card";
 import Image from "next/image";
 
 import bladderCancer from "@/img/bladder-cancer.jpg";
 
-export default function Vocabulary() {
+interface Word {
+  word?: string;
+  component?: (props: {
+    audioSrc: string;
+    label: string;
+    phonetics: string;
+  }) => JSX.Element;
+  componentProps?: any;
+}
+
+interface Item {
+  label: string;
+  words: Word[];
+}
+
+interface MedicineVocabularyProps {
+  audioSrc: string;
+  label: string;
+  phonetics: string;
+}
+
+const items = [
+  // Fields and Specialists
+  {
+    label: "Fields and Professions / Specialists",
+    words: [
+      // embryology
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/e/embryology.mp3",
+          label: "embryology",
+          phonetics: "/ˌem.briˈɑː.lə.dʒi/",
+        },
+      },
+      // embryologist
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/e/embryologist.mp3",
+          label: "embryologist",
+          phonetics: "/ˌem.briˈɑː.lə.dʒɪst/",
+        },
+      },
+      // pathology
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/p/pathology.mp3",
+          label: "pathology",
+          phonetics: " /pəˈθɑː.lə.dʒi/",
+        },
+      },
+      // pathologist
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/p/pathologist.mp3",
+          label: "pathologist",
+          phonetics: " /pəˈθɑː.lə.dʒɪst/",
+        },
+      },
+    ],
+  },
+  // Medical devices and Lab instruments / apparatus
+  {
+    label: "Medical devices and Lab instruments / apparatus",
+    words: [
+      // embryoscope
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/e/embryoscope.mp3",
+          label: "embryoscope",
+          phonetics: " /ˈembriəˌskoʊp",
+        },
+      },
+      // endoscope
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/e/endoscope.mp3",
+          label: "endoscope",
+          phonetics: "/ˈen.doʊˌskoʊp/",
+        },
+      },
+      // pacemaker
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/p/pacemaker.mp3",
+           label: "pacemaker",
+           phonetics: "/ˈpeɪsˌmeɪ.kɚ/"
+        },
+      },
+      // pipette
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/p/pipette.mp3",
+           label: "pipette",
+           phonetics: "/paɪˈpet/, *UK /pɪˈpet/"
+        },
+      },
+      // pipette
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/p/pitri-dish.mp3",
+           label: "pitri dish",
+           phonetics: "/ˈpiː.tri ˌdɪʃ/"
+        },
+      },
+    ],
+  },
+  // Body / Organs
+  {
+    label: "Body / Organs",
+    words: [
+      // bladder
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/b/bladder.mp3",
+          label: "bladder",
+          phonetics: "/ˈblæd.ɚ/",
+        },
+      },
+    ],
+  },
+  // Anatomical structures
+  {
+    label: "Anatomical structures",
+    words: [
+      // lymph node
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/l/lymph-node.mp3",
+          label: "lymph node",
+          phonetics: "/ˈlɪmf ˌnoʊd/",
+        },
+      },
+    ],
+  },
+  // Biological molecules
+  {
+    label: "Biological molecules",
+    words: [
+      // bladder
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/h/hemoglobin.mp3",
+          label: "hemogloblin",
+          phonetics: "/ˌhiː.məˈɡloʊ.bɪn/",
+        },
+      },
+    ],
+  },
+  // Medical events / complications
+  {
+    label: "Medical events / complications",
+    words: [
+      // miscarriage
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/m/miscarriage.mp3",
+          label: "miscarriage",
+          phonetics: "/ˈmɪsˌker.ɪdʒ/",
+        },
+      },
+    ],
+  },
+  // Medical conditions and infections
+  {
+    label: "Medical conditions",
+    words: [
+      // carpal tunnel syndrome
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/c/carpal-tunnel-syndrome.mp3",
+          label: "carpal tunnel syndrome",
+          phonetics: "",
+        },
+      },
+      // bladder stone
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/b/bladder-stones.mp3",
+          label: "bladder stones",
+          phonetics: "",
+        },
+      },
+      // hemophilia
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/h/hemophilia.mp3",
+          label: "hemophilia",
+          phonetics: "/ˌhiː.məˈfɪl.i.ə/",
+        },
+      },
+      // labyrinthitis
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/l/labyrinthitis.mp3",
+          label: "labyrinthitis",
+          phonetics: "/ˌlæb.ə.rɪnθˈaɪ.t̬əs/",
+        },
+      },
+      // malignant
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/m/malignant.mp3",
+          label: "malignant",
+          phonetics: "/məˈlɪɡ.nənt/",
+        },
+      },
+      // meningitis
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/m/meningitis.mp3",
+          label: "meningitis",
+          phonetics: "/ˌmen.ɪnˈdʒaɪ.t̬əs/",
+        },
+      },
+      // meningitis
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/o/opportunistic-infections.mp3",
+          label: "opportunistic-infections (Ols)",
+          phonetics: "",
+        },
+      },
+      // pharyngitis
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/p/pharyngitis.mp3",
+          label: "pharyngitis",
+          phonetics: "/ˌfer.ɪnˈdʒaɪ.t̬əs/",
+        },
+      },
+      // polycystic ovary syndrome (PCOS)
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/p/polycystic-ovary-syndrome.mp3",
+          label: "polycystic ovary syndrome (PCOS)",
+          phonetics: "/ˌpɑːl.iˈsɪs.tɪk ˈoʊ.vər.i ˌsɪn.droʊm/",
+        },
+      },
+    ],
+  },
+  // Epidemiological terms
+  {
+    label: "Epidemiological terms",
+    words: [
+      // outbreak
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/o/outbreak.mp3",
+          label: "outbreak",
+          phonetics: "/ˈaʊt.breɪk/",
+        },
+      },
+    ],
+  },
+  // Symptoms
+  {
+    label: "Symptoms",
+    words: [
+      {
+        word: "I feel / I'm feeling...",
+      },
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/d/dizziness.mp3",
+          label: "dizziness",
+          phonetics: "/ˈdɪz.i.nəs/",
+        },
+      },
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/n/numbness.mp3",
+          label: "numbness",
+          phonetics: "/.../",
+        },
+      },
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/t/tingling.mp3",
+          label: "tingling",
+          phonetics: "/.../",
+        },
+      },
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/w/weakness.mp3",
+          label: "weakness",
+          phonetics: "/.../",
+        },
+      },
+    ],
+  },
+  // Diseases
+  {
+    label: "Diseases",
+    words: [
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/c/conjunctivitis.mp3",
+          label: "conjunctivitis",
+          phonetics: "/kənˌdʒʌŋk.tɪˈvaɪ.t̬əs/",
+        },
+      },
+    ],
+  },
+];
+
+export default function MedicineVocabulary() {
   return (
     <>
       <Whiteboard
@@ -14,144 +405,26 @@ export default function Vocabulary() {
       />
       <div className="line-break">
         <div className="flex-col-8px">
-          {/* A */}
-
-          {/* B */}
-          <DictionaryCard audioSrc="/b/bladder.mp3" label="bladder" />
-          <DictionaryCard
-            audioSrc="/b/bladder-stones.mp3"
-            label="bladder stones"
-          />
-          <Image
-            src={bladderCancer}
-            alt="Bladder cancer"
-            className="img-border"
-          />
-
-          {/* C */}
-          <DictionaryCard
-            audioSrc="/c/carpal-tunnel-syndrome.mp3"
-            label="carpal tunnel syndrome"
-          />
-
-          {/* D */}
-
-          {/* E */}
-          <DictionaryCard
-            audioSrc=""
-            label="embryology"
-            phonetics="/ˌem.briˈɑː.lə.dʒi/"
-          />
-          <DictionaryCard
-            audioSrc=""
-            label="embryoscope"
-            phonetics="/ˈem.bri.oʊ skoʊp/"
-          />
-          <DictionaryCard
-            audioSrc=""
-            label="endoscope"
-            phonetics="/ˈen.doʊˌskoʊp/"
-          />
-
-          {/* F */}
-
-          {/* G */}
-
-          {/* H */}
-          <DictionaryCard audioSrc="" label="gingivitis" phonetics="" />
-          <p></p>
-          <DictionaryCard
-            audioSrc=""
-            label="hemophilia"
-            phonetics="/ˌhiː.məˈfɪl.i.ə/"
-          />
-          <DictionaryCard audioSrc="" label="hemoglobin" phonetics="" />
-
-          {/* I */}
-
-          {/* J */}
-
-          {/* K */}
-
-          {/* L */}
-          <DictionaryCard
-            audioSrc=""
-            label="labyrinthitis"
-            phonetics="/ˌlæb.ə.rɪnθˈaɪ.t̬əs/"
-          />
-          <DictionaryCard
-            audioSrc=""
-            label="lymph node"
-            phonetics="/ˈlɪmf ˌnoʊd/"
-          />
-
-          {/* M */}
-          <p>MS flare up (Multiple Sclerosis)</p>
-          <DictionaryCard
-            audioSrc=""
-            label="malignant"
-            phonetics="/məˈlɪɡ.nənt/"
-          />
-          <DictionaryCard
-            audioSrc=""
-            label="meningitis"
-            phonetics="/ˌmen.ɪnˈdʒaɪ.t̬əs/"
-          />
-          <DictionaryCard
-            audioSrc=""
-            label="miscarriage"
-            phonetics="/ˈmɪsˌker.ɪdʒ/"
-          />
-
-          {/* N */}
-
-          {/* O */}
-
-          {/* P */}
-          <DictionaryCard audioSrc="" label="pharyngitis" phonetics="" />
-          <DictionaryCard audioSrc="" label="pipette" phonetics="/paɪˈpet/" />
-
-          
-          
-          <p>Opportunistic Infections (Ols)</p>
-          <DictionaryCard label="pacemaker" audioSrc="" />
-          <DictionaryCard audioSrc="" label="petri dish" />
-          <DictionaryCard
-            audioSrc=""
-            label="polycystic ovary syndrome (PCOS)"
-            phonetics="/ˌpɑːl.iˈsɪs.tɪk ˈoʊ.vər.i ˌsɪn.droʊm/
-"
-          />
-          <DictionaryCard
-            audioSrc=""
-            label="prostate (cancer)"
-            phonetics="/ˈprɑː.steɪt/"
-          />
-          <DictionaryCard
-            audioSrc=""
-            label="sick leave"
-            phonetics="/ˈsɪk ˌliːv/"
-          />
-          <DictionaryCard
-            audioSrc=""
-            label="sickle cell"
-            phonetics="/ˈsɪk.əl ˌsel/"
-          />
-          <DictionaryCard
-            audioSrc=""
-            label="pacemaker"
-            phonetics="/ˈpeɪsˌmeɪ·kər/"
-          />
-          <DictionaryCard
-            audioSrc=""
-            label="stem cell"
-            phonetics="/ˈstem ˌsel/"
-          />
-          <DictionaryCard
-            audioSrc=""
-            label="rhinitis"
-            phonetics="/raɪˈnaɪ.t̬əs/"
-          />
+          {/* Map */}
+          <div className="line-break">
+            {items.map((item, labelIndex) => (
+              <div key={labelIndex} className="line-break">
+                <Card bgColor="black" textColor="white">
+                  <p className="bold">{item.label}</p>
+                </Card>
+                <div className="flex-col-8px">
+                  {item.words.map((word, wordIndex) => (
+                    <div key={wordIndex}>
+                      {word.word && <p>{word.word}</p>}
+                      {word.component && (
+                        <span>{word.component(word.componentProps)}</span>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>

@@ -49,6 +49,16 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/tʃer/",
             },
           },
+          // channel
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/c/channel.mp3",
+              keyword: "channel",
+              label: "<span class='underline'>ch</span>annel",
+              phonetics: "/ˈtʃæn.əl/",
+            },
+          },
           // cheese
           {
             component: (props) => <DictionaryCard {...props} />,

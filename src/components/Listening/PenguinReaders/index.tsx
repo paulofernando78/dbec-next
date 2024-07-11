@@ -26,7 +26,7 @@ interface PenguinReadersTemplateProps {
   structures: Structure[];
 }
 
-export const PenguinReadersTemplate = ({
+export const PenguinReaders = ({
   structures,
 }: PenguinReadersTemplateProps) => {
   return (

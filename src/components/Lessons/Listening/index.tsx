@@ -1,5 +1,5 @@
-import { AudioPlayer } from "../../Audioplayer";
 import { Card } from "../../Cards/Card";
+import { AudioPlayer } from "../../Audioplayer";
 import { Collapsible } from "../../Collapsible/Collapsible";
 
 export interface FollowupQuestion {
