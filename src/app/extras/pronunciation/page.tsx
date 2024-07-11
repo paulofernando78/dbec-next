@@ -10,16 +10,18 @@ import { LettersAU } from "@/components/Extras/Pronunciation/Letters/LettersAU";
 import { LettersAW } from "@/components/Extras/Pronunciation/Letters/LettersAW";
 import { LettersAWE } from "@/components/Extras/Pronunciation/Letters/LettersAWE";
 import { LetterE } from "@/components/Extras/Pronunciation/Letters/LetterE";
-import { LetterEA } from "@/components/Extras/Pronunciation/Letters/LettersEA";
-import { LetterEE } from "@/components/Extras/Pronunciation/Letters/LettersEE";
-import { LetterEI } from "@/components/Extras/Pronunciation/Letters/LetterEI";
+import { LettersEA } from "@/components/Extras/Pronunciation/Letters/LettersEA";
+import { LettersEAR } from "@/components/Extras/Pronunciation/Letters/LettersEAR";
+
+import { LettersEE } from "@/components/Extras/Pronunciation/Letters/LettersEE";
+import { LettersEI } from "@/components/Extras/Pronunciation/Letters/LetterEI";
 import { LettersER } from "@/components/Extras/Pronunciation/Letters/LettersER";
 import { LettersET } from "@/components/Extras/Pronunciation/Letters/LettersET";
 import { LettersEY } from "@/components/Extras/Pronunciation/Letters/LetterEY";
-import { LetterAvsE } from "@/components/Extras/Pronunciation/Letters/LettersAvsE";
+import { LettersAvsE } from "@/components/Extras/Pronunciation/Letters/LettersAvsE";
 import { LetterI } from "@/components/Extras/Pronunciation/Letters/LetterI";
-import { LetterIE } from "@/components/Extras/Pronunciation/Letters/LetterIE";
-import { LetterIR } from "@/components/Extras/Pronunciation/Letters/LetterIR";
+import { LettersIE } from "@/components/Extras/Pronunciation/Letters/LetterIE";
+import { LettersIR } from "@/components/Extras/Pronunciation/Letters/LetterIR";
 import { LettersEAvsI } from "@/components/Extras/Pronunciation/Letters/LettersEAvsI";
 import { LettersCH } from "@/components/Extras/Pronunciation/Letters/LettersCH";
 import { LettersSH } from "@/components/Extras/Pronunciation/Letters/LettersSH";
@@ -31,10 +33,10 @@ import { LettersOR } from "@/components/Extras/Pronunciation/Letters/LetterOR";
 import { LettersOUS } from "@/components/Extras/Pronunciation/Letters/LetterOUS";
 import { LettersOW } from "@/components/Extras/Pronunciation/Letters/LetterOW";
 import { LetterT } from "@/components/Extras/Pronunciation/Letters/LetterT";
-import { LetterTH } from "@/components/Extras/Pronunciation/Letters/LetterTH";
+import { LettersTH } from "@/components/Extras/Pronunciation/Letters/LetterTH";
 import { LetterU } from "@/components/Extras/Pronunciation/Letters/LetterU";
-import { LetterUI } from "@/components/Extras/Pronunciation/Letters/LetterUI";
-import { LetterOOvsU } from "@/components/Extras/Pronunciation/Letters/LetterOOvsU";
+import { LettersUI } from "@/components/Extras/Pronunciation/Letters/LetterUI";
+import { LettersOOvsU } from "@/components/Extras/Pronunciation/Letters/LetterOOvsU";
 import { LetterY } from "@/components/Extras/Pronunciation/Letters/LetterY";
 
 import { ScrollToTop } from "@/components/ScrollToTop";
@@ -75,6 +77,11 @@ const links = [
     href: "#letters-ea",
     letter: 'Letter "ea"',
     phonetics: "...",
+  },
+  {
+    href: "#letters-ear",
+    letter: 'Letter "ear"',
+    phonetics: "/ɝː/",
   },
   {
     href: "#letters-ee",
@@ -230,15 +237,19 @@ const letters = [
   },
   {
     id: "letters-ea",
-    component: () => <LetterEA />,
+    component: () => <LettersEA />,
+  },
+  {
+    id: "letters-ear",
+    component: () => <LettersEAR />,
   },
   {
     id: "letters-ee",
-    component: () => <LetterEE />,
+    component: () => <LettersEE />,
   },
   {
     id: "letters-ei",
-    component: () => <LetterEI />,
+    component: () => <LettersEI />,
   },
   {
     id: "letters-er",
@@ -254,7 +265,7 @@ const letters = [
   },
   {
     id: "letters-a-vs-e",
-    component: () => <LetterAvsE />,
+    component: () => <LettersAvsE />,
   },
   {
     id: "letter-i",
@@ -262,11 +273,11 @@ const letters = [
   },
   {
     id: "letters-ie",
-    component: () => <LetterIE />,
+    component: () => <LettersIE />,
   },
   {
     id: "letters-ir",
-    component: () => <LetterIR />,
+    component: () => <LettersIR />,
   },
   {
     id: "letters-ea-vs-i",
@@ -310,7 +321,7 @@ const letters = [
   },
   {
     id: "letters-th",
-    component: () => <LetterTH />,
+    component: () => <LettersTH />,
   },
   {
     id: "letter-t",
@@ -322,11 +333,11 @@ const letters = [
   },
   {
     id: "letters-ui",
-    component: () => <LetterUI />,
+    component: () => <LettersUI />,
   },
   {
     id: "letters-oo-vs-u",
-    component: () => <LetterOOvsU />,
+    component: () => <LettersOOvsU />,
   },
   {
     id: "letter-y",

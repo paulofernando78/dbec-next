@@ -10,6 +10,7 @@ const pronunciations: Pronunciation[] = [
     label: 'Letters "a" vs. "e"',
     sound: "/æ/ vs. /e/",
     phonetics: [
+      // /æ/ vs. /e/
       {
         applyGrid: true,
         applyRedDashedBorder: true,
@@ -209,7 +210,7 @@ const pronunciations: Pronunciation[] = [
   },
 ];
 
-export const LetterAvsE = () => {
+export const LettersAvsE = () => {
   return (
     <>
       <div className="line-break">

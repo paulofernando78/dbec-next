@@ -14,6 +14,27 @@ const pronunciations: Pronunciation[] = [
         applyRedDashedBorder: true,
         beforeText: "Listen to the differences and repeat.",
         words: [
+          // uː
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/phonetics/u.mp3",
+              keyword: "",
+              label: "phonetics",
+              phonetics: "/uː/",
+            },
+          },
+          // full
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/phonetics/ʊ.mp3",
+              keyword: "",
+              label: "phonetics",
+              phonetics: "/ʊ/",
+            },
+          },
+          // fool
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -23,6 +44,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/fuːl/",
             },
           },
+          // full
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -32,6 +54,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/fʊl/",
             },
           },
+          // pool
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -41,6 +64,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/puːl/",
             },
           },
+          // pull
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -63,7 +87,7 @@ const pronunciations: Pronunciation[] = [
   },
 ];
 
-export const LetterOOvsU = () => {
+export const LettersOOvsU = () => {
   return (
     <>
       <div className="line-break">

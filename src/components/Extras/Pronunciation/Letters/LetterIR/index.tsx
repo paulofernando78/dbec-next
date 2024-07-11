@@ -20,6 +20,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/ɝː/",
         },
         words: [
+          // bird
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -29,6 +30,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/bɝːd/",
             },
           },
+          // stir
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -51,7 +53,7 @@ const pronunciations: Pronunciation[] = [
   },
 ];
 
-export const LetterIR = () => {
+export const LettersIR = () => {
   return (
     <>
       <div className="line-break">

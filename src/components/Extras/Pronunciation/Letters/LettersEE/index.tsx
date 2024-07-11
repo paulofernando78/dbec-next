@@ -19,6 +19,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/i/",
         },
         words: [
+          // queen
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -28,6 +29,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/kwiːn/",
             },
           },
+          // sweet
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -56,6 +58,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/ɪ/",
         },
         words: [
+          // engineer
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -78,7 +81,7 @@ const pronunciations: Pronunciation[] = [
   },
 ];
 
-export const LetterEE = () => {
+export const LettersEE = () => {
   return (
     <>
       <div className="line-break">

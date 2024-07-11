@@ -19,6 +19,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/θ/",
         },
         words: [
+          // thick
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -28,6 +29,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/θɪk/",
             },
           },
+          // thank
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -37,6 +39,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/θæŋk/",
             },
           },
+          // thin
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -46,6 +49,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/θɪn/",
             },
           },
+          // thing
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -55,6 +59,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/θɪŋ/",
             },
           },
+          // think
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -138,6 +143,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/t/",
         },
         words: [
+          // the /ðə/
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -147,6 +153,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ðə/",
             },
           },
+          // the /ðiː/
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -156,6 +163,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ðiː/",
             },
           },
+          // these
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -165,6 +173,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ðiːz/",
             },
           },
+          // this
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -174,6 +183,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ðɪs/",
             },
           },
+          // with
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -196,7 +206,7 @@ const pronunciations: Pronunciation[] = [
   },
 ];
 
-export const LetterTH = () => {
+export const LettersTH = () => {
   return (
     <>
       <div className="line-break">

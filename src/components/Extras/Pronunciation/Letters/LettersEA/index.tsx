@@ -7,7 +7,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: "Letters \"ea\"",
-    sound: "/i/, /j/, /e/",
+    sound: "/i/, /j/, /ɪ/, /e/",
     phonetics: [
       // /i/
       {
@@ -117,7 +117,7 @@ const pronunciations: Pronunciation[] = [
           },
         ],
       },
-      // /juː/
+      // /ɪ/
       {
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
@@ -201,7 +201,7 @@ const pronunciations: Pronunciation[] = [
   },
 ];
 
-export const LetterEA = () => {
+export const LettersEA = () => {
   return (
     <>
       <div className="line-break">

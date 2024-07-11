@@ -117,8 +117,8 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/bʌs/",
             },
           },
-           // but
-           {
+          // but
+          {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
               audioSrc: "/b/but.mp3",
@@ -155,6 +155,26 @@ const pronunciations: Pronunciation[] = [
               keyword: "redundancy",
               label: "red<span class='underline'>u</span>ndancy",
               phonetics: "/rɪˈdʌn.dən.si/",
+            },
+          },
+          // run
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/r/run.mp3",
+              keyword: "run",
+              label: "r<span class='underline'>u</span>n",
+              phonetics: "/rʌn/",
+            },
+          },
+          // study
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/study.mp3",
+              keyword: "study",
+              label: "st<span class='underline'>u</span>dy",
+              phonetics: "/ˈstʌd.i/",
             },
           },
           // sun

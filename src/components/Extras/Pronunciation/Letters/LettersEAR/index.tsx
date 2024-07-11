@@ -6,57 +6,53 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: 'Letters "ei"',
-    sound: "/eɪ/",
+    label: 'Letters "ear"',
+    sound: "/ɝː/",
     phonetics: [
-      // /e/
+      // /ɝː/
       {
-        beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
-          audioSrc: "/phonetics/eɪ.mp3",
+          audioSrc: "/phonetics/ɝ.mp3",
           label: "phonetics",
-          phonetics: "/eɪ/",
+          phonetics: "/ɝ/",
         },
+        beforeText: "Listen and repeat.",
         words: [
-          // eight
+          // learn
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/e/eight.mp3",
-              keyword: "eight",
-              label: "<span class='underline'>ei</span>ght",
-              phonetics: "/eɪt/",
+              audioSrc: "/l/learn.mp3",
+              keyword: "learn",
+              label: "l<span class='underline'>ear</span>n",
+              phonetics: "/lɝːn/",
             },
           },
-          // weigh
+          // pearl
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/w/weigh.mp3",
-              keyword: "weigh",
-              label: "w<span class='underline'>ei</span>gh",
-              phonetics: "/weɪ/",
+              audioSrc: "/p/pearl.mp3",
+              keyword: "pearl",
+              label: "p<span class='underline'>ear</span>l",
+              phonetics: "/pɝːl/",
             },
           },
         ],
         exampleAudioSrc: "",
         examples: [
           {
-            enExample: "He's only eight (years old).",
-            ptExample: "Ele tem apenas oito anos de idade.",
+            enExample: "...",
+            ptExample: "...",
           },
-          {
-            enExample: "How much do you weigh?",
-            ptExample: "Quanto você pesa/",
-          }
         ],
       },
     ],
   },
 ];
 
-export const LettersEI = () => {
+export const LettersEAR = () => {
   return (
     <>
       <div className="line-break">

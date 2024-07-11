@@ -209,6 +209,16 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈmɪn.ɪt/",
             },
           },
+          // sing
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/sing.mp3",
+              keyword: "sing",
+              label: "s<span class='underline'>i</span>ng",
+              phonetics: "/sɪŋ/",
+            },
+          },
           // sister
           {
             component: (props) => <DictionaryCard {...props} />,

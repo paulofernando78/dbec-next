@@ -20,6 +20,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/i/",
         },
         words: [
+          // cookie
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -29,6 +30,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈkʊk.i/",
             },
           },
+          // movie
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -38,6 +40,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈmuː.vi/",
             },
           },
+          // series
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -47,6 +50,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈsɪr.iːz/",
             },
           },
+          // zombie
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -75,6 +79,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/aɪ/",
         },
         words: [
+          // lie
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -84,6 +89,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/laɪ/",
             },
           },
+          // pie
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -93,6 +99,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/paɪ/",
             },
           },
+          // tie
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -115,7 +122,7 @@ const pronunciations: Pronunciation[] = [
   },
 ];
 
-export const LetterIE = () => {
+export const LettersIE = () => {
   return (
     <>
       <div className="line-break">
