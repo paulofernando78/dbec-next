@@ -115,6 +115,26 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/pen/",
             },
           },
+          // pan
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/p/pat.mp3",
+              keyword: "pat",
+              label: "p<span class='underline'>a</span>t",
+              phonetics: "/pæt/",
+            },
+          },
+          // pen
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/p/pet.mp3",
+              keyword: "pet",
+              label: "p<span class='underline'>e</span>t",
+              phonetics: "/pet/",
+            },
+          },
           // rad
           {
             component: (props) => <DictionaryCard {...props} />,

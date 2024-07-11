@@ -484,6 +484,26 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/seɪf/",
             },
           },
+          // same
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/same.mp3",
+              keyword: "same",
+              label: "s<span class='underline'>a</span>me",
+              phonetics: "/seɪm/",
+            },
+          },
+          // tame
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/tame.mp3",
+              keyword: "tame",
+              label: "t<span class='underline'>a</span>me",
+              phonetics: "/teɪm/",
+            },
+          },
         ],
         exampleAudioSrc: "",
         examples: [

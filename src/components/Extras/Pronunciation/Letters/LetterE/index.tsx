@@ -39,6 +39,26 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/men/",
             },
           },
+          // pet
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/p/pet.mp3",
+              keyword: "pet",
+              label: "p<span class='underline'>e</span>t",
+              phonetics: "/pet/",
+            },
+          },
+          // well
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/w/well.mp3",
+              keyword: "well",
+              label: "w<span class='underline'>e</span>ll",
+              phonetics: "/wel/",
+            },
+          },
         ],
         exampleAudioSrc: "",
         examples: [
@@ -46,7 +66,7 @@ const pronunciations: Pronunciation[] = [
             enExample: "...",
             ptExample: "...",
           },
-        ]
+        ],
       },
       // /i/
       {
@@ -117,6 +137,16 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/ɪ/",
         },
         words: [
+          // here
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/h/here.mp3",
+              keyword: "here",
+              label: "h<span class='underline'>e</span>re",
+              phonetics: "/hɪr/",
+            },
+          },
           // redundancy
           {
             component: (props) => <DictionaryCard {...props} />,

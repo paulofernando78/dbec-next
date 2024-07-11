@@ -29,6 +29,15 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/bɝːd/",
             },
           },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/stir.mp3",
+              keyword: "stir",
+              label: "st<span class='underline'>i</span>r",
+              phonetics: "/stɝː/",
+            },
+          },
         ],
         exampleAudioSrc: "",
         examples: [

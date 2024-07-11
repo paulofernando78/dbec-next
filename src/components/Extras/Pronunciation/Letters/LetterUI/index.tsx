@@ -7,8 +7,9 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: 'Letter "ui"',
-    sound: "/ɪ/",
+    sound: "/ɪ/, /aɪ/",
     phonetics: [
+      // /ɪ/
       {
         beforeText: "Listen and repeat.",
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
@@ -18,6 +19,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/ɪ/",
         },
         words: [
+          // build
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -25,6 +27,35 @@ const pronunciations: Pronunciation[] = [
               keyword: "build",
               label: "b<span class='underline'>ui</span>ld",
               phonetics: "/bɪld/",
+            },
+          },
+        ],
+        exampleAudioSrc: "",
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+        ],
+      },
+      // /aɪ/
+      {
+        beforeText: "Listen and repeat.",
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/aɪ.mp3",
+          label: "phonetics",
+          phonetics: "/aɪ/",
+        },
+        words: [
+          // guide
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/g/guide.mp3",
+              keyword: "guide",
+              label: "g<span class='underline'>ui</span>de",
+              phonetics: "/ɡaɪd/",
             },
           },
         ],

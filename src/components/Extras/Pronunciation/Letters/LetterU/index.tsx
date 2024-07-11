@@ -19,6 +19,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/uː/",
         },
         words: [
+          // student
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -26,6 +27,26 @@ const pronunciations: Pronunciation[] = [
               keyword: "student",
               label: "st<span class='underline'>u</span>dent",
               phonetics: "/ˈstuː.dənt/",
+            },
+          },
+          // tube
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/t/tube.mp3",
+              keyword: "tube",
+              label: "t<span class='underline'>u</span>be",
+              phonetics: "/tuːb/",
+            },
+          },
+          // uber
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/u/uber.mp3",
+              keyword: "uber",
+              label: "<span class='underline'>u</span>ber",
+              phonetics: "/uː.bɚ/",
             },
           },
         ],
@@ -47,6 +68,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/juː/",
         },
         words: [
+          // musician
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -54,6 +76,16 @@ const pronunciations: Pronunciation[] = [
               keyword: "musician",
               label: "m<span class='underline'>u</span>sician",
               phonetics: "/mjuːˈzɪʃ.ən/",
+            },
+          },
+          // use (noun)
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/u/use1.mp3",
+              keyword: "use",
+              label: "<span class='underline'>u</span>se",
+              phonetics: "/juːs/",
             },
           },
         ],
@@ -75,6 +107,37 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/ʌ/",
         },
         words: [
+          // bus
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/bus.mp3",
+              keyword: "bus",
+              label: "b<span class='underline'>u</span>s",
+              phonetics: "/bʌs/",
+            },
+          },
+           // but
+           {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/but.mp3",
+              keyword: "but",
+              label: "b<span class='underline'>u</span>t",
+              phonetics: "/bʌt/",
+            },
+          },
+          // deluxe
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/d/deluxe.mp3",
+              keyword: "deluxe",
+              label: "del<span class='underline'>u</span>xe",
+              phonetics: "/dɪˈlʌks/",
+            },
+          },
+          // dust
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -84,6 +147,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/dʌst/",
             },
           },
+          // redundancy
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -93,6 +157,27 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/rɪˈdʌn.dən.si/",
             },
           },
+          // sun
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/sun.mp3",
+              keyword: "sun",
+              label: "s<span class='underline'>u</span>n",
+              phonetics: "/sʌn/",
+            },
+          },
+          // sunday
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/sunday.mp3",
+              keyword: "sunday",
+              label: "s<span class='underline'>u</span>nday",
+              phonetics: "/ˈsʌn.deɪ/",
+            },
+          },
+          // ultimate
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -102,6 +187,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈʌl.tə.mət/",
             },
           },
+          // ultimately
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -111,6 +197,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈʌl.tə.mət.li/",
             },
           },
+          // up
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -128,7 +215,7 @@ const pronunciations: Pronunciation[] = [
             ptExample: "...",
           },
         ],
-        showHR: true
+        showHR: true,
       },
       // /ɪ/
       {
@@ -140,6 +227,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/ɪ/",
         },
         words: [
+          // business
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -149,6 +237,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈbɪz.nɪs/",
             },
           },
+          // busy
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -177,6 +266,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/ʊ/",
         },
         words: [
+          // full
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -186,6 +276,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/fʊl/",
             },
           },
+          // lure
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -195,6 +286,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/lʊr/",
             },
           },
+          // put
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -223,6 +315,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/ʊ/",
         },
         words: [
+          // cure
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -232,6 +325,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/kjʊr/",
             },
           },
+          // pure
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {

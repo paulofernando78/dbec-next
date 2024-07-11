@@ -19,6 +19,7 @@ const pronunciations: Pronunciation[] = [
         },
         beforeText: "Listen and repeat.",
         words: [
+          // clean
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -28,6 +29,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/kliːn/",
             },
           },
+          // disease
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -37,6 +39,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/dɪˈziːz/",
             },
           },
+          // feast
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -46,6 +49,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/fiːst/",
             },
           },
+          // dream
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -55,6 +59,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/driːm/",
             },
           },
+          // teacher
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -64,6 +69,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈtiː.tʃɚ/",
             },
           },
+          // team
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -92,6 +98,7 @@ const pronunciations: Pronunciation[] = [
         },
         beforeText: "Listen and repeat.",
         words: [
+          // beautiful
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -99,6 +106,35 @@ const pronunciations: Pronunciation[] = [
               keyword: "beautiful",
               label: "b<span class='underline'>ea</span>utiful",
               phonetics: "/ˈbjuː.t̬ə.fəl/",
+            },
+          },
+        ],
+        exampleAudioSrc: "",
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+        ],
+      },
+      // /juː/
+      {
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
+          audioSrc: "/phonetics/ɪ.mp3",
+          label: "phonetics",
+          phonetics: "/ɪ/",
+        },
+        beforeText: "Listen and repeat.",
+        words: [
+          // beautiful
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/h/here.mp3",
+              keyword: "here",
+              label: "h<span class='underline'>e</span>re",
+              phonetics: "/hɪr/",
             },
           },
         ],
@@ -120,6 +156,7 @@ const pronunciations: Pronunciation[] = [
         },
         beforeText: "Listen and repeat.",
         words: [
+          // bread
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -129,6 +166,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/bred/",
             },
           },
+          // lead (chumbo)
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -138,6 +176,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/led/",
             },
           },
+          // tear (rasgar)
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
