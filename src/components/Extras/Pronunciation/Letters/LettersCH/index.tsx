@@ -19,6 +19,7 @@ const pronunciations: Pronunciation[] = [
         },
         beforeText: "Listen and repeat.",
         words: [
+          // beach
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -28,6 +29,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/biːtʃ/",
             },
           },
+          // catch
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -37,6 +39,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/kætʃ/",
             },
           },
+          // chair
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -46,6 +49,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/tʃer/",
             },
           },
+          // cheese
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -55,6 +59,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/tʃiːz/",
             },
           },
+          // church
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -64,6 +69,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/tʃɝːtʃ/",
             },
           },
+          // coach
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -73,6 +79,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/koʊtʃ/",
             },
           },
+          // french
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -82,6 +89,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/frentʃ/",
             },
           },
+          // lunch
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -91,6 +99,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/lʌntʃ/",
             },
           },
+          // match
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -100,6 +109,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/mætʃ/",
             },
           },
+          // patch
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -109,6 +119,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/pætʃ/",
             },
           },
+          // rich
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -118,6 +129,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/rɪtʃ/",
             },
           },
+          // watch
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -136,7 +148,7 @@ const pronunciations: Pronunciation[] = [
           },
         ],
       },
-      // /ʃ/
+      // French words
       {
         applyRedDashedBorder: true,
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
@@ -145,7 +157,7 @@ const pronunciations: Pronunciation[] = [
           label: "phonetics",
           phonetics: "/ʃ/",
         },
-        beforeText: "Listen and repeat.",
+        beforeText: "These words are french. Listen and repeat.",
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,

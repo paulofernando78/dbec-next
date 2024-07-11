@@ -14,7 +14,7 @@ const pronunciations: Pronunciation[] = [
       {
         applyGrid: true,
         applyRedDashedBorder: true,
-        beforeText: "Listen to the diffences and repeat.",
+        beforeText: "Listen to the difference. then repeat.",
         words: [
           // and
           {

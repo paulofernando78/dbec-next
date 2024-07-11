@@ -164,6 +164,40 @@ const pronunciations: Pronunciation[] = [
           },
         ],
       },
+      // Difference between
+      {
+        applyRedDashedBorder: true,
+        beforeText: "Listen to the difference, then repeat.",
+        words: [
+          // have
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/h/have.mp3",
+              keyword: "have",
+              label: "have",
+              phonetics: "/hæv/",
+            },
+          },
+          // heavy
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/h/heavy.mp3",
+              keyword: "heavy",
+              label: "heav<span class='underline'>y</span>",
+              phonetics: "/ˈhev.i/",
+            },
+          },
+        ],
+        exampleAudioSrc: "",
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "...",
+          },
+        ],
+      },
       // /ɑː/
       {
         beforeText: "Listen and repeat.",
@@ -299,10 +333,10 @@ const pronunciations: Pronunciation[] = [
           },
         ],
       },
-      // Difference between call and cow
+      // Difference between
       {
         applyRedDashedBorder: true,
-        beforeText: "Listen to the differences.",
+        beforeText: "Listen to the difference, then repeat.",
         words: [
           {
             component: (props) => <DictionaryCard {...props} />,

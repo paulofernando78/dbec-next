@@ -129,6 +129,16 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/bɪg/",
             },
           },
+          // drink
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/d/drink.mp3",
+              keyword: "drink",
+              label: "dr<span class='underline'>i</span>nk",
+              phonetics: "/drɪŋk/",
+            },
+          },
           // fix
           {
             component: (props) => <DictionaryCard {...props} />,

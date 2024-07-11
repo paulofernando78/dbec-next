@@ -282,6 +282,61 @@ const pronunciations: Pronunciation[] = [
           },
         ],
       },
+      // Listen to the difference
+      {
+        applyGrid: true,
+        applyRedDashedBorder: true,
+        beforeText: "Listen to the differences and repeat.",
+        words: [
+          // easy
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/e/easy.mp3",
+              keyword: "easy",
+              label: "eas<span class='underline'>y</span>",
+              phonetics: "/ˈiː.zi/",
+            },
+          },
+          // ease
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/e/ease.mp3",
+              keyword: "ease",
+              label: "ease",
+              phonetics: "/iːz/",
+            },
+          },
+          // heavy
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/h/heavy.mp3",
+              keyword: "heavy",
+              label: "heav<span class='underline'>y</span>",
+              phonetics: "/ˈhev.i/",
+            },
+          },
+          // have
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/h/have.mp3",
+              keyword: "have",
+              label: "have",
+              phonetics: "/hæv/",
+            },
+          },
+        ],
+        exampleAudioSrc: "",
+        examples: [
+          {
+            enExample: "...",
+            ptExample: "....",
+          },
+        ],
+      },
       // /j/
       {
         beforeText: "Listen and repeat.",
@@ -292,6 +347,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/j/",
         },
         words: [
+          // year
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -301,15 +357,18 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/jɪr/",
             },
           },
+          // yo-yo
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
               audioSrc: "/y/yo-yo.mp3",
               keyword: "yo-yo",
-              label: "<span class='underline'>y</span>o-<span class='underline'>y</span>o",
+              label:
+                "<span class='underline'>y</span>o-<span class='underline'>y</span>o",
               phonetics: "/ˈjoʊ.joʊ/",
             },
           },
+          // you
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -319,6 +378,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/juː/",
             },
           },
+          // young
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -339,10 +399,11 @@ const pronunciations: Pronunciation[] = [
       },
       // Listen to the difference
       {
-        applyGrid:true,
+        applyGrid: true,
         applyRedDashedBorder: true,
         beforeText: "Listen to the differences and repeat.",
         words: [
+          // year
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -352,6 +413,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/jɪr/",
             },
           },
+          // ear
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -380,6 +442,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/aɪ/",
         },
         words: [
+          // achetype
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -389,6 +452,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈɑːr.kə.taɪp/",
             },
           },
+          // type
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -398,6 +462,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/taɪp/",
             },
           },
+          // xylophone
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -406,7 +471,7 @@ const pronunciations: Pronunciation[] = [
               label: "x<span class='underline'>y</span>lophone",
               phonetics: "/ˈzaɪ.lə.foʊn/",
             },
-          }
+          },
         ],
         exampleAudioSrc: "",
         examples: [
@@ -417,7 +482,6 @@ const pronunciations: Pronunciation[] = [
         ],
       },
     ],
-    
   },
 ];
 
