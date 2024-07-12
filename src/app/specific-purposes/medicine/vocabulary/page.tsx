@@ -29,7 +29,7 @@ interface MedicineVocabularyProps {
 const items = [
   // Fields and Specialists
   {
-    label: "Fields and Professions / Specialists",
+    label: "Fields and Specialists",
     words: [
       // embryology
       {
@@ -110,8 +110,8 @@ const items = [
         ),
         componentProps: {
           audioSrc: "/p/pacemaker.mp3",
-           label: "pacemaker",
-           phonetics: "/ˈpeɪsˌmeɪ.kɚ/"
+          label: "pacemaker",
+          phonetics: "/ˈpeɪsˌmeɪ.kɚ/",
         },
       },
       // pipette
@@ -121,8 +121,8 @@ const items = [
         ),
         componentProps: {
           audioSrc: "/p/pipette.mp3",
-           label: "pipette",
-           phonetics: "/paɪˈpet/, *UK /pɪˈpet/"
+          label: "pipette",
+          phonetics: "/paɪˈpet/, *UK /pɪˈpet/",
         },
       },
       // pipette
@@ -132,8 +132,8 @@ const items = [
         ),
         componentProps: {
           audioSrc: "/p/pitri-dish.mp3",
-           label: "pitri dish",
-           phonetics: "/ˈpiː.tri ˌdɪʃ/"
+          label: "pitri dish",
+          phonetics: "/ˈpiː.tri ˌdɪʃ/",
         },
       },
     ],
@@ -170,6 +170,17 @@ const items = [
           phonetics: "/ˈlɪmf ˌnoʊd/",
         },
       },
+      // prostate
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/p/prostate.mp3",
+          label: "prostaste",
+          phonetics: "/ˈprɑː.steɪt/",
+        },
+      },
     ],
   },
   // Biological molecules
@@ -185,6 +196,23 @@ const items = [
           audioSrc: "/h/hemoglobin.mp3",
           label: "hemogloblin",
           phonetics: "/ˌhiː.məˈɡloʊ.bɪn/",
+        },
+      },
+    ],
+  },
+  // Biological cells
+  {
+    label: "Biological cells",
+    words: [
+      // stem cell
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/s/stem-cell.mp3",
+          label: "stem cell",
+          phonetics: "/ˈstem ˌsel/",
         },
       },
     ],
@@ -309,6 +337,17 @@ const items = [
           phonetics: "/ˌpɑːl.iˈsɪs.tɪk ˈoʊ.vər.i ˌsɪn.droʊm/",
         },
       },
+      // rhinitis
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/r/rhinitis.mp3",
+          label: "rhinitis",
+          phonetics: "/raɪˈnaɪ.t̬əs/",
+        },
+      },
     ],
   },
   // Epidemiological terms
@@ -377,10 +416,11 @@ const items = [
       },
     ],
   },
-  // Diseases
+  // Diseases / Genetic Disorder
   {
-    label: "Diseases",
+    label: "Diseases / Genetic Disorder",
     words: [
+      // conjunctivitis
       {
         component: (props: MedicineVocabularyProps) => (
           <DictionaryCard {...props} />
@@ -389,6 +429,21 @@ const items = [
           audioSrc: "/c/conjunctivitis.mp3",
           label: "conjunctivitis",
           phonetics: "/kənˌdʒʌŋk.tɪˈvaɪ.t̬əs/",
+        },
+      },
+      // pink eye
+      {
+        word: "popular name: pink eye",
+      },
+      // sickle-cell
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/s/sickle-cell.mp3",
+          label: "sickle cell",
+          phonetics: "/ˈsɪk.əl ˌsel/",
         },
       },
     ],
