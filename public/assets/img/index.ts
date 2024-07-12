@@ -8,6 +8,7 @@ import upperIntermediate from "./icon/upper-intermediate.png";
 import advanced from "./icon/advanced.png";
 
 // Extra
+import skillsIcon from "@/img/icon/skills.png"
 import grammarIcon from "./icon/grammar.png";
 import listeningIcon from "./icon/listening.png";
 import speakingIcon from "./icon/speaking.png";
@@ -75,6 +76,7 @@ export {
   intermediate,
   upperIntermediate,
   advanced,
+  skillsIcon,
   grammarIcon,
   listeningIcon,
   speakingIcon,

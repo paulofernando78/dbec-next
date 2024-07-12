@@ -93,12 +93,44 @@ const descriptions = [
       },
     ],
   },
+  // Speaking
+  {
+    mainLabel: "Speaking",
+    subDescriptions: [
+      // Speaking
+      {
+        label: "Topics",
+        contents: [
+          {
+            globeLink: "...",
+            globeLabel: "...",
+          }
+        ],
+      },
+    ],
+  },
+  // Reading
+  {
+    mainLabel: "Writing",
+    subDescriptions: [
+      // Writing
+      {
+        label: "Topcis",
+        contents: [
+          {
+            globeLink: "...",
+            globeLabel: "...",
+          }
+        ],
+      },
+    ],
+  },
 ];
 
-export default function Listening() {
+export default function Skills() {
   return (
     <>
-      <Whiteboard title="Extras" subtitle="Listening" />
+      <Whiteboard title="Extras" subtitle="Skills" />
       <div>
         <DescriptionCard descriptions={descriptions} />
       </div>

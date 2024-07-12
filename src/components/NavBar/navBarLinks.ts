@@ -1,4 +1,39 @@
-import { placementTest, beginner, elementary, preIntermediate, intermediate, upperIntermediate, advanced, grammarIcon, listeningIcon, speakingIcon, pronunciationIcon, vocabularyIcon, automobileIcon, businessIcon, chemistryIcon, codingIcon, foodDrinkIcon, dentistryIcon, gamesIcon, geographyIcon, workoutIcon, hairdressingIcon, historyIcon, lawIcon, jobInterviewIcon, medicineIcon, travelIcon, scienceIcon, songsIcon, sportsIcon, stockMarketIcon, technologyIcon, examsIcon, allInOneIcon, miscIcon } from "../../../public/assets/img";
+import {
+  placementTest,
+  beginner,
+  elementary,
+  preIntermediate,
+  intermediate,
+  upperIntermediate,
+  advanced,
+  grammarIcon,
+  skillsIcon,
+  pronunciationIcon,
+  vocabularyIcon,
+  automobileIcon,
+  businessIcon,
+  chemistryIcon,
+  codingIcon,
+  foodDrinkIcon,
+  dentistryIcon,
+  gamesIcon,
+  geographyIcon,
+  workoutIcon,
+  hairdressingIcon,
+  historyIcon,
+  lawIcon,
+  jobInterviewIcon,
+  medicineIcon,
+  travelIcon,
+  scienceIcon,
+  songsIcon,
+  sportsIcon,
+  stockMarketIcon,
+  technologyIcon,
+  examsIcon,
+  allInOneIcon,
+  miscIcon,
+} from "../../../public/assets/img";
 
 export const navBarLinks = [
   {
@@ -52,28 +87,16 @@ export const navBarLinks = [
     label: "EXTRAS",
     links: [
       {
+        imgSrc: skillsIcon,
+        altName: "Skills icon",
+        link: "/extras/skills",
+        name: "Skills",
+      },
+      {
         imgSrc: grammarIcon,
         altName: "Grammar icon",
         link: "/extras/grammar",
         name: "Grammar",
-      },
-      {
-        imgSrc: listeningIcon,
-        altName: "Listening icon",
-        link: "/extras/listening",
-        name: "Listening",
-      },
-      // {
-      //   imgSrc: readingIcon,
-      //   altName: "reading icon",
-      //   link: "/extras/reading",
-      //   name: "Reading"
-      // },
-      {
-        imgSrc: speakingIcon,
-        altName: "Speaking icon",
-        link: "/extras/speaking",
-        name: "Speaking",
       },
       {
         imgSrc: pronunciationIcon,
