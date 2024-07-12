@@ -7,6 +7,8 @@ import styles from "./styles.module.css";
 
 // Images
 import globeIcon from "@/img/icon/globe.png";
+import { Card } from "../Card";
+
 interface Content {
   content?: string;
   link?: string;
@@ -17,9 +19,14 @@ interface Content {
   globeLabel?: string;
 }
 
-interface Description {
-  label: string;
+interface SubDescription {
   contents: Content[];
+  label: string; // Added the missing label property
+}
+
+interface Description {
+  mainLabel: string;
+  subDescriptions: SubDescription[]; // Corrected the capitalization here
 }
 
 interface DescriptionCardProps {
@@ -30,64 +37,75 @@ export const DescriptionCard = ({ descriptions }: DescriptionCardProps) => {
   return (
     <div className="line-break">
       {descriptions.map((description, descIndex) => (
-        <div key={descIndex} className={styles["card-description"]}>
-          <div className={styles["card-description-label"]}>
-            {/* Label */}
-            <p className="bold">{description.label}</p>
-          </div>
+        <div key={descIndex} className="line-break">
+          {/* Main label */}
+          <Card bgColor="black" textColor="white">
+            <p className="bold">{description.mainLabel}</p>
+          </Card>
 
-          {description.contents.map((content, contentIndex) => (
-            <div
-              key={contentIndex}
-              className={`flex-col-4px ${styles["card-description-content"]}`}
-            >
-              {/* Content */}
-              {content.content && <p>{content.content}</p>}
-
-              {/* Link / Label Link */}
-              {content.link && content.linkLabel && (
-                <div>
-                  <div>
-                    <Link href={content.link}>
-                      <p className={styles["link-label-position"]}>
-                        {content.linkLabel}
-                      </p>
-                    </Link>
-                  </div>
-                </div>
-              )}
-
-              {/* Globe Image / Globe Link */}
-              {content.globeLink && content.globeLabel && (
-                <div className="flex-8px-center-wrap">
-                  <Image
-                    src={globeIcon}
-                    alt="Globe icon"
-                    className={`icon-general ${styles["globe-icon"]}`}
-                  />
-                  <Link
-                    href={content.globeLink}
-                    className={styles["globe-link"]}
+          {description.subDescriptions.map(
+            (subdescription, subdescriptionIndex) => (
+              <div
+                key={subdescriptionIndex}
+                className={styles["card-description"]}
+              >
+                {/* Label */}
+                <p className={`bold ${styles["card-description-label"]}`}>
+                  {subdescription.label}
+                </p>
+                {subdescription.contents.map((content, contentIndex) => (
+                  <div
+                    key={contentIndex}
+                    className={`flex-col-4px ${styles["card-description-content"]}`}
                   >
-                    <p>{content.globeLabel}</p>
-                  </Link>
-                </div>
-              )}
+                    {/* Content */}
+                    {content.content && <p>{content.content}</p>}
 
-              {/* Checkbox Link / Checkbox Label Link */}
-              {content.checkboxLink && content.checkboxLabelLink && (
-                <div className="flex-8px-start">
-                  <input
-                    type="checkbox"
-                    style={{ position: "relative", bottom: ".6px" }}
-                  />
-                  <Link href={content.checkboxLink}>
-                    <p>{content.checkboxLabelLink}</p>
-                  </Link>
-                </div>
-              )}
-            </div>
-          ))}
+                    {/* Link / Label Link */}
+                    {content.link && content.linkLabel && (
+                      <div>
+                        <div>
+                          <Link href={content.link}>
+                            <p className={styles["link-label-position"]}>
+                              {content.linkLabel}
+                            </p>
+                          </Link>
+                        </div>
+                      </div>
+                    )}
+                    {/* Globe Image / Globe Link */}
+                    {content.globeLink && content.globeLabel && (
+                      <div className="flex-8px-center-wrap">
+                        <Image
+                          src={globeIcon}
+                          alt="Globe icon"
+                          className={`icon-general ${styles["globe-icon"]}`}
+                        />
+                        <Link
+                          href={content.globeLink}
+                          className={styles["globe-link"]}
+                        >
+                          <p>{content.globeLabel}</p>
+                        </Link>
+                      </div>
+                    )}
+                    {/* Checkbox Link / Checkbox Label Link */}
+                    {content.checkboxLink && content.checkboxLabelLink && (
+                      <div className="flex-8px-start">
+                        <input
+                          type="checkbox"
+                          style={{ position: "relative", bottom: ".6px" }}
+                        />
+                        <Link href={content.checkboxLink}>
+                          <p>{content.checkboxLabelLink}</p>
+                        </Link>
+                      </div>
+                    )}
+                  </div>
+                ))}
+              </div>
+            )
+          )}
         </div>
       ))}
     </div>

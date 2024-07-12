@@ -4,8 +4,8 @@
 }
 
 .card-description-label {
-  background-color: black;
-  color: white;
+  background-color: lightgray;
+  color: black;
   padding: var(--padding);
   border-radius: 5px 5px 0 0;
 }
