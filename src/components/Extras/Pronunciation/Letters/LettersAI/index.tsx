@@ -19,6 +19,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/e/",
         },
         words: [
+          // pair
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -28,6 +29,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/per/",
             },
           },
+          // stair
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -56,6 +58,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/eɪ/",
         },
         words: [
+          // Cain
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -65,6 +68,37 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/keɪn/",
             },
           },
+          // main
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/m/main.mp3",
+              keyword: "main",
+              label: "m<span class='underline'>ai</span>n",
+              phonetics: "/meɪn/",
+            },
+          },
+          // maintain
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/m/maintain.mp3",
+              keyword: "maintain",
+              label: "m<span class='underline'>ai</span>nt<span class='underline'>ai</span>n",
+              phonetics: "/meɪnˈteɪn/",
+            },
+          },
+          // maintenace
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/m/maintenance.mp3",
+              keyword: "maintenance",
+              label: "m<span class='underline'>ai</span>ntenance",
+              phonetics: "/ˈmeɪn.tən.əns/",
+            },
+          },
+          // pain
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -74,6 +108,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/peɪn/",
             },
           },
+          // Spain
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {

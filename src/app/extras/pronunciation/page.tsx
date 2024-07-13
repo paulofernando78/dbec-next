@@ -4,6 +4,7 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
+import TheAlphabet from "@/components/Lessons/Topic/TheAlphabet/page";
 import { LetterA } from "@/components/Extras/Pronunciation/Letters/LetterA";
 import { LettersAI } from "@/components/Extras/Pronunciation/Letters/LettersAI";
 import { LettersAU } from "@/components/Extras/Pronunciation/Letters/LettersAU";
@@ -16,6 +17,7 @@ import { LettersEAR } from "@/components/Extras/Pronunciation/Letters/LettersEAR
 import { LettersEE } from "@/components/Extras/Pronunciation/Letters/LettersEE";
 import { LettersEI } from "@/components/Extras/Pronunciation/Letters/LetterEI";
 import { LettersER } from "@/components/Extras/Pronunciation/Letters/LettersER";
+import { LettersEAU } from "@/components/Extras/Pronunciation/Letters/LettersEAU";
 import { LettersET } from "@/components/Extras/Pronunciation/Letters/LettersET";
 import { LettersEY } from "@/components/Extras/Pronunciation/Letters/LetterEY";
 import { LettersAvsE } from "@/components/Extras/Pronunciation/Letters/LettersAvsE";
@@ -40,7 +42,6 @@ import { LettersOOvsU } from "@/components/Extras/Pronunciation/Letters/LetterOO
 import { LetterY } from "@/components/Extras/Pronunciation/Letters/LetterY";
 
 import { ScrollToTop } from "@/components/ScrollToTop";
-import TheAlphabet from "@/components/Lessons/Topic/TheAlphabet/page";
 
 const links = [
   {
@@ -82,6 +83,11 @@ const links = [
     href: "#letters-ear",
     letter: 'Letter "ear"',
     phonetics: "/ɝː/",
+  },
+  {
+    href: "#letters-eau",
+    letter: 'Letter "eau"',
+    phonetics: "/oʊ/",
   },
   {
     href: "#letters-ee",
@@ -242,6 +248,10 @@ const letters = [
   {
     id: "letters-ear",
     component: () => <LettersEAR />,
+  },
+  {
+    id: "letters-eau",
+    component: () => <LettersEAU />,
   },
   {
     id: "letters-ee",
