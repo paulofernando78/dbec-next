@@ -22,13 +22,13 @@ interface Structure {
   paragraphs: Paragraph[];
 }
 
-interface PenguinReadersTemplateProps {
+interface PenguinReadersProps {
   structures: Structure[];
 }
 
 export const PenguinReaders = ({
   structures,
-}: PenguinReadersTemplateProps) => {
+}: PenguinReadersProps) => {
   return (
     <>
       {structures.map((structure, structureIndex) => (

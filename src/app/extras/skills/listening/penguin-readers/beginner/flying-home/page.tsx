@@ -1,4 +1,4 @@
-import { PenguinReadersTemplate } from "@/components/Listening/PenguinReaders";
+import { PenguinReaders } from "@/components/Listening/PenguinReaders";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 const structure = [
@@ -195,7 +195,7 @@ export default function FlyingHome() {
         ]}
       />
       <div>
-        <PenguinReadersTemplate structures={structure} />
+        <PenguinReaders structures={structure} />
       </div>
     </>
   );

@@ -36,6 +36,7 @@ import {
 } from "../../../public/assets/img";
 
 export const navBarLinks = [
+  // Courses
   {
     label: "COURSES",
     links: [
@@ -83,6 +84,7 @@ export const navBarLinks = [
       },
     ],
   },
+  // Extras
   {
     label: "EXTRAS",
     links: [
@@ -112,6 +114,7 @@ export const navBarLinks = [
       },
     ],
   },
+  // Specific Purposes
   {
     label: "SPECIFIC PURPOSES",
     links: [

@@ -1,5 +1,5 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { PenguinReadersTemplate } from "@/components/Listening/PenguinReaders";
+import { PenguinReaders } from "@/components/Listening/PenguinReaders";
 
 const structure = [
   {
@@ -195,7 +195,7 @@ export default function ANewZealandAdventure() {
         ]}
       />
       <div>
-        <PenguinReadersTemplate structures={structure} />
+        <PenguinReaders structures={structure} />
       </div>
     </>
   );
