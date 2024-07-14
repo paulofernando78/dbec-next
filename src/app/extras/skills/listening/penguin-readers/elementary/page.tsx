@@ -4,17 +4,24 @@ import React from "react";
 
 const descriptions = [
   {
-    label: "Elementary",
-    contents: [
+    subDescriptions: [
       {
-        checkboxLink:
-          "/extras/listening/penguin-readers/beginner/brown-eyes",
-        checkboxLabelLink: "Brown Eyes • 00:00",
+        bgColor: "black",
+        textColor: "white",
+        label: "Elementary",
+        contents: [
+          {
+            checkboxLink:
+              "/extras/listening/penguin-readers/beginner/brown-eyes",
+            checkboxLabelLink: "Brown Eyes • 00:00",
+          },
+          {
+            checkboxLink:
+              "/extras/listening/penguin-readers/beginner/the-adventure-of-tom-sawyer",
+            checkboxLabelLink: "The adventure of Tom Sawer • 00:00",
+          },
+        ],
       },
-      {
-        checkboxLink: "/extras/listening/penguin-readers/beginner/the-adventure-of-tom-sawyer",
-        checkboxLabelLink: "The adventure of Tom Sawer • 00:00",
-      }
     ],
   },
 ];
