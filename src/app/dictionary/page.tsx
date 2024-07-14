@@ -19,9 +19,10 @@ import styles from "./styles.module.css";
 
 const descriptions = [
   {
-    mainLabel: "Links",
     subDescriptions: [
       {
+        bgColor: "black",
+        textColor: "white",
         label: "Sites",
         contents: [
           {
