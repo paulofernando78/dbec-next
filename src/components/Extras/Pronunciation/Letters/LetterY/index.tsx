@@ -219,6 +219,16 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/ˈnɔɪ.zi/",
             },
           },
+          // savyy
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/s/savvy.mp3",
+              keyword: "savvy",
+              label: "savv<span class='underline'>y</span>",
+              phonetics: "/ˈsæv.i/",
+            },
+          },
           // slowly
           {
             component: (props) => <DictionaryCard {...props} />,
@@ -273,7 +283,7 @@ const pronunciations: Pronunciation[] = [
         exampleAudioSrc: "",
         examples: [
           {
-            enExample: "a fresh strawberriy",
+            enExample: "a fresh strawberry",
             ptExample: "um morango fresco",
           },
           {

@@ -11,9 +11,9 @@ import { LettersAU } from "@/components/Extras/Pronunciation/Letters/LettersAU";
 import { LettersAW } from "@/components/Extras/Pronunciation/Letters/LettersAW";
 import { LettersAWE } from "@/components/Extras/Pronunciation/Letters/LettersAWE";
 import { LetterE } from "@/components/Extras/Pronunciation/Letters/LetterE";
+import { LetterEsilent } from "@/components/Extras/Pronunciation/Letters/LetterEsilent/page";
 import { LettersEA } from "@/components/Extras/Pronunciation/Letters/LettersEA";
 import { LettersEAR } from "@/components/Extras/Pronunciation/Letters/LettersEAR";
-
 import { LettersEE } from "@/components/Extras/Pronunciation/Letters/LettersEE";
 import { LettersEI } from "@/components/Extras/Pronunciation/Letters/LetterEI";
 import { LettersER } from "@/components/Extras/Pronunciation/Letters/LettersER";
@@ -25,7 +25,7 @@ import { LetterI } from "@/components/Extras/Pronunciation/Letters/LetterI";
 import { LettersIE } from "@/components/Extras/Pronunciation/Letters/LetterIE";
 import { LettersIR } from "@/components/Extras/Pronunciation/Letters/LetterIR";
 import { LettersEAvsI } from "@/components/Extras/Pronunciation/Letters/LettersEAvsI";
-import { LettersCH } from "@/components/Extras/Pronunciation/Letters/LettersCH";
+import { LettersTch } from "@/components/Extras/Pronunciation/Letters/LettersCH";
 import { LettersSH } from "@/components/Extras/Pronunciation/Letters/LettersSH";
 import { LettersSHvsCH } from "@/components/Extras/Pronunciation/Letters/LettersSHvsCH";
 import { LetterO } from "@/components/Extras/Pronunciation/Letters/LetterO";
@@ -70,9 +70,13 @@ const links = [
     phonetics: "...",
   },
   {
-    href: "#letters-e",
+    href: "#letter-e",
     letter: 'Letter "e"',
     phonetics: "...",
+  },
+  {
+    href: "#letter-e-silent",
+    letter: 'Letter "e" Silent',
   },
   {
     href: "#letters-ea",
@@ -145,8 +149,8 @@ const links = [
     phonetics: "...",
   },
   {
-    href: "#letters-ch",
-    letter: 'Letters "ch"',
+    href: "#letters-(t)ch",
+    letter: 'Letters "(t)ch"',
     phonetics: "...",
   },
   {
@@ -238,8 +242,12 @@ const letters = [
     component: () => <LettersAWE />,
   },
   {
-    id: "letters-e",
+    id: "letter-e",
     component: () => <LetterE />,
+  },
+  {
+    id: "letter-e-silent",
+    component: () => <LetterEsilent />,
   },
   {
     id: "letters-ea",
@@ -298,8 +306,8 @@ const letters = [
     component: () => <LettersSH />,
   },
   {
-    id: "letters-ch",
-    component: () => <LettersCH />,
+    id: "letters-(t)ch",
+    component: () => <LettersTch />,
   },
   {
     id: "letters-sh-vs-ch",

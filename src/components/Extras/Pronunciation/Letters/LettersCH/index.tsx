@@ -6,7 +6,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: 'Letters "ch"',
+    label: 'Letters "(t)ch"',
     sound: "/tʃ/, /ʃ/, /k/",
     phonetics: [
       // /tʃ/
@@ -219,7 +219,7 @@ const pronunciations: Pronunciation[] = [
   },
 ];
 
-export const LettersCH = () => {
+export const LettersTch = () => {
   return (
     <>
       <div className="line-break">

@@ -16,6 +16,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/ʌ/",
         },
         words: [
+          // blood
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -25,11 +26,12 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/blʌd/",
             },
           },
+          // flood
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
               audioSrc: "/f/flood.mp3",
-              keyword: "blood",
+              keyword: "flood",
               label: "flood",
               phonetics: "/flʌd/",
             },
@@ -53,6 +55,7 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/ʊ/",
         },
         words: [
+          // cook
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -62,6 +65,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/kʊk/",
             },
           },
+          // good
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -71,6 +75,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/gʊd/",
             },
           },
+          // poor
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -94,11 +99,22 @@ const pronunciations: Pronunciation[] = [
       beforeText: "Listen and repeat.",
       phoneticsComponent: (props) => <DictionaryCard {...props} />,
 	        phoneticsComponentProps: {
-          audioSrc: "/phonetics/ʊ.mp3",
+          audioSrc: "/phonetics/u.mp3",
           label: "phonetics",
           phonetics: "/uː/",
         },
         words: [
+          // boost
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/b/boost.mp3",
+              keyword: "boost",
+              label: "boost",
+              phonetics: "/buːst/",
+            },
+          },
+          // moon
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -108,6 +124,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/muːn/",
             },
           },
+          // noon
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {

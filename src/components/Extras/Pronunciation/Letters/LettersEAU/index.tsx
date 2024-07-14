@@ -26,7 +26,7 @@ import {
                 audioSrc: "/p/plateau.mp3",
                 keyword: "plateau",
                 label: "plat<span class='underline'>eau</span>",
-                phonetics: "/.../",
+                phonetics: "/plætˈoʊ/",
               },
             },
           ],

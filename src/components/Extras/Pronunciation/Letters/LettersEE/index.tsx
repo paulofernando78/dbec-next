@@ -19,6 +19,16 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/i/",
         },
         words: [
+          // coffee
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/c/coffee.mp3",
+              keyword: "coffee",
+              label: "coff<span class='underline'>ee</span>",
+              phonetics: "/ˈkɑː.fi/",
+            },
+          },
           // queen
           {
             component: (props) => <DictionaryCard {...props} />,

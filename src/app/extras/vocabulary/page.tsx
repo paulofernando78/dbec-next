@@ -6,6 +6,8 @@ export default function Vocabulary() {
     <>
       <Whiteboard title="Extras" subtitle="Vocabulary" />
       <div className="line-break">
+          <p>aggravate</p>
+          <p>detest</p>
           <Link href="/extras/vocabulary/false-cognates">
             <p>False Cognates</p>
           </Link>
