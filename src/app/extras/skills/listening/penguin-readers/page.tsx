@@ -3,31 +3,37 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 const descriptions = [
   {
-    label: "Levels",
-    contents: [
+    subDescriptions: [
       {
-        link: "/extras/listening/penguin-readers/beginner",
-        linkLabel: "Beginner",
-      },
-      {
-        link: "/extras/listening/penguin-readers/elementary",
-        linkLabel: "Elementary",
-      },
-      {
-        link: "/extras/listening/penguin-readers/pre-intermediate",
-        linkLabel: "Pre-Intermediate",
-      },
-      {
-        link: "/extras/listening/penguin-readers/intermediate",
-        linkLabel: "Intermediate",
-      },
-      {
-        link: "/extras/listening/penguin-readers/upper-intermediate",
-        linkLabel: "Upper-Intermediate",
-      },
-      {
-        link: "/extras/listening/penguin-readers/advanced",
-        linkLabel: "advanced",
+        bgColor: "black",
+        textColor: "lightgray",
+        label: "Levels",
+        contents: [
+          {
+            link: "/extras/skills/listening/penguin-readers/beginner",
+            linkLabel: "Beginner",
+          },
+          {
+            link: "/extras/skills/listening/penguin-readers/elementary",
+            linkLabel: "Elementary",
+          },
+          {
+            link: "/extras/skills/listening/penguin-readers/pre-intermediate",
+            linkLabel: "Pre-Intermediate",
+          },
+          {
+            link: "/extras/skills/listening/penguin-readers/intermediate",
+            linkLabel: "Intermediate",
+          },
+          {
+            link: "/extras/skills/listening/penguin-readers/upper-intermediate",
+            linkLabel: "Upper-Intermediate",
+          },
+          {
+            link: "/extras/listening/penguin-readers/advanced",
+            linkLabel: "advanced",
+          },
+        ],
       },
     ],
   },

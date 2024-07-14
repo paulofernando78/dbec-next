@@ -8,6 +8,8 @@ const descriptions = [
     subDescriptions: [
       // Audiobooks
       {
+        bgColor: "lightgray",
+        textColor: "black",
         label: "Audiobooks",
         contents: [
           {
@@ -22,6 +24,8 @@ const descriptions = [
       },
       // Articles
       {
+        bgColor: "lightgray",
+        textColor: "black",
         label: "Articles (Intermediate)",
         contents: [
           {
@@ -41,6 +45,8 @@ const descriptions = [
       },
       // Radios
       {
+        bgColor: "lightgray",
+        textColor: "black",
         label: "Radios",
         contents: [
           {
@@ -56,6 +62,8 @@ const descriptions = [
       },
       // Miscellaneous
       {
+        bgColor: "lightgray",
+        textColor: "black",
         label: "Miscellaneous",
         contents: [
           {
@@ -84,6 +92,8 @@ const descriptions = [
     subDescriptions: [
       // Audiobooks
       {
+        bgColor: "lightgray",
+        textColor: "black",
         label: "Links",
         contents: [
           {
@@ -100,6 +110,8 @@ const descriptions = [
     subDescriptions: [
       // Speaking
       {
+        bgColor: "lightgray",
+        textColor: "black",
         label: "Topics",
         contents: [
           {
@@ -116,6 +128,8 @@ const descriptions = [
     subDescriptions: [
       // Writing
       {
+        bgColor: "lightgray",
+        textColor: "black",
         label: "Topcis",
         contents: [
           {
