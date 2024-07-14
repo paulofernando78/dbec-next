@@ -20,13 +20,15 @@ interface Content {
 }
 
 interface SubDescription {
+  bgColor: string
+  textColor: string
+  label: string;
   contents: Content[];
-  label: string; // Added the missing label property
 }
 
 interface Description {
-  mainLabel: string;
-  subDescriptions: SubDescription[]; // Corrected the capitalization here
+  mainLabel?: string;
+  subDescriptions: SubDescription[];
 }
 
 interface DescriptionCardProps {
@@ -39,9 +41,11 @@ export const DescriptionCard = ({ descriptions }: DescriptionCardProps) => {
       {descriptions.map((description, descIndex) => (
         <div key={descIndex} className="line-break">
           {/* Main label */}
-          <Card bgColor="black" textColor="white">
-            <p className="bold">{description.mainLabel}</p>
-          </Card>
+          {description.mainLabel && (
+            <Card bgColor="black" textColor="white">
+              <p className="bold">{description.mainLabel}</p>
+            </Card>
+          )}
 
           {description.subDescriptions.map(
             (subdescription, subdescriptionIndex) => (
@@ -50,7 +54,10 @@ export const DescriptionCard = ({ descriptions }: DescriptionCardProps) => {
                 className={styles["card-description"]}
               >
                 {/* Label */}
-                <p className={`bold ${styles["card-description-label"]}`}>
+                <p
+                  className={`bold ${styles["card-description-label"]}`}
+                  style={{ backgroundColor: subdescription.bgColor, color: subdescription.textColor }}
+                >
                   {subdescription.label}
                 </p>
                 {subdescription.contents.map((content, contentIndex) => (
