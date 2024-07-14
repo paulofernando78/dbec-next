@@ -16,21 +16,27 @@ import { IDictionary } from "../../../interfaces";
 
 // CSS
 import styles from "./styles.module.css";
+
 const descriptions = [
   {
-    label: "Sites",
-    contents: [
+    mainLabel: "Links",
+    subDescriptions: [
       {
-        globeLink: "https://youglish.com/",
-        globeLabel: "Youglish (Words from youtube videos)",
-      },
-      {
-        globeLink: "https://www.playphrase.me/",
-        globeLabel: "Play Phrase (Phrases from movies)",
-      },
-      {
-        globeLink: "https://www.languagereactor.com/",
-        globeLabel: "Language Reactor",
+        label: "Sites",
+        contents: [
+          {
+            globeLink: "https://youglish.com/",
+            globeLabel: "Youglish (Words from youtube videos)",
+          },
+          {
+            globeLink: "https://www.playphrase.me/",
+            globeLabel: "Play Phrase (Phrases from movies)",
+          },
+          {
+            globeLink: "https://www.languagereactor.com/",
+            globeLabel: "Language Reactor",
+          },
+        ],
       },
     ],
   },

@@ -33,7 +33,8 @@ const descriptions = [
             globeLabel: "Health & Lifestyle",
           },
           {
-            globeLink: "/extras/skills/listening/articles/science-and-technology",
+            globeLink:
+              "/extras/skills/listening/articles/science-and-technology",
             globeLabel: "Science & Technology",
           },
         ],
@@ -88,7 +89,7 @@ const descriptions = [
           {
             globeLink: "https://www1.folha.uol.com.br/internacional/en/",
             globeLabel: "Folha de São Paulo (English Version)",
-          }
+          },
         ],
       },
     ],
@@ -104,7 +105,7 @@ const descriptions = [
           {
             globeLink: "...",
             globeLabel: "...",
-          }
+          },
         ],
       },
     ],
@@ -120,7 +121,7 @@ const descriptions = [
           {
             globeLink: "...",
             globeLabel: "...",
-          }
+          },
         ],
       },
     ],

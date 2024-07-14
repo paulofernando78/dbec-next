@@ -16,7 +16,6 @@ const pronunciations: Pronunciation[] = [
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/æ.mp3",
-          label: "phonetics",
           phonetics: "/æ/",
         },
         words: [

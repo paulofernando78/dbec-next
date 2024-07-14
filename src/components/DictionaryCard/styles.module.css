@@ -10,6 +10,7 @@
 }
 
 .play-button {
+  margin-right: 6px;
   width: 15px;
   height: 18px;
   position: relative;
@@ -18,7 +19,7 @@
 
 .label {
     display: inline;
-    margin: 6px;
+    margin-right: 6px;
     font-size: var(--p-size);
 }
 
