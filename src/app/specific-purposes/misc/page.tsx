@@ -3,23 +3,29 @@ import { DescriptionCard } from "@/components/Cards/DescriptionCard";
 
 const descriptions = [
   {
-    label: "Boardgames",
-    contents: [
+    subDescriptions: [
       {
-        link: "/misc/boardgames/checkers",
-        linkLabel: "Checkers",
-      },
-      {
-        link: "/misc/boardgames/chess",
-        linkLabel: "Chess",
-      },
-      {
-        link: "/misc/boardgames/monopoly",
-        linkLabel: "Monolpoly",
-      },
-      {
-        link: "/misc/boardgames/clue",
-        linkLabel: "Clue",
+        bgColor: "black",
+        textColor: "white",
+        label: "Boardgames",
+        contents: [
+          {
+            link: "/misc/boardgames/checkers",
+            linkLabel: "Checkers",
+          },
+          {
+            link: "/misc/boardgames/chess",
+            linkLabel: "Chess",
+          },
+          {
+            link: "/misc/boardgames/monopoly",
+            linkLabel: "Monolpoly",
+          },
+          {
+            link: "/misc/boardgames/clue",
+            linkLabel: "Clue",
+          },
+        ],
       },
     ],
   },
