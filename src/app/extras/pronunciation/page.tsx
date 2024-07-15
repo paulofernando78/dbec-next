@@ -43,6 +43,7 @@ import { LettersOOvsU } from "@/components/Extras/Pronunciation/Letters/LettersO
 import { LetterY } from "@/components/Extras/Pronunciation/Letters/LetterY";
 
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { LettersUS } from "@/components/Extras/Pronunciation/Letters/LettersUS";
 
 const links = [
   {
@@ -215,6 +216,11 @@ const links = [
     phonetics: "...",
   },
   {
+    href: "#letters-us",
+    letter: 'Letters "us"',
+    phonetics: "...",
+  },
+  {
     href: "#letters-oo-vs-u",
     letter: 'Letters "oo" vs. "u"',
     phonetics: "...",
@@ -362,6 +368,10 @@ const letters = [
   {
     id: "letters-ui",
     component: () => <LettersUI />,
+  },
+  {
+    id: "letters-us",
+    component: () => <LettersUS />,
   },
   {
     id: "letters-oo-vs-u",
