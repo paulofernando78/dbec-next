@@ -193,17 +193,17 @@ const links = [
   {
     href: "#letters-ow",
     letter: 'Letters "ow"',
-    phonetics: "...",
+    phonetics: "/oʊ/, /aʊ/",
   },
   {
     href: "#letters-th",
     letter: 'Letters "th"',
-    phonetics: "...",
+    phonetics: "/θ/ no vibration , /ð/ vibration",
   },
   {
     href: "#letter-t",
     letter: 'Letter "t"',
-    phonetics: "...",
+    phonetics: "/t/",
   },
   {
     href: "#letter-u",
@@ -213,22 +213,22 @@ const links = [
   {
     href: "#letters-ui",
     letter: 'Letters "ui"',
-    phonetics: "...",
+    phonetics: "/ɪ/, /aɪ/",
   },
   {
     href: "#letters-us",
     letter: 'Letters "us"',
-    phonetics: "...",
+    phonetics: "/əs/",
   },
   {
     href: "#letters-oo-vs-u",
     letter: 'Letters "oo" vs. "u"',
-    phonetics: "...",
+    phonetics: "/uː/ vs /ʊ/",
   },
   {
     href: "#letter-y",
     letter: 'Letters "y"',
-    phonetics: "...",
+    phonetics: "/i/, /j/, /aɪ/",
   },
 ];
 

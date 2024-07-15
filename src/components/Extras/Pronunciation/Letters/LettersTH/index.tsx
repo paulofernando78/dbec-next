@@ -7,7 +7,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: 'Letters "th"',
-    sound: "/θ/, /ð/",
+    sound: "/θ/ no vibration, /ð/ vibration",
     phonetics: [
       // /θ/
       {

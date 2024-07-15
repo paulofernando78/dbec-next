@@ -338,6 +338,27 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/hæv/",
             },
           },
+          // itchy
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/i/itchy.mp3",
+              keyword: "itchy",
+              label: "itch<span class='underline'>y</span>",
+              phonetics: "/ˈɪtʃ.i/",
+            },
+          },
+          // itch
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/i/itch.mp3",
+              keyword: "itch",
+              label: "itch",
+              phonetics: "/ˈɪtʃ/",
+            },
+          },
+          
         ],
         exampleAudioSrc: "",
         examples: [
