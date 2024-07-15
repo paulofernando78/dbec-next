@@ -15,30 +15,31 @@ import { LetterEsilent } from "@/components/Extras/Pronunciation/Letters/LetterE
 import { LettersEA } from "@/components/Extras/Pronunciation/Letters/LettersEA";
 import { LettersEAR } from "@/components/Extras/Pronunciation/Letters/LettersEAR";
 import { LettersEE } from "@/components/Extras/Pronunciation/Letters/LettersEE";
-import { LettersEI } from "@/components/Extras/Pronunciation/Letters/LetterEI";
+import { LettersEI } from "@/components/Extras/Pronunciation/Letters/LettersEI";
 import { LettersER } from "@/components/Extras/Pronunciation/Letters/LettersER";
 import { LettersEAU } from "@/components/Extras/Pronunciation/Letters/LettersEAU";
 import { LettersET } from "@/components/Extras/Pronunciation/Letters/LettersET";
-import { LettersEY } from "@/components/Extras/Pronunciation/Letters/LetterEY";
+import { LettersEY } from "@/components/Extras/Pronunciation/Letters/LettersEY";
 import { LettersAvsE } from "@/components/Extras/Pronunciation/Letters/LettersAvsE";
 import { LetterI } from "@/components/Extras/Pronunciation/Letters/LetterI";
 import { LettersIE } from "@/components/Extras/Pronunciation/Letters/LetterIE";
-import { LettersIR } from "@/components/Extras/Pronunciation/Letters/LetterIR";
+import { LettersIR } from "@/components/Extras/Pronunciation/Letters/LettersIR";
 import { LettersEAvsI } from "@/components/Extras/Pronunciation/Letters/LettersEAvsI";
-import { LettersTch } from "@/components/Extras/Pronunciation/Letters/LettersCH";
+import { LettersNG } from "@/components/Extras/Pronunciation/Letters/LettersNG";
 import { LettersSH } from "@/components/Extras/Pronunciation/Letters/LettersSH";
+import { LettersTch } from "@/components/Extras/Pronunciation/Letters/LettersTch";
 import { LettersSHvsCH } from "@/components/Extras/Pronunciation/Letters/LettersSHvsCH";
 import { LetterO } from "@/components/Extras/Pronunciation/Letters/LetterO";
-import { LettersOA } from "@/components/Extras/Pronunciation/Letters/LetterOA";
-import { LettersOO } from "@/components/Extras/Pronunciation/Letters/LetterOO";
-import { LettersOR } from "@/components/Extras/Pronunciation/Letters/LetterOR";
-import { LettersOUS } from "@/components/Extras/Pronunciation/Letters/LetterOUS";
-import { LettersOW } from "@/components/Extras/Pronunciation/Letters/LetterOW";
+import { LettersOA } from "@/components/Extras/Pronunciation/Letters/LettersOA";
+import { LettersOO } from "@/components/Extras/Pronunciation/Letters/LettersOO";
+import { LettersOR } from "@/components/Extras/Pronunciation/Letters/LettersOR";
+import { LettersOUS } from "@/components/Extras/Pronunciation/Letters/LettersOUS";
+import { LettersOW } from "@/components/Extras/Pronunciation/Letters/LettersOW";
 import { LetterT } from "@/components/Extras/Pronunciation/Letters/LetterT";
-import { LettersTH } from "@/components/Extras/Pronunciation/Letters/LetterTH";
+import { LettersTH } from "@/components/Extras/Pronunciation/Letters/LettersTH";
 import { LetterU } from "@/components/Extras/Pronunciation/Letters/LetterU";
-import { LettersUI } from "@/components/Extras/Pronunciation/Letters/LetterUI";
-import { LettersOOvsU } from "@/components/Extras/Pronunciation/Letters/LetterOOvsU";
+import { LettersUI } from "@/components/Extras/Pronunciation/Letters/LettersUI";
+import { LettersOOvsU } from "@/components/Extras/Pronunciation/Letters/LettersOOvsU";
 import { LetterY } from "@/components/Extras/Pronunciation/Letters/LetterY";
 
 import { ScrollToTop } from "@/components/ScrollToTop";
@@ -57,22 +58,22 @@ const links = [
   {
     href: "#letters-au",
     letter: 'Letter "au"',
-    phonetics: "...",
+    phonetics: "/ɑː/",
   },
   {
     href: "#letters-aw",
     letter: 'Letter "aw"',
-    phonetics: "...",
+    phonetics: "/ɑː/",
   },
   {
     href: "#letters-awe",
     letter: 'Letter "awe"',
-    phonetics: "...",
+    phonetics: "/ɑː/",
   },
   {
     href: "#letter-e",
     letter: 'Letter "e"',
-    phonetics: "...",
+    phonetics: "/e/",
   },
   {
     href: "#letter-e-silent",
@@ -81,7 +82,7 @@ const links = [
   {
     href: "#letters-ea",
     letter: 'Letter "ea"',
-    phonetics: "...",
+    phonetics: "/iː/",
   },
   {
     href: "#letters-ear",
@@ -96,92 +97,97 @@ const links = [
   {
     href: "#letters-ee",
     letter: 'Letter "ee"',
-    phonetics: "...",
+    phonetics: "/iː/",
   },
   {
     href: "#letters-ei",
     letter: 'Letter "ei"',
-    phonetics: "...",
+    phonetics: "/eɪ/",
   },
   {
     href: "#letters-er",
     letter: 'Letter "er"',
-    phonetics: "...",
+    phonetics: "/ɝː/",
   },
   {
     href: "#letters-et",
     letter: 'Letter "et"',
-    phonetics: "...",
+    phonetics: "/eɪ/",
   },
   {
     href: "#letters-ey",
     letter: 'Letter "ey"',
-    phonetics: "...",
+    phonetics: "/i/, /eɪ/",
   },
   {
     href: "#letters-a-vs-e",
     letter: 'Letter "a" vs. "e"',
-    phonetics: "...",
+    phonetics: "/æ/ vs. /e/",
   },
   {
     href: "#letter-i",
     letter: 'Letter "i"',
-    phonetics: "...",
+    phonetics: "/i/, /ɪ/, /ə/, /aɪ/, /ɑː/",
   },
   {
     href: "#letters-ie",
     letter: 'Letters "ie"',
-    phonetics: "...",
+    phonetics: "/i/, /aɪ/",
   },
   {
     href: "#letters-ir",
     letter: 'Letters "ir"',
-    phonetics: "...",
+    phonetics: "/ɝː/",
   },
   {
     href: "#letters-ea-vs-i",
     letter: 'Letters "ea" vs. "i"',
-    phonetics: "...",
+    phonetics: "/iː/ vs /ɪ/",
+  },
+  {
+    href: "#letters-ng",
+    letter: 'Letters "ng"',
+    phonetics: "/ŋ/",
   },
   {
     href: "#letters-sh",
     letter: 'Letters "sh"',
-    phonetics: "...",
+    phonetics: "/ʃ/",
   },
   {
     href: "#letters-(t)ch",
     letter: 'Letters "(t)ch"',
-    phonetics: "...",
+    phonetics: "/tʃ/, /ʃ/, /k/",
   },
   {
     href: "#letters-sh-vs-ch",
     letter: 'Letters "sh" vs. "ch"',
-    phonetics: "...",
+    phonetics: "/ʃ/ vs. /tʃ/",
   },
   {
     href: "#letter-o",
     letter: 'Letter "o"',
-    phonetics: "...",
+    phonetics: "/ɑː/, /ɔː/, /oʊ/",
   },
   {
     href: "#letters-oa",
     letter: 'Letters "oa"',
-    phonetics: "...",
+    phonetics: "/ɔː/, /oʊ/",
   },
   {
     href: "#letters-oo",
     letter: 'Letters "oo"',
-    phonetics: "...",
+    phonetics: "/ʌ/, /ʊ/, /uː/",
   },
   {
     href: "#letters-or",
     letter: 'Letters "or"',
-    phonetics: "...",
+    phonetics: "/ɝː/",
   },
   {
     href: "#letters-ous",
     letter: 'Letters "ous"',
-    phonetics: "...",
+    phonetics: "/əs/",
   },
   {
     href: "#letters-ow",
@@ -300,6 +306,10 @@ const letters = [
   {
     id: "letters-ea-vs-i",
     component: () => <LettersEAvsI />,
+  },
+  {
+    id: "letters-ng",
+    component: () => <LettersNG />,
   },
   {
     id: "letters-sh",

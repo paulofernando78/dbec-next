@@ -7,7 +7,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: 'Letters "ea" • "ee" (long) vs. "i" (short)',
-    sound: "/i/ vs /ɪ/",
+    sound: "/iː/ vs /ɪ/",
     phonetics: [
       {
         applyRedDashedBorder: true,
@@ -398,9 +398,9 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
-              audioSrc: "/w/wheep.mp3",
-              keyword: "wheep",
-              label: "wh<span class='underline'>ee</span>p",
+              audioSrc: "/w/weep.mp3",
+              keyword: "weep",
+              label: "w<span class='underline'>ee</span>p",
               phonetics: "/wiːp/",
             },
           },

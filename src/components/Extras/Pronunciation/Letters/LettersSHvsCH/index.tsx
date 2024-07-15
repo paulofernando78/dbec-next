@@ -7,6 +7,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: "Letters \"sh\" vs. \"ch\"",
+    sound: "/ʃ/ vs. /tʃ/",
     phonetics: [
       {
         applyRedDashedBorder: true,

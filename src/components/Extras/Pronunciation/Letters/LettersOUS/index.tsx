@@ -23,6 +23,24 @@ const pronunciations: Pronunciation[] = [
               label: "danger<span class='underline'>ous</span>",
               phonetics: "/ˈdeɪn.dʒɚ.əs/",
             },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/f/famous.mp3",
+              keyword: "famous",
+              label: "fam<span class='underline'>ous</span>",
+              phonetics: "/ˈfeɪ.məs/",
+            },
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/n/nervous.mp3",
+              keyword: "nervous",
+              label: "nerv<span class='underline'>ous</span>",
+              phonetics: "/ˈnɝː.vəs/",
+            },
           }
         ],
         exampleAudioSrc: "",

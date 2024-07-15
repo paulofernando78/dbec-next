@@ -96,7 +96,7 @@ const pronunciations: Pronunciation[] = [
               phonetics: "/eɪt/",
             },
           },
-          // ate
+          // drive
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -105,6 +105,17 @@ const pronunciations: Pronunciation[] = [
               label:
                 "dri<span class='color-red'>v</span>(e)",
               phonetics: "/draɪv/",
+            },
+          },
+          // expensive
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/e/expensive.mp3",
+              keyword: "expensive",
+              label:
+                "expensi<span class='color-red'>v</span>(e)",
+              phonetics: "/ɪkˈspen.sɪv/",
             },
           },
         ],

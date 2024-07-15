@@ -7,7 +7,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 const pronunciations: Pronunciation[] = [
   {
     label: 'Letters "or"',
-    sound: "/ɔː/",
+    sound: "/ɝː/",
     phonetics: [
       // /ɔː/
       {
