@@ -26,14 +26,7 @@ const discussionQuestions: DiscussionQuestion[] = [
   {
     questions: [
       {
-        question: "1. What's happening?",
-      },
-    ],
-  },
-  {
-    questions: [
-      {
-        question: "2. What's he talking about?",
+        question: "1. What do you know about AI and its applications in everyday life?",
       },
     ],
   },
