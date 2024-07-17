@@ -65,6 +65,9 @@ import peoplePreparingFood from "./people-preparing-food.avif"
 import potatoChipLaysFlamminHotDillPickle from "./potato-chip-lays-flamin-hot-dill-pickle.png"
 import potatoChipLaysStrawBerryBacon from "./potato-chip-lays-strawberry-bacon.jpg"
 import potatoChipWalkersBrusselsSprout from "./potato-chip-walkers-brussels-sprout.webp"
+import socialMedia1 from "@/img/social-media-1.webp"
+import socialMedia2 from "@/img/social-media-2.webp"
+import socialMedia3 from "@/img/social-media-3.avif"
 import teenChoppingVegetable from "./teen-chopping-vegetable.avif"
 import teenLookingAtFoodLabel from "./teen-looking-at-food-label.avif"
 
@@ -129,6 +132,9 @@ export {
   potatoChipLaysFlamminHotDillPickle,
   potatoChipLaysStrawBerryBacon,
   potatoChipWalkersBrusselsSprout,
+  socialMedia1,
+  socialMedia2,
+  socialMedia3,
   teenChoppingVegetable,
   teenLookingAtFoodLabel
 };

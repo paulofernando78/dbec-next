@@ -113,7 +113,7 @@ export const Listening = ({
         What do you think the article is about? After listening, discuss it with
         your partner.
       </p>
-      <div className="position-sticky">
+      <div className="audio-position-sticky">
         <AudioPlayer audioSrc={audioSrc} />
       </div>
       {/* Paragraphs */}

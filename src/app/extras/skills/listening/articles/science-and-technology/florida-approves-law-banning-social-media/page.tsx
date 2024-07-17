@@ -12,13 +12,18 @@ import {
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import {
-  cat1
+  socialMedia1,
+  socialMedia2
 } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
 const swiperFraction = [
   {
-    imgSrc: cat1,
+    imgSrc: socialMedia1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: socialMedia2,
     imgAlt: "...",
   },
 ];
@@ -27,15 +32,21 @@ const discussionQuestions: DiscussionQuestion[] = [
   {
     questions: [
       {
-        question: "1.",
+        question: "1. What do you see?",
       },
+    ],
+  },
+  {
+    questions: [
       {
-        component: (props) => <DictionaryCard {...props} />,
-        componentProps: {
-          audioSrc: "",
-          label: "...",
-        },
-        question: "...",
+        question: "2. How old were you when you first started using social media?",
+      },
+    ],
+  },
+  {
+    questions: [
+      {
+        question: "3. Do you think there should be age restrictions on social media? Why or why not?",
       },
     ],
   },
@@ -45,9 +56,36 @@ const preVocabularies: PreVocabulary[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
-      audioSrc: "/x/xxx.mp3",
-      keyword: "...",
-      label: "...",
+      audioSrc: "/a/addict.mp3",
+      keyword: "addict",
+      label: "addict",
+      phonetics: ""
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/c/consent.mp3",
+      keyword: "consent",
+      label: "consent",
+      phonetics: ""
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/d/diversity.mp3",
+      keyword: "diversity",
+      label: "diversity",
+      phonetics: ""
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/c/challenge.mp3",
+      keyword: "challenge",
+      label: "challenge",
       phonetics: ""
     },
   },
