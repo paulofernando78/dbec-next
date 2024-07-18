@@ -13,7 +13,8 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import {
   socialMedia1,
-  socialMedia2
+  socialMedia2,
+  socialMediaParent1
 } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
@@ -24,6 +25,10 @@ const swiperFraction = [
   },
   {
     imgSrc: socialMedia2,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: socialMediaParent1,
     imgAlt: "...",
   },
 ];
@@ -59,7 +64,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/a/addict.mp3",
       keyword: "addict",
       label: "addict",
-      phonetics: ""
+      phonetics: "ˈæd.ɪkt/"
     },
   },
   {
@@ -68,7 +73,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/c/consent.mp3",
       keyword: "consent",
       label: "consent",
-      phonetics: ""
+      phonetics: "/kənˈsent/"
     },
   },
   {
@@ -77,7 +82,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/d/diversity.mp3",
       keyword: "diversity",
       label: "diversity",
-      phonetics: ""
+      phonetics: "/dɪˈvɝː.sə.t̬i/"
     },
   },
   {
@@ -86,10 +91,16 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/c/challenge.mp3",
       keyword: "challenge",
       label: "challenge",
-      phonetics: ""
+      phonetics: "/ˈtʃæl.ɪndʒ/"
     },
   },
 ];
+
+// const gistQuestion: [
+//   {
+//     questions: "",
+//   }
+// ]
 
 const paragraphs: Paragraph[] = [
   {
@@ -240,33 +251,48 @@ const paragraphs: Paragraph[] = [
 
 const scanQuestions: ScanQuestion[] = [
   {
-    question: "...",
+    question: "What are the age restrictions mentioned in the new law?",
+  },
+  {
+    question: "Why did Governor DeSantis veto the first version of the bill",
+  },
+  {
+    question: "What are some arguments from supporters and critics of the law?",
+  },
+  {
+    question: "When will the law take effect?",
   },
 ];
 
 const followupQuestions: FollowupQuestion[] = [
   {
-    question: "...",
+    question: "Do you agree with the age restrictions? Why or why not?",
+  },
+  {
+    question: "What do you think about the argument that parents should decide these restrictions?",
+  },
+  {
+    question: "How might this law impact children and their use of social media?",
   },
 ];
 
-const radioExercises = [
-  {
-    title: "1. Choose the correct answer.",
-    question: "1. ...",
-    options: [
-      {
-        label: "a) ...",
-        isCorrect: true,
-      },
-      {
-        label: "b) ...",
-        isCorrect: false,
-      },
-      { label: "c) ...", isCorrect: false },
-    ],
-  },
-];
+// const radioExercises = [
+//   {
+//     title: "1. Choose the correct answer.",
+//     question: "1. ...",
+//     options: [
+//       {
+//         label: "a) ...",
+//         isCorrect: true,
+//       },
+//       {
+//         label: "b) ...",
+//         isCorrect: false,
+//       },
+//       { label: "c) ...", isCorrect: false },
+//     ],
+//   },
+// ];
 
 export default function WeightLossOptionsForChildrenAreHardToGet() {
   return (
@@ -284,13 +310,14 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."
             discussionQuestions={discussionQuestions}
             preVocabularies={preVocabularies}
+            gistQuestion="What the new law might entail based on the title and their discussion. After listening, discuss it with your partner."
             audioSrc="https://voa-audio.voanews.eu/VLE/2024/03/27/01000000-0aff-0242-4563-08dc4e7c6170.mp3"
             paragraphs={paragraphs}
             scanQuestions={scanQuestions}
             followupQuestions={followupQuestions}
           />
         </div>
-        <Radio questions={radioExercises} />
+        {/* <Radio questions={radioExercises} /> */}
         <ScrollToTop />
       </div>
     </>

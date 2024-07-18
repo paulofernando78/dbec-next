@@ -39,6 +39,7 @@ interface ListeningProps {
   discussion: string;
   discussionQuestions: DiscussionQuestion[];
   preVocabularies: PreVocabulary[];
+  gistQuestion: string;
   audioSrc: string;
   paragraphs: Paragraph[];
   scanQuestions: ScanQuestion[];
@@ -51,6 +52,7 @@ export const Listening = ({
   discussion,
   discussionQuestions,
   preVocabularies,
+  gistQuestion,
   audioSrc,
   paragraphs,
   scanQuestions,
@@ -95,6 +97,7 @@ export const Listening = ({
           <p className="p-size-smaller">'10</p>
         </div>
       </Card>
+
       {/* preVocabularies */}
       <div className="flex-8px-center-wrap">
         {preVocabularies?.map((preVocabulary, indexPreVocabulary) => (
@@ -103,16 +106,16 @@ export const Listening = ({
           </span>
         ))}
       </div>
+
       <Card bgColor="Black" textColor="White">
         <div className="flex-8px-start-space-between">
           <p className="bold">Listening (Gist)</p>
           <p className="p-size-smaller">10'</p>
         </div>
       </Card>
-      <p>
-        What do you think the article is about? After listening, discuss it with
-        your partner.
-      </p>
+
+      {/* gistQuestions*/}
+      <p>{gistQuestion}</p>
       <div className="audio-position-sticky">
         <AudioPlayer audioSrc={audioSrc} />
       </div>
@@ -159,7 +162,6 @@ export const Listening = ({
           </div>
         </div>
       ))}
-
       <Card bgColor="Black" textColor="White">
         <div className="flex-8px-start-space-between">
           <p className="bold">Listening (Scan)</p>
@@ -185,6 +187,7 @@ export const Listening = ({
         </div>
       </Card>
       <div>
+
         {/* followupQuestions */}
         {followupQuestions.map((followupQuestion, followQuestionIndex) => (
           <p key={followQuestionIndex}>
@@ -194,13 +197,12 @@ export const Listening = ({
         ))}
       </div>
 
-      <div></div>
-      <Card bgColor="Black" textColor="White">
+      {/* <Card bgColor="Black" textColor="White">
         <div className="flex-8px-start-space-between">
           <p className="bold">Exercises</p>
           <p className="p-size-smaller">'10</p>
         </div>
-      </Card>
+      </Card> */}
     </div>
   );
 };

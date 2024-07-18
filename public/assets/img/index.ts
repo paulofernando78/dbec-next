@@ -68,6 +68,7 @@ import potatoChipWalkersBrusselsSprout from "./potato-chip-walkers-brussels-spro
 import socialMedia1 from "@/img/social-media-1.webp"
 import socialMedia2 from "@/img/social-media-2.webp"
 import socialMedia3 from "@/img/social-media-3.avif"
+import socialMediaParent1 from "@/img/social-media-parent-1.jpg"
 import teenChoppingVegetable from "./teen-chopping-vegetable.avif"
 import teenLookingAtFoodLabel from "./teen-looking-at-food-label.avif"
 
@@ -135,6 +136,7 @@ export {
   socialMedia1,
   socialMedia2,
   socialMedia3,
+  socialMediaParent1,
   teenChoppingVegetable,
   teenLookingAtFoodLabel
 };
