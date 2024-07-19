@@ -1,6 +1,7 @@
 import { Card } from "../../Cards/Card";
 import { AudioPlayer } from "../../Audioplayer";
 import { Collapsible } from "../../Collapsible/Collapsible";
+import { FillInTheBlanks } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
 
 export interface FollowupQuestion {
   question?: string;
@@ -44,6 +45,7 @@ interface ListeningProps {
   paragraphs: Paragraph[];
   scanQuestions: ScanQuestion[];
   followupQuestions: FollowupQuestion[];
+  fill: any[];
 }
 
 const baseAudioSrc = "/assets/audio/extras/listening/articles";
@@ -52,6 +54,7 @@ export const Listening = ({
   discussion,
   discussionQuestions,
   preVocabularies,
+  fill = [],
   gistQuestion,
   audioSrc,
   paragraphs,
@@ -97,7 +100,6 @@ export const Listening = ({
           <p className="p-size-smaller">'10</p>
         </div>
       </Card>
-
       {/* preVocabularies */}
       <div className="flex-8px-center-wrap">
         {preVocabularies?.map((preVocabulary, indexPreVocabulary) => (
@@ -106,7 +108,8 @@ export const Listening = ({
           </span>
         ))}
       </div>
-
+      <p className="bold">Now answer the questions</p>
+      <FillInTheBlanks questions={fill} />
       <Card bgColor="Black" textColor="White">
         <div className="flex-8px-start-space-between">
           <p className="bold">Listening (Gist)</p>
@@ -187,7 +190,6 @@ export const Listening = ({
         </div>
       </Card>
       <div>
-
         {/* followupQuestions */}
         {followupQuestions.map((followupQuestion, followQuestionIndex) => (
           <p key={followQuestionIndex}>
