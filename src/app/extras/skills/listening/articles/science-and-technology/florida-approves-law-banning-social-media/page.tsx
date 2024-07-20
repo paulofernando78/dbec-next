@@ -149,8 +149,8 @@ const fillInTheBlanks: FillInTheBlank[] = [
 
 const gistQuestions: GistQuestion[] = [
   {
-    question: "What is the main topic of the news report? After listening, discuss it with your partner.",
-    answer: "aaa"
+    question: "What is the main topic of the news report?",
+    answer: "The main topic of the news report is a new law in Florida that regulates children's access to social media, requiring parental permission for 14- and 15-year-olds."
   },
 ]
 

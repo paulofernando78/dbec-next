@@ -136,14 +136,17 @@ export const Listening = ({
       </Card>
 
       {/* gistQuestions*/}
-      {gistQuestions.map((gistQuestion, gistQuestionIndex) => (
-        <span key={gistQuestionIndex} className="p-font">
-          {gistQuestion.question}
-          <Collapsible labelBold="Answer">
-          {gistQuestion.answer}
-          </Collapsible>
-        </span>
-      ))}
+      <div>
+        <p>After listening, discuss the question with your partner.</p>
+        {gistQuestions.map((gistQuestion, gistQuestionIndex) => (
+          <span key={gistQuestionIndex} className="p-font">
+            {gistQuestion.question}
+            <Collapsible labelBold="Answer">
+            <p>{gistQuestion.answer}</p>
+            </Collapsible>
+          </span>
+        ))}
+      </div>
       <div className="audio-position-sticky">
         <AudioPlayer audioSrc={audioSrc} />
       </div>
