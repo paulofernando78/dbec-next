@@ -5,6 +5,7 @@ import {
   DiscussionQuestion,
   PreVocabulary,
   FillInTheBlank,
+  GistQuestion,
   Listening,
   Paragraph,
   ScanQuestion,
@@ -49,7 +50,7 @@ const discussionQuestions: DiscussionQuestion[] = [
     questions: [
       {
         question:
-          "3. Do you think there should be age restrictions on social media? Why or why not?",
+          "3. What age do you think is appropriate for kids to start using social media? Why?",
       },
     ],
   },
@@ -146,11 +147,12 @@ const fillInTheBlanks: FillInTheBlank[] = [
   },
 ];
 
-// const gistQuestion: [
-//   {
-//     questions: "",
-//   }
-// ]
+const gistQuestions: GistQuestion[] = [
+  {
+    question: "What is the main topic of the news report? After listening, discuss it with your partner.",
+    answer: "aaa"
+  },
+]
 
 const paragraphs: Paragraph[] = [
   {
@@ -378,7 +380,7 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
             discussionQuestions={discussionQuestions}
             preVocabularies={preVocabularies}
             fillInTheBlanks={fillInTheBlanks}
-            gistQuestion="What the new law might entail based on the title and their discussion. After listening, discuss it with your partner."
+            gistQuestions={gistQuestions}
             audioSrc="https://voa-audio.voanews.eu/VLE/2024/03/27/01000000-0aff-0242-4563-08dc4e7c6170.mp3"
             paragraphs={paragraphs}
             scanQuestions={scanQuestions}

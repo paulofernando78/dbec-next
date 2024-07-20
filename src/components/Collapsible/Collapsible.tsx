@@ -33,7 +33,7 @@ export const Collapsible = ({
           <span className={`bold ${styles["plus-minus-position"]}`}>
             {isOpen ? "-" : "+"}{" "}
           </span>
-          <span className={`${"user-select-none"}  `}>
+          <span className="user-select-none">
             <b>
               {/* <Image
                 src={isOpen ? minusIcon : plusIcon}
@@ -44,7 +44,7 @@ export const Collapsible = ({
             </b>
           </span>
         </span>
-        <span>{isOpen && <p className="block margin-top">{children}</p>}</span>
+        {isOpen && <span className="block margin-top">{children}</span>}
       </Card>
     </>
   );

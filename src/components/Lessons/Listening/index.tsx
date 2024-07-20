@@ -19,6 +19,17 @@ interface EnParagraph {
   enParagraph?: string;
 }
 
+export interface Paragraph {
+  paragraphNumber?: string;
+  enParagraphs?: EnParagraph[];
+  ptParagraph?: string;
+}
+
+export interface GistQuestion {
+  question: string;
+  answer: string;
+}
+
 export interface FillInTheBlank {
   questions: {
     options: boolean;
@@ -35,12 +46,6 @@ export interface PreVocabulary {
   componentProps: any;
 }
 
-export interface Paragraph {
-  paragraphNumber?: string;
-  enParagraphs?: EnParagraph[];
-  ptParagraph?: string;
-}
-
 export interface DiscussionQuestion {
   questions: {
     question: string;
@@ -54,7 +59,7 @@ interface ListeningProps {
   discussionQuestions: DiscussionQuestion[];
   preVocabularies: PreVocabulary[];
   fillInTheBlanks: FillInTheBlank[];
-  gistQuestion: string;
+  gistQuestions: GistQuestion[];
   audioSrc: string;
   paragraphs: Paragraph[];
   scanQuestions: ScanQuestion[];
@@ -68,7 +73,7 @@ export const Listening = ({
   discussionQuestions,
   preVocabularies,
   fillInTheBlanks = [],
-  gistQuestion,
+  gistQuestions,
   audioSrc,
   paragraphs,
   scanQuestions,
@@ -131,7 +136,14 @@ export const Listening = ({
       </Card>
 
       {/* gistQuestions*/}
-      <p>{gistQuestion}</p>
+      {gistQuestions.map((gistQuestion, gistQuestionIndex) => (
+        <span key={gistQuestionIndex} className="p-font">
+          {gistQuestion.question}
+          <Collapsible labelBold="Answer">
+          {gistQuestion.answer}
+          </Collapsible>
+        </span>
+      ))}
       <div className="audio-position-sticky">
         <AudioPlayer audioSrc={audioSrc} />
       </div>
@@ -169,11 +181,11 @@ export const Listening = ({
             </div>
             {/* ptParagraph */}
             {paragraph.ptParagraph && (
-              <div className="margin-top">
+              <span className="margin-top">
                 <Collapsible labelBold="Translation">
-                  <p className="portuguese">{paragraph.ptParagraph}</p>
+                  <span className="portuguese">{paragraph.ptParagraph}</span>
                 </Collapsible>
-              </div>
+              </span>
             )}
           </div>
         </div>
@@ -190,13 +202,17 @@ export const Listening = ({
       <div>
         {/* scanQuestions */}
         {scanQuestions.map((scanQuestion, scanQuestionIndex) => (
-          <p key={scanQuestionIndex} className="margin-bottom">
-            <span className="bold">{scanQuestionIndex + 1}</span>{" "}
-            {scanQuestion.question}
+          <div key={scanQuestionIndex} className="margin-bottom">
+            <span className="p-font bold display-inline">
+              {scanQuestionIndex + 1}
+            </span>{" "}
+            <span className="display-inline p-font">
+              {scanQuestion.question}
+            </span>
             <Collapsible labelBold="Answer">
               <p>{scanQuestion.answer}</p>
             </Collapsible>
-          </p>
+          </div>
         ))}
       </div>
       <Card bgColor="Black" textColor="White">

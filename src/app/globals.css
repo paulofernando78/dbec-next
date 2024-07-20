@@ -159,11 +159,11 @@ p {
   margin: 0 8px;
 }
 
-.inline {
+.display-inline {
   display: inline;
 }
 
-.inline-block {
+.display-inline-block {
   display: inline-block;
 }
 
