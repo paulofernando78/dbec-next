@@ -2,6 +2,7 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import {
   DiscussionQuestion,
   PreVocabulary,
+  FillInTheBlank,
   Listening,
   Paragraph,
   ScanQuestion,
@@ -9,7 +10,6 @@ import {
 } from "@/components/Lessons/Listening";
 import Slider from "@/components/SwiperFraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 
 import {
   macAndCheeseIceCreamFlavor,
@@ -100,6 +100,49 @@ const preVocabularies: PreVocabulary[] = [
       label: "...",
     },
   },
+];
+
+const fillInTheBlanks: FillInTheBlank[] = [
+	{
+		options: true,
+		width: "100px",
+		beforeBlank: "1. The greatest",
+		correctAnswer: "challenge",
+		afterBlank: "facing the region is unemployment.",
+		lineBreakAfter: true
+	},
+	{
+		options: true,
+		width: "100px",
+		beforeBlank: "2. The written",
+		correctAnswer: "consent",
+		afterBlank: " of a parent is required.",
+		lineBreakAfter: true,
+	},
+	{
+		options: true,
+		width: "100px",
+		beforeBlank: "3. The game is very",
+		correctAnswer: "addictive",
+		afterBlank: ".",
+		lineBreakAfter: true,
+	},
+	{
+		options: true,
+		width: "100px",
+		beforeBlank: "4. The government decided to ",
+		correctAnswer: "enact",
+		afterBlank: "a new law to protect the environment.",
+		lineBreakAfter: true,
+	},
+	{
+		options: true,
+		width: "100px",
+		beforeBlank: "5. The town has a lot of",
+		correctAnswer: "diversity",
+		afterBlank: "with people from many different cultures living there.",
+		lineBreakAfter: true,
+	},
 ];
 
 const paragraphs: Paragraph[] = [
@@ -360,6 +403,7 @@ export default function NewFoodFlavorsComingToStores() {
         discussion="Check out the pictures above. Swipe them to the right and answer the questions."
         discussionQuestions={discussionQuestions}
         preVocabularies={preVocabularies}
+        fillInTheBlanks={fillInTheBlanks}
         audioSrc="/arts-and-culture/new-food-flavors-coming-to-stores/audio.mp3"
         paragraphs={paragraphs}
         scanQuestions={scanQuestions}

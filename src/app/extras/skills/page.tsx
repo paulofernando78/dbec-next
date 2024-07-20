@@ -97,6 +97,10 @@ const descriptions = [
         label: "Links",
         contents: [
           {
+            globeLink: "https://www.phrasemix.com/",
+            globeLabel: "Phrase Mix",
+          },
+          {
             globeLink: "https://www1.folha.uol.com.br/internacional/en/",
             globeLabel: "Folha de São Paulo (English Version)",
           },

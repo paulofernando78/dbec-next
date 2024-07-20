@@ -131,6 +131,16 @@ const pronunciations: Pronunciation[] = [
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
+              audioSrc: "/c/culture.mp3",
+              keyword: "culture",
+              label: "c<span class='underline'>u</span>lture",
+              phonetics: "/ˈkʌl.tʃɚ/",
+            },
+          },
+          // deluxe
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
               audioSrc: "/d/deluxe.mp3",
               keyword: "deluxe",
               label: "del<span class='underline'>u</span>xe",

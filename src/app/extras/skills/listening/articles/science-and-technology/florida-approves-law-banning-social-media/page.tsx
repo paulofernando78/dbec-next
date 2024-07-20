@@ -4,6 +4,7 @@ import SwiperFraction from "@/components/SwiperFraction";
 import {
   DiscussionQuestion,
   PreVocabulary,
+  FillInTheBlank,
   Listening,
   Paragraph,
   ScanQuestion,
@@ -102,47 +103,47 @@ const preVocabularies: PreVocabulary[] = [
   },
 ];
 
-const fill = [
-	{
-		options: true,
-		width: "100px",
-		beforeBlank: "1. The greatest",
-		correctAnswer: "challenge",
-		afterBlank: "facing the region is unemployment.",
-		lineBreakAfter: true
-	},
-	{
-		options: true,
-		width: "100px",
-		beforeBlank: "2. The written",
-		correctAnswer: "consent",
-		afterBlank: " of a parent is required.",
-		lineBreakAfter: true,
-	},
-	{
-		options: true,
-		width: "100px",
-		beforeBlank: "3. The game is very",
-		correctAnswer: "addictive",
-		afterBlank: ".",
-		lineBreakAfter: true,
-	},
-	{
-		options: true,
-		width: "100px",
-		beforeBlank: "4. The government decided to ",
-		correctAnswer: "enact",
-		afterBlank: "a new law to protect the environment.",
-		lineBreakAfter: true,
-	},
-	{
-		options: true,
-		width: "100px",
-		beforeBlank: "5. The town has a lot of",
-		correctAnswer: "diversity",
-		afterBlank: "with people from many different cultures living there.",
-		lineBreakAfter: true,
-	},
+const fillInTheBlanks: FillInTheBlank[] = [
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "1. The greatest",
+    correctAnswer: "challenge",
+    afterBlank: "facing the region is unemployment.",
+    lineBreakAfter: true,
+  },
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "2. The written",
+    correctAnswer: "consent",
+    afterBlank: " of a parent is required.",
+    lineBreakAfter: true,
+  },
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "3. The game is very",
+    correctAnswer: "addictive",
+    afterBlank: ".",
+    lineBreakAfter: true,
+  },
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "4. The government decided to ",
+    correctAnswer: "enact",
+    afterBlank: "a new law to protect the environment.",
+    lineBreakAfter: true,
+  },
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "5. The town has a lot of",
+    correctAnswer: "diversity",
+    afterBlank: "with people from many different cultures living there.",
+    lineBreakAfter: true,
+  },
 ];
 
 // const gistQuestion: [
@@ -330,29 +331,31 @@ const paragraphs: Paragraph[] = [
 const scanQuestions: ScanQuestion[] = [
   {
     question: "What are the age restrictions mentioned in the new law?",
+    answer: "aaa"
   },
   {
     question: "Why did Governor DeSantis veto the first version of the bill?",
+    answer: "bbb"
   },
   {
     question: "What are some arguments from supporters and critics of the law?",
+    answer: "ccc"
   },
   {
     question: "When will the law take effect?",
+    answer: "ddd"
   },
 ];
 
 const followupQuestions: FollowupQuestion[] = [
   {
-    question: "Do you agree with the age restrictions? Why or why not?",
+    enQuestion: "Do you agree with the age restrictions? Why or why not?",
+    ptQuestion: "Você concorda com as restrições de idade? Por quê?",
   },
   {
-    question:
-      "What do you think about the argument that parents should decide these restrictions?",
-  },
-  {
-    question:
+    enQuestion:
       "How might this law impact children and their use of social media?",
+    ptQuestion: "Como essa lei pode impactar as crianças e seu uso de redes sociais?",
   },
 ];
 
@@ -374,7 +377,7 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."
             discussionQuestions={discussionQuestions}
             preVocabularies={preVocabularies}
-            fill={fill}
+            fillInTheBlanks={fillInTheBlanks}
             gistQuestion="What the new law might entail based on the title and their discussion. After listening, discuss it with your partner."
             audioSrc="https://voa-audio.voanews.eu/VLE/2024/03/27/01000000-0aff-0242-4563-08dc4e7c6170.mp3"
             paragraphs={paragraphs}

@@ -4,17 +4,30 @@ import { Collapsible } from "../../Collapsible/Collapsible";
 import { FillInTheBlanks } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
 
 export interface FollowupQuestion {
-  question?: string;
+  enQuestion?: string;
+  ptQuestion?: string;
 }
 
 export interface ScanQuestion {
   question: string;
+  answer: string;
 }
 
 interface EnParagraph {
   component?: (props: { audioSrc: string; label: string }) => JSX.Element;
   componentProps?: any;
   enParagraph?: string;
+}
+
+export interface FillInTheBlank {
+  questions: {
+    options: boolean;
+    width: string;
+    beforeBlank: string;
+    correctAnswer: string;
+    afterBlank: string;
+    lineBreakAfter: boolean;
+  }[];
 }
 
 export interface PreVocabulary {
@@ -40,12 +53,12 @@ interface ListeningProps {
   discussion: string;
   discussionQuestions: DiscussionQuestion[];
   preVocabularies: PreVocabulary[];
+  fillInTheBlanks: FillInTheBlank[];
   gistQuestion: string;
   audioSrc: string;
   paragraphs: Paragraph[];
   scanQuestions: ScanQuestion[];
   followupQuestions: FollowupQuestion[];
-  fill: any[];
 }
 
 const baseAudioSrc = "/assets/audio/extras/listening/articles";
@@ -54,7 +67,7 @@ export const Listening = ({
   discussion,
   discussionQuestions,
   preVocabularies,
-  fill = [],
+  fillInTheBlanks = [],
   gistQuestion,
   audioSrc,
   paragraphs,
@@ -108,8 +121,8 @@ export const Listening = ({
           </span>
         ))}
       </div>
-      <p className="bold">Now answer the questions</p>
-      <FillInTheBlanks questions={fill} />
+      <p className="bold">Now fill in the blanks with the right vocabulary.</p>
+      <FillInTheBlanks questions={fillInTheBlanks} />
       <Card bgColor="Black" textColor="White">
         <div className="flex-8px-start-space-between">
           <p className="bold">Listening (Gist)</p>
@@ -177,9 +190,12 @@ export const Listening = ({
       <div>
         {/* scanQuestions */}
         {scanQuestions.map((scanQuestion, scanQuestionIndex) => (
-          <p key={scanQuestionIndex}>
+          <p key={scanQuestionIndex} className="margin-bottom">
             <span className="bold">{scanQuestionIndex + 1}</span>{" "}
             {scanQuestion.question}
+            <Collapsible labelBold="Answer">
+              <p>{scanQuestion.answer}</p>
+            </Collapsible>
           </p>
         ))}
       </div>
@@ -194,7 +210,8 @@ export const Listening = ({
         {followupQuestions.map((followupQuestion, followQuestionIndex) => (
           <p key={followQuestionIndex}>
             <span className="bold">{followQuestionIndex + 1}</span>{" "}
-            {followupQuestion.question}
+            {followupQuestion.enQuestion}{" "}
+            <span className="portuguese">{followupQuestion.ptQuestion}</span>
           </p>
         ))}
       </div>
