@@ -10,6 +10,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
+import "./navigation-custom.css"
+
 import Image, { StaticImageData } from "next/image";
 import styles from "./style.module.css";
 
