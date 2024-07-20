@@ -1,10 +1,32 @@
-.swiper-button-prev,
+/* .swiper-button-prev,
 .swiper-button-next {
   color: white;
-  filter: drop-shadow(1px 1px  black)
+  filter: drop-shadow(2px 0px black);
+}
+
+.swiper-button-prev {
+  margin-left: 10px;
+}
+
+.swiper-button-next {
+  margin-right: 10px;
+} */
+
+.container {
+  position: relative;
 }
 
 .swiper-pagination-fraction {
-  color: white;
-  filter: drop-shadow(1px 1px black)
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  border: solid 1px white;
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  margin-bottom: 5px;
+  padding: 1px 5px;
+  width: fit-content;
+  border-radius: 5px;
+  bottom: 10px; /* Adjust as needed */
 }

@@ -32,7 +32,7 @@ export default function SwiperFraction({ images }: SwiperFractionProps) {
         pagination={{
             type: "fraction",
         }}
-        navigation={true}
+        // navigation={true}
         modules={[Pagination, Navigation]}
         >
           {images.map((image, index) => (
