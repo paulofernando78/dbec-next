@@ -9,7 +9,7 @@ import {
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
-import Slider from "@/components/Swiper/SwiperFraction";
+import Slider from "@/components/Swiper/Fraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 import {
@@ -96,9 +96,41 @@ const preVocabularies: PreVocabulary[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
-      audioSrc: "/.../....mp3",
-      keyword: "...",
-      label: "...",
+      audioSrc: "/c/chef.mp3",
+      keyword: "chef",
+      label: "chef",
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/e/edition.mp3",
+      keyword: "edition",
+      label: "edition",
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/f/flavor.mp3",
+      keyword: "falvor",
+      label: "flavor",
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/o/original.mp3",
+      keyword: "original",
+      label: "original",
+    },
+  },
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "/s/shock.mp3",
+      keyword: "shock",
+      label: "shock",
     },
   },
 ];

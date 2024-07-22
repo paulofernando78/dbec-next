@@ -6,7 +6,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { FillInTheBlanks } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
 import SwiperFraction, {
   SwiperFractionData,
-} from "@/components/Swiper/SwiperFraction";
+} from "@/components/Swiper/Fraction";
 
 // Images
 import { cat1, cat2, cat3 } from "@/img/index";

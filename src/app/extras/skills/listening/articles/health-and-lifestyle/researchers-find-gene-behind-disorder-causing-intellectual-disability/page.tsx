@@ -1,6 +1,6 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import SwiperFraction from "@/components/Swiper/SwiperFraction";
+import SwiperFraction from "@/components/Swiper/Fraction";
 import {
   DiscussionQuestion,
   PreVocabulary,
