@@ -58,11 +58,12 @@ export const FillInTheBlanks = ({
         : [questions[index].correctAnswer];
       const userAnswer = options[0].trim().toLowerCase();
       return correctAnswers.some(
-        (answer) => userAnswer === answer.trim().toLowerCase()
+        (answer) => typeof answer === "string" && userAnswer === answer.trim().toLowerCase()
       );
     });
     setIsCorrects(newIsCorrects);
   };
+  
 
   // Depois comparar, pois estava dando como certo mesmo sem escrever nada. E isso foi quando passei como prop no Listening.
   // const handleCheckAnswers = () => {
