@@ -403,9 +403,11 @@ const paragraphs: Paragraph[] = [
 const scanQuestions: ScanQuestion[] = [
   {
     question: "What unusual flavor did Hershey add to its Kit Kats?",
+    answer: "..."
   },
   {
     question: "Which generation is driving the trend for new flavors?",
+    answer: "..."
   },
 ];
 
