@@ -74,14 +74,14 @@ export const DescriptionCard = ({ descriptions }: DescriptionCardProps) => {
 
                     {/* Link / Label Link */}
                     {content.link && content.linkLabel && (
-                      <div className="flex-8px-center-wrap">
+                      <div>
                         <Image
                           src={linkIcon}
                           alt="Globe icon"
                           className={`icon-general ${styles["link-icon"]}`}
-                        />
+                        />{" "}
                         <Link href={content.link}>
-                          <p className={styles["link-label-position"]}>
+                          <p className={`display-inline ${styles["link-label-position"]}`}>
                             {content.linkLabel}
                           </p>
                         </Link>
