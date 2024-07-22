@@ -4,17 +4,15 @@ import SwiperFraction from "@/components/Swiper/Fraction";
 import {
   DiscussionQuestion,
   PreVocabulary,
-  FillInTheBlank,
   GistQuestion,
   Listening,
   Paragraph,
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import {
-  cat1
-} from "@/img/index";
+import { cat1 } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
 const swiperFraction = [
@@ -49,12 +47,12 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/x/xxx.mp3",
       keyword: "...",
       label: "...",
-      phonetics: ""
+      phonetics: "",
     },
   },
 ];
 
-const fillInTheBlanks: FillInTheBlank[] = [
+const fillInTheBlanks: Question[] = [
   {
     options: true,
     width: "100px",
@@ -77,8 +75,7 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 1",
     enParagraphs: [
       {
-        enParagraph:
-          "...",
+        enParagraph: "...",
       },
     ],
     ptParagraph: "...",
@@ -222,7 +219,7 @@ const paragraphs: Paragraph[] = [
 const scanQuestions: ScanQuestion[] = [
   {
     question: "...",
-    answer: ""
+    answer: "",
   },
 ];
 
@@ -270,6 +267,3 @@ export default function FiveTipsHowToGetBetterSleep() {
     </>
   );
 }
-
-
-

@@ -12,7 +12,7 @@ import incorrectIcon from "@/img/icon/incorrect.png";
 // CCS
 import styles from "./styles.module.css";
 
-interface Question {
+export interface Question {
   options: boolean;
   width?: string;
   title?: string;

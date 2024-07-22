@@ -2,14 +2,14 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import {
   DiscussionQuestion,
   PreVocabulary,
-  FillInTheBlank,
   GistQuestion,
   Listening,
   Paragraph,
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
-import Slider from "@/components/Swiper/Fraction";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
+import SwiperFraction from "@/components/Swiper/Fraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 import {
@@ -23,7 +23,7 @@ import {
   cookieOreoSourPatch,
 } from "@/img/index";
 
-const slider = [
+const swiperFraction = [
   {
     imgSrc: macAndCheeseIceCreamFlavor,
     imgAlt:
@@ -135,12 +135,12 @@ const preVocabularies: PreVocabulary[] = [
   },
 ];
 
-const fillInTheBlanks: FillInTheBlank[] = [
+const fillInTheBlanks: Question[] = [
   {
     options: true,
     width: "100px",
     beforeBlank: "1. ...",
-    correctAnswer: "...",
+    correctAnswer: ["..."],
     afterBlank: "...",
     lineBreakAfter: true,
   },
@@ -148,7 +148,7 @@ const fillInTheBlanks: FillInTheBlank[] = [
     options: true,
     width: "100px",
     beforeBlank: "2. ...",
-    correctAnswer: "...",
+    correctAnswer: ["..."],
     afterBlank: "...",
     lineBreakAfter: true,
   },
@@ -156,7 +156,7 @@ const fillInTheBlanks: FillInTheBlank[] = [
     options: true,
     width: "100px",
     beforeBlank: "3. ...",
-    correctAnswer: "...",
+    correctAnswer: ["..."],
     afterBlank: "...",
     lineBreakAfter: true,
   },
@@ -164,7 +164,7 @@ const fillInTheBlanks: FillInTheBlank[] = [
     options: true,
     width: "100px",
     beforeBlank: "4. ...",
-    correctAnswer: "...",
+    correctAnswer: ["..."],
     afterBlank: "...",
     lineBreakAfter: true,
   },
@@ -172,7 +172,7 @@ const fillInTheBlanks: FillInTheBlank[] = [
     options: true,
     width: "100px",
     beforeBlank: "5. ...",
-    correctAnswer: "...",
+    correctAnswer: ["..."],
     afterBlank: "...",
     lineBreakAfter: true,
   },
@@ -446,7 +446,7 @@ export default function NewFoodFlavorsComingToStores() {
         descriptions={["Article", "New Food Flavors Coming To Stores"]}
       />
       <div className="line-break">
-        <Slider images={slider} />
+        <SwiperFraction images={swiperFraction} />
         <Listening
           discussion="Check out the pictures above. Swipe them to the right and answer the questions."
           discussionQuestions={discussionQuestions}
