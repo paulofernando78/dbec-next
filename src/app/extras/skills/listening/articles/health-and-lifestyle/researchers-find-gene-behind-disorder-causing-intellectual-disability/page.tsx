@@ -4,6 +4,8 @@ import SwiperFraction from "@/components/Swiper/Fraction";
 import {
   DiscussionQuestion,
   PreVocabulary,
+  FillInTheBlank,
+  GistQuestion,
   Listening,
   Paragraph,
   ScanQuestion,
@@ -117,6 +119,28 @@ const preVocabularies: PreVocabulary[] = [
       label: "telomers",
       phonetics: "/ˈte.lə.mɪrz/",
     },
+  },
+];
+
+const fillInTheBlanks: FillInTheBlank[] = [
+	{
+    questions: [
+      {
+        options: true,
+        width: "100px",
+        beforeBlank: "1. ...",
+        correctAnswer: "...",
+        afterBlank: "...",
+        lineBreakAfter: true,
+      },
+    ],
+  },
+];
+
+const gistQuestions: GistQuestion[] = [
+  {
+    question: "...",
+    answer: "...",
   },
 ];
 
@@ -260,112 +284,42 @@ const paragraphs: Paragraph[] = [
 const scanQuestions: ScanQuestion[] = [
   {
     question: "How common is the disorder mentioned in the text?",
+    answer: "...",
   },
   {
     question: "What are some of the symptoms of this disorder?",
+    answer: "...",
   },
   {
     question:
       "What is the name of the lead investigator mentioned in the study?",
+    answer: "...",
   },
   {
     question: "What kind of genetic mutations are involved?",
+    answer: "...",
   },
   {
     question: "What project provided the data for this study?",
+    answer: "...",
   },
   {
     question:
       "What is the potential significance of this study according to Andrew Mumford?",
+    answer: "...",
   },
 ];
 
 const followupQuestions: FollowupQuestion[] = [
   {
-    question:
+    enQuestion:
       "How do you think this new research will impact the lives of families affected by the disorder?",
+    ptQuestion: "...",
   },
   {
-    question:
+    enQuestion:
       "What are the potential benefits of being able to diagnose this disorder early?",
-  },
-];
-
-const radioExercises = [
-  {
-    title: "1. Choose the correct answer.",
-    question: "1. ...",
-    options: [
-      {
-        label: "a) ...",
-        isCorrect: true,
-      },
-      {
-        label: "b) ...",
-        isCorrect: false,
-      },
-      { label: "c) ...", isCorrect: false },
-    ],
-  },
-  {
-    title: "2. Choose the correct answer.",
-    question: "1. ...",
-    options: [
-      {
-        label: "a) ...",
-        isCorrect: true,
-      },
-      {
-        label: "b) ...",
-        isCorrect: false,
-      },
-      { label: "c) ...", isCorrect: false },
-    ],
-  },
-  {
-    title: "3. Choose the correct answer.",
-    question: "1. ...",
-    options: [
-      {
-        label: "a) ...",
-        isCorrect: true,
-      },
-      {
-        label: "b) ...",
-        isCorrect: false,
-      },
-      { label: "c) ...", isCorrect: false },
-    ],
-  },
-  {
-    title: "4. Choose the correct answer.",
-    question: "1. ...",
-    options: [
-      {
-        label: "a) ...",
-        isCorrect: true,
-      },
-      {
-        label: "b) ...",
-        isCorrect: false,
-      },
-      { label: "c) ...", isCorrect: false },
-    ],
-  },
-  {
-    title: "5. Choose the correct answer.",
-    question: "1. ...",
-    options: [
-      {
-        label: "a) ...",
-        isCorrect: true,
-      },
-      {
-        label: "b) ...",
-        isCorrect: false,
-      },
-      { label: "c) ...", isCorrect: false },
-    ],
+    ptQuestion: "...",
   },
 ];
 
@@ -387,13 +341,14 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."
             discussionQuestions={discussionQuestions}
             preVocabularies={preVocabularies}
+            fillInTheBlanks={fillInTheBlanks}
+            gistQuestions={gistQuestions}
             audioSrc="https://voa-audio-ns.akamaized.net/vle/2024/06/04/01000000-0aff-0242-bd74-08dc84d8b022.mp3"
             paragraphs={paragraphs}
             scanQuestions={scanQuestions}
             followupQuestions={followupQuestions}
           />
         </div>
-        <Radio questions={radioExercises} />
       </div>
       <div className="line-break">
         <SwiperFraction images={swiperFraction} />
@@ -402,13 +357,14 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
             discussion="Check out the pictures above and answer the questions."
             discussionQuestions={discussionQuestions}
             preVocabularies={preVocabularies}
+            fillInTheBlanks={fillInTheBlanks}
+            gistQuestions={gistQuestions}
             audioSrc="https://voa-audio-ns.akamaized.net/vle/2024/06/21/01000000-0aff-0242-830c-08dc923fce0e.mp3"
             paragraphs={paragraphs}
             scanQuestions={scanQuestions}
             followupQuestions={followupQuestions}
           />
         </div>
-        <Radio questions={radioExercises} />
         <ScrollToTop />
       </div>
     </>
