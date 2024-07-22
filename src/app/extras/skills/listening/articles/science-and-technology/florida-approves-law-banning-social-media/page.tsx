@@ -106,44 +106,64 @@ const preVocabularies: PreVocabulary[] = [
 
 const fillInTheBlanks: FillInTheBlank[] = [
   {
-    options: true,
-    width: "100px",
-    beforeBlank: "1. The greatest",
-    correctAnswer: "challenge",
-    afterBlank: "facing the region is unemployment.",
-    lineBreakAfter: true,
+    questions: [
+      {
+        options: true,
+        width: "100px",
+        beforeBlank: "1. The greatest",
+        correctAnswer: "challenge",
+        afterBlank: "facing the region is unemployment.",
+        lineBreakAfter: true,
+      },
+    ],
   },
   {
-    options: true,
-    width: "100px",
-    beforeBlank: "2. The written",
-    correctAnswer: "consent",
-    afterBlank: " of a parent is required.",
-    lineBreakAfter: true,
+    questions: [
+      {
+        options: true,
+        width: "100px",
+        beforeBlank: "2. The written",
+        correctAnswer: "consent",
+        afterBlank: " of a parent is required.",
+        lineBreakAfter: true,
+      },
+    ],
   },
   {
-    options: true,
-    width: "100px",
-    beforeBlank: "3. The game is very",
-    correctAnswer: "addictive",
-    afterBlank: ".",
-    lineBreakAfter: true,
+    questions: [
+      {
+        options: true,
+        width: "100px",
+        beforeBlank: "3. The game is very",
+        correctAnswer: "addictive",
+        afterBlank: ".",
+        lineBreakAfter: true,
+      },
+    ],
   },
   {
-    options: true,
-    width: "100px",
-    beforeBlank: "4. The government decided to ",
-    correctAnswer: "enact",
-    afterBlank: "a new law to protect the environment.",
-    lineBreakAfter: true,
+    questions: [
+      {
+        options: true,
+        width: "100px",
+        beforeBlank: "4. The government decided to ",
+        correctAnswer: "enact",
+        afterBlank: "a new law to protect the environment.",
+        lineBreakAfter: true,
+      },
+    ],
   },
   {
-    options: true,
-    width: "100px",
-    beforeBlank: "5. The town has a lot of",
-    correctAnswer: "diversity",
-    afterBlank: "with people from many different cultures living there.",
-    lineBreakAfter: true,
+    questions: [
+      {
+        options: true,
+        width: "100px",
+        beforeBlank: "5. The town has a lot of",
+        correctAnswer: "diversity",
+        afterBlank: "with people from many different cultures living there.",
+        lineBreakAfter: true,
+      },
+    ],
   },
 ];
 
