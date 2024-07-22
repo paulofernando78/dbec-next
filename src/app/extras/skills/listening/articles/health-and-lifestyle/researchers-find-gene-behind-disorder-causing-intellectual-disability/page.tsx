@@ -12,7 +12,6 @@ import {
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { humanChromosomes } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 

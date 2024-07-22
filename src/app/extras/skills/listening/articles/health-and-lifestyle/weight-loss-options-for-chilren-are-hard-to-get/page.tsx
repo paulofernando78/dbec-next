@@ -3,6 +3,8 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import {
   DiscussionQuestion,
   PreVocabulary,
+  FillInTheBlank,
+  GistQuestion,
   Listening,
   Paragraph,
   ScanQuestion,
@@ -170,6 +172,28 @@ const preVocabularies: PreVocabulary[] = [
       label: "clinical",
       phonetics: "/ˈklɪn.ɪ.kəl/",
     },
+  },
+];
+
+const fillInTheBlanks: FillInTheBlank[] = [
+  {
+    questions: [
+      {
+        options: true,
+        width: "100px",
+        beforeBlank: "1. ...",
+        correctAnswer: "...",
+        afterBlank: "...",
+        lineBreakAfter: true,
+      },
+    ],
+  },
+];
+
+const gistQuestions: GistQuestion[] = [
+  {
+    question: "...",
+    answer: "...",
   },
 ];
 
@@ -480,135 +504,145 @@ const scanQuestions: ScanQuestion[] = [
   {
     question:
       "What is the most widely suggested treatment for overweight children in the U.S.?",
+    answer: "",
   },
   {
     question: "What are some barriers to accessing these programs?",
+    answer: "",
   },
   {
     question:
       "Who is Dr. Joseph Skelton, and what does he say about insurance coverage?",
+    answer: "",
   },
   {
     question: "What did Ruth Medina do to help her daughter, Jelainie?",
+    answer: "",
   },
   {
     question:
       "What method does Stanford's lifestyle-counseling program use to teach healthy eating?",
+    answer: "",
   },
   {
     question:
       'What are the three types of "light" foods mentioned in the article?',
+    answer: "",
   },
 ];
 
 const followupQuestions: FollowupQuestion[] = [
   {
-    question:
+    enQuestion:
       "Do you think behavioral counseling should be more widely available? Why or why not?",
+    ptQuestion: "",
   },
   {
-    question: "How important is insurance coverage for these programs?",
+    enQuestion: "How important is insurance coverage for these programs?",
+    ptQuestion: "",
   },
   {
-    question:
+    enQuestion:
       'What do you think of the "red light, green light" method? Could it be effective?',
+    ptQuestion: "",
   },
   {
-    question:
+    enQuestion:
       "How can schools and communities help address the issue of childhood obesity?",
+    ptQuestion: "",
   },
 ];
 
-const radioExercises = [
-  {
-    title: "Answer the questions.",
-    question:
-      "1. What has the CDC and other organizations tried to do regarding behavioral counseling programs?",
-    options: [
-      {
-        label: "a) Reduce the length of the programs",
-        isCorrect: false,
-      },
-      {
-        label: "b) Expand insurance coverage for the programs",
-        isCorrect: true,
-      },
-      { label: "c) Decrease the intensity of the programs", isCorrect: false },
-    ],
-  },
-  {
-    question:
-      "2. What motivated Ruth Medina to seek help for her daughter, Jalainie?",
-    options: [
-      {
-        label: "a) She wanted her daughter to join a sports team",
-        isCorrect: false,
-      },
-      {
-        label: "b) She noticed her daughter’s weight was affecting her health",
-        isCorrect: true,
-      },
-      {
-        label: "c) She was pressured by her daughter’s school",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    question:
-      "3. What happens during the first meeting of the Holyoke Health Center's program?",
-    options: [
-      {
-        label: "a) Children receive a medical check-up",
-        isCorrect: false,
-      },
-      {
-        label: "b) Parents and children prepare a healthy meal together",
-        isCorrect: true,
-      },
-      {
-        label: "c) Families watch a video about healthy eating",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    question: '4. How does Stanford\'s program categorize "red-light" foods?',
-    options: [
-      {
-        label: "a) Foods that should be eaten in moderation",
-        isCorrect: true,
-      },
-      {
-        label:
-          "b) Foods that should be eaten rarely due to high-calorie content",
-        isCorrect: true,
-      },
-      {
-        label: "c) Foods that can be eaten freely without restriction",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    question:
-      "5. What is one of the reasons insurance companies may not cover obesity counseling programs?",
-    options: [
-      {
-        label: "a) The programs are too new",
-        isCorrect: false,
-      },
-      {
-        label: "b) They are not recommended by medical professionals",
-        isCorrect: false,
-      },
-      {
-        label: "c) They include non-clinical services like cooking classes",
-        isCorrect: true,
-      },
-    ],
-  },
-];
+// const radioExercises = [
+//   {
+//     title: "Answer the questions.",
+//     question:
+//       "1. What has the CDC and other organizations tried to do regarding behavioral counseling programs?",
+//     options: [
+//       {
+//         label: "a) Reduce the length of the programs",
+//         isCorrect: false,
+//       },
+//       {
+//         label: "b) Expand insurance coverage for the programs",
+//         isCorrect: true,
+//       },
+//       { label: "c) Decrease the intensity of the programs", isCorrect: false },
+//     ],
+//   },
+//   {
+//     question:
+//       "2. What motivated Ruth Medina to seek help for her daughter, Jalainie?",
+//     options: [
+//       {
+//         label: "a) She wanted her daughter to join a sports team",
+//         isCorrect: false,
+//       },
+//       {
+//         label: "b) She noticed her daughter’s weight was affecting her health",
+//         isCorrect: true,
+//       },
+//       {
+//         label: "c) She was pressured by her daughter’s school",
+//         isCorrect: false,
+//       },
+//     ],
+//   },
+//   {
+//     question:
+//       "3. What happens during the first meeting of the Holyoke Health Center's program?",
+//     options: [
+//       {
+//         label: "a) Children receive a medical check-up",
+//         isCorrect: false,
+//       },
+//       {
+//         label: "b) Parents and children prepare a healthy meal together",
+//         isCorrect: true,
+//       },
+//       {
+//         label: "c) Families watch a video about healthy eating",
+//         isCorrect: false,
+//       },
+//     ],
+//   },
+//   {
+//     question: '4. How does Stanford\'s program categorize "red-light" foods?',
+//     options: [
+//       {
+//         label: "a) Foods that should be eaten in moderation",
+//         isCorrect: true,
+//       },
+//       {
+//         label:
+//           "b) Foods that should be eaten rarely due to high-calorie content",
+//         isCorrect: true,
+//       },
+//       {
+//         label: "c) Foods that can be eaten freely without restriction",
+//         isCorrect: false,
+//       },
+//     ],
+//   },
+//   {
+//     question:
+//       "5. What is one of the reasons insurance companies may not cover obesity counseling programs?",
+//     options: [
+//       {
+//         label: "a) The programs are too new",
+//         isCorrect: false,
+//       },
+//       {
+//         label: "b) They are not recommended by medical professionals",
+//         isCorrect: false,
+//       },
+//       {
+//         label: "c) They include non-clinical services like cooking classes",
+//         isCorrect: true,
+//       },
+//     ],
+//   },
+// ];
 
 export default function WeightLossOptionsForChildrenAreHardToGet() {
   return (
@@ -623,16 +657,18 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
         <Slider images={slider} />
         <div>
           <Listening
-            discussion="Check out the pictures above and answer the questions."
+            discussion="Check out the pictures above. Swipe them to the right and answer the questions."
             discussionQuestions={discussionQuestions}
             preVocabularies={preVocabularies}
+            fillInTheBlanks={fillInTheBlanks}
+            gistQuestions={gistQuestions}
             audioSrc="https://voa-audio-ns.akamaized.net/vle/2024/06/21/01000000-0aff-0242-830c-08dc923fce0e.mp3"
             paragraphs={paragraphs}
             scanQuestions={scanQuestions}
             followupQuestions={followupQuestions}
           />
         </div>
-        <Radio questions={radioExercises} />
+        {/* <Radio questions={radioExercises} /> */}
         <ScrollToTop />
       </div>
     </>
