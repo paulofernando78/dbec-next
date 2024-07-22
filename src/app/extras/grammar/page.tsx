@@ -17,10 +17,6 @@ const descriptions = [
             link: "/extras/grammar/elementary",
             linkLabel: "Intermediate",
           },
-          // {
-          //     link: "/extras/grammar/elementary",
-          //     linkLabel: "Advanced"
-          // }
         ],
       },
     ],

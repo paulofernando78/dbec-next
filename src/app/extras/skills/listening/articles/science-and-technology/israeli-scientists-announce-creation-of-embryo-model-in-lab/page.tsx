@@ -119,16 +119,12 @@ const preVocabularies: PreVocabulary[] = [
 
 const fillInTheBlanks: FillInTheBlank[] = [
   {
-    questions: [
-      {
-        options: true,
-        width: "100px",
-        beforeBlank: "1. ...",
-        correctAnswer: "...",
-        afterBlank: "...",
-        lineBreakAfter: true,
-      },
-    ],
+    options: true,
+    width: "100px",
+    beforeBlank: "1. ...",
+    correctAnswer: "...",
+    afterBlank: "...",
+    lineBreakAfter: true,
   },
 ];
 
@@ -367,29 +363,29 @@ const paragraphs: Paragraph[] = [
 const scanQuestions: ScanQuestion[] = [
   {
     question: "What institute conducted the research?",
-    answer: ""
+    answer: "",
   },
   {
     question:
       "What date is mentioned in relation to the stage of the embryo model?",
-      answer: ""
+    answer: "",
   },
   {
     question: "Who led the research team?",
-    answer: ""
+    answer: "",
   },
   {
     question:
       "What is one potential use of the embryo models mentioned in the article?",
-      answer: ""
+    answer: "",
   },
   {
     question: "How far did the embryo model develop?",
-    answer: ""
+    answer: "",
   },
   {
     question: "What is the team's next goal?",
-    answer: ""
+    answer: "",
   },
 ];
 
@@ -397,22 +393,22 @@ const followupQuestions: FollowupQuestion[] = [
   {
     enQuestion:
       "What are your thoughts on using stem cells to create embryo models?",
-      ptQuestion: ""
+    ptQuestion: "",
   },
   {
     enQuestion:
       "Do you think the benefits of this research outweigh the ethical concerns? Why or why not?",
-      ptQuestion: ""
+    ptQuestion: "",
   },
   {
     enQuestion:
       "How do you think this research could impact future medical treatments?",
-      ptQuestion: ""
+    ptQuestion: "",
   },
   {
     enQuestion:
       "Why do some opponents of stem cell research consider it unethical and immoral?",
-      ptQuestion: ""
+    ptQuestion: "",
   },
 ];
 

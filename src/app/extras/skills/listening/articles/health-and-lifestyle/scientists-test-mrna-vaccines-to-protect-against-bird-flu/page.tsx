@@ -241,14 +241,14 @@ const followupQuestions: FollowupQuestion[] = [
   },
 ];
 
-export default function FiveTipsHowToGetBetterSleep() {
+export default function ScientistsTestMrnaVaccinesToProtectAgainstBirdFlu() {
   return (
     <>
       <Whiteboard
         title="Specific Purposes"
         subtitle="Listening"
-        descriptions={["Five tips to get better sleep"]}
-        subdescription="April 29, 2024"
+        descriptions={["Scientists test Mrna vaccines to protect against bird flu"]}
+        subdescription="June 10, 2024"
       />
       <div className="line-break">
         <SwiperFraction images={swiperFraction} />

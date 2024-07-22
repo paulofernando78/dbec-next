@@ -122,17 +122,13 @@ const preVocabularies: PreVocabulary[] = [
 ];
 
 const fillInTheBlanks: FillInTheBlank[] = [
-	{
-    questions: [
-      {
-        options: true,
-        width: "100px",
-        beforeBlank: "1. ...",
-        correctAnswer: "...",
-        afterBlank: "...",
-        lineBreakAfter: true,
-      },
-    ],
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "1. ...",
+    correctAnswer: "...",
+    afterBlank: "...",
+    lineBreakAfter: true,
   },
 ];
 

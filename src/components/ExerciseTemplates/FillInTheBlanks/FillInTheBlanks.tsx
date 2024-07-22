@@ -12,13 +12,8 @@ import incorrectIcon from "@/img/icon/incorrect.png";
 // CCS
 import styles from "./styles.module.css";
 
-interface FillInTheBlanksProps {
-  questions: Question[];
-  display: string;
-}
-
 interface Question {
-  // options: boolean;
+  options: boolean;
   width?: string;
   title?: string;
   subtitle?: string;
@@ -28,6 +23,11 @@ interface Question {
   correctAnswer: string[];
   afterBlank: string;
   lineBreakAfter?: boolean;
+}
+
+interface FillInTheBlanksProps {
+  questions: Question[];
+  display: string;
 }
 
 export const FillInTheBlanks = ({

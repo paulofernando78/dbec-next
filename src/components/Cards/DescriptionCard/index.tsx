@@ -6,6 +6,7 @@ import Image from "next/image";
 import styles from "./styles.module.css";
 
 // Images
+import linkIcon from "@/img/icon/link.png";
 import globeIcon from "@/img/icon/globe.png";
 import { Card } from "../Card";
 
@@ -20,8 +21,8 @@ interface Content {
 }
 
 interface SubDescription {
-  bgColor: string
-  textColor: string
+  bgColor: string;
+  textColor: string;
   label: string;
   contents: Content[];
 }
@@ -56,7 +57,10 @@ export const DescriptionCard = ({ descriptions }: DescriptionCardProps) => {
                 {/* Label */}
                 <p
                   className={`bold ${styles["card-description-label"]}`}
-                  style={{ backgroundColor: subdescription.bgColor, color: subdescription.textColor }}
+                  style={{
+                    backgroundColor: subdescription.bgColor,
+                    color: subdescription.textColor,
+                  }}
                 >
                   {subdescription.label}
                 </p>
@@ -70,14 +74,17 @@ export const DescriptionCard = ({ descriptions }: DescriptionCardProps) => {
 
                     {/* Link / Label Link */}
                     {content.link && content.linkLabel && (
-                      <div>
-                        <div>
-                          <Link href={content.link}>
-                            <p className={styles["link-label-position"]}>
-                              {content.linkLabel}
-                            </p>
-                          </Link>
-                        </div>
+                      <div className="flex-8px-center-wrap">
+                        <Image
+                          src={linkIcon}
+                          alt="Globe icon"
+                          className={`icon-general ${styles["link-icon"]}`}
+                        />
+                        <Link href={content.link}>
+                          <p className={styles["link-label-position"]}>
+                            {content.linkLabel}
+                          </p>
+                        </Link>
                       </div>
                     )}
                     {/* Globe Image / Globe Link */}
