@@ -137,44 +137,64 @@ const preVocabularies: PreVocabulary[] = [
 
 const fillInTheBlanks: FillInTheBlank[] = [
   {
-    options: true,
-    width: "100px",
-    beforeBlank: "1. ...",
-    correctAnswer: "...",
-    afterBlank: "...",
-    lineBreakAfter: true,
+    questions: [
+      {
+        options: true,
+        width: "100px",
+        beforeBlank: "1. ...",
+        correctAnswer: "...",
+        afterBlank: "...",
+        lineBreakAfter: true,
+      },
+    ],
   },
   {
-    options: true,
-    width: "100px",
-    beforeBlank: "2. ...",
-    correctAnswer: "...",
-    afterBlank: " ...",
-    lineBreakAfter: true,
+    questions: [
+      {
+        options: true,
+        width: "100px",
+        beforeBlank: "2. ...",
+        correctAnswer: "...",
+        afterBlank: " ...",
+        lineBreakAfter: true,
+      },
+    ],
   },
   {
-    options: true,
-    width: "100px",
-    beforeBlank: "3. ...",
-    correctAnswer: "...",
-    afterBlank: " ...",
-    lineBreakAfter: true,
+    questions: [
+      {
+        options: true,
+        width: "100px",
+        beforeBlank: "3. ...",
+        correctAnswer: "...",
+        afterBlank: " ...",
+        lineBreakAfter: true,
+      },
+    ],
   },
   {
-    options: true,
-    width: "100px",
-    beforeBlank: "4. ...",
-    correctAnswer: "...",
-    afterBlank: " ...",
-    lineBreakAfter: true,
+    questions: [
+      {
+        options: true,
+        width: "100px",
+        beforeBlank: "4. ...",
+        correctAnswer: "...",
+        afterBlank: " ...",
+        lineBreakAfter: true,
+      },
+    ],
   },
   {
-    options: true,
-    width: "100px",
-    beforeBlank: "5. ...",
-    correctAnswer: "...",
-    afterBlank: " ...",
-    lineBreakAfter: true,
+    questions: [
+      {
+        options: true,
+        width: "100px",
+        beforeBlank: "5. ...",
+        correctAnswer: "...",
+        afterBlank: " ...",
+        lineBreakAfter: true,
+      },
+    ],
   },
 ];
 
@@ -403,11 +423,11 @@ const paragraphs: Paragraph[] = [
 const scanQuestions: ScanQuestion[] = [
   {
     question: "What unusual flavor did Hershey add to its Kit Kats?",
-    answer: "..."
+    answer: "...",
   },
   {
     question: "Which generation is driving the trend for new flavors?",
-    answer: "..."
+    answer: "...",
   },
 ];
 
