@@ -20,14 +20,14 @@ export interface Question {
   beforeBlank: string;
   lineBreakBefore?: boolean;
   placeholder?: string;
-  correctAnswer: string[];
+  correctAnswer: string | string[];
   afterBlank: string;
   lineBreakAfter?: boolean;
 }
 
 interface FillInTheBlanksProps {
   questions: Question[];
-  display: string;
+  display?: string;
 }
 
 export const FillInTheBlanks = ({
