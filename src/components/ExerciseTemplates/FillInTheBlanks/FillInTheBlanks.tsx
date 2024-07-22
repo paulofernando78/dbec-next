@@ -23,6 +23,7 @@ export interface Question {
   correctAnswer: string | string[];
   afterBlank: string;
   lineBreakAfter?: boolean;
+  display?: string;
 }
 
 interface FillInTheBlanksProps {

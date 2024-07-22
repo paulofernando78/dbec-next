@@ -143,7 +143,6 @@ const fillInTheBlanks: Question[] = [
     correctAnswer: ["..."],
     afterBlank: "...",
     lineBreakAfter: true,
-    display: "",
   },
   {
     options: true,
@@ -152,7 +151,6 @@ const fillInTheBlanks: Question[] = [
     correctAnswer: ["..."],
     afterBlank: "...",
     lineBreakAfter: true,
-    display: "",
   },
   {
     options: true,
@@ -161,7 +159,6 @@ const fillInTheBlanks: Question[] = [
     correctAnswer: ["..."],
     afterBlank: "...",
     lineBreakAfter: true,
-    display: "",
   },
   {
     options: true,
@@ -170,7 +167,6 @@ const fillInTheBlanks: Question[] = [
     correctAnswer: ["..."],
     afterBlank: "...",
     lineBreakAfter: true,
-    display: "",
   },
   {
     options: true,
@@ -179,7 +175,6 @@ const fillInTheBlanks: Question[] = [
     correctAnswer: ["..."],
     afterBlank: "...",
     lineBreakAfter: true,
-    display: "",
   },
 ];
 
