@@ -1,6 +1,6 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import SwiperFraction from "@/components/SwiperFraction";
+import SwiperFraction from "@/components/Swiper/SwiperFraction";
 import {
   DiscussionQuestion,
   PreVocabulary,
@@ -150,9 +150,10 @@ const fillInTheBlanks: FillInTheBlank[] = [
 const gistQuestions: GistQuestion[] = [
   {
     question: "What is the main topic of the news report?",
-    answer: "The main topic of the news report is a new law in Florida that regulates children's access to social media, requiring parental permission for 14- and 15-year-olds."
+    answer:
+      "The main topic of the news report is a new law in Florida that regulates children's access to social media, requiring parental permission for 14- and 15-year-olds.",
   },
-]
+];
 
 const paragraphs: Paragraph[] = [
   {
@@ -333,19 +334,19 @@ const paragraphs: Paragraph[] = [
 const scanQuestions: ScanQuestion[] = [
   {
     question: "What are the age restrictions mentioned in the new law?",
-    answer: "aaa"
+    answer: "aaa",
   },
   {
     question: "Why did Governor DeSantis veto the first version of the bill?",
-    answer: "bbb"
+    answer: "bbb",
   },
   {
     question: "What are some arguments from supporters and critics of the law?",
-    answer: "ccc"
+    answer: "ccc",
   },
   {
     question: "When will the law take effect?",
-    answer: "ddd"
+    answer: "ddd",
   },
 ];
 
@@ -357,7 +358,8 @@ const followupQuestions: FollowupQuestion[] = [
   {
     enQuestion:
       "How might this law impact children and their use of social media?",
-    ptQuestion: "Como essa lei pode impactar as crianças e seu uso de redes sociais?",
+    ptQuestion:
+      "Como essa lei pode impactar as crianças e seu uso de redes sociais?",
   },
 ];
 

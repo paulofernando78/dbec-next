@@ -1,16 +1,19 @@
-import { Pronunciation, PronunciationCard } from "@/components/Cards/PronunciationCard";
+import {
+  Pronunciation,
+  PronunciationCard,
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: "Letters \"oo\"",
+    label: 'Letters "oo"',
     sound: "/ʌ/, /ʊ/, /uː/",
     phonetics: [
-      // /ʌ/ 
+      // /ʌ/
       {
-      beforeText: "Listen and repeat.",
-      phoneticsComponent: (props) => <DictionaryCard {...props} />,
-	        phoneticsComponentProps: {
+        beforeText: "Listen and repeat.",
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
           audioSrc: "/phonetics/ʌ.mp3",
           label: "phonetics",
           phonetics: "/ʌ/",
@@ -41,15 +44,15 @@ const pronunciations: Pronunciation[] = [
         examples: [
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
         ],
       },
       // ʊ
       {
-      beforeText: "listen and repeat.",
-      phoneticsComponent: (props) => <DictionaryCard {...props} />,
-	        phoneticsComponentProps: {
+        beforeText: "listen and repeat.",
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
           audioSrc: "/phonetics/ʊ.mp3",
           label: "phonetics",
           phonetics: "/ʊ/",
@@ -84,21 +87,21 @@ const pronunciations: Pronunciation[] = [
               label: "p<span class='underline'>oo</span>r",
               phonetics: "/pʊr/",
             },
-          }
+          },
         ],
         exampleAudioSrc: "",
         examples: [
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
         ],
       },
       // uː
       {
-      beforeText: "Listen and repeat.",
-      phoneticsComponent: (props) => <DictionaryCard {...props} />,
-	        phoneticsComponentProps: {
+        beforeText: "Listen and repeat.",
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
           audioSrc: "/phonetics/u.mp3",
           label: "phonetics",
           phonetics: "/uː/",
@@ -139,7 +142,7 @@ const pronunciations: Pronunciation[] = [
         examples: [
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
         ],
       },
@@ -151,7 +154,7 @@ export const LettersOO = () => {
   return (
     <>
       <div className="line-break">
-      <PronunciationCard pronunciations={pronunciations} />
+        <PronunciationCard pronunciations={pronunciations} />
       </div>
     </>
   );

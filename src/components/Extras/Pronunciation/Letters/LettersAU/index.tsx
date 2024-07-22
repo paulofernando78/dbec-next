@@ -1,7 +1,7 @@
 import {
   Pronunciation,
   PronunciationCard,
-} from "@/components/Cards/PronunciationCard";
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
@@ -24,7 +24,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/a/auto.mp3",
               keyword: "auto",
-              label: "<span class='underline'>au</span>to" ,
+              label: "<span class='underline'>au</span>to",
               phonetics: "/ˈɑː.t̬oʊ/",
             },
           },
@@ -59,7 +59,7 @@ const pronunciations: Pronunciation[] = [
             },
           },
           // vaul
-          { 
+          {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
               audioSrc: "/v/vaul.mp3",
@@ -74,7 +74,7 @@ const pronunciations: Pronunciation[] = [
           {
             enExample: "...",
             ptExample: "...",
-          }
+          },
         ],
       },
     ],

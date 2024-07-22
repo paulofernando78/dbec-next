@@ -1,7 +1,7 @@
 import {
   Pronunciation,
   PronunciationCard,
-} from "@/components/Cards/PronunciationCard";
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
@@ -25,8 +25,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/w/wife.mp3",
               keyword: "wife",
-              label:
-                "wi<span class='color-red'>f</span>(e)",
+              label: "wi<span class='color-red'>f</span>(e)",
               phonetics: "/waɪf/",
             },
           },
@@ -36,8 +35,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/s/since.mp3",
               keyword: "since",
-              label:
-                "sin<span class='color-red'>c</span>(e)",
+              label: "sin<span class='color-red'>c</span>(e)",
               phonetics: "/sɪns/",
             },
           },
@@ -47,8 +45,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/a/age.mp3",
               keyword: "age",
-              label:
-                "a<span class='color-red'>g</span>(e)",
+              label: "a<span class='color-red'>g</span>(e)",
               phonetics: "/eɪdʒ/",
             },
           },
@@ -58,8 +55,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/m/make.mp3",
               keyword: "make",
-              label:
-                "ma<span class='color-red'>k</span>(e)",
+              label: "ma<span class='color-red'>k</span>(e)",
               phonetics: "/meɪk/",
             },
           },
@@ -69,8 +65,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/s/same.mp3",
               keyword: "same",
-              label:
-                "sa<span class='color-red'>m</span>(e)",
+              label: "sa<span class='color-red'>m</span>(e)",
               phonetics: "/seɪm/",
             },
           },
@@ -80,8 +75,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/w/wine.mp3",
               keyword: "wine",
-              label:
-                "wi<span class='color-red'>n</span>(e)",
+              label: "wi<span class='color-red'>n</span>(e)",
               phonetics: "/waɪn/",
             },
           },
@@ -91,8 +85,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/a/ate.mp3",
               keyword: "ate",
-              label:
-                "a<span class='color-red'>t</span>(e)",
+              label: "a<span class='color-red'>t</span>(e)",
               phonetics: "/eɪt/",
             },
           },
@@ -102,8 +95,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/d/drive.mp3",
               keyword: "drive",
-              label:
-                "dri<span class='color-red'>v</span>(e)",
+              label: "dri<span class='color-red'>v</span>(e)",
               phonetics: "/draɪv/",
             },
           },
@@ -113,8 +105,7 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/e/expensive.mp3",
               keyword: "expensive",
-              label:
-                "expensi<span class='color-red'>v</span>(e)",
+              label: "expensi<span class='color-red'>v</span>(e)",
               phonetics: "/ɪkˈspen.sɪv/",
             },
           },

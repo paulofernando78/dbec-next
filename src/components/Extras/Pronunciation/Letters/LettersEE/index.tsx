@@ -1,12 +1,12 @@
 import {
   Pronunciation,
   PronunciationCard,
-} from "@/components/Cards/PronunciationCard";
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: "Letters \"ee\"",
+    label: 'Letters "ee"',
     sound: "/i/, /ɪ/",
     phonetics: [
       // /i/
@@ -86,7 +86,7 @@ const pronunciations: Pronunciation[] = [
             ptExample: "...",
           },
         ],
-      }
+      },
     ],
   },
 ];

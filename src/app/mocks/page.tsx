@@ -4,7 +4,9 @@ import { AudioPlayer } from "@/components/Audioplayer";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { FillInTheBlanks } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
-import SwiperFraction, { SwiperFractionData } from "@/components/SwiperFraction";
+import SwiperFraction, {
+  SwiperFractionData,
+} from "@/components/Swiper/SwiperFraction";
 
 // Images
 import { cat1, cat2, cat3 } from "@/img/index";

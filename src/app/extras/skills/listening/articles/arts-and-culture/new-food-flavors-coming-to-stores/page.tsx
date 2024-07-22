@@ -3,12 +3,13 @@ import {
   DiscussionQuestion,
   PreVocabulary,
   FillInTheBlank,
+  GistQuestion,
   Listening,
   Paragraph,
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
-import Slider from "@/components/SwiperFraction";
+import Slider from "@/components/Swiper/SwiperFraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 import {
@@ -67,7 +68,7 @@ const discussionQuestions: DiscussionQuestion[] = [
       {
         component: (props) => <DictionaryCard {...props} />,
         componentProps: {
-          audioSrc: "",
+          audioSrc: "/u/unusual.mp3",
           label: "unusual",
         },
         question: "about these",
@@ -75,7 +76,7 @@ const discussionQuestions: DiscussionQuestion[] = [
       {
         component: (props) => <DictionaryCard {...props} />,
         componentProps: {
-          audioSrc: "",
+          audioSrc: "/f/flavors.mp3",
           label: "flavors",
         },
         question: "?",
@@ -103,46 +104,53 @@ const preVocabularies: PreVocabulary[] = [
 ];
 
 const fillInTheBlanks: FillInTheBlank[] = [
-	{
-		options: true,
-		width: "100px",
-		beforeBlank: "1. The greatest",
-		correctAnswer: "challenge",
-		afterBlank: "facing the region is unemployment.",
-		lineBreakAfter: true
-	},
-	{
-		options: true,
-		width: "100px",
-		beforeBlank: "2. The written",
-		correctAnswer: "consent",
-		afterBlank: " of a parent is required.",
-		lineBreakAfter: true,
-	},
-	{
-		options: true,
-		width: "100px",
-		beforeBlank: "3. The game is very",
-		correctAnswer: "addictive",
-		afterBlank: ".",
-		lineBreakAfter: true,
-	},
-	{
-		options: true,
-		width: "100px",
-		beforeBlank: "4. The government decided to ",
-		correctAnswer: "enact",
-		afterBlank: "a new law to protect the environment.",
-		lineBreakAfter: true,
-	},
-	{
-		options: true,
-		width: "100px",
-		beforeBlank: "5. The town has a lot of",
-		correctAnswer: "diversity",
-		afterBlank: "with people from many different cultures living there.",
-		lineBreakAfter: true,
-	},
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "1. ...",
+    correctAnswer: "...",
+    afterBlank: "...",
+    lineBreakAfter: true,
+  },
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "2. ...",
+    correctAnswer: "...",
+    afterBlank: " ...",
+    lineBreakAfter: true,
+  },
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "3. ...",
+    correctAnswer: "...",
+    afterBlank: " ...",
+    lineBreakAfter: true,
+  },
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "4. ...",
+    correctAnswer: "...",
+    afterBlank: " ...",
+    lineBreakAfter: true,
+  },
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "5. ...",
+    correctAnswer: "...",
+    afterBlank: " ...",
+    lineBreakAfter: true,
+  },
+];
+
+const gistQuestions: GistQuestion[] = [
+  {
+    question: "...",
+    answer: "...",
+  },
 ];
 
 const paragraphs: Paragraph[] = [
@@ -371,22 +379,27 @@ const scanQuestions: ScanQuestion[] = [
 
 const followupQuestions: FollowupQuestion[] = [
   {
-    question:
+    enQuestion:
       "Have you ever tried any of the unusual flavors mentioned in the article? Share your experience.",
+    ptQuestion: "...",
   },
   {
-    question:
+    enQuestion:
       "Do you think introducing “shock flavors” is a good marketing strategy? Why or why not?",
+    ptQuestion: "...",
   },
   {
-    question:
+    enQuestion:
       "What unusual flavor combinations would you like to see in the future?",
+    ptQuestion: "...",
   },
   {
-    question: "Are these flavors healthy?",
+    enQuestion: "Are these flavors healthy?",
+    ptQuestion: "...",
   },
   {
-    question: "What are better choices?",
+    enQuestion: "What are better choices?",
+    ptQuestion: "...",
   },
 ];
 
@@ -398,17 +411,20 @@ export default function NewFoodFlavorsComingToStores() {
         subtitle="Listening"
         descriptions={["Article", "New Food Flavors Coming To Stores"]}
       />
-      <Slider images={slider} />
-      <Listening
-        discussion="Check out the pictures above. Swipe them to the right and answer the questions."
-        discussionQuestions={discussionQuestions}
-        preVocabularies={preVocabularies}
-        fillInTheBlanks={fillInTheBlanks}
-        audioSrc="/arts-and-culture/new-food-flavors-coming-to-stores/audio.mp3"
-        paragraphs={paragraphs}
-        scanQuestions={scanQuestions}
-        followupQuestions={followupQuestions}
-      />
+      <div className="line-break">
+        <Slider images={slider} />
+        <Listening
+          discussion="Check out the pictures above. Swipe them to the right and answer the questions."
+          discussionQuestions={discussionQuestions}
+          preVocabularies={preVocabularies}
+          fillInTheBlanks={fillInTheBlanks}
+          gistQuestions={gistQuestions}
+          audioSrc="https://voa-audio.voanews.eu/VLE/2024/05/21/01000000-0aff-0242-2f6f-08dc79de7d31.mp3"
+          paragraphs={paragraphs}
+          scanQuestions={scanQuestions}
+          followupQuestions={followupQuestions}
+        />
+      </div>
     </>
   );
 }

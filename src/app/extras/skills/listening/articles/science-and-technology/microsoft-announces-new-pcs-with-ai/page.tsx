@@ -8,7 +8,7 @@ import {
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
-import SwiperFraction from "@/components/SwiperFraction";
+import SwiperFraction from "@/components/Swiper/SwiperFraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { personHoldingTwoComputers } from "@/img/index";
@@ -26,7 +26,8 @@ const discussionQuestions: DiscussionQuestion[] = [
   {
     questions: [
       {
-        question: "1. What do you know about AI and its applications in everyday life?",
+        question:
+          "1. What do you know about AI and its applications in everyday life?",
       },
     ],
   },

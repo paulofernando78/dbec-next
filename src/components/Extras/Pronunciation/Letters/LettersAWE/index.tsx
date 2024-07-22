@@ -1,12 +1,12 @@
 import {
   Pronunciation,
   PronunciationCard,
-} from "@/components/Cards/PronunciationCard";
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: "Letters \"awe\"",
+    label: 'Letters "awe"',
     sound: "/ɑː/",
     phonetics: [
       {
@@ -42,7 +42,7 @@ const pronunciations: Pronunciation[] = [
           {
             enExample: "...",
             ptExample: "...",
-          }
+          },
         ],
       },
     ],

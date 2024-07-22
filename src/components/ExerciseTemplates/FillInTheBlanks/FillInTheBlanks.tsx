@@ -18,13 +18,14 @@ interface FillInTheBlanksProps {
 }
 
 interface Question {
+  // options: boolean;
+  width?: string;
   title?: string;
   subtitle?: string;
   beforeBlank: string;
   lineBreakBefore?: boolean;
   placeholder?: string;
   correctAnswer: string[];
-  width?: string;
   afterBlank: string;
   lineBreakAfter?: boolean;
 }

@@ -1,7 +1,7 @@
 import {
   Pronunciation,
   PronunciationCard,
-} from "@/components/Cards/PronunciationCard";
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
@@ -27,7 +27,7 @@ const pronunciations: Pronunciation[] = [
               label: "w<span class='underline'>or</span>k",
               phonetics: "/wɝːk/",
             },
-          }
+          },
         ],
         exampleAudioSrc: "",
         examples: [
@@ -36,7 +36,7 @@ const pronunciations: Pronunciation[] = [
             ptExample: "...",
           },
         ],
-      }
+      },
     ],
   },
 ];

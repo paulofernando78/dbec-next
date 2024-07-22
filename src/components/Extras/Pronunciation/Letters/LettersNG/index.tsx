@@ -2,7 +2,7 @@ import { Card } from "@/components/Cards/Card";
 import {
   Pronunciation,
   PronunciationCard,
-} from "@/components/Cards/PronunciationCard";
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
@@ -46,7 +46,7 @@ const pronunciations: Pronunciation[] = [
           {
             enExample: "...",
             ptExample: "...",
-          }
+          },
         ],
       },
     ],

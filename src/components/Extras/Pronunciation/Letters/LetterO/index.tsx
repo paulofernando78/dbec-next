@@ -1,7 +1,7 @@
 import {
   Pronunciation,
   PronunciationCard,
-} from "@/components/Cards/PronunciationCard";
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
@@ -129,7 +129,6 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/oʊ/",
         },
         words: [
-        
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {
@@ -162,7 +161,6 @@ const pronunciations: Pronunciation[] = [
         applyRedDashedBorder: true,
         beforeText: "Listen to the difference.",
         words: [
-        
           {
             component: (props) => <DictionaryCard {...props} />,
             componentProps: {

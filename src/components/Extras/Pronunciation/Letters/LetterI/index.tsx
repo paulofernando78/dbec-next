@@ -1,7 +1,7 @@
 import {
   Pronunciation,
   PronunciationCard,
-} from "@/components/Cards/PronunciationCard";
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
@@ -11,7 +11,8 @@ const pronunciations: Pronunciation[] = [
     phonetics: [
       // /i/
       {
-        beforeText: 'When the letter "i" sounds like in portuguese. Listen and repeat.',
+        beforeText:
+          'When the letter "i" sounds like in portuguese. Listen and repeat.',
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/i.mp3",
@@ -295,7 +296,7 @@ const pronunciations: Pronunciation[] = [
           {
             enExample: "...",
             ptExample: "...",
-          }
+          },
         ],
       },
       // /ə/
@@ -334,7 +335,7 @@ const pronunciations: Pronunciation[] = [
           {
             enExample: "...",
             ptExample: "...",
-          }
+          },
         ],
       },
       // /aɪ/
@@ -513,7 +514,7 @@ const pronunciations: Pronunciation[] = [
           {
             enExample: "...",
             ptExample: "...",
-          }
+          },
         ],
       },
       // /aɪ/
@@ -535,14 +536,14 @@ const pronunciations: Pronunciation[] = [
               label: "l<span class='underline'>i</span>ngerie",
               phonetics: "/ˌlɑːn.ʒəˈreɪ/",
             },
-          }
+          },
         ],
         exampleAudioSrc: "",
         examples: [
           {
             enExample: "...",
             ptExample: "...",
-          }
+          },
         ],
       },
     ],

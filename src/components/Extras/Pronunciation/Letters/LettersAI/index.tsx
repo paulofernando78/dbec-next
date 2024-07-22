@@ -1,7 +1,7 @@
 import {
   PronunciationCard,
   Pronunciation,
-} from "@/components/Cards/PronunciationCard";
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
@@ -45,7 +45,7 @@ const pronunciations: Pronunciation[] = [
           {
             enExample: "...",
             ptExample: "...",
-          }
+          },
         ],
       },
       // /eɪ/
@@ -84,7 +84,8 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/m/maintain.mp3",
               keyword: "maintain",
-              label: "m<span class='underline'>ai</span>nt<span class='underline'>ai</span>n",
+              label:
+                "m<span class='underline'>ai</span>nt<span class='underline'>ai</span>n",
               phonetics: "/meɪnˈteɪn/",
             },
           },
@@ -124,7 +125,7 @@ const pronunciations: Pronunciation[] = [
           {
             enExample: "...",
             ptExample: "...",
-          }
+          },
         ],
       },
     ],

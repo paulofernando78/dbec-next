@@ -1,15 +1,18 @@
-import { Pronunciation, PronunciationCard } from "@/components/Cards/PronunciationCard";
+import {
+  Pronunciation,
+  PronunciationCard,
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: "Letters \"ous\"",
+    label: 'Letters "ous"',
     sound: "/əs/",
     phonetics: [
       {
-      beforeText: "Listen and repeat.",
-      phoneticsComponent: (props) => <DictionaryCard {...props} />,
-	        phoneticsComponentProps: {
+        beforeText: "Listen and repeat.",
+        phoneticsComponent: (props) => <DictionaryCard {...props} />,
+        phoneticsComponentProps: {
           audioSrc: "/phonetics/əs.mp3",
           label: "phonetics",
           phonetics: "/əs/",
@@ -41,16 +44,16 @@ const pronunciations: Pronunciation[] = [
               label: "nerv<span class='underline'>ous</span>",
               phonetics: "/ˈnɝː.vəs/",
             },
-          }
+          },
         ],
         exampleAudioSrc: "",
         examples: [
           {
             enExample: "...",
-            ptExample: "..."
+            ptExample: "...",
           },
         ],
-      }
+      },
     ],
   },
 ];
@@ -59,7 +62,7 @@ export const LettersOUS = () => {
   return (
     <>
       <div className="line-break">
-      <PronunciationCard pronunciations={pronunciations} />
+        <PronunciationCard pronunciations={pronunciations} />
       </div>
     </>
   );

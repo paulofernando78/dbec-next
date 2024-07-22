@@ -1,7 +1,7 @@
 import {
   Pronunciation,
   PronunciationCard,
-} from "@/components/Cards/PronunciationCard";
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
@@ -89,7 +89,7 @@ const pronunciations: Pronunciation[] = [
             enExample: "Let's go to Disney Land to see Mickey Mouse.",
             ptExample: "Vamos para a Disneyland para ver o Mickey Mouse.",
           },
-        ]
+        ],
       },
       // /eɪ/
       {

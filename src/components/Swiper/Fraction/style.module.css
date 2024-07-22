@@ -11,11 +11,11 @@
 }
 
 .image {
-  max-width: 99%;
+  max-width: 98.4%;
   width: auto;
   height: 100%;
   border: var(--img-border);
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
-  margin: 4px;
+  margin: 5px;
 }

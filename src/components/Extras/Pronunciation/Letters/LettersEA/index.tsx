@@ -1,12 +1,12 @@
 import {
   Pronunciation,
   PronunciationCard,
-} from "@/components/Cards/PronunciationCard";
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: "Letters \"ea\"",
+    label: 'Letters "ea"',
     sound: "/i/, /j/, /ɪ/, /e/",
     phonetics: [
       // /i/
@@ -182,7 +182,8 @@ const pronunciations: Pronunciation[] = [
             componentProps: {
               audioSrc: "/t/tear2.mp3",
               keyword: "tear",
-              label: "<span class='color-red'>*</span>t<span class='underline'>ea</span>r",
+              label:
+                "<span class='color-red'>*</span>t<span class='underline'>ea</span>r",
               phonetics: "/ter/",
             },
           },

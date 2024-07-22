@@ -103,7 +103,7 @@ export const Listening = ({
                     </span>
                   )}
                   {/* question */}
-                  <span className="p-font inline margin-right">
+                  <span className="p-font display-inline margin-right">
                     {question.question}
                   </span>
                 </span>
@@ -118,6 +118,9 @@ export const Listening = ({
           <p className="p-size-smaller">'10</p>
         </div>
       </Card>
+      <p className="bold">Let's match the pictures with the vocabulary.</p>
+      {/* flipCards */}
+
       {/* preVocabularies */}
       <div className="flex-8px-center-wrap">
         {preVocabularies?.map((preVocabulary, indexPreVocabulary) => (
@@ -173,7 +176,7 @@ export const Listening = ({
                       )}
                       {/* enParagraph */}
                       {enParagraph.enParagraph && (
-                        <span className="p-font inline margin-right">
+                        <span className="p-font display-inline margin-right">
                           {enParagraph.enParagraph}
                         </span>
                       )}

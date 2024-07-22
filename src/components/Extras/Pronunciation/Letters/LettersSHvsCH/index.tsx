@@ -1,12 +1,12 @@
 import {
   Pronunciation,
   PronunciationCard,
-} from "@/components/Cards/PronunciationCard";
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
   {
-    label: "Letters \"sh\" vs. \"ch\"",
+    label: 'Letters "sh" vs. "ch"',
     sound: "/ʃ/ vs. /tʃ/",
     phonetics: [
       {

@@ -1,7 +1,7 @@
 import {
   Pronunciation,
   PronunciationCard,
-} from "@/components/Cards/PronunciationCard";
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
@@ -135,7 +135,7 @@ const pronunciations: Pronunciation[] = [
       },
       // /ð/
       {
-        beforeText: "That's when \"th\" vibrates. Listen and repeat.",
+        beforeText: 'That\'s when "th" vibrates. Listen and repeat.',
         phoneticsComponent: (props) => <DictionaryCard {...props} />,
         phoneticsComponentProps: {
           audioSrc: "/phonetics/ɪ.mp3",

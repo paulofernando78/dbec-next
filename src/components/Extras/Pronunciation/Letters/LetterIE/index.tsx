@@ -2,7 +2,7 @@ import { Card } from "@/components/Cards/Card";
 import {
   Pronunciation,
   PronunciationCard,
-} from "@/components/Cards/PronunciationCard";
+} from "@/components/Cards/Pronunciation";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const pronunciations: Pronunciation[] = [
@@ -59,14 +59,14 @@ const pronunciations: Pronunciation[] = [
               label: "zomb<span class='underline'>ie</span>",
               phonetics: "/ˈzɑːm.bi/",
             },
-          }
+          },
         ],
         exampleAudioSrc: "",
         examples: [
           {
             enExample: "...",
             ptExample: "...",
-          }
+          },
         ],
       },
       // /aɪ/
@@ -108,14 +108,14 @@ const pronunciations: Pronunciation[] = [
               label: "t<span class='underline'>ie</span>",
               phonetics: "/taɪ/",
             },
-          }
+          },
         ],
         exampleAudioSrc: "",
         examples: [
           {
             enExample: "...",
             ptExample: "...",
-          }
+          },
         ],
       },
     ],
