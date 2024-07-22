@@ -3,6 +3,8 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import {
   DiscussionQuestion,
   PreVocabulary,
+  FillInTheBlank,
+  GistQuestion,
   Listening,
   Paragraph,
   ScanQuestion,
@@ -10,7 +12,6 @@ import {
 } from "@/components/Lessons/Listening";
 import SwiperFraction from "@/components/Swiper/Fraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { personHoldingTwoComputers } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
@@ -96,6 +97,28 @@ const preVocabularies: PreVocabulary[] = [
       label: "characteristic",
       phonetics: "/ˌker.ək.təˈrɪs.tɪk/",
     },
+  },
+];
+
+const fillInTheBlanks: FillInTheBlank[] = [
+  {
+    questions: [
+      {
+        options: true,
+        width: "100px",
+        beforeBlank: "1. ...",
+        correctAnswer: "...",
+        afterBlank: "...",
+        lineBreakAfter: true,
+      },
+    ],
+  },
+];
+
+const gistQuestions: GistQuestion[] = [
+  {
+    question: "...",
+    answer: "...",
   },
 ];
 
@@ -309,30 +332,14 @@ const paragraphs: Paragraph[] = [
 const scanQuestions: ScanQuestion[] = [
   {
     question: "...",
+    answer: "",
   },
 ];
 
 const followupQuestions: FollowupQuestion[] = [
   {
-    question: "...",
-  },
-];
-
-const radioExercises = [
-  {
-    title: "1. Choose the correct answer.",
-    question: "1. ...",
-    options: [
-      {
-        label: "a) ...",
-        isCorrect: true,
-      },
-      {
-        label: "b) ...",
-        isCorrect: false,
-      },
-      { label: "c) ...", isCorrect: false },
-    ],
+    enQuestion: "...",
+    ptQuestion: "",
   },
 ];
 
@@ -356,13 +363,14 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."
             discussionQuestions={discussionQuestions}
             preVocabularies={preVocabularies}
+            fillInTheBlanks={fillInTheBlanks}
+            gistQuestions={gistQuestions}
             audioSrc="https://voa-audio.voanews.eu/VLE/2024/05/23/01000000-0aff-0242-868e-08dc7b2c160b.mp3"
             paragraphs={paragraphs}
             scanQuestions={scanQuestions}
             followupQuestions={followupQuestions}
           />
         </div>
-        <Radio questions={radioExercises} />
         <ScrollToTop />
       </div>
     </>

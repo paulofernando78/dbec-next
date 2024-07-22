@@ -2,6 +2,8 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import {
   DiscussionQuestion,
   PreVocabulary,
+  FillInTheBlank,
+  GistQuestion,
   Listening,
   Paragraph,
   ScanQuestion,
@@ -112,6 +114,28 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/s/stem-cell.mp3",
       label: "stem cell",
     },
+  },
+];
+
+const fillInTheBlanks: FillInTheBlank[] = [
+  {
+    questions: [
+      {
+        options: true,
+        width: "100px",
+        beforeBlank: "1. ...",
+        correctAnswer: "...",
+        afterBlank: "...",
+        lineBreakAfter: true,
+      },
+    ],
+  },
+];
+
+const gistQuestions: GistQuestion[] = [
+  {
+    question: "...",
+    answer: "...",
   },
 ];
 
@@ -343,110 +367,120 @@ const paragraphs: Paragraph[] = [
 const scanQuestions: ScanQuestion[] = [
   {
     question: "What institute conducted the research?",
+    answer: ""
   },
   {
     question:
       "What date is mentioned in relation to the stage of the embryo model?",
+      answer: ""
   },
   {
     question: "Who led the research team?",
+    answer: ""
   },
   {
     question:
       "What is one potential use of the embryo models mentioned in the article?",
+      answer: ""
   },
   {
     question: "How far did the embryo model develop?",
+    answer: ""
   },
   {
     question: "What is the team's next goal?",
+    answer: ""
   },
 ];
 
 const followupQuestions: FollowupQuestion[] = [
   {
-    question:
+    enQuestion:
       "What are your thoughts on using stem cells to create embryo models?",
+      ptQuestion: ""
   },
   {
-    question:
+    enQuestion:
       "Do you think the benefits of this research outweigh the ethical concerns? Why or why not?",
+      ptQuestion: ""
   },
   {
-    question:
+    enQuestion:
       "How do you think this research could impact future medical treatments?",
+      ptQuestion: ""
   },
   {
-    question:
+    enQuestion:
       "Why do some opponents of stem cell research consider it unethical and immoral?",
+      ptQuestion: ""
   },
 ];
 
-const radioExercises = [
-  {
-    title: "1. Choose the correct answer.",
-    question: "1. What did Israeli scientists create in a laboratory?",
-    options: [
-      {
-        label: "a) A model of a human embryo from stem cells.",
-        isCorrect: true,
-      },
-      {
-        label: "b) A full human embryo using eggs and sperm.",
-        isCorrect: false,
-      },
-      { label: "c) A synthetic organ from adult cells.", isCorrect: false },
-    ],
-  },
-  {
-    question:
-      "2. What is the main purpose of the embryo model created by Israeli scientists?",
-    options: [
-      { label: "a) To grow into a full human baby.", isCorrect: false },
-      {
-        label: "b) To support research on early human development.",
-        isCorrect: true,
-      },
-      { label: "c) To develop new types of stem cells.", isCorrect: false },
-    ],
-  },
-  {
-    question:
-      "3. At what stage does the embryo model created by the Israeli researchers resemble a real human embryo?",
-    options: [
-      { label: "a) At day 7.", isCorrect: false },
-      { label: "b) At day 14.", isCorrect: true },
-      { label: "c) At day 21.", isCorrect: false },
-    ],
-  },
-  {
-    question:
-      "4. What is one potential application of these embryo models mentioned by the researchers?",
-    options: [
-      {
-        label: "a) To test the effect of drugs on pregnancies.",
-        isCorrect: true,
-      },
-      {
-        label: "b) To create fully functional synthetic humans.",
-        isCorrect: false,
-      },
-      {
-        label: "c) To replace the need for organ donations.",
-        isCorrect: false,
-      },
-    ],
-  },
-  {
-    question:
-      "5. What was the maximum development stage reached by the embryo model in the study?",
-    options: [
-      { label: "a) Day 7.", isCorrect: false },
-      { label: "b) Day 14.", isCorrect: true },
-      { label: "c) Day 21.", isCorrect: false },
-    ],
-  },
-];
+// const radioExercises = [
+//   {
+//     title: "1. Choose the correct answer.",
+//     question: "1. What did Israeli scientists create in a laboratory?",
+//     options: [
+//       {
+//         label: "a) A model of a human embryo from stem cells.",
+//         isCorrect: true,
+//       },
+//       {
+//         label: "b) A full human embryo using eggs and sperm.",
+//         isCorrect: false,
+//       },
+//       { label: "c) A synthetic organ from adult cells.", isCorrect: false },
+//     ],
+//   },
+//   {
+//     question:
+//       "2. What is the main purpose of the embryo model created by Israeli scientists?",
+//     options: [
+//       { label: "a) To grow into a full human baby.", isCorrect: false },
+//       {
+//         label: "b) To support research on early human development.",
+//         isCorrect: true,
+//       },
+//       { label: "c) To develop new types of stem cells.", isCorrect: false },
+//     ],
+//   },
+//   {
+//     question:
+//       "3. At what stage does the embryo model created by the Israeli researchers resemble a real human embryo?",
+//     options: [
+//       { label: "a) At day 7.", isCorrect: false },
+//       { label: "b) At day 14.", isCorrect: true },
+//       { label: "c) At day 21.", isCorrect: false },
+//     ],
+//   },
+//   {
+//     question:
+//       "4. What is one potential application of these embryo models mentioned by the researchers?",
+//     options: [
+//       {
+//         label: "a) To test the effect of drugs on pregnancies.",
+//         isCorrect: true,
+//       },
+//       {
+//         label: "b) To create fully functional synthetic humans.",
+//         isCorrect: false,
+//       },
+//       {
+//         label: "c) To replace the need for organ donations.",
+//         isCorrect: false,
+//       },
+//     ],
+//   },
+//   {
+//     question:
+//       "5. What was the maximum development stage reached by the embryo model in the study?",
+//     options: [
+//       { label: "a) Day 7.", isCorrect: false },
+//       { label: "b) Day 14.", isCorrect: true },
+//       { label: "c) Day 21.", isCorrect: false },
+//     ],
+//   },
+// ];
 
 export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
   return (
@@ -467,13 +501,15 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."
             discussionQuestions={discussionQuestions}
             preVocabularies={preVocabularies}
-            audioSrc="/science-and-technology/israeli-scientists-announce-creation-of-embryo-model-in-lab/audio.mp3"
+            fillInTheBlanks={fillInTheBlanks}
+            gistQuestions={gistQuestions}
+            audioSrc="..."
             paragraphs={paragraphs}
             scanQuestions={scanQuestions}
             followupQuestions={followupQuestions}
           />
         </div>
-        <Radio questions={radioExercises} />
+        {/* <Radio questions={radioExercises} /> */}
         <p>
           To some opponents of stem cell research, the destruction of an embryo
           means that a potential fetus and ultimately a potential human being
