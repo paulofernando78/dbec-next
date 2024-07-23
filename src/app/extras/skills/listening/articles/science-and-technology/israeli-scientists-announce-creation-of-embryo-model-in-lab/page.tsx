@@ -122,7 +122,7 @@ const fillInTheBlanks: Question[] = [
     options: true,
     width: "100px",
     beforeBlank: "1. ...",
-    correctAnswer: "...",
+    correctAnswer: ["..."],
     afterBlank: "...",
     lineBreakAfter: true,
   },
