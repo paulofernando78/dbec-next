@@ -4,13 +4,13 @@ import SwiperFraction from "@/components/Swiper/Fraction";
 import {
   DiscussionQuestion,
   PreVocabulary,
-  FillInTheBlank,
   GistQuestion,
   Listening,
   Paragraph,
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { humanChromosomes } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
@@ -121,7 +121,7 @@ const preVocabularies: PreVocabulary[] = [
   },
 ];
 
-const fillInTheBlanks: FillInTheBlank[] = [
+const fillInTheBlanks: Question[] = [
   {
     options: true,
     width: "100px",

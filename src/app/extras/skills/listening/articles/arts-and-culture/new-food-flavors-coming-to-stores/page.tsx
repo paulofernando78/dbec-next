@@ -1,4 +1,5 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import SwiperFraction from "@/components/Swiper/Fraction";
 import {
   DiscussionQuestion,
   PreVocabulary,
@@ -9,7 +10,6 @@ import {
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
 import { Question } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
-import SwiperFraction from "@/components/Swiper/Fraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 import {
