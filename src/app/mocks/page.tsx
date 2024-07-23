@@ -29,8 +29,9 @@ const radioExercise = [
   },
 ];
 
-const fillInTheBlank = [
+const fillInTheBlanks = [
   {
+    options: true,
     width: "100px",
     title: "1. Fill in the blank with the correct word.",
     beforeBlank: "The sky is",
@@ -40,6 +41,7 @@ const fillInTheBlank = [
     // lineBreakAfter: true
   },
   {
+    options: true,
     width: "100px",
     beforeBlank: "The sky is",
     placeholder: "color",
@@ -85,7 +87,7 @@ export default function Mocks() {
         <Card bgColor="black" textColor="white">
           <b>Fill in The Blanks</b>
         </Card>
-        <FillInTheBlank questions={fillInTheBlank} />
+        <FillInTheBlank questions={fillInTheBlanks} />
         <Card bgColor="black" textColor="white">
           <b>Dictionary Card</b>
         </Card>
