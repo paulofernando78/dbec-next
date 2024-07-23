@@ -20,7 +20,7 @@ export interface Question {
   beforeBlank: string;
   lineBreakBefore?: boolean;
   placeholder?: string;
-  correctAnswer: string | string[];
+  correctAnswer: string[];
   afterBlank: string;
   lineBreakAfter?: boolean;
 }
