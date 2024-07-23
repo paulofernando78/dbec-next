@@ -1,7 +1,7 @@
 import { Card } from "../../Cards/Card";
 import { AudioPlayer } from "../../Audioplayer";
 import { Collapsible } from "../../Collapsible/Collapsible";
-import { FillInTheBlanks } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
+import { FillInTheBlanks, Question } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
 
 export interface FollowupQuestion {
   enQuestion?: string;
@@ -30,17 +30,6 @@ export interface GistQuestion {
   answer: string;
 }
 
-export interface FillInTheBlank {
-  questions: {
-    options: boolean;
-    width: string;
-    beforeBlank: string;
-    correctAnswer: string;
-    afterBlank: string;
-    lineBreakAfter: boolean;
-  }[];
-}
-
 export interface PreVocabulary {
   component: (props: { audioSrc: string; label: string }) => JSX.Element;
   componentProps: any;
@@ -58,7 +47,7 @@ interface ListeningProps {
   discussion: string;
   discussionQuestions: DiscussionQuestion[];
   preVocabularies: PreVocabulary[];
-  fillInTheBlanks: FillInTheBlank[];
+  fillInTheBlanks: Question[];
   gistQuestions: GistQuestion[];
   audioSrc: string;
   paragraphs: Paragraph[];
