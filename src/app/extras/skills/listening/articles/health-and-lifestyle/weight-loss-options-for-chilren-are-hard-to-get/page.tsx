@@ -3,14 +3,14 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import {
   DiscussionQuestion,
   PreVocabulary,
-  FillInTheBlank,
   GistQuestion,
   Listening,
   Paragraph,
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
-import Slider from "@/components/Swiper/Fraction";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
+import SwiperFraction from "@/components/Swiper/Fraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import {
@@ -21,7 +21,7 @@ import {
 } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
-const slider = [
+const swiperFraction = [
   {
     imgSrc: teenChoppingVegetable,
     imgAlt: "A teenager chipping vegetables",
@@ -175,7 +175,7 @@ const preVocabularies: PreVocabulary[] = [
   },
 ];
 
-const fillInTheBlanks: FillInTheBlank[] = [
+const fillInTheBlanks: Question[] = [
   {
     options: true,
     width: "100px",
@@ -650,7 +650,7 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
         subdescription="June 24, 2024"
       />
       <div className="line-break">
-        <Slider images={slider} />
+        <SwiperFraction images={swiperFraction} />
         <div>
           <Listening
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."

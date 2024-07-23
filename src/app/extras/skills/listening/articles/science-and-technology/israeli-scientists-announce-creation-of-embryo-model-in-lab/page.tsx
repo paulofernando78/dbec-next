@@ -2,20 +2,20 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import {
   DiscussionQuestion,
   PreVocabulary,
-  FillInTheBlank,
   GistQuestion,
   Listening,
   Paragraph,
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
-import Slider from "@/components/Swiper/Fraction";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
+import SwiperFraction from "@/components/Swiper/Fraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 
 import { labEmbryo, labEmbryo2, labEmbryo3, labScientist } from "@/img/index";
 
-const slider = [
+const swiperFraction = [
   {
     imgSrc: labEmbryo,
     imgAlt:
@@ -117,7 +117,7 @@ const preVocabularies: PreVocabulary[] = [
   },
 ];
 
-const fillInTheBlanks: FillInTheBlank[] = [
+const fillInTheBlanks: Question[] = [
   {
     options: true,
     width: "100px",
@@ -491,7 +491,7 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
         subdescription="September 11, 2023"
       />
       <div className="line-break">
-        <Slider images={slider} />
+        <SwiperFraction images={swiperFraction} />
         <div>
           <Listening
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."
