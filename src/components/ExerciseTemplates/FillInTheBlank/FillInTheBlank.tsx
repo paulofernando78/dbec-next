@@ -25,15 +25,15 @@ export interface Question {
   lineBreakAfter?: boolean;
 }
 
-interface FillInTheBlanksProps {
+interface FillInTheBlankProps {
   questions: Question[];
   display?: string;
 }
 
-export const FillInTheBlanks = ({
+export const FillInTheBlank = ({
   questions,
   display,
-}: FillInTheBlanksProps) => {
+}: FillInTheBlankProps) => {
   const [selectedOptions, setSelectedOptions] = useState(
     questions.map(() => [""])
   );

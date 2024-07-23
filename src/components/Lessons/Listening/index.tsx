@@ -1,7 +1,10 @@
 import { Card } from "../../Cards/Card";
 import { AudioPlayer } from "../../Audioplayer";
 import { Collapsible } from "../../Collapsible/Collapsible";
-import { FillInTheBlanks, Question } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
+import {
+  FillInTheBlank,
+  Question,
+} from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 
 export interface FollowupQuestion {
   enQuestion?: string;
@@ -119,7 +122,7 @@ export const Listening = ({
         ))}
       </div>
       <p className="bold">Now fill in the blanks with the right vocabulary.</p>
-      <FillInTheBlanks questions={fillInTheBlanks} />
+      <FillInTheBlank questions={fillInTheBlanks} />
       <Card bgColor="Black" textColor="White">
         <div className="flex-8px-start-space-between">
           <p className="bold">Listening (Gist)</p>
@@ -134,7 +137,7 @@ export const Listening = ({
           <span key={gistQuestionIndex} className="p-font">
             {gistQuestion.question}
             <Collapsible labelBold="Answer">
-            <p>{gistQuestion.answer}</p>
+              <p>{gistQuestion.answer}</p>
             </Collapsible>
           </span>
         ))}

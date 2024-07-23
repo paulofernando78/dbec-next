@@ -10,11 +10,9 @@ import {
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
-import { Question } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import {
-  cat1
-} from "@/img/index";
+import { cat1 } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
 const swiperFraction = [
@@ -49,7 +47,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/x/xxx.mp3",
       keyword: "...",
       label: "...",
-      phonetics: ""
+      phonetics: "",
     },
   },
 ];
@@ -77,8 +75,7 @@ const paragraphs: Paragraph[] = [
     paragraphNumber: "Paragraph 1",
     enParagraphs: [
       {
-        enParagraph:
-          "...",
+        enParagraph: "...",
       },
     ],
     ptParagraph: "...",
@@ -222,7 +219,7 @@ const paragraphs: Paragraph[] = [
 const scanQuestions: ScanQuestion[] = [
   {
     question: "...",
-    answer: ""
+    answer: "",
   },
 ];
 
@@ -247,7 +244,9 @@ export default function ScientistsTestMrnaVaccinesToProtectAgainstBirdFlu() {
       <Whiteboard
         title="Specific Purposes"
         subtitle="Listening"
-        descriptions={["Scientists test Mrna vaccines to protect against bird flu"]}
+        descriptions={[
+          "Scientists test Mrna vaccines to protect against bird flu",
+        ]}
         subdescription="June 10, 2024"
       />
       <div className="line-break">
@@ -270,6 +269,3 @@ export default function ScientistsTestMrnaVaccinesToProtectAgainstBirdFlu() {
     </>
   );
 }
-
-
-

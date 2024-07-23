@@ -3,7 +3,7 @@ import { Card } from "@/components/Cards/Card";
 import { AudioPlayer } from "@/components/Audioplayer";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { FillInTheBlanks } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
+import { FillInTheBlank } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 import SwiperFraction, {
   SwiperFractionData,
 } from "@/components/Swiper/Fraction";
@@ -29,7 +29,7 @@ const radioExercise = [
   },
 ];
 
-const fillInTheBlanksExercise = [
+const fillInTheBlank = [
   {
     width: "100px",
     title: "1. Fill in the blank with the correct word.",
@@ -85,7 +85,7 @@ export default function Mocks() {
         <Card bgColor="black" textColor="white">
           <b>Fill in The Blanks</b>
         </Card>
-        <FillInTheBlanks questions={fillInTheBlanksExercise} display={""} />
+        <FillInTheBlank questions={fillInTheBlank} />
         <Card bgColor="black" textColor="white">
           <b>Dictionary Card</b>
         </Card>

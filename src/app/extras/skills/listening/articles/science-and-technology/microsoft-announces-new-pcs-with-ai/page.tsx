@@ -13,7 +13,7 @@ import SwiperFraction from "@/components/Swiper/Fraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { personHoldingTwoComputers } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
-import { Question } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 
 const swiperFraction = [
   {

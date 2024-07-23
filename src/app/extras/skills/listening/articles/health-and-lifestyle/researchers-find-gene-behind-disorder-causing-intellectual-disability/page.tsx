@@ -10,7 +10,7 @@ import {
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
-import { Question } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { humanChromosomes } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
