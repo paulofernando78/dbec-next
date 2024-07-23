@@ -3,7 +3,6 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import {
   DiscussionQuestion,
   PreVocabulary,
-  FillInTheBlank,
   GistQuestion,
   Listening,
   Paragraph,
@@ -14,6 +13,7 @@ import SwiperFraction from "@/components/Swiper/Fraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { personHoldingTwoComputers } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlanks/FillInTheBlanks";
 
 const swiperFraction = [
   {
@@ -100,7 +100,7 @@ const preVocabularies: PreVocabulary[] = [
   },
 ];
 
-const fillInTheBlanks: FillInTheBlank[] = [
+const fillInTheBlanks: Question[] = [
   {
     options: true,
     width: "100px",
