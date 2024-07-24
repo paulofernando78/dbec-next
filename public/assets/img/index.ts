@@ -45,6 +45,9 @@ import usaFlagIcon from "./icon/flag/usa.png";
 import ukFlagIcon from "./icon/flag/uk.png";
 import brFlagIcon from "./icon/flag/brazil.png";
 
+// Gif
+import questionMarkGif from "./gif/question-mark.gif"
+
 // Folder
 import cat1 from "@/img/cat1.jpg"
 import cat2 from "@/img/cat2.jpeg"
@@ -105,6 +108,7 @@ export {
   songsIcon,
   sportsIcon,
   stockMarketIcon,
+  questionMarkGif,
   technologyIcon,
   allInOneIcon,
   examsIcon,

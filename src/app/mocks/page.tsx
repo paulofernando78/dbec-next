@@ -10,6 +10,7 @@ import SwiperFraction, {
 
 // Images
 import { cat1, cat2, cat3 } from "@/img/index";
+import { FlipCard } from "@/components/Cards/Flipped";
 
 const radioExercise = [
   {
@@ -91,7 +92,6 @@ export default function Mocks() {
         <Card bgColor="black" textColor="white">
           <b>Dictionary Card</b>
         </Card>
-
         <p>
           I'm feeling{" "}
           <DictionaryCard
@@ -108,6 +108,7 @@ export default function Mocks() {
         <Card bgColor="black" textColor="white">
           <b>Flip Cards</b>
         </Card>
+        <FlipCard />
         <Card bgColor="black" textColor="white">
           <b>Memory Game</b>
         </Card>

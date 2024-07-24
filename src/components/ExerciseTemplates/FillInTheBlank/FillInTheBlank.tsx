@@ -56,9 +56,9 @@ export const FillInTheBlank = ({
       const correctAnswers = Array.isArray(questions[index].correctAnswer)
         ? questions[index].correctAnswer
         : [questions[index].correctAnswer];
-      const userAnswer = options[0].trim().toLowerCase();
+      const userAnswer = options[0].trim();
       return correctAnswers.some(
-        (answer) => typeof answer === "string" && userAnswer === answer.trim().toLowerCase()
+        (answer) => typeof answer === "string" && userAnswer === answer.trim()
       );
     });
     setIsCorrects(newIsCorrects);

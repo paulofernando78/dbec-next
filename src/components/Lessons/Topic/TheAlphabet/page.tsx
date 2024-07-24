@@ -24,7 +24,7 @@ const alphabets: Alphabet[] = [
     number: "3",
     letter: "C",
     audioSrc: "/c/c1.mp3",
-    phonetics: "/ciː/"
+    phonetics: "/siː/"
   },
   {
     number: "4",
@@ -138,7 +138,7 @@ const alphabets: Alphabet[] = [
     number: "22",
     letter: "V",
     audioSrc: "/v/v1.mp3",
-    phonetics: "/tiː/"
+    phonetics: "/viː/"
   },
   {
     number: "23",

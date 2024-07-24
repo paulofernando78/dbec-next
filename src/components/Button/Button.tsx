@@ -1,6 +1,6 @@
 "use client"
 import  { useState } from 'react';
-import style from './Button.module.css';
+import styles from './Button.module.css';
 
 interface ButtonProps {
   label: string;
@@ -23,10 +23,10 @@ export const Button = ({ label, onClick, toggle }: ButtonProps) => {
 
   return (
     <>
-      <button className={style.pushable} onClick={handleClick}>
-        <span className={style.shadow}></span>
-        <span className={style.edge}></span>
-        <span className={style.front}>{label}</span>
+      <button className={styles.pushable} onClick={handleClick}>
+        <span className={styles.shadow}></span>
+        <span className={styles.edge}></span>
+        <span className={styles.front}>{label}</span>
       </button>
       {toggle && show && <p>...</p>}
     </>
