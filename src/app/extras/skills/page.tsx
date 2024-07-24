@@ -64,11 +64,19 @@ const descriptions = [
       {
         bgColor: "lightgray",
         textColor: "black",
-        label: "Miscellaneous",
+        label: "Links",
         contents: [
           {
             globeLink: "https://chatgpt.com/",
             globeLabel: "ChatGPT ",
+          },
+          {
+            globeLink: "https://youglish.com/",
+            globeLabel: "Youglish ",
+          },
+          {
+            globeLink: "https://www.playphrase.me/",
+            globeLabel: "Play Phrase ",
           },
           {
             globeLink: "https://learningenglish.voanews.com/",
@@ -126,7 +134,7 @@ const descriptions = [
       },
     ],
   },
-  // Reading
+  // Writing
   {
     mainLabel: "Writing",
     subDescriptions: [
@@ -134,12 +142,39 @@ const descriptions = [
       {
         bgColor: "lightgray",
         textColor: "black",
-        label: "Topcis",
+        label: "Topics",
         contents: [
           {
             globeLink: "...",
             globeLabel: "...",
           },
+        ],
+      },
+    ],
+  },
+  // Miscellaneous
+  {
+    mainLabel: "Miscellaneous",
+    subDescriptions: [
+      
+      // Links
+      {
+        bgColor: "lightgray",
+        textColor: "black",
+        label: "Links",
+        contents: [
+          {
+            globeLink: "https://chatgpt.com/",
+            globeLabel: "ChatGPT",
+          },
+          {
+            globeLink: "...",
+            globeLabel: "Gemini",
+          },
+          {
+            globeLink: "...",
+            globeLabel: "Lhama",
+          }
         ],
       },
     ],
