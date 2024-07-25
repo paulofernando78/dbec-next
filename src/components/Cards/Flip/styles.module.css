@@ -44,21 +44,21 @@
 .flip-icon {
   width: 20px;
   height: auto;
-  position: relative;
-  right: 105px;
+  position: absolute;
+  left: 5px;
   top: 5px
 }
 
 .front-image {
-  
-  width: 100px;
-  height: 100px;
+  width: 130px;
+  height: 130px;
   padding: 10px;
   margin: auto;
+  
 }
 
 .front-text {
-  padding: 10px;
+  padding: 3px 10px;
   overflow: auto; 
   flex-grow: 1;
 }
