@@ -32,21 +32,27 @@
 }
 
 .front {
+  /* display: grid;
+  grid-template-rows: 100px 1fr; */
   display: flex;
   flex-direction: column;
+  gap: 10px;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .front-image {
+  
   width: 100px;
   height: 100px;
   padding: 10px;
+  margin: auto;
 }
 
 .front-text {
   padding: 10px;
-  overflow-y: auto;
+  overflow: auto; 
+  flex-grow: 1;
 }
 
 .back {
