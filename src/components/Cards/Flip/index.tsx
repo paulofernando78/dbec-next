@@ -8,7 +8,7 @@ interface FlipCard {
   frontText: string;
   backText?: string;
   imgSrc?: StaticImageData;
-  imgAlt: string;
+  imgAlt?: string;
 }
 
 interface FlipCardsProps {
