@@ -46,7 +46,7 @@ export const FlipCard = ({ flipCards }: FlipCardsProps) => {
             {/* Back */}
             <div className={styles["back"]}>
               {flipCard.backText && <p>{flipCard.backText}</p>}
-              {flipCard.imgSrc && (
+              {flipCard.imgSrc && flipCard.imgAlt && (
                 <Image layout="fill" src={flipCard.imgSrc} alt={flipCard.imgAlt} />
               )}
             </div>
