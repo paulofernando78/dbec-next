@@ -48,6 +48,9 @@ import brFlagIcon from "./icon/flag/brazil.png";
 // Gif
 import questionMarkGif from "./gif/question-mark.gif"
 
+// Icon
+import flipIcon from "@/img/icon/flip.png"
+
 // Folder
 import cat1 from "@/img/cat1.jpg"
 import cat2 from "@/img/cat2.jpeg"
@@ -123,6 +126,7 @@ export {
   cat3,
   chocolatePinkLemonadeKitKat,
   cookieOreoSourPatch,
+  flipIcon,
   humanChromosomes,
   iceCreamHiddenValleyRanch,
   iceCreamLittleMoonFishMochi,

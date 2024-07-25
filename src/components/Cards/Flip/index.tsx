@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Image, { StaticImageData } from "next/image";
 import styles from "./styles.module.css";
-import { questionMarkGif } from "@/img/index";
+import { flipIcon, questionMarkGif } from "@/img/index";
 
 interface FlipCard {
   frontText: string;
@@ -36,6 +36,7 @@ export const FlipCard = ({ flipCards }: FlipCardsProps) => {
           >
             {/* Front */}
             <div className={styles["front"]}>
+              <Image src={flipIcon} alt="Flip icon" className={styles["flip-icon"]}/>
               <Image
                 src={questionMarkGif}
                 alt="Question mark gif"

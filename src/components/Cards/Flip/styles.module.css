@@ -41,6 +41,14 @@
   justify-content: center;
 }
 
+.flip-icon {
+  width: 20px;
+  height: auto;
+  position: relative;
+  right: 105px;
+  top: 5px
+}
+
 .front-image {
   
   width: 100px;
