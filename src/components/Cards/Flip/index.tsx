@@ -41,7 +41,7 @@ export const FlipCard = ({ flipCards }: FlipCardsProps) => {
                 alt="Question mark gif"
                 className={styles["front-image"]}
               />
-              <p className={styles["front-text"]}>{flipCard.frontText}</p>
+              {flipCard.frontText && <p className={styles["front-text"]}>{flipCard.frontText}</p>}
             </div>
             {/* Back */}
             <div className={styles["back"]}>

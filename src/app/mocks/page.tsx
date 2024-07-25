@@ -73,13 +73,12 @@ const flipCards = [
     backText: "asked"
   },
   {
-    frontText: "What's the meaning of \"Birds of the same feather flock together\"? aa aa aa aa aa aa aa aa ",
+    frontText: "What's the meaning of \"Birds of the same feather flock together\"? aa aa aa bb bb bb bb bb bb bb cc cc cc ",
     backText: "..."
   },
   {
     imgSrc: cat1,
     imgAlt: "A cat", 
-    frontText: "Birds of the same feather flock together",
   }
 ]
 
