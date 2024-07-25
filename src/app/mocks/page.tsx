@@ -1,3 +1,4 @@
+
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { Card } from "@/components/Cards/Card";
 import { AudioPlayer } from "@/components/Audioplayer";
@@ -10,7 +11,7 @@ import SwiperFraction, {
 
 // Images
 import { cat1, cat2, cat3 } from "@/img/index";
-import { FlipCard } from "@/components/Cards/Flipped";
+import { FlipCard } from "@/components/Cards/Flip";
 
 const radioExercise = [
   {
@@ -66,6 +67,22 @@ const swiperFraction: SwiperFractionData[] = [
   },
 ];
 
+const flipCards = [
+  {
+    frontText: "What's the past of ask?",
+    backText: "asked"
+  },
+  {
+    frontText: "What's the meaning of \"Birds of the same feather flock together\"? aa aa aa aa aa aa aa aa ",
+    backText: "..."
+  },
+  {
+    imgSrc: cat1,
+    imgAlt: "A cat", 
+    frontText: "Birds of the same feather flock together",
+  }
+]
+
 export default function Mocks() {
   return (
     <div>
@@ -108,7 +125,7 @@ export default function Mocks() {
         <Card bgColor="black" textColor="white">
           <b>Flip Cards</b>
         </Card>
-        <FlipCard />
+        <FlipCard flipCards={flipCards}/>
         <Card bgColor="black" textColor="white">
           <b>Memory Game</b>
         </Card>
