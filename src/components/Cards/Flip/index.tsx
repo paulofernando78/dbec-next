@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 import { flipIcon, questionMarkGif } from "@/img/index";
 
 interface FlipCard {
-  frontText: string;
+  frontText?: string;
   backText?: string;
   imgSrc?: StaticImageData;
   imgAlt?: string;
