@@ -25,7 +25,7 @@ export const GrammarInUse = ({ lessons }:GrammarInUseProps) => {
               <p className="bold">{lesson.section}</p>
             </Card>
             <div className="line-break">
-                <p>{lesson.text}</p>
+                <p className="bold">{lesson.text}</p>
                 <div>
                     {lesson.examples.map((example, indexExample) => (
                       <p key={indexExample}><span className="bold">•</span> {example.example}</p>
