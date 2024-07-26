@@ -259,8 +259,8 @@ const fillInTheBlanks: Question[] = [
 
 const gistQuestions: GistQuestion[] = [
   {
-    question: "...",
-    answer: "...",
+    question: "What is the main issue discussed in this lesson?",
+    answer: "The main issue discussed in this lesson is a global computer system outage caused by a faulty software update from CrowdStrike, affecting various businesses worldwide.",
   },
 ];
 
