@@ -14,6 +14,7 @@ import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTh
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { cat1 } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { FlipCard } from "@/components/Cards/Flip";
 
 const swiperFraction = [
   {
@@ -39,6 +40,15 @@ const discussionQuestions: DiscussionQuestion[] = [
     ],
   },
 ];
+
+const flipCards: FlipCard[] = [
+  {
+    frontText: "What's the past of ask?",
+    imgSrc: cat1,
+    imgAlt: "A cat", 
+    backText: "asked"
+  }
+]
 
 const preVocabularies: PreVocabulary[] = [
   {
@@ -255,6 +265,7 @@ export default function ScientistsTestMrnaVaccinesToProtectAgainstBirdFlu() {
           <Listening
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."
             discussionQuestions={discussionQuestions}
+            flipCards={flipCards}
             preVocabularies={preVocabularies}
             fillInTheBlanks={fillInTheBlanks}
             gistQuestions={gistQuestions}

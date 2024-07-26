@@ -11,6 +11,7 @@ import {
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
 import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import { FlipCard } from "@/components/Cards/Flip";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { cat1 } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
@@ -39,6 +40,15 @@ const discussionQuestions: DiscussionQuestion[] = [
     ],
   },
 ];
+
+const flipCards: FlipCard[] = [
+  {
+    frontText: "What's the past of ask?",
+    imgSrc: cat1,
+    imgAlt: "A cat", 
+    backText: "asked"
+  }
+]
 
 const preVocabularies: PreVocabulary[] = [
   {
@@ -253,6 +263,7 @@ export default function FiveTipsHowToGetBetterSleep() {
           <Listening
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."
             discussionQuestions={discussionQuestions}
+            flipCards={flipCards}
             preVocabularies={preVocabularies}
             fillInTheBlanks={fillInTheBlanks}
             gistQuestions={gistQuestions}

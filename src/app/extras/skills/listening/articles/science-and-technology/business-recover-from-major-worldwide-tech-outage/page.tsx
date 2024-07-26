@@ -14,7 +14,6 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 import { FlipCard } from "@/components/Cards/Flip";
 import {
-  cat1,
   noInternetConnection1,
   noInternetConnection2,
   noInternetConnection3,
