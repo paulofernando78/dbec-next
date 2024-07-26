@@ -14,12 +14,14 @@ import SwiperFraction from "@/components/Swiper/Fraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 import {
+  cat1,
   peoplePreparingFood,
   personAtASupermarketBrowsingVeggies,
   teenChoppingVegetable,
   teenLookingAtFoodLabel,
 } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import { FlipCard } from "@/components/Cards/Flip";
 
 const swiperFraction = [
   {
@@ -63,6 +65,15 @@ const discussionQuestions: DiscussionQuestion[] = [
     ],
   },
 ];
+
+const flipCards: FlipCard[] = [
+  {
+    frontText: "What's the past of ask?",
+    imgSrc: cat1,
+    imgAlt: "...", 
+    backText: "asked"
+  }
+]
 
 const preVocabularies: PreVocabulary[] = [
   {
@@ -655,6 +666,7 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
           <Listening
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."
             discussionQuestions={discussionQuestions}
+            flipCards={flipCards}
             preVocabularies={preVocabularies}
             fillInTheBlanks={fillInTheBlanks}
             gistQuestions={gistQuestions}
