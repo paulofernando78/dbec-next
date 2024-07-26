@@ -1,12 +1,15 @@
+.flex {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .container {
   width: 250px;
   height: 250px;
   perspective: 1000px;
 }
-
-/* .container:hover > .card {
-  transform: rotateY(180deg);
-} */
 
 .card {
   width: 100%;

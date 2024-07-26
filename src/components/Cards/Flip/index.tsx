@@ -27,7 +27,7 @@ export const FlipCard = ({ flipCards }: FlipCardsProps) => {
   };
 
   return (
-    <div className="flex-8px-center-wrap">
+    <div className={styles["flex"]}>
       {flipCards.map((flipCard, index) => (
         <div key={index} className={styles["container"]}>
           <div
