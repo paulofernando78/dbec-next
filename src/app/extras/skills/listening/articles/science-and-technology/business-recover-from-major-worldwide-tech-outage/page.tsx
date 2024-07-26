@@ -157,7 +157,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/f/faux-pas.mp3",
       keyword: "faux pas",
       label: "faux pas",
-      phonetics: "",
+      phonetics: "/ˌfoʊ ˈpɑː/",
     },
   },
   {
@@ -166,7 +166,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/g/glitches.mp3",
       keyword: "glitch",
       label: "glitches",
-      phonetics: "/ɡlɪtʃ/",
+      phonetics: "/ɡlɪtʃɪz/",
     },
   },
   {
