@@ -12,7 +12,7 @@ import {
 } from "@/components/Lessons/Listening";
 import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { humanChromosomes } from "@/img/index";
+import { cat1, humanChromosomes } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { FlipCard } from "@/components/Cards/Flip";
 
