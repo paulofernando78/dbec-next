@@ -453,24 +453,28 @@ const paragraphs: Paragraph[] = [
 
 const scanQuestions: ScanQuestion[] = [
   {
-    question: "...",
-    answer: "",
+    question: "What caused the computer outage?",
+    answer: "A software update from CrowdStrike with a programming mistake.",
+  },
+  {
+    question: "Which businesses were affected?",
+    answer: "Airlines, banks, hospitals, and media companies.",
+  },
+  {
+    question: "How did CrowdStrike respond?",
+    answer: "They admitted the mistake, identified the problem, and deployed a fix to assist customers.",
+  },
+  {
+    question: "What was unique about fixing the problem?",
+    answer: "It required hands-on efforts to fix each affected machine individually.",
   },
 ];
 
 const followupQuestions: FollowupQuestion[] = [
   {
-    enQuestion: "...",
-    ptQuestion: "...",
-  },
-  {
-    enQuestion: "...",
-    ptQuestion: "...",
-  },
-  {
-    enQuestion: "...",
-    ptQuestion: "...",
-  },
+    enQuestion: "How such outages can affect your everyday life?",
+    ptQuestion: "Como essas falhas podem afetar seu dia a dia?",
+  }
 ];
 
 export default function BusinessesRecoverFromMajorWorldwideTechOutage() {
