@@ -1,41 +1,82 @@
 import { Card } from "@/components/Cards/Card";
-import React from "react";
+import Image, { StaticImageData } from "next/image";
 
 interface Example {
-    example: string
+  example: string;
+}
+
+interface SubSection {
+  imgSrc?: StaticImageData;
+  imgAlt?: string;
+  imgWidth?: string;
+  text?: string;
+  subSection: string;
+  examples: Example[];
 }
 
 interface Lesson {
-    section: string
-    text: string
-    examples: Example[]
+  bgColor: string;
+  textColor: string;
+  section: string;
+  subSections: SubSection[];
 }
 
 interface GrammarInUseProps {
-    lessons: Lesson[]
+  lessons: Lesson[];
 }
 
-export const GrammarInUse = ({ lessons }:GrammarInUseProps) => {
+export const GrammarInUse = ({ lessons }: GrammarInUseProps) => {
   return (
     <>
       <div className="line-break">
+        {/* Lessons */}
         {lessons.map((lesson, indexSection) => (
           <div key={indexSection} className="line-break">
-            <Card bgColor="#FF5252" textColor="white">
+            {/* section */}
+            <Card bgColor={lesson.bgColor} textColor={lesson.textColor}>
               <p className="bold">{lesson.section}</p>
             </Card>
-            <div className="line-break">
-                <p className="bold">{lesson.text}</p>
+
+            {/* subSections */}
+            {lesson.subSections.map((subSection, subSectionIndex) => (
+              <div key={subSectionIndex} className="line-break">
+                {/* imgSrc imgAlt */}
+                {subSection.imgSrc &&
+                  subSection.imgAlt &&
+                  subSection.imgWidth && (
+                    <Image
+                      src={subSection.imgSrc}
+                      alt={subSection.imgAlt}
+                      className="img-border"
+                      style={{ width: subSection.imgWidth, margin: "auto" }}
+                    />
+                  )}
+
+                {/* subSection */}
+                {subSection.text && <p className="bold">{subSection.text}</p>}
+
+                {/* section */}
+                {subSection.subSection && <Card bgColor="lightgray" textColor="black">
+                  <p className="bold">{subSection.subSection}</p>
+                </Card>}
+
+                {/* example */}
                 <div>
-                    {lesson.examples.map((example, indexExample) => (
-                      <p key={indexExample}><span className="bold">•</span> {example.example}</p>
-                    ))}
+                  {subSection.examples.map((example, indexExample) => (
+                    <p key={indexExample}>
+                      <span className="bold">•</span>{" "}
+                      <span
+                        dangerouslySetInnerHTML={{ __html: example.example }}
+                      ></span>
+                    </p>
+                  ))}
                 </div>
-            </div>
+              </div>
+            ))}
           </div>
         ))}
-        <Card bgColor="lightgray">
-            <p className="bold">Exercises</p>
+        <Card bgColor="gray">
+          <p className="bold">Exercises</p>
         </Card>
       </div>
     </>

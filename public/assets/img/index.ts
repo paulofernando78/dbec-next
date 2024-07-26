@@ -8,7 +8,7 @@ import upperIntermediate from "./icon/upper-intermediate.png";
 import advanced from "./icon/advanced.png";
 
 // Extra
-import skillsIcon from "@/img/icon/skills.png"
+import skillsIcon from "@/img/icon/skills.png";
 import grammarIcon from "./icon/grammar.png";
 import listeningIcon from "./icon/listening.png";
 import speakingIcon from "./icon/speaking.png";
@@ -46,48 +46,51 @@ import ukFlagIcon from "./icon/flag/uk.png";
 import brFlagIcon from "./icon/flag/brazil.png";
 
 // Gif
-import questionMarkGif from "./gif/question-mark.gif"
+import questionMarkGif from "./gif/question-mark.gif";
 
 // Icon
-import flipIcon from "@/img/icon/flip.png"
+import flipIcon from "@/img/icon/flip.png";
+
+// Grammar in Use
+import lisa from "@/img/extras/grammar/elementary/unit-1/lisa.jpg";
 
 // Folder
-import cat1 from "@/img/cat1.jpg"
-import cat2 from "@/img/cat2.jpeg"
-import cat3 from "@/img/cat3.png"
-import chocolatePinkLemonadeKitKat from "@/img/chocolate-kit-kat-pink-lemonad.jpg"
-import computerScreenGlitch1 from "./computer-screen-glitch1.jpg"
-import cookieOreoSourPatch from "@/img/cookie-oreo-sour-patch.png"
-import customer1 from "./customer1.webp"
-import disrupt1 from "./disrupt1.jpg"
-import fauxpas1 from "./faux-pas1.webp"
-import humanChromosomes from "@/img/human-chromosomes.avif"
-import iceCreamHiddenValleyRanch from "@/img/ice-cream-hidden-valley-ranch.webp"
-import iceCreamLittleMoonFishMochi from "@/img/ice-cream-little-moon-fish-mochi.avif"
-import macAndCheeseIceCreamFlavor from "./mac-and-cheese-ice-cream-flavor.avif"
-import labEmbryo from "./lab-embryo.avif"
-import labEmbryo2 from "./lab-embryo2.jpg"
-import labEmbryo3 from "./lab-embryo3.jpg"
-import labScientist from "./lab-scientist.avif"
-import noInternetConnection1 from "./no-internet-connection1.jpg"
-import noInternetConnection2 from "./no-internet-connection2.jpg"
-import noInternetConnection3 from "./no-internet-connection3.avif"
-import noInternetConnection4 from "./no-internet-connection4.jpg"
-import noWifi from "./no-wifi.webp"
-import personAtASupermarketBrowsingVeggies from "./person-at-a-supermaket-browsing-veggies.avif"
-import personHoldingTwoComputers from "@/img/person-holding-two-computers.avif"
-import peoplePreparingFood from "./people-preparing-food.avif"
-import potatoChipLaysFlamminHotDillPickle from "./potato-chip-lays-flamin-hot-dill-pickle.png"
-import potatoChipLaysStrawBerryBacon from "./potato-chip-lays-strawberry-bacon.jpg"
-import potatoChipWalkersBrusselsSprout from "./potato-chip-walkers-brussels-sprout.webp"
-import remoteHouse1 from "./remote-house1.webp"
-import socialMedia1 from "@/img/social-media-1.webp"
-import socialMedia2 from "@/img/social-media-2.webp"
-import socialMedia3 from "@/img/social-media-3.avif"
-import socialMediaParent1 from "@/img/social-media-parent-1.jpg"
-import teenChoppingVegetable from "./teen-chopping-vegetable.avif"
-import teenLookingAtFoodLabel from "./teen-looking-at-food-label.avif"
-import update1 from "./update1.avif"
+import cat1 from "@/img/cat1.jpg";
+import cat2 from "@/img/cat2.jpeg";
+import cat3 from "@/img/cat3.png";
+import chocolatePinkLemonadeKitKat from "@/img/chocolate-kit-kat-pink-lemonad.jpg";
+import computerScreenGlitch1 from "./computer-screen-glitch1.jpg";
+import cookieOreoSourPatch from "@/img/cookie-oreo-sour-patch.png";
+import customer1 from "./customer1.webp";
+import disrupt1 from "./disrupt1.jpg";
+import fauxpas1 from "./faux-pas1.webp";
+import humanChromosomes from "@/img/human-chromosomes.avif";
+import iceCreamHiddenValleyRanch from "@/img/ice-cream-hidden-valley-ranch.webp";
+import iceCreamLittleMoonFishMochi from "@/img/ice-cream-little-moon-fish-mochi.avif";
+import macAndCheeseIceCreamFlavor from "./mac-and-cheese-ice-cream-flavor.avif";
+import labEmbryo from "./lab-embryo.avif";
+import labEmbryo2 from "./lab-embryo2.jpg";
+import labEmbryo3 from "./lab-embryo3.jpg";
+import labScientist from "./lab-scientist.avif";
+import noInternetConnection1 from "./no-internet-connection1.jpg";
+import noInternetConnection2 from "./no-internet-connection2.jpg";
+import noInternetConnection3 from "./no-internet-connection3.avif";
+import noInternetConnection4 from "./no-internet-connection4.jpg";
+import noWifi from "./no-wifi.webp";
+import personAtASupermarketBrowsingVeggies from "./person-at-a-supermaket-browsing-veggies.avif";
+import personHoldingTwoComputers from "@/img/person-holding-two-computers.avif";
+import peoplePreparingFood from "./people-preparing-food.avif";
+import potatoChipLaysFlamminHotDillPickle from "./potato-chip-lays-flamin-hot-dill-pickle.png";
+import potatoChipLaysStrawBerryBacon from "./potato-chip-lays-strawberry-bacon.jpg";
+import potatoChipWalkersBrusselsSprout from "./potato-chip-walkers-brussels-sprout.webp";
+import remoteHouse1 from "./remote-house1.webp";
+import socialMedia1 from "@/img/social-media-1.webp";
+import socialMedia2 from "@/img/social-media-2.webp";
+import socialMedia3 from "@/img/social-media-3.avif";
+import socialMediaParent1 from "@/img/social-media-parent-1.jpg";
+import teenChoppingVegetable from "./teen-chopping-vegetable.avif";
+import teenLookingAtFoodLabel from "./teen-looking-at-food-label.avif";
+import update1 from "./update1.avif";
 
 export {
   // Courses
@@ -98,23 +101,16 @@ export {
   intermediate,
   upperIntermediate,
   advanced,
- 
+
   // Extras
-  
-  // Specific-purposes
-  
-  // Flags
-  
-  // Gif
-  questionMarkGif,
-  
-  // Icon
   skillsIcon,
   grammarIcon,
   listeningIcon,
   speakingIcon,
   pronunciationIcon,
   vocabularyIcon,
+
+  // Specific-purposes
   automobileIcon,
   businessIcon,
   chemistryIcon,
@@ -141,8 +137,18 @@ export {
   usaFlagIcon,
   ukFlagIcon,
   brFlagIcon,
+
+  // General icons
   flipIcon,
-  
+
+  // Flags
+
+  // Gif
+  questionMarkGif,
+
+  // Grammar in Use Elementary
+  lisa,
+
   // Folder
   cat1,
   cat2,
@@ -179,5 +185,5 @@ export {
   socialMediaParent1,
   teenChoppingVegetable,
   teenLookingAtFoodLabel,
-  update1
+  update1,
 };

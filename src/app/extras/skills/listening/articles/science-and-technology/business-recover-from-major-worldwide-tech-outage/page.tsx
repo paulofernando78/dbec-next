@@ -136,7 +136,7 @@ const preVocabularies: PreVocabulary[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
-      audioSrc: "/c/customer .mp3",
+      audioSrc: "/c/customer.mp3",
       keyword: "customer ",
       label: "customer ",
       phonetics: "/ˈkʌs.tə.mɚ/",
@@ -145,10 +145,10 @@ const preVocabularies: PreVocabulary[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
-      audioSrc: "/d/disruption.mp3",
+      audioSrc: "/d/disrupted.mp3",
       keyword: "disrupt",
-      label: "disrupt",
-      phonetics: "",
+      label: "disrupted",
+      phonetics: "/dɪsˈrʌptɪd/",
     },
   },
   {
@@ -163,9 +163,9 @@ const preVocabularies: PreVocabulary[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
-      audioSrc: "/g/glitch.mp3",
+      audioSrc: "/g/glitches.mp3",
       keyword: "glitch",
-      label: "glitch",
+      label: "glitches",
       phonetics: "/ɡlɪtʃ/",
     },
   },
@@ -242,7 +242,7 @@ const fillInTheBlanks: Question[] = [
   {
     options: true,
     width: "100px",
-    beforeBlank: "6. Bus services will be.",
+    beforeBlank: "6. Bus services will be",
     correctAnswer: ["disrupted"],
     afterBlank: "tomorrow because of the bridge closure",
     lineBreakAfter: true,
@@ -250,7 +250,7 @@ const fillInTheBlanks: Question[] = [
   {
     options: true,
     width: "100px",
-    beforeBlank: "7. The farmhouse is .",
+    beforeBlank: "7. The farmhouse is",
     correctAnswer: ["remote"],
     afterBlank: "from any other buildings.",
     lineBreakAfter: true,
