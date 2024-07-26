@@ -4,7 +4,7 @@ import Image, { StaticImageData } from "next/image";
 import styles from "./styles.module.css";
 import { flipIcon, questionMarkGif } from "@/img/index";
 
-interface FlipCard {
+export interface FlipCard {
   frontText?: string;
   backText?: string;
   imgSrc?: StaticImageData;

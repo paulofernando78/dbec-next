@@ -11,7 +11,7 @@ const descriptions = [
         contents: [
           {
             link: "/extras/skills/listening/articles/arts-and-culture/new-food-flavors-coming-to-stores",
-            linkLabel: "New Food falvors coming to stores (May 24, 2024)",
+            linkLabel: "New Food flavors coming to stores (May 24, 2024)",
           },
         ],
       },

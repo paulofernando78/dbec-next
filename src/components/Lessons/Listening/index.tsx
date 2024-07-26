@@ -5,6 +5,7 @@ import {
   FillInTheBlank,
   Question,
 } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import { FlipCard } from "@/components/Cards/Flip";
 
 export interface FollowupQuestion {
   enQuestion?: string;
@@ -40,7 +41,7 @@ export interface PreVocabulary {
 
 export interface DiscussionQuestion {
   questions: {
-    question: string;
+    question?: string;
     component?: (props: any) => JSX.Element;
     componentProps?: any;
   }[];
@@ -49,6 +50,7 @@ export interface DiscussionQuestion {
 interface ListeningProps {
   discussion: string;
   discussionQuestions: DiscussionQuestion[];
+  flipCards: FlipCard[]
   preVocabularies: PreVocabulary[];
   fillInTheBlanks: Question[];
   gistQuestions: GistQuestion[];
@@ -63,6 +65,7 @@ const baseAudioSrc = "/assets/audio/extras/listening/articles";
 export const Listening = ({
   discussion,
   discussionQuestions,
+  flipCards,
   preVocabularies,
   fillInTheBlanks = [],
   gistQuestions,
@@ -95,9 +98,9 @@ export const Listening = ({
                     </span>
                   )}
                   {/* question */}
-                  <span className="p-font display-inline margin-right">
+                  {question.question && <span className="p-font display-inline margin-right">
                     {question.question}
-                  </span>
+                  </span>}
                 </span>
               ))}
             </div>
@@ -110,9 +113,9 @@ export const Listening = ({
           <p className="p-size-smaller">'10</p>
         </div>
       </Card>
-      <p className="bold">Let's match the pictures with the vocabulary.</p>
+      <p className="bold">Let's flip the cards (randomly) and match the pictures with the vocabulary below.</p>
       {/* flipCards */}
-
+      <FlipCard flipCards={flipCards} />
       {/* preVocabularies */}
       <div className="flex-8px-center-wrap">
         {preVocabularies?.map((preVocabulary, indexPreVocabulary) => (

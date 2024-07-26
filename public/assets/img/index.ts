@@ -56,7 +56,11 @@ import cat1 from "@/img/cat1.jpg"
 import cat2 from "@/img/cat2.jpeg"
 import cat3 from "@/img/cat3.png"
 import chocolatePinkLemonadeKitKat from "@/img/chocolate-kit-kat-pink-lemonad.jpg"
+import computerScreenGlitch1 from "./computer-screen-glitch1.jpg"
 import cookieOreoSourPatch from "@/img/cookie-oreo-sour-patch.png"
+import customer1 from "./customer1.webp"
+import disrupt1 from "./disrupt1.jpg"
+import fauxpas1 from "./faux-pas1.webp"
 import humanChromosomes from "@/img/human-chromosomes.avif"
 import iceCreamHiddenValleyRanch from "@/img/ice-cream-hidden-valley-ranch.webp"
 import iceCreamLittleMoonFishMochi from "@/img/ice-cream-little-moon-fish-mochi.avif"
@@ -65,20 +69,28 @@ import labEmbryo from "./lab-embryo.avif"
 import labEmbryo2 from "./lab-embryo2.jpg"
 import labEmbryo3 from "./lab-embryo3.jpg"
 import labScientist from "./lab-scientist.avif"
+import noInternetConnection1 from "./no-internet-connection1.jpg"
+import noInternetConnection2 from "./no-internet-connection2.jpg"
+import noInternetConnection3 from "./no-internet-connection3.avif"
+import noInternetConnection4 from "./no-internet-connection4.jpg"
+import noWifi from "./no-wifi.webp"
 import personAtASupermarketBrowsingVeggies from "./person-at-a-supermaket-browsing-veggies.avif"
 import personHoldingTwoComputers from "@/img/person-holding-two-computers.avif"
 import peoplePreparingFood from "./people-preparing-food.avif"
 import potatoChipLaysFlamminHotDillPickle from "./potato-chip-lays-flamin-hot-dill-pickle.png"
 import potatoChipLaysStrawBerryBacon from "./potato-chip-lays-strawberry-bacon.jpg"
 import potatoChipWalkersBrusselsSprout from "./potato-chip-walkers-brussels-sprout.webp"
+import remoteHouse1 from "./remote-house1.webp"
 import socialMedia1 from "@/img/social-media-1.webp"
 import socialMedia2 from "@/img/social-media-2.webp"
 import socialMedia3 from "@/img/social-media-3.avif"
 import socialMediaParent1 from "@/img/social-media-parent-1.jpg"
 import teenChoppingVegetable from "./teen-chopping-vegetable.avif"
 import teenLookingAtFoodLabel from "./teen-looking-at-food-label.avif"
+import update1 from "./update1.avif"
 
 export {
+  // Courses
   placementTest,
   beginner,
   elementary,
@@ -86,6 +98,17 @@ export {
   intermediate,
   upperIntermediate,
   advanced,
+ 
+  // Extras
+  
+  // Specific-purposes
+  
+  // Flags
+  
+  // Gif
+  questionMarkGif,
+  
+  // Icon
   skillsIcon,
   grammarIcon,
   listeningIcon,
@@ -111,7 +134,6 @@ export {
   songsIcon,
   sportsIcon,
   stockMarketIcon,
-  questionMarkGif,
   technologyIcon,
   allInOneIcon,
   examsIcon,
@@ -119,14 +141,18 @@ export {
   usaFlagIcon,
   ukFlagIcon,
   brFlagIcon,
-
+  flipIcon,
+  
   // Folder
   cat1,
   cat2,
   cat3,
   chocolatePinkLemonadeKitKat,
+  computerScreenGlitch1,
   cookieOreoSourPatch,
-  flipIcon,
+  customer1,
+  disrupt1,
+  fauxpas1,
   humanChromosomes,
   iceCreamHiddenValleyRanch,
   iceCreamLittleMoonFishMochi,
@@ -135,16 +161,23 @@ export {
   labEmbryo2,
   labEmbryo3,
   labScientist,
+  noInternetConnection1,
+  noInternetConnection2,
+  noInternetConnection3,
+  noInternetConnection4,
+  noWifi,
   personAtASupermarketBrowsingVeggies,
   personHoldingTwoComputers,
   peoplePreparingFood,
   potatoChipLaysFlamminHotDillPickle,
   potatoChipLaysStrawBerryBacon,
   potatoChipWalkersBrusselsSprout,
+  remoteHouse1,
   socialMedia1,
   socialMedia2,
   socialMedia3,
   socialMediaParent1,
   teenChoppingVegetable,
-  teenLookingAtFoodLabel
+  teenLookingAtFoodLabel,
+  update1
 };
