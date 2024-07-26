@@ -135,7 +135,7 @@ export const Listening = ({
 
       {/* gistQuestions*/}
       <div>
-        <p>After listening, discuss the question with your partner.</p>
+        <p className="margin-bottom">After listening, discuss the question with your partner.</p>
         {gistQuestions.map((gistQuestion, gistQuestionIndex) => (
           <span key={gistQuestionIndex} className="p-font">
             {gistQuestion.question}

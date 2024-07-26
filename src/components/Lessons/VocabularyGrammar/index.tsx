@@ -1,7 +1,12 @@
-import React from 'react'
+import { Card } from "@/components/Cards/Card";
+import React from "react";
 
 export const VocabularyGrammar = () => {
   return (
-    <div>...</div>
-  )
-}
+    <>
+      <Card>
+        <p>...</p>
+      </Card>
+    </>
+  );
+};
