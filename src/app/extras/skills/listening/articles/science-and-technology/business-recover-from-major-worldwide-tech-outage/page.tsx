@@ -106,8 +106,8 @@ const preVocabularies: PreVocabulary[] = [
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
       audioSrc: "/c/customer.mp3",
-      keyword: "customer ",
-      label: "customer ",
+      keyword: "customer",
+      label: "customer",
       phonetics: "/ˈkʌs.tə.mɚ/",
     },
   },
