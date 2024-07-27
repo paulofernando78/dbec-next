@@ -101,11 +101,11 @@
 		    "phonetics": "/ˈkʌs.tə.mɚ/",
 		    "partOfSpeech": "noun",
         "enDefinition": "a person who buys goods or a service",
-        "ptDefinition": "...",
+        "ptDefinition": "uma pessoa que compra bens ou serviços",
         "examples": [
           {
-            "enExample": "Mrs Wilson is one of our regular customers.",
-            "ptExample": "..."
+            "enExample": "Mrs. Wilson is one of our regular customers.",
+            "ptExample": "A Sra. Wilson é uma de nossas clientes regulares."
           }
         ]
       }

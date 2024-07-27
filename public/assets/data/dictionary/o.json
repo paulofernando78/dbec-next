@@ -1,1 +1,22 @@
-[]
+[
+    {
+        "keyword": "outage",
+        "definitions": [
+          {
+              "audio": "/assets/audio/dictionary/xxx.mp3",
+              "word": "outage",
+                "phonetics": "/ˈaʊ.t̬ɪdʒ/",
+                "partOfSpeech": "noun",
+            "enDefinition": "a period when a service, such as electricity, is not available",
+            "ptDefinition": "corte de energia, apagão",
+            "examples": [
+              {
+                "enExample": "The radio news reported power outages affecting 50 homes.",
+                "ptExample": "O noticiário no rádio relatou quedas de energia afetando 50 casas."
+              }
+            ],
+              "synonyms": "blackout"
+          }
+        ]
+      }
+]
