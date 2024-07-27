@@ -10,7 +10,7 @@ interface SubSection {
   imgAlt?: string;
   imgWidth?: string;
   text?: string;
-  subSection: string;
+  subSection?: string;
   examples: Example[];
 }
 

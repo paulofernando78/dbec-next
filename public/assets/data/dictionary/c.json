@@ -96,7 +96,7 @@
     "keyword": "customer",
     "definitions": [
       {
-	      "audio": "/assets/audio/dictionary/xxx.mp3",
+	      "audio": "/assets/audio/dictionary/c/customer.mp3",
 	      "word": "customer",
 		    "phonetics": "/ˈkʌs.tə.mɚ/",
 		    "partOfSpeech": "noun",
