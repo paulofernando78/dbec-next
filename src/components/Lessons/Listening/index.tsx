@@ -114,8 +114,6 @@ export const Listening = ({
         </div>
       </Card>
       <p className="bold">Let's flip the cards (randomly) and match the pictures with the vocabulary below.</p>
-      {/* flipCards */}
-      <FlipCard flipCards={flipCards} />
       {/* preVocabularies */}
       <div className="flex-8px-center-wrap">
         {preVocabularies?.map((preVocabulary, indexPreVocabulary) => (
@@ -124,6 +122,9 @@ export const Listening = ({
           </span>
         ))}
       </div>
+        {/* flipCards */}
+        <FlipCard flipCards={flipCards} />
+      {/* fillInTheBlanks */}
       <p className="bold">Now fill in the blanks with the right vocabulary.</p>
       <FillInTheBlank questions={fillInTheBlanks} />
       <Card bgColor="Black" textColor="White">

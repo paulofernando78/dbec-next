@@ -91,5 +91,24 @@
         ]
       }
     ]
+  },
+  {
+    "keyword": "customer",
+    "definitions": [
+      {
+	      "audio": "/assets/audio/dictionary/xxx.mp3",
+	      "word": "customer",
+		    "phonetics": "/ˈkʌs.tə.mɚ/",
+		    "partOfSpeech": "noun",
+        "enDefinition": "a person who buys goods or a service",
+        "ptDefinition": "...",
+        "examples": [
+          {
+            "enExample": "Mrs Wilson is one of our regular customers.",
+            "ptExample": "..."
+          }
+        ]
+      }
+    ]
   }
 ]

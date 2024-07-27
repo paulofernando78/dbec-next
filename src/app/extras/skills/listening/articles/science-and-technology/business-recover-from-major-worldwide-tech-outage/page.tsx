@@ -24,7 +24,7 @@ import {
   customer1,
   disrupt1,
   update1,
-  fauxpas1
+  fauxpas1,
 } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
@@ -101,37 +101,6 @@ const discussionQuestions: DiscussionQuestion[] = [
   },
 ];
 
-const flipCards: FlipCard[] = [
-  {
-    imgSrc: computerScreenGlitch1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: remoteHouse1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: noWifi,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: customer1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: update1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: disrupt1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: fauxpas1,
-    imgAlt: "...",
-  },
-];
-
 const preVocabularies: PreVocabulary[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
@@ -198,6 +167,37 @@ const preVocabularies: PreVocabulary[] = [
   },
 ];
 
+const flipCards: FlipCard[] = [
+  {
+    imgSrc: computerScreenGlitch1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: remoteHouse1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: noWifi,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: customer1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: update1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: disrupt1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: fauxpas1,
+    imgAlt: "...",
+  },
+];
+
 const fillInTheBlanks: Question[] = [
   {
     options: true,
@@ -260,7 +260,8 @@ const fillInTheBlanks: Question[] = [
 const gistQuestions: GistQuestion[] = [
   {
     question: "What is the main issue discussed in this lesson?",
-    answer: "The main issue discussed in this lesson is a global computer system outage caused by a faulty software update from CrowdStrike, affecting various businesses worldwide.",
+    answer:
+      "The main issue discussed in this lesson is a global computer system outage caused by a faulty software update from CrowdStrike, affecting various businesses worldwide.",
   },
 ];
 
@@ -462,11 +463,13 @@ const scanQuestions: ScanQuestion[] = [
   },
   {
     question: "How did CrowdStrike respond?",
-    answer: "They admitted the mistake, identified the problem, and deployed a fix to assist customers.",
+    answer:
+      "They admitted the mistake, identified the problem, and deployed a fix to assist customers.",
   },
   {
     question: "What was unique about fixing the problem?",
-    answer: "It required hands-on efforts to fix each affected machine individually.",
+    answer:
+      "It required hands-on efforts to fix each affected machine individually.",
   },
 ];
 
@@ -474,7 +477,7 @@ const followupQuestions: FollowupQuestion[] = [
   {
     enQuestion: "How such outages can affect your everyday life?",
     ptQuestion: "Como essas falhas podem afetar seu dia a dia?",
-  }
+  },
 ];
 
 export default function BusinessesRecoverFromMajorWorldwideTechOutage() {

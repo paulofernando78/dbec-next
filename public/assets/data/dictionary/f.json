@@ -1,5 +1,25 @@
 [
   {
+    "keyword": "faux pas",
+    "definitions": [
+      {
+	      "audio": "/assets/audio/dictionary/xxx.mp3",
+	      "word": "faux pas",
+		    "phonetics": "/ˌfoʊ ˈpɑː/",
+		    "partOfSpeech": "noun",
+        "enDefinition": "an action or a remark that causes somebody to feel embarrassed because it is not socially correct",
+        "ptDefinition": "uma ação ou comentário que faz alguém se sentir constrangido porque não é socialmente correto",
+        "examples": [
+          {
+            "enExample": "I made some remark about his wife's family, and then realized I'd made a serious faux pas.",
+            "ptExample": "Fiz um comentário sobre a família da esposa dele e, em seguida, percebi que cometi uma gafe séria."
+          }
+        ],
+	      "synonyms": "gaffe, slip"
+      }
+    ]
+  },
+  {
     "keyword": "face the music",
     "definitions": [
       {
