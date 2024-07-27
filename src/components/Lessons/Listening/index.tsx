@@ -1,3 +1,5 @@
+import SwiperFraction from "@/components/Swiper/Fraction";
+
 import { Card } from "../../Cards/Card";
 import { AudioPlayer } from "../../Audioplayer";
 import { Collapsible } from "../../Collapsible/Collapsible";
@@ -50,7 +52,7 @@ export interface DiscussionQuestion {
 interface ListeningProps {
   discussion: string;
   discussionQuestions: DiscussionQuestion[];
-  flipCards: FlipCard[]
+  flipCards: FlipCard[];
   preVocabularies: PreVocabulary[];
   fillInTheBlanks: Question[];
   gistQuestions: GistQuestion[];
@@ -65,6 +67,7 @@ const baseAudioSrc = "/assets/audio/extras/listening/articles";
 export const Listening = ({
   discussion,
   discussionQuestions,
+  swiperFraction,
   flipCards,
   preVocabularies,
   fillInTheBlanks = [],
@@ -83,7 +86,7 @@ export const Listening = ({
         </div>
       </Card>
       <p className="bold">{discussion}</p>
-
+      <SwiperFraction images={swiperFraction} />
       <div>
         {/* dicussionQuestions */}
         {discussionQuestions.map(
@@ -98,9 +101,11 @@ export const Listening = ({
                     </span>
                   )}
                   {/* question */}
-                  {question.question && <span className="p-font display-inline margin-right">
-                    {question.question}
-                  </span>}
+                  {question.question && (
+                    <span className="p-font display-inline margin-right">
+                      {question.question}
+                    </span>
+                  )}
                 </span>
               ))}
             </div>
@@ -113,7 +118,12 @@ export const Listening = ({
           <p className="p-size-smaller">'10</p>
         </div>
       </Card>
-      <p className="bold">Let's flip the cards (randomly) and match the pictures with the vocabulary below.</p>
+      <p className="bold">
+        Let's flip the cards (randomly) and match the pictures with the
+        vocabulary below.
+      </p>
+      {/* flipCards */}
+      <FlipCard flipCards={flipCards} />
       {/* preVocabularies */}
       <div className="flex-8px-center-wrap">
         {preVocabularies?.map((preVocabulary, indexPreVocabulary) => (
@@ -122,8 +132,7 @@ export const Listening = ({
           </span>
         ))}
       </div>
-        {/* flipCards */}
-        <FlipCard flipCards={flipCards} />
+
       {/* fillInTheBlanks */}
       <p className="bold">Now fill in the blanks with the right vocabulary.</p>
       <FillInTheBlank questions={fillInTheBlanks} />
@@ -136,7 +145,9 @@ export const Listening = ({
 
       {/* gistQuestions*/}
       <div>
-        <p className="margin-bottom">After listening, discuss the question with your partner.</p>
+        <p className="margin-bottom">
+          After listening, discuss the question with your partner.
+        </p>
         {gistQuestions.map((gistQuestion, gistQuestionIndex) => (
           <span key={gistQuestionIndex} className="p-font">
             {gistQuestion.question}

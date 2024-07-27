@@ -1,6 +1,5 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import SwiperFraction from "@/components/Swiper/Fraction";
 import {
   DiscussionQuestion,
   PreVocabulary,
@@ -10,9 +9,10 @@ import {
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
-import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import { SwiperFractionData } from "@/components/Swiper/Fraction";
 import { FlipCard } from "@/components/Cards/Flip";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import {
   noInternetConnection1,
   noInternetConnection2,
@@ -28,7 +28,7 @@ import {
 } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
-const swiperFraction = [
+const swiperFraction: SwiperFractionData[] = [
   {
     imgSrc: noInternetConnection1,
     imgAlt: "Ethernet cable disconnected",
@@ -101,6 +101,37 @@ const discussionQuestions: DiscussionQuestion[] = [
   },
 ];
 
+const flipCards: FlipCard[] = [
+  {
+    imgSrc: computerScreenGlitch1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: remoteHouse1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: noWifi,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: customer1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: update1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: disrupt1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: fauxpas1,
+    imgAlt: "...",
+  },
+];
+
 const preVocabularies: PreVocabulary[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
@@ -167,37 +198,6 @@ const preVocabularies: PreVocabulary[] = [
   },
 ];
 
-const flipCards: FlipCard[] = [
-  {
-    imgSrc: computerScreenGlitch1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: remoteHouse1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: noWifi,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: customer1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: update1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: disrupt1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: fauxpas1,
-    imgAlt: "...",
-  },
-];
-
 const fillInTheBlanks: Question[] = [
   {
     options: true,
@@ -210,7 +210,7 @@ const fillInTheBlanks: Question[] = [
   {
     options: true,
     width: "100px",
-    beforeBlank: "2. I committed / made a .",
+    beforeBlank: "2. I committed / made a",
     correctAnswer: ["faux pas"],
     afterBlank: "that my friends have never let me forget",
     lineBreakAfter: true,
@@ -490,10 +490,10 @@ export default function BusinessesRecoverFromMajorWorldwideTechOutage() {
         subdescription="July 24, 2024"
       />
       <div className="line-break">
-        <SwiperFraction images={swiperFraction} />
         <div>
           <Listening
-            discussion="Check out the pictures above. Swipe them to the right and answer the questions."
+            discussion="Check out the pictures below. Swipe them to the right and answer the questions."
+            swiperFraction={swiperFraction}
             discussionQuestions={discussionQuestions}
             flipCards={flipCards}
             preVocabularies={preVocabularies}
