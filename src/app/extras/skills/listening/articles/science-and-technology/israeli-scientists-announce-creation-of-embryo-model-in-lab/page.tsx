@@ -9,14 +9,14 @@ import {
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
 import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
-import SwiperFraction from "@/components/Swiper/Fraction";
+import SwiperFraction, { SwiperFractionData } from "@/components/Swiper/Fraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
 
 import { cat1, labEmbryo, labEmbryo2, labEmbryo3, labScientist } from "@/img/index";
 import { FlipCard } from "@/components/Cards/Flip";
 
-const swiperFraction = [
+const swiperFraction: SwiperFractionData[] = [
   {
     imgSrc: labEmbryo,
     imgAlt:
@@ -505,6 +505,7 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
         <div>
           <Listening
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."
+            swiperFraction={swiperFraction}
             discussionQuestions={discussionQuestions}
             flipCards={flipCards}
             preVocabularies={preVocabularies}

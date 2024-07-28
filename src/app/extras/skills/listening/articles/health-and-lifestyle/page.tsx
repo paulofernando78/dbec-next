@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { DescriptionCard } from "@/components/Cards/DescriptionCard";
 

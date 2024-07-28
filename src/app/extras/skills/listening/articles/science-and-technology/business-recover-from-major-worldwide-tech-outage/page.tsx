@@ -13,6 +13,7 @@ import { SwiperFractionData } from "@/components/Swiper/Fraction";
 import { FlipCard } from "@/components/Cards/Flip";
 import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+import { ScrollToTop } from "@/components/ScrollToTop";
 import {
   noInternetConnection1,
   noInternetConnection2,
@@ -26,7 +27,6 @@ import {
   update1,
   fauxpas1,
 } from "@/img/index";
-import { ScrollToTop } from "@/components/ScrollToTop";
 
 const swiperFraction: SwiperFractionData[] = [
   {
@@ -490,23 +490,21 @@ export default function BusinessesRecoverFromMajorWorldwideTechOutage() {
         subdescription="July 24, 2024"
       />
       <div className="line-break">
-        <div>
-          <Listening
-            discussion="Check out the pictures below. Swipe them to the right and answer the questions."
-            swiperFraction={swiperFraction}
-            discussionQuestions={discussionQuestions}
-            flipCards={flipCards}
-            preVocabularies={preVocabularies}
-            fillInTheBlanks={fillInTheBlanks}
-            gistQuestions={gistQuestions}
-            audioSrc="https://voa-audio-ns.akamaized.net/vle/2024/07/24/01000000-0aff-0242-914a-08dcabf9c604.mp3"
-            paragraphs={paragraphs}
-            scanQuestions={scanQuestions}
-            followupQuestions={followupQuestions}
-          />
-        </div>
-        <ScrollToTop />
+        <Listening
+          discussion="Check out the pictures below. Swipe them to the right and answer the questions."
+          swiperFraction={swiperFraction}
+          discussionQuestions={discussionQuestions}
+          flipCards={flipCards}
+          preVocabularies={preVocabularies}
+          fillInTheBlanks={fillInTheBlanks}
+          gistQuestions={gistQuestions}
+          audioSrc="https://voa-audio-ns.akamaized.net/vle/2024/07/24/01000000-0aff-0242-914a-08dcabf9c604.mp3"
+          paragraphs={paragraphs}
+          scanQuestions={scanQuestions}
+          followupQuestions={followupQuestions}
+        />
       </div>
+      <ScrollToTop />
     </>
   );
 }

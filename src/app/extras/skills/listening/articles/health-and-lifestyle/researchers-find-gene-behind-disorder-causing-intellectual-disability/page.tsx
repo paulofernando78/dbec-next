@@ -1,6 +1,5 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import SwiperFraction from "@/components/Swiper/Fraction";
 import {
   DiscussionQuestion,
   PreVocabulary,
@@ -10,11 +9,12 @@ import {
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
+import { SwiperFractionData } from "@/components/Swiper/Fraction";
+import { FlipCard } from "@/components/Cards/Flip";
 import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { cat1, humanChromosomes } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
-import { FlipCard } from "@/components/Cards/Flip";
+import { humanChromosomes, cat1 } from "@/img/index";
 
 const swiperFraction = [
   {
@@ -52,10 +52,10 @@ const flipCards: FlipCard[] = [
   {
     frontText: "What's the past of ask?",
     imgSrc: cat1,
-    imgAlt: "A cat", 
-    backText: "asked"
-  }
-]
+    imgAlt: "A cat",
+    backText: "asked",
+  },
+];
 
 const preVocabularies: PreVocabulary[] = [
   {
@@ -340,40 +340,21 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
         subdescription="June 10, 2024"
       />
       <div className="line-break">
-        <SwiperFraction images={swiperFraction} />
-        <div>
-          <Listening
-            discussion="Check out the pictures above. Swipe them to the right and answer the questions."
-            discussionQuestions={discussionQuestions}
-            flipCards={flipCards}
-            preVocabularies={preVocabularies}
-            fillInTheBlanks={fillInTheBlanks}
-            gistQuestions={gistQuestions}
-            audioSrc="https://voa-audio-ns.akamaized.net/vle/2024/06/04/01000000-0aff-0242-bd74-08dc84d8b022.mp3"
-            paragraphs={paragraphs}
-            scanQuestions={scanQuestions}
-            followupQuestions={followupQuestions}
-          />
-        </div>
+        <Listening
+          discussion="Check out the pictures above. Swipe them to the right and answer the questions."
+          swipeFraction={swiperFraction}
+          discussionQuestions={discussionQuestions}
+          flipCards={flipCards}
+          preVocabularies={preVocabularies}
+          fillInTheBlanks={fillInTheBlanks}
+          gistQuestions={gistQuestions}
+          audioSrc="https://voa-audio-ns.akamaized.net/vle/2024/06/04/01000000-0aff-0242-bd74-08dc84d8b022.mp3"
+          paragraphs={paragraphs}
+          scanQuestions={scanQuestions}
+          followupQuestions={followupQuestions}
+        />
       </div>
-      <div className="line-break">
-        <SwiperFraction images={swiperFraction} />
-        <div>
-          <Listening
-            discussion="Check out the pictures above and answer the questions."
-            discussionQuestions={discussionQuestions}
-            flipCards={flipCards}
-            preVocabularies={preVocabularies}
-            fillInTheBlanks={fillInTheBlanks}
-            gistQuestions={gistQuestions}
-            audioSrc="https://voa-audio-ns.akamaized.net/vle/2024/06/21/01000000-0aff-0242-830c-08dc923fce0e.mp3"
-            paragraphs={paragraphs}
-            scanQuestions={scanQuestions}
-            followupQuestions={followupQuestions}
-          />
-        </div>
-        <ScrollToTop />
-      </div>
+      <ScrollToTop />
     </>
   );
 }

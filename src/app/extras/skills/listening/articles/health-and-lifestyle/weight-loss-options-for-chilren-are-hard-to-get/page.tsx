@@ -12,7 +12,9 @@ import {
 import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 import SwiperFraction from "@/components/Swiper/Fraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+import { FlipCard } from "@/components/Cards/Flip";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
+import { ScrollToTop } from "@/components/ScrollToTop";
 import {
   cat1,
   peoplePreparingFood,
@@ -20,10 +22,8 @@ import {
   teenChoppingVegetable,
   teenLookingAtFoodLabel,
 } from "@/img/index";
-import { ScrollToTop } from "@/components/ScrollToTop";
-import { FlipCard } from "@/components/Cards/Flip";
 
-const swiperFraction = [
+const swiperFraction: SwiperFractionData[] = [
   {
     imgSrc: teenChoppingVegetable,
     imgAlt: "A teenager chipping vegetables",
@@ -661,10 +661,10 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
         subdescription="June 24, 2024"
       />
       <div className="line-break">
-        <SwiperFraction images={swiperFraction} />
         <div>
           <Listening
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."
+            swiperFraction={swiperFraction}
             discussionQuestions={discussionQuestions}
             flipCards={flipCards}
             preVocabularies={preVocabularies}

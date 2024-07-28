@@ -1,6 +1,6 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import SwiperFraction from "@/components/Swiper/Fraction";
+import SwiperFraction, { SwiperFractionData } from "@/components/Swiper/Fraction";
 import {
   DiscussionQuestion,
   PreVocabulary,
@@ -16,7 +16,7 @@ import { cat1, socialMedia1, socialMedia2, socialMediaParent1 } from "@/img/inde
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { FlipCard } from "@/components/Cards/Flip";
 
-const swiperFraction = [
+const swiperFraction: SwiperFractionData[] = [
   {
     imgSrc: socialMedia1,
     imgAlt: "...",
@@ -388,10 +388,9 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
         subdescription="March 27, 2024"
       />
       <div className="line-break">
-        <SwiperFraction images={swiperFraction} />
-        <div>
           <Listening
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."
+            swiperFraction={swiperFraction}
             discussionQuestions={discussionQuestions}
             flipCards={flipCards}
             preVocabularies={preVocabularies}
@@ -404,7 +403,6 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
           />
         </div>
         <ScrollToTop />
-      </div>
     </>
   );
 }

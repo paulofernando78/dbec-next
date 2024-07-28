@@ -1,6 +1,5 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import SwiperFraction from "@/components/Swiper/Fraction";
 import {
   DiscussionQuestion,
   PreVocabulary,
@@ -10,11 +9,14 @@ import {
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
-import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import { SwiperFractionData } from "@/components/Swiper/Fraction";
 import { FlipCard } from "@/components/Cards/Flip";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { cat1 } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
+import {
+ cat1
+} from "@/img/index";
 
 const swiperFraction = [
   {
@@ -258,10 +260,10 @@ export default function FiveTipsHowToGetBetterSleep() {
         subdescription="April 29, 2024"
       />
       <div className="line-break">
-        <SwiperFraction images={swiperFraction} />
         <div>
           <Listening
             discussion="Check out the pictures above. Swipe them to the right and answer the questions."
+            swiperFraction={swiperFraction}
             discussionQuestions={discussionQuestions}
             flipCards={flipCards}
             preVocabularies={preVocabularies}
