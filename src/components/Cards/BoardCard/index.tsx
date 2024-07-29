@@ -22,7 +22,7 @@ export const BoardCard = ({
       >
         <p className="bold">{label}</p>
       </div>
-      <div className={styles["children"]}>{children}</div>
+      <div className={styles["children"]} style={{ marginBottom: ".2rem"}}>{children}</div>
     </div>
   );
 };

@@ -4,6 +4,8 @@ import Image from "next/image";
 import styles from "./styles.module.css";
 import { BoardCard } from "@/components/Cards/BoardCard";
 import { IconWarningSign } from "@/components/Icon/WarningSign/Idex";
+import { FillInTheBlank } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+
 
 // Images
 import {
@@ -12,6 +14,154 @@ import {
   smallSwimmingPool,
   inFiveMinutes,
 } from "@/img/index";
+
+const fillInTheBlanks = [
+  {
+    options: true,
+    width: "50px",
+    title: "103.1 Choose at / on /in.",
+    beforeBlank: "1.",
+    correctAnswer: ["on"],
+    afterBlank: "June 6 (sixth)",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "2.",
+    correctAnswer: ["in"],
+    afterBlank: "the evening",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "3.",
+    correctAnswer: ["at"],
+    afterBlank: "2:30",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "4.",
+    correctAnswer: ["on"],
+    afterBlank: "Wednesday",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "5.",
+    correctAnswer: ["in"],
+    afterBlank: "2007",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "6.",
+    correctAnswer: ["in"],
+    afterBlank: "September",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "7.",
+    correctAnswer: ["on"],
+    afterBlank: "September 24 (twenty-fourth)",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "8.",
+    correctAnswer: ["on"],
+    afterBlank: "Thursday",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "9.",
+    correctAnswer: ["at"],
+    afterBlank: "11:45",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "10.",
+    correctAnswer: ["on"],
+    afterBlank: "Christmas Day",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "11.",
+    correctAnswer: ["at"],
+    afterBlank: "Christmas",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "12.",
+    correctAnswer: ["in"],
+    afterBlank: "the morning",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "13.",
+    correctAnswer: ["on"],
+    afterBlank: "Friday morning",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "14.",
+    correctAnswer: ["on"],
+    afterBlank: "Saturday night",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "15.",
+    correctAnswer: ["at", "in"],
+    afterBlank: "night",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "16.",
+    correctAnswer: ["at"],
+    afterBlank: "the end of the day",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "17.",
+    correctAnswer: ["on"],
+    afterBlank: "the weekend (USA)",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "18.",
+    correctAnswer: ["in"],
+    afterBlank: "winter",
+    lineBreakAfter: true
+  },
+];
 
 export default function Unit103() {
   return (
@@ -371,7 +521,7 @@ export default function Unit103() {
 
         {/* Exercises */}
         <BoardCard label="Exercise" bgColor="lightgray" textColor="black">
-          <p>...</p>
+        <div className="line-break"><FillInTheBlank questions={fillInTheBlanks} /></div>
         </BoardCard>
       </div>
     </>

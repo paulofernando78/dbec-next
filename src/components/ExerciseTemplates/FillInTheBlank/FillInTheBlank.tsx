@@ -64,7 +64,6 @@ export const FillInTheBlank = ({
     setIsCorrects(newIsCorrects);
   };
   
-
   // Depois comparar, pois estava dando como certo mesmo sem escrever nada. E isso foi quando passei como prop no Listening.
   // const handleCheckAnswers = () => {
   //   const newIsCorrects = selectedOptions.map((options, index) =>
