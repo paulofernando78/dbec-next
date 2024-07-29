@@ -16,7 +16,7 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { humanChromosomes, cat1 } from "@/img/index";
 
-const swiperFraction = [
+const swiperFraction: SwiperFractionData[] = [
   {
     imgSrc: humanChromosomes,
     imgAlt:
@@ -342,7 +342,7 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
       <div className="line-break">
         <Listening
           discussion="Check out the pictures above. Swipe them to the right and answer the questions."
-          swipeFraction={swiperFraction}
+          swiperFraction={swiperFraction}
           discussionQuestions={discussionQuestions}
           flipCards={flipCards}
           preVocabularies={preVocabularies}
