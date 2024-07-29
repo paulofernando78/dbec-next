@@ -2,6 +2,7 @@ import { Card } from "@/components/Cards/Card";
 import Image, { StaticImageData } from "next/image";
 
 interface Example {
+  exampleText: string;
   example: string;
 }
 
@@ -56,19 +57,28 @@ export const GrammarInUse = ({ lessons }: GrammarInUseProps) => {
                 {subSection.text && <p className="bold">{subSection.text}</p>}
 
                 {/* section */}
-                {subSection.subSection && <Card bgColor="lightgray" textColor="black">
-                  <p className="bold">{subSection.subSection}</p>
-                </Card>}
+                {subSection.subSection && (
+                  <Card bgColor="lightgray" textColor="black">
+                    <p className="bold">{subSection.subSection}</p>
+                  </Card>
+                )}
 
                 {/* example */}
                 <div>
                   {subSection.examples.map((example, indexExample) => (
-                    <p key={indexExample}>
-                      <span className="bold">•</span>{" "}
-                      <span
-                        dangerouslySetInnerHTML={{ __html: example.example }}
-                      ></span>
-                    </p>
+                    <div key={indexExample}>
+                      {example.exampleText && (<p
+                        dangerouslySetInnerHTML={{
+                          __html: example.exampleText
+                        }}
+                      ></p>)}
+                      <p>
+                        <span className="bold">•</span>{" "}
+                        <span
+                          dangerouslySetInnerHTML={{ __html: example.example }}
+                        ></span>
+                      </p>
+                    </div>
                   ))}
                 </div>
               </div>

@@ -48,8 +48,13 @@ const lessons = [
     section: "B",
     subSections: [
       {
-        text: "aaa",
+        text: "Take a look at the singular form:",
         subSection: "Affirmative",
+        exampleTexts: [
+          {
+            example: "subject + verb (short form)",
+          }
+        ],
         examples: [
           {
             example:
@@ -59,7 +64,7 @@ const lessons = [
       },
       {
         text: "aaa",
-        subSection: "Affirmative",
+        subSection: "Negative",
         examples: [
           {
             example:
