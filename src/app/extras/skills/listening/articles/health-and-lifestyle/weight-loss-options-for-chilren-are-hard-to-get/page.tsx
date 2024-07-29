@@ -10,7 +10,7 @@ import {
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
 import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
-import SwiperFraction from "@/components/Swiper/Fraction";
+import SwiperFraction, { SwiperFractionData } from "@/components/Swiper/Fraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { FlipCard } from "@/components/Cards/Flip";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
