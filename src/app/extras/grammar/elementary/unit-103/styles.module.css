@@ -1,0 +1,29 @@
+.grid-section-a {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.grid-section-a:last-child {
+  margin-bottom: 10px;
+}
+
+.exercise-e-time {
+  width: 360px;
+}
+
+@media (max-width: 768px) {
+  .grid-section-a {
+    grid-template-columns: 1fr;
+  }
+  .image {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .exercise-e-time {
+    width: 100%;
+  }
+}

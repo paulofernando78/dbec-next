@@ -15,6 +15,12 @@ import speakingIcon from "./icon/speaking.png";
 import pronunciationIcon from "./icon/pronunciation.png";
 import vocabularyIcon from "./icon/dictionary.png";
 
+// Grammar in use
+
+// Elementary
+
+import inFiveMinutes from "./extras/grammar/elementary/unit-103/in-five-minutes.png"
+
 // Specific Purposes
 import automobileIcon from "./icon/automobile.png";
 import businessIcon from "./icon/business.png";
@@ -50,6 +56,12 @@ import questionMarkGif from "./gif/question-mark.gif";
 
 // Icon
 import flipIcon from "@/img/icon/flip.png";
+import warningSign from "@/img/icon/warning-sign.png"
+
+// Bitmoji
+import clockWakeUpHate from "@/img/bitmoji/clock-wakeup-hate.png"
+import xmas1 from "@/img/bitmoji/xmas1.png"
+import smallSwimmingPool from "@/img/bitmoji/small-swimming-pool.png"
 
 // Grammar in Use
 import lisa from "@/img/extras/grammar/elementary/unit-1/lisa.jpg";
@@ -110,6 +122,13 @@ export {
   pronunciationIcon,
   vocabularyIcon,
 
+  // Grammar in Use
+
+  // Elementary
+  
+  // Unit 103
+  inFiveMinutes,
+
   // Specific-purposes
   automobileIcon,
   businessIcon,
@@ -140,11 +159,17 @@ export {
 
   // General icons
   flipIcon,
+  warningSign,
 
   // Flags
 
   // Gif
   questionMarkGif,
+
+  // Bitmoji
+  clockWakeUpHate,
+  xmas1,
+  smallSwimmingPool,
 
   // Grammar in Use Elementary
   lisa,

@@ -254,6 +254,13 @@ p {
 .grid-2fr-8px {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.grid-3fr-8px {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
 }
 
 .grid-repeat-auto-fit-110px-justify {
@@ -297,7 +304,7 @@ p {
   border: 2px dashed gray;
 }
 
-.border-red-dashed {
+.red-dashed-border {
   border-radius: var(--border-radius);
   padding: 8px;
   border: 2px dashed red;
@@ -336,5 +343,10 @@ hr {
   .img-border {
     width: 100%;
     height: fit-content;
+  }
+
+  .grid-2fr-8px, .grid-3fr-8px {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
