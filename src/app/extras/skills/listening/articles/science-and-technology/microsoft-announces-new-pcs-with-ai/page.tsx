@@ -58,10 +58,32 @@ const discussionQuestions: DiscussionQuestion[] = [
 
 const flipCards: FlipCard[] = [
   {
-    frontText: "What's the past of ask?",
     imgSrc: cat1,
     imgAlt: "...",
-    backText: "asked",
+  },
+  {
+    imgSrc: cat1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: cat1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: cat1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: cat1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: cat1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: cat1,
+    imgAlt: "...",
   },
 ];
 
