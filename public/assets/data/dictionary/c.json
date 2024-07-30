@@ -77,6 +77,40 @@
     ]
   },
   {
+    "keyword": "compel",
+    "definitions": [
+      {
+	      "audio": "/assets/audio/dictionary/xxx.mp3",
+	      "word": "compel",
+		    "phonetics": "/kəmˈpel/",
+		    "partOfSpeech": "verb",
+        "enDefinition": "to force someone to do something",
+        "ptDefinition": "obrigar",
+        "examples": [
+          {
+            "enExample": "As a schoolboy he was compelled to wear shorts even in winter.",
+            "ptExample": "Como estudante, ele foi obrigado a usar shorts mesmo no inverno."
+          }
+        ],
+	      "synonyms": "force"
+      },
+      {
+	      "audio": "/assets/audio/dictionary/xxx.mp3",
+	      "word": "compelling",
+		    "phonetics": "/kəmˈpel.ɪŋ/",
+		    "partOfSpeech": "adjective",
+        "enDefinition": "If a reason, argument, etc. is compelling, it makes you believe it or accept it because it is so strong.",
+        "ptDefinition": "convincente",
+        "examples": [
+          {
+            "enExample": "compelling evidence",
+            "ptExample": "evidência convincente"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "come up with a winner",
     "definitions": [
       {
