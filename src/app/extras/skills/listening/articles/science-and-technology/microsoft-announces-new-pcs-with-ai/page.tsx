@@ -9,9 +9,14 @@ import {
   ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
-import SwiperFraction, { SwiperFractionData } from "@/components/Swiper/Fraction";
+import { SwiperFractionData } from "@/components/Swiper/Fraction";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { cat1, personHoldingTwoComputers } from "@/img/index";
+import {
+  cat1,
+  personHoldingTwoComputers,
+  personMakingSpeech1,
+  personHoldingPhone1
+} from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 import { FlipCard } from "@/components/Cards/Flip";
@@ -22,6 +27,14 @@ const swiperFraction: SwiperFractionData[] = [
     imgAlt:
       "Brett Ostrum, Microsoft corporate vice president of Surface, holds up the new Surface Laptop and Surface Pro with built-in AI at an event of the company's AI assistant, Copilot, Monday, May 20, 2024, in Redmond, Wash. (AP Photo/Lindsey Wasson)",
   },
+  {
+    imgSrc: personMakingSpeech1,
+    imgAlt: "A person making a speech",
+  },
+  {
+    imgSrc: personHoldingPhone1,
+    imgAlt: "A person holding a phone",
+  },
 ];
 
 const discussionQuestions: DiscussionQuestion[] = [
@@ -30,6 +43,14 @@ const discussionQuestions: DiscussionQuestion[] = [
       {
         question:
           "1. What do you know about AI and its applications in everyday life?",
+      }
+    ],
+  },
+  {
+    questions: [
+      {
+        question:
+          "2. How often do you use it?",
       },
     ],
   },
@@ -39,10 +60,10 @@ const flipCards: FlipCard[] = [
   {
     frontText: "What's the past of ask?",
     imgSrc: cat1,
-    imgAlt: "...", 
-    backText: "asked"
-  }
-]
+    imgAlt: "...",
+    backText: "asked",
+  },
+];
 
 const preVocabularies: PreVocabulary[] = [
   {
@@ -78,7 +99,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/t/translate.mp3",
       keyword: "translate",
       label: "translate",
-      phonetics: "",
+      phonetics: "/trænzˈleɪt/",
     },
   },
   {
@@ -114,17 +135,69 @@ const fillInTheBlanks: Question[] = [
   {
     options: true,
     width: "100px",
-    beforeBlank: "1. ...",
-    correctAnswer: ["..."],
-    afterBlank: "...",
+    beforeBlank: "1. 	When you order from this website, you can",
+    correctAnswer: ["track"],
+    afterBlank: "the shipment online.",
     lineBreakAfter: true,
   },
+  
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "2. The police always",
+    correctAnswer: [" anticipate"],
+    afterBlank: "trouble at protests..",
+    lineBreakAfter: true,
+  },
+
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "3. She has some ",
+    correctAnswer: ["characteristics"],
+    afterBlank: "that make her stand out from the crowd.",
+    lineBreakAfter: true,
+  },
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "4. This software is really out of date; you need to",
+    correctAnswer: ["upgrade"],
+    afterBlank: ", if you want to stay competitive.",
+    lineBreakAfter: true,
+  },
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "5. Simone",
+    correctAnswer: ["translates"],
+    afterBlank: "novels for a living.",
+    lineBreakAfter: true,
+  },
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "6. The court did not find the evidence",
+    correctAnswer: ["compelling"],
+    afterBlank: ".",
+    lineBreakAfter: true,
+  },
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "7. It was not Amy's",
+    correctAnswer: ["intent"],
+    afterBlank: "to hurt anyone.",
+    lineBreakAfter: true,
+  },
+  
+  
 ];
 
 const gistQuestions: GistQuestion[] = [
   {
-    question: "...",
-    answer: "...",
+    question: "What's the main idea of the text?",
+    answer: "The main idea of the text is that Microsoft is releasing new computers with built-in AI tools, specifically an advanced version of its AI assistant, Copilot. These new \"AI-ready\" PCs will enhance user experience with features like live language translation, image creation, voice commands, and a memory tool called Windows Recall. The AI operations will be performed on the device itself, ensuring faster performance and user privacy. Microsoft introduced these innovations at an event ahead of its annual developer conference, highlighting its commitment to integrating AI technology across its product offerings.",
   },
 ];
 
@@ -337,14 +410,30 @@ const paragraphs: Paragraph[] = [
 
 const scanQuestions: ScanQuestion[] = [
   {
-    question: "...",
-    answer: "",
+    question: "1. What is the name of Microsoft’s AI tool?",
+    answer: "The name of Microsoft’s AI tool is Copilot.",
+  },
+  {
+    question: "2. Who is Microsoft’s CEO?",
+    answer: "Microsoft’s CEO is Satya Nadella.",
+  },
+  {
+    question: "3. When will the AI-based PCs start being released?",
+    answer: "The AI-based PCs will start being released on June 18.",
+  },
+  {
+    question: "4. What are some features of the Copilot+ system?",
+    answer: "Some features of the Copilot+ system include live language translation, image creation, the ability to interact with PCs through voice commands, and a tool called Windows Recall that remembers a user's computer activity.",
+  },
+  {
+    question: "5. Which other companies will produce PCs with the new AI tools?",
+    answer: "Other companies that will produce PCs with the new AI tools include Lenovo, Dell, Acer, and HP.",
   },
 ];
 
 const followupQuestions: FollowupQuestion[] = [
   {
-    enQuestion: "...",
+    enQuestion: "In what ways do you think AI can improve productivity in business settings?",
     ptQuestion: "",
   },
 ];
