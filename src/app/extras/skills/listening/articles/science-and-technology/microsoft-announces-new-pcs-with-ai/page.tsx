@@ -410,23 +410,23 @@ const paragraphs: Paragraph[] = [
 
 const scanQuestions: ScanQuestion[] = [
   {
-    question: "1. What is the name of Microsoft’s AI tool?",
+    question: "What is the name of Microsoft’s AI tool?",
     answer: "The name of Microsoft’s AI tool is Copilot.",
   },
   {
-    question: "2. Who is Microsoft’s CEO?",
+    question: "Who is Microsoft’s CEO?",
     answer: "Microsoft’s CEO is Satya Nadella.",
   },
   {
-    question: "3. When will the AI-based PCs start being released?",
+    question: "When will the AI-based PCs start being released?",
     answer: "The AI-based PCs will start being released on June 18.",
   },
   {
-    question: "4. What are some features of the Copilot+ system?",
+    question: "What are some features of the Copilot+ system?",
     answer: "Some features of the Copilot+ system include live language translation, image creation, the ability to interact with PCs through voice commands, and a tool called Windows Recall that remembers a user's computer activity.",
   },
   {
-    question: "5. Which other companies will produce PCs with the new AI tools?",
+    question: "Which other companies will produce PCs with the new AI tools?",
     answer: "Other companies that will produce PCs with the new AI tools include Lenovo, Dell, Acer, and HP.",
   },
 ];
