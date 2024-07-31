@@ -15,7 +15,11 @@ import {
   cat1,
   personHoldingTwoComputers,
   personMakingSpeech1,
-  personHoldingPhone1
+  personHoldingPhone1,
+  translate1,
+  anticipate1,
+  compelling1,
+  clipboard1,
 } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
@@ -58,7 +62,15 @@ const discussionQuestions: DiscussionQuestion[] = [
 
 const flipCards: FlipCard[] = [
   {
-    imgSrc: cat1,
+    imgSrc: translate1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: anticipate1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: compelling1,
     imgAlt: "...",
   },
   {
@@ -74,16 +86,8 @@ const flipCards: FlipCard[] = [
     imgAlt: "...",
   },
   {
-    imgSrc: cat1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: cat1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: cat1,
-    imgAlt: "...",
+    imgSrc: clipboard1,
+    imgAlt: "A clipboard with checkboxes",
   },
 ];
 
@@ -456,7 +460,11 @@ const scanQuestions: ScanQuestion[] = [
 const followupQuestions: FollowupQuestion[] = [
   {
     enQuestion: "In what ways do you think AI can improve productivity in business settings?",
-    ptQuestion: "",
+    ptQuestion: "De que maneiras você acha que a IA pode melhorar a produtividade em ambientes de negócios?",
+  },
+  {
+    enQuestion: "Do you think AI technology will ever fully replace human workers? Why or why not?",
+    ptQuestion: "Você acha que a tecnologia de IA algum dia substituirá totalmente os trabalhadores humanos? Por quê ou por quê não?",
   },
 ];
 

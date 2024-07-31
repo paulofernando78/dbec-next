@@ -80,7 +80,7 @@
     "keyword": "compel",
     "definitions": [
       {
-	      "audio": "/assets/audio/dictionary/xxx.mp3",
+	      "audio": "/assets/audio/dictionary/c/compel-verb.mp3",
 	      "word": "compel",
 		    "phonetics": "/kəmˈpel/",
 		    "partOfSpeech": "verb",
@@ -92,10 +92,11 @@
             "ptExample": "Como estudante, ele foi obrigado a usar shorts mesmo no inverno."
           }
         ],
-	      "synonyms": "force"
+	      "synonyms": "force, require, impel, oblige",
+        "antonyms": "stop, prevent, thwart, deter, hinder"
       },
       {
-	      "audio": "/assets/audio/dictionary/xxx.mp3",
+	      "audio": "/assets/audio/dictionary/c/compelling-adjective.mp3",
 	      "word": "compelling",
 		    "phonetics": "/kəmˈpel.ɪŋ/",
 		    "partOfSpeech": "adjective",

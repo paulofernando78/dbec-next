@@ -88,7 +88,7 @@ export function WordCard({ dictionary }: WordCardProps) {
                   {definition.synonyms && (
                     <p>
                       <span className="times-new-roman-dictionary">
-                        synonym:{" "}
+                        synonyms:{" "}
                       </span>
                       <span>{definition.synonyms}</span>
                     </p>
@@ -96,7 +96,7 @@ export function WordCard({ dictionary }: WordCardProps) {
                   {definition.antonyms && (
                     <p>
                       <span className="times-new-roman-dictionary">
-                        antonym:{" "}
+                        antonyms:{" "}
                       </span>
                       <span>{definition.antonyms}</span>
                     </p>
