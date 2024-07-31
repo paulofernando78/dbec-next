@@ -20,6 +20,9 @@ import {
   anticipate1,
   compelling1,
   clipboard1,
+  characteristic1,
+  upgrade1,
+  intent1
 } from "@/img/index";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
@@ -74,20 +77,20 @@ const flipCards: FlipCard[] = [
     imgAlt: "...",
   },
   {
-    imgSrc: cat1,
+    imgSrc: characteristic1,
     imgAlt: "...",
   },
   {
-    imgSrc: cat1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: cat1,
+    imgSrc: upgrade1,
     imgAlt: "...",
   },
   {
     imgSrc: clipboard1,
     imgAlt: "A clipboard with checkboxes",
+  },
+  {
+    imgSrc: intent1,
+    imgAlt: "...",
   },
 ];
 

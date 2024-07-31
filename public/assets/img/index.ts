@@ -52,6 +52,7 @@ import brFlagIcon from "./icon/flag/brazil.png";
 import cat1 from "@/img/cat1.jpg";
 import cat2 from "@/img/cat2.jpeg";
 import cat3 from "@/img/cat3.png";
+import characteristic1 from "@/img/characteristic1.jpg" 
 import chocolatePinkLemonadeKitKat from "@/img/chocolate-kit-kat-pink-lemonad.jpg";
 import clipboard1 from "@/img/clipboard1.jpg"
 import clockWakeUpHate from "@/img/bitmoji/clock-wakeup-hate.png"
@@ -79,6 +80,7 @@ import humanChromosomes from "@/img/human-chromosomes.avif";
 import iceCreamHiddenValleyRanch from "@/img/ice-cream-hidden-valley-ranch.webp";
 import iceCreamLittleMoonFishMochi from "@/img/ice-cream-little-moon-fish-mochi.avif";
 import inFiveMinutes from "./extras/grammar/elementary/unit-103/in-five-minutes.png"
+import intent1 from "@/img/intent1.jpg"
 
 // J
 
@@ -130,6 +132,7 @@ import translate1 from "@/img/translate1.svg"
 
 // U
 import update1 from "./update1.avif";
+import upgrade1 from "@/img/upgrade1.jpg"
 import usaFlagIcon from "./icon/flag/usa.png";
 import ukFlagIcon from "./icon/flag/uk.png";
 
@@ -202,6 +205,7 @@ export {
   cat1,
   cat2,
   cat3,
+  characteristic1,
   chocolatePinkLemonadeKitKat,
   clipboard1,
   clockWakeUpHate,
@@ -228,7 +232,7 @@ export {
   // I
   iceCreamHiddenValleyRanch,
   iceCreamLittleMoonFishMochi,
-  inFiveMinutes,
+  inFiveMinutes,intent1,
 
   // J
   macAndCheeseIceCreamFlavor,
@@ -280,6 +284,7 @@ export {
 
   // U
   update1,
+  upgrade1,
 
   // V
 
