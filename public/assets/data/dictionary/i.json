@@ -3,20 +3,27 @@
     "keyword": "intent",
     "definitions": [
       {
-	      "audio": "/assets/audio/dictionary/xxx.mp3",
+	      "audio": "/assets/audio/dictionary/i/intent-noun.mp3",
 	      "word": "intent",
-		    "phonetics": "...",
-		    "partOfSpeech": "...",
-        "enDefinition": "...",
-        "ptDefinition": "...",
+		    "phonetics": "/ɪnˈtent/",
+		    "partOfSpeech": "noun",
+        "ptDefinition": "intenção",
         "examples": [
           {
-            "enExample": "...",
-            "ptExample": "..."
+            "enExample": "I spent half the morning on the phone, which wasn't really my intent.",
+            "ptExample": "Passei metade da manhã ao telefone, o que não era exatamente minha intenção."
+          },
+          {
+            "enExample": "[+ to infinitive] It was not his intent to hurt anyone.",
+            "ptExample": "Não era intenção dele fazer mal a ninguém."
+          },
+          {
+            "enExample": "[+ with] She was charged with possessing weapons with intent to endanger life.",
+            "ptExample": "Ela foi acusada de possuir armas com a intenção de colocar vidas em perigo."
           }
         ],
-	      "synonyms": "...",
-        "antonyms": "..."
+	      "synonyms": "aim (intention), ambition, aspiration (hope), dream (hope), goal (aim), hope, intention, objective, target (aim)",
+        "antonyms": "accident, chance, luck, fortune"
       }
     ]
   },

@@ -3,20 +3,43 @@
     "keyword": "anticipate",
     "definitions": [
       {
-	      "audio": "/assets/audio/dictionary/xxx.mp3",
+	      "audio": "/assets/audio/dictionary/a/anticipate-verb.mp3",
 	      "word": "anticipate",
-		    "phonetics": "...",
-		    "partOfSpeech": "...",
-        "enDefinition": "...",
-        "ptDefinition": "...",
+		    "phonetics": "/ænˈtɪs.ə.peɪt/",
+		    "partOfSpeech": "verb",
+        "ptDefinition": "prever",
         "examples": [
           {
-            "enExample": "...",
-            "ptExample": "..."
+            "enExample": "We don't anticipate any trouble.",
+            "ptExample": "Não prevemos nenhum problema."
+          },
+          {
+            "enExample": "We had one or two difficulties along the way that we didn't anticipate.",
+            "ptExample": "Tivemos uma ou duas dificuldades ao longo do caminho que não previmos."
+          },
+          {
+            "enExample": "Are you anticipating a lot of people at the party tonight?",
+            "ptExample": "Você está esperando muita gente na festa hoje à noite?"
+          },
+          {
+            "enExample": "[ + -ing verb ] They anticipate having several applicants for the job.",
+            "ptExample": "Eles preveem ter vários candidatos para o emprego."
+          },
+          {
+            "enExample": "[ + that ] They anticipate that they will have several applicants for the job.",
+            "ptExample": "Eles preveem que terão vários candidatos para o emprego."
+          },
+          {
+            "enExample": "[ + question word ] At this stage we can't really anticipate what will happen.",
+            "ptExample": "Nesta fase, não podemos realmente prever o que vai acontecer."
+          },
+          {
+            "enExample": "The anticipated inflation figure is lower than last month's.",
+            "ptExample": "A expectativa de inflação é menor do que a do mês passado."
           }
         ],
-	      "synonyms": "...",
-        "antonyms": "..."
+	      "synonyms": "expect, look for, await, count on, prepare oneself for, look toward, look forward to, long for. pin hope on. foresee",
+        "antonyms": "remember"
       }
     ]
   },

@@ -116,7 +116,7 @@ const preVocabularies: PreVocabulary[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
-      audioSrc: "/t/t/track.mp3",
+      audioSrc: "/t/track.mp3",
       keyword: "track",
       label: "track",
       phonetics: "/træk/",
@@ -137,13 +137,13 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/i/intent.mp3",
       keyword: "intent",
       label: "intent",
-      phonetics: "/trænzˈleɪt/",
+      phonetics: "/ɪnˈtent/",
     },
   },
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
-      audioSrc: "/a/anticipate.mp3",
+      audioSrc: "/a/anticipate-verb.mp3",
       keyword: "anticipate",
       label: "anticipate",
       phonetics: "/ænˈtɪs.ə.peɪt/",
@@ -152,7 +152,7 @@ const preVocabularies: PreVocabulary[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
-      audioSrc: "/c/characteristic.mp3",
+      audioSrc: "/c/characteristic-noun.mp3",
       keyword: "characteristic",
       label: "characteristics",
       phonetics: "/ˌker.ək.təˈrɪs.tɪk/",

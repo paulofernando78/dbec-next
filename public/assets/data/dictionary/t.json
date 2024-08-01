@@ -82,20 +82,19 @@
     "keyword": "translate",
     "definitions": [
       {
-	      "audio": "/assets/audio/dictionary/xxx.mp3",
+	      "audio": "/assets/audio/dictionary/t/translate.mp3",
 	      "word": "translate",
-		    "phonetics": "...",
-		    "partOfSpeech": "traduzir",
-        "enDefinition": "...",
-        "ptDefinition": "...",
+		    "phonetics": "/trænsˈleɪt/ /trænzˈleɪt/",
+		    "partOfSpeech": "verb",
+        "ptDefinition": "traduzir",
         "examples": [
           {
-            "enExample": "...",
-            "ptExample": "..."
+            "enExample": "She works for the UN, translating from English into French.",
+            "ptExample": "Ela trabalha para a ONU, traduzindo do inglês para o francês."
           }
         ],
-	      "synonyms": "...",
-        "antonyms": "..."
+        "seeAlso": "interpret"
+
       }
     ]
   }
