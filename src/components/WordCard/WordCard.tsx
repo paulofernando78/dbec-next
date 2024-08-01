@@ -101,6 +101,14 @@ export function WordCard({ dictionary }: WordCardProps) {
                       <span>{definition.antonyms}</span>
                     </p>
                   )}
+                  {definition.seeAlso && (
+                    <p>
+                      <span className="times-new-roman-dictionary">
+                        See also:{" "}
+                      </span>
+                      <span>{definition.seeAlso}</span>
+                    </p>
+                  )}
                 </div>
               </>
             );

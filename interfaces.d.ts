@@ -17,6 +17,7 @@ export interface IDictionaryDefinitions {
   notes?: IDictionaryDefinitionsNotes[];
   synonyms?: string;
   antonyms?: string;
+  seeAlso: string
 }
 
 export interface IDictionary {

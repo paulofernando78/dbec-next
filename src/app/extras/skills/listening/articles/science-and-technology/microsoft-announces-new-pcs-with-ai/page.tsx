@@ -66,23 +66,23 @@ const discussionQuestions: DiscussionQuestion[] = [
 const flipCards: FlipCard[] = [
   {
     imgSrc: translate1,
-    imgAlt: "...",
+    imgAlt: "A clipart of papers and translation options.",
   },
   {
     imgSrc: anticipate1,
-    imgAlt: "...",
+    imgAlt: "A clipart of a man looking through a telescope.",
   },
   {
     imgSrc: compelling1,
-    imgAlt: "...",
+    imgAlt: "A clipart of a candidate making a speech. ",
   },
   {
     imgSrc: characteristic1,
-    imgAlt: "...",
+    imgAlt: "A clipart of characteristics.",
   },
   {
     imgSrc: upgrade1,
-    imgAlt: "...",
+    imgAlt: "A car \"being\" upgraded.",
   },
   {
     imgSrc: clipboard1,
@@ -90,7 +90,7 @@ const flipCards: FlipCard[] = [
   },
   {
     imgSrc: intent1,
-    imgAlt: "...",
+    imgAlt: "A pic with the word \"change\" with two checkboxes written love and fear.",
   },
 ];
 
@@ -116,7 +116,7 @@ const preVocabularies: PreVocabulary[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
-      audioSrc: "/t/track.mp3",
+      audioSrc: "/t/t/track.mp3",
       keyword: "track",
       label: "track",
       phonetics: "/træk/",
@@ -154,7 +154,7 @@ const preVocabularies: PreVocabulary[] = [
     componentProps: {
       audioSrc: "/c/characteristic.mp3",
       keyword: "characteristic",
-      label: "characteristic",
+      label: "characteristics",
       phonetics: "/ˌker.ək.təˈrɪs.tɪk/",
     },
   },

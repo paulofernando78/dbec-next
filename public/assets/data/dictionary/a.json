@@ -1,5 +1,26 @@
 [
   {
+    "keyword": "anticipate",
+    "definitions": [
+      {
+	      "audio": "/assets/audio/dictionary/xxx.mp3",
+	      "word": "anticipate",
+		    "phonetics": "...",
+		    "partOfSpeech": "...",
+        "enDefinition": "...",
+        "ptDefinition": "...",
+        "examples": [
+          {
+            "enExample": "...",
+            "ptExample": "..."
+          }
+        ],
+	      "synonyms": "...",
+        "antonyms": "..."
+      }
+    ]
+  },
+  {
     "keyword": "aim",
     "definitions": [
       {
