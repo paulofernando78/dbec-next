@@ -57,7 +57,7 @@ const discussionQuestions: DiscussionQuestion[] = [
     questions: [
       {
         question:
-          "2. How often do you use it?",
+          "2. How often do you use it? What for?",
       },
     ],
   },
@@ -143,7 +143,7 @@ const preVocabularies: PreVocabulary[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
-      audioSrc: "/a/anticipate-verb.mp3",
+      audioSrc: "/a/anticipate.mp3",
       keyword: "anticipate",
       label: "anticipate",
       phonetics: "/ænˈtɪs.ə.peɪt/",
@@ -487,7 +487,7 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
       <div className="line-break">
         <div>
           <Listening
-            discussion="Check out the pictures above. Swipe them to the right and answer the questions."
+            discussion="Check out the pictures below. Swipe them to the right and answer the questions."
             swiperFraction={swiperFraction}
             discussionQuestions={discussionQuestions}
             flipCards={flipCards}
