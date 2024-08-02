@@ -3,7 +3,7 @@ import Image, { StaticImageData } from "next/image";
 import { useEffect } from "react";
 
 interface Text {
-  example: string
+  text: string
 }
 
 interface SubContent {
