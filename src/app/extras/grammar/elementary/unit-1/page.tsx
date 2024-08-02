@@ -1,35 +1,71 @@
-import { Card } from "@/components/Cards/Card";
+import { GrammarInUse } from "@/components/Lessons/GrammarInUse";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import React from "react";
+
+// Imgs
+import { lisa } from "@/img/index";
+
+const lessons = [
+  // A
+  {
+    cardBgColor: "red",
+    cardTextColor: "white",
+    cardLabel: "A",
+    contents: [
+      {
+        imgSrc: lisa,
+        imgAlt: "A pic of a girl",
+        imgWidth: "350px",
+        text: "aaa",
+        examples: [
+          { example: "I<span class='bold'>'m</span> Lisa." },
+          { example: "I<span class='bold'>'m</span> twenty-two (years old)." },
+          {
+            example:
+              "I<span class='bold'>'m</span> American. I<span class='bold'>'m</span> from Chicago.",
+          },
+          { example: "I<span class='bold'>'m</span> a student." },
+          {
+            example:
+              "My father<span class='bold'>'s</span> a doctor, and my mother<span class='bold'> is</span> a journalist.",
+          },
+          { example: "My favorite color <span class='bold'>is</span> blue." },
+          {
+            example:
+              "My favorite sports <span class='bold'>are</span> tennis and swimming.",
+          },
+          { example: "I<span class='bold'>'m</span> interested in art." },
+          {
+            example:
+              "I<span class='bold'>'m</span> not interested in politics.",
+          },
+        ],
+        subContents: [
+          {
+            cardLabel: "Affirmative",
+            text: "aaa",
+            examples: [
+              {
+                example: "bbb"
+              }
+            ]
+          }
+        ]
+      },
+    ],
+  },
+  // B
+];
 
 export default function Unit1() {
   return (
     <>
-    <Whiteboard title="Extras" subtitle="Grammar" descriptions={["Elementary", "Unit 1 • am/is/are"]}/>
-      <div className="line-break">
-        {/* A */}
-        <Card bgColor="#EF4444" textColor="white">
-          <p className="bold">A</p>
-        </Card>
-        <p>...</p>
-
-        {/* B */}
-        <Card bgColor="#EF4444" textColor="white">
-          <p className="bold">B</p>
-        </Card>
-        <p>...</p>
-
-        {/* C */}
-        <Card bgColor="#EF4444" textColor="white">
-          <p className="bold">C</p>
-        </Card>
-        <p>...</p>
-
-        {/* Exercises */}
-        <Card bgColor="lightgray" textColor="black">
-          <p className="bold">Exercises</p>
-        </Card>
-      </div>
+      <Whiteboard
+        title="Extras"
+        subtitle="Grammar"
+        descriptions={["Elementary", "Unit 1 • am / is / are"]}
+      />
+      <div className="line-break"></div>
+      <GrammarInUse lessons={lessons} />
     </>
   );
 }
