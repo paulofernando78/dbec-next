@@ -22,6 +22,7 @@ export interface Question {
   placeholder?: string;
   correctAnswer: string[];
   afterBlank: string;
+  portuguese: string
   lineBreakAfter?: boolean;
 }
 
@@ -116,7 +117,11 @@ export const FillInTheBlank = ({
                   }`}
                 />
               )}{" "}
+              {/* question.afterBlank */}
               <span dangerouslySetInnerHTML={{ __html: question.afterBlank }} />{" "}
+              {/* question.portguese */}
+              <span className="portuguese">{question.portuguese}</span>
+              {/* question.lineBreakAfter */}
               {question.lineBreakAfter && <br />}
             </span>
           </Fragment>

@@ -167,6 +167,7 @@ const fillInTheBlanks: Question[] = [
     beforeBlank: "1. 	When you order from this website, you can",
     correctAnswer: ["track"],
     afterBlank: "the shipment online.",
+    portuguese: "Quando você faz um pedido neste site, pode ... o envio online.",
     lineBreakAfter: true,
   },
   
@@ -175,7 +176,8 @@ const fillInTheBlanks: Question[] = [
     width: "100px",
     beforeBlank: "2. The police always",
     correctAnswer: [" anticipate"],
-    afterBlank: "trouble at protests..",
+    afterBlank: "trouble at protests.",
+    portuguese: "A polícia sempre ... problemas em protestos.",
     lineBreakAfter: true,
   },
 
@@ -184,7 +186,8 @@ const fillInTheBlanks: Question[] = [
     width: "100px",
     beforeBlank: "3. She has some ",
     correctAnswer: ["characteristics"],
-    afterBlank: "that make her stand out from the crowd.",
+    afterBlank: "that make her stand out from the crowd. ",
+    portuguese: "Ela tem algumas ... que a fazem se destacar na multidão.",
     lineBreakAfter: true,
   },
   {
@@ -193,6 +196,7 @@ const fillInTheBlanks: Question[] = [
     beforeBlank: "4. This software is really out of date; you need to",
     correctAnswer: ["upgrade"],
     afterBlank: ", if you want to stay competitive.",
+    portuguese: "Este software está realmente desatualizado; você precisa fazer uma ... se quiser permanecer competitivo.",
     lineBreakAfter: true,
   },
   {
@@ -200,7 +204,8 @@ const fillInTheBlanks: Question[] = [
     width: "100px",
     beforeBlank: "5. Simone",
     correctAnswer: ["translates"],
-    afterBlank: "novels for a living.",
+    afterBlank: "novels for a living. ",
+    portuguese: "Simone ganha a vida ... romances.",
     lineBreakAfter: true,
   },
   {
@@ -209,6 +214,7 @@ const fillInTheBlanks: Question[] = [
     beforeBlank: "6. The court did not find the evidence",
     correctAnswer: ["compelling"],
     afterBlank: ".",
+    portuguese: "O tribunal não achou as evidências ...",
     lineBreakAfter: true,
   },
   {
@@ -217,6 +223,7 @@ const fillInTheBlanks: Question[] = [
     beforeBlank: "7. It was not Amy's",
     correctAnswer: ["intent"],
     afterBlank: "to hurt anyone.",
+    portuguese: "Não era a ... de Amy machucar ninguém.",
     lineBreakAfter: true,
   },
   

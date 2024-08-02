@@ -62,20 +62,17 @@
     "keyword": "characteristic",
     "definitions": [
       {
-	      "audio": "/assets/audio/dictionary/xxx.mp3",
-	      "word": "characteristics",
-		    "phonetics": "...",
-		    "partOfSpeech": "...",
-        "enDefinition": "...",
-        "ptDefinition": "...",
+	      "audio": "/assets/audio/dictionary/c/characteristic-noun.mp3",
+	      "word": "characteristic",
+		    "phonetics": "/ˌker.ək.təˈrɪs.tɪk/",
+		    "partOfSpeech": "noun",
+        "ptDefinition": "característica",
         "examples": [
           {
-            "enExample": "...",
-            "ptExample": "..."
+            "enExample": "The male bird displays several characteristics which distinguish him from the female.",
+            "ptExample": "O macho desse pássaro apresenta várias características que o distinguem da fêmea."
           }
-        ],
-	      "synonyms": "...",
-        "antonyms": "..."
+        ]
       }
     ]
   },

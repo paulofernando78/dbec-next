@@ -18,6 +18,7 @@ export interface IDictionaryDefinitions {
   synonyms?: string;
   antonyms?: string;
   seeAlso: string
+  extra: steing
 }
 
 export interface IDictionary {

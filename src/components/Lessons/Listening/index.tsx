@@ -1,4 +1,6 @@
-import SwiperFraction, { SwiperFractionData } from "@/components/Swiper/Fraction";
+import SwiperFraction, {
+  SwiperFractionData,
+} from "@/components/Swiper/Fraction";
 
 import { Card } from "../../Cards/Card";
 import { AudioPlayer } from "../../Audioplayer";
@@ -51,7 +53,7 @@ export interface DiscussionQuestion {
 
 interface ListeningProps {
   discussion: string;
-  swiperFraction: SwiperFractionData[],
+  swiperFraction: SwiperFractionData[];
   discussionQuestions: DiscussionQuestion[];
   flipCards: FlipCard[];
   preVocabularies: PreVocabulary[];
