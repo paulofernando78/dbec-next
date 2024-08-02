@@ -15,7 +15,6 @@ const lessons = [
         imgSrc: lisa,
         imgAlt: "A pic of a girl",
         imgWidth: "70%",
-        texts: [{ text: "aaa" }],
         examples: [
           { example: "I<span class='bold'>'m</span> Lisa." },
           { example: "I<span class='bold'>'m</span> twenty-two (years old)." },
@@ -42,16 +41,43 @@ const lessons = [
         subContents: [
           {
             cardLabel: "Affirmative",
-            texts: [{ text: "mmm" }, { text: "yyy" }],
+            texts: [
+              { text: "subject + verb (short form)" },
+              { text: "I am (I'm)" },
+              { text: "you are (you're)" },
+              { text: "he is (he's)" },
+              { text: "she is (she's)" },
+              { text: "it is (it's)" },
+              { text: "we are (we're)" },
+              { text: "you are (you're)" },
+              { text: "they are (they're)" },
+            ],
             examples: [
               {
-                example: "bbb",
+                example: "I'm cold. Can you close the window, please?",
+              },
+              {
+                example: "I'm 32 (years old). My sister is 29.",
+              },
+              {
+                example: "It's ten (o'clock). You're late again.",
+              },
+              {
+                example: "Ann and I are good friends.",
+              },
+              {
+                example: "Your keys are on the table.",
+              },
+              {
+                example: "Steve is sick. He's in bed.",
+              },
+              {
+                example: "Jane is scared of spiders.",
               },
             ],
           },
           {
             cardLabel: "Negative",
-            texts: [{ text: "mmm" }, { text: "yyy" }],
             examples: [
               {
                 example: "bbb",

@@ -2,10 +2,6 @@ import { Card } from "@/components/Cards/Card";
 import Image, { StaticImageData } from "next/image";
 import { useEffect } from "react";
 
-interface Text {
-  text: string
-}
-
 interface SubContent {
   cardLabel: string;
   texts: Text[];
@@ -102,7 +98,7 @@ export const GrammarInUse = ({ lessons }: GrammarInUseProps) => {
                     </Card>
                     <div>
                       {/* Text */}
-                      {subContent.texts.map((text, textIndex) => (
+                      {subContent.texts?.map((text, textIndex) => (
                         <p key={textIndex}>{text.text}</p>
                       ))}
                     </div>
