@@ -14,7 +14,7 @@ const lessons = [
       {
         imgSrc: lisa,
         imgAlt: "A pic of a girl",
-        imgWidth: "350px",
+        imgWidth: "70%",
         texts: [{ text: "aaa" }],
         examples: [
           { example: "I<span class='bold'>'m</span> Lisa." },
