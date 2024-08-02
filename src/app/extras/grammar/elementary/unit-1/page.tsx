@@ -43,47 +43,99 @@ const lessons = [
             cardLabel: "Affirmative",
             texts: [
               { text: "subject + verb (short form)" },
-              { text: "I am (I'm)" },
-              { text: "you are (you're)" },
-              { text: "he is (he's)" },
-              { text: "she is (she's)" },
-              { text: "it is (it's)" },
-              { text: "we are (we're)" },
-              { text: "you are (you're)" },
-              { text: "they are (they're)" },
+              { text: "I <span class='bod'>am</span> (I'm)" },
+              { text: "you <span class='bold'>are</span> (you're)" },
+              { text: "he <span class='bold'>is</span> (he's)" },
+              { text: "she <span class='bold'>is</span> (she's)" },
+              { text: "it <span class='bold'>is</span> (it's)" },
+              { text: "we <span class='bold'>are</span> (we're)" },
+              { text: "you <span class='bold'>are</span> (you're)" },
+              { text: "they <span class='bold'>are</span> (they're)" },
             ],
             examples: [
               {
-                example: "I'm cold. Can you close the window, please?",
+                example: "I<span class='bold'>'m</span> cold. Can you close the window, please?",
               },
               {
-                example: "I'm 32 (years old). My sister is 29.",
+                example: "I<span class='bold'>'m</span> 32 (years old). My sister is 29.",
               },
               {
-                example: "It's ten (o'clock). You're late again.",
+                example: "It<span class='bold'>'s</span> ten (o'clock). You<span class='bold'>'re</span> late again.",
               },
               {
-                example: "Ann and I are good friends.",
+                example: "Ann and I <span class='bold'>are</span> good friends.",
               },
               {
-                example: "Your keys are on the table.",
+                example: "Your keys <span class='bold'>are</span> on the table.",
               },
               {
-                example: "Steve is sick. He's in bed.",
+                example: "Steve <span class='bold'>is</span> sick. He<span class='bold'>'s</span> in bed.",
               },
               {
-                example: "Jane is scared of spiders.",
+                example: "Jane <span class='bold'>is</span> scared of spiders.",
               },
             ],
           },
           {
             cardLabel: "Negative",
-            examples: [
+            texts: [
+              { text: "subject + verb not (short form)" },
+              { text: "I <span class='bold'>am not</span> (I'm not)" },
               {
-                example: "bbb",
+                text: "you <span class='bold'>are not</span> (you're not or you aren't)",
               },
               {
-                example: "bbb",
+                text: "he <span class='bold'>is not</span> (he's not or he isn't)",
+              },
+              {
+                text: "she span class='bold'>is not</span> (she's not or she isn't)",
+              },
+              {
+                text: "it span class='bold'>is not</span> (it's not or it isn't)",
+              },
+              {
+                text: "we <span class='bold'>are not</span> (we're not or wearen't)",
+              },
+              {
+                text: "you <span class='bold'>are not</span> (you're not or youaren't)",
+              },
+              {
+                text: "they <span class='bold'>are not</span> (they're not or they aren't)",
+              },
+            ],
+            examples: [
+              {
+                example: "I<span class='bold'>'m</span> not cold. You can open the window.",
+              },
+              {
+                example: "I<span class='bold'>'m</span> not 32 (years old). Actually, I<span>'m</span> 30.",
+              },
+              {
+                example: "Steve <span class='bold'>isn't</span> sick anymore. He<span class='bold'>'s</span> at work now.",
+              },
+              {
+                example:
+                  "My brother <span class='bold'>isn't</span> scared of dogs. He<span class='bold'>'s</span> afraid of snakes.",
+              },
+              {
+                example:
+                  "It's still ten (o'clock). You<span class='bold'>'re not</span> late.",
+              },
+              {
+                example:
+                  "Ann and I <span class='bold'>aren't</span> good friends. She<span class='bold'>'s</span> just an acquaintance.",
+              },
+              {
+                example:
+                  "Your keys <span class='bold'>aren't</span> on the table. They<span class='bold'>'re not</span> in your pocket. Check that out!",
+              },
+            ],
+          },
+          {
+            texts: [{ text: "<span class='bold'>We say it's hot / warm / cold / sunny / dark / etc.</span>" }],
+            examples: [
+              {
+                example: "It<span class='bold'>'s</span> sunny today, but it <span class='bold'>isn't</span> warm.",
               },
             ],
           },

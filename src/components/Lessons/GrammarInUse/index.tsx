@@ -13,14 +13,14 @@ interface Example {
 }
 
 interface Text {
-  text: string
+  text: string;
 }
 
 interface Content {
   imgSrc?: StaticImageData;
   imgAlt?: string;
   imgWidth?: string;
-  texts?: Text[];
+  texts: Text[];
   examples?: Example[];
   subContents?: SubContent[];
 }
@@ -64,7 +64,10 @@ export const GrammarInUse = ({ lessons }: GrammarInUseProps) => {
                 {/* text */}
                 <div>
                   {content.texts?.map((text, textIndex) => (
-                    <p dangerouslySetInnerHTML={{ __html: text.text }} key={textIndex}/>
+                    <p
+                      dangerouslySetInnerHTML={{ __html: text.text }}
+                      key={textIndex}
+                    />
                   ))}
                 </div>
 
@@ -89,19 +92,24 @@ export const GrammarInUse = ({ lessons }: GrammarInUseProps) => {
                 {content.subContents?.map((subContent, subContentIndex) => (
                   <>
                     {/* cardLabel */}
-                    <Card
+                    {subContent.cardLabel && <Card
                       bgColor="lightgray"
                       textColor="black"
                       key={subContentIndex}
                     >
                       <p className="bold">{subContent.cardLabel}</p>
-                    </Card>
-                    <div>
-                      {/* Text */}
-                      {subContent.texts?.map((text, textIndex) => (
-                        <p key={textIndex}>{text.text}</p>
-                      ))}
-                    </div>
+                    </Card>}
+                    {/* Text */}
+                    {subContent.texts && (
+                      <div>
+                        {subContent.texts.map((text, textIndex) => (
+                          <p
+                            key={textIndex}
+                            dangerouslySetInnerHTML={{ __html: text.text }}
+                          />
+                        ))}
+                      </div>
+                    )}
                     {/* examples */}
                     <div>
                       {subContent.examples.map((example, exampleIndex) => (
