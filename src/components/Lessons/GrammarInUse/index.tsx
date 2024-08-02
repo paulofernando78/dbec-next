@@ -2,9 +2,13 @@ import { Card } from "@/components/Cards/Card";
 import Image, { StaticImageData } from "next/image";
 import { useEffect } from "react";
 
+interface Text {
+  example: string
+}
+
 interface SubContent {
   cardLabel: string;
-  text: string;
+  texts: Text[];
   examples: Example[];
 }
 
@@ -12,11 +16,15 @@ interface Example {
   example: string;
 }
 
+interface Text {
+  text: string
+}
+
 interface Content {
   imgSrc?: StaticImageData;
   imgAlt?: string;
   imgWidth?: string;
-  text?: string;
+  texts?: Text[];
   examples?: Example[];
   subContents?: SubContent[];
 }
@@ -58,7 +66,11 @@ export const GrammarInUse = ({ lessons }: GrammarInUseProps) => {
                 )}
 
                 {/* text */}
-                {content.text && <p className="bold">{content.text}</p>}
+                <div>
+                  {content.texts?.map((text, textIndex) => (
+                    <p dangerouslySetInnerHTML={{ __html: text.text }} key={textIndex}/>
+                  ))}
+                </div>
 
                 {/* examples */}
                 {}
@@ -80,6 +92,7 @@ export const GrammarInUse = ({ lessons }: GrammarInUseProps) => {
                 {/* subContents */}
                 {content.subContents?.map((subContent, subContentIndex) => (
                   <>
+                    {/* cardLabel */}
                     <Card
                       bgColor="lightgray"
                       textColor="black"
@@ -87,17 +100,25 @@ export const GrammarInUse = ({ lessons }: GrammarInUseProps) => {
                     >
                       <p className="bold">{subContent.cardLabel}</p>
                     </Card>
-                    <p>{subContent.text}</p>
-                    {subContent.examples.map((example, exampleIndex) => (
-                      <p key={exampleIndex}>
-                        <span className="bold">•</span>{" "}
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: example.example,
-                          }}
-                        />
-                      </p>
-                    ))}
+                    <div>
+                      {/* Text */}
+                      {subContent.texts.map((text, textIndex) => (
+                        <p key={textIndex}>{text.text}</p>
+                      ))}
+                    </div>
+                    {/* examples */}
+                    <div>
+                      {subContent.examples.map((example, exampleIndex) => (
+                        <p key={exampleIndex}>
+                          <span className="bold">•</span>{" "}
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: example.example,
+                            }}
+                          />
+                        </p>
+                      ))}
+                    </div>
                   </>
                 ))}
               </div>

@@ -15,7 +15,7 @@ const lessons = [
         imgSrc: lisa,
         imgAlt: "A pic of a girl",
         imgWidth: "350px",
-        text: "aaa",
+        texts: [{ text: "aaa" }],
         examples: [
           { example: "I<span class='bold'>'m</span> Lisa." },
           { example: "I<span class='bold'>'m</span> twenty-two (years old)." },
@@ -42,14 +42,26 @@ const lessons = [
         subContents: [
           {
             cardLabel: "Affirmative",
-            text: "aaa",
+            texts: [{ text: "mmm" }, { text: "yyy" }],
             examples: [
               {
-                example: "bbb"
-              }
-            ]
-          }
-        ]
+                example: "bbb",
+              },
+            ],
+          },
+          {
+            cardLabel: "Negative",
+            texts: [{ text: "mmm" }, { text: "yyy" }],
+            examples: [
+              {
+                example: "bbb",
+              },
+              {
+                example: "bbb",
+              },
+            ],
+          },
+        ],
       },
     ],
   },
