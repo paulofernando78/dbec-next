@@ -193,10 +193,10 @@ export default function Unit103() {
                   <span className="bold">at</span> 8 o'clock
                 </p>
                 <p>
-                  <span className="bold">at</span> 10:30
+                  <span className="bold">at</span> 10:30 (US)
                 </p>
                 <p>
-                  <span className="bold">at</span> 10.30
+                  <span className="bold">at</span> 10.30 (UK)
                 </p>
                 <p>
                   <span className="bold">at</span> midnight
@@ -235,9 +235,9 @@ export default function Unit103() {
                     <span className="bold">on</span> Sunday(s) / Monday(s), etc.
                   </p>
                   <p>
-                    <span className="bold">on</span> the weekend / weekends
+                    <span className="bold">on</span> the weekend / weekends (US)
                   </p>
-                  <p>at the weekend / weekends</p>
+                  <p><span className="bold">at</span> the weekend / weekends (UK)</p>
                 </div>
                 <div>
                   <p className="bold underline">Months + Dates</p>
@@ -268,7 +268,7 @@ export default function Unit103() {
                 </p>
                 <p>
                   • The concert is <span className="bold">on</span> (the) 22
-                  (of) November.
+                  (of) November. (UK)
                 </p>
                 <p>Use ordinal numbers for dates.</p>
               </div>
