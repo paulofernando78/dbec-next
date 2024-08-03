@@ -22,7 +22,7 @@ export interface Question {
   placeholder?: string;
   correctAnswer: string[];
   afterBlank: string;
-  portuguese: string
+  portuguese?: string
   lineBreakAfter?: boolean;
 }
 
