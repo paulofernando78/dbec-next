@@ -42,7 +42,7 @@ const lessons = [
           {
             cardLabel: "Affirmative",
             texts: [
-              { text: "subject + verb (short form)" },
+              { text: "<span class='underline'>subject + verb (short form)</span>" },
               { text: "I <span class='bod'>am</span> (I'm)" },
               { text: "you <span class='bold'>are</span> (you're)" },
               { text: "he <span class='bold'>is</span> (he's)" },
@@ -79,7 +79,7 @@ const lessons = [
           {
             cardLabel: "Negative",
             texts: [
-              { text: "subject + verb not (short form)" },
+              { text: "<span class='underline'>subject + verb not (short form)</span>" },
               { text: "I <span class='bold'>am not</span> (I'm not)" },
               {
                 text: "you <span class='bold'>are not</span> (you're not or you aren't)",

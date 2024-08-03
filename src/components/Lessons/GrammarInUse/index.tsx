@@ -1,11 +1,10 @@
 import { Card } from "@/components/Cards/Card";
 import Image, { StaticImageData } from "next/image";
-import { useEffect } from "react";
 
 interface SubContent {
-  cardLabel: string;
+  cardLabel?: string;
   texts: Text[];
-  examples: Example[];
+  examples?: Example[];
 }
 
 interface Example {
@@ -20,7 +19,7 @@ interface Content {
   imgSrc?: StaticImageData;
   imgAlt?: string;
   imgWidth?: string;
-  texts: Text[];
+  texts?: Text[];
   examples?: Example[];
   subContents?: SubContent[];
 }
@@ -72,7 +71,6 @@ export const GrammarInUse = ({ lessons }: GrammarInUseProps) => {
                 </div>
 
                 {/* examples */}
-                {}
                 <div>
                   {content.examples?.map((example, exampleIndex) => (
                     <div key={exampleIndex}>
@@ -90,15 +88,13 @@ export const GrammarInUse = ({ lessons }: GrammarInUseProps) => {
 
                 {/* subContents */}
                 {content.subContents?.map((subContent, subContentIndex) => (
-                  <>
+                  <div key={subContentIndex} className="line-break">
                     {/* cardLabel */}
-                    {subContent.cardLabel && <Card
-                      bgColor="lightgray"
-                      textColor="black"
-                      key={subContentIndex}
-                    >
-                      <p className="bold">{subContent.cardLabel}</p>
-                    </Card>}
+                    {subContent.cardLabel && (
+                      <Card bgColor="lightgray" textColor="black">
+                        <p className="bold">{subContent.cardLabel}</p>
+                      </Card>
+                    )}
                     {/* Text */}
                     {subContent.texts && (
                       <div>
@@ -112,7 +108,7 @@ export const GrammarInUse = ({ lessons }: GrammarInUseProps) => {
                     )}
                     {/* examples */}
                     <div>
-                      {subContent.examples.map((example, exampleIndex) => (
+                      {subContent.examples?.map((example, exampleIndex) => (
                         <p key={exampleIndex}>
                           <span className="bold">•</span>{" "}
                           <span
@@ -123,7 +119,7 @@ export const GrammarInUse = ({ lessons }: GrammarInUseProps) => {
                         </p>
                       ))}
                     </div>
-                  </>
+                  </div>
                 ))}
               </div>
             ))}
