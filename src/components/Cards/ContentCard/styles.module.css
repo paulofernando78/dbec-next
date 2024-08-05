@@ -1,0 +1,32 @@
+.card-description {
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.card-description-label {
+  padding: var(--padding);
+  border-radius: 5px 5px 0 0;
+}
+
+.card-description-content {
+  margin: 7px;
+  line-height: 1;
+}
+
+.link-label-position {
+  position: relative;
+  bottom: 3px;
+  
+}
+
+.globe-icon {
+  position: relative;
+  right: 3px;
+  bottom: 1px;
+}
+
+.globe-link {
+  position: relative;
+  right: 4px;
+  top: 1px;
+}
