@@ -27,13 +27,13 @@ interface SubContent {
   contents: Content[];
 }
 
-interface Content {
+interface MainContent {
   mainLabel?: string;
   subContents: SubContent[];
 }
 
 interface ContentCardProps {
-  contents: Content[];
+  contents: MainContent[];
 }
 
 export const ContentCard = ({ contents }: ContentCardProps) => {
