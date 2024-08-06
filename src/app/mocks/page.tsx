@@ -12,10 +12,11 @@ import SwiperFraction, {
 // Images
 import { cat1, cat2, cat3 } from "@/img/index";
 import { FlipCard } from "@/components/Cards/Flip";
+import { Dropdown, DropdownQuestion } from "@/components/ExerciseTemplates/Dropdown";
 
 const radioExercise = [
   {
-    title: "1. Choose the correct answer.",
+    title: "Choose the correct answer.",
     question: "1. Question",
     options: [
       { label: "Answer 1", isCorrect: true },
@@ -30,6 +31,33 @@ const radioExercise = [
     ],
   },
 ];
+
+const dropdown: DropdownQuestion[] = [
+  {
+    title: "Select the right answer.",
+    beforeOptions: "1. I",
+    options: [
+      { value: "am", label: "am", correctAnswer: true },
+      { value: "is", label: "is", correctAnswer: false },
+      { value: "are", label: "are", correctAnswer: false },
+    ],
+    width: "100",
+    afterOptions: "a teacher.",
+    lineBreak: true,
+  },
+  {
+    beforeOptions: "2. He",
+    options: [
+      { value: "am", label: "am", correctAnswer: false },
+      { value: "is", label: "is", correctAnswer: true },
+      { value: "are", label: "are", correctAnswer: false },
+    ],
+    width: "100",
+    afterOptions: "a student.",
+    lineBreak: true,
+  },
+];
+
 
 const fillInTheBlanks = [
   {
@@ -101,6 +129,7 @@ export default function Mocks() {
         <Card bgColor="black" textColor="white">
           <b>Dropdown</b>
         </Card>
+        <Dropdown questions={dropdown}/>
         <Card bgColor="black" textColor="white">
           <b>Fill in The Blanks</b>
         </Card>

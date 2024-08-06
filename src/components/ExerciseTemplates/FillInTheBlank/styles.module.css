@@ -1,14 +1,12 @@
-
-
 .correct-icon {
     position: relative;
-    top: 2px;
+    top: 4px;
     width: 1.58rem
 }
 
 .incorrect-icon {
     position: relative;
-    top: 3.5px;
+    top: 5px;
     width: 1.58rem
 }
 

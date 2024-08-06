@@ -40,6 +40,10 @@ import allInOneIcon from "./icon/dictionary.png";
 import examsIcon from "./icon/exams.png";
 import miscIcon from "./icon/misc.png";
 
+// Exercise Templates
+import correctIcon from "@/img/icon/correct.png"
+import incorrectIcon from "@/img/icon/incorrect.png"
+
 // Folder
 
 // A
@@ -193,6 +197,10 @@ export {
   usaFlagIcon,
   ukFlagIcon,
   brFlagIcon,
+
+  // Exercise Templates
+  correctIcon,
+  incorrectIcon,
 
   // Folder
 

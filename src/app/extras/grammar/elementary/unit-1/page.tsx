@@ -88,16 +88,16 @@ const lessons = [
                 text: "he <span class='bold'>is not</span> (he's not or he isn't)",
               },
               {
-                text: "she span class='bold'>is not</span> (she's not or she isn't)",
+                text: "she <span class='bold'>is not</span> (she's not or she isn't)",
               },
               {
-                text: "it span class='bold'>is not</span> (it's not or it isn't)",
+                text: "it <span class='bold'>is not</span> (it's not or it isn't)",
               },
               {
-                text: "we <span class='bold'>are not</span> (we're not or wearen't)",
+                text: "we <span class='bold'>are not</span> (we're not or we aren't)",
               },
               {
-                text: "you <span class='bold'>are not</span> (you're not or youaren't)",
+                text: "you <span class='bold'>are not</span> (you're not or you aren't)",
               },
               {
                 text: "they <span class='bold'>are not</span> (they're not or they aren't)",
@@ -108,10 +108,10 @@ const lessons = [
                 example: "I<span class='bold'>'m</span> not cold. You can open the window.",
               },
               {
-                example: "I<span class='bold'>'m</span> not 32 (years old). Actually, I<span>'m</span> 30.",
+                example: "I<span class='bold'>'m</span> not 32 (years old). Actually, I<span>'m</span> 31.",
               },
               {
-                example: "Steve <span class='bold'>isn't</span> sick anymore. He<span class='bold'>'s</span> at work now.",
+                example: "Steve <span class='bold'>isn'(t)</span> sick anymore. He<span class='bold'>'s</span> a(t) work now.",
               },
               {
                 example:
@@ -127,7 +127,7 @@ const lessons = [
               },
               {
                 example:
-                  "Your keys <span class='bold'>aren't</span> on the table. They<span class='bold'>'re not</span> in your pocket. Check that out!",
+                  "Your keys <span class='bold'>aren't</span> on the table. They<span class='bold'>'re </span> in your pocket. Check that out!",
               },
             ],
           },
