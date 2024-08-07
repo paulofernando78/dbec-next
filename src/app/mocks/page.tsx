@@ -12,7 +12,7 @@ import SwiperFraction, {
 // Images
 import { cat1, cat2, cat3 } from "@/img/index";
 import { FlipCard } from "@/components/Cards/Flip";
-import { Dropdown, DropdownQuestion } from "@/components/ExerciseTemplates/Dropdown";
+import { Dropdown } from "@/components/ExerciseTemplates/Dropdown";
 
 const radioExercise = [
   {
@@ -32,7 +32,7 @@ const radioExercise = [
   },
 ];
 
-const dropdown: DropdownQuestion[] = [
+const dropdown = [
   {
     title: "Select the right answer.",
     beforeOptions: "1. I",

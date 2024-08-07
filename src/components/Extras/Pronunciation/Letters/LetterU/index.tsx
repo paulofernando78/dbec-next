@@ -107,6 +107,16 @@ const pronunciations: Pronunciation[] = [
           phonetics: "/ʌ/",
         },
         words: [
+          // abundance
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/a/abundance.mp3",
+              keyword: "abundance",
+              label: "ab<span class='underline'>u</span>ndance",
+              phonetics: "/əˈbʌn.dəns/",
+            },
+          },
           // bus
           {
             component: (props) => <DictionaryCard {...props} />,

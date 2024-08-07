@@ -12,7 +12,7 @@ interface Option {
   correctAnswer: boolean;
 }
 
-export interface DropdownQuestion {
+interface DropdownQuestion {
   title?: string;
   subtitle?: string;
   width: string;
