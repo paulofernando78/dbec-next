@@ -21,6 +21,10 @@ interface Content {
 }
 
 interface SubContent {
+  applyBeginnerBorder?: boolean;
+  applyElementaryBorder?: boolean;
+  applyPreIntermediateBorder?: boolean;
+  applyIntermediateBorder?: boolean;
   bgColor: string;
   textColor: string;
   label: string;
@@ -48,11 +52,18 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
             </Card>
           )}
 
-          {content.subContents.map(
-            (subContent, subContentIndex) => (
+          {content.subContents.map((subContent, subContentIndex) => {
+            // Determine the border class
+            let borderClass = "";
+            if (subContent.applyBeginnerBorder) borderClass = styles["beginner-border"];
+            else if (subContent.applyElementaryBorder) borderClass = styles["elementary-border"];
+            else if (subContent.applyPreIntermediateBorder) borderClass = styles["pre-intermediate-border"];
+            else if (subContent.applyIntermediateBorder) borderClass = styles["intermediate-border"];
+
+            return (
               <div
                 key={subContentIndex}
-                className={styles["card-description"]}
+                className={`${styles["card-description"]} ${borderClass}`}
               >
                 {/* Label */}
                 <p
@@ -70,14 +81,14 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                     className={`flex-col-4px ${styles["card-description-content"]}`}
                   >
                     {/* Content */}
-                    {content.content && <p>{content.content}</p>}
+                    {content.content && <p className={styles["content-line-height"]}>{content.content}</p>}
 
                     {/* Link / Label Link */}
                     {content.link && content.linkLabel && (
                       <div>
                         <Image
                           src={linkIcon}
-                          alt="Globe icon"
+                          alt="Link icon"
                           className={`icon-general ${styles["link-icon"]}`}
                         />{" "}
                         <Link href={content.link}>
@@ -118,8 +129,8 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                   </div>
                 ))}
               </div>
-            )
-          )}
+            );
+          })}
         </div>
       ))}
     </div>
