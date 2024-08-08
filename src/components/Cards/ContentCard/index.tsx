@@ -12,15 +12,16 @@ import { Card } from "../Card";
 
 interface Content {
   content?: string;
+  applyHr: boolean
   link?: string;
   linkLabel?: string;
   checkboxLink?: string;
   checkboxLabelLink?: string;
   globeLink?: string;
   globeLabel?: string;
-  courseImg?: StaticImageData
-  courseLink?: string
-  courseLabel?: string
+  courseImg?: StaticImageData;
+  courseLink?: string;
+  courseLabel?: string;
 }
 
 interface SubContent {
@@ -34,7 +35,7 @@ interface SubContent {
   contents: Content[];
 }
 
-export interface MainContent {
+interface MainContent {
   mainLabel?: string;
   subContents: SubContent[];
 }
@@ -83,8 +84,12 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                     className={`flex-col-4px ${styles["card-description-content"]}`}
                   >
                     {/* Content */}
-                    {content.content && <p className={styles["content-line-height"]}>{content.content}</p>}
-
+                    {content.content && (
+                      <p className={styles["content-line-height"]}>
+                        {content.content}
+                      </p>
+                    )}
+                    {content.applyHr && <hr className={styles["hr"]}/>}
                     {/* Link / Label Link */}
                     {content.link && content.linkLabel && (
                       <div>
@@ -94,7 +99,9 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                           className={`icon-general ${styles["link-icon"]}`}
                         />{" "}
                         <Link href={content.link}>
-                          <p className={`display-inline ${styles["link-label-position"]}`}>
+                          <p
+                            className={`display-inline ${styles["link-label-position"]}`}
+                          >
                             {content.linkLabel}
                           </p>
                         </Link>
@@ -129,20 +136,24 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                       </div>
                     )}
                     {/* Course */}
-                    {content.courseImg && content.courseLink && content.courseLabel && (
-                      <div className={`flex-8px ${styles["content-line-height"]}`}>
-                        <Image
-                          src={content.courseImg}
-                          alt="Globe icon"
-                          className={`icon-general ${styles["book-icon"]}`}
-                        />
-                        <Link
-                          href={content.courseLink}
+                    {content.courseImg &&
+                      content.courseLink &&
+                      content.courseLabel && (
+                        <div
+                          className={`flex-8px ${styles[""]}`}
                         >
-                          <p className={styles["link-label-position"]}>{content.courseLabel}</p>
-                        </Link>
-                      </div>
-                    )}
+                          <Image
+                            src={content.courseImg}
+                            alt="Globe icon"
+                            className={`icon-general ${styles["book-icon"]}`}
+                          />
+                          <Link href={content.courseLink}>
+                            <p className={styles["link-label-position"]}>
+                              {content.courseLabel}
+                            </p>
+                          </Link>
+                        </div>
+                      )}
                   </div>
                 ))}
               </div>

@@ -25,11 +25,15 @@
 }
 
 .card-description-content {
-  margin: 7px;
+  margin: 3px 7px;
 }
 
-.link-line-height {
+.link-height {
   line-height: 20px;
+}
+
+.hr {
+  margin-block: 8px;
 }
 
 .link-label-position {
