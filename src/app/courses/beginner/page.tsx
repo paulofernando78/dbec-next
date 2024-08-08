@@ -1,12 +1,14 @@
-import { ContentCard } from "@/components/Cards/ContentCard";
+import { ContentCard, MainContent } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+
+import { beginner } from "@/img/index"
 
 const contents = [
   {
     subContents: [
       // CEFR
       {
-        bgColor: "black",
+        bgColor: "gray",
         textColor: "white",
         label: "CEFR (Common European Framework of Reference)",
         contents: [
@@ -26,7 +28,6 @@ const contents = [
       },
       // Lesson 1
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 1",
@@ -38,127 +39,132 @@ const contents = [
       },
       // Lesson 2
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 2",
         contents: [
           {
-            content: "...",
+            content: "By the end of this lesson, students will be able to say hello and make introductions using my, your, his, and her.",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • What's your name? (Cycle 1)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-2/",
+            courseLabel: "Flipped Classroom • What's your name? (Cycle 1)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • What's your name? (Cycle 1)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-2/",
+            courseLabel: "Classwork • What's your name? (Cycle 1)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • What's your name? (Cycle 1)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-2/",
+            courseLabel: "Homework • What's your name? (Cycle 1)",
           },
         ],
       },
       // Lesson 3
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 3",
         contents: [
           {
-            content: "...",
+            content: "By the end of this lesson, students will be able to say good-bye and exchange contact information using subject pronouns and the verb be.",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-3/",
+            courseLabel: "Flipped Classroom • What's your name? (Cycle 2)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-3/",
+            courseLabel: "Classwork • What's your name? (Cycle 2)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-3/",
+            courseLabel: "Homework • What's your name? (Cycle 2)",
           },
         ],
       },
       // Lesson 4
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 4",
         contents: [
           {
-            content: "...",
+            content: "By the end of this lesson, students will be able to identify and discuss personal and classroom objects using the articles a1/ an, plurals, this / these, and it / they.",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-4/",
+            courseLabel: "Flipped Classroom • Where are my keys? (Cycle 1)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-4/",
+            courseLabel: "Classwork • Where are my keys? (Cycle 1)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-4/",
+            courseLabel: "Homework • Where are my keys? (Cycle 1)",
           },
         ],
       },
       // Lesson 5
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 5",
         contents: [
           {
-            content: "...",
+            content: "By the end of this lesson, students will be able to discuss the location of items using yes/ no and where questions with be, the article the, and prepositions of place.",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-5/",
+            courseLabel: "Flipped Classroom • Where are my keys? (Cycle 2)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-5/",
+            courseLabel: "Classwork • Where are my keys? (Cycle 2)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-5/",
+            courseLabel: "Homework • Where are my keys? (Cycle 2)",
           },
         ],
       },
-      // Lesson 6
+      // Lesson 6 *Review + Written and Oral Quiz
       {
-        applyBeginnerBorder: true,
-        bgColor: "black",
+        bgColor: "red",
         textColor: "white",
         label: "Lesson 6",
         contents: [
           {
-            content: "...",
+            content: "Learning objectives:",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            content: "• reflect on one's learning",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            content: "• identify areas that need improvement",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-6/",
+            courseLabel: "Classwork • xxx",
           },
         ],
       },
       // Lesson 7
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 7",
@@ -167,22 +173,24 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-7/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-7/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-7/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 8
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 8",
@@ -191,22 +199,24 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-8/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-8/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-8/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 9
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 9",
@@ -215,22 +225,24 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-9/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-9/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-9/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 10
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 10",
@@ -239,46 +251,46 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-10/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-10/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-10/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
-      // Lesson 11
+      // Lesson 11 *Review + Written and Oral Quiz
       {
-        applyBeginnerBorder: true,
-        bgColor: "black",
+        bgColor: "red",
         textColor: "white",
         label: "Lesson 11",
         contents: [
           {
-            content: "...",
+            content: "Learning objectives:",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            content: "• reflect on one's learning",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            content: "• identify areas that need improvement",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
-          },
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-11/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
+          }
         ],
       },
       // Lesson 12
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 12",
@@ -287,22 +299,24 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-12/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-12/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-12/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 13
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 13",
@@ -311,22 +325,24 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-13/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-13/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-13/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 14
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 14",
@@ -334,23 +350,24 @@ const contents = [
           {
             content: "...",
           },
-          {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+          {courseImg: beginner,
+            courseLink: "/courses/beginner/class-14/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-14/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-14/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 15
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 15",
@@ -359,46 +376,46 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-15/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-15/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-15/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
-      // Lesson 16
+      // Lesson 16 *Review + Written and Oral Quiz
       {
-        applyBeginnerBorder: true,
-        bgColor: "black",
+        bgColor: "red",
         textColor: "white",
         label: "Lesson 16",
         contents: [
           {
-            content: "...",
+            content: "Learning objectives:",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            content: "• reflect on one's learning",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            content: "• identify areas that need improvement",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
-          },
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-16/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
+          }
         ],
       },
       // Lesson 17
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 17",
@@ -407,22 +424,24 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-17/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-17/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseImg: beginner,
+            courseLink: "/courses/beginner/class-17/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 18
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 18",
@@ -431,22 +450,21 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-18/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-18/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-18/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 19
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 19",
@@ -455,22 +473,21 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-19/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-19/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-19/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 20
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 20",
@@ -479,70 +496,63 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-20/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-20/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-20/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
-      // Lesson 21
+      // Lesson 21 *Review + Written and Oral Quiz
       {
-        applyBeginnerBorder: true,
-        bgColor: "black",
+        bgColor: "red",
         textColor: "white",
         label: "Lesson 21",
         contents: [
           {
-            content: "...",
+            content: "Learning objectives:",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            content: "• reflect on one's learning",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            content: "• identify areas that need improvement",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-21/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
         ],
       },
-      // Lesson 22
+      // Lesson 22 *Written Test
       {
-        applyBeginnerBorder: true,
-        bgColor: "black",
+        bgColor: "purple",
         textColor: "white",
         label: "Lesson 22",
         contents: [
           {
-            content: "...",
+            content: "Learning objectives:",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            content: "• reflect on one's learning",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            content: "• identify areas that need improvement",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-22/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 23
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 23",
@@ -551,22 +561,21 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-23/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-23/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-23/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 24
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 24",
@@ -575,22 +584,21 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-24/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-24/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-24/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 25
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 25",
@@ -599,22 +607,21 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-25/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-25/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-25/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 26
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 26",
@@ -623,46 +630,42 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-26/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-26/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-26/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
-      // Lesson 27
+      // Lesson 27 *Review + Written and Oral Quiz
       {
-        applyBeginnerBorder: true,
-        bgColor: "black",
+        bgColor: "red",
         textColor: "white",
         label: "Lesson 27",
         contents: [
           {
-            content: "...",
+            content: "Learning objectives:",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            content: "• reflect on one's learning",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            content: "• identify areas that need improvement",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-27/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 28
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 28",
@@ -671,22 +674,21 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-28/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-28/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-28/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 29
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 29",
@@ -695,22 +697,21 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-29/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-29/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-29/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 30
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 30",
@@ -719,22 +720,21 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-30/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-30/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-30/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 31
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 31",
@@ -743,46 +743,42 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-31/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-31/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-31/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
-      // Lesson 32
+      // Lesson 32 *Review + Written and Oral Quiz
       {
-        applyBeginnerBorder: true,
-        bgColor: "black",
+        bgColor: "red",
         textColor: "white",
         label: "Lesson 32",
         contents: [
           {
-            content: "...",
+            content: "Learning objectives:",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            content: "• reflect on one's learning",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            content: "• identify areas that need improvement",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-32/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 33
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 33",
@@ -791,22 +787,21 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-33/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-33/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-33/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 34
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 34",
@@ -815,22 +810,21 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-34/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-34/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-34/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 35
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 35",
@@ -839,22 +833,21 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-35/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-35/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-35/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 36
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 36",
@@ -863,46 +856,42 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-36/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-36/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-36/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
-      // Lesson 37
+      // Lesson 37 *Review + Written and Oral Quiz
       {
-        applyBeginnerBorder: true,
-        bgColor: "black",
+        bgColor: "red",
         textColor: "white",
         label: "Lesson 37",
         contents: [
           {
-            content: "...",
+            content: "Learning objectives:",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            content: "• reflect on one's learning",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            content: "• identify areas that need improvement",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-37/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 38
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 38",
@@ -911,22 +900,21 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-38/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-38/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-38/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 39
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 39",
@@ -935,22 +923,21 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-39/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-39/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-39/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 40
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 40",
@@ -959,22 +946,21 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-40/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-40/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-40/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
       // Lesson 41
       {
-        applyBeginnerBorder: true,
         bgColor: "black",
         textColor: "white",
         label: "Lesson 41",
@@ -983,64 +969,58 @@ const contents = [
             content: "...",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-41/",
+            courseLabel: "Flipped Classroom • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-41/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-41/",
+            courseLabel: "Homework • xxx (Cycle xxx)",
           },
         ],
       },
-      // Lesson 42
+      // Lesson 42 *Review + Written and Oral Quiz
       {
-        applyBeginnerBorder: true,
-        bgColor: "black",
+        bgColor: "red",
         textColor: "white",
         label: "Lesson 42",
         contents: [
           {
-            content: "...",
+            content: "Learning objectives:",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            content: "• reflect on one's learning",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            content: "• identify areas that need improvement",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-42/",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
         ],
       },
-      // Lesson 43
+      // Lesson 43 Written Test
       {
-        applyBeginnerBorder: true,
-        bgColor: "black",
+        bgColor: "purple",
         textColor: "white",
         label: "Lesson 43",
         contents: [
           {
-            content: "...",
+            content: "Learning objectives:",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Flipped Classroom • xxx (Cycle xxx)",
+            content: "• reflect on one's learning",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Classwork • xxx (Cycle xxx)",
+            content: "• identify areas that need improvement",
           },
           {
-            link: "/courses/beginner/class-2/",
-            linkLabel: "Homework • xxx (Cycle xxx)",
+            courseLink: "/courses/beginner/class-43",
+            courseLabel: "Classwork • xxx (Cycle xxx)",
           },
         ],
       },

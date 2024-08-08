@@ -1,6 +1,6 @@
 // Imports
 import Link from "next/link";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 // CSS
 import styles from "./styles.module.css";
@@ -18,20 +18,23 @@ interface Content {
   checkboxLabelLink?: string;
   globeLink?: string;
   globeLabel?: string;
+  courseImg?: StaticImageData
+  courseLink?: string
+  courseLabel?: string
 }
 
 interface SubContent {
-  applyBeginnerBorder?: boolean;
-  applyElementaryBorder?: boolean;
-  applyPreIntermediateBorder?: boolean;
-  applyIntermediateBorder?: boolean;
+  // applyBeginnerBorder?: boolean;
+  // applyElementaryBorder?: boolean;
+  // applyPreIntermediateBorder?: boolean;
+  // applyIntermediateBorder?: boolean;
   bgColor: string;
   textColor: string;
   label: string;
   contents: Content[];
 }
 
-interface MainContent {
+export interface MainContent {
   mainLabel?: string;
   subContents: SubContent[];
 }
@@ -53,17 +56,16 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
           )}
 
           {content.subContents.map((subContent, subContentIndex) => {
-            // Determine the border class
-            let borderClass = "";
-            if (subContent.applyBeginnerBorder) borderClass = styles["beginner-border"];
-            else if (subContent.applyElementaryBorder) borderClass = styles["elementary-border"];
-            else if (subContent.applyPreIntermediateBorder) borderClass = styles["pre-intermediate-border"];
-            else if (subContent.applyIntermediateBorder) borderClass = styles["intermediate-border"];
+            // let borderClass = "";
+            // if (subContent.applyBeginnerBorder) borderClass = styles["beginner-border"];
+            // else if (subContent.applyElementaryBorder) borderClass = styles["elementary-border"];
+            // else if (subContent.applyPreIntermediateBorder) borderClass = styles["pre-intermediate-border"];
+            // else if (subContent.applyIntermediateBorder) borderClass = styles["intermediate-border"];
 
             return (
               <div
                 key={subContentIndex}
-                className={`${styles["card-description"]} ${borderClass}`}
+                className={`${styles["card-description"]}`}
               >
                 {/* Label */}
                 <p
@@ -123,6 +125,21 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                         />
                         <Link href={content.checkboxLink}>
                           <p>{content.checkboxLabelLink}</p>
+                        </Link>
+                      </div>
+                    )}
+                    {/* Course */}
+                    {content.courseImg && content.courseLink && content.courseLabel && (
+                      <div className={`flex-8px ${styles["content-line-height"]}`}>
+                        <Image
+                          src={content.courseImg}
+                          alt="Globe icon"
+                          className={`icon-general ${styles["book-icon"]}`}
+                        />
+                        <Link
+                          href={content.courseLink}
+                        >
+                          <p className={styles["link-label-position"]}>{content.courseLabel}</p>
                         </Link>
                       </div>
                     )}

@@ -1,5 +1,5 @@
-.beginner-border {
-border: solid #EAB308;
+/* .beginner-border {
+  border: solid #eab308;
 }
 
 .elementary-border {
@@ -12,7 +12,7 @@ border: solid #EAB308;
 
 .intermediate-border {
   border: solid green;
-}
+} */
 
 .card-description {
   border-radius: var(--border-radius);
@@ -26,16 +26,15 @@ border: solid #EAB308;
 
 .card-description-content {
   margin: 7px;
-  line-height: 1px;
 }
 
-.content-line-height {
-  line-height: 25px;
+.link-line-height {
+  line-height: 20px;
 }
 
 .link-label-position {
   position: relative;
-  bottom: 3px;
+  top: 1px;
 }
 
 .globe-icon {
