@@ -1,4 +1,4 @@
-import { ContentCard, MainContent } from "@/components/Cards/ContentCard";
+import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 import { beginner } from "@/img/index"
