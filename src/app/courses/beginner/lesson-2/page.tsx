@@ -1,16 +1,7 @@
-import { Whiteboard } from '@/components/Whiteboard/Whiteboard'
 import React from 'react'
 
-export const BeginnerLesson1 = () => {
+export const page = () => {
   return (
-    <>
-      <Whiteboard
-        title="Courses"
-        subtitle="Beginner"
-        descriptions={["..."]}
-      />
-      <div className="line-break">
-      </div>
-    </>
+    <div>page</div>
   )
 }
