@@ -1,7 +1,7 @@
 import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
-import { elementary } from "@/img/index"
+import { elementary } from "@/img/index";
 
 const contents = [
   {
@@ -14,15 +14,15 @@ const contents = [
         contents: [
           {
             content:
-              "• ...",
+              "...",
           },
           {
             content:
-              "• ...",
+              "...",
           },
           {
             content:
-              "• ...",
+              "...",
           },
         ],
       },
@@ -44,23 +44,24 @@ const contents = [
         label: "Lesson 2",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
             applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-2/",
-            courseLabel: "Flipped Classroom • ... (Cycle 1)",
+            courseLink: "/courses/elementary/lesson-2/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-2/",
-            courseLabel: "Classwork • ... (Cycle 1)",
+            courseLink: "/courses/elementary/lesson-2/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-2/",
-            courseLabel: "Homework • ... (Cycle 1)",
+            courseLink: "/courses/elementary/lesson-2/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -71,22 +72,24 @@ const contents = [
         label: "Lesson 3",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-3/",
-            courseLabel: "Flipped Classroom • ... (Cycle 2)",
+            courseLink: "/courses/elementary/lesson-3/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-3/",
-            courseLabel: "Classwork • ... (Cycle 2)",
+            courseLink: "/courses/elementary/lesson-3/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-3/",
-            courseLabel: "Homework • ... (Cycle 2)",
+            courseLink: "/courses/elementary/lesson-3/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -97,22 +100,24 @@ const contents = [
         label: "Lesson 4",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-4/",
-            courseLabel: "Flipped Classroom • ... (Cycle 1)",
+            courseLink: "/courses/elementary/lesson-4/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-4/",
-            courseLabel: "Classwork • ... (Cycle 1)",
+            courseLink: "/courses/elementary/lesson-4/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-4/",
-            courseLabel: "Homework • ... (Cycle 1)",
+            courseLink: "/courses/elementary/lesson-4/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -123,22 +128,24 @@ const contents = [
         label: "Lesson 5",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-5/",
-            courseLabel: "Flipped Classroom • ... (Cycle 2)",
+            courseLink: "/courses/elementary/lesson-5/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-5/",
-            courseLabel: "Classwork • ... (Cycle 2)",
+            courseLink: "/courses/elementary/lesson-5/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-5/",
-            courseLabel: "Homework • ... (Cycle 2)",
+            courseLink: "/courses/elementary/lesson-5/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -156,11 +163,13 @@ const contents = [
           },
           {
             content: "• identify areas that need improvement",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-6/",
-            courseLabel: "Classwork • ...",
+            courseLink: "/courses/elementary/lesson-6/classwork",
+            courseLabel:
+              "Classwork • Progress check • Lessons 2-5 + Written and Oral Quiz",
           },
         ],
       },
@@ -171,22 +180,24 @@ const contents = [
         label: "Lesson 7",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-7/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-7/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-7/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-7/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-7/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-7/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -197,22 +208,24 @@ const contents = [
         label: "Lesson 8",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-8/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-8/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-8/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-8/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-8/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-8/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -223,22 +236,24 @@ const contents = [
         label: "Lesson 9",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-9/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-9/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-9/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-9/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-9/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-9/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -249,22 +264,24 @@ const contents = [
         label: "Lesson 10",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-10/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-10/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-10/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-10/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-10/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-10/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -282,12 +299,14 @@ const contents = [
           },
           {
             content: "• identify areas that need improvement",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-11/",
-            courseLabel: "Classwork • ... (Cycle ...)",
-          }
+            courseLink: "/courses/elementary/lesson-11/classwork",
+            courseLabel:
+              "Classwork • Progress Check • Lessons 7-10 + Written and Oral Quiz",
+          },
         ],
       },
       // Lesson 12
@@ -297,22 +316,24 @@ const contents = [
         label: "Lesson 12",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
+          },
+          {
+            courseImg: elementary,
+            courseLink: "/courses/elementary/lesson-12/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
+          },
+          {
+            courseImg: elementary,
+            courseLink: "/courses/elementary/lesson-12/",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
             courseLink: "/courses/elementary/class-12/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
-          },
-          {
-            courseImg: elementary,
-            courseLink: "/courses/elementary/class-12/",
-            courseLabel: "Classwork • ... (Cycle ...)",
-          },
-          {
-            courseImg: elementary,
-            courseLink: "/courses/elementary/class-12/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -323,22 +344,24 @@ const contents = [
         label: "Lesson 13",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-13/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-13/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-13/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-13/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-13/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-13/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -349,21 +372,25 @@ const contents = [
         label: "Lesson 14",
         contents: [
           {
-            content: "...",
-          },
-          {courseImg: elementary,
-            courseLink: "/courses/elementary/class-14/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-14/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-14/flipped-classroom",
+            courseLabel:
+              "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-14/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-14/classwork",
+            courseLabel: "Classwork • ...",
+          },
+          {
+            courseImg: elementary,
+            courseLink: "/courses/elementary/lesson-14/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -374,22 +401,25 @@ const contents = [
         label: "Lesson 15",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-15/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-15/flipped-classroom",
+            courseLabel:
+              "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-15/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-15/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-15/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-15/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -407,12 +437,14 @@ const contents = [
           },
           {
             content: "• identify areas that need improvement",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-16/",
-            courseLabel: "Classwork • ... (Cycle ...)",
-          }
+            courseLink: "/courses/elementary/lesson-16/classwork",
+            courseLabel:
+              "Classwork • Progress check • Lessons 12-15 + Written and Oral Quiz",
+          },
         ],
       },
       // Lesson 17
@@ -422,22 +454,24 @@ const contents = [
         label: "Lesson 17",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-17/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-17/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-17/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-17/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-17/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-17/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -448,22 +482,24 @@ const contents = [
         label: "Lesson 18",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-18/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-18/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-18/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-18/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-18/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-18/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -474,22 +510,24 @@ const contents = [
         label: "Lesson 19",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-19/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-19/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-19/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-19/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-19/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-19/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -500,22 +538,24 @@ const contents = [
         label: "Lesson 20",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-20/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-20/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-20/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-20/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-20/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-20/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -533,11 +573,13 @@ const contents = [
           },
           {
             content: "• identify areas that need improvement",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-21/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-21/classwork",
+            courseLabel:
+              "Classwork • Progress Check • Lessons 17-20 + Written and Oral Quiz",
           },
         ],
       },
@@ -555,11 +597,12 @@ const contents = [
           },
           {
             content: "• identify areas that need improvement",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-22/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-22/classwork",
+            courseLabel: "Classwork • Test • Lessons 2-20 + Written Quiz",
           },
         ],
       },
@@ -570,22 +613,25 @@ const contents = [
         label: "Lesson 23",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-23/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-23/flipped-classroom",
+            courseLabel:
+              "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-23/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-23/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-23/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-23/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -596,22 +642,24 @@ const contents = [
         label: "Lesson 24",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-24/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-24/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-24/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-24/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-24/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-24/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -622,22 +670,25 @@ const contents = [
         label: "Lesson 25",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-25/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-25/flipped-classroom",
+            courseLabel:
+              "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-25/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-25/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-25/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-25/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -648,22 +699,25 @@ const contents = [
         label: "Lesson 26",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-26/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-26/flipped-classroom",
+            courseLabel:
+              "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-26/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-26/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-26/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-26/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -681,11 +735,13 @@ const contents = [
           },
           {
             content: "• identify areas that need improvement",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-27/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-27/classwork",
+            courseLabel:
+              "Classwork • Progress Check • Lessons 23-26 + Written and Oral Quiz",
           },
         ],
       },
@@ -696,22 +752,25 @@ const contents = [
         label: "Lesson 28",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-28/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-28/flipped-classroom",
+            courseLabel:
+              "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-28/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-28/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-28/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-28/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -722,22 +781,25 @@ const contents = [
         label: "Lesson 29",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-29/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-29/flipped-classroom",
+            courseLabel:
+              "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-29/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-29/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-29/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-29/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -748,22 +810,24 @@ const contents = [
         label: "Lesson 30",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-30/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-30/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-30/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-30/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-30/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-30/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -774,22 +838,24 @@ const contents = [
         label: "Lesson 31",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-31/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-31/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-31/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-31/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-31/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-31/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -807,11 +873,13 @@ const contents = [
           },
           {
             content: "• identify areas that need improvement",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-32/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-32/classwork",
+            courseLabel:
+              "Classwork • Progress Check Lessons 28-31 + Written and Oral Quiz",
           },
         ],
       },
@@ -822,22 +890,24 @@ const contents = [
         label: "Lesson 33",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-33/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-33/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-33/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-33/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-33/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-33/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -848,22 +918,24 @@ const contents = [
         label: "Lesson 34",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-34/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-34/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-34/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-34/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-34/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-34/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -874,22 +946,24 @@ const contents = [
         label: "Lesson 35",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-35/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-35/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-35/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-35/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-35/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-35/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -900,22 +974,24 @@ const contents = [
         label: "Lesson 36",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-36/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-36/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-36/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-36/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-36/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-36/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -927,6 +1003,7 @@ const contents = [
         contents: [
           {
             content: "Learning objectives:",
+            applyHr: true,
           },
           {
             content: "• reflect on one's learning",
@@ -936,8 +1013,9 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-37/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-37/classwork",
+            courseLabel:
+              "Classwork • Progress • Check Lessons 33-36 + Written and Oral Quiz",
           },
         ],
       },
@@ -948,22 +1026,24 @@ const contents = [
         label: "Lesson 38",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-38/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-38/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-38/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-38/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-38/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-38/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -974,22 +1054,24 @@ const contents = [
         label: "Lesson 39",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-39/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-39/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-39/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-39/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-39/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-39/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -1000,22 +1082,24 @@ const contents = [
         label: "Lesson 40",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-40/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-40/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-40/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-40/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-40/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-40/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -1026,22 +1110,24 @@ const contents = [
         label: "Lesson 41",
         contents: [
           {
-            content: "...",
+            content:
+              "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-41/",
-            courseLabel: "Flipped Classroom • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-41/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-41/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-41/classwork",
+            courseLabel: "Classwork • ...",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-41/",
-            courseLabel: "Homework • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-41/homework",
+            courseLabel: "Homework • ...",
           },
         ],
       },
@@ -1059,11 +1145,13 @@ const contents = [
           },
           {
             content: "• identify areas that need improvement",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-42/",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/elementary/lesson-42/classwork",
+            courseLabel:
+              "Classwork • Progress Check • Lessons 38-41 + Written and Oral Quiz",
           },
         ],
       },
@@ -1081,11 +1169,12 @@ const contents = [
           },
           {
             content: "• identify areas that need improvement",
+            applyHr: true,
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/class-43",
-            courseLabel: "Classwork • ... (Cycle ...)",
+            courseLink: "/courses/intermediate/lesson-43/classwork",
+            courseLabel: "Classwork • Test • Lessons 23-41 + Written Quiz",
           },
         ],
       },
@@ -1093,12 +1182,12 @@ const contents = [
   },
 ];
 
-export default function Beginner() {
+export default function Elementary() {
   return (
     <>
       <Whiteboard
         title="Courses"
-        subtitle="Elementary"
+        subtitle="Intermediate"
         descriptions={["43 lessons"]}
       />
       <div className="line-break">
