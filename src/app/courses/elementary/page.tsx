@@ -1,4 +1,4 @@
-import { ContentCard, MainContent } from "@/components/Cards/ContentCard";
+import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 import { elementary } from "@/img/index"
@@ -45,6 +45,7 @@ const contents = [
         contents: [
           {
             content: "...",
+            applyHr: true,
           },
           {
             courseImg: elementary,

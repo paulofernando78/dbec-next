@@ -12,7 +12,7 @@ import { Card } from "../Card";
 
 interface Content {
   content?: string;
-  applyHr: boolean
+  applyHr?: boolean
   link?: string;
   linkLabel?: string;
   checkboxLink?: string;

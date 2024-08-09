@@ -1,7 +1,16 @@
 import React from 'react'
+import { Whiteboard } from '@/components/Whiteboard/Whiteboard'
 
 export default function BeginnerLesson1() {
   return (
-    <div>BeginnerLesson1</div>
+    <>
+      <Whiteboard
+        title="Courses"
+        subtitle="Beginner"
+        descriptions={["..."]}
+      />
+      <div className="line-break">
+      </div>
+    </>
   )
 }
