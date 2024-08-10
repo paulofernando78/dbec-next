@@ -1187,7 +1187,7 @@ export default function Elementary() {
     <>
       <Whiteboard
         title="Courses"
-        subtitle="Intermediate"
+        subtitle="Elementary (A2)"
         descriptions={["43 lessons"]}
       />
       <div className="line-break">
