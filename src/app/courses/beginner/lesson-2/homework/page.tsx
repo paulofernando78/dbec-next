@@ -1,7 +1,7 @@
 import React from 'react'
 import { Whiteboard } from '@/components/Whiteboard/Whiteboard'
 
-export default function BeginnerLesson1() {
+export default function BeginnerLesson2() {
   return (
     <>
       <Whiteboard

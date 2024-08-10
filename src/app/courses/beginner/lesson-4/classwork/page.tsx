@@ -7,7 +7,7 @@ export default function BeginnerLesson1() {
       <Whiteboard
         title="Courses"
         subtitle="Beginner"
-        descriptions={["Lesson 2", "Classwork", "..."]}
+        descriptions={["Lesson 4", "Classwork", "..."]}
       />
       <div className="line-break">
       </div>
