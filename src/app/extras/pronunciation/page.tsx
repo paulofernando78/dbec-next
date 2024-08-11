@@ -383,7 +383,7 @@ const letters = [
   },
 ];
 
-export default function Pronunciation() {
+export default function ExtraPronunciation() {
   return (
     <>
       <Whiteboard

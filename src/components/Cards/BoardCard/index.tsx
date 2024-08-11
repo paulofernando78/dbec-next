@@ -1,8 +1,10 @@
 import { ReactNode } from "react";
 import styles from "./styles.module.css";
 
-interface CardProps {
+interface BoardCardProps {
   label: string;
+  smallerLabel?: string;
+  time?: string
   children: ReactNode;
   bgColor?: string;
   textColor?: string;
@@ -10,17 +12,22 @@ interface CardProps {
 
 export const BoardCard = ({
   label,
+  smallerLabel,
+  time,
   children,
   bgColor,
   textColor,
-}: CardProps) => {
+}: BoardCardProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
         className={styles["card"]}
         style={{ backgroundColor: bgColor, color: textColor, marginBottom: ".7rem" }}
       >
-        <p className="bold">{label}</p>
+        <div className="flex-8px-start-space-between">
+          <p><span className="bold">{label}</span> <span className="p-size-smaller">{smallerLabel}</span></p>
+          <p className="p-size-smaller">{time}</p>
+        </div>
       </div>
       <div className={styles["children"]} style={{ marginBottom: ".2rem"}}>{children}</div>
     </div>
