@@ -176,7 +176,7 @@ function playAudio(audioSrc: string) {
 export default function TheAlphabet() {
   return (
     <div className="line-break">
-      <Card bgColor="black" textColor="white">
+      <Card bgColor="lightgray" textColor="black">
         <p className="bold">The Alphabet</p>
       </Card>
       <div>
