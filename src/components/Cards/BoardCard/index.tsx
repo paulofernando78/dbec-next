@@ -22,14 +22,14 @@ export const BoardCard = ({
     <div className={styles["main-card"]}>
       <div
         className={styles["card"]}
-        style={{ backgroundColor: bgColor, color: textColor, marginBottom: ".7rem" }}
+        style={{ backgroundColor: bgColor, color: textColor }}
       >
         <div className="flex-8px-start-space-between">
           <p><span className="bold">{label}</span> <span className="p-size-smaller">{smallerLabel}</span></p>
           <p className="p-size-smaller">{time}</p>
         </div>
       </div>
-      <div className={styles["children"]} style={{ marginBottom: ".2rem"}}>{children}</div>
+      <div className={styles["children"]}>{children}</div>
     </div>
   );
 };

@@ -108,7 +108,7 @@ export default function VocabularyGrammar() {
             </Card>
           <p>...</p>
         </BoardCard>
-        <BoardCard label="Wrap-up" smallerLabel="(Cooling down)" bgColor="black" textColor="white" time="...">
+        <BoardCard label="Wrap-up" smallerLabel="(Cooling down)" bgColor="black" textColor="white">
           <p>...</p>
         </BoardCard>
       </div>
