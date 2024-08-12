@@ -12,7 +12,7 @@ import { Card } from "../Card";
 
 interface Content {
   content?: string;
-  applyHr?: boolean
+  applyHr?: boolean;
   link?: string;
   linkLabel?: string;
   checkboxLink?: string;
@@ -84,12 +84,8 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                     className={`flex-col-4px ${styles["card-description-content"]}`}
                   >
                     {/* Content */}
-                    {content.content && (
-                      <p className={styles["content-line-height"]}>
-                        {content.content}
-                      </p>
-                    )}
-                    {content.applyHr && <hr className={styles["hr"]}/>}
+                    {content.content && <p dangerouslySetInnerHTML={{ __html: content.content}}/>}
+                    {content.applyHr && <hr className={styles["hr"]} />}
                     {/* Link / Label Link */}
                     {content.link && content.linkLabel && (
                       <div>
@@ -139,9 +135,7 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                     {content.courseImg &&
                       content.courseLink &&
                       content.courseLabel && (
-                        <div
-                          className={`flex-8px ${styles[""]}`}
-                        >
+                        <div className={`flex-8px ${styles[""]}`}>
                           <Image
                             src={content.courseImg}
                             alt="Globe icon"

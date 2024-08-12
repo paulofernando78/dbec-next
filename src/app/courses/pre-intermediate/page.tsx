@@ -14,16 +14,8 @@ const contents = [
         contents: [
           {
             content:
-              "...",
-          },
-          {
-            content:
-              "...",
-          },
-          {
-            content:
-              "...",
-          },
+              "• A2 ➜ B1",
+          }
         ],
       },
       // Lesson 1
@@ -32,6 +24,9 @@ const contents = [
         textColor: "white",
         label: "Lesson 1",
         contents: [
+          {
+            content: "Welcome / Icebreaker",
+          },
           {
             content: "Let's get to know each other / one another better.",
           },
@@ -45,23 +40,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to use past-tense questions with did and was/were to ask people about their past.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-2/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Good memories (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-2/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Good memories (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-2/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Good memories (Cycle 1)",
           },
         ],
       },
@@ -73,23 +68,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss their childhoods using used to.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-3/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Good memories (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-3/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Good memories (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-3/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Good memories (Cycle 2)",
           },
         ],
       },
@@ -101,23 +96,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss city issues and public services using expressions of quantity and compound nouns.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-4/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Life in the city (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-4/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Life in the city (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-4/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Life in the city (Cycle 1)",
           },
         ],
       },
@@ -129,23 +124,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to ask indirect questions.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-5/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Life in the city (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-5/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Life in the city (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-5/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Life in the city (Cycle 2)",
           },
         ],
       },
@@ -181,23 +176,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to evaluate and compare houses and apartments using too and comparatives.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-7/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Making changes (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-7/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Making changes (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-7/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Making changes (Cycle 1)",
           },
         ],
       },
@@ -209,23 +204,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss changes in their lives using I wish.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-8/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Making changes (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-8/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Making changes (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-8/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Making changes (Cycle 2)",
           },
         ],
       },
@@ -237,23 +232,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to describe personal experiences using the past tense and the present perfect.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-9/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Have you ever tried it? (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-9/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Have you ever tried it? (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-9/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Have you ever tried it? (Cycle 1)",
           },
         ],
       },

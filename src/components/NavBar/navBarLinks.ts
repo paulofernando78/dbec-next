@@ -70,18 +70,18 @@ export const navBarLinks = [
         link: "/courses/intermediate",
         name: "Intermediate (B1)",
       },
-      {
-        imgSrc: upperIntermediate,
-        altName: "Book icon",
-        link: "/courses/upper-intermediate",
-        name: "Upper-Inter. (B2)",
-      },
-      {
-        imgSrc: advanced,
-        altName: "Book icon",
-        link: "/courses/advanced",
-        name: "Advanced (C1)",
-      },
+      // {
+      //   imgSrc: upperIntermediate,
+      //   altName: "Book icon",
+      //   link: "/courses/upper-intermediate",
+      //   name: "Upper-Inter. (B2)",
+      // },
+      // {
+      //   imgSrc: advanced,
+      //   altName: "Book icon",
+      //   link: "/courses/advanced",
+      //   name: "Advanced (C1)",
+      // },
     ],
   },
   // Extras
