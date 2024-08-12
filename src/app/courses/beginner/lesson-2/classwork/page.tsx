@@ -3,8 +3,7 @@ import React from "react";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import TheAlphabet from "@/components/Lessons/Topic/TheAlphabet/page";
 import { BoardCard } from "@/components/Cards/BoardCard";
-import { Card } from "@/components/Cards/Card";
-import { Ribbon } from "@/components/Ribbons";
+import { Ribbon } from "@/components/Ribbons/Ribbon";
 
 export default function BeginnerLesson2() {
   return (
