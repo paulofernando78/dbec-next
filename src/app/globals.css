@@ -135,6 +135,12 @@ p {
   gap: 1.25rem;
 }
 
+.celta-line-break {
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
 .margin-top {
   margin-top: 1.25rem;
 }

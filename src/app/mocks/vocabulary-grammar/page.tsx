@@ -1,8 +1,21 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { WrapUp } from "@/components/Celta/WrapUp";
 import { BoardCard } from "@/components/Cards/BoardCard";
-import { Ribbon } from "@/components/Ribbons/Ribbon";
-import { SmallerRibbon } from "@/components/Ribbons/SmallerRibbon";
 import { Card } from "@/components/Cards/Card";
+import { Introduction } from "@/components/Celta/Introduction";
+import { Presentation } from "@/components/Celta/VocabularyGrammar/Presentation";
+import { SmallerRibbon } from "@/components/Ribbons/SmallerRibbon";
+import { Meaning } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
+import { Pronunciation } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
+import { FormUse } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
+import { CCQ } from "@/components/Celta/VocabularyGrammar/Presentation/CCQ";
+import { Practice } from "@/components/Celta/VocabularyGrammar/Practice";
+import { HCWP } from "@/components/Celta/VocabularyGrammar/Practice/HCWP";
+import { ICQ } from "@/components/Celta/VocabularyGrammar/Practice/ICQ";
+import { LCWP } from "@/components/Celta/VocabularyGrammar/Practice/LCWP";
+import { HCOP } from "@/components/Celta/VocabularyGrammar/Practice/HCOP";
+import { LCOP } from "@/components/Celta/VocabularyGrammar/Practice/LCOP";
+import { Production } from "@/components/Celta/VocabularyGrammar/Production";
 
 export default function VocabularyGrammar() {
   return (
@@ -13,104 +26,94 @@ export default function VocabularyGrammar() {
         descriptions={["..."]}
       />
       <div className="line-break">
-        <BoardCard label="Warm-up" bgColor="black" textColor="white" time="5'">
+        <WrapUp>
           <p>...</p>
-        </BoardCard>
-        <BoardCard
-          label="Introduction"
-          smallerLabel="(Contextualizion)"
-          bgColor="black"
-          textColor="white"
-          time="10'"
-        >
+        </WrapUp>
+        <Introduction>
           <p>...</p>
-        </BoardCard>
-        <BoardCard
-          label="Presentation"
-          bgColor="black"
-          textColor="white"
-          time="10'"
-        >
-          <div className="line-break">
-            <SmallerRibbon label="Meaning" bgColor="lightgray" />
-            <p>...</p>
-            <Card bgColor="#FFFACD">
-              <p>...</p>
-            </Card>
-            <SmallerRibbon label="Pronunciation" bgColor="lightgray" />
-            <p>...</p>
-            <Card bgColor="#FFFACD">
-              <p>...</p>
-            </Card>
-            <SmallerRibbon label="Form / Use" bgColor="lightgray" />
-            <p>...</p>
-            <Card bgColor="#FFFACD">
-              <p>...</p>
-            </Card>
+        </Introduction>
+        <Presentation>
+          <div className="celta-line-break">
+            <Meaning>
+              <div className="line-break">
+                <p>...</p>
+                <CCQ>
+                  <p>...</p>
+                </CCQ>
+              </div>
+            </Meaning>
+            <Pronunciation>
+              <div className="line-break">
+                <p>...</p>
+                <CCQ>
+                  <p>...</p>
+                </CCQ>
+              </div>
+            </Pronunciation>
+            <FormUse>
+              <div className="line-break">
+                <p>...</p>
+                <CCQ>
+                  <p>...</p>
+                </CCQ>
+              </div>
+            </FormUse>
           </div>
-        </BoardCard>
-        <BoardCard
-          label="Practice"
-          bgColor="black"
-          textColor="white"
-          time="20'"
-        >
-          <div className="line-break">
-            <SmallerRibbon
-              label="Highly Control Written Practice"
-              bgColor="lightgray"
-            />
-            <Card bgColor="#FFFACD">
-              <p>• Do it individually.</p>
-              <p>• ...</p>
-            </Card>
-            <p>...</p>
-            <SmallerRibbon
-              label="Low Control Written Practice"
-              bgColor="lightgray"
-            />
-            <Card bgColor="#FFFACD">
-              <p>• Do it individually.</p>
-              <p>• ...</p>
-            </Card>
-            <p>...</p>
-            <SmallerRibbon
-              label="Highly Control Oral Practice"
-              bgColor="lightgray"
-            />
-            <Card bgColor="#FFFACD">
-              <p>• Do it in pairs.</p>
-              <p>• Listen to a dialogue.</p>
-              <p>...</p>
-            </Card>
-            <p>...</p>
-            <SmallerRibbon
-              label="Low Control Oral Practice"
-              bgColor="lightgray"
-            />
-            <Card bgColor="#FFFACD">
-              <p>• Do it in pairs.</p>
-              <p>• Listen to a dialogue.</p>
-              <p>...</p>
-            </Card>
+        </Presentation>
+        <Practice>
+          <div className="celta-line-break">
+            <HCWP>
+              <div className="line-break">
+                <p>...</p>
+                <ICQ>
+                  <p>• Do it individually.</p>
+                  <p>...</p>
+                </ICQ>
+              </div>
+            </HCWP>
+            <LCWP>
+              <div className="line-break">
+                <p>...</p>
+                <ICQ>
+                  <p>• Do it individually.</p>
+                  <p>...</p>
+                </ICQ>
+              </div>
+            </LCWP>
+            <HCOP>
+              <div className="line-break">
+                <p>...</p>
+                <ICQ>
+                  <p>• Do it in pairs.</p>
+                  <p>• Listen to a dialogue.</p>
+                  <p>...</p>
+                </ICQ>
+              </div>
+            </HCOP>
+            <LCOP>
+              <div className="line-break">
+                <p>...</p>
+                <ICQ>
+                  <p>• Do it in pairs.</p>
+                  <p>• Listen to a dialogue.</p>
+                  <p>...</p>
+                </ICQ>
+              </div>
+            </LCOP>
           </div>
-        </BoardCard>
-        <BoardCard
-          label="Production"
-          bgColor="black"
-          textColor="white"
-          time="10'"
-        >
-          <Card bgColor="#FFFACD">
+        </Practice>
+        <Production>
+          <div className="line-break">
+            <ICQ>
               <p>• Mingle (walk around and talk to one another).</p>
               <p>• Do it in groups of...</p>
-              <p>• ...</p>
-            </Card>
+            </ICQ>
+            <p>...</p>
+          </div>
+        </Production>
+        <WrapUp>
           <p>...</p>
-        </BoardCard>
-        <BoardCard label="Wrap-up" smallerLabel="(Cooling down)" bgColor="black" textColor="white">
-          <p>...</p>
-        </BoardCard>
+        </WrapUp>
       </div>
     </>
   );
