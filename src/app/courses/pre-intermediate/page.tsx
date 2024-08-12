@@ -260,23 +260,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to describe recipes using sequence adverbs.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-10/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Have you ever tried it? (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-10/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Have you ever tried it? (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-10/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Have you ever tried it? (Cycle 2)",
           },
         ],
       },
@@ -312,23 +312,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to describe plans using the future with be going to and will.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-12/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Hit the road! (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-12/",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Hit the road! (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/class-12/",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Hit the road! (Cycle 1)",
           },
         ],
       },
@@ -340,23 +340,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to give travel advice.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-13/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Hit the road! (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-13/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Hit the road! (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-13/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Hit the road! (Cycle 2)",
           },
         ],
       },
@@ -368,24 +368,24 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to use two-part verbs to make and respond to requests.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-14/flipped-classroom",
             courseLabel:
-              "Flipped Classroom • ...",
+              "Flipped Classroom • Sure! I'll do it. (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-14/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Sure! I'll do it. (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-14/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Sure! I'll do it. (Cycle 1)",
           },
         ],
       },
@@ -397,24 +397,24 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to make and respond to requests using modals and Would you mind?",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-15/flipped-classroom",
             courseLabel:
-              "Flipped Classroom • ...",
+              "Flipped Classroom • Sure! I'll do it. (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-15/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Sure! I'll do it. (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-15/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Sure! I'll do it. (Cycle 2)",
           },
         ],
       },
@@ -450,23 +450,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to use infinitives and gerunds to describeuses and purposes.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-17/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • What do you use this for? (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-17/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • What do you use this for? (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-17/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • What do you use this for? (Cycle 1)",
           },
         ],
       },
@@ -478,23 +478,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to use imperatives and infinitives to give suggestions.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-18/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • What do you use this for? (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-18/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • What do you use this for? (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-18/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • What do you use this for? (Cycle 2)",
           },
         ],
       },
@@ -506,23 +506,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to describe celebrations and annual events using relative clauses of time.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-19/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Time to celebrate (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-19/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Time to celebrate (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-19/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Time to celebrate (Cycle 1)",
           },
         ],
       },
@@ -534,23 +534,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to describe customs using adverbial clauses of time.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-20/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Time to celebrate (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-20/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Time to celebrate (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-20/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Time to celebrate (Cycle 2)",
           },
         ],
       },
@@ -609,24 +609,24 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to use the past, present, and future tenses.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-23/flipped-classroom",
             courseLabel:
-              "Flipped Classroom • ...",
+              "Flipped Classroom • Only time will tell. (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-23/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Only time will tell. (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-23/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Only time will tell. (Cycle 1)",
           },
         ],
       },
@@ -638,23 +638,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss consequences using conditional sentences with if clauses.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-24/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Only time will tell. (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-24/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Only time will tell. (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-24/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Only time will tell. (Cycle 2)",
           },
         ],
       },
@@ -666,24 +666,24 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss job skills using gerunds and short responses.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-25/flipped-classroom",
             courseLabel:
-              "Flipped Classroom • ...",
+              "Flipped Classroom • I like working with people. (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-25/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • I like working with people. (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-25/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • I like working with people. (Cycle 1)",
           },
         ],
       },
@@ -695,24 +695,24 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss the kinds of jobs they want and don’t want using clauses with because.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-26/flipped-classroom",
             courseLabel:
-              "Flipped Classroom • ...",
+              "Flipped Classroom • I like working with people. (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-26/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • I like working with people. (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-26/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • I like working with people. (Cycle 2)",
           },
         ],
       },
@@ -748,24 +748,24 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss famous landmarks, monuments, and works of art using the passive with by (simple past).",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-28/flipped-classroom",
             courseLabel:
-              "Flipped Classroom • ...",
+              "Flipped Classroom • It's really worth seeing! (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-28/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • It's really worth seeing! (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-28/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • It's really worth seeing! (Cycle 1)",
           },
         ],
       },
@@ -777,24 +777,24 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss key features of countries around the world using the passive without by (simple present).",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-29/flipped-classroom",
             courseLabel:
-              "Flipped Classroom • ...",
+              "Flipped Classroom • It's really worth seeing! (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-29/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • It's really worth seeing! (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-29/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • It's really worth seeing! (Cycle 2)",
           },
         ],
       },
@@ -806,23 +806,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss events, accidents, and accomplishments in their lives using the past continuous and the simple past.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-30/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • It's a long story. (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-30/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • It's a long story. (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-30/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • It's a long story. (Cycle 1)",
           },
         ],
       },
@@ -834,23 +834,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss events using the present perfect continuous.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-31/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • It's a long story. (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-31/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • It's a long story. (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-31/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • It's a long story. (Cycle 2)",
           },
         ],
       },
@@ -886,23 +886,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss books, movies, and TV programs using participles as adjectives.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-33/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • That's entertainment! (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-33/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • That's entertainment! (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-33/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • That's entertainment! (Cycle 1)",
           },
         ],
       },
@@ -914,23 +914,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss more about movies and famous Hollywood names using relative clauses.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-34/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • That's entertainment! (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-34/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • That's entertainment! (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-34/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • That's entertainment! (Cycle 2)",
           },
         ],
       },
@@ -942,23 +942,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to explain gestures using modals and adverbs.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-35/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Now I get it! (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-35/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Now I get it! (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-35/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Now I get it! (Cycle 1)",
           },
         ],
       },
@@ -970,23 +970,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss signs using terms of permission, obligation, and prohibition.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-36/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Now I get it! (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-36/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Now I get it! (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-36/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Now I get it! (Cycle 2)",
           },
         ],
       },
@@ -1022,23 +1022,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss imaginary situations using unreal conditional sentences with if clauses.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-38/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • I wouldn't do that? (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-38/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • I wouldn't do that? (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-38/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • I wouldn't do that? (Cycle 1)",
           },
         ],
       },
@@ -1050,23 +1050,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss predicaments using the past modals would have and should have.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-39/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • I wouldn't do that? (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-39/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • I wouldn't do that? (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-39/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • I wouldn't do that? (Cycle 2)",
           },
         ],
       },
@@ -1078,23 +1078,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to discuss excuses and requests using reported speech.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-40/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Making excuses (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-40/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Making excuses (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-40/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Making excuses (Cycle 1)",
           },
         ],
       },
@@ -1106,23 +1106,23 @@ const contents = [
         contents: [
           {
             content:
-              "...",
+              "By the end of this lesson, students will be able to use reported speech to discuss statements that other people made.",
             applyHr: true,
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-41/flipped-classroom",
-            courseLabel: "Flipped Classroom • ...",
+            courseLabel: "Flipped Classroom • Making excuses (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-41/classwork",
-            courseLabel: "Classwork • ...",
+            courseLabel: "Classwork • Making excuses (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-41/homework",
-            courseLabel: "Homework • ...",
+            courseLabel: "Homework • Making excuses (Cycle 2)",
           },
         ],
       },
