@@ -37,7 +37,7 @@ export const Radio = ({ questions }: RadioProps) => {
   return (
     <div>
       {questions.map((question, questionIndex) => (
-        <div key={questionIndex}>
+        <div key={questionIndex} className="margin-bottom">
           <p className="margin-bottom bold">{question.title}</p>
           <p>{question.question}</p>
           <div>

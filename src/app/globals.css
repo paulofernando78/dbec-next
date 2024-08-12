@@ -161,6 +161,10 @@ p {
   margin-right: 8px;
 }
 
+.margin-block {
+  margin: 1.25rem 0;
+}
+
 .margin-sides {
   margin: 0 8px;
 }
