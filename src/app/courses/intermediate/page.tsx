@@ -331,12 +331,12 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-12/",
+            courseLink: "/courses/intermediate/lesson-12/classwork",
             courseLabel: "Classwork • Expanding your horizons (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/class-12/",
+            courseLink: "/courses/intermediate/lesson-12/homework",
             courseLabel: "Homework • Expanding your horizons (Cycle 1)",
           },
         ],

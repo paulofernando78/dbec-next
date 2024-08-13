@@ -164,7 +164,7 @@ const contents = [
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-6/classwork",
             courseLabel:
-              "Classwork • Progress check • Lessons 2-5 + Written and Oral Quiz",
+              "Classwork • Review lessons 2-5 + Written and Oral Quiz",
           },
         ],
       },
@@ -300,7 +300,7 @@ const contents = [
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-11/classwork",
             courseLabel:
-              "Classwork • Progress Check • Lessons 7-10 + Written and Oral Quiz",
+              "Classwork • Review lessons 7-10 + Written and Oral Quiz",
           },
         ],
       },
@@ -322,12 +322,12 @@ const contents = [
           },
           {
             courseImg: preIntermediate,
-            courseLink: "/courses/pre-intermediate/lesson-12/",
+            courseLink: "/courses/pre-intermediate/lesson-12/classwork",
             courseLabel: "Classwork • Hit the road! (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
-            courseLink: "/courses/pre-intermediate/class-12/",
+            courseLink: "/courses/pre-intermediate/lesson-12/homework",
             courseLabel: "Homework • Hit the road! (Cycle 1)",
           },
         ],
@@ -438,7 +438,7 @@ const contents = [
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-16/classwork",
             courseLabel:
-              "Classwork • Progress check • Lessons 12-15 + Written and Oral Quiz",
+              "Classwork • Review lessons 12-15 + Written and Oral Quiz",
           },
         ],
       },
@@ -574,7 +574,7 @@ const contents = [
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-21/classwork",
             courseLabel:
-              "Classwork • Progress Check • Lessons 17-20 + Written and Oral Quiz",
+              "Classwork • Review lessons 17-20 + Written and Oral Quiz",
           },
         ],
       },
@@ -597,7 +597,7 @@ const contents = [
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-22/classwork",
-            courseLabel: "Classwork • Test • Lessons 2-20 + Written Quiz",
+            courseLabel: "Classwork • Review lessons 2-20 + Written Quiz",
           },
         ],
       },
@@ -736,7 +736,7 @@ const contents = [
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-27/classwork",
             courseLabel:
-              "Classwork • Progress Check • Lessons 23-26 + Written and Oral Quiz",
+              "Classwork • Review lessons 23-26 + Written and Oral Quiz",
           },
         ],
       },
@@ -874,7 +874,7 @@ const contents = [
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-32/classwork",
             courseLabel:
-              "Classwork • Progress Check Lessons 28-31 + Written and Oral Quiz",
+              "Classwork • Review lessons 28-31 + Written and Oral Quiz",
           },
         ],
       },
@@ -1010,7 +1010,7 @@ const contents = [
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-37/classwork",
             courseLabel:
-              "Classwork • Progress • Check Lessons 33-36 + Written and Oral Quiz",
+              "Classwork • Review lessons 33-36 + Written and Oral Quiz",
           },
         ],
       },
@@ -1146,7 +1146,7 @@ const contents = [
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-42/classwork",
             courseLabel:
-              "Classwork • Progress Check • Lessons 38-41 + Written and Oral Quiz",
+              "Classwork • Review lessons 38-41 + Written and Oral Quiz",
           },
         ],
       },
@@ -1169,7 +1169,7 @@ const contents = [
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-43/classwork",
-            courseLabel: "Classwork • Test • Lessons 23-41 + Written Quiz",
+            courseLabel: "Classwork • Review lessons 23-41 + Written Test",
           },
         ],
       },
