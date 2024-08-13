@@ -16,6 +16,7 @@ import { LCWP } from "@/components/Celta/VocabularyGrammar/Practice/LCWP";
 import { HCOP } from "@/components/Celta/VocabularyGrammar/Practice/HCOP";
 import { LCOP } from "@/components/Celta/VocabularyGrammar/Practice/LCOP";
 import { Production } from "@/components/Celta/VocabularyGrammar/Production";
+import { WarmUp } from "@/components/Celta/WarmUp";
 
 export default function VocabularyGrammar() {
   return (
@@ -26,9 +27,9 @@ export default function VocabularyGrammar() {
         descriptions={["..."]}
       />
       <div className="line-break">
-        <WrapUp>
+        <WarmUp>
           <p>...</p>
-        </WrapUp>
+        </WarmUp>
         <Introduction>
           <p>...</p>
         </Introduction>
