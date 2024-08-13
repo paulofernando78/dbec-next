@@ -1,6 +1,6 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
-export default function VocabularyGrammar() {
+export default function ElementaryLesson3FlippedClassroom() {
   return (
     <>
       <Whiteboard

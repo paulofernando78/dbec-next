@@ -18,7 +18,7 @@ import { LCOP } from "@/components/Celta/VocabularyGrammar/Practice/LCOP";
 import { Production } from "@/components/Celta/VocabularyGrammar/Production";
 import { WarmUp } from "@/components/Celta/WarmUp";
 
-export default function VocabularyGrammar() {
+export default function ElementaryLesson() {
   return (
     <>
       <Whiteboard

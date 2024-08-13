@@ -1,12 +1,12 @@
 import { Whiteboard } from '@/components/Whiteboard/Whiteboard'
 
-export default function BeginnerLessonXXXClasswork() {
+export default function BeginnerLesson32Classwork() {
   return (
     <>
       <Whiteboard
         title="Courses"
         subtitle="Beginner"
-        descriptions={["Lesson ...", "Classwork", "..."]}
+        descriptions={["Lesson 32", "Classwork", "Review lessons 28-31 ", "+ Written and Oral Quiz"]}
       />
       <div className="line-break">
         <p>Coming soon!</p>

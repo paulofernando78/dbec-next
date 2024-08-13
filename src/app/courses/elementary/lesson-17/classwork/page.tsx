@@ -1,15 +1,15 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
-export default function VocabularyGrammar() {
+export default function ElementaryLesson17Classwork() {
   return (
     <>
       <Whiteboard
         title="Courses"
         subtitle="Elementary (A2)"
-        descriptions={["Lesson", "Classwork", "..."]}
+        descriptions={["Lesson 17", "Classwork", "We went dancing! (Cycle 1)"]}
       />
       <div className="line-break">
-       <p>Coming soon!</p>
+        <p>Coming soon!</p>
       </div>
     </>
   );

@@ -1,7 +1,7 @@
 import { Card } from "@/components/Cards/Card";
 import React from "react";
 
-export const VocabularyGrammar = () => {
+export const ElementaryLesson = () => {
   return (
     <>
       <Card>

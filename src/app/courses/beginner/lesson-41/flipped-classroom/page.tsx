@@ -1,12 +1,12 @@
 import { Whiteboard } from '@/components/Whiteboard/Whiteboard'
 
-export default function BeginnerLessonXXXFlippedClassroom() {
+export default function BeginnerLesson41FlippedClassroom() {
   return (
     <>
       <Whiteboard
         title="Courses"
         subtitle="Beginner"
-        descriptions={["Lesson ...", "Flipped classroom", "..."]}
+        descriptions={["Lesson 42", "Flipped classroom", "Can I take a message? (Cycle 2)"]}
       />
       <div className="line-break">
         <p>Coming soon!</p>
