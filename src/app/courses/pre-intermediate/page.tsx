@@ -597,7 +597,7 @@ const contents = [
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-22/classwork",
-            courseLabel: "Classwork • Review lessons 2-20 + Written Quiz",
+            courseLabel: "Classwork • Review lessons 2-20 + Written Test",
           },
         ],
       },
