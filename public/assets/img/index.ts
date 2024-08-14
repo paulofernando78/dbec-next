@@ -135,6 +135,7 @@ import teenLookingAtFoodLabel from "./teen-looking-at-food-label.avif";
 import translate1 from "@/img/translate1.svg"
 
 // U
+import underConstruction1 from "@/img/icon/underconstruction1.png"
 import update1 from "./update1.avif";
 import upgrade1 from "@/img/upgrade1.jpg"
 import usaFlagIcon from "./icon/flag/usa.png";
@@ -194,9 +195,6 @@ export {
   allInOneIcon,
   examsIcon,
   miscIcon,
-  usaFlagIcon,
-  ukFlagIcon,
-  brFlagIcon,
 
   // Exercise Templates
   correctIcon,
@@ -291,8 +289,12 @@ export {
   translate1,
 
   // U
+  underConstruction1,
   update1,
   upgrade1,
+  usaFlagIcon,
+  ukFlagIcon,
+  brFlagIcon,
 
   // V
 

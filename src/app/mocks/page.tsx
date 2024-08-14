@@ -122,6 +122,12 @@ export default function Mocks() {
           <Link href="/mocks/listening/">
             <p>Listening</p>
           </Link>
+          <Link href="/mocks/grammar-in-use/elementary">
+            <p>Grammar in Use • Elementary</p>
+          </Link>
+          <Link href="/mocks/grammar-in-use/intermediate">
+            <p>Grammar in Use • Intermediate</p>
+          </Link>
         </div>
         <Card bgColor="black" textColor="white">
           <b>Audio Player</b>

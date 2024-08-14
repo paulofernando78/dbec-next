@@ -1,5 +1,4 @@
-import { ReactNode } from "react";
-import styles from "./styles.module.css";
+import styles from "../styles.module.css";
 
 interface RibbonProps {
   label: string;

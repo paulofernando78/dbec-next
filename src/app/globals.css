@@ -82,8 +82,16 @@ p {
   background-color: yellow;
 }
 
+.text-white {
+  color: white;
+}
+
 .color-red {
   color: red;
+}
+
+.bg-red {
+  background-color: red;
 }
 
 .underline {

@@ -1,10 +1,7 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { WrapUp } from "@/components/Celta/WrapUp";
-import { BoardCard } from "@/components/Cards/BoardCard";
-import { Card } from "@/components/Cards/Card";
 import { Introduction } from "@/components/Celta/Introduction";
 import { Presentation } from "@/components/Celta/VocabularyGrammar/Presentation";
-import { SmallerRibbon } from "@/components/Ribbons/SmallerRibbon";
 import { Meaning } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
 import { Pronunciation } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
 import { FormUse } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";

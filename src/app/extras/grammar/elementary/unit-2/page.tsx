@@ -1,36 +1,11 @@
-import { GrammarInUse } from "@/components/Lessons/GrammarInUse";
+import { RedRibbonA } from "@/components/Ribbons/RedRibbonA";
+import { RedRibbonB } from "@/components/Ribbons/RedRibbonB";
+import { RedRibbonC } from "@/components/Ribbons/RedRibbonC";
+import { RedRibbonD } from "@/components/Ribbons/RedRibbonD";
+import { UnderConstruction } from "@/components/UnderConstruction";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
-// Imgs
-import { cat1 } from "@/img/index";
-
-const lessons = [
-  // A
-  {
-    cardBgColor: "red",
-    cardTextColor: "white",
-    cardLabel: "A",
-    contents: [
-      {
-        imgSrc: cat1,
-        imgAlt: "...",
-        imgWidth: "350px",
-        text: "xxx",
-        subLetter: "...",
-        exampleTexts: [
-          {
-            example: "...",
-          },
-        ],
-        examples: [{ example: "..." }],
-      },
-    ],
-  },
-  // B
-  
-];
-
-export default function Unit2() {
+export default function GrammarInUseElementaryUnit2() {
   return (
     <>
       <Whiteboard
@@ -38,8 +13,9 @@ export default function Unit2() {
         subtitle="Grammar"
         descriptions={["Elementary", "Unit 2 • am/is/are (questons)"]}
       />
-      <div className="line-break"></div>
-      <GrammarInUse lessons={lessons} />
+      <div className="line-break">
+        <UnderConstruction />
+      </div>
     </>
   );
 }
