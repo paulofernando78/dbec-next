@@ -36,7 +36,7 @@ const descriptions = [
             linkLabel: "Unit 6 • I don't... (simple present negative)",
           },
           {
-            link: "/extras/grammar/elementary/unit-",
+            link: "/extras/grammar/elementary/unit-7",
             linkLabel: "Unit 7 • Do you? (simple present questions)",
           },
           {
