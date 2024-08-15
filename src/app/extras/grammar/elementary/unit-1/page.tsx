@@ -1,47 +1,4 @@
 
-//             examples: [
-//               {
-//                 example: "",
-//               },
-//               {
-//                 example: ",
-//               },
-//               {
-//                 example: "",
-//               },
-//               {
-//                 example:
-//                   "",
-//               },
-//               {
-//                 example:
-//                   "",
-//               },
-//               {
-//                 example:
-//                   "",
-//               },
-//               {
-//                 example:
-//                   "",
-//               },
-//             ],
-//           },
-//           {
-//             texts: [{ text: "<span class='bold'>We say it's hot / warm / cold / sunny / dark / etc.</span>" }],
-//             examples: [
-//               {
-//                 example: "",
-//               },
-//             ],
-//           },
-//         ],
-//       },
-//     ],
-//   },
-//   // B
-// ];
-
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { RedBoardCardA } from "@/components/Cards/BoardCard/RedBoardCardA";
 import { RedBoardCardB } from "@/components/Cards/BoardCard/RedBoardCardB";
@@ -61,7 +18,7 @@ export default function GrammarInUseElementaryUnit() {
       <Whiteboard
         title="Extras"
         subtitle="Grammar"
-        descriptions={["Elementary", "Unit • ..."]}
+        descriptions={["Elementary", "Unit 1 • am/is/are"]}
       />
       <div className="line-break">
         <RedBoardCardA>
@@ -70,7 +27,7 @@ export default function GrammarInUseElementaryUnit() {
               src={lisa}
               alt="Lisa"
               className="img-border"
-              style={{ width: "500px" }}
+              style={{ width: "70%" }}
             />
             <div>
               <p>
@@ -166,12 +123,6 @@ export default function GrammarInUseElementaryUnit() {
         <RedBoardCardC>
           <p>...</p>
         </RedBoardCardC>
-        <RedBoardCardD>
-          <p>...</p>
-        </RedBoardCardD>
-        <RedBoardCardE>
-          <p>...</p>
-        </RedBoardCardE>
       </div>
     </>
   );

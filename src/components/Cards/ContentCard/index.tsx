@@ -101,14 +101,14 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                         />{" "}
                         <Link href={content.link}>
                           <p
-                            // className="display-inline"
+                          // className="display-inline"
                           >
                             {content.linkLabel}
                           </p>
                         </Link>
                       </div>
                     )}
-                    
+
                     {/* Globe Image / Globe Link */}
                     {content.globeLink && content.globeLabel && (
                       <div className={styles["grid-icon-text"]}>
@@ -117,9 +117,7 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                           alt="Globe icon"
                           className={`icon-general ${styles["globe-icon"]}`}
                         />{" "}
-                        <Link
-                          href={content.globeLink}
-                        >
+                        <Link href={content.globeLink}>
                           <p>{content.globeLabel}</p>
                         </Link>
                       </div>
@@ -128,9 +126,16 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                     {/* Checkbox Link / Checkbox Label Link */}
                     {content.checkboxLink && content.checkboxLabel && (
                       <div className={styles["grid-checkbox-text"]}>
-                        <input type="checkbox" className={styles["checkbox-size"]}/>
+                        <input
+                          type="checkbox"
+                          className={styles["checkbox-size"]}
+                        />
                         <Link href={content.checkboxLink}>
-                          <p>{content.checkboxLabel}</p>
+                          <p
+                            dangerouslySetInnerHTML={{
+                              __html: content.checkboxLabel,
+                            }}
+                          />
                         </Link>
                       </div>
                     )}
