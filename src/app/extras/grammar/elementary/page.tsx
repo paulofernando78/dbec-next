@@ -739,7 +739,7 @@ const descriptions = [
 export default function Grammar() {
   return (
     <>
-      <Whiteboard title="Extras" subtitle="Grammar" />
+      <Whiteboard title="Extras" subtitle="Grammar" descriptions={["Elementary"]} />
       <DescriptionCard descriptions={descriptions} />
     </>
   );

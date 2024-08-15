@@ -14,7 +14,7 @@ const descriptions = [
             linkLabel: "Elementary",
           },
           {
-            link: "/extras/grammar/elementary",
+            link: "/extras/grammar/intermediate",
             linkLabel: "Intermediate",
           },
         ],

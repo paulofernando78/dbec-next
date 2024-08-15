@@ -84,53 +84,57 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                     className={`flex-col-4px ${styles["card-description-content"]}`}
                   >
                     {/* Content */}
-                    {content.content && <p dangerouslySetInnerHTML={{ __html: content.content}}/>}
+                    {content.content && (
+                      <p
+                        dangerouslySetInnerHTML={{ __html: content.content }}
+                      />
+                    )}
                     {content.applyHr && <hr className={styles["hr"]} />}
+
                     {/* Link / Label Link */}
                     {content.link && content.linkLabel && (
-                      <div>
+                      <div className={styles["grid-icon-text"]}>
                         <Image
                           src={linkIcon}
                           alt="Link icon"
-                          className={`icon-general ${styles["link-icon"]}`}
+                          className="icon-general"
                         />{" "}
                         <Link href={content.link}>
                           <p
-                            className={`display-inline ${styles["link-label-position"]}`}
+                            // className="display-inline"
                           >
                             {content.linkLabel}
                           </p>
                         </Link>
                       </div>
                     )}
+                    
                     {/* Globe Image / Globe Link */}
                     {content.globeLink && content.globeLabel && (
-                      <div className="flex-8px-center-wrap">
+                      <div className={styles["grid-icon-text"]}>
                         <Image
                           src={globeIcon}
                           alt="Globe icon"
                           className={`icon-general ${styles["globe-icon"]}`}
-                        />
+                        />{" "}
                         <Link
                           href={content.globeLink}
-                          className={styles["globe-link"]}
                         >
                           <p>{content.globeLabel}</p>
                         </Link>
                       </div>
                     )}
+
                     {/* Checkbox Link / Checkbox Label Link */}
                     {content.checkboxLink && content.checkboxLabelLink && (
-                      <div className="flex-8px-start">
-                        <input
-                          type="checkbox"
-                          style={{ position: "relative", bottom: ".6px" }}
-                        />
+                      <div className={styles["grid-checkbox-text"]}>
+                        <input type="checkbox" className={styles["checkbox-size"]}/>
                         <Link href={content.checkboxLink}>
                           <p>{content.checkboxLabelLink}</p>
                         </Link>
                       </div>
                     )}
+
                     {/* Course */}
                     {content.courseImg &&
                       content.courseLink &&

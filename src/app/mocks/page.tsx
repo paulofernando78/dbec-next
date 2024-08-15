@@ -115,19 +115,37 @@ export default function Mocks() {
     <div>
       <Whiteboard title="Mocks" />
       <div className="line-break">
-        <div>
-          <Link href="/mocks/vocabulary-grammar/">
-            <p>Vocabulary Grammar</p>
-          </Link>
-          <Link href="/mocks/listening/">
-            <p>Listening</p>
-          </Link>
-          <Link href="/mocks/grammar-in-use/elementary">
-            <p>Grammar in Use • Elementary</p>
-          </Link>
-          <Link href="/mocks/grammar-in-use/intermediate">
-            <p>Grammar in Use • Intermediate</p>
-          </Link>
+        <div className="line-break">
+
+          {/* Lessons */}
+          <div>
+            <p className="bold">Lessons</p>
+            <Link href="/mocks/vocabulary-grammar/">
+              <p>Vocabulary Grammar</p>
+            </Link>
+            <Link href="/mocks/listening/">
+              <p>Listening</p>
+            </Link>
+          </div>
+         <div>
+
+          {/* Extras */}
+          <p className="bold">Extras</p>
+            <Link href="/mocks/grammar-in-use/elementary">
+              <p>Grammar in Use • Elementary</p>
+            </Link>
+            <Link href="/mocks/grammar-in-use/intermediate">
+              <p>Grammar in Use • Intermediate</p>
+            </Link>
+         </div>
+
+         {/* Componets */}
+         <div>
+          <p className="bold">Components</p>
+          <Link href="/mocks/ContentCard">
+              <p>ContentCard</p>
+            </Link>
+         </div>
         </div>
         <Card bgColor="black" textColor="white">
           <b>Audio Player</b>

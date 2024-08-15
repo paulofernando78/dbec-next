@@ -1,17 +1,13 @@
-import { RedRibbonA } from "@/components/Ribbons/RedRibbonA";
-import { RedRibbonB } from "@/components/Ribbons/RedRibbonB";
-import { RedRibbonC } from "@/components/Ribbons/RedRibbonC";
-import { RedRibbonD } from "@/components/Ribbons/RedRibbonD";
 import { UnderConstruction } from "@/components/UnderConstruction";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
-export default function GrammarInUseElementaryUnit2() {
+export default function GrammarInUseElementaryUnit59() {
   return (
     <>
       <Whiteboard
         title="Extras"
         subtitle="Grammar"
-        descriptions={["Elementary", "Unit • ..."]}
+        descriptions={["Elementary", "Unit 59 • I/me, he/him, they/them etc."]}
       />
       <div className="line-break">
         <UnderConstruction />

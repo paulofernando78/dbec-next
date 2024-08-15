@@ -25,30 +25,39 @@
 }
 
 .card-description-content {
-  margin: 3px 7px;
+  margin: 6px 7px;
 }
 
-.link-height {
+/* .link-height {
   line-height: 20px;
-}
+} */
 
 .hr {
   margin-block: 8px;
 }
 
-.link-label-position {
-  position: relative;
-  top: 1px;
-}
-
 .globe-icon {
-  position: relative;
-  right: 3px;
-  bottom: 1px;
+  margin-top: 2px;
 }
 
-.globe-link {
-  position: relative;
-  right: 4px;
-  top: 1px;
+.checkbox-size {
+  width: min-content;
 }
+
+.grid-icon-text {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px;
+}
+
+.grid-checkbox-text {
+  display: grid;
+  grid-template-columns: 25.5px 1fr;
+  gap: 8px;
+}
+
+.grid-checkbox-text input[type="checkbox"] {
+  align-self: start;
+  margin: 5px 0 0 2px
+}
+
