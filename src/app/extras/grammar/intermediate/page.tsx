@@ -124,7 +124,7 @@ const contents = [
           },
           {
             checkboxLink: "/extras/grammar/intermediate/unit-25",
-            checkboxLabel: "Unit 25 • <span class='bold'>When I do</span> and <span class='bold'>When I've done</span> / <span class='bold'>if</span> and <span class='bold'>when</span>",
+            checkboxLabel: "Unit 25 • <span class='bold'>When I do</span> and <span class='bold'>When I've done</span>, <span class='bold'>if</span> and <span class='bold'>when</span>",
           },
         ],
       },
@@ -160,7 +160,7 @@ const contents = [
           },
           {
             checkboxLink: "/extras/grammar/intermediate/unit-32",
-            checkboxLabel: "Unit 32 • <span class='bold'>must</span> / <span class='bold'>mustn't</span> / <span class='bold'>needn't</span>",
+            checkboxLabel: "Unit 32 • <span class='bold'>must</span>, <span class='bold'>mustn't</span>, <span class='bold'>needn't</span>",
           },
           {
             checkboxLink: "/extras/grammar/intermediate/unit-33",
@@ -268,7 +268,7 @@ const contents = [
           },
           {
             checkboxLink: "/extras/grammar/intermediate/unit-51",
-            checkboxLabel: "Unit 51 • Auxiliary verbs (<span class='bold'>have</span> / <span class='bold'>do</span> / <span class='bold'>can</span>) / <span class='bold'>I think so</span> / <span class='bold'>I hope so</span>",
+            checkboxLabel: "Unit 51 • Auxiliary verbs (<span class='bold'>have</span> / <span class='bold'>do</span> / <span class='bold'>can</span>, etc.),  <span class='bold'>I think so</span> / <span class='bold'>I hope so</span>",
           },
           {
             checkboxLink: "/extras/grammar/intermediate/unit-52",
@@ -415,8 +415,44 @@ const contents = [
         label: "Pronouns and determiners",
         contents: [
           {
-            checkboxLink: "/extras/grammar/intermediate/unit-1",
-            checkboxLabel: "Unit 1 •",
+            checkboxLink: "/extras/grammar/intermediate/unit-82",
+            checkboxLabel: "Unit 82 • <span class='bold'>myself</span> / <span class='bold'>yourself</span> / <span class='bold'>themselves</span>, etc.)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-83",
+            checkboxLabel: "Unit 83 • a friend of <span class='bold'>mine</span> / <span class='bold'>my own</span> house <span class='bold'>on my own</span> / <span class='bold'>by yourself</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-84",
+            checkboxLabel: "Unit 84 • <span class='bold'>there...</span> and <span class='bold'>it...</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-85",
+            checkboxLabel: "Unit 85 • <span class='bold'>some</span> and <span class='bold'>any</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-86",
+            checkboxLabel: "Unit 86 • <span class='bold'>no</span> / <span class='bold'>none</span> / <span class='bold'>any</span>, <span class='bold'>nothing</span> / <span class='bold'>nobody</span>, etc.",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-87",
+            checkboxLabel: "Unit 87 • <span class='bold'>much</span>, <span class='bold'>many</span>, <span class='bold'>little</span>, <span class='bold'>few</span>, <span class='bold'>a lot</span>, <span class='bold'>plenty</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-88",
+            checkboxLabel: "Unit 88 • <span class='bold'>all</span> / <span class='bold'>all of </span>, <span class='bold'>most / <span class='bold'>most of</span></span>, <span class='bold'>no / none of</span> etc."
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-89",
+            checkboxLabel: "Unit 89 • <span class='bold'>both</span> / <span class='bold'>both of</span>, <span class='bold'>either /  eother of</span>, <span class='bold'>neither</span> / <span class='bold'>neither of</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-90",
+            checkboxLabel: "Unit 90 • <span class='bold'>all</span>, <span class='bold'>every</span>, <span class='bold'>whole</span>"
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-91",
+            checkboxLabel: "Unit 91 • <span class='bold'>each</span> and <span class='bold'>every</span>",
           },
         ],
       },
@@ -427,8 +463,28 @@ const contents = [
         label: "Relative clauses",
         contents: [
           {
-            checkboxLink: "/extras/grammar/intermediate/unit-1",
-            checkboxLabel: "Unit 1 •",
+            checkboxLink: "/extras/grammar/intermediate/unit-92",
+            checkboxLabel: "Unit 92 • Relative clauses 1: clauses with <span class='bold'>who</span> / <span class='bold'>that</span> / <span class='bold'>which</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-93",
+            checkboxLabel: "Unit 93 • Relative clauses 2: clauses with and without <span class='bold'>who</span> / <span class='bold'>that</span> / <span class='bold'>which</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-94",
+            checkboxLabel: "Unit 94 • Relative clause 3: <span class='bold'>whose</span> / <span class='bold'>whom</span> / <span class='bold'>where</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-95",
+            checkboxLabel: "Unit 95 • Relative clauses 4: extra information clauses (1)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-96",
+            checkboxLabel: "Unit 96 • Relative clauses 5: extra information clauses (1)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-97",
+            checkboxLabel: "Unit 97 • <span class='bold'>-ing</span> and <span class='bold'>-ed</span> clauses (the woman <span class='bold'>talking to Tom</span>, the boy <span class='bold'>injured in the accident</span>)",
           },
         ],
       },
@@ -436,11 +492,67 @@ const contents = [
       {
         bgColor: "black",
         textColor: "white",
-        label: "...",
+        label: "Adjetives and adverbs",
         contents: [
           {
-            checkboxLink: "/extras/grammar/intermediate/unit-1",
-            checkboxLabel: "Unit 1 •",
+            checkboxLink: "/extras/grammar/intermediate/unit-98",
+            checkboxLabel: "Unit 98 • Adjectives ending in <span class='bold'>-ing</span> and <span class='bold'>-ed</span> (<span class='bold'>boring / bored</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-99",
+            checkboxLabel: "Unit 99 • Adjectives: a <span class='bold'>nice new</span> hoise, you look <span class='bold'>tired</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-100",
+            checkboxLabel: "Unit 100 • Adjectives and advebrs 1 (<span class='bold'>quickly / quickly</span>)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-101",
+            checkboxLabel: "Unit 101 • Adjectives and adverbs 2 (<span class='bold'>well, fast, alte, hard</span> / <span class='bold'>hardly</span>)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-102",
+            checkboxLabel: "Unit 102 • <span class='bold'>so</span> and <span class='bold'>such</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-103",
+            checkboxLabel: "Unit 103 • <span class='bold'>enough</span> and <span class='bold'>too</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-104",
+            checkboxLabel: "Unit 104 • <span class='bold'>quite</span>, <span class='bold'>pretty</span>, <span class='bold'>rather</span> and <span class='bold'>fairly</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-105",
+            checkboxLabel: "Unit 105 • Comparatives 1 (<span class='bold'>cheaper</span>, <span class='bold'>more expensive</span>, etc.)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-106",
+            checkboxLabel: "Unit 106 • Comparative 2 (<span class='bold'>much better</span> / <span class='bold'>any better</span>, etc.)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-107",
+            checkboxLabel: "Unit 107 • Comparative 3 (<span class='bold'>as... as</span> / <span class='bold'>than/span>)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-108",
+            checkboxLabel: "Unit 108 • Superlative (<span class='bold'>the longest</span>, <span class='bold'>the most enjoyable</span>, etc.)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-109",
+            checkboxLabel: "Unit 109 • Word order 1: verb + object; place and time",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-110",
+            checkboxLabel: "Unit 110 • Word order 2: adverbs with the verb",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-111",
+            checkboxLabel: "Unit 111 • <span class='bold'>still</span>, <span class='bold'>anymore</span>, <span class='bold'>yet</span>, <span class='bold'>already</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-112",
+            checkboxLabel: "Unit 112 • <span class='bold'>even</span>",
           },
         ],
       },
@@ -448,11 +560,39 @@ const contents = [
       {
         bgColor: "black",
         textColor: "white",
-        label: "...",
+        label: "Conjuctions and prepositions",
         contents: [
           {
-            checkboxLink: "/extras/grammar/intermediate/unit-1",
-            checkboxLabel: "Unit 1 •",
+            checkboxLink: "/extras/grammar/intermediate/unit-113",
+            checkboxLabel: "Unit 113 • <span class='bold'>although</span>, <span class='bold'>though</span>, <span class='bold'>even though</span>, <span class='bold'>in inspite of</span>, <span class='bold'>despite</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-114",
+            checkboxLabel: "Unit 114 • <span class='bold'>in case</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-115",
+            checkboxLabel: "Unit 115 • <span class='bold'>unless</span>, <span class='bold'>as long as</span>, <span class='bold'>provided</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-116",
+            checkboxLabel: "Unit 116 • <span class='bold'>as</span> (<span class='bold'>as</span> I walked... / <span class='bold'>as</span> I was..., etc.)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-11",
+            checkboxLabel: "Unit 117 • <span class='bold'>like</span> and <span class='bold'>as</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-118",
+            checkboxLabel: "Unit 118 • <span class='bold'>like</span>, <span class='bold'>as if</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-119",
+            checkboxLabel: "Unit 119 • <span class='bold'>during</span>, <span class='bold'>for</span>, <span class='bold'>while</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-120",
+            checkboxLabel: "Unit 120 • <span class='bold'>by</span> and until, <span class='bold'>by the time...</span>",
           },
         ],
       },
@@ -460,11 +600,71 @@ const contents = [
       {
         bgColor: "black",
         textColor: "white",
-        label: "...",
+        label: "Prepositions",
         contents: [
           {
+            checkboxLink: "/extras/grammar/intermediate/unit-121",
+            checkboxLabel: "Unit 121 • <span class='bold'>at</span> / <span class='bold'>on</span> / <span class='bold'>in</span> (time)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-122",
+            checkboxLabel: "Unit 122 • <span class='bold'>on time</span> and <span class='bold'>in time</span>, <span class='bold'>at the end</span> and <span class='bold'>in the end</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-123",
+            checkboxLabel: "Unit 123 • <span class='bold'>in</span> / <span class='bold'>at</span> / <span class='bold'>on</span> (position 1)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-124",
+            checkboxLabel: "Unit 124 • <span class='bold'>in</span> / <span class='bold'>at</span> / <span class='bold'>on</span> (position) 2",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-125",
+            checkboxLabel: "Unit 125 • <span class='bold'>in</span> / <span class='bold'>at</span> / <span class='bold'>on</span> (position 3)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-126",
+            checkboxLabel: "Unit 126 • <span class='bold'>to</span>, <span class='bold'>at</span>, <span class='bold'>in</span> and <span class='bold'>into</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-127",
+            checkboxLabel: "Unit 127 • <span class='bold'>in</span> / <span class='bold'>on</span> / <span class='bold'>at</span> (other uses)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-128",
+            checkboxLabel: "Unit 128 • <span class='bold'>by</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-129",
+            checkboxLabel: "Unit 129 • Noun + preposition (<span class='bold'>reason for, cause of</span>, etc.)",
+          },
+          {
             checkboxLink: "/extras/grammar/intermediate/unit-1",
-            checkboxLabel: "Unit 1 •",
+            checkboxLabel: "Unit 130 • Adjective + preposition 1",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-131",
+            checkboxLabel: "Unit 131 • Adjective + preposition 2",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-132",
+            checkboxLabel: "Unit 132 • Verb + preposition 1 (<span class='bold'>to</span> / <span class='bold'>at</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-133",
+            checkboxLabel: "Unit 133 • Verb + preposition 2 (<span class='bold'>about</span> / <span class='bold'>for</span> / <span class='bold'>of</span> / <span class='bold'>after</span>)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-134",
+            checkboxLabel: "Unit 134 • preposition 3",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-135",
+            checkboxLabel: "Unit 135 • Verb + preposition 4 (<span class='bold'>of</span> / <span class='bold'>for</span> / <span class='bold'>from</span> / <span class='bold'>on</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-136",
+            checkboxLabel: "Unit 136 • <span class='bold'>in</span> / <span class='bold'>into</span> <span class='bold'>with</span> / <span class='bold'>to</span> / <span class='bold'>on</span>",
           },
         ],
       },
@@ -472,11 +672,43 @@ const contents = [
       {
         bgColor: "black",
         textColor: "white",
-        label: "...",
+        label: "Phrasal verbs",
         contents: [
           {
-            checkboxLink: "/extras/grammar/intermediate/unit-1",
-            checkboxLabel: "Unit 1 •",
+            checkboxLink: "/extras/grammar/intermediate/unit-137",
+            checkboxLabel: "Unit 137 • Phrasal verbs 1 Introduction",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-138",
+            checkboxLabel: "Unit 138 • Phrasal Verbs 2 <span class='bold'>in</span> / <span class='bold'>out</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-139",
+            checkboxLabel: "Unit 139 • Phrasal verbs 3 <span class='bold'>out</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-140",
+            checkboxLabel: "Unit 140 • Phrasal verbs 4 <span class='bold'>on</span> / <span class='bold'>off</span> (1)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-141",
+            checkboxLabel: "Unit 141 • Phrasal vebrs 5 <span class='bold'>on</span> / <span class='bold'>off</span> (2)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-142",
+            checkboxLabel: "Unit 142 • Phrasal verbs 6 <span class='bold'>up</span> / <span class='bold'>down</span>",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-143",
+            checkboxLabel: "Unit 143 • Phrasal verbs 7 <span class='bold'>up</span> (1)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-144",
+            checkboxLabel: "Unit 144 • Phrasal verbs 8 <span class='bold'>up</span> (2)",
+          },
+          {
+            checkboxLink: "/extras/grammar/intermediate/unit-145",
+            checkboxLabel: "Unit 145 • Phrasal verbs 9 <span class='bold'>away</span> / <span class='bold'>back</span>",
           },
         ],
       },
