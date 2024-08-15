@@ -16,7 +16,7 @@ export default function GrammarInUseElementaryUnit() {
       <div className="line-break">
         <RedBoardCardA>
           <p>...</p>
-        </RedBoardCardA>•
+        </RedBoardCardA>
         <RedBoardCardB>
           <p>...</p>
         </RedBoardCardB>

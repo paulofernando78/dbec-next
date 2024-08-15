@@ -6,7 +6,7 @@ export const RedRibbonC = () => {
     <div
       className={`${styles["ribbon"]} ${styles["red"]}`}
     >
-      <p className="p-font bold">C</p>
+      <p>C</p>
     </div>
   );
 };

@@ -11,7 +11,7 @@ const contents = [
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-1",
-            checkboxLabelLink: "Unit 1 •",
+            checkboxLabel: "Unit 1 •",
           },
         ],
       },

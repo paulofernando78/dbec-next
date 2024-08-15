@@ -16,7 +16,7 @@ interface Content {
   link?: string;
   linkLabel?: string;
   checkboxLink?: string;
-  checkboxLabelLink?: string;
+  checkboxLabel?: string;
   globeLink?: string;
   globeLabel?: string;
   courseImg?: StaticImageData;
@@ -126,11 +126,11 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                     )}
 
                     {/* Checkbox Link / Checkbox Label Link */}
-                    {content.checkboxLink && content.checkboxLabelLink && (
+                    {content.checkboxLink && content.checkboxLabel && (
                       <div className={styles["grid-checkbox-text"]}>
                         <input type="checkbox" className={styles["checkbox-size"]}/>
                         <Link href={content.checkboxLink}>
-                          <p>{content.checkboxLabelLink}</p>
+                          <p>{content.checkboxLabel}</p>
                         </Link>
                       </div>
                     )}

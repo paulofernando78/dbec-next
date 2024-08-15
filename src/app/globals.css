@@ -85,17 +85,30 @@ p {
   background-color: yellow;
 }
 
-.text-white {
+.white {
   color: white;
 }
 
-.color-red {
+.black {
+  color: black;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.red {
   color: red;
 }
 
 .bg-red {
   background-color: red;
 }
+
+.bg-lightgrey {
+  background-color: lightgrey;
+}
+
 
 .underline {
   text-decoration: underline;
@@ -254,7 +267,7 @@ p {
   flex-direction: column;
 }
 
-.flex-col {
+.flex-col-center {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -270,6 +283,12 @@ p {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+.flex-col-125rem {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
 }
 
 .grid-2fr-8px {

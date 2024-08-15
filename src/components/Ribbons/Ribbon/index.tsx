@@ -12,7 +12,7 @@ export const Ribbon = ({ label, bgColor, textColor }: RibbonProps) => {
       className={styles["ribbon"]}
       style={{ backgroundColor: bgColor, color: textColor }}
     >
-      <span className="p-font bold">{label}</span>
+      <p className="bold">{label}</p>
     </div>
   );
 };
