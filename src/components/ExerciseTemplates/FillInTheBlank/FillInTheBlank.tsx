@@ -91,7 +91,7 @@ export const FillInTheBlank = ({
             {question.title && (
               <div className="margin-bottom">
                 <p className="bold">{question.title}</p>
-                <p className="bold">{question.subtitle}</p>
+                <p >{question.subtitle}</p>
               </div>
             )}
             <span>

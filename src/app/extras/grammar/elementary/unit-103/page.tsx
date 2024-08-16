@@ -3,9 +3,7 @@ import { Card } from "@/components/Cards/Card";
 import Image from "next/image";
 import styles from "./styles.module.css";
 import { BoardCard } from "@/components/Cards/BoardCard";
-import { IconWarningSign } from "@/components/Icon/WarningSign/Idex";
 import { FillInTheBlank } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
-
 
 // Images
 import {
@@ -14,16 +12,18 @@ import {
   smallSwimmingPool,
   inFiveMinutes,
 } from "@/img/index";
+import { ExclamationIcon } from "@/components/Icon/ExclamationIcon/Idex";
 
 const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
     title: "103.1 Choose at / on /in.",
+    subtitle: "Write in lower-case letters. Escreva em letras minúsculas.",
     beforeBlank: "1.",
     correctAnswer: ["on"],
     afterBlank: "June 6 (sixth)",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -31,7 +31,7 @@ const fillInTheBlanks = [
     beforeBlank: "2.",
     correctAnswer: ["in"],
     afterBlank: "the evening",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -39,7 +39,7 @@ const fillInTheBlanks = [
     beforeBlank: "3.",
     correctAnswer: ["at"],
     afterBlank: "2:30",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -47,7 +47,7 @@ const fillInTheBlanks = [
     beforeBlank: "4.",
     correctAnswer: ["on"],
     afterBlank: "Wednesday",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -55,7 +55,7 @@ const fillInTheBlanks = [
     beforeBlank: "5.",
     correctAnswer: ["in"],
     afterBlank: "2007",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -63,7 +63,7 @@ const fillInTheBlanks = [
     beforeBlank: "6.",
     correctAnswer: ["in"],
     afterBlank: "September",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -71,7 +71,7 @@ const fillInTheBlanks = [
     beforeBlank: "7.",
     correctAnswer: ["on"],
     afterBlank: "September 24 (twenty-fourth)",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -79,7 +79,7 @@ const fillInTheBlanks = [
     beforeBlank: "8.",
     correctAnswer: ["on"],
     afterBlank: "Thursday",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -87,7 +87,7 @@ const fillInTheBlanks = [
     beforeBlank: "9.",
     correctAnswer: ["at"],
     afterBlank: "11:45",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -95,7 +95,7 @@ const fillInTheBlanks = [
     beforeBlank: "10.",
     correctAnswer: ["on"],
     afterBlank: "Christmas Day",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -103,7 +103,7 @@ const fillInTheBlanks = [
     beforeBlank: "11.",
     correctAnswer: ["at"],
     afterBlank: "Christmas",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -111,7 +111,7 @@ const fillInTheBlanks = [
     beforeBlank: "12.",
     correctAnswer: ["in"],
     afterBlank: "the morning",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -119,7 +119,7 @@ const fillInTheBlanks = [
     beforeBlank: "13.",
     correctAnswer: ["on"],
     afterBlank: "Friday morning",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -127,7 +127,7 @@ const fillInTheBlanks = [
     beforeBlank: "14.",
     correctAnswer: ["on"],
     afterBlank: "Saturday night",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -135,7 +135,7 @@ const fillInTheBlanks = [
     beforeBlank: "15.",
     correctAnswer: ["at", "in"],
     afterBlank: "night",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -143,7 +143,7 @@ const fillInTheBlanks = [
     beforeBlank: "16.",
     correctAnswer: ["at"],
     afterBlank: "the end of the day",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -151,7 +151,7 @@ const fillInTheBlanks = [
     beforeBlank: "17.",
     correctAnswer: ["on"],
     afterBlank: "the weekend (USA)",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -159,7 +159,23 @@ const fillInTheBlanks = [
     beforeBlank: "18.",
     correctAnswer: ["in"],
     afterBlank: "winter",
-    lineBreakAfter: true
+    lineBreakAfter: true,
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "19.",
+    correctAnswer: ["in"],
+    afterBlank: "the end of the problem",
+    lineBreakAfter: true,
+  },
+  {
+    options: true,
+    width: "50px",
+    beforeBlank: "20.",
+    correctAnswer: ["in"],
+    afterBlank: "summer",
+    lineBreakAfter: true,
   },
 ];
 
@@ -237,7 +253,6 @@ export default function Unit103() {
                   <p>
                     <span className="bold">on</span> the weekend / weekends (US)
                   </p>
-                  <p><span className="bold">at</span> the weekend / weekends (UK)</p>
                 </div>
                 <div>
                   <p className="bold underline">Months + Dates</p>
@@ -255,22 +270,31 @@ export default function Unit103() {
                   </p>
                 </div>
               </div>
-              <div>
-                <p>
-                  • Bye! I'll see you <span className="bold">on</span> Friday.
-                </p>
-                <p>
-                  • What do you usually do <span className="bold">on</span>{" "}
-                  Sundays?
-                </p>
-                <p>
-                  • The concert is <span className="bold">on</span> November 22.
-                </p>
-                <p>
-                  • The concert is <span className="bold">on</span> (the) 22
-                  (of) November. (UK)
-                </p>
-                <p>Use ordinal numbers for dates.</p>
+              <div className="line-break">
+                <div>
+                  <p>
+                    • Bye! I'll see you <span className="bold">on</span> Friday.
+                  </p>
+                  <p>
+                    • What do you usually do <span className="bold">on</span>{" "}
+                    Sundays?
+                  </p>
+                  <p>
+                    • The concert is <span className="bold">on</span> November 22.
+                  </p>
+                  <p>
+                    • The concert is <span className="bold">on</span> (the) 22
+                    (of) November. (UK)
+                  </p>
+                </div>
+                <div className="red-dashed-border">
+                  <ExclamationIcon>
+                    <p>
+                      <span className="bold">at</span> the weekend / weekends (UK)
+                    </p>
+                    <p>Use ordinal numbers for dates.</p>
+                  </ExclamationIcon>
+                </div>
               </div>
             </div>
 
@@ -292,7 +316,7 @@ export default function Unit103() {
                   </p>
                 </div>
                 <div>
-                  <p>Years</p>
+                  <p className="bold underline">Years</p>
                   <p>
                     <span className="bold unerline">in</span> 1998 / 2013, etc.
                   </p>
@@ -305,23 +329,34 @@ export default function Unit103() {
                   </p>
                 </div>
               </div>
-              <div>
-                <p>
-                  • I'm going on vacation{" "}
-                  <span className="bold unerline">in</span> October.
-                </p>
-                <p>
-                  • Emma was born <span className="bold unerline">in</span>{" "}
-                  1995.
-                </p>
-                <p>
-                  • The park is beautiful{" "}
-                  <span className="bold unerline">in</span> spring.
-                </p>
-                <p>
-                  <span className="bold unerline">in</span> <mark>the</mark>{" "}
-                  spring of 1967... (specific)
-                </p>
+              <div className="line-break">
+                <div>
+                  <p>
+                    • I'm going on vacation{" "}
+                    <span className="bold unerline">in</span> October.
+                  </p>
+                  <p>
+                    • Emma was born <span className="bold unerline">in</span>{" "}
+                    1995.
+                  </p>
+                  <p>
+                    • The park is beautiful{" "}
+                    <span className="bold unerline">in</span> spring.
+                  </p>
+                </div>
+                <div className="red-dashed-border">
+                  <ExclamationIcon>
+                    <p>Specific</p>
+                  </ExclamationIcon>
+                  <p>
+                    <span className="bold unerline">in</span> <mark>the</mark>{" "}
+                    spring of 1967... (specific)
+                  </p>
+                  <p>
+                    <span className="bold unerline">in</span> <mark>the</mark>{" "}
+                    summer of 2018...
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -365,8 +400,7 @@ export default function Unit103() {
                   • Are you busy <span className="bold">at</span> the moment?
                 </p>
                 <p>
-                  • Are you coming <span className="bold">on</span> /{" "}
-                  <span className="bold">at</span> the weekend?
+                  • Are you coming <span className="bold">on</span> the weekend?
                 </p>
               </div>
             </div>
@@ -374,31 +408,38 @@ export default function Unit103() {
               className="red-dashed-border margin-bottom"
               style={{ marginBottom: ".7rem" }}
             >
-              <IconWarningSign>
+              <ExclamationIcon>
                 <p className="italic">Exceptions</p>
-              </IconWarningSign>
-              <p>- <span className="bold">on</span> Christmas <mark>Day</mark></p>
+              </ExclamationIcon>
               <p>
-                - <span className="bold">in the night</span> <span className="portuguese">
-                enfatiza a idéia de
-                  ser tarde, escuro e as pessoas estarem dormindo (na noite).
-                - <span className="bold">in the night</span> </span>
+                - <span className="bold">on</span> Christmas <mark>Day</mark>
               </p>
               <p>
                 - <span className="bold">at night</span>{" "}
                 <span className="portuguese">
-                  se refere ao fato de
-                  não mais ser dia como um todo, de uma forma geral (de/à
-                  noite).
+                  se refere ao fato de não mais ser dia como um todo, de uma
+                  forma geral (de/à noite).
                 </span>{" "}
-                • I heard an owl hooting <span className="bold">in the night</span>.{" "}
+              </p>
+
+              <p>
+                - <span className="bold">in the night</span>{" "}
+                <span className="portuguese">
+                  enfatiza a idéia de ser tarde, escuro e as pessoas estarem
+                  dormindo (na noite). -{" "}
+                  <span className="bold">in the night</span>{" "}
+                </span>
+                • I heard an owl hooting{" "}
+                <span className="bold">in the night</span>.{" "}
                 <span className="portuguese">
                   Eu ouvi um pio de coruja no meio da noite.
                 </span>
               </p>
+
               <p>
                 - <span className="bold">in the end</span> no fim das contas;
                 finalmente
+                <span className=""></span>
               </p>
             </div>
           </div>
@@ -420,7 +461,7 @@ export default function Unit103() {
                 on Monday morning / on Tuesday afternoon / on Friday evening /
                 on Saturday night, etc.
               </p>
-              <p>• I'm meeting Jackei on Monday morning.</p>
+              <p>• I'm meeting Jack on Monday morning.</p>
               <p>• Are you doing anything on Saturday night?</p>
             </div>
           </div>
@@ -460,7 +501,8 @@ export default function Unit103() {
                 </p>
                 <p>
                   • We go on vacation <span className="bold">every summer</span>
-                  . <span className="bold">Last summer</span> we went to Canada.
+                  . <span className="bold">Last summer</span> we went to
+                  Salvador.
                 </p>
                 <p>
                   • I'm leaving <span className="bold">next Monday</span>.
@@ -468,9 +510,9 @@ export default function Unit103() {
               </div>
             </div>
             <div style={{ marginBottom: ".4rem" }}>
-              <IconWarningSign>
-                <p>Continue on the next page</p>
-              </IconWarningSign>
+              <ExclamationIcon>
+                <p>Check the exercise on page 10. Continue on the next page</p>
+              </ExclamationIcon>
             </div>
           </div>
         </BoardCard>
@@ -501,14 +543,14 @@ export default function Unit103() {
                 • I'll talk to you <span className="bold">in three weeks</span>.
               </p>
             </div>
-            <IconWarningSign>
+            <ExclamationIcon>
               <p>
                 <span className="bold">
                   More specific. "in a few day's time
                 </span>{" "}
                 / in a year's time.
               </p>
-            </IconWarningSign>
+            </ExclamationIcon>
             <p>
               • Presidential elections will be held{" "}
               <span className="bold">in ten days' time</span>.{" "}
@@ -521,7 +563,9 @@ export default function Unit103() {
 
         {/* Exercises */}
         <BoardCard label="Exercise" bgColor="lightgray" textColor="black">
-        <div className="line-break"><FillInTheBlank questions={fillInTheBlanks} /></div>
+          <div className="line-break">
+            <FillInTheBlank questions={fillInTheBlanks} />
+          </div>
         </BoardCard>
       </div>
     </>
