@@ -179,14 +179,17 @@ export default function TheAlphabet() {
       <Card bgColor="lightgray" textColor="black">
         <p className="bold">The Alphabet</p>
       </Card>
-      <div>
-          <p>There are 26 (twenty-six) letters in the English alphabet.</p>
-          <p>Click / Tap to listen.</p>
+      <div className="line-break">
+          <p>There are 26 (twenty-six) letters in the English alphabet. <span className="portuguese">Existem 26 (vinte e seis) letras no alfabeto inglês.</span></p>
+          <div>
+            <p>Listen and practice.</p>
+            <p className="p-size-smaller">Click or Tap to listen.</p>
+          </div>
       </div>
       <div className="grid-repeat-auto-fit-110px-justify">
         {alphabets.map((alphabet, index) => (
           <div
-            className="flex-col img-border cursor-pointer"
+            className="flex-col-center img-border cursor-pointer"
             key={index}
             onClick={() => playAudio(alphabet.audioSrc)}
           >

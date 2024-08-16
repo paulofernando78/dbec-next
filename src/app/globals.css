@@ -47,7 +47,7 @@ body {
   max-width: 1050px;
   margin: 0 auto;
   font-family: var(--font);
-  scrollbar-gutter: stable;
+  user-select: none;
 }
 
 /* FONTS AND COLORS */
@@ -101,6 +101,22 @@ p {
   color: red;
 }
 
+.beginner {
+  color: #FCC418;
+}
+
+.elementary {
+  color: #EC3B3B;
+}
+
+.pre-intermediate {
+  color: #1F90E9;
+}
+
+.intermediate {
+  color: "#81C221"
+}
+
 .bg-red {
   background-color: red;
 }
@@ -108,7 +124,6 @@ p {
 .bg-lightgrey {
   background-color: lightgrey;
 }
-
 
 .underline {
   text-decoration: underline;
@@ -136,10 +151,6 @@ p {
 
 .is-active {
   text-decoration: underline;
-}
-
-.user-select-none {
-  user-select: none;
 }
 
 .textarea {
@@ -236,10 +247,17 @@ p {
   display: flex;
   gap: 8px;
 }
+
 .flex-8px-start {
   display: flex;
   gap: 8px;
   align-items: start;
+}
+
+.flex-8px-center {
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
 
 .flex-8px-end {
