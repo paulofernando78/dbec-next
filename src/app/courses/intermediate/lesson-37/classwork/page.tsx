@@ -1,4 +1,5 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { UnderConstruction } from "@/components/UnderConstruction";
 
 export default function IntermediateLesson37Classwork() {
   return (
@@ -14,7 +15,7 @@ export default function IntermediateLesson37Classwork() {
         ]}
       />
       <div className="line-break">
-        <p>Coming soon!</p>
+        <UnderConstruction />
       </div>
     </>
   );

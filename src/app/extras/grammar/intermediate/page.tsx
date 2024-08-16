@@ -532,7 +532,7 @@ const contents = [
           },
           {
             checkboxLink: "/extras/grammar/intermediate/unit-107",
-            checkboxLabel: "Unit 107 • Comparative 3 (<span class='bold'>as... as</span> / <span class='bold'>than/span>)",
+            checkboxLabel: "Unit 107 • Comparative 3 (<span class='bold'>as... as</span> / <span class='bold'>than</span>)",
           },
           {
             checkboxLink: "/extras/grammar/intermediate/unit-108",
@@ -648,11 +648,11 @@ const contents = [
           },
           {
             checkboxLink: "/extras/grammar/intermediate/unit-132",
-            checkboxLabel: "Unit 132 • Verb + preposition 1 (<span class='bold'>to</span> / <span class='bold'>at</span>",
+            checkboxLabel: "Unit 132 • Verb + preposition 1 <span class='bold'>to</span> / <span class='bold'>at</span>",
           },
           {
             checkboxLink: "/extras/grammar/intermediate/unit-133",
-            checkboxLabel: "Unit 133 • Verb + preposition 2 (<span class='bold'>about</span> / <span class='bold'>for</span> / <span class='bold'>of</span> / <span class='bold'>after</span>)",
+            checkboxLabel: "Unit 133 • Verb + preposition 2 <span class='bold'>about</span> / <span class='bold'>for</span> / <span class='bold'>of</span> / <span class='bold'>after</span>",
           },
           {
             checkboxLink: "/extras/grammar/intermediate/unit-134",
@@ -660,7 +660,7 @@ const contents = [
           },
           {
             checkboxLink: "/extras/grammar/intermediate/unit-135",
-            checkboxLabel: "Unit 135 • Verb + preposition 4 (<span class='bold'>of</span> / <span class='bold'>for</span> / <span class='bold'>from</span> / <span class='bold'>on</span>",
+            checkboxLabel: "Unit 135 • Verb + preposition 4 <span class='bold'>of</span> / <span class='bold'>for</span> / <span class='bold'>from</span> / <span class='bold'>on</span>",
           },
           {
             checkboxLink: "/extras/grammar/intermediate/unit-136",

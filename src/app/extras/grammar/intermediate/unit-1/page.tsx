@@ -1,34 +1,16 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { BlueBoardCardA } from "@/components/Cards/BoardCard/BlueBoardCardA";
-import { BlueBoardCardB } from "@/components/Cards/BoardCard/BlueBoardCardB";
-import { BlueBoardCardC } from "@/components/Cards/BoardCard/BlueBoardCardC";
-import { BlueBoardCardD } from "@/components/Cards/BoardCard/BlueBoardCardD";
-import { BlueBoardCardE } from "@/components/Cards/BoardCard/BlueBoardCardE";
+import { UnderConstruction } from "@/components/UnderConstruction";
 
-export default function GrammarInUseIntermediate() {
+export default function GrammarInUseIntermediateUnit1() {
   return (
     <>
       <Whiteboard
         title="Extras"
         subtitle="Grammar"
-        descriptions={["Intermediate", "Unit • ..."]}
+        descriptions={["Intermediate", "Unit 1 • Present continuous (I am doing)"]}
       />
       <div className="line-break">
-        <BlueBoardCardA>
-          <p>...</p>
-        </BlueBoardCardA>
-        <BlueBoardCardB>
-          <p>...</p>
-        </BlueBoardCardB>
-        <BlueBoardCardC>
-          <p>...</p>
-        </BlueBoardCardC>
-        <BlueBoardCardD>
-          <p>...</p>
-        </BlueBoardCardD>
-        <BlueBoardCardE>
-          <p>...</p>
-        </BlueBoardCardE>
+        <UnderConstruction />
       </div>
     </>
   );

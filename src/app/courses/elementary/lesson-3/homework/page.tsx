@@ -1,4 +1,5 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { UnderConstruction } from "@/components/UnderConstruction";
 
 export default function ElementaryLessonHomework() {
   return (
@@ -9,7 +10,7 @@ export default function ElementaryLessonHomework() {
         descriptions={["Lesson", "Homework", "Where are you from? (Cycle 2)"]}
       />
       <div className="line-break">
-       <p>Coming soon!</p>
+        <UnderConstruction />
       </div>
     </>
   );

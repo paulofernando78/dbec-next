@@ -1176,7 +1176,7 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/intermediate/lesson-43/classwork",
+            courseLink: "/courses/elementary/lesson-43/classwork",
             courseLabel: "Classwork • Review lessons 23-41 + Written Test",
           },
         ],

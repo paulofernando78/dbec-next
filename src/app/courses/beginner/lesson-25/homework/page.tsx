@@ -1,4 +1,5 @@
-import { Whiteboard } from '@/components/Whiteboard/Whiteboard'
+import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { UnderConstruction } from "@/components/UnderConstruction";
 
 export default function BeginnerLesson25Homework() {
   return (
@@ -6,11 +7,15 @@ export default function BeginnerLesson25Homework() {
       <Whiteboard
         title="Courses"
         subtitle="Beginner"
-        descriptions={["Lesson 25", "Homework", "What sports do you like? (Cycle 1)"]}
+        descriptions={[
+          "Lesson 25",
+          "Homework",
+          "What sports do you like? (Cycle 1)",
+        ]}
       />
       <div className="line-break">
-        <p>Coming soon!</p>
+        <UnderConstruction />
       </div>
     </>
-  )
+  );
 }

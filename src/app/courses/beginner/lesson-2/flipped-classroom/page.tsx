@@ -1,4 +1,4 @@
-import { Whiteboard } from '@/components/Whiteboard/Whiteboard'
+import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 export default function BeginnerLesson2FlippedClassroom() {
   return (
@@ -6,11 +6,15 @@ export default function BeginnerLesson2FlippedClassroom() {
       <Whiteboard
         title="Courses"
         subtitle="Beginner"
-        descriptions={["Lesson 2", "Flipped classroom", "What's your name? (Cycle 1)"]}
+        descriptions={[
+          "Lesson 2",
+          "Flipped classroom",
+          "What's your name? (Cycle 1)",
+        ]}
       />
       <div className="line-break">
-        <p>Coming soon!</p>
+        <UnderConstruction />
       </div>
     </>
-  )
+  );
 }
