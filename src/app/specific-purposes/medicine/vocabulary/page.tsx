@@ -416,7 +416,6 @@ const items = [
       },
     ],
   },
-  // Diseases / Genetic Disorder
   {
     label: "Diseases / Genetic Disorder",
     words: [
@@ -444,6 +443,23 @@ const items = [
           audioSrc: "/s/sickle-cell.mp3",
           label: "sickle cell",
           phonetics: "/ˈsɪk.əl ˌsel/",
+        },
+      },
+    ],
+  },
+  // Medical ethics
+  {
+    label: "Medical ethics",
+    words: [
+      // euthanasia
+      {
+        component: (props: MedicineVocabularyProps) => (
+          <DictionaryCard {...props} />
+        ),
+        componentProps: {
+          audioSrc: "/e/euthanasia.mp3",
+          label: "euthanasia",
+          phonetics: "/ˌjuː.θəˈneɪ.ʒə/",
         },
       },
     ],

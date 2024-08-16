@@ -10,6 +10,7 @@ import {
   skillsIcon,
   pronunciationIcon,
   vocabularyIcon,
+  aviationIcon,
   automobileIcon,
   businessIcon,
   chemistryIcon,
@@ -123,6 +124,12 @@ export const navBarLinks = [
         altName: "Automobile icon",
         link: "/specific-purposes/automobile",
         name: "Automobile",
+      },
+      {
+        imgSrc: aviationIcon,
+        altName: "Aviation icon",
+        link: "/specific-purposes/aviation",
+        name: "Aviation",
       },
       {
         imgSrc: businessIcon,

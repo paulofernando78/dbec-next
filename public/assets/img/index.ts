@@ -48,6 +48,7 @@ import incorrectIcon from "@/img/icon/incorrect.png";
 
 // A
 import anticipate1 from "@/img/anticipate1.jpg";
+import aviationIcon from "@/img/icon/aviation.png"
 
 // B
 import brFlagIcon from "./icon/flag/brazil.png";
@@ -206,6 +207,7 @@ export {
 
   // A
   anticipate1,
+  aviationIcon,
 
   // B
 
