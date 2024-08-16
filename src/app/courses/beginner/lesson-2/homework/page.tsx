@@ -1,4 +1,5 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { UnderConstruction } from "@/components/UnderConstruction";
 
 export default function BeginnerLesson2Homework() {
   return (
