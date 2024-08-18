@@ -1,0 +1,15 @@
+.main-card {
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.card {
+  border-radius: 5px 5px 0 0;
+  padding: var(--padding);
+  color: white;
+  background-color: #FCC418;
+}
+
+.children {
+  padding: 10px;
+}

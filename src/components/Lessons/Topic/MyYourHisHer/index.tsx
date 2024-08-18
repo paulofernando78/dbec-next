@@ -1,4 +1,4 @@
-import { BeginnerBoardCard } from "@/components/Cards/BeginnerBoardCard";
+import { BeginnerBoardCard } from "@/components/Cards/BoardCard/Courses/BeginnerBoardCard";
 import React from "react";
 
 const MyYourHisHer = () => {

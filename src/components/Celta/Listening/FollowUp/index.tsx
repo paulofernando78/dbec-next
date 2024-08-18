@@ -13,7 +13,7 @@ export const FollowUp = ({ children }: FollowUpProps) => {
           <p>
             <span className="bold">Follow-up</span>
           </p>
-          <p className="p-size-smaller">5'</p>
+          <p className="p-size-smaller">10'</p>
         </div>
       </div>
       <div className={styles["children"]}>{children}</div>

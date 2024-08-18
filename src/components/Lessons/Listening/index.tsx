@@ -4,7 +4,7 @@ import SwiperFraction, {
 
 import { Card } from "../../Cards/Card";
 import { AudioPlayer } from "../../Audioplayer";
-import { Collapsible } from "../../Collapsible/Collapsible";
+import { Collapsible } from "../../Collapsibles/Collapsible/Collapsible";
 import {
   FillInTheBlank,
   Question,

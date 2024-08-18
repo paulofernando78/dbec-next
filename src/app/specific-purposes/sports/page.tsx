@@ -14,6 +14,14 @@ export default function Sports() {
       <Whiteboard title="Specific Purposes" subtitle="Sports" />
       <div className="line-break">
         <div>
+          
+          <Link href="/specific-purposes/sports/">
+            <p>Basketball</p>
+          </Link>
+          <p>Croquet</p>
+          <Link href="/specific-purposes/sports/dodgeball">
+            <p>Dodgetball</p>
+          </Link>
           <Link href="/specific-purposes/sports/soccer-football">
             <p>
               <Image
@@ -31,14 +39,10 @@ export default function Sports() {
             </p>
           </Link>
           <Link href="/specific-purposes/sports/">
-            <p>Basketball</p>
+            <p>Tennis</p>
           </Link>
-          <p>Croquet</p>
           <Link href="/specific-purposes/sports/">
             <p>Voleyball</p>
-          </Link>
-          <Link href="/specific-purposes/sports/">
-            <p>Tennis</p>
           </Link>
         </div>
       </div>

@@ -3,6 +3,7 @@
 /* ROOT */
 
 :root {
+  scrollbar-gutter: stable;
   --navbar-icon-size: 2rem;
   --font: "Walter Turncoat", cursive;
   --h1-size: 2.3rem;
@@ -14,9 +15,13 @@
   --box-shadow: 0 0 5px 0.5px #999;
   --border-radius: 5px;
   --padding: 2px 7px;
+  --beginner: #FCC418;
+  --elementary: #EC3B3B;
+  --pre-intermediate: #1F8FEB;
+  --intermediate: #81C221;
+  --upper-intermediate: ;
+  --advanced: ;
   /* --isActive: #F77D7A; */
-  scrollbar-gutter: stable;
-
 }
 
 * {
@@ -102,19 +107,20 @@ p {
 }
 
 .beginner {
-  color: #FCC418;
+  color: var(--beginner);
 }
 
 .elementary {
-  color: #EC3B3B;
+  color: var(--elementary);
 }
 
 .pre-intermediate {
-  color: #1F90E9;
+  color: var(--pre-intermediate);
 }
 
 .intermediate {
-  color: "#81C221"
+  color: var(--intermediate);
+  color: "#81C221";
 }
 
 .bg-red {
@@ -173,7 +179,7 @@ p {
 .celta-line-break {
   display: flex;
   flex-direction: column;
-  gap: .8rem;
+  gap: 0.8rem;
 }
 
 .margin-top {
@@ -323,7 +329,7 @@ p {
 
 .grid-checkbox-text input[type="checkbox"] {
   justify-self: center;
-  margin-left: 2px
+  margin-left: 2px;
 }
 
 .grid-repeat-auto-fit-110px-justify {
@@ -408,7 +414,8 @@ hr {
     height: fit-content;
   }
 
-  .grid-2fr-8px, .grid-3fr-8px {
+  .grid-2fr-8px,
+  .grid-3fr-8px {
     display: grid;
     grid-template-columns: 1fr;
   }

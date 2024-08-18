@@ -24,6 +24,7 @@ import {
   historyIcon,
   lawIcon,
   jobInterviewIcon,
+  mathIcon,
   medicineIcon,
   travelIcon,
   scienceIcon,
@@ -202,6 +203,12 @@ export const navBarLinks = [
         altName: "Law icon",
         link: "/specific-purposes/law",
         name: "Law",
+      },
+      {
+        imgSrc: mathIcon,
+        altName: "Math icon",
+        link: "/specific-purposes/math",
+        name: "Math",
       },
       {
         imgSrc: medicineIcon,

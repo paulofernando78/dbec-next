@@ -100,6 +100,7 @@ import lisa from "@/img/extras/grammar/elementary/unit-1/lisa.jpg";
 // M
 import macAndCheeseIceCreamFlavor from "./mac-and-cheese-ice-cream-flavor.avif";
 import manBedSick from "./man-bed-sick.webp";
+import mathIcon from "@/img/icon/math.png"
 
 // N
 import noInternetConnection1 from "./no-internet-connection1.jpg";
@@ -258,6 +259,7 @@ export {
 
   // M
   manBedSick,
+  mathIcon,
 
   // N
   noInternetConnection1,

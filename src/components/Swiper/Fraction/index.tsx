@@ -10,14 +10,16 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import "./navigation-custom.css"
+import "./navigation-custom.css";
 
 import Image, { StaticImageData } from "next/image";
 import styles from "./style.module.css";
 
 export interface SwiperFractionData {
-  imgSrc: StaticImageData;
-  imgAlt: string;
+  imgSrc?: StaticImageData;
+  imgAlt?: string;
+  imgSrcLink?: string;
+  imgAltLink?: string;
 }
 
 interface SwiperFractionProps {
@@ -29,22 +31,30 @@ export default function SwiperFraction({ images }: SwiperFractionProps) {
     <>
       <div className={styles["container"]}>
         <Swiper
-        pagination={{
+          pagination={{
             type: "fraction",
-        }}
-        // navigation={true}
-        modules={[Pagination, Navigation]}
+          }}
+          // navigation={true}
+          modules={[Pagination, Navigation]}
         >
           {images.map((image, index) => (
-            <SwiperSlide
-              key={index}
-              className={styles["swipe-slide"]}
-            >
-              <Image
-                src={image.imgSrc}
-                alt={image.imgAlt}
-                className={styles["image"]}
-              />
+            <SwiperSlide key={index} className={styles["swipe-slide"]}>
+              {image.imgSrc && image.imgAlt && (
+                <Image
+                  src={image.imgSrc}
+                  alt={image.imgAlt}
+                  className={styles["image"]}
+                />
+              )}
+              {image.imgSrcLink && image.imgAltLink && (
+                <Image
+                  src={image.imgSrcLink}
+                  alt={image.imgAltLink}
+                  width={1000}
+                  height={1000}
+                  className={styles["image"]}
+                />
+              )}
             </SwiperSlide>
           ))}
         </Swiper>

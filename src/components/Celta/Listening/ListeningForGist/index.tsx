@@ -1,11 +1,7 @@
 import { ReactNode } from "react";
 import styles from "../../../Cards/BoardCard/styles.module.css";
 
-interface ListeningForGistProps {
-  children: ReactNode;
-}
-
-export const ListeningForGist = ({ children }: ListeningForGistProps) => {
+export const ListeningForGist = () => {
   return (
     <div className={styles["main-card"]}>
       <div className={styles["card"]} style={{ backgroundColor: "black", color: "white"}}>
@@ -13,10 +9,10 @@ export const ListeningForGist = ({ children }: ListeningForGistProps) => {
           <p>
             <span className="bold">Listening for gist</span>
           </p>
-          <p className="p-size-smaller">5'</p>
+          <p className="p-size-smaller">10'</p>
         </div>
       </div>
-      <div className={styles["children"]}>{children}</div>
+      <p className={styles["children"]}>What is the main issue discussed in the text?</p>
     </div>
   );
 };

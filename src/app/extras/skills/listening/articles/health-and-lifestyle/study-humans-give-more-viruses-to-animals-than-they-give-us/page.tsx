@@ -5,7 +5,7 @@ import { AudioPlayer } from "@/components/Audioplayer";
 import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
-import { Collapsible } from "@/components/Collapsible/Collapsible";
+import { Collapsible } from "@/components/Collapsibles/Collapsible/Collapsible";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
 // Images

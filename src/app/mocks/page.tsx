@@ -35,6 +35,7 @@ const radio = [
 const dropdown = [
   {
     title: "Select the right answer.",
+    subtitle: "...",
     beforeOptions: "1. I",
     options: [
       { value: "am", label: "am", correctAnswer: true },
@@ -46,6 +47,8 @@ const dropdown = [
     lineBreak: true,
   },
   {
+    title: "Select the right answer.",
+    subtitle: "...",
     beforeOptions: "2. He",
     options: [
       { value: "am", label: "am", correctAnswer: false },
@@ -101,7 +104,7 @@ const flipCards = [
   },
   {
     frontText:
-      'What\'s the meaning of "Birds of the same feather flock together"? aa aa aa bb bb bb bb bb bb  ',
+      '...  ',
     backText: "...",
   },
   {

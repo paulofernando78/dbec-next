@@ -3,7 +3,7 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 
 export default function JobInterviews() {
   return (
-    <div>
+    <>
       <Whiteboard title="Specific Purposes" subtitle="Job Interviews" />
       <div className="line-break">
         <Link href="">
@@ -16,6 +16,6 @@ export default function JobInterviews() {
         </p>
       </div>
       <Link href="/specific-purposes/job-interviews/priscila">Priscila</Link>
-    </div>
+    </>
   );
 }

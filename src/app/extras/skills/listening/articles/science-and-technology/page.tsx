@@ -1,14 +1,20 @@
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { DescriptionCard } from "@/components/Cards/DescriptionCard";
+import { ContentCard } from "@/components/Cards/ContentCard";
 
-const descriptions = [
+const contents = [
   {
-    subDescriptions: [
+    subContents: [
       {
         bgColor: "black",
         textColor: "white",
         label: "By date",
         contents: [
+          // Chinese Rocket Breaks Up in Space, Releasing Hundreds of Debris Pieces (August 13, 2024)
+          {
+            link: "/extras/skills/listening/articles/science-and-technology/chinese-rocket-breaks-up-in-space",
+            linkLabel: "Chinese Rocket Breaks Up in Space, Releasing Hundreds of Debris Pieces (August 13, 2024)",
+          },
           // Businesses Recover from Major Worldwide Tech Outage (July 24, 2024)
           {
             link: "/extras/skills/listening/articles/science-and-technology/business-recover-from-major-worldwide-tech-outage",
@@ -43,7 +49,7 @@ export default function ScienceAndTechnologyArticles() {
         subtitle="Listening"
         descriptions={["Articles", "Science & Technology"]}
       />
-      <DescriptionCard descriptions={descriptions} />
+      <ContentCard contents={contents} />
     </>
   );
 }

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { Collapsible } from "@/components/Collapsible/Collapsible";
+import { Collapsible } from "@/components/Collapsibles/Collapsible/Collapsible";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
 export default function FoodAndDrink() {

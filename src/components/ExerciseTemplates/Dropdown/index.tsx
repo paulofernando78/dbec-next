@@ -56,7 +56,7 @@ export const Dropdown: React.FC<DropdownProps> = ({ questions }) => {
       return isCorrect;
     });
 
-    console.log('newIsCorrects:', newIsCorrects);
+    console.log("newIsCorrects:", newIsCorrects);
     setIsCorrects(newIsCorrects);
   };
 
@@ -69,11 +69,11 @@ export const Dropdown: React.FC<DropdownProps> = ({ questions }) => {
     <>
       <div>
         {questions.map((question, index) => (
-          <Fragment key={index}>
-            {question.title && question.subtitle && (
-              <div className="margin-bottom">
-                <p className="bold">{question.title}</p>
-                <p>{question.subtitle}</p>
+          <div key={index} className="margin-bottom">
+            {(question.title || question.subtitle) && (
+              <div>
+                {question.title && <p className="bold">{question.title}</p>}
+                {question.subtitle && <p>{question.subtitle}</p>}{" "}
               </div>
             )}
             <span
@@ -97,36 +97,36 @@ export const Dropdown: React.FC<DropdownProps> = ({ questions }) => {
                 ))}
               </select>
             )}{" "}
-            {question.options &&
-              isCorrects[index] !== null && (
-                <>
-                  {isCorrects[index] ? (
-                    <span>
-                      <Image
-                        src={correctIcon}
-                        alt="Correct icon"
-                        className={`icon-general ${styles["correct-icon"]}`}
-                      />
-                    </span>
-                  ) : (
-                    <span>
-                      <Image
-                        src={incorrectIcon}
-                        alt="Incorrect icon"
-                        className={`icon-general ${styles["incorrect-icon"]}`}
-                      />
-                    </span>
-                  )}
-                </>
-              )}{" "}
+            {question.options && isCorrects[index] !== null && (
+              <>
+                {isCorrects[index] ? (
+                  <span>
+                    <Image
+                      src={correctIcon}
+                      alt="Correct icon"
+                      className={`icon-general ${styles["correct-icon"]}`}
+                    />
+                  </span>
+                ) : (
+                  <span>
+                    <Image
+                      src={incorrectIcon}
+                      alt="Incorrect icon"
+                      className={`icon-general ${styles["incorrect-icon"]}`}
+                    />
+                  </span>
+                )}
+              </>
+            )}{" "}
             <span
               className="p-font display-inline"
               dangerouslySetInnerHTML={{
                 __html: question.afterOptions || "",
               }}
-            ></span>
+            >
+            </span>
             {question.lineBreak ? <br /> : ""}{" "}
-          </Fragment>
+          </div>
         ))}
       </div>
       <div className="flex-8px">
