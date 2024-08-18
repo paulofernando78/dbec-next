@@ -34,8 +34,8 @@ const radio = [
 
 const dropdown = [
   {
-    title: "Select the right answer.",
-    subtitle: "...",
+    title: "Title",
+    subtitle: "Subtitle",
     beforeOptions: "1. I",
     options: [
       { value: "am", label: "am", correctAnswer: true },
@@ -47,8 +47,6 @@ const dropdown = [
     lineBreak: true,
   },
   {
-    title: "Select the right answer.",
-    subtitle: "...",
     beforeOptions: "2. He",
     options: [
       { value: "am", label: "am", correctAnswer: false },
@@ -57,8 +55,7 @@ const dropdown = [
     ],
     width: "100",
     afterOptions: "a student.",
-    lineBreak: true,
-  },
+  }
 ];
 
 const fillInTheBlanks = [

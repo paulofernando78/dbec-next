@@ -69,19 +69,19 @@ export const Dropdown: React.FC<DropdownProps> = ({ questions }) => {
     <>
       <div>
         {questions.map((question, index) => (
-          <div key={index} className="margin-bottom">
+          <div key={index} className="display-inline">
             {(question.title || question.subtitle) && (
               <div>
                 {question.title && <p className="bold">{question.title}</p>}
                 {question.subtitle && <p>{question.subtitle}</p>}{" "}
               </div>
             )}
-            <span
-              className="display-inline p-font"
+            <p
+              className="display-inline"
               dangerouslySetInnerHTML={{
                 __html: question.beforeOptions || "",
               }}
-            ></span>{" "}
+            ></p>{" "}
             {question.options && (
               <select
                 value={selectedOptions[index]}
@@ -118,13 +118,13 @@ export const Dropdown: React.FC<DropdownProps> = ({ questions }) => {
                 )}
               </>
             )}{" "}
-            <span
-              className="p-font display-inline"
+            <p
+              className="display-inline"
               dangerouslySetInnerHTML={{
                 __html: question.afterOptions || "",
               }}
             >
-            </span>
+            </p>
             {question.lineBreak ? <br /> : ""}{" "}
           </div>
         ))}
