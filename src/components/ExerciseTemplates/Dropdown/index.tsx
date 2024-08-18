@@ -70,7 +70,7 @@ export const Dropdown: React.FC<DropdownProps> = ({ questions }) => {
       <div>
         <div className="margin-bottom">
           {questions.map((question, index) => (
-            <div key={index}>
+            <div key={index} className="display-inline">
               {/* title & subTitle */}
               {(question.title || question.subtitle) && (
                 <div className={`margin-bottom ${
@@ -128,14 +128,14 @@ export const Dropdown: React.FC<DropdownProps> = ({ questions }) => {
               )}{" "}
               {/* afterOptions */}
               <p
-                className="display-inline"
+                className="display-inline margin-right"
                 dangerouslySetInnerHTML={{
                   __html: question.afterOptions || "",
                 }}
               ></p>
 
               {/* lineBreak */}
-              {question.lineBreak ? <br /> : ""}{" "}
+              {question.lineBreak && <br />}
             </div>
           ))}
         </div>

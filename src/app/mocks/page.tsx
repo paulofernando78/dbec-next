@@ -44,7 +44,7 @@ const dropdown = [
     ],
     width: "100",
     afterOptions: "a teacher.",
-    lineBreak: true,
+    // lineBreak: true,
   },
   {
     beforeOptions: "2. He",
