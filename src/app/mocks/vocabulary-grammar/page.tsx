@@ -109,9 +109,7 @@ export default function ElementaryLesson() {
             <p>...</p>
           </div>
         </Production>
-        <WrapUp>
-          <p>...</p>
-        </WrapUp>
+        <WrapUp />
       </div>
     </>
   );
