@@ -68,73 +68,84 @@ export const Dropdown: React.FC<DropdownProps> = ({ questions }) => {
   return (
     <>
       <div>
-        {questions.map((question, index) => (
-          <div key={index} className="display-inline">
-            {(question.title || question.subtitle) && (
-              <div>
-                {question.title && <p className="bold">{question.title}</p>}
-                {question.subtitle && <p>{question.subtitle}</p>}{" "}
-              </div>
-            )}
-            <p
-              className="display-inline"
-              dangerouslySetInnerHTML={{
-                __html: question.beforeOptions || "",
-              }}
-            ></p>{" "}
-            {question.options && (
-              <select
-                value={selectedOptions[index]}
-                onChange={(event) => handleOptionChange(index, event)}
-                className={styles["select"]}
-                style={{ width: question.width }}
-              >
-                <option>...</option>
-                {question.options.map((option) => (
-                  <option key={option.value} value={option.value}>
-                    {option.label}
-                  </option>
-                ))}
-              </select>
-            )}{" "}
-            {question.options && isCorrects[index] !== null && (
-              <>
-                {isCorrects[index] ? (
-                  <span>
-                    <Image
-                      src={correctIcon}
-                      alt="Correct icon"
-                      className={`icon-general ${styles["correct-icon"]}`}
-                    />
-                  </span>
-                ) : (
-                  <span>
-                    <Image
-                      src={incorrectIcon}
-                      alt="Incorrect icon"
-                      className={`icon-general ${styles["incorrect-icon"]}`}
-                    />
-                  </span>
-                )}
-              </>
-            )}{" "}
-            <p
-              className="display-inline"
-              dangerouslySetInnerHTML={{
-                __html: question.afterOptions || "",
-              }}
-            >
-            </p>
-            {question.lineBreak ? <br /> : ""}{" "}
-          </div>
-        ))}
-      </div>
-      <div className="flex-8px">
-        <div>
-          <Button label="Check answers" onClick={handleCheckAnswers} />
+        <div className="margin-bottom">
+          {questions.map((question, index) => (
+            <div key={index}>
+              {/* title & subTitle */}
+              {(question.title || question.subtitle) && (
+                <div className={`margin-bottom ${
+                  index > 0 ? "margin-top" : ""
+                }`}>
+                  {question.title && <p className="bold">{question.title}</p>}
+                  {question.subtitle && <p>{question.subtitle}</p>}{" "}
+                </div>
+              )}
+
+              {/* beforeQuestions */}
+              <p
+                className="display-inline"
+                dangerouslySetInnerHTML={{
+                  __html: question.beforeOptions || "",
+                }}
+              ></p>{" "}
+              {/* options */}
+              {question.options && (
+                <select
+                  value={selectedOptions[index]}
+                  onChange={(event) => handleOptionChange(index, event)}
+                  className={styles["select"]}
+                  style={{ width: question.width }}
+                >
+                  <option>...</option>
+                  {question.options.map((option) => (
+                    <option key={option.value} value={option.value}>
+                      {option.label}
+                    </option>
+                  ))}
+                </select>
+              )}{" "}
+              {/* correctAnswer */}
+              {question.options && isCorrects[index] !== null && (
+                <>
+                  {isCorrects[index] ? (
+                    <span>
+                      <Image
+                        src={correctIcon}
+                        alt="Correct icon"
+                        className={`icon-general ${styles["correct-icon"]}`}
+                      />
+                    </span>
+                  ) : (
+                    <span>
+                      <Image
+                        src={incorrectIcon}
+                        alt="Incorrect icon"
+                        className={`icon-general ${styles["incorrect-icon"]}`}
+                      />
+                    </span>
+                  )}
+                </>
+              )}{" "}
+              {/* afterOptions */}
+              <p
+                className="display-inline"
+                dangerouslySetInnerHTML={{
+                  __html: question.afterOptions || "",
+                }}
+              ></p>
+
+              {/* lineBreak */}
+              {question.lineBreak ? <br /> : ""}{" "}
+            </div>
+          ))}
         </div>
-        <div>
-          <Button label="Reset" onClick={handleReset} />
+        <div className="flex-8px">
+          <div>
+            <Button label="Check answers" onClick={handleCheckAnswers} />
+          </div>
+          <div>
+            <Button label="Reset" onClick={handleReset} />
+          </div>
         </div>
       </div>
     </>

@@ -55,7 +55,31 @@ const dropdown = [
     ],
     width: "100",
     afterOptions: "a student.",
-  }
+    lineBreak: true,
+  },
+  {
+    title: "Title",
+    subtitle: "Subtitle",
+    beforeOptions: "1. I",
+    options: [
+      { value: "am", label: "am", correctAnswer: true },
+      { value: "is", label: "is", correctAnswer: false },
+      { value: "are", label: "are", correctAnswer: false },
+    ],
+    width: "100",
+    afterOptions: "a teacher.",
+    lineBreak: true,
+  },
+  {
+    beforeOptions: "2. He",
+    options: [
+      { value: "am", label: "am", correctAnswer: false },
+      { value: "is", label: "is", correctAnswer: true },
+      { value: "are", label: "are", correctAnswer: false },
+    ],
+    width: "100",
+    afterOptions: "a student.",
+  },
 ];
 
 const fillInTheBlanks = [
