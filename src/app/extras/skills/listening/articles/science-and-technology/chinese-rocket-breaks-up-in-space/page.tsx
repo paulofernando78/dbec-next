@@ -3,7 +3,6 @@ import { Introduction } from "@/components/Celta/Introduction";
 import { PreVocabulary } from "@/components/Celta/Listening/PreVocabulary";
 // Images
 import {
-  cat1,
   debris1,
   spaceJunk1,
   stage1,
@@ -163,6 +162,7 @@ export default function ChineseRocketBreaksUpInSpace() {
         </Introduction>
         <PreVocabulary>
           <div className="line-break">
+          <FlipCard flipCards={flipCards} />
             <div className="flex-8px-center-wrap">
               <DictionaryCard
                 keyword="debris"
@@ -201,7 +201,7 @@ export default function ChineseRocketBreaksUpInSpace() {
               />
               <DictionaryCard keyword="occur" label="occur" audioSrc="/o/occur.mp3" />
             </div>
-            <FlipCard flipCards={flipCards} />
+            
             <FillInTheBlank questions={fillInTheBlanks} />
           </div>
         </PreVocabulary>
