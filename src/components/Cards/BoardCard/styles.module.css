@@ -9,6 +9,11 @@
 }
 
 .label {
+  padding: 10px 10px 0 10px;
+  font-weight: bold;
+}
+
+.pre-vocabulary-label {
   padding: 10px;
   font-weight: bold;
 }
@@ -19,6 +24,10 @@
 
 .gist {
   padding: 10px 10px 0 10px;
+}
+
+.paragraph-bottom-last {
+  
 }
 
 .red {

@@ -19,7 +19,7 @@ export const PreVocabulary = ({ children }: PreVocabularyProps) => {
           <p className="p-size-smaller">10'</p>
         </div>
       </div>
-      <p className={styles["label"]}>Let's flip the cards (randomly) and match the pictures with the
+      <p className={styles["pre-vocabulary-label"]}>Let's flip the cards (randomly) and match the pictures with the
       vocabulary below.</p>
       <div className={styles["children"]}>{children}</div>
     </div>

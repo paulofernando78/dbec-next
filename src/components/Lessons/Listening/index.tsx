@@ -14,6 +14,8 @@ import { PreVocabulary } from "@/components/Celta/Listening/PreVocabulary";
 import { Introduction } from "@/components/Celta/Introduction";
 import { ListeningForGist } from "@/components/Celta/Listening/ListeningForGist";
 import { Paragraph } from "@/components/Celta/Listening/Paragraph";
+import { FollowUp } from "@/components/Celta/Listening/FollowUp";
+import { ListeningForScan } from "@/components/Celta/Listening/ListeningForScan";
 
 export interface FollowupQuestion {
   enQuestion?: string;
@@ -121,6 +123,7 @@ export const Listening = ({
       </Introduction>
       <PreVocabulary>
         <div className="line-break">
+
           {/* flipCards */}
           <div className="">
             <FlipCard flipCards={flipCards} />
@@ -134,7 +137,7 @@ export const Listening = ({
               </span>
             ))}
           </div>
-
+          
           {/* fillInTheBlanks */}
           <div className="line-break">
             <p className="bold">
@@ -149,15 +152,10 @@ export const Listening = ({
         <div className="audio-position-sticky margin-bottom">
           <AudioPlayer audioSrc={audioSrc} />
         </div>
-
         {/* Paragraphs */}
         <div className="line-break">
           {paragraphs.map((paragraph, paragraphIndex) => (
-            <div
-              key={paragraphIndex}
-              className="line-break"
-              style={{ marginBottom: ".5rem" }}
-            >
+            <div key={paragraphIndex} className="line-break">
               <Paragraph number={paragraphIndex + 1}>
                 <div>
                   <div>
@@ -201,49 +199,33 @@ export const Listening = ({
           ))}
         </div>
       </ListeningForGist>
-
-      <Card bgColor="Black" textColor="White">
-        <div className="flex-8px-start-space-between">
-          <p className="bold">Listening (Scan)</p>
-          <p className="p-size-smaller">'10</p>
+      <ListeningForScan>
+        <div>
+          {scanQuestions.map((scanQuestion, scanQuestionIndex) => (
+            <div key={scanQuestionIndex} className="margin-bottom">
+              <span className="p-font bold display-inline">
+                {scanQuestionIndex + 1}
+              </span>{" "}
+              <span className="display-inline p-font">
+                {scanQuestion.question}
+              </span>
+              <Collapsible labelBold="Answer">
+                <p>{scanQuestion.answer}</p>
+              </Collapsible>
+            </div>
+          ))}
         </div>
-      </Card>
-      <p className="bold">
-        Check out the questons below. Listen again and take notes.
-      </p>
-
-      {/* scanQuestions */}
-      <div>
-        {scanQuestions.map((scanQuestion, scanQuestionIndex) => (
-          <div key={scanQuestionIndex} className="margin-bottom">
-            <span className="p-font bold display-inline">
-              {scanQuestionIndex + 1}
-            </span>{" "}
-            <span className="display-inline p-font">
-              {scanQuestion.question}
-            </span>
-            <Collapsible labelBold="Answer">
-              <p>{scanQuestion.answer}</p>
-            </Collapsible>
-          </div>
-        ))}
-      </div>
-      <Card bgColor="Black" textColor="White">
-        <div className="flex-8px-start-space-between">
-          <p className="bold">Follow-up questions</p>
-          <p className="p-size-smaller">'10</p>
+      </ListeningForScan>
+      <FollowUp>
+        <div>
+          {followupQuestions.map((followupQuestion, followQuestionIndex) => (
+            <p key={followQuestionIndex}>
+              {followQuestionIndex + 1}. {followupQuestion.enQuestion}{" "}
+              <span className="portuguese">{followupQuestion.ptQuestion}</span>
+            </p>
+          ))}
         </div>
-      </Card>
-
-      {/* followupQuestions */}
-      <div>
-        {followupQuestions.map((followupQuestion, followQuestionIndex) => (
-          <p key={followQuestionIndex}>
-            {followQuestionIndex + 1}. {followupQuestion.enQuestion}{" "}
-            <span className="portuguese">{followupQuestion.ptQuestion}</span>
-          </p>
-        ))}
-      </div>
+      </FollowUp>
     </div>
   );
 };

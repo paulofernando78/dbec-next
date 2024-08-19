@@ -16,6 +16,9 @@ export const ListeningForScan = ({ children }: ListeningForScanProps) => {
           <p className="p-size-smaller">10'</p>
         </div>
       </div>
+      <p className={styles["label"]}>
+        Check out the questons below. Listen again and take notes.
+      </p>
       <div className={styles["children"]}>{children}</div>
     </div>
   );
