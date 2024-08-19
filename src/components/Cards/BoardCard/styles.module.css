@@ -10,10 +10,15 @@
 
 .label {
   padding: 10px;
+  font-weight: bold;
 }
 
 .children {
   padding: 10px;
+}
+
+.gist {
+  padding: 10px 10px 0 10px;
 }
 
 .red {

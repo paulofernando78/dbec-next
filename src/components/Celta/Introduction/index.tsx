@@ -16,6 +16,7 @@ export const Introduction = ({ children }: IntroductionProps) => {
           <p className="p-size-smaller">5'</p>
         </div>
       </div>
+      <p className={styles["label"]}>Check out the media below and answer the questions.</p>
       <div className={styles["children"]}>{children}</div>
     </div>
   );

@@ -35,13 +35,6 @@ const discussionQuestions: DiscussionQuestion[] = [
   {
     questions: [
       {
-        question: "What do you see?",
-      },
-    ],
-  },
-  {
-    questions: [
-      {
         question:
           "How old were you when you first started using social media?",
       },
@@ -375,7 +368,7 @@ const followupQuestions: FollowupQuestion[] = [
   },
 ];
 
-export default function WeightLossOptionsForChildrenAreHardToGet() {
+export default function FloridaApprovesLawBanningSocialMediaForChildrenunder14() {
   return (
     <>
       <Whiteboard
