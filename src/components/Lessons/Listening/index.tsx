@@ -13,6 +13,7 @@ import { FlipCard } from "@/components/Cards/Flip";
 import { PreVocabulary } from "@/components/Celta/Listening/PreVocabulary";
 import { Introduction } from "@/components/Celta/Introduction";
 import { ListeningForGist } from "@/components/Celta/Listening/ListeningForGist";
+import { Paragraph } from "@/components/Celta/Listening/Paragraph";
 
 export interface FollowupQuestion {
   enQuestion?: string;
@@ -144,55 +145,61 @@ export const Listening = ({
         </div>
       </PreVocabulary>
       <ListeningForGist>
-      {/* AudioPlayer */}
-      <div className="audio-position-sticky margin-bottom">
-        <AudioPlayer audioSrc={audioSrc} />
-      </div>
+        {/* AudioPlayer */}
+        <div className="audio-position-sticky margin-bottom">
+          <AudioPlayer audioSrc={audioSrc} />
+        </div>
 
-      {/* Paragraphs */}
-      <div className="line-break">
-        {paragraphs.map((paragraph, paragraphIndex) => (
-          <div key={paragraphIndex} className="line-break" style={{ marginBottom: ".5rem"}}>
-            <Card bgColor="lightgray">
-              <p className="bold">Paragraph {`${paragraphIndex + 1}`}</p>
-            </Card>
-  
-            <div >
-              <div>
+        {/* Paragraphs */}
+        <div className="line-break">
+          {paragraphs.map((paragraph, paragraphIndex) => (
+            <div
+              key={paragraphIndex}
+              className="line-break"
+              style={{ marginBottom: ".5rem" }}
+            >
+              <Paragraph number={paragraphIndex + 1}>
                 <div>
-                  {/* enParagraphs */}
-                  {paragraph.enParagraphs?.map(
-                    (enParagraph, enParagraphIndex) => (
-                      <span key={enParagraphIndex}>
-                        {/* enParagraph.component */}
-                        {enParagraph.component && (
-                          <span className="margin-right">
-                            {enParagraph.component(enParagraph.componentProps)}
+                  <div>
+                    <div>
+                      {/* enParagraphs */}
+                      {paragraph.enParagraphs?.map(
+                        (enParagraph, enParagraphIndex) => (
+                          <span key={enParagraphIndex}>
+                            {/* enParagraph.component */}
+                            {enParagraph.component && (
+                              <span className="margin-right">
+                                {enParagraph.component(
+                                  enParagraph.componentProps
+                                )}
+                              </span>
+                            )}
+                            {/* enParagraph */}
+                            {enParagraph.enParagraph && (
+                              <span className="p-font display-inline margin-right">
+                                {enParagraph.enParagraph}
+                              </span>
+                            )}
                           </span>
-                        )}
-                        {/* enParagraph */}
-                        {enParagraph.enParagraph && (
-                          <span className="p-font display-inline margin-right">
-                            {enParagraph.enParagraph}
-                          </span>
-                        )}
-                      </span>
-                    )
+                        )
+                      )}
+                    </div>
+                  </div>
+                  {/* ptParagraph */}
+                  {paragraph.ptParagraph && (
+                    <span className="margin-top">
+                      <Collapsible labelBold="Translation">
+                        <span className="portuguese">
+                          {paragraph.ptParagraph}
+                        </span>
+                      </Collapsible>
+                    </span>
                   )}
                 </div>
-              </div>
-              {/* ptParagraph */}
-              {paragraph.ptParagraph && (
-                <span className="margin-top">
-                  <Collapsible labelBold="Translation">
-                    <span className="portuguese">{paragraph.ptParagraph}</span>
-                  </Collapsible>
-                </span>
-              )}
+              </Paragraph>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
       </ListeningForGist>
 
       <Card bgColor="Black" textColor="White">
