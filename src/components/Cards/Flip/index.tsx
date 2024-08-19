@@ -9,13 +9,16 @@ export interface FlipCard {
   backText?: string;
   imgSrc?: StaticImageData;
   imgAlt?: string;
+  width?: string | number
+  height?: string | number
 }
 
 interface FlipCardsProps {
   flipCards: FlipCard[];
+  gridColumnWidth?: string
 }
 
-export const FlipCard = ({ flipCards }: FlipCardsProps) => {
+export const FlipCard = ({ flipCards, gridColumnWidth = "155px" }: FlipCardsProps) => {
   // Maintain a state object to track flipped state of each card
   const [flippedCards, setFlippedCards] = useState<{ [key: number]: boolean }>(
     {}
@@ -29,9 +32,13 @@ export const FlipCard = ({ flipCards }: FlipCardsProps) => {
   };
 
   return (
-    <div className={styles["flex"]}>
+    <div className={styles["flex"]}
+    style={{gridTemplateColumns: `repeat(auto-fit, ${gridColumnWidth})`}}>
       {flipCards.map((flipCard, index) => (
-        <div key={index} className={styles["container"]}>
+        <div key={index} className={styles["container"]}
+        style={{ width: flipCard.width || "155px",
+          height: flipCard.height || "155px"
+        }}>
           <div
             onClick={() => handleFlip(index)}
             className={`img-border ${styles["card"]} ${

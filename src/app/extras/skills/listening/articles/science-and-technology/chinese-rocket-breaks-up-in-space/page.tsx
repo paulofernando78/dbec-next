@@ -25,6 +25,8 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { FlipCard } from "@/components/Cards/Flip";
 import { Translation } from "@/components/Collapsibles/Translation/Translation";
 import { FillInTheBlank } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import { Answer } from "@/components/Collapsibles/Answer/Answer";
+import { AnswerGist } from "@/components/Collapsibles/AnswerGist/AnswerGist";
 
 const swiperFraction: SwiperFractionData[] = [
   {
@@ -154,15 +156,24 @@ export default function ChineseRocketBreaksUpInSpace() {
       />
       <div className="line-break">
         <Introduction>
-          <p className="margin-bottom">
-            Take a look at the pictures below. Swipe them to the right and
-            answer the questions. / Watch the video and answer the question.
-          </p>
-          <SwiperFraction images={swiperFraction} />
+         <div className="line-break">
+            <div>
+              <p className="margin-bottom">
+                Take a look at the pictures below. Swipe them to the right and
+                answer the questions.
+              </p>
+              <SwiperFraction images={swiperFraction} />
+            </div>
+            <div>
+              <p>• ...</p>
+              <p>• ...</p>
+              <p>• ...</p>
+            </div>
+         </div>
         </Introduction>
         <PreVocabulary>
           <div className="line-break">
-          <FlipCard flipCards={flipCards} />
+            <FlipCard flipCards={flipCards} />
             <div className="flex-8px-center-wrap">
               <DictionaryCard
                 keyword="debris"
@@ -199,9 +210,13 @@ export default function ChineseRocketBreaksUpInSpace() {
                 label="disappoint"
                 audioSrc="/d/disappoint.mp3"
               />
-              <DictionaryCard keyword="occur" label="occur" audioSrc="/o/occur.mp3" />
+              <DictionaryCard
+                keyword="occur"
+                label="occur"
+                audioSrc="/o/occur.mp3"
+              />
             </div>
-            
+
             <FillInTheBlank questions={fillInTheBlanks} />
           </div>
         </PreVocabulary>
@@ -263,10 +278,14 @@ export default function ChineseRocketBreaksUpInSpace() {
           <div className="line-break">
             <p>
               Several groups that continuously observe satellite and spacecraft
-              traffic said the Chinese rocket stage that broke apart in space
-              created at least 700 pieces of debris. The floating debris is also
-              known as space junk. It can harm active spacecraft, other
-              satellites and even the International Space Station (ISS).
+              traffic said{" "}
+              <mark>
+                traffic said the Chinese rocket stage that broke apart in space
+                created at least 700 pieces of debris traffic said{" "}
+              </mark>
+              . The floating debris is also known as space junk. It can harm
+              active spacecraft, other satellites and even the International
+              Space Station (ISS).
             </p>
             <Translation>
               <p>...</p>
@@ -312,10 +331,10 @@ export default function ChineseRocketBreaksUpInSpace() {
         <Paragraph number="9">
           <div className="line-break">
             <p>
-              Experts said it was not clear whether the rocket body's{" "}
-              <mark>
-                breakup was caused by a crash into another object or by an
-                explosion of unused rocket fuel
+              Experts said <mark>it was not clear whether{" "}
+              
+                the rocket body's breakup was caused by a crash into another
+                object or by an explosion of unused rocket fuel
               </mark>
               . The U.S. Space Command said early on in the event that at least
               300 pieces of debris had been created.
@@ -378,8 +397,20 @@ export default function ChineseRocketBreaksUpInSpace() {
           </div>
         </Paragraph>
         <p>I'm Bryan Lynn.</p>
+        <AnswerGist>
+          <p>
+            The main issue discussed in the text is the breakup of a Chinese
+            rocket in space, which created hundreds of pieces of debris. This
+            debris, also known as space junk, poses significant risks to active
+            spacecraft, satellites, and even the International Space Station.
+            The text highlights concerns about the impact of this debris on
+            space operations and the need for better management and control of
+            space traffic to prevent such incidents.
+          </p>
+        </AnswerGist>
         <ListeningForScan>
           <p>• What happened to the Chinese rocket?</p>
+
           <p>• How many pieces of debris were created?</p>
           <p>• What are the potential risks of this debris?</p>
           <p>• How many satellites are at risk?</p>

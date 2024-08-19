@@ -22,7 +22,7 @@ export interface Question {
   placeholder?: string;
   correctAnswer: string[];
   afterBlank: string;
-  portuguese?: string
+  portuguese?: string;
   lineBreakAfter?: boolean;
 }
 
@@ -31,10 +31,7 @@ interface FillInTheBlankProps {
   display?: string;
 }
 
-export const FillInTheBlank = ({
-  questions,
-  display,
-}: FillInTheBlankProps) => {
+export const FillInTheBlank = ({ questions, display }: FillInTheBlankProps) => {
   const [selectedOptions, setSelectedOptions] = useState(
     questions.map(() => [""])
   );
@@ -64,7 +61,7 @@ export const FillInTheBlank = ({
     });
     setIsCorrects(newIsCorrects);
   };
-  
+
   // Depois comparar, pois estava dando como certo mesmo sem escrever nada. E isso foi quando passei como prop no Listening.
   // const handleCheckAnswers = () => {
   //   const newIsCorrects = selectedOptions.map((options, index) =>
@@ -91,10 +88,11 @@ export const FillInTheBlank = ({
             {question.title && (
               <div className="margin-bottom">
                 <p className="bold">{question.title}</p>
-                <p >{question.subtitle}</p>
+                <p>{question.subtitle}</p>
               </div>
             )}
             <span>
+              {`${index + 1}`}.{" "}
               <span
                 dangerouslySetInnerHTML={{ __html: question.beforeBlank }}
               />{" "}
@@ -118,7 +116,9 @@ export const FillInTheBlank = ({
                 />
               )}{" "}
               {/* question.afterBlank */}
-              <span dangerouslySetInnerHTML={{ __html: question.afterBlank }} />{" "}
+              <span
+                dangerouslySetInnerHTML={{ __html: question.afterBlank }}
+              />{" "}
               {/* question.portguese */}
               <span className="portuguese">{question.portuguese}</span>
               {/* question.lineBreakAfter */}

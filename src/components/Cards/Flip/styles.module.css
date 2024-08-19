@@ -4,14 +4,12 @@
   gap: 8px;
   flex-wrap: wrap; */
   display: grid;
-  grid-template-columns: repeat(auto-fit, 155px);
+  /* grid-template-columns: repeat(auto-fit, 155px); */
   gap: 8px;
   justify-content: center;
 }
 
 .container {
-  width: 155px;
-  height: 155px;
   perspective: 1000px;
 }
 

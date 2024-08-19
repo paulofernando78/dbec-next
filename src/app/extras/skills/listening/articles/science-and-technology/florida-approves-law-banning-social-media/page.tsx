@@ -1,6 +1,6 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import SwiperFraction, { SwiperFractionData } from "@/components/Swiper/Fraction";
+import { SwiperFractionData } from "@/components/Swiper/Fraction";
 import {
   DiscussionQuestion,
   PreVocabulary,
@@ -35,7 +35,7 @@ const discussionQuestions: DiscussionQuestion[] = [
   {
     questions: [
       {
-        question: "1. What do you see?",
+        question: "What do you see?",
       },
     ],
   },
@@ -43,7 +43,7 @@ const discussionQuestions: DiscussionQuestion[] = [
     questions: [
       {
         question:
-          "2. How old were you when you first started using social media?",
+          "How old were you when you first started using social media?",
       },
     ],
   },
@@ -51,7 +51,7 @@ const discussionQuestions: DiscussionQuestion[] = [
     questions: [
       {
         question:
-          "3. What age do you think is appropriate for kids to start using social media? Why?",
+          "What age do you think is appropriate for kids to start using social media? Why?",
       },
     ],
   },
@@ -59,11 +59,25 @@ const discussionQuestions: DiscussionQuestion[] = [
 
 const flipCards: FlipCard[] = [
   {
-    frontText: "What's the past of ask?",
     imgSrc: cat1,
     imgAlt: "...", 
-    backText: "asked"
-  }
+  },
+  {
+    imgSrc: cat1,
+    imgAlt: "...", 
+  },
+  {
+    imgSrc: cat1,
+    imgAlt: "...", 
+  },
+  {
+    imgSrc: cat1,
+    imgAlt: "...", 
+  },
+  {
+    imgSrc: cat1,
+    imgAlt: "...", 
+  },
 ]
 
 const preVocabularies: PreVocabulary[] = [
@@ -118,7 +132,7 @@ const fillInTheBlanks: Question[] = [
   {
     options: true,
     width: "100px",
-    beforeBlank: "1. The greatest",
+    beforeBlank: "The greatest",
     correctAnswer: ["challenge"],
     afterBlank: "facing the region is unemployment.",
     lineBreakAfter: true,
@@ -127,7 +141,7 @@ const fillInTheBlanks: Question[] = [
   {
     options: true,
     width: "100px",
-    beforeBlank: "2. The written",
+    beforeBlank: "The written",
     correctAnswer: ["consent"],
     afterBlank: " of a parent is required.",
     lineBreakAfter: true,
@@ -135,7 +149,7 @@ const fillInTheBlanks: Question[] = [
   {
     options: true,
     width: "100px",
-    beforeBlank: "3. The game is very",
+    beforeBlank: "The game is very",
     correctAnswer: ["addictive"],
     afterBlank: ".",
     lineBreakAfter: true,
@@ -144,7 +158,7 @@ const fillInTheBlanks: Question[] = [
   {
     options: true,
     width: "100px",
-    beforeBlank: "4. The government decided to ",
+    beforeBlank: "The government decided to ",
     correctAnswer: ["enact"],
     afterBlank: "a new law to protect the environment.",
     lineBreakAfter: true,
@@ -153,7 +167,7 @@ const fillInTheBlanks: Question[] = [
   {
     options: true,
     width: "100px",
-    beforeBlank: "5. The town has a lot of",
+    beforeBlank: "The town has a lot of",
     correctAnswer: ["diversity"],
     afterBlank: "with people from many different cultures living there.",
     lineBreakAfter: true,
@@ -170,7 +184,6 @@ const gistQuestions: GistQuestion[] = [
 
 const paragraphs: Paragraph[] = [
   {
-    paragraphNumber: "Paragraph 1",
     enParagraphs: [
       {
         enParagraph:
@@ -181,7 +194,6 @@ const paragraphs: Paragraph[] = [
       "O governador da Flórida, Ron DeSantis, assinou uma lei na segunda-feira que proíbe crianças no estado com menos de 14 anos de terem uma conta em redes sociais.",
   },
   {
-    paragraphNumber: "Paragraph 2",
     enParagraphs: [
       {
         enParagraph:
@@ -192,7 +204,6 @@ const paragraphs: Paragraph[] = [
       "A medida exige permissão dos pais para que jovens de 14 e 15 anos possam se inscrever em contas pessoais de redes sociais na Flórida.",
   },
   {
-    paragraphNumber: "Paragraph 3",
     enParagraphs: [
       {
         enParagraph:
@@ -203,7 +214,6 @@ const paragraphs: Paragraph[] = [
       "Os defensores dizem que o projeto de lei protege as crianças de possíveis danos online, incluindo ameaças à saúde mental e à privacidade.",
   },
   {
-    paragraphNumber: "Paragraph 4",
     enParagraphs: [
       {
         enParagraph:
@@ -214,7 +224,6 @@ const paragraphs: Paragraph[] = [
       "Os críticos disseram que a lei pode violar a proteção da Primeira Emenda da Constituição dos EUA à liberdade de expressão. Alguns opositores disseram que acham que os pais - e não o governo - devem ser os responsáveis por decidir quais restrições são melhores para seus filhos. A Meta, empresa controladora do Facebook, por exemplo, se opôs à legislação.",
   },
   {
-    paragraphNumber: "Paragraph 5",
 
     enParagraphs: [
       {
@@ -226,7 +235,6 @@ const paragraphs: Paragraph[] = [
       "A legislatura da Flórida aprovou a lei no início deste mês. Esta foi a segunda versão da medida. A primeira versão, que foi aprovada pela legislatura da Flórida em fevereiro, teria proibido completamente crianças menores de 16 anos de usar redes sociais.",
   },
   {
-    paragraphNumber: "Paragraph 6",
     enParagraphs: [
       {
         enParagraph:
@@ -237,7 +245,6 @@ const paragraphs: Paragraph[] = [
       "DeSantis vetou essa versão do projeto de lei, dizendo que achava que ela restringia demais os direitos dos pais. Mas o gabinete do governador trabalhou com os legisladores para criar uma nova medida que ele pudesse apoiar. A nova lei deixa a decisão para os pais sobre se seus filhos de 16 e 17 anos podem criar contas em redes sociais.",
   },
   {
-    paragraphNumber: "Paragraph 7",
     enParagraphs: [
       {
         enParagraph:
@@ -248,7 +255,6 @@ const paragraphs: Paragraph[] = [
       'Em uma declaração, DeSantis disse que pesquisas mostraram repetidamente que os serviços de redes sociais podem prejudicar as crianças de várias maneiras importantes. A legislação, acrescentou, é projetada para dar aos pais "uma maior capacidade de proteger seus filhos".',
   },
   {
-    paragraphNumber: "Paragraph 8",
     enParagraphs: [
       {
         enParagraph:
@@ -259,7 +265,6 @@ const paragraphs: Paragraph[] = [
       "A lei está prevista para entrar em vigor em 1º de janeiro de 2025. Mas especialistas dizem que a medida provavelmente enfrentará desafios legais nos tribunais.",
   },
   {
-    paragraphNumber: "Paragraph 9",
     enParagraphs: [
       {
         enParagraph:
@@ -270,7 +275,6 @@ const paragraphs: Paragraph[] = [
       "DeSantis observou que outra lei que ele assinou há dois anos foi recentemente derrubada por um tribunal de apelações federal. Essa lei proibia os empregadores de exigirem sessões de treinamento que incluíssem discussões sobre raça, diversidade e outras questões. O tribunal de apelações decidiu que tais métodos de treinamento violavam os direitos constitucionais de liberdade de expressão dos empregadores.",
   },
   {
-    paragraphNumber: "Paragraph 10",
     enParagraphs: [
       {
         enParagraph:
@@ -281,7 +285,6 @@ const paragraphs: Paragraph[] = [
       'A nova lei foi conduzida pela Câmara dos Representantes da Flórida pelo presidente republicano Paul Renner. Em uma cerimônia de assinatura do projeto de lei em uma escola, Renner disse que uma criança, cujo cérebro ainda está se desenvolvendo, "não tem a capacidade de saber que está sendo atraída por essas tecnologias viciantes."Ele acrescentou: "Por causa disso, temos que intervir por elas."',
   },
   {
-    paragraphNumber: "Paragraph 11",
     enParagraphs: [
       {
         enParagraph:
@@ -292,7 +295,6 @@ const paragraphs: Paragraph[] = [
       "O projeto de lei não menciona nenhum serviço de rede social específico, mas afirma que visa sites de redes sociais que usam ferramentas para manter os usuários online por longos períodos. A medida não abrange serviços que fornecem principalmente e-mail, mensagens ou serviços de texto.",
   },
   {
-    paragraphNumber: "Paragraph 12",
     enParagraphs: [
       {
         enParagraph:
@@ -303,7 +305,6 @@ const paragraphs: Paragraph[] = [
       "A lei exige que as empresas de redes sociais removam permanentemente as informações pessoais coletadas de contas fechadas. Além disso, permite que os pais movam processos civis contra serviços que não cumprirem essa exigência.",
   },
   {
-    paragraphNumber: "Paragraph 13",
     enParagraphs: [
       {
         enParagraph:
@@ -314,7 +315,6 @@ const paragraphs: Paragraph[] = [
       "Vários estados dos EUA têm considerado legislação semelhante. Em março de 2023, Utah se tornou o primeiro estado a promulgar leis que abrangem o uso de redes sociais por crianças. Medidas em Arkansas, Louisiana, Ohio e Texas logo seguiram. Vários outros estados também estão desenvolvendo novas regras nesse sentido.",
   },
   {
-    paragraphNumber: "Paragraph 14",
     enParagraphs: [
       {
         enParagraph:
@@ -325,7 +325,6 @@ const paragraphs: Paragraph[] = [
       "A lei de Arkansas exigia o consentimento dos pais para menores criarem novas contas em redes sociais. Um juiz federal bloqueou a lei em agosto. O juiz decidiu que a legislação provavelmente era inconstitucional.",
   },
   {
-    paragraphNumber: "Paragraph 15",
     enParagraphs: [
       {
         enParagraph:

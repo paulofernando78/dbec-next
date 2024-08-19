@@ -52,7 +52,7 @@ body {
   max-width: 1050px;
   margin: 0 auto;
   font-family: var(--font);
-  user-select: none;
+  /* user-select: none; */
 }
 
 /* FONTS AND COLORS */
@@ -371,7 +371,7 @@ p {
 
 /* BORDER */
 
-.border-gray-dashed {
+.gray-dashed-border {
   border-radius: var(--border-radius);
   padding: 8px;
   border: 2px dashed gray;

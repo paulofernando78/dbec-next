@@ -182,6 +182,8 @@ const swiperFraction: SwiperFractionData[] = [
 
 const flipCards = [
   {
+    // width: "..."
+    // height: "..."
     frontText: "What's the past of ask?",
     backText: "asked",
   },
@@ -271,7 +273,9 @@ export default function Mocks() {
         <Card bgColor="black" textColor="white">
           <b>Flip Cards</b>
         </Card>
-        <FlipCard flipCards={flipCards} />
+        <FlipCard flipCards={flipCards}
+        // gridColumnWidth="..."
+        />
         <Card bgColor="black" textColor="white">
           <b>Memory Game</b>
         </Card>

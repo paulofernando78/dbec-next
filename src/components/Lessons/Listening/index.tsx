@@ -89,9 +89,12 @@ export const Listening = ({
         </div>
       </Card>
       <p className="bold">{discussion}</p>
+
+      {/* Swiper */}
       <SwiperFraction images={swiperFraction} />
+
+      {/* dicussionQuestions */}
       <div>
-        {/* dicussionQuestions */}
         {discussionQuestions.map(
           (discussionQuestion, discussionQuestionIndex) => (
             <div key={discussionQuestionIndex}>
@@ -105,9 +108,11 @@ export const Listening = ({
                   )}
                   {/* question */}
                   {question.question && (
-                    <span className="p-font display-inline margin-right">
-                      {question.question}
-                    </span>
+                    <div key={discussionQuestionIndex}>
+                      <span className="p-font display-inline margin-right">
+                        {`${discussionQuestionIndex + 1}. ${question.question}`}
+                      </span>
+                    </div>
                   )}
                 </span>
               ))}
@@ -125,8 +130,10 @@ export const Listening = ({
         Let's flip the cards (randomly) and match the pictures with the
         vocabulary below.
       </p>
+
       {/* flipCards */}
       <FlipCard flipCards={flipCards} />
+
       {/* preVocabularies */}
       <div className="flex-8px-center-wrap">
         {preVocabularies?.map((preVocabulary, indexPreVocabulary) => (
@@ -163,14 +170,14 @@ export const Listening = ({
       <div className="audio-position-sticky">
         <AudioPlayer audioSrc={audioSrc} />
       </div>
+
       {/* Paragraphs */}
       {paragraphs.map((paragraph, paragraphIndex) => (
         <div key={paragraphIndex} className="line-break">
-          {paragraph.paragraphNumber && (
-            <Card bgColor="lightgray">
-              <p className="bold">{paragraph.paragraphNumber}</p>
-            </Card>
-          )}
+          <Card bgColor="lightgray">
+            <p className="bold">Paragraph {`${paragraphIndex + 1}`}</p>
+          </Card>
+
           <div>
             <div>
               <div>
@@ -215,8 +222,9 @@ export const Listening = ({
       <p className="bold">
         Check out the questons below. Listen again and take notes.
       </p>
+
+      {/* scanQuestions */}
       <div>
-        {/* scanQuestions */}
         {scanQuestions.map((scanQuestion, scanQuestionIndex) => (
           <div key={scanQuestionIndex} className="margin-bottom">
             <span className="p-font bold display-inline">
@@ -237,23 +245,16 @@ export const Listening = ({
           <p className="p-size-smaller">'10</p>
         </div>
       </Card>
+      
+      {/* followupQuestions */}
       <div>
-        {/* followupQuestions */}
         {followupQuestions.map((followupQuestion, followQuestionIndex) => (
           <p key={followQuestionIndex}>
-            <span className="bold">{followQuestionIndex + 1}</span>{" "}
-            {followupQuestion.enQuestion}{" "}
+            {followQuestionIndex + 1}. {followupQuestion.enQuestion}{" "}
             <span className="portuguese">{followupQuestion.ptQuestion}</span>
           </p>
         ))}
       </div>
-
-      {/* <Card bgColor="Black" textColor="White">
-        <div className="flex-8px-start-space-between">
-          <p className="bold">Exercises</p>
-          <p className="p-size-smaller">'10</p>
-        </div>
-      </Card> */}
     </div>
   );
 };
