@@ -8,6 +8,10 @@
   padding: var(--padding);
 }
 
+.label {
+  padding: 10px;
+}
+
 .children {
   padding: 10px;
 }

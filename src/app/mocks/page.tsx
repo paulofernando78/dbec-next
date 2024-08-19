@@ -87,19 +87,81 @@ const fillInTheBlanks = [
     options: true,
     width: "100px",
     title: "1. Fill in the blank with the correct word.",
-    beforeBlank: "The sky is",
-    placeholder: "color",
-    correctAnswer: ["blue"],
-    afterBlank: "during a clear day.",
-    // lineBreakAfter: true
+    beforeBlank: "...",
+    placeholder: "...",
+    correctAnswer: ["..."],
+    afterBlank: "...",
+    lineBreakAfter: true
   },
   {
     options: true,
     width: "100px",
-    beforeBlank: "The sky is",
-    placeholder: "color",
-    correctAnswer: ["dark"],
-    afterBlank: "during at night.",
+    title: "1. Fill in the blank with the correct word.",
+    beforeBlank: "...",
+    placeholder: "...",
+    correctAnswer: ["..."],
+    afterBlank: "...",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "100px",
+    title: "1. Fill in the blank with the correct word.",
+    beforeBlank: "...",
+    placeholder: "...",
+    correctAnswer: ["..."],
+    afterBlank: "...",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "100px",
+    title: "1. Fill in the blank with the correct word.",
+    beforeBlank: "...",
+    placeholder: "...",
+    correctAnswer: ["..."],
+    afterBlank: "...",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "100px",
+    title: "1. Fill in the blank with the correct word.",
+    beforeBlank: "...",
+    placeholder: "...",
+    correctAnswer: ["..."],
+    afterBlank: "...",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "100px",
+    title: "1. Fill in the blank with the correct word.",
+    beforeBlank: "...",
+    placeholder: "...",
+    correctAnswer: ["..."],
+    afterBlank: "...",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "100px",
+    title: "1. Fill in the blank with the correct word.",
+    beforeBlank: "...",
+    placeholder: "...",
+    correctAnswer: ["..."],
+    afterBlank: "...",
+    lineBreakAfter: true
+  },
+  {
+    options: true,
+    width: "100px",
+    title: "1. Fill in the blank with the correct word.",
+    beforeBlank: "...",
+    placeholder: "...",
+    correctAnswer: ["..."],
+    afterBlank: "...",
+    lineBreakAfter: true
   },
 ];
 

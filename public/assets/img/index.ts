@@ -67,6 +67,8 @@ import cookieOreoSourPatch from "@/img/cookie-oreo-sour-patch.png";
 import customer1 from "./customer1.webp";
 
 // D
+import debris1 from "@/img/debris1.webp"
+import disappoint1 from "@/img/disappoint1.webp"
 import disrupt1 from "./disrupt1.jpg";
 
 // E
@@ -110,6 +112,7 @@ import noInternetConnection4 from "./no-internet-connection4.jpg";
 import noWifi from "./no-wifi.webp";
 
 // O
+import occur1 from "@/img/occur1.jpg"
 
 // P
 import personAtASupermarketBrowsingVeggies from "./person-at-a-supermaket-browsing-veggies.avif";
@@ -132,10 +135,15 @@ import socialMedia1 from "@/img/social-media-1.webp";
 import socialMedia2 from "@/img/social-media-2.webp";
 import socialMedia3 from "@/img/social-media-3.avif";
 import socialMediaParent1 from "@/img/social-media-parent-1.jpg";
+import spaceJunk1 from "@/img/spaceJunk1.webp"
+import stage1 from "@/img/stage1.png"
+import strategy1 from "@/img/strategy1.jpg"
+import sustainable1 from "@/img/sustainable1.jpg"
 
 // T
 import teenChoppingVegetable from "./teen-chopping-vegetable.avif";
 import teenLookingAtFoodLabel from "./teen-looking-at-food-label.avif";
+import track1 from "@/img/track1.webp"
 import translate1 from "@/img/translate1.svg";
 
 // U
@@ -226,6 +234,8 @@ export {
   customer1,
 
   // D
+  debris1,
+  disappoint1,
   disrupt1,
 
   // E
@@ -269,6 +279,7 @@ export {
   noWifi,
 
   // O
+  occur1,
 
   // P
   personAtASupermarketBrowsingVeggies,
@@ -291,10 +302,15 @@ export {
   socialMedia2,
   socialMedia3,
   socialMediaParent1,
+  spaceJunk1,
+  stage1,
+  strategy1,
+  sustainable1,
 
   // T
   teenChoppingVegetable,
   teenLookingAtFoodLabel,
+  track1,
   translate1,
 
   // U

@@ -17,7 +17,9 @@ interface FlipCardsProps {
 
 export const FlipCard = ({ flipCards }: FlipCardsProps) => {
   // Maintain a state object to track flipped state of each card
-  const [flippedCards, setFlippedCards] = useState<{ [key: number]: boolean }>({});
+  const [flippedCards, setFlippedCards] = useState<{ [key: number]: boolean }>(
+    {}
+  );
 
   const handleFlip = (index: number) => {
     setFlippedCards((prev) => ({
@@ -32,23 +34,35 @@ export const FlipCard = ({ flipCards }: FlipCardsProps) => {
         <div key={index} className={styles["container"]}>
           <div
             onClick={() => handleFlip(index)}
-            className={`img-border ${styles["card"]} ${flippedCards[index] ? styles.flipped : ""}`}
+            className={`img-border ${styles["card"]} ${
+              flippedCards[index] ? styles.flipped : ""
+            }`}
           >
             {/* Front */}
             <div className={styles["front"]}>
-              <Image src={flipIcon} alt="Flip icon" className={styles["flip-icon"]}/>
+              <Image
+                src={flipIcon}
+                alt="Flip icon"
+                className={styles["flip-icon"]}
+              />
               <Image
                 src={questionMarkGif}
                 alt="Question mark gif"
                 className={styles["front-image"]}
               />
-              {flipCard.frontText && <p className={styles["front-text"]}>{flipCard.frontText}</p>}
+              {flipCard.frontText && (
+                <p className={styles["front-text"]}>{flipCard.frontText}</p>
+              )}
             </div>
             {/* Back */}
             <div className={styles["back"]}>
               {flipCard.backText && <p>{flipCard.backText}</p>}
               {flipCard.imgSrc && flipCard.imgAlt && (
-                <Image layout="fill" src={flipCard.imgSrc} alt={flipCard.imgAlt} />
+                <Image
+                  layout="fill"
+                  src={flipCard.imgSrc}
+                  alt={flipCard.imgAlt}
+                />
               )}
             </div>
           </div>

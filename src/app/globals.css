@@ -186,6 +186,10 @@ p {
   margin-top: 1.25rem;
 }
 
+.margin-auto {
+  margin: auto;
+}
+
 .margin-right {
   margin-right: 8px;
 }
@@ -218,7 +222,7 @@ p {
   display: inline-block;
 }
 
-.block {
+.display-block {
   display: block;
 }
 

@@ -19,7 +19,7 @@ import { WrapUp } from "@/components/Celta/WrapUp";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { FlipCard } from "@/components/Cards/Flip";
 import { Dropdown } from "@/components/ExerciseTemplates/Dropdown";
-import { subtle } from "crypto";
+import { FillInTheBlank } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 
 const swiperFraction: SwiperFractionData[] = [
   {
@@ -41,28 +41,26 @@ const flipCards = [
     imgSrc: cat1,
     imgAlt: "A cat",
   },
-  {
-    imgSrc: cat1,
-    imgAlt: "A cat",
-  },
 ];
 
-const dropdown = [
+const fillInTheBlanks = [
   {
-    title: "Select the right answer.",
-    subtitle: "test",
-    beforeOptions: "1. ...",
-    options: [{ value: "...", label: "...", correctAnswer: true }],
-    width: "100",
-    afterOptions: "...",
-    lineBreak: true,
+    options: true,
+    width: "100px",
+    title: "Now fill in the blanks with the correct word.",
+    beforeBlank: "...",
+    placeholder: "...",
+    correctAnswer: ["..."],
+    afterBlank: "...",
+    lineBreakAfter: true
   },
   {
-    beforeOptions: "2. ...",
-    options: [{ value: "...", label: "...", correctAnswer: true }],
-    width: "100",
-    afterOptions: "...",
-    lineBreak: true,
+    options: true,
+    width: "100px",
+    beforeBlank: "...",
+    placeholder: "...",
+    correctAnswer: ["..."],
+    afterBlank: "...",
   },
 ];
 
@@ -83,13 +81,15 @@ export default function Listening() {
         </Introduction>
         <PreVocabulary>
           <div className="line-break">
-            <DictionaryCard keyword="..." label="..." audioSrc="" />
+            <div className="flex-8px-center-wrap">
+              <DictionaryCard keyword="..." label="..." audioSrc="" />
+              <DictionaryCard keyword="..." label="..." audioSrc="" />
+              <DictionaryCard keyword="..." label="..." audioSrc="" />
+            </div>
             <FlipCard flipCards={flipCards} />
+            <FillInTheBlank questions={fillInTheBlanks} />
           </div>
         </PreVocabulary>
-        <p className="red">COLOCAR DROPDOWN EXERCISES</p>
-        <Dropdown questions={dropdown} />
-
         <ListeningForGist />
         <AudioPlayer audioSrc="" />
         <Paragraph number="1">

@@ -73,8 +73,7 @@ export const Dropdown: React.FC<DropdownProps> = ({ questions }) => {
             <div key={index} className="display-inline">
               {/* title & subTitle */}
               {(question.title || question.subtitle) && (
-                <div className={`margin-bottom ${
-                  index > 0 ? "margin-top" : ""
+                <div className={`margin-bottom ${index > 0 ? "margin-top" : ""
                 }`}>
                   {question.title && <p className="bold">{question.title}</p>}
                   {question.subtitle && <p>{question.subtitle}</p>}{" "}
