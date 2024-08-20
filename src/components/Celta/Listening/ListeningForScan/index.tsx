@@ -27,13 +27,13 @@ export const ListeningForScan = ({ scanQuestions }: ListeningForScanProps) => {
       </div>
       <div className={`line-break ${styles["children"]}`}>
         <p className={styles["label"]}>
-          Check out the questons below. Listen again and take notes.
+          Check out the questions below. Listen again and take notes.
         </p>
         {/* scanQuestions */}
         {scanQuestions.map((scanQuestion, scanQuestionIndex) => (
           <div key={scanQuestionIndex}>
-            <span className="p-font bold display-inline">
-              {scanQuestionIndex + 1}
+            <span className="p-font display-inline">
+              {scanQuestionIndex + 1}.
             </span>{" "}
             <span className="display-inline p-font">
               {scanQuestion.question}

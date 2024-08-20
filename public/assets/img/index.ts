@@ -59,11 +59,13 @@ import cat1 from "@/img/cat1.jpg";
 import cat2 from "@/img/cat2.jpeg";
 import cat3 from "@/img/cat3.png";
 import characteristic1 from "@/img/characteristic1.jpg";
+import challenge1 from "@/img/challenge1.jpg"
 import chocolatePinkLemonadeKitKat from "@/img/chocolate-kit-kat-pink-lemonad.jpg";
 import clipboard1 from "@/img/clipboard1.jpg";
 import clockWakeUpHate from "@/img/bitmoji/clock-wakeup-hate.png";
 import compelling1 from "@/img/compelling1.jpg";
 import computerScreenGlitch1 from "./computer-screen-glitch1.jpg";
+import consent1 from "@/img/consent1.webp"
 import cookieOreoSourPatch from "@/img/cookie-oreo-sour-patch.png";
 import customer1 from "./customer1.webp";
 
@@ -71,12 +73,14 @@ import customer1 from "./customer1.webp";
 import debris1 from "@/img/debris1.webp"
 import disappoint1 from "@/img/disappoint1.webp"
 import disrupt1 from "./disrupt1.jpg";
+import diversity1 from "@/img/diversity1.jpg"
 
 // E
-import fauxpas1 from "./faux-pas1.webp";
+import enact1 from "@/img/enact1.jpg"
 import exclamationIcon from "@/img/icon/exclamation-mark.png";
 
 // F
+import fauxpas1 from "./faux-pas1.webp";
 import flipIcon from "@/img/icon/flip.png";
 
 // G
@@ -226,12 +230,14 @@ export {
   cat1,
   cat2,
   cat3,
+  challenge1,
   characteristic1,
   chocolatePinkLemonadeKitKat,
   clipboard1,
   clockWakeUpHate,
   compelling1,
   computerScreenGlitch1,
+  consent1,
   cookieOreoSourPatch,
   customer1,
 
@@ -239,8 +245,10 @@ export {
   debris1,
   disappoint1,
   disrupt1,
+  diversity1,
 
   // E
+  enact1,
   exclamationIcon,
 
   // F

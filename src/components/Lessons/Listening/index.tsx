@@ -4,19 +4,14 @@ import {
 } from "@/components/Celta/Introduction";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
 
-import { AudioPlayer } from "../../Audioplayer";
-import { Collapsible } from "../../Collapsibles/Collapsible/Collapsible";
 import {
-  FillInTheBlank,
   Question,
 } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 import { FlipCard } from "@/components/Cards/Flip";
 import { PreVocabulary } from "@/components/Celta/Listening/PreVocabulary";
-import { ListeningForGist } from "@/components/Celta/Listening/ListeningForGist";
-import { Paragraph } from "@/components/Celta/Listening/Paragraph";
-import { Translation } from "@/components/Collapsibles/Translation/Translation";
-import { ListeningForScan } from "@/components/Celta/Listening/ListeningForScan";
-import { FollowUp } from "@/components/Celta/Listening/FollowUp";
+import { ListeningForGist, Paragraph } from "@/components/Celta/Listening/ListeningForGist";
+import { ListeningForScan, ScanQuestion } from "@/components/Celta/Listening/ListeningForScan";
+import { FollowUp, FollowupQuestion } from "@/components/Celta/Listening/FollowUp";
 
 export interface GistQuestion {
   question: string;
@@ -69,7 +64,7 @@ export const Listening = ({
       scanQuestions={scanQuestions}
       />
       <FollowUp
-      followQuestions={followupQuestions}
+      followupQuestions={followupQuestions}
       />
     </div>
   );

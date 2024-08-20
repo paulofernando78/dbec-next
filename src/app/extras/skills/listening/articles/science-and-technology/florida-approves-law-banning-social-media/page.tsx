@@ -13,7 +13,6 @@ import { ScrollToTop } from "@/components/ScrollToTop";
 import {
   GistQuestion,
   Listening,
-  FollowupQuestion,
 } from "@/components/Lessons/Listening";
 
 import {
@@ -22,7 +21,12 @@ import {
   socialMedia2,
   socialMediaParent1,
   addictive1,
+  consent1,
+  diversity1,
+  enact1,
+  challenge1
 } from "@/img/index";
+import { FollowupQuestion } from "@/components/Celta/Listening/FollowUp";
 
 const swiperFraction: SwiperFractionData[] = [
   {
@@ -59,24 +63,24 @@ const discussionQuestions: DiscussionQuestion[] = [
 
 const flipCards: FlipCard[] = [
   {
+    imgSrc: consent1,
+    imgAlt: "An image representing the concept of \"consent\" with a serene and symbolic depiction.",
+  },
+  {
+    imgSrc: diversity1,
+    imgAlt: "An image about diversity.",
+  },
+  {
+    imgSrc: challenge1,
+    imgAlt: "An image about challenge.",
+  },
+  {
     imgSrc: addictive1,
-    imgAlt: "...",
+    imgAlt: "An image depicting someone addicted to smartphone.",
   },
   {
-    imgSrc: cat1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: cat1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: cat1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: cat1,
-    imgAlt: "...",
+    imgSrc: enact1,
+    imgAlt: "An image of a woman signing a document.",
   },
 ];
 
@@ -327,50 +331,43 @@ const paragraphs: Paragraph[] = [
     enParagraphs: [
       {
         enParagraph:
-          "Florida has enacted additional measures aimed at protecting children from possible technological harms. Last year, it became the first state to strongly restrict phones in schools. The law requires all public schools in Florida to ban student cellphone use and block social media services during class.",
+          "Florida has enacted additional measures aimed at protecting children from possible technological harms. Last year, it became the first state to strongly restrict phones in schools. The law requires all public schools in Florida to ban student cellphone use and block social media services during class. I'm Bryan Lynn.",
       },
     ],
     ptParagraph:
       "A Flórida promulgou medidas adicionais destinadas a proteger as crianças de possíveis danos tecnológicos. No ano passado, tornou-se o primeiro estado a restringir fortemente o uso de telefones celulares nas escolas. A lei exige que todas as escolas públicas na Flórida proíbam o uso de celulares pelos alunos e bloqueiem serviços de redes sociais durante as aulas.",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "I’m Bryan Lynn.",
-      },
-    ],
-  },
+  }
 ];
 
 const scanQuestions: ScanQuestion[] = [
   {
     question: "What are the age restrictions mentioned in the new law?",
-    answer: "aaa",
+    answer: "Children under 14 are banned from having a social media account. Ages 14-15 require parental permission. Parents decide for 16-17-year-olds.",
   },
   {
     question: "Why did Governor DeSantis veto the first version of the bill?",
-    answer: "bbb",
+    answer: "Governor DeSantis vetoed the first version because it was too restrictive of parental rights.",
   },
   {
     question: "What are some arguments from supporters and critics of the law?",
-    answer: "ccc",
+    answer: "Supporters: The law protects children from online harm. Critics: It may violate the First Amendment, and parents, not the government, should decide restrictions.",
   },
   {
     question: "When will the law take effect?",
-    answer: "ddd",
+    answer: "The law is set to take effect on January 1, 2025.",
   },
 ];
 
 const followupQuestions: FollowupQuestion[] = [
   {
     enQuestion: "Do you agree with the age restrictions? Why or why not?",
-    ptQuestion: "Você concorda com as restrições de idade? Por quê?",
+    // ptQuestion: "Você concorda com as restrições de idade? Por quê?",
   },
   {
     enQuestion:
       "How might this law impact children and their use of social media?",
-    ptQuestion:
-      "Como essa lei pode impactar as crianças e seu uso de redes sociais?",
+    // ptQuestion:
+    //   "Como essa lei pode impactar as crianças e seu uso de redes sociais?",
   },
 ];
 
