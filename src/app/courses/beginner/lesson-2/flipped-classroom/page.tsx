@@ -20,12 +20,7 @@ export default function BeginnerLesson2FlippedClassroom() {
       />
       <div className="line-break">
         <TheAlphabet />
-        <NoteCard>
-          <p>
-            Z in British English is pronounced{" "}
-            <span className="phonetics">/zed/</span>
-          </p>
-        </NoteCard>
+       
         <Titles />
         <MyYourHisHer />
         <Exercises />

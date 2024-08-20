@@ -11,16 +11,16 @@ const Titles = () => {
           </p>
           <div>
             <p>
-              <span className="bold">Mr.</span> = Single or married male
+              <span className="bold">Mr. = Mister</span> <span className="phonetics"> /ˈmɪs.tɚ/ </span>= Single or married male
             </p>
             <p>
-              <span className="bold">Mrs.</span> = Married females
+              <span className="bold">Mrs.</span><span className="phonetics"> /ˈmɪs.ɪz/</span> = Married females
             </p>
             <p>
-              <span className="bold">Ms.</span> Single or Married females
+              <span className="bold">Ms.</span> <span className="phonetics">/mɪz/</span> Single or Married females
             </p>
             <p>
-              <span className="bold">Miss.</span> Single females
+              <span className="bold">Miss.</span> <span className="phonetics">/mɪs/</span> Single females
             </p>
           </div>
         </div>

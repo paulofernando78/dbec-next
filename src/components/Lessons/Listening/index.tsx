@@ -25,7 +25,6 @@ interface ListeningProps {
   flipCards: FlipCard[];
   preVocabularies: PreVocabulary[];
   fillInTheBlanks: Question[];
-  gistQuestions: GistQuestion[];
   audioSrc: string;
   paragraphs: Paragraph[];
   scanQuestions: ScanQuestion[];

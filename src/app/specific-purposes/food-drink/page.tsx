@@ -52,11 +52,15 @@ export default function FoodAndDrink() {
             <DictionaryCard audioSrc="/k/kale.mp3" label="kale" />
           </div>
           <Card bgColor="black" textColor="white">
+            <span className="bold">Cheese</span>
+          </Card>
+          <p>Casu Marzu</p>
+          <Card bgColor="black" textColor="white">
             <span className="bold">Meat</span>
           </Card>
           <div className="line-break">
             <DictionaryCard audioSrc="/m/minced-meat.mp3" label="minced meat" />
-            <Collapsible labelBold="What's the difference between 'minced meat' and ground meat'?">
+            <Collapsible labelBold="What's the difference between 'minced meat' and 'ground meat'?">
               <div className="line-break">
                 <p>
                   <span className="bold">Minced meat</span> is meat that has

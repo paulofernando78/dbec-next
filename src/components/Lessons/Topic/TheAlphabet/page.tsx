@@ -1,4 +1,5 @@
 import { Card } from "@/components/Cards/Card";
+import { NoteCard } from "@/components/Cards/NoteCard";
 
 interface Alphabet {
   audioSrc: string;
@@ -60,7 +61,7 @@ const alphabets: Alphabet[] = [
     number: "9",
     letter: "I",
     audioSrc: "/i/i1.mp3",
-    phonetics: "/eɪtʃ/"
+    phonetics: "/aɪ/"
   },
   {
     number: "10",
@@ -199,6 +200,18 @@ export default function TheAlphabet() {
           </div>
         ))}
       </div>
+      <NoteCard>
+          <p>
+            Z in British English is pronounced{" "}
+            <span className="phonetics">/zed/</span>
+          </p>
+          <p>**Don't confuse the letters "a", "e", and "i".</p>
+          <p>The letter "c" has the same sound as the word "see".</p>
+          <p>The letter H <span className="phonetics">/eɪtʃ/</span> doesn't have the same sound as the number 8 <span className="phonetics">/eɪt/</span></p>
+          <p>The letter "t" has the same sound as the drink "tea".</p>
+          <p>The letter "u" has the same sound as the word "you"</p>
+        </NoteCard>
+      
     </div>
   );
 }

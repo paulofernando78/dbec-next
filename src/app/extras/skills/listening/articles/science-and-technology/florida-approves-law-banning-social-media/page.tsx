@@ -16,7 +16,6 @@ import {
 } from "@/components/Lessons/Listening";
 
 import {
-  cat1,
   socialMedia1,
   socialMedia2,
   socialMediaParent1,
@@ -28,20 +27,6 @@ import {
 } from "@/img/index";
 import { FollowupQuestion } from "@/components/Celta/Listening/FollowUp";
 
-const swiperFraction: SwiperFractionData[] = [
-  {
-    imgSrc: socialMedia1,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: socialMedia2,
-    imgAlt: "...",
-  },
-  {
-    imgSrc: socialMediaParent1,
-    imgAlt: "...",
-  },
-];
 
 const discussionQuestions: DiscussionQuestion[] = [
   {
@@ -58,6 +43,21 @@ const discussionQuestions: DiscussionQuestion[] = [
           "What age do you think is appropriate for kids to start using social media? Why?",
       },
     ],
+  },
+];
+
+const swiperFraction: SwiperFractionData[] = [
+  {
+    imgSrc: socialMedia1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: socialMedia2,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: socialMediaParent1,
+    imgAlt: "...",
   },
 ];
 
@@ -390,7 +390,6 @@ export default function FloridaApprovesLawBanningSocialMediaForChildrenunder14()
           flipCards={flipCards}
           preVocabularies={preVocabularies}
           fillInTheBlanks={fillInTheBlanks}
-          gistQuestions={gistQuestions}
           audioSrc="https://voa-audio.voanews.eu/VLE/2024/03/27/01000000-0aff-0242-4563-08dc4e7c6170.mp3"
           paragraphs={paragraphs}
           scanQuestions={scanQuestions}
