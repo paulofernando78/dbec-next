@@ -1,22 +1,38 @@
-import { ReactNode } from "react";
 import styles from "../../../Cards/BoardCard/styles.module.css";
 
-interface FollowUpProps {
-  children: ReactNode;
+export interface FollowupQuestion {
+  enQuestion?: string;
+  ptQuestion?: string;
 }
 
-export const FollowUp = ({ children }: FollowUpProps) => {
+interface FollowUpProps {
+followupQuestions: FollowupQuestion[]
+}
+
+export const FollowUp = ({ followupQuestions }: FollowUpProps) => {
   return (
     <div className={styles["main-card"]}>
-      <div className={styles["card"]} style={{ backgroundColor: "black", color: "white"}}>
-        <div className="flex-8px-start-space-between" >
+      <div
+        className={styles["card"]}
+        style={{ backgroundColor: "black", color: "white" }}
+      >
+        <div className="flex-8px-start-space-between">
           <p>
             <span className="bold">Follow-up</span>
           </p>
           <p className="p-size-smaller">10'</p>
         </div>
       </div>
-      <div className={styles["children"]}>{children}</div>
+      <div className={styles["children"]}>
+        <div>
+          {followupQuestions.map((followupQuestion, followQuestionIndex) => (
+            <p key={followQuestionIndex}>
+              {followQuestionIndex + 1}. {followupQuestion.enQuestion}{" "}
+              <span className="portuguese">{followupQuestion.ptQuestion}</span>
+            </p>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

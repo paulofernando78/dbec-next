@@ -1,11 +1,20 @@
-import { ReactNode } from "react";
 import styles from "../../Cards/BoardCard/styles.module.css";
+import SwiperFraction, { SwiperFractionData } from "@/components/Swiper/Fraction";
 
-interface IntroductionProps {
-  children: ReactNode;
+export interface DiscussionQuestion {
+  questions: {
+    question?: string;
+    component?: (props: any) => JSX.Element;
+    componentProps?: any;
+  }[];
 }
 
-export const Introduction = ({ children }: IntroductionProps) => {
+interface IntroductionProps {
+  swiperFraction?: SwiperFractionData[]
+  discussionQuestions?: DiscussionQuestion[]
+}
+
+export const Introduction = ({ swiperFraction, discussionQuestions }: IntroductionProps) => {
   return (
     <div className={styles["main-card"]}>
       <div className={styles["card"]} style={{ backgroundColor: "black", color: "white"}}>
@@ -16,8 +25,40 @@ export const Introduction = ({ children }: IntroductionProps) => {
           <p className="p-size-smaller">5'</p>
         </div>
       </div>
-      <p className={styles["label"]}>Check out the media below and answer the questions.</p>
-      <div className={styles["children"]}>{children}</div>
+      <div className={`line-break ${styles["children"]}`}>
+        <p className={styles["label"]}>Check out the media below and answer the questions.</p>
+        {swiperFraction && <SwiperFraction images={swiperFraction} />}
+        {/* dicussionQuestions */}
+        <div>
+          {discussionQuestions?.map(
+            (discussionQuestion, discussionQuestionIndex) => (
+              <div key={discussionQuestionIndex}>
+                {discussionQuestion.questions.map((question, questionIndex) => (
+                  <span key={questionIndex}>
+                    {/* question.component */}
+                    {question.component && (
+                      <span className="margin-right">
+                        {question.component(question.componentProps)}
+                      </span>
+                    )}
+
+                    {/* question */}
+                    {question.question && (
+                      <div key={discussionQuestionIndex}>
+                        <span className="p-font display-inline margin-right">
+                          {`${discussionQuestionIndex + 1}. ${
+                            question.question
+                          }`}
+                        </span>
+                      </div>
+                    )}
+                  </span>
+                ))}
+              </div>
+            )
+          )}
+        </div>
+      </div>
     </div>
   );
 };

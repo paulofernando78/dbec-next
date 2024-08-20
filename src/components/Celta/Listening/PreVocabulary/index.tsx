@@ -1,11 +1,24 @@
-import { ReactNode } from "react";
+import { FlipCard } from "@/components/Cards/Flip";
+import { FillInTheBlank, Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+
 import styles from "../../../Cards/BoardCard/styles.module.css";
 
-interface PreVocabularyProps {
-  children: ReactNode;
+export interface PreVocabulary {
+  component: (props: { audioSrc: string; label: string }) => JSX.Element;
+  componentProps: any;
 }
 
-export const PreVocabulary = ({ children }: PreVocabularyProps) => {
+interface PreVocabularyProps {
+  flipCards: FlipCard[]
+  preVocabularies: PreVocabulary[]
+  fillInTheBlanks: Question[]
+}
+
+export const PreVocabulary = ({
+  flipCards,
+  preVocabularies,
+  fillInTheBlanks = [],
+}: PreVocabularyProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -19,9 +32,29 @@ export const PreVocabulary = ({ children }: PreVocabularyProps) => {
           <p className="p-size-smaller">10'</p>
         </div>
       </div>
-      <p className={styles["pre-vocabulary-label"]}>Let's flip the cards (randomly) and match the pictures with the
-      vocabulary below.</p>
-      <div className={styles["children"]}>{children}</div>
+      <div className={`line-break ${styles["children"]}`}>
+        <p className="bold">
+          Let's flip the cards (randomly) and match the pictures with the
+          vocabulary below.
+        </p>
+        {/* flipCards */}
+        <FlipCard flipCards={flipCards} />
+        {/* Words */}
+        <div className="flex-8px-center-wrap">
+          {preVocabularies?.map((preVocabulary, indexPreVocabulary) => (
+            <span key={indexPreVocabulary}>
+              {preVocabulary.component(preVocabulary.componentProps)}
+            </span>
+          ))}
+        </div>
+        {/* fillInTheBlanks */}
+        <div className="line-break">
+          <p className="bold">
+            Now fill in the blanks with the right vocabulary.
+          </p>
+          <FillInTheBlank questions={fillInTheBlanks} />
+        </div>
+      </div>
     </div>
   );
 };

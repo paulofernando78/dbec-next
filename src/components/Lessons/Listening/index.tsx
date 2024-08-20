@@ -1,8 +1,9 @@
-import SwiperFraction, {
-  SwiperFractionData,
-} from "@/components/Swiper/Fraction";
+import {
+  Introduction,
+  DiscussionQuestion,
+} from "@/components/Celta/Introduction";
+import { SwiperFractionData } from "@/components/Swiper/Fraction";
 
-import { Card } from "../../Cards/Card";
 import { AudioPlayer } from "../../Audioplayer";
 import { Collapsible } from "../../Collapsibles/Collapsible/Collapsible";
 import {
@@ -11,50 +12,15 @@ import {
 } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 import { FlipCard } from "@/components/Cards/Flip";
 import { PreVocabulary } from "@/components/Celta/Listening/PreVocabulary";
-import { Introduction } from "@/components/Celta/Introduction";
 import { ListeningForGist } from "@/components/Celta/Listening/ListeningForGist";
 import { Paragraph } from "@/components/Celta/Listening/Paragraph";
-import { FollowUp } from "@/components/Celta/Listening/FollowUp";
+import { Translation } from "@/components/Collapsibles/Translation/Translation";
 import { ListeningForScan } from "@/components/Celta/Listening/ListeningForScan";
-
-export interface FollowupQuestion {
-  enQuestion?: string;
-  ptQuestion?: string;
-}
-
-export interface ScanQuestion {
-  question: string;
-  answer: string;
-}
-
-interface EnParagraph {
-  component?: (props: { audioSrc: string; label: string }) => JSX.Element;
-  componentProps?: any;
-  enParagraph?: string;
-}
-
-export interface Paragraph {
-  paragraphNumber?: string;
-  enParagraphs?: EnParagraph[];
-  ptParagraph?: string;
-}
+import { FollowUp } from "@/components/Celta/Listening/FollowUp";
 
 export interface GistQuestion {
   question: string;
   answer: string;
-}
-
-export interface PreVocabulary {
-  component: (props: { audioSrc: string; label: string }) => JSX.Element;
-  componentProps: any;
-}
-
-export interface DiscussionQuestion {
-  questions: {
-    question?: string;
-    component?: (props: any) => JSX.Element;
-    componentProps?: any;
-  }[];
 }
 
 interface ListeningProps {
@@ -86,146 +52,25 @@ export const Listening = ({
 }: ListeningProps) => {
   return (
     <div className="line-break">
-      <Introduction>
-        {/* Swiper */}
-        <SwiperFraction images={swiperFraction} />
-
-        {/* dicussionQuestions */}
-        <div className="margin-top">
-          {discussionQuestions.map(
-            (discussionQuestion, discussionQuestionIndex) => (
-              <div key={discussionQuestionIndex}>
-                {discussionQuestion.questions.map((question, questionIndex) => (
-                  <span key={questionIndex}>
-                    {/* question.component */}
-                    {question.component && (
-                      <span className="margin-right">
-                        {question.component(question.componentProps)}
-                      </span>
-                    )}
-
-                    {/* question */}
-                    {question.question && (
-                      <div key={discussionQuestionIndex}>
-                        <span className="p-font display-inline margin-right">
-                          {`${discussionQuestionIndex + 1}. ${
-                            question.question
-                          }`}
-                        </span>
-                      </div>
-                    )}
-                  </span>
-                ))}
-              </div>
-            )
-          )}
-        </div>
-      </Introduction>
-      <PreVocabulary>
-        <div className="line-break">
-
-          {/* flipCards */}
-          <div className="">
-            <FlipCard flipCards={flipCards} />
-          </div>
-
-          {/* preVocabulary */}
-          <div className="flex-8px-center-wrap">
-            {preVocabularies?.map((preVocabulary, indexPreVocabulary) => (
-              <span key={indexPreVocabulary}>
-                {preVocabulary.component(preVocabulary.componentProps)}
-              </span>
-            ))}
-          </div>
-          
-          {/* fillInTheBlanks */}
-          <div className="line-break">
-            <p className="bold">
-              Now fill in the blanks with the right vocabulary.
-            </p>
-            <FillInTheBlank questions={fillInTheBlanks} />
-          </div>
-        </div>
-      </PreVocabulary>
-      <ListeningForGist>
-        {/* AudioPlayer */}
-        <div className="audio-position-sticky margin-bottom">
-          <AudioPlayer audioSrc={audioSrc} />
-        </div>
-        {/* Paragraphs */}
-        <div className="line-break">
-          {paragraphs.map((paragraph, paragraphIndex) => (
-            <div key={paragraphIndex} className="line-break">
-              <Paragraph number={paragraphIndex + 1}>
-                <div>
-                  <div>
-                    <div>
-                      {/* enParagraphs */}
-                      {paragraph.enParagraphs?.map(
-                        (enParagraph, enParagraphIndex) => (
-                          <span key={enParagraphIndex}>
-                            {/* enParagraph.component */}
-                            {enParagraph.component && (
-                              <span className="margin-right">
-                                {enParagraph.component(
-                                  enParagraph.componentProps
-                                )}
-                              </span>
-                            )}
-                            {/* enParagraph */}
-                            {enParagraph.enParagraph && (
-                              <span className="p-font display-inline margin-right">
-                                {enParagraph.enParagraph}
-                              </span>
-                            )}
-                          </span>
-                        )
-                      )}
-                    </div>
-                  </div>
-                  {/* ptParagraph */}
-                  {paragraph.ptParagraph && (
-                    <span className="margin-top">
-                      <Collapsible labelBold="Translation">
-                        <span className="portuguese">
-                          {paragraph.ptParagraph}
-                        </span>
-                      </Collapsible>
-                    </span>
-                  )}
-                </div>
-              </Paragraph>
-            </div>
-          ))}
-        </div>
-      </ListeningForGist>
-      <ListeningForScan>
-        <div>
-          {scanQuestions.map((scanQuestion, scanQuestionIndex) => (
-            <div key={scanQuestionIndex} className="margin-bottom">
-              <span className="p-font bold display-inline">
-                {scanQuestionIndex + 1}
-              </span>{" "}
-              <span className="display-inline p-font">
-                {scanQuestion.question}
-              </span>
-              <Collapsible labelBold="Answer">
-                <p>{scanQuestion.answer}</p>
-              </Collapsible>
-            </div>
-          ))}
-        </div>
-      </ListeningForScan>
-      <FollowUp>
-        <div>
-          {followupQuestions.map((followupQuestion, followQuestionIndex) => (
-            <p key={followQuestionIndex}>
-              {followQuestionIndex + 1}. {followupQuestion.enQuestion}{" "}
-              <span className="portuguese">{followupQuestion.ptQuestion}</span>
-            </p>
-          ))}
-        </div>
-      </FollowUp>
+      <Introduction
+        swiperFraction={swiperFraction}
+        discussionQuestions={discussionQuestions}
+      />
+      <PreVocabulary
+        flipCards={flipCards}
+        preVocabularies={preVocabularies}
+        fillInTheBlanks={fillInTheBlanks}
+      />
+      <ListeningForGist
+        audioSrc={audioSrc}
+        paragraphs={paragraphs}
+      />
+      <ListeningForScan
+      scanQuestions={scanQuestions}
+      />
+      <FollowUp
+      followQuestions={followupQuestions}
+      />
     </div>
   );
 };

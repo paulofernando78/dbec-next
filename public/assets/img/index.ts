@@ -47,6 +47,7 @@ import incorrectIcon from "@/img/icon/incorrect.png";
 // Folder
 
 // A
+import addictive1 from "@/img/addictive1.jpg"
 import anticipate1 from "@/img/anticipate1.jpg";
 import aviationIcon from "@/img/icon/aviation.png"
 
@@ -215,6 +216,7 @@ export {
   // Folder
 
   // A
+  addictive1,
   anticipate1,
   aviationIcon,
 

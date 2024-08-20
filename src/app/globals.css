@@ -242,13 +242,6 @@ p {
   position: sticky;
 }
 
-.audio-position-sticky {
-  top: 0;
-  position: sticky;
-  padding: 5px;
-  z-index: 1;
-}
-
 .display-none {
   display: none;
 }

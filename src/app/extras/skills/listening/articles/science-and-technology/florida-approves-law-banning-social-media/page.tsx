@@ -1,20 +1,28 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
+import { DiscussionQuestion } from "@/components/Celta/Introduction";
+import { FlipCard } from "@/components/Cards/Flip";
+import { PreVocabulary } from "@/components/Celta/Listening/PreVocabulary";
+import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import { Paragraph } from "@/components/Celta/Listening/ListeningForGist";
+import { ScanQuestion } from "@/components/Celta/Listening/ListeningForScan";
+import { ScrollToTop } from "@/components/ScrollToTop";
+
 import {
-  DiscussionQuestion,
-  PreVocabulary,
   GistQuestion,
   Listening,
-  Paragraph,
-  ScanQuestion,
   FollowupQuestion,
 } from "@/components/Lessons/Listening";
-import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
-import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { cat1, socialMedia1, socialMedia2, socialMediaParent1 } from "@/img/index";
-import { ScrollToTop } from "@/components/ScrollToTop";
-import { FlipCard } from "@/components/Cards/Flip";
+
+import {
+  cat1,
+  socialMedia1,
+  socialMedia2,
+  socialMediaParent1,
+  addictive1,
+} from "@/img/index";
 
 const swiperFraction: SwiperFractionData[] = [
   {
@@ -35,8 +43,7 @@ const discussionQuestions: DiscussionQuestion[] = [
   {
     questions: [
       {
-        question:
-          "How old were you when you first started using social media?",
+        question: "How old were you when you first started using social media?",
       },
     ],
   },
@@ -52,26 +59,26 @@ const discussionQuestions: DiscussionQuestion[] = [
 
 const flipCards: FlipCard[] = [
   {
-    imgSrc: cat1,
-    imgAlt: "...", 
+    imgSrc: addictive1,
+    imgAlt: "...",
   },
   {
     imgSrc: cat1,
-    imgAlt: "...", 
+    imgAlt: "...",
   },
   {
     imgSrc: cat1,
-    imgAlt: "...", 
+    imgAlt: "...",
   },
   {
     imgSrc: cat1,
-    imgAlt: "...", 
+    imgAlt: "...",
   },
   {
     imgSrc: cat1,
-    imgAlt: "...", 
+    imgAlt: "...",
   },
-]
+];
 
 const preVocabularies: PreVocabulary[] = [
   {
@@ -80,7 +87,7 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/a/addictive.mp3",
       keyword: "addict",
       label: "addictive",
-      phonetics: "ˈæd.ɪkt/",
+      phonetics: "/əˈdɪk.tɪv/",
     },
   },
   {
@@ -217,7 +224,6 @@ const paragraphs: Paragraph[] = [
       "Os críticos disseram que a lei pode violar a proteção da Primeira Emenda da Constituição dos EUA à liberdade de expressão. Alguns opositores disseram que acham que os pais - e não o governo - devem ser os responsáveis por decidir quais restrições são melhores para seus filhos. A Meta, empresa controladora do Facebook, por exemplo, se opôs à legislação.",
   },
   {
-
     enParagraphs: [
       {
         enParagraph:
@@ -380,21 +386,21 @@ export default function FloridaApprovesLawBanningSocialMediaForChildrenunder14()
         subdescription="March 27, 2024"
       />
       <div className="line-break">
-          <Listening
-            discussion="Check out the pictures above. Swipe them to the right and answer the questions."
-            swiperFraction={swiperFraction}
-            discussionQuestions={discussionQuestions}
-            flipCards={flipCards}
-            preVocabularies={preVocabularies}
-            fillInTheBlanks={fillInTheBlanks}
-            gistQuestions={gistQuestions}
-            audioSrc="https://voa-audio.voanews.eu/VLE/2024/03/27/01000000-0aff-0242-4563-08dc4e7c6170.mp3"
-            paragraphs={paragraphs}
-            scanQuestions={scanQuestions}
-            followupQuestions={followupQuestions}
-          />
-        </div>
-        <ScrollToTop />
+        <Listening
+          discussion="Check out the pictures above. Swipe them to the right and answer the questions."
+          swiperFraction={swiperFraction}
+          discussionQuestions={discussionQuestions}
+          flipCards={flipCards}
+          preVocabularies={preVocabularies}
+          fillInTheBlanks={fillInTheBlanks}
+          gistQuestions={gistQuestions}
+          audioSrc="https://voa-audio.voanews.eu/VLE/2024/03/27/01000000-0aff-0242-4563-08dc4e7c6170.mp3"
+          paragraphs={paragraphs}
+          scanQuestions={scanQuestions}
+          followupQuestions={followupQuestions}
+        />
+      </div>
+      <ScrollToTop />
     </>
   );
 }
