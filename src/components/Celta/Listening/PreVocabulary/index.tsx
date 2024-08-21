@@ -4,6 +4,8 @@ import {
   Question,
 } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 
+import { getAlphabet } from "@/utils/getAlphabet";
+
 import styles from "../../../Cards/BoardCard/styles.module.css";
 
 export interface PreVocabulary {
@@ -37,15 +39,15 @@ export const PreVocabulary = ({
       </div>
       <div className={`line-break ${styles["children"]}`}>
         <p className="bold">
-          Let's flip the cards (randomly) and match the pictures with the
-          vocabulary below.
+          Let's flip the cards and match the pictures (numbers) with the
+          vocabulary (letters) below.
         </p>
         <FlipCard flipCards={flipCards} />
         {/* Words */}
         <div className="flex-8px-center-wrap">
           {preVocabularies?.map((preVocabulary, indexPreVocabulary) => (
-            <span key={indexPreVocabulary}>
-              {preVocabulary.component(preVocabulary.componentProps)}
+            <span key={indexPreVocabulary} className="p-font">
+              {getAlphabet(indexPreVocabulary)}){" "}{preVocabulary.component(preVocabulary.componentProps)}
             </span>
           ))}
         </div>
