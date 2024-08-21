@@ -48,7 +48,9 @@ import incorrectIcon from "@/img/icon/incorrect.png";
 
 // A
 import addictive1 from "@/img/addictive1.jpg"
+import africanCivet from "@/img/african-civet.jpg"
 import anticipate1 from "@/img/anticipate1.jpg";
+import asianCivet from "@/img/asian-palm-civet.jpg"
 import aviationIcon from "@/img/icon/aviation.png"
 
 // B
@@ -221,7 +223,9 @@ export {
 
   // A
   addictive1,
+  africanCivet,
   anticipate1,
+  asianCivet,
   aviationIcon,
 
   // B

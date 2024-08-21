@@ -257,6 +257,7 @@ export default function FloridaApprovesLawBanningSocialMediaForChildrenunder14()
           fillInTheBlanks={fillInTheBlanks}
           audioSrc="..."
           paragraphs={paragraphs}
+          gistAnswer="..."
           scanQuestions={scanQuestions}
           followupQuestions={followupQuestions}
         />

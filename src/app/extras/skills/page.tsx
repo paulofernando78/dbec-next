@@ -29,17 +29,17 @@ const descriptions = [
         label: "Articles (Intermediate)",
         contents: [
           {
-            globeLink: "/extras/skills/listening/articles/arts-and-culture",
-            globeLabel: "Arts & Culture",
+            link: "/extras/skills/listening/articles/arts-and-culture",
+            linkLabel: "Arts & Culture",
           },
           {
-            globeLink: "/extras/skills/listening/articles/health-and-lifestyle",
-            globeLabel: "Health & Lifestyle",
+            link: "/extras/skills/listening/articles/health-and-lifestyle",
+            linkLabel: "Health & Lifestyle",
           },
           {
-            globeLink:
+            link:
               "/extras/skills/listening/articles/science-and-technology",
-            globeLabel: "Science & Technology",
+            linkLabel: "Science & Technology",
           },
         ],
       },
