@@ -1,5 +1,8 @@
 import { FlipCard } from "@/components/Cards/Flip";
-import { FillInTheBlank, Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import {
+  FillInTheBlank,
+  Question,
+} from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 
 import styles from "../../../Cards/BoardCard/styles.module.css";
 
@@ -9,9 +12,9 @@ export interface PreVocabulary {
 }
 
 interface PreVocabularyProps {
-  flipCards: FlipCard[]
-  preVocabularies: PreVocabulary[]
-  fillInTheBlanks: Question[]
+  flipCards: FlipCard[];
+  preVocabularies: PreVocabulary[];
+  fillInTheBlanks: Question[];
 }
 
 export const PreVocabulary = ({
@@ -37,7 +40,6 @@ export const PreVocabulary = ({
           Let's flip the cards (randomly) and match the pictures with the
           vocabulary below.
         </p>
-        {/* flipCards */}
         <FlipCard flipCards={flipCards} />
         {/* Words */}
         <div className="flex-8px-center-wrap">
@@ -47,13 +49,7 @@ export const PreVocabulary = ({
             </span>
           ))}
         </div>
-        {/* fillInTheBlanks */}
-        <div className="line-break">
-          <p className="bold">
-            Now fill in the blanks with the right vocabulary.
-          </p>
-          <FillInTheBlank questions={fillInTheBlanks} />
-        </div>
+        <FillInTheBlank questions={fillInTheBlanks} />
       </div>
     </div>
   );

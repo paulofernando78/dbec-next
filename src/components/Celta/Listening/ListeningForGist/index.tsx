@@ -2,6 +2,7 @@ import styles from "../../../Cards/BoardCard/styles.module.css";
 import { AudioPlayer } from "@/components/Audioplayer";
 import { Translation } from "@/components/Collapsibles/Translation/Translation";
 import { Paragraph } from "../Paragraph";
+import { Collapsible } from "@/components/Collapsibles/Collapsible/Collapsible";
 
 interface EnParagraph {
   component?: (props: { audioSrc: string; label: string }) => JSX.Element;
@@ -18,11 +19,13 @@ export interface Paragraph {
 interface ListeningForGistProps {
   audioSrc: string;
   paragraphs: Paragraph[];
+  gistAnswer: string;
 }
 
 export const ListeningForGist = ({
   audioSrc,
   paragraphs,
+  gistAnswer,
 }: ListeningForGistProps) => {
   return (
     <div className={styles["main-card"]}>
@@ -83,6 +86,9 @@ export const ListeningForGist = ({
             </Paragraph>
           </div>
         ))}
+        <Collapsible label="Listening for Gist (Answer)">
+          <p>{gistAnswer}</p>
+        </Collapsible>
       </div>
     </div>
   );

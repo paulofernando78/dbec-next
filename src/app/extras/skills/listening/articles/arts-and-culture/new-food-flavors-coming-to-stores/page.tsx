@@ -1,18 +1,15 @@
-"use client"
+"use client";
+import { Listening } from "@/components/Lessons/Listening";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import {
-  DiscussionQuestion,
-  PreVocabulary,
-  GistQuestion,
-  Listening,
-  Paragraph,
-  ScanQuestion,
-  FollowupQuestion,
-} from "@/components/Lessons/Listening";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
+import { DiscussionQuestion } from "@/components/Celta/Introduction";
 import { FlipCard } from "@/components/Cards/Flip";
-import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import { PreVocabulary } from "@/components/Celta/Listening/PreVocabulary";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import { Paragraph } from "@/components/Celta/Listening/ListeningForGist";
+import { ScanQuestion } from "@/components/Celta/Listening/ListeningForScan";
+import { FollowupQuestion } from "@/components/Celta/Listening/FollowUp";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import {
   macAndCheeseIceCreamFlavor,
@@ -186,13 +183,6 @@ const fillInTheBlanks: Question[] = [
     correctAnswer: ["original"],
     afterBlank: " plan",
     lineBreakAfter: true,
-  },
-];
-
-const gistQuestions: GistQuestion[] = [
-  {
-    question: "...",
-    answer: "...",
   },
 ];
 
@@ -458,15 +448,14 @@ export default function NewFoodFlavorsComingToStores() {
       />
       <div className="line-break">
         <Listening
-          discussion="Check out the pictures above. Swipe them to the right and answer the questions."
           swiperFraction={swiperFraction}
           discussionQuestions={discussionQuestions}
           flipCards={flipCards}
           preVocabularies={preVocabularies}
           fillInTheBlanks={fillInTheBlanks}
-          gistQuestions={gistQuestions}
           audioSrc="https://voa-audio.voanews.eu/VLE/2024/05/21/01000000-0aff-0242-2f6f-08dc79de7d31.mp3"
           paragraphs={paragraphs}
+          gistAnswer="aaa"
           scanQuestions={scanQuestions}
           followupQuestions={followupQuestions}
         />

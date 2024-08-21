@@ -38,7 +38,7 @@ export const ListeningForScan = ({ scanQuestions }: ListeningForScanProps) => {
             <span className="display-inline p-font">
               {scanQuestion.question}
             </span>
-            <Collapsible labelBold="Answer">
+            <Collapsible label="Answer">
               <p>{scanQuestion.answer}</p>
             </Collapsible>
           </div>

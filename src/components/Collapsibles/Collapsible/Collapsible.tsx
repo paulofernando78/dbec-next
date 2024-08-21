@@ -12,13 +12,11 @@ import { Card } from "../../Cards/Card";
 
 interface CollapsibleProps {
   label?: string;
-  labelBold?: string;
   children: React.ReactElement;
 }
 
 export const Collapsible = ({
   label,
-  labelBold,
   children,
 }: CollapsibleProps) => {
   const [isOpen, setOpen] = useState(false);
@@ -42,7 +40,7 @@ export const Collapsible = ({
                 alt="Icons"
                 className={` ${"margin-right"} ${styles["plus-minus-icons"]}`}
               /> */}
-            {labelBold}
+            {label}
           </b>
         </span>
         {isOpen && <span className="block margin-top">{children}</span>}

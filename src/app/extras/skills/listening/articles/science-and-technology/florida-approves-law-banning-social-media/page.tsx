@@ -10,10 +10,7 @@ import { Paragraph } from "@/components/Celta/Listening/ListeningForGist";
 import { ScanQuestion } from "@/components/Celta/Listening/ListeningForScan";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
-import {
-  GistQuestion,
-  Listening,
-} from "@/components/Lessons/Listening";
+import { GistQuestion, Listening } from "@/components/Lessons/Listening";
 
 import {
   socialMedia1,
@@ -23,10 +20,9 @@ import {
   consent1,
   diversity1,
   enact1,
-  challenge1
+  challenge1,
 } from "@/img/index";
 import { FollowupQuestion } from "@/components/Celta/Listening/FollowUp";
-
 
 const discussionQuestions: DiscussionQuestion[] = [
   {
@@ -64,7 +60,8 @@ const swiperFraction: SwiperFractionData[] = [
 const flipCards: FlipCard[] = [
   {
     imgSrc: consent1,
-    imgAlt: "An image representing the concept of \"consent\" with a serene and symbolic depiction.",
+    imgAlt:
+      'An image representing the concept of "consent" with a serene and symbolic depiction.',
   },
   {
     imgSrc: diversity1,
@@ -336,21 +333,24 @@ const paragraphs: Paragraph[] = [
     ],
     ptParagraph:
       "A Flórida promulgou medidas adicionais destinadas a proteger as crianças de possíveis danos tecnológicos. No ano passado, tornou-se o primeiro estado a restringir fortemente o uso de telefones celulares nas escolas. A lei exige que todas as escolas públicas na Flórida proíbam o uso de celulares pelos alunos e bloqueiem serviços de redes sociais durante as aulas.",
-  }
+  },
 ];
 
 const scanQuestions: ScanQuestion[] = [
   {
     question: "What are the age restrictions mentioned in the new law?",
-    answer: "Children under 14 are banned from having a social media account. Ages 14-15 require parental permission. Parents decide for 16-17-year-olds.",
+    answer:
+      "Children under 14 are banned from having a social media account. Ages 14-15 require parental permission. Parents decide for 16-17-year-olds.",
   },
   {
     question: "Why did Governor DeSantis veto the first version of the bill?",
-    answer: "Governor DeSantis vetoed the first version because it was too restrictive of parental rights.",
+    answer:
+      "Governor DeSantis vetoed the first version because it was too restrictive of parental rights.",
   },
   {
     question: "What are some arguments from supporters and critics of the law?",
-    answer: "Supporters: The law protects children from online harm. Critics: It may violate the First Amendment, and parents, not the government, should decide restrictions.",
+    answer:
+      "Supporters: The law protects children from online harm. Critics: It may violate the First Amendment, and parents, not the government, should decide restrictions.",
   },
   {
     question: "When will the law take effect?",
@@ -384,7 +384,6 @@ export default function FloridaApprovesLawBanningSocialMediaForChildrenunder14()
       />
       <div className="line-break">
         <Listening
-          discussion="Check out the pictures above. Swipe them to the right and answer the questions."
           swiperFraction={swiperFraction}
           discussionQuestions={discussionQuestions}
           flipCards={flipCards}

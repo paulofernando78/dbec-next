@@ -19,7 +19,6 @@ export interface GistQuestion {
 }
 
 interface ListeningProps {
-  discussion: string;
   swiperFraction: SwiperFractionData[];
   discussionQuestions: DiscussionQuestion[];
   flipCards: FlipCard[];
@@ -27,6 +26,7 @@ interface ListeningProps {
   fillInTheBlanks: Question[];
   audioSrc: string;
   paragraphs: Paragraph[];
+  gistAnswer: string
   scanQuestions: ScanQuestion[];
   followupQuestions: FollowupQuestion[];
 }
@@ -41,6 +41,7 @@ export const Listening = ({
   fillInTheBlanks = [],
   audioSrc,
   paragraphs,
+  gistAnswer,
   scanQuestions,
   followupQuestions,
 }: ListeningProps) => {
@@ -58,6 +59,7 @@ export const Listening = ({
       <ListeningForGist
         audioSrc={audioSrc}
         paragraphs={paragraphs}
+        gistAnswer={gistAnswer}
       />
       <ListeningForScan
       scanQuestions={scanQuestions}
