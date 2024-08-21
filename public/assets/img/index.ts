@@ -225,7 +225,7 @@ export {
   addictive1,
   africanCivet,
   anticipate1,
-  asianCivet,
+  asianCivet, 
   aviationIcon,
 
   // B

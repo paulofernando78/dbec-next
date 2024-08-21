@@ -94,11 +94,11 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                     {/* Link / Label Link */}
                     {content.link && content.linkLabel && (
                       <div className={styles["grid-icon-text"]}>
-                        <Image
+                        {/* <Image
                           src={linkIcon}
                           alt="Link icon"
                           className="icon-general"
-                        />{" "}
+                        />{" "} */}
                         <Link href={content.link}>
                           <p
                           // className="display-inline"

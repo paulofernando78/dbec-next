@@ -23,7 +23,7 @@ export default function ElementaryLesson() {
         subtitle="..."
         descriptions={["..."]}
       />
-      <div className="line-break">
+      {/* <div className="line-break">
         <WarmUp>
           <p>...</p>
         </WarmUp>
@@ -110,7 +110,7 @@ export default function ElementaryLesson() {
           </div>
         </Production>
         <WrapUp />
-      </div>
+      </div> */}
     </>
   );
 }

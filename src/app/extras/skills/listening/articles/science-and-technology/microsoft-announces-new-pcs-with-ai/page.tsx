@@ -1,18 +1,19 @@
 "use client";
+import { Listening } from "@/components/Lessons/Listening";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import {
-  DiscussionQuestion,
-  PreVocabulary,
-  GistQuestion,
-  Listening,
-  Paragraph,
-  ScanQuestion,
-  FollowupQuestion,
-} from "@/components/Lessons/Listening";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
+import { DiscussionQuestion } from "@/components/Celta/Introduction";
+import { FlipCard } from "@/components/Cards/Flip";
+import { PreVocabulary } from "@/components/Celta/Listening/PreVocabulary";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import { Paragraph } from "@/components/Celta/Listening/ListeningForGist";
+import { ScanQuestion } from "@/components/Celta/Listening/ListeningForScan";
+import { FollowupQuestion } from "@/components/Celta/Listening/FollowUp";
+import { ScrollToTop } from "@/components/ScrollToTop";
+
+// Images
 import {
-  cat1,
   personHoldingTwoComputers,
   personMakingSpeech1,
   personHoldingPhone1,
@@ -24,9 +25,6 @@ import {
   upgrade1,
   intent1
 } from "@/img/index";
-import { ScrollToTop } from "@/components/ScrollToTop";
-import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
-import { FlipCard } from "@/components/Cards/Flip";
 
 const swiperFraction: SwiperFractionData[] = [
   {
@@ -228,13 +226,6 @@ const fillInTheBlanks: Question[] = [
   },
   
   
-];
-
-const gistQuestions: GistQuestion[] = [
-  {
-    question: "What's the main idea of the text?",
-    answer: "The main idea of the text is that Microsoft is releasing new computers with built-in AI tools, specifically an advanced version of its AI assistant, Copilot. These new \"AI-ready\" PCs will enhance user experience with features like live language translation, image creation, voice commands, and a memory tool called Windows Recall. The AI operations will be performed on the device itself, ensuring faster performance and user privacy. Microsoft introduced these innovations at an event ahead of its annual developer conference, highlighting its commitment to integrating AI technology across its product offerings.",
-  },
 ];
 
 const paragraphs: Paragraph[] = [
@@ -494,15 +485,14 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
       <div className="line-break">
         <div>
           <Listening
-            discussion="Check out the pictures below. Swipe them to the right and answer the questions."
             swiperFraction={swiperFraction}
             discussionQuestions={discussionQuestions}
             flipCards={flipCards}
             preVocabularies={preVocabularies}
             fillInTheBlanks={fillInTheBlanks}
-            gistQuestions={gistQuestions}
             audioSrc="https://voa-audio.voanews.eu/VLE/2024/05/23/01000000-0aff-0242-868e-08dc7b2c160b.mp3"
             paragraphs={paragraphs}
+            gistAnswer="..."
             scanQuestions={scanQuestions}
             followupQuestions={followupQuestions}
           />

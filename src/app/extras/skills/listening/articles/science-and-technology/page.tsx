@@ -15,11 +15,6 @@ const contents = [
             link: "/extras/skills/listening/articles/science-and-technology/chinese-rocket-breaks-up-in-space",
             linkLabel: "Chinese Rocket Breaks Up in Space, Releasing Hundreds of Debris Pieces (August 13, 2024)",
           },
-          // Businesses Recover from Major Worldwide Tech Outage (July 24, 2024)
-          {
-            link: "/extras/skills/listening/articles/science-and-technology/business-recover-from-major-worldwide-tech-outage",
-            linkLabel: "Businesses Recover from Major Worldwide Tech Outage (July 24, 2024)",
-          },
           // Microsoft Announces New PCs with Built-in AI (May 23, 2024)
           {
             link: "/extras/skills/listening/articles/science-and-technology/microsoft-announces-new-pcs-with-ai",

@@ -391,6 +391,7 @@ export default function FloridaApprovesLawBanningSocialMediaForChildrenunder14()
           fillInTheBlanks={fillInTheBlanks}
           audioSrc="https://voa-audio.voanews.eu/VLE/2024/03/27/01000000-0aff-0242-4563-08dc4e7c6170.mp3"
           paragraphs={paragraphs}
+          gistAnswer="..."
           scanQuestions={scanQuestions}
           followupQuestions={followupQuestions}
         />

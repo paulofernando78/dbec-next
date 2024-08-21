@@ -1,20 +1,18 @@
+"use client";
+import { Listening } from "@/components/Lessons/Listening";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import {
-  DiscussionQuestion,
-  PreVocabulary,
-  GistQuestion,
-  Listening,
-  Paragraph,
-  ScanQuestion,
-  FollowupQuestion,
-} from "@/components/Lessons/Listening";
-import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
-import SwiperFraction, { SwiperFractionData } from "@/components/Swiper/Fraction";
+import { SwiperFractionData } from "@/components/Swiper/Fraction";
+import { DiscussionQuestion } from "@/components/Celta/Introduction";
+import { FlipCard } from "@/components/Cards/Flip";
+import { PreVocabulary } from "@/components/Celta/Listening/PreVocabulary";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import { Paragraph } from "@/components/Celta/Listening/ListeningForGist";
+import { ScanQuestion } from "@/components/Celta/Listening/ListeningForScan";
+import { FollowupQuestion } from "@/components/Celta/Listening/FollowUp";
+import { ScrollToTop } from "@/components/ScrollToTop";
 
 import { cat1, labEmbryo, labEmbryo2, labEmbryo3, labScientist } from "@/img/index";
-import { FlipCard } from "@/components/Cards/Flip";
 
 const swiperFraction: SwiperFractionData[] = [
   {
@@ -135,13 +133,6 @@ const fillInTheBlanks: Question[] = [
     correctAnswer: ["..."],
     afterBlank: "...",
     lineBreakAfter: true,
-  },
-];
-
-const gistQuestions: GistQuestion[] = [
-  {
-    question: "...",
-    answer: "...",
   },
 ];
 
@@ -501,31 +492,20 @@ export default function IsraeliScientistsAnnounceCreationOfEmbryoModelInLab() {
         subdescription="September 11, 2023"
       />
       <div className="line-break">
-        <SwiperFraction images={swiperFraction} />
-        <div>
-          <Listening
-            discussion="Check out the pictures above. Swipe them to the right and answer the questions."
-            swiperFraction={swiperFraction}
-            discussionQuestions={discussionQuestions}
-            flipCards={flipCards}
-            preVocabularies={preVocabularies}
-            fillInTheBlanks={fillInTheBlanks}
-            gistQuestions={gistQuestions}
-            audioSrc="..."
-            paragraphs={paragraphs}
-            scanQuestions={scanQuestions}
-            followupQuestions={followupQuestions}
-          />
-        </div>
-        {/* <Radio questions={radioExercises} /> */}
-        <p>
-          To some opponents of stem cell research, the destruction of an embryo
-          means that a potential fetus and ultimately a potential human being
-          were killed; therefore this act and the research effort behind it is
-          unethical and immoral. The basic argument is that an embryo is a
-          potential fetus and is an innocent human being."
-        </p>
+        <Listening
+          swiperFraction={swiperFraction}
+          discussionQuestions={discussionQuestions}
+          flipCards={flipCards}
+          preVocabularies={preVocabularies}
+          fillInTheBlanks={fillInTheBlanks}
+          audioSrc="..."
+          paragraphs={paragraphs}
+          gistAnswer="..."
+          scanQuestions={scanQuestions}
+          followupQuestions={followupQuestions}
+        />
       </div>
+      <ScrollToTop />
     </>
   );
 }

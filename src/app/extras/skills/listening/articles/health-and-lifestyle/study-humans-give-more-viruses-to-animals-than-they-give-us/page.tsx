@@ -13,7 +13,7 @@ import { FollowupQuestion } from "@/components/Celta/Listening/FollowUp";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
 // Images
-import { africanCivet, asianCivet } from "@/img/index";
+import { cat1, africanCivet, asianCivet } from "@/img/index";
 
 const discussionQuestions: DiscussionQuestion[] = [
   {
