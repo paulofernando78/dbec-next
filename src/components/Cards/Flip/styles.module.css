@@ -55,17 +55,17 @@
 }
 
 .front-image {
-  width: 100px;
-  height: 100px;
-  padding: 10px;
-  margin: auto;
-  
+  width: 70px;
+  height: 70px;
 }
 
 .front-text {
-  padding: 3px 10px;
-  overflow: auto; 
-  flex-grow: 1;
+  /* padding: 3px 10px; */
+  overflow: auto;
+}
+
+.front-text-padding {
+  padding-inline: 10px;
 }
 
 .back {

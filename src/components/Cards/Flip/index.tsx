@@ -9,16 +9,19 @@ export interface FlipCard {
   backText?: string;
   imgSrc?: StaticImageData;
   imgAlt?: string;
-  width?: string | number
-  height?: string | number
+  width?: string | number;
+  height?: string | number;
 }
 
 interface FlipCardsProps {
   flipCards: FlipCard[];
-  gridColumnWidth?: string
+  gridColumnWidth?: string;
 }
 
-export const FlipCard = ({ flipCards, gridColumnWidth = "155px" }: FlipCardsProps) => {
+export const FlipCard = ({
+  flipCards,
+  gridColumnWidth = "180px",
+}: FlipCardsProps) => {
   // Maintain a state object to track flipped state of each card
   const [flippedCards, setFlippedCards] = useState<{ [key: number]: boolean }>(
     {}
@@ -32,13 +35,20 @@ export const FlipCard = ({ flipCards, gridColumnWidth = "155px" }: FlipCardsProp
   };
 
   return (
-    <div className={styles["flex"]}
-    style={{gridTemplateColumns: `repeat(auto-fit, ${gridColumnWidth})`}}>
+    <div
+      className={styles["flex"]}
+      style={{ gridTemplateColumns: `repeat(auto-fit, ${gridColumnWidth})` }}
+    >
       {flipCards.map((flipCard, index) => (
-        <div key={index} className={styles["container"]}
-        style={{ width: flipCard.width || "155px",
-          height: flipCard.height || "155px"
-        }}>
+        <div
+          key={index}
+          className={styles["container"]}
+          style={{
+            width: flipCard.width || "180px",
+            height: flipCard.height || "180px",
+          }}
+        >
+          {/* handleFlip */}
           <div
             onClick={() => handleFlip(index)}
             className={`img-border ${styles["card"]} ${
@@ -57,9 +67,12 @@ export const FlipCard = ({ flipCards, gridColumnWidth = "155px" }: FlipCardsProp
                 alt="Question mark gif"
                 className={styles["front-image"]}
               />
-              {flipCard.frontText && (
-                <p className={styles["front-text"]}>{flipCard.frontText}</p>
-              )}
+              <div className={`flex-4px-start ${styles["front-text-padding"]}`}>
+                <p>{index + 1}.</p>
+                {flipCard.frontText && (
+                  <p className={styles["front-text"]}>{flipCard.frontText}</p>
+                )}
+              </div>
             </div>
             {/* Back */}
             <div className={styles["back"]}>

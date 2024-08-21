@@ -49,6 +49,7 @@ const swiperFraction: SwiperFractionData[] = [
 
 const flipCards: FlipCard[] = [
   {
+    frontText: "aa aa aa aa aa",
     imgSrc: disappoint1,
     imgAlt: "An image of a woman disappointed.",
   },
