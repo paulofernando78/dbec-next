@@ -492,7 +492,7 @@ export default function WeightLossOptionsForChildrenAreHardToGet() {
             fillInTheBlanks={fillInTheBlanks}
             audioSrc="https://voa-audio.voanews.eu/VLE/2024/05/23/01000000-0aff-0242-868e-08dc7b2c160b.mp3"
             paragraphs={paragraphs}
-            gistAnswer="..."
+            gistAnswer="The main issue discussed in the text is Microsoft's announcement of new computers equipped with built-in AI tools, specifically the new version of its Copilot AI assistant. The text details how these AI-ready PCs will incorporate advanced features, such as on-device AI operations, live language translation, image creation, and a new tool called Windows Recall, designed to enhance user experience by predicting user intent. The text also mentions the broader context of AI development by Microsoft and other major technology companies like Google and OpenAI."
             scanQuestions={scanQuestions}
             followupQuestions={followupQuestions}
           />
