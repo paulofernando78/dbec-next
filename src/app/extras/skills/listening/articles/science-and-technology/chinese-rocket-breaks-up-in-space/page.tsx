@@ -152,7 +152,7 @@ const preVocabularies: PreVocabulary[] = [
 const fillInTheBlanks: Question[] = [
   {
     options: true,
-    width: "100px",
+    width: "114px",
     title: "Now fill in the blank with the correct word.",
     beforeBlank: "I hate to",
     correctAnswer: ["disappoint"],
@@ -161,7 +161,7 @@ const fillInTheBlanks: Question[] = [
   },
   {
     options: true,
-    width: "100px",
+    width: "70px",
     beforeBlank: "When exactly did the incident",
     correctAnswer: ["occur"],
     afterBlank: "?",
@@ -169,7 +169,7 @@ const fillInTheBlanks: Question[] = [
   },
   {
     options: true,
-    width: "100px",
+    width: "82px",
     beforeBlank: "The beach is criss-crossed with animal",
     correctAnswer: ["tracks"],
     afterBlank: ".",
@@ -177,7 +177,7 @@ const fillInTheBlanks: Question[] = [
   },
   {
     options: true,
-    width: "100px",
+    width: "128px",
     beforeBlank: "This type of farming is simply not",
     correctAnswer: ["sustainable"],
     afterBlank: "any more.",
@@ -185,7 +185,7 @@ const fillInTheBlanks: Question[] = [
   },
   {
     options: true,
-    width: "100px",
+    width: "79px",
     beforeBlank: "A new version is in the final",
     correctAnswer: ["stages"],
     afterBlank: "of testing.",
@@ -193,7 +193,7 @@ const fillInTheBlanks: Question[] = [
   },
   {
     options: true,
-    width: "100px",
+    width: "73px",
     beforeBlank: "Emergency teams are still clearing the",
     correctAnswer: ["debris"],
     afterBlank: "from the plane crash.",
@@ -201,7 +201,7 @@ const fillInTheBlanks: Question[] = [
   },
   {
     options: true,
-    width: "100px",
+    width: "58px",
     beforeBlank: "I've cleared out all that old",
     correctAnswer: ["junk"],
     afterBlank: "in the attic.",
@@ -209,7 +209,7 @@ const fillInTheBlanks: Question[] = [
   },
   {
     options: true,
-    width: "100px",
+    width: "102px",
     beforeBlank: "We need to devise an effective long-term",
     correctAnswer: ["strategy"],
     afterBlank: ".",
