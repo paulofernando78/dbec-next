@@ -49,7 +49,6 @@ const swiperFraction: SwiperFractionData[] = [
 
 const flipCards: FlipCard[] = [
   {
-    frontText: "What's the problem with the woman?",
     imgSrc: disappoint1,
     imgAlt: "An image of a woman disappointed.",
   },
@@ -90,7 +89,6 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/d/debris.mp3",
       keyword: "debris",
       label: "debris",
-      phonetics: "...",
     },
   },
   {
@@ -99,7 +97,6 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/s/space-junk.mp3",
       keyword: "junk",
       label: "space junk",
-      phonetics: "...",
     },
   },
   {
@@ -108,7 +105,6 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/s/stage.mp3",
       keyword: "stage",
       label: "stage",
-      phonetics: "...",
     },
   },
   {
@@ -117,7 +113,6 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/t/track.mp3",
       keyword: "track",
       label: "track",
-      phonetics: "...",
     },
   },
   {
@@ -126,7 +121,6 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/s/strategy.mp3",
       keyword: "strategy",
       label: "strategy",
-      phonetics: "...",
     },
   },
   {
@@ -135,7 +129,6 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/s/sustainable.mp3",
       keyword: "sustainable",
       label: "sustainable",
-      phonetics: "...",
     },
   },
   {
@@ -144,7 +137,6 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/d/disappoint.mp3",
       keyword: "disappoint",
       label: "disappoint",
-      phonetics: "...",
     },
   },
   {
@@ -153,7 +145,6 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/o/occur.mp3",
       keyword: "occur",
       label: "occur",
-      phonetics: "...",
     },
   },
 ];
