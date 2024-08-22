@@ -49,6 +49,26 @@
     ]
   },
   {
+    "keyword": "debris",
+    "definitions": [
+      {
+        "audio": "/d/debris-noun.mp3",
+        "word": "debris",
+        "phonetics": "/dəˈbriː/",
+        "partOfSpeech": "noun",
+        "enDefinition": "broken or torn pieces of something larger",
+        "ptDefinition": "escombros, entulho",
+        "examples": [
+          {
+            "enExample": "Debris from the aircraft was scattered over a large area.",
+            "ptExample": "Destroços da aeronave foram espalhados por uma grande área."
+          }
+        ],
+        "synonyms": "detritus"
+      }
+    ]
+  },
+  {
     "keyword": "dulce de leche",
     "definitions": [
       {

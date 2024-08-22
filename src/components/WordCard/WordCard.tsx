@@ -4,6 +4,8 @@ import { Card } from "../Cards/Card";
 
 import styles from "./styles.module.css";
 
+const AudioSrcBase = "/assets/audio/dictionary"
+
 export function WordCard({ dictionary }: WordCardProps) {
   return (
     <div className={styles["word-card-margin"]}>
@@ -17,7 +19,7 @@ export function WordCard({ dictionary }: WordCardProps) {
               <>
                 {definition.audio && (
                   <div className={styles["audio-player-margin-top"]}>
-                    <AudioPlayer audioSrc={definition.audio} />
+                    <AudioPlayer audioSrc={`${AudioSrcBase}/${definition.audio}`} />
                   </div>
                 )}
                 {definition.word && (

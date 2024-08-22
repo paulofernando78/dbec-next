@@ -209,7 +209,8 @@ export default function TheAlphabet() {
           <p>The letter "c" has the same sound as the word "see".</p>
           <p>The letter H <span className="phonetics">/eɪtʃ/</span> doesn't have the same sound as the number 8 <span className="phonetics">/eɪt/</span></p>
           <p>The letter "t" has the same sound as the drink "tea".</p>
-          <p>The letter "u" has the same sound as the word "you"</p>
+          <p>The letter "u" has the same sound as the word "you".</p>
+          <p>The letter "y" has the same sound as the word "why".</p>
         </NoteCard>
       
     </div>
