@@ -10,7 +10,7 @@ interface NoteCardProps {
 export const NoteCard = ({ children }: NoteCardProps) => {
   return (
     <div className={`line-break ${styles["card"]}`}>
-      <div className="flex-8px-center">
+      <div className="flex-8px-center-wrap">
         <Image src={exclamationIcon} alt="Exclamation mark" className="icon-general"/>
         <p className="bold">Notes</p>
       </div>
