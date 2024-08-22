@@ -44,7 +44,7 @@ export const PreVocabulary = ({
         </p>
         <FlipCard flipCards={flipCards} />
         {/* Words */}
-        <div className="flex-8px-center-wrap">
+        <div className="flex-8px-wrap">
           {preVocabularies?.map((preVocabulary, indexPreVocabulary) => (
             <span key={indexPreVocabulary} className="p-font">
               {getAlphabet(indexPreVocabulary)}){" "}{preVocabulary.component(preVocabulary.componentProps)}

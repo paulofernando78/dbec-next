@@ -67,7 +67,7 @@ export const FlipCard = ({
                 alt="Question mark gif"
                 className={styles["front-image"]}
               />
-              <div className={`flex-4px-start ${styles["front-text-padding"]}`}>
+              <div className={`flex ${styles["front-text-padding"]}`}>
                 <p>{index + 1}.</p>
                 {flipCard.frontText && (
                   <p className={styles["front-text"]}>{flipCard.frontText}</p>

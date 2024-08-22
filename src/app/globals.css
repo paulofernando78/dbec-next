@@ -15,10 +15,10 @@
   --box-shadow: 0 0 5px 0.5px #999;
   --border-radius: 5px;
   --padding: 2px 7px;
-  --beginner: #FCC418;
-  --elementary: #EC3B3B;
-  --pre-intermediate: #1F8FEB;
-  --intermediate: #81C221;
+  --beginner: #fcc418;
+  --elementary: #ec3b3b;
+  --pre-intermediate: #1f8feb;
+  --intermediate: #81c221;
   --upper-intermediate: ;
   --advanced: ;
   /* --isActive: #F77D7A; */
@@ -246,9 +246,16 @@ p {
   display: none;
 }
 
+/* Flex */
+
+.flex {
+  display: flex;
+  align-items: start;
+}
+
 .flex-4px-start {
   display: flex;
-  gap: 8px;
+  gap: 4px;
   align-items: start;
 }
 
@@ -256,6 +263,12 @@ p {
   display: flex;
   gap: 8px;
   align-items: start;
+  flex-wrap: wrap;
+}
+
+.flex-8px-wrap {
+  display: flex;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
@@ -314,6 +327,8 @@ p {
   grid-template-columns: 1fr 1fr;
   gap: 8px;
 }
+
+/* Grid */
 
 .grid-3fr-8px {
   display: grid;
@@ -402,12 +417,17 @@ hr {
   border-color: rgba(255, 255, 255, 0.5);
 }
 
+@media (max-width: 500px) {
+  .flex-8px-wrap {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 768px) {
   .img-border {
     width: 100%;
     height: fit-content;
   }
-
   .grid-2fr-8px,
   .grid-3fr-8px {
     display: grid;
