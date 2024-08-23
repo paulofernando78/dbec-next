@@ -1,11 +1,14 @@
-"use client"
+"use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { VocabularyGrammar } from "@/components/Lessons/VocabularyGrammar";
 import { WarmUpData } from "@/components/Celta/WarmUp";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
 
 import { DiscussionQuestionData } from "@/components/Celta/Introduction";
-import { Presentation } from "@/components/Celta/VocabularyGrammar/Presentation";
+import {
+  Presentation,
+  PresentationData,
+} from "@/components/Celta/VocabularyGrammar/Presentation";
 import { Meaning } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
 import { Pronunciation } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
 import { FormUse } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
@@ -18,7 +21,8 @@ import { HCOP } from "@/components/Celta/VocabularyGrammar/Practice/HCOP";
 import { LCOP } from "@/components/Celta/VocabularyGrammar/Practice/LCOP";
 import { Production } from "@/components/Celta/VocabularyGrammar/Production";
 
-import { cat1 } from "@/img/index"
+import { cat1 } from "@/img/index";
+import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const warmUps: WarmUpData[] = [
   {
@@ -32,29 +36,40 @@ const warmUps: WarmUpData[] = [
 const swiperFraction: SwiperFractionData[] = [
   {
     imgSrc: cat1,
-    imgAlt: "..."
-  }
-]
+    imgAlt: "...",
+  },
+];
 
 const discussedQuestions: DiscussionQuestionData[] = [
   {
     questions: [
       {
-        question: "..."
+        question: "1. ...",
       },
       {
-        question: "..."
-      }
-    ]
+        component: (props) => <DictionaryCard {...props} />,
+        componentProps: {
+          audioSrc: "/.../....mp3",
+          label: "...",
+        },
+        question: "...",
+      },
+    ],
   },
   {
     questions: [
       {
-        question: "..."
+        question: "2.",
       },
-    ]
-  }
-]
+    ],
+  },
+];
+
+const presentations: PresentationData[] = [
+  {
+    text: "...",
+  },
+];
 
 export default function MockVocabularyGrammar() {
   return (
@@ -66,17 +81,13 @@ export default function MockVocabularyGrammar() {
       />
       <div className="line-break">
         <VocabularyGrammar
-        warmUps={warmUps}
-        swiperFraction={swiperFraction}
-        discussedQuestions={discussedQuestions}
+          warmUps={warmUps}
+          swiperFraction={swiperFraction}
+          discussedQuestions={discussedQuestions}
+          presentations={presentations}
         />
         {/* <div className="line-break">
-          <WarmUp>
-            <p>...</p>
-          </WarmUp>
-          <Introduction>
-            <p>...</p>
-          </Introduction>
+
           <Presentation>
             <div className="celta-line-break">
               <Meaning>

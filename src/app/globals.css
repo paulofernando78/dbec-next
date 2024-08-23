@@ -210,8 +210,11 @@ p {
   margin: 1.25rem 0;
 }
 
-.margin-sides {
+.margin-inline {
   margin: 0 8px;
+}
+.margin-inline-3px {
+  margin: 0 3px;
 }
 
 .display-inline {
