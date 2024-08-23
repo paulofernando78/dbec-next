@@ -213,7 +213,7 @@ export default function TheAlphabet() {
           <span className="phonetics">/zed/</span>
         </p>
         <p>**Don't confuse the letters "a", "e", and "i".</p>
-        <p>The letter "c" has the same sound as the word "see".</p>
+        <p>The letter "c" has the same sound as the words "see", and "sea".</p>
         <p>
           The letter "h" <span className="phonetics">/eɪtʃ/</span> doesn't have
           the same sound as the number 8{" "}

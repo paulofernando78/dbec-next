@@ -9,9 +9,12 @@ import {
   Presentation,
   PresentationData,
 } from "@/components/Celta/VocabularyGrammar/Presentation";
-import { Meaning } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
-import { Pronunciation } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
-import { FormUse } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
+import {
+  Meaning,
+  MeaningData,
+} from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
+import { Pronunciation, PronunciationData } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
+import { FormUse, FormUseData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
 import { CCQ } from "@/components/Celta/VocabularyGrammar/Presentation/CCQ";
 import { Practice } from "@/components/Celta/VocabularyGrammar/Practice";
 import { HCWP } from "@/components/Celta/VocabularyGrammar/Practice/HCWP";
@@ -71,6 +74,24 @@ const presentations: PresentationData[] = [
   },
 ];
 
+const meanings: MeaningData[] = [
+  {
+    text: "...",
+  },
+];
+
+const pronunciations: PronunciationData[] = [
+  {
+    text: "...",
+  },
+];
+
+const formUses: FormUseData[] = [
+  {
+    text: "...",
+  },
+];
+
 export default function MockVocabularyGrammar() {
   return (
     <>
@@ -85,6 +106,9 @@ export default function MockVocabularyGrammar() {
           swiperFraction={swiperFraction}
           discussedQuestions={discussedQuestions}
           presentations={presentations}
+          meanings={meanings}
+          pronunciations={pronunciations}
+          formUses={formUses}
         />
         {/* <div className="line-break">
 

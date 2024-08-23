@@ -1,11 +1,14 @@
-import { ReactNode } from "react";
 import styles from "../../../../Cards/BoardCard/styles.module.css";
 
+export interface MeaningData {
+  text: string
+} 
+
 interface MeaningProps {
-  children: ReactNode;
+  meanings: MeaningData[]
 }
 
-export const Meaning = ({ children }: MeaningProps) => {
+export const Meaning = ({ meanings }: MeaningProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -16,7 +19,11 @@ export const Meaning = ({ children }: MeaningProps) => {
           <span className="bold">Meaning</span>
         </p>
       </div>
-      <div className={styles["children"]}>{children}</div>
+      <div className={styles["children"]}>
+        {meanings.map((meaning, meaningIndex) => (
+          <p key={meaningIndex}>{meaning.text}</p>
+        ))}
+      </div>
     </div>
   );
 };

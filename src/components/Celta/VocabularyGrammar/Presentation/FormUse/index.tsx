@@ -1,11 +1,14 @@
-import { ReactNode } from "react";
 import styles from "../../../../Cards/BoardCard/styles.module.css";
 
-interface FormUseProps {
-  children: ReactNode;
+export interface FormUseData {
+  text: string
 }
 
-export const FormUse = ({ children }: FormUseProps) => {
+interface FormUseProps {
+formUses: FormUseData[]
+}
+
+export const FormUse = ({ formUses }: FormUseProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -16,7 +19,11 @@ export const FormUse = ({ children }: FormUseProps) => {
           <span className="bold">Form/Use</span>
         </p>
       </div>
-      <div className={styles["children"]}>{children}</div>
+      <div className={styles["children"]}>
+        {formUses.map((formUse, formUseIndex) => (
+          <p key={formUseIndex}>{formUse.text}</p>
+        ))}
+      </div>
     </div>
   );
 };

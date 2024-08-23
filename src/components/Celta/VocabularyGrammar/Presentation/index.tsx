@@ -1,8 +1,7 @@
-import { ReactNode } from "react";
 import styles from "../../../Cards/BoardCard/styles.module.css";
-import { Meaning } from "./Meaning";
-import { Pronunciation } from "./Pronunciation";
-import { FormUse } from "./FormUse";
+import { Meaning, MeaningData } from "./Meaning";
+import { Pronunciation, PronunciationData } from "./Pronunciation";
+import { FormUse, FormUseData } from "./FormUse";
 
 export interface PresentationData {
   text: string;
@@ -10,9 +9,17 @@ export interface PresentationData {
 
 interface PresentationProps {
   presentations: PresentationData[];
+  meanings: MeaningData[];
+  pronunciations: PronunciationData[];
+  formUses: FormUseData[];
 }
 
-export const Presentation = ({ presentations }: PresentationProps) => {
+export const Presentation = ({
+  presentations,
+  meanings,
+  pronunciations,
+  formUses,
+}: PresentationProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -28,17 +35,16 @@ export const Presentation = ({ presentations }: PresentationProps) => {
       </div>
 
       {/* text */}
-      <div className={styles["children"]}>
+      <div className={`line-break ${styles["children"]}`}>
         {presentations.map((presentation, presentationIndex) => (
           <p key={presentationIndex}>{presentation.text}</p>
         ))}
 
-      {/* Meaning */}
-      <div className="line-break">
-        <Meaning />
-        <Pronunciation />
-        <FormUse />
-      </div>
+        <div className="line-break">
+          <Meaning meanings={meanings} />
+          <Pronunciation pronunciations={pronunciations} />
+          <FormUse formUses={formUses} />
+        </div>
       </div>
     </div>
   );

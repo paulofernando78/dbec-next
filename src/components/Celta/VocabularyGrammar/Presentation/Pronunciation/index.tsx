@@ -1,11 +1,14 @@
-import { ReactNode } from "react";
 import styles from "../../../../Cards/BoardCard/styles.module.css";
 
-interface PronunciationProps {
-  children: ReactNode;
+export interface PronunciationData {
+text: string
 }
 
-export const Pronunciation = ({ children }: PronunciationProps) => {
+interface PronunciationProps {
+pronunciations: PronunciationData[]
+}
+
+export const Pronunciation = ({ pronunciations }: PronunciationProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -16,7 +19,11 @@ export const Pronunciation = ({ children }: PronunciationProps) => {
           <span className="bold">Pronunciation</span>
         </p>
       </div>
-      <div className={styles["children"]}>{children}</div>
+      <div className={styles["children"]}>
+        {pronunciations.map((pronunciation, pronunciationIndex) => (
+          <p key={pronunciationIndex}>{pronunciation.text}</p>
+        ))}
+      </div>
     </div>
   );
 };
