@@ -2,8 +2,8 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { Card } from "@/components/Cards/Card";
 import { AudioPlayer } from "@/components/Audioplayer";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
+import { FillInTheBlanks } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { FillInTheBlank } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 import SwiperFraction, {
   SwiperFractionData,
 } from "@/components/Swiper/Fraction";
@@ -253,7 +253,7 @@ export default function Mocks() {
         <Card bgColor="black" textColor="white">
           <b>Fill in The Blanks</b>
         </Card>
-        <FillInTheBlank questions={fillInTheBlanks} />
+        <FillInTheBlanks questions={fillInTheBlanks} />
         <Card bgColor="black" textColor="white">
           <b>Dictionary Card</b>
         </Card>

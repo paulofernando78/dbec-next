@@ -2,13 +2,13 @@ import { Collapsible } from "@/components/Collapsibles/Collapsible/Collapsible";
 
 import styles from "../../../Cards/BoardCard/styles.module.css";
 
-export interface ScanQuestion {
+export interface ScanQuestionData {
   question: string;
   answer: string;
 }
 
 interface ListeningForScanProps {
-  scanQuestions: ScanQuestion[];
+  scanQuestions: ScanQuestionData[];
 }
 
 export const ListeningForScan = ({ scanQuestions }: ListeningForScanProps) => {

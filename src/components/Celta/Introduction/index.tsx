@@ -1,7 +1,7 @@
 import styles from "../../Cards/BoardCard/styles.module.css";
 import SwiperFraction, { SwiperFractionData } from "@/components/Swiper/Fraction";
 
-export interface DiscussionQuestion {
+export interface DiscussionQuestionData {
   questions: {
     question?: string;
     component?: (props: any) => JSX.Element;
@@ -11,7 +11,7 @@ export interface DiscussionQuestion {
 
 interface IntroductionProps {
   swiperFraction?: SwiperFractionData[]
-  discussionQuestions?: DiscussionQuestion[]
+  discussionQuestions?: DiscussionQuestionData[]
 }
 
 export const Introduction = ({ swiperFraction, discussionQuestions }: IntroductionProps) => {

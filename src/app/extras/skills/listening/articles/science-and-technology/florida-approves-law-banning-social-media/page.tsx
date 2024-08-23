@@ -1,17 +1,19 @@
-"use client";
+"use client"
+
+import { Listening } from "@/components/Lessons/Listening";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
-import { DiscussionQuestion } from "@/components/Celta/Introduction";
-import { FlipCard } from "@/components/Cards/Flip";
-import { PreVocabulary } from "@/components/Celta/Listening/PreVocabulary";
+import { DiscussionQuestionData } from "@/components/Celta/Introduction";
+import { FlipCardData } from "@/components/Cards/Flip";
+import { PreVocabularyData } from "@/components/Celta/Listening/PreVocabulary";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
-import { Paragraph } from "@/components/Celta/Listening/ListeningForGist";
-import { ScanQuestion } from "@/components/Celta/Listening/ListeningForScan";
+import { FillInTheBlanksData } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import { ParagraphData } from "@/components/Celta/Listening/ListeningForGist";
+import { ScanQuestionData } from "@/components/Celta/Listening/ListeningForScan";
+import { FollowupQuestionData } from "@/components/Celta/Listening/FollowUp";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
-import { GistQuestion, Listening } from "@/components/Lessons/Listening";
-
+// Images
 import {
   socialMedia1,
   socialMedia2,
@@ -22,9 +24,8 @@ import {
   enact1,
   challenge1,
 } from "@/img/index";
-import { FollowupQuestion } from "@/components/Celta/Listening/FollowUp";
 
-const discussionQuestions: DiscussionQuestion[] = [
+const discussionQuestions: DiscussionQuestionData[] = [
   {
     questions: [
       {
@@ -57,7 +58,7 @@ const swiperFraction: SwiperFractionData[] = [
   },
 ];
 
-const flipCards: FlipCard[] = [
+const flipCards: FlipCardData[] = [
   {
     imgSrc: consent1,
     imgAlt:
@@ -81,7 +82,7 @@ const flipCards: FlipCard[] = [
   },
 ];
 
-const preVocabularies: PreVocabulary[] = [
+const preVocabularies: PreVocabularyData[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
@@ -129,7 +130,7 @@ const preVocabularies: PreVocabulary[] = [
   },
 ];
 
-const fillInTheBlanks: Question[] = [
+const fillInTheBlanks: FillInTheBlanksData[] = [
   {
     options: true,
     width: "100px",
@@ -175,15 +176,7 @@ const fillInTheBlanks: Question[] = [
   },
 ];
 
-const gistQuestions: GistQuestion[] = [
-  {
-    question: "What is the main topic of the news report?",
-    answer:
-      "The main topic of the news report is a new law in Florida that regulates children's access to social media, requiring parental permission for 14- and 15-year-olds.",
-  },
-];
-
-const paragraphs: Paragraph[] = [
+const paragraphs: ParagraphData[] = [
   {
     enParagraphs: [
       {
@@ -336,7 +329,7 @@ const paragraphs: Paragraph[] = [
   },
 ];
 
-const scanQuestions: ScanQuestion[] = [
+const scanQuestions: ScanQuestionData[] = [
   {
     question: "What are the age restrictions mentioned in the new law?",
     answer:
@@ -358,7 +351,7 @@ const scanQuestions: ScanQuestion[] = [
   },
 ];
 
-const followupQuestions: FollowupQuestion[] = [
+const followupQuestions: FollowupQuestionData[] = [
   {
     enQuestion: "Do you agree with the age restrictions? Why or why not?",
     // ptQuestion: "Você concorda com as restrições de idade? Por quê?",

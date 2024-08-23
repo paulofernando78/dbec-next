@@ -2,14 +2,14 @@
 import { Listening } from "@/components/Lessons/Listening";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
-import { DiscussionQuestion } from "@/components/Celta/Introduction";
-import { FlipCard } from "@/components/Cards/Flip";
-import { PreVocabulary } from "@/components/Celta/Listening/PreVocabulary";
+import { DiscussionQuestionData } from "@/components/Celta/Introduction";
+import { FlipCardData } from "@/components/Cards/Flip";
+import { PreVocabularyData } from "@/components/Celta/Listening/PreVocabulary";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
-import { Paragraph } from "@/components/Celta/Listening/ListeningForGist";
-import { ScanQuestion } from "@/components/Celta/Listening/ListeningForScan";
-import { FollowupQuestion } from "@/components/Celta/Listening/FollowUp";
+import { FillInTheBlanksData } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import { ParagraphData } from "@/components/Celta/Listening/ListeningForGist";
+import { ScanQuestionData } from "@/components/Celta/Listening/ListeningForScan";
+import { FollowupQuestionData } from "@/components/Celta/Listening/FollowUp";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
 import { cat1, labEmbryo, labEmbryo2, labEmbryo3, labScientist } from "@/img/index";
@@ -37,7 +37,7 @@ const swiperFraction: SwiperFractionData[] = [
   },
 ];
 
-const discussionQuestions: DiscussionQuestion[] = [
+const discussionQuestions: DiscussionQuestionData[] = [
   {
     questions: [
       {
@@ -70,7 +70,7 @@ const discussionQuestions: DiscussionQuestion[] = [
   },
 ];
 
-const flipCards: FlipCard[] = [
+const flipCards: FlipCardData[] = [
   {
     frontText: "What's the past of ask?",
     imgSrc: cat1,
@@ -79,7 +79,7 @@ const flipCards: FlipCard[] = [
   }
 ]
 
-const preVocabularies: PreVocabulary[] = [
+const preVocabularies: PreVocabularyData[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
@@ -125,7 +125,7 @@ const preVocabularies: PreVocabulary[] = [
   },
 ];
 
-const fillInTheBlanks: Question[] = [
+const fillInTheBlanks: FillInTheBlanksData[] = [
   {
     options: true,
     width: "100px",
@@ -136,7 +136,7 @@ const fillInTheBlanks: Question[] = [
   },
 ];
 
-const paragraphs: Paragraph[] = [
+const paragraphs: ParagraphData[] = [
   {
     paragraphNumber: "Paragraph 1",
     enParagraphs: [
@@ -361,7 +361,7 @@ const paragraphs: Paragraph[] = [
   },
 ];
 
-const scanQuestions: ScanQuestion[] = [
+const scanQuestions: ScanQuestionData[] = [
   {
     question: "What institute conducted the research?",
     answer: "",
@@ -390,7 +390,7 @@ const scanQuestions: ScanQuestion[] = [
   },
 ];
 
-const followupQuestions: FollowupQuestion[] = [
+const followupQuestions: FollowupQuestionData[] = [
   {
     enQuestion:
       "What are your thoughts on using stem cells to create embryo models?",

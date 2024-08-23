@@ -4,7 +4,7 @@ import { VocabularyGrammar } from "@/components/Lessons/VocabularyGrammar";
 import { WarmUpData } from "@/components/Celta/WarmUp";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
 
-import { DiscussionQuestion } from "@/components/Celta/Introduction";
+import { DiscussionQuestionData } from "@/components/Celta/Introduction";
 import { Presentation } from "@/components/Celta/VocabularyGrammar/Presentation";
 import { Meaning } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
 import { Pronunciation } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
@@ -36,7 +36,7 @@ const swiperFraction: SwiperFractionData[] = [
   }
 ]
 
-const discussedQuestions: DiscussionQuestion[] = [
+const discussedQuestions: DiscussionQuestionData[] = [
   {
     questions: [
       {

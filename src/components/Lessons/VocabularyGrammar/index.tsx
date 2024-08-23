@@ -1,6 +1,6 @@
 import { WarmUp, WarmUpData } from "@/components/Celta/WarmUp";
 import {
-  DiscussionQuestion,
+  DiscussionQuestionData,
   Introduction,
 } from "@/components/Celta/Introduction";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
@@ -8,7 +8,7 @@ import { SwiperFractionData } from "@/components/Swiper/Fraction";
 interface VocabularyGrammarProps {
   warmUps: WarmUpData[];
   swiperFraction: SwiperFractionData[];
-  discussedQuestions: DiscussionQuestion[];
+  discussedQuestions: DiscussionQuestionData[];
 }
 
 export const VocabularyGrammar = ({

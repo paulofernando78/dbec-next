@@ -10,7 +10,7 @@ interface EnParagraph {
   enParagraph?: string;
 }
 
-export interface Paragraph {
+export interface ParagraphData {
   paragraphNumber?: string;
   enParagraphs?: EnParagraph[];
   ptParagraph?: string;
@@ -18,7 +18,7 @@ export interface Paragraph {
 
 interface ListeningForGistProps {
   audioSrc: string;
-  paragraphs: Paragraph[];
+  paragraphs: ParagraphData[];
   gistAnswer: string;
 }
 

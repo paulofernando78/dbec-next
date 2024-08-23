@@ -12,7 +12,7 @@ import incorrectIcon from "@/img/icon/incorrect.png";
 // CCS
 import styles from "./styles.module.css";
 
-export interface Question {
+export interface FillInTheBlanksData {
   options: boolean;
   width?: string;
   title?: string;
@@ -27,11 +27,14 @@ export interface Question {
 }
 
 interface FillInTheBlankProps {
-  questions: Question[];
+  questions: FillInTheBlanksData[];
   display?: string;
 }
 
-export const FillInTheBlank = ({ questions, display }: FillInTheBlankProps) => {
+export const FillInTheBlanks = ({
+  questions,
+  display,
+}: FillInTheBlankProps) => {
   const [selectedOptions, setSelectedOptions] = useState(
     questions.map(() => [""])
   );

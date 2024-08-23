@@ -3,7 +3,7 @@ import { Card } from "@/components/Cards/Card";
 import Image from "next/image";
 import styles from "./styles.module.css";
 import { BoardCard } from "@/components/Cards/BoardCard";
-import { FillInTheBlank } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+
 
 // Images
 import {
@@ -13,6 +13,7 @@ import {
   inFiveMinutes,
 } from "@/img/index";
 import { ExclamationIcon } from "@/components/Icon/ExclamationIcon/Idex";
+import { FillInTheBlanks } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 
 const fillInTheBlanks = [
   {
@@ -564,7 +565,7 @@ export default function Unit103() {
         {/* Exercises */}
         <BoardCard label="Exercise" bgColor="lightgray" textColor="black">
           <div className="line-break">
-            <FillInTheBlank questions={fillInTheBlanks} />
+            <FillInTheBlanks questions={fillInTheBlanks} />
           </div>
         </BoardCard>
       </div>

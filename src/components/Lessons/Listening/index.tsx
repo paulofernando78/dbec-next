@@ -1,40 +1,43 @@
 import {
   Introduction,
-  DiscussionQuestion,
+  DiscussionQuestionData,
 } from "@/components/Celta/Introduction";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
-import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
-import { FlipCard } from "@/components/Cards/Flip";
-import { PreVocabulary } from "@/components/Celta/Listening/PreVocabulary";
+import { FillInTheBlanksData } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import { FlipCardData } from "@/components/Cards/Flip";
+import {
+  PreVocabulary,
+  PreVocabularyData,
+} from "@/components/Celta/Listening/PreVocabulary";
 import {
   ListeningForGist,
-  Paragraph,
+  ParagraphData,
 } from "@/components/Celta/Listening/ListeningForGist";
 import {
   ListeningForScan,
-  ScanQuestion,
+  ScanQuestionData,
 } from "@/components/Celta/Listening/ListeningForScan";
 import {
   FollowUp,
-  FollowupQuestion,
+  FollowupQuestionData,
 } from "@/components/Celta/Listening/FollowUp";
 
-export interface GistQuestion {
+export interface GistQuestionData {
   question: string;
   answer: string;
 }
 
 interface ListeningProps {
   swiperFraction: SwiperFractionData[];
-  discussionQuestions: DiscussionQuestion[];
-  flipCards: FlipCard[];
-  preVocabularies: PreVocabulary[];
-  fillInTheBlanks: Question[];
+  discussionQuestions: DiscussionQuestionData[];
+  flipCards: FlipCardData[];
+  preVocabularies: PreVocabularyData[];
+  fillInTheBlanks: FillInTheBlanksData[];
   audioSrc: string;
-  paragraphs: Paragraph[];
+  paragraphs: ParagraphData[];
   gistAnswer: string;
-  scanQuestions: ScanQuestion[];
-  followupQuestions: FollowupQuestion[];
+  scanQuestions: ScanQuestionData[];
+  followupQuestions: FollowupQuestionData[];
 }
 
 const baseAudioSrc = "/assets/audio/extras/listening/articles";

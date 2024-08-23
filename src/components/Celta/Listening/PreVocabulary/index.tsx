@@ -1,22 +1,23 @@
-import { FlipCard } from "@/components/Cards/Flip";
+import { FlipCard, FlipCardData } from "@/components/Cards/Flip";
 import {
-  FillInTheBlank,
-  Question,
+  FillInTheBlanks,
+  FillInTheBlanksData,
 } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 
 import { getAlphabet } from "@/utils/getAlphabet";
 
 import styles from "../../../Cards/BoardCard/styles.module.css";
+import { DiscussionQuestionData } from "../../Introduction";
 
-export interface PreVocabulary {
+export interface PreVocabularyData {
   component: (props: { audioSrc: string; label: string }) => JSX.Element;
   componentProps: any;
 }
 
 interface PreVocabularyProps {
-  flipCards: FlipCard[];
-  preVocabularies: PreVocabulary[];
-  fillInTheBlanks: Question[];
+  flipCards: FlipCardData[];
+  preVocabularies: PreVocabularyData[];
+  fillInTheBlanks: FillInTheBlanksData[];
 }
 
 export const PreVocabulary = ({
@@ -51,7 +52,7 @@ export const PreVocabulary = ({
             </span>
           ))}
         </div>
-        <FillInTheBlank questions={fillInTheBlanks} />
+        <FillInTheBlanks questions={fillInTheBlanks} />
       </div>
     </div>
   );

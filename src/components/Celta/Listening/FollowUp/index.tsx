@@ -1,12 +1,12 @@
 import styles from "../../../Cards/BoardCard/styles.module.css";
 
-export interface FollowupQuestion {
+export interface FollowupQuestionData {
   enQuestion?: string;
   ptQuestion?: string;
 }
 
 interface FollowUpProps {
-followupQuestions: FollowupQuestion[]
+followupQuestions: FollowupQuestionData[]
 }
 
 export const FollowUp = ({ followupQuestions }: FollowUpProps) => {
