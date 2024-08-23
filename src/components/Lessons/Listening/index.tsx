@@ -3,15 +3,21 @@ import {
   DiscussionQuestion,
 } from "@/components/Celta/Introduction";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
-
-import {
-  Question,
-} from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import { Question } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
 import { FlipCard } from "@/components/Cards/Flip";
 import { PreVocabulary } from "@/components/Celta/Listening/PreVocabulary";
-import { ListeningForGist, Paragraph } from "@/components/Celta/Listening/ListeningForGist";
-import { ListeningForScan, ScanQuestion } from "@/components/Celta/Listening/ListeningForScan";
-import { FollowUp, FollowupQuestion } from "@/components/Celta/Listening/FollowUp";
+import {
+  ListeningForGist,
+  Paragraph,
+} from "@/components/Celta/Listening/ListeningForGist";
+import {
+  ListeningForScan,
+  ScanQuestion,
+} from "@/components/Celta/Listening/ListeningForScan";
+import {
+  FollowUp,
+  FollowupQuestion,
+} from "@/components/Celta/Listening/FollowUp";
 
 export interface GistQuestion {
   question: string;
@@ -26,7 +32,7 @@ interface ListeningProps {
   fillInTheBlanks: Question[];
   audioSrc: string;
   paragraphs: Paragraph[];
-  gistAnswer: string
+  gistAnswer: string;
   scanQuestions: ScanQuestion[];
   followupQuestions: FollowupQuestion[];
 }
@@ -34,8 +40,8 @@ interface ListeningProps {
 const baseAudioSrc = "/assets/audio/extras/listening/articles";
 
 export const Listening = ({
-  discussionQuestions,
   swiperFraction,
+  discussionQuestions,
   flipCards,
   preVocabularies,
   fillInTheBlanks = [],
@@ -61,12 +67,8 @@ export const Listening = ({
         paragraphs={paragraphs}
         gistAnswer={gistAnswer}
       />
-      <ListeningForScan
-      scanQuestions={scanQuestions}
-      />
-      <FollowUp
-      followupQuestions={followupQuestions}
-      />
+      <ListeningForScan scanQuestions={scanQuestions} />
+      <FollowUp followupQuestions={followupQuestions} />
     </div>
   );
 };

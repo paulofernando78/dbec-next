@@ -1,11 +1,14 @@
-import { ReactNode } from "react";
 import styles from "../../Cards/BoardCard/styles.module.css";
 
-interface WarmUpProps {
-  children: ReactNode;
+export interface WarmUpData {
+  question: string
 }
 
-export const WarmUp = ({ children }: WarmUpProps) => {
+interface WarmUpProps {
+  warmUps: WarmUpData[]
+}
+
+export const WarmUp = ({ warmUps }: WarmUpProps) => {
   return (
     <div className={styles["main-card"]}>
       <div className={styles["card"]} style={{ backgroundColor: "black", color: "white"}}>
@@ -16,7 +19,11 @@ export const WarmUp = ({ children }: WarmUpProps) => {
           <p className="p-size-smaller">5'</p>
         </div>
       </div>
-      <div className={styles["children"]}>{children}</div>
+      <div className={styles["children"]}>
+        {warmUps.map((warmUp, warmUpIndex) => (
+        <p key={warmUpIndex}>• {warmUp.question}</p>
+        ))}
+      </div>
     </div>
   );
 };

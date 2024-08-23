@@ -259,16 +259,15 @@ p {
   align-items: start;
 }
 
+.flex-8px {
+  display: flex;
+  gap: 8px;
+}
+
 .flex-8px-start-wrap {
   display: flex;
   gap: 8px;
   align-items: start;
-  flex-wrap: wrap;
-}
-
-.flex-8px-wrap {
-  display: flex;
-  gap: 8px;
   flex-wrap: wrap;
 }
 

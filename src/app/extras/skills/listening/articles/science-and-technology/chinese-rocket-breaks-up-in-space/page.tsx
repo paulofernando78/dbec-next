@@ -42,7 +42,7 @@ const swiperFraction: SwiperFractionData[] = [
   },
   {
     imgSrcLink:
-      "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://sm.mashable.com/t/mashable_in/photo/default/photo-4_1uxd.1248.png",
     imgAltLink: "...",
   },
 ];

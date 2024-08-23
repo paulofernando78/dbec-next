@@ -47,7 +47,7 @@ const discussionQuestions: DiscussionQuestion[] = [
     questions: [
       {
         question:
-          "1. What do you know about AI and its applications in everyday life?",
+          "What do you know about AI and its applications in everyday life?",
       }
     ],
   },
@@ -55,7 +55,7 @@ const discussionQuestions: DiscussionQuestion[] = [
     questions: [
       {
         question:
-          "2. How often do you use it? What for?",
+          "How often do you use it? What for?",
       },
     ],
   },
@@ -99,7 +99,6 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/c/compelling.mp3",
       keyword: "compel",
       label: "compelling ",
-      phonetics: "/kəmˈpel.ɪŋ/",
     },
   },
   {
@@ -108,7 +107,6 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/u/upgrade.mp3",
       keyword: "upgrade",
       label: "upgrade",
-      phonetics: "/ʌpˈɡreɪd/",
     },
   },
   {
@@ -117,7 +115,6 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/t/track.mp3",
       keyword: "track",
       label: "track",
-      phonetics: "/træk/",
     },
   },
   {
@@ -126,7 +123,6 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/t/translate.mp3",
       keyword: "translate",
       label: "translate",
-      phonetics: "/trænzˈleɪt/",
     },
   },
   {
@@ -135,7 +131,6 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/i/intent.mp3",
       keyword: "intent",
       label: "intent",
-      phonetics: "/ɪnˈtent/",
     },
   },
   {
@@ -144,7 +139,6 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/a/anticipate.mp3",
       keyword: "anticipate",
       label: "anticipate",
-      phonetics: "/ænˈtɪs.ə.peɪt/",
     },
   },
   {
@@ -153,7 +147,6 @@ const preVocabularies: PreVocabulary[] = [
       audioSrc: "/c/characteristic.mp3",
       keyword: "characteristic",
       label: "characteristics",
-      phonetics: "/ˌker.ək.təˈrɪs.tɪk/",
     },
   },
 ];
@@ -161,8 +154,8 @@ const preVocabularies: PreVocabulary[] = [
 const fillInTheBlanks: Question[] = [
   {
     options: true,
-    width: "100px",
-    beforeBlank: "1. 	When you order from this website, you can",
+    width: "74px",
+    beforeBlank: "When you order from this website, you can",
     correctAnswer: ["track"],
     afterBlank: "the shipment online.",
     portuguese: "Quando você faz um pedido neste site, pode ... o envio online.",
@@ -171,8 +164,8 @@ const fillInTheBlanks: Question[] = [
   
   {
     options: true,
-    width: "100px",
-    beforeBlank: "2. The police always",
+    width: "111px",
+    beforeBlank: "The police always",
     correctAnswer: [" anticipate"],
     afterBlank: "trouble at protests.",
     portuguese: "A polícia sempre ... problemas em protestos.",
@@ -181,8 +174,8 @@ const fillInTheBlanks: Question[] = [
 
   {
     options: true,
-    width: "100px",
-    beforeBlank: "3. She has some ",
+    width: "172px",
+    beforeBlank: "She has some ",
     correctAnswer: ["characteristics"],
     afterBlank: "that make her stand out from the crowd. ",
     portuguese: "Ela tem algumas ... que a fazem se destacar na multidão.",
@@ -190,8 +183,8 @@ const fillInTheBlanks: Question[] = [
   },
   {
     options: true,
-    width: "100px",
-    beforeBlank: "4. This software is really out of date; you need to",
+    width: "95px",
+    beforeBlank: "This software is really out of date; you need to",
     correctAnswer: ["upgrade"],
     afterBlank: ", if you want to stay competitive.",
     portuguese: "Este software está realmente desatualizado; você precisa fazer uma ... se quiser permanecer competitivo.",
@@ -199,8 +192,8 @@ const fillInTheBlanks: Question[] = [
   },
   {
     options: true,
-    width: "100px",
-    beforeBlank: "5. Simone",
+    width: "125px",
+    beforeBlank: "Simone",
     correctAnswer: ["translates"],
     afterBlank: "novels for a living. ",
     portuguese: "Simone ganha a vida ... romances.",
@@ -208,8 +201,8 @@ const fillInTheBlanks: Question[] = [
   },
   {
     options: true,
-    width: "100px",
-    beforeBlank: "6. The court did not find the evidence",
+    width: "121px",
+    beforeBlank: "The court did not find the evidence",
     correctAnswer: ["compelling"],
     afterBlank: ".",
     portuguese: "O tribunal não achou as evidências ...",
@@ -217,8 +210,8 @@ const fillInTheBlanks: Question[] = [
   },
   {
     options: true,
-    width: "100px",
-    beforeBlank: "7. It was not Amy's",
+    width: "73px",
+    beforeBlank: "It was not Amy's",
     correctAnswer: ["intent"],
     afterBlank: "to hurt anyone.",
     portuguese: "Não era a ... de Amy machucar ninguém.",
@@ -230,7 +223,6 @@ const fillInTheBlanks: Question[] = [
 
 const paragraphs: Paragraph[] = [
   {
-    paragraphNumber: "Paragraph 1",
     enParagraphs: [
       {
         enParagraph:
@@ -241,7 +233,6 @@ const paragraphs: Paragraph[] = [
       "Fabricante de software americana Microsoft diz que lançará novos modelos de computadores com ferramentas de inteligência artificial (IA) integradas.",
   },
   {
-    paragraphNumber: "Paragraph 2",
     enParagraphs: [
       {
         enParagraph:
@@ -252,7 +243,6 @@ const paragraphs: Paragraph[] = [
       "Os novos computadores serão equipados com uma nova versão da ferramenta de IA existente da Microsoft, chamada Copilot. O Copilot pode operar em uma série de produtos empresariais da Microsoft.",
   },
   {
-    paragraphNumber: "Paragraph 3",
     enParagraphs: [
       {
         enParagraph:
@@ -263,7 +253,6 @@ const paragraphs: Paragraph[] = [
       "O serviço Copilot é baseado na ferramenta ChatGPT da OpenAI, que foi lançada no final de 2022. O ChatGPT é uma ferramenta de IA projetada para interagir de forma fluida com humanos e realizar trabalhos de escrita e criação de alto nível. Essas ferramentas também são conhecidas como chatbots ou IA generativa.",
   },
   {
-    paragraphNumber: "Paragraph 4",
     enParagraphs: [
       {
         enParagraph:
@@ -274,7 +263,6 @@ const paragraphs: Paragraph[] = [
       "A Microsoft é um grande investidor na OpenAI. Está fornecendo poder de computação e suporte para as operações do ChatGPT.",
   },
   {
-    paragraphNumber: "Paragraph 5",
 
     enParagraphs: [
       {
@@ -285,7 +273,6 @@ const paragraphs: Paragraph[] = [
     ptParagraph: "...",
   },
   {
-    paragraphNumber: "Paragraph 6",
     enParagraphs: [
       {
         enParagraph:
@@ -296,7 +283,6 @@ const paragraphs: Paragraph[] = [
       "O evento ocorreu um dia antes da conferência anual de desenvolvedores da Microsoft. É onde a Microsoft apresenta seus mais recentes produtos e serviços para desenvolvedores e para o público.",
   },
   {
-    paragraphNumber: "Paragraph 7",
     enParagraphs: [
       {
         enParagraph:
@@ -307,7 +293,6 @@ const paragraphs: Paragraph[] = [
       "O anúncio é a mais recente iniciativa da Microsoft para implantar a tecnologia da OpenAI por meio do Copilot em muitas de suas ofertas de produtos. O sistema já está disponível para o Teams, Outlook, motor de busca Bing e sistema operacional Windows da empresa.",
   },
   {
-    paragraphNumber: "Paragraph 8",
     enParagraphs: [
       {
         enParagraph:
@@ -318,7 +303,6 @@ const paragraphs: Paragraph[] = [
       "A Microsoft disse que seus PCs baseados em IA começarão a ser lançados em 18 de junho nos modelos Surface da própria empresa. Também estarão disponíveis em PCs produzidos por parceiros. Esses incluem Lenovo, Dell, Acer e HP.",
   },
   {
-    paragraphNumber: "Paragraph 9",
     enParagraphs: [
       {
         enParagraph: '"These improvements provide the most',
@@ -340,7 +324,6 @@ const paragraphs: Paragraph[] = [
       '"Essas melhorias fornecem o motivo mais convincente para atualizar seu PC em muito tempo", disse o vice-presidente da Microsoft, Yusuf Mehdi.',
   },
   {
-    paragraphNumber: "Paragraph 10",
     enParagraphs: [
       {
         enParagraph:
@@ -351,7 +334,6 @@ const paragraphs: Paragraph[] = [
       "A Microsoft afirmou que as operações de IA nos novos PCs ocorrerão no próprio dispositivo, em vez de um servidor na nuvem. Isso significa que os usuários não precisarão esperar pelo envio e recebimento de informações dos centros de dados da empresa, nem pagarão dinheiro extra por esse serviço.",
   },
   {
-    paragraphNumber: "Paragraph 11",
     enParagraphs: [
       {
         enParagraph:
@@ -362,7 +344,6 @@ const paragraphs: Paragraph[] = [
       "A Microsoft também prometeu que qualquer atividade de rastreamento será realizada e armazenada apenas no dispositivo, não nos servidores da empresa. Além disso, os usuários poderão optar por não serem rastreados, acrescentou a empresa.",
   },
   {
-    paragraphNumber: "Paragraph 12",
     enParagraphs: [
       {
         enParagraph:
@@ -372,7 +353,6 @@ const paragraphs: Paragraph[] = [
     ptParagraph: "...",
   },
   {
-    paragraphNumber: "Paragraph 13",
     enParagraphs: [
       {
         enParagraph:
@@ -383,7 +363,6 @@ const paragraphs: Paragraph[] = [
       'As novas ofertas também incluem uma ferramenta chamada Windows Recall. Isso dá ao assistente Copilot+ o que a Microsoft descreve como uma "memória fotográfica" das atividades do computador de uma pessoa. A ferramenta é projetada para lembrar das ações que um usuário realiza no PC, com o objetivo de prever o que o usuário pode querer fazer em seguida.',
   },
   {
-    paragraphNumber: "Paragraph 14",
     enParagraphs: [
       {
         enParagraph:
@@ -394,7 +373,6 @@ const paragraphs: Paragraph[] = [
       'É um passo em direção a máquinas que "nos veem instantaneamente, ouvem, raciocinam sobre nossa intenção e nosso ambiente", disse Nadella, da Microsoft. Ele adicionou: "Estamos entrando nesta nova era onde os computadores não apenas nos entendem, mas também podem prever o que queremos e nossa intenção."',
   },
   {
-    paragraphNumber: "Paragraph 15",
     enParagraphs: [
       {
         enParagraph:
@@ -405,7 +383,6 @@ const paragraphs: Paragraph[] = [
       "O anúncio de Nadella sobre IA vem pouco depois de outros grandes players de tecnologia anunciarem novos lançamentos de seus sistemas de assistência por IA mais recentes.",
   },
   {
-    paragraphNumber: "Paragraph 16",
     enParagraphs: [
       {
         enParagraph:
@@ -416,22 +393,14 @@ const paragraphs: Paragraph[] = [
       'Na semana passada, o Google introduziu um motor de busca melhorado que exibe breves resultados produzidos por IA antes dos links diretos para sites. A empresa também apresentou um assistente de IA chamado Astra, que ainda está em desenvolvimento. Astra é projetado para poder "ver" e falar sobre coisas mostradas através da câmera de um smartphone.',
   },
   {
-    paragraphNumber: "Paragraph 17",
     enParagraphs: [
       {
         enParagraph:
-          "OpenAI introduced its latest chatbot version, ChatGPT-4o last week. Company officials demonstrated the new tool, which showed improved human characteristics that can give opinions about things. The new version also comes with tools that aim to judge a person’s emotions.",
+          "OpenAI introduced its latest chatbot version, ChatGPT-4o last week. Company officials demonstrated the new tool, which showed improved human characteristics that can give opinions about things. The new version also comes with tools that aim to judge a person’s emotions. I’m Bryan Lynn.",
       },
     ],
     ptParagraph:
       "A OpenAI introduziu sua mais recente versão de chatbot, o ChatGPT-4o, na semana passada. Os funcionários da empresa demonstraram a nova ferramenta, que mostrou características humanas melhoradas, capazes de dar opiniões sobre diversos assuntos. A nova versão também vem com ferramentas que visam avaliar as emoções de uma pessoa.",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "I’m Bryan Lynn.",
-      },
-    ],
   },
 ];
 
@@ -469,7 +438,7 @@ const followupQuestions: FollowupQuestion[] = [
   },
 ];
 
-export default function WeightLossOptionsForChildrenAreHardToGet() {
+export default function MicrosoftAnnouncesNewsPcsWithBuiltInAi() {
   return (
     <>
       <Whiteboard

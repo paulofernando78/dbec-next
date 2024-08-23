@@ -1,6 +1,6 @@
 "use client";
-import { Listening } from "@/components/Lessons/Listening";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Listening } from "@/components/Lessons/Listening";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
 import { DiscussionQuestion } from "@/components/Celta/Introduction";
 import { FlipCard } from "@/components/Cards/Flip";
@@ -14,34 +14,23 @@ import { ScrollToTop } from "@/components/ScrollToTop";
 
 import { cat1 } from "@/img/index";
 
+const swiperFraction: SwiperFractionData[] = [
+  {
+    imgSrc: cat1,
+    imgAlt: "...",
+  },
+];
+
 const discussionQuestions: DiscussionQuestion[] = [
   {
     questions: [
       {
         question: "...",
       },
-    ],
-  },
-  {
-    questions: [
       {
         question: "...",
-      },
+      }
     ],
-  },
-  {
-    questions: [
-      {
-        question: "...",
-      },
-    ],
-  },
-];
-
-const swiperFraction: SwiperFractionData[] = [
-  {
-    imgSrc: cat1,
-    imgAlt: "...",
   },
 ];
 
@@ -237,7 +226,7 @@ const followupQuestions: FollowupQuestion[] = [
   },
 ];
 
-export default function FloridaApprovesLawBanningSocialMediaForChildrenunder14() {
+export default function MockListening() {
   return (
     <>
       <Whiteboard
