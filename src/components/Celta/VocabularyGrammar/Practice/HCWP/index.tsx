@@ -1,11 +1,15 @@
 import { ReactNode } from "react";
-import styles from "../../../../Cards/BoardCard/styles.module.css"
+import styles from "../../../../Cards/BoardCard/styles.module.css";
 
-interface HCWPProps {
-  children: ReactNode;
+export interface HCWPData {
+  text: string
 }
 
-export const HCWP = ({ children }: HCWPProps) => {
+interface HCWPProps {
+  hcwps: HCWPData[]
+}
+
+export const HCWP = ({ hcwps }: HCWPProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -16,7 +20,11 @@ export const HCWP = ({ children }: HCWPProps) => {
           <span className="bold">High Control Written Practice</span>
         </p>
       </div>
-      <div className={styles["children"]}>{children}</div>
+      {hcwps.map((hcwp, hcwpIndex) => (
+        <p key={hcwpIndex} className={styles["children"]}>
+          {hcwp.text}
+        </p>
+      ))}
     </div>
   );
 };

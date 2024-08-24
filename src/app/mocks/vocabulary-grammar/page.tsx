@@ -18,6 +18,8 @@ import { PracticeData } from "@/components/Celta/VocabularyGrammar/Practice";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 import { cat1 } from "@/img/index";
+import { HCWPData } from "@/components/Celta/VocabularyGrammar/Practice/HCWP";
+import { LCWPData } from "@/components/Celta/VocabularyGrammar/Practice/LCWP";
 
 const warmUps: WarmUpData[] = [
   {
@@ -96,6 +98,18 @@ const practices: PracticeData[] = [
   }
 ]
 
+const hcwps: HCWPData[] = [
+  {
+    text: "..."
+  }
+]
+
+const lcwps: LCWPData[] = [
+  {
+    text: "..."
+  }
+]
+
 export default function MockVocabularyGrammar() {
   return (
     <>
@@ -115,6 +129,8 @@ export default function MockVocabularyGrammar() {
           formUses={formUses}
           ccqs={ccqs}
           practices={practices}
+          hcwps={hcwps}
+          lcwps={lcwps}
         />
         {/* <div className="line-break">
 
