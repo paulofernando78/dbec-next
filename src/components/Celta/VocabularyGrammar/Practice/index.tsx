@@ -1,7 +1,9 @@
-import { ReactNode } from "react";
-import styles from "../../../Cards/BoardCard/styles.module.css";
 import { HCWP, HCWPData } from "./HCWP";
 import { LCWP, LCWPData } from "./LCWP";
+import { HCOP, HCOPData } from "./HCOP";
+import { LCOP, LCOPData } from "./LCOP";
+
+import styles from "../../../Cards/BoardCard/styles.module.css";
 
 export interface PracticeData {
   text: string;
@@ -11,9 +13,11 @@ interface PracticeProps {
   practices: PracticeData[];
   hcwps: HCWPData[];
   lcwps: LCWPData[];
+  hcops: HCOPData[]
+  lcops: LCOPData[]
 }
 
-export const Practice = ({ practices, hcwps, lcwps }: PracticeProps) => {
+export const Practice = ({ practices, hcwps, lcwps, hcops, lcops }: PracticeProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -33,6 +37,8 @@ export const Practice = ({ practices, hcwps, lcwps }: PracticeProps) => {
         ))}
         <HCWP hcwps={hcwps} />
         <LCWP lcwps={lcwps} />
+        <HCOP hcops={hcops} />
+        <LCOP lcops={lcops} />
       </div>
     </div>
   );

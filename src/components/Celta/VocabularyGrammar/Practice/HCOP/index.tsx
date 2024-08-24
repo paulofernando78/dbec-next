@@ -1,11 +1,15 @@
 import { ReactNode } from "react";
-import styles from "../../../../Cards/BoardCard/styles.module.css"
+import styles from "../../../../Cards/BoardCard/styles.module.css";
 
-interface HCOPProps {
-  children: ReactNode;
+export interface HCOPData {
+  text: string;
 }
 
-export const HCOP = ({ children }: HCOPProps) => {
+interface HCOPProps {
+  hcops: HCOPData[];
+}
+
+export const HCOP = ({ hcops }: HCOPProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -16,7 +20,11 @@ export const HCOP = ({ children }: HCOPProps) => {
           <span className="bold">High Control Oral Practice</span>
         </p>
       </div>
-      <div className={styles["children"]}>{children}</div>
+      {hcops.map((hcop, hcopIndex) => (
+        <p key={hcopIndex} className={styles["children"]}>
+          {hcop.text}
+        </p>
+      ))}
     </div>
   );
 };

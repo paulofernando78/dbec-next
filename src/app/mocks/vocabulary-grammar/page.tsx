@@ -20,6 +20,9 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { cat1 } from "@/img/index";
 import { HCWPData } from "@/components/Celta/VocabularyGrammar/Practice/HCWP";
 import { LCWPData } from "@/components/Celta/VocabularyGrammar/Practice/LCWP";
+import { HCOPData } from "@/components/Celta/VocabularyGrammar/Practice/HCOP";
+import { LCOPData } from "@/components/Celta/VocabularyGrammar/Practice/LCOP";
+import { ProductionData } from "@/components/Celta/VocabularyGrammar/Production";
 
 const warmUps: WarmUpData[] = [
   {
@@ -76,7 +79,7 @@ const meanings: MeaningData[] = [
 
 const ccqs: CCQData[] = [
   {
-    text: "..."
+    text: "xxx"
   }
 ]
 
@@ -110,6 +113,24 @@ const lcwps: LCWPData[] = [
   }
 ]
 
+const hcops: HCOPData[] = [
+  {
+    text: "..."
+  }
+]
+
+const lcops: LCOPData[] = [
+  {
+    text: "..."
+  }
+]
+
+const productions: ProductionData[] = [
+  {
+    text: "..."
+  }
+]
+
 export default function MockVocabularyGrammar() {
   return (
     <>
@@ -131,6 +152,9 @@ export default function MockVocabularyGrammar() {
           practices={practices}
           hcwps={hcwps}
           lcwps={lcwps}
+          hcops={hcops}
+          lcops={lcops}
+          productions={productions}
         />
         {/* <div className="line-break">
 

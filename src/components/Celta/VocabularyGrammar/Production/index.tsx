@@ -1,11 +1,15 @@
 import { ReactNode } from "react";
 import styles from "../../../Cards/BoardCard/styles.module.css";
 
-interface ProductionProps {
-  children: ReactNode;
+export interface ProductionData {
+  text: string;
 }
 
-export const Production = ({ children }: ProductionProps) => {
+interface ProductionProps {
+  productions: ProductionData[];
+}
+
+export const Production = ({ productions }: ProductionProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -19,7 +23,11 @@ export const Production = ({ children }: ProductionProps) => {
           <p className="p-size-smaller">10'</p>
         </div>
       </div>
-      <div className={styles["children"]}>{children}</div>
+      {productions.map((production, productionIndex) => (
+        <p key={productionIndex} className={styles["children"]}>
+          {production.text}
+        </p>
+      ))}
     </div>
   );
 };

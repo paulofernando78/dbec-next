@@ -1,11 +1,15 @@
 import { ReactNode } from "react";
 import styles from "../../../../Cards/BoardCard/styles.module.css"
 
-interface LCOPProps {
-  children: ReactNode;
+export interface LCOPData {
+  text: string
 }
 
-export const LCOP = ({ children }: LCOPProps) => {
+interface LCOPProps {
+lcops: LCOPData[]
+}
+
+export const LCOP = ({ lcops }: LCOPProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -16,7 +20,11 @@ export const LCOP = ({ children }: LCOPProps) => {
           <span className="bold">Low Control Oral Practice</span>
         </p>
       </div>
-      <div className={styles["children"]}>{children}</div>
+      {lcops.map((lcop, lcopIndex) => (
+        <p key={lcopIndex} className={styles["children"]}>
+          {lcop.text}
+        </p>
+      ))}
     </div>
   );
 };

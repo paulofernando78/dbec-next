@@ -15,6 +15,10 @@ import { Practice, PracticeData } from "@/components/Celta/VocabularyGrammar/Pra
 import { CCQData } from "@/components/Celta/VocabularyGrammar/Presentation/CCQ";
 import { HCWPData } from "@/components/Celta/VocabularyGrammar/Practice/HCWP";
 import { LCWPData } from "@/components/Celta/VocabularyGrammar/Practice/LCWP";
+import { HCOPData } from "@/components/Celta/VocabularyGrammar/Practice/HCOP";
+import { LCOPData } from "@/components/Celta/VocabularyGrammar/Practice/LCOP";
+import { Production, ProductionData } from "@/components/Celta/VocabularyGrammar/Production";
+import { WrapUp } from "@/components/Celta/WrapUp";
 
 interface VocabularyGrammarProps {
   warmUps: WarmUpData[];
@@ -28,6 +32,9 @@ interface VocabularyGrammarProps {
   practices: PracticeData[]
   hcwps: HCWPData[]
   lcwps: LCWPData[]
+  hcops: HCOPData[]
+  lcops: LCOPData[]
+  productions: ProductionData[]
 }
 
 export const VocabularyGrammar = ({
@@ -41,7 +48,10 @@ export const VocabularyGrammar = ({
   ccqs,
   practices,
   hcwps,
-  lcwps
+  lcwps,
+  hcops,
+  lcops,
+  productions
 }: VocabularyGrammarProps) => {
   return (
     <div className="line-break">
@@ -60,8 +70,11 @@ export const VocabularyGrammar = ({
       practices={practices}
       hcwps={hcwps}
       lcwps={lcwps}
+      hcops={hcops}
+      lcops={lcops}
       />
-      
+      <Production productions={productions} />
+      <WrapUp />
     </div>
   );
 };

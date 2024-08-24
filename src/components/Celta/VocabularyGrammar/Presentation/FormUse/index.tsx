@@ -21,7 +21,7 @@ export const FormUse = ({ formUses, ccqs }: FormUseProps) => {
           <span className="bold">Form/Use</span>
         </p>
       </div>
-      <div className={styles["children"]}>
+      <div className={`line-break ${styles["children"]}`}>
         {formUses.map((formUse, formUseIndex) => (
           <p key={formUseIndex}>{formUse.text}</p>
         ))}
