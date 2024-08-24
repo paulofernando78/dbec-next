@@ -1,17 +1,22 @@
-import { ReactNode } from "react";
 import styles from "../../../../Cards/Card/styles.module.css";
 
-interface ICQProps {
-  children: ReactNode;
+export interface icqData {
+  text: string;
 }
 
-export const ICQ = ({ children }: ICQProps) => {
+interface ICQProps {
+  icqs: icqData[];
+}
+
+export const ICQ = ({ icqs }: ICQProps) => {
   return (
-    <div
-      className={styles["card"]}
-      style={{ backgroundColor: "#FFBABA" }}
-    >
-      <span className="p-font">{children}</span>
+    <div className={styles["card"]} style={{ backgroundColor: "#FFBABA" }}>
+      <p className="bold">Instructions</p>
+      <div className="p-font">
+        {icqs.map((icq, icqIndex) => (
+          <p key={icqIndex}> {icq.text}</p>
+        ))}
+      </div>
     </div>
   );
 };

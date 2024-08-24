@@ -1,4 +1,5 @@
 import styles from "../../../../Cards/BoardCard/styles.module.css";
+import { CCQ, CCQData } from "../CCQ";
 
 export interface MeaningData {
   text: string
@@ -6,9 +7,10 @@ export interface MeaningData {
 
 interface MeaningProps {
   meanings: MeaningData[]
+  ccqs: CCQData[]
 }
 
-export const Meaning = ({ meanings }: MeaningProps) => {
+export const Meaning = ({ meanings, ccqs }: MeaningProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -19,10 +21,11 @@ export const Meaning = ({ meanings }: MeaningProps) => {
           <span className="bold">Meaning</span>
         </p>
       </div>
-      <div className={styles["children"]}>
+      <div className={`line-break ${styles["children"]}`}>
         {meanings.map((meaning, meaningIndex) => (
           <p key={meaningIndex}>{meaning.text}</p>
         ))}
+        <CCQ ccqs={ccqs}/>
       </div>
     </div>
   );

@@ -11,6 +11,8 @@ import {
 import { MeaningData } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
 import { PronunciationData } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
 import { FormUseData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
+import { Practice, PracticeData } from "@/components/Celta/VocabularyGrammar/Practice";
+import { CCQData } from "@/components/Celta/VocabularyGrammar/Presentation/CCQ";
 
 interface VocabularyGrammarProps {
   warmUps: WarmUpData[];
@@ -20,6 +22,8 @@ interface VocabularyGrammarProps {
   meanings: MeaningData[];
   pronunciations: PronunciationData[]
   formUses: FormUseData[]
+  ccqs: CCQData[]
+  practices: PracticeData[]
 }
 
 export const VocabularyGrammar = ({
@@ -29,7 +33,9 @@ export const VocabularyGrammar = ({
   presentations,
   meanings,
   pronunciations,
-  formUses
+  formUses,
+  ccqs,
+  practices,
 }: VocabularyGrammarProps) => {
   return (
     <div className="line-break">
@@ -41,7 +47,11 @@ export const VocabularyGrammar = ({
       <Presentation
       presentations={presentations} meanings={meanings}
       pronunciations={pronunciations}
-      formUses={formUses}/>
+      formUses={formUses}
+      ccqs={ccqs}
+      />
+      <Practice
+      practices={practices} />
     </div>
   );
 };

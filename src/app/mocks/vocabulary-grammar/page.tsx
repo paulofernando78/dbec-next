@@ -1,31 +1,23 @@
 "use client";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { VocabularyGrammar } from "@/components/Lessons/VocabularyGrammar";
+import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { WarmUpData } from "@/components/Celta/WarmUp";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
-
 import { DiscussionQuestionData } from "@/components/Celta/Introduction";
 import {
-  Presentation,
   PresentationData,
 } from "@/components/Celta/VocabularyGrammar/Presentation";
 import {
-  Meaning,
   MeaningData,
 } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
-import { Pronunciation, PronunciationData } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
-import { FormUse, FormUseData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
-import { CCQ } from "@/components/Celta/VocabularyGrammar/Presentation/CCQ";
-import { Practice } from "@/components/Celta/VocabularyGrammar/Practice";
-import { HCWP } from "@/components/Celta/VocabularyGrammar/Practice/HCWP";
-import { ICQ } from "@/components/Celta/VocabularyGrammar/Practice/ICQ";
-import { LCWP } from "@/components/Celta/VocabularyGrammar/Practice/LCWP";
-import { HCOP } from "@/components/Celta/VocabularyGrammar/Practice/HCOP";
-import { LCOP } from "@/components/Celta/VocabularyGrammar/Practice/LCOP";
-import { Production } from "@/components/Celta/VocabularyGrammar/Production";
+import { PronunciationData } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
+import { FormUseData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
+import { CCQData } from "@/components/Celta/VocabularyGrammar/Presentation/CCQ";
+import { PracticeData } from "@/components/Celta/VocabularyGrammar/Practice";
+
+import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 import { cat1 } from "@/img/index";
-import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const warmUps: WarmUpData[] = [
   {
@@ -80,6 +72,12 @@ const meanings: MeaningData[] = [
   },
 ];
 
+const ccqs: CCQData[] = [
+  {
+    text: "..."
+  }
+]
+
 const pronunciations: PronunciationData[] = [
   {
     text: "...",
@@ -91,6 +89,12 @@ const formUses: FormUseData[] = [
     text: "...",
   },
 ];
+
+const practices: PracticeData[] = [
+  {
+    text: "..."
+  }
+]
 
 export default function MockVocabularyGrammar() {
   return (
@@ -109,6 +113,8 @@ export default function MockVocabularyGrammar() {
           meanings={meanings}
           pronunciations={pronunciations}
           formUses={formUses}
+          ccqs={ccqs}
+          practices={practices}
         />
         {/* <div className="line-break">
 

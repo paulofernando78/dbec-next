@@ -1,17 +1,22 @@
-import { ReactNode } from "react";
 import styles from "../../../../Cards/Card/styles.module.css";
 
-interface CCQProps {
-  children: ReactNode;
+export interface CCQData {
+  text: string
 }
 
-export const CCQ = ({ children }: CCQProps) => {
+interface CCQProps {
+ccqs: CCQData[]
+}
+
+export const CCQ = ({ ccqs }: CCQProps) => {
   return (
-    <div
-      className={styles["card"]}
-      style={{ backgroundColor: "#FFFACD" }}
-    >
-      <span className="p-font">{children}</span>
+    <div className={styles["card"]} style={{ backgroundColor: "#FFFACD" }}>
+      <p className="bold">Checking</p>
+      <div className={styles["children"]}>
+        {ccqs.map((ccq, ccqIndex) => (
+          <p key={ccqIndex}>{ccq.text}</p>
+        ))}
+      </div>
     </div>
   );
 };
