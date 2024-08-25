@@ -11,14 +11,21 @@ import {
 import { MeaningData } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
 import { PronunciationData } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
 import { FormUseData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
-import { Practice, PracticeData } from "@/components/Celta/VocabularyGrammar/Practice";
-import { CCQData } from "@/components/Celta/VocabularyGrammar/Presentation/CCQ";
+import {
+  Practice,
+  PracticeData,
+} from "@/components/Celta/VocabularyGrammar/Practice";
 import { HCWPData } from "@/components/Celta/VocabularyGrammar/Practice/HCWP";
 import { LCWPData } from "@/components/Celta/VocabularyGrammar/Practice/LCWP";
 import { HCOPData } from "@/components/Celta/VocabularyGrammar/Practice/HCOP";
 import { LCOPData } from "@/components/Celta/VocabularyGrammar/Practice/LCOP";
-import { Production, ProductionData } from "@/components/Celta/VocabularyGrammar/Production";
+import {
+  Production,
+  ProductionData,
+} from "@/components/Celta/VocabularyGrammar/Production";
 import { WrapUp } from "@/components/Celta/WrapUp";
+import { MeaningCCQData } from "@/components/Celta/VocabularyGrammar/Presentation/MeaningCCQ";
+import { FormUseCCQData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUseCCQ";
 
 interface VocabularyGrammarProps {
   warmUps: WarmUpData[];
@@ -26,15 +33,16 @@ interface VocabularyGrammarProps {
   discussedQuestions: DiscussionQuestionData[];
   presentations: PresentationData[];
   meanings: MeaningData[];
-  pronunciations: PronunciationData[]
-  formUses: FormUseData[]
-  ccqs: CCQData[]
-  practices: PracticeData[]
-  hcwps: HCWPData[]
-  lcwps: LCWPData[]
-  hcops: HCOPData[]
-  lcops: LCOPData[]
-  productions: ProductionData[]
+  meaningCCQS: MeaningCCQData[]
+  pronunciations: PronunciationData[];
+  formUses: FormUseData[];
+  formUseCCQS: FormUseCCQData[]
+  practices: PracticeData[];
+  hcwps: HCWPData[];
+  lcwps: LCWPData[];
+  hcops: HCOPData[];
+  lcops: LCOPData[];
+  productions: ProductionData[];
 }
 
 export const VocabularyGrammar = ({
@@ -44,14 +52,15 @@ export const VocabularyGrammar = ({
   presentations,
   meanings,
   pronunciations,
+  meaningCCQS,
   formUses,
-  ccqs,
+  formUseCCQS,
   practices,
   hcwps,
   lcwps,
   hcops,
   lcops,
-  productions
+  productions,
 }: VocabularyGrammarProps) => {
   return (
     <div className="line-break">
@@ -61,17 +70,19 @@ export const VocabularyGrammar = ({
         discussionQuestions={discussedQuestions}
       />
       <Presentation
-      presentations={presentations} meanings={meanings}
-      pronunciations={pronunciations}
-      formUses={formUses}
-      ccqs={ccqs}
+        presentations={presentations}
+        meanings={meanings}
+        pronunciations={pronunciations}
+        formUses={formUses}
+        meaningCCQS={meaningCCQS}
+        formUseCCQS={formUseCCQS}
       />
       <Practice
-      practices={practices}
-      hcwps={hcwps}
-      lcwps={lcwps}
-      hcops={hcops}
-      lcops={lcops}
+        practices={practices}
+        hcwps={hcwps}
+        lcwps={lcwps}
+        hcops={hcops}
+        lcops={lcops}
       />
       <Production productions={productions} />
       <WrapUp />

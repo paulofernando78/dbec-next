@@ -4,15 +4,11 @@ import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { WarmUpData } from "@/components/Celta/WarmUp";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
 import { DiscussionQuestionData } from "@/components/Celta/Introduction";
-import {
-  PresentationData,
-} from "@/components/Celta/VocabularyGrammar/Presentation";
-import {
-  MeaningData,
-} from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
+import { PresentationData } from "@/components/Celta/VocabularyGrammar/Presentation";
+import { MeaningData } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
 import { PronunciationData } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
 import { FormUseData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
-import { CCQData } from "@/components/Celta/VocabularyGrammar/Presentation/CCQ";
+import { FormUseCCQData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUseCCQ";
 import { PracticeData } from "@/components/Celta/VocabularyGrammar/Practice";
 
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
@@ -23,6 +19,7 @@ import { LCWPData } from "@/components/Celta/VocabularyGrammar/Practice/LCWP";
 import { HCOPData } from "@/components/Celta/VocabularyGrammar/Practice/HCOP";
 import { LCOPData } from "@/components/Celta/VocabularyGrammar/Practice/LCOP";
 import { ProductionData } from "@/components/Celta/VocabularyGrammar/Production";
+import { MeaningCCQData } from "@/components/Celta/VocabularyGrammar/Presentation/MeaningCCQ";
 
 const warmUps: WarmUpData[] = [
   {
@@ -77,11 +74,11 @@ const meanings: MeaningData[] = [
   },
 ];
 
-const ccqs: CCQData[] = [
+const meaningCCQS: MeaningCCQData[] = [
   {
-    text: "xxx"
-  }
-]
+    text: "xxx",
+  },
+];
 
 const pronunciations: PronunciationData[] = [
   {
@@ -95,41 +92,47 @@ const formUses: FormUseData[] = [
   },
 ];
 
-const practices: PracticeData[] = [
+const formUseCCQS: FormUseCCQData[] = [
   {
     text: "..."
   }
 ]
+
+const practices: PracticeData[] = [
+  {
+    text: "...",
+  },
+];
 
 const hcwps: HCWPData[] = [
   {
-    text: "..."
-  }
-]
+    text: "...",
+  },
+];
 
 const lcwps: LCWPData[] = [
   {
-    text: "..."
-  }
-]
+    text: "...",
+  },
+];
 
 const hcops: HCOPData[] = [
   {
-    text: "..."
-  }
-]
+    text: "...",
+  },
+];
 
 const lcops: LCOPData[] = [
   {
-    text: "..."
-  }
-]
+    text: "...",
+  },
+];
 
 const productions: ProductionData[] = [
   {
-    text: "..."
-  }
-]
+    text: "...",
+  },
+];
 
 export default function MockVocabularyGrammar() {
   return (
@@ -146,9 +149,10 @@ export default function MockVocabularyGrammar() {
           discussedQuestions={discussedQuestions}
           presentations={presentations}
           meanings={meanings}
+          meaningCCQS={meaningCCQS}
           pronunciations={pronunciations}
           formUses={formUses}
-          ccqs={ccqs}
+          formUseCCQS={formUseCCQS}
           practices={practices}
           hcwps={hcwps}
           lcwps={lcwps}

@@ -1,16 +1,16 @@
 import styles from "../../../../Cards/BoardCard/styles.module.css";
-import { CCQ, CCQData } from "../CCQ";
+import { MeaningCCQ, MeaningCCQData } from "../MeaningCCQ";
 
 export interface MeaningData {
-  text: string
-} 
-
-interface MeaningProps {
-  meanings: MeaningData[]
-  ccqs: CCQData[]
+  text: string;
 }
 
-export const Meaning = ({ meanings, ccqs }: MeaningProps) => {
+interface MeaningProps {
+  meanings: MeaningData[];
+  meaningCCQS: MeaningCCQData[];
+}
+
+export const Meaning = ({ meanings, meaningCCQS }: MeaningProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -25,7 +25,7 @@ export const Meaning = ({ meanings, ccqs }: MeaningProps) => {
         {meanings.map((meaning, meaningIndex) => (
           <p key={meaningIndex}>{meaning.text}</p>
         ))}
-        <CCQ ccqs={ccqs}/>
+        <MeaningCCQ meaningCCQS={meaningCCQS}/>
       </div>
     </div>
   );

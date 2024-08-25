@@ -1,20 +1,20 @@
 import styles from "../../../../Cards/Card/styles.module.css";
 
-export interface CCQData {
+export interface MeaningCCQData {
   text: string
 }
 
-interface CCQProps {
-ccqs: CCQData[]
+interface MeaningCCQProps {
+meaningCCQS: MeaningCCQData[]
 }
 
-export const CCQ = ({ ccqs }: CCQProps) => {
+export const MeaningCCQ = ({ meaningCCQS }: MeaningCCQProps) => {
   return (
     <div className={styles["card"]} style={{ backgroundColor: "#FFFACD" }}>
       <p className="bold">Checking</p>
       <div className={styles["children"]}>
-        {ccqs.map((ccq, ccqIndex) => (
-          <p key={ccqIndex}>{ccq.text}</p>
+        {meaningCCQS.map((meaningCCQ, meaningCCQIndex) => (
+          <p key={meaningCCQIndex}>{meaningCCQ.text}</p>
         ))}
       </div>
     </div>

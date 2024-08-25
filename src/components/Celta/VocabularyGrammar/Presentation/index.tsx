@@ -2,7 +2,8 @@ import styles from "../../../Cards/BoardCard/styles.module.css";
 import { Meaning, MeaningData } from "./Meaning";
 import { Pronunciation, PronunciationData } from "./Pronunciation";
 import { FormUse, FormUseData } from "./FormUse";
-import { CCQData } from "./CCQ";
+import { MeaningCCQData } from "./MeaningCCQ";
+import { FormUseCCQData } from "./FormUseCCQ";
 
 export interface PresentationData {
   text: string;
@@ -11,17 +12,19 @@ export interface PresentationData {
 interface PresentationProps {
   presentations: PresentationData[];
   meanings: MeaningData[];
+  meaningCCQS: MeaningCCQData[]
   pronunciations: PronunciationData[];
   formUses: FormUseData[];
-  ccqs: CCQData[]
+  formUseCCQS: FormUseCCQData[]
 }
 
 export const Presentation = ({
   presentations,
   meanings,
+  meaningCCQS,
   pronunciations,
   formUses,
-  ccqs
+  formUseCCQS
 }: PresentationProps) => {
   return (
     <div className={styles["main-card"]}>
@@ -44,9 +47,9 @@ export const Presentation = ({
         ))}
 
         <div className="line-break">
-          <Meaning meanings={meanings} ccqs={ccqs} />
+          <Meaning meanings={meanings} meaningCCQS={meaningCCQS} />
           <Pronunciation pronunciations={pronunciations} />
-          <FormUse formUses={formUses} ccqs={ccqs}/>
+          <FormUse formUses={formUses} formUseCCQS={formUseCCQS}/>
         </div>
       </div>
     </div>

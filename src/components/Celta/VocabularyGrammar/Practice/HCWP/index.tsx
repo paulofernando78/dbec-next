@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import styles from "../../../../Cards/BoardCard/styles.module.css";
+import { IndividualICQ } from "../IndividualICQ";
 
 export interface HCWPData {
   text: string
@@ -20,11 +21,14 @@ export const HCWP = ({ hcwps }: HCWPProps) => {
           <span className="bold">High Control Written Practice</span>
         </p>
       </div>
-      {hcwps.map((hcwp, hcwpIndex) => (
-        <p key={hcwpIndex} className={styles["children"]}>
-          {hcwp.text}
-        </p>
-      ))}
+      <div className={` line-break ${styles["children"]}`}>
+        <IndividualICQ />
+        {hcwps.map((hcwp, hcwpIndex) => (
+          <p key={hcwpIndex} >
+            {hcwp.text}
+          </p>
+        ))}
+      </div>
     </div>
   );
 };
