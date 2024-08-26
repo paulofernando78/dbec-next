@@ -105,7 +105,7 @@ export const DescriptionCard = ({ descriptions }: DescriptionCardProps) => {
                     )}
                     {/* Checkbox Link / Checkbox Label Link */}
                     {content.checkboxLink && content.checkboxLabelLink && (
-                      <div className="flex-8px-start">
+                      <div className="flex-8px">
                         <input
                           type="checkbox"
                           style={{ position: "relative", bottom: ".6px" }}

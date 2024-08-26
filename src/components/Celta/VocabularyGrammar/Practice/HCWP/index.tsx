@@ -1,16 +1,16 @@
-import { ReactNode } from "react";
 import styles from "../../../../Cards/BoardCard/styles.module.css";
-import { IndividualICQ } from "../IndividualICQ";
+import { ICQ, ICQData } from "../ICQ";
 
 export interface HCWPData {
-  text: string
+  text: string;
 }
 
 interface HCWPProps {
-  hcwps: HCWPData[]
+  hcwps: HCWPData[];
+  icqHCWP: ICQData[];
 }
 
-export const HCWP = ({ hcwps }: HCWPProps) => {
+export const HCWP = ({ hcwps, icqHCWP }: HCWPProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -22,13 +22,11 @@ export const HCWP = ({ hcwps }: HCWPProps) => {
         </p>
       </div>
       <div className={` line-break ${styles["children"]}`}>
-        <IndividualICQ />
         {hcwps.map((hcwp, hcwpIndex) => (
-          <p key={hcwpIndex} >
-            {hcwp.text}
-          </p>
+          <p key={hcwpIndex}>{hcwp.text}</p>
         ))}
       </div>
+      <ICQ icqs={icqHCWP} />
     </div>
   );
 };

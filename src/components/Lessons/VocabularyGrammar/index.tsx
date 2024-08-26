@@ -26,6 +26,7 @@ import {
 import { WrapUp } from "@/components/Celta/WrapUp";
 import { MeaningCCQData } from "@/components/Celta/VocabularyGrammar/Presentation/MeaningCCQ";
 import { FormUseCCQData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUseCCQ";
+import { ICQData } from "@/components/Celta/VocabularyGrammar/Practice/ICQ";
 
 interface VocabularyGrammarProps {
   warmUps: WarmUpData[];
@@ -39,6 +40,7 @@ interface VocabularyGrammarProps {
   formUseCCQS: FormUseCCQData[]
   practices: PracticeData[];
   hcwps: HCWPData[];
+  icqHCWP: ICQData[]
   lcwps: LCWPData[];
   hcops: HCOPData[];
   lcops: LCOPData[];
@@ -57,6 +59,7 @@ export const VocabularyGrammar = ({
   formUseCCQS,
   practices,
   hcwps,
+  icqHCWP,
   lcwps,
   hcops,
   lcops,
@@ -80,6 +83,7 @@ export const VocabularyGrammar = ({
       <Practice
         practices={practices}
         hcwps={hcwps}
+        icqHCWP={icqHCWP}
         lcwps={lcwps}
         hcops={hcops}
         lcops={lcops}

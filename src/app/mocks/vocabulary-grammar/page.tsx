@@ -20,6 +20,7 @@ import { HCOPData } from "@/components/Celta/VocabularyGrammar/Practice/HCOP";
 import { LCOPData } from "@/components/Celta/VocabularyGrammar/Practice/LCOP";
 import { ProductionData } from "@/components/Celta/VocabularyGrammar/Production";
 import { MeaningCCQData } from "@/components/Celta/VocabularyGrammar/Presentation/MeaningCCQ";
+import { ICQData } from "@/components/Celta/VocabularyGrammar/Practice/ICQ";
 
 const warmUps: WarmUpData[] = [
   {
@@ -94,9 +95,9 @@ const formUses: FormUseData[] = [
 
 const formUseCCQS: FormUseCCQData[] = [
   {
-    text: "..."
-  }
-]
+    text: "...",
+  },
+];
 
 const practices: PracticeData[] = [
   {
@@ -108,6 +109,12 @@ const hcwps: HCWPData[] = [
   {
     text: "...",
   },
+];
+
+const icqHCWP: ICQData[] = [
+  { instruction: "..." },
+  { instruction: "..." },
+  { instruction: "..." },
 ];
 
 const lcwps: LCWPData[] = [
@@ -155,6 +162,7 @@ export default function MockVocabularyGrammar() {
           formUseCCQS={formUseCCQS}
           practices={practices}
           hcwps={hcwps}
+          icqHCWP={icqHCWP}
           lcwps={lcwps}
           hcops={hcops}
           lcops={lcops}

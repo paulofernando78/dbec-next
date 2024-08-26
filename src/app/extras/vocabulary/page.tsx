@@ -8,9 +8,14 @@ export default function Vocabulary() {
       <div className="line-break">
           <p>aggravate</p>
           <p>detest</p>
-          <Link href="/extras/vocabulary/false-cognates">
-            <p>False Cognates</p>
-          </Link>
+          <div>
+            <Link href="/extras/vocabulary/which-one">
+            <p>Which one?</p>
+            </Link>
+            <Link href="/extras/vocabulary/false-cognates">
+              <p>False Cognates</p>
+            </Link>
+          </div>
         <div>
           <p>salary vs. wage</p>
           <p>remember vs. remind</p>

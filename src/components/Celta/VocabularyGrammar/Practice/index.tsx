@@ -2,6 +2,7 @@ import { HCWP, HCWPData } from "./HCWP";
 import { LCWP, LCWPData } from "./LCWP";
 import { HCOP, HCOPData } from "./HCOP";
 import { LCOP, LCOPData } from "./LCOP";
+import { ICQData } from "./ICQ";
 
 import styles from "../../../Cards/BoardCard/styles.module.css";
 
@@ -12,12 +13,20 @@ export interface PracticeData {
 interface PracticeProps {
   practices: PracticeData[];
   hcwps: HCWPData[];
+  icqHCWP: ICQData[];
   lcwps: LCWPData[];
-  hcops: HCOPData[]
-  lcops: LCOPData[]
+  hcops: HCOPData[];
+  lcops: LCOPData[];
 }
 
-export const Practice = ({ practices, hcwps, lcwps, hcops, lcops }: PracticeProps) => {
+export const Practice = ({
+  practices,
+  hcwps,
+  icqHCWP,
+  lcwps,
+  hcops,
+  lcops,
+}: PracticeProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -35,7 +44,7 @@ export const Practice = ({ practices, hcwps, lcwps, hcops, lcops }: PracticeProp
         {practices.map((practice, practiceIndex) => (
           <p key={practiceIndex}>{practice.text}</p>
         ))}
-        <HCWP hcwps={hcwps} />
+        <HCWP hcwps={hcwps} icqHCWP={icqHCWP} />
         <LCWP lcwps={lcwps} />
         <HCOP hcops={hcops} />
         <LCOP lcops={lcops} />
