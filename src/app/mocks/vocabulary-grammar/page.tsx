@@ -112,7 +112,7 @@ const hcwps: HCWPData[] = [
 ];
 
 const icqHCWP: ICQData[] = [
-  { instruction: "..." },
+  { instruction: "aaa" },
   { instruction: "..." },
   { instruction: "..." },
 ];
@@ -122,6 +122,12 @@ const lcwps: LCWPData[] = [
     text: "...",
   },
 ];
+ 
+const icqLCWP: ICQData[] = [
+  { instruction: "bbb" },
+  { instruction: "..." },
+  { instruction: "..." },
+];
 
 const hcops: HCOPData[] = [
   {
@@ -129,10 +135,22 @@ const hcops: HCOPData[] = [
   },
 ];
 
+const icqHCOP: ICQData[] = [
+  { instruction: "ccc" },
+  { instruction: "..." },
+  { instruction: "..." },
+];
+
 const lcops: LCOPData[] = [
   {
     text: "...",
   },
+];
+
+const icqLCOP: ICQData[] = [
+  { instruction: "ddd" },
+  { instruction: "..." },
+  { instruction: "..." },
 ];
 
 const productions: ProductionData[] = [
@@ -164,8 +182,11 @@ export default function MockVocabularyGrammar() {
           hcwps={hcwps}
           icqHCWP={icqHCWP}
           lcwps={lcwps}
+          icqLCWP={icqLCWP}
           hcops={hcops}
+          icqHCOP={icqHCOP}
           lcops={lcops}
+          icqLCOP={icqLCOP}
           productions={productions}
         />
         {/* <div className="line-break">

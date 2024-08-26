@@ -1,5 +1,5 @@
-import { ReactNode } from "react";
 import styles from "../../../../Cards/BoardCard/styles.module.css"
+import { ICQ, ICQData } from "../ICQ";
 
 export interface LCWPData {
   text: string
@@ -7,9 +7,10 @@ export interface LCWPData {
 
 interface LCWPProps {
 lcwps: LCWPData[]
+icqLCWP: ICQData[]
 }
 
-export const LCWP = ({ lcwps }: LCWPProps) => {
+export const LCWP = ({ lcwps, icqLCWP }: LCWPProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -20,11 +21,14 @@ export const LCWP = ({ lcwps }: LCWPProps) => {
           <span className="bold">Low Control Written Practice</span>
         </p>
       </div>
-      {lcwps.map((lcwp, lcwpIndex) => (
-        <p key={lcwpIndex} className={styles["children"]}>
-          {lcwp.text}
-        </p>
-      ))}
+      <div className={` line-break ${styles["children"]}`}>
+        <ICQ icqs={icqLCWP} />
+        {lcwps.map((lcwp, lcwpIndex) => (
+          <p key={lcwpIndex} >
+            {lcwp.text}
+          </p>
+        ))}
+      </div>
     </div>
   );
 };

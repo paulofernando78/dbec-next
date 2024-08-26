@@ -15,8 +15,11 @@ interface PracticeProps {
   hcwps: HCWPData[];
   icqHCWP: ICQData[];
   lcwps: LCWPData[];
+  icqLCWP: ICQData[];
   hcops: HCOPData[];
+  icqHCOP: ICQData[];
   lcops: LCOPData[];
+  icqLCOP: ICQData[];
 }
 
 export const Practice = ({
@@ -24,8 +27,11 @@ export const Practice = ({
   hcwps,
   icqHCWP,
   lcwps,
+  icqLCWP,
   hcops,
+  icqHCOP,
   lcops,
+  icqLCOP,
 }: PracticeProps) => {
   return (
     <div className={styles["main-card"]}>
@@ -45,9 +51,9 @@ export const Practice = ({
           <p key={practiceIndex}>{practice.text}</p>
         ))}
         <HCWP hcwps={hcwps} icqHCWP={icqHCWP} />
-        <LCWP lcwps={lcwps} />
-        <HCOP hcops={hcops} />
-        <LCOP lcops={lcops} />
+        <LCWP lcwps={lcwps} icqLCWP={icqLCWP} />
+        <HCOP hcops={hcops} icqHCOP={icqHCOP} />
+        <LCOP lcops={lcops} icqLCOP={icqLCOP} />
       </div>
     </div>
   );

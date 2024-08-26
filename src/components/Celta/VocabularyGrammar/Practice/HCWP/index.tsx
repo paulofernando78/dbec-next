@@ -22,11 +22,11 @@ export const HCWP = ({ hcwps, icqHCWP }: HCWPProps) => {
         </p>
       </div>
       <div className={` line-break ${styles["children"]}`}>
+        <ICQ icqs={icqHCWP} />
         {hcwps.map((hcwp, hcwpIndex) => (
           <p key={hcwpIndex}>{hcwp.text}</p>
         ))}
       </div>
-      <ICQ icqs={icqHCWP} />
     </div>
   );
 };

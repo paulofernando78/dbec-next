@@ -1,5 +1,5 @@
-import { ReactNode } from "react";
 import styles from "../../../../Cards/BoardCard/styles.module.css"
+import { ICQ, ICQData } from "../ICQ";
 
 export interface LCOPData {
   text: string
@@ -7,9 +7,10 @@ export interface LCOPData {
 
 interface LCOPProps {
 lcops: LCOPData[]
+icqLCOP: ICQData[]
 }
 
-export const LCOP = ({ lcops }: LCOPProps) => {
+export const LCOP = ({ lcops, icqLCOP }: LCOPProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -20,11 +21,14 @@ export const LCOP = ({ lcops }: LCOPProps) => {
           <span className="bold">Low Control Oral Practice</span>
         </p>
       </div>
-      {lcops.map((lcop, lcopIndex) => (
-        <p key={lcopIndex} className={styles["children"]}>
-          {lcop.text}
-        </p>
-      ))}
+      <div className={`line-break ${styles["children"]}`}>
+        <ICQ icqs={icqLCOP}/>
+        {lcops.map((lcop, lcopIndex) => (
+          <p key={lcopIndex} className={styles["children"]}>
+            {lcop.text}
+          </p>
+        ))}
+      </div>
     </div>
   );
 };

@@ -42,8 +42,11 @@ interface VocabularyGrammarProps {
   hcwps: HCWPData[];
   icqHCWP: ICQData[]
   lcwps: LCWPData[];
+  icqLCWP: ICQData[]
   hcops: HCOPData[];
+  icqHCOP: ICQData[]
   lcops: LCOPData[];
+  icqLCOP: ICQData[]
   productions: ProductionData[];
 }
 
@@ -61,8 +64,11 @@ export const VocabularyGrammar = ({
   hcwps,
   icqHCWP,
   lcwps,
+  icqLCWP,
   hcops,
+  icqHCOP,
   lcops,
+  icqLCOP,
   productions,
 }: VocabularyGrammarProps) => {
   return (
@@ -85,8 +91,11 @@ export const VocabularyGrammar = ({
         hcwps={hcwps}
         icqHCWP={icqHCWP}
         lcwps={lcwps}
+        icqLCWP={icqLCWP}
         hcops={hcops}
+        icqHCOP={icqHCOP}
         lcops={lcops}
+        icqLCOP={icqLCOP}
       />
       <Production productions={productions} />
       <WrapUp />
