@@ -12,6 +12,7 @@ export interface PresentationData {
 interface PresentationProps {
   presentations: PresentationData[];
   meanings: MeaningData[];
+  audioSrc: string
   meaningCCQS: MeaningCCQData[]
   pronunciations: PronunciationData[];
   formUses: FormUseData[];
@@ -21,6 +22,7 @@ interface PresentationProps {
 export const Presentation = ({
   presentations,
   meanings,
+  audioSrc,
   meaningCCQS,
   pronunciations,
   formUses,
@@ -47,7 +49,7 @@ export const Presentation = ({
         ))}
 
         <div className="line-break">
-          <Meaning meanings={meanings} meaningCCQS={meaningCCQS} />
+          <Meaning meanings={meanings} audioSrc={audioSrc} meaningCCQS={meaningCCQS} />
           <Pronunciation pronunciations={pronunciations} />
           <FormUse formUses={formUses} formUseCCQS={formUseCCQS}/>
         </div>

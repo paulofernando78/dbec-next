@@ -34,19 +34,20 @@ interface VocabularyGrammarProps {
   discussedQuestions: DiscussionQuestionData[];
   presentations: PresentationData[];
   meanings: MeaningData[];
-  meaningCCQS: MeaningCCQData[]
+  meaningAudioSrc: string;
+  meaningCCQS: MeaningCCQData[];
   pronunciations: PronunciationData[];
   formUses: FormUseData[];
-  formUseCCQS: FormUseCCQData[]
+  formUseCCQS: FormUseCCQData[];
   practices: PracticeData[];
   hcwps: HCWPData[];
-  icqHCWP: ICQData[]
+  icqHCWP: ICQData[];
   lcwps: LCWPData[];
-  icqLCWP: ICQData[]
+  icqLCWP: ICQData[];
   hcops: HCOPData[];
-  icqHCOP: ICQData[]
+  icqHCOP: ICQData[];
   lcops: LCOPData[];
-  icqLCOP: ICQData[]
+  icqLCOP: ICQData[];
   productions: ProductionData[];
 }
 
@@ -56,8 +57,9 @@ export const VocabularyGrammar = ({
   discussedQuestions,
   presentations,
   meanings,
-  pronunciations,
+  meaningAudioSrc,
   meaningCCQS,
+  pronunciations,
   formUses,
   formUseCCQS,
   practices,
@@ -81,6 +83,7 @@ export const VocabularyGrammar = ({
       <Presentation
         presentations={presentations}
         meanings={meanings}
+        audioSrc={meaningAudioSrc}
         pronunciations={pronunciations}
         formUses={formUses}
         meaningCCQS={meaningCCQS}

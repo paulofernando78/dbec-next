@@ -1,5 +1,7 @@
-import styles from "../../../../Cards/BoardCard/styles.module.css";
 import { MeaningCCQ, MeaningCCQData } from "../MeaningCCQ";
+import { AudioPlayer } from "@/components/Audioplayer";
+
+import styles from "../../../../Cards/BoardCard/styles.module.css";
 
 export interface MeaningData {
   text: string;
@@ -8,9 +10,10 @@ export interface MeaningData {
 interface MeaningProps {
   meanings: MeaningData[];
   meaningCCQS: MeaningCCQData[];
+  audioSrc: string
 }
 
-export const Meaning = ({ meanings, meaningCCQS }: MeaningProps) => {
+export const Meaning = ({ meanings, meaningCCQS, audioSrc }: MeaningProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -25,6 +28,7 @@ export const Meaning = ({ meanings, meaningCCQS }: MeaningProps) => {
         {meanings.map((meaning, meaningIndex) => (
           <p key={meaningIndex}>{meaning.text}</p>
         ))}
+        <AudioPlayer audioSrc={audioSrc}/>
         <MeaningCCQ meaningCCQS={meaningCCQS}/>
       </div>
     </div>

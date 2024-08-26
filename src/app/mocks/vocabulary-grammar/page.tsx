@@ -174,6 +174,7 @@ export default function MockVocabularyGrammar() {
           discussedQuestions={discussedQuestions}
           presentations={presentations}
           meanings={meanings}
+          meaningAudioSrc=""
           meaningCCQS={meaningCCQS}
           pronunciations={pronunciations}
           formUses={formUses}
