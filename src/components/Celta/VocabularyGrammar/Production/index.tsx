@@ -33,6 +33,7 @@ export const Production = ({ productions }: ProductionProps) => {
       <div className={` ${styles["children"]}`}>
         {productions.map((production, productionIndex) => (
           <div key={productionIndex}>
+            {/* prompt */}
             <p>{production.prompt}</p>
             {production.instructions && production.instructions.map((instruction, instructionIndex) => (
               <p key={instructionIndex}>{instruction.prompt}</p>
