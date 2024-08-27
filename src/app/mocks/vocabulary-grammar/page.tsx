@@ -5,7 +5,7 @@ import { WarmUpData } from "@/components/Celta/WarmUp";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
 import { DiscussionQuestionData } from "@/components/Celta/Introduction";
 import { PresentationData } from "@/components/Celta/VocabularyGrammar/Presentation";
-import { MeaningData } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
+import { ConversationData, MeaningData } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
 import { PronunciationData } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
 import { FormUseData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
 import { PracticeData } from "@/components/Celta/VocabularyGrammar/Practice";
@@ -35,8 +35,8 @@ const introductions = [
   },
   {
     prompt: "bbb",
-  }
-]
+  },
+];
 
 const swiperFraction: SwiperFractionData[] = [
   {
@@ -72,9 +72,18 @@ const discussedQuestions: DiscussionQuestionData[] = [
 
 const meanings: MeaningData[] = [
   {
-    text: "...",
+    prompt: "aaa",
   },
 ];
+
+const conversations: ConversationData[] = [
+  {
+    statement: "A:"
+  },
+  {
+    statement: "B:"
+  }
+]
 
 const meaningCCQS: CCQData[] = [
   {
@@ -94,7 +103,7 @@ const formUses: FormUseData[] = [
   },
 ];
 
-const formUseCCQS: CCQData[] = [ 
+const formUseCCQS: CCQData[] = [
   {
     checking: "bbb",
   },
@@ -176,6 +185,7 @@ export default function MockVocabularyGrammar() {
           discussedQuestions={discussedQuestions}
           meanings={meanings}
           meaningAudioSrc=""
+          conversations={conversations}
           meaningCCQS={meaningCCQS}
           pronunciations={pronunciations}
           formUses={formUses}

@@ -9,7 +9,7 @@ import {
   Presentation,
   PresentationData,
 } from "@/components/Celta/VocabularyGrammar/Presentation";
-import { MeaningData } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
+import { ConversationData, MeaningData } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
 import { PronunciationData } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
 import { FormUseData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
 import {
@@ -35,6 +35,7 @@ interface VocabularyGrammarProps {
   discussedQuestions: DiscussionQuestionData[];
   meanings: MeaningData[];
   meaningAudioSrc: string;
+  conversations: ConversationData[]
   meaningCCQS: CCQData[];
   pronunciations: PronunciationData[];
   formUses: FormUseData[];
@@ -58,6 +59,7 @@ export const VocabularyGrammar = ({
   discussedQuestions,
   meanings,
   meaningAudioSrc,
+  conversations,
   meaningCCQS,
   pronunciations,
   formUses,
@@ -84,6 +86,7 @@ export const VocabularyGrammar = ({
       <Presentation
         meanings={meanings}
         audioSrc={meaningAudioSrc}
+        conversations={conversations}
         meaningCCQS={meaningCCQS}
         pronunciations={pronunciations}
         formUses={formUses}
