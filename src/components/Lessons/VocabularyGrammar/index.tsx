@@ -33,7 +33,6 @@ interface VocabularyGrammarProps {
   introductions: IntroductionData[]
   swiperFraction: SwiperFractionData[];
   discussedQuestions: DiscussionQuestionData[];
-  presentations: PresentationData[];
   meanings: MeaningData[];
   meaningAudioSrc: string;
   meaningCCQS: CCQData[];
@@ -57,7 +56,6 @@ export const VocabularyGrammar = ({
   introductions,
   swiperFraction,
   discussedQuestions,
-  presentations,
   meanings,
   meaningAudioSrc,
   meaningCCQS,
@@ -84,7 +82,6 @@ export const VocabularyGrammar = ({
         discussionQuestions={discussedQuestions}
       />
       <Presentation
-        presentations={presentations}
         meanings={meanings}
         audioSrc={meaningAudioSrc}
         meaningCCQS={meaningCCQS}

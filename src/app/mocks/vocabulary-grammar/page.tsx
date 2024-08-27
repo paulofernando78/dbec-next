@@ -70,12 +70,6 @@ const discussedQuestions: DiscussionQuestionData[] = [
   },
 ];
 
-const presentations: PresentationData[] = [
-  {
-    text: "...",
-  },
-];
-
 const meanings: MeaningData[] = [
   {
     text: "...",
@@ -180,7 +174,6 @@ export default function MockVocabularyGrammar() {
           introductions={introductions}
           swiperFraction={swiperFraction}
           discussedQuestions={discussedQuestions}
-          presentations={presentations}
           meanings={meanings}
           meaningAudioSrc=""
           meaningCCQS={meaningCCQS}
