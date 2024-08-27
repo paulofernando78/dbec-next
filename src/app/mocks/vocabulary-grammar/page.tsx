@@ -5,7 +5,10 @@ import { WarmUpData } from "@/components/Celta/WarmUp";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
 import { DiscussionQuestionData } from "@/components/Celta/Introduction";
 import { PresentationData } from "@/components/Celta/VocabularyGrammar/Presentation";
-import { ConversationData, MeaningData } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
+import {
+  ConversationData,
+  MeaningData,
+} from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
 import { PronunciationData } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
 import { FormUseData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
 import { PracticeData } from "@/components/Celta/VocabularyGrammar/Practice";
@@ -32,7 +35,7 @@ const warmUps: WarmUpData[] = [
 const introductions = [
   {
     prompt: "aaa",
-  }
+  },
 ];
 
 const swiperFraction: SwiperFractionData[] = [
@@ -70,17 +73,18 @@ const discussedQuestions: DiscussionQuestionData[] = [
 const meanings: MeaningData[] = [
   {
     prompt: "aaa",
+    audioSrc:
+      "/assets/audio/courses/beginner/IC5_L0_Unit 01 Pg 002 Ex 01 Conversation Pt A.mp3",
+    conversations: [
+      {
+        statement: "A: How are you doing?",
+      },
+      {
+        statement: "B: I'm pretty good, How about you?",
+      },
+    ],
   },
 ];
-
-const meaningConversations: ConversationData[] = [
-  {
-    statement: "A: How are you doing?"
-  },
-  {
-    statement: "B: I'm pretty good, How about you?"
-  }
-]
 
 const meaningCCQS: CCQData[] = [
   {
@@ -161,13 +165,13 @@ const productions: ProductionData[] = [
   {
     instructions: [
       {
-        prompt: "1"
+        prompt: "• ...",
       },
       {
-        prompt: "2"
-      }
-    ]
-  }
+        prompt: "• ...",
+      },
+    ],
+  },
 ];
 
 export default function MockVocabularyGrammar() {
@@ -185,8 +189,6 @@ export default function MockVocabularyGrammar() {
           swiperFraction={swiperFraction}
           discussedQuestions={discussedQuestions}
           meanings={meanings}
-          meaningAudioSrc=""
-          meaningConversations={meaningConversations}
           meaningCCQS={meaningCCQS}
           pronunciations={pronunciations}
           formUses={formUses}

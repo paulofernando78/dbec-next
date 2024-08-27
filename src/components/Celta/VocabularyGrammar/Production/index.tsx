@@ -2,7 +2,7 @@ import { Fragment, ReactNode } from "react";
 import styles from "../../../Cards/BoardCard/styles.module.css";
 import { Card } from "@/components/Cards/Card";
 
-export interface InstructionData {
+interface InstructionData {
   prompt: string;
 }
 
@@ -13,7 +13,6 @@ export interface ProductionData {
 
 interface ProductionProps {
   productions: ProductionData[];
-  instructions: InstructionData[];
 }
 
 export const Production = ({ productions }: ProductionProps) => {
@@ -30,14 +29,17 @@ export const Production = ({ productions }: ProductionProps) => {
           <p className="p-size-smaller">10'</p>
         </div>
       </div>
-      <div className={` ${styles["children"]}`}>
+      <div className={`line-break ${styles["children"]}`}>
         {productions.map((production, productionIndex) => (
           <div key={productionIndex}>
             {/* prompt */}
             <p>{production.prompt}</p>
-            {production.instructions && production.instructions.map((instruction, instructionIndex) => (
-              <p key={instructionIndex}>{instruction.prompt}</p>
-            ))}
+            {/* instructions -> prompt */}
+           {production.instructions && <Card bgColor="lightgreen">
+              {production.instructions.map((instruction, instructionIndex) => (
+                <p key={instructionIndex}>{instruction.prompt}</p>
+              ))}
+           </Card>}
           </div>
         ))}
       </div>

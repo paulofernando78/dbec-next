@@ -3,26 +3,21 @@ import { AudioPlayer } from "@/components/Audioplayer";
 import { CCQ, CCQData } from "../CCQ";
 
 export interface ConversationData {
-  statement: string
+  statement: string;
 }
 
 export interface MeaningData {
-  prompt: string;
+  prompt?: string;
+  audioSrc?: string;
+  conversations: ConversationData[];
 }
 
 interface MeaningProps {
   meanings: MeaningData[];
-  audioSrc: string;
-  conversations: ConversationData[]
   ccqs: CCQData[];
 }
 
-export const Meaning = ({
-  meanings,
-  audioSrc,
-  conversations,
-  ccqs,
-}: MeaningProps) => {
+export const Meaning = ({ meanings, ccqs }: MeaningProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -36,16 +31,18 @@ export const Meaning = ({
       <div className={`line-break ${styles["children"]}`}>
         {/* prompt */}
         {meanings.map((meaning, meaningIndex) => (
-          <p key={meaningIndex}>{meaning.prompt}</p>
+          <>
+            <p key={meaningIndex}>{meaning.prompt}</p>
+            {/* audioplayer */}
+            {meaning.audioSrc && <AudioPlayer audioSrc={meaning.audioSrc} />}
+            {/* conversation */}
+           <div>
+              {meaning.conversations.map((conversation, conversationIndex) => (
+                <p key={conversationIndex}>{conversation.statement}</p>
+              ))}
+           </div>
+          </>
         ))}
-        {/* audioplayer */}
-        <AudioPlayer audioSrc={audioSrc} />
-        {/* conversation */}
-        <div>
-          {conversations.map((conversation, conversationIndex) => (
-            <p key={conversationIndex}>{conversation.statement}</p>
-          ))}
-        </div>
         <CCQ ccqs={ccqs} />
       </div>
     </div>

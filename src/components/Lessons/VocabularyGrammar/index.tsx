@@ -32,8 +32,6 @@ interface VocabularyGrammarProps {
   swiperFraction: SwiperFractionData[];
   discussedQuestions: DiscussionQuestionData[];
   meanings: MeaningData[];
-  meaningAudioSrc: string;
-  meaningConversations: ConversationData[]
   meaningCCQS: CCQData[];
   pronunciations: PronunciationData[];
   formUses: FormUseData[];
@@ -55,8 +53,6 @@ export const VocabularyGrammar = ({
   swiperFraction,
   discussedQuestions,
   meanings,
-  meaningAudioSrc,
-  meaningConversations,
   meaningCCQS,
   pronunciations,
   formUses,
@@ -81,8 +77,6 @@ export const VocabularyGrammar = ({
       />
       <Presentation
         meanings={meanings}
-        audioSrc={meaningAudioSrc}
-        conversations={meaningConversations}
         meaningCCQS={meaningCCQS}
         pronunciations={pronunciations}
         formUses={formUses}
@@ -98,7 +92,7 @@ export const VocabularyGrammar = ({
         lcops={lcops}
         icqLCOP={icqLCOP}
       />
-      <Production productions={productions} />
+      <Production productions={productions}/>
       <WrapUp />
     </div>
   );
