@@ -32,10 +32,7 @@ const warmUps: WarmUpData[] = [
 const introductions = [
   {
     prompt: "aaa",
-  },
-  {
-    prompt: "bbb",
-  },
+  }
 ];
 
 const swiperFraction: SwiperFractionData[] = [
@@ -76,12 +73,12 @@ const meanings: MeaningData[] = [
   },
 ];
 
-const conversations: ConversationData[] = [
+const meaningConversations: ConversationData[] = [
   {
-    statement: "A:"
+    statement: "A: How are you doing?"
   },
   {
-    statement: "B:"
+    statement: "B: I'm pretty good, How about you?"
   }
 ]
 
@@ -93,13 +90,13 @@ const meaningCCQS: CCQData[] = [
 
 const pronunciations: PronunciationData[] = [
   {
-    text: "...",
+    prompt: "...",
   },
 ];
 
 const formUses: FormUseData[] = [
   {
-    text: "...",
+    prompt: "...",
   },
 ];
 
@@ -109,15 +106,9 @@ const formUseCCQS: CCQData[] = [
   },
 ];
 
-const practices: PracticeData[] = [
-  {
-    text: "...",
-  },
-];
-
 const hcwps: HCWPData[] = [
   {
-    text: "...",
+    prompt: "...",
   },
 ];
 
@@ -129,7 +120,7 @@ const icqHCWP: ICQData[] = [
 
 const lcwps: LCWPData[] = [
   {
-    text: "...",
+    prompt: "...",
   },
 ];
 
@@ -141,7 +132,7 @@ const icqLCWP: ICQData[] = [
 
 const hcops: HCOPData[] = [
   {
-    text: "...",
+    prompt: "...",
   },
 ];
 
@@ -153,7 +144,7 @@ const icqHCOP: ICQData[] = [
 
 const lcops: LCOPData[] = [
   {
-    text: "...",
+    prompt: "...",
   },
 ];
 
@@ -165,8 +156,18 @@ const icqLCOP: ICQData[] = [
 
 const productions: ProductionData[] = [
   {
-    text: "...",
+    prompt: "aaa",
   },
+  {
+    instructions: [
+      {
+        prompt: "1"
+      },
+      {
+        prompt: "2"
+      }
+    ]
+  }
 ];
 
 export default function MockVocabularyGrammar() {
@@ -185,12 +186,11 @@ export default function MockVocabularyGrammar() {
           discussedQuestions={discussedQuestions}
           meanings={meanings}
           meaningAudioSrc=""
-          conversations={conversations}
+          meaningConversations={meaningConversations}
           meaningCCQS={meaningCCQS}
           pronunciations={pronunciations}
           formUses={formUses}
           formUseCCQS={formUseCCQS}
-          practices={practices}
           hcwps={hcwps}
           icqHCWP={icqHCWP}
           lcwps={lcwps}
@@ -201,89 +201,6 @@ export default function MockVocabularyGrammar() {
           icqLCOP={icqLCOP}
           productions={productions}
         />
-        {/* <div className="line-break">
-
-          <Presentation>
-            <div className="celta-line-break">
-              <Meaning>
-                <div className="line-break">
-                  <p>...</p>
-                  <CCQ>
-                    <p>...</p>
-                  </CCQ>
-                </div>
-              </Meaning>
-              <Pronunciation>
-                <div className="line-break">
-                  <p>...</p>
-                  <CCQ>
-                    <p>...</p>
-                  </CCQ>
-                </div>
-              </Pronunciation>
-              <FormUse>
-                <div className="line-break">
-                  <p>...</p>
-                  <CCQ>
-                    <p>...</p>
-                  </CCQ>
-                </div>
-              </FormUse>
-            </div>
-          </Presentation>
-          <Practice>
-            <div className="celta-line-break">
-              <HCWP>
-                <div className="line-break">
-                  <p>...</p>
-                  <ICQ>
-                    <p>• Do it individually.</p>
-                    <p>...</p>
-                  </ICQ>
-                </div>
-              </HCWP>
-              <LCWP>
-                <div className="line-break">
-                  <p>...</p>
-                  <ICQ>
-                    <p>• Do it individually.</p>
-                    <p>...</p>
-                  </ICQ>
-                </div>
-              </LCWP>
-              <HCOP>
-                <div className="line-break">
-                  <p>...</p>
-                  <ICQ>
-                    <p>• Do it in pairs.</p>
-                    <p>• Listen to a dialogue.</p>
-                    <p>...</p>
-                  </ICQ>
-                </div>
-              </HCOP>
-              <LCOP>
-                <div className="line-break">
-                  <p>...</p>
-                  <ICQ>
-                    <p>• Do it in pairs.</p>
-                    <p>• Listen to a dialogue.</p>
-                    <p>...</p>
-                  </ICQ>
-                </div>
-              </LCOP>
-            </div>
-          </Practice>
-          <Production>
-            <div className="line-break">
-              <ICQ>
-                <p>• Mingle (walk around and talk to one another).</p>
-                <p>• Do it in groups of...</p>
-              </ICQ>
-              <p>...</p>
-            </div>
-          </Production>
-          <WrapUp />
-        </div> */}
       </div>
     </>
   );

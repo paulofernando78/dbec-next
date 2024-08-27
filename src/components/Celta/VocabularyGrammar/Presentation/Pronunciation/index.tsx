@@ -1,7 +1,7 @@
 import styles from "../../../../Cards/BoardCard/styles.module.css";
 
 export interface PronunciationData {
-text: string
+prompt: string
 }
 
 interface PronunciationProps {
@@ -21,7 +21,7 @@ export const Pronunciation = ({ pronunciations }: PronunciationProps) => {
       </div>
       <div className={styles["children"]}>
         {pronunciations.map((pronunciation, pronunciationIndex) => (
-          <p key={pronunciationIndex}>{pronunciation.text}</p>
+          <p key={pronunciationIndex}>{pronunciation.prompt}</p>
         ))}
       </div>
     </div>

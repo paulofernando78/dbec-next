@@ -2,7 +2,7 @@ import styles from "../../../../Cards/BoardCard/styles.module.css";
 import { CCQ, CCQData } from "../CCQ";
 
 export interface FormUseData {
-  text: string;
+  prompt: string;
 }
 
 interface FormUseProps {
@@ -23,7 +23,7 @@ export const FormUse = ({ formUses, ccqs }: FormUseProps) => {
       </div>
       <div className={`line-break ${styles["children"]}`}>
         {formUses.map((formUse, formUseIndex) => (
-          <p key={formUseIndex}>{formUse.text}</p>
+          <p key={formUseIndex}>{formUse.prompt}</p>
         ))}
         <CCQ ccqs={ccqs} />
       </div>

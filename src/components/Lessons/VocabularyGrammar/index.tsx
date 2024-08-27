@@ -7,14 +7,12 @@ import {
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
 import {
   Presentation,
-  PresentationData,
 } from "@/components/Celta/VocabularyGrammar/Presentation";
 import { ConversationData, MeaningData } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
 import { PronunciationData } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
 import { FormUseData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
 import {
   Practice,
-  PracticeData,
 } from "@/components/Celta/VocabularyGrammar/Practice";
 import { HCWPData } from "@/components/Celta/VocabularyGrammar/Practice/HCWP";
 import { LCWPData } from "@/components/Celta/VocabularyGrammar/Practice/LCWP";
@@ -35,12 +33,11 @@ interface VocabularyGrammarProps {
   discussedQuestions: DiscussionQuestionData[];
   meanings: MeaningData[];
   meaningAudioSrc: string;
-  conversations: ConversationData[]
+  meaningConversations: ConversationData[]
   meaningCCQS: CCQData[];
   pronunciations: PronunciationData[];
   formUses: FormUseData[];
   formUseCCQS: CCQData[];
-  practices: PracticeData[];
   hcwps: HCWPData[];
   icqHCWP: ICQData[];
   lcwps: LCWPData[];
@@ -59,12 +56,11 @@ export const VocabularyGrammar = ({
   discussedQuestions,
   meanings,
   meaningAudioSrc,
-  conversations,
+  meaningConversations,
   meaningCCQS,
   pronunciations,
   formUses,
   formUseCCQS,
-  practices,
   hcwps,
   icqHCWP,
   lcwps,
@@ -86,14 +82,13 @@ export const VocabularyGrammar = ({
       <Presentation
         meanings={meanings}
         audioSrc={meaningAudioSrc}
-        conversations={conversations}
+        conversations={meaningConversations}
         meaningCCQS={meaningCCQS}
         pronunciations={pronunciations}
         formUses={formUses}
         formUseCCQS={formUseCCQS}
       />
       <Practice
-        practices={practices}
         hcwps={hcwps}
         icqHCWP={icqHCWP}
         lcwps={lcwps}

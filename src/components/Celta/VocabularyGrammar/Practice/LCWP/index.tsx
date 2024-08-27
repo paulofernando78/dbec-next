@@ -2,7 +2,7 @@ import styles from "../../../../Cards/BoardCard/styles.module.css"
 import { ICQ, ICQData } from "../ICQ";
 
 export interface LCWPData {
-  text: string
+  prompt: string
 }
 
 interface LCWPProps {
@@ -25,7 +25,7 @@ export const LCWP = ({ lcwps, icqLCWP }: LCWPProps) => {
         <ICQ icqs={icqLCWP} />
         {lcwps.map((lcwp, lcwpIndex) => (
           <p key={lcwpIndex} >
-            {lcwp.text}
+            {lcwp.prompt}
           </p>
         ))}
       </div>

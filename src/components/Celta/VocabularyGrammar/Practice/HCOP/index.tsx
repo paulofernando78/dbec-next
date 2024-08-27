@@ -3,7 +3,7 @@ import styles from "../../../../Cards/BoardCard/styles.module.css";
 import { ICQ, ICQData } from "../ICQ";
 
 export interface HCOPData {
-  text: string;
+  prompt: string;
 }
 
 interface HCOPProps {
@@ -26,7 +26,7 @@ export const HCOP = ({ hcops, icqHCOP }: HCOPProps) => {
         <ICQ icqs={icqHCOP}/>
         {hcops.map((hcop, hcopIndex) => (
           <p key={hcopIndex} className={styles["children"]}>
-            {hcop.text}
+            {hcop.prompt}
           </p>
         ))}
       </div>

@@ -11,7 +11,6 @@ export interface PracticeData {
 }
 
 interface PracticeProps {
-  practices: PracticeData[];
   hcwps: HCWPData[];
   icqHCWP: ICQData[];
   lcwps: LCWPData[];
@@ -23,7 +22,6 @@ interface PracticeProps {
 }
 
 export const Practice = ({
-  practices,
   hcwps,
   icqHCWP,
   lcwps,
@@ -47,9 +45,6 @@ export const Practice = ({
         </div>
       </div>
       <div className={`line-break ${styles["children"]}`}>
-        {practices.map((practice, practiceIndex) => (
-          <p key={practiceIndex}>{practice.text}</p>
-        ))}
         <HCWP hcwps={hcwps} icqHCWP={icqHCWP} />
         <LCWP lcwps={lcwps} icqLCWP={icqLCWP} />
         <HCOP hcops={hcops} icqHCOP={icqHCOP} />

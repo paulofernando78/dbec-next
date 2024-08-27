@@ -2,7 +2,7 @@ import styles from "../../../../Cards/BoardCard/styles.module.css"
 import { ICQ, ICQData } from "../ICQ";
 
 export interface LCOPData {
-  text: string
+  prompt: string
 }
 
 interface LCOPProps {
@@ -25,7 +25,7 @@ export const LCOP = ({ lcops, icqLCOP }: LCOPProps) => {
         <ICQ icqs={icqLCOP}/>
         {lcops.map((lcop, lcopIndex) => (
           <p key={lcopIndex} className={styles["children"]}>
-            {lcop.text}
+            {lcop.prompt}
           </p>
         ))}
       </div>

@@ -2,7 +2,7 @@ import styles from "../../../../Cards/BoardCard/styles.module.css";
 import { ICQ, ICQData } from "../ICQ";
 
 export interface HCWPData {
-  text: string;
+  prompt: string;
 }
 
 interface HCWPProps {
@@ -24,7 +24,7 @@ export const HCWP = ({ hcwps, icqHCWP }: HCWPProps) => {
       <div className={` line-break ${styles["children"]}`}>
         <ICQ icqs={icqHCWP} />
         {hcwps.map((hcwp, hcwpIndex) => (
-          <p key={hcwpIndex}>{hcwp.text}</p>
+          <p key={hcwpIndex}>{hcwp.prompt}</p>
         ))}
       </div>
     </div>
