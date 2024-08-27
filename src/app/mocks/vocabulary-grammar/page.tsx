@@ -8,7 +8,6 @@ import { PresentationData } from "@/components/Celta/VocabularyGrammar/Presentat
 import { MeaningData } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
 import { PronunciationData } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
 import { FormUseData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
-import { FormUseCCQData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUseCCQ";
 import { PracticeData } from "@/components/Celta/VocabularyGrammar/Practice";
 
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
@@ -19,7 +18,7 @@ import { LCWPData } from "@/components/Celta/VocabularyGrammar/Practice/LCWP";
 import { HCOPData } from "@/components/Celta/VocabularyGrammar/Practice/HCOP";
 import { LCOPData } from "@/components/Celta/VocabularyGrammar/Practice/LCOP";
 import { ProductionData } from "@/components/Celta/VocabularyGrammar/Production";
-import { MeaningCCQData } from "@/components/Celta/VocabularyGrammar/Presentation/MeaningCCQ";
+import { CCQData } from "@/components/Celta/VocabularyGrammar/Presentation/CCQ";
 import { ICQData } from "@/components/Celta/VocabularyGrammar/Practice/ICQ";
 
 const warmUps: WarmUpData[] = [
@@ -75,9 +74,9 @@ const meanings: MeaningData[] = [
   },
 ];
 
-const meaningCCQS: MeaningCCQData[] = [
+const meaningCCQS: CCQData[] = [
   {
-    text: "xxx",
+    checking: "aaa",
   },
 ];
 
@@ -93,9 +92,9 @@ const formUses: FormUseData[] = [
   },
 ];
 
-const formUseCCQS: FormUseCCQData[] = [
+const formUseCCQS: CCQData[] = [
   {
-    text: "...",
+    checking: "bbb",
   },
 ];
 
@@ -122,7 +121,7 @@ const lcwps: LCWPData[] = [
     text: "...",
   },
 ];
- 
+
 const icqLCWP: ICQData[] = [
   { instruction: "bbb" },
   { instruction: "..." },

@@ -1,16 +1,16 @@
 import styles from "../../../../Cards/BoardCard/styles.module.css";
-import { FormUseCCQ, FormUseCCQData } from "../FormUseCCQ";
+import { CCQ, CCQData } from "../CCQ";
 
 export interface FormUseData {
-  text: string;
+  checking: string;
 }
 
 interface FormUseProps {
   formUses: FormUseData[];
-  formUseCCQS: FormUseCCQData[];
+  ccqs: CCQData[];
 }
 
-export const FormUse = ({ formUses, formUseCCQS }: FormUseProps) => {
+export const FormUse = ({ formUses, ccqs }: FormUseProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -23,9 +23,9 @@ export const FormUse = ({ formUses, formUseCCQS }: FormUseProps) => {
       </div>
       <div className={`line-break ${styles["children"]}`}>
         {formUses.map((formUse, formUseIndex) => (
-          <p key={formUseIndex}>{formUse.text}</p>
+          <p key={formUseIndex}>{formUse.checking}</p>
         ))}
-        <FormUseCCQ formUseCCQS={formUseCCQS}/>
+        <CCQ ccqs={ccqs} />
       </div>
     </div>
   );

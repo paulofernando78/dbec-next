@@ -24,21 +24,20 @@ import {
   ProductionData,
 } from "@/components/Celta/VocabularyGrammar/Production";
 import { WrapUp } from "@/components/Celta/WrapUp";
-import { MeaningCCQData } from "@/components/Celta/VocabularyGrammar/Presentation/MeaningCCQ";
-import { FormUseCCQData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUseCCQ";
+import { CCQData } from "@/components/Celta/VocabularyGrammar/Presentation/CCQ";
 import { ICQData } from "@/components/Celta/VocabularyGrammar/Practice/ICQ";
 
 interface VocabularyGrammarProps {
-  warmUps: WarmUpData[];
+  warmUps?: WarmUpData[];
   swiperFraction: SwiperFractionData[];
   discussedQuestions: DiscussionQuestionData[];
   presentations: PresentationData[];
   meanings: MeaningData[];
   meaningAudioSrc: string;
-  meaningCCQS: MeaningCCQData[];
+  meaningCCQS: CCQData[];
   pronunciations: PronunciationData[];
   formUses: FormUseData[];
-  formUseCCQS: FormUseCCQData[];
+  formUseCCQS: CCQData[];
   practices: PracticeData[];
   hcwps: HCWPData[];
   icqHCWP: ICQData[];
@@ -75,7 +74,7 @@ export const VocabularyGrammar = ({
 }: VocabularyGrammarProps) => {
   return (
     <div className="line-break">
-      <WarmUp warmUps={warmUps} />
+      {warmUps && <WarmUp warmUps={warmUps} />}
       <Introduction
         swiperFraction={swiperFraction}
         discussionQuestions={discussedQuestions}
@@ -84,9 +83,9 @@ export const VocabularyGrammar = ({
         presentations={presentations}
         meanings={meanings}
         audioSrc={meaningAudioSrc}
+        meaningCCQS={meaningCCQS}
         pronunciations={pronunciations}
         formUses={formUses}
-        meaningCCQS={meaningCCQS}
         formUseCCQS={formUseCCQS}
       />
       <Practice

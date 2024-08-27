@@ -1,9 +1,10 @@
 import styles from "../../../Cards/BoardCard/styles.module.css";
+
+import { CCQData } from "./CCQ";
 import { Meaning, MeaningData } from "./Meaning";
 import { Pronunciation, PronunciationData } from "./Pronunciation";
 import { FormUse, FormUseData } from "./FormUse";
-import { MeaningCCQData } from "./MeaningCCQ";
-import { FormUseCCQData } from "./FormUseCCQ";
+// import { FormUseCCQData } from "./FormUseCCQ";
 
 export interface PresentationData {
   text: string;
@@ -12,11 +13,13 @@ export interface PresentationData {
 interface PresentationProps {
   presentations: PresentationData[];
   meanings: MeaningData[];
-  audioSrc: string
-  meaningCCQS: MeaningCCQData[]
+  audioSrc: string;
+  // meaningCCQS: MeaningCCQData[];
+  meaningCCQS: CCQData[];
   pronunciations: PronunciationData[];
-  formUses: FormUseData[];
-  formUseCCQS: FormUseCCQData[]
+  formUses: FormUseData[]
+  formUseCCQS: CCQData[];
+  // formUseCCQS: FormUseCCQData[];
 }
 
 export const Presentation = ({
@@ -26,8 +29,9 @@ export const Presentation = ({
   meaningCCQS,
   pronunciations,
   formUses,
-  formUseCCQS
-}: PresentationProps) => {
+  formUseCCQS,
+}: // formUseCCQS,
+PresentationProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -49,9 +53,15 @@ export const Presentation = ({
         ))}
 
         <div className="line-break">
-          <Meaning meanings={meanings} audioSrc={audioSrc} meaningCCQS={meaningCCQS} />
-          <Pronunciation pronunciations={pronunciations} />
-          <FormUse formUses={formUses} formUseCCQS={formUseCCQS}/>
+          <Meaning
+          meanings={meanings}
+          audioSrc={audioSrc}
+          ccqs={meaningCCQS} />
+          <Pronunciation
+          pronunciations={pronunciations} />
+          <FormUse
+          formUses={formUses}
+          ccqs={formUseCCQS} />
         </div>
       </div>
     </div>
