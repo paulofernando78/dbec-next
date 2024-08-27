@@ -2,6 +2,7 @@ import { WarmUp, WarmUpData } from "@/components/Celta/WarmUp";
 import {
   DiscussionQuestionData,
   Introduction,
+  IntroductionData,
 } from "@/components/Celta/Introduction";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";
 import {
@@ -29,6 +30,7 @@ import { ICQData } from "@/components/Celta/VocabularyGrammar/Practice/ICQ";
 
 interface VocabularyGrammarProps {
   warmUps?: WarmUpData[];
+  introductions: IntroductionData[]
   swiperFraction: SwiperFractionData[];
   discussedQuestions: DiscussionQuestionData[];
   presentations: PresentationData[];
@@ -52,6 +54,7 @@ interface VocabularyGrammarProps {
 
 export const VocabularyGrammar = ({
   warmUps,
+  introductions,
   swiperFraction,
   discussedQuestions,
   presentations,
@@ -76,6 +79,7 @@ export const VocabularyGrammar = ({
     <div className="line-break">
       {warmUps && <WarmUp warmUps={warmUps} />}
       <Introduction
+        introductions={introductions}
         swiperFraction={swiperFraction}
         discussionQuestions={discussedQuestions}
       />

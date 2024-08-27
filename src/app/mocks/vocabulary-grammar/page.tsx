@@ -9,10 +9,6 @@ import { MeaningData } from "@/components/Celta/VocabularyGrammar/Presentation/M
 import { PronunciationData } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
 import { FormUseData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
 import { PracticeData } from "@/components/Celta/VocabularyGrammar/Practice";
-
-import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-
-import { cat1 } from "@/img/index";
 import { HCWPData } from "@/components/Celta/VocabularyGrammar/Practice/HCWP";
 import { LCWPData } from "@/components/Celta/VocabularyGrammar/Practice/LCWP";
 import { HCOPData } from "@/components/Celta/VocabularyGrammar/Practice/HCOP";
@@ -20,6 +16,9 @@ import { LCOPData } from "@/components/Celta/VocabularyGrammar/Practice/LCOP";
 import { ProductionData } from "@/components/Celta/VocabularyGrammar/Production";
 import { CCQData } from "@/components/Celta/VocabularyGrammar/Presentation/CCQ";
 import { ICQData } from "@/components/Celta/VocabularyGrammar/Practice/ICQ";
+
+import { cat1 } from "@/img/index";
+import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 const warmUps: WarmUpData[] = [
   {
@@ -29,6 +28,15 @@ const warmUps: WarmUpData[] = [
     question: "bbb",
   },
 ];
+
+const introductions = [
+  {
+    prompt: "aaa",
+  },
+  {
+    prompt: "bbb",
+  }
+]
 
 const swiperFraction: SwiperFractionData[] = [
   {
@@ -92,7 +100,7 @@ const formUses: FormUseData[] = [
   },
 ];
 
-const formUseCCQS: CCQData[] = [
+const formUseCCQS: CCQData[] = [ 
   {
     checking: "bbb",
   },
@@ -169,6 +177,7 @@ export default function MockVocabularyGrammar() {
       <div className="line-break">
         <VocabularyGrammar
           warmUps={warmUps}
+          introductions={introductions}
           swiperFraction={swiperFraction}
           discussedQuestions={discussedQuestions}
           presentations={presentations}
