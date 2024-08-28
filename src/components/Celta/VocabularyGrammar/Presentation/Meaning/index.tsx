@@ -3,26 +3,26 @@ import styles from "../../../../Cards/BoardCard/styles.module.css";
 import { AudioPlayer } from "@/components/Audioplayer";
 import { CCQ } from "../CCQ";
 
-interface CCQData {
-  checking: string
+interface ICCQ {
+  checking: string;
 }
 
-interface ConversationData {
+interface IConversation {
   statement: string;
 }
 
-export interface MeaningData {
+export interface IMeaning {
   prompt?: string;
   audioSrc?: string;
-  conversations?: ConversationData[];
-  ccqs?: CCQData[];
+  conversations?: IConversation[];
+  ccqs?: ICCQ[];
 }
 
-interface MeaningProps {
-  meanings: MeaningData[];
+interface IMeaningProps {
+  meaning: IMeaning;
 }
 
-export const Meaning = ({ meanings }: MeaningProps) => {
+export const Meaning = ({ meaning }: IMeaningProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -34,22 +34,16 @@ export const Meaning = ({ meanings }: MeaningProps) => {
         </p>
       </div>
       <div className={`line-break ${styles["children"]}`}>
-        {/* prompt */}
-        {meanings.map((meaning, meaningIndex) => (
-          <>
-            <p key={meaningIndex}>{meaning.prompt}</p>
-            {/* audioplayer */}
-            {meaning.audioSrc && <AudioPlayer audioSrc={meaning.audioSrc} />}
-            {/* conversation */}
-           <div>
-              {meaning.conversations?.map((conversation, conversationIndex) => (
-                <p key={conversationIndex}>{conversation.statement}</p>
-              ))}
-           </div>
-           {/* ccqs */}
-           {meaning.ccqs && <CCQ ccqs={meaning.ccqs} />}
-          </>
-        ))}
+        <>
+          <p>{meaning.prompt}</p>
+          {meaning.audioSrc && <AudioPlayer audioSrc={meaning.audioSrc} />}
+          <div>
+            {meaning.conversations?.map((conversation, conversationIndex) => (
+              <p key={conversationIndex}>{conversation.statement}</p>
+            ))}
+          </div>
+          {meaning.ccqs && <CCQ ccqs={meaning.ccqs} />}
+        </>
       </div>
     </div>
   );

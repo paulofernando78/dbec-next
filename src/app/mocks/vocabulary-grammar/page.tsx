@@ -1,10 +1,13 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
 import { WarmUp, WarmUpData } from "@/components/Celta/WarmUp";
-import { Introduction, IntroductionData } from "@/components/Celta/Introduction";
 import {
+  Introduction,
+  IntroductionData,
+} from "@/components/Celta/Introduction";
+import {
+  IMeaning,
   Meaning,
-  MeaningData,
 } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
 import {
   Pronunciation,
@@ -40,62 +43,55 @@ const warmUps: WarmUpData[] = [
   },
 ];
 
-const introduction: IntroductionData = 
-  {
-    prompt: "aaa",
-    swiperFraction: [
-      {
-        imgSrc: cat1,
-        imgAlt: "...",
-      },
-      {
-        imgSrc: cat2,
-        imgAlt: "...",
-      },
-    ],
-    discussionQuestions: [
-      {
-        questions: [
-          {
-            question: "1. ...",
+const introduction: IntroductionData = {
+  prompt: "aaa",
+  swiperFraction: [
+    {
+      imgSrc: cat1,
+      imgAlt: "...",
+    },
+    {
+      imgSrc: cat2,
+      imgAlt: "...",
+    },
+  ],
+  discussionQuestions: [
+    {
+      questions: [
+        {
+          question: "1. ...",
+        },
+        {
+          component: (props) => <DictionaryCard {...props} />,
+          componentProps: {
+            audioSrc: "/.../....mp3",
+            label: "...",
           },
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/.../....mp3",
-              label: "...",
-            },
-            question: "...",
-          },
-        ],
-      },
-    ],
-  }
+          question: "...",
+        },
+      ],
+    },
+  ],
+};
 
-const meanings: MeaningData[] = [
-  {
-    prompt: "...",
-  },
-  {
-    audioSrc:
-      "/assets/audio/courses/beginner/IC5_L0_Unit 01 Pg 002 Ex 01 Conversation Pt A.mp3",
-    conversations: [
-      {
-        statement: "A: How are you doing?",
-      },
-      {
-        statement: "B: I'm pretty good, How about you?",
-      },
-    ],
-  },
-  {
-    ccqs: [
-      {
-        checking: "xxx",
-      },
-    ],
-  },
-];
+const meaning: IMeaning = {
+  prompt: "...",
+  audioSrc:
+    "/assets/audio/courses/beginner/IC5_L0_Unit 01 Pg 002 Ex 01 Conversation Pt A.mp3",
+  conversations: [
+    {
+      statement: "A: How are you doing?",
+    },
+    {
+      statement: "B: I'm pretty good, How about you?",
+    },
+  ],
+  ccqs: [
+    {
+      checking: "xxx",
+    },
+  ],
+};
 
 const pronunciations: PronunciationData[] = [
   {
@@ -192,7 +188,7 @@ export default function MockVocabularyGrammar() {
           {warmUps && <WarmUp warmUps={warmUps} />}
           <Introduction introduction={introduction} />
           <Presentation>
-            <Meaning meanings={meanings} />
+            <Meaning meaning={meaning} />
             <Pronunciation pronunciations={pronunciations} />
             <FormUse formUses={formUses} ccqs={formUseCCQS} />
           </Presentation>

@@ -1,38 +1,48 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { Listening } from "@/components/Lessons/Listening";
-import { SwiperFractionData } from "@/components/Swiper/Fraction";
-import { DiscussionQuestionData } from "@/components/Celta/Introduction";
+import { Introduction, IntroductionData } from "@/components/Celta/Introduction";
 import { FlipCardData } from "@/components/Cards/Flip";
-import { PreVocabularyData } from "@/components/Celta/Listening/PreVocabulary";
+import { PreVocabulary, PreVocabularyData } from "@/components/Celta/Listening/PreVocabulary";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { FillInTheBlanksData } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
-import { ParagraphData } from "@/components/Celta/Listening/ListeningForGist";
-import { ScanQuestionData } from "@/components/Celta/Listening/ListeningForScan";
-import { FollowupQuestionData } from "@/components/Celta/Listening/FollowUp";
+import { ListeningForGist, ParagraphData } from "@/components/Celta/Listening/ListeningForGist";
+import { ListeningForScan, ScanQuestionData } from "@/components/Celta/Listening/ListeningForScan";
+import { FollowUp, FollowupQuestionData } from "@/components/Celta/Listening/FollowUp";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
-import { cat1 } from "@/img/index";
+import { cat1, cat2 } from "@/img/index";
 
-const swiperFraction: SwiperFractionData[] = [
+const introduction: IntroductionData = 
   {
-    imgSrc: cat1,
-    imgAlt: "...",
-  },
-];
-
-const discussionQuestions: DiscussionQuestionData[] = [
-  {
-    questions: [
+    prompt: "aaa",
+    swiperFraction: [
       {
-        question: "...",
+        imgSrc: cat1,
+        imgAlt: "...",
       },
       {
-        question: "...",
-      }
+        imgSrc: cat2,
+        imgAlt: "...",
+      },
     ],
-  },
-];
+    discussionQuestions: [
+      {
+        questions: [
+          {
+            question: "1. ...",
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/.../....mp3",
+              label: "...",
+            },
+            question: "...",
+          },
+        ],
+      },
+    ],
+  }
 
 const flipCards: FlipCardData[] = [
   {
@@ -238,19 +248,23 @@ export default function MockListening() {
         subdescription="Month #, 20..."
       />
       <div className="line-break">
-        <Listening
-          swiperFraction={swiperFraction}
-          discussionQuestions={discussionQuestions}
-          flipCards={flipCards}
-          preVocabularies={preVocabularies}
-          fillInTheBlanks={fillInTheBlanks}
-          audioSrc="..."
-          paragraphs={paragraphs}
-          gistAnswer="..."
-          scanQuestions={scanQuestions}
-          followupQuestions={followupQuestions}
-        />
-      </div>
+      <Introduction introduction={introduction} />
+      {/* <PreVocabulary
+        flipCards={flipCards}
+        preVocabularies={preVocabularies}
+        fillInTheBlanks={fillInTheBlanks}
+      />
+      <ListeningForGist
+        audioSrc={audioSrc}
+        paragraphs={paragraphs}
+        gistAnswer={gistAnswer}
+      />
+      <ListeningForScan scanQuestions={scanQuestions} />
+      <FollowUp followupQuestions={followupQuestions} /> */}
+    </div>
+      
+
+
       <ScrollToTop />
     </>
   );

@@ -56,10 +56,7 @@ export const Listening = ({
 }: ListeningProps) => {
   return (
     <div className="line-break">
-      <Introduction
-        swiperFraction={swiperFraction}
-        discussionQuestions={discussionQuestions}
-      />
+      <Introduction introduction={introduction} />
       <PreVocabulary
         flipCards={flipCards}
         preVocabularies={preVocabularies}
