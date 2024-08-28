@@ -12,20 +12,16 @@ export interface DiscussionQuestionData {
 }
 
 export interface IntroductionData {
-  prompt: string
-}
-
-interface IntroductionProps {
-  introductions: IntroductionData[]
+  prompt: string;
   swiperFraction?: SwiperFractionData[];
   discussionQuestions?: DiscussionQuestionData[];
 }
 
-export const Introduction = ({
-  introductions,
-  swiperFraction,
-  discussionQuestions,
-}: IntroductionProps) => {
+interface IntroductionProps {
+  introduction: IntroductionData;
+}
+
+export const Introduction = ({ introduction }: IntroductionProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -41,42 +37,47 @@ export const Introduction = ({
         </div>
       </div>
       <div className={`line-break ${styles["children"]}`}>
+        
         {/* prompt */}
-        {introductions.map((introduction, introductionIndex) => (
-          <p key={introductionIndex} className={styles[""]}>{introduction.prompt}</p>
-        ))}
-        {swiperFraction && <SwiperFraction images={swiperFraction} />}
-        {/* dicussionQuestions */}
-        <div>
-          {discussionQuestions?.map(
-            (discussionQuestion, discussionQuestionIndex) => (
-              <div key={discussionQuestionIndex}>
-                {discussionQuestion.questions.map((question, questionIndex) => (
-                  <span key={questionIndex}>
-                    {/* question.component */}
-                    {question.component && (
-                      <span className="margin-inline-3px">
-                        {question.component(question.componentProps)}
-                      </span>
-                    )}
-
-                    {/* question */}
-                    {question.question && (
-                      <div
-                        key={discussionQuestionIndex}
-                        className="display-inline"
-                      >
-                        <span className="p-font display-inline margin-right">
-                          {/* ${discussionQuestionIndex + 1}. */}
-                          {` ${question.question}`}
-                        </span>
-                      </div>
-                    )}
-                  </span>
-                ))}
-              </div>
-            )
+        <div className="line-break">
+          <p className={styles[""]}>
+            {introduction.prompt}
+          </p>
+          {/* swiperFraction */}
+          {introduction.swiperFraction && (
+            <SwiperFraction images={introduction.swiperFraction} />
           )}
+
+          {/* dicussionQuestions */}
+          <div>
+            {introduction.discussionQuestions?.map(
+              (discussionQuestion, discussionQuestionIndex) => (
+                <div key={discussionQuestionIndex}>
+                  {discussionQuestion.questions.map(
+                    (question, questionIndex) => (
+                      <span key={questionIndex}>
+                        {/* question.component */}
+                        {question.component && (
+                          <span className="margin-inline-3px">
+                            {question.component(question.componentProps)}
+                          </span>
+                        )}
+                        {/* question */}
+                        {question.question && (
+                          <div className="display-inline">
+                            <span className="p-font display-inline margin-right">
+                              {/* ${discussionQuestionIndex + 1}. */}
+                              {` ${question.question}`}
+                            </span>
+                          </div>
+                        )}
+                      </span>
+                    )
+                  )}
+                </div>
+              )
+            )}
+          </div>
         </div>
       </div>
     </div>

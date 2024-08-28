@@ -1,14 +1,12 @@
 import { WarmUp, WarmUpData } from "@/components/Celta/WarmUp";
 import {
-  DiscussionQuestionData,
   Introduction,
   IntroductionData,
 } from "@/components/Celta/Introduction";
-import { SwiperFractionData } from "@/components/Swiper/Fraction";
 import {
   Presentation,
 } from "@/components/Celta/VocabularyGrammar/Presentation";
-import { ConversationData, MeaningData } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
+import { MeaningData } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
 import { PronunciationData } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
 import { FormUseData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
 import {
@@ -29,10 +27,7 @@ import { ICQData } from "@/components/Celta/VocabularyGrammar/Practice/ICQ";
 interface VocabularyGrammarProps {
   warmUps?: WarmUpData[];
   introductions: IntroductionData[]
-  swiperFraction: SwiperFractionData[];
-  discussedQuestions: DiscussionQuestionData[];
   meanings: MeaningData[];
-  meaningCCQS: CCQData[];
   pronunciations: PronunciationData[];
   formUses: FormUseData[];
   formUseCCQS: CCQData[];
@@ -50,10 +45,7 @@ interface VocabularyGrammarProps {
 export const VocabularyGrammar = ({
   warmUps,
   introductions,
-  swiperFraction,
-  discussedQuestions,
   meanings,
-  meaningCCQS,
   pronunciations,
   formUses,
   formUseCCQS,
@@ -72,12 +64,9 @@ export const VocabularyGrammar = ({
       {warmUps && <WarmUp warmUps={warmUps} />}
       <Introduction
         introductions={introductions}
-        swiperFraction={swiperFraction}
-        discussionQuestions={discussedQuestions}
       />
       <Presentation
         meanings={meanings}
-        meaningCCQS={meaningCCQS}
         pronunciations={pronunciations}
         formUses={formUses}
         formUseCCQS={formUseCCQS}

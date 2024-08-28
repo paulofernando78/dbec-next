@@ -1,23 +1,28 @@
 import styles from "../../../../Cards/BoardCard/styles.module.css";
-import { AudioPlayer } from "@/components/Audioplayer";
-import { CCQ, CCQData } from "../CCQ";
 
-export interface ConversationData {
+import { AudioPlayer } from "@/components/Audioplayer";
+import { CCQ } from "../CCQ";
+
+interface CCQData {
+  checking: string
+}
+
+interface ConversationData {
   statement: string;
 }
 
 export interface MeaningData {
   prompt?: string;
   audioSrc?: string;
-  conversations: ConversationData[];
+  conversations?: ConversationData[];
+  ccqs?: CCQData[];
 }
 
 interface MeaningProps {
   meanings: MeaningData[];
-  ccqs: CCQData[];
 }
 
-export const Meaning = ({ meanings, ccqs }: MeaningProps) => {
+export const Meaning = ({ meanings }: MeaningProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -37,13 +42,14 @@ export const Meaning = ({ meanings, ccqs }: MeaningProps) => {
             {meaning.audioSrc && <AudioPlayer audioSrc={meaning.audioSrc} />}
             {/* conversation */}
            <div>
-              {meaning.conversations.map((conversation, conversationIndex) => (
+              {meaning.conversations?.map((conversation, conversationIndex) => (
                 <p key={conversationIndex}>{conversation.statement}</p>
               ))}
            </div>
+           {/* ccqs */}
+           {meaning.ccqs && <CCQ ccqs={meaning.ccqs} />}
           </>
         ))}
-        <CCQ ccqs={ccqs} />
       </div>
     </div>
   );

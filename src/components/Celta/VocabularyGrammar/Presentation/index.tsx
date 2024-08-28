@@ -1,28 +1,17 @@
 import styles from "../../../Cards/BoardCard/styles.module.css";
 
-import { CCQData } from "./CCQ";
-import { Meaning, MeaningData } from "./Meaning";
-import { Pronunciation, PronunciationData } from "./Pronunciation";
-import { FormUse, FormUseData } from "./FormUse";
+import { ReactNode } from "react";
 
 export interface PresentationData {
   text: string;
 }
 
 interface PresentationProps {
-  meanings: MeaningData[];
-  meaningCCQS: CCQData[];
-  pronunciations: PronunciationData[];
-  formUses: FormUseData[];
-  formUseCCQS: CCQData[];
+  children: ReactNode
 }
 
 export const Presentation = ({
-  meanings,
-  meaningCCQS,
-  pronunciations,
-  formUses,
-  formUseCCQS,
+  children
 }:
 PresentationProps) => {
   return (
@@ -42,9 +31,7 @@ PresentationProps) => {
       {/* text */}
       <div className={`line-break ${styles["children"]}`}>
         <div className="line-break">
-          <Meaning meanings={meanings} ccqs={meaningCCQS} />
-          <Pronunciation pronunciations={pronunciations} />
-          <FormUse formUses={formUses} ccqs={formUseCCQS} />
+          {children}
         </div>
       </div>
     </div>

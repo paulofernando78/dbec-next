@@ -1,27 +1,35 @@
 "use client";
-import { VocabularyGrammar } from "@/components/Lessons/VocabularyGrammar";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { WarmUpData } from "@/components/Celta/WarmUp";
-import { SwiperFractionData } from "@/components/Swiper/Fraction";
-import { DiscussionQuestionData } from "@/components/Celta/Introduction";
-import { PresentationData } from "@/components/Celta/VocabularyGrammar/Presentation";
+import { WarmUp, WarmUpData } from "@/components/Celta/WarmUp";
+import { Introduction, IntroductionData } from "@/components/Celta/Introduction";
 import {
-  ConversationData,
+  Meaning,
   MeaningData,
 } from "@/components/Celta/VocabularyGrammar/Presentation/Meaning";
-import { PronunciationData } from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
-import { FormUseData } from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
-import { PracticeData } from "@/components/Celta/VocabularyGrammar/Practice";
+import {
+  Pronunciation,
+  PronunciationData,
+} from "@/components/Celta/VocabularyGrammar/Presentation/Pronunciation";
+import {
+  FormUse,
+  FormUseData,
+} from "@/components/Celta/VocabularyGrammar/Presentation/FormUse";
 import { HCWPData } from "@/components/Celta/VocabularyGrammar/Practice/HCWP";
 import { LCWPData } from "@/components/Celta/VocabularyGrammar/Practice/LCWP";
 import { HCOPData } from "@/components/Celta/VocabularyGrammar/Practice/HCOP";
 import { LCOPData } from "@/components/Celta/VocabularyGrammar/Practice/LCOP";
-import { ProductionData } from "@/components/Celta/VocabularyGrammar/Production";
+import {
+  Production,
+  ProductionData,
+} from "@/components/Celta/VocabularyGrammar/Production";
 import { CCQData } from "@/components/Celta/VocabularyGrammar/Presentation/CCQ";
 import { ICQData } from "@/components/Celta/VocabularyGrammar/Practice/ICQ";
 
-import { cat1 } from "@/img/index";
+import { cat1, cat2 } from "@/img/index";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+import { Presentation } from "@/components/Celta/VocabularyGrammar/Presentation";
+import { Practice } from "@/components/Celta/VocabularyGrammar/Practice";
+import { WrapUp } from "@/components/Celta/WrapUp";
 
 const warmUps: WarmUpData[] = [
   {
@@ -32,47 +40,43 @@ const warmUps: WarmUpData[] = [
   },
 ];
 
-const introductions = [
+const introduction: IntroductionData = 
   {
     prompt: "aaa",
-  },
-];
-
-const swiperFraction: SwiperFractionData[] = [
-  {
-    imgSrc: cat1,
-    imgAlt: "...",
-  },
-];
-
-const discussedQuestions: DiscussionQuestionData[] = [
-  {
-    questions: [
+    swiperFraction: [
       {
-        question: "1. ...",
+        imgSrc: cat1,
+        imgAlt: "...",
       },
       {
-        component: (props) => <DictionaryCard {...props} />,
-        componentProps: {
-          audioSrc: "/.../....mp3",
-          label: "...",
-        },
-        question: "...",
+        imgSrc: cat2,
+        imgAlt: "...",
       },
     ],
-  },
-  {
-    questions: [
+    discussionQuestions: [
       {
-        question: "2.",
+        questions: [
+          {
+            question: "1. ...",
+          },
+          {
+            component: (props) => <DictionaryCard {...props} />,
+            componentProps: {
+              audioSrc: "/.../....mp3",
+              label: "...",
+            },
+            question: "...",
+          },
+        ],
       },
     ],
-  },
-];
+  }
 
 const meanings: MeaningData[] = [
   {
-    prompt: "aaa",
+    prompt: "...",
+  },
+  {
     audioSrc:
       "/assets/audio/courses/beginner/IC5_L0_Unit 01 Pg 002 Ex 01 Conversation Pt A.mp3",
     conversations: [
@@ -84,11 +88,12 @@ const meanings: MeaningData[] = [
       },
     ],
   },
-];
-
-const meaningCCQS: CCQData[] = [
   {
-    checking: "aaa",
+    ccqs: [
+      {
+        checking: "xxx",
+      },
+    ],
   },
 ];
 
@@ -183,26 +188,27 @@ export default function MockVocabularyGrammar() {
         descriptions={["..."]}
       />
       <div className="line-break">
-        <VocabularyGrammar
-          warmUps={warmUps}
-          introductions={introductions}
-          swiperFraction={swiperFraction}
-          discussedQuestions={discussedQuestions}
-          meanings={meanings}
-          meaningCCQS={meaningCCQS}
-          pronunciations={pronunciations}
-          formUses={formUses}
-          formUseCCQS={formUseCCQS}
-          hcwps={hcwps}
-          icqHCWP={icqHCWP}
-          lcwps={lcwps}
-          icqLCWP={icqLCWP}
-          hcops={hcops}
-          icqHCOP={icqHCOP}
-          lcops={lcops}
-          icqLCOP={icqLCOP}
-          productions={productions}
-        />
+        <div className="line-break">
+          {warmUps && <WarmUp warmUps={warmUps} />}
+          <Introduction introduction={introduction} />
+          <Presentation>
+            <Meaning meanings={meanings} />
+            <Pronunciation pronunciations={pronunciations} />
+            <FormUse formUses={formUses} ccqs={formUseCCQS} />
+          </Presentation>
+          <Practice
+            hcwps={hcwps}
+            icqHCWP={icqHCWP}
+            lcwps={lcwps}
+            icqLCWP={icqLCWP}
+            hcops={hcops}
+            icqHCOP={icqHCOP}
+            lcops={lcops}
+            icqLCOP={icqLCOP}
+          />
+          <Production productions={productions} />
+          <WrapUp />
+        </div>
       </div>
     </>
   );

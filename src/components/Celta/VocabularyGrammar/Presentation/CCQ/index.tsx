@@ -13,7 +13,7 @@ export const CCQ = ({ ccqs }: CCQProps) => {
     <div className={styles["card"]} style={{ backgroundColor: "#FFFACD" }}>
       <p className="bold">Checking</p>
       <div className={styles["children"]}>
-        {ccqs.map((ccq, ccqIndex) => (
+        {ccqs && ccqs.map((ccq, ccqIndex) => (
           <p key={ccqIndex}>{ccq.checking}</p>
         ))}
       </div>
