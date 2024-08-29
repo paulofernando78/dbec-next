@@ -1,4 +1,4 @@
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 import Link from "next/link";
 
 export default function StockMarket() {
@@ -7,7 +7,9 @@ export default function StockMarket() {
       <Whiteboard title="Specific Purposes" subtitle="Stock Market" />
       <div className="line-break">
         <Link href="/specific-purposes/stock-market/vocabulary">
-          <p><b>Vocabulary</b></p>
+          <p>
+            <b>Vocabulary</b>
+          </p>
         </Link>
       </div>
     </>

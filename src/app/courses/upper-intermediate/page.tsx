@@ -1,5 +1,5 @@
 import { ContentCard } from "@/components/Cards/ContentCard";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 import { upperIntermediate } from "@/img/index";
 
@@ -13,16 +13,13 @@ const contents = [
         label: "CEFR (Common European Framework of Reference)",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
           },
           {
-            content:
-              "...",
+            content: "...",
           },
           {
-            content:
-              "...",
+            content: "...",
           },
         ],
       },
@@ -44,13 +41,13 @@ const contents = [
         label: "Lesson 2",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-2/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-2/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -72,13 +69,13 @@ const contents = [
         label: "Lesson 3",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-3/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-3/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -100,13 +97,13 @@ const contents = [
         label: "Lesson 4",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-4/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-4/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -128,13 +125,13 @@ const contents = [
         label: "Lesson 5",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-5/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-5/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -180,13 +177,13 @@ const contents = [
         label: "Lesson 7",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-7/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-7/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -208,13 +205,13 @@ const contents = [
         label: "Lesson 8",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-8/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-8/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -236,13 +233,13 @@ const contents = [
         label: "Lesson 9",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-9/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-9/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -264,13 +261,13 @@ const contents = [
         label: "Lesson 10",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-10/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-10/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -316,13 +313,13 @@ const contents = [
         label: "Lesson 12",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-12/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-12/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -344,13 +341,13 @@ const contents = [
         label: "Lesson 13",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-13/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-13/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -372,15 +369,14 @@ const contents = [
         label: "Lesson 14",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-14/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • ...",
+            courseLink:
+              "/courses/upper-intermediate/lesson-14/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: upperIntermediate,
@@ -401,15 +397,14 @@ const contents = [
         label: "Lesson 15",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-15/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • ...",
+            courseLink:
+              "/courses/upper-intermediate/lesson-15/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: upperIntermediate,
@@ -454,13 +449,13 @@ const contents = [
         label: "Lesson 17",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-17/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-17/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -482,13 +477,13 @@ const contents = [
         label: "Lesson 18",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-18/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-18/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -510,13 +505,13 @@ const contents = [
         label: "Lesson 19",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-19/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-19/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -538,13 +533,13 @@ const contents = [
         label: "Lesson 20",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-20/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-20/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -613,15 +608,14 @@ const contents = [
         label: "Lesson 23",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-23/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • ...",
+            courseLink:
+              "/courses/upper-intermediate/lesson-23/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: upperIntermediate,
@@ -642,13 +636,13 @@ const contents = [
         label: "Lesson 24",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-24/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-24/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -670,15 +664,14 @@ const contents = [
         label: "Lesson 25",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-25/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • ...",
+            courseLink:
+              "/courses/upper-intermediate/lesson-25/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: upperIntermediate,
@@ -699,15 +692,14 @@ const contents = [
         label: "Lesson 26",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-26/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • ...",
+            courseLink:
+              "/courses/upper-intermediate/lesson-26/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: upperIntermediate,
@@ -752,15 +744,14 @@ const contents = [
         label: "Lesson 28",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-28/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • ...",
+            courseLink:
+              "/courses/upper-intermediate/lesson-28/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: upperIntermediate,
@@ -781,15 +772,14 @@ const contents = [
         label: "Lesson 29",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-29/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • ...",
+            courseLink:
+              "/courses/upper-intermediate/lesson-29/flipped-classroom",
+            courseLabel: "Flipped Classroom • ...",
           },
           {
             courseImg: upperIntermediate,
@@ -810,13 +800,13 @@ const contents = [
         label: "Lesson 30",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-30/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-30/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -838,13 +828,13 @@ const contents = [
         label: "Lesson 31",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-31/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-31/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -890,13 +880,13 @@ const contents = [
         label: "Lesson 33",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-33/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-33/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -918,13 +908,13 @@ const contents = [
         label: "Lesson 34",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-34/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-34/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -946,13 +936,13 @@ const contents = [
         label: "Lesson 35",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-35/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-35/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -974,13 +964,13 @@ const contents = [
         label: "Lesson 36",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-36/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-36/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -1026,13 +1016,13 @@ const contents = [
         label: "Lesson 38",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-38/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-38/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -1054,13 +1044,13 @@ const contents = [
         label: "Lesson 39",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-39/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-39/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -1082,13 +1072,13 @@ const contents = [
         label: "Lesson 40",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-40/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-40/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
@@ -1110,13 +1100,13 @@ const contents = [
         label: "Lesson 41",
         contents: [
           {
-            content:
-              "...",
+            content: "...",
             applyHr: true,
           },
           {
             courseImg: upperIntermediate,
-            courseLink: "/courses/upper-intermediate/lesson-41/flipped-classroom",
+            courseLink:
+              "/courses/upper-intermediate/lesson-41/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {

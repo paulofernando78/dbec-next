@@ -1,5 +1,5 @@
-import { VideoPlayer } from "@/components/VideoPlayer/VideoPlayer";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { VideoPlayer } from "@/components/VideoPlayer";
+import { Whiteboard } from "@/components/Whiteboard";
 import React from "react";
 
 export default function HowToCleanAndRemovePesticides() {
@@ -350,25 +350,32 @@ export default function HowToCleanAndRemovePesticides() {
             residue left from any chemicals the farmer may use.
           </p>
           <p className="portuguese">
-            Os truques e dicas listados acima
-            removerão quase 90% de qualquer resíduo deixado por quaisquer
-            produtos químicos que o agricultor possa usar.
+            Os truques e dicas listados acima removerão quase 90% de qualquer
+            resíduo deixado por quaisquer produtos químicos que o agricultor
+            possa usar.
           </p>
         </div>
         <div>
           <p>They allow you to clean your fruit and vegetables at home.</p>
-          <p className="portuguese">Eles permitem que você limpe suas frutas e vegetais em casa.</p>
+          <p className="portuguese">
+            Eles permitem que você limpe suas frutas e vegetais em casa.
+          </p>
         </div>
         <div>
           <p>
             However, to be on the safe side, peel the skin off fruits and
             vegetables that have deep ridges on the skin.
           </p>
-          <p className="portuguese">No entanto, para garantir a segurança, descasque a pele das frutas e vegetais que têm sulcos profundos na casca.</p>
+          <p className="portuguese">
+            No entanto, para garantir a segurança, descasque a pele das frutas e
+            vegetais que têm sulcos profundos na casca.
+          </p>
         </div>
         <div>
           <p>These are locations where the chemicals cling onto and linger.</p>
-          <p className="portuguese">Esses são locais onde os produtos químicos se aderem e permanecem.</p>
+          <p className="portuguese">
+            Esses são locais onde os produtos químicos se aderem e permanecem.
+          </p>
         </div>
         <div>
           <p>Happy eating!</p>
@@ -379,11 +386,16 @@ export default function HowToCleanAndRemovePesticides() {
             If you like the video, give it a thumbs up and share it with your
             friends!
           </p>
-          <p className="portuguese">Se você gostou do vídeo, dê um "joinha" e compartilhe-o com seus amigos!</p>
+          <p className="portuguese">
+            Se você gostou do vídeo, dê um "joinha" e compartilhe-o com seus
+            amigos!
+          </p>
         </div>
         <div>
           <p>If you want more recipes and tips, subscribe to the channel!</p>
-          <p className="portuguese">Se você quiser mais receitas e dicas, inscreva-se no canal!</p>
+          <p className="portuguese">
+            Se você quiser mais receitas e dicas, inscreva-se no canal!
+          </p>
         </div>
       </div>
     </>

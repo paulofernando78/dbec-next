@@ -1,5 +1,4 @@
-import React from "react";
-import whiteboard from "./Whiteboard.module.css";
+import styles from "./styles.module.css";
 
 interface WhiteboardProps {
   title: string;
@@ -15,7 +14,7 @@ export const Whiteboard = ({
   subdescription
 }: WhiteboardProps) => {
   return (
-    <div className={whiteboard.container}>
+    <div className={styles["container"]}>
       <h1>{title}</h1>
       {subtitle && <h3>{subtitle}</h3>}
       {descriptions.map((description, index) => (

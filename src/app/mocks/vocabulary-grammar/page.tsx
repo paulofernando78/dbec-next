@@ -1,11 +1,23 @@
 "use client";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { BoardCard } from "@/components/Cards/BoardCard";
-import SwiperFraction from "@/components/Swiper/Fraction";
-import Text from "@/components/Lessons/Text";
-import { AudioPlayer } from "@/components/Audioplayer";
 import { Card } from "@/components/Cards/Card";
+
+import {
+  AudioPlayer,
+  BoardCard,
+  DictionaryCard,
+  FillInTheBlanks,
+  FlipCard,
+  PreVocabulary,
+  Radio,
+  ScrollToTop,
+  SwiperFraction,
+  Text,
+  VideoPlayer,
+  Whiteboard,
+} from "@/components";
+
 import { cat1, cat2 } from "@/img/index";
+import { VocabularyComponent } from "@/types/PreVocabulary";
 
 const warmUpPrompt = [
   {
@@ -18,7 +30,7 @@ const warmUpPrompt = [
 
 const introductionPrompt = [
   {
-    prompt: "...",
+    prompt: "Take a look at these pictures. / Let's watch a video...",
   },
 ];
 
@@ -30,6 +42,12 @@ const swiperIntroduction = [
   {
     imgSrc: cat2,
     imgAlt: "...",
+  },
+];
+
+const introductionQuestion = [
+  {
+    prompt: "...",
   },
 ];
 
@@ -57,6 +75,49 @@ const meaningChecking = [
   },
 ];
 
+const preVocabularyPrompt1 = [
+  {
+    prompt: "...",
+  },
+];
+
+const preVocabularyPrompt2 = [
+  {
+    prompt: "Now fill in the blanks with the words above.",
+  },
+];
+
+const flipCards = [
+  {
+    imgSrc: cat1,
+    imgAlt:
+      'An image representing the concept of "consent" with a serene and symbolic depiction.',
+  },
+];
+
+const words: VocabularyComponent[] = [
+  {
+    component: (props) => <DictionaryCard {...props} />,
+    componentProps: {
+      audioSrc: "....mp3",
+      keyword: "...",
+      label: "...",
+      phonetics: "/.../",
+    },
+  },
+];
+
+const fillInTheBlanks = [
+  {
+    options: true,
+    width: "100px",
+    beforeBlank: "...",
+    correctAnswer: ["..."],
+    afterBlank: "...",
+    lineBreakAfter: true,
+  },
+];
+
 const pronunciationPrompt = [
   {
     prompt: "...",
@@ -65,39 +126,57 @@ const pronunciationPrompt = [
 
 const hcwpInstructions = [
   {
-    prompt: "• aaa",
+    prompt: "• ...",
+  },
+];
+
+const radio = [
+  {
+    title: "Exercise 1.",
+    question: "1. Question",
+    options: [
+      { label: "Answer 1", isCorrect: true },
+      { label: "Answer 2", isCorrect: false },
+    ],
+  },
+  {
+    question: "2. Question",
+    options: [
+      { label: "Answer 1", isCorrect: true },
+      { label: "Answer 2", isCorrect: false },
+    ],
   },
 ];
 
 const lcwpInstructions = [
   {
-    prompt: "• bbb",
+    prompt: "• ...",
   },
 ];
 
 const hcopInstructions = [
   {
-    prompt: "• ccc",
+    prompt: "• ...",
   },
 ];
 
 const lcopInstructions = [
   {
-    prompt: "• ddd",
+    prompt: "• ...",
   },
 ];
 
 const productionPrompt = [
   {
-    prompt: "aaa",
+    prompt: "...",
   },
 ];
 
 const wrapUpPrompt = [
   {
-    prompt: "yyy"
-  }
-]
+    prompt: "yyy",
+  },
+];
 
 export default function MockVocabularyGrammar() {
   return (
@@ -107,6 +186,8 @@ export default function MockVocabularyGrammar() {
         subtitle="..."
         descriptions={["..."]}
       />
+
+      {/* Warm-up */}
       <div className="line-break">
         <div className="line-break">
           <BoardCard
@@ -117,6 +198,22 @@ export default function MockVocabularyGrammar() {
           >
             <Text texts={warmUpPrompt} />
           </BoardCard>
+
+          {/* Pre-vocabulary */}
+          <BoardCard
+            label="Pre-vocabulary"
+            time="5-10'"
+            bgColor="black"
+            textColor="white"
+          >
+            <Text texts={preVocabularyPrompt1} />
+            <FlipCard flipCards={flipCards} />
+            <PreVocabulary preVocabularies={words} />
+            <Text texts={preVocabularyPrompt2} />
+            <FillInTheBlanks questions={fillInTheBlanks} />
+          </BoardCard>
+
+          {/* Introduction */}
           <BoardCard
             label="Introduction"
             smallerLabel="(Contextualization)"
@@ -126,13 +223,18 @@ export default function MockVocabularyGrammar() {
           >
             <Text texts={introductionPrompt} />
             <SwiperFraction images={swiperIntroduction} />
+            <Text texts={introductionQuestion} />
           </BoardCard>
+
+          {/* Presentation */}
           <BoardCard
             label="Presention"
             time="20'"
             bgColor="black"
             textColor="white"
           >
+
+            {/* Meaning */}
             <BoardCard label="Meaning" bgColor="lightgray" textColor="black">
               <Text texts={meaningPrompt} />
               <AudioPlayer audioSrc="" />
@@ -141,6 +243,8 @@ export default function MockVocabularyGrammar() {
                 <Text texts={meaningChecking} />
               </Card>
             </BoardCard>
+
+            {/* Pronunciation */}
             <BoardCard
               label="Pronunciation"
               bgColor="lightgray"
@@ -151,8 +255,12 @@ export default function MockVocabularyGrammar() {
             <BoardCard label="Form / Use" bgColor="lightgray" textColor="black">
               <p>...</p>
             </BoardCard>
+
+            {/* Practice */}
           </BoardCard>
           <BoardCard label="Practice" bgColor="black" textColor="white">
+
+            {/* High Control Written Practice */}
             <BoardCard
               label="High Control Written Practice"
               bgColor="lightgray"
@@ -161,7 +269,10 @@ export default function MockVocabularyGrammar() {
               <Card bgColor="#FFBABA">
                 <Text texts={hcwpInstructions} />
               </Card>
+              <Radio questions={radio} />
             </BoardCard>
+
+            {/* Low Control Written Practice */}
             <BoardCard
               label="Low Control Written Practice"
               bgColor="lightgray"
@@ -171,6 +282,8 @@ export default function MockVocabularyGrammar() {
                 <Text texts={lcwpInstructions} />
               </Card>
             </BoardCard>
+
+            {/* High Controo Oral Practice */}
             <BoardCard
               label="High Control Oral Practice"
               bgColor="lightgray"
@@ -180,6 +293,8 @@ export default function MockVocabularyGrammar() {
                 <Text texts={hcopInstructions} />
               </Card>
             </BoardCard>
+
+            {/* Low Control Oral Practice */}
             <BoardCard
               label="Low Control Oral Practice"
               bgColor="lightgray"
@@ -190,14 +305,19 @@ export default function MockVocabularyGrammar() {
               </Card>
             </BoardCard>
           </BoardCard>
+
+          {/* Production */}
           <BoardCard label="Production" bgColor="black" textColor="white">
             <Text texts={productionPrompt} />
           </BoardCard>
         </div>
+
+        {/* Wrap-up */}
         <BoardCard label="Wrap-up" bgColor="black" textColor="white">
           <Text texts={wrapUpPrompt} />
         </BoardCard>
       </div>
+      <ScrollToTop />
     </>
   );
 }

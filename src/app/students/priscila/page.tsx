@@ -1,5 +1,5 @@
 import { AudioPlayer } from "@/components/Audioplayer";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 import Link from "next/link";
 import React from "react";
 

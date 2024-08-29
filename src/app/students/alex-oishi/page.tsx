@@ -1,7 +1,7 @@
 import { DashboardNotes } from "@/components/DashboardNotes/DashboardNotes";
 import HowYouFeeling from "@/components/HowYouFeeling/HowYouFeeling";
-import { Welcome } from "@/components/Welcome/Welcome";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Welcome } from "@/components/Welcome";
+import { Whiteboard } from "@/components/Whiteboard";
 import Link from "next/link";
 import React from "react";
 

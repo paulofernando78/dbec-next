@@ -1,9 +1,8 @@
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 import { Card } from "@/components/Cards/Card";
 import Image from "next/image";
 import styles from "./styles.module.css";
 import { BoardCard } from "@/components/Cards/BoardCard";
-
 
 // Images
 import {
@@ -281,7 +280,8 @@ export default function Unit103() {
                     Sundays?
                   </p>
                   <p>
-                    • The concert is <span className="bold">on</span> November 22.
+                    • The concert is <span className="bold">on</span> November
+                    22.
                   </p>
                   <p>
                     • The concert is <span className="bold">on</span> (the) 22
@@ -291,7 +291,8 @@ export default function Unit103() {
                 <div className="red-dashed-border">
                   <ExclamationIcon>
                     <p>
-                      <span className="bold">at</span> the weekend / weekends (UK)
+                      <span className="bold">at</span> the weekend / weekends
+                      (UK)
                     </p>
                     <p>Use ordinal numbers for dates.</p>
                   </ExclamationIcon>

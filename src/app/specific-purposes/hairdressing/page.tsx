@@ -1,4 +1,4 @@
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 export default function Hairdressing() {
   return (
@@ -19,7 +19,8 @@ export default function Hairdressing() {
           <div>
             <p>Phrases</p>
             <p>
-              I'm gonna <span className="underline">have my haircut today</span>.
+              I'm gonna <span className="underline">have my haircut today</span>
+              .
             </p>
             <p>How much the haircut?</p>
             <p>How much is it?</p>
@@ -41,7 +42,6 @@ export default function Hairdressing() {
             <p>dye *die</p>
             <p>trim</p>
             <p>fade</p>
-
           </div>
         </div>
       </div>

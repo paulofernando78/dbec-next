@@ -1,5 +1,5 @@
 import { ContentCard } from "@/components/Cards/ContentCard";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 import { intermediate } from "@/img/index";
 
@@ -55,7 +55,8 @@ const contents = [
           {
             courseImg: intermediate,
             courseLink: "/courses/intermediate/lesson-2/flipped-classroom",
-            courseLabel: "Flipped Classroom • That's my kind of friend! (Cycle 1)",
+            courseLabel:
+              "Flipped Classroom • That's my kind of friend! (Cycle 1)",
           },
           {
             courseImg: intermediate,
@@ -83,7 +84,8 @@ const contents = [
           {
             courseImg: intermediate,
             courseLink: "/courses/intermediate/lesson-3/flipped-classroom",
-            courseLabel: "Flipped Classroom • That's my kind of friend! (Cycle 2)",
+            courseLabel:
+              "Flipped Classroom • That's my kind of friend! (Cycle 2)",
           },
           {
             courseImg: intermediate,
@@ -247,17 +249,20 @@ const contents = [
           {
             courseImg: intermediate,
             courseLink: "/courses/intermediate/lesson-9/flipped-classroom",
-            courseLabel: "Flipped Classroom • Flipped Classroom • What happened? (Cycle 1)",
+            courseLabel:
+              "Flipped Classroom • Flipped Classroom • What happened? (Cycle 1)",
           },
           {
             courseImg: intermediate,
             courseLink: "/courses/intermediate/lesson-9/classwork",
-            courseLabel: "Classwork • Flipped Classroom • What happened? (Cycle 1)",
+            courseLabel:
+              "Classwork • Flipped Classroom • What happened? (Cycle 1)",
           },
           {
             courseImg: intermediate,
             courseLink: "/courses/intermediate/lesson-9/homework",
-            courseLabel: "Homework • Flipped Classroom • What happened? (Cycle 1)",
+            courseLabel:
+              "Homework • Flipped Classroom • What happened? (Cycle 1)",
           },
         ],
       },
@@ -327,7 +332,8 @@ const contents = [
           {
             courseImg: intermediate,
             courseLink: "/courses/intermediate/lesson-12/flipped-classroom",
-            courseLabel: "Flipped Classroom • Expanding your horizons (Cycle 1)",
+            courseLabel:
+              "Flipped Classroom • Expanding your horizons (Cycle 1)",
           },
           {
             courseImg: intermediate,
@@ -355,7 +361,8 @@ const contents = [
           {
             courseImg: intermediate,
             courseLink: "/courses/intermediate/lesson-13/flipped-classroom",
-            courseLabel: "Flipped Classroom • Expanding your horizons (Cycle 2)",
+            courseLabel:
+              "Flipped Classroom • Expanding your horizons (Cycle 2)",
           },
           {
             courseImg: intermediate,
@@ -383,8 +390,7 @@ const contents = [
           {
             courseImg: intermediate,
             courseLink: "/courses/intermediate/lesson-14/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • That needs fixing (Cycle 1)",
+            courseLabel: "Flipped Classroom • That needs fixing (Cycle 1)",
           },
           {
             courseImg: intermediate,
@@ -412,8 +418,7 @@ const contents = [
           {
             courseImg: intermediate,
             courseLink: "/courses/intermediate/lesson-15/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • That needs fixing (Cycle 2)",
+            courseLabel: "Flipped Classroom • That needs fixing (Cycle 2)",
           },
           {
             courseImg: intermediate,
@@ -624,8 +629,7 @@ const contents = [
           {
             courseImg: intermediate,
             courseLink: "/courses/intermediate/lesson-23/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • Getting things done? (Cycle 1)",
+            courseLabel: "Flipped Classroom • Getting things done? (Cycle 1)",
           },
           {
             courseImg: intermediate,
@@ -681,8 +685,7 @@ const contents = [
           {
             courseImg: intermediate,
             courseLink: "/courses/intermediate/lesson-25/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • A matter of time (Cycle 1)",
+            courseLabel: "Flipped Classroom • A matter of time (Cycle 1)",
           },
           {
             courseImg: intermediate,
@@ -710,8 +713,7 @@ const contents = [
           {
             courseImg: intermediate,
             courseLink: "/courses/intermediate/lesson-26/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • A matter of time (Cycle 2)",
+            courseLabel: "Flipped Classroom • A matter of time (Cycle 2)",
           },
           {
             courseImg: intermediate,
@@ -763,8 +765,7 @@ const contents = [
           {
             courseImg: intermediate,
             courseLink: "/courses/intermediate/lesson-28/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • Rites of passage (Cycle 1)",
+            courseLabel: "Flipped Classroom • Rites of passage (Cycle 1)",
           },
           {
             courseImg: intermediate,
@@ -792,8 +793,7 @@ const contents = [
           {
             courseImg: intermediate,
             courseLink: "/courses/intermediate/lesson-29/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • Rites of passage (Cycle 2)",
+            courseLabel: "Flipped Classroom • Rites of passage (Cycle 2)",
           },
           {
             courseImg: intermediate,
@@ -1108,7 +1108,7 @@ const contents = [
         ],
       },
       // Lesson 41
-      {  
+      {
         bgColor: "black",
         textColor: "white",
         label: "Lesson 41",

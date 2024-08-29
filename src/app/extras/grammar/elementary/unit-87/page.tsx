@@ -1,5 +1,5 @@
 import { UnderConstruction } from "@/components/UnderConstruction";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 export default function GrammarInUseElementaryUnit87() {
   return (
@@ -7,7 +7,10 @@ export default function GrammarInUseElementaryUnit87() {
       <Whiteboard
         title="Extras"
         subtitle="Grammar"
-        descriptions={["Elementary", "Unit 87 • old/older, expensive/more expensive"]}
+        descriptions={[
+          "Elementary",
+          "Unit 87 • old/older, expensive/more expensive",
+        ]}
       />
       <div className="line-break">
         <UnderConstruction />

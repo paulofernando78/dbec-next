@@ -19,8 +19,9 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
+      "@/img/*": ["./public/assets/img/*"],
       "@components/*": ["./src/components/*"],
-      "@/img/*": ["./public/assets/img/*"]
+      "@/types/*": ["./src/types/*"]
     }
   },
   "include": [

@@ -15,7 +15,7 @@ import "./navigation-custom.css";
 import Image, { StaticImageData } from "next/image";
 import styles from "./style.module.css";
 
-export interface SwiperFraction {
+export interface SwiperFractionImages {
   imgSrc?: StaticImageData;
   imgAlt?: string;
   imgSrcLink?: string;
@@ -23,7 +23,7 @@ export interface SwiperFraction {
 }
 
 interface SwiperFractionProps {
-  images: SwiperFraction[];
+  images: SwiperFractionImages[];
 }
 
 export default function SwiperFraction({ images }: SwiperFractionProps) {

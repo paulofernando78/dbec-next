@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Collapsible } from "@/components/Collapsibles/Collapsible/Collapsible";

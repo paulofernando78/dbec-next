@@ -1,6 +1,6 @@
 import { AudioPlayer } from "@/components/Audioplayer";
 import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 const radio = [
   {
@@ -67,18 +67,25 @@ export default function Unit1() {
       <Whiteboard
         title="Specific Purposes"
         subtitle="Travel"
-        descriptions={["Welcome - English for the travel and industry (Cambridge)", "Unit 4 • Dealing with an enquiries"]}
+        descriptions={[
+          "Welcome - English for the travel and industry (Cambridge)",
+          "Unit 4 • Dealing with an enquiries",
+        ]}
       />
       <div className="line-break">
         <p className="bold">Take a look at the exercise before listening.</p>
-        <AudioPlayer audioSrc="/assets/audio/specific-purposes/travel/welcome-english-for-the-travel-and-industry/4-dealing-with-enquiries.mp3"/>
+        <AudioPlayer audioSrc="/assets/audio/specific-purposes/travel/welcome-english-for-the-travel-and-industry/4-dealing-with-enquiries.mp3" />
         <p>
           <b>
-            Lesson 4 • Dealing with inquiries. A Listen to three short conversations.
+            Lesson 4 • Dealing with inquiries. A Listen to three short
+            conversations.
           </b>
         </p>
-          <Radio questions={radio} />
-        <p className="bold">Listen again and check the options which phrases in the speech ballons are used by the receptionist.</p>
+        <Radio questions={radio} />
+        <p className="bold">
+          Listen again and check the options which phrases in the speech ballons
+          are used by the receptionist.
+        </p>
       </div>
     </>
   );

@@ -1,5 +1,5 @@
 import { ContentCard } from "@/components/Cards/ContentCard";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 const contents = [
   // Present
@@ -24,7 +24,8 @@ const contents = [
           },
           {
             checkboxLink: "/extras/grammar/elementary/unit-4",
-            checkboxLabel: "Unit 4 • are you doing? (present continuous questions)",
+            checkboxLabel:
+              "Unit 4 • are you doing? (present continuous questions)",
           },
           {
             checkboxLink: "/extras/grammar/elementary/unit-5",
@@ -152,7 +153,8 @@ const contents = [
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-23",
-            checkboxLabel: "Unit 23 • be / have / do in present and past tenses",
+            checkboxLabel:
+              "Unit 23 • be / have / do in present and past tenses",
           },
           {
             checkboxLink: "/extras/grammar/elementary/unit-24",
@@ -356,7 +358,8 @@ const contents = [
           },
           {
             checkboxLink: "/extras/grammar/elementary/unit-52",
-            checkboxLabel: "Unit 52 • to... (want to do) and -ing (I enjoy doing)",
+            checkboxLabel:
+              "Unit 52 • to... (want to do) and -ing (I enjoy doing)",
           },
           {
             checkboxLink: "/extras/grammar/elementary/unit-53",
@@ -380,7 +383,8 @@ const contents = [
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-55",
-            checkboxLabel: "Unit 55 • go to... / go on... / go for... / go -ing",
+            checkboxLabel:
+              "Unit 55 • go to... / go on... / go for... / go -ing",
           },
           {
             checkboxLink: "/extras/grammar/elementary/unit-56",
@@ -428,7 +432,8 @@ const contents = [
           },
           {
             checkboxLink: "/extras/grammar/elementary/unit-64",
-            checkboxLabel: "Unit 64 • -'s (Kate's camera / my brother's car etc.)",
+            checkboxLabel:
+              "Unit 64 • -'s (Kate's camera / my brother's car etc.)",
           },
         ],
       },
@@ -557,7 +562,8 @@ const contents = [
           },
           {
             checkboxLink: "/extras/grammar/elementary/unit-86",
-            checkboxLabel: "Unit 86 • quickly / badly / suddenly etc. (adverbs)",
+            checkboxLabel:
+              "Unit 86 • quickly / badly / suddenly etc. (adverbs)",
           },
           {
             checkboxLink: "/extras/grammar/elementary/unit-87",
@@ -597,7 +603,8 @@ const contents = [
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-93",
-            checkboxLabel: "Unit 93 • He speaks English very well. (word order 1)",
+            checkboxLabel:
+              "Unit 93 • He speaks English very well. (word order 1)",
           },
           {
             checkboxLink: "/extras/grammar/elementary/unit-94",
@@ -738,7 +745,11 @@ const contents = [
 export default function Grammar() {
   return (
     <>
-      <Whiteboard title="Extras" subtitle="Grammar" descriptions={["Elementary"]} />
+      <Whiteboard
+        title="Extras"
+        subtitle="Grammar"
+        descriptions={["Elementary"]}
+      />
       <ContentCard contents={contents} />
     </>
   );

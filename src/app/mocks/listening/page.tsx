@@ -1,34 +1,21 @@
 "use client";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { BoardCard } from "@/components/Cards/BoardCard";
-import SwiperFraction from "@/components/Swiper/Fraction";
-import Text from "@/components/Lessons/Text";
-import { AudioPlayer } from "@/components/Audioplayer";
-import { Card } from "@/components/Cards/Card";
 
-import { FlipCard, FlipCardData } from "@/components/Cards/Flip";
 import {
-  PreVocabulary,
-  PreVocabularyData,
-} from "@/components/Celta/Listening/PreVocabulary";
-import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import {
+  AudioPlayer,
+  BoardCard,
+  DictionaryCard,
   FillInTheBlanks,
-  FillInTheBlanksData,
-} from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
-import {
-  ListeningForGist,
-  ParagraphData,
-} from "@/components/Celta/Listening/ListeningForGist";
-import {
-  ListeningForScan,
-  ScanQuestionData,
-} from "@/components/Celta/Listening/ListeningForScan";
-import {
-  FollowUp,
-  FollowupQuestionData,
-} from "@/components/Celta/Listening/FollowUp";
-import { ScrollToTop } from "@/components/ScrollToTop";
+  FlipCard,
+  Paragraph,
+  PreVocabulary,
+  ScrollToTop,
+  SwiperFraction,
+  Text,
+  VideoPlayer,
+  Whiteboard,
+} from "@/components";
+
+import type { VocabularyComponent } from "@/types/PreVocabulary";
 
 import { cat1, cat2 } from "@/img/index";
 
@@ -43,7 +30,7 @@ const warmUpPrompt = [
 
 const introductionPrompt = [
   {
-    prompt: "...",
+    prompt: "Take a look at these pictures. / Let's watch a video..",
   },
 ];
 
@@ -58,19 +45,19 @@ const swiperIntroduction = [
   },
 ];
 
-const preVocabularyPrompt = [
+const preVocabularyPrompt1 = [
   {
     prompt: "...",
   },
 ];
 
-const gistPrompt = [
+const preVocabularyPrompt2 = [
   {
-    prompt: "...",
+    prompt: "Now fill in the blanks with the words above.",
   },
 ];
 
-const flipCards: FlipCardData[] = [
+const flipCards = [
   {
     imgSrc: cat1,
     imgAlt:
@@ -78,7 +65,7 @@ const flipCards: FlipCardData[] = [
   },
 ];
 
-const preVocabularies: PreVocabularyData[] = [
+const words: VocabularyComponent[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
@@ -90,14 +77,29 @@ const preVocabularies: PreVocabularyData[] = [
   },
 ];
 
-const fillInTheBlanks: FillInTheBlanksData[] = [
+const fillInTheBlanks = [
   {
     options: true,
     width: "100px",
     beforeBlank: "...",
-    correctAnswer: ["challenge"],
+    correctAnswer: ["..."],
     afterBlank: "...",
     lineBreakAfter: true,
+  },
+];
+
+const gistPrompt = [
+  {
+    prompt: "...",
+  },
+];
+
+const paragraphs = [
+  {
+    paragraph: "aaa",
+  },
+  {
+    paragraph: "aaa",
   },
 ];
 
@@ -113,8 +115,6 @@ const followupPrompt = [
   },
 ];
 
-
-
 export default function MockListening() {
   return (
     <>
@@ -125,9 +125,12 @@ export default function MockListening() {
         subdescription="Month #, 20..."
       />
       <div className="line-break">
+        {/* Warm-up */}
         <BoardCard label="Warm-up" bgColor="black" textColor="white">
           <Text texts={warmUpPrompt} />
         </BoardCard>
+
+        {/* Introduction */}
         <BoardCard
           label="Introduction"
           smallerLabel="(Contextualization)"
@@ -137,18 +140,25 @@ export default function MockListening() {
         >
           <Text texts={introductionPrompt} />
           <SwiperFraction images={swiperIntroduction} />
+          <VideoPlayer videoSrc="https://www.youtube.com/embed/m1-Bx3h4cio" />
+          <Text texts={introductionPrompt} />
         </BoardCard>
+
+        {/* Pre-vocabulary */}
         <BoardCard
           label="Pre-vocabulary"
-          smallerLabel="(Ideia)"
           time="5-10'"
           bgColor="black"
           textColor="white"
         >
-          <Text texts={gistPrompt} />
-          <FlipCard flipCards={flipCards}/>
-          {/* <FillInTheBlanks questions={} /> */}
+          <Text texts={preVocabularyPrompt1} />
+          <FlipCard flipCards={flipCards} />
+          <PreVocabulary preVocabularies={words} />
+          <Text texts={preVocabularyPrompt2} />
+          <FillInTheBlanks questions={fillInTheBlanks} />
         </BoardCard>
+
+        {/* Listen gor gist */}
         <BoardCard
           label="Listen for gist"
           smallerLabel="(Ideia)"
@@ -156,26 +166,32 @@ export default function MockListening() {
           bgColor="black"
           textColor="white"
         >
-        <AudioPlayer audioSrc=""/>
-        
+          <Text texts={gistPrompt} />
+          <AudioPlayer audioSrc="" />
+          <Paragraph paragraphs={paragraphs} />
         </BoardCard>
-     
-        <BoardCard label="Listening for scan"
+
+        {/* Listen for scan */}
+        <BoardCard
+          label="Listening for scan"
           smallerLabel="(Ideia)"
           time="5-10'"
           bgColor="black"
-          textColor="white">
-        <Text texts={scanPrompt} />
+          textColor="white"
+        >
+          <Text texts={scanPrompt} />
         </BoardCard>
-        <BoardCard label="Follow-up"
+
+        {/* Follow-up */}
+        <BoardCard
+          label="Follow-up"
           smallerLabel="(Ideia)"
           time="5-10'"
           bgColor="black"
-          textColor="white">
-        <Text texts={followupPrompt} />
+          textColor="white"
+        >
+          <Text texts={followupPrompt} />
         </BoardCard>
-      
-   
       </div>
 
       <ScrollToTop />

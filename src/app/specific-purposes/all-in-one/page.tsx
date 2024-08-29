@@ -1,6 +1,5 @@
 import { RegularVerbs } from "@/components/Lessons/RegularVerbs";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-
+import { Whiteboard } from "@/components/Whiteboard";
 
 export default function AllInOne() {
   return (
@@ -22,7 +21,7 @@ export default function AllInOne() {
           </a>
         </div>
         <div id="numbers"></div>
-          <RegularVerbs />
+        <RegularVerbs />
       </div>
     </>
   );

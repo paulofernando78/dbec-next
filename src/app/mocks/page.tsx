@@ -1,18 +1,19 @@
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { Card } from "@/components/Cards/Card";
-import { AudioPlayer } from "@/components/Audioplayer";
-import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
-import { FillInTheBlanks } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
-import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import SwiperFraction, {
-  SwiperFractionData,
-} from "@/components/Swiper/Fraction";
+import Link from "next/link";
+
+import {
+  AudioPlayer,
+  Card,
+  DictionaryCard,
+  FillInTheBlanks,
+  FlipCard,
+  Radio,
+  SwiperFraction,
+  Whiteboard,
+} from "@/components";
 
 // Images
 import { cat1, cat2, cat3 } from "@/img/index";
-import { FlipCard } from "@/components/Cards/Flip";
 import { Dropdown } from "@/components/ExerciseTemplates/Dropdown";
-import Link from "next/link";
 
 const radio = [
   {
@@ -91,7 +92,7 @@ const fillInTheBlanks = [
     placeholder: "...",
     correctAnswer: ["..."],
     afterBlank: "...",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -101,7 +102,7 @@ const fillInTheBlanks = [
     placeholder: "...",
     correctAnswer: ["..."],
     afterBlank: "...",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -111,7 +112,7 @@ const fillInTheBlanks = [
     placeholder: "...",
     correctAnswer: ["..."],
     afterBlank: "...",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -121,7 +122,7 @@ const fillInTheBlanks = [
     placeholder: "...",
     correctAnswer: ["..."],
     afterBlank: "...",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -131,7 +132,7 @@ const fillInTheBlanks = [
     placeholder: "...",
     correctAnswer: ["..."],
     afterBlank: "...",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -141,7 +142,7 @@ const fillInTheBlanks = [
     placeholder: "...",
     correctAnswer: ["..."],
     afterBlank: "...",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -151,7 +152,7 @@ const fillInTheBlanks = [
     placeholder: "...",
     correctAnswer: ["..."],
     afterBlank: "...",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
   {
     options: true,
@@ -161,11 +162,11 @@ const fillInTheBlanks = [
     placeholder: "...",
     correctAnswer: ["..."],
     afterBlank: "...",
-    lineBreakAfter: true
+    lineBreakAfter: true,
   },
 ];
 
-const swiperFraction: SwiperFractionData[] = [
+const swiperFraction = [
   {
     imgSrc: cat1,
     imgAlt: "A cat picture 1",
@@ -188,8 +189,7 @@ const flipCards = [
     backText: "asked",
   },
   {
-    frontText:
-      '...  ',
+    frontText: "...  ",
     backText: "...",
   },
   {
@@ -204,7 +204,6 @@ export default function Mocks() {
       <Whiteboard title="Mocks" />
       <div className="line-break">
         <div className="line-break">
-
           {/* Lessons */}
           <div>
             <p className="bold">Lessons</p>
@@ -215,25 +214,24 @@ export default function Mocks() {
               <p>Listening</p>
             </Link>
           </div>
-         <div>
-
-          {/* Extras */}
-          <p className="bold">Extras</p>
+          <div>
+            {/* Extras */}
+            <p className="bold">Extras</p>
             <Link href="/mocks/grammar-in-use/elementary">
               <p>Grammar in Use • Elementary</p>
             </Link>
             <Link href="/mocks/grammar-in-use/intermediate">
               <p>Grammar in Use • Intermediate</p>
             </Link>
-         </div>
+          </div>
 
-         {/* Componets */}
-         <div>
-          <p className="bold">Components</p>
-          <Link href="/mocks/ContentCard">
+          {/* Componets */}
+          <div>
+            <p className="bold">Components</p>
+            <Link href="/mocks/ContentCard">
               <p>ContentCard</p>
             </Link>
-         </div>
+          </div>
         </div>
         <Card bgColor="black" textColor="white">
           <b>Audio Player</b>
@@ -273,8 +271,9 @@ export default function Mocks() {
         <Card bgColor="black" textColor="white">
           <b>Flip Cards</b>
         </Card>
-        <FlipCard flipCards={flipCards}
-        // gridColumnWidth="..."
+        <FlipCard
+          flipCards={flipCards}
+          // gridColumnWidth="..."
         />
         <Card bgColor="black" textColor="white">
           <b>Memory Game</b>

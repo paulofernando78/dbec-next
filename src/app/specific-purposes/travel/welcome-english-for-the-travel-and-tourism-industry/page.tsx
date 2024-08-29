@@ -1,5 +1,5 @@
 import { ContentCard } from "@/components/Cards/ContentCard";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 const contents = [
   {
@@ -24,7 +24,7 @@ const contents = [
           {
             link: "/specific-purposes/travel/welcome-english-for-the-travel-and-tourism-industry/Unit-4",
             linkLabel: "Unit 4 • Dealing with en enquiries",
-          }
+          },
         ],
       },
       {
@@ -281,7 +281,13 @@ const contents = [
 export default function Travel() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subtitle="Travel" descriptions={["Welcome - English for the travel and industry (Cambridge)"]}/>
+      <Whiteboard
+        title="Specific Purposes"
+        subtitle="Travel"
+        descriptions={[
+          "Welcome - English for the travel and industry (Cambridge)",
+        ]}
+      />
       <div className="line-break">
         <ContentCard contents={contents} />
         <p>Communication activites</p>

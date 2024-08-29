@@ -1,5 +1,5 @@
 import React from "react";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 import Link from "next/link";
 import { BoardCard } from "@/components/Cards/BoardCard";
 
@@ -30,11 +30,12 @@ export default function Math() {
         </BoardCard>
         <BoardCard label="Fraction" bgColor="black" textColor="white">
           <p>
-            The number on the top is called the <mark>numerator</mark>, and the number on the
-            bottom is called the <mark>denominator</mark>. The numerator defines the number
-            of equal parts taken, whereas the denominator defines the total
-            number of equal parts in a whole. For example, 5/10 is a fraction.
-            Here, 5 is a numerator and 10 is a denominator.
+            The number on the top is called the <mark>numerator</mark>, and the
+            number on the bottom is called the <mark>denominator</mark>. The
+            numerator defines the number of equal parts taken, whereas the
+            denominator defines the total number of equal parts in a whole. For
+            example, 5/10 is a fraction. Here, 5 is a numerator and 10 is a
+            denominator.
           </p>
         </BoardCard>
       </div>

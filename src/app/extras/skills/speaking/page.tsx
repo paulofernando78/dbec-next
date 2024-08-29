@@ -1,11 +1,5 @@
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-
+import { Whiteboard } from "@/components/Whiteboard";
 
 export default function Speaking() {
-  return (
-    <Whiteboard
-    title="Extras"
-    subtitle="Speaking"
-    />
-  )
+  return <Whiteboard title="Extras" subtitle="Speaking" />;
 }

@@ -1,5 +1,5 @@
 import { Card } from "@/components/Cards/Card";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 export default function SoocerFootball() {
   return (

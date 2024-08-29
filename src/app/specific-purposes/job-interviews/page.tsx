@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 export default function JobInterviews() {
   return (
@@ -7,7 +7,9 @@ export default function JobInterviews() {
       <Whiteboard title="Specific Purposes" subtitle="Job Interviews" />
       <div className="line-break">
         <Link href="">
-          <p><b>Key Job Interview Questions</b></p>
+          <p>
+            <b>Key Job Interview Questions</b>
+          </p>
         </Link>
         <p>
           1. Tell me about yourself: This is usually an open-ended question
