@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { usaFlagIcon, brFlagIcon } from "../../../../../public/assets/img";
 

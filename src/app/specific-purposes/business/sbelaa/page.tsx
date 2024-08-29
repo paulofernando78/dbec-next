@@ -1,5 +1,5 @@
 import { DescriptionCard } from "@/components/Cards/DescriptionCard";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 export default function SpeakBusinessEnglishLikeAnAmerican() {
   return (

@@ -1,14 +1,11 @@
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
-import React from 'react'
+import React from "react";
 
 export default function Advanced() {
   return (
     <div>
-        <Whiteboard
-        title="Courses"
-        subtitle="Advanced (C1)"
-        />
+      <Whiteboard title="Courses" subtitle="Advanced (C1)" />
     </div>
-  )
+  );
 }

@@ -1,4 +1,4 @@
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 import { UnderConstruction } from "@/components/UnderConstruction";
 
 export default function IntermediateLesson40FlippedClassroom() {
@@ -14,8 +14,7 @@ export default function IntermediateLesson40FlippedClassroom() {
         ]}
       />
       <div className="line-break">
-        <UnderConstruction
-         />
+        <UnderConstruction />
       </div>
     </>
   );

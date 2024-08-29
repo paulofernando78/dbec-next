@@ -1,5 +1,4 @@
-
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 import { RedBoardCardA } from "@/components/Cards/BoardCard/RedBoardCardA";
 import { RedBoardCardB } from "@/components/Cards/BoardCard/RedBoardCardB";
 import { Negative } from "@/components/Ribbons/Negative";
@@ -70,23 +69,65 @@ export default function GrammarInUseElementaryUnit() {
               <Affirmative />
               <div>
                 <p>subject + verb (contraction)</p>
-                <p>I <span className="bold">am</span> (I<span className="bold">'m</span>)</p>
-                <p>you <span className="bold">are</span> (you<span className="bold">'re</span>)</p>
-                <p>he <span className="bold">is</span> (he<span className="bold">'s</span>)</p>
-                <p>she <span className="bold">is</span> (she<span className="bold">'s</span>)</p>
-                <p>it <span className="bold">is</span> (it<span className="bold">'s</span>)</p>
-                <p>we <span className="bold">are</span> (we<span className="bold">'re</span>)</p>
-                <p>you <span className="bold">are</span> (you<span className="bold">'re</span>)</p>
-                <p>we <span className="bold">are</span> (they<span className="bold">'re</span>)</p>
+                <p>
+                  I <span className="bold">am</span> (I
+                  <span className="bold">'m</span>)
+                </p>
+                <p>
+                  you <span className="bold">are</span> (you
+                  <span className="bold">'re</span>)
+                </p>
+                <p>
+                  he <span className="bold">is</span> (he
+                  <span className="bold">'s</span>)
+                </p>
+                <p>
+                  she <span className="bold">is</span> (she
+                  <span className="bold">'s</span>)
+                </p>
+                <p>
+                  it <span className="bold">is</span> (it
+                  <span className="bold">'s</span>)
+                </p>
+                <p>
+                  we <span className="bold">are</span> (we
+                  <span className="bold">'re</span>)
+                </p>
+                <p>
+                  you <span className="bold">are</span> (you
+                  <span className="bold">'re</span>)
+                </p>
+                <p>
+                  we <span className="bold">are</span> (they
+                  <span className="bold">'re</span>)
+                </p>
               </div>
               <div>
-                <p>• I<span className='bold'>'m</span> cold. Can you close the window, please?</p>
-                <p>• I<span className='bold'>'m</span> 32 (years old). My sister is 29.</p>
-                <p>• It<span className='bold'>'s</span> ten (o'clock). You<span className='bold'>'re</span> late again.</p>
-                <p>• Ann and I <span className='bold'>are</span> good friends.</p>
-                <p>• Your keys <span className='bold'>are</span> on the table.</p>
-                <p>• Steve <span className='bold'>is</span> sick. He<span className='bold'>'s</span> in bed.</p>
-                <p>• Jane <span className='bold'>is</span> scared of spiders.</p>
+                <p>
+                  • I<span className="bold">'m</span> cold. Can you close the
+                  window, please?
+                </p>
+                <p>
+                  • I<span className="bold">'m</span> 32 (years old). My sister
+                  is 29.
+                </p>
+                <p>
+                  • It<span className="bold">'s</span> ten (o'clock). You
+                  <span className="bold">'re</span> late again.
+                </p>
+                <p>
+                  • Ann and I <span className="bold">are</span> good friends.
+                </p>
+                <p>
+                  • Your keys <span className="bold">are</span> on the table.
+                </p>
+                <p>
+                  • Steve <span className="bold">is</span> sick. He
+                  <span className="bold">'s</span> in bed.
+                </p>
+                <p>
+                  • Jane <span className="bold">is</span> scared of spiders.
+                </p>
               </div>
             </div>
             <div>
@@ -94,28 +135,80 @@ export default function GrammarInUseElementaryUnit() {
                 <Negative />
                 <div>
                   <p>subject + verb + not (contraction)</p>
-                  <p>I <span className="bold">am not</span> (I<span className="bold">'m not</span>)</p>
-                  <p>you <span className="bold">are not</span> (you<span className="bold">'re not</span> or you aren't)</p>
-                  <p>he <span className="bold">is not</span> (he<span className="bold">'s</span>)</p>
-                  <p>she <span className="bold">is not</span> (she<span className="bold">'s</span>)</p>
-                  <p>it <span className="bold">is not</span> (it<span className="bold">'s</span>)</p>
-                  <p>we <span className="bold">are not</span> (we<span className="bold">'re</span>)</p>
-                  <p>you <span className="bold">are not</span> (you<span className="bold">'re</span>)</p>
-                  <p>we <span className="bold">are not</span> (they<span className="bold">'re</span>)</p>
+                  <p>
+                    I <span className="bold">am not</span> (I
+                    <span className="bold">'m not</span>)
+                  </p>
+                  <p>
+                    you <span className="bold">are not</span> (you
+                    <span className="bold">'re not</span> or you aren't)
+                  </p>
+                  <p>
+                    he <span className="bold">is not</span> (he
+                    <span className="bold">'s</span>)
+                  </p>
+                  <p>
+                    she <span className="bold">is not</span> (she
+                    <span className="bold">'s</span>)
+                  </p>
+                  <p>
+                    it <span className="bold">is not</span> (it
+                    <span className="bold">'s</span>)
+                  </p>
+                  <p>
+                    we <span className="bold">are not</span> (we
+                    <span className="bold">'re</span>)
+                  </p>
+                  <p>
+                    you <span className="bold">are not</span> (you
+                    <span className="bold">'re</span>)
+                  </p>
+                  <p>
+                    we <span className="bold">are not</span> (they
+                    <span className="bold">'re</span>)
+                  </p>
                 </div>
                 <div>
-                  <p>• I<span className='bold'>'m</span> not cold. You can open the window.</p>
-                  <p>• "I<span className='bold'>'m</span> not 32 (years old). Actually, I<span>'m</span> 31.</p>
-                  <p>• Steve <span className='bold'>isn'(t)</span> sick anymore. He<span className='bold'>'s</span> a(t) work now.</p>
-                  <p>• My brother <span className='bold'>isn't</span> scared of dogs. He<span className='bold'>'s</span> afraid of snakes.</p>
-                  <p>• It's still ten (o'clock). You<span className='bold'>'re not</span> late.</p>
-                  <p>• Ann and I <span className='bold'>aren't</span> good friends. She<span className='bold'>'s</span> just an acquaintance.</p>
-                  <p>• Your keys <span className='bold'>aren't</span> on the table. They<span className='bold'>'re </span> in your pocket. Check that out!</p>
+                  <p>
+                    • I<span className="bold">'m</span> not cold. You can open
+                    the window.
+                  </p>
+                  <p>
+                    • "I<span className="bold">'m</span> not 32 (years old).
+                    Actually, I<span>'m</span> 31.
+                  </p>
+                  <p>
+                    • Steve <span className="bold">isn'(t)</span> sick anymore.
+                    He<span className="bold">'s</span> a(t) work now.
+                  </p>
+                  <p>
+                    • My brother <span className="bold">isn't</span> scared of
+                    dogs. He<span className="bold">'s</span> afraid of snakes.
+                  </p>
+                  <p>
+                    • It's still ten (o'clock). You
+                    <span className="bold">'re not</span> late.
+                  </p>
+                  <p>
+                    • Ann and I <span className="bold">aren't</span> good
+                    friends. She<span className="bold">'s</span> just an
+                    acquaintance.
+                  </p>
+                  <p>
+                    • Your keys <span className="bold">aren't</span> on the
+                    table. They<span className="bold">'re </span> in your
+                    pocket. Check that out!
+                  </p>
                 </div>
-                  <div>
-                  <p className='bold'>We say it's hot / warm / cold / sunny / dark / etc.</p>
-                  <p>It<span className='bold'>'s</span> sunny today, but it <span className='bold'>isn't</span> warm.</p>
-                  </div>
+                <div>
+                  <p className="bold">
+                    We say it's hot / warm / cold / sunny / dark / etc.
+                  </p>
+                  <p>
+                    It<span className="bold">'s</span> sunny today, but it{" "}
+                    <span className="bold">isn't</span> warm.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

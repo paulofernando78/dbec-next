@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 export default function Songs() {
   return (
@@ -22,7 +22,7 @@ export default function Songs() {
             <p>Red Hot Chili Peppers</p>
           </Link>
           <Link href="/specific-purposes/songs/soundgarden">
-          <p>Soundgarden</p>
+            <p>Soundgarden</p>
           </Link>
           <Link href="/specific-purposes/songs/taylor-swift">
             <p>Taylor Swift</p>

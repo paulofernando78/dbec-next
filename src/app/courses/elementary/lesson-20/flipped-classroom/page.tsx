@@ -1,5 +1,5 @@
 import { UnderConstruction } from "@/components/UnderConstruction";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 export default function ElementaryLesson20FlippedClassroom() {
   return (
@@ -13,9 +13,8 @@ export default function ElementaryLesson20FlippedClassroom() {
           "How's the neighborhood? (Cycle 2)",
         ]}
       />
-        <UnderConstruction />
-      <div className="line-break">
-      </div>
+      <UnderConstruction />
+      <div className="line-break"></div>
     </>
   );
 }

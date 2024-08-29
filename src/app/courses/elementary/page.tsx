@@ -1,5 +1,5 @@
 import { ContentCard } from "@/components/Cards/ContentCard";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 import { elementary } from "@/img/index";
 
@@ -246,7 +246,8 @@ const contents = [
           {
             courseImg: elementary,
             courseLink: "/courses/elementary/lesson-9/flipped-classroom",
-            courseLabel: "Flipped Classroom • Do you play the guitar? (Cycle 1)",
+            courseLabel:
+              "Flipped Classroom • Do you play the guitar? (Cycle 1)",
           },
           {
             courseImg: elementary,
@@ -274,7 +275,8 @@ const contents = [
           {
             courseImg: elementary,
             courseLink: "/courses/elementary/lesson-10/flipped-classroom",
-            courseLabel: "Flipped Classroom • Do you play the guitar? (Cycle 2)",
+            courseLabel:
+              "Flipped Classroom • Do you play the guitar? (Cycle 2)",
           },
           {
             courseImg: elementary,
@@ -326,7 +328,8 @@ const contents = [
           {
             courseImg: elementary,
             courseLink: "/courses/elementary/lesson-12/flipped-classroom",
-            courseLabel: "Flipped Classroom • What's an interesting family? (Cycle 1)",
+            courseLabel:
+              "Flipped Classroom • What's an interesting family? (Cycle 1)",
           },
           {
             courseImg: elementary,
@@ -354,7 +357,8 @@ const contents = [
           {
             courseImg: elementary,
             courseLink: "/courses/elementary/lesson-13/flipped-classroom",
-            courseLabel: "Flipped Classroom • What's an interesting family? (Cycle 2)",
+            courseLabel:
+              "Flipped Classroom • What's an interesting family? (Cycle 2)",
           },
           {
             courseImg: elementary,
@@ -382,8 +386,7 @@ const contents = [
           {
             courseImg: elementary,
             courseLink: "/courses/elementary/lesson-14/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • How often do you run? (Cycle 1)",
+            courseLabel: "Flipped Classroom • How often do you run? (Cycle 1)",
           },
           {
             courseImg: elementary,
@@ -411,8 +414,7 @@ const contents = [
           {
             courseImg: elementary,
             courseLink: "/courses/elementary/lesson-15/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • How often do you run? (Cycle 2)",
+            courseLabel: "Flipped Classroom • How often do you run? (Cycle 2)",
           },
           {
             courseImg: elementary,
@@ -520,7 +522,8 @@ const contents = [
           {
             courseImg: elementary,
             courseLink: "/courses/elementary/lesson-19/flipped-classroom",
-            courseLabel: "Flipped Classroom • How's the neighborhood? (Cycle 1)",
+            courseLabel:
+              "Flipped Classroom • How's the neighborhood? (Cycle 1)",
           },
           {
             courseImg: elementary,
@@ -548,7 +551,8 @@ const contents = [
           {
             courseImg: elementary,
             courseLink: "/courses/elementary/lesson-20/flipped-classroom",
-            courseLabel: "Flipped Classroom • How's the neighborhood? (Cycle 2)",
+            courseLabel:
+              "Flipped Classroom • How's the neighborhood? (Cycle 2)",
           },
           {
             courseImg: elementary,
@@ -652,7 +656,8 @@ const contents = [
           {
             courseImg: elementary,
             courseLink: "/courses/elementary/lesson-24/flipped-classroom",
-            courseLabel: "Flipped Classroom • What does she look like? (Cycle 2)",
+            courseLabel:
+              "Flipped Classroom • What does she look like? (Cycle 2)",
           },
           {
             courseImg: elementary,
@@ -820,7 +825,8 @@ const contents = [
           {
             courseImg: elementary,
             courseLink: "/courses/elementary/lesson-30/flipped-classroom",
-            courseLabel: "Flipped Classroom • It's important to get rest (Cycle 1)",
+            courseLabel:
+              "Flipped Classroom • It's important to get rest (Cycle 1)",
           },
           {
             courseImg: elementary,
@@ -848,7 +854,8 @@ const contents = [
           {
             courseImg: elementary,
             courseLink: "/courses/elementary/lesson-31/flipped-classroom",
-            courseLabel: "Flipped Classroom • It's important to get rest (Cycle 2)",
+            courseLabel:
+              "Flipped Classroom • It's important to get rest (Cycle 2)",
           },
           {
             courseImg: elementary,
@@ -1036,7 +1043,8 @@ const contents = [
           {
             courseImg: elementary,
             courseLink: "/courses/elementary/lesson-38/flipped-classroom",
-            courseLabel: "Flipped Classroom • What are you doing later? (Cycle 1)",
+            courseLabel:
+              "Flipped Classroom • What are you doing later? (Cycle 1)",
           },
           {
             courseImg: elementary,
@@ -1064,7 +1072,8 @@ const contents = [
           {
             courseImg: elementary,
             courseLink: "/courses/elementary/lesson-39/flipped-classroom",
-            courseLabel: "Flipped Classroom • What are you doing later? (Cycle 2)",
+            courseLabel:
+              "Flipped Classroom • What are you doing later? (Cycle 2)",
           },
           {
             courseImg: elementary,

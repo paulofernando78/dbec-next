@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 export default function Law() {
   return (

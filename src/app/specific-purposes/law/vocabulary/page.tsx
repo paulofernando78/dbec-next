@@ -1,5 +1,5 @@
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 export default function LawVocabulary() {
   return (

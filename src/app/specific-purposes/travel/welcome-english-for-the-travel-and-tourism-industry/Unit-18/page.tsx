@@ -1,13 +1,18 @@
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 export default function Unit1() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subtitle="Travel" descriptions={["Unit 18 • Drinks, snacks and desserts"]}/>
+      <Whiteboard
+        title="Specific Purposes"
+        subtitle="Travel"
+        descriptions={["Unit 18 • Drinks, snacks and desserts"]}
+      />
       <div className="line-break">
-        <p><b>...</b></p>
+        <p>
+          <b>...</b>
+        </p>
       </div>
     </>
   );
-
 }

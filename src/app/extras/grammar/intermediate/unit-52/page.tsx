@@ -1,4 +1,4 @@
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 import { UnderConstruction } from "@/components/UnderConstruction";
 
 export default function GrammarInUseIntermediateUnit52() {
@@ -7,7 +7,10 @@ export default function GrammarInUseIntermediateUnit52() {
       <Whiteboard
         title="Extras"
         subtitle="Grammar"
-        descriptions={["Intermediate", "Unit 52 • Question tags (do you? / isn't?, etc.)"]}
+        descriptions={[
+          "Intermediate",
+          "Unit 52 • Question tags (do you? / isn't?, etc.)",
+        ]}
       />
       <div className="line-break">
         <UnderConstruction />

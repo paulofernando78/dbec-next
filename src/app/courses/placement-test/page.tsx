@@ -1,4 +1,4 @@
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 import styles from "./PlacementTest.module.css";
 
 const defaultLevels: Level[] = [
@@ -65,19 +65,22 @@ const defaultLevels: Level[] = [
         taskNumber: "7",
         taskType: "Talk about foods",
         languageFocus: "• Simple past vs. present perfect",
-        examples: "• Have you ever eaten Thai (Vietnamese/ Mexican, etc.) food?\n• Where did you eat it?\n• How did you like it?\n• What kinds of unusual foods have you eaten?",
+        examples:
+          "• Have you ever eaten Thai (Vietnamese/ Mexican, etc.) food?\n• Where did you eat it?\n• How did you like it?\n• What kinds of unusual foods have you eaten?",
       },
       {
         taskNumber: "8",
         taskType: "Talk about your home",
         languageFocus: "• Descriptive adjectives\n• Comparisons",
-        examples: "• Do you live in a house or an apartment?\n• What is it like?\n• Compare your home with someone else’s home.",
+        examples:
+          "• Do you live in a house or an apartment?\n• What is it like?\n• Compare your home with someone else’s home.",
       },
       {
         taskNumber: "9",
         taskType: "Give advice",
         languageFocus: "• Present modals",
-        examples: "• What advice would you give to tourists visiting your country/city?\n• What do they need to do to be prepared?\n• What places should they visit?",
+        examples:
+          "• What advice would you give to tourists visiting your country/city?\n• What do they need to do to be prepared?\n• What places should they visit?",
       },
     ],
   },
@@ -89,19 +92,22 @@ const defaultLevels: Level[] = [
         taskNumber: "10",
         taskType: "Describe the past/tell a story",
         languageFocus: "• Simple past\n• Past continuous",
-        examples: "• Describe a difficult event in your life.\n• What happened?\n• What were you doing at the time?",
+        examples:
+          "• Describe a difficult event in your life.\n• What happened?\n• What were you doing at the time?",
       },
       {
         taskNumber: "11",
         taskType: "Talk about learning preferences",
         languageFocus: "• Would rather and would prefer",
-        examples: "• If you could study anything you wanted, what would you study?\n• Would you rather study in the day or at night?\n• Would you prefer to take an art class or a photography class?",
+        examples:
+          "• If you could study anything you wanted, what would you study?\n• Would you rather study in the day or at night?\n• Would you prefer to take an art class or a photography class?",
       },
       {
         taskNumber: "12",
         taskType: "Speculate about the future",
         languageFocus: "• Future tenses",
-        examples: "• What will you be doing a year from now?\n• How do you think it will be different then?\n• Will you have finished your studies?",
+        examples:
+          "• What will you be doing a year from now?\n• How do you think it will be different then?\n• Will you have finished your studies?",
       },
     ],
   },
@@ -113,19 +119,22 @@ const defaultLevels: Level[] = [
         taskNumber: "13",
         taskType: "Compare situations",
         languageFocus: "• Verb tenses (present, past, future)\n• Comparisons",
-        examples: "• Compare your life today with your life a few years ago.\n• How has it changed?\n• How do you think it will be different in the future?",
+        examples:
+          "• Compare your life today with your life a few years ago.\n• How has it changed?\n• How do you think it will be different in the future?",
       },
       {
         taskNumber: "14",
         taskType: "Talk about problems and solutions",
         languageFocus: "• Superlatives\n• Present unreal conditional",
-        examples: "• What is the biggest problem in the world (your country/your city, etc.) today?\n• Why is that the most important problem?\n• If you were responsible, how would you fix it?",
+        examples:
+          "• What is the biggest problem in the world (your country/your city, etc.) today?\n• Why is that the most important problem?\n• If you were responsible, how would you fix it?",
       },
       {
         taskNumber: "15",
         taskType: "Talk about social behavior",
         languageFocus: "• Infinitives",
-        examples: "• What does it mean to be polite in your culture?\n• Give examples of polite/impolite behavior.\n• Is it OK to ask someone’s age (interrupt someone/compliment a person, etc.)?",
+        examples:
+          "• What does it mean to be polite in your culture?\n• Give examples of polite/impolite behavior.\n• Is it OK to ask someone’s age (interrupt someone/compliment a person, etc.)?",
       },
     ],
   },
@@ -137,13 +146,15 @@ const defaultLevels: Level[] = [
         taskNumber: "16",
         taskType: "Talk about superstitions and beliefs",
         languageFocus: "• Relative clauses\n• Gerunds",
-        examples: "• Are you superstitious?\n• Do you believe that certain things cause good or bad luck? Why or why not?\n• What things do people avoid doing because of their beliefs?",
+        examples:
+          "• Are you superstitious?\n• Do you believe that certain things cause good or bad luck? Why or why not?\n• What things do people avoid doing because of their beliefs?",
       },
       {
         taskNumber: "17",
         taskType: "Talk about your upbringing",
         languageFocus: "• Passive forms",
-        examples: "• What have you been told about your childhood?\n• Were you raised by relatives other than your parents?\n• Were you encouraged to be independent?",
+        examples:
+          "• What have you been told about your childhood?\n• Were you raised by relatives other than your parents?\n• Were you encouraged to be independent?",
       },
     ],
   },
@@ -166,14 +177,12 @@ interface Task {
   examples: string;
 }
 
-export default function PlacementTest({
-  levels
-}: any) {
-  levels=defaultLevels
+export default function PlacementTest({ levels }: any) {
+  levels = defaultLevels;
   return (
     <>
       <Whiteboard title="Courses" subtitle="Placement Test" />
-      {levels.map((level:any, levelIndex:any) => (
+      {levels.map((level: any, levelIndex: any) => (
         <div className={styles["main-container"]} key={levelIndex}>
           <p
             className={styles["main-container-level"]}
@@ -181,7 +190,7 @@ export default function PlacementTest({
           >
             {level.level}
           </p>
-          {level.tasks.map((task:any, taskIndex:any) => (
+          {level.tasks.map((task: any, taskIndex: any) => (
             <div className={styles["inner-container"]} key={taskIndex}>
               <div className={styles["inner-container-text"]}>
                 <p className={styles["bold"]}>TASK # {task.taskNumber}</p>

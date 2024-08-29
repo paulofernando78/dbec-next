@@ -1,5 +1,5 @@
 import { ContentCard } from "@/components/Cards/ContentCard";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 import { beginner } from "@/img/index";
 
@@ -649,7 +649,8 @@ const contents = [
           {
             courseImg: beginner,
             courseLink: "/courses/beginner/lesson-24/flipped-classroom",
-            courseLabel: "Flipped Classroom • I always eat breakfast. (Cycle 2)",
+            courseLabel:
+              "Flipped Classroom • I always eat breakfast. (Cycle 2)",
           },
           {
             courseImg: beginner,

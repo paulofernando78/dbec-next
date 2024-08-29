@@ -1,5 +1,5 @@
 import { AudioPlayer } from "@/components/Audioplayer";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 export default function History() {
   return (
@@ -41,11 +41,16 @@ export default function History() {
         <div>
           <p>Charles III</p>
         </div>
-        <AudioPlayer audioSrc="/assets/audio/specific-purposes/history/difference-between-right-legt-wing.mp3"/>
+        <AudioPlayer audioSrc="/assets/audio/specific-purposes/history/difference-between-right-legt-wing.mp3" />
         <p>What is the difference between right-wing and left-wing?</p>
 
-
-        <p>Generally, the left wing is characterized by an emphasis on "ideas such as freedom, equality, fraternity, rights, progress, reform and internationalism" while the right wing is characterized by an emphasis on "notions such as authority, hierarchy, order, duty, tradition, reaction and nationalism".</p>
+        <p>
+          Generally, the left wing is characterized by an emphasis on "ideas
+          such as freedom, equality, fraternity, rights, progress, reform and
+          internationalism" while the right wing is characterized by an emphasis
+          on "notions such as authority, hierarchy, order, duty, tradition,
+          reaction and nationalism".
+        </p>
       </div>
     </>
   );

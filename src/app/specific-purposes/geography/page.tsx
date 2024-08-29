@@ -1,5 +1,5 @@
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 import Image from "next/image";
 
 export default function Geography() {
@@ -39,14 +39,17 @@ export default function Geography() {
           width={1000}
           height={1000}
           className="img-border"
-          style={{width: "300px", height: "300px"}}
+          style={{ width: "300px", height: "300px" }}
         />
         <div className="flex-col-8px">
           <p>
             The cardinal directions are the four main points of a compass that
             are used to indicate direction. They are:
           </p>
-          <p className="portuguese">As direções cardeais são os quatro pontos principais de uma bússola que são usados para indicar a direção. Elas são:</p>
+          <p className="portuguese">
+            As direções cardeais são os quatro pontos principais de uma bússola
+            que são usados para indicar a direção. Elas são:
+          </p>
           <DictionaryCard audioSrc="" label="north (N)" />
           <DictionaryCard audioSrc="" label="east (E)" />
           <DictionaryCard audioSrc="" label="south (S)" />
@@ -57,7 +60,10 @@ export default function Geography() {
             In addition to the four cardinal directions, there are intermediate
             directions that provide more precise navigation. These include:
           </p>
-          <p className="portuguese">Além das quatro direções cardeais, existem direções intermediárias que fornecem uma navegação mais precisa. Elas incluem:</p>
+          <p className="portuguese">
+            Além das quatro direções cardeais, existem direções intermediárias
+            que fornecem uma navegação mais precisa. Elas incluem:
+          </p>
           <DictionaryCard audioSrc="" label="northeast (NE)" />
           <DictionaryCard audioSrc="" label="southeast (SE)" />
           <DictionaryCard audioSrc="" label="southwest (SW)" />

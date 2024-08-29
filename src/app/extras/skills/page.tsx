@@ -1,5 +1,5 @@
 import { DescriptionCard } from "@/components/Cards/DescriptionCard";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 const descriptions = [
   // Listening
@@ -37,8 +37,7 @@ const descriptions = [
             linkLabel: "Health & Lifestyle",
           },
           {
-            link:
-              "/extras/skills/listening/articles/science-and-technology",
+            link: "/extras/skills/listening/articles/science-and-technology",
             linkLabel: "Science & Technology",
           },
         ],
@@ -156,7 +155,6 @@ const descriptions = [
   {
     mainLabel: "Miscellaneous",
     subDescriptions: [
-      
       // Links
       {
         bgColor: "lightgray",
@@ -174,7 +172,7 @@ const descriptions = [
           {
             globeLink: "...",
             globeLabel: "Lhama",
-          }
+          },
         ],
       },
     ],

@@ -1,4 +1,4 @@
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 import { DescriptionCard } from "@/components/Cards/DescriptionCard";
 
 const descriptions = [
@@ -11,12 +11,14 @@ const descriptions = [
         contents: [
           {
             link: "/extras/skills/listening/articles/health-and-lifestyle/researchers-find-gene-behind-disorder-causing-intellectual-disability",
-            linkLabel: "Researchers Find Gene behind Disorder Causing Intellectual Disability(June 24, 2024)",
+            linkLabel:
+              "Researchers Find Gene behind Disorder Causing Intellectual Disability(June 24, 2024)",
           },
           {
             link: "/extras/skills/listening/articles/health-and-lifestyle/study-humans-give-more-viruses-to-animals-than-they-give-us",
-            linkLabel: "Study: Humans Give More Viruses to Animals Than They Give Us (April 08, 2024)",
-          }
+            linkLabel:
+              "Study: Humans Give More Viruses to Animals Than They Give Us (April 08, 2024)",
+          },
         ],
       },
     ],

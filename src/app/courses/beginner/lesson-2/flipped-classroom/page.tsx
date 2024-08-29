@@ -1,5 +1,5 @@
 "use client";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 import TheAlphabet from "@/components/Lessons/Topic/TheAlphabet/page";
 import { NoteCard } from "@/components/Cards/NoteCard";
 import Titles from "@/components/Lessons/Topic/Tiltes";
@@ -20,7 +20,7 @@ export default function BeginnerLesson2FlippedClassroom() {
       />
       <div className="line-break">
         <TheAlphabet />
-       
+
         <Titles />
         <MyYourHisHer />
         <Exercises />

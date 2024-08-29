@@ -1,5 +1,5 @@
 import { ContentCard } from "@/components/Cards/ContentCard";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 
 import { preIntermediate } from "@/img/index";
 
@@ -13,9 +13,8 @@ const contents = [
         label: "CEFR (Common European Framework of Reference)",
         contents: [
           {
-            content:
-              "• A2 ➜ B1",
-          }
+            content: "• A2 ➜ B1",
+          },
         ],
       },
       // Lesson 1
@@ -238,7 +237,8 @@ const contents = [
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-9/flipped-classroom",
-            courseLabel: "Flipped Classroom • Have you ever tried it? (Cycle 1)",
+            courseLabel:
+              "Flipped Classroom • Have you ever tried it? (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
@@ -266,7 +266,8 @@ const contents = [
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-10/flipped-classroom",
-            courseLabel: "Flipped Classroom • Have you ever tried it? (Cycle 2)",
+            courseLabel:
+              "Flipped Classroom • Have you ever tried it? (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
@@ -374,8 +375,7 @@ const contents = [
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-14/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • Sure! I'll do it. (Cycle 1)",
+            courseLabel: "Flipped Classroom • Sure! I'll do it. (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
@@ -403,8 +403,7 @@ const contents = [
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-15/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • Sure! I'll do it. (Cycle 2)",
+            courseLabel: "Flipped Classroom • Sure! I'll do it. (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
@@ -456,7 +455,8 @@ const contents = [
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-17/flipped-classroom",
-            courseLabel: "Flipped Classroom • What do you use this for? (Cycle 1)",
+            courseLabel:
+              "Flipped Classroom • What do you use this for? (Cycle 1)",
           },
           {
             courseImg: preIntermediate,
@@ -484,7 +484,8 @@ const contents = [
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-18/flipped-classroom",
-            courseLabel: "Flipped Classroom • What do you use this for? (Cycle 2)",
+            courseLabel:
+              "Flipped Classroom • What do you use this for? (Cycle 2)",
           },
           {
             courseImg: preIntermediate,
@@ -615,8 +616,7 @@ const contents = [
           {
             courseImg: preIntermediate,
             courseLink: "/courses/pre-intermediate/lesson-23/flipped-classroom",
-            courseLabel:
-              "Flipped Classroom • Only time will tell. (Cycle 1)",
+            courseLabel: "Flipped Classroom • Only time will tell. (Cycle 1)",
           },
           {
             courseImg: preIntermediate,

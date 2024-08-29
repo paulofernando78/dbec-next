@@ -1,4 +1,4 @@
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 import { DescriptionCard } from "@/components/Cards/DescriptionCard";
 
 const descriptions = [

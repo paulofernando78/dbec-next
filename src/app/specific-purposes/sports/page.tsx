@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
+import { Whiteboard } from "@/components/Whiteboard";
 import Image from "next/image";
 
 // Images
@@ -14,7 +14,6 @@ export default function Sports() {
       <Whiteboard title="Specific Purposes" subtitle="Sports" />
       <div className="line-break">
         <div>
-          
           <Link href="/specific-purposes/sports/">
             <p>Basketball</p>
           </Link>
