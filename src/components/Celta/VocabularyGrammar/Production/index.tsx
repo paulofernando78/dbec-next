@@ -35,11 +35,15 @@ export const Production = ({ productions }: ProductionProps) => {
             {/* prompt */}
             <p>{production.prompt}</p>
             {/* instructions -> prompt */}
-           {production.instructions && <Card bgColor="lightgreen">
-              {production.instructions.map((instruction, instructionIndex) => (
-                <p key={instructionIndex}>{instruction.prompt}</p>
-              ))}
-           </Card>}
+            {production.instructions && (
+              <Card bgColor="lightgreen">
+                {production.instructions.map(
+                  (instruction, instructionIndex) => (
+                    <p key={instructionIndex}>{instruction.prompt}</p>
+                  )
+                )}
+              </Card>
+            )}
           </div>
         ))}
       </div>

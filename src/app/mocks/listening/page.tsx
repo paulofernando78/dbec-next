@@ -1,48 +1,74 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard/Whiteboard";
-import { Introduction, IntroductionData } from "@/components/Celta/Introduction";
-import { FlipCardData } from "@/components/Cards/Flip";
-import { PreVocabulary, PreVocabularyData } from "@/components/Celta/Listening/PreVocabulary";
+import { BoardCard } from "@/components/Cards/BoardCard";
+import SwiperFraction from "@/components/Swiper/Fraction";
+import Text from "@/components/Lessons/Text";
+import { AudioPlayer } from "@/components/Audioplayer";
+import { Card } from "@/components/Cards/Card";
+
+import { FlipCard, FlipCardData } from "@/components/Cards/Flip";
+import {
+  PreVocabulary,
+  PreVocabularyData,
+} from "@/components/Celta/Listening/PreVocabulary";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { FillInTheBlanksData } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
-import { ListeningForGist, ParagraphData } from "@/components/Celta/Listening/ListeningForGist";
-import { ListeningForScan, ScanQuestionData } from "@/components/Celta/Listening/ListeningForScan";
-import { FollowUp, FollowupQuestionData } from "@/components/Celta/Listening/FollowUp";
+import {
+  FillInTheBlanks,
+  FillInTheBlanksData,
+} from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+import {
+  ListeningForGist,
+  ParagraphData,
+} from "@/components/Celta/Listening/ListeningForGist";
+import {
+  ListeningForScan,
+  ScanQuestionData,
+} from "@/components/Celta/Listening/ListeningForScan";
+import {
+  FollowUp,
+  FollowupQuestionData,
+} from "@/components/Celta/Listening/FollowUp";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
 import { cat1, cat2 } from "@/img/index";
 
-const introduction: IntroductionData = 
+const warmUpPrompt = [
   {
-    prompt: "aaa",
-    swiperFraction: [
-      {
-        imgSrc: cat1,
-        imgAlt: "...",
-      },
-      {
-        imgSrc: cat2,
-        imgAlt: "...",
-      },
-    ],
-    discussionQuestions: [
-      {
-        questions: [
-          {
-            question: "1. ...",
-          },
-          {
-            component: (props) => <DictionaryCard {...props} />,
-            componentProps: {
-              audioSrc: "/.../....mp3",
-              label: "...",
-            },
-            question: "...",
-          },
-        ],
-      },
-    ],
-  }
+    prompt: "...",
+  },
+  {
+    prompt: "• ...",
+  },
+];
+
+const introductionPrompt = [
+  {
+    prompt: "...",
+  },
+];
+
+const swiperIntroduction = [
+  {
+    imgSrc: cat1,
+    imgAlt: "...",
+  },
+  {
+    imgSrc: cat2,
+    imgAlt: "...",
+  },
+];
+
+const preVocabularyPrompt = [
+  {
+    prompt: "...",
+  },
+];
+
+const gistPrompt = [
+  {
+    prompt: "...",
+  },
+];
 
 const flipCards: FlipCardData[] = [
   {
@@ -75,195 +101,82 @@ const fillInTheBlanks: FillInTheBlanksData[] = [
   },
 ];
 
-const paragraphs: ParagraphData[] = [
+const scanPrompt = [
   {
-    enParagraphs: [
-      {
-        enParagraph: "...",
-      },
-    ],
-    ptParagraph: "...",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "...",
-      },
-    ],
-    ptParagraph: "...",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "...",
-      },
-    ],
-    ptParagraph: "...",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "...",
-      },
-    ],
-    ptParagraph: "...",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "...",
-      },
-    ],
-    ptParagraph: "...",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "...",
-      },
-    ],
-    ptParagraph: "...",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "...",
-      },
-    ],
-    ptParagraph: "...",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "...",
-      },
-    ],
-    ptParagraph: "...",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "...",
-      },
-    ],
-    ptParagraph: "...",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "...",
-      },
-    ],
-    ptParagraph: "...",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "...",
-      },
-    ],
-    ptParagraph: "...",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "...",
-      },
-    ],
-    ptParagraph: "...",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "...",
-      },
-    ],
-    ptParagraph: "...",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "...",
-      },
-    ],
-    ptParagraph: "...",
-  },
-  {
-    enParagraphs: [
-      {
-        enParagraph: "...",
-      },
-    ],
-    ptParagraph: "...",
+    prompt: "...",
   },
 ];
 
-const scanQuestions: ScanQuestionData[] = [
+const followupPrompt = [
   {
-    question: "...",
-    answer: "...",
-  },
-  {
-    question: "...",
-    answer: "...",
-  },
-  {
-    question: "...",
-    answer: "...",
-  },
-  {
-    question: "...",
-    answer: "...",
+    prompt: "...",
   },
 ];
 
-const followupQuestions: FollowupQuestionData[] = [
-  {
-    enQuestion: "...",
-    // ptQuestion: ".",
-  },
-  {
-    enQuestion:
-      "...",
-    // ptQuestion:
-    //   ".",
-  },
-  {
-    enQuestion:
-      "...",
-    // ptQuestion:
-    //   ".",
-  },
-];
+
 
 export default function MockListening() {
   return (
     <>
       <Whiteboard
-        title="Specific Purposes"
-        subtitle="Listening"
-        descriptions={[
-          "...",
-        ]}
+        title="Listening"
+        subtitle="..."
+        descriptions={["..."]}
         subdescription="Month #, 20..."
       />
       <div className="line-break">
-      <Introduction introduction={introduction} />
-      {/* <PreVocabulary
-        flipCards={flipCards}
-        preVocabularies={preVocabularies}
-        fillInTheBlanks={fillInTheBlanks}
-      />
-      <ListeningForGist
-        audioSrc={audioSrc}
-        paragraphs={paragraphs}
-        gistAnswer={gistAnswer}
-      />
-      <ListeningForScan scanQuestions={scanQuestions} />
-      <FollowUp followupQuestions={followupQuestions} /> */}
-    </div>
+        <BoardCard label="Warm-up" bgColor="black" textColor="white">
+          <Text texts={warmUpPrompt} />
+        </BoardCard>
+        <BoardCard
+          label="Introduction"
+          smallerLabel="(Contextualization)"
+          time="5-10'"
+          bgColor="black"
+          textColor="white"
+        >
+          <Text texts={introductionPrompt} />
+          <SwiperFraction images={swiperIntroduction} />
+        </BoardCard>
+        <BoardCard
+          label="Pre-vocabulary"
+          smallerLabel="(Ideia)"
+          time="5-10'"
+          bgColor="black"
+          textColor="white"
+        >
+          <Text texts={gistPrompt} />
+          <FlipCard flipCards={flipCards}/>
+          {/* <FillInTheBlanks questions={} /> */}
+        </BoardCard>
+        <BoardCard
+          label="Listen for gist"
+          smallerLabel="(Ideia)"
+          time="5-10'"
+          bgColor="black"
+          textColor="white"
+        >
+        <AudioPlayer audioSrc=""/>
+        
+        </BoardCard>
+     
+        <BoardCard label="Listening for scan"
+          smallerLabel="(Ideia)"
+          time="5-10'"
+          bgColor="black"
+          textColor="white">
+        <Text texts={scanPrompt} />
+        </BoardCard>
+        <BoardCard label="Follow-up"
+          smallerLabel="(Ideia)"
+          time="5-10'"
+          bgColor="black"
+          textColor="white">
+        <Text texts={followupPrompt} />
+        </BoardCard>
       
-
+   
+      </div>
 
       <ScrollToTop />
     </>

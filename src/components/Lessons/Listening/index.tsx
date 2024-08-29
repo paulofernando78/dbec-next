@@ -1,5 +1,5 @@
 import {
-  Introduction,
+  IntroductionProps,
   DiscussionQuestionData,
 } from "@/components/Celta/Introduction";
 import { SwiperFractionData } from "@/components/Swiper/Fraction";

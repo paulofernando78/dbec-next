@@ -1,36 +1,15 @@
-import { HCWP, HCWPData } from "./HCWP";
-import { LCWP, LCWPData } from "./LCWP";
-import { HCOP, HCOPData } from "./HCOP";
-import { LCOP, LCOPData } from "./LCOP";
-import { ICQData } from "./ICQ";
-
 import styles from "../../../Cards/BoardCard/styles.module.css";
+import { ReactNode } from "react";
 
-export interface PracticeData {
+export interface IPractice {
   text: string;
 }
 
-interface PracticeProps {
-  hcwps: HCWPData[];
-  icqHCWP: ICQData[];
-  lcwps: LCWPData[];
-  icqLCWP: ICQData[];
-  hcops: HCOPData[];
-  icqHCOP: ICQData[];
-  lcops: LCOPData[];
-  icqLCOP: ICQData[];
+interface Practice {
+  children: ReactNode;
 }
 
-export const Practice = ({
-  hcwps,
-  icqHCWP,
-  lcwps,
-  icqLCWP,
-  hcops,
-  icqHCOP,
-  lcops,
-  icqLCOP,
-}: PracticeProps) => {
+export const Practice = ({ children }: Practice) => {
   return (
     <div className={styles["main-card"]}>
       <div
@@ -44,12 +23,7 @@ export const Practice = ({
           <p className="p-size-smaller">15'</p>
         </div>
       </div>
-      <div className={`line-break ${styles["children"]}`}>
-        <HCWP hcwps={hcwps} icqHCWP={icqHCWP} />
-        <LCWP lcwps={lcwps} icqLCWP={icqLCWP} />
-        <HCOP hcops={hcops} icqHCOP={icqHCOP} />
-        <LCOP lcops={lcops} icqLCOP={icqLCOP} />
-      </div>
+      <div className={`line-break ${styles["children"]}`}>{children}</div>
     </div>
   );
 };

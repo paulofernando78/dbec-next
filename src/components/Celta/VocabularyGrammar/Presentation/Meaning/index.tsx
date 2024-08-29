@@ -3,26 +3,26 @@ import styles from "../../../../Cards/BoardCard/styles.module.css";
 import { AudioPlayer } from "@/components/Audioplayer";
 import { CCQ } from "../CCQ";
 
-interface ICCQ {
+interface CCQ {
   checking: string;
 }
 
-interface IConversation {
+interface Conversation {
   statement: string;
 }
 
-export interface IMeaning {
+export interface MeaningContent {
   prompt?: string;
   audioSrc?: string;
-  conversations?: IConversation[];
-  ccqs?: ICCQ[];
+  conversations?: Conversation[];
+  ccqs?: CCQ[];
 }
 
-interface IMeaningProps {
-  meaning: IMeaning;
+interface MeaningProps {
+  content: MeaningContent;
 }
 
-export const Meaning = ({ meaning }: IMeaningProps) => {
+export const Meaning = ({ content: meaning }: MeaningProps) => {
   return (
     <div className={styles["main-card"]}>
       <div

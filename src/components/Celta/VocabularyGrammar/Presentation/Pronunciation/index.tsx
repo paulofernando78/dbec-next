@@ -1,14 +1,14 @@
 import styles from "../../../../Cards/BoardCard/styles.module.css";
 
-export interface PronunciationData {
+export interface IPronunciation {
 prompt: string
 }
 
-interface PronunciationProps {
-pronunciations: PronunciationData[]
+interface Pronunciation {
+pronunciations: IPronunciation[]
 }
 
-export const Pronunciation = ({ pronunciations }: PronunciationProps) => {
+export const  Pronunciation = ({ pronunciations }: Pronunciation) => {
   return (
     <div className={styles["main-card"]}>
       <div

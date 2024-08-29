@@ -25,11 +25,11 @@ export const BoardCard = ({
         style={{ backgroundColor: bgColor, color: textColor }}
       >
         <div className="flex-8px-start-space-between">
-          <p><span className="bold">{label}</span> <span className="p-size-smaller">{smallerLabel}</span></p>
+          <p><span className="bold">{label}</span> <span className="p-size-small">{smallerLabel}</span></p>
           <p className="p-size-smaller">{time}</p>
         </div>
       </div>
-      <div className={styles["children"]}>{children}</div>
+      <div className={`line-break ${styles["children"]}`}>{children}</div>
     </div>
   );
 };

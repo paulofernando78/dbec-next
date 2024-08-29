@@ -1,16 +1,16 @@
 import styles from "../../../../Cards/BoardCard/styles.module.css";
-import { ICQ, ICQData } from "../ICQ";
+import { ICQ, IICQ } from "../ICQ";
 
-export interface HCWPData {
+export interface IHCWP {
   prompt: string;
 }
 
-interface HCWPProps {
-  hcwps: HCWPData[];
-  icqHCWP: ICQData[];
+interface HCWP {
+  hcwps: IHCWP[];
+  icqHCWP: IICQ[];
 }
 
-export const HCWP = ({ hcwps, icqHCWP }: HCWPProps) => {
+export const HCWP = ({ hcwps, icqHCWP }: HCWP) => {
   return (
     <div className={styles["main-card"]}>
       <div

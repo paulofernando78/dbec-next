@@ -1,14 +1,14 @@
 import styles from "../../../../Cards/Card/styles.module.css";
 
-export interface ICQData {
+export interface IICQ {
   instruction: string;
 }
 
-interface ICQProps {
-  icqs: ICQData[];
+interface ICQ {
+  icqs: IICQ[];
 }
 
-export const ICQ = ({ icqs }: ICQProps) => {
+export const ICQ = ({ icqs }: ICQ) => {
   return (
     <div className={styles["card"]} style={{ backgroundColor: "#FFBABA" }}>
       <p className="bold">Instructions</p>
