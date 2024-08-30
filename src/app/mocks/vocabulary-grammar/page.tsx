@@ -183,7 +183,7 @@ export default function MockVocabularyGrammar() {
     <>
       <Whiteboard
         title="Vocabulary / Grammar"
-        subtitle="xxxy"
+        subtitle="xxxyggg"
         descriptions={["..."]}
       />
 
