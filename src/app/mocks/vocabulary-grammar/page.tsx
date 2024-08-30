@@ -12,7 +12,7 @@ import {
   ScrollToTop,
   SwiperFraction,
   Text,
-  VideoPlayer,
+  VideoPlayer, 
   Whiteboard,
 } from "@/components";
 
@@ -183,13 +183,14 @@ export default function MockVocabularyGrammar() {
     <>
       <Whiteboard
         title="Vocabulary / Grammar"
-        subtitle="..."
+        subtitle="xxxy"
         descriptions={["..."]}
       />
 
-      {/* Warm-up */}
       <div className="line-break">
         <div className="line-break">
+            
+      {/* Warm-up */}
           <BoardCard
             label="Warm-up"
             time="5'"
