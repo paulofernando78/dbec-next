@@ -5,7 +5,7 @@ export default function Unit1() {
     <>
       <Whiteboard
         title="Specific Purposes"
-        subtitle="Travel"
+        subTitle="Travel"
         descriptions={["Unit 14 • Taking messages"]}
       />
       <div className="line-break">

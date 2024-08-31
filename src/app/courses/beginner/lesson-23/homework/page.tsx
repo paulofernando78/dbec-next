@@ -6,7 +6,7 @@ export default function BeginnerLesson23Homework() {
     <>
       <Whiteboard
         title="Courses"
-        subtitle="Beginner"
+        subTitle="Beginner"
         descriptions={[
           "Lesson 23",
           "Homework",

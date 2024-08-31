@@ -66,7 +66,7 @@ export default function FalseCognates() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Vocabulary"
+        subTitle="Vocabulary"
         descriptions={["False Cognates"]}
       />
       <div className="line-break">

@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit115() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={[
           "Intermediate",
           "Unit 115 • unless, as long as, provided",

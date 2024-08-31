@@ -7,7 +7,7 @@ export default function Minecraft() {
     <>
       <Whiteboard
         title="Specific Purposes"
-        subtitle="Games"
+        subTitle="Games"
         descriptions={["Minecraft"]}
       />
       <div className="line-break">

@@ -6,7 +6,7 @@ export default function GrammarInUseElementaryUnit104() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={[
           "Elementary",
           "Unit 104 • from... to, until, since, for",

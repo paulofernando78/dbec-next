@@ -4,7 +4,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 export default function Medicine() {
   return (
     <div>
-      <Whiteboard title="Specific Purposes" subtitle="Medicine" />
+      <Whiteboard title="Specific Purposes" subTitle="Medicine" />
       <Link href="/specific-purposes/medicine/vocabulary">
         <p>
           <b>Vocabulary</b>

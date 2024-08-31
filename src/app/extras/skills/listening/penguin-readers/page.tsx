@@ -44,7 +44,7 @@ export default function PenguinReaders() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Litening"
+        subTitle="Litening"
         descriptions={["Penguin Readers"]}
       />
       <DescriptionCard descriptions={descriptions} />

@@ -6,7 +6,7 @@ export default function GrammarInUseElementaryUnit38() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={[
           "Elementary",
           "Unit 38 • there was / were there, has / have been, there will be",

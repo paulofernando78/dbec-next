@@ -1,26 +1,38 @@
 .margin-top {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .uk-us-flag {
-    width: 70%;
-    height: 70%;
-    margin-bottom: 50px;
+  width: 70%;
+  height: 70%;
+  margin-bottom: 50px;
 }
 
 .how-you-doing {
-    width: 100px;
-    height: 100px;
-    margin: 0 37px 0 0px;
+  width: 100px;
+  height: 100px;
+  margin: 0 37px 0 0px;
 }
 
 .me-computer {
-    width: 230px;
-    height: 230px;
-    margin-bottom: 20px;
+  width: 230px;
+  height: 230px;
+  margin-bottom: 20px;
 }
 
 .icons {
-    width: 80px;
-    height: auto;
+  width: 80px;
+  height: auto;
+}
+
+.about-picture {
+  width: 100px;
+  height: 100px;
+  margin: 5px 0 0 1px;
+}
+
+@media (width <= 700px) {
+  .about-picture {
+    margin: auto;
+  }
 }

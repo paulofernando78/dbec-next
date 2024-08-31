@@ -283,7 +283,7 @@ export default function Travel() {
     <>
       <Whiteboard
         title="Specific Purposes"
-        subtitle="Travel"
+        subTitle="Travel"
         descriptions={[
           "Welcome - English for the travel and industry (Cambridge)",
         ]}

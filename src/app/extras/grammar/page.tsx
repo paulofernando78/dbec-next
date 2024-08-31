@@ -26,7 +26,7 @@ const descriptions = [
 export default function Grammar() {
   return (
     <>
-      <Whiteboard title="Extras" subtitle="Grammar" />
+      <Whiteboard title="Extras" subTitle="Grammar" />
       <DescriptionCard descriptions={descriptions} />
     </>
   );

@@ -4,7 +4,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 export default function Songs() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subtitle="Songs" />
+      <Whiteboard title="Specific Purposes" subTitle="Songs" />
       <div className="line-break">
         <div>
           <p>What's your favorite band?</p>

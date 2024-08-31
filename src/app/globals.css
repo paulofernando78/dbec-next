@@ -276,6 +276,11 @@ p {
   gap: 8px;
 }
 
+.flex-12px {
+  display: flex;
+  gap: 12px;
+}
+
 .flex-8px-start-wrap {
   display: flex;
   gap: 8px;
@@ -446,6 +451,8 @@ hr {
     width: 100%;
     height: fit-content;
   }
+  .flex-8px,
+  .flex-12px,
   .flex-col-8px,
   .grid-2fr-8px,
   .grid-3fr-8px {

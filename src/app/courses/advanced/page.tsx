@@ -5,7 +5,7 @@ import React from "react";
 export default function Advanced() {
   return (
     <div>
-      <Whiteboard title="Courses" subtitle="Advanced (C1)" />
+      <Whiteboard title="Courses" subTitle="Advanced (C1)" />
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit98() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={[
           "Intermediate",
           "Unit 98 • Adjectives ending in -ing and -ed (boring / bored",

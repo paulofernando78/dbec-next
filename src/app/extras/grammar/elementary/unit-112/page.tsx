@@ -6,7 +6,7 @@ export default function GrammarInUseElementaryUnit112() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={[
           "Elementary",
           "Unit 112 • afraid of..., good at... etc. of/at/for etc. (prepositions) + -ing",

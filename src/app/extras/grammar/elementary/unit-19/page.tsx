@@ -6,7 +6,7 @@ export default function GrammarInUseElementaryUnit19() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={["Elementary", "Unit 19 • for / since / ago"]}
       />
       <div className="line-break">

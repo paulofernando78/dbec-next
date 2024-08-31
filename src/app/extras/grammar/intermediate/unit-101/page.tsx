@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit101() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={[
           "Intermediate",
           "Unit 101 • Adjectives and adverbs 2 (well, fast, alte, hard / hardly)",

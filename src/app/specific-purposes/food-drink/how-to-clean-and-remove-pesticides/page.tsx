@@ -7,7 +7,7 @@ export default function HowToCleanAndRemovePesticides() {
     <>
       <Whiteboard
         title="Specific-Purposes"
-        subtitle="Food and Drink"
+        subTitle="Food and Drink"
         descriptions={[
           "How to clean and remove pesticides from your fruits and vegetables ",
         ]}

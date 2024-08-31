@@ -6,7 +6,7 @@ export default function SpeakBusinessEnglishLikeAnAmerican() {
     <>
       <Whiteboard
         title="Specific Purposes"
-        subtitle="Business"
+        subTitle="Business"
         descriptions={["Speak Business English Like an American"]}
       />
       <div>{/* <DescriptionCard descriptions={descripttion}/> */}</div>

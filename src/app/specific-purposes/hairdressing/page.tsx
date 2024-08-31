@@ -3,7 +3,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 export default function Hairdressing() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subtitle="Hairdressing" />
+      <Whiteboard title="Specific Purposes" subTitle="Hairdressing" />
       <div className="line-break">
         <div className="line-break">
           <div>

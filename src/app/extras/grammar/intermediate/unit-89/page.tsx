@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit89() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={[
           "Intermediate",
           "Unit 89 • both / both of, either / eother of, neither / neither of",

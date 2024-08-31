@@ -69,6 +69,7 @@ import clockWakeUpHate from "@/img/bitmoji/clock-wakeup-hate.png";
 import compelling1 from "@/img/compelling1.jpg";
 import computerScreenGlitch1 from "./computer-screen-glitch1.jpg";
 import consent1 from "@/img/consent1.webp"
+import contentIcon from "./icon/content.png"
 import cookieOreoSourPatch from "@/img/cookie-oreo-sour-patch.png";
 import customer1 from "./customer1.webp";
 
@@ -79,6 +80,7 @@ import disrupt1 from "./disrupt1.jpg";
 import diversity1 from "@/img/diversity1.jpg"
 
 // E
+import emailIcon from "./icon/email.png"
 import enact1 from "@/img/enact1.jpg"
 import exclamationIcon from "@/img/icon/exclamation-mark.png";
 
@@ -97,6 +99,7 @@ import humanChromosomes from "@/img/human-chromosomes.avif";
 import iceCreamHiddenValleyRanch from "@/img/ice-cream-hidden-valley-ranch.webp";
 import iceCreamLittleMoonFishMochi from "@/img/ice-cream-little-moon-fish-mochi.avif";
 import inFiveMinutes from "./extras/grammar/elementary/unit-103/in-five-minutes.png";
+import infoIcon from "./icon/info.png"
 import intent1 from "@/img/intent1.jpg";
 
 // J
@@ -113,6 +116,9 @@ import lisa from "@/img/extras/grammar/elementary/unit-1/lisa.jpg";
 import macAndCheeseIceCreamFlavor from "./mac-and-cheese-ice-cream-flavor.avif";
 import manBedSick from "./man-bed-sick.webp";
 import mathIcon from "@/img/icon/math.png"
+import meComputer from "@/img/site/me-computer.png"
+import meLinkedIn from "./site/meLinkedIn.jpg"
+import moneyIcon from "./icon/money.png"
 
 // N
 import noInternetConnection1 from "./no-internet-connection1.jpg";
@@ -141,6 +147,7 @@ import remoteHouse1 from "./remote-house1.webp";
 
 // S
 import smallSwimmingPool from "@/img/bitmoji/small-swimming-pool.png";
+import sobre from "./site/sobre.jpg"
 import socialMedia1 from "@/img/social-media-1.webp";
 import socialMedia2 from "@/img/social-media-2.webp";
 import socialMedia3 from "@/img/social-media-3.avif";
@@ -164,12 +171,12 @@ import usaFlagIcon from "./icon/flag/usa.png";
 import ukFlagIcon from "./icon/flag/uk.png";
 import ukUSflag from "./site/uk-usa-flag.png"
 import howYouDoing from "@/img/site/how-you-doing.gif"
-import meComputer from "@/img/site/me-computer.png"
 
 // V
 
 // W
 import warningSign from "@/img/icon/warning-sign.png";
+import whatsappIcon from "./icon/whatsapp.png"
 
 // X
 import xmas1 from "@/img/bitmoji/xmas1.png";
@@ -249,6 +256,7 @@ export {
   clockWakeUpHate,
   compelling1,
   computerScreenGlitch1,
+  contentIcon,
   consent1,
   cookieOreoSourPatch,
   customer1,
@@ -260,6 +268,7 @@ export {
   diversity1,
 
   // E
+  emailIcon,
   enact1,
   exclamationIcon,
 
@@ -279,6 +288,7 @@ export {
   iceCreamHiddenValleyRanch,
   iceCreamLittleMoonFishMochi,
   inFiveMinutes,
+  infoIcon,
   intent1,
 
   // J
@@ -296,6 +306,8 @@ export {
   manBedSick,
   mathIcon,
   meComputer,
+  meLinkedIn,
+  moneyIcon,
 
   // N
   noInternetConnection1,
@@ -324,6 +336,7 @@ export {
 
   // S
   smallSwimmingPool,
+  sobre,
   socialMedia1,
   socialMedia2,
   socialMedia3,
@@ -351,6 +364,7 @@ export {
 
   // W
   warningSign,
+  whatsappIcon,
 
   // X
   xmas1,

@@ -4,7 +4,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 export default function JobInterviews() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subtitle="Job Interviews" />
+      <Whiteboard title="Specific Purposes" subTitle="Job Interviews" />
       <div className="line-break">
         <Link href="">
           <p>

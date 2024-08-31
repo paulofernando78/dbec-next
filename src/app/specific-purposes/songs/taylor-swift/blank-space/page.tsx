@@ -341,7 +341,7 @@ export default function TaylorSwiftbBlankSpace() {
     <>
       <Whiteboard
         title="Specific Purposes"
-        subtitle="Songs"
+        subTitle="Songs"
         descriptions={["Taylor Swift", "Blank Space"]}
       />
       <div className="line-break">

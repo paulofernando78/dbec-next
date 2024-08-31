@@ -11,7 +11,7 @@ import ukIcon from "../../../../public/assets/img/icon/flag/uk.png";
 export default function Sports() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subtitle="Sports" />
+      <Whiteboard title="Specific Purposes" subTitle="Sports" />
       <div className="line-break">
         <div>
           <Link href="/specific-purposes/sports/">

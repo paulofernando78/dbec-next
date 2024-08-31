@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Aviation() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subtitle="Aviation" />
+      <Whiteboard title="Specific Purposes" subTitle="Aviation" />
       <div className="line-break">
         <DictionaryCard
           label="pneumatic boots"

@@ -4,7 +4,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 export default function Science() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subtitle="Science" />
+      <Whiteboard title="Specific Purposes" subTitle="Science" />
       <div className="line-break">
         <div className="line-break">
           <p className="bold">What's a supernova?</p>

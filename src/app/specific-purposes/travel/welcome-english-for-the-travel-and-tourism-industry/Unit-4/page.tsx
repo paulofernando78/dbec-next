@@ -66,7 +66,7 @@ export default function Unit1() {
     <>
       <Whiteboard
         title="Specific Purposes"
-        subtitle="Travel"
+        subTitle="Travel"
         descriptions={[
           "Welcome - English for the travel and industry (Cambridge)",
           "Unit 4 • Dealing with an enquiries",

@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit88() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={[
           "Intermediate",
           "Unit 88 • all / all of , most / most of, no / none of etc.",

@@ -849,7 +849,7 @@ export default function Grammar() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={["Intermediate"]}
       />
       <ContentCard contents={contents} />

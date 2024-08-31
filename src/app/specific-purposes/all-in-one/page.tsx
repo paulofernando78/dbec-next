@@ -4,7 +4,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 export default function AllInOne() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subtitle="All-in-one Review" />
+      <Whiteboard title="Specific Purposes" subTitle="All-in-one Review" />
       <div className="line-break">
         <div>
           <a href="#">

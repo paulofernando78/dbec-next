@@ -14,7 +14,7 @@ interface Option {
 
 interface DropdownQuestion {
   title?: string;
-  subtitle?: string;
+  subTitle?: string;
   width: string;
   beforeOptions?: string;
   options?: Option[];
@@ -72,14 +72,14 @@ export const Dropdown: React.FC<DropdownProps> = ({ questions }) => {
           {questions.map((question, index) => (
             <div key={index} className="display-inline">
               {/* title & subTitle */}
-              {(question.title || question.subtitle) && (
-                <div className={`margin-bottom ${index > 0 ? "margin-top" : ""
-                }`}>
+              {(question.title || question.subTitle) && (
+                <div
+                  className={`margin-bottom ${index > 0 ? "margin-top" : ""}`}
+                >
                   {question.title && <p className="bold">{question.title}</p>}
-                  {question.subtitle && <p>{question.subtitle}</p>}{" "}
+                  {question.subTitle && <p>{question.subTitle}</p>}{" "}
                 </div>
               )}
-
               {/* beforeQuestions */}
               <p
                 className="display-inline"
@@ -132,7 +132,6 @@ export const Dropdown: React.FC<DropdownProps> = ({ questions }) => {
                   __html: question.afterOptions || "",
                 }}
               ></p>
-
               {/* lineBreak */}
               {question.lineBreak && <br />}
             </div>

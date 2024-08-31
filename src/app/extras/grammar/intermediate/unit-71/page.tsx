@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit71() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={[
           "Intermediate",
           "Unit 71 • Countable nouns with a / an and some",

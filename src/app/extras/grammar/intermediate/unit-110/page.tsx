@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit110() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={[
           "Intermediate",
           "Unit 110 • Word order 2: adverbs with the verb",

@@ -13,7 +13,7 @@ export function VocabularyGrammar({ data }: VocabularyProps) {
         <Whiteboard
           key={index}
           title={text.title}
-          subtitle={text.subTitle}
+          subTitle={text.subTitle}
           descriptions={text.descriptions}
         />
       ))}

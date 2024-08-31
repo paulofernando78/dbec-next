@@ -5,7 +5,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 export default function Coding() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subtitle="Coding" />
+      <Whiteboard title="Specific Purposes" subTitle="Coding" />
       <div className="line-break">
         <Card bgColor="black" textColor="white">
           <p className="bold">General Vocabulary</p>

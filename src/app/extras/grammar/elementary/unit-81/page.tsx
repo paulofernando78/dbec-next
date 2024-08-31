@@ -6,7 +6,7 @@ export default function GrammarInUseElementaryUnit81() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={["Elementary", "Unit 81 • all, most, some, any, no/none"]}
       />
       <div className="line-break">

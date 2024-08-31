@@ -1,5 +1,4 @@
 import { Whiteboard } from "@/components/Whiteboard";
-import { DescriptionCard } from "@/components/Cards/DescriptionCard";
 import { ContentCard } from "@/components/Cards/ContentCard";
 
 const contents = [
@@ -45,7 +44,7 @@ export default function ScienceAndTechnologyArticles() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Listening"
+        subTitle="Listening"
         descriptions={["Articles", "Science & Technology"]}
       />
       <ContentCard contents={contents} />

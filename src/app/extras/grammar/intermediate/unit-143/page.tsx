@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit143() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={["Intermediate", "Unit 143 • Phrasal verbs 7 up (1)"]}
       />
       <div className="line-break">

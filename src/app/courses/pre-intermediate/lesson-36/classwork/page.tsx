@@ -6,7 +6,7 @@ export default function PreIntermediateLesson36Classwork() {
     <>
       <Whiteboard
         title="Courses"
-        subtitle="Pre-Intermediate"
+        subTitle="Pre-Intermediate"
         descriptions={["Lesson 36", "Classwork", "Now I get it! (Cycle 2)"]}
       />
       <div className="line-break">

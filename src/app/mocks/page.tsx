@@ -36,7 +36,7 @@ const radio = [
 const dropdown = [
   {
     title: "Title",
-    subtitle: "Subtitle",
+    subTitle: "Subtitle",
     beforeOptions: "1. I",
     options: [
       { value: "am", label: "am", correctAnswer: true },
@@ -60,7 +60,7 @@ const dropdown = [
   },
   {
     title: "Title",
-    subtitle: "Subtitle",
+    subTitle: "Subtitle",
     beforeOptions: "1. I",
     options: [
       { value: "am", label: "am", correctAnswer: true },
@@ -205,11 +205,11 @@ export default function Mocks() {
       <div className="line-break">
         <div className="line-break">
           {/* Site */}
-            <div>
-              <Link href="/mocks/site/">
-                <p>Site</p>
-              </Link>
-            </div>
+          <div>
+            <Link href="/mocks/site/">
+              <p>Site</p>
+            </Link>
+          </div>
           {/* Lessons */}
           <div>
             <p className="bold">Lessons</p>

@@ -6,7 +6,7 @@ export default function TaylorSwift() {
     <>
       <Whiteboard
         title="Specific Purposes"
-        subtitle="Songs"
+        subTitle="Songs"
         descriptions={["Taylor Swift"]}
       />
       <div>

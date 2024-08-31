@@ -6,7 +6,7 @@ import { BoardCard } from "@/components/Cards/BoardCard";
 export default function Math() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subtitle="Job Interviews" />
+      <Whiteboard title="Specific Purposes" subTitle="Job Interviews" />
       <div className="line-break">
         <Link href="/specific-purposes/math/prime-numbers"></Link>
         <BoardCard label="Prime Numbers" bgColor="black" textColor="white">

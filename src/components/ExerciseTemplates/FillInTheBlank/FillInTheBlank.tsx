@@ -16,7 +16,7 @@ export interface FillInTheBlanksData {
   options: boolean;
   width?: string;
   title?: string;
-  subtitle?: string;
+  subTitle?: string;
   beforeBlank: string;
   lineBreakBefore?: boolean;
   placeholder?: string;
@@ -91,7 +91,7 @@ export const FillInTheBlanks = ({
             {question.title && (
               <div className="margin-bottom">
                 <p className="bold">{question.title}</p>
-                <p>{question.subtitle}</p>
+                <p>{question.subTitle}</p>
               </div>
             )}
             <span>

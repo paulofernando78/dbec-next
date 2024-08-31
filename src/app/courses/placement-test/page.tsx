@@ -181,7 +181,7 @@ export default function PlacementTest({ levels }: any) {
   levels = defaultLevels;
   return (
     <>
-      <Whiteboard title="Courses" subtitle="Placement Test" />
+      <Whiteboard title="Courses" subTitle="Placement Test" />
       {levels.map((level: any, levelIndex: any) => (
         <div className={styles["main-container"]} key={levelIndex}>
           <p

@@ -7,7 +7,7 @@ export default function WhichOne() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Vocabulary"
+        subTitle="Vocabulary"
         descriptions={["Which one?"]}
       />
       <div className="line-break">

@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit19() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={[
           "Intermediate",
           "Unit 19 • Present tenses (I am doing / I do) for the future",

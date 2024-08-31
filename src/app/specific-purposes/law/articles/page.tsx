@@ -6,7 +6,7 @@ export default function LawArticles() {
     <>
       <Whiteboard
         title="Specific-Purposes"
-        subtitle="Law"
+        subTitle="Law"
         descriptions={["articles"]}
       />
       <div className="line-break">

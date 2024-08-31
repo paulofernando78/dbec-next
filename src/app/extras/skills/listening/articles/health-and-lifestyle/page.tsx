@@ -30,7 +30,7 @@ export default function HealthAndLifestyle() {
     <>
       <Whiteboard
         title="Listening / Reading / Speaking"
-        subtitle="Articles"
+        subTitle="Articles"
         descriptions={["Health & Lifestyle"]}
       />
       <DescriptionCard descriptions={descriptions} />

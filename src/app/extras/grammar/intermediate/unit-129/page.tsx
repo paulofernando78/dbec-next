@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit129() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={[
           "Intermediate",
           "Unit 129 • Noun + preposition (reason for, cause of, etc.)",

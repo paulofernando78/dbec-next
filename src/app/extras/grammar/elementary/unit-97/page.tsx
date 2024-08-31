@@ -6,7 +6,7 @@ export default function GrammarInUseElementaryUnit97() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={["Elementary", "Unit 97 • and, but, or, so, because"]}
       />
       <div className="line-break">

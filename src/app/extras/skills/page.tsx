@@ -208,7 +208,7 @@ const contents = [
 export default function Skills() {
   return (
     <>
-      <Whiteboard title="Extras" subtitle="Skills" />
+      <Whiteboard title="Extras" subTitle="Skills" />
       <div className="line-break">
         <BoardCard label="Listening" bgColor="black" textColor="white">
           <div>

@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Vocabulary() {
   return (
     <>
-      <Whiteboard title="Extras" subtitle="Vocabulary" />
+      <Whiteboard title="Extras" subTitle="Vocabulary" />
       <div className="line-break">
         <p>aggravate</p>
         <p>detest</p>

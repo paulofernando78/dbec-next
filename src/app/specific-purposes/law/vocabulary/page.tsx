@@ -6,7 +6,7 @@ export default function LawVocabulary() {
     <>
       <Whiteboard
         title="Specific Purposes"
-        subtitle="Law"
+        subTitle="Law"
         descriptions={["Vocabulary"]}
       />
       <div className="flex-col-4px">

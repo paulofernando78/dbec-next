@@ -7,7 +7,7 @@ export default function Vocaulary() {
     <>
       <Whiteboard
         title="Specific-purposes"
-        subtitle="Stock Market"
+        subTitle="Stock Market"
         descriptions={["Vocabulary"]}
       />
       <div>

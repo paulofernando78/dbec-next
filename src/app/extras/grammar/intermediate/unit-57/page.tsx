@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit57() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={[
           "Intermediate",
           "Unit 57 • Verb + -ing ot to... 2 (try, need, help, etc.)",

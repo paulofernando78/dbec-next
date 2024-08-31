@@ -4,7 +4,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 export default function Law() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subtitle="Law" />
+      <Whiteboard title="Specific Purposes" subTitle="Law" />
       <div className="line-break">
         <Link href="https://dictionary.law.com/">
           <p>Legal Dictionary</p>

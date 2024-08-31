@@ -5,11 +5,17 @@ import {
   groupIcon,
   clockIcon,
   laptopComputerIcon,
+  contentIcon,
+  infoIcon,
+  moneyIcon,
+  emailIcon,
+  whatsappIcon
 } from "@/img/index";
 import Image from "next/image";
 
 import styles from "./styles.module.css";
 import { Card } from "@/components";
+import { IconLink } from "@/components/Icon/IconLink/Idex";
 
 export default function Site() {
   return (
@@ -89,12 +95,14 @@ export default function Site() {
             </Card>
           </div>
           <div>
-            <p>...</p>
-            <p>...</p>
-            <p>...</p>
+            <IconLink imgSrc={contentIcon} link="/" prompt="Amostra conteúdo"/>
+            <IconLink imgSrc={infoIcon} link="/" prompt="Sobre"/>
+            <IconLink imgSrc={moneyIcon} link="/" prompt="Preço"/>
           </div>
           <div>
             <p className="bold">Contato</p>
+            <IconLink imgSrc={emailIcon} link="/" prompt="paulofernando78@gmail.com"/>
+            <IconLink imgSrc={whatsappIcon} link="/" prompt="..."/>
           </div>
         </div>
       </div>

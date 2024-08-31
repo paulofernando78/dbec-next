@@ -6,7 +6,7 @@ export default function GrammarInUseElementaryUnit42() {
     <>
       <Whiteboard
         title="Extras"
-        subtitle="Grammar"
+        subTitle="Grammar"
         descriptions={[
           "Elementary",
           "Unit 42 • too/either, so am I / neither do I etc.",

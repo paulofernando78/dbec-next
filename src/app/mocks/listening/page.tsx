@@ -120,9 +120,9 @@ export default function MockListening() {
     <>
       <Whiteboard
         title="Listening"
-        subtitle="..."
+        subTitle="..."
         descriptions={["..."]}
-        subdescription="Month #, 20..."
+        subDescription="Month #, 20..."
       />
       <div className="line-break">
         {/* Warm-up */}
