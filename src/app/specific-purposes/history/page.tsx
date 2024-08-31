@@ -7,6 +7,18 @@ export default function History() {
       <Whiteboard title="Specific Purposes" subtitle="History" />
       <div className="line-break">
         <div className="line-break">
+          <div className="line-break">
+            <p className="bold">Mythology</p>
+            <div>
+              <p className="bold">Greek</p>
+              <p>Chimera</p>
+              <p>Phoenix</p>
+            </div>
+            <div>
+              <p className="bold">Egyption</p>
+              <p>...</p>
+            </div>
+          </div>
           <p className="bold">World War II</p>
           <p>Unit 731</p>
           <div>

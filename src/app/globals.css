@@ -91,6 +91,10 @@ p {
   font-weight: bold;
 }
 
+.justify {
+  text-align: justify;
+}
+
 .yellow-highlight {
   background-color: yellow;
 }
@@ -311,6 +315,13 @@ p {
   align-items: center;
 }
 
+.flex-col-8px-center {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
 .flex-col-4px {
   display: flex;
   flex-direction: column;
@@ -435,6 +446,7 @@ hr {
     width: 100%;
     height: fit-content;
   }
+  .flex-col-8px,
   .grid-2fr-8px,
   .grid-3fr-8px {
     display: grid;

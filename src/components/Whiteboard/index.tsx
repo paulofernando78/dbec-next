@@ -4,14 +4,14 @@ interface WhiteboardProps {
   title: string;
   subtitle?: string;
   descriptions?: string[];
-  subdescription?: string
+  subDescription?: string
 }
 
 export const Whiteboard = ({
   title,
   subtitle,
   descriptions = [],
-  subdescription
+  subDescription
 }: WhiteboardProps) => {
   return (
     <div className={styles["container"]}>
@@ -22,7 +22,7 @@ export const Whiteboard = ({
           <b>{description}</b>
         </p>
       ))}
-      {subdescription && <p className="p-size-smaller">{subdescription}</p>}
+      {subDescription && <p className="p-size-smaller">{subDescription}</p>}
     </div>
   );
 };

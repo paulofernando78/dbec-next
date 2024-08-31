@@ -204,6 +204,12 @@ export default function Mocks() {
       <Whiteboard title="Mocks" />
       <div className="line-break">
         <div className="line-break">
+          {/* Site */}
+            <div>
+              <Link href="/mocks/site/">
+                <p>Site</p>
+              </Link>
+            </div>
           {/* Lessons */}
           <div>
             <p className="bold">Lessons</p>

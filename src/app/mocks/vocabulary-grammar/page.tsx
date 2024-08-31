@@ -12,12 +12,18 @@ import {
   ScrollToTop,
   SwiperFraction,
   Text,
-  VideoPlayer, 
+  VideoPlayer,
   Whiteboard,
 } from "@/components";
 
 import { cat1, cat2 } from "@/img/index";
 import { VocabularyComponent } from "@/types/PreVocabulary";
+import { VocabularyGrammar } from "@/components/Lessons/VocabularyGrammar";
+import { useEffect, useState } from "react";
+import {
+  fetchTextData,
+  TextData,
+} from "@/components/Lessons/VocabularyGrammar/beginner-whiteboard";
 
 const warmUpPrompt = [
   {
@@ -179,8 +185,23 @@ const wrapUpPrompt = [
 ];
 
 export default function MockVocabularyGrammar() {
+  const [data, setData] = useState<TextData[]>([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const result = await fetchTextData();
+        setData(result);
+      } catch (error) {
+        console.error("Failed to fetch data", error);
+      }
+    };
+    fetchData();
+  }, []);
   return (
     <>
+      <VocabularyGrammar data={data} />
+      
       <Whiteboard
         title="Vocabulary / Grammar"
         subtitle="..."
@@ -189,8 +210,7 @@ export default function MockVocabularyGrammar() {
 
       <div className="line-break">
         <div className="line-break">
-            
-      {/* Warm-up */}
+          {/* Warm-up */}
           <BoardCard
             label="Warm-up"
             time="5'"
@@ -224,6 +244,7 @@ export default function MockVocabularyGrammar() {
           >
             <Text texts={introductionPrompt} />
             <SwiperFraction images={swiperIntroduction} />
+            <VideoPlayer videoSrc="https://www.youtube.com/embed/m1-Bx3h4cio" />
             <Text texts={introductionQuestion} />
           </BoardCard>
 
@@ -234,7 +255,6 @@ export default function MockVocabularyGrammar() {
             bgColor="black"
             textColor="white"
           >
-
             {/* Meaning */}
             <BoardCard label="Meaning" bgColor="lightgray" textColor="black">
               <Text texts={meaningPrompt} />
@@ -260,7 +280,6 @@ export default function MockVocabularyGrammar() {
             {/* Practice */}
           </BoardCard>
           <BoardCard label="Practice" bgColor="black" textColor="white">
-
             {/* High Control Written Practice */}
             <BoardCard
               label="High Control Written Practice"

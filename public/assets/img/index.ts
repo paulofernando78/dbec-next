@@ -64,6 +64,7 @@ import characteristic1 from "@/img/characteristic1.jpg";
 import challenge1 from "@/img/challenge1.jpg"
 import chocolatePinkLemonadeKitKat from "@/img/chocolate-kit-kat-pink-lemonad.jpg";
 import clipboard1 from "@/img/clipboard1.jpg";
+import clockIcon from "@/img/icon/clock.gif"
 import clockWakeUpHate from "@/img/bitmoji/clock-wakeup-hate.png";
 import compelling1 from "@/img/compelling1.jpg";
 import computerScreenGlitch1 from "./computer-screen-glitch1.jpg";
@@ -86,6 +87,7 @@ import fauxpas1 from "./faux-pas1.webp";
 import flipIcon from "@/img/icon/flip.png";
 
 // G
+import groupIcon from "@/img/icon/group.png"
 import questionMarkGif from "./gif/question-mark.gif";
 
 // H
@@ -104,6 +106,7 @@ import labEmbryo from "./lab-embryo.avif";
 import labEmbryo2 from "./lab-embryo2.jpg";
 import labEmbryo3 from "./lab-embryo3.jpg";
 import labScientist from "./lab-scientist.avif";
+import laptopComputerIcon from "./icon/laptop-computer.png"
 import lisa from "@/img/extras/grammar/elementary/unit-1/lisa.jpg";
 
 // M
@@ -159,6 +162,9 @@ import update1 from "./update1.avif";
 import upgrade1 from "@/img/upgrade1.jpg";
 import usaFlagIcon from "./icon/flag/usa.png";
 import ukFlagIcon from "./icon/flag/uk.png";
+import ukUSflag from "./site/uk-usa-flag.png"
+import howYouDoing from "@/img/site/how-you-doing.gif"
+import meComputer from "@/img/site/me-computer.png"
 
 // V
 
@@ -229,6 +235,7 @@ export {
   aviationIcon,
 
   // B
+  brFlagIcon,
 
   // C
   cat1,
@@ -237,6 +244,7 @@ export {
   challenge1,
   characteristic1,
   chocolatePinkLemonadeKitKat,
+  clockIcon,
   clipboard1,
   clockWakeUpHate,
   compelling1,
@@ -260,9 +268,11 @@ export {
   flipIcon,
 
   // G
+  groupIcon,
   questionMarkGif,
 
   // H
+  howYouDoing,
   humanChromosomes,
 
   // I
@@ -279,11 +289,13 @@ export {
   labEmbryo2,
   labEmbryo3,
   labScientist,
+  laptopComputerIcon,
   lisa,
 
   // M
   manBedSick,
   mathIcon,
+  meComputer,
 
   // N
   noInternetConnection1,
@@ -333,7 +345,7 @@ export {
   upgrade1,
   usaFlagIcon,
   ukFlagIcon,
-  brFlagIcon,
+  ukUSflag,
 
   // V
 
