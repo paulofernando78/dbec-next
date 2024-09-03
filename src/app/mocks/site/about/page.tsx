@@ -19,7 +19,7 @@ export default function About() {
               Fundador do Daily Basis English Course, é apaixonado pelos estudos
               da língua inglesa desde 96. Começou a lecionar aulas de inglês
               particulares em meados de 2004. Já morou nos EUA - Califórnia.
-              Estuda web development e programação desde 2022 com o objetivo de
+              Estuda web development e programação desde 2023 com o objetivo de
               criar a sua própria plataforma de ensino.
             </p>
           </div>

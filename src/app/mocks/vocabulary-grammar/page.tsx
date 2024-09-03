@@ -23,7 +23,7 @@ import { useEffect, useState } from "react";
 import {
   fetchTextData,
   TextData,
-} from "@/components/Lessons/VocabularyGrammar/beginner-whiteboard";
+} from "@/components/Lessons/VocabularyGrammar/api-beginner-whiteboard";
 
 const warmUpPrompt = [
   {

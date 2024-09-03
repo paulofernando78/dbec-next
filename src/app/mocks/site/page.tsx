@@ -1,3 +1,8 @@
+import { IconLink } from "@/components/Icon/IconLink/Idex";
+import { Card } from "@/components";
+import styles from "./styles.module.css";
+
+import Image from "next/image";
 import {
   ukUSflag,
   howYouDoing,
@@ -9,30 +14,21 @@ import {
   infoIcon,
   moneyIcon,
   emailIcon,
-  whatsappIcon
+  whatsappIcon,
 } from "@/img/index";
-import Image from "next/image";
-
-import styles from "./styles.module.css";
-import { Card } from "@/components";
-import { IconLink } from "@/components/Icon/IconLink/Idex";
+import { Login } from "@/components/Inputs/Login";
+import Link from "next/link";
 
 export default function Site() {
   return (
     <>
-      <div className="flex-8px-center-wrap">
-        <div className="flex-8px-center-wrap">
-          <p>Email:</p>
-          <input type="text" />
-        </div>
-        <div className="flex-8px-center-wrap">
-          <p>Password:</p>
-          <input type="text" name="" id="" />
-        </div>
-      </div>
+      <Link href="">
+        <p>Login</p>
+      </Link>
+      <Login />
       <div className={styles["margin-top"]}>
         <div className="flex-col-center">
-          <p className="">DAILY BASIS ENGLISH COURSE</p>
+          <p className={styles["dbec"]}>DAILY BASIS ENGLISH COURSE</p>
           <Image
             src={ukUSflag}
             alt="Uk / USA flag"
@@ -95,14 +91,22 @@ export default function Site() {
             </Card>
           </div>
           <div>
-            <IconLink imgSrc={contentIcon} link="/" prompt="Amostra conteúdo"/>
-            <IconLink imgSrc={infoIcon} link="/" prompt="Sobre"/>
-            <IconLink imgSrc={moneyIcon} link="/" prompt="Preço"/>
+            <IconLink imgSrc={contentIcon} link="/" prompt="Amostra conteúdo" />
+            <IconLink
+              imgSrc={infoIcon}
+              link="/mocks/site/about"
+              prompt="Sobre"
+            />
+            <IconLink imgSrc={moneyIcon} link="/" prompt="Preço" />
           </div>
           <div>
             <p className="bold">Contato</p>
-            <IconLink imgSrc={emailIcon} link="/" prompt="paulofernando78@gmail.com"/>
-            <IconLink imgSrc={whatsappIcon} link="/" prompt="..."/>
+            <IconLink
+              imgSrc={emailIcon}
+              link="/"
+              prompt="paulofernando78@gmail.com"
+            />
+            <IconLink imgSrc={whatsappIcon} link="/" prompt="..." />
           </div>
         </div>
       </div>
