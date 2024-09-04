@@ -144,7 +144,7 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                     {content.courseImg &&
                       content.courseLink &&
                       content.courseLabel && (
-                        <div className={`flex-8px ${styles[""]}`}>
+                        <div className={` ${styles["flex-8px"]}`}>
                           <Image
                             src={content.courseImg}
                             alt="Globe icon"

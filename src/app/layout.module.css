@@ -1,33 +1,4 @@
-.layout {
-  margin: 10px;
-  gap: 12px;
-  display: flex;
-}
-
-.headerNav {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  height: 100%;
-}
-
-.children {
-  margin-left: 261px;
-  flex-grow: 1;
-  min-width: 0;
-}
-
-@media (max-width: 768px) {
-  .layout {
-    flex-direction: column;
-  }
-
-  .headerNav {
-    width: 100%;
-    position: static;
-  }
-
-  .children {
-    margin-left: 0;
-  }
-}
+/* .children {
+  padding: 10px;
+  border: solid red;
+} */

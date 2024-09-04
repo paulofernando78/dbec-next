@@ -10,7 +10,7 @@ export const RegularVerbs = () => {
           <span className="bold">Regular Verbs: -ed / -ied endings</span>
         </Card>
       </div>
-      <div className="flex-8px-center">
+      <div className="flex-8px">
         <DictionaryCard audioSrc="/a/ask.mp3" label="ask" />
         <DictionaryCard audioSrc="/a/ask.mp3" label="asked" />
         <DictionaryCard audioSrc="/a/ask.mp3" label="asked" />

@@ -12,7 +12,7 @@ import { DescriptionCard } from "@/components/Cards/DescriptionCard";
 import { searchWords } from "@/utils/searchWords";
 
 // Interface
-import { IDictionary } from "../../../interfaces";
+import { IDictionary } from "../../../../interfaces";
 
 // CSS
 import styles from "./styles.module.css";
