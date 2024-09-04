@@ -147,7 +147,7 @@ export const CardinalOrdinalNumbers = () => {
               </p>
             </div>
             <div>
-              <AudioPlayer audioSrc="" />
+              <AudioPlayer audioSrc="/assets/audio/specific-purposes/all-in-one/CardinalOrdinalNumbers/born1.mp3" />
               <p>
                 When were you born?{" "}
                 <span className="portuguese">Quando você nasceu?</span>
@@ -161,7 +161,7 @@ export const CardinalOrdinalNumbers = () => {
               </p>
             </div>
             <div>
-              <AudioPlayer audioSrc="" />
+              <AudioPlayer audioSrc="/assets/audio/specific-purposes/all-in-one/CardinalOrdinalNumbers/birth1.mp3" />
               <p>
                 What's your date of birth?{" "}
                 <span className="portuguese">
