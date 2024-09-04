@@ -3,8 +3,8 @@ import { Whiteboard } from "@/components/Whiteboard";
 import Image from "next/image";
 
 // Images
-import usaIcon from "../../../../public/assets/img/icon/flag/usa.png";
-import ukIcon from "../../../../public/assets/img/icon/flag/uk.png";
+import { usaFlagIcon } from "@/img/index";
+import { ukFlagIcon } from "@/img/index";
 
 // import footballIcon from "/assets/img/icon/soccer.png"
 
@@ -24,13 +24,13 @@ export default function Sports() {
           <Link href="/specific-purposes/sports/soccer-football">
             <p>
               <Image
-                src={usaIcon}
+                src={usaFlagIcon}
                 alt="Soccer icon"
                 className="icon-general icon-position-top"
               />{" "}
               Soccer{" "}
               <Image
-                src={ukIcon}
+                src={ukFlagIcon}
                 alt="Soccer icon"
                 className="icon-general icon-position-top"
               />{" "}
