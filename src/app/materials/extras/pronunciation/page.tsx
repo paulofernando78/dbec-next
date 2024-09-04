@@ -4,7 +4,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
-import TheAlphabet from "@/components/Lessons/Topic/TheAlphabet/page";
+import TheAlphabet from "@/components/Lessons/Topics/TheAlphabet/page";
 import { LetterA } from "@/components/Extras/Pronunciation/Letters/LetterA";
 import { LettersAI } from "@/components/Extras/Pronunciation/Letters/LettersAI";
 import { LettersAU } from "@/components/Extras/Pronunciation/Letters/LettersAU";

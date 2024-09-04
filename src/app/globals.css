@@ -120,6 +120,10 @@ p {
   color: red;
 }
 
+.blue {
+  color: #00a2ff;
+}
+
 .beginner {
   color: var(--beginner);
 }

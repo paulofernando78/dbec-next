@@ -1,5 +1,7 @@
 import { BoardCard, Card } from "@/components";
 import { RegularVerbs } from "@/components/Lessons/RegularVerbs";
+import { CardinalOrdinalNumbers } from "@/components/Lessons/Topics/CardinalOrdinalNumbers";
+import { Pronouns } from "@/components/Lessons/Topics/Pronouns";
 import { Whiteboard } from "@/components/Whiteboard";
 
 export default function AllInOne() {
@@ -46,79 +48,10 @@ export default function AllInOne() {
         <hr />
 
         <div id="pronouns">
-          <BoardCard label="Pronouns" bgColor="black" textColor="white">
-            <div className="flex-8px-center-wrap">
-              <BoardCard label="Subject" bgColor="lightgray">
-                <div>
-                  <p>I</p>
-                  <p>you</p>
-                  <p>he</p>
-                  <p>she</p>
-                  <p>it</p>
-                  <p>we</p>
-                  <p>you</p>
-                  <p>they</p>
-                </div>
-              </BoardCard>
-              <BoardCard label="Object" bgColor="lightgray">
-                <div>
-                  <p>me</p>
-                  <p>you</p>
-                  <p>him</p>
-                  <p>her</p>
-                  <p>it</p>
-                  <p>us</p>
-                  <p>you</p>
-                  <p>them</p>
-                </div>
-              </BoardCard>
-              <BoardCard label="Possessive Adjective" bgColor="lightgray">
-                <div>
-                  <p>my</p>
-                  <p>your</p>
-                  <p>his</p>
-                  <p>her</p>
-                  <p>its</p>
-                  <p>our</p>
-                  <p>your</p>
-                  <p>their</p>
-                </div>
-              </BoardCard>
-              <BoardCard label="Possessive Pronoun" bgColor="lightgray">
-                <div>
-                  <p>mine</p>
-                  <p>
-                    your<span className="red">s</span>
-                  </p>
-                  <p>
-                    hi<span className="red">s</span>
-                  </p>
-                  <p>
-                    her<span className="red">s</span>
-                  </p>
-                  <p>...</p>
-                  <p>
-                    our<span className="red">s</span>
-                  </p>
-                  <p>
-                    your<span className="red">s</span>
-                  </p>
-                  <p>
-                    their<span className="red">s</span>
-                  </p>
-                </div>
-              </BoardCard>
-            </div>
-          </BoardCard>
+          <Pronouns />
         </div>
         <div id="cardinal-ordinal-numbers">
-          <BoardCard
-            label="Cardinal & Ordinal numbers"
-            bgColor="black"
-            textColor="white"
-          >
-            <p>...</p>
-          </BoardCard>
+          <CardinalOrdinalNumbers />
         </div>
         <div id="verb-to-be">
           <BoardCard label="Verb to be" bgColor="black" textColor="white">

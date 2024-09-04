@@ -8,6 +8,7 @@ interface BoardCardProps {
   children: ReactNode;
   bgColor?: string;
   textColor?: string;
+  width?: string
 }
 
 export const BoardCard = ({
@@ -17,12 +18,13 @@ export const BoardCard = ({
   children,
   bgColor,
   textColor,
+  width,
 }: BoardCardProps) => {
   return (
     <div className={styles["main-card"]}>
       <div
         className={styles["card"]}
-        style={{ backgroundColor: bgColor, color: textColor }}
+        style={{ backgroundColor: bgColor, color: textColor, width: width }}
       >
         <div className="flex-8px-start-space-between">
           <p><span className="bold">{label}</span> <span className="p-size-small">{smallerLabel}</span></p>

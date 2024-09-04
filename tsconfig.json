@@ -17,9 +17,14 @@
         "name": "next"
       }
     ],
+    "typeRoots": [
+      "node_modules/@types",
+      "types/"
+    ],
     "paths": {
       "@/*": ["./src/*"],
       "@/img/*": ["./public/assets/img/*"],
+      "@/audio/*": ["./public/assets/audio/*"],
       "@components/*": ["./src/components/*"],
       "@/types/*": ["./src/types/*"]
     }
