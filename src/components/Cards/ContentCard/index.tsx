@@ -6,9 +6,8 @@ import Image, { StaticImageData } from "next/image";
 import styles from "./styles.module.css";
 
 // Images
-import linkIcon from "@/img/icon/link.png";
 import globeIcon from "@/img/icon/globe.png";
-import { Card } from "../Card";
+import { BoardCard } from "../BoardCard";
 
 interface Content {
   content?: string;
@@ -31,12 +30,12 @@ interface SubContent {
   // applyIntermediateBorder?: boolean;
   bgColor: string;
   textColor: string;
-  label: string;
+  label?: string;
   contents: Content[];
 }
 
 interface MainContent {
-  mainLabel?: string;
+  mainLabel: string;
   subContents: SubContent[];
 }
 
@@ -50,118 +49,118 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
       {contents.map((content, contentIndex) => (
         <div key={contentIndex} className="line-break">
           {/* Main label */}
-          {content.mainLabel && (
-            <Card bgColor="black" textColor="white">
-              <p className="bold">{content.mainLabel}</p>
-            </Card>
-          )}
+          <BoardCard
+            label={content.mainLabel}
+            bgColor="black"
+            textColor="white"
+          >
+            {content.subContents.map((subContent, subContentIndex) => {
+              // let borderClass = "";
+              // if (subContent.applyBeginnerBorder) borderClass = styles["beginner-border"];
+              // else if (subContent.applyElementaryBorder) borderClass = styles["elementary-border"];
+              // else if (subContent.applyPreIntermediateBorder) borderClass = styles["pre-intermediate-border"];
+              // else if (subContent.applyIntermediateBorder) borderClass = styles["intermediate-border"];
 
-          {content.subContents.map((subContent, subContentIndex) => {
-            // let borderClass = "";
-            // if (subContent.applyBeginnerBorder) borderClass = styles["beginner-border"];
-            // else if (subContent.applyElementaryBorder) borderClass = styles["elementary-border"];
-            // else if (subContent.applyPreIntermediateBorder) borderClass = styles["pre-intermediate-border"];
-            // else if (subContent.applyIntermediateBorder) borderClass = styles["intermediate-border"];
-
-            return (
-              <div
-                key={subContentIndex}
-                className={`${styles["card-description"]}`}
-              >
-                {/* Label */}
-                <p
-                  className={`bold ${styles["card-description-label"]}`}
-                  style={{
-                    backgroundColor: subContent.bgColor,
-                    color: subContent.textColor,
-                  }}
+              return (
+                <div
+                  key={subContentIndex}
+                  className={`${styles["card-description"]}`}
                 >
-                  {subContent.label}
-                </p>
-                {subContent.contents.map((content, contentIndex) => (
-                  <div
-                    key={contentIndex}
-                    className={`flex-col-4px ${styles["card-description-content"]}`}
+                  {/* Label */}
+                  <p
+                    className={`bold ${styles["card-description-label"]}`}
+                    style={{
+                      backgroundColor: subContent.bgColor,
+                      color: subContent.textColor,
+                    }}
                   >
-                    {/* Content */}
-                    {content.content && (
-                      <p
-                        dangerouslySetInnerHTML={{ __html: content.content }}
-                      />
-                    )}
-                    {content.applyHr && <hr className={styles["hr"]} />}
-
-                    {/* Link / Label Link */}
-                    {content.link && content.linkLabel && (
-                      <div className={styles["grid-icon-text"]}>
-                        {/* <Image
-                          src={linkIcon}
-                          alt="Link icon"
-                          className="icon-general"
-                        />{" "} */}
-                        <Link href={content.link}>
-                          <p
-                          // className="display-inline"
-                          >
-                            {content.linkLabel}
-                          </p>
-                        </Link>
-                      </div>
-                    )}
-
-                    {/* Globe Image / Globe Link */}
-                    {content.globeLink && content.globeLabel && (
-                      <div className={styles["grid-icon-text"]}>
-                        <Image
-                          src={globeIcon}
-                          alt="Globe icon"
-                          className={`icon-general ${styles["globe-icon"]}`}
-                        />{" "}
-                        <Link href={content.globeLink}>
-                          <p>{content.globeLabel}</p>
-                        </Link>
-                      </div>
-                    )}
-
-                    {/* Checkbox Link / Checkbox Label Link */}
-                    {content.checkboxLink && content.checkboxLabel && (
-                      <div className={styles["grid-checkbox-text"]}>
-                        <input
-                          type="checkbox"
-                          className={styles["checkbox-size"]}
+                    {subContent.label}
+                  </p>
+                  {subContent.contents.map((content, contentIndex) => (
+                    <div
+                      key={contentIndex}
+                      className={`flex-col-4px ${styles["card-description-content"]}`}
+                    >
+                      {/* Content */}
+                      {content.content && (
+                        <p
+                          dangerouslySetInnerHTML={{ __html: content.content }}
                         />
-                        <Link href={content.checkboxLink}>
-                          <p
-                            dangerouslySetInnerHTML={{
-                              __html: content.checkboxLabel,
-                            }}
-                          />
-                        </Link>
-                      </div>
-                    )}
+                      )}
+                      {content.applyHr && <hr className={styles["hr"]} />}
 
-                    {/* Course */}
-                    {content.courseImg &&
-                      content.courseLink &&
-                      content.courseLabel && (
-                        <div className={` ${styles["flex-8px"]}`}>
-                          <Image
-                            src={content.courseImg}
-                            alt="Globe icon"
-                            className={`icon-general ${styles["book-icon"]}`}
-                          />
-                          <Link href={content.courseLink}>
-                            <p className={styles["link-label-position"]}>
-                              {content.courseLabel}
+                      {/* Link / Label Link */}
+                      {content.link && content.linkLabel && (
+                        <div className={styles["grid-icon-text"]}>
+                          {/* <Image
+                            src={linkIcon}
+                            alt="Link icon"
+                            className="icon-general"
+                          />{" "} */}
+                          <Link href={content.link}>
+                            <p
+                            // className="display-inline"
+                            >
+                              {content.linkLabel}
                             </p>
                           </Link>
                         </div>
                       )}
-                  </div>
-                ))}
-              </div>
-            );
-          })}
+
+                      {/* Globe Image / Globe Link */}
+                      {content.globeLink && content.globeLabel && (
+                        <div className={styles["grid-icon-text"]}>
+                          <Image
+                            src={globeIcon}
+                            alt="Globe icon"
+                            className={`icon-general ${styles["globe-icon"]}`}
+                          />{" "}
+                          <Link href={content.globeLink}>
+                            <p>{content.globeLabel}</p>
+                          </Link>
+                        </div>
+                      )}
+
+                      {/* Checkbox Link / Checkbox Label Link */}
+                      {content.checkboxLink && content.checkboxLabel && (
+                        <div className={styles["grid-checkbox-text"]}>
+                          <input
+                            type="checkbox"
+                            className={styles["checkbox-size"]}
+                          />
+                          <Link href={content.checkboxLink}>
+                            <p
+                              dangerouslySetInnerHTML={{
+                                __html: content.checkboxLabel,
+                              }}
+                            />
+                          </Link>
+                        </div>
+                      )}
+
+                      {/* Course */}
+                      {content.courseImg &&
+                        content.courseLink &&
+                        content.courseLabel && (
+                          <div className={` ${styles["flex-8px"]}`}>
+                            <Image
+                              src={content.courseImg}
+                              alt="Globe icon"
+                              className={`icon-general ${styles["book-icon"]}`}
+                            />
+                            <Link href={content.courseLink}>
+                              <p className={styles["link-label-position"]}>
+                                {content.courseLabel}
+                              </p>
+                            </Link>
+                          </div>
+                        )}
+                    </div>
+                  ))}
+                </div>
+              );
+            })}
+          </BoardCard>
         </div>
       ))}
     </div>

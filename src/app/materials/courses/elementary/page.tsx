@@ -53,17 +53,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-2/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-2/flipped-classroom",
             courseLabel: "Flipped Classroom • Where are you from? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-2/classwork",
+            courseLink: "/materials/courses/elementary/lesson-2/classwork",
             courseLabel: "Classwork • Where are you from? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-2/homework",
+            courseLink: "/materials/courses/elementary/lesson-2/homework",
             courseLabel: "Homework • Where are you from? (Cycle 1)",
           },
         ],
@@ -81,17 +81,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-3/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-3/flipped-classroom",
             courseLabel: "Flipped Classroom • Where are you from? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-3/classwork",
+            courseLink: "/materials/courses/elementary/lesson-3/classwork",
             courseLabel: "Classwork • Where are you from? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-3/homework",
+            courseLink: "/materials/courses/elementary/lesson-3/homework",
             courseLabel: "Homework • Where are you from? (Cycle 2)",
           },
         ],
@@ -109,17 +109,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-4/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-4/flipped-classroom",
             courseLabel: "Flipped Classroom • What do you do? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-4/classwork",
+            courseLink: "/materials/courses/elementary/lesson-4/classwork",
             courseLabel: "Classwork • What do you do? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-4/homework",
+            courseLink: "/materials/courses/elementary/lesson-4/homework",
             courseLabel: "Homework • What do you do? (Cycle 1)",
           },
         ],
@@ -137,17 +137,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-5/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-5/flipped-classroom",
             courseLabel: "Flipped Classroom • What do you do? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-5/classwork",
+            courseLink: "/materials/courses/elementary/lesson-5/classwork",
             courseLabel: "Classwork • What do you do? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-5/homework",
+            courseLink: "/materials/courses/elementary/lesson-5/homework",
             courseLabel: "Homework • What do you do? (Cycle 2)",
           },
         ],
@@ -170,7 +170,7 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-6/classwork",
+            courseLink: "/materials/courses/elementary/lesson-6/classwork",
             courseLabel:
               "Classwork • Review lessons 2-5 + Written and Oral Quiz",
           },
@@ -189,17 +189,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-7/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-7/flipped-classroom",
             courseLabel: "Flipped Classroom • How much are these? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-7/classwork",
+            courseLink: "/materials/courses/elementary/lesson-7/classwork",
             courseLabel: "Classwork • How much are these? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-7/homework",
+            courseLink: "/materials/courses/elementary/lesson-7/homework",
             courseLabel: "Homework • How much are these? (Cycle 1)",
           },
         ],
@@ -217,17 +217,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-8/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-8/flipped-classroom",
             courseLabel: "Flipped Classroom • How much are these? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-8/classwork",
+            courseLink: "/materials/courses/elementary/lesson-8/classwork",
             courseLabel: "Classwork • How much are these? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-8/homework",
+            courseLink: "/materials/courses/elementary/lesson-8/homework",
             courseLabel: "Homework • How much are these? (Cycle 2)",
           },
         ],
@@ -245,18 +245,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-9/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-9/flipped-classroom",
             courseLabel:
               "Flipped Classroom • Do you play the guitar? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-9/classwork",
+            courseLink: "/materials/courses/elementary/lesson-9/classwork",
             courseLabel: "Classwork • Do you play the guitar? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-9/homework",
+            courseLink: "/materials/courses/elementary/lesson-9/homework",
             courseLabel: "Homework • Do you play the guitar? (Cycle 1)",
           },
         ],
@@ -274,18 +274,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-10/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-10/flipped-classroom",
             courseLabel:
               "Flipped Classroom • Do you play the guitar? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-10/classwork",
+            courseLink: "/materials/courses/elementary/lesson-10/classwork",
             courseLabel: "Classwork • Do you play the guitar? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-10/homework",
+            courseLink: "/materials/courses/elementary/lesson-10/homework",
             courseLabel: "Homework • Do you play the guitar? (Cycle 2)",
           },
         ],
@@ -308,7 +308,7 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-11/classwork",
+            courseLink: "/materials/courses/elementary/lesson-11/classwork",
             courseLabel:
               "Classwork • Review lessons 7-10 + Written and Oral Quiz",
           },
@@ -327,18 +327,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-12/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-12/flipped-classroom",
             courseLabel:
               "Flipped Classroom • What's an interesting family? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-12/classwork",
+            courseLink: "/materials/courses/elementary/lesson-12/classwork",
             courseLabel: "Classwork • What's an interesting family? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-12/homework",
+            courseLink: "/materials/courses/elementary/lesson-12/homework",
             courseLabel: "Homework • What's an interesting family? (Cycle 1)",
           },
         ],
@@ -356,18 +356,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-13/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-13/flipped-classroom",
             courseLabel:
               "Flipped Classroom • What's an interesting family? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-13/classwork",
+            courseLink: "/materials/courses/elementary/lesson-13/classwork",
             courseLabel: "Classwork • What's an interesting family? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-13/homework",
+            courseLink: "/materials/courses/elementary/lesson-13/homework",
             courseLabel: "Homework • What's an interesting family? (Cycle 2)",
           },
         ],
@@ -385,17 +385,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-14/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-14/flipped-classroom",
             courseLabel: "Flipped Classroom • How often do you run? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-14/classwork",
+            courseLink: "/materials/courses/elementary/lesson-14/classwork",
             courseLabel: "Classwork • How often do you run? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-14/homework",
+            courseLink: "/materials/courses/elementary/lesson-14/homework",
             courseLabel: "Homework • How often do you run? (Cycle 1)",
           },
         ],
@@ -413,17 +413,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-15/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-15/flipped-classroom",
             courseLabel: "Flipped Classroom • How often do you run? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-15/classwork",
+            courseLink: "/materials/courses/elementary/lesson-15/classwork",
             courseLabel: "Classwork • How often do you run? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-15/homework",
+            courseLink: "/materials/courses/elementary/lesson-15/homework",
             courseLabel: "Homework • How often do you run? (Cycle 2)",
           },
         ],
@@ -446,7 +446,7 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-16/classwork",
+            courseLink: "/materials/courses/elementary/lesson-16/classwork",
             courseLabel:
               "Classwork • Review lessons 12-15 + Written and Oral Quiz",
           },
@@ -465,17 +465,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-17/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-17/flipped-classroom",
             courseLabel: "Flipped Classroom • We went dancing! (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-17/classwork",
+            courseLink: "/materials/courses/elementary/lesson-17/classwork",
             courseLabel: "Classwork • We went dancing! (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-17/homework",
+            courseLink: "/materials/courses/elementary/lesson-17/homework",
             courseLabel: "Homework • We went dancing! (Cycle 1)",
           },
         ],
@@ -493,17 +493,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-18/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-18/flipped-classroom",
             courseLabel: "Flipped Classroom • We went dancing! (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-18/classwork",
+            courseLink: "/materials/courses/elementary/lesson-18/classwork",
             courseLabel: "Classwork • We went dancing! (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-18/homework",
+            courseLink: "/materials/courses/elementary/lesson-18/homework",
             courseLabel: "Homework • We went dancing! (Cycle 2)",
           },
         ],
@@ -521,18 +521,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-19/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-19/flipped-classroom",
             courseLabel:
               "Flipped Classroom • How's the neighborhood? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-19/classwork",
+            courseLink: "/materials/courses/elementary/lesson-19/classwork",
             courseLabel: "Classwork • How's the neighborhood? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-19/homework",
+            courseLink: "/materials/courses/elementary/lesson-19/homework",
             courseLabel: "Homework • How's the neighborhood? (Cycle 1)",
           },
         ],
@@ -550,18 +550,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-20/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-20/flipped-classroom",
             courseLabel:
               "Flipped Classroom • How's the neighborhood? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-20/classwork",
+            courseLink: "/materials/courses/elementary/lesson-20/classwork",
             courseLabel: "Classwork • How's the neighborhood? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-20/homework",
+            courseLink: "/materials/courses/elementary/lesson-20/homework",
             courseLabel: "Homework • How's the neighborhood? (Cycle 2)",
           },
         ],
@@ -584,7 +584,7 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-21/classwork",
+            courseLink: "/materials/courses/elementary/lesson-21/classwork",
             courseLabel:
               "Classwork • Review lessons 17-20 + Written and Oral Quiz",
           },
@@ -608,7 +608,7 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-22/classwork",
+            courseLink: "/materials/courses/elementary/lesson-22/classwork",
             courseLabel: "Classwork • Review • Lessons 2-20 + Written Test",
           },
         ],
@@ -626,18 +626,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-23/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-23/flipped-classroom",
             courseLabel:
               "Flipped Classroom • What does she look like? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-23/classwork",
+            courseLink: "/materials/courses/elementary/lesson-23/classwork",
             courseLabel: "Classwork • What does she look like? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-23/homework",
+            courseLink: "/materials/courses/elementary/lesson-23/homework",
             courseLabel: "Homework • What does she look like? (Cycle 1)",
           },
         ],
@@ -655,18 +655,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-24/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-24/flipped-classroom",
             courseLabel:
               "Flipped Classroom • What does she look like? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-24/classwork",
+            courseLink: "/materials/courses/elementary/lesson-24/classwork",
             courseLabel: "Classwork • What does she look like? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-24/homework",
+            courseLink: "/materials/courses/elementary/lesson-24/homework",
             courseLabel: "Homework • What does she look like? (Cycle 2)",
           },
         ],
@@ -684,18 +684,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-25/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-25/flipped-classroom",
             courseLabel:
               "Flipped Classroom • Have you ever been there? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-25/classwork",
+            courseLink: "/materials/courses/elementary/lesson-25/classwork",
             courseLabel: "Classwork • Have you ever been there? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-25/homework",
+            courseLink: "/materials/courses/elementary/lesson-25/homework",
             courseLabel: "Homework • Have you ever been there? (Cycle 1)",
           },
         ],
@@ -713,18 +713,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-26/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-26/flipped-classroom",
             courseLabel:
               "Flipped Classroom • Have you ever been there? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-26/classwork",
+            courseLink: "/materials/courses/elementary/lesson-26/classwork",
             courseLabel: "Classwork • Have you ever been there? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-26/homework",
+            courseLink: "/materials/courses/elementary/lesson-26/homework",
             courseLabel: "Homework • Have you ever been there? (Cycle 2)",
           },
         ],
@@ -747,7 +747,7 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-27/classwork",
+            courseLink: "/materials/courses/elementary/lesson-27/classwork",
             courseLabel:
               "Classwork • Progress Check lessons 23-26 + Written and Oral Quiz",
           },
@@ -766,18 +766,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-28/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-28/flipped-classroom",
             courseLabel:
               "Flipped Classroom • It's a really nice city. (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-28/classwork",
+            courseLink: "/materials/courses/elementary/lesson-28/classwork",
             courseLabel: "Classwork • It's a really nice city. (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-28/homework",
+            courseLink: "/materials/courses/elementary/lesson-28/homework",
             courseLabel: "Homework • It's a really nice city. (Cycle 1)",
           },
         ],
@@ -795,18 +795,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-29/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-29/flipped-classroom",
             courseLabel:
               "Flipped Classroom • It's a really nice city. (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-29/classwork",
+            courseLink: "/materials/courses/elementary/lesson-29/classwork",
             courseLabel: "Classwork • It's a really nice city. (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-29/homework",
+            courseLink: "/materials/courses/elementary/lesson-29/homework",
             courseLabel: "Homework • It's a really nice city. (Cycle 2)",
           },
         ],
@@ -824,18 +824,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-30/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-30/flipped-classroom",
             courseLabel:
               "Flipped Classroom • It's important to get rest (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-30/classwork",
+            courseLink: "/materials/courses/elementary/lesson-30/classwork",
             courseLabel: "Classwork • It's important to get rest (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-30/homework",
+            courseLink: "/materials/courses/elementary/lesson-30/homework",
             courseLabel: "Homework • It's important to get rest (Cycle 1)",
           },
         ],
@@ -853,18 +853,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-31/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-31/flipped-classroom",
             courseLabel:
               "Flipped Classroom • It's important to get rest (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-31/classwork",
+            courseLink: "/materials/courses/elementary/lesson-31/classwork",
             courseLabel: "Classwork • It's important to get rest (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-31/homework",
+            courseLink: "/materials/courses/elementary/lesson-31/homework",
             courseLabel: "Homework • It's important to get rest (Cycle 2)",
           },
         ],
@@ -887,7 +887,7 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-32/classwork",
+            courseLink: "/materials/courses/elementary/lesson-32/classwork",
             courseLabel:
               "Classwork • Review lessons 28-31 + Written and Oral Quiz",
           },
@@ -906,17 +906,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-33/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-33/flipped-classroom",
             courseLabel: "Flipped Classroom • What would you like? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-33/classwork",
+            courseLink: "/materials/courses/elementary/lesson-33/classwork",
             courseLabel: "Classwork • What would you like? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-33/homework",
+            courseLink: "/materials/courses/elementary/lesson-33/homework",
             courseLabel: "Homework • What would you like? (Cycle 1)",
           },
         ],
@@ -934,17 +934,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-34/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-34/flipped-classroom",
             courseLabel: "Flipped Classroom • What would you like? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-34/classwork",
+            courseLink: "/materials/courses/elementary/lesson-34/classwork",
             courseLabel: "Classwork • What would you like? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-34/homework",
+            courseLink: "/materials/courses/elementary/lesson-34/homework",
             courseLabel: "Homework • What would you like? (Cycle 2)",
           },
         ],
@@ -962,17 +962,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-35/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-35/flipped-classroom",
             courseLabel: "Flipped Classroom • It's the coldest city! (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-35/classwork",
+            courseLink: "/materials/courses/elementary/lesson-35/classwork",
             courseLabel: "Classwork • It's the coldest city! (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-35/homework",
+            courseLink: "/materials/courses/elementary/lesson-35/homework",
             courseLabel: "Homework • It's the coldest city! (Cycle 1)",
           },
         ],
@@ -990,17 +990,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-36/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-36/flipped-classroom",
             courseLabel: "Flipped Classroom • It's the coldest city! (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-36/classwork",
+            courseLink: "/materials/courses/elementary/lesson-36/classwork",
             courseLabel: "Classwork • It's the coldest city! (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-36/homework",
+            courseLink: "/materials/courses/elementary/lesson-36/homework",
             courseLabel: "Homework • It's the coldest city! (Cycle 2)",
           },
         ],
@@ -1023,7 +1023,7 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-37/classwork",
+            courseLink: "/materials/courses/elementary/lesson-37/classwork",
             courseLabel:
               "Classwork • Review lessons 33-36 + Written and Oral Quiz",
           },
@@ -1042,18 +1042,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-38/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-38/flipped-classroom",
             courseLabel:
               "Flipped Classroom • What are you doing later? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-38/classwork",
+            courseLink: "/materials/courses/elementary/lesson-38/classwork",
             courseLabel: "Classwork • What are you doing later? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-38/homework",
+            courseLink: "/materials/courses/elementary/lesson-38/homework",
             courseLabel: "Homework • What are you doing later? (Cycle 1)",
           },
         ],
@@ -1071,18 +1071,18 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-39/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-39/flipped-classroom",
             courseLabel:
               "Flipped Classroom • What are you doing later? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-39/classwork",
+            courseLink: "/materials/courses/elementary/lesson-39/classwork",
             courseLabel: "Classwork • What are you doing later? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-39/homework",
+            courseLink: "/materials/courses/elementary/lesson-39/homework",
             courseLabel: "Homework • What are you doing later? (Cycle 2)",
           },
         ],
@@ -1100,17 +1100,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-40/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-40/flipped-classroom",
             courseLabel: "Flipped Classroom • How have you changed? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-40/classwork",
+            courseLink: "/materials/courses/elementary/lesson-40/classwork",
             courseLabel: "Classwork • How have you changed? (Cycle 1)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-40/homework",
+            courseLink: "/materials/courses/elementary/lesson-40/homework",
             courseLabel: "Homework • How have you changed? (Cycle 1)",
           },
         ],
@@ -1128,17 +1128,17 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-41/flipped-classroom",
+            courseLink: "/materials/courses/elementary/lesson-41/flipped-classroom",
             courseLabel: "Flipped Classroom • How have you changed? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-41/classwork",
+            courseLink: "/materials/courses/elementary/lesson-41/classwork",
             courseLabel: "Classwork • How have you changed? (Cycle 2)",
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-41/homework",
+            courseLink: "/materials/courses/elementary/lesson-41/homework",
             courseLabel: "Homework • How have you changed? (Cycle 2)",
           },
         ],
@@ -1161,7 +1161,7 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-42/classwork",
+            courseLink: "/materials/courses/elementary/lesson-42/classwork",
             courseLabel:
               "Classwork • Review lessons 38-41 + Written and Oral Quiz",
           },
@@ -1185,7 +1185,7 @@ const contents = [
           },
           {
             courseImg: elementary,
-            courseLink: "/courses/elementary/lesson-43/classwork",
+            courseLink: "/materials/courses/elementary/lesson-43/classwork",
             courseLabel: "Classwork • Review lessons 23-41 + Written Test",
           },
         ],

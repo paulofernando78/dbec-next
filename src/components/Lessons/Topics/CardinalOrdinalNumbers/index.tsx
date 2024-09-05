@@ -130,53 +130,51 @@ export const CardinalOrdinalNumbers = () => {
           </p>
         </div>
       </BoardCard>
-        <BoardCard label="Examples" bgColor="lightgrey">
-          <div className="line-break">
-            <div>
-              <AudioPlayer audioSrc="/assets/audio/specific-purposes/all-in-one/CardinalOrdinalNumbers/born1.mp3" />
-              <p>
-                When's your birthday?{" "}
-                <span className="portuguese">Quando é o seu aniversário?</span>
-              </p>
-              <p>
-                (My birthday's on) January 7.{" "}
-                <span className="portuguese">
-                  (Meu aniversário é no dia) 7 de Janeiro.
-                </span>
-              </p>
-            </div>
-            <div>
-              <AudioPlayer audioSrc="/assets/audio/specific-purposes/all-in-one/CardinalOrdinalNumbers/born1.mp3" />
-              <p>
-                When were you born?{" "}
-                <span className="portuguese">Quando você nasceu?</span>
-              </p>
-              <p>
-                (I was born on) January 7, 1978.
-                <span className="portuguese">
-                  {" "}
-                  (Eu nasci no dia) 7 de Janeiro de 1978.
-                </span>
-              </p>
-            </div>
-            <div>
-              <AudioPlayer audioSrc="/assets/audio/specific-purposes/all-in-one/CardinalOrdinalNumbers/birth1.mp3" />
-              <p>
-                What's your date of birth?{" "}
-                <span className="portuguese">
-                  Qual a data do seu nascimento?
-                </span>
-              </p>
-              <p>
-                My date of birth is January 7, 1978.
-                <span className="portuguese">
-                  {" "}
-                  (A data do meu nascimento é) 7 de Janeiro de 1978.
-                </span>
-              </p>
-            </div>
+      <BoardCard label="Examples" bgColor="lightgrey">
+        <div className="line-break">
+          <div>
+            <AudioPlayer audioSrc="/assets/audio/specific-purposes/all-in-one/CardinalOrdinalNumbers/birthday1.mp3" />
+            <p>
+              When's your birthday?{" "}
+              <span className="portuguese">Quando é o seu aniversário?</span>
+            </p>
+            <p>
+              (My birthday's on) January 7.{" "}
+              <span className="portuguese">
+                (Meu aniversário é no dia) 7 de Janeiro.
+              </span>
+            </p>
           </div>
-        </BoardCard>
+          <div>
+            <AudioPlayer audioSrc="/assets//audio/specific-purposes/all-in-one/CardinalOrdinalNumbers/born1.mp3" />
+            <p>
+              When were you born?{" "}
+              <span className="portuguese">Quando você nasceu?</span>
+            </p>
+            <p>
+              (I was born on) January 7, 1978.
+              <span className="portuguese">
+                {" "}
+                (Eu nasci no dia) 7 de Janeiro de 1978.
+              </span>
+            </p>
+          </div>
+          <div>
+            <AudioPlayer audioSrc="/assets/audio/specific-purposes/all-in-one/CardinalOrdinalNumbers/birth1.mp3" />
+            <p>
+              What's your date of birth?{" "}
+              <span className="portuguese">Qual a data do seu nascimento?</span>
+            </p>
+            <p>
+              My date of birth is January 7, 1978.
+              <span className="portuguese">
+                {" "}
+                (A data do meu nascimento é) 7 de Janeiro de 1978.
+              </span>
+            </p>
+          </div>
+        </div>
+      </BoardCard>
     </BoardCard>
   );
 };

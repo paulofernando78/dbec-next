@@ -1,5 +1,5 @@
 import React from "react";
-import { TextData } from "./api-beginner-whiteboard";
+import { TextData } from "../../../api/api-beginner-whiteboard";
 import { Whiteboard } from "@/components/Whiteboard";
 
 interface VocabularyProps {

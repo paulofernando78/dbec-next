@@ -54,18 +54,18 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-2/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-2/flipped-classroom",
             courseLabel:
               "Flipped Classroom • That's my kind of friend! (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-2/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-2/classwork",
             courseLabel: "Classwork • That's my kind of friend! (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-2/homework",
+            courseLink: "/materials/courses/intermediate/lesson-2/homework",
             courseLabel: "Homework • That's my kind of friend! (Cycle 1)",
           },
         ],
@@ -83,18 +83,18 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-3/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-3/flipped-classroom",
             courseLabel:
               "Flipped Classroom • That's my kind of friend! (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-3/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-3/classwork",
             courseLabel: "Classwork • That's my kind of friend! (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-3/homework",
+            courseLink: "/materials/courses/intermediate/lesson-3/homework",
             courseLabel: "Homework • That's my kind of friend! (Cycle 2)",
           },
         ],
@@ -112,17 +112,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-4/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-4/flipped-classroom",
             courseLabel: "Flipped Classroom • Working 9 to 5 (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-4/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-4/classwork",
             courseLabel: "Classwork • Working 9 to 5 (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-4/homework",
+            courseLink: "/materials/courses/intermediate/lesson-4/homework",
             courseLabel: "Homework • Working 9 to 5 (Cycle 1)",
           },
         ],
@@ -140,17 +140,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-5/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-5/flipped-classroom",
             courseLabel: "Flipped Classroom • Working 9 to 5 (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-5/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-5/classwork",
             courseLabel: "Classwork • Working 9 to 5 (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-5/homework",
+            courseLink: "/materials/courses/intermediate/lesson-5/homework",
             courseLabel: "Homework • Working 9 to 5 (Cycle 2)",
           },
         ],
@@ -173,7 +173,7 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-6/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-6/classwork",
             courseLabel:
               "Classwork • Review lessons 2-5 + Written and Oral Quiz",
           },
@@ -192,17 +192,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-7/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-7/flipped-classroom",
             courseLabel: "Flipped Classroom • Lend a hand (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-7/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-7/classwork",
             courseLabel: "Classwork • Lend a hand (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-7/homework",
+            courseLink: "/materials/courses/intermediate/lesson-7/homework",
             courseLabel: "Homework • Lend a hand (Cycle 1)",
           },
         ],
@@ -220,17 +220,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-8/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-8/flipped-classroom",
             courseLabel: "Flipped Classroom • Lend a hand (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-8/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-8/classwork",
             courseLabel: "Classwork • Lend a hand (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-8/homework",
+            courseLink: "/materials/courses/intermediate/lesson-8/homework",
             courseLabel: "Homework • Lend a hand (Cycle 2)",
           },
         ],
@@ -248,19 +248,19 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-9/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-9/flipped-classroom",
             courseLabel:
               "Flipped Classroom • Flipped Classroom • What happened? (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-9/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-9/classwork",
             courseLabel:
               "Classwork • Flipped Classroom • What happened? (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-9/homework",
+            courseLink: "/materials/courses/intermediate/lesson-9/homework",
             courseLabel:
               "Homework • Flipped Classroom • What happened? (Cycle 1)",
           },
@@ -279,17 +279,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-10/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-10/flipped-classroom",
             courseLabel: "Flipped Classroom • What happened? (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-10/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-10/classwork",
             courseLabel: "Classwork • What happened? (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-10/homework",
+            courseLink: "/materials/courses/intermediate/lesson-10/homework",
             courseLabel: "Homework • What happened? (Cycle 2)",
           },
         ],
@@ -312,7 +312,7 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-11/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-11/classwork",
             courseLabel:
               "Classwork • Review lessons 7-10 + Written and Oral Quiz",
           },
@@ -331,18 +331,18 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-12/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-12/flipped-classroom",
             courseLabel:
               "Flipped Classroom • Expanding your horizons (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-12/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-12/classwork",
             courseLabel: "Classwork • Expanding your horizons (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-12/homework",
+            courseLink: "/materials/courses/intermediate/lesson-12/homework",
             courseLabel: "Homework • Expanding your horizons (Cycle 1)",
           },
         ],
@@ -360,18 +360,18 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-13/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-13/flipped-classroom",
             courseLabel:
               "Flipped Classroom • Expanding your horizons (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-13/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-13/classwork",
             courseLabel: "Classwork • Expanding your horizons (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-13/homework",
+            courseLink: "/materials/courses/intermediate/lesson-13/homework",
             courseLabel: "Homework • Expanding your horizons (Cycle 2)",
           },
         ],
@@ -389,17 +389,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-14/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-14/flipped-classroom",
             courseLabel: "Flipped Classroom • That needs fixing (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-14/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-14/classwork",
             courseLabel: "Classwork • That needs fixing (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-14/homework",
+            courseLink: "/materials/courses/intermediate/lesson-14/homework",
             courseLabel: "Homework • That needs fixing (Cycle 1)",
           },
         ],
@@ -417,17 +417,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-15/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-15/flipped-classroom",
             courseLabel: "Flipped Classroom • That needs fixing (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-15/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-15/classwork",
             courseLabel: "Classwork • That needs fixing (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-15/homework",
+            courseLink: "/materials/courses/intermediate/lesson-15/homework",
             courseLabel: "Homework • That needs fixing (Cycle 2)",
           },
         ],
@@ -450,7 +450,7 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-16/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-16/classwork",
             courseLabel:
               "Classwork • Review lessons 12-15 + Written and Oral Quiz",
           },
@@ -469,17 +469,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-17/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-17/flipped-classroom",
             courseLabel: "Flipped Classroom • What can we do? (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-17/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-17/classwork",
             courseLabel: "Classwork • What can we do? (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-17/homework",
+            courseLink: "/materials/courses/intermediate/lesson-17/homework",
             courseLabel: "Homework • What can we do? (Cycle 1)",
           },
         ],
@@ -497,17 +497,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-18/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-18/flipped-classroom",
             courseLabel: "Flipped Classroom • What can we do? (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-18/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-18/classwork",
             courseLabel: "Classwork • What can we do? (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-18/homework",
+            courseLink: "/materials/courses/intermediate/lesson-18/homework",
             courseLabel: "Homework • What can we do? (Cycle 2)",
           },
         ],
@@ -525,17 +525,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-19/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-19/flipped-classroom",
             courseLabel: "Flipped Classroom • Never stop learning (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-19/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-19/classwork",
             courseLabel: "Classwork • Never stop learning (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-19/homework",
+            courseLink: "/materials/courses/intermediate/lesson-19/homework",
             courseLabel: "Homework • Never stop learning (Cycle 1)",
           },
         ],
@@ -553,17 +553,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-20/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-20/flipped-classroom",
             courseLabel: "Flipped Classroom • Never stop learning (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-20/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-20/classwork",
             courseLabel: "Classwork • Never stop learning (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-20/homework",
+            courseLink: "/materials/courses/intermediate/lesson-20/homework",
             courseLabel: "Homework • Never stop learning (Cycle 2)",
           },
         ],
@@ -586,7 +586,7 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-21/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-21/classwork",
             courseLabel:
               "Classwork • Review lessons 17-20 + Written and Oral Quiz",
           },
@@ -610,7 +610,7 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-22/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-22/classwork",
             courseLabel: "Classwork • Review lessons 2-20 + Written Test",
           },
         ],
@@ -628,17 +628,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-23/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-23/flipped-classroom",
             courseLabel: "Flipped Classroom • Getting things done? (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-23/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-23/classwork",
             courseLabel: "Classwork • Getting things done? (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-23/homework",
+            courseLink: "/materials/courses/intermediate/lesson-23/homework",
             courseLabel: "Homework • Getting things done? (Cycle 1)",
           },
         ],
@@ -656,17 +656,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-24/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-24/flipped-classroom",
             courseLabel: "Flipped Classroom • Getting things done? (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-24/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-24/classwork",
             courseLabel: "Classwork • Getting things done? (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-24/homework",
+            courseLink: "/materials/courses/intermediate/lesson-24/homework",
             courseLabel: "Homework • Getting things done? (Cycle 2)",
           },
         ],
@@ -684,17 +684,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-25/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-25/flipped-classroom",
             courseLabel: "Flipped Classroom • A matter of time (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-25/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-25/classwork",
             courseLabel: "Classwork • A matter of time (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-25/homework",
+            courseLink: "/materials/courses/intermediate/lesson-25/homework",
             courseLabel: "Homework • A matter of time (Cycle 1)",
           },
         ],
@@ -712,17 +712,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-26/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-26/flipped-classroom",
             courseLabel: "Flipped Classroom • A matter of time (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-26/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-26/classwork",
             courseLabel: "Classwork • A matter of time (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-26/homework",
+            courseLink: "/materials/courses/intermediate/lesson-26/homework",
             courseLabel: "Homework • A matter of time (Cycle 2)",
           },
         ],
@@ -745,7 +745,7 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-27/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-27/classwork",
             courseLabel:
               "Classwork • Review lessons 23-26 + Written and Oral Quiz",
           },
@@ -764,17 +764,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-28/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-28/flipped-classroom",
             courseLabel: "Flipped Classroom • Rites of passage (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-28/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-28/classwork",
             courseLabel: "Classwork • Rites of passage (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-28/homework",
+            courseLink: "/materials/courses/intermediate/lesson-28/homework",
             courseLabel: "Homework • Rites of passage (Cycle 1)",
           },
         ],
@@ -792,17 +792,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-29/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-29/flipped-classroom",
             courseLabel: "Flipped Classroom • Rites of passage (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-29/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-29/classwork",
             courseLabel: "Classwork • Rites of passage (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-29/homework",
+            courseLink: "/materials/courses/intermediate/lesson-29/homework",
             courseLabel: "Homework • Rites of passage (Cycle 2)",
           },
         ],
@@ -820,17 +820,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-30/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-30/flipped-classroom",
             courseLabel: "Flipped Classroom • Keys to success (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-30/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-30/classwork",
             courseLabel: "Classwork • Keys to success (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-30/homework",
+            courseLink: "/materials/courses/intermediate/lesson-30/homework",
             courseLabel: "Homework • Keys to success (Cycle 1)",
           },
         ],
@@ -848,17 +848,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-31/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-31/flipped-classroom",
             courseLabel: "Flipped Classroom • Keys to success (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-31/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-31/classwork",
             courseLabel: "Classwork • Keys to success (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-31/homework",
+            courseLink: "/materials/courses/intermediate/lesson-31/homework",
             courseLabel: "Homework • Keys to success (Cycle 1)",
           },
         ],
@@ -881,7 +881,7 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-32/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-32/classwork",
             courseLabel:
               "Classwork • Review essons 28-31 + Written and Oral Quiz",
           },
@@ -900,17 +900,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-33/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-33/flipped-classroom",
             courseLabel: "Flipped Classroom • What might have been (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-33/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-33/classwork",
             courseLabel: "Classwork • What might have been (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-33/homework",
+            courseLink: "/materials/courses/intermediate/lesson-33/homework",
             courseLabel: "Homework • What might have been (Cycle 1)",
           },
         ],
@@ -928,17 +928,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-34/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-34/flipped-classroom",
             courseLabel: "Flipped Classroom • What might have been (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-34/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-34/classwork",
             courseLabel: "Classwork • What might have been (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-34/homework",
+            courseLink: "/materials/courses/intermediate/lesson-34/homework",
             courseLabel: "Homework • What might have been (Cycle 2)",
           },
         ],
@@ -956,17 +956,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-35/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-35/flipped-classroom",
             courseLabel: "Flipped Classroom • Creative carrers (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-35/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-35/classwork",
             courseLabel: "Classwork • Creative carrers (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-35/homework",
+            courseLink: "/materials/courses/intermediate/lesson-35/homework",
             courseLabel: "Homework • Creative carrers (Cycle 1)",
           },
         ],
@@ -984,17 +984,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-36/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-36/flipped-classroom",
             courseLabel: "Flipped Classroom • Creative carrers (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-36/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-36/classwork",
             courseLabel: "Classwork • Creative carrers (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-36/homework",
+            courseLink: "/materials/courses/intermediate/lesson-36/homework",
             courseLabel: "Homework • Creative carrers (Cycle 2)",
           },
         ],
@@ -1017,7 +1017,7 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-37/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-37/classwork",
             courseLabel:
               "Classwork • Review lessons 33-36 + Written and Oral Quiz",
           },
@@ -1036,17 +1036,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-38/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-38/flipped-classroom",
             courseLabel: "Flipped Classroom • A law must be passed! (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-38/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-38/classwork",
             courseLabel: "Classwork • A law must be passed! (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-38/homework",
+            courseLink: "/materials/courses/intermediate/lesson-38/homework",
             courseLabel: "Homework • A law must be passed! (Cycle 1)",
           },
         ],
@@ -1064,17 +1064,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-39/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-39/flipped-classroom",
             courseLabel: "Flipped Classroom • A law must be passed! (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-39/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-39/classwork",
             courseLabel: "Classwork • A law must be passed! (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-39/homework",
+            courseLink: "/materials/courses/intermediate/lesson-39/homework",
             courseLabel: "Homework • A law must be passed! (Cycle 2)",
           },
         ],
@@ -1092,17 +1092,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-40/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-40/flipped-classroom",
             courseLabel: "Flipped Classroom • Reaching your goals (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-40/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-40/classwork",
             courseLabel: "Classwork • Reaching your goals (Cycle 1)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-40/homework",
+            courseLink: "/materials/courses/intermediate/lesson-40/homework",
             courseLabel: "Homework • Reaching your goals (Cycle 1)",
           },
         ],
@@ -1120,17 +1120,17 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-41/flipped-classroom",
+            courseLink: "/materials/courses/intermediate/lesson-41/flipped-classroom",
             courseLabel: "Flipped Classroom • Reaching your goals (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-41/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-41/classwork",
             courseLabel: "Classwork • Reaching your goals (Cycle 2)",
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-41/homework",
+            courseLink: "/materials/courses/intermediate/lesson-41/homework",
             courseLabel: "Homework • Reaching your goals (Cycle 2)",
           },
         ],
@@ -1153,7 +1153,7 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-42/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-42/classwork",
             courseLabel:
               "Classwork • Review lessons 38-41 + Written and Oral Quiz",
           },
@@ -1177,7 +1177,7 @@ const contents = [
           },
           {
             courseImg: intermediate,
-            courseLink: "/courses/intermediate/lesson-43/classwork",
+            courseLink: "/materials/courses/intermediate/lesson-43/classwork",
             courseLabel: "Classwork • Review lessons 23-41 + Written Test",
           },
         ],
