@@ -1,8 +1,6 @@
 import { BoardCard } from "@/components/Cards/BoardCard";
 import { AudioPlayer } from "@/components/Audioplayer";
 
-// import { birthday1 } from "@/audio/index";
-
 export const CardinalOrdinalNumbers = () => {
   return (
     <BoardCard
@@ -131,10 +129,11 @@ export const CardinalOrdinalNumbers = () => {
             <span className="underline">st</span>
           </p>
         </div>
+      </BoardCard>
         <BoardCard label="Examples" bgColor="lightgrey">
           <div className="line-break">
             <div>
-              <AudioPlayer audioSrc="/assets/audio/specific-purposes/all-in-one/CardinalOrdinalNumbers/birthday1.mp3" />
+              <AudioPlayer audioSrc="/assets/audio/specific-purposes/all-in-one/CardinalOrdinalNumbers/born1.mp3" />
               <p>
                 When's your birthday?{" "}
                 <span className="portuguese">Quando é o seu aniversário?</span>
@@ -178,7 +177,6 @@ export const CardinalOrdinalNumbers = () => {
             </div>
           </div>
         </BoardCard>
-      </BoardCard>
     </BoardCard>
   );
 };

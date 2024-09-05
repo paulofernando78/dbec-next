@@ -14,7 +14,7 @@ export default function AllInOne() {
           <a href="#pronouns">
             <p>Pronouns</p>
           </a>
-          <a href="#numbers">
+          <a href="#cardinal-ordinal-numbers">
             <p>Cardinal and Ordinal Numbers</p>
           </a>
           <a href="#verb-to-be">
