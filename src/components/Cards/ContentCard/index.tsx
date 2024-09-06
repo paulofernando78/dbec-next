@@ -50,7 +50,7 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
         <div key={contentIndex} className="line-break">
           {/* Main label */}
           <BoardCard
-            label={content.mainLabel || ""}
+            label={content.mainLabel}
             bgColor="black"
             textColor="white"
           >
