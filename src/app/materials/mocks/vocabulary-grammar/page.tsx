@@ -20,10 +20,9 @@ import { cat1, cat2 } from "@/img/index";
 import { VocabularyComponent } from "@/types/PreVocabulary";
 import { VocabularyGrammar } from "@/components/Lessons/VocabularyGrammar";
 import { useEffect, useState } from "react";
-import {
-  fetchTextData,
-  TextData,
-} from "@/components/Lessons/VocabularyGrammar/api-beginner-whiteboard";
+
+// import {fetchTextData, TextData}
+// from "@/components/Lessons/VocabularyGrammar/api-beginner-whiteboard";
 
 const warmUpPrompt = [
   {
@@ -185,23 +184,23 @@ const wrapUpPrompt = [
 ];
 
 export default function MockVocabularyGrammar() {
-  const [data, setData] = useState<TextData[]>([]);
+  const [data, setData] = useState([]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const result = await fetchTextData();
-        setData(result);
-      } catch (error) {
-        console.error("Failed to fetch data", error);
-      }
-    };
-    fetchData();
-  }, []);
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       const result = await fetchTextData();
+  //       setData(result);
+  //     } catch (error) {
+  //       console.error("Failed to fetch data", error);
+  //     }
+  //   };
+  //   fetchData();
+  // }, []);
   return (
     <>
       <VocabularyGrammar data={data} />
-      
+
       <Whiteboard
         title="Vocabulary / Grammar"
         subTitle="..."
