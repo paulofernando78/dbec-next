@@ -50,10 +50,11 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
         <div key={contentIndex} className="line-break">
           {/* Main label */}
           <BoardCard
-            label={content.mainLabel}
+            label={content.mainLabel || ""}
             bgColor="black"
             textColor="white"
           >
+            {/* Subcontent */}
             {content.subContents.map((subContent, subContentIndex) => {
               // let borderClass = "";
               // if (subContent.applyBeginnerBorder) borderClass = styles["beginner-border"];
