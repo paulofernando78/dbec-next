@@ -24,10 +24,6 @@ interface Content {
 }
 
 interface SubContent {
-  // applyBeginnerBorder?: boolean;
-  // applyElementaryBorder?: boolean;
-  // applyPreIntermediateBorder?: boolean;
-  // applyIntermediateBorder?: boolean;
   bgColor: string;
   textColor: string;
   label?: string;
@@ -35,7 +31,7 @@ interface SubContent {
 }
 
 interface MainContent {
-  mainLabel: string;
+  mainLabel?: string;
   subContents: SubContent[];
 }
 
@@ -49,20 +45,14 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
       {contents.map((content, contentIndex) => (
         <div key={contentIndex} className="line-break">
           {/* Main label */}
-          <BoardCard
-            label={content.mainLabel}
-            bgColor="black"
-            textColor="white"
-          >
-            {/* Subcontent */}
-            {content.subContents.map((subContent, subContentIndex) => {
-              // let borderClass = "";
-              // if (subContent.applyBeginnerBorder) borderClass = styles["beginner-border"];
-              // else if (subContent.applyElementaryBorder) borderClass = styles["elementary-border"];
-              // else if (subContent.applyPreIntermediateBorder) borderClass = styles["pre-intermediate-border"];
-              // else if (subContent.applyIntermediateBorder) borderClass = styles["intermediate-border"];
-
-              return (
+          {content.mainLabel && (
+            <BoardCard
+              label={content.mainLabel}
+              bgColor="black"
+              textColor="white"
+            >
+              {/* Subcontent */}
+              {content.subContents.map((subContent, subContentIndex) => (
                 <div
                   key={subContentIndex}
                   className={`${styles["card-description"]}`}
@@ -93,17 +83,8 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                       {/* Link / Label Link */}
                       {content.link && content.linkLabel && (
                         <div className={styles["grid-icon-text"]}>
-                          {/* <Image
-                            src={linkIcon}
-                            alt="Link icon"
-                            className="icon-general"
-                          />{" "} */}
                           <Link href={content.link}>
-                            <p
-                            // className="display-inline"
-                            >
-                              {content.linkLabel}
-                            </p>
+                            <p>{content.linkLabel}</p>
                           </Link>
                         </div>
                       )}
@@ -115,7 +96,7 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                             src={globeIcon}
                             alt="Globe icon"
                             className={`icon-general ${styles["globe-icon"]}`}
-                          />{" "}
+                          />
                           <Link href={content.globeLink}>
                             <p>{content.globeLabel}</p>
                           </Link>
@@ -146,7 +127,7 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                           <div className={` ${styles["flex-8px"]}`}>
                             <Image
                               src={content.courseImg}
-                              alt="Globe icon"
+                              alt="Course icon"
                               className={`icon-general ${styles["book-icon"]}`}
                             />
                             <Link href={content.courseLink}>
@@ -159,11 +140,12 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
                     </div>
                   ))}
                 </div>
-              );
-            })}
-          </BoardCard>
+              ))}
+            </BoardCard>
+          )}
         </div>
       ))}
     </div>
   );
 };
+
