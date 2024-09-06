@@ -25,7 +25,7 @@ interface Content {
 
 interface SubContent {
   bgColor: string;
-  textColor: string;
+  textColor?: string;
   label?: string;
   contents: Content[];
 }

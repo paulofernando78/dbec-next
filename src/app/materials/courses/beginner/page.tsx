@@ -1,46 +1,18 @@
+import { BoardCard } from "@/components";
 import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard";
 
 import { beginner } from "@/img/index";
 
 const contents = [
+  // Lessons 2 - 6 + Written and Oral Quiz
   {
+    mainLabel: "Lesson 2 - 6 + Written and Oral Quiz",
     subContents: [
-      // CEFR
-      {
-        bgColor: "gray",
-        textColor: "white",
-        label: "CEFR (Common European Framework of Reference)",
-        contents: [
-          {
-            content:
-              "• Can introduce him/herself and others and can ask and answer questions about personal details such as where he/she lives, people he/she knows and things he/she has.",
-          },
-          {
-            content:
-              "• Can understand and use familiar everyday expressions and very basic phrases aimed at the satisfaction of needs of a concrete type.",
-          },
-          {
-            content:
-              "• Can interact in a simple way provided the other person talks slowly and clearly and is prepared to help.",
-          },
-        ],
-      },
-      // Lesson 1
-      {
-        bgColor: "black",
-        textColor: "white",
-        label: "Lesson 1",
-        contents: [
-          {
-            content: "Let's get to know each other / one another better.",
-          },
-        ],
-      },
       // Lesson 2
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 2",
         contents: [
           {
@@ -49,26 +21,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-2/flipped-classroom",
-            courseLabel: "Flipped Classroom • What's your name? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-2/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • What's your name? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-2/classwork",
-            courseLabel: "Classwork • What's your name? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-2/classwork",
+            checkboxLabel: "Classwork • What's your name? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-2/homework",
-            courseLabel: "Homework • What's your name? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-2/homework",
+            checkboxLabel: "Homework • What's your name? (Cycle 1)",
           },
         ],
       },
       // Lesson 3
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 3",
         contents: [
           {
@@ -77,26 +47,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-3/flipped-classroom",
-            courseLabel: "Flipped Classroom • What's your name? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-3/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • What's your name? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-3/classwork",
-            courseLabel: "Classwork • What's your name? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-3/classwork",
+            checkboxLabel: "Classwork • What's your name? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-3/homework",
-            courseLabel: "Homework • What's your name? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-3/homework",
+            checkboxLabel: "Homework • What's your name? (Cycle 2)",
           },
         ],
       },
       // Lesson 4
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 4",
         contents: [
           {
@@ -105,26 +73,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-4/flipped-classroom",
-            courseLabel: "Flipped Classroom • Where are my keys? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-4/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Where are my keys? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-4/classwork",
-            courseLabel: "Classwork • Where are my keys? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-4/classwork",
+            checkboxLabel: "Classwork • Where are my keys? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-4/homework",
-            courseLabel: "Homework • Where are my keys? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-4/homework",
+            checkboxLabel: "Homework • Where are my keys? (Cycle 1)",
           },
         ],
       },
       // Lesson 5
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 5",
         contents: [
           {
@@ -133,26 +99,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-5/flipped-classroom",
-            courseLabel: "Flipped Classroom • Where are my keys? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-5/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Where are my keys? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-5/classwork",
-            courseLabel: "Classwork • Where are my keys? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-5/classwork",
+            checkboxLabel: "Classwork • Where are my keys? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-5/homework",
-            courseLabel: "Homework • Where are my keys? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-5/homework",
+            checkboxLabel: "Homework • Where are my keys? (Cycle 2)",
           },
         ],
       },
       // Lesson 6 *Review + Written and Oral Quiz
       {
         bgColor: "red",
-        textColor: "white",
+        textColor: "black",
         label: "Lesson 6",
         contents: [
           {
@@ -166,17 +130,22 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-6/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/beginner/lesson-6/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 2-5 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  // Lessons 7 - 11 + Written and Oral Quiz
+  {
+    mainLabel: "Lesson 7 - 11 + Written and Oral Quiz",
+    subContents: [
       // Lesson 7
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 7",
         contents: [
           {
@@ -185,26 +154,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-7/flipped-classroom",
-            courseLabel: "Flipped Classroom • Where are you from? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-7/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Where are you from? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-7/classwork",
-            courseLabel: "Classwork • Where are you from? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-7/classwork",
+            checkboxLabel: "Classwork • Where are you from? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-7/homework",
-            courseLabel: "Homework • Where are you from? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-7/homework",
+            checkboxLabel: "Homework • Where are you from? (Cycle 1)",
           },
         ],
       },
       // Lesson 8
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 8",
         contents: [
           {
@@ -213,26 +180,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-8/flipped-classroom",
-            courseLabel: "Flipped Classroom • Where are you from? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-8/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Where are you from? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-8/classwork",
-            courseLabel: "Classwork • Where are you from? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-8/classwork",
+            checkboxLabel: "Classwork • Where are you from? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-8/homework",
-            courseLabel: "Homework • Where are you from? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-8/homework",
+            checkboxLabel: "Homework • Where are you from? (Cycle 2)",
           },
         ],
       },
       // Lesson 9
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 9",
         contents: [
           {
@@ -241,26 +206,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-9/flipped-classroom",
-            courseLabel: "Flipped Classroom • Is this your coat? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-9/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Is this your coat? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-9/classwork",
-            courseLabel: "Classwork • Is this your coat? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-9/classwork",
+            checkboxLabel: "Classwork • Is this your coat? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-9/homework",
-            courseLabel: "Homework • Is this your coat? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-9/homework",
+            checkboxLabel: "Homework • Is this your coat? (Cycle 1)",
           },
         ],
       },
       // Lesson 10
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 10",
         contents: [
           {
@@ -269,26 +232,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-10/flipped-classroom",
-            courseLabel: "Flipped Classroom • Is this your coat? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-10/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Is this your coat? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-10/classwork",
-            courseLabel: "Classwork • Is this your coat? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-10/classwork",
+            checkboxLabel: "Classwork • Is this your coat? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-10/homework",
-            courseLabel: "Homework • Is this your coat? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-10/homework",
+            checkboxLabel: "Homework • Is this your coat? (Cycle 2)",
           },
         ],
       },
       // Lesson 11 *Review + Written and Oral Quiz
       {
         bgColor: "red",
-        textColor: "white",
+        textColor: "black",
         label: "Lesson 11",
         contents: [
           {
@@ -302,17 +263,22 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-11/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/beginner/lesson-11/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 7-10 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  // Lessons 12 - 16 + Written and Oral Quiz
+  {
+    mainLabel: "Lesson 12 - 16 + Written and Oral Quiz",
+    subContents: [
       // Lesson 12
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 12",
         contents: [
           {
@@ -321,26 +287,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-12/flipped-classroom",
-            courseLabel: "Flipped Classroom • What time is it? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-12/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • What time is it? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-12/",
-            courseLabel: "Classwork • What time is it? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-12/",
+            checkboxLabel: "Classwork • What time is it? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/class-12/",
-            courseLabel: "Homework • What time is it? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/class-12/",
+            checkboxLabel: "Homework • What time is it? (Cycle 1)",
           },
         ],
       },
       // Lesson 13
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 13",
         contents: [
           {
@@ -349,26 +313,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-13/flipped-classroom",
-            courseLabel: "Flipped Classroom • What time is it? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-13/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • What time is it? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-13/classwork",
-            courseLabel: "Classwork • What time is it? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-13/classwork",
+            checkboxLabel: "Classwork • What time is it? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-13/homework",
-            courseLabel: "Homework • What time is it? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-13/homework",
+            checkboxLabel: "Homework • What time is it? (Cycle 2)",
           },
         ],
       },
       // Lesson 14
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 14",
         contents: [
           {
@@ -377,27 +339,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-14/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/beginner/lesson-14/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • I ride my bike to school. (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-14/classwork",
-            courseLabel: "Classwork • I ride my bike to school. (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-14/classwork",
+            checkboxLabel: "Classwork • I ride my bike to school. (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-14/homework",
-            courseLabel: "Homework • I ride my bike to school. (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-14/homework",
+            checkboxLabel: "Homework • I ride my bike to school. (Cycle 1)",
           },
         ],
       },
       // Lesson 15
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 15",
         contents: [
           {
@@ -406,27 +366,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-15/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/beginner/lesson-15/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • I ride my bike to school. (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-15/classwork",
-            courseLabel: "Classwork • I ride my bike to school. (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-15/classwork",
+            checkboxLabel: "Classwork • I ride my bike to school. (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-15/homework",
-            courseLabel: "Homework • I ride my bike to school. (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-15/homework",
+            checkboxLabel: "Homework • I ride my bike to school. (Cycle 2)",
           },
         ],
       },
       // Lesson 16 *Review + Written and Oral Quiz
       {
         bgColor: "red",
-        textColor: "white",
+        textColor: "black",
         label: "Lesson 16",
         contents: [
           {
@@ -440,17 +398,22 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-16/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/beginner/lesson-16/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 12-15 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  // Lessons 17 - 21 + Written and Oral Quiz
+  {
+    mainLabel: "Lesson 17 - 21 + Written and Oral Quiz",
+    subContents: [
       // Lesson 17
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 17",
         contents: [
           {
@@ -459,26 +422,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-17/flipped-classroom",
-            courseLabel: "Flipped Classroom • Does it have a view? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-17/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Does it have a view? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-17/classwork",
-            courseLabel: "Classwork • Does it have a view? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-17/classwork",
+            checkboxLabel: "Classwork • Does it have a view? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-17/homework",
-            courseLabel: "Homework • Does it have a view? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-17/homework",
+            checkboxLabel: "Homework • Does it have a view? (Cycle 1)",
           },
         ],
       },
       // Lesson 18
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 18",
         contents: [
           {
@@ -487,26 +448,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-18/flipped-classroom",
-            courseLabel: "Flipped Classroom • Does it have a view? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-18/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Does it have a view? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-18/classwork",
-            courseLabel: "Classwork • Does it have a view? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-18/classwork",
+            checkboxLabel: "Classwork • Does it have a view? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-18/homework",
-            courseLabel: "Homework • Does it have a view? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-18/homework",
+            checkboxLabel: "Homework • Does it have a view? (Cycle 2)",
           },
         ],
       },
       // Lesson 19
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 19",
         contents: [
           {
@@ -515,26 +474,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-19/flipped-classroom",
-            courseLabel: "Flipped Classroom • Where do you work? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-19/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Where do you work? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-19/classwork",
-            courseLabel: "Classwork • Where do you work? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-19/classwork",
+            checkboxLabel: "Classwork • Where do you work? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-19/homework",
-            courseLabel: "Homework • Where do you work? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-19/homework",
+            checkboxLabel: "Homework • Where do you work? (Cycle 1)",
           },
         ],
       },
       // Lesson 20
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 20",
         contents: [
           {
@@ -543,26 +500,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-20/flipped-classroom",
-            courseLabel: "Flipped Classroom • Where do you work? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-20/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Where do you work? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-20/classwork",
-            courseLabel: "Classwork • Where do you work? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-20/classwork",
+            checkboxLabel: "Classwork • Where do you work? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-20/homework",
-            courseLabel: "Homework • Where do you work? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-20/homework",
+            checkboxLabel: "Homework • Where do you work? (Cycle 2)",
           },
         ],
       },
       // Lesson 21 *Review + Written and Oral Quiz
       {
         bgColor: "red",
-        textColor: "white",
+        textColor: "black",
         label: "Lesson 21",
         contents: [
           {
@@ -576,17 +531,21 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-21/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/beginner/lesson-21/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 17-20 + Written and Oral Quiz",
           },
         ],
       },
-      // Lesson 22 *Written Test
+    ],
+  },
+  // Lessons 2-22 + Written Test
+  {
+    mainLabel: "Lessons 2-22 + Written Test",
+    subContents: [
       {
         bgColor: "purple",
-        textColor: "white",
+        textColor: "black",
         label: "Lesson 22",
         contents: [
           {
@@ -600,16 +559,21 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-22/classwork",
-            courseLabel: "Classwork • Review lessons 2-20 + Written Test",
+            checkboxLink: "/materials/courses/beginner/lesson-22/classwork",
+            checkboxLabel: "Classwork • Review lessons 2-20 + Written Test",
           },
         ],
       },
+    ],
+  },
+  // Lessons 23 - 27 + Written and Oral Quiz
+  {
+    mainLabel: "Lessons 23 - 27 + Written and Oral Quiz",
+    subContents: [
       // Lesson 23
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 23",
         contents: [
           {
@@ -618,27 +582,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-23/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/beginner/lesson-23/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • I always eat breakfast. (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-23/classwork",
-            courseLabel: "Classwork • I always eat breakfast. (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-23/classwork",
+            checkboxLabel: "Classwork • I always eat breakfast. (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-23/homework",
-            courseLabel: "Homework • I always eat breakfast. (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-23/homework",
+            checkboxLabel: "Homework • I always eat breakfast. (Cycle 1)",
           },
         ],
       },
       // Lesson 24
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 24",
         contents: [
           {
@@ -647,27 +609,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-24/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/beginner/lesson-24/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • I always eat breakfast. (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-24/classwork",
-            courseLabel: "Classwork • I always eat breakfast. (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-24/classwork",
+            checkboxLabel: "Classwork • I always eat breakfast. (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-24/homework",
-            courseLabel: "Homework • I always eat breakfast. (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-24/homework",
+            checkboxLabel: "Homework • I always eat breakfast. (Cycle 2)",
           },
         ],
       },
       // Lesson 25
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 25",
         contents: [
           {
@@ -676,27 +636,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-25/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/beginner/lesson-25/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • What sports do you like? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-25/classwork",
-            courseLabel: "Classwork • What sports do you like? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-25/classwork",
+            checkboxLabel: "Classwork • What sports do you like? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-25/homework",
-            courseLabel: "Homework • What sports do you like? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-25/homework",
+            checkboxLabel: "Homework • What sports do you like? (Cycle 1)",
           },
         ],
       },
       // Lesson 26
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 26",
         contents: [
           {
@@ -705,27 +663,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-26/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/beginner/lesson-26/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • What sports do you like? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-26/classwork",
-            courseLabel: "Classwork • What sports do you like? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-26/classwork",
+            checkboxLabel: "Classwork • What sports do you like? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-26/homework",
-            courseLabel: "Homework • What sports do you like? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-26/homework",
+            checkboxLabel: "Homework • What sports do you like? (Cycle 2)",
           },
         ],
       },
       // Lesson 27 *Review + Written and Oral Quiz
       {
         bgColor: "red",
-        textColor: "white",
+        textColor: "black",
         label: "Lesson 27",
         contents: [
           {
@@ -739,17 +695,22 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-27/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/beginner/lesson-27/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 23-26 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  // Lesson 28 - 32 + Written and Oral Quiz
+  {
+    mainLabel: "Lessons 28 - 32 + Written and Oral Quiz",
+    subContents: [
       // Lesson 28
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 28",
         contents: [
           {
@@ -758,27 +719,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-28/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/beginner/lesson-28/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • I'm going to have a party. (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-28/classwork",
-            courseLabel: "Classwork • I'm going to have a party. (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-28/classwork",
+            checkboxLabel: "Classwork • I'm going to have a party. (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-28/homework",
-            courseLabel: "Homework • I'm going to have a party. (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-28/homework",
+            checkboxLabel: "Homework • I'm going to have a party. (Cycle 1)",
           },
         ],
       },
       // Lesson 29
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 29",
         contents: [
           {
@@ -787,27 +746,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-29/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/beginner/lesson-29/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • I'm going to have a party. (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-29/classwork",
-            courseLabel: "Classwork • I'm going to have a party. (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-29/classwork",
+            checkboxLabel: "Classwork • I'm going to have a party. (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-29/homework",
-            courseLabel: "Homework • I'm going to have a party. (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-29/homework",
+            checkboxLabel: "Homework • I'm going to have a party. (Cycle 2)",
           },
         ],
       },
       // Lesson 30
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 30",
         contents: [
           {
@@ -816,26 +773,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-30/flipped-classroom",
-            courseLabel: "Flipped Classroom • How do you feel? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-30/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • How do you feel? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-30/classwork",
-            courseLabel: "Classwork • How do you feel? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-30/classwork",
+            checkboxLabel: "Classwork • How do you feel? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-30/homework",
-            courseLabel: "Homework • How do you feel? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-30/homework",
+            checkboxLabel: "Homework • How do you feel? (Cycle 1)",
           },
         ],
       },
       // Lesson 31
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 31",
         contents: [
           {
@@ -844,26 +799,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-31/flipped-classroom",
-            courseLabel: "Flipped Classroom • How do you feel? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-31/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • How do you feel? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-31/classwork",
-            courseLabel: "Classwork • How do you feel? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-31/classwork",
+            checkboxLabel: "Classwork • How do you feel? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-31/homework",
-            courseLabel: "Homework • How do you feel? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-31/homework",
+            checkboxLabel: "Homework • How do you feel? (Cycle 2)",
           },
         ],
       },
       // Lesson 32 *Review + Written and Oral Quiz
       {
         bgColor: "red",
-        textColor: "white",
+        textColor: "black",
         label: "Lesson 32",
         contents: [
           {
@@ -877,17 +830,22 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-32/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/beginner/lesson-32/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 28-31 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  // Lesson 33 - 37 + Written and Oral Quiz
+  {
+    mainLabel: "Lessons 33 - 37 + Written and Oral Quiz",
+    subContents: [
       // Lesson 33
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 33",
         contents: [
           {
@@ -896,26 +854,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-33/flipped-classroom",
-            courseLabel: "Flipped Classroom • How do I get there? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-33/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • How do I get there? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-33/classwork",
-            courseLabel: "Classwork • How do I get there? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-33/classwork",
+            checkboxLabel: "Classwork • How do I get there? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-33/homework",
-            courseLabel: "Homework • How do I get there? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-33/homework",
+            checkboxLabel: "Homework • How do I get there? (Cycle 1)",
           },
         ],
       },
       // Lesson 34
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 34",
         contents: [
           {
@@ -924,26 +880,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-34/flipped-classroom",
-            courseLabel: "Flipped Classroom • How do I get there? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-34/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • How do I get there? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-34/classwork",
-            courseLabel: "Classwork • How do I get there? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-34/classwork",
+            checkboxLabel: "Classwork • How do I get there? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-34/homework",
-            courseLabel: "Homework • How do I get there? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-34/homework",
+            checkboxLabel: "Homework • How do I get there? (Cycle 2)",
           },
         ],
       },
       // Lesson 35
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 35",
         contents: [
           {
@@ -952,26 +906,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-35/flipped-classroom",
-            courseLabel: "Flipped Classroom • I had a good time. (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-35/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • I had a good time. (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-35/classwork",
-            courseLabel: "Classwork • I had a good time. (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-35/classwork",
+            checkboxLabel: "Classwork • I had a good time. (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-35/homework",
-            courseLabel: "Homework • I had a good time. (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-35/homework",
+            checkboxLabel: "Homework • I had a good time. (Cycle 1)",
           },
         ],
       },
       // Lesson 36
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 36",
         contents: [
           {
@@ -980,26 +932,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-36/flipped-classroom",
-            courseLabel: "Flipped Classroom • I had a good time. (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-36/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • I had a good time. (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-36/classwork",
-            courseLabel: "Classwork • I had a good time. (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-36/classwork",
+            checkboxLabel: "Classwork • I had a good time. (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-36/homework",
-            courseLabel: "Homework • I had a good time. (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-36/homework",
+            checkboxLabel: "Homework • I had a good time. (Cycle 2)",
           },
         ],
       },
       // Lesson 37 *Review + Written and Oral Quiz
       {
         bgColor: "red",
-        textColor: "white",
+        textColor: "black",
         label: "Lesson 37",
         contents: [
           {
@@ -1013,17 +963,22 @@ const contents = [
             content: "• identify areas that need improvement",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-37/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/beginner/lesson-37/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 33-36 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  // Lesson 38 - 42 + Written and Oral Quiz
+  {
+    mainLabel: "Lessons 38 - 42 + Written and Oral Quiz",
+    subContents: [
       // Lesson 38
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 38",
         contents: [
           {
@@ -1032,26 +987,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-38/flipped-classroom",
-            courseLabel: "Flipped Classroom • Where were you born? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-38/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Where were you born? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-38/classwork",
-            courseLabel: "Classwork • Where were you born? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-38/classwork",
+            checkboxLabel: "Classwork • Where were you born? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-38/homework",
-            courseLabel: "Homework • Where were you born? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-38/homework",
+            checkboxLabel: "Homework • Where were you born? (Cycle 1)",
           },
         ],
       },
       // Lesson 39
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 39",
         contents: [
           {
@@ -1060,17 +1013,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-39/flipped-classroom",
+            courseLink:
+              "/materials/courses/beginner/lesson-39/flipped-classroom",
             courseLabel: "Flipped Classroom • Where were you born? (Cycle 2)",
           },
           {
-            courseImg: beginner,
             courseLink: "/materials/courses/beginner/lesson-39/classwork",
             courseLabel: "Classwork • Where were you born? (Cycle 2)",
           },
           {
-            courseImg: beginner,
             courseLink: "/materials/courses/beginner/lesson-39/homework",
             courseLabel: "Homework • Where were you born? (Cycle 2)",
           },
@@ -1078,8 +1029,8 @@ const contents = [
       },
       // Lesson 40
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 40",
         contents: [
           {
@@ -1088,26 +1039,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-40/flipped-classroom",
-            courseLabel: "Flipped Classroom • Can I take a message? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-40/flipped-classroom",
+              checkboxLabel: "Flipped Classroom • Can I take a message? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-40/classwork",
-            courseLabel: "Classwork • Can I take a message? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-40/classwork",
+            checkboxLabel: "Classwork • Can I take a message? (Cycle 1)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-40/homework",
-            courseLabel: "Homework • Can I take a message? (Cycle 1)",
+            checkboxLink: "/materials/courses/beginner/lesson-40/homework",
+            checkboxLabel: "Homework • Can I take a message? (Cycle 1)",
           },
         ],
       },
       // Lesson 41
       {
-        bgColor: "black",
-        textColor: "white",
+        bgColor: "#FCC418",
+        textColor: "black",
         label: "Lesson 41",
         contents: [
           {
@@ -1116,26 +1065,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-41/flipped-classroom",
-            courseLabel: "Flipped Classroom • Can I take a message? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/beginner/lesson-41/flipped-classroom",
+              checkboxLabel: "Flipped Classroom • Can I take a message? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-41/classwork",
-            courseLabel: "Classwork • Can I take a message? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-41/classwork",
+            checkboxLabel: "Classwork • Can I take a message? (Cycle 2)",
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-41/homework",
-            courseLabel: "Homework • Can I take a message? (Cycle 2)",
+            checkboxLink: "/materials/courses/beginner/lesson-41/homework",
+            checkboxLabel: "Homework • Can I take a message? (Cycle 2)",
           },
         ],
       },
       // Lesson 42 *Review + Written and Oral Quiz
       {
         bgColor: "red",
-        textColor: "white",
+        textColor: "black",
         label: "Lesson 42",
         contents: [
           {
@@ -1149,17 +1096,22 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-42/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/beginner/lesson-42/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 38-41 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  // Lesson 43 - Written Test
+  {
+    mainLabel: "Lesson 43 - Written Test",
+    subContents: [
       // Lesson 43 Written Test
       {
         bgColor: "purple",
-        textColor: "white",
+        textColor: "black",
         label: "Lesson 43",
         contents: [
           {
@@ -1173,9 +1125,8 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: beginner,
-            courseLink: "/materials/courses/beginner/lesson-43/classwork",
-            courseLabel: "Classwork • Review lessons 23-41 + Written Test",
+            checkboxLink: "/materials/courses/beginner/lesson-43/classwork",
+            checkboxLabel: "Classwork • Review lessons 23-41 + Written Test",
           },
         ],
       },
@@ -1186,12 +1137,31 @@ const contents = [
 export default function Beginner() {
   return (
     <>
-      <Whiteboard
-        title="Courses"
-        subTitle="Beginner (A1)"
-        descriptions={["43 lessons"]}
-      />
+      <Whiteboard title="Courses" subTitle="Beginner (A1)" />
       <div className="line-break">
+        {/* CEFR */}
+        <BoardCard
+          label="CEFR (Common European Framework of Reference)"
+          bgColor="#FCC418"
+        >
+          <p>
+            • Can introduce him/herself and others and can ask and answer
+            questions about personal details such as where he/she lives, people
+            he/she knows and things he/she has.
+          </p>
+          <p>
+            • Can understand and use familiar everyday expressions and very
+            basic phrases aimed at the satisfaction of needs of a concrete type.
+          </p>
+          <p>
+            • Can interact in a simple way provided the other person talks
+            slowly and clearly and is prepared to help.
+          </p>
+        </BoardCard>
+        {/* Lesson 1 */}
+        <BoardCard label="Lesson 1" bgColor="#FCC418">
+          <p>Let's get to know each other / one another better.</p>
+        </BoardCard>
         <ContentCard contents={contents} />
       </div>
     </>
