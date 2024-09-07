@@ -1,5 +1,6 @@
 import { BoardCard } from "@/components/Cards/BoardCard";
 import { AudioPlayer } from "@/components/Audioplayer";
+import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 export const CardinalOrdinalNumbers = () => {
   return (
@@ -14,46 +15,46 @@ export const CardinalOrdinalNumbers = () => {
             1 one • 1<sup>st</sup> fir<span className="underline">st</span>
           </p>
           <p>
-            2 one • 2<sup>nd</sup> seco<span className="underline">nd</span>
+            2 two • 2<sup>nd</sup> seco<span className="underline">nd</span>
           </p>
           <p>
-            3 one • 3<sup>rd</sup> thi<span className="underline">rd</span>
+            3 three • 3<sup>rd</sup> thi<span className="underline">rd</span>
           </p>
           <p>
-            4 one • 4<sup>th</sup> four<span className="underline">th</span>
+            4 four • 4<sup>th</sup> four<span className="underline">th</span>
           </p>
           <p>
-            5 one • 5<sup>th</sup> fif<span className="underline">th</span>
+            5 five • 5<sup>th</sup> fif<span className="underline">th</span>
           </p>
           <p>
-            6 one • 6<sup>th</sup> six<span className="underline">th</span>
+            6 six • 6<sup>th</sup> six<span className="underline">th</span>
           </p>
           <p>
-            7 one • 7<sup>th</sup> seven<span className="underline">th</span>
+            7 seven • 7<sup>th</sup> seven<span className="underline">th</span>
           </p>
           <p>
-            8 one • 8<sup>th</sup> eigh<span className="underline">th</span>
+            8 eight • 8<sup>th</sup> eigh<span className="underline">th</span>
           </p>
           <p>
-            9 one • 9<sup>th</sup> nin<span className="underline">th</span>
+            9 nine • 9<sup>th</sup> nin<span className="underline">th</span>
           </p>
           <p>
-            10 one • 10<sup>th</sup> ten<span className="underline">th</span>
+            10 ten • 10<sup>th</sup> ten<span className="underline">th</span>
           </p>
         </div>
       </BoardCard>
       <BoardCard label="11-31" bgColor="lightgray">
         <div>
           <p>
-            11 eleven • 11<sup>st</sup> eleven
+            11 eleven • 11<sup>th</sup> eleven
             <span className="underline">th</span>
           </p>
           <p>
-            12 twelve • 12<sup>nd</sup> twelf
+            12 twelve • 12<sup>th</sup> twelf
             <span className="underline">th</span>
           </p>
           <p>
-            13 thirteen • 13<sup>rd</sup> thirteen
+            13 thirteen • 13<sup>th</sup> thirteen
             <span className="underline">th</span>
           </p>
           <p>
@@ -85,40 +86,40 @@ export const CardinalOrdinalNumbers = () => {
             <span className="underline">ieth</span>
           </p>
           <p>
-            21 twenty-one • 21<sup>th</sup> twent
-            <span className="underline">ieth</span>
+            21 twenty-one • 21<sup>st</sup> twenty-fir
+            <span className="underline">st</span>
           </p>
           <p>
-            22 twenty-two • 22<sup>th</sup> twent
-            <span className="underline">ieth</span>
+            22 twenty-two • 22<sup>th</sup> twenty-seco
+            <span className="underline">nd</span>
           </p>
           <p>
-            23 twenty-three • 23<sup>th</sup> twent
-            <span className="underline">ieth</span>
+            23 twenty-three • 23<sup>th</sup> twenty-thi
+            <span className="underline">rd</span>
           </p>
           <p>
-            24 twenty-four • 24<sup>th</sup> twent
-            <span className="underline">ieth</span>
+            24 twenty-four • 24<sup>th</sup> twenty-four
+            <span className="underline">th</span>
           </p>
           <p>
-            25 twenty-five • 25<sup>th</sup> twent
-            <span className="underline">ieth</span>
+            25 twenty-five • 25<sup>th</sup> twenty-fif
+            <span className="underline">th</span>
           </p>
           <p>
-            26 twenty-six • 26<sup>th</sup> twent
-            <span className="underline">ieth</span>
+            26 twenty-six • 26<sup>th</sup> twenty-six
+            <span className="underline">th</span>
           </p>
           <p>
-            27 twenty-seven • 27<sup>th</sup> twent
-            <span className="underline">ieth</span>
+            27 twenty-seven • 27<sup>th</sup> twenty-seven
+            <span className="underline">th</span>
           </p>
           <p>
-            28 twenty-eight • 28<sup>th</sup> twent
-            <span className="underline">ieth</span>
+            28 twenty-eight • 28<sup>th</sup> twenty-eigh
+            <span className="underline">th</span>
           </p>
           <p>
-            29 twenty-nine • 29<sup>th</sup> twent
-            <span className="underline">ieth</span>
+            29 twenty-nine • 29<sup>th</sup> twenty-nin
+            <span className="underline">th</span>
           </p>
           <p>
             30 thirty • 30<sup>th</sup> thirt
@@ -128,6 +129,22 @@ export const CardinalOrdinalNumbers = () => {
             31 thirty-one • 31<sup>st</sup> thirty-fir
             <span className="underline">st</span>
           </p>
+        </div>
+      </BoardCard>
+      <BoardCard label="Months" bgColor="lightgrey">
+        <div className="flex-col">
+          <DictionaryCard keyword="January" label="January" />
+          <DictionaryCard keyword="February" label="February" />
+          <DictionaryCard keyword="March" label="March" />
+          <DictionaryCard keyword="April" label="April" />
+          <DictionaryCard keyword="May" label="May" />
+          <DictionaryCard keyword="June" label="June" />
+          <DictionaryCard keyword="July" label="July" />
+          <DictionaryCard keyword="August" label="August" />
+          <DictionaryCard keyword="September" label="September" />
+          <DictionaryCard keyword="October" label="October" />
+          <DictionaryCard keyword="November" label="November" />
+          <DictionaryCard keyword="December" label="December" />
         </div>
       </BoardCard>
       <BoardCard label="Examples" bgColor="lightgrey">

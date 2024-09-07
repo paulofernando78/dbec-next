@@ -10,7 +10,6 @@ import {
   PreVocabulary,
   ScrollToTop,
   SwiperFraction,
-  Text,
   VideoPlayer,
   Whiteboard,
 } from "@/components";
@@ -18,21 +17,7 @@ import {
 import type { VocabularyComponent } from "@/types/PreVocabulary";
 
 import { cat1, cat2 } from "@/img/index";
-
-const warmUpPrompt = [
-  {
-    prompt: "...",
-  },
-  {
-    prompt: "• ...",
-  },
-];
-
-const introductionPrompt = [
-  {
-    prompt: "Take a look at these pictures. / Let's watch a video..",
-  },
-];
+import { WarmUp } from "@/components/Lessons/Celta/WarmpUp/page";
 
 const swiperIntroduction = [
   {
@@ -42,18 +27,6 @@ const swiperIntroduction = [
   {
     imgSrc: cat2,
     imgAlt: "...",
-  },
-];
-
-const preVocabularyPrompt1 = [
-  {
-    prompt: "...",
-  },
-];
-
-const preVocabularyPrompt2 = [
-  {
-    prompt: "Now fill in the blanks with the words above.",
   },
 ];
 
@@ -88,30 +61,12 @@ const fillInTheBlanks = [
   },
 ];
 
-const gistPrompt = [
-  {
-    prompt: "...",
-  },
-];
-
 const paragraphs = [
   {
     paragraph: "aaa",
   },
   {
     paragraph: "aaa",
-  },
-];
-
-const scanPrompt = [
-  {
-    prompt: "...",
-  },
-];
-
-const followupPrompt = [
-  {
-    prompt: "...",
   },
 ];
 
@@ -125,11 +80,9 @@ export default function MockListening() {
         subDescription="Month #, 20..."
       />
       <div className="line-break">
-        {/* Warm-up */}
-        <BoardCard label="Warm-up" bgColor="black" textColor="white">
-          <Text texts={warmUpPrompt} />
-        </BoardCard>
-
+        <WarmUp>
+          <p>...</p>
+        </WarmUp>
         {/* Introduction */}
         <BoardCard
           label="Introduction"
@@ -138,10 +91,9 @@ export default function MockListening() {
           bgColor="black"
           textColor="white"
         >
-          <Text texts={introductionPrompt} />
+          <p>Take a look at these pictures. / Let's watch a video.</p>
           <SwiperFraction images={swiperIntroduction} />
           <VideoPlayer videoSrc="https://www.youtube.com/embed/m1-Bx3h4cio" />
-          <Text texts={introductionPrompt} />
         </BoardCard>
 
         {/* Pre-vocabulary */}
@@ -151,10 +103,8 @@ export default function MockListening() {
           bgColor="black"
           textColor="white"
         >
-          <Text texts={preVocabularyPrompt1} />
           <FlipCard flipCards={flipCards} />
           <PreVocabulary preVocabularies={words} />
-          <Text texts={preVocabularyPrompt2} />
           <FillInTheBlanks questions={fillInTheBlanks} />
         </BoardCard>
 
@@ -166,7 +116,7 @@ export default function MockListening() {
           bgColor="black"
           textColor="white"
         >
-          <Text texts={gistPrompt} />
+          <p>...</p>
           <AudioPlayer audioSrc="" />
           <Paragraph paragraphs={paragraphs} />
         </BoardCard>
@@ -179,7 +129,7 @@ export default function MockListening() {
           bgColor="black"
           textColor="white"
         >
-          <Text texts={scanPrompt} />
+          <p>...</p>
         </BoardCard>
 
         {/* Follow-up */}
@@ -190,7 +140,7 @@ export default function MockListening() {
           bgColor="black"
           textColor="white"
         >
-          <Text texts={followupPrompt} />
+          <p>...</p>
         </BoardCard>
       </div>
 

@@ -1,9 +1,9 @@
+import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard";
-import { DescriptionCard } from "@/components/Cards/DescriptionCard";
 
-const descriptions = [
+const contents = [
   {
-    subDescriptions: [
+    subContents: [
       {
         bgColor: "black",
         textColor: "white",
@@ -28,7 +28,7 @@ export default function ArtsAndCulture() {
         descriptions={["Arts and Culture"]}
       />
       <div>
-        <DescriptionCard descriptions={descriptions} />
+        <ContentCard contents={contents} />
       </div>
     </>
   );

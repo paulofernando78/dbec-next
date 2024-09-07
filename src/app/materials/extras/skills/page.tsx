@@ -13,11 +13,11 @@ const contents = [
         label: "Audiobooks",
         contents: [
           {
-            link: "/extras/skills/listening/penguin-kids",
+            link: "/materials/extras/skills/listening/penguin-kids",
             linkLabel: "Penguin Kids",
           },
           {
-            link: "/extras/skills/listening/penguin-readers",
+            link: "/materials/extras/skills/listening/penguin-readers",
             linkLabel: "Penguin Readers",
           },
         ],
@@ -29,15 +29,15 @@ const contents = [
         label: "Articles (Intermediate)",
         contents: [
           {
-            link: "/extras/skills/listening/articles/arts-and-culture",
+            link: "/materials//extras/skills/listening/articles/arts-and-culture",
             linkLabel: "Arts & Culture",
           },
           {
-            link: "/extras/skills/listening/articles/health-and-lifestyle",
+            link: "/materials//extras/skills/listening/articles/health-and-lifestyle",
             linkLabel: "Health & Lifestyle",
           },
           {
-            link: "/extras/skills/listening/articles/science-and-technology",
+            link: "/materials//extras/skills/listening/articles/science-and-technology",
             linkLabel: "Science & Technology",
           },
         ],

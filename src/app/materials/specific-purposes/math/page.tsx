@@ -6,9 +6,34 @@ import { BoardCard } from "@/components/Cards/BoardCard";
 export default function Math() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subTitle="Job Interviews" />
+      <Whiteboard title="Specific Purposes" subTitle="Math" />
       <div className="line-break">
-        <Link href="/specific-purposes/math/prime-numbers"></Link>
+        <BoardCard label="Fraction" bgColor="black" textColor="white">
+          <p>
+            The number on the top is called the <mark>numerator</mark>, and the
+            number on the bottom is called the <mark>denominator</mark>. The
+            numerator defines the number of equal parts taken, whereas the
+            denominator defines the total number of equal parts in a whole. For
+            example, 5/10 is a fraction. Here, 5 is a numerator and 10 is a
+            denominator.
+          </p>
+        </BoardCard>
+        <BoardCard label="LCM and GCD" bgColor="black" textColor="white">
+          <div className="line-break">
+            <div className="line-break">
+              <p className="bold">LCM (Least Common Multiple )</p>
+              <div>
+                <p>...</p>
+              </div>
+            </div>
+            <div className="line-break">
+              <p className="bold">LCM (Greatest Common Divisor), also HCF (Highest Common Factor)</p>
+              <div>
+                <p>...</p>
+              </div>
+            </div>
+          </div>
+        </BoardCard>
         <BoardCard label="Prime Numbers" bgColor="black" textColor="white">
           <p className="bold">What are the prime numbers?</p>
           <div>
@@ -26,16 +51,6 @@ export default function Math() {
           <p>
             These numbers have no divisors other than 1 and themselves, making
             them prime.
-          </p>
-        </BoardCard>
-        <BoardCard label="Fraction" bgColor="black" textColor="white">
-          <p>
-            The number on the top is called the <mark>numerator</mark>, and the
-            number on the bottom is called the <mark>denominator</mark>. The
-            numerator defines the number of equal parts taken, whereas the
-            denominator defines the total number of equal parts in a whole. For
-            example, 5/10 is a fraction. Here, 5 is a numerator and 10 is a
-            denominator.
           </p>
         </BoardCard>
       </div>

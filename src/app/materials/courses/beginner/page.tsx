@@ -1,13 +1,12 @@
-import { BoardCard } from "@/components";
+"use client"
+import { BoardCard, ScrollToTop } from "@/components";
 import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard";
-
-import { beginner } from "@/img/index";
 
 const contents = [
   // Lessons 2 - 6 + Written and Oral Quiz
   {
-    mainLabel: "Lesson 2 - 6 + Written and Oral Quiz",
+    mainLabel: "Lessons 2 - 6 + Written and Oral Quiz",
     subContents: [
       // Lesson 2
       {
@@ -115,7 +114,7 @@ const contents = [
       },
       // Lesson 6 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#FCC418",
         textColor: "black",
         label: "Lesson 6",
         contents: [
@@ -140,7 +139,7 @@ const contents = [
   },
   // Lessons 7 - 11 + Written and Oral Quiz
   {
-    mainLabel: "Lesson 7 - 11 + Written and Oral Quiz",
+    mainLabel: "Lessons 7 - 11 + Written and Oral Quiz",
     subContents: [
       // Lesson 7
       {
@@ -248,7 +247,7 @@ const contents = [
       },
       // Lesson 11 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#FCC418",
         textColor: "black",
         label: "Lesson 11",
         contents: [
@@ -273,7 +272,7 @@ const contents = [
   },
   // Lessons 12 - 16 + Written and Oral Quiz
   {
-    mainLabel: "Lesson 12 - 16 + Written and Oral Quiz",
+    mainLabel: "Lessons 12 - 16 + Written and Oral Quiz",
     subContents: [
       // Lesson 12
       {
@@ -383,7 +382,7 @@ const contents = [
       },
       // Lesson 16 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#FCC418",
         textColor: "black",
         label: "Lesson 16",
         contents: [
@@ -408,7 +407,7 @@ const contents = [
   },
   // Lessons 17 - 21 + Written and Oral Quiz
   {
-    mainLabel: "Lesson 17 - 21 + Written and Oral Quiz",
+    mainLabel: "Lessons 17 - 21 + Written and Oral Quiz",
     subContents: [
       // Lesson 17
       {
@@ -516,7 +515,7 @@ const contents = [
       },
       // Lesson 21 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#FCC418",
         textColor: "black",
         label: "Lesson 21",
         contents: [
@@ -544,7 +543,7 @@ const contents = [
     mainLabel: "Lessons 2-22 + Written Test",
     subContents: [
       {
-        bgColor: "purple",
+        bgColor: "#FCC418",
         textColor: "black",
         label: "Lesson 22",
         contents: [
@@ -680,7 +679,7 @@ const contents = [
       },
       // Lesson 27 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#FCC418",
         textColor: "black",
         label: "Lesson 27",
         contents: [
@@ -703,7 +702,7 @@ const contents = [
       },
     ],
   },
-  // Lesson 28 - 32 + Written and Oral Quiz
+  // Lessons 28 - 32 + Written and Oral Quiz
   {
     mainLabel: "Lessons 28 - 32 + Written and Oral Quiz",
     subContents: [
@@ -815,7 +814,7 @@ const contents = [
       },
       // Lesson 32 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#FCC418",
         textColor: "black",
         label: "Lesson 32",
         contents: [
@@ -838,7 +837,7 @@ const contents = [
       },
     ],
   },
-  // Lesson 33 - 37 + Written and Oral Quiz
+  // Lessons 33 - 37 + Written and Oral Quiz
   {
     mainLabel: "Lessons 33 - 37 + Written and Oral Quiz",
     subContents: [
@@ -948,7 +947,7 @@ const contents = [
       },
       // Lesson 37 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#FCC418",
         textColor: "black",
         label: "Lesson 37",
         contents: [
@@ -971,7 +970,7 @@ const contents = [
       },
     ],
   },
-  // Lesson 38 - 42 + Written and Oral Quiz
+  // Lessons 38 - 42 + Written and Oral Quiz
   {
     mainLabel: "Lessons 38 - 42 + Written and Oral Quiz",
     subContents: [
@@ -1041,7 +1040,8 @@ const contents = [
           {
             checkboxLink:
               "/materials/courses/beginner/lesson-40/flipped-classroom",
-              checkboxLabel: "Flipped Classroom • Can I take a message? (Cycle 1)",
+            checkboxLabel:
+              "Flipped Classroom • Can I take a message? (Cycle 1)",
           },
           {
             checkboxLink: "/materials/courses/beginner/lesson-40/classwork",
@@ -1067,7 +1067,8 @@ const contents = [
           {
             checkboxLink:
               "/materials/courses/beginner/lesson-41/flipped-classroom",
-              checkboxLabel: "Flipped Classroom • Can I take a message? (Cycle 2)",
+            checkboxLabel:
+              "Flipped Classroom • Can I take a message? (Cycle 2)",
           },
           {
             checkboxLink: "/materials/courses/beginner/lesson-41/classwork",
@@ -1081,7 +1082,7 @@ const contents = [
       },
       // Lesson 42 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#FCC418",
         textColor: "black",
         label: "Lesson 42",
         contents: [
@@ -1104,13 +1105,13 @@ const contents = [
       },
     ],
   },
-  // Lesson 43 - Written Test
+  // Lessons 23-41 - Written Test
   {
-    mainLabel: "Lesson 43 - Written Test",
+    mainLabel: "Lessons 23-41 - Written Test",
     subContents: [
       // Lesson 43 Written Test
       {
-        bgColor: "purple",
+        bgColor: "#FCC418",
         textColor: "black",
         label: "Lesson 43",
         contents: [
@@ -1139,6 +1140,22 @@ export default function Beginner() {
     <>
       <Whiteboard title="Courses" subTitle="Beginner (A1)" />
       <div className="line-break">
+        <div className="line-break">
+          <p className="bold">Jump to:</p>
+          <div>
+            <p>Lesson 2 - 6 + Written and Oral Quiz</p>
+            <p>Lesson 7 - 11 + Written and Oral Quiz</p>
+            <p>Lesson 12 - 16 + Written and Oral Quiz</p>
+            <p>Lesson 17 - 21 + Written and Oral Quiz</p>
+            <p>Lessons 2-22 + Written Test</p>
+            <hr className="margin-block" />
+            <p>Lessons 23 - 27 + Written and Oral Quiz</p>
+            <p>Lessons 28 - 32 + Written and Oral Quiz</p>
+            <p>Lessons 33 - 37 + Written and Oral Quiz</p>
+            <p>Lessons 38 - 42 + Written and Oral Quiz</p>
+            <p>Lesson 43 - Written Test</p>
+          </div>
+        </div>
         {/* CEFR */}
         <BoardCard
           label="CEFR (Common European Framework of Reference)"
@@ -1163,6 +1180,7 @@ export default function Beginner() {
           <p>Let's get to know each other / one another better.</p>
         </BoardCard>
         <ContentCard contents={contents} />
+        <ScrollToTop />
       </div>
     </>
   );
