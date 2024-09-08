@@ -21,7 +21,7 @@ export const PreVocabulary = ({
 }: PreVocabularyProps) => {
   return (
     <>
-      <BoardCard label="Pronunciation">
+      <BoardCard label="Pronunciation" bgColor="black" time="5'">
         <FlipCard flipCards={flipCards} />
         <Vocabulary vocabularies={vocabularies} />
         <FillInTheBlanks questions={fillInTheBlanks} />
