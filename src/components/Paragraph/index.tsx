@@ -1,6 +1,7 @@
+import { Card } from "../Cards/Card";
 
 
-interface ParagraphData {
+export interface ParagraphData {
   paragraph: string
 }
 
@@ -13,6 +14,7 @@ export const Paragraph = ({ paragraphs }: ParagraphProps) => {
     <>
     {paragraphs.map((paragraph, index) => (
       <div key={index}>
+        <Card bgColor="lightgrey"><p className="bold">Paragraph {index + 1}</p></Card>
         <p>{paragraph.paragraph}</p>
         <p></p>
       </div>

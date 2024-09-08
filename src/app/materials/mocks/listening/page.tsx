@@ -5,22 +5,24 @@ import {
   WarmUp,
   Introduction,
   PreVocabulary,
-  AudioPlayer,
   DictionaryCard,
- 
-  Paragraph,
   ScrollToTop,
   BoardCard,
 } from "@/components";
 
-import type { VocabularyComponent, VocabularyProps } from "@/types/Vocabulary";
+import type { VocabularyComponent } from "@/types/Vocabulary";
 
 import { cat1, cat2 } from "@/img/index";
+import { ListeningGist } from "@/components/Lessons/Celta/ListeningGist";
+import { ListeningDetail } from "@/components/Lessons/Celta/ListeningDetail";
+import { Followup } from "@/components/Lessons/Celta/Followup";
 
-import {  } from "@/components/Lessons/Celta/Introduction";
+const warmUpPrompt = "What can you remember from the last lesson?";
 
+const introductionPrompt =
+  "Take a look at these pictures. / Let's watch a video.";
 
-const swiperIntroduction = [
+const introductionSwiper = [
   {
     imgSrc: cat1,
     imgAlt: "...",
@@ -30,6 +32,8 @@ const swiperIntroduction = [
     imgAlt: "...",
   },
 ];
+
+const introductionVideoSrc = "https://www.youtube.com/embed/m1-Bx3h4cio";
 
 const flipCards = [
   {
@@ -62,12 +66,45 @@ const fillInTheBlanks = [
   },
 ];
 
+const listeningGistPrompt = "xxx";
+
 const paragraphs = [
   {
     paragraph: "aaa",
   },
   {
-    paragraph: "aaa",
+    paragraph: "bbb",
+  },
+  {
+    paragraph: "ccc",
+  },
+];
+
+const listeningGistAudio = "";
+
+const listeningGistVideo = "https://www.youtube.com/embed/m1-Bx3h4cio";
+
+const ListeningDetailQuestions = [
+  {
+    question: "aaa",
+  },
+  {
+    question: "bbb",
+  },
+  {
+    question: "ccc",
+  },
+];
+
+const followupQuestions = [
+  {
+    question: "ddd",
+  },
+  {
+    question: "eee",
+  },
+  {
+    question: "fff",
   },
 ];
 
@@ -81,57 +118,26 @@ export default function MockListening() {
         subDescription="Month #, 20..."
       />
       <div className="line-break">
-        <WarmUp>
-          <p>...</p>
-        </WarmUp>
+        <WarmUp prompt={warmUpPrompt} />
         <Introduction
-        prompt="Take a look at these pictures. / Let's watch a video."
-        swiperFraction={swiperIntroduction}
-        videoSrc="https://www.youtube.com/embed/m1-Bx3h4cio"
+          prompt={introductionPrompt}
+          swiperFraction={introductionSwiper}
+          videoSrc={introductionVideoSrc}
         />
         <PreVocabulary
-        flipCards={flipCards}
-        vocabularies={vocabularies}
-        fillInTheBlanks={fillInTheBlanks }
+          flipCards={flipCards}
+          vocabularies={vocabularies}
+          fillInTheBlanks={fillInTheBlanks}
         />
-        {/* --- */}
-
-        {/* Listen gor gist */}
-        <BoardCard
-          label="Listen for gist"
-          smallerLabel="(Ideia)"
-          time="5-10'"
-          bgColor="black"
-          textColor="white"
-        >
-          <p>...</p>
-          <AudioPlayer audioSrc="" />
-          <Paragraph paragraphs={paragraphs} />
-        </BoardCard>
-
-        {/* Listen for scan */}
-        <BoardCard
-          label="Listening for scan"
-          smallerLabel="(Ideia)"
-          time="5-10'"
-          bgColor="black"
-          textColor="white"
-        >
-          <p>...</p>
-        </BoardCard>
-
-        {/* Follow-up */}
-        <BoardCard
-          label="Follow-up"
-          smallerLabel="(Ideia)"
-          time="5-10'"
-          bgColor="black"
-          textColor="white"
-        >
-          <p>...</p>
-        </BoardCard>
+        <ListeningGist
+          prompt={listeningGistPrompt}
+          audioSrc={listeningGistAudio}
+          videoSrc={listeningGistVideo}
+          paragraphs={paragraphs}
+        />
+        <ListeningDetail questions={ListeningDetailQuestions} />
+        <Followup questions={followupQuestions} />
       </div>
-
       <ScrollToTop />
     </>
   );

@@ -1,4 +1,3 @@
-import styles from "../../../Cards/BoardCard/styles.module.css";
 import { BoardCard } from "@/components/Cards/BoardCard";
 import { FlipCard, FlipCardData } from "@/components/Cards/Flip";
 import { Vocabulary } from "./Vocabulary";
@@ -21,7 +20,7 @@ export const PreVocabulary = ({
 }: PreVocabularyProps) => {
   return (
     <>
-      <BoardCard label="Pronunciation" bgColor="black" time="5'">
+      <BoardCard label="Pre-vocabulary" bgColor="black" textColor="white" time="5'">
         <FlipCard flipCards={flipCards} />
         <Vocabulary vocabularies={vocabularies} />
         <FillInTheBlanks questions={fillInTheBlanks} />
