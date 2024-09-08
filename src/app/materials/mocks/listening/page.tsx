@@ -1,23 +1,24 @@
 "use client";
 
 import {
-  AudioPlayer,
-  BoardCard,
-  DictionaryCard,
-  FillInTheBlanks,
-  FlipCard,
-  Paragraph,
-  PreVocabulary,
-  ScrollToTop,
-  SwiperFraction,
-  VideoPlayer,
   Whiteboard,
+  WarmUp,
+  Introduction,
+  PreVocabulary,
+  AudioPlayer,
+  DictionaryCard,
+ 
+  Paragraph,
+  ScrollToTop,
+  BoardCard,
 } from "@/components";
 
-import type { VocabularyComponent } from "@/types/PreVocabulary";
+import type { VocabularyComponent, VocabularyProps } from "@/types/Vocabulary";
 
 import { cat1, cat2 } from "@/img/index";
-import { WarmUp } from "@/components/Lessons/Celta/WarmpUp/page";
+
+import {  } from "@/components/Lessons/Celta/Introduction";
+
 
 const swiperIntroduction = [
   {
@@ -38,7 +39,7 @@ const flipCards = [
   },
 ];
 
-const words: VocabularyComponent[] = [
+const vocabularies: VocabularyComponent[] = [
   {
     component: (props) => <DictionaryCard {...props} />,
     componentProps: {
@@ -83,30 +84,17 @@ export default function MockListening() {
         <WarmUp>
           <p>...</p>
         </WarmUp>
-        {/* Introduction */}
-        <BoardCard
-          label="Introduction"
-          smallerLabel="(Contextualization)"
-          time="5-10'"
-          bgColor="black"
-          textColor="white"
-        >
-          <p>Take a look at these pictures. / Let's watch a video.</p>
-          <SwiperFraction images={swiperIntroduction} />
-          <VideoPlayer videoSrc="https://www.youtube.com/embed/m1-Bx3h4cio" />
-        </BoardCard>
-
-        {/* Pre-vocabulary */}
-        <BoardCard
-          label="Pre-vocabulary"
-          time="5-10'"
-          bgColor="black"
-          textColor="white"
-        >
-          <FlipCard flipCards={flipCards} />
-          <PreVocabulary preVocabularies={words} />
-          <FillInTheBlanks questions={fillInTheBlanks} />
-        </BoardCard>
+        <Introduction
+        prompt="Take a look at these pictures. / Let's watch a video."
+        swiperFraction={swiperIntroduction}
+        videoSrc="https://www.youtube.com/embed/m1-Bx3h4cio"
+        />
+        <PreVocabulary
+        flipCards={flipCards}
+        vocabularies={vocabularies}
+        fillInTheBlanks={fillInTheBlanks }
+        />
+        {/* --- */}
 
         {/* Listen gor gist */}
         <BoardCard

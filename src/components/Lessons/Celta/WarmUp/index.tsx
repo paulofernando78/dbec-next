@@ -10,8 +10,6 @@ interface BoardCardProps {
 
 export const WarmUp = ({
   children,
-  bgColor,
-  textColor,
   width,
 }: BoardCardProps) => {
   return (

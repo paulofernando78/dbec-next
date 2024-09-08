@@ -26,7 +26,7 @@ export const BoardCard = ({
         className={styles["card"]}
         style={{ backgroundColor: bgColor, color: textColor, width: width }}
       >
-        <div className="flex-8px-start-space-between">
+        <div className="flex-8px-space-between">
           <p><span className="bold">{label}</span> <span className="p-size-small">{smallerLabel}</span></p>
           <p className="p-size-smaller">{time}</p>
         </div>
