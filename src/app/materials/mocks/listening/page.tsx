@@ -7,7 +7,6 @@ import {
   PreVocabulary,
   DictionaryCard,
   ScrollToTop,
-  BoardCard,
 } from "@/components";
 
 import type { VocabularyComponent } from "@/types/Vocabulary";
