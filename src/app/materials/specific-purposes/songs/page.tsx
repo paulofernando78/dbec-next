@@ -14,17 +14,22 @@ export default function Songs() {
           <b>Artists</b>
         </p>
         <div>
-          <p>Nirvana</p>
-          <Link href="/specific-purposes/songs/nirvana">
+        <Link href="/materials/specific-purposes/songs/bruno-mars">
+            <p>Bruno Mars</p>
+          </Link>
+          <Link href="/materials//specific-purposes/songs/nirvana">
+            <p>Nirvana</p>
+          </Link>
+          <Link href="/materials//specific-purposes/songs/nirvana">
             <p>Pearl Jam</p>
           </Link>
-          <Link href="/specific-purposes/songs/red-hot-chili-peppers">
+          <Link href="/materials//specific-purposes/songs/red-hot-chili-peppers">
             <p>Red Hot Chili Peppers</p>
           </Link>
-          <Link href="/specific-purposes/songs/soundgarden">
+          <Link href="/materials//specific-purposes/songs/soundgarden">
             <p>Soundgarden</p>
           </Link>
-          <Link href="/specific-purposes/songs/taylor-swift">
+          <Link href="/materials//specific-purposes/songs/taylor-swift">
             <p>Taylor Swift</p>
           </Link>
         </div>
