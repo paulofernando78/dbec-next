@@ -58,6 +58,10 @@ const contents = [
             checkboxLink: "/materials/courses/beginner/lesson-3/homework",
             checkboxLabel: "Homework • What's your name? (Cycle 2)",
           },
+          {
+            checkboxLink: "/materials/courses/beginner/lesson-3/bgu-unit-1",
+            checkboxLabel: "Homework • Basic Grammar in Use • Unit 1",
+          },
         ],
       },
       // Lesson 4

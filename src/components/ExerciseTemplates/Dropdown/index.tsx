@@ -15,7 +15,7 @@ interface Option {
 interface DropdownQuestion {
   title?: string;
   subTitle?: string;
-  width: string;
+  width?: string;
   beforeOptions?: string;
   options?: Option[];
   afterOptions?: string;
