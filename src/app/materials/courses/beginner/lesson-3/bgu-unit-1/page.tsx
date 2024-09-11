@@ -65,7 +65,7 @@ const dropdown = [
         { value: "is", label: "is", correctAnswer: false },
         { value: "isn't", label: "isn't", correctAnswer: true },
       ],
-      afterOptions: "ate home.",
+      afterOptions: "at home.",
     },
     {
       beforeOptions: "She",
