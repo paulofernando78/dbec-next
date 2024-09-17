@@ -2,6 +2,7 @@ import { BoardCard, Card } from "@/components";
 import { RegularVerbs } from "@/components/Lessons/RegularVerbs";
 import { CardinalOrdinalNumbers } from "@/components/Lessons/Topics/CardinalOrdinalNumbers";
 import { Pronouns } from "@/components/Lessons/Topics/Pronouns";
+import { VerbBe } from "@/components/Lessons/Topics/VerbBe/VerbBe";
 import { Whiteboard } from "@/components/Whiteboard";
 
 export default function AllInOne() {
@@ -54,9 +55,7 @@ export default function AllInOne() {
           <CardinalOrdinalNumbers />
         </div>
         <div id="verb-to-be">
-          <BoardCard label="Verb to be" bgColor="black" textColor="white">
-            <p>...</p>
-          </BoardCard>
+         <VerbBe />
         </div>
         <div id="present-continuous">
           <BoardCard
