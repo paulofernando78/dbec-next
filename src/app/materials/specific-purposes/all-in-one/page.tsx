@@ -10,6 +10,7 @@ export default function AllInOne() {
     <>
       <Whiteboard title="Specific Purposes" subTitle="All-in-one Review" />
       <div className="line-break">
+        {/* Jump to: */}
         <p className="bold">Jump to:</p>
         <div>
           <a href="#pronouns">

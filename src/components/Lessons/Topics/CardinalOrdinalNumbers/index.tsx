@@ -82,19 +82,19 @@ export const CardinalOrdinalNumbers = () => {
             <span className="underline">th</span>
           </p>
           <p>
-            20 twenty • 20<sup>th</sup> twent
-            <span className="underline">ieth</span>
+            20 twenty <span className="portuguese">vinte</span> • 20<sup>th</sup> twent
+            <span className="underline">ieth</span><span className="portuguese"> vigésimo(a)</span>
           </p>
           <p>
             21 twenty-one • 21<sup>st</sup> twenty-fir
             <span className="underline">st</span>
           </p>
           <p>
-            22 twenty-two • 22<sup>th</sup> twenty-seco
+            22 twenty-two • 22<sup>nd</sup> twenty-seco
             <span className="underline">nd</span>
           </p>
           <p>
-            23 twenty-three • 23<sup>th</sup> twenty-thi
+            23 twenty-three • 23<sup>rd</sup> twenty-thi
             <span className="underline">rd</span>
           </p>
           <p>
@@ -122,8 +122,8 @@ export const CardinalOrdinalNumbers = () => {
             <span className="underline">th</span>
           </p>
           <p>
-            30 thirty • 30<sup>th</sup> thirt
-            <span className="underline">ieth</span>
+            30 thirty  <span className="portuguese">trinta</span> • 30<sup>th</sup> thirt
+            <span className="underline">ieth</span> <span className="portuguese">trigésimo(a)</span>
           </p>
           <p>
             31 thirty-one • 31<sup>st</sup> thirty-fir
