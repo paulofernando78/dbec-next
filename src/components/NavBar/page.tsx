@@ -11,11 +11,9 @@ import styles from "./styles.module.css";
 import homeIcon from "../../../public/assets/img/icon/home.png";
 import dictionaryIcon from "../../../public/assets/img/icon/dictionary.png";
 
-
-
 interface NavBarProps {
   show: boolean;
-  width: string
+  width: string;
   toggleShow: () => void;
 }
 
@@ -27,26 +25,13 @@ export const NavBar = ({ show, toggleShow }: NavBarProps) => {
         <div>
           <div className={styles["nav-list"]}>
             <Image
-              src={homeIcon}
-              alt="Home"
-              className={styles["nav-icon-size"]}
-            />
-            <li>
-              {/* Home */}
-              <Link href="/" onClick={() => toggleShow()}>
-                <p className={`bold active ${styles["nav-bar-link"]}`}>Home</p>
-              </Link>
-            </li>
-          </div>
-          <div className={styles["nav-list"]}>
-            <Image
               src={dictionaryIcon}
               alt="Home"
               className={styles["nav-icon-size"]}
             />
             <li>
               {/* Dictionary */}
-              <Link href="/dictionary" onClick={() => toggleShow()}>
+              <Link href="/materials/dictionary" onClick={() => toggleShow()}>
                 <p className={`bold ${styles["nav-bar-link"]}`}>Dictionary</p>
               </Link>
             </li>
