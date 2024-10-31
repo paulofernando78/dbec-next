@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { Header } from "../Header/Header";
+import { Header } from "../Header";
 import { NavBar } from "../NavBar/page";
 
 export default function HeaderNavBar() {

@@ -7,8 +7,10 @@ import styles from "./styles.module.css";
 
 // Images
 import globeIcon from "@/img/icon/globe.png";
-import { BoardCard } from "../BoardCard";
 
+import { Card } from "../Card";
+
+// Types
 interface Content {
   content?: string;
   applyHr?: boolean;
@@ -23,16 +25,16 @@ interface Content {
   courseLabel?: string;
 }
 
-interface SubContent {
+interface CardContent {
   bgColor: string;
   textColor?: string;
-  label?: string;
+  cardLabel?: string;
   contents: Content[];
 }
 
 interface MainContent {
-  mainLabel?: string;
-  subContents: SubContent[];
+  headerLabel?: string;
+  cardContents: CardContent[];
 }
 
 interface ContentCardProps {
@@ -44,51 +46,41 @@ export const ContentCard = ({ contents }: ContentCardProps) => {
     <div className="line-break">
       {contents.map((content, contentIndex) => (
         <div key={contentIndex} className="line-break">
-          {/* Se o mainLabel existir, renderiza o conteúdo dentro de BoardCard */}
-          {content.mainLabel ? (
-            <BoardCard
-              label={content.mainLabel}
-              bgColor="black"
-              textColor="white"
-            >
-              {content.subContents.map((subContent, subContentIndex) => (
-                <SubContentRenderer
-                  key={subContentIndex}
-                  subContent={subContent}
-                />
-              ))}
-            </BoardCard>
-          ) : (
-            /* Se não houver mainLabel, renderiza os subContents diretamente */
-            content.subContents.map((subContent, subContentIndex) => (
-              <SubContentRenderer
-                key={subContentIndex}
-                subContent={subContent}
-              />
-            ))
+          {/* Render Card if cardLabel exists */}
+          {content.headerLabel && (
+            <Card bgColor="black" textColor="white">
+              <p className="bold">{content.headerLabel}</p>
+            </Card>
           )}
+          {/* Render CardContents */}
+          {content.cardContents.map((cardContent, cardContentIndex) => (
+            <CardContentRenderer
+              key={cardContentIndex}
+              cardContent={cardContent}
+            />
+          ))}
         </div>
       ))}
     </div>
   );
 };
 
-const SubContentRenderer = ({ subContent }: { subContent: SubContent }) => {
+const CardContentRenderer = ({ cardContent }: { cardContent: CardContent }) => {
   return (
-    <div className={`${styles["card-description"]}`}>
+    <div className={styles["card-description"]}>
       {/* Label */}
-      {subContent.label && (
+      {cardContent.cardLabel && (
         <p
           className={`bold ${styles["card-description-label"]}`}
           style={{
-            backgroundColor: subContent.bgColor,
-            color: subContent.textColor,
+            backgroundColor: cardContent.bgColor,
+            color: cardContent.textColor,
           }}
         >
-          {subContent.label}
+          {cardContent.cardLabel}
         </p>
       )}
-      {subContent.contents.map((content, contentIndex) => (
+      {cardContent.contents.map((content, contentIndex) => (
         <div
           key={contentIndex}
           className={`flex-col-4px ${styles["card-description-content"]}`}
@@ -125,10 +117,7 @@ const SubContentRenderer = ({ subContent }: { subContent: SubContent }) => {
           {/* Checkbox Link / Checkbox Label Link */}
           {content.checkboxLink && content.checkboxLabel && (
             <div className={styles["grid-checkbox-text"]}>
-              <input
-                type="checkbox"
-                className={styles["checkbox-size"]}
-              />
+              <input type="checkbox" className={styles["checkbox-size"]} />
               <Link href={content.checkboxLink}>
                 <p
                   dangerouslySetInnerHTML={{
@@ -143,5 +132,3 @@ const SubContentRenderer = ({ subContent }: { subContent: SubContent }) => {
     </div>
   );
 };
-
-

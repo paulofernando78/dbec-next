@@ -6,13 +6,13 @@ import { Whiteboard } from "@/components/Whiteboard";
 const contents = [
   // Lessons 1 - 6 + Written and Oral Quiz
   {
-    mainLabel: "Lessons 1 - 6 + Written and Oral Quiz",
-    subContents: [
+    headerLabel: "Lessons 1 - 6 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 1
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 1",
+        cardLabel: "Lesson 1",
         contents: [
           {
             content:
@@ -24,7 +24,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 2",
+        cardLabel: "Lesson 2",
         contents: [
           {
             content:
@@ -50,7 +50,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 3",
+        cardLabel: "Lesson 3",
         contents: [
           {
             content:
@@ -80,7 +80,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 4",
+        cardLabel: "Lesson 4",
         contents: [
           {
             content:
@@ -106,7 +106,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 5",
+        cardLabel: "Lesson 5",
         contents: [
           {
             content:
@@ -132,7 +132,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 6",
+        cardLabel: "Lesson 6",
         contents: [
           {
             content: "Learning objectives:",
@@ -155,13 +155,13 @@ const contents = [
   },
   // Lessons 7 - 11 + Written and Oral Quiz
   {
-    mainLabel: "Lessons 7 - 11 + Written and Oral Quiz",
-    subContents: [
+    headerLabel: "Lessons 7 - 11 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 7
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 7",
+        cardLabel: "Lesson 7",
         contents: [
           {
             content:
@@ -187,7 +187,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 8",
+        cardLabel: "Lesson 8",
         contents: [
           {
             content:
@@ -213,7 +213,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 9",
+        cardLabel: "Lesson 9",
         contents: [
           {
             content:
@@ -239,7 +239,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 10",
+        cardLabel: "Lesson 10",
         contents: [
           {
             content:
@@ -265,7 +265,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 11",
+        cardLabel: "Lesson 11",
         contents: [
           {
             content: "Learning objectives:",
@@ -288,13 +288,13 @@ const contents = [
   },
   // Lessons 12 - 16 + Written and Oral Quiz
   {
-    mainLabel: "Lessons 12 - 16 + Written and Oral Quiz",
-    subContents: [
+    headerLabel: "Lessons 12 - 16 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 12
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 12",
+        cardLabel: "Lesson 12",
         contents: [
           {
             content:
@@ -320,7 +320,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 13",
+        cardLabel: "Lesson 13",
         contents: [
           {
             content:
@@ -346,7 +346,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 14",
+        cardLabel: "Lesson 14",
         contents: [
           {
             content:
@@ -373,7 +373,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 15",
+        cardLabel: "Lesson 15",
         contents: [
           {
             content:
@@ -400,7 +400,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 16",
+        cardLabel: "Lesson 16",
         contents: [
           {
             content: "Learning objectives:",
@@ -423,13 +423,13 @@ const contents = [
   },
   // Lessons 17 - 21 + Written and Oral Quiz
   {
-    mainLabel: "Lessons 17 - 21 + Written and Oral Quiz",
-    subContents: [
+    headerLabel: "Lessons 17 - 21 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 17
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 17",
+        cardLabel: "Lesson 17",
         contents: [
           {
             content:
@@ -455,7 +455,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 18",
+        cardLabel: "Lesson 18",
         contents: [
           {
             content:
@@ -481,7 +481,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 19",
+        cardLabel: "Lesson 19",
         contents: [
           {
             content:
@@ -507,7 +507,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 20",
+        cardLabel: "Lesson 20",
         contents: [
           {
             content:
@@ -533,7 +533,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 21",
+        cardLabel: "Lesson 21",
         contents: [
           {
             content: "Learning objectives:",
@@ -556,12 +556,12 @@ const contents = [
   },
   // Lessons 2-22 + Written Test
   {
-    mainLabel: "Lessons 2-22 + Written Test",
-    subContents: [
+    headerLabel: "Lessons 2-22 + Written Test",
+    cardContents: [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 22",
+        cardLabel: "Lesson 22",
         contents: [
           {
             content: "Learning objectives:",
@@ -583,13 +583,13 @@ const contents = [
   },
   // Lessons 23 - 27 + Written and Oral Quiz
   {
-    mainLabel: "Lessons 23 - 27 + Written and Oral Quiz",
-    subContents: [
+    headerLabel: "Lessons 23 - 27 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 23
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 23",
+        cardLabel: "Lesson 23",
         contents: [
           {
             content:
@@ -616,7 +616,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 24",
+        cardLabel: "Lesson 24",
         contents: [
           {
             content:
@@ -643,7 +643,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 25",
+        cardLabel: "Lesson 25",
         contents: [
           {
             content:
@@ -670,7 +670,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 26",
+        cardLabel: "Lesson 26",
         contents: [
           {
             content:
@@ -697,7 +697,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 27",
+        cardLabel: "Lesson 27",
         contents: [
           {
             content: "Learning objectives:",
@@ -720,13 +720,13 @@ const contents = [
   },
   // Lessons 28 - 32 + Written and Oral Quiz
   {
-    mainLabel: "Lessons 28 - 32 + Written and Oral Quiz",
-    subContents: [
+    headerLabel: "Lessons 28 - 32 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 28
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 28",
+        cardLabel: "Lesson 28",
         contents: [
           {
             content:
@@ -753,7 +753,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 29",
+        cardLabel: "Lesson 29",
         contents: [
           {
             content:
@@ -780,7 +780,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 30",
+        cardLabel: "Lesson 30",
         contents: [
           {
             content:
@@ -806,7 +806,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 31",
+        cardLabel: "Lesson 31",
         contents: [
           {
             content:
@@ -832,7 +832,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 32",
+        cardLabel: "Lesson 32",
         contents: [
           {
             content: "Learning objectives:",
@@ -855,13 +855,13 @@ const contents = [
   },
   // Lessons 33 - 37 + Written and Oral Quiz
   {
-    mainLabel: "Lessons 33 - 37 + Written and Oral Quiz",
-    subContents: [
+    headerLabel: "Lessons 33 - 37 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 33
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 33",
+        cardLabel: "Lesson 33",
         contents: [
           {
             content:
@@ -887,7 +887,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 34",
+        cardLabel: "Lesson 34",
         contents: [
           {
             content:
@@ -913,7 +913,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 35",
+        cardLabel: "Lesson 35",
         contents: [
           {
             content:
@@ -939,7 +939,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 36",
+        cardLabel: "Lesson 36",
         contents: [
           {
             content:
@@ -965,7 +965,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 37",
+        cardLabel: "Lesson 37",
         contents: [
           {
             content: "Learning objectives:",
@@ -988,13 +988,13 @@ const contents = [
   },
   // Lessons 38 - 42 + Written and Oral Quiz
   {
-    mainLabel: "Lessons 38 - 42 + Written and Oral Quiz",
-    subContents: [
+    headerLabel: "Lessons 38 - 42 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 38
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 38",
+        cardLabel: "Lesson 38",
         contents: [
           {
             content:
@@ -1020,7 +1020,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 39",
+        cardLabel: "Lesson 39",
         contents: [
           {
             content:
@@ -1046,7 +1046,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 40",
+        cardLabel: "Lesson 40",
         contents: [
           {
             content:
@@ -1073,7 +1073,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 41",
+        cardLabel: "Lesson 41",
         contents: [
           {
             content:
@@ -1100,7 +1100,7 @@ const contents = [
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 42",
+        cardLabel: "Lesson 42",
         contents: [
           {
             content: "Learning objectives:",
@@ -1123,13 +1123,13 @@ const contents = [
   },
   // Lessons 23-41 - Written Test
   {
-    mainLabel: "Lessons 23-41 - Written Test",
-    subContents: [
+    headerLabel: "Lessons 23-41 - Written Test",
+    cardContents: [
       // Lesson 43 Written Test
       {
         bgColor: "#FCC418",
         textColor: "black",
-        label: "Lesson 43",
+        cardLabel: "Lesson 43",
         contents: [
           {
             content: "Learning objectives:",

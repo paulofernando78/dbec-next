@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 // CSS
-import styles from "@/components/Header/Header.module.css";
+import styles from "@/components/Header/style.module.css";
 
 // Images
 import usaUkIcon from "../../../public/assets/img/header-usa-uk-icon.png";
