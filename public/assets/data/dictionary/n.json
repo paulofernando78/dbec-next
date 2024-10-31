@@ -3,7 +3,7 @@
     "keyword": "nip ",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/n/nip.mp3",
+        "audio": "/n/nip.mp3",
         "word": "nip ",
         "phonetics": " /nɪp/",
         "partOfSpeech": "verb",
@@ -44,7 +44,7 @@
         ]
       },
       {
-        "audio": "/assets/audio/dictionary/n/nip-off.mp3",
+        "audio": "/n/nip-off.mp3",
         "word": "nip off",
         "partOfSpeech": "phrasal verb",
         "enDefinition": "remove something by pinching or squeezing sharply",
@@ -63,7 +63,7 @@
         "synonyms": "neck and neck, even, drawn, tied, balanced"
       },
       {
-        "audio": "/assets/audio/dictionary/n/nip-and-tuck-noun.mp3",
+        "audio": "/n/nip-and-tuck-noun.mp3",
         "word": "nip and tuck",
         "partOfSpeech": "noun",
         "enDefinition": "cosmetic surgery",
@@ -78,7 +78,7 @@
         "antonyms": "..."
       },
       {
-        "audio": "/assets/audio/dictionary/n/nip-and-tuck-adjective.mp3",
+        "audio": "/n/nip-and-tuck-adjective.mp3",
         "word": "nip and tuck",
         "partOfSpeech": "adjective",
         "enDefinition": "If a competition is nip and tuck, first one side seems to be winning and then the other, so that the result is not certain.",
@@ -97,7 +97,7 @@
         "antonyms": "..."
       },
       {
-        "audio": "/assets/audio/dictionary/n/nip-in-the-bud.mp3",
+        "audio": "/n/nip-in-the-bud.mp3",
         "word": "nip (something) in the bud",
         "partOfSpeech": "idiom",
         "enDefinition": "to stop (something) as soon as it starts",

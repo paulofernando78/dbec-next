@@ -52,6 +52,7 @@ export const Radio = ({ questions }: RadioProps) => {
                     type="radio"
                     checked={isChecked}
                     onClick={() => handleSelectAnswer(questionIndex, optionIndex)}
+                    onChange={() => handleSelectAnswer(questionIndex, optionIndex)}
                     className={`${radioColor} ${styles["input-size"]}`}
                   />
                   <p>{option.label}</p>

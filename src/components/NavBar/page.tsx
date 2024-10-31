@@ -8,7 +8,6 @@ import { useMediaQuery } from "@/hooks/useMediaQuery";
 import styles from "./styles.module.css";
 
 // Images
-import homeIcon from "../../../public/assets/img/icon/home.png";
 import dictionaryIcon from "../../../public/assets/img/icon/dictionary.png";
 
 interface NavBarProps {

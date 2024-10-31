@@ -3,7 +3,7 @@
     "keyword": "gene",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/g/gene-d.mp3",
+        "audio": "/g/gene-d.mp3",
         "word": "gene",
         "phonetics": "",
         "partOfSpeech": "noun",
@@ -16,7 +16,7 @@
     "keyword": "genome",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/g/genome-d.mp3",
+        "audio": "/g/genome-d.mp3",
         "word": "genome",
         "phonetics": "/ˈdʒiː.noʊm/",
         "partOfSpeech": "noun",
@@ -29,7 +29,7 @@
     "keyword": "genetic code",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/g/genetic-code.mp3",
+        "audio": "/g/genetic-code.mp3",
         "word": "genetic code",
         "phonetics": "/.../",
         "partOfSpeech": "noun",
@@ -42,7 +42,7 @@
     "keyword": "good",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/g/good.mp3",
+        "audio": "/g/good.mp3",
         "word": "good",
         "phonetics": "/ɡʊd/",
         "partOfSpeech": "adjective",
@@ -89,7 +89,7 @@
     "keyword": "goods",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/g/goods.mp3",
+        "audio": "/g/goods.mp3",
         "word": "goods",
         "phonetics": "/ɡʊdz/",
         "partOfSpeech": "noun",
@@ -108,7 +108,7 @@
     "keyword": "the grass is always greener on the other side",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/g/grass-other-side.mp3",
+        "audio": "/g/grass-other-side.mp3",
         "word": "the grass is always greener on the other side",
         "partOfSpeech": "proverb",
         "enDefinition": "The circumstances of others seem more desirable than one's own but in reality often are not.",

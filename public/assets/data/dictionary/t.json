@@ -3,7 +3,7 @@
     "keyword": "to the letter",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/t/to-the-letter.mp3",
+        "audio": "/t/to-the-letter.mp3",
         "partOfSpeech": "idiom",
         "enDefinition": "If you obey instructions or rules to the letter, you do exactly what you have been told to do, giving great attention to every detail.",
         "examples": [
@@ -19,7 +19,7 @@
     "keyword": "track",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/t/track-noun.mp3",
+        "audio": "/t/track-noun.mp3",
         "word": "track",
         "phonetics": "/træk/",
         "partOfSpeech": "noun",
@@ -60,7 +60,7 @@
         "seeAlso": "soundtrack"
       },
       {
-        "audio": "/assets/audio/dictionary/t/track-verb.mp3",
+        "audio": "/t/track-verb.mp3",
         "word": "track",
         "phonetics": "/træk/",
         "partOfSpeech": "verb",
@@ -82,7 +82,7 @@
     "keyword": "translate",
     "definitions": [
       {
-	      "audio": "/assets/audio/dictionary/t/translate.mp3",
+	      "audio": "/t/translate.mp3",
 	      "word": "translate",
 		    "phonetics": "/trænsˈleɪt/ /trænzˈleɪt/",
 		    "partOfSpeech": "verb",

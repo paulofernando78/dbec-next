@@ -3,7 +3,7 @@
     "keyword": "intent",
     "definitions": [
       {
-	      "audio": "/assets/audio/dictionary/i/intent-noun.mp3",
+	      "audio": "/i/intent-noun.mp3",
 	      "word": "intent",
 		    "phonetics": "/ɪnˈtent/",
 		    "partOfSpeech": "noun",
@@ -32,7 +32,7 @@
     "keyword": "Israeli",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/i/israeli-adjective.mp3",
+        "audio": "/i/israeli-adjective.mp3",
         "word": "Israeli",
         "phonetics": "/ɪzˈreɪ.li/",
         "partOfSpeech": "adjective",

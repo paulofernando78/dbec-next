@@ -3,7 +3,7 @@
     "keyword": "uterus",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/u/uterus-noun.mp3",
+        "audio": "/u/uterus-noun.mp3",
         "word": "uterus",
         "phonetics": "/ˈjuː.t̬ɚ.əs/",
         "partOfSpeech": "noun",
@@ -23,7 +23,7 @@
     "keyword": "upgrade",
     "definitions": [
       {
-	      "audio": "/assets/audio/dictionary/u/upgrade-verb.mp3",
+	      "audio": "/u/upgrade-verb.mp3",
 	      "word": "upgrade",
 		    "phonetics": "/ʌpˈɡreɪd/",
 		    "partOfSpeech": "verb",

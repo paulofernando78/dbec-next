@@ -138,24 +138,6 @@ const SubContentRenderer = ({ subContent }: { subContent: SubContent }) => {
               </Link>
             </div>
           )}
-
-          {/* Course */}
-          {content.courseImg &&
-            content.courseLink &&
-            content.courseLabel && (
-              <div className={` ${styles["flex-8px"]}`}>
-                <Image
-                  src={content.courseImg}
-                  alt="Course icon"
-                  className={`icon-general ${styles["book-icon"]}`}
-                />
-                <Link href={content.courseLink}>
-                  <p className={styles["link-label-position"]}>
-                    {content.courseLabel}
-                  </p>
-                </Link>
-              </div>
-            )}
         </div>
       ))}
     </div>

@@ -3,7 +3,7 @@
     "keyword": "faux pas",
     "definitions": [
       {
-	      "audio": "/assets/audio/dictionary/xxx.mp3",
+	      "audio": "/f/faux-pas-noun.mp3",
 	      "word": "faux pas",
 		    "phonetics": "/ˌfoʊ ˈpɑː/",
 		    "partOfSpeech": "noun",
@@ -23,7 +23,7 @@
     "keyword": "face the music",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/f/face-the-music.mp3",
+        "audio": "/f/face-the-music.mp3",
         "word": "face the music",
         "partOfSpeech": "idiom",
         "enDefinition": "to admit that there's a problem; to deal with an unpleasant situation realistically",
@@ -40,8 +40,9 @@
     "keyword": "feel like",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/f/feel like.mp3",
+        "audio": "/f/feel-like-d.mp3",
         "word": "feel like",
+        "partOfSpeech": "verbal expression",
         "ptDefinition": "sentir-se como",
         "examples": [
           {
@@ -60,11 +61,10 @@
         ]
       },
       {
-        "word": "feel like",
         "ptDefinition": "ter vontade, apetecer",
         "examples": [
           {
-            "enExample": "I feel like a drink",
+            "enExample": "I feel like a drink.",
             "ptExample": "Estou com vontade de beber."
           },
           {
@@ -73,7 +73,7 @@
           },
           {
             "enExample": "[+ing] Do you feel like going to the movies?",
-            "ptExample": "Você está a fim de ir ao cinema?."
+            "ptExample": "Você está a fim de ir ao cinema?"
           }
         ]
       }
@@ -83,7 +83,7 @@
     "keyword": "fetus",
     "definitions": [
       {
-	      "audio": "/assets/audio/dictionary/f/fetus-noun.mp3",
+	      "audio": "/f/fetus-noun.mp3",
 	      "word": "fetus",
 		    "phonetics": "/ˈfiː.t̬əs/",
 		    "partOfSpeech": "noun",
@@ -102,7 +102,7 @@
     "keyword": "focus",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/f/focus-noun.mp3",
+        "audio": "/f/focus-noun.mp3",
         "word": "focus",
         "phonetics": "/ˈfoʊ.kəs/",
         "partOfSpeech": "noun",
@@ -116,7 +116,7 @@
         "synonyms": "concentration, attention, center, spotlight, limelight"
       },
       {
-        "audio": "/assets/audio/dictionary/f/focus-regular-verb.mp3",
+        "audio": "/f/focus-regular-verb.mp3",
         "word": "focus",
         "phonetics": "/ˈfoʊ.kəs/",
         "partOfSpeech": "regular verb",

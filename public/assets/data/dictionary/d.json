@@ -3,7 +3,7 @@
     "keyword": "deaf",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/d/deafness-d.mp3",
+        "audio": "/d/deafness-d.mp3",
         "word": "deafness",
         "phonetics": "/ˈdef.nəs/",
         "partOfSpeech": "noun",
@@ -22,7 +22,7 @@
     "keyword": "dead",
     "definitions": [
       {
-        "audio": "/assets/audio/dictionary/d/deadliest-d.mp3",
+        "audio": "/d/deadliest-d.mp3",
         "word": "deadliest",
         "phonetics": "/ˈded.liəst/",
         "partOfSpeech": "superlative of deadly",
@@ -72,7 +72,7 @@
     "keyword": "dulce de leche",
     "definitions": [
       {
-	      "audio": "/assets/audio/dictionary/d/dulce-de-leche.mp3",
+	      "audio": "/d/dulce-de-leche.mp3",
 	      "word": "dulce de leche",
 		    "phonetics": "/ˌdʌl.seɪ də ˈletʃ.eɪ/",
 		    "partOfSpeech": "noun",

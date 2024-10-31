@@ -19,11 +19,6 @@ import {
 
 import { cat1, cat2 } from "@/img/index";
 import { VocabularyComponent } from "@/types/Vocabulary";
-import { VocabularyGrammar } from "@/components/Lessons/VocabularyGrammar";
-import { useEffect, useState } from "react";
-
-// import {fetchTextData, TextData}
-// from "@/components/Lessons/VocabularyGrammar/api-beginner-whiteboard";
 
 const warmUpPrompt = [
   {
@@ -185,23 +180,8 @@ const wrapUpPrompt = [
 ];
 
 export default function MockVocabularyGrammar() {
-  const [data, setData] = useState([]);
-
-//   useEffect(() => {
-//     const fetchData = async () => {
-//       try {
-//         const result = await fetchTextData();
-//         setData(result);
-//       } catch (error) {
-//         console.error("Failed to fetch data", error);
-//       }
-//     };
-//     fetchData();
-//   }, []);
   return (
     <>
-      <VocabularyGrammar data={data} />
-
       <Whiteboard
         title="Vocabulary / Grammar"
         subTitle="..."
@@ -250,7 +230,7 @@ export default function MockVocabularyGrammar() {
 
           {/* Presentation */}
           <BoardCard
-            label="Presention"
+            label="Presentation"
             time="20'"
             bgColor="black"
             textColor="white"
@@ -273,12 +253,14 @@ export default function MockVocabularyGrammar() {
             >
               <Text texts={pronunciationPrompt} />
             </BoardCard>
+
+            {/* Form / Use */}
             <BoardCard label="Form / Use" bgColor="lightgray" textColor="black">
               <p>...</p>
             </BoardCard>
+          </BoardCard>
 
             {/* Practice */}
-          </BoardCard>
           <BoardCard label="Practice" bgColor="black" textColor="white">
             {/* High Control Written Practice */}
             <BoardCard
@@ -303,7 +285,7 @@ export default function MockVocabularyGrammar() {
               </Card>
             </BoardCard>
 
-            {/* High Controo Oral Practice */}
+            {/* High Control Oral Practice */}
             <BoardCard
               label="High Control Oral Practice"
               bgColor="lightgray"

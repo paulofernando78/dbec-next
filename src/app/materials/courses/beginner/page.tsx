@@ -4,10 +4,22 @@ import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard";
 
 const contents = [
-  // Lessons 2 - 6 + Written and Oral Quiz
+  // Lessons 1 - 6 + Written and Oral Quiz
   {
-    mainLabel: "Lessons 2 - 6 + Written and Oral Quiz",
+    mainLabel: "Lessons 1 - 6 + Written and Oral Quiz",
     subContents: [
+      // Lesson 1
+      {
+        bgColor: "#FCC418",
+        textColor: "black",
+        label: "Lesson 1",
+        contents: [
+          {
+            content:
+              "Let's get to know each other / one another better.",
+          },
+        ],
+      },
       // Lesson 2
       {
         bgColor: "#FCC418",
@@ -1147,7 +1159,7 @@ export default function Beginner() {
         <div className="line-break">
           <p className="bold">Jump to:</p>
           <div>
-            <p>Lesson 2 - 6 + Written and Oral Quiz</p>
+            <p>Lesson 1 - 6 + Written and Oral Quiz</p>
             <p>Lesson 7 - 11 + Written and Oral Quiz</p>
             <p>Lesson 12 - 16 + Written and Oral Quiz</p>
             <p>Lesson 17 - 21 + Written and Oral Quiz</p>
@@ -1178,10 +1190,6 @@ export default function Beginner() {
             • Can interact in a simple way provided the other person talks
             slowly and clearly and is prepared to help.
           </p>
-        </BoardCard>
-        {/* Lesson 1 */}
-        <BoardCard label="Lesson 1" bgColor="#FCC418">
-          <p>Let's get to know each other / one another better.</p>
         </BoardCard>
         <ContentCard contents={contents} />
         <ScrollToTop />

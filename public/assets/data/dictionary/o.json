@@ -3,7 +3,7 @@
         "keyword": "outage",
         "definitions": [
           {
-              "audio": "/assets/audio/dictionary/xxx.mp3",
+              "audio": "/outage-noun.mp3",
               "word": "outage",
                 "phonetics": "/ˈaʊ.t̬ɪdʒ/",
                 "partOfSpeech": "noun",
