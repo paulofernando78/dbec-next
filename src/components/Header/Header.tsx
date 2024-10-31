@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import Image from "next/image";
 
 // CSS
@@ -27,9 +28,11 @@ export const Header = ({ show, toggleShow }: HeaderProps) => {
         className={styles["btn-menu"]}
         onClick={() => toggleShow()}
       />
-      <p className={styles["logo-name"]}>
-        <b>DAILY BASIS ENGLISH COURSE</b>
-      </p>
+      <Link href="/materials">
+        <p className={styles["logo-name"]}>
+          <b>DAILY BASIS ENGLISH COURSE</b>
+        </p>
+      </Link>
     </div>
   );
 };

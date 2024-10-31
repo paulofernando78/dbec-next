@@ -6,7 +6,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 export default function Material() {
   return (
     <>
-      <Whiteboard title="Dashboard" />
+      <Whiteboard title="Home" />
       <div className="line-break">
         <Welcome />
         <HowYouFeeling />
