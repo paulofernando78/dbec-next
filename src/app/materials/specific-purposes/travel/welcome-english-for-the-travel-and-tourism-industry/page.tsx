@@ -3,11 +3,11 @@ import { Whiteboard } from "@/components/Whiteboard";
 
 const contents = [
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Different kinds of people",
+        cardLabel: "Different kinds of people",
         contents: [
           {
             link: "/specific-purposes/travel/welcome-english-for-the-travel-and-tourism-industry/Unit-1",
@@ -30,7 +30,7 @@ const contents = [
       {
         bgColor: "black",
         textColor: "white",
-        label: "International travel",
+        cardLabel: "International travel",
         contents: [
           {
             link: "/specific-purposes/travel/welcome-english-for-the-travel-and-tourism-industry/Unit-5",
@@ -61,7 +61,7 @@ const contents = [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Phone calls",
+        cardLabel: "Phone calls",
         contents: [
           {
             link: "/specific-purposes/travel/welcome-english-for-the-travel-and-tourism-industry/Unit-11",
@@ -84,7 +84,7 @@ const contents = [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Food and drinks",
+        cardLabel: "Food and drinks",
         contents: [
           {
             link: "/specific-purposes/travel/welcome-english-for-the-travel-and-tourism-industry/Unit-15",
@@ -115,7 +115,7 @@ const contents = [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Letters and faxes",
+        cardLabel: "Letters and faxes",
         contents: [
           {
             link: "/specific-purposes/travel/welcome-english-for-the-travel-and-tourism-industry/Unit-21",
@@ -138,7 +138,7 @@ const contents = [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Accomodation",
+        cardLabel: "Accomodation",
         contents: [
           {
             link: "/specific-purposes/travel/welcome-english-for-the-travel-and-tourism-industry/Unit-25",
@@ -169,7 +169,7 @@ const contents = [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Money",
+        cardLabel: "Money",
         contents: [
           {
             link: "/specific-purposes/travel/welcome-english-for-the-travel-and-tourism-industry/Unit-31",
@@ -192,7 +192,7 @@ const contents = [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Travelling around.",
+        cardLabel: "Travelling around.",
         contents: [
           {
             link: "/specific-purposes/travel/welcome-english-for-the-travel-and-tourism-industry/Unit-35",
@@ -223,7 +223,7 @@ const contents = [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Problems",
+        cardLabel: "Problems",
         contents: [
           {
             link: "/specific-purposes/travel/welcome-english-for-the-travel-and-tourism-industry/Unit-41",
@@ -246,7 +246,7 @@ const contents = [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Attractions and activities",
+        cardLabel: "Attractions and activities",
         contents: [
           {
             link: "/specific-purposes/travel/welcome-english-for-the-travel-and-tourism-industry/Unit-45",
