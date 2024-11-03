@@ -2,11 +2,11 @@ import { ContentCard } from "@/components/Cards/ContentCard";
 
 const contents = [
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "...",
+        cardLabel: "...",
         contents: [
           {
             content: "...",
