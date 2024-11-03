@@ -7,7 +7,7 @@ import {
   BoardCard,
   Card,
   FillInTheBlanks,
-  ExclamationIcon
+  ExclamationIcon,
 } from "@/components";
 
 // Images
@@ -17,7 +17,6 @@ import {
   smallSwimmingPool,
   inFiveMinutes,
 } from "@/img/index";
-
 
 const fillInTheBlanks = [
   {
@@ -273,15 +272,12 @@ export default function Unit103() {
                     (of) November. (UK)
                   </p>
                 </div>
-                <div className="red-dashed-border">
-                  <ExclamationIcon>
-                    <p>
-                      <span className="bold">at</span> the weekend / weekends
-                      (UK)
-                    </p>
-                    <p>Use ordinal numbers for dates.</p>
-                  </ExclamationIcon>
-                </div>
+                <ExclamationIcon>
+                  <p>
+                    <span className="bold">at</span> the weekend / weekends (UK)
+                  </p>
+                  <p>Use ordinal numbers for dates.</p>
+                </ExclamationIcon>
               </div>
             </div>
 
@@ -331,19 +327,17 @@ export default function Unit103() {
                     <span className="bold unerline">in</span> spring.
                   </p>
                 </div>
-                <div className="red-dashed-border">
-                  <ExclamationIcon>
-                    <p>Specific</p>
-                  </ExclamationIcon>
-                  <p>
-                    <span className="bold unerline">in</span> <mark>the</mark>{" "}
-                    spring of 1967... (specific)
-                  </p>
-                  <p>
-                    <span className="bold unerline">in</span> <mark>the</mark>{" "}
-                    summer of 2018...
-                  </p>
-                </div>
+                <ExclamationIcon>
+                  <p>Specific</p>
+                </ExclamationIcon>
+                <p>
+                  <span className="bold unerline">in</span> <mark>the</mark>{" "}
+                  spring of 1967... (specific)
+                </p>
+                <p>
+                  <span className="bold unerline">in</span> <mark>the</mark>{" "}
+                  summer of 2018...
+                </p>
               </div>
             </div>
           </div>
@@ -391,43 +385,40 @@ export default function Unit103() {
                 </p>
               </div>
             </div>
-            <div
-              className="red-dashed-border margin-bottom"
-              style={{ marginBottom: ".7rem" }}
-            >
+            <div>
               <ExclamationIcon>
-                <p className="italic">Exceptions</p>
+                <p className="italic margin-bottom">Exceptions</p>
+                <p>
+                  - <span className="bold">on</span> Christmas <mark>Day</mark>
+                </p>
+                <p>
+                  - <span className="bold">at night</span>{" "}
+                  <span className="portuguese">
+                    se refere ao fato de não mais ser dia como um todo, de uma
+                    forma geral (de/à noite).
+                  </span>{" "}
+                </p>
+
+                <p>
+                  - <span className="bold">in the night</span>{" "}
+                  <span className="portuguese">
+                    enfatiza a idéia de ser tarde, escuro e as pessoas estarem
+                    dormindo (na noite). -{" "}
+                    <span className="bold">in the night</span>{" "}
+                  </span>
+                  • I heard an owl hooting{" "}
+                  <span className="bold">in the night</span>.{" "}
+                  <span className="portuguese">
+                    Eu ouvi um pio de coruja no meio da noite.
+                  </span>
+                </p>
+
+                <p>
+                  - <span className="bold">in the end</span> no fim das contas;
+                  finalmente
+                  <span className=""></span>
+                </p>
               </ExclamationIcon>
-              <p>
-                - <span className="bold">on</span> Christmas <mark>Day</mark>
-              </p>
-              <p>
-                - <span className="bold">at night</span>{" "}
-                <span className="portuguese">
-                  se refere ao fato de não mais ser dia como um todo, de uma
-                  forma geral (de/à noite).
-                </span>{" "}
-              </p>
-
-              <p>
-                - <span className="bold">in the night</span>{" "}
-                <span className="portuguese">
-                  enfatiza a idéia de ser tarde, escuro e as pessoas estarem
-                  dormindo (na noite). -{" "}
-                  <span className="bold">in the night</span>{" "}
-                </span>
-                • I heard an owl hooting{" "}
-                <span className="bold">in the night</span>.{" "}
-                <span className="portuguese">
-                  Eu ouvi um pio de coruja no meio da noite.
-                </span>
-              </p>
-
-              <p>
-                - <span className="bold">in the end</span> no fim das contas;
-                finalmente
-                <span className=""></span>
-              </p>
             </div>
           </div>
         </BoardCard>
@@ -496,11 +487,9 @@ export default function Unit103() {
                 </p>
               </div>
             </div>
-            <div style={{ marginBottom: ".4rem" }}>
-              <ExclamationIcon>
-                <p>Check the exercise on page 10. Continue on the next page</p>
-              </ExclamationIcon>
-            </div>
+            <ExclamationIcon>
+              <p>Check the exercise on page 10. Continue on the next page</p>
+            </ExclamationIcon>
           </div>
         </BoardCard>
 

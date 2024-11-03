@@ -1,5 +1,23 @@
 import { Whiteboard } from "@/components/Whiteboard";
-import styles from "./PlacementTest.module.css";
+import styles from "./styles.module.css";
+import { TextArea } from "@/components/TextArea";
+
+interface PlacementTestProps2 {
+  levels: any[];
+}
+
+interface Level {
+  level: string;
+  tasks: Task[];
+  bgColor: string;
+}
+
+interface Task {
+  taskNumber: string;
+  taskType: string;
+  languageFocus: string;
+  examples: string;
+}
 
 const defaultLevels: Level[] = [
   {
@@ -160,23 +178,6 @@ const defaultLevels: Level[] = [
   },
 ];
 
-interface PlacementTestProps2 {
-  levels: any[];
-}
-
-interface Level {
-  level: string;
-  tasks: Task[];
-  bgColor: string;
-}
-
-interface Task {
-  taskNumber: string;
-  taskType: string;
-  languageFocus: string;
-  examples: string;
-}
-
 export default function PlacementTest({ levels }: any) {
   levels = defaultLevels;
   return (
@@ -209,6 +210,9 @@ export default function PlacementTest({ levels }: any) {
               </div>
             </div>
           ))}
+          <div className={styles["text-area"]}>
+            <TextArea />
+          </div>
         </div>
       ))}
     </>
