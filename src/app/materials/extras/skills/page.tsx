@@ -4,13 +4,13 @@ import { Whiteboard } from "@/components/Whiteboard";
 const contents = [
   // Listening
   {
-    mainLabel: "Listening",
-    subContents: [
+    headerLabel: "Listening",
+    cardContents: [
       // Audiobooks
       {
         bgColor: "lightgrey",
         textColor: "black",
-        label: "Audiobooks",
+        cardLabel: "Audiobooks",
         contents: [
           {
             link: "/materials/extras/skills/listening/penguin-kids",
@@ -26,7 +26,7 @@ const contents = [
       {
         bgColor: "lightgray",
         textColor: "black",
-        label: "Articles (Intermediate)",
+        cardLabel: "Articles (Intermediate)",
         contents: [
           {
             link: "/materials//extras/skills/listening/articles/arts-and-culture",
@@ -46,7 +46,7 @@ const contents = [
       {
         bgColor: "lightgray",
         textColor: "black",
-        label: "Radios",
+        cardLabel: "Radios",
         contents: [
           { globeLink: "https://laist.com/", globeLabel: "LAist" },
           {
@@ -60,7 +60,7 @@ const contents = [
       {
         bgColor: "lightgray",
         textColor: "black",
-        label: "Links",
+        cardLabel: "Links",
         contents: [
           { globeLink: "https://chatgpt.com/", globeLabel: "ChatGPT" },
           { globeLink: "https://youglish.com/", globeLabel: "Youglish" },
@@ -86,12 +86,12 @@ const contents = [
   },
   // Reading
   {
-    mainLabel: "Reading",
-    subContents: [
+    headerLabel: "Reading",
+    cardContents: [
       {
         bgColor: "lightgray",
         textColor: "black",
-        label: "Links",
+        cardLabel: "Links",
         contents: [
           { globeLink: "https://www.phrasemix.com/", globeLabel: "Phrase Mix" },
           {
@@ -104,32 +104,32 @@ const contents = [
   },
   // Speaking
   {
-    mainLabel: "Speaking",
-    subContents: [
+    headerLabel: "Speaking",
+    cardContents: [
       {
         bgColor: "lightgray",
         textColor: "black",
-        label: "Topics",
+        cardLabel: "Topics",
         contents: [{ globeLink: "...", globeLabel: "..." }],
       },
     ],
   },
   // Writing
   {
-    mainLabel: "Writing",
-    subContents: [
+    headerLabel: "Writing",
+    cardContents: [
       {
         bgColor: "lightgray",
         textColor: "black",
-        label: "Topics",
+        cardLabel: "Topics",
         contents: [{ globeLink: "...", globeLabel: "..." }],
       },
     ],
   },
   // Miscellaneous
   {
-    mainLabel: "Miscellaneous",
-    subContents: [
+    headerLabel: "Miscellaneous",
+    cardContents: [
       {
         bgColor: "lightgray",
         textColor: "black",
