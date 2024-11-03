@@ -1,5 +1,5 @@
-import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard";
+import { ContentCard } from "@/components/Cards/ContentCard";
 
 const contents = [
   // Present and past
@@ -902,7 +902,7 @@ const contents = [
   },
 ];
 
-export default function Grammar() {
+export default function GrammarIntermediate() {
   return (
     <>
       <Whiteboard

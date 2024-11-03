@@ -20,7 +20,6 @@ const fillInTheBlanks = [
     width: "50px",
     title: "103.1 Choose at / on /in.",
     subTitle: "Write in lower-case letters. Escreva em letras minúsculas.",
-    beforeBlank: "1.",
     correctAnswer: ["on"],
     afterBlank: "June 6 (sixth)",
     lineBreakAfter: true,
@@ -28,7 +27,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "2.",
     correctAnswer: ["in"],
     afterBlank: "the evening",
     lineBreakAfter: true,
@@ -36,7 +34,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "3.",
     correctAnswer: ["at"],
     afterBlank: "2:30",
     lineBreakAfter: true,
@@ -44,7 +41,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "4.",
     correctAnswer: ["on"],
     afterBlank: "Wednesday",
     lineBreakAfter: true,
@@ -52,7 +48,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "5.",
     correctAnswer: ["in"],
     afterBlank: "2007",
     lineBreakAfter: true,
@@ -60,7 +55,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "6.",
     correctAnswer: ["in"],
     afterBlank: "September",
     lineBreakAfter: true,
@@ -68,7 +62,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "7.",
     correctAnswer: ["on"],
     afterBlank: "September 24 (twenty-fourth)",
     lineBreakAfter: true,
@@ -76,7 +69,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "8.",
     correctAnswer: ["on"],
     afterBlank: "Thursday",
     lineBreakAfter: true,
@@ -84,7 +76,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "9.",
     correctAnswer: ["at"],
     afterBlank: "11:45",
     lineBreakAfter: true,
@@ -92,7 +83,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "10.",
     correctAnswer: ["on"],
     afterBlank: "Christmas Day",
     lineBreakAfter: true,
@@ -100,7 +90,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "11.",
     correctAnswer: ["at"],
     afterBlank: "Christmas",
     lineBreakAfter: true,
@@ -108,7 +97,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "12.",
     correctAnswer: ["in"],
     afterBlank: "the morning",
     lineBreakAfter: true,
@@ -116,7 +104,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "13.",
     correctAnswer: ["on"],
     afterBlank: "Friday morning",
     lineBreakAfter: true,
@@ -124,7 +111,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "14.",
     correctAnswer: ["on"],
     afterBlank: "Saturday night",
     lineBreakAfter: true,
@@ -132,7 +118,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "15.",
     correctAnswer: ["at", "in"],
     afterBlank: "night",
     lineBreakAfter: true,
@@ -140,7 +125,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "16.",
     correctAnswer: ["at"],
     afterBlank: "the end of the day",
     lineBreakAfter: true,
@@ -148,7 +132,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "17.",
     correctAnswer: ["on"],
     afterBlank: "the weekend (USA)",
     lineBreakAfter: true,
@@ -156,7 +139,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "18.",
     correctAnswer: ["in"],
     afterBlank: "winter",
     lineBreakAfter: true,
@@ -164,7 +146,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "19.",
     correctAnswer: ["in"],
     afterBlank: "the end of the problem",
     lineBreakAfter: true,
@@ -172,7 +153,6 @@ const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
-    beforeBlank: "20.",
     correctAnswer: ["in"],
     afterBlank: "summer",
     lineBreakAfter: true,

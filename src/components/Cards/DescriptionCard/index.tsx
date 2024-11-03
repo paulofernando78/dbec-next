@@ -6,7 +6,6 @@ import Image from "next/image";
 import styles from "./styles.module.css";
 
 // Images
-import linkIcon from "@/img/icon/link.png";
 import globeIcon from "@/img/icon/globe.png";
 import { Card } from "../Card";
 

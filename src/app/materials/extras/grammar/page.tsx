@@ -1,20 +1,20 @@
 import { Whiteboard } from "@/components/Whiteboard";
-import { DescriptionCard } from "@/components/Cards/DescriptionCard";
+import { ContentCard } from "@/components/Cards/ContentCard";
 
-const descriptions = [
+const contents = [
   {
-    subDescriptions: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Grammar in Use",
+        cardLabel: "Grammar in Use",
         contents: [
           {
-            link: "/extras/grammar/elementary",
+            link: "/materials/extras/grammar/elementary",
             linkLabel: "Elementary",
           },
           {
-            link: "/extras/grammar/intermediate",
+            link: "/materials/extras/grammar/intermediate",
             linkLabel: "Intermediate",
           },
         ],
@@ -23,11 +23,11 @@ const descriptions = [
   },
 ];
 
-export default function Grammar() {
+export default function GrammarInUse() {
   return (
     <>
       <Whiteboard title="Extras" subTitle="Grammar" />
-      <DescriptionCard descriptions={descriptions} />
+      <ContentCard contents={contents} />
     </>
   );
 }
