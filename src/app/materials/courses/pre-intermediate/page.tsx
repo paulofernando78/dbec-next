@@ -1,27 +1,16 @@
+import { BoardCard } from "@/components";
 import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard";
 
-import { preIntermediate } from "@/img/index";
-
 const contents = [
   {
-    subContents: [
-      // CEFR
-      {
-        bgColor: "gray",
-        textColor: "white",
-        label: "CEFR (Common European Framework of Reference)",
-        contents: [
-          {
-            content: "• A2 ➜ B1",
-          },
-        ],
-      },
+    headerLabel: "Lessons 1 - 6 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 1
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 1",
+        cardLabel: "Lesson 1",
         contents: [
           {
             content: "Welcome / Icebreaker",
@@ -33,9 +22,9 @@ const contents = [
       },
       // Lesson 2
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 2",
+        cardLabel: "Lesson 2",
         contents: [
           {
             content:
@@ -43,27 +32,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-2/flipped-classroom",
-            courseLabel: "Flipped Classroom • Good memories (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-2/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Good memories (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-2/classwork",
-            courseLabel: "Classwork • Good memories (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-2/classwork",
+            checkboxLabel: "Classwork • Good memories (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-2/homework",
-            courseLabel: "Homework • Good memories (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-2/homework",
+            checkboxLabel: "Homework • Good memories (Cycle 1)",
           },
         ],
       },
       // Lesson 3
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 3",
+        cardLabel: "Lesson 3",
         contents: [
           {
             content:
@@ -71,27 +60,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-3/flipped-classroom",
-            courseLabel: "Flipped Classroom • Good memories (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-3/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Good memories (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-3/classwork",
-            courseLabel: "Classwork • Good memories (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-3/classwork",
+            checkboxLabel: "Classwork • Good memories (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-3/homework",
-            courseLabel: "Homework • Good memories (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-3/homework",
+            checkboxLabel: "Homework • Good memories (Cycle 2)",
           },
         ],
       },
       // Lesson 4
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 4",
+        cardLabel: "Lesson 4",
         contents: [
           {
             content:
@@ -99,27 +88,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-4/flipped-classroom",
-            courseLabel: "Flipped Classroom • Life in the city (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-4/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Life in the city (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-4/classwork",
-            courseLabel: "Classwork • Life in the city (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-4/classwork",
+            checkboxLabel: "Classwork • Life in the city (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-4/homework",
-            courseLabel: "Homework • Life in the city (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-4/homework",
+            checkboxLabel: "Homework • Life in the city (Cycle 1)",
           },
         ],
       },
       // Lesson 5
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 5",
+        cardLabel: "Lesson 5",
         contents: [
           {
             content:
@@ -127,27 +116,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-5/flipped-classroom",
-            courseLabel: "Flipped Classroom • Life in the city (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-5/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Life in the city (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-5/classwork",
-            courseLabel: "Classwork • Life in the city (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-5/classwork",
+            checkboxLabel: "Classwork • Life in the city (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-5/homework",
-            courseLabel: "Homework • Life in the city (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-5/homework",
+            checkboxLabel: "Homework • Life in the city (Cycle 2)",
           },
         ],
       },
       // Lesson 6 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 6",
+        cardLabel: "Lesson 6",
         contents: [
           {
             content: "Learning objectives:",
@@ -160,18 +149,23 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-6/classwork",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-6/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 2-5 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  {
+    headerLabel: "Lessons 7 - 11 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 7
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 7",
+        cardLabel: "Lesson 7",
         contents: [
           {
             content:
@@ -179,27 +173,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-7/flipped-classroom",
-            courseLabel: "Flipped Classroom • Making changes (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-7/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Making changes (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-7/classwork",
-            courseLabel: "Classwork • Making changes (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-7/classwork",
+            checkboxLabel: "Classwork • Making changes (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-7/homework",
-            courseLabel: "Homework • Making changes (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-7/homework",
+            checkboxLabel: "Homework • Making changes (Cycle 1)",
           },
         ],
       },
       // Lesson 8
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 8",
+        cardLabel: "Lesson 8",
         contents: [
           {
             content:
@@ -207,27 +201,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-8/flipped-classroom",
-            courseLabel: "Flipped Classroom • Making changes (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-8/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Making changes (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-8/classwork",
-            courseLabel: "Classwork • Making changes (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-8/classwork",
+            checkboxLabel: "Classwork • Making changes (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-8/homework",
-            courseLabel: "Homework • Making changes (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-8/homework",
+            checkboxLabel: "Homework • Making changes (Cycle 2)",
           },
         ],
       },
       // Lesson 9
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 9",
+        cardLabel: "Lesson 9",
         contents: [
           {
             content:
@@ -235,28 +229,28 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-9/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-9/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • Have you ever tried it? (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-9/classwork",
-            courseLabel: "Classwork • Have you ever tried it? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-9/classwork",
+            checkboxLabel: "Classwork • Have you ever tried it? (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-9/homework",
-            courseLabel: "Homework • Have you ever tried it? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-9/homework",
+            checkboxLabel: "Homework • Have you ever tried it? (Cycle 1)",
           },
         ],
       },
       // Lesson 10
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 10",
+        cardLabel: "Lesson 10",
         contents: [
           {
             content:
@@ -264,28 +258,28 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-10/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-10/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • Have you ever tried it? (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-10/classwork",
-            courseLabel: "Classwork • Have you ever tried it? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-10/classwork",
+            checkboxLabel: "Classwork • Have you ever tried it? (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-10/homework",
-            courseLabel: "Homework • Have you ever tried it? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-10/homework",
+            checkboxLabel: "Homework • Have you ever tried it? (Cycle 2)",
           },
         ],
       },
       // Lesson 11 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 11",
+        cardLabel: "Lesson 11",
         contents: [
           {
             content: "Learning objectives:",
@@ -298,18 +292,23 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-11/classwork",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-11/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 7-10 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  {
+    headerLabel: "Lessons 12 - 16 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 12
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 12",
+        cardLabel: "Lesson 12",
         contents: [
           {
             content:
@@ -317,27 +316,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-12/flipped-classroom",
-            courseLabel: "Flipped Classroom • Hit the road! (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-12/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Hit the road! (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-12/classwork",
-            courseLabel: "Classwork • Hit the road! (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-12/classwork",
+            checkboxLabel: "Classwork • Hit the road! (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-12/homework",
-            courseLabel: "Homework • Hit the road! (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-12/homework",
+            checkboxLabel: "Homework • Hit the road! (Cycle 1)",
           },
         ],
       },
       // Lesson 13
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 13",
+        cardLabel: "Lesson 13",
         contents: [
           {
             content:
@@ -345,27 +344,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-13/flipped-classroom",
-            courseLabel: "Flipped Classroom • Hit the road! (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-13/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Hit the road! (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-13/classwork",
-            courseLabel: "Classwork • Hit the road! (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-13/classwork",
+            checkboxLabel: "Classwork • Hit the road! (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-13/homework",
-            courseLabel: "Homework • Hit the road! (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-13/homework",
+            checkboxLabel: "Homework • Hit the road! (Cycle 2)",
           },
         ],
       },
       // Lesson 14
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 14",
+        cardLabel: "Lesson 14",
         contents: [
           {
             content:
@@ -373,27 +372,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-14/flipped-classroom",
-            courseLabel: "Flipped Classroom • Sure! I'll do it. (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-14/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Sure! I'll do it. (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-14/classwork",
-            courseLabel: "Classwork • Sure! I'll do it. (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-14/classwork",
+            checkboxLabel: "Classwork • Sure! I'll do it. (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-14/homework",
-            courseLabel: "Homework • Sure! I'll do it. (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-14/homework",
+            checkboxLabel: "Homework • Sure! I'll do it. (Cycle 1)",
           },
         ],
       },
       // Lesson 15
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 15",
+        cardLabel: "Lesson 15",
         contents: [
           {
             content:
@@ -401,27 +400,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-15/flipped-classroom",
-            courseLabel: "Flipped Classroom • Sure! I'll do it. (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-15/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Sure! I'll do it. (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-15/classwork",
-            courseLabel: "Classwork • Sure! I'll do it. (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-15/classwork",
+            checkboxLabel: "Classwork • Sure! I'll do it. (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-15/homework",
-            courseLabel: "Homework • Sure! I'll do it. (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-15/homework",
+            checkboxLabel: "Homework • Sure! I'll do it. (Cycle 2)",
           },
         ],
       },
       // Lesson 16 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 16",
+        cardLabel: "Lesson 16",
         contents: [
           {
             content: "Learning objectives:",
@@ -434,18 +433,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-16/classwork",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-16/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 12-15 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+
+  {
+    headerLabel: "Lessons 12 - 16 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 17
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 17",
+        cardLabel: "Lesson 17",
         contents: [
           {
             content:
@@ -453,28 +458,28 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-17/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-17/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • What do you use this for? (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-17/classwork",
-            courseLabel: "Classwork • What do you use this for? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-17/classwork",
+            checkboxLabel: "Classwork • What do you use this for? (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-17/homework",
-            courseLabel: "Homework • What do you use this for? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-17/homework",
+            checkboxLabel: "Homework • What do you use this for? (Cycle 1)",
           },
         ],
       },
       // Lesson 18
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 18",
+        cardLabel: "Lesson 18",
         contents: [
           {
             content:
@@ -482,28 +487,28 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-18/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-18/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • What do you use this for? (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-18/classwork",
-            courseLabel: "Classwork • What do you use this for? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-18/classwork",
+            checkboxLabel: "Classwork • What do you use this for? (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-18/homework",
-            courseLabel: "Homework • What do you use this for? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-18/homework",
+            checkboxLabel: "Homework • What do you use this for? (Cycle 2)",
           },
         ],
       },
       // Lesson 19
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 19",
+        cardLabel: "Lesson 19",
         contents: [
           {
             content:
@@ -511,27 +516,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-19/flipped-classroom",
-            courseLabel: "Flipped Classroom • Time to celebrate (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-19/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Time to celebrate (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-19/classwork",
-            courseLabel: "Classwork • Time to celebrate (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-19/classwork",
+            checkboxLabel: "Classwork • Time to celebrate (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-19/homework",
-            courseLabel: "Homework • Time to celebrate (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-19/homework",
+            checkboxLabel: "Homework • Time to celebrate (Cycle 1)",
           },
         ],
       },
       // Lesson 20
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 20",
+        cardLabel: "Lesson 20",
         contents: [
           {
             content:
@@ -539,27 +544,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-20/flipped-classroom",
-            courseLabel: "Flipped Classroom • Time to celebrate (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-20/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Time to celebrate (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-20/classwork",
-            courseLabel: "Classwork • Time to celebrate (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-20/classwork",
+            checkboxLabel: "Classwork • Time to celebrate (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-20/homework",
-            courseLabel: "Homework • Time to celebrate (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-20/homework",
+            checkboxLabel: "Homework • Time to celebrate (Cycle 2)",
           },
         ],
       },
       // Lesson 21 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 21",
+        cardLabel: "Lesson 21",
         contents: [
           {
             content: "Learning objectives:",
@@ -572,18 +577,23 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-21/classwork",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-21/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 17-20 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  {
+    headerLabel: "Lessons 2-22 + Written Test",
+    cardContents: [
       // Lesson 22 *Written Test
       {
-        bgColor: "purple",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 22",
+        cardLabel: "Lesson 22",
         contents: [
           {
             content: "Learning objectives:",
@@ -596,17 +606,22 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-22/classwork",
-            courseLabel: "Classwork • Review lessons 2-20 + Written Test",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-22/classwork",
+            checkboxLabel: "Classwork • Review lessons 2-20 + Written Test",
           },
         ],
       },
+    ],
+  },
+  {
+    headerLabel: "Lessons 23 - 27 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 23
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 23",
+        cardLabel: "Lesson 23",
         contents: [
           {
             content:
@@ -614,27 +629,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-23/flipped-classroom",
-            courseLabel: "Flipped Classroom • Only time will tell. (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-23/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Only time will tell. (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-23/classwork",
-            courseLabel: "Classwork • Only time will tell. (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-23/classwork",
+            checkboxLabel: "Classwork • Only time will tell. (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-23/homework",
-            courseLabel: "Homework • Only time will tell. (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-23/homework",
+            checkboxLabel: "Homework • Only time will tell. (Cycle 1)",
           },
         ],
       },
       // Lesson 24
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 24",
+        cardLabel: "Lesson 24",
         contents: [
           {
             content:
@@ -642,27 +657,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-24/flipped-classroom",
-            courseLabel: "Flipped Classroom • Only time will tell. (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-24/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Only time will tell. (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-24/classwork",
-            courseLabel: "Classwork • Only time will tell. (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-24/classwork",
+            checkboxLabel: "Classwork • Only time will tell. (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-24/homework",
-            courseLabel: "Homework • Only time will tell. (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-24/homework",
+            checkboxLabel: "Homework • Only time will tell. (Cycle 2)",
           },
         ],
       },
       // Lesson 25
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 25",
+        cardLabel: "Lesson 25",
         contents: [
           {
             content:
@@ -670,28 +685,28 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-25/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-25/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • I like working with people. (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-25/classwork",
-            courseLabel: "Classwork • I like working with people. (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-25/classwork",
+            checkboxLabel: "Classwork • I like working with people. (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-25/homework",
-            courseLabel: "Homework • I like working with people. (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-25/homework",
+            checkboxLabel: "Homework • I like working with people. (Cycle 1)",
           },
         ],
       },
       // Lesson 26
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 26",
+        cardLabel: "Lesson 26",
         contents: [
           {
             content:
@@ -699,28 +714,28 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-26/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-26/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • I like working with people. (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-26/classwork",
-            courseLabel: "Classwork • I like working with people. (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-26/classwork",
+            checkboxLabel: "Classwork • I like working with people. (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-26/homework",
-            courseLabel: "Homework • I like working with people. (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-26/homework",
+            checkboxLabel: "Homework • I like working with people. (Cycle 2)",
           },
         ],
       },
       // Lesson 27 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 27",
+        cardLabel: "Lesson 27",
         contents: [
           {
             content: "Learning objectives:",
@@ -733,18 +748,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-27/classwork",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-27/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 23-26 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+
+  {
+    headerLabel: "Lessons 28 - 32 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 28
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 28",
+        cardLabel: "Lesson 28",
         contents: [
           {
             content:
@@ -752,28 +773,28 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-28/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-28/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • It's really worth seeing! (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-28/classwork",
-            courseLabel: "Classwork • It's really worth seeing! (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-28/classwork",
+            checkboxLabel: "Classwork • It's really worth seeing! (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-28/homework",
-            courseLabel: "Homework • It's really worth seeing! (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-28/homework",
+            checkboxLabel: "Homework • It's really worth seeing! (Cycle 1)",
           },
         ],
       },
       // Lesson 29
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 29",
+        cardLabel: "Lesson 29",
         contents: [
           {
             content:
@@ -781,28 +802,28 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-29/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-29/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • It's really worth seeing! (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-29/classwork",
-            courseLabel: "Classwork • It's really worth seeing! (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-29/classwork",
+            checkboxLabel: "Classwork • It's really worth seeing! (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-29/homework",
-            courseLabel: "Homework • It's really worth seeing! (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-29/homework",
+            checkboxLabel: "Homework • It's really worth seeing! (Cycle 2)",
           },
         ],
       },
       // Lesson 30
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 30",
+        cardLabel: "Lesson 30",
         contents: [
           {
             content:
@@ -810,27 +831,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-30/flipped-classroom",
-            courseLabel: "Flipped Classroom • It's a long story. (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-30/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • It's a long story. (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-30/classwork",
-            courseLabel: "Classwork • It's a long story. (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-30/classwork",
+            checkboxLabel: "Classwork • It's a long story. (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-30/homework",
-            courseLabel: "Homework • It's a long story. (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-30/homework",
+            checkboxLabel: "Homework • It's a long story. (Cycle 1)",
           },
         ],
       },
       // Lesson 31
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 31",
+        cardLabel: "Lesson 31",
         contents: [
           {
             content:
@@ -838,27 +859,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-31/flipped-classroom",
-            courseLabel: "Flipped Classroom • It's a long story. (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-31/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • It's a long story. (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-31/classwork",
-            courseLabel: "Classwork • It's a long story. (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-31/classwork",
+            checkboxLabel: "Classwork • It's a long story. (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-31/homework",
-            courseLabel: "Homework • It's a long story. (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-31/homework",
+            checkboxLabel: "Homework • It's a long story. (Cycle 2)",
           },
         ],
       },
       // Lesson 32 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 32",
+        cardLabel: "Lesson 32",
         contents: [
           {
             content: "Learning objectives:",
@@ -871,18 +892,24 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-32/classwork",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-32/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 28-31 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+
+  {
+    headerLabel: "Lessons 33 - 37 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 33
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 33",
+        cardLabel: "Lesson 33",
         contents: [
           {
             content:
@@ -890,27 +917,28 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-33/flipped-classroom",
-            courseLabel: "Flipped Classroom • That's entertainment! (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-33/flipped-classroom",
+            checkboxLabel:
+              "Flipped Classroom • That's entertainment! (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-33/classwork",
-            courseLabel: "Classwork • That's entertainment! (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-33/classwork",
+            checkboxLabel: "Classwork • That's entertainment! (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-33/homework",
-            courseLabel: "Homework • That's entertainment! (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-33/homework",
+            checkboxLabel: "Homework • That's entertainment! (Cycle 1)",
           },
         ],
       },
       // Lesson 34
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 34",
+        cardLabel: "Lesson 34",
         contents: [
           {
             content:
@@ -918,27 +946,28 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-34/flipped-classroom",
-            courseLabel: "Flipped Classroom • That's entertainment! (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-34/flipped-classroom",
+            checkboxLabel:
+              "Flipped Classroom • That's entertainment! (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-34/classwork",
-            courseLabel: "Classwork • That's entertainment! (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-34/classwork",
+            checkboxLabel: "Classwork • That's entertainment! (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-34/homework",
-            courseLabel: "Homework • That's entertainment! (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-34/homework",
+            checkboxLabel: "Homework • That's entertainment! (Cycle 2)",
           },
         ],
       },
       // Lesson 35
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 35",
+        cardLabel: "Lesson 35",
         contents: [
           {
             content:
@@ -946,27 +975,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-35/flipped-classroom",
-            courseLabel: "Flipped Classroom • Now I get it! (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-35/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Now I get it! (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-35/classwork",
-            courseLabel: "Classwork • Now I get it! (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-35/classwork",
+            checkboxLabel: "Classwork • Now I get it! (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-35/homework",
-            courseLabel: "Homework • Now I get it! (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-35/homework",
+            checkboxLabel: "Homework • Now I get it! (Cycle 1)",
           },
         ],
       },
       // Lesson 36
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 36",
+        cardLabel: "Lesson 36",
         contents: [
           {
             content:
@@ -974,27 +1003,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-36/flipped-classroom",
-            courseLabel: "Flipped Classroom • Now I get it! (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-36/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Now I get it! (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-36/classwork",
-            courseLabel: "Classwork • Now I get it! (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-36/classwork",
+            checkboxLabel: "Classwork • Now I get it! (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-36/homework",
-            courseLabel: "Homework • Now I get it! (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-36/homework",
+            checkboxLabel: "Homework • Now I get it! (Cycle 2)",
           },
         ],
       },
       // Lesson 37 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 37",
+        cardLabel: "Lesson 37",
         contents: [
           {
             content: "Learning objectives:",
@@ -1007,18 +1036,24 @@ const contents = [
             content: "• identify areas that need improvement",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-37/classwork",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-37/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 33-36 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+
+  {
+    headerLabel: "Lessons 38 - 42 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 38
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 38",
+        cardLabel: "Lesson 38",
         contents: [
           {
             content:
@@ -1026,27 +1061,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-38/flipped-classroom",
-            courseLabel: "Flipped Classroom • I wouldn't do that? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-38/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • I wouldn't do that? (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-38/classwork",
-            courseLabel: "Classwork • I wouldn't do that? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-38/classwork",
+            checkboxLabel: "Classwork • I wouldn't do that? (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-38/homework",
-            courseLabel: "Homework • I wouldn't do that? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-38/homework",
+            checkboxLabel: "Homework • I wouldn't do that? (Cycle 1)",
           },
         ],
       },
       // Lesson 39
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 39",
+        cardLabel: "Lesson 39",
         contents: [
           {
             content:
@@ -1054,27 +1089,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-39/flipped-classroom",
-            courseLabel: "Flipped Classroom • I wouldn't do that? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-39/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • I wouldn't do that? (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-39/classwork",
-            courseLabel: "Classwork • I wouldn't do that? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-39/classwork",
+            checkboxLabel: "Classwork • I wouldn't do that? (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-39/homework",
-            courseLabel: "Homework • I wouldn't do that? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-39/homework",
+            checkboxLabel: "Homework • I wouldn't do that? (Cycle 2)",
           },
         ],
       },
       // Lesson 40
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 40",
+        cardLabel: "Lesson 40",
         contents: [
           {
             content:
@@ -1082,27 +1117,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-40/flipped-classroom",
-            courseLabel: "Flipped Classroom • Making excuses (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-40/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Making excuses (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-40/classwork",
-            courseLabel: "Classwork • Making excuses (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-40/classwork",
+            checkboxLabel: "Classwork • Making excuses (Cycle 1)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-40/homework",
-            courseLabel: "Homework • Making excuses (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-40/homework",
+            checkboxLabel: "Homework • Making excuses (Cycle 1)",
           },
         ],
       },
       // Lesson 41
       {
-        bgColor: "black",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 41",
+        cardLabel: "Lesson 41",
         contents: [
           {
             content:
@@ -1110,27 +1145,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-41/flipped-classroom",
-            courseLabel: "Flipped Classroom • Making excuses (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-41/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Making excuses (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-41/classwork",
-            courseLabel: "Classwork • Making excuses (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-41/classwork",
+            checkboxLabel: "Classwork • Making excuses (Cycle 2)",
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-41/homework",
-            courseLabel: "Homework • Making excuses (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-41/homework",
+            checkboxLabel: "Homework • Making excuses (Cycle 2)",
           },
         ],
       },
       // Lesson 42 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 42",
+        cardLabel: "Lesson 42",
         contents: [
           {
             content: "Learning objectives:",
@@ -1143,18 +1178,18 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-42/classwork",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-42/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 38-41 + Written and Oral Quiz",
           },
         ],
       },
       // Lesson 43 Written Test
       {
-        bgColor: "purple",
+        bgColor: "#1F8FEA",
         textColor: "white",
-        label: "Lesson 43",
+        cardLabel: "Lesson 43",
         contents: [
           {
             content: "Learning objectives:",
@@ -1167,9 +1202,9 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: preIntermediate,
-            courseLink: "/materials/courses/pre-intermediate/lesson-43/classwork",
-            courseLabel: "Classwork • Review lessons 23-41 + Written Test",
+            checkboxLink:
+              "/materials/courses/pre-intermediate/lesson-43/classwork",
+            checkboxLabel: "Classwork • Review lessons 23-41 + Written Test",
           },
         ],
       },
@@ -1186,6 +1221,14 @@ export default function PreIntermediate() {
         descriptions={["43 lessons"]}
       />
       <div className="line-break">
+      {/* CEFR */}
+      <BoardCard
+        label="CEFR (Common European Framework of Reference)"
+        bgColor="#1F8FEA"
+        textColor="white"
+      >
+        <p>• A2 ➜ B1</p>
+      </BoardCard>
         <ContentCard contents={contents} />
       </div>
     </>

@@ -1,36 +1,17 @@
+import { BoardCard } from "@/components";
 import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard";
 
-import { elementary } from "@/img/index";
-
 const contents = [
+  // Lessons 1 - 6 + Written and Oral Quiz
   {
-    subContents: [
-      // CEFR
-      {
-        bgColor: "gray",
-        textColor: "white",
-        label: "CEFR (Common European Framework of Reference)",
-        contents: [
-          {
-            content:
-              "• Can understand sentences and frequently used expressions related to areas of most immediate relevance (e.g. very basic personal and family information, shopping, local geography, employment).",
-          },
-          {
-            content:
-              "• Can communicate in simple and routine tasks requiring a1 simple and direct exchange of information on familiar and routine matters.",
-          },
-          {
-            content:
-              "• Can describe in simple terms aspects of his/her background, immediate environment and matters in areas of immediate Basic need.",
-          },
-        ],
-      },
+    headerLabel: "Lessons 1 - 6 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 1
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 1",
+        cardLabel: "Lesson 1",
         contents: [
           {
             content: "Welcome / Icebreaker",
@@ -42,9 +23,9 @@ const contents = [
       },
       // Lesson 2
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 2",
+        cardLabel: "Lesson 2",
         contents: [
           {
             content:
@@ -52,27 +33,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-2/flipped-classroom",
-            courseLabel: "Flipped Classroom • Where are you from? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-2/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Where are you from? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-2/classwork",
-            courseLabel: "Classwork • Where are you from? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-2/classwork",
+            checkboxLabel: "Classwork • Where are you from? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-2/homework",
-            courseLabel: "Homework • Where are you from? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-2/homework",
+            checkboxLabel: "Homework • Where are you from? (Cycle 1)",
           },
         ],
       },
       // Lesson 3
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 3",
+        cardLabel: "Lesson 3",
         contents: [
           {
             content:
@@ -80,27 +59,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-3/flipped-classroom",
-            courseLabel: "Flipped Classroom • Where are you from? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-3/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • Where are you from? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-3/classwork",
-            courseLabel: "Classwork • Where are you from? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-3/classwork",
+            checkboxLabel: "Classwork • Where are you from? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-3/homework",
-            courseLabel: "Homework • Where are you from? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-3/homework",
+            checkboxLabel: "Homework • Where are you from? (Cycle 2)",
           },
         ],
       },
       // Lesson 4
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 4",
+        cardLabel: "Lesson 4",
         contents: [
           {
             content:
@@ -108,27 +85,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-4/flipped-classroom",
-            courseLabel: "Flipped Classroom • What do you do? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-4/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • What do you do? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-4/classwork",
-            courseLabel: "Classwork • What do you do? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-4/classwork",
+            checkboxLabel: "Classwork • What do you do? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-4/homework",
-            courseLabel: "Homework • What do you do? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-4/homework",
+            checkboxLabel: "Homework • What do you do? (Cycle 1)",
           },
         ],
       },
       // Lesson 5
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 5",
+        cardLabel: "Lesson 5",
         contents: [
           {
             content:
@@ -136,27 +111,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-5/flipped-classroom",
-            courseLabel: "Flipped Classroom • What do you do? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-5/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • What do you do? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-5/classwork",
-            courseLabel: "Classwork • What do you do? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-5/classwork",
+            checkboxLabel: "Classwork • What do you do? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-5/homework",
-            courseLabel: "Homework • What do you do? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-5/homework",
+            checkboxLabel: "Homework • What do you do? (Cycle 2)",
           },
         ],
       },
       // Lesson 6 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 6",
+        cardLabel: "Lesson 6",
         contents: [
           {
             content: "Learning objectives:",
@@ -169,18 +142,22 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-6/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/elementary/lesson-6/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 2-5 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  {
+    headerLabel: "Lessons 7 - 11 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 7
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 7",
+        cardLabel: "Lesson 7",
         contents: [
           {
             content:
@@ -188,27 +165,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-7/flipped-classroom",
-            courseLabel: "Flipped Classroom • How much are these? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-7/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • How much are these? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-7/classwork",
-            courseLabel: "Classwork • How much are these? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-7/classwork",
+            checkboxLabel: "Classwork • How much are these? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-7/homework",
-            courseLabel: "Homework • How much are these? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-7/homework",
+            checkboxLabel: "Homework • How much are these? (Cycle 1)",
           },
         ],
       },
       // Lesson 8
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 8",
+        cardLabel: "Lesson 8",
         contents: [
           {
             content:
@@ -216,27 +191,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-8/flipped-classroom",
-            courseLabel: "Flipped Classroom • How much are these? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-8/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • How much are these? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-8/classwork",
-            courseLabel: "Classwork • How much are these? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-8/classwork",
+            checkboxLabel: "Classwork • How much are these? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-8/homework",
-            courseLabel: "Homework • How much are these? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-8/homework",
+            checkboxLabel: "Homework • How much are these? (Cycle 2)",
           },
         ],
       },
       // Lesson 9
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 9",
+        cardLabel: "Lesson 9",
         contents: [
           {
             content:
@@ -244,28 +217,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-9/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-9/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • Do you play the guitar? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-9/classwork",
-            courseLabel: "Classwork • Do you play the guitar? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-9/classwork",
+            checkboxLabel: "Classwork • Do you play the guitar? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-9/homework",
-            courseLabel: "Homework • Do you play the guitar? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-9/homework",
+            checkboxLabel: "Homework • Do you play the guitar? (Cycle 1)",
           },
         ],
       },
       // Lesson 10
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 10",
+        cardLabel: "Lesson 10",
         contents: [
           {
             content:
@@ -273,28 +244,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-10/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-10/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • Do you play the guitar? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-10/classwork",
-            courseLabel: "Classwork • Do you play the guitar? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-10/classwork",
+            checkboxLabel: "Classwork • Do you play the guitar? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-10/homework",
-            courseLabel: "Homework • Do you play the guitar? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-10/homework",
+            checkboxLabel: "Homework • Do you play the guitar? (Cycle 2)",
           },
         ],
       },
       // Lesson 11 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 11",
+        cardLabel: "Lesson 11",
         contents: [
           {
             content: "Learning objectives:",
@@ -307,18 +276,22 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-11/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/elementary/lesson-11/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 7-10 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  {
+    headerLabel: "Lessons 12 - 16 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 12
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 12",
+        cardLabel: "Lesson 12",
         contents: [
           {
             content:
@@ -326,28 +299,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-12/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-12/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • What's an interesting family? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-12/classwork",
-            courseLabel: "Classwork • What's an interesting family? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-12/classwork",
+            checkboxLabel:
+              "Classwork • What's an interesting family? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-12/homework",
-            courseLabel: "Homework • What's an interesting family? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-12/homework",
+            checkboxLabel: "Homework • What's an interesting family? (Cycle 1)",
           },
         ],
       },
       // Lesson 13
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 13",
+        cardLabel: "Lesson 13",
         contents: [
           {
             content:
@@ -355,28 +327,27 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-13/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-13/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • What's an interesting family? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-13/classwork",
-            courseLabel: "Classwork • What's an interesting family? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-13/classwork",
+            checkboxLabel:
+              "Classwork • What's an interesting family? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-13/homework",
-            courseLabel: "Homework • What's an interesting family? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-13/homework",
+            checkboxLabel: "Homework • What's an interesting family? (Cycle 2)",
           },
         ],
       },
       // Lesson 14
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 14",
+        cardLabel: "Lesson 14",
         contents: [
           {
             content:
@@ -384,27 +355,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-14/flipped-classroom",
-            courseLabel: "Flipped Classroom • How often do you run? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-14/flipped-classroom",
+            checkboxLabel:
+              "Flipped Classroom • How often do you run? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-14/classwork",
-            courseLabel: "Classwork • How often do you run? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-14/classwork",
+            checkboxLabel: "Classwork • How often do you run? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-14/homework",
-            courseLabel: "Homework • How often do you run? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-14/homework",
+            checkboxLabel: "Homework • How often do you run? (Cycle 1)",
           },
         ],
       },
       // Lesson 15
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 15",
+        cardLabel: "Lesson 15",
         contents: [
           {
             content:
@@ -412,27 +382,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-15/flipped-classroom",
-            courseLabel: "Flipped Classroom • How often do you run? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-15/flipped-classroom",
+            checkboxLabel:
+              "Flipped Classroom • How often do you run? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-15/classwork",
-            courseLabel: "Classwork • How often do you run? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-15/classwork",
+            checkboxLabel: "Classwork • How often do you run? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-15/homework",
-            courseLabel: "Homework • How often do you run? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-15/homework",
+            checkboxLabel: "Homework • How often do you run? (Cycle 2)",
           },
         ],
       },
       // Lesson 16 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 16",
+        cardLabel: "Lesson 16",
         contents: [
           {
             content: "Learning objectives:",
@@ -445,18 +414,22 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-16/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/elementary/lesson-16/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 12-15 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  {
+    headerLabel: "Lessons 17 - 21 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 17
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 17",
+        cardLabel: "Lesson 17",
         contents: [
           {
             content:
@@ -464,27 +437,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-17/flipped-classroom",
-            courseLabel: "Flipped Classroom • We went dancing! (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-17/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • We went dancing! (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-17/classwork",
-            courseLabel: "Classwork • We went dancing! (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-17/classwork",
+            checkboxLabel: "Classwork • We went dancing! (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-17/homework",
-            courseLabel: "Homework • We went dancing! (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-17/homework",
+            checkboxLabel: "Homework • We went dancing! (Cycle 1)",
           },
         ],
       },
       // Lesson 18
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 18",
+        cardLabel: "Lesson 18",
         contents: [
           {
             content:
@@ -492,27 +463,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-18/flipped-classroom",
-            courseLabel: "Flipped Classroom • We went dancing! (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-18/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • We went dancing! (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-18/classwork",
-            courseLabel: "Classwork • We went dancing! (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-18/classwork",
+            checkboxLabel: "Classwork • We went dancing! (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-18/homework",
-            courseLabel: "Homework • We went dancing! (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-18/homework",
+            checkboxLabel: "Homework • We went dancing! (Cycle 2)",
           },
         ],
       },
       // Lesson 19
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 19",
+        cardLabel: "Lesson 19",
         contents: [
           {
             content:
@@ -520,28 +489,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-19/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-19/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • How's the neighborhood? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-19/classwork",
-            courseLabel: "Classwork • How's the neighborhood? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-19/classwork",
+            checkboxLabel: "Classwork • How's the neighborhood? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-19/homework",
-            courseLabel: "Homework • How's the neighborhood? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-19/homework",
+            checkboxLabel: "Homework • How's the neighborhood? (Cycle 1)",
           },
         ],
       },
       // Lesson 20
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 20",
+        cardLabel: "Lesson 20",
         contents: [
           {
             content:
@@ -549,28 +516,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-20/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-20/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • How's the neighborhood? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-20/classwork",
-            courseLabel: "Classwork • How's the neighborhood? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-20/classwork",
+            checkboxLabel: "Classwork • How's the neighborhood? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-20/homework",
-            courseLabel: "Homework • How's the neighborhood? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-20/homework",
+            checkboxLabel: "Homework • How's the neighborhood? (Cycle 2)",
           },
         ],
       },
       // Lesson 21 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 21",
+        cardLabel: "Lesson 21",
         contents: [
           {
             content: "Learning objectives:",
@@ -583,18 +548,22 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-21/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/elementary/lesson-21/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 17-20 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  {
+    headerLabel: "Lessons 2-22 + Written Test",
+    cardContents: [
       // Lesson 22 *Written Test
       {
-        bgColor: "purple",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 22",
+        cardLabel: "Lesson 22",
         contents: [
           {
             content: "Learning objectives:",
@@ -607,17 +576,21 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-22/classwork",
-            courseLabel: "Classwork • Review • Lessons 2-20 + Written Test",
+            checkboxLink: "/materials/courses/elementary/lesson-22/classwork",
+            checkboxLabel: "Classwork • Review • Lessons 2-20 + Written Test",
           },
         ],
       },
+    ],
+  },
+  {
+    headerLabel: "Lessons 23 - 27 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 23
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 23",
+        cardLabel: "Lesson 23",
         contents: [
           {
             content:
@@ -625,28 +598,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-23/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-23/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • What does she look like? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-23/classwork",
-            courseLabel: "Classwork • What does she look like? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-23/classwork",
+            checkboxLabel: "Classwork • What does she look like? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-23/homework",
-            courseLabel: "Homework • What does she look like? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-23/homework",
+            checkboxLabel: "Homework • What does she look like? (Cycle 1)",
           },
         ],
       },
       // Lesson 24
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 24",
+        cardLabel: "Lesson 24",
         contents: [
           {
             content:
@@ -654,28 +625,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-24/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-24/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • What does she look like? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-24/classwork",
-            courseLabel: "Classwork • What does she look like? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-24/classwork",
+            checkboxLabel: "Classwork • What does she look like? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-24/homework",
-            courseLabel: "Homework • What does she look like? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-24/homework",
+            checkboxLabel: "Homework • What does she look like? (Cycle 2)",
           },
         ],
       },
       // Lesson 25
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 25",
+        cardLabel: "Lesson 25",
         contents: [
           {
             content:
@@ -683,28 +652,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-25/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-25/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • Have you ever been there? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-25/classwork",
-            courseLabel: "Classwork • Have you ever been there? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-25/classwork",
+            checkboxLabel: "Classwork • Have you ever been there? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-25/homework",
-            courseLabel: "Homework • Have you ever been there? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-25/homework",
+            checkboxLabel: "Homework • Have you ever been there? (Cycle 1)",
           },
         ],
       },
       // Lesson 26
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 26",
+        cardLabel: "Lesson 26",
         contents: [
           {
             content:
@@ -712,28 +679,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-26/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-26/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • Have you ever been there? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-26/classwork",
-            courseLabel: "Classwork • Have you ever been there? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-26/classwork",
+            checkboxLabel: "Classwork • Have you ever been there? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-26/homework",
-            courseLabel: "Homework • Have you ever been there? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-26/homework",
+            checkboxLabel: "Homework • Have you ever been there? (Cycle 2)",
           },
         ],
       },
       // Lesson 27 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 27",
+        cardLabel: "Lesson 27",
         contents: [
           {
             content: "Learning objectives:",
@@ -746,18 +711,22 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-27/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/elementary/lesson-27/classwork",
+            checkboxLabel:
               "Classwork • Progress Check lessons 23-26 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  {
+    headerLabel: "Lessons 28 - 32 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 28
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 28",
+        cardLabel: "Lesson 28",
         contents: [
           {
             content:
@@ -765,28 +734,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-28/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-28/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • It's a really nice city. (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-28/classwork",
-            courseLabel: "Classwork • It's a really nice city. (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-28/classwork",
+            checkboxLabel: "Classwork • It's a really nice city. (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-28/homework",
-            courseLabel: "Homework • It's a really nice city. (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-28/homework",
+            checkboxLabel: "Homework • It's a really nice city. (Cycle 1)",
           },
         ],
       },
       // Lesson 29
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 29",
+        cardLabel: "Lesson 29",
         contents: [
           {
             content:
@@ -794,28 +761,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-29/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-29/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • It's a really nice city. (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-29/classwork",
-            courseLabel: "Classwork • It's a really nice city. (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-29/classwork",
+            checkboxLabel: "Classwork • It's a really nice city. (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-29/homework",
-            courseLabel: "Homework • It's a really nice city. (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-29/homework",
+            checkboxLabel: "Homework • It's a really nice city. (Cycle 2)",
           },
         ],
       },
       // Lesson 30
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 30",
+        cardLabel: "Lesson 30",
         contents: [
           {
             content:
@@ -823,28 +788,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-30/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-30/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • It's important to get rest (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-30/classwork",
-            courseLabel: "Classwork • It's important to get rest (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-30/classwork",
+            checkboxLabel: "Classwork • It's important to get rest (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-30/homework",
-            courseLabel: "Homework • It's important to get rest (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-30/homework",
+            checkboxLabel: "Homework • It's important to get rest (Cycle 1)",
           },
         ],
       },
       // Lesson 31
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 31",
+        cardLabel: "Lesson 31",
         contents: [
           {
             content:
@@ -852,28 +815,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-31/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-31/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • It's important to get rest (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-31/classwork",
-            courseLabel: "Classwork • It's important to get rest (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-31/classwork",
+            checkboxLabel: "Classwork • It's important to get rest (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-31/homework",
-            courseLabel: "Homework • It's important to get rest (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-31/homework",
+            checkboxLabel: "Homework • It's important to get rest (Cycle 2)",
           },
         ],
       },
       // Lesson 32 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 32",
+        cardLabel: "Lesson 32",
         contents: [
           {
             content: "Learning objectives:",
@@ -886,18 +847,22 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-32/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/elementary/lesson-32/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 28-31 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  {
+    headerLabel: "Lessons 33 - 37 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 33
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 33",
+        cardLabel: "Lesson 33",
         contents: [
           {
             content:
@@ -905,27 +870,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-33/flipped-classroom",
-            courseLabel: "Flipped Classroom • What would you like? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-33/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • What would you like? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-33/classwork",
-            courseLabel: "Classwork • What would you like? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-33/classwork",
+            checkboxLabel: "Classwork • What would you like? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-33/homework",
-            courseLabel: "Homework • What would you like? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-33/homework",
+            checkboxLabel: "Homework • What would you like? (Cycle 1)",
           },
         ],
       },
       // Lesson 34
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 34",
+        cardLabel: "Lesson 34",
         contents: [
           {
             content:
@@ -933,27 +896,25 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-34/flipped-classroom",
-            courseLabel: "Flipped Classroom • What would you like? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-34/flipped-classroom",
+            checkboxLabel: "Flipped Classroom • What would you like? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-34/classwork",
-            courseLabel: "Classwork • What would you like? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-34/classwork",
+            checkboxLabel: "Classwork • What would you like? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-34/homework",
-            courseLabel: "Homework • What would you like? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-34/homework",
+            checkboxLabel: "Homework • What would you like? (Cycle 2)",
           },
         ],
       },
       // Lesson 35
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 35",
+        cardLabel: "Lesson 35",
         contents: [
           {
             content:
@@ -961,27 +922,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-35/flipped-classroom",
-            courseLabel: "Flipped Classroom • It's the coldest city! (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-35/flipped-classroom",
+            checkboxLabel:
+              "Flipped Classroom • It's the coldest city! (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-35/classwork",
-            courseLabel: "Classwork • It's the coldest city! (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-35/classwork",
+            checkboxLabel: "Classwork • It's the coldest city! (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-35/homework",
-            courseLabel: "Homework • It's the coldest city! (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-35/homework",
+            checkboxLabel: "Homework • It's the coldest city! (Cycle 1)",
           },
         ],
       },
       // Lesson 36
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 36",
+        cardLabel: "Lesson 36",
         contents: [
           {
             content:
@@ -989,27 +949,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-36/flipped-classroom",
-            courseLabel: "Flipped Classroom • It's the coldest city! (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-36/flipped-classroom",
+            checkboxLabel:
+              "Flipped Classroom • It's the coldest city! (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-36/classwork",
-            courseLabel: "Classwork • It's the coldest city! (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-36/classwork",
+            checkboxLabel: "Classwork • It's the coldest city! (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-36/homework",
-            courseLabel: "Homework • It's the coldest city! (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-36/homework",
+            checkboxLabel: "Homework • It's the coldest city! (Cycle 2)",
           },
         ],
       },
       // Lesson 37 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 37",
+        cardLabel: "Lesson 37",
         contents: [
           {
             content: "Learning objectives:",
@@ -1022,18 +981,22 @@ const contents = [
             content: "• identify areas that need improvement",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-37/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/elementary/lesson-37/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 33-36 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  {
+    headerLabel: "Lessons 38 - 42 + Written and Oral Quiz",
+    cardContents: [
       // Lesson 38
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 38",
+        cardLabel: "Lesson 38",
         contents: [
           {
             content:
@@ -1041,28 +1004,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-38/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-38/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • What are you doing later? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-38/classwork",
-            courseLabel: "Classwork • What are you doing later? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-38/classwork",
+            checkboxLabel: "Classwork • What are you doing later? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-38/homework",
-            courseLabel: "Homework • What are you doing later? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-38/homework",
+            checkboxLabel: "Homework • What are you doing later? (Cycle 1)",
           },
         ],
       },
       // Lesson 39
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 39",
+        cardLabel: "Lesson 39",
         contents: [
           {
             content:
@@ -1070,28 +1031,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-39/flipped-classroom",
-            courseLabel:
+            checkboxLink:
+              "/materials/courses/elementary/lesson-39/flipped-classroom",
+            checkboxLabel:
               "Flipped Classroom • What are you doing later? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-39/classwork",
-            courseLabel: "Classwork • What are you doing later? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-39/classwork",
+            checkboxLabel: "Classwork • What are you doing later? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-39/homework",
-            courseLabel: "Homework • What are you doing later? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-39/homework",
+            checkboxLabel: "Homework • What are you doing later? (Cycle 2)",
           },
         ],
       },
       // Lesson 40
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 40",
+        cardLabel: "Lesson 40",
         contents: [
           {
             content:
@@ -1099,27 +1058,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-40/flipped-classroom",
-            courseLabel: "Flipped Classroom • How have you changed? (Cycle 1)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-40/flipped-classroom",
+            checkboxLabel:
+              "Flipped Classroom • How have you changed? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-40/classwork",
-            courseLabel: "Classwork • How have you changed? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-40/classwork",
+            checkboxLabel: "Classwork • How have you changed? (Cycle 1)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-40/homework",
-            courseLabel: "Homework • How have you changed? (Cycle 1)",
+            checkboxLink: "/materials/courses/elementary/lesson-40/homework",
+            checkboxLabel: "Homework • How have you changed? (Cycle 1)",
           },
         ],
       },
       // Lesson 41
       {
-        bgColor: "black",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 41",
+        cardLabel: "Lesson 41",
         contents: [
           {
             content:
@@ -1127,27 +1085,26 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-41/flipped-classroom",
-            courseLabel: "Flipped Classroom • How have you changed? (Cycle 2)",
+            checkboxLink:
+              "/materials/courses/elementary/lesson-41/flipped-classroom",
+            checkboxLabel:
+              "Flipped Classroom • How have you changed? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-41/classwork",
-            courseLabel: "Classwork • How have you changed? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-41/classwork",
+            checkboxLabel: "Classwork • How have you changed? (Cycle 2)",
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-41/homework",
-            courseLabel: "Homework • How have you changed? (Cycle 2)",
+            checkboxLink: "/materials/courses/elementary/lesson-41/homework",
+            checkboxLabel: "Homework • How have you changed? (Cycle 2)",
           },
         ],
       },
       // Lesson 42 *Review + Written and Oral Quiz
       {
-        bgColor: "red",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 42",
+        cardLabel: "Lesson 42",
         contents: [
           {
             content: "Learning objectives:",
@@ -1160,18 +1117,22 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-42/classwork",
-            courseLabel:
+            checkboxLink: "/materials/courses/elementary/lesson-42/classwork",
+            checkboxLabel:
               "Classwork • Review lessons 38-41 + Written and Oral Quiz",
           },
         ],
       },
+    ],
+  },
+  {
+    headerLabel: "Lessons 23-41 - Written Test",
+    cardContents: [
       // Lesson 43 Written Test
       {
-        bgColor: "purple",
+        bgColor: "#EC3B3B",
         textColor: "white",
-        label: "Lesson 43",
+        cardLabel: "Lesson 43",
         contents: [
           {
             content: "Learning objectives:",
@@ -1184,9 +1145,8 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: elementary,
-            courseLink: "/materials/courses/elementary/lesson-43/classwork",
-            courseLabel: "Classwork • Review lessons 23-41 + Written Test",
+            checkboxLink: "/materials/courses/elementary/lesson-43/classwork",
+            checkboxLabel: "Classwork • Review lessons 23-41 + Written Test",
           },
         ],
       },
@@ -1203,6 +1163,28 @@ export default function Elementary() {
         descriptions={["43 lessons"]}
       />
       <div className="line-break">
+        {/* CEFR */}
+        <BoardCard
+          label="CEFR (Common European Framework of Reference)"
+          bgColor="#EC3B3B"
+          textColor="white"
+        >
+          <div>
+            <p>
+              • Can understand sentences and frequently used expressions related
+              to areas of most immediate relevance (e.g. very basic personal and
+              family information, shopping, local geography, employment).
+            </p>
+            <p>
+              • Can communicate in simple and routine tasks requiring a1 simple
+              and direct exchange of information on familiar and routine matters.
+            </p>
+            <p>
+              • Can describe in simple terms aspects of his/her background,
+              immediate environment and matters in areas of immediate Basic need.
+            </p>
+          </div>
+        </BoardCard>
         <ContentCard contents={contents} />
       </div>
     </>

@@ -1,10 +1,9 @@
-"use client"
+"use client";
 import { BoardCard, ScrollToTop } from "@/components";
 import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard";
 
 const contents = [
-  // Lessons 1 - 6 + Written and Oral Quiz
   {
     headerLabel: "Lessons 1 - 6 + Written and Oral Quiz",
     cardContents: [
@@ -15,8 +14,10 @@ const contents = [
         cardLabel: "Lesson 1",
         contents: [
           {
-            content:
-              "Let's get to know each other / one another better.",
+            content: "Welcome / Icebreaker",
+          },
+          {
+            content: "Let's get to know each other / one another better.",
           },
         ],
       },
@@ -153,7 +154,6 @@ const contents = [
       },
     ],
   },
-  // Lessons 7 - 11 + Written and Oral Quiz
   {
     headerLabel: "Lessons 7 - 11 + Written and Oral Quiz",
     cardContents: [
@@ -286,7 +286,6 @@ const contents = [
       },
     ],
   },
-  // Lessons 12 - 16 + Written and Oral Quiz
   {
     headerLabel: "Lessons 12 - 16 + Written and Oral Quiz",
     cardContents: [
@@ -421,7 +420,6 @@ const contents = [
       },
     ],
   },
-  // Lessons 17 - 21 + Written and Oral Quiz
   {
     headerLabel: "Lessons 17 - 21 + Written and Oral Quiz",
     cardContents: [
@@ -554,7 +552,6 @@ const contents = [
       },
     ],
   },
-  // Lessons 2-22 + Written Test
   {
     headerLabel: "Lessons 2-22 + Written Test",
     cardContents: [
@@ -581,7 +578,6 @@ const contents = [
       },
     ],
   },
-  // Lessons 23 - 27 + Written and Oral Quiz
   {
     headerLabel: "Lessons 23 - 27 + Written and Oral Quiz",
     cardContents: [
@@ -718,7 +714,6 @@ const contents = [
       },
     ],
   },
-  // Lessons 28 - 32 + Written and Oral Quiz
   {
     headerLabel: "Lessons 28 - 32 + Written and Oral Quiz",
     cardContents: [
@@ -853,7 +848,6 @@ const contents = [
       },
     ],
   },
-  // Lessons 33 - 37 + Written and Oral Quiz
   {
     headerLabel: "Lessons 33 - 37 + Written and Oral Quiz",
     cardContents: [
@@ -986,7 +980,6 @@ const contents = [
       },
     ],
   },
-  // Lessons 38 - 42 + Written and Oral Quiz
   {
     headerLabel: "Lessons 38 - 42 + Written and Oral Quiz",
     cardContents: [
@@ -1121,7 +1114,6 @@ const contents = [
       },
     ],
   },
-  // Lessons 23-41 - Written Test
   {
     headerLabel: "Lessons 23-41 - Written Test",
     cardContents: [
@@ -1177,19 +1169,21 @@ export default function Beginner() {
           label="CEFR (Common European Framework of Reference)"
           bgColor="#FCC418"
         >
-          <p>
-            • Can introduce him/herself and others and can ask and answer
-            questions about personal details such as where he/she lives, people
-            he/she knows and things he/she has.
-          </p>
-          <p>
-            • Can understand and use familiar everyday expressions and very
-            basic phrases aimed at the satisfaction of needs of a concrete type.
-          </p>
-          <p>
-            • Can interact in a simple way provided the other person talks
-            slowly and clearly and is prepared to help.
-          </p>
+          <div>
+            <p>
+              • Can introduce him/herself and others and can ask and answer
+              questions about personal details such as where he/she lives, people
+              he/she knows and things he/she has.
+            </p>
+            <p>
+              • Can understand and use familiar everyday expressions and very
+              basic phrases aimed at the satisfaction of needs of a concrete type.
+            </p>
+            <p>
+              • Can interact in a simple way provided the other person talks
+              slowly and clearly and is prepared to help.
+            </p>
+          </div>
         </BoardCard>
         <ContentCard contents={contents} />
         <ScrollToTop />
