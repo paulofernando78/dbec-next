@@ -4,11 +4,11 @@ import { Whiteboard } from "@/components/Whiteboard";
 const contents = [
   // Present
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Present",
+        cardLabel: "Present",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-1",
@@ -54,11 +54,11 @@ const contents = [
   },
   // Past
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Past",
+        cardLabel: "Past",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-10",
@@ -88,11 +88,11 @@ const contents = [
   },
   // Present Perfect
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Present Perfect",
+        cardLabel: "Present Perfect",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-15",
@@ -125,11 +125,11 @@ const contents = [
   },
   // Passive
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Passive",
+        cardLabel: "Passive",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-21",
@@ -145,11 +145,11 @@ const contents = [
   },
   // Verb Forms
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Verb Forms",
+        cardLabel: "Verb Forms",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-23",
@@ -166,11 +166,11 @@ const contents = [
   },
   // Future
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Future",
+        cardLabel: "Future",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-25",
@@ -194,11 +194,11 @@ const contents = [
   },
   // Modals, Imperatives, etc.
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Modals, Imperatives, etc.",
+        cardLabel: "Modals, Imperatives, etc.",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-29",
@@ -238,11 +238,11 @@ const contents = [
   },
   // There and it
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "There and It",
+        cardLabel: "There and It",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-37",
@@ -263,11 +263,11 @@ const contents = [
   },
   // Auxiliary verbs
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Auxilary verbs",
+        cardLabel: "Auxilary verbs",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-40",
@@ -291,11 +291,11 @@ const contents = [
   },
   // Questions
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Questions",
+        cardLabel: "Questions",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-44",
@@ -330,11 +330,11 @@ const contents = [
   },
   // Reported speech
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Reported speech",
+        cardLabel: "Reported speech",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-50",
@@ -346,11 +346,11 @@ const contents = [
   },
   // -Ing and To
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "-Ing and To",
+        cardLabel: "-Ing and To",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-51",
@@ -375,11 +375,11 @@ const contents = [
   },
   // Go, Get, Do, Make and Have
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Go, Get, Do, Make and Have",
+        cardLabel: "Go, Get, Do, Make and Have",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-55",
@@ -404,11 +404,11 @@ const contents = [
   },
   // Pronouns and Possessives
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Pronouns and Possessives",
+        cardLabel: "Pronouns and Possessives",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-59",
@@ -441,11 +441,11 @@ const contents = [
   },
   // A and The
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "A and The",
+        cardLabel: "A and The",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-65",
@@ -493,11 +493,11 @@ const contents = [
   },
   // Determiners and Pronouns
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Determines and Pronouns",
+        cardLabel: "Determines and Pronouns",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-74",
@@ -550,11 +550,11 @@ const contents = [
   },
   // Adjetives and Adverbs
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Adjetives and Adverbs",
+        cardLabel: "Adjetives and Adverbs",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-85",
@@ -595,11 +595,11 @@ const contents = [
   },
   // Word order
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Word order",
+        cardLabel: "Word order",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-93",
@@ -624,11 +624,11 @@ const contents = [
   },
   // Conjunctions and Clauses
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Conjunctions and Clauses",
+        cardLabel: "Conjunctions and Clauses",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-97",
@@ -662,11 +662,11 @@ const contents = [
   },
   // Prepositions
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Prepositions",
+        cardLabel: "Prepositions",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-103",
@@ -720,11 +720,11 @@ const contents = [
   },
   // Phrasal verbs
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Phrasal verbs",
+        cardLabel: "Phrasal verbs",
         contents: [
           {
             checkboxLink: "/extras/grammar/elementary/unit-114",

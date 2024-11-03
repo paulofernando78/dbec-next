@@ -2,13 +2,13 @@ import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard";
 
 const contents = [
+  // Present and past
   {
-    subContents: [
-      // Present and past
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Present and past",
+        cardLabel: "Present and past",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-1",
@@ -41,11 +41,15 @@ const contents = [
           },
         ],
       },
-      // Present perfect and past
+    ],
+  },
+  // Present perfect and past
+  {
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Present perfect and past",
+        cardLabel: "Present perfect and past",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-7",
@@ -109,11 +113,15 @@ const contents = [
           },
         ],
       },
-      // Future
+    ],
+  },
+  // Future
+  {
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Future",
+        cardLabel: "Future",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-19",
@@ -152,11 +160,15 @@ const contents = [
           },
         ],
       },
-      // Modals
+    ],
+  },
+  // Modals
+  {
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Modals",
+        cardLabel: "Modals",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-26",
@@ -217,11 +229,15 @@ const contents = [
           },
         ],
       },
-      // Passive
+    ],
+  },
+  // Passive
+  {
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "if and wish",
+        cardLabel: "if and wish",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-38",
@@ -245,11 +261,15 @@ const contents = [
           },
         ],
       },
-      // Passive
+    ],
+  },
+  // Passive
+  {
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Passive",
+        cardLabel: "Passive",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-42",
@@ -277,11 +297,15 @@ const contents = [
           },
         ],
       },
-      // Reported speech
+    ],
+  },
+  // Reported speech
+  {
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Reported speech",
+        cardLabel: "Reported speech",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-47",
@@ -294,11 +318,15 @@ const contents = [
           },
         ],
       },
-      // Questions and auxiliary verbs
+    ],
+  },
+  // Questions and auxiliary verbs
+  {
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Questions and auxiliary verbs",
+        cardLabel: "Questions and auxiliary verbs",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-49",
@@ -321,11 +349,15 @@ const contents = [
           },
         ],
       },
-      // -ing and to...
+    ],
+  },
+  // -ing and to...
+  {
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "-ing and to...",
+        cardLabel: "-ing and to...",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-53",
@@ -409,11 +441,15 @@ const contents = [
           },
         ],
       },
-      // Articles and nouns
+    ],
+  },
+  // Articles and nouns
+  {
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Articles and nouns",
+        cardLabel: "Articles and nouns",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-69",
@@ -478,11 +514,15 @@ const contents = [
           },
         ],
       },
-      // Pronouns and determiners
+    ],
+  },
+  // Pronouns and determiners
+  {
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Pronouns and determiners",
+        cardLabel: "Pronouns and determiners",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-82",
@@ -536,11 +576,15 @@ const contents = [
           },
         ],
       },
-      // Relative clauses
+    ],
+  },
+  // Relative clauses
+  {
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Relative clauses",
+        cardLabel: "Relative clauses",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-92",
@@ -574,11 +618,15 @@ const contents = [
           },
         ],
       },
-      // Adjetives and adverbs
+    ],
+  },
+  // Adjetives and adverbs
+  {
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Adjetives and adverbs",
+        cardLabel: "Adjetives and adverbs",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-98",
@@ -655,11 +703,15 @@ const contents = [
           },
         ],
       },
-      // Conjuctions and prepositions
+    ],
+  },
+  // Conjuctions and prepositions
+  {
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Conjuctions and prepositions",
+        cardLabel: "Conjuctions and prepositions",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-113",
@@ -702,11 +754,15 @@ const contents = [
           },
         ],
       },
-      // Prepositions
+    ],
+  },
+  // Prepositions
+  {
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Prepositions",
+        cardLabel: "Prepositions",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-121",
@@ -786,11 +842,15 @@ const contents = [
           },
         ],
       },
-      // Phrasal verbs
+    ],
+  },
+  // Phrasal verbs
+  {
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "Phrasal verbs",
+        cardLabel: "Phrasal verbs",
         contents: [
           {
             checkboxLink: "/extras/grammar/intermediate/unit-137",
@@ -841,8 +901,6 @@ const contents = [
     ],
   },
 ];
-
-<ContentCard contents={contents} />;
 
 export default function Grammar() {
   return (
