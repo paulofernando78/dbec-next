@@ -1,8 +1,6 @@
+import { Whiteboard } from "@/components/Whiteboard";
 import { BoardCard } from "@/components";
 import { ContentCard } from "@/components/Cards/ContentCard";
-import { Whiteboard } from "@/components/Whiteboard";
-
-import { intermediate } from "@/img/index";
 
 const contents = [
   {

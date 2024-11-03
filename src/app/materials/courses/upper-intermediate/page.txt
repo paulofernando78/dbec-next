@@ -1,7 +1,5 @@
-import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard";
-
-import { upperIntermediate } from "@/img/index";
+import { ContentCard } from "@/components/Cards/ContentCard";
 
 const contents = [
   {
@@ -45,18 +43,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-2/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-2/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-2/homework",
             courseLabel: "Homework • ...",
           },
@@ -73,18 +68,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-3/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-3/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-3/homework",
             courseLabel: "Homework • ...",
           },
@@ -101,18 +93,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-4/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-4/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-4/homework",
             courseLabel: "Homework • ...",
           },
@@ -129,18 +118,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-5/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-5/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-5/homework",
             courseLabel: "Homework • ...",
           },
@@ -163,7 +149,6 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-6/classwork",
             courseLabel:
               "Classwork • Progress check • Lessons 2-5 + Written and Oral Quiz",
@@ -181,18 +166,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-7/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-7/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-7/homework",
             courseLabel: "Homework • ...",
           },
@@ -209,18 +191,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-8/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-8/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-8/homework",
             courseLabel: "Homework • ...",
           },
@@ -237,18 +216,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-9/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-9/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-9/homework",
             courseLabel: "Homework • ...",
           },
@@ -265,18 +241,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-10/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-10/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-10/homework",
             courseLabel: "Homework • ...",
           },
@@ -299,7 +272,6 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-11/classwork",
             courseLabel:
               "Classwork • Progress Check • Lessons 7-10 + Written and Oral Quiz",
@@ -317,18 +289,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-12/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-12/",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/class-12/",
             courseLabel: "Homework • ...",
           },
@@ -345,18 +314,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-13/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-13/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-13/homework",
             courseLabel: "Homework • ...",
           },
@@ -373,18 +339,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-14/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-14/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-14/homework",
             courseLabel: "Homework • ...",
           },
@@ -401,18 +364,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-15/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-15/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-15/homework",
             courseLabel: "Homework • ...",
           },
@@ -435,7 +395,6 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-16/classwork",
             courseLabel:
               "Classwork • Progress check • Lessons 12-15 + Written and Oral Quiz",
@@ -453,18 +412,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-17/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-17/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-17/homework",
             courseLabel: "Homework • ...",
           },
@@ -481,18 +437,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-18/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-18/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-18/homework",
             courseLabel: "Homework • ...",
           },
@@ -509,18 +462,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-19/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-19/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-19/homework",
             courseLabel: "Homework • ...",
           },
@@ -537,18 +487,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-20/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-20/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-20/homework",
             courseLabel: "Homework • ...",
           },
@@ -571,7 +518,6 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-21/classwork",
             courseLabel:
               "Classwork • Progress Check • Lessons 17-20 + Written and Oral Quiz",
@@ -595,7 +541,6 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-22/classwork",
             courseLabel: "Classwork • Test • Lessons 2-20 + Written Quiz",
           },
@@ -612,18 +557,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-23/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-23/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-23/homework",
             courseLabel: "Homework • ...",
           },
@@ -640,18 +582,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-24/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-24/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-24/homework",
             courseLabel: "Homework • ...",
           },
@@ -668,18 +607,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-25/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-25/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-25/homework",
             courseLabel: "Homework • ...",
           },
@@ -696,18 +632,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-26/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-26/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-26/homework",
             courseLabel: "Homework • ...",
           },
@@ -730,7 +663,6 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-27/classwork",
             courseLabel:
               "Classwork • Progress Check • Lessons 23-26 + Written and Oral Quiz",
@@ -748,18 +680,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-28/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-28/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-28/homework",
             courseLabel: "Homework • ...",
           },
@@ -776,18 +705,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-29/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-29/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-29/homework",
             courseLabel: "Homework • ...",
           },
@@ -804,18 +730,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-30/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-30/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-30/homework",
             courseLabel: "Homework • ...",
           },
@@ -832,18 +755,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-31/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-31/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-31/homework",
             courseLabel: "Homework • ...",
           },
@@ -866,7 +786,6 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-32/classwork",
             courseLabel:
               "Classwork • Progress Check Lessons 28-31 + Written and Oral Quiz",
@@ -884,18 +803,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-33/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-33/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-33/homework",
             courseLabel: "Homework • ...",
           },
@@ -912,18 +828,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-34/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-34/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-34/homework",
             courseLabel: "Homework • ...",
           },
@@ -940,18 +853,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-35/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-35/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-35/homework",
             courseLabel: "Homework • ...",
           },
@@ -968,18 +878,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-36/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-36/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-36/homework",
             courseLabel: "Homework • ...",
           },
@@ -1002,7 +909,6 @@ const contents = [
             content: "• identify areas that need improvement",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-37/classwork",
             courseLabel:
               "Classwork • Progress • Check Lessons 33-36 + Written and Oral Quiz",
@@ -1020,18 +926,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-38/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-38/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-38/homework",
             courseLabel: "Homework • ...",
           },
@@ -1048,18 +951,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-39/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-39/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-39/homework",
             courseLabel: "Homework • ...",
           },
@@ -1076,18 +976,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-40/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-40/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-40/homework",
             courseLabel: "Homework • ...",
           },
@@ -1104,18 +1001,15 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink:
               "/courses/upper-intermediate/lesson-41/flipped-classroom",
             courseLabel: "Flipped Classroom • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-41/classwork",
             courseLabel: "Classwork • ...",
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-41/homework",
             courseLabel: "Homework • ...",
           },
@@ -1138,7 +1032,6 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-42/classwork",
             courseLabel:
               "Classwork • Progress Check • Lessons 38-41 + Written and Oral Quiz",
@@ -1162,7 +1055,6 @@ const contents = [
             applyHr: true,
           },
           {
-            courseImg: upperIntermediate,
             courseLink: "/courses/upper-intermediate/lesson-43/classwork",
             courseLabel: "Classwork • Test • Lessons 23-41 + Written Quiz",
           },
