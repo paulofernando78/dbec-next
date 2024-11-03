@@ -17,7 +17,7 @@ export interface FillInTheBlanksData {
   width?: string;
   title?: string;
   subTitle?: string;
-  beforeBlank: string;
+  beforeBlank?: string;
   lineBreakBefore?: boolean;
   placeholder?: string;
   correctAnswer: string[];
@@ -96,9 +96,11 @@ export const FillInTheBlanks = ({
             )}
             <span>
               {`${index + 1}`}.{" "}
-              <span
+              {/* beforeQuestion */}
+              {question.beforeBlank && (<span
                 dangerouslySetInnerHTML={{ __html: question.beforeBlank }}
-              />{" "}
+              />)}
+              {" "}
               {question.lineBreakBefore && <br />}
               <input
                 type="text"
@@ -118,13 +120,13 @@ export const FillInTheBlanks = ({
                   }`}
                 />
               )}{" "}
-              {/* question.afterBlank */}
+              {/* afterBlank */}
               <span
                 dangerouslySetInnerHTML={{ __html: question.afterBlank }}
               />{" "}
-              {/* question.portguese */}
+              {/* portguese */}
               <span className="portuguese">{question.portuguese}</span>
-              {/* question.lineBreakAfter */}
+              {/* lineBreakAfter */}
               {question.lineBreakAfter && <br />}
             </span>
           </Fragment>

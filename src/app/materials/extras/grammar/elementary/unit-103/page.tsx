@@ -1,8 +1,14 @@
-import { Whiteboard } from "@/components/Whiteboard";
-import { Card } from "@/components/Cards/Card";
 import Image from "next/image";
 import styles from "./styles.module.css";
-import { BoardCard } from "@/components/Cards/BoardCard";
+
+// Components
+import {
+  Whiteboard,
+  BoardCard,
+  Card,
+  FillInTheBlanks,
+  ExclamationIcon
+} from "@/components";
 
 // Images
 import {
@@ -11,15 +17,14 @@ import {
   smallSwimmingPool,
   inFiveMinutes,
 } from "@/img/index";
-import { ExclamationIcon } from "@/components/Icon/ExclamationIcon/Idex";
-import { FillInTheBlanks } from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+
 
 const fillInTheBlanks = [
   {
     options: true,
     width: "50px",
     title: "103.1 Choose at / on /in.",
-    subTitle: "Write in lower-case letters. Escreva em letras minúsculas.",
+    subTitle: "Write in lower-case letters. [Escreva em letras minúsculas.]",
     correctAnswer: ["on"],
     afterBlank: "June 6 (sixth)",
     lineBreakAfter: true,

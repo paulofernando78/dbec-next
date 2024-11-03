@@ -4,7 +4,7 @@ import { Vocabulary } from "./Vocabulary";
 import {
   FillInTheBlanks,
   FillInTheBlanksData,
-} from "@/components/ExerciseTemplates/FillInTheBlank/FillInTheBlank";
+} from "@/components/ExerciseTemplates/FillInTheBlank";
 import { VocabularyComponent, VocabularyProps } from "@/types/Vocabulary";
 
 interface PreVocabularyProps {
@@ -20,7 +20,12 @@ export const PreVocabulary = ({
 }: PreVocabularyProps) => {
   return (
     <>
-      <BoardCard label="Pre-vocabulary" bgColor="black" textColor="white" time="5'">
+      <BoardCard
+        label="Pre-vocabulary"
+        bgColor="black"
+        textColor="white"
+        time="5'"
+      >
         <FlipCard flipCards={flipCards} />
         <Vocabulary vocabularies={vocabularies} />
         <FillInTheBlanks questions={fillInTheBlanks} />
