@@ -2,10 +2,6 @@ import { Whiteboard } from "@/components/Whiteboard";
 import styles from "./styles.module.css";
 import { TextArea } from "@/components/TextArea";
 
-interface PlacementTestProps2 {
-  levels: any[];
-}
-
 interface Level {
   level: string;
   tasks: Task[];
@@ -208,11 +204,11 @@ export default function PlacementTest({ levels }: any) {
                 <p className={styles["bold"]}>EXAMPLES</p>
                 <p className="white-space-pre-wrap">{task.examples}</p>
               </div>
+              <div className={styles["text-area"]}>
+                <TextArea />
+              </div>
             </div>
           ))}
-          <div className={styles["text-area"]}>
-            <TextArea />
-          </div>
         </div>
       ))}
     </>
