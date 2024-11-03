@@ -3,11 +3,11 @@ import { ContentCard } from "@/components/Cards/ContentCard";
 
 const contents = [
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "By date",
+        cardLabel: "By date",
         contents: [
           {
             link: "/materials/extras/skills/listening/articles/health-and-lifestyle/life-is-a-video-game",

@@ -3,11 +3,11 @@ import { Whiteboard } from "@/components/Whiteboard";
 
 const contents = [
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "By date",
+        cardLabel: "By date",
         contents: [
           {
             link: "/extras/skills/listening/articles/arts-and-culture/new-food-flavors-coming-to-stores",

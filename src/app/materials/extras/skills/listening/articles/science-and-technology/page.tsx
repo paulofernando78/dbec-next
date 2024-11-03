@@ -3,11 +3,11 @@ import { ContentCard } from "@/components/Cards/ContentCard";
 
 const contents = [
   {
-    subContents: [
+    cardContents: [
       {
         bgColor: "black",
         textColor: "white",
-        label: "By date",
+        cardLabel: "By date",
         contents: [
           // Chinese Rocket Breaks Up in Space, Releasing Hundreds of Debris Pieces (August 13, 2024)
           {
