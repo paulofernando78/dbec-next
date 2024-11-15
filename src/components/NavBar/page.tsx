@@ -21,6 +21,7 @@ export const NavBar = ({ show, toggleShow }: NavBarProps) => {
   return show || !isSmallDevice ? (
     <nav className={styles["nav-bar"]}>
       <ul className="line-break">
+      <input type="text" placeholder="search"/>
         <div>
           <div className={styles["nav-list"]}>
             <Image

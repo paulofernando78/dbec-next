@@ -2,7 +2,13 @@
 
 import { useEffect, useState } from "react";
 import { Whiteboard } from "@/components/Whiteboard";
-import { AudioPlayer, Card } from "@/components";
+import { AudioPlayer, Card, Radio } from "@/components";
+
+interface RadioExercise {
+  title?: string;
+  question: string
+  options: { label: string; isCorrect: boolean }[]
+}
 
 interface Paragraph {
   speaker: string;
@@ -17,6 +23,7 @@ interface LessonData {
   lessonTitle: string;
   lessonDescription: string;
   paragraphs: Paragraph[];
+  radioExercises: RadioExercise[]
 }
 
 export default function SpecificPurposesBusinessSbellaLesson1() {
@@ -52,12 +59,16 @@ export default function SpecificPurposesBusinessSbellaLesson1() {
           <p>{lessonData.lessonDescription}</p>
         </Card>
         {lessonData.paragraphs.map((paragraph, index) => (
-          <>
-            <p key={index}>
-              <b>{paragraph.speaker}</b> {paragraph.text}
-            </p>
-          </>
+          <p key={index}>
+            <b>{paragraph.speaker}</b> {paragraph.text}
+          </p>
         ))}
+        <Card bgColor="lightgrey">
+          <p>
+            <b>Exercises</b>
+          </p>
+        </Card>
+        <Radio questions={lessonData.radioExercises} />
       </div>
     </>
   );

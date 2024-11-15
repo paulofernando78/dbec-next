@@ -49,5 +49,81 @@
       "speaker": "Anne:",
       "text": "Right. Let's meet again on Monday morning and discuss our game plan for getting this project off the ground!"
     }
+  ],
+  "radioExercises": [
+    {
+      "title": "Choose the best substitute for the phrase or sentence in bold.",
+      "question": "1. Did the company think of this new produxt idea themselves? No, they ripped it off from an inventor.",
+      "options": [
+        {
+          "label": "a) No, they paid an inventor for the idea.",
+          "isCorrect": false
+        },
+        {
+          "label": "b) No, they stole the idea from an inventor",
+          "isCorrect": true
+        },
+        {
+          "label": "c) No, they discussed it with an inventor and he agreed to sell it to them.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "2. Jill is planning to quit her job at the end of September, but mum's the word.",
+      "options": [
+        { "label": "a) don't tell anybody", "isCorrect": true },
+        { "label": "b) don't tell her mother", "isCorrect": false },
+        { "label": "c) she may change her mind", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "3. Sony has made a killing on its popular PlayStation line.",
+      "options": [
+        { "label": "a) lost money on", "isCorrect": false },
+        { "label": "b) made a lot of money on", "isCorrect": true },
+        { "label": "c) decided to stop producing", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "4. After receiving a large loan from the bank, the company was finally able to get its project off the ground.",
+      "options": [
+        { "label": "a) get started on the project", "isCorrect": true },
+        { "label": "b) cancel the project", "isCorrect": false },
+        { "label": "c) borrow money", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "5. That new software company seems very disorganized. Do they have a game plan?",
+      "options": [
+        { "label": "a) plan for closing down their business", "isCorrect": false },
+        { "label": "b) plan for developing new games", "isCorrect": false },
+        { "label": "c) plan for how they will proceed to grow their business", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "6. Some experts recommend that when you're interviewing for a new job, you should keep your current salary under wraps.",
+      "options": [
+        { "label": "a) you should tell the interviewer what your current salary is", "isCorrect": false },
+        { "label": "b) you should say you're making twice as much as you're really earning", "isCorrect": false },
+        { "label": "c) you should not say how much you're currently earning", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "7. Don's new cell phone has a video camera and all sorts of other bells and whistles.",
+      "options": [
+        { "label": "a) fancy features", "isCorrect": true },
+        { "label": "b) things that make loud ringing noises and whistle tones", "isCorrect": false },
+        { "label": "c) features typical in a low-priced product", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "8. When investors got wind of the fact that the pharmaceutical company's major drug increased the risk of heart attacks, the company's stock price fell.",
+      "options": [
+        { "label": "a) hid", "isCorrect": false },
+        { "label": "b) discovered", "isCorrect": true },
+        { "label": "c) got fed up with", "isCorrect": false }
+      ]
+    }
   ]
 }
