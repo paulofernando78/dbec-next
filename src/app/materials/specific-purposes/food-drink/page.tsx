@@ -9,7 +9,7 @@ import { ScrollToTop } from "@/components/ScrollToTop";
 export default function FoodAndDrink() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subTitle="Food / Drink" />
+      <Whiteboard title="Specific Purposes" subtitle="Food / Drink" />
       <div className="line-break">
         <div className="line-break">
           <Card bgColor="black" textColor="white">

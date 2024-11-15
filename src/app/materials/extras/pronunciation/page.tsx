@@ -388,7 +388,7 @@ export default function ExtraPronunciation() {
     <>
       <Whiteboard
         title="Extras"
-        subTitle="Pronunciation"
+        subtitle="Pronunciation"
         descriptions={["Focused on Brazilian students"]}
       />
       <div className="line-break">

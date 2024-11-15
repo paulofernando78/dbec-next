@@ -71,7 +71,7 @@ export default function Beginner() {
     <>
       <Whiteboard
         title="Extras"
-        subTitle="Listening"
+        subtitle="Listening"
         descriptions={["Penguin Readers"]}
       />
       <div>

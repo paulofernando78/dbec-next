@@ -6,7 +6,7 @@ export default function Lesson1() {
     <>
       <Whiteboard
         title="Specific Purposes"
-        subTitle="Business"
+        subtitle="Business"
         descriptions={[
           "Business MEetings (US)",
           "Lesson 1 • Starting a Meeting",
@@ -26,12 +26,10 @@ export default function Lesson1() {
         </p>
         <p>
           This is a presentation that all of us have <b>looked forward to</b>.
-          This
-          <b>initiative</b> marks a new <b>milestone</b> in the evolution of our
+          This <b>initiative</b> marks a new <b>milestone</b> in the evolution of our
           company. First, it serves as an <b>assessment</b> of where our company
           is now in terms of communicating its message to its customers
-          domestically and abroad.
-          <b>Furthermore</b>, this plan has the potential to drive our company
+          domestically and abroad. <b>Furthermore</b>, this plan has the potential to drive our company
           forward by transforming our corporate <b>outreach</b> and marketing
           strategies.
         </p>
@@ -62,9 +60,9 @@ export default function Lesson1() {
           this new plan mean for our company? First, it’s a <b>reality check</b>{" "}
           on where we are right now in terms of getting our message to our
           customers. Second, this plan has the potential to move the company
-          <b>forward</b>. One of our main challenges, as you all know, is staying
-          relevant in this changing market. Today’s presentation has some really
-          innovative ideas about how we can do this.
+          {""}<b>forward</b>. One of our main challenges, as you all know, is
+          staying relevant in this changing market. Today’s presentation has
+          some really innovative ideas about how we can do this.
         </p>
       </div>
     </>

@@ -6,7 +6,7 @@ export default function GrammarInUseElementaryUnit53() {
     <>
       <Whiteboard
         title="Extras"
-        subTitle="Grammar"
+        subtitle="Grammar"
         descriptions={[
           "Elementary",
           "Unit 53 • I want you to... / I told you to...",

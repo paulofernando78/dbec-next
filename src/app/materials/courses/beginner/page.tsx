@@ -1146,7 +1146,7 @@ const contents = [
 export default function Beginner() {
   return (
     <>
-      <Whiteboard title="Courses" subTitle="Beginner (A1)" />
+      <Whiteboard title="Courses" subtitle="Beginner (A1)" />
       <div className="line-break">
         <div className="line-break">
           <p className="bold">Jump to:</p>
@@ -1172,12 +1172,13 @@ export default function Beginner() {
           <div>
             <p>
               • Can introduce him/herself and others and can ask and answer
-              questions about personal details such as where he/she lives, people
-              he/she knows and things he/she has.
+              questions about personal details such as where he/she lives,
+              people he/she knows and things he/she has.
             </p>
             <p>
               • Can understand and use familiar everyday expressions and very
-              basic phrases aimed at the satisfaction of needs of a concrete type.
+              basic phrases aimed at the satisfaction of needs of a concrete
+              type.
             </p>
             <p>
               • Can interact in a simple way provided the other person talks

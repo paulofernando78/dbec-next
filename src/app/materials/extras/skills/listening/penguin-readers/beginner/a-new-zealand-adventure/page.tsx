@@ -160,7 +160,7 @@ export default function ANewZealandAdventure() {
     <>
       <Whiteboard
         title="Extras"
-        subTitle="Listening"
+        subtitle="Listening"
         descriptions={[
           "Penguin Readers",
           "Beginner",

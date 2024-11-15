@@ -4,7 +4,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 export default function Business() {
   return (
     <div>
-      <Whiteboard title="Specific Purposes" subTitle="Business" />
+      <Whiteboard title="Specific Purposes" subtitle="Business" />
       <Link href="/materials/specific-purposes/business/business-meetings-us">
         <p>Business Meetings (US)</p>
       </Link>

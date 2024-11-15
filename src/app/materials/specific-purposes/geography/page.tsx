@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Geography() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subTitle="Geography" />
+      <Whiteboard title="Specific Purposes" subtitle="Geography" />
       <div className="line-break">
         {/* <p><b>Vocabulary</b></p> */}
         <div>

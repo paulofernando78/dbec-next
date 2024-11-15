@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit137() {
     <>
       <Whiteboard
         title="Extras"
-        subTitle="Grammar"
+        subtitle="Grammar"
         descriptions={[
           "Intermediate",
           "Unit 137 • Phrasal verbs 1 Introduction",

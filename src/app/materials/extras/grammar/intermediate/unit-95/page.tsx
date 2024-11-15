@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit95() {
     <>
       <Whiteboard
         title="Extras"
-        subTitle="Grammar"
+        subtitle="Grammar"
         descriptions={[
           "Intermediate",
           "Unit 95 • Relative clauses 4: extra information clauses (1)",

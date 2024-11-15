@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit87() {
     <>
       <Whiteboard
         title="Extras"
-        subTitle="Grammar"
+        subtitle="Grammar"
         descriptions={[
           "Intermediate",
           "Unit 87 • much, many, little, few, a lot, plenty",

@@ -1217,18 +1217,18 @@ export default function PreIntermediate() {
     <>
       <Whiteboard
         title="Courses"
-        subTitle="Pre-intermediate (A2-B1)"
+        subtitle="Pre-intermediate (A2-B1)"
         descriptions={["43 lessons"]}
       />
       <div className="line-break">
-      {/* CEFR */}
-      <BoardCard
-        label="CEFR (Common European Framework of Reference)"
-        bgColor="#1F8FEA"
-        textColor="white"
-      >
-        <p>• A2 ➜ B1</p>
-      </BoardCard>
+        {/* CEFR */}
+        <BoardCard
+          label="CEFR (Common European Framework of Reference)"
+          bgColor="#1F8FEA"
+          textColor="white"
+        >
+          <p>• A2 ➜ B1</p>
+        </BoardCard>
         <ContentCard contents={contents} />
       </div>
     </>

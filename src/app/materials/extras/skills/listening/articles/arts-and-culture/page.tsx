@@ -24,7 +24,7 @@ export default function ArtsAndCulture() {
     <>
       <Whiteboard
         title="Listening"
-        subTitle="Articles"
+        subtitle="Articles"
         descriptions={["Arts and Culture"]}
       />
       <div>

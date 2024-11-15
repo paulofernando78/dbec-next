@@ -7,7 +7,6 @@ import {
   DictionaryCard,
   FillInTheBlanks,
   FlipCard,
-  PreVocabulary,
   Radio,
   ScrollToTop,
   SwiperFraction,
@@ -184,7 +183,7 @@ export default function MockVocabularyGrammar() {
     <>
       <Whiteboard
         title="Vocabulary / Grammar"
-        subTitle="..."
+        subtitle="..."
         descriptions={["..."]}
       />
 
@@ -260,7 +259,7 @@ export default function MockVocabularyGrammar() {
             </BoardCard>
           </BoardCard>
 
-            {/* Practice */}
+          {/* Practice */}
           <BoardCard label="Practice" bgColor="black" textColor="white">
             {/* High Control Written Practice */}
             <BoardCard

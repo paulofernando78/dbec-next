@@ -6,7 +6,7 @@ export default function ElementaryLesson34FlippedClassroom() {
     <>
       <Whiteboard
         title="Courses"
-        subTitle="Elementary (A2)"
+        subtitle="Elementary (A2)"
         descriptions={[
           "Lesson 34",
           "Flipped Classroom",

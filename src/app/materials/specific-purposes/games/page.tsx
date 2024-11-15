@@ -5,7 +5,7 @@ import { Card } from "@/components/Cards/Card";
 export default function Games() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subTitle="Games" />
+      <Whiteboard title="Specific Purposes" subtitle="Games" />
       <div className="line-break">
         <div className="line-break">
           <Card>

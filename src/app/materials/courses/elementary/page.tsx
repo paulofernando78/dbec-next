@@ -1159,7 +1159,7 @@ export default function Elementary() {
     <>
       <Whiteboard
         title="Courses"
-        subTitle="Elementary (A2)"
+        subtitle="Elementary (A2)"
         descriptions={["43 lessons"]}
       />
       <div className="line-break">
@@ -1177,11 +1177,13 @@ export default function Elementary() {
             </p>
             <p>
               • Can communicate in simple and routine tasks requiring a1 simple
-              and direct exchange of information on familiar and routine matters.
+              and direct exchange of information on familiar and routine
+              matters.
             </p>
             <p>
               • Can describe in simple terms aspects of his/her background,
-              immediate environment and matters in areas of immediate Basic need.
+              immediate environment and matters in areas of immediate Basic
+              need.
             </p>
           </div>
         </BoardCard>

@@ -2,21 +2,21 @@ import styles from "./styles.module.css";
 
 interface WhiteboardProps {
   title: string;
-  subTitle?: string;
+  subtitle?: string;
   descriptions?: string[];
-  subDescription?: string
+  subDescription?: string;
 }
 
 export const Whiteboard = ({
   title,
-  subTitle,
+  subtitle,
   descriptions = [],
-  subDescription
+  subDescription,
 }: WhiteboardProps) => {
   return (
     <div className={styles["container"]}>
       <h1>{title}</h1>
-      {subTitle && <h3>{subTitle}</h3>}
+      {subtitle && <h3>{subtitle}</h3>}
       {descriptions.map((description, index) => (
         <p key={index}>
           <b>{description}</b>

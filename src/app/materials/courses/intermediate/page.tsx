@@ -996,7 +996,8 @@ const contents = [
           {
             checkboxLink:
               "/materials/courses/intermediate/lesson-38/flipped-classroom",
-            checkboxLabel: "Flipped Classroom • A law must be passed! (Cycle 1)",
+            checkboxLabel:
+              "Flipped Classroom • A law must be passed! (Cycle 1)",
           },
           {
             checkboxLink: "/materials/courses/intermediate/lesson-38/classwork",
@@ -1022,7 +1023,8 @@ const contents = [
           {
             checkboxLink:
               "/materials/courses/intermediate/lesson-39/flipped-classroom",
-            checkboxLabel: "Flipped Classroom • A law must be passed! (Cycle 2)",
+            checkboxLabel:
+              "Flipped Classroom • A law must be passed! (Cycle 2)",
           },
           {
             checkboxLink: "/materials/courses/intermediate/lesson-39/classwork",
@@ -1146,7 +1148,7 @@ export default function Intermediate() {
     <>
       <Whiteboard
         title="Courses"
-        subTitle="Intermediate (B1)"
+        subtitle="Intermediate (B1)"
         descriptions={["43 lessons"]}
       />
       <div className="line-break">
@@ -1158,8 +1160,8 @@ export default function Intermediate() {
           <div>
             <p>
               • Can understand the main points of clear standard input on
-              familiar matters regularly encoute#82C121 in work, school, leisure,
-              etc.
+              familiar matters regularly encoute#82C121 in work, school,
+              leisure, etc.
             </p>
             <p>
               • Can deal with most situations likely to arise while travelling
@@ -1170,9 +1172,8 @@ export default function Intermediate() {
               or personal interest.
             </p>
             <p>
-              • Can describe experiences and events, dreams, hopes and
-              ambitions and briefly give reasons and explanations for opinions
-              and plans.
+              • Can describe experiences and events, dreams, hopes and ambitions
+              and briefly give reasons and explanations for opinions and plans.
             </p>
           </div>
         </BoardCard>

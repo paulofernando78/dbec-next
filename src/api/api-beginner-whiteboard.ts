@@ -1,6 +1,6 @@
 export interface TextData {
   title: string;
-  subTitle: string;
+  subtitle: string;
   descriptions: string[];
 }
 
@@ -10,17 +10,17 @@ export const fetchTextData = (): Promise<TextData[]> => {
       resolve([
         {
           title: "Courses",
-          subTitle: "Beginner",
+          subtitle: "Beginner",
           descriptions: ["43 lessons"],
         },
         {
           title: "Courses",
-          subTitle: "Beginner",
+          subtitle: "Beginner",
           descriptions: ["Lesson 2", "Flipped What's your name? (Cycle 1)"],
         },
         {
           title: "Courses",
-          subTitle: "Beginner",
+          subtitle: "Beginner",
           descriptions: ["Lesson 3", "Flipped What's your name? (Cycle 2)"],
         },
       ]);

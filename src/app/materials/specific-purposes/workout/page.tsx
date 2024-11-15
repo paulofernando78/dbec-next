@@ -3,7 +3,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 export default function Workout() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subTitle="Workout" />
+      <Whiteboard title="Specific Purposes" subtitle="Workout" />
       <div className="line-break">
         <p>
           <b>Vocabulary</b>

@@ -6,7 +6,7 @@ export default function SoocerFootball() {
     <>
       <Whiteboard
         title="Specific-Purposes"
-        subTitle="Sports"
+        subtitle="Sports"
         descriptions={["Soccer / Football"]}
       />
       <div className="line-break">

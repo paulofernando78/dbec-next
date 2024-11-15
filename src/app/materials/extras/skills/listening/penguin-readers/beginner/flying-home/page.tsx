@@ -144,7 +144,7 @@ export default function FlyingHome() {
     <>
       <Whiteboard
         title="Extras"
-        subTitle="Listening"
+        subtitle="Listening"
         descriptions={["Penguin Readers", "Beginner", "..."]}
       />
       <div>

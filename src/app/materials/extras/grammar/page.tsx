@@ -26,7 +26,7 @@ const contents = [
 export default function GrammarInUse() {
   return (
     <>
-      <Whiteboard title="Extras" subTitle="Grammar" />
+      <Whiteboard title="Extras" subtitle="Grammar" />
       <ContentCard contents={contents} />
     </>
   );

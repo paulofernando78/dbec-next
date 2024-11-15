@@ -1,31 +1,57 @@
-import { AudioPlayer } from "@/components/Audioplayer";
-import { UnderConstruction } from "@/components/UnderConstruction";
+"use client";
+
+import { useEffect, useState } from "react";
 import { Whiteboard } from "@/components/Whiteboard";
+import { Ribbon } from "@/components/Ribbons/Ribbon";
+
+interface Stage {
+  label: string;
+  bgColor: string;
+  textColor: string;
+  text: string
+}
+
+interface LessonData {
+  title: string;
+  subtitle: string;
+  description: string[];
+  stages: Stage[];
+}
 
 export default function BeginnerLesson2Classwork() {
+  const [lessonData, setLessonData] = useState<LessonData | null>(null);
+
+  useEffect(() => {
+    fetch("/assets/data/materials/courses/beginner/lesson-2.json")
+      .then((response) => {
+        if (!response.ok) throw new Error("Erro ao carregar o JSON");
+        return response.json();
+      })
+      .then((data) => setLessonData(data))
+      .catch((error) => console.error(error));
+  }, []);
+
+  if (!lessonData) return <p>Loading...</p>;
+
   return (
     <>
       <Whiteboard
-        title="Courses"
-        subTitle="Beginner"
-        descriptions={["Lesson 2", "Classwork", "What's your name? (Cycle 1)"]}
+        title={lessonData.title}
+        subtitle={lessonData.subtitle}
+        descriptions={lessonData.description}
       />
       <div className="line-break">
-        <AudioPlayer audioSrc="\assets\audio\courses\beginner\courses-beginner-Unit 01 Pg 003 Ex 05 Listening.mp3" />
-        <div>
-          <p>1. Is her name with "k" or with "c"? Her name starts with...</p>
-          <p>2. Is his name with "ck" or "k"</p>
-          <p>3. with "ph" or "f"?</p>
-          <p>4. Za _ _ ary. with "ch" or "ck"</p>
-        </div>
-        <AudioPlayer audioSrc="\assets\audio\courses\beginner\courses-beginner-Unit 01 Pg 004 Ex 06 Word Power Pt B.mp3" />
-        <div>
-          <p className="bold">Mr.? Mrs.? Ms.? or Miss?</p>
-          <p>1. _____ Santos</p>
-          <p>2. _____ Wilson</p>
-          <p>3. _____ Park</p>
-          <p>4. _____ Rossi</p>
-        </div>
+        {lessonData.stages.map((stage, index) => (
+          <>
+            <Ribbon
+              key={index}
+              label={stage.label}
+              bgColor={stage.bgColor}
+              textColor={stage.textColor}
+            />
+            <p>{stage.text}</p>
+          </>
+        ))}
       </div>
     </>
   );

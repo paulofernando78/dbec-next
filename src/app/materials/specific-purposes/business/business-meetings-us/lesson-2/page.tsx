@@ -6,7 +6,7 @@ export default function Lesson1() {
     <>
       <Whiteboard
         title="Specific Purposes"
-        subTitle="Business"
+        subtitle="Business"
         descriptions={[
           "Business MEetings (US)",
           "Lesson 2 • Introducing the Participants",

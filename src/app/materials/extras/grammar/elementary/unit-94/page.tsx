@@ -6,7 +6,7 @@ export default function GrammarInUseElementaryUnit94() {
     <>
       <Whiteboard
         title="Extras"
-        subTitle="Grammar"
+        subtitle="Grammar"
         descriptions={[
           "Elementary",
           "Unit 94 • always/usually/often etc. (word order 2)",

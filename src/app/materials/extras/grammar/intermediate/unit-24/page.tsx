@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit24() {
     <>
       <Whiteboard
         title="Extras"
-        subTitle="Grammar"
+        subtitle="Grammar"
         descriptions={[
           "Intermediate",
           "Unit 24 • will be doing and will have done",

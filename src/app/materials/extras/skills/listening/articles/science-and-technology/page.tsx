@@ -44,7 +44,7 @@ export default function ScienceAndTechnologyArticles() {
     <>
       <Whiteboard
         title="Extras"
-        subTitle="Listening"
+        subtitle="Listening"
         descriptions={["Articles", "Science & Technology"]}
       />
       <ContentCard contents={contents} />

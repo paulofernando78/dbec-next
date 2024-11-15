@@ -16,7 +16,7 @@ export interface FillInTheBlanksData {
   options: boolean;
   width?: string;
   title?: string;
-  subTitle?: string;
+  subtitle?: string;
   beforeBlank?: string;
   lineBreakBefore?: boolean;
   placeholder?: string;
@@ -91,16 +91,16 @@ export const FillInTheBlanks = ({
             {question.title && (
               <div className="margin-bottom">
                 <p className="bold">{question.title}</p>
-                <p>{question.subTitle}</p>
+                <p>{question.subtitle}</p>
               </div>
             )}
             <span>
-              {`${index + 1}`}.{" "}
-              {/* beforeQuestion */}
-              {question.beforeBlank && (<span
-                dangerouslySetInnerHTML={{ __html: question.beforeBlank }}
-              />)}
-              {" "}
+              {`${index + 1}`}. {/* beforeQuestion */}
+              {question.beforeBlank && (
+                <span
+                  dangerouslySetInnerHTML={{ __html: question.beforeBlank }}
+                />
+              )}{" "}
               {question.lineBreakBefore && <br />}
               <input
                 type="text"

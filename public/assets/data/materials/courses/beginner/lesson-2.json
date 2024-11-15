@@ -1,0 +1,43 @@
+{
+  "title": "Courses",
+  "subtitle": "Beginner",
+  "descriptions": ["Lesson 2 ", "Classwork", "What's your name? (Cycle 1)"],
+  "stages": [
+    {
+      "label": "Warm-up",
+      "bgColor": "black",
+      "textColor": "white",
+      "text": "aaa"
+    },
+    {
+      "label": "Introduction",
+      "bgColor": "black",
+      "textColor": "white",
+      "text": "bbb"
+    },
+    {
+      "label": "Presentation",
+      "bgColor": "black",
+      "textColor": "white",
+      "text": "ccc"
+    },
+    {
+      "label": "Practice",
+      "bgColor": "black",
+      "textColor": "white",
+      "text": "ddd"
+    },
+    {
+      "label": "Production",
+      "bgColor": "black",
+      "textColor": "white",
+      "text": "eee"
+    },
+    {
+      "label": "Wrap-up",
+      "bgColor": "black",
+      "textColor": "white",
+      "text": "fff"
+    }
+  ]
+}

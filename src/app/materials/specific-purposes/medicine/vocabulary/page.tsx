@@ -471,7 +471,7 @@ export default function MedicineVocabulary() {
     <>
       <Whiteboard
         title="Specific Purposes"
-        subTitle="medicine"
+        subtitle="medicine"
         descriptions={["Vocabulary"]}
       />
       <div className="line-break">

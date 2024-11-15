@@ -7,7 +7,7 @@ export default function page() {
     <>
       <Whiteboard
         title="Specific-Purposes"
-        subTitle="Sports"
+        subtitle="Sports"
         descriptions={["Dodgeball"]}
       />
       <div className="line-break">

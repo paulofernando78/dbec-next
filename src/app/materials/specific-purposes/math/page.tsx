@@ -6,7 +6,7 @@ import { BoardCard } from "@/components/Cards/BoardCard";
 export default function Math() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subTitle="Math" />
+      <Whiteboard title="Specific Purposes" subtitle="Math" />
       <div className="line-break">
         <BoardCard label="Fraction" bgColor="black" textColor="white">
           <p>
@@ -27,7 +27,9 @@ export default function Math() {
               </div>
             </div>
             <div className="line-break">
-              <p className="bold">LCM (Greatest Common Divisor), also HCF (Highest Common Factor)</p>
+              <p className="bold">
+                LCM (Greatest Common Divisor), also HCF (Highest Common Factor)
+              </p>
               <div>
                 <p>...</p>
               </div>

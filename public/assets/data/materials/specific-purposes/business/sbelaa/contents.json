@@ -1,0 +1,170 @@
+{
+  "contents": [
+    {
+      "cardContents": [
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Lessons 1-5",
+          "contents": [
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-1",
+              "checkboxLabel": "Lesson 1 • Talking about a new project"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-2",
+              "checkboxLabel": "Lesson 2 • Talking about financial issues"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-3",
+              "checkboxLabel": "Lesson 3 • Discussing a new ad campaign"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-4",
+              "checkboxLabel": "Lesson 4 • Talking about manufacturing"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-5",
+              "checkboxLabel": "Lesson 5 • Talking about company strategy"
+            }
+          ]
+        },
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Lessons 6-10",
+          "contents": [
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-6",
+              "checkboxLabel": "Lesson 6 • Discussing good results"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-7",
+              "checkboxLabel": "Lesson 7 • Discussing bad results"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-8",
+              "checkboxLabel": "Lesson 8 • Discussing a difficult decision"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-9",
+              "checkboxLabel": "Lesson 9 • Dealing with a dissastified customer"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-10",
+              "checkboxLabel": "Lesson 10 • Discussing a difficult request"
+            }
+          ]
+        },
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Lessons 11-15",
+          "contents": [
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-11",
+              "checkboxLabel": "Lesson 11 • Motivating Co-Workers"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-12",
+              "checkboxLabel": "Lesson 12 • Running a meeting"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-13",
+              "checkboxLabel": "Lesson 13 • Discussing A Mistake"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-14",
+              "checkboxLabel": "Lesson 14 • Taking Credit For Good Results"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-5",
+              "checkboxLabel": "Lesson 15 • Shifting Blame"
+            }
+          ]
+        },
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Lessons 16-20",
+          "contents": [
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-16",
+              "checkboxLabel": "Lesson 16 • Politely Disagreeing With Someone"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-17",
+              "checkboxLabel": "Lesson 17 • Telling Somebody Off"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-18",
+              "checkboxLabel": "Lesson 18 • Discussing Office Scandals"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-19",
+              "checkboxLabel": "Lesson 19 • Complaining About A Co-Worker"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-20",
+              "checkboxLabel": "Lesson 20 • Talking About A Brown Noser"
+            }
+          ]
+        },
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Lessons 21-25",
+          "contents": [
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-21",
+              "checkboxLabel": "Lesson 21 • Explaining That You're Feeling Overworked"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-22",
+              "checkboxLabel": "Lesson 22 • Calling In Sick"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-23",
+              "checkboxLabel": "Lesson 23 • Requesting A Bank Loan"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-24",
+              "checkboxLabel": "Lesson 24 • Negotiating A Purchase"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-25",
+              "checkboxLabel": "Lesson 25 • Conducting A Performance Review"
+            }
+          ]
+        },
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Lessons 26-30",
+          "contents": [
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-26",
+              "checkboxLabel": "Lesson 26 • Promoting An Employee"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-27",
+              "checkboxLabel": "Lesson 27 • Firing Somebody"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-28",
+              "checkboxLabel": "Lesson 28 • Job Interview 1"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-29",
+              "checkboxLabel": "Lesson 29 • Job Interview 2"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbelaa/lesson-30",
+              "checkboxLabel": "Lesson 30 • Negotiating a Salary Offer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

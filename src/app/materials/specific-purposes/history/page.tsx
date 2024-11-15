@@ -4,7 +4,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 export default function History() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subTitle="History" />
+      <Whiteboard title="Specific Purposes" subtitle="History" />
       <div className="line-break">
         <div className="line-break">
           <div className="line-break">

@@ -112,7 +112,7 @@ export default function MockListening() {
     <>
       <Whiteboard
         title="Listening"
-        subTitle="..."
+        subtitle="..."
         descriptions={["..."]}
         subDescription="Month #, 20..."
       />

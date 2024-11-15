@@ -7,7 +7,7 @@ export default function LifeIsAVideoGame() {
     <>
       <Whiteboard
         title="Specific Purposes"
-        subTitle="Listening"
+        subtitle="Listening"
         descriptions={["..."]}
         subDescription="..."
       />

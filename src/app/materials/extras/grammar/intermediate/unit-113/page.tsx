@@ -6,7 +6,7 @@ export default function GrammarInUseIntermediateUnit113() {
     <>
       <Whiteboard
         title="Extras"
-        subTitle="Grammar"
+        subtitle="Grammar"
         descriptions={[
           "Intermediate",
           "Unit 113 • although, though, even though, in inspite of, despite",

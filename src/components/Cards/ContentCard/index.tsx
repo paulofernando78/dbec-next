@@ -1,45 +1,14 @@
 // Imports
 import Link from "next/link";
-import Image, { StaticImageData } from "next/image";
+import Image from "next/image";
+import { Card } from "../Card";
+import { ContentCardProps, CardContent } from "@/types/contentCard"
 
 // CSS
 import styles from "./styles.module.css";
 
 // Images
 import globeIcon from "@/img/icon/globe.png";
-
-import { Card } from "../Card";
-
-// Types
-interface Content {
-  content?: string;
-  applyHr?: boolean;
-  link?: string;
-  linkLabel?: string;
-  checkboxLink?: string;
-  checkboxLabel?: string;
-  globeLink?: string;
-  globeLabel?: string;
-  courseImg?: StaticImageData;
-  courseLink?: string;
-  courseLabel?: string;
-}
-
-interface CardContent {
-  bgColor: string;
-  textColor?: string;
-  cardLabel?: string;
-  contents: Content[];
-}
-
-interface MainContent {
-  headerLabel?: string;
-  cardContents: CardContent[];
-}
-
-interface ContentCardProps {
-  contents: MainContent[];
-}
 
 export const ContentCard = ({ contents }: ContentCardProps) => {
   return (

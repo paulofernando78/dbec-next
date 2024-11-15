@@ -147,7 +147,7 @@ const contents = [
 export default function Skills() {
   return (
     <>
-      <Whiteboard title="Extras" subTitle="Skills" />
+      <Whiteboard title="Extras" subtitle="Skills" />
       <ContentCard contents={contents} />
     </>
   );

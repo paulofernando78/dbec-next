@@ -31,7 +31,7 @@ export default function Elementary() {
     <>
       <Whiteboard
         title="Extras"
-        subTitle="Listening"
+        subtitle="Listening"
         descriptions={["Penguin Readers", "Elementary"]}
       />
       <div>

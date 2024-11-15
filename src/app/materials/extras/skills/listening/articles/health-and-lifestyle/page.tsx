@@ -35,7 +35,7 @@ export default function HealthAndLifestyle() {
     <>
       <Whiteboard
         title="Listening"
-        subTitle="Articles"
+        subtitle="Articles"
         descriptions={["Health & Lifestyle"]}
       />
       <ContentCard contents={contents} />

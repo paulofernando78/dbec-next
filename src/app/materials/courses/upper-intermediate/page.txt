@@ -1069,7 +1069,7 @@ export default function UpperIntermediate() {
     <>
       <Whiteboard
         title="Courses"
-        subTitle="Upper-intermediate (B2)"
+        subtitle="Upper-intermediate (B2)"
         descriptions={["43 lessons"]}
       />
       <div className="line-break">

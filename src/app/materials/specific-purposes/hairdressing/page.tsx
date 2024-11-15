@@ -3,13 +3,13 @@ import { Whiteboard } from "@/components/Whiteboard";
 export default function Hairdressing() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subTitle="Hairdressing" />
+      <Whiteboard title="Specific Purposes" subtitle="Hairdressing" />
       <div className="line-break">
         <div className="line-break">
           <div>
             <p>
               Men and women have many options to choose from. Many places that
-              cut hair will call themselves a:
+              cut hair will call themselves as:
             </p>
             <p>• Hairdresser</p>
             <p>• Barber Shop</p>

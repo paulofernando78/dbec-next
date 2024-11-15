@@ -23,7 +23,7 @@ const fillInTheBlanks = [
     options: true,
     width: "50px",
     title: "103.1 Choose at / on /in.",
-    subTitle: "Write in lower-case letters. [Escreva em letras minúsculas.]",
+    subtitle: "Write in lower-case letters. [Escreva em letras minúsculas.]",
     correctAnswer: ["on"],
     afterBlank: "June 6 (sixth)",
     lineBreakAfter: true,
@@ -168,7 +168,7 @@ export default function Unit103() {
     <>
       <Whiteboard
         title="Extras"
-        subTitle="Grammar"
+        subtitle="Grammar"
         descriptions={[
           "Elementary",
           "Unit 103 • at 8 o'clock, on Monday, in April",

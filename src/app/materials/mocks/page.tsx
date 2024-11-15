@@ -36,7 +36,7 @@ const radio = [
 const dropdown = [
   {
     title: "Title",
-    subTitle: "Subtitle",
+    subtitle: "subtitle",
     beforeOptions: "1. I",
     options: [
       { value: "am", label: "am", correctAnswer: true },
@@ -59,7 +59,7 @@ const dropdown = [
   },
   {
     title: "Title",
-    subTitle: "Subtitle",
+    subtitle: "subtitle",
     beforeOptions: "1. I",
     options: [
       { value: "am", label: "am", correctAnswer: true },
@@ -100,7 +100,7 @@ const fillInTheBlanks = [
     placeholder: "...",
     correctAnswer: ["..."],
     afterBlank: "...",
-  }
+  },
 ];
 
 const swiperFraction = [

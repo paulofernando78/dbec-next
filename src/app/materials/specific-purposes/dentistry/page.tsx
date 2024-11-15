@@ -4,7 +4,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 export default function Dentistry() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subTitle="Dentistry" />
+      <Whiteboard title="Specific Purposes" subtitle="Dentistry" />
       <div className="line-break">
         <Card>
           <p>

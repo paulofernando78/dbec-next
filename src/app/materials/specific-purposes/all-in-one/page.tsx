@@ -8,7 +8,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 export default function AllInOne() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subTitle="All-in-one Review" />
+      <Whiteboard title="Specific Purposes" subtitle="All-in-one Review" />
       <div className="line-break">
         {/* Jump to: */}
         <p className="bold">Jump to:</p>
@@ -56,7 +56,7 @@ export default function AllInOne() {
           <CardinalOrdinalNumbers />
         </div>
         <div id="verb-to-be">
-         <VerbBe />
+          <VerbBe />
         </div>
         <div id="present-continuous">
           <BoardCard

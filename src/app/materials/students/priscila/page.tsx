@@ -6,7 +6,7 @@ import React from "react";
 export default function Priscila() {
   return (
     <>
-      <Whiteboard title="Student's page" subTitle="Priscila Tanaca" />
+      <Whiteboard title="Student's page" subtitle="Priscila Tanaca" />
       <div className="line-break">
         <Link href="/students/priscila/resume">
           <p>

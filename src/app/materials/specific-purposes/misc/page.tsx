@@ -34,7 +34,7 @@ const descriptions = [
 export default function Misc() {
   return (
     <>
-      <Whiteboard title="Specific Purposes" subTitle="Miscellaneous" />
+      <Whiteboard title="Specific Purposes" subtitle="Miscellaneous" />
       <DescriptionCard descriptions={descriptions} />
     </>
   );

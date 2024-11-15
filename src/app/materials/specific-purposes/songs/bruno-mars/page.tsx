@@ -6,7 +6,7 @@ export default function BrunoMars() {
     <>
       <Whiteboard
         title="Specific Purposes"
-        subTitle="Songs"
+        subtitle="Songs"
         descriptions={["Bruno Mars"]}
       />
       <div className="line-break"></div>
