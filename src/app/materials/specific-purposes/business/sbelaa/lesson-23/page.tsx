@@ -54,8 +54,7 @@ export default function SpecificPurposesBusinessSbellaLesson23() {
         {lessonData.paragraphs.map((paragraph, index) => (
           <>
             <p key={index}>
-              <b>{paragraph.speaker}</b>
-              {paragraph.text}
+              <b>{paragraph.speaker}</b> {paragraph.text}
             </p>
           </>
         ))}

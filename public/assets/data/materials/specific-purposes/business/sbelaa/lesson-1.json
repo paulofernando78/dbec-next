@@ -7,11 +7,47 @@
   ],
   "audioSrc": "/assets/audio/specific-purposes/business/sbelaa/lesson-1.mp3",
   "lessonTitle": "Lesson 1 • Talking About a New Project",
-  "lessonDescription": "...",
+  "lessonDescription": "Carl, Greg, and Anne work for WaterSonic Corporation. Recently, the company has come up with an idea for a new electric toothbrush.",
   "paragraphs": [
     {
-      "speaker": "...",
-      "text": "..."
+      "speaker": "Carl:",
+      "text": "I think we've come up with a winner."
+    },
+    {
+      "speaker": "Anne:",
+      "text": "I agree. The new Brush-o-matic should be a blockbuster!"
+    },
+    {
+      "speaker": "Carl:",
+      "text": "Our designers have already made up some prototypes. The toothbrushes have a tooth-whitening attachment and many other bells and whistles."
+    },
+    {
+      "speaker": "Greg:",
+      "text": "We should fast track this project. Let's try to launch it in time for the holiday season."
+    },
+    {
+      "speaker": "Anne:",
+      "text": "This will be a great stocking stuffer!"
+    },
+    {
+      "speaker": "Carl:",
+      "text": "We definitely need a big win for the holidays."
+    },
+    {
+      "speaker": "Anne:",
+      "text": "This is a great idea. We're going to make a killing."
+    },
+    {
+      "speaker": "Greg:",
+      "text": "Let's not talk about this project to anybody who doesn't need to know. We'll keep it under wraps."
+    },
+    {
+      "speaker": "Carl:",
+      "text": "I agree. Mum's the word. We don't want any of our competitors to get wind of the idea and rip it off."
+    },
+    {
+      "speaker": "Anne:",
+      "text": "Right. Let's meet again on Monday morning and discuss our game plan for getting this project off the ground!"
     }
   ]
 }
