@@ -1,7 +1,7 @@
 "use client";
 import { Whiteboard } from "@/components/Whiteboard";
 import { VideoPlayer } from "@/components/VideoPlayer";
-import { Songs } from "@/components/SpecificPurposes/Songs";
+import { Songs } from "@/components/Templates/Specific-Purposes/Songs";
 import { ScrollToTop } from "@/components/ScrollToTop";
 
 const songs = [

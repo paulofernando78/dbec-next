@@ -1,33 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Whiteboard } from "@/components/Whiteboard";
-import { AudioPlayer, Card, Radio } from "@/components";
-
-interface RadioExercise {
-  title?: string;
-  question: string
-  options: { label: string; isCorrect: boolean }[]
-}
-
-interface Paragraph {
-  speaker: string;
-  text: string;
-}
-
-interface LessonData {
-  title: string;
-  subtitle: string;
-  descriptions: string[];
-  audioSrc: string;
-  lessonTitle: string;
-  lessonDescription: string;
-  paragraphs: Paragraph[];
-  radioExercises: RadioExercise[]
-}
+import { SbellaLessonTemplate } from "@/components/Templates/Specific-Purposes/Business/Sbella/Index";
+import { LessonData } from "@/types/materials/specific-purposes/business/sbelaa/sbelaa";
 
 export default function SpecificPurposesBusinessSbellaLesson1() {
-  const [lessonData, setLessonData] = useState<LessonData | null>(null);
+  const [lessonData, setLessonData] =
+    useState<LessonData | null>(null);
 
   useEffect(() => {
     fetch(
@@ -43,33 +22,5 @@ export default function SpecificPurposesBusinessSbellaLesson1() {
 
   if (!lessonData) return <p>Loading...</p>;
 
-  return (
-    <>
-      <Whiteboard
-        title={lessonData.title}
-        subtitle={lessonData.subtitle}
-        descriptions={lessonData.descriptions}
-      />
-      <div className="line-break">
-        <AudioPlayer audioSrc={lessonData.audioSrc} />
-        <Card>
-          <p>
-            <b>{lessonData.lessonTitle}</b>
-          </p>
-          <p>{lessonData.lessonDescription}</p>
-        </Card>
-        {lessonData.paragraphs.map((paragraph, index) => (
-          <p key={index}>
-            <b>{paragraph.speaker}</b> {paragraph.text}
-          </p>
-        ))}
-        <Card bgColor="lightgrey">
-          <p>
-            <b>Exercises</b>
-          </p>
-        </Card>
-        <Radio questions={lessonData.radioExercises} />
-      </div>
-    </>
-  );
+  return <SbellaLessonTemplate data={lessonData} />;
 }
