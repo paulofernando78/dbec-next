@@ -13,5 +13,81 @@
       "speaker": "...",
       "text": "..."
     }
+  ],
+  "radioExercises": [
+    {
+      "title": "Choose the best substitute for the phrase or sentence in bold.",
+      "question": "1. ...",
+      "options": [
+        {
+          "label": "a) ...",
+          "isCorrect": false
+        },
+        {
+          "label": "b) ...",
+          "isCorrect": true
+        },
+        {
+          "label": "c) ...",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "2. ...",
+      "options": [
+        { "label": "a) ...", "isCorrect": true },
+        { "label": "b) ...", "isCorrect": false },
+        { "label": "c) ...", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "3. ...",
+      "options": [
+        { "label": "a) ...", "isCorrect": false },
+        { "label": "b) ...", "isCorrect": true },
+        { "label": "c) ...", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "4. ...",
+      "options": [
+        { "label": "a) ...", "isCorrect": true },
+        { "label": "b) ...", "isCorrect": false },
+        { "label": "c) ...", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "5. ...",
+      "options": [
+        { "label": "a) ...", "isCorrect": false },
+        { "label": "b) ...", "isCorrect": false },
+        { "label": "c) ...", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "6. ...",
+      "options": [
+        { "label": "a) ...", "isCorrect": false },
+        { "label": "b) ...", "isCorrect": false },
+        { "label": "c) ...", "isCorrect": true }
+      ]
+    },
+    {
+      "question": "7. ...",
+      "options": [
+        { "label": "a) ...", "isCorrect": true },
+        { "label": "b) ...", "isCorrect": false },
+        { "label": "c) ...", "isCorrect": false }
+      ]
+    },
+    {
+      "question": "8. ...",
+      "options": [
+        { "label": "a) ...", "isCorrect": false },
+        { "label": "b) ...", "isCorrect": true },
+        { "label": "c) ...", "isCorrect": false }
+      ]
+    }
   ]
 }

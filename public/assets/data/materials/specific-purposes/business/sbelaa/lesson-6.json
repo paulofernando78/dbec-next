@@ -1,5 +1,5 @@
 {
-  "title": "Speficic Purposes",
+  "title": "Specific Purposes",
   "subtitle": "Business",
   "descriptions": [
     "Speak English Like an American",
@@ -7,41 +7,314 @@
   ],
   "audioSrc": "/assets/audio/specific-purposes/business/sbelaa/lesson-6.mp3",
   "lessonTitle": "Lesson 6 • Discussing good results",
-  "lessonDescription": "Peter, Linda, and Todd work as a managers at Capital City Bank, a retail bank. Linda's creative idea for attracting new customers to the bank has generated lots of ne business.",
+  "lessonDescription": "Peter, Linda, and Todd work as a managers at Capital City Bank, a retail bank. Linda's creative idea for attracting new customers to the bank has generated lots of new business.",
   "paragraphs": [
     {
-      "speaker": "Peter", 
-      "text": "Great news! We had a record-breaking quarter. We brought in revenues of $500, 000."
+      "speaker": "Peter",
+      "texts": [
+        {
+          "text": "Great news! We had a"
+        },
+        {
+          "keyword": "record-breaking",
+          "vocabulary": "record-breaking"
+        },
+        {
+          "text": "quarter. We brought in revenues of $500,000."
+        }
+      ]
     },
     {
-      "speaker": "Linda", 
-      "text": "Wow, revenues really were through the roof!"
+      "speaker": "Linda",
+      "texts": [
+        {
+          "text": "Wow, revenues really were"
+        },
+        {
+          "keyword": "through the roof",
+          "vocabulary": "through the roof",
+          "text": "!"
+        }
+      ]
     },
     {
-      "speaker": "Todd", 
-      "text": "That's great. Kudos to Linda! She deservers a pat on the back. The guerilla marketing campaign she dreamed up was brilliant. She sent out email to all of our customers asking them to e-mail a friend about our service. For each friend they e-mailed, they received a free gift."
+      "speaker": "Todd",
+      "texts": [
+        {
+          "text": "That's great."
+        },
+        {
+          "keyword": "Kudos",
+          "vocabulary": "Kudos",
+          "text": "to Linda! She deserves"
+        },
+        {
+          "keyword": "pat on the back",
+          "vocabulary": "a pat on the back"
+        },
+        {
+          "text": ". The"
+        },
+        {
+          "keyword": "guerrilla marketing",
+          "vocabulary": "guerrilla marketing"
+        },
+        {
+          "text": "campaign she"
+        },
+        {
+          "keyword": "dream up",
+          "vocabulary": "dreamed up"
+        },
+        {
+          "text": "was brilliant. She sent out email to all of our customers asking them to e-mail a friend about our service. For each friend they e-mailed, they received a free gift."
+        }
+      ]
     },
     {
       "speaker": "Peter",
-      "text": "Linda, your campaign helped us drum up a lot of business. We signed on 800 new customers."
+      "texts": [
+        {
+          "text": "Linda, your campaign helped us"
+        },
+        {
+          "keyword": "drum up business",
+          "vocabulary": "drum up a lot of business"
+        },
+        {
+          "text": ". We"
+        },
+        {
+          "keyword": "sign on new constumers",
+          "vocabulary": "signed on 800 new constumers"
+        },
+        {
+          "text": "."
+        }
+      ]
     },
     {
-      "speaker": "Linda", 
-      "text": "I'm really glad my plan panned out. I thought it would, since everybody loves a freebie!"
+      "speaker": "Linda",
+      "texts": [
+        {
+          "text": "I'm really glad my plan"
+        },
+        {
+          "keyword": "pan out",
+          "vocabulary": "panned out"
+        },
+        {
+          "text": ". I thought it would, since everybody loves a"
+        },
+        {
+          "keyword": "freebie",
+          "vocabulary": "freebie"
+        },
+        {
+          "text": "!"
+        }
+      ]
     },
     {
-      "text": "Todd: Linda, we can always count on you to think outside the box."
+      "speaker": "Todd",
+      "texts": [
+        {
+          "text": "Linda, we can always count on you to"
+        },
+        {
+          "keyword": "think outside the box",
+          "vocabulary": "think outside the box"
+        },
+        {
+          "text": "."
+        }
+      ]
     },
     {
-      "speaker": "Linda:", 
-      "text": "For the record, Peter helped me come up with the idea."
+      "speaker": "Linda",
+      "texts": [
+        {
+          "keyword": "for the record",
+          "vocabulary": "For the record"
+        },
+        {
+          "keyword": "",
+          "vocabulary": "",
+          "text": ", Peter helped me come up with the idea."
+        }
+      ]
     },
     {
-      "speaker": "Peter:",
-      "text": "Thanks for sharing the credit, Linda. But it was your idea."
+      "speaker": "Peter",
+      "texts": [
+        {
+          "keyword": "",
+          "vocabulary": "",
+          "text": "Thanks for"
+        },
+        {
+          "keyword": "share the credit",
+          "vocabulary": "sharing the credit"
+        },
+        {
+          "keyword": "",
+          "vocabulary": "",
+          "text": ", Linda. But it was your idea."
+        }
+      ]
     },
     {
-      "text": "...."
+      "speaker": "Todd",
+      "texts": [
+        {
+          "keyword": "",
+          "vocabulary": "",
+          "text": "The important thing is that we've now giving our biggest competitor, U.S Bank,"
+        },
+        {
+          "keyword": "a run for one's money",
+          "vocabulary": "a run for their money"
+        },
+        {
+          "text": "."
+        }
+      ]
+    }
+  ],
+  "radioExercises": [
+    {
+      "title": "Choose the best substitute for the phrase or sentence in bold.",
+      "question": "1. Our store had a very successful holiday season this year. Sales were through the roof!",
+      "options": [
+        {
+          "label": "a) I'm sorry to hear that you need a new roof.",
+          "isCorrect": false
+        },
+        {
+          "label": "b) That's great. Congratulations!",
+          "isCorrect": true
+        },
+        {
+          "label": "c) Don't worry. Maybe next year will be better.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "2. We're looking for some freash thinking in our marketing department. Are you good at thinking outside the box?",
+      "options": [
+        {
+          "label": "a) Yes, I tend to think like everybody else.",
+          "isCorrect": false
+        },
+        {
+          "label": "b) Yes, I enjoy approaching new projects in a traditional way.",
+          "isCorrect": false
+        },
+        {
+          "label": "c) Yes, I'm great at coming up with new and creative ideas.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "3. I'd like to share the credit with you. Without you, I wouldn't have been able to find this important new client.",
+      "options": [
+        {
+          "label": "a) Thank you. I appreciate the recognition.",
+          "isCorrect": true
+        },
+        {
+          "label": "b) Thanks, but I already have enough credit.",
+          "isCorrect": false
+        },
+        {
+          "label": "c) I think I deserve some of the credit too.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "4. A big Ace Hardware store is opening up in town. Do you think they'll hardware store a run for their money?",
+      "options": [
+        {
+          "label": "a) Definitely. Their selection will be bigger and their prices may be lower.",
+          "isCorrect": true
+        },
+        {
+          "label": "b) Yes, our local hardware store will definitely run out of money.",
+          "isCorrect": false
+        },
+        {
+          "label": "c) No. Everybody in town will start shopping at Ace Hardware.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "5. Since you need to drum up some new business, I suggest you exhibit at a trade show.",
+      "options": [
+        {
+          "label": "a) We don't have any business right now.",
+          "isCorrect": false
+        },
+        {
+          "label": "b) We've been thinking about going into the drum business.",
+          "isCorrect": false
+        },
+        {
+          "label": "c) Great idea! I'm sure we could find some new clients there.",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "question": "6. You deserve a pat on the back for figuring out how to fix our computer network.",
+      "options": [
+        { "label": "a) Thanks. It was my pleasure.", "isCorrect": true },
+        {
+          "label": "b) Thanks. Let me turn around so you can see my back.",
+          "isCorrect": false
+        },
+        {
+          "label": "c) Sorry. I wish I could've done a better job.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "7. Kudos to you and the rest of the manufacturing department for figuring out how to cut our production costs!",
+      "options": [
+        {
+          "label": "a) We don't need any more kudos. We have enough in inventory.",
+          "isCorrect": false
+        },
+        {
+          "label": "b) Thank you. We are proud of our results.",
+          "isCorrect": true
+        },
+        {
+          "label": "c) We'll try our best, but we can't guarantee anything.",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "question": "8. Traditional ways of advertising are no longer working for our firm. Do you think we should try some guerrilla marketing?",
+      "options": [
+        {
+          "label": "a) Absolutely. It's always better to use reliable old methods.",
+          "isCorrect": false
+        },
+        {
+          "label": "b) Yes, new ways of marketing might help increase sales.",
+          "isCorrect": true
+        },
+        {
+          "label": "c) No, I think you should try marketing to monkeys instead.",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
