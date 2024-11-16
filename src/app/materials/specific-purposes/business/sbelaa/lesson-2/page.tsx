@@ -5,8 +5,7 @@ import { SbellaLessonTemplate } from "@/components/Templates/Specific-Purposes/B
 import { LessonData } from "@/types/materials/specific-purposes/business/sbelaa/sbelaa";
 
 export default function SpecificPurposesBusinessSbellaLesson2() {
-  const [lessonData, setLessonData] =
-    useState<LessonData | null>(null);
+  const [lessonData, setLessonData] = useState<LessonData | null>(null);
 
   useEffect(() => {
     fetch(
