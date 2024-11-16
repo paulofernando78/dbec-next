@@ -22,9 +22,11 @@ export const SbellaLessonTemplate = ({ data }: SbelaaLessonTemplateProps) => {
           </p>
           <p>{data.lessonDescription}</p>
         </Card>
+
+        {/* Paragraphs */}
         {data.paragraphs.map((paragraph, index) => (
-          <div>
-            <p key={index} className="display-inline">
+          <div key={index}>
+            <p className="display-inline">
               <b>{paragraph.speaker}:</b>
             </p>{" "}
             {paragraph.texts.map((text, textIndex) => (
