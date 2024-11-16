@@ -2,11 +2,11 @@
 
 import { useEffect, useState } from "react";
 import { SbellaLessonTemplate } from "@/components/Templates/Specific-Purposes/Business/Sbella/Index";
-import { SbelaaLessonTemplateProps } from "@/types/materials/specific-purposes/business/sbelaa/sbelaa";
+import { LessonData } from "@/types/materials/specific-purposes/business/sbelaa/sbelaa";
 
 export default function SpecificPurposesBusinessSbellaLesson2() {
   const [lessonData, setLessonData] =
-    useState<SbelaaLessonTemplateProps | null>(null);
+    useState<LessonData | null>(null);
 
   useEffect(() => {
     fetch(
