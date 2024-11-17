@@ -20,7 +20,7 @@ interface DictionaryCardProps {
   phonetics?: string;
 }
 
-const baseAudioSrc = "/assets/audio/dictionary";
+const baseAudioSrc = "/assets/audio/";
 
 export const DictionaryCard = ({
   audioSrc,

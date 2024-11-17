@@ -37,7 +37,7 @@
     "keyword": "blockbuster",
     "definitions": [
       {
-        "audio": "/b/blockbuster.mp3",
+        "audio": "/b/blockbuster-idiom.mp3",
         "word": "blockbuster",
         "partOfSpeech": "idiom",
         "enDefinition": "a big success, something or someone that is forcefully or overwhelmingly impressive, effective or influential",
@@ -50,10 +50,10 @@
     ]
   },
   {
-    "keyword": "bell",
+    "keyword": "bells and whistles",
     "definitions": [
       {
-        "audio": "/b/bells-and-whistles.mp3",
+        "audio": "/b/bells-and-whistles-idiom.mp3",
         "word": "bells and whistles",
         "partOfSpeech": "idiom",
         "enDefinition": "extra product features, usually using the latest technology; product features which are attractive, but not essential for the product to function.",

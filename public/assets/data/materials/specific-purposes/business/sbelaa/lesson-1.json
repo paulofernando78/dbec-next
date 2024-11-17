@@ -5,49 +5,193 @@
     "Speak English Like an American",
     "Lesson 1 • Talking About a New Project"
   ],
-  "audioSrc": "/assets/audio/specific-purposes/business/sbelaa/lesson-1.mp3",
+  "audioSrc": "/specific-purposes/business/sbelaa/lesson-1.mp3",
   "lessonTitle": "Lesson 1 • Talking About a New Project",
   "lessonDescription": "Carl, Greg, and Anne work for WaterSonic Corporation. Recently, the company has come up with an idea for a new electric toothbrush.",
   "paragraphs": [
     {
-      "speaker": "Carl:",
-      "text": "I think we've come up with a winner."
+      "speaker": "Carl",
+      "texts": [
+        {
+          "text": "I think we've"
+        },
+        {
+          "keyword": "come up with a winner",
+          "vocabulary": "come up with a winner",
+          "audioSrc": "/dictionary/c/come-up-with-a-winner.mp3"
+        },
+        {
+          "text": "."
+        }
+      ]
     },
     {
-      "speaker": "Anne:",
-      "text": "I agree. The new Brush-o-matic should be a blockbuster!"
+      "speaker": "Anne",
+      "texts": [
+        {
+          "text": "I agree. The new Brush-o-matic should be a"
+        },
+        {
+          "keyword": "blockbuster",
+          "vocabulary": "blockbuster",
+          "audioSrc": "/dictionary/b/blockbuster.mp3"
+        },
+        {
+          "text": "!"
+        }
+      ]
     },
     {
-      "speaker": "Carl:",
-      "text": "Our designers have already made up some prototypes. The toothbrushes have a tooth-whitening attachment and many other bells and whistles."
+      "speaker": "Carl",
+      "texts": [
+        {
+          "text": "Our designers have already made up some prototypes. The toothbrushes have a tooth-whitening attachment and many other "
+        },
+        {
+          "keyword": "bells and whistles",
+          "vocabulary": "bells and whistles",
+          "audioSrc": "/dictionary/b/bells-and-whistles.mp3"
+        },
+        {
+          "text": "."
+        }
+      ]
     },
     {
-      "speaker": "Greg:",
-      "text": "We should fast track this project. Let's try to launch it in time for the holiday season."
+      "speaker": "Greg",
+      "texts": [
+        {
+          "text": "We should"
+        },
+        {
+          "keyword": "fast track",
+          "vocabulary": "fast track",
+          "audioSrc": "/dictionary/f/fast-track-a-project.mp3"
+        },
+        {
+          "text": ". Let's try to launch it in time for the holiday season."
+        }
+      ]
     },
     {
-      "speaker": "Anne:",
-      "text": "This will be a great stocking stuffer!"
+      "speaker": "Anne",
+      "texts": [
+        {
+          "text": "This will be a great"
+        },
+        {
+          "keyword": "stocking stuffer",
+          "vocabulary": "stocking stuffer",
+          "audioSrc": "/dictionary/s/stocking-stuffer.mp3"
+        },
+        {
+          "text": "!"
+        }
+      ]
     },
     {
-      "speaker": "Carl:",
-      "text": "We definitely need a big win for the holidays."
+      "speaker": "Carl",
+      "texts": [
+        {
+          "text": "We definitely need a"
+        },
+        {
+          "keyword": "big wig",
+          "vocabulary": "big wig",
+          "audioSrc": "/dictionary/b/big-wig.mp3"
+        },
+        {
+          "text": "for the holidays."
+        }
+      ]
     },
     {
-      "speaker": "Anne:",
-      "text": "This is a great idea. We're going to make a killing."
+      "speaker": "Anne",
+      "texts": [
+        {
+          "text": "This is a great idea. We're going to "
+        },
+        {
+          "keyword": "make a killing",
+          "vocabulary": "make a killing",
+          "audioSrc": "/dictionary/m/make-a-killing.mp3"
+        },
+        {
+          "text": "."
+        }
+      ]
     },
     {
-      "speaker": "Greg:",
-      "text": "Let's not talk about this project to anybody who doesn't need to know. We'll keep it under wraps."
+      "speaker": "Greg",
+      "texts": [
+        {
+          "text": "Let's not talk about this project to anybody who doesn't need to know. We'll"
+        },
+        {
+          "keyword": "keep something under wraps.",
+          "vocabulary": "keep it under wraps.",
+          "audioSrc": "/dictionary/k/keep-it-under-wraps.mp3"
+        },
+        {
+          "text": "keep it under wraps."
+        }
+      ]
     },
     {
-      "speaker": "Carl:",
-      "text": "I agree. Mum's the word. We don't want any of our competitors to get wind of the idea and rip it off."
+      "speaker": "Carl",
+      "texts": [
+        {
+          "text": "I agree. "
+        },
+        {
+          "keyword": "mum's the word",
+          "vocabulary": "mum's the word",
+          "audioSrc": "/dictionary/m/mums-the-word.mp3"
+        },
+        {
+          "text": ". We don't want any of our competitors to"
+        },
+        {
+          "keyword": "get wind of",
+          "vocabulary": "get wind of",
+          "audioSrc": "/dictionary/g/get-wind-of.mp3"
+        },
+        {
+          "text": "the idea and"
+        },
+        {
+          "keyword": "rip off",
+          "vocabulary": "rip it off",
+          "audioSrc": "/dictionary/r/rip-it-off.mp3"
+        },
+        {
+          "text": "."
+        }
+      ]
     },
     {
-      "speaker": "Anne:",
-      "text": "Right. Let's meet again on Monday morning and discuss our game plan for getting this project off the ground!"
+      "speaker": "Anne",
+      "texts": [
+        {
+          "text": "Right. Let's meet again on Monday morning and discuss our"
+        },
+        {
+          "keyword": "game plan",
+          "vocabulary": "game plan",
+          "audioSrc": "/dictionary/g/game-plan.mp3"
+        },
+        {
+          "text": "for"
+        },
+        {
+          "keyword": "get something off the ground",
+          "vocabulary": "getting this project off the ground",
+          "audioSrc": "/dictionary/g/getting-this-project-off-the-ground.mp3"
+        },
+        {
+          "text": "!"
+        }
+      ]
     }
   ],
   "radioExercises": [
@@ -96,25 +240,46 @@
     {
       "question": "5. That new software company seems very disorganized. Do they have a game plan?",
       "options": [
-        { "label": "a) plan for closing down their business", "isCorrect": false },
+        {
+          "label": "a) plan for closing down their business",
+          "isCorrect": false
+        },
         { "label": "b) plan for developing new games", "isCorrect": false },
-        { "label": "c) plan for how they will proceed to grow their business", "isCorrect": true }
+        {
+          "label": "c) plan for how they will proceed to grow their business",
+          "isCorrect": true
+        }
       ]
     },
     {
       "question": "6. Some experts recommend that when you're interviewing for a new job, you should keep your current salary under wraps.",
       "options": [
-        { "label": "a) you should tell the interviewer what your current salary is", "isCorrect": false },
-        { "label": "b) you should say you're making twice as much as you're really earning", "isCorrect": false },
-        { "label": "c) you should not say how much you're currently earning", "isCorrect": true }
+        {
+          "label": "a) you should tell the interviewer what your current salary is",
+          "isCorrect": false
+        },
+        {
+          "label": "b) you should say you're making twice as much as you're really earning",
+          "isCorrect": false
+        },
+        {
+          "label": "c) you should not say how much you're currently earning",
+          "isCorrect": true
+        }
       ]
     },
     {
       "question": "7. Don's new cell phone has a video camera and all sorts of other bells and whistles.",
       "options": [
         { "label": "a) fancy features", "isCorrect": true },
-        { "label": "b) things that make loud ringing noises and whistle tones", "isCorrect": false },
-        { "label": "c) features typical in a low-priced product", "isCorrect": false }
+        {
+          "label": "b) things that make loud ringing noises and whistle tones",
+          "isCorrect": false
+        },
+        {
+          "label": "c) features typical in a low-priced product",
+          "isCorrect": false
+        }
       ]
     },
     {

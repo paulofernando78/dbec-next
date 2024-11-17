@@ -1,7 +1,7 @@
 import { AudioPlayer } from "../Audioplayer";
 import { Card } from "../Cards/Card";
 
-import styles from "./DictionaryCardDefinition.module.css";
+import styles from "./styles.module.css";
 
 interface DictionaryCardDefinitionProps {
   audioSrc: string;

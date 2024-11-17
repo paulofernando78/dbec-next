@@ -2,9 +2,11 @@
 
 import { Whiteboard } from "@/components/Whiteboard";
 import { AudioPlayer, Card, DictionaryCard, Radio } from "@/components";
-import { SbelaaLessonTemplateProps } from "@/types/materials/specific-purposes/business/sbelaa/sbelaa";
+import { SbelaaLessonTemplateProps } from "@/types/materials/GenericLesson";
 
-export const SbellaLessonTemplate = ({ data }: SbelaaLessonTemplateProps) => {
+const baseAudioSrc = "/assets/audio" 
+
+export const GenericLessonTemplate = ({ data }: SbelaaLessonTemplateProps) => {
   return (
     <>
       <Whiteboard
@@ -14,7 +16,7 @@ export const SbellaLessonTemplate = ({ data }: SbelaaLessonTemplateProps) => {
       />
       <div className="line-break">
         <div className="audio-fixed">
-          <AudioPlayer audioSrc={data.audioSrc} />
+          <AudioPlayer audioSrc={`${baseAudioSrc}${data.audioSrc}`} />
         </div>
         <Card>
           <p>
@@ -26,12 +28,12 @@ export const SbellaLessonTemplate = ({ data }: SbelaaLessonTemplateProps) => {
         {/* Paragraphs */}
         {data.paragraphs.map((paragraph, index) => (
           <div key={index}>
-            <p className="display-inline">
+            {paragraph.speaker && <p className="display-inline">
               <b>{paragraph.speaker}:</b>
-            </p>{" "}
+            </p>}{" "}
             {paragraph.texts.map((text, textIndex) => (
               <div key={textIndex} className="display-inline">
-                <div style={{ display: "inline" }}>
+                <div className="display-inline">
                   {text.vocabulary && (
                     <DictionaryCard
                       keyword={text.keyword}
