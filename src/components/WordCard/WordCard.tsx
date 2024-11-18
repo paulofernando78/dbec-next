@@ -111,12 +111,12 @@ export function WordCard({ dictionary }: WordCardProps) {
                       <span>{definition.seeAlso}</span>
                     </p>
                   )}
-                  {definition.extra && (
+                  {definition.note && (
                     <p>
                       <span className="times-new-roman-dictionary">
-                        extra:{" "}
+                        note:{" "}
                       </span>
-                      <span>{definition.extra}</span>
+                      <span>{definition.note}</span>
                     </p>
                   )}
                 </div>

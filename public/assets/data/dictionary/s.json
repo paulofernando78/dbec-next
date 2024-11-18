@@ -192,6 +192,24 @@
     ]
   },
   {
+    "keyword": "stocking stuffer",
+    "definitions": [
+      {
+        "audio": "/s/stocking-stuffer-idiom.mp3",
+        "word": "stocking stuffer",
+        "partOfSpeech": "idiom",
+        "enDefinition": "a small gift at Christmas time",
+        "examples": [
+          {
+            "enExample": "These new mini travel pillows will make great <b>stocking stuffers</b>!",
+            "ptExample": "Esses novos mini travesseiros de viagem são perfeitos para encher as meias de Natal (lembracinhas)!"
+          }
+        ],
+        "note": "This expression comes from the practice of kids hanging up stockings that Santa Claus fills (or \"stuffs\") with small gifts."
+      }
+    ]
+  },
+  {
     "keyword": "synthetic",
     "definitions": [
       {

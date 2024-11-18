@@ -1,21 +1,55 @@
 [
-    {
-        "keyword": "miscarriage",
-        "definitions": [
+  {
+    "keyword": "make a killing",
+    "definitions": [
+      {
+        "audio": "/m/make-a-killing-idiom.mp3",
+        "word": "make a killing",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to make a lot of money",
+        "examples": [
           {
-              "audio": "/m/miscarriage-noun.mp3",
-              "word": "miscarriage",
-                "phonetics": "/ˈmɪsˌker.ɪdʒ/",
-                "partOfSpeech": "noun",
-            "enDefinition": "an early, unintentional end to a pregnancy when the foetus is born too early and dies because it has not developed enough",
-            "ptDefinition": "aborto espontâneo",
-            "examples": [
-              {
-                "enExample": "The amniocentesis test carries a significant risk of miscarriage.",
-                "ptExample": "O teste de amniocentese carrega um risco significativo de aborto espontâneo."
-              }
-            ]
+            "enExample": "Suzanne <b>made a killing</b> on her Google stock and retired at 40.",
+            "ptExample": "Suzanne ganhou uma fortuna com suas ações do Google e se aposentou aos 40 anos."
           }
         ]
       }
+    ]
+  },
+  {
+    "keyword": "miscarriage",
+    "definitions": [
+      {
+        "audio": "/m/miscarriage-noun.mp3",
+        "word": "miscarriage",
+        "phonetics": "/ˈmɪsˌker.ɪdʒ/",
+        "partOfSpeech": "noun",
+        "enDefinition": "an early, unintentional end to a pregnancy when the foetus is born too early and dies because it has not developed enough",
+        "ptDefinition": "aborto espontâneo",
+        "examples": [
+          {
+            "enExample": "The amniocentesis test carries a significant risk of miscarriage.",
+            "ptExample": "O teste de amniocentese carrega um risco significativo de aborto espontâneo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "mum's the word",
+    "definitions": [
+      {
+        "audio": "/m/mums-the-word-idiom.mp3",
+        "word": "mum's the word",
+        "partOfSpeech": "idiom",
+        "enDefinition": "let's keep quiet about this; I agree not to tell anyone about this",
+        "examples": [
+          {
+            "enExample": "Please don't tell anybody about our new project. Remember: <b>mum's the word</b>!",
+            "ptExample": "Por favor, não conte a ninguém sobre o nosso novo projeto. Lembre-se: boca fechada!"
+          }
+        ]
+      }
+    ]
+  }
 ]

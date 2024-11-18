@@ -43,7 +43,7 @@
         "enDefinition": "a big success, something or someone that is forcefully or overwhelmingly impressive, effective or influential",
         "examples": [
           {
-            "enExample": "The campaign was a blockbuster."
+            "enExample": "The campaign was a <b>blockbuster</b>."
           }
         ]
       }
@@ -59,8 +59,25 @@
         "enDefinition": "extra product features, usually using the latest technology; product features which are attractive, but not essential for the product to function.",
         "examples": [
           {
-            "enExample": "Our office just got a new copier with all the bells and whistles. I'll probably never learn how to use all of its features!",
+            "enExample": "Our office just got a new copier with all the <b>bells and whistles</b>. I'll probably never learn how to use all of its features!",
             "ptExample": "Nosso escritório acaba de receber uma nova copiadora com todos os acessórios. Provavelmente nunca aprenderei como usar todos os seus recursos!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "big win",
+    "definitions": [
+      {
+        "audio": "/b/big-win-idiom.mp3",
+        "word": "big win",
+        "partOfSpeech": "idiom",
+        "enDefinition": "a huge success; a successful product",
+        "examples": [
+          {
+            "enExample": "The drug company spent millions on research and development, hoping that one of their new products would be a <b>big win</b>.",
+            "ptExample": "A empresa farmacêutica gastou milhões em pesquisa e desenvolvimento, esperando que um de seus novos produtos fosse um grande sucesso."
           }
         ]
       }

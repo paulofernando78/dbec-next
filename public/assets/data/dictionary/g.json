@@ -1,5 +1,22 @@
 [
   {
+    "keyword": "game plan",
+    "definitions": [
+      {
+        "audio": "/g/game-plan-idiom.mp3",
+        "word": "game plan",
+        "partOfSpeech": "idiom",
+        "enDefinition": "an action plan; a plan for how a project will proceed",
+        "examples": [
+          {
+            "enExample": "The software company's <b>game plan</b> is to expand its operations into China and India over the next year.",
+            "ptExample": "O plano de ação da empresa de software é expandir suas operações para a China e a Índia ao longo do próximo ano."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "gene",
     "definitions": [
       {
@@ -35,6 +52,40 @@
         "partOfSpeech": "noun",
         "enDefinition": "the instructions contained in a gene that tell a cell how to make a specific protein",
         "ptDefinition": "código genético"
+      }
+    ]
+  },
+  {
+    "keyword": "get something off the ground",
+    "definitions": [
+      {
+        "audio": "/g/get-something-off-the-ground-idiom.mp3",
+        "word": "get something off the ground",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to get started on something, often a project",
+        "examples": [
+          {
+            "enExample": "We've been sitting around talking about this project for months. It's time to take action and <b>get it off the ground</b>!",
+            "ptExample": "Ficamos discutindo este projeto por meses. É hora de agir e colocá-lo em prática!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "get wind of",
+    "definitions": [
+      {
+        "audio": "/g/get-wind-of-idiom.mp3",
+        "word": "get wind of",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to find out about something, often sensitive information",
+        "examples": [
+          {
+            "enExample": "When the restaurant owner <b>got wind of</b> the fact that one of his waiters was stealing money from the cash register, he was furious.",
+            "ptExample": "Quando o dono do restaurante soube que um de seus garçons estava roubando dinheiro do caixa, ficou furioso."
+          }
+        ]
       }
     ]
   },
