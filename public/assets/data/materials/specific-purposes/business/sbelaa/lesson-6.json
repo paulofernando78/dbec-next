@@ -17,7 +17,8 @@
         },
         {
           "keyword": "record-breaking",
-          "vocabulary": "record-breaking"
+          "vocabulary": "record-breaking",
+          "audioSrc": "/dictionary/r/record-breaking.mp3"
         },
         {
           "text": "quarter. We brought in revenues of $500,000."
@@ -33,6 +34,9 @@
         {
           "keyword": "through the roof",
           "vocabulary": "through the roof",
+          "audioSrc": "/dictionary/t/through-the-roof.mp3"
+        },
+        {
           "text": "!"
         }
       ]
@@ -44,27 +48,33 @@
           "text": "That's great."
         },
         {
-          "keyword": "Kudos",
-          "vocabulary": "Kudos",
+          "keyword": "kudos",
+          "vocabulary": "kudos",
+          "audioSrc": "/dictionary/k/kudos.mp3"
+        },
+        {
           "text": "to Linda! She deserves"
         },
         {
           "keyword": "pat on the back",
-          "vocabulary": "a pat on the back"
+          "vocabulary": "a pat on the back",
+          "audioSrc": "/dictionary/pat/pat-on-the-back.mp3"
         },
         {
           "text": ". The"
         },
         {
           "keyword": "guerrilla marketing",
-          "vocabulary": "guerrilla marketing"
+          "vocabulary": "guerrilla marketing",
+          "audioSrc": "/dictionary/g/guerrilla-marketing.mp3"
         },
         {
           "text": "campaign she"
         },
         {
           "keyword": "dream up",
-          "vocabulary": "dreamed up"
+          "vocabulary": "dreamed up",
+          "audioSrc": "/dictionary/d/dream-up.mp3"
         },
         {
           "text": "was brilliant. She sent out email to all of our customers asking them to e-mail a friend about our service. For each friend they e-mailed, they received a free gift."
@@ -79,14 +89,16 @@
         },
         {
           "keyword": "drum up business",
-          "vocabulary": "drum up a lot of business"
+          "vocabulary": "drum up a lot of business",
+          "audioSrc": "/dictionary/d/drum-up-business.mp3"
         },
         {
           "text": ". We"
         },
         {
           "keyword": "sign on new constumers",
-          "vocabulary": "signed on 800 new constumers"
+          "vocabulary": "signed on 800 new constumers",
+          "audioSrc": "/dictionary/s/sign-on-new-customers.mp3"
         },
         {
           "text": "."
@@ -101,14 +113,16 @@
         },
         {
           "keyword": "pan out",
-          "vocabulary": "panned out"
+          "vocabulary": "panned out",
+          "audioSrc": "/dictionary/p/pan-out.mp3"
         },
         {
           "text": ". I thought it would, since everybody loves a"
         },
         {
           "keyword": "freebie",
-          "vocabulary": "freebie"
+          "vocabulary": "freebie",
+          "audioSrc": "/dictionary/f/freebie.mp3"
         },
         {
           "text": "!"
@@ -123,7 +137,8 @@
         },
         {
           "keyword": "think outside the box",
-          "vocabulary": "think outside the box"
+          "vocabulary": "think outside the box",
+          "audioSrc": "/dictionary/t/think-out-of-the-box.mp3"
         },
         {
           "text": "."
@@ -135,11 +150,10 @@
       "texts": [
         {
           "keyword": "for the record",
-          "vocabulary": "For the record"
+          "vocabulary": "For the record",
+          "audioSrc": "/dictionary/f/for-the-record.mp3"
         },
         {
-          "keyword": "",
-          "vocabulary": "",
           "text": ", Peter helped me come up with the idea."
         }
       ]
@@ -148,17 +162,14 @@
       "speaker": "Peter",
       "texts": [
         {
-          "keyword": "",
-          "vocabulary": "",
           "text": "Thanks for"
         },
         {
           "keyword": "share the credit",
-          "vocabulary": "sharing the credit"
+          "vocabulary": "sharing the credit",
+          "audioSrc": "/dictionary/s/share-the-creidt.mp3"
         },
         {
-          "keyword": "",
-          "vocabulary": "",
           "text": ", Linda. But it was your idea."
         }
       ]
@@ -167,13 +178,12 @@
       "speaker": "Todd",
       "texts": [
         {
-          "keyword": "",
-          "vocabulary": "",
           "text": "The important thing is that we've now giving our biggest competitor, U.S Bank,"
         },
         {
           "keyword": "a run for one's money",
-          "vocabulary": "a run for their money"
+          "vocabulary": "a run for their money",
+          "audioSrc": "/dictionary/r/run-for-ones-money.mp3"
         },
         {
           "text": "."

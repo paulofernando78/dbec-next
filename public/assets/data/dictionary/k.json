@@ -15,5 +15,23 @@
         ]
       }
     ]
+  },
+  {
+    "keyword": "kudos",
+    "definitions": [
+      {
+        "audio": "/k/kudos-idiom.mp3",
+        "word": "kudos",
+        "partOfSpeech": "idiom",
+        "enDefinition": "I'd like to give credit to; I'd like to acknowledge",
+        "examples": [
+          {
+            "enExample": "Kudos to our R&D department. They've come up with a new shampoo formula that's cheaper to manufacture and more effective on damaged hair.",
+            "ptExample": "Parabéns ao nosso departamento de P&D! Eles desenvolveram uma nova fórmula de shampoo que é mais barata de fabricar e mais eficaz em cabelos danificados."
+          }
+        ],
+        "note": "Kudos is the Greek word for \"praise.\""
+      }
+    ]
   }
 ]

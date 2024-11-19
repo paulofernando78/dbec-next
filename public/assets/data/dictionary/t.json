@@ -1,5 +1,22 @@
 [
   {
+    "keyword": "through the roof",
+    "definitions": [
+      {
+        "audio": "/t/through-the-roof-idiom.mp3",
+        "word": "through the roof",
+        "partOfSpeech": "idiom",
+        "enDefinition": "very high; higher than expected",
+        "examples": [
+          {
+            "enExample": "No wonder people are complaining about the cost of heating their homes. Oil prices have gone through the roof!",
+            "ptExample": "Não é à toa que as pessoas estão reclamando do custo de aquecer suas casas. Os preços do petróleo estão nas alturas!"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "to the letter",
     "definitions": [
       {
@@ -82,10 +99,10 @@
     "keyword": "translate",
     "definitions": [
       {
-	      "audio": "/t/translate.mp3",
-	      "word": "translate",
-		    "phonetics": "/trænsˈleɪt/ /trænzˈleɪt/",
-		    "partOfSpeech": "verb",
+        "audio": "/t/translate.mp3",
+        "word": "translate",
+        "phonetics": "/trænsˈleɪt/ /trænzˈleɪt/",
+        "partOfSpeech": "verb",
         "ptDefinition": "traduzir",
         "examples": [
           {
@@ -94,7 +111,6 @@
           }
         ],
         "seeAlso": "interpret"
-
       }
     ]
   }
