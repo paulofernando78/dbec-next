@@ -1,5 +1,12 @@
 import { Whiteboard } from "@/components/Whiteboard";
 import { ContentCard } from "@/components/Cards/ContentCard";
+import { title } from "process";
+
+const whiteboard = {
+  title: "Specific Purposes",
+  subtitle: "Business",
+  descriptions: ["Business MEetings (US)"],
+};
 
 const contents = [
   // Present
@@ -70,12 +77,7 @@ const contents = [
 export default function BusinessMeetingUs() {
   return (
     <>
-      <Whiteboard
-        title="Specific Purposes"
-        subtitle="Business"
-        descriptions={["Business MEetings (US)"]}
-      />
-      <ContentCard contents={contents} />
+      <ContentCard whiteboard={whiteboard} contents={contents} />
     </>
   );
 }
