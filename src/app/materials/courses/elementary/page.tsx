@@ -2,6 +2,12 @@ import { BoardCard } from "@/components";
 import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard";
 
+const whiteboard = {
+  title: "Courses",
+  subtitle: "Elementary",
+  descriptions: ["43 lessons"],
+};
+
 const contents = [
   // Lessons 1 - 6 + Written and Oral Quiz
   {
@@ -1157,11 +1163,6 @@ const contents = [
 export default function Elementary() {
   return (
     <>
-      <Whiteboard
-        title="Courses"
-        subtitle="Elementary (A2)"
-        descriptions={["43 lessons"]}
-      />
       <div className="line-break">
         {/* CEFR */}
         <BoardCard
@@ -1187,7 +1188,7 @@ export default function Elementary() {
             </p>
           </div>
         </BoardCard>
-        <ContentCard contents={contents} />
+        <ContentCard whiteboard={whiteboard} contents={contents} />
       </div>
     </>
   );

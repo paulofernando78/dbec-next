@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard, MainContent } from "@/types/contentCard";
-import { BoardCard, ScrollToTop } from "@/components";
+import { ScrollToTop } from "@/components";
 
 export default function Beginner() {
   const [whiteboard, setWhiteboard] = useState<Whiteboard | null>(null);

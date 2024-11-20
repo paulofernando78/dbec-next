@@ -2,6 +2,12 @@ import { BoardCard } from "@/components";
 import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard";
 
+const whiteboard = {
+  title: "Courses",
+  subtitle: "Pre-Intermediate",
+  descriptions: ["43 lessons"],
+};
+
 const contents = [
   {
     headerLabel: "Lessons 1 - 6 + Written and Oral Quiz",
@@ -1229,7 +1235,7 @@ export default function PreIntermediate() {
         >
           <p>• A2 ➜ B1</p>
         </BoardCard>
-        <ContentCard contents={contents} />
+        <ContentCard whiteboard={whiteboard} contents={contents} />
       </div>
     </>
   );

@@ -2,6 +2,12 @@ import { Whiteboard } from "@/components/Whiteboard";
 import { BoardCard } from "@/components";
 import { ContentCard } from "@/components/Cards/ContentCard";
 
+const whiteboard = {
+  title: "Courses",
+  subtitle: "Intermediate",
+  descriptions: ["43 lessons"],
+};
+
 const contents = [
   {
     headerLabel: "Lessons 1 - 6 + Written and Oral Quiz",
@@ -1146,11 +1152,6 @@ const contents = [
 export default function Intermediate() {
   return (
     <>
-      <Whiteboard
-        title="Courses"
-        subtitle="Intermediate (B1)"
-        descriptions={["43 lessons"]}
-      />
       <div className="line-break">
         <BoardCard
           label="CEFR (Common European Framework of Reference)"
@@ -1177,7 +1178,7 @@ export default function Intermediate() {
             </p>
           </div>
         </BoardCard>
-        <ContentCard contents={contents} />
+        <ContentCard whiteboard={whiteboard} contents={contents} />
       </div>
     </>
   );
