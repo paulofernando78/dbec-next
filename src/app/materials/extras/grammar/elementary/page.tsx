@@ -1,5 +1,10 @@
-import { Whiteboard } from "@/components/Whiteboard";
 import { ContentCard } from "@/components/Cards/ContentCard";
+
+const whiteboard = {
+  title: "Extras",
+  subtitle: "Grammar",
+  descriptions: ["Elementary"]
+};
 
 const contents = [
   // Present
@@ -745,12 +750,8 @@ const contents = [
 export default function GrammarElementary() {
   return (
     <>
-      <Whiteboard
-        title="Extras"
-        subtitle="Grammar"
-        descriptions={["Elementary"]}
-      />
-      <ContentCard contents={contents} />
+  
+      <ContentCard whiteboard={whiteboard} contents={contents} />
     </>
   );
 }

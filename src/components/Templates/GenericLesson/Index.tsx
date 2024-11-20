@@ -2,11 +2,11 @@
 
 import { Whiteboard } from "@/components/Whiteboard";
 import { AudioPlayer, Card, DictionaryCard, Radio } from "@/components";
-import { SbelaaLessonTemplateProps } from "@/types/materials/GenericLesson";
+import { GenericLessonTemplateProps } from "@/types/materials/GenericLesson";
 
 const baseAudioSrc = "/assets/audio" 
 
-export const GenericLessonTemplate = ({ data }: SbelaaLessonTemplateProps) => {
+export const GenericLessonTemplate = ({ data }: GenericLessonTemplateProps) => {
   return (
     <>
       <Whiteboard

@@ -38,5 +38,22 @@
         ]
       }
     ]
+  },
+  {
+    "keyword": "(just) for the record",
+    "definitions": [
+      {
+        "audio": "/j/just-for-the-record-idiom.mp3",
+        "word": "(just) for the record",
+        "partOfSpeech": "idiom",
+        "enDefinition": "let me make my opinion clear",
+        "examples": [
+          {
+            "enExample": "I know that everybody else likes the idea of using a bear for a mascot, but, just for the record, I think it's a lousy idea.",
+            "ptExample": "Eu sei que todo mundo gosta da ideia de usar um urso como mascote, mas, só para constar, acho que é uma péssima ideia."
+          }
+        ]
+      }
+    ]
   }
 ]

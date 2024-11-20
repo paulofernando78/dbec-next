@@ -1,36 +1,34 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { ContentCard } from "@/components/Cards/ContentCard";
-import { Whiteboard } from "@/components/Whiteboard";
-import { MainContent } from "@/types/contentCard";
+import { Whiteboard, MainContent } from "@/types/contentCard";
 
 export default function SpeakBusinessEnglishLikeAnAmerican() {
+  const [whiteboard, setWhiteboard] = useState<Whiteboard | null>(null);
   const [contents, setContents] = useState<MainContent[] | null>(null);
 
   useEffect(() => {
-    fetch("/assets/data/materials/specific-purposes/business/sbelaa/contents.json")
+    fetch(
+      "/assets/data/materials/specific-purposes/business/sbelaa/contents.json"
+    )
       .then((response) => {
         if (!response.ok) throw new Error("Error loading JSON");
         return response.json();
       })
-      .then((data: { contents: MainContent[] }) => {
-        setContents(data.contents); // Now this will work since we know 'contents' is an array of MainContent
+      .then((data: { whiteboard: Whiteboard; contents: MainContent[] }) => {
+        setWhiteboard(data.whiteboard);
+        setContents(data.contents);
       })
       .catch((error) => console.error(error));
   }, []);
 
-  if (!contents) return <p>Loading...</p>;
+  if (!whiteboard || !contents) return <p>Loading...</p>;
 
   return (
     <>
-      <Whiteboard
-        title="Specific Purposes"
-        subtitle="Business"
-        descriptions={["Speak Business English Like an American"]}
-      />
       <div>
-        <ContentCard contents={contents} />
+        <ContentCard whiteboard={whiteboard} contents={contents} />
       </div>
     </>
   );

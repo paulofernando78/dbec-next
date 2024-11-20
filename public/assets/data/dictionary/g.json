@@ -172,5 +172,23 @@
         ]
       }
     ]
+  },
+  {
+    "keyword": "guerrilla marketing",
+    "definitions": [
+      {
+        "audio": "/g/guerrilla-marketing-idiom.mp3",
+        "word": "guerrilla marketing",
+        "partOfSpeech": "idiom",
+        "enDefinition": "innovative methods to sell products; non-traditional methods of advertising or promotion that deliver good results with minimal spending",
+        "examples": [
+          {
+            "enExample": "To promote his new Internet dating service, Don painted his car pink and wrote \"Don's Dating Service\" in big letters on both sides of the car. That's effective guerrilla marketing!",
+            "ptExample": "Para promover seu novo serviço de namoro na internet, Don pintou seu carro de rosa e escreveu \"Serviço de Namoro do Don\" em letras grandes nos dois lados do carro. Isso é um marketing de guerrilha eficaz!"
+          }
+        ],
+        "note": "The word \"guerrilla\" refers to carrying on a war using independent bands of soldiers, who tend to use very aggressive and non-traditional tactics to win battles."
+      }
+    ]
   }
 ]

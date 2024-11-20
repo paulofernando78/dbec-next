@@ -58,7 +58,7 @@
         {
           "keyword": "pat on the back",
           "vocabulary": "a pat on the back",
-          "audioSrc": "/dictionary/pat/pat-on-the-back.mp3"
+          "audioSrc": "/dictionary/p/a-pat-on-the-back.mp3"
         },
         {
           "text": ". The"
@@ -90,15 +90,15 @@
         {
           "keyword": "drum up business",
           "vocabulary": "drum up a lot of business",
-          "audioSrc": "/dictionary/d/drum-up-business.mp3"
+          "audioSrc": "/dictionary/d/drum-up-a-lot-of-business.mp3"
         },
         {
           "text": ". We"
         },
         {
-          "keyword": "sign on new constumers",
-          "vocabulary": "signed on 800 new constumers",
-          "audioSrc": "/dictionary/s/sign-on-new-customers.mp3"
+          "keyword": "sign on new customers or members",
+          "vocabulary": "signed on 800 new customers",
+          "audioSrc": "/dictionary/s/signed-on-800-new-customers.mp3"
         },
         {
           "text": "."
@@ -114,7 +114,7 @@
         {
           "keyword": "pan out",
           "vocabulary": "panned out",
-          "audioSrc": "/dictionary/p/pan-out.mp3"
+          "audioSrc": "/dictionary/p/panned-out.mp3"
         },
         {
           "text": ". I thought it would, since everybody loves a"
@@ -138,7 +138,7 @@
         {
           "keyword": "think outside the box",
           "vocabulary": "think outside the box",
-          "audioSrc": "/dictionary/t/think-out-of-the-box.mp3"
+          "audioSrc": "/dictionary/t/think-outside-the-box.mp3"
         },
         {
           "text": "."
@@ -150,8 +150,8 @@
       "texts": [
         {
           "keyword": "for the record",
-          "vocabulary": "For the record",
-          "audioSrc": "/dictionary/f/for-the-record.mp3"
+          "vocabulary": "for the record",
+          "audioSrc": "/dictionary/j/just-for-the-record.mp3"
         },
         {
           "text": ", Peter helped me come up with the idea."
@@ -167,7 +167,7 @@
         {
           "keyword": "share the credit",
           "vocabulary": "sharing the credit",
-          "audioSrc": "/dictionary/s/share-the-creidt.mp3"
+          "audioSrc": "/dictionary/s/sharing-the-credit.mp3"
         },
         {
           "text": ", Linda. But it was your idea."
@@ -183,7 +183,7 @@
         {
           "keyword": "a run for one's money",
           "vocabulary": "a run for their money",
-          "audioSrc": "/dictionary/r/run-for-ones-money.mp3"
+          "audioSrc": "/dictionary/g/a-run-for-their-money.mp3"
         },
         {
           "text": "."

@@ -3,10 +3,10 @@
     "keyword": "faux pas",
     "definitions": [
       {
-	      "audio": "/f/faux-pas-noun.mp3",
-	      "word": "faux pas",
-		    "phonetics": "/ˌfoʊ ˈpɑː/",
-		    "partOfSpeech": "noun",
+        "audio": "/f/faux-pas-noun.mp3",
+        "word": "faux pas",
+        "phonetics": "/ˌfoʊ ˈpɑː/",
+        "partOfSpeech": "noun",
         "enDefinition": "an action or a remark that causes somebody to feel embarrassed because it is not socially correct",
         "ptDefinition": "uma ação ou comentário que faz alguém se sentir constrangido porque não é socialmente correto",
         "examples": [
@@ -15,7 +15,7 @@
             "ptExample": "Fiz um comentário sobre a família da esposa dele e, em seguida, percebi que cometi uma gafe séria."
           }
         ],
-	      "synonyms": "gaffe, slip"
+        "synonyms": "gaffe, slip"
       }
     ]
   },
@@ -100,10 +100,10 @@
     "keyword": "fetus",
     "definitions": [
       {
-	      "audio": "/f/fetus-noun.mp3",
-	      "word": "fetus",
-		    "phonetics": "/ˈfiː.t̬əs/",
-		    "partOfSpeech": "noun",
+        "audio": "/f/fetus-noun.mp3",
+        "word": "fetus",
+        "phonetics": "/ˈfiː.t̬əs/",
+        "partOfSpeech": "noun",
         "enDefinition": "a young human being or animal before birth, after the organs have started to develop",
         "ptDefinition": "feto",
         "examples": [
@@ -155,6 +155,24 @@
           }
         ],
         "synonyms": "concentrate"
+      }
+    ]
+  },
+
+  {
+    "keyword": "freebie",
+    "definitions": [
+      {
+        "audio": "/f/freebie-slang.mp3",
+        "word": "freebie",
+        "partOfSpeech": "slang",
+        "enDefinition": "a free thing; something that is given away for free, usually as part of a promotional campaign",
+        "examples": [
+          {
+            "enExample": "Example: Yoplait got lots of people to \"like\" its Facebook page by giving away freebies, including a free cup of yogurt.",
+            "ptExample": "Exemplo: A Yoplait conseguiu que muitas pessoas \"curtissem\" sua página no Facebook ao oferecer brindes, incluindo um copo de iogurte grátis."
+          }
+        ]
       }
     ]
   }

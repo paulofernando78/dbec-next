@@ -1,5 +1,39 @@
 [
   {
+    "keyword": "pat on the back",
+    "definitions": [
+      {
+        "audio": "/p/a-pat-on-the-back-idiom.mp3",
+        "word": "a pat on the back",
+        "partOfSpeech": "idiom",
+        "enDefinition": "credit; recognition; praise",
+        "examples": [
+          {
+            "enExample": "Team, give yourselves a <b>pat on the back</b>. Our results are in, and we just had our most successful quarter ever!",
+            "ptExample": "Equipe, deem-se os parabéns! Os resultados chegaram, e acabamos de ter o trimestre mais bem-sucedido de nossa história!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "pan out",
+    "definitions": [
+      {
+        "audio": "/p/pan-out-idiom.mp3",
+        "word": "pan out",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to succeed; to bring the desired results",
+        "examples": [
+          {
+            "enExample": "When Steve's career in acting didn't pan out, he decided to go to business school.",
+            "ptExample": "Quando a carreira de Steve na atuação não deu certo, ele decidiu ingressar na escola de negócios."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "(to be) petty",
     "definitions": [
       {
@@ -184,10 +218,10 @@
     "keyword": "pregnancy",
     "definitions": [
       {
-	      "audio": "/p/pregnancy-noun.mp3",
-	      "word": "pregnancy",
-		    "phonetics": "/ˈpreɡ.nən.si/",
-		    "partOfSpeech": "noun",
+        "audio": "/p/pregnancy-noun.mp3",
+        "word": "pregnancy",
+        "phonetics": "/ˈpreɡ.nən.si/",
+        "partOfSpeech": "noun",
         "enDefinition": "the state of being pregnant:",
         "ptDefinition": "gravidez",
         "examples": [
@@ -196,7 +230,7 @@
             "ptExample": "A maioria das mulheres sente-se mal pela manhã durante os primeiros meses de gravidez."
           }
         ],
-	      "synonyms": "gestation"
+        "synonyms": "gestation"
       }
     ]
   },
@@ -244,10 +278,10 @@
     "keyword": "publish",
     "definitions": [
       {
-	      "audio": "/p/publish-regular-verb.mp3",
-	      "word": "publish",
-		    "phonetics": "/ˈpʌb.lɪʃ/",
-		    "partOfSpeech": "regular verb",
+        "audio": "/p/publish-regular-verb.mp3",
+        "word": "publish",
+        "phonetics": "/ˈpʌb.lɪʃ/",
+        "partOfSpeech": "regular verb",
         "enDefinition": "to make information available to people, especially in a book, magazine, or newspaper, or to produce and sell a book, magazine, or newspaper",
         "ptDefinition": "publicar",
         "examples": [
@@ -260,7 +294,7 @@
             "ptExample": "Ela tinha apenas 19 anos quando seu primeiro romance foi publicado."
           }
         ],
-	      "synonyms": "issue",
+        "synonyms": "issue",
         "antonyms": "reject"
       }
     ]
@@ -269,10 +303,10 @@
     "keyword": "put",
     "definitions": [
       {
-	      "audio": "/p/put.mp3",
-	      "word": "put",
-		    "phonetics": "...",
-		    "partOfSpeech": "irregular verb",
+        "audio": "/p/put.mp3",
+        "word": "put",
+        "phonetics": "...",
+        "partOfSpeech": "irregular verb",
         "enDefinition": "...",
         "ptDefinition": "...",
         "examples": [
@@ -281,7 +315,7 @@
             "ptExample": "..."
           }
         ],
-	      "synonyms": "...",
+        "synonyms": "...",
         "antonyms": "..."
       },
       {

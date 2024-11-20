@@ -26,6 +26,13 @@ export interface MainContent {
   cardContents: CardContent[];
 }
 
+export interface Whiteboard {
+  title: string;
+  subtitle: string
+  descriptions?: string[]
+}
+
 export interface ContentCardProps {
+  whiteboard: Whiteboard
   contents: MainContent[];
 }

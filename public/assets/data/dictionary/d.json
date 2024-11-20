@@ -69,13 +69,47 @@
     ]
   },
   {
+    "keyword": "dream up",
+    "definitions": [
+      {
+        "audio": "/d/dream-up-idiom.mp3",
+        "word": "dream up",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to think up something creative or unusual; to come up with an original idea; to invent",
+        "examples": [
+          {
+            "enExample": "A disposable lemon-scented toilet brush? What will companies dream up next?",
+            "ptExample": "Uma escova de banheiro descartável com aroma de limão? O que será que as empresas vão inventar a seguir?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "drum up business",
+    "definitions": [
+      {
+        "audio": "/d/drum-up-business-idiom.mp3",
+        "word": "drum up business",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to create business; to find new customers",
+        "examples": [
+          {
+            "enExample": "Sales have been very slow lately. Do you have any ideas for <b>drumming up business</b>?",
+            "ptExample": "As vendas têm sido muito lentas ultimamente. Você tem alguma ideia para impulsionar os negócios?"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "dulce de leche",
     "definitions": [
       {
-	      "audio": "/d/dulce-de-leche.mp3",
-	      "word": "dulce de leche",
-		    "phonetics": "/ˌdʌl.seɪ də ˈletʃ.eɪ/",
-		    "partOfSpeech": "noun",
+        "audio": "/d/dulce-de-leche.mp3",
+        "word": "dulce de leche",
+        "phonetics": "/ˌdʌl.seɪ də ˈletʃ.eɪ/",
+        "partOfSpeech": "noun",
         "enDefinition": "a sweet food, originally from Latin America, made from milk that has been caramelized until it becomes sweet and brown",
         "examples": [
           {

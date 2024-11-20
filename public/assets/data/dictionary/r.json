@@ -57,5 +57,22 @@
         ]
       }
     ]
-  }
+  },
+  {
+    "keyword": "give a run for one's money",
+    "definitions": [
+    {
+    "audio": "/g/give-a-run-for-ones-money-idiom.mp3",
+    "word": "give a run for one's money",
+    "partOfSpeech": "idiom",
+    "enDefinition": "strong competition",
+    "examples": [
+    {
+    "enExample": "When Yahoo decided to go into the online search business, they <b>gave</b> Google <b>a run for their money</b>.",
+    "ptExample": "Quando o Yahoo decidiu investir no mercado de buscas online, eles se tornaram uma forte concorrência para o Google."
+    }
+    ]
+    }
+    ]
+    }
 ]

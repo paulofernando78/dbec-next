@@ -28,6 +28,6 @@ export interface LessonData {
   radioExercises: RadioExercise[];
 }
 
-export interface SbelaaLessonTemplateProps {
+export interface GenericLessonTemplateProps {
   data: LessonData;
 }

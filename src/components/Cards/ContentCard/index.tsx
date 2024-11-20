@@ -1,8 +1,9 @@
 // Imports
 import Link from "next/link";
-import Image from "next/image";
+import { Whiteboard } from "@/components/Whiteboard";
 import { Card } from "../Card";
 import { ContentCardProps, CardContent } from "@/types/contentCard"
+import Image from "next/image";
 
 // CSS
 import styles from "./styles.module.css";
@@ -10,27 +11,34 @@ import styles from "./styles.module.css";
 // Images
 import globeIcon from "@/img/icon/globe.png";
 
-export const ContentCard = ({ contents }: ContentCardProps) => {
+export const ContentCard = ({ whiteboard, contents }: ContentCardProps) => {
   return (
-    <div className="line-break">
-      {contents.map((content, contentIndex) => (
-        <div key={contentIndex} className="line-break">
-          {/* Render Card if cardLabel exists */}
-          {content.headerLabel && (
-            <Card bgColor="black" textColor="white">
-              <p className="bold">{content.headerLabel}</p>
-            </Card>
-          )}
-          {/* Render CardContents */}
-          {content.cardContents.map((cardContent, cardContentIndex) => (
-            <CardContentRenderer
-              key={cardContentIndex}
-              cardContent={cardContent}
-            />
-          ))}
-        </div>
-      ))}
-    </div>
+    <>
+      <Whiteboard
+        title={whiteboard.title}
+        subtitle={whiteboard.subtitle}
+        descriptions={whiteboard.descriptions}
+      />
+      <div className="line-break">
+        {contents.map((content, contentIndex) => (
+          <div key={contentIndex} className="line-break">
+            {/* Render Card if cardLabel exists */}
+            {content.headerLabel && (
+              <Card bgColor="black" textColor="white">
+                <p className="bold">{content.headerLabel}</p>
+              </Card>
+            )}
+            {/* Render CardContents */}
+            {content.cardContents.map((cardContent, cardContentIndex) => (
+              <CardContentRenderer
+                key={cardContentIndex}
+                cardContent={cardContent}
+              />
+            ))}
+          </div>
+        ))}
+      </div>
+    </>
   );
 };
 

@@ -1,5 +1,9 @@
-import { Whiteboard } from "@/components/Whiteboard";
 import { ContentCard } from "@/components/Cards/ContentCard";
+
+const whiteboard = {
+  title: "Extras",
+  subtitle: "Grammar",
+};
 
 const contents = [
   {
@@ -26,8 +30,7 @@ const contents = [
 export default function GrammarInUse() {
   return (
     <>
-      <Whiteboard title="Extras" subtitle="Grammar" />
-      <ContentCard contents={contents} />
+      <ContentCard whiteboard={whiteboard} contents={contents} />
     </>
   );
 }

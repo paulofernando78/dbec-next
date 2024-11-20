@@ -159,7 +159,40 @@
       }
     ]
   },
-
+  {
+    "keyword": "share the credit",
+    "definitions": [
+      {
+        "audio": "/s/share-the-credit-idiom.mp3",
+        "word": "share the credit",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to acknowledge someone else's contribution; to share with somebody else recognition for a job well done",
+        "examples": [
+          {
+            "enExample": "Thank you for giving me the award for coming up with the best new product idea this year. But I really need to share the credit with my colleagues in the marketing department.",
+            "ptExample": "Obrigado por me conceder o prêmio de melhor ideia de novo produto deste ano. Mas preciso compartilhar o mérito com meus colegas do departamento de marketing."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "sign on new customers or members",
+    "definitions": [
+      {
+        "audio": "/s/sign-on-new-customers-or-members.mp3",
+        "word": "sign on new customers or members",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to enlist new customers; to get customers to open an account or take a membership",
+        "examples": [
+          {
+            "enExample": "The fitness center was able to sign on 300 new members in May thanks to their successful advertising campaign.",
+            "ptExample": "O centro de fitness conseguiu conquistar 300 novos membros em maio graças à sua bem-sucedida campanha publicitária."
+          }
+        ]
+      }
+    ]
+  },
   {
     "keyword": "sliperry slope",
     "definitions": [
