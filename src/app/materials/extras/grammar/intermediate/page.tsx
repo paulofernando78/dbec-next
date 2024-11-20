@@ -1,5 +1,12 @@
 import { Whiteboard } from "@/components/Whiteboard";
 import { ContentCard } from "@/components/Cards/ContentCard";
+import { title } from "process";
+
+const whiteboard = {
+  title: "Extras",
+  subtitle: "Grammar",
+  descriptions: ["Intermediate"]
+};
 
 const contents = [
   // Present and past
@@ -910,7 +917,7 @@ export default function GrammarIntermediate() {
         subtitle="Grammar"
         descriptions={["Intermediate"]}
       />
-      <ContentCard contents={contents} />
+      <ContentCard whiteboard={whiteboard} contents={contents} />
     </>
   );
 }
