@@ -1,6 +1,11 @@
 import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard";
 
+const whiteboard = {
+  title: "Extras",
+  subtitle: "Skills",
+};
+
 const contents = [
   // Listening
   {
@@ -147,8 +152,7 @@ const contents = [
 export default function Skills() {
   return (
     <>
-      <Whiteboard title="Extras" subtitle="Skills" />
-      <ContentCard contents={contents} />
+      <ContentCard whiteboard={whiteboard} contents={contents} />
     </>
   );
 }
