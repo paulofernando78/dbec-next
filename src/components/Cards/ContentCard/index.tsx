@@ -14,11 +14,11 @@ import globeIcon from "@/img/icon/globe.png";
 export const ContentCard = ({ whiteboard, contents }: ContentCardProps) => {
   return (
     <>
-      <Whiteboard
+      {whiteboard && (<Whiteboard
         title={whiteboard.title}
         subtitle={whiteboard.subtitle}
         descriptions={whiteboard.descriptions}
-      />
+      />)}
       <div className="line-break">
         {contents.map((content, contentIndex) => (
           <div key={contentIndex} className="line-break">

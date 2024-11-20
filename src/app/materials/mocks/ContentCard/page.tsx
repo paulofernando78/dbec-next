@@ -1,10 +1,5 @@
 import { ContentCard } from "@/components/Cards/ContentCard";
 
-const whiteboard = {
-  title: "...",
-  subtitle: "...",
-};
-
 const contents = [
   {
     cardContents: [
@@ -35,5 +30,5 @@ const contents = [
 ];
 
 export default function ContentCardComponent() {
-  return <ContentCard whiteboard={whiteboard} contents={contents} />;
+  return <ContentCard contents={contents} />;
 }

@@ -33,6 +33,6 @@ export interface Whiteboard {
 }
 
 export interface ContentCardProps {
-  whiteboard: Whiteboard
+  whiteboard?: Whiteboard
   contents: MainContent[];
 }
