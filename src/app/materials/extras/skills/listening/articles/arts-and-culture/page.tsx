@@ -1,6 +1,12 @@
 import { ContentCard } from "@/components/Cards/ContentCard";
 import { Whiteboard } from "@/components/Whiteboard";
 
+const whiteboard = {
+  title: "Listening",
+  subtitle: "Articles",
+  descriptions: ["Arts and Culture"],
+};
+
 const contents = [
   {
     cardContents: [
@@ -22,13 +28,8 @@ const contents = [
 export default function ArtsAndCulture() {
   return (
     <>
-      <Whiteboard
-        title="Listening"
-        subtitle="Articles"
-        descriptions={["Arts and Culture"]}
-      />
       <div>
-        <ContentCard contents={contents} />
+        <ContentCard whiteboard={whiteboard} contents={contents} />
       </div>
     </>
   );
