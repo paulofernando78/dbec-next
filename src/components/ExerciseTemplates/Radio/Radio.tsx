@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import styles from "./Radio.module.css";
-import { Button } from "@/components/Button/Button";
+import { Button } from "@/components/Button";
 
 interface Option {
   isCorrect: boolean;
@@ -20,7 +20,9 @@ interface RadioProps {
 
 export const Radio = ({ questions }: RadioProps) => {
   // Use an array to store the selected answers for each question
-  const [selectedAnswers, setSelectedAnswers] = useState<(number | null)[]>(Array(questions.length).fill(null));
+  const [selectedAnswers, setSelectedAnswers] = useState<(number | null)[]>(
+    Array(questions.length).fill(null)
+  );
 
   // Reset all selected answers to null
   const resetRadio = () => {
@@ -45,14 +47,19 @@ export const Radio = ({ questions }: RadioProps) => {
               // Determine if the current option is selected for the current question
               const isChecked = selectedAnswers[questionIndex] === optionIndex;
               const optionIsCorrect = isChecked && option.isCorrect;
-              const radioColor = styles[optionIsCorrect ? "radio-correct" : "radio-incorrect"];
+              const radioColor =
+                styles[optionIsCorrect ? "radio-correct" : "radio-incorrect"];
               return (
                 <label key={optionIndex} className={styles["align-radio"]}>
                   <input
                     type="radio"
                     checked={isChecked}
-                    onClick={() => handleSelectAnswer(questionIndex, optionIndex)}
-                    onChange={() => handleSelectAnswer(questionIndex, optionIndex)}
+                    onClick={() =>
+                      handleSelectAnswer(questionIndex, optionIndex)
+                    }
+                    onChange={() =>
+                      handleSelectAnswer(questionIndex, optionIndex)
+                    }
                     className={`${radioColor} ${styles["input-size"]}`}
                   />
                   <p>{option.label}</p>

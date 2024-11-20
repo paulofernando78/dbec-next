@@ -1,6 +1,6 @@
 import { Whiteboard } from "@/components/Whiteboard";
 
-export default function Unit1() {
+export default function Unit2() {
   return (
     <>
       <Whiteboard

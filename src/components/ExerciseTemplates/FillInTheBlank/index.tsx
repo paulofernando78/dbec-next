@@ -3,7 +3,7 @@
 // Imports
 import Image from "next/image";
 import { Fragment, useState } from "react";
-import { Button } from "@/components/Button/Button";
+import { Button } from "@/components/Button";
 
 // Images
 import correctIcon from "@/img/icon/correct.png";

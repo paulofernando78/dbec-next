@@ -3,7 +3,7 @@ import { Fragment, useState } from "react";
 import { correctIcon, incorrectIcon } from "@/img/index";
 import styles from "./styles.module.css";
 import Image from "next/image";
-import { Button } from "@/components/Button/Button";
+import { Button } from "@/components/Button";
 
 // Define the types for your question options
 interface Option {

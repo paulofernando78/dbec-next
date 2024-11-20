@@ -6,7 +6,7 @@ export default function Travel() {
     <>
       <Whiteboard title="Specific Purposes" subtitle="Travel" />
       <div className="line-break">
-        <Link href="/specific-purposes/travel/welcome-english-for-the-travel-and-tourism-industry">
+        <Link href="/materials/specific-purposes/travel/welcome-english-for-the-travel-and-tourism-industry">
           <p>Welcome • English for travel and tourism industry (Cambridge)</p>
         </Link>
       </div>

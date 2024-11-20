@@ -1,6 +1,7 @@
+import { UnderConstruction } from "@/components/UnderConstruction";
 import { Whiteboard } from "@/components/Whiteboard";
 
-export default function Unit1() {
+export default function Unit38() {
   return (
     <>
       <Whiteboard
@@ -9,9 +10,7 @@ export default function Unit1() {
         descriptions={["Unit 38 • Car rental"]}
       />
       <div className="line-break">
-        <p>
-          <b>...</b>
-        </p>
+        <UnderConstruction />
       </div>
     </>
   );

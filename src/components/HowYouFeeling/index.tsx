@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import style from "./HowYouFelling.module.css";
+import style from "./style.module.css";
 
 // Components
 import { AudioPlayer } from "../Audioplayer";
@@ -212,7 +212,8 @@ export default function HowYouFeeling() {
       <div className="line-break">
         <AudioPlayer audioSrc="/assets/audio/how-you-feeling.mp3" />
         <div className={style["feeling"]}>
-          <h3>How are you feeling today? I'm (feeling)...</h3>
+          <h3>A: Hey, how are you feeling today?</h3>
+          <h3>B: I'm feeling pretty good. Thanks for asking.</h3>
         </div>
         <div className={style["emoji-container"]}>
           {emojis.map((emoji) => (

@@ -1,5 +1,5 @@
 import { DashboardNotes } from "@/components/DashboardNotes/DashboardNotes";
-import HowYouFeeling from "@/components/HowYouFeeling/HowYouFeeling";
+import HowYouFeeling from "@/components/HowYouFeeling";
 import { Welcome } from "@/components/Welcome";
 import { Whiteboard } from "@/components/Whiteboard";
 import Link from "next/link";
