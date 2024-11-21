@@ -9,37 +9,124 @@
       "label": "Warm-up",
       "bgColor": "black",
       "textColor": "white",
-      "text": "aaa"
+      "text": "..."
     },
     {
       "label": "Introduction",
       "bgColor": "black",
       "textColor": "white",
-      "text": "bbb"
+      "text": "..."
     },
     {
       "label": "Presentation",
       "bgColor": "black",
       "textColor": "white",
-      "text": "ccc"
+      "text": "...",
+      "substages": [
+        {
+          "label": "Meaning",
+          "texts": [
+            {
+              "text": "..."
+            }
+          ]
+        },
+        {
+          "label": "Pronunciation",
+          "texts": [
+            {
+              "text": "..."
+            }
+          ]
+        },
+        {
+          "label": "Form / Use",
+          "texts": [
+            {
+              "text": "..."
+            }
+          ]
+        }
+      ]
     },
     {
       "label": "Practice",
       "bgColor": "black",
       "textColor": "white",
-      "text": "ddd"
+      "substages": [
+        {
+          "label": "HCWP",
+          "texts": [
+            {
+              "instructions": [
+                {
+                  "instruction": "..."
+                },
+                {
+                  "instruction": "..."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "LCWP",
+          "texts": [
+            {
+              "instructions": [
+                {
+                  "instruction": "..."
+                },
+                {
+                  "instruction": "..."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "HCOP",
+          "texts": [
+            {
+              "instructions": [
+                {
+                  "instruction": "..."
+                },
+                {
+                  "instruction": "..."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "LCOP",
+          "texts": [
+            {
+              "instructions": [
+                {
+                  "instruction": "..."
+                },
+                {
+                  "instruction": "..."
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "label": "Production",
       "bgColor": "black",
       "textColor": "white",
-      "text": "eee"
+      "text": "..."
     },
     {
       "label": "Wrap-up",
       "bgColor": "black",
       "textColor": "white",
-      "text": "fff"
+      "text": "..."
     }
   ]
 }

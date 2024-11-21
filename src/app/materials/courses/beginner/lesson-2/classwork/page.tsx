@@ -3,23 +3,11 @@
 import { useEffect, useState } from "react";
 import { Whiteboard } from "@/components/Whiteboard";
 import { Ribbon } from "@/components/Ribbons/Ribbon";
-
-interface Stage {
-  label: string;
-  bgColor: string;
-  textColor: string;
-  text: string
-}
-
-interface LessonData {
-  title: string;
-  subtitle: string;
-  description: string[];
-  stages: Stage[];
-}
+import { VocabulayGrammarLessonDataProps } from "@/types/materials/vocabulary-grammar";
 
 export default function BeginnerLesson2Classwork() {
-  const [lessonData, setLessonData] = useState<LessonData | null>(null);
+  const [lessonData, setLessonData] =
+    useState<VocabulayGrammarLessonDataProps | null>(null);
 
   useEffect(() => {
     fetch("/assets/data/materials/courses/beginner/lesson-2.json")
@@ -36,20 +24,42 @@ export default function BeginnerLesson2Classwork() {
   return (
     <>
       <Whiteboard
-        title={lessonData.title}
-        subtitle={lessonData.subtitle}
-        descriptions={lessonData.description}
+        title={lessonData.whiteboard.title}
+        subtitle={lessonData.whiteboard.subtitle}
+        descriptions={lessonData.whiteboard.description}
       />
       <div className="line-break">
-        {lessonData.stages.map((stage, index) => (
+        {lessonData.stages.map((stage, stageIndex) => (
           <>
             <Ribbon
-              key={index}
+              key={stageIndex}
               label={stage.label}
               bgColor={stage.bgColor}
               textColor={stage.textColor}
             />
             <p>{stage.text}</p>
+            {stage.substages?.map((substage, substageIndex) => (
+              <div key={substageIndex} className="line-break">
+                <Ribbon
+                  label={substage.label}
+                  bgColor="lightgrey"
+                  textColor="black"
+                />
+                {substage.texts?.map((text, textIndex) => (
+                  <div key={textIndex}>
+                    {text.instructions && (
+                      <>
+                        <p><b>Instructions:</b></p>
+                        {text.instructions.map((instruction, instructionIndex) => (
+                          <p key={instructionIndex}>• {instruction.instruction}</p>
+                        ))}
+                      </>
+                    )}
+                    <p className="line-break">{text.text}</p>
+                  </div>
+                ))}
+              </div>
+            ))}
           </>
         ))}
       </div>
