@@ -4,7 +4,7 @@ import { Whiteboard } from "@/components/Whiteboard";
 import { AudioPlayer, Card, DictionaryCard, Radio } from "@/components";
 import { GenericLessonTemplateProps } from "@/types/materials/GenericLesson";
 
-const baseAudioSrc = "/assets/audio" 
+const baseAudioSrc = "/assets/audio";
 
 export const GenericLessonTemplate = ({ data }: GenericLessonTemplateProps) => {
   return (
@@ -28,9 +28,11 @@ export const GenericLessonTemplate = ({ data }: GenericLessonTemplateProps) => {
         {/* Paragraphs */}
         {data.paragraphs.map((paragraph, index) => (
           <div key={index}>
-            {paragraph.speaker && <p className="display-inline">
-              <b>{paragraph.speaker}:</b>
-            </p>}{" "}
+            {paragraph.speaker && (
+              <p className="display-inline">
+                <b>{paragraph.speaker}:</b>
+              </p>
+            )}{" "}
             {paragraph.texts.map((text, textIndex) => (
               <div key={textIndex} className="display-inline">
                 <div className="display-inline">
@@ -42,7 +44,7 @@ export const GenericLessonTemplate = ({ data }: GenericLessonTemplateProps) => {
                     />
                   )}
                 </div>{" "}
-                <p className="display-inline">{text.text} </p>
+                <p className="display-inline">{text.text}</p>
               </div>
             ))}
           </div>

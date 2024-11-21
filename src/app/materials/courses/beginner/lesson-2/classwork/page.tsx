@@ -1,8 +1,14 @@
 "use client";
 
+// Hooks
 import { useEffect, useState } from "react";
+
+// Components
 import { Whiteboard } from "@/components/Whiteboard";
 import { Ribbon } from "@/components/Ribbons/Ribbon";
+import { SwiperFraction } from "@/components";
+
+// Typescript
 import { VocabulayGrammarLessonDataProps } from "@/types/materials/vocabulary-grammar";
 
 export default function BeginnerLesson2Classwork() {
@@ -38,6 +44,15 @@ export default function BeginnerLesson2Classwork() {
               textColor={stage.textColor}
             />
             <p>{stage.text}</p>
+            {stage.swiperImages && (
+              <SwiperFraction
+                images={stage.swiperImages.map((swiperImage) => ({
+                  imgSrcLink: swiperImage.imgSrcLink,
+                  imgAltLink: swiperImage.imgAltLink,
+                }))}
+              />
+            )}
+
             {stage.substages?.map((substage, substageIndex) => (
               <div key={substageIndex} className="line-break">
                 <Ribbon
@@ -49,10 +64,16 @@ export default function BeginnerLesson2Classwork() {
                   <div key={textIndex}>
                     {text.instructions && (
                       <>
-                        <p><b>Instructions:</b></p>
-                        {text.instructions.map((instruction, instructionIndex) => (
-                          <p key={instructionIndex}>• {instruction.instruction}</p>
-                        ))}
+                        <p>
+                          <b>Instructions:</b>
+                        </p>
+                        {text.instructions.map(
+                          (instruction, instructionIndex) => (
+                            <p key={instructionIndex}>
+                              • {instruction.instruction}
+                            </p>
+                          )
+                        )}
                       </>
                     )}
                     <p className="line-break">{text.text}</p>

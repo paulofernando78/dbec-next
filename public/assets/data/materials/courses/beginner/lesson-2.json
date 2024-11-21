@@ -9,7 +9,17 @@
       "label": "Warm-up",
       "bgColor": "black",
       "textColor": "white",
-      "text": "..."
+      "text": "...",
+      "swiperImages": [
+        {
+          "imgSrcLink": "https://gdb.voanews.com/8a8f513c-5f28-492a-9409-d321f4dd6c5e_cx0_cy3_cw0_w650_r1_s.jpg",
+          "imgAltLink": "Example image description"
+        },
+        {
+          "imgSrcLink": "https://gdb.voanews.com/c48ddfde-59dc-41c4-acfc-ba8fd0bd0c0d_cx0_cy6_cw100_w650_r1.jpg",
+          "imgAltLink": "Example image description"
+        }
+      ]
     },
     {
       "label": "Introduction",
