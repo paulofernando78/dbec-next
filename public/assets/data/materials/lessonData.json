@@ -1,0 +1,60 @@
+{
+  "whiteboard": {
+    "title": "...",
+    "subtitle": "...",
+    "description": ["..."]
+  },
+  "lessons": [
+    {
+      "title": "Title",
+      "bgColor": "black",
+      "textColor": "white",
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "word",
+              "audioSrc": "/assets/audio/welcome.mp3",
+              "text": "Text 1"
+            },
+            {
+              "keyword": "...",
+              "word": "word",
+              "audioSrc": "/assets/audio/welcome.mp3",
+              "text": "Text 2"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "word",
+              "audioSrc": "/assets/audio/welcome.mp3",
+              "text": "Text 3"
+            },
+            {
+              "keyword": "...",
+              "word": "word",
+              "audioSrc": "/assets/audio/welcome.mp3",
+              "text": "Text 4"
+            }
+          ]
+        }
+      ],
+      "swiperImages": [
+        {
+          "imgSrcLink": "https://gdb.voanews.com/8a8f513c-5f28-492a-9409-d321f4dd6c5e_cx0_cy3_cw0_w650_r1_s.jpg",
+          "imgAltLink": "Example image description"
+        },
+        {
+          "imgSrcLink": "https://gdb.voanews.com/c48ddfde-59dc-41c4-acfc-ba8fd0bd0c0d_cx0_cy6_cw100_w650_r1.jpg",
+          "imgAltLink": "Example image description"
+        }
+      ],
+      "audioSrc": "/assets/audio/welcome.mp3",
+      "videoSrc": "https://www.youtube.com/embed/oCY5YEEjlwE"
+    }
+  ]
+}

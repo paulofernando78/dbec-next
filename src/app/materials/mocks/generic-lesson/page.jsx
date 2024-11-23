@@ -9,6 +9,7 @@ import {
   SwiperFraction,
   VideoPlayer,
 } from "@/components";
+import { GenericLessonTemplate } from "@/components/Templates/GenericLesson/Index";
 
 export default function LessonData() {
   const [lessonData, setLessonData] = useState(null);
@@ -40,7 +41,7 @@ export default function LessonData() {
 
   return (
     <>
-      
+       <GenericLessonTemplate lessonData={lessonData} />
     </>
   );
 }

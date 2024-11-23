@@ -144,11 +144,8 @@ export default function Mocks() {
           {/* Create lesson*/}
           <p className="bold">Create lessons:</p>
           <div>
-            <Link href="/mocks/site/create">
-              <p>Vocabulary / Grammar</p>
-            </Link>
-            <Link href="/mocks/site/create">
-              <p>Listening</p>
+            <Link href="\materials\mocks\generic-lesson\">
+              <p>Generic lesson</p>
             </Link>
           </div>
           {/* Lessons */}
