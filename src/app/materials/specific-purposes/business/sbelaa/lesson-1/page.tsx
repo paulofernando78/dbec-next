@@ -1,25 +1,41 @@
 "use client";
 
+// Hooks
 import { useEffect, useState } from "react";
-import { GenericLessonTemplate } from "@/components/Templates/LessonData/Index";
-import { LessonData } from "@/types/materials/GenericLesson";
 
-export default function SpecificPurposesBusinessSbellaLesson1() {
-  const [lessonData, setLessonData] = useState<LessonData | null>(null);
+// Components
+import { LessonTemplate } from "@/components/Templates/LessonData/Index";
+
+export default function LessonData() {
+  const [lessonData, setLessonData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch(
-      "/assets/data/materials/specific-purposes/business/sbelaa/lesson-1.json"
-    )
+    fetch("/assets/data/materials/specific-purposes/business/sbelaa/lesson-1.json")
       .then((response) => {
-        if (!response.ok) throw new Error("Error loading JSON");
+        if (!response.ok) {
+          throw new Error("Failed to fetch lesson data");
+        }
         return response.json();
       })
-      .then((data) => setLessonData(data))
-      .catch((error) => console.error(error));
+      .then((data) => {
+        setLessonData(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error(err);
+        setError(true);
+        setLoading(false);
+      });
   }, []);
 
-  if (!lessonData) return <p>Loading...</p>;
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error loading lesson data.</p>;
 
-  return <GenericLessonTemplate data={lessonData} />;
+  return (
+    <>
+      <LessonTemplate lessonData={lessonData} />
+    </>
+  );
 }

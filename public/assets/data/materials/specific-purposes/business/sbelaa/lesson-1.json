@@ -1,293 +1,288 @@
 {
-  "title": "Speficic Purposes",
-  "subtitle": "Business",
-  "descriptions": [
-    "Speak English Like an American",
-    "Lesson 1 • Talking About a New Project"
-  ],
-  "audioSrc": "/specific-purposes/business/sbelaa/lesson-1.mp3",
-  "lessonTitle": "Lesson 1 • Talking About a New Project",
-  "lessonDescription": "Carl, Greg, and Anne work for WaterSonic Corporation. Recently, the company has come up with an idea for a new electric toothbrush.",
-  "paragraphs": [
+  "whiteboard": {
+    "title": "Specific Purposes",
+    "subtitle": "Business",
+    "descriptions": ["Lesson 1 • Talking about a new project"]
+  },
+  "lessons": [
     {
-      "speaker": "Carl",
-      "texts": [
+      "audioSrc": "/specific-purposes/business/sbelaa/lesson-1.mp3",
+      "paragraphSections": [
         {
-          "text": "I think we've"
+          "paragraphs": [
+            {
+              "text": "<b>Lesson 1 • Talking about a new project.</b>"
+            }
+          ]
         },
         {
-          "keyword": "come up with a winner",
-          "vocabulary": "come up with a winner",
-          "audioSrc": "/dictionary/c/come-up-with-a-winner.mp3"
+          "paragraphs": [
+            {
+              "text": "Carl, Greg and Anne work for WaterSonic Corposration. Recently, the company has come up with an idea for a new electric toothbrush."
+            }
+          ]
         },
         {
-          "text": "."
+          "paragraphs": [
+            {
+              "text": "<b>Carl:</b> I think we've"
+            },
+            {
+              "keyword": "come up with a winner",
+              "vocabulary": "come up with a winner",
+              "audioSrc": "/dictionary/c/come-up-with-a-winner.mp3"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Anne:</b> I agree. The new Brush-o-matic should be a"
+            },
+            {
+              "keyword": "blockbuster",
+              "vocabulary": "blockbuster",
+              "audioSrc": "/dictionary/b/blockbuster.mp3"
+            },
+            {
+              "text": "!"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Greg:</b> We should"
+            },
+            {
+              "keyword": "fast track",
+              "vocabulary": "fast track",
+              "audioSrc": "/dictionary/f/fast-track-a-project.mp3"
+            },
+            {
+              "text": ". Let's try to launch it in time for the holiday season."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Anne:</b> This will be a great"
+            },
+            {
+              "keyword": "stocking stuffer",
+              "vocabulary": "stocking stuffer",
+              "audioSrc": "/dictionary/s/stocking-stuffer.mp3"
+            },
+            {
+              "text": "!"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Carl:</b> We definitely need a"
+            },
+            {
+              "keyword": "big win",
+              "vocabulary": "big win",
+              "audioSrc": "/dictionary/b/big-win.mp3"
+            },
+            {
+              "text": "for the holidays."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Anne:</b> This is a great idea. We're going to "
+            },
+            {
+              "keyword": "make a killing",
+              "vocabulary": "make a killing",
+              "audioSrc": "/dictionary/m/make-a-killing.mp3"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Greg:</b> Let's not talk about this project to anybody who doesn't need to know. We'll"
+            },
+            {
+              "keyword": "keep something under wraps",
+              "vocabulary": "keep it under wraps.",
+              "audioSrc": "/dictionary/k/keep-it-under-wraps.mp3"
+            },
+            {
+              "text": "keep it under wraps."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Carl:</b> I agree. "
+            },
+            {
+              "keyword": "mum's the word",
+              "vocabulary": "mum's the word",
+              "audioSrc": "/dictionary/m/mums-the-word.mp3"
+            },
+            {
+              "text": ". We don't want any of our competitors to"
+            },
+            {
+              "keyword": "get wind of",
+              "vocabulary": "get wind of",
+              "audioSrc": "/dictionary/g/get-wind-of.mp3"
+            },
+            {
+              "text": "the idea and"
+            },
+            {
+              "keyword": "rip off",
+              "vocabulary": "rip it off",
+              "audioSrc": "/dictionary/r/rip-off-idiom.mp3"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Anne:</b> Right. Let's meet again on Monday morning and discuss our"
+            },
+            {
+              "keyword": "game plan",
+              "vocabulary": "game plan",
+              "audioSrc": "/dictionary/g/game-plan.mp3"
+            },
+            {
+              "text": "for"
+            },
+            {
+              "keyword": "get something off the ground",
+              "vocabulary": "getting this project off the ground",
+              "audioSrc": "/dictionary/g/getting-this-project-off-the-ground.mp3"
+            },
+            {
+              "text": "!"
+            }
+          ]
         }
       ]
     },
     {
-      "speaker": "Anne",
-      "texts": [
+      "title": "Exercise",
+      "bgColor": "black",
+      "textColor": "white",
+      "radio": [
         {
-          "text": "I agree. The new Brush-o-matic should be a"
+          "title": "Choose the best substitute for the phrase or sentence in bold.",
+          "question": "1. Did the company think of this new produxt idea themselves? No, they ripped it off from an inventor.",
+          "options": [
+            {
+              "label": "a) No, they paid an inventor for the idea.",
+              "isCorrect": false
+            },
+            {
+              "label": "b) No, they stole the idea from an inventor",
+              "isCorrect": true
+            },
+            {
+              "label": "c) No, they discussed it with an inventor and he agreed to sell it to them.",
+              "isCorrect": false
+            }
+          ]
         },
         {
-          "keyword": "blockbuster",
-          "vocabulary": "blockbuster",
-          "audioSrc": "/dictionary/b/blockbuster.mp3"
+          "question": "2. Jill is planning to quit her job at the end of September, but mum's the word.",
+          "options": [
+            { "label": "a) don't tell anybody", "isCorrect": true },
+            { "label": "b) don't tell her mother", "isCorrect": false },
+            { "label": "c) she may change her mind", "isCorrect": false }
+          ]
         },
         {
-          "text": "!"
+          "question": "3. Sony has made a killing on its popular PlayStation line.",
+          "options": [
+            { "label": "a) lost money on", "isCorrect": false },
+            { "label": "b) made a lot of money on", "isCorrect": true },
+            { "label": "c) decided to stop producing", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "4. After receiving a large loan from the bank, the company was finally able to get its project off the ground.",
+          "options": [
+            { "label": "a) get started on the project", "isCorrect": true },
+            { "label": "b) cancel the project", "isCorrect": false },
+            { "label": "c) borrow money", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "5. That new software company seems very disorganized. Do they have a game plan?",
+          "options": [
+            {
+              "label": "a) plan for closing down their business",
+              "isCorrect": false
+            },
+            { "label": "b) plan for developing new games", "isCorrect": false },
+            {
+              "label": "c) plan for how they will proceed to grow their business",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "question": "6. Some experts recommend that when you're interviewing for a new job, you should keep your current salary under wraps.",
+          "options": [
+            {
+              "label": "a) you should tell the interviewer what your current salary is",
+              "isCorrect": false
+            },
+            {
+              "label": "b) you should say you're making twice as much as you're really earning",
+              "isCorrect": false
+            },
+            {
+              "label": "c) you should not say how much you're currently earning",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "question": "7. Don's new cell phone has a video camera and all sorts of other bells and whistles.",
+          "options": [
+            { "label": "a) fancy features", "isCorrect": true },
+            {
+              "label": "b) things that make loud ringing noises and whistle tones",
+              "isCorrect": false
+            },
+            {
+              "label": "c) features typical in a low-priced product",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "8. When investors got wind of the fact that the pharmaceutical company's major drug increased the risk of heart attacks, the company's stock price fell.",
+          "options": [
+            { "label": "a) hid", "isCorrect": false },
+            { "label": "b) discovered", "isCorrect": true },
+            { "label": "c) got fed up with", "isCorrect": false }
+          ]
         }
-      ]
-    },
-    {
-      "speaker": "Carl",
-      "texts": [
-        {
-          "text": "Our designers have already made up some prototypes. The toothbrushes have a tooth-whitening attachment and many other "
-        },
-        {
-          "keyword": "bells and whistles",
-          "vocabulary": "bells and whistles",
-          "audioSrc": "/dictionary/b/bells-and-whistles.mp3"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
-    {
-      "speaker": "Greg",
-      "texts": [
-        {
-          "text": "We should"
-        },
-        {
-          "keyword": "fast track",
-          "vocabulary": "fast track",
-          "audioSrc": "/dictionary/f/fast-track-a-project.mp3"
-        },
-        {
-          "text": ". Let's try to launch it in time for the holiday season."
-        }
-      ]
-    },
-    {
-      "speaker": "Anne",
-      "texts": [
-        {
-          "text": "This will be a great"
-        },
-        {
-          "keyword": "stocking stuffer",
-          "vocabulary": "stocking stuffer",
-          "audioSrc": "/dictionary/s/stocking-stuffer.mp3"
-        },
-        {
-          "text": "!"
-        }
-      ]
-    },
-    {
-      "speaker": "Carl",
-      "texts": [
-        {
-          "text": "We definitely need a"
-        },
-        {
-          "keyword": "big win",
-          "vocabulary": "big win",
-          "audioSrc": "/dictionary/b/big-win.mp3"
-        },
-        {
-          "text": "for the holidays."
-        }
-      ]
-    },
-    {
-      "speaker": "Anne",
-      "texts": [
-        {
-          "text": "This is a great idea. We're going to "
-        },
-        {
-          "keyword": "make a killing",
-          "vocabulary": "make a killing",
-          "audioSrc": "/dictionary/m/make-a-killing.mp3"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
-    {
-      "speaker": "Greg",
-      "texts": [
-        {
-          "text": "Let's not talk about this project to anybody who doesn't need to know. We'll"
-        },
-        {
-          "keyword": "keep something under wraps",
-          "vocabulary": "keep it under wraps.",
-          "audioSrc": "/dictionary/k/keep-it-under-wraps.mp3"
-        },
-        {
-          "text": "keep it under wraps."
-        }
-      ]
-    },
-    {
-      "speaker": "Carl",
-      "texts": [
-        {
-          "text": "I agree. "
-        },
-        {
-          "keyword": "mum's the word",
-          "vocabulary": "mum's the word",
-          "audioSrc": "/dictionary/m/mums-the-word.mp3"
-        },
-        {
-          "text": ". We don't want any of our competitors to"
-        },
-        {
-          "keyword": "get wind of",
-          "vocabulary": "get wind of",
-          "audioSrc": "/dictionary/g/get-wind-of.mp3"
-        },
-        {
-          "text": "the idea and"
-        },
-        {
-          "keyword": "rip off",
-          "vocabulary": "rip it off",
-          "audioSrc": "/dictionary/r/rip-off-idiom.mp3"
-        },
-        {
-          "text": "."
-        }
-      ]
-    },
-    {
-      "speaker": "Anne",
-      "texts": [
-        {
-          "text": "Right. Let's meet again on Monday morning and discuss our"
-        },
-        {
-          "keyword": "game plan",
-          "vocabulary": "game plan",
-          "audioSrc": "/dictionary/g/game-plan.mp3"
-        },
-        {
-          "text": "for"
-        },
-        {
-          "keyword": "get something off the ground",
-          "vocabulary": "getting this project off the ground",
-          "audioSrc": "/dictionary/g/getting-this-project-off-the-ground.mp3"
-        },
-        {
-          "text": "!"
-        }
-      ]
-    }
-  ],
-  "radioExercises": [
-    {
-      "title": "Choose the best substitute for the phrase or sentence in bold.",
-      "question": "1. Did the company think of this new produxt idea themselves? No, they ripped it off from an inventor.",
-      "options": [
-        {
-          "label": "a) No, they paid an inventor for the idea.",
-          "isCorrect": false
-        },
-        {
-          "label": "b) No, they stole the idea from an inventor",
-          "isCorrect": true
-        },
-        {
-          "label": "c) No, they discussed it with an inventor and he agreed to sell it to them.",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "question": "2. Jill is planning to quit her job at the end of September, but mum's the word.",
-      "options": [
-        { "label": "a) don't tell anybody", "isCorrect": true },
-        { "label": "b) don't tell her mother", "isCorrect": false },
-        { "label": "c) she may change her mind", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "3. Sony has made a killing on its popular PlayStation line.",
-      "options": [
-        { "label": "a) lost money on", "isCorrect": false },
-        { "label": "b) made a lot of money on", "isCorrect": true },
-        { "label": "c) decided to stop producing", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "4. After receiving a large loan from the bank, the company was finally able to get its project off the ground.",
-      "options": [
-        { "label": "a) get started on the project", "isCorrect": true },
-        { "label": "b) cancel the project", "isCorrect": false },
-        { "label": "c) borrow money", "isCorrect": false }
-      ]
-    },
-    {
-      "question": "5. That new software company seems very disorganized. Do they have a game plan?",
-      "options": [
-        {
-          "label": "a) plan for closing down their business",
-          "isCorrect": false
-        },
-        { "label": "b) plan for developing new games", "isCorrect": false },
-        {
-          "label": "c) plan for how they will proceed to grow their business",
-          "isCorrect": true
-        }
-      ]
-    },
-    {
-      "question": "6. Some experts recommend that when you're interviewing for a new job, you should keep your current salary under wraps.",
-      "options": [
-        {
-          "label": "a) you should tell the interviewer what your current salary is",
-          "isCorrect": false
-        },
-        {
-          "label": "b) you should say you're making twice as much as you're really earning",
-          "isCorrect": false
-        },
-        {
-          "label": "c) you should not say how much you're currently earning",
-          "isCorrect": true
-        }
-      ]
-    },
-    {
-      "question": "7. Don's new cell phone has a video camera and all sorts of other bells and whistles.",
-      "options": [
-        { "label": "a) fancy features", "isCorrect": true },
-        {
-          "label": "b) things that make loud ringing noises and whistle tones",
-          "isCorrect": false
-        },
-        {
-          "label": "c) features typical in a low-priced product",
-          "isCorrect": false
-        }
-      ]
-    },
-    {
-      "question": "8. When investors got wind of the fact that the pharmaceutical company's major drug increased the risk of heart attacks, the company's stock price fell.",
-      "options": [
-        { "label": "a) hid", "isCorrect": false },
-        { "label": "b) discovered", "isCorrect": true },
-        { "label": "c) got fed up with", "isCorrect": false }
       ]
     }
   ]

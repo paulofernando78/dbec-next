@@ -1,11 +1,12 @@
 "use client";
 
+// Hook 
 import { useEffect, useState } from "react";
-import { ContentCard } from "@/components/Cards/ContentCard";
-import {
-  Whiteboard,
-  MainContent,
-} from "@/components/Cards/ContentCard/ContentCard";
+
+// Components
+import { ContentCard } from "@/components/Molecules/Cards/ContentCard";
+import { MainContent, Whiteboard } from "@/components/Molecules/Cards/ContentCard/type";
+
 
 export default function SpeakBusinessEnglishLikeAnAmerican() {
   const [whiteboard, setWhiteboard] = useState<Whiteboard | null>(null);

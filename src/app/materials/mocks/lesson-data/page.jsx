@@ -1,6 +1,9 @@
 "use client";
 
+// Hooks
 import { useEffect, useState } from "react";
+
+// Components
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 
 export default function LessonData() {

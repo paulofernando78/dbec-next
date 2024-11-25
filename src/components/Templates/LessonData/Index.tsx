@@ -4,16 +4,17 @@
 import {
   Whiteboard,
   Ribbon,
+  Paragraph,
   AudioPlayer,
-  DictionaryCard,
-  Radio,
   SwiperFraction,
   VideoPlayer,
+  Radio,
+  Dropdown,
   FillInTheBlanks,
-  Paragraph,
 } from "@/components";
-import { Dropdown } from "@/components/Molecules/ExerciseTemplates/Dropdown";
-import { LessonTemplateProps } from "@/components/Templates/LessonData/LessonData.types";
+
+// Typescript
+import { LessonTemplateProps } from "@/components/Templates/LessonData/types";
 
 const baseAudioSrc = "/assets/audio";
 
@@ -23,19 +24,19 @@ export const LessonTemplate = ({ lessonData }: LessonTemplateProps) => {
       <Whiteboard
         title={lessonData.whiteboard.title}
         subtitle={lessonData.whiteboard.subtitle}
-        descriptions={lessonData.whiteboard.description}
+        descriptions={lessonData.whiteboard.descriptions}
       />
       <div className="line-break">
         {lessonData.lessons.map((lesson, lessonIndex) => (
           <div key={lessonIndex} className="line-break">
             {/* Title */}
-            <Ribbon
-              label={lesson.title}
-              bgColor={lesson.bgColor || "defaultBgColor"}
-              textColor={lesson.textColor || "defaultTextColor"}
-            />
-            {/* Paragraphs + Word */}
-            <Paragraph />
+            {lesson.title && (
+              <Ribbon
+                label={lesson.title}
+                bgColor={lesson.bgColor || "defaultBgColor"}
+                textColor={lesson.textColor || "defaultTextColor"}
+              />
+            )}
 
             {/* SwiperFraction images */}
             {lesson.swiperFractionImages &&
@@ -55,19 +56,24 @@ export const LessonTemplate = ({ lessonData }: LessonTemplateProps) => {
               <AudioPlayer audioSrc={`${baseAudioSrc}${lesson.audioSrc}`} />
             )}
 
+            {/* Paragraphs + Word */}
+            {lesson.paragraphSections && (
+              <Paragraph paragraphSections={lesson.paragraphSections} />
+            )}
+
             {/* Video Player */}
             {lesson.videoSrc && <VideoPlayer videoSrc={lesson.videoSrc} />}
 
             {/* Radio Exercises */}
-            <Radio questions={lesson.radio} />
+            {lesson.radio && <Radio questions={lesson.radio} />}
 
             {/* Checkbox Exercises */}
 
             {/* Dropdown Exercises */}
-            <Dropdown questions={lesson.dropdown} />
+            {/* <Dropdown questions={lesson.dropdown} /> */}
 
             {/* Fill in the Blanks Exercises */}
-            <FillInTheBlanks questions={lesson.fillInTheBlanks} />
+            {/* <FillInTheBlanks questions={lesson.fillInTheBlanks} /> */}
           </div>
         ))}
       </div>

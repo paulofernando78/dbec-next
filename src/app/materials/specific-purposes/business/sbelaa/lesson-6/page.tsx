@@ -1,8 +1,13 @@
 "use client";
 
+// Hooks
 import { useEffect, useState } from "react";
-import { GenericLessonTemplate } from "@/components/Templates/LessonData/Index";
-import { LessonData } from "@/types/materials/GenericLesson";
+
+// Components
+import { LessonTemplate } from "@/components/Templates/LessonData/Index";
+
+// Typescript
+import { LessonData } from "@/components/Templates/LessonData/types";
 
 export default function SpecificPurposesBusinessSbellaLesson6() {
   const [lessonData, setLessonData] = useState<LessonData | null>(null);
@@ -21,5 +26,5 @@ export default function SpecificPurposesBusinessSbellaLesson6() {
 
   if (!lessonData) return <p>Loading...</p>;
 
-  return <GenericLessonTemplate data={lessonData} />;
+  return <LessonTemplate data={lessonData} />;
 }

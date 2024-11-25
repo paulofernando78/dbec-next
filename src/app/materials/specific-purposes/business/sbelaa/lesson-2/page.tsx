@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { GenericLessonTemplate } from "@/components/Templates/LessonData/Index";
-import { LessonData } from "@/types/materials/GenericLesson";
+import { LessonTemplate } from "@/components/Templates/LessonData/Index";
+import { LessonTemplateProps } from "@/components/Templates/LessonData/types";
 
 export default function SpecificPurposesBusinessSbellaLesson2() {
-  const [lessonData, setLessonData] = useState<LessonData | null>(null);
+  const [lessonData, setLessonData] = useState<LessonTemplateProps | null>(null);
 
   useEffect(() => {
     fetch(
@@ -21,5 +21,5 @@ export default function SpecificPurposesBusinessSbellaLesson2() {
 
   if (!lessonData) return <p>Loading...</p>;
 
-  return <GenericLessonTemplate data={lessonData} />;
+  return <LessonTemplate lessonData={lessonData} />;
 }

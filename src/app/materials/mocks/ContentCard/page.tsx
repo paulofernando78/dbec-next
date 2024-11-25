@@ -1,4 +1,4 @@
-import { ContentCard } from "@/components/Cards/ContentCard";
+import { ContentCard } from "@/components/Molecules/Cards/ContentCard";
 
 const contents = [
   {

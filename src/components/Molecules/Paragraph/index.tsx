@@ -22,7 +22,10 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
                   audioSrc={`${baseAudioSrc}${paragraph.audioSrc}`}
                 />
               )}{" "}
-              <p className="display-inline">{paragraph.text}</p>{" "}
+              <p
+                className="display-inline"
+                dangerouslySetInnerHTML={{ __html: paragraph.text }}
+              ></p>{" "}
             </div>
           ))}
         </div>

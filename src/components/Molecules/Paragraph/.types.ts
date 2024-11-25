@@ -1,11 +1,12 @@
-interface Paragraph {
+export interface Paragraph {
     keyword?: string;
     vocabulary: string;
     audioSrc: string;
     text: string;
+    textBold: string;
   }
  
-  interface ParagraphSection {
+  export interface ParagraphSection {
     paragraphs: Paragraph[]
   }
 
