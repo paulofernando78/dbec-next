@@ -1,11 +1,11 @@
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import { ContentCard } from "@/components/Cards/ContentCard";
 import { title } from "process";
 
 const whiteboard = {
   title: "Extras",
   subtitle: "Grammar",
-  descriptions: ["Intermediate"]
+  descriptions: ["Intermediate"],
 };
 
 const contents = [

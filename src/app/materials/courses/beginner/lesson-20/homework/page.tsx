@@ -1,5 +1,5 @@
-import { Whiteboard } from "@/components/Whiteboard";
-import { UnderConstruction } from "@/components/UnderConstruction";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
+import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 
 export default function BeginnerLesson20Homework() {
   return (

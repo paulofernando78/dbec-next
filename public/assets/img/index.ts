@@ -8,7 +8,7 @@ import upperIntermediate from "./icon/upper-intermediate.png";
 import advanced from "./icon/advanced.png";
 
 // Extra
-import skillsIcon from "@/img/icon/skills.png";
+import skillsIcon from "./icon/skills.png";
 import grammarIcon from "./icon/grammar.png";
 import listeningIcon from "./icon/listening.png";
 import speakingIcon from "./icon/speaking.png";
@@ -41,66 +41,68 @@ import examsIcon from "./icon/exams.png";
 import miscIcon from "./icon/misc.png";
 
 // Exercise Templates
-import correctIcon from "@/img/icon/correct.png";
-import incorrectIcon from "@/img/icon/incorrect.png";
+import correctIcon from "./icon/correct.png";
+import incorrectIcon from "./icon/incorrect.png";
 
 // Folder
 
 // A
-import addictive1 from "@/img/addictive1.jpg"
-import africanCivet from "@/img/african-civet.jpg"
-import anticipate1 from "@/img/anticipate1.jpg";
-import asianCivet from "@/img/asian-palm-civet.jpg"
-import aviationIcon from "@/img/icon/aviation.png"
+import addictive1 from "./addictive1.jpg"
+import africanCivet from "./african-civet.jpg"
+import anticipate1 from "./anticipate1.jpg";
+import asianCivet from "./asian-palm-civet.jpg"
+import aviationIcon from "./icon/aviation.png"
 
 // B
 import brFlagIcon from "./icon/flag/brazil.png";
+import btnIcon from "../../../public/assets/img/icon/btn-menu.png";
 
 // C
-import cat1 from "@/img/cat1.jpg";
-import cat2 from "@/img/cat2.jpeg";
-import cat3 from "@/img/cat3.png";
-import characteristic1 from "@/img/characteristic1.jpg";
-import challenge1 from "@/img/challenge1.jpg"
-import chocolatePinkLemonadeKitKat from "@/img/chocolate-kit-kat-pink-lemonad.jpg";
-import clipboard1 from "@/img/clipboard1.jpg";
-import clockIcon from "@/img/icon/clock.gif"
-import clockWakeUpHate from "@/img/bitmoji/clock-wakeup-hate.png";
-import compelling1 from "@/img/compelling1.jpg";
+import cat1 from "./cat1.jpg";
+import cat2 from "./cat2.jpeg";
+import cat3 from "./cat3.png";
+import characteristic1 from "./characteristic1.jpg";
+import challenge1 from "./challenge1.jpg"
+import chocolatePinkLemonadeKitKat from "./chocolate-kit-kat-pink-lemonad.jpg";
+import clipboard1 from "./clipboard1.jpg";
+import clockIcon from "./icon/clock.gif"
+import clockWakeUpHate from "./bitmoji/clock-wakeup-hate.png";
+import compelling1 from "./compelling1.jpg";
 import computerScreenGlitch1 from "./computer-screen-glitch1.jpg";
-import consent1 from "@/img/consent1.webp"
+import consent1 from "./consent1.webp"
 import contentIcon from "./icon/content.png"
-import cookieOreoSourPatch from "@/img/cookie-oreo-sour-patch.png";
+import cookieOreoSourPatch from "./cookie-oreo-sour-patch.png";
 import customer1 from "./customer1.webp";
 
 // D
-import debris1 from "@/img/debris1.webp"
-import disappoint1 from "@/img/disappoint1.webp"
+import debris1 from "./debris1.webp";
+import dictionaryIcon from "./icon/dictionary.png"
+import disappoint1 from "./disappoint1.webp"
 import disrupt1 from "./disrupt1.jpg";
-import diversity1 from "@/img/diversity1.jpg"
+import diversity1 from "./diversity1.jpg"
 
 // E
 import emailIcon from "./icon/email.png"
-import enact1 from "@/img/enact1.jpg"
-import exclamationIcon from "@/img/icon/exclamation-mark.png";
+import enact1 from "./enact1.jpg"
+import exclamationIcon from "./icon/exclamation-mark.png";
 
 // F
 import fauxpas1 from "./faux-pas1.webp";
-import flipIcon from "@/img/icon/flip.png";
+import flipIcon from "./icon/flip.png";
 
 // G
-import groupIcon from "@/img/icon/group.png"
+import groupIcon from "./icon/group.png"
 import questionMarkGif from "./gif/question-mark.gif";
 
 // H
-import humanChromosomes from "@/img/human-chromosomes.avif";
+import humanChromosomes from "./human-chromosomes.avif";
 
 // I
-import iceCreamHiddenValleyRanch from "@/img/ice-cream-hidden-valley-ranch.webp";
-import iceCreamLittleMoonFishMochi from "@/img/ice-cream-little-moon-fish-mochi.avif";
+import iceCreamHiddenValleyRanch from "./ice-cream-hidden-valley-ranch.webp";
+import iceCreamLittleMoonFishMochi from "./ice-cream-little-moon-fish-mochi.avif";
 import inFiveMinutes from "./extras/grammar/elementary/unit-103/in-five-minutes.png";
 import infoIcon from "./icon/info.png"
-import intent1 from "@/img/intent1.jpg";
+import intent1 from "./intent1.jpg";
 
 // J
 
@@ -110,13 +112,13 @@ import labEmbryo2 from "./lab-embryo2.jpg";
 import labEmbryo3 from "./lab-embryo3.jpg";
 import labScientist from "./lab-scientist.avif";
 import laptopComputerIcon from "./icon/laptop-computer.png"
-import lisa from "@/img/extras/grammar/elementary/unit-1/lisa.jpg";
+import lisa from "./extras/grammar/elementary/unit-1/lisa.jpg";
 
 // M
 import macAndCheeseIceCreamFlavor from "./mac-and-cheese-ice-cream-flavor.avif";
 import manBedSick from "./man-bed-sick.webp";
-import mathIcon from "@/img/icon/math.png"
-import meComputer from "@/img/site/me-computer.png"
+import mathIcon from "./icon/math.png"
+import meComputer from "./site/me-computer.png"
 import meLinkedIn from "./site/meLinkedIn.jpg"
 import moneyIcon from "./icon/money.png"
 
@@ -125,16 +127,17 @@ import noInternetConnection1 from "./no-internet-connection1.jpg";
 import noInternetConnection2 from "./no-internet-connection2.jpg";
 import noInternetConnection3 from "./no-internet-connection3.avif";
 import noInternetConnection4 from "./no-internet-connection4.jpg";
+import notesIcon from "./icon/notes.png"
 import noWifi from "./no-wifi.webp";
 
 // O
-import occur1 from "@/img/occur1.jpg"
+import occur1 from "./occur1.jpg"
 
 // P
 import personAtASupermarketBrowsingVeggies from "./person-at-a-supermaket-browsing-veggies.avif";
-import personHoldingTwoComputers from "@/img/person-holding-two-computers.avif";
-import personHoldingPhone1 from "@/img/person-holding-phone1.avif";
-import personMakingSpeech1 from "@/img/person-making-speech1.avif";
+import personHoldingTwoComputers from "./person-holding-two-computers.avif";
+import personHoldingPhone1 from "./person-holding-phone1.avif";
+import personMakingSpeech1 from "./person-making-speech1.avif";
 import peoplePreparingFood from "./people-preparing-food.avif";
 import potatoChipLaysFlamminHotDillPickle from "./potato-chip-lays-flamin-hot-dill-pickle.png";
 import potatoChipLaysStrawBerryBacon from "./potato-chip-lays-strawberry-bacon.jpg";
@@ -143,43 +146,45 @@ import potatoChipWalkersBrusselsSprout from "./potato-chip-walkers-brussels-spro
 // Q
 
 // R
+import radioCorrectIcon from "./icon/radio-correct.png"
+import radioIncorrectIcon from "./icon/radio-incorrect.png"
 import remoteHouse1 from "./remote-house1.webp";
 
 // S
-import smallSwimmingPool from "@/img/bitmoji/small-swimming-pool.png";
+import smallSwimmingPool from "./bitmoji/small-swimming-pool.png";
 import sobre from "./site/sobre.jpg"
-import socialMedia1 from "@/img/social-media-1.webp";
-import socialMedia2 from "@/img/social-media-2.webp";
-import socialMedia3 from "@/img/social-media-3.avif";
-import socialMediaParent1 from "@/img/social-media-parent-1.jpg";
-import spaceJunk1 from "@/img/spaceJunk1.webp"
-import stage1 from "@/img/stage1.png"
-import strategy1 from "@/img/strategy1.jpg"
-import sustainable1 from "@/img/sustainable1.jpg"
+import socialMedia1 from "./social-media-1.webp";
+import socialMedia2 from "./social-media-2.webp";
+import socialMedia3 from "./social-media-3.avif";
+import socialMediaParent1 from "./social-media-parent-1.jpg";
+import spaceJunk1 from "./spaceJunk1.webp"
+import stage1 from "./stage1.png"
+import strategy1 from "./strategy1.jpg"
+import sustainable1 from "./sustainable1.jpg"
 
 // T
 import teenChoppingVegetable from "./teen-chopping-vegetable.avif";
 import teenLookingAtFoodLabel from "./teen-looking-at-food-label.avif";
-import track1 from "@/img/track1.webp"
-import translate1 from "@/img/translate1.svg";
+import track1 from "./track1.webp"
+import translate1 from "./translate1.svg";
 
 // U
-import underConstruction1 from "@/img/icon/underconstruction1.png";
+import underConstruction1 from "./icon/underconstruction1.png";
 import update1 from "./update1.avif";
-import upgrade1 from "@/img/upgrade1.jpg";
+import upgrade1 from "./upgrade1.jpg";
 import usaFlagIcon from "./icon/flag/usa.png";
 import ukFlagIcon from "./icon/flag/uk.png";
 import ukUSflag from "./site/uk-usa-flag.png"
-import howYouDoing from "@/img/site/how-you-doing.gif"
+import howYouDoing from "./site/how-you-doing.gif"
 
 // V
 
 // W
-import warningSign from "@/img/icon/warning-sign.png";
+import warningSign from "./icon/warning-sign.png";
 import whatsappIcon from "./icon/whatsapp.png"
 
 // X
-import xmas1 from "@/img/bitmoji/xmas1.png";
+import xmas1 from "./bitmoji/xmas1.png";
 
 // Y
 
@@ -243,6 +248,7 @@ export {
 
   // B
   brFlagIcon,
+  btnIcon,
 
   // C
   cat1,
@@ -263,6 +269,7 @@ export {
 
   // D
   debris1,
+  dictionaryIcon,
   disappoint1,
   disrupt1,
   diversity1,
@@ -314,6 +321,7 @@ export {
   noInternetConnection2,
   noInternetConnection3,
   noInternetConnection4,
+  notesIcon,
   noWifi,
 
   // O
@@ -332,6 +340,8 @@ export {
   // Q
 
   // R
+  radioCorrectIcon,
+  radioIncorrectIcon,
   remoteHouse1,
 
   // S

@@ -1,4 +1,4 @@
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Card } from "@/components/Cards/Card";
 import Image from "next/image";

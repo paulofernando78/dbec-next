@@ -1,5 +1,5 @@
 import { DescriptionCard } from "@/components/Cards/DescriptionCard";
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 
 const descriptions = [
   {

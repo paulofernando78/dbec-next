@@ -1,5 +1,5 @@
 import { AudioPlayer } from "@/components/Audioplayer";
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 
 export default function History() {
   return (

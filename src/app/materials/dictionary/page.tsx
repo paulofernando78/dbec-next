@@ -3,8 +3,8 @@
 import { useState } from "react";
 
 // Components
-import { Whiteboard } from "@/components/Whiteboard";
-import { Button } from "@/components/Button";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
+import { Button } from "@/components/Atoms/Button";
 import { WordCard } from "@/components/WordCard/WordCard";
 import { DescriptionCard } from "@/components/Cards/DescriptionCard";
 

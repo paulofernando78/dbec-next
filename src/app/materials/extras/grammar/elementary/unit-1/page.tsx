@@ -1,8 +1,8 @@
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import { RedBoardCardA } from "@/components/Cards/BoardCard/RedBoardCardA";
 import { RedBoardCardB } from "@/components/Cards/BoardCard/RedBoardCardB";
-import { Negative } from "@/components/Ribbons/Negative";
-import { Affirmative } from "@/components/Ribbons/Affirmative";
+import { Negative } from "@/components/Molecules/Ribbons/Negative";
+import { Affirmative } from "@/components/Molecules/Ribbons/Affirmative";
 import { RedBoardCardC } from "@/components/Cards/BoardCard/RedBoardCardC";
 import { RedBoardCardD } from "@/components/Cards/BoardCard/RedBoardCardD";
 import { RedBoardCardE } from "@/components/Cards/BoardCard/RedBoardCardE";

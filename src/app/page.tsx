@@ -1,4 +1,4 @@
-import { IconLink } from "@/components/Icon/IconLink/Idex";
+import { IconLink } from "@/components/Molecules/Icon/IconLink/Idex";
 import { Card } from "@/components";
 import styles from "./styles.module.css";
 
@@ -16,7 +16,7 @@ import {
   emailIcon,
   whatsappIcon,
 } from "@/img/index";
-import { Login } from "@/components/Inputs/Login";
+import { Login } from "@/components/Molecules/Inputs/Login";
 import Link from "next/link";
 
 export default function Home() {
@@ -92,11 +92,7 @@ export default function Home() {
           </div>
           <div>
             <IconLink imgSrc={contentIcon} link="/" prompt="Amostra conteúdo" />
-            <IconLink
-              imgSrc={infoIcon}
-              link="/about"
-              prompt="Sobre"
-            />
+            <IconLink imgSrc={infoIcon} link="/about" prompt="Sobre" />
             <IconLink imgSrc={moneyIcon} link="/" prompt="Preço" />
           </div>
           <div>

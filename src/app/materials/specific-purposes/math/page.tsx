@@ -1,5 +1,5 @@
 import React from "react";
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import Link from "next/link";
 import { BoardCard } from "@/components/Cards/BoardCard";
 

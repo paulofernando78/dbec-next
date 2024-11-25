@@ -1,5 +1,5 @@
-import { VideoPlayer } from "@/components/VideoPlayer";
-import { Whiteboard } from "@/components/Whiteboard";
+import { VideoPlayer } from "@/components/Atoms/VideoPlayer";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import React from "react";
 
 export default function Minecraft() {

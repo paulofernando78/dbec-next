@@ -1,6 +1,6 @@
 "use client";
 
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
@@ -42,7 +42,7 @@ import { LettersUI } from "@/components/Extras/Pronunciation/Letters/LettersUI";
 import { LettersOOvsU } from "@/components/Extras/Pronunciation/Letters/LettersOOvsU";
 import { LetterY } from "@/components/Extras/Pronunciation/Letters/LetterY";
 
-import { ScrollToTop } from "@/components/ScrollToTop";
+import { ScrollToTop } from "@/components/Atoms/ScrollToTop";
 import { LettersUS } from "@/components/Extras/Pronunciation/Letters/LettersUS";
 
 const links = [

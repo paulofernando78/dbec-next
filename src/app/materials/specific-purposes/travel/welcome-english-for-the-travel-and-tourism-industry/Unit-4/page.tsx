@@ -1,6 +1,6 @@
 import { AudioPlayer } from "@/components/Audioplayer";
-import { Radio } from "@/components/ExerciseTemplates/Radio/Radio";
-import { Whiteboard } from "@/components/Whiteboard";
+import { Radio } from "@/components/Molecules/ExerciseTemplates/Radio";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 
 const radio = [
   {

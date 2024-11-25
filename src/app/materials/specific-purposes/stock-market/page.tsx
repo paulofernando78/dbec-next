@@ -1,4 +1,4 @@
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import Link from "next/link";
 
 export default function StockMarket() {

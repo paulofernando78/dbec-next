@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Whiteboard } from "@/components/Whiteboard";
-import { Ribbon } from "@/components/Ribbons/Ribbon";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
+import { Ribbon } from "@/components/Molecules/Ribbon";
 import {
   AudioPlayer,
   DictionaryCard,
@@ -38,9 +38,5 @@ export default function LessonData() {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading lesson data.</p>;
 
-  return (
-    <>
-      
-    </>
-  );
+  return <></>;
 }

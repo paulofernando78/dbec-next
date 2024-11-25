@@ -1,10 +1,10 @@
 "use client";
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import TheAlphabet from "@/components/Lessons/Topics/TheAlphabet/page";
 import { NoteCard } from "@/components/Cards/NoteCard";
 import Titles from "@/components/Lessons/Topics/Tiltes";
 import MyYourHisHer from "@/components/Lessons/Topics/MyYourHisHer";
-import { Exercises } from "@/components/Ribbons/Exercises";
+import { Exercises } from "@/components/Molecules/Ribbons/Exercises";
 
 export default function BeginnerLesson2FlippedClassroom() {
   return (

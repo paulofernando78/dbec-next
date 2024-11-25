@@ -1,6 +1,6 @@
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import styles from "./styles.module.css";
-import { TextArea } from "@/components/TextArea";
+import { TextArea } from "@/components/Molecules/TextArea";
 
 interface Level {
   level: string;

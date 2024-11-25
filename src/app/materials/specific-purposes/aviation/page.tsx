@@ -1,6 +1,6 @@
 import { AudioPlayer } from "@/components/Audioplayer";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import Link from "next/link";
 
 export default function Aviation() {

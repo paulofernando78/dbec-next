@@ -3,7 +3,7 @@ import { RegularVerbs } from "@/components/Lessons/RegularVerbs";
 import { CardinalOrdinalNumbers } from "@/components/Lessons/Topics/CardinalOrdinalNumbers";
 import { Pronouns } from "@/components/Lessons/Topics/Pronouns";
 import { VerbBe } from "@/components/Lessons/Topics/VerbBe/VerbBe";
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 
 export default function AllInOne() {
   return (

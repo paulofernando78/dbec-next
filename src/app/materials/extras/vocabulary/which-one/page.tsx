@@ -1,5 +1,5 @@
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import React from "react";
 
 export default function WhichOne() {

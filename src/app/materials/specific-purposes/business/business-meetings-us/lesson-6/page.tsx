@@ -1,5 +1,5 @@
 import { Whiteboard } from "@/components";
-import { UnderConstruction } from "@/components/UnderConstruction";
+import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 
 export default function Lesson1() {
   return (

@@ -1,6 +1,6 @@
 {
   "whiteboard": {
-    "title": "...",
+    "title": "Lesson Data",
     "subtitle": "...",
     "description": ["..."]
   },
@@ -14,13 +14,13 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "word": "word",
+              "vocabulary": "vocabulary",
               "audioSrc": "/assets/audio/welcome.mp3",
               "text": "Text 1"
             },
             {
               "keyword": "...",
-              "word": "word",
+              "vocabulary": "vocabulary",
               "audioSrc": "/assets/audio/welcome.mp3",
               "text": "Text 2"
             }
@@ -30,20 +30,20 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "word": "word",
+              "vocabulary": "vocabulary",
               "audioSrc": "/assets/audio/welcome.mp3",
               "text": "Text 3"
             },
             {
               "keyword": "...",
-              "word": "word",
+              "vocabulary": "vocabulary",
               "audioSrc": "/assets/audio/welcome.mp3",
               "text": "Text 4"
             }
           ]
         }
       ],
-      "swiperImages": [
+      "swiperFractionImages": [
         {
           "imgSrcLink": "https://gdb.voanews.com/8a8f513c-5f28-492a-9409-d321f4dd6c5e_cx0_cy3_cw0_w650_r1_s.jpg",
           "imgAltLink": "Example image description"
@@ -54,7 +54,62 @@
         }
       ],
       "audioSrc": "/assets/audio/welcome.mp3",
-      "videoSrc": "https://www.youtube.com/embed/oCY5YEEjlwE"
+      "videoSrc": "https://www.youtube.com/embed/oCY5YEEjlwE",
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "1. Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ],
+      "dropdown": [
+        {
+          "title": "Title",
+          "subtitle": "subtitle",
+          "beforeOptions": "1. I",
+          "options": [
+            { "value": "am", "label": "am", "correctAnswer": true },
+            { "value": "is", "label": "is", "correctAnswer": false },
+            { "value": "are", "label": "are", "correctAnswer": false }
+          ],
+          "width": "100",
+          "afterOptions": "a teacher.",
+          "lineBreak": false
+        },
+        {
+          "beforeOptions": "1. I",
+          "options": [
+            { "value": "am", "label": "am", "correctAnswer": true },
+            { "value": "is", "label": "is", "correctAnswer": false },
+            { "value": "are", "label": "are", "correctAnswer": false }
+          ],
+          "width": "100",
+          "afterOptions": "a teacher."
+        }
+      ],
+      "fillInTheBlanks": [
+        {
+          "title": "1. Fill in the blank with the correct word.",
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": false
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "..."
+        }
+      ]
     }
   ]
 }

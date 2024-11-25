@@ -1,6 +1,6 @@
 import { BoardCard } from "@/components";
 import { ContentCard } from "@/components/Cards/ContentCard";
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 
 const whiteboard = {
   title: "Courses",

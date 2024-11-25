@@ -1,4 +1,4 @@
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import { ContentCard } from "@/components/Cards/ContentCard";
 
 const whiteboard = {

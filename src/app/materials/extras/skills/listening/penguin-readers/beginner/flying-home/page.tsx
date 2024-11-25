@@ -1,5 +1,5 @@
 import { PenguinReaders } from "@/components/Extras/Listening/PenguinReaders";
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 
 const structure = [
   {

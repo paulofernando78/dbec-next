@@ -1,7 +1,10 @@
 "use client";
 import { useEffect, useState } from "react";
 import { ContentCard } from "@/components/Cards/ContentCard";
-import { Whiteboard, MainContent } from "@/types/contentCard";
+import {
+  Whiteboard,
+  MainContent,
+} from "@/components/Cards/ContentCard/ContentCard";
 import { ScrollToTop } from "@/components";
 
 export default function Beginner() {

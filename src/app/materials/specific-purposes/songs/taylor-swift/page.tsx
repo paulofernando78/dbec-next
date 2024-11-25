@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 
 export default function TaylorSwift() {
   return (

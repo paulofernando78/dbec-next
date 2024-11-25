@@ -6,6 +6,7 @@ const nextConfig = {
       "gdb.voanews.com",
       "payloadspace.com",
       "sm.mashable.com",
+      "share.icloud.com"
     ],
   },
 };

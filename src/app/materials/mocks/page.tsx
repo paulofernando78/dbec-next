@@ -13,7 +13,7 @@ import {
 
 // Images
 import { cat1, cat2, cat3 } from "@/img/index";
-import { Dropdown } from "@/components/ExerciseTemplates/Dropdown";
+import { Dropdown } from "@/components/Molecules/ExerciseTemplates/Dropdown";
 
 const radio = [
   {
@@ -144,28 +144,8 @@ export default function Mocks() {
           {/* Create lesson*/}
           <p className="bold">Create lessons:</p>
           <div>
-            <Link href="\materials\mocks\generic-lesson\">
-              <p>Generic lesson</p>
-            </Link>
-          </div>
-          {/* Lessons */}
-          <div>
-            <p className="bold">Lessons</p>
-            <Link href="/materials/mocks/vocabulary-grammar/">
-              <p>Vocabulary Grammar</p>
-            </Link>
-            <Link href="/materials/mocks/listening/">
-              <p>Listening</p>
-            </Link>
-          </div>
-          <div>
-            {/* Extras */}
-            <p className="bold">Extras</p>
-            <Link href="/materials/mocks/grammar-in-use/elementary">
-              <p>Grammar in Use • Elementary</p>
-            </Link>
-            <Link href="/materials/mocks/grammar-in-use/intermediate">
-              <p>Grammar in Use • Intermediate</p>
+            <Link href="\materials\mocks\lesson-data\">
+              <p>Lesson Data</p>
             </Link>
           </div>
 

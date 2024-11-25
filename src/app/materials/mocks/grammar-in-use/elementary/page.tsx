@@ -1,4 +1,4 @@
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import { RedBoardCardA } from "@/components/Cards/BoardCard/RedBoardCardA";
 import { RedBoardCardB } from "@/components/Cards/BoardCard/RedBoardCardB";
 import { RedBoardCardC } from "@/components/Cards/BoardCard/RedBoardCardC";

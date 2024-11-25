@@ -1,10 +1,15 @@
-import { WordCardProps, IDictionaryDefinitions } from "../../../interfaces";
-import { AudioPlayer } from "../Audioplayer";
-import { Card } from "../Cards/Card";
+// Components
+import { Card } from "..";
+import { AudioPlayer } from "../Atoms/AudioPlayer";
 
+// CSS
 import styles from "./styles.module.css";
+import { IDictionaryDefinitions, WordCardProps } from "./types";
 
-const AudioSrcBase = "/assets/audio/dictionary"
+// Types
+
+
+const AudioSrcBase = "/assets/audio/dictionary";
 
 export function WordCard({ dictionary }: WordCardProps) {
   return (
@@ -19,7 +24,9 @@ export function WordCard({ dictionary }: WordCardProps) {
               <>
                 {definition.audio && (
                   <div className={styles["audio-player-margin-top"]}>
-                    <AudioPlayer audioSrc={`${AudioSrcBase}/${definition.audio}`} />
+                    <AudioPlayer
+                      audioSrc={`${AudioSrcBase}/${definition.audio}`}
+                    />
                   </div>
                 )}
                 {definition.word && (
@@ -113,9 +120,7 @@ export function WordCard({ dictionary }: WordCardProps) {
                   )}
                   {definition.note && (
                     <p>
-                      <span className="times-new-roman-dictionary">
-                        note:{" "}
-                      </span>
+                      <span className="times-new-roman-dictionary">note: </span>
                       <span>{definition.note}</span>
                     </p>
                   )}

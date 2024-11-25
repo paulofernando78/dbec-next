@@ -1,5 +1,5 @@
 import { DictionaryCard } from "@/components";
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 
 export default function Science() {
   return (

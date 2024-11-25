@@ -1,5 +1,5 @@
-import { UnderConstruction } from "@/components/UnderConstruction";
-import { Whiteboard } from "@/components/Whiteboard";
+import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 
 export default function Unit11() {
   return (
@@ -10,7 +10,7 @@ export default function Unit11() {
         descriptions={["Unit 11 • Using the phone"]}
       />
       <div className="line-break">
-      <UnderConstruction />
+        <UnderConstruction />
       </div>
     </>
   );

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { GenericLessonTemplate } from "@/components/Templates/GenericLesson/Index";
+import { GenericLessonTemplate } from "@/components/Templates/LessonData/Index";
 import { LessonData } from "@/types/materials/GenericLesson";
 
 export default function SpecificPurposesBusinessSbellaLesson9() {

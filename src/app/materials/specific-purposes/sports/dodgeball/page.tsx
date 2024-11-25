@@ -1,5 +1,5 @@
 import { BoardCard } from "@/components/Cards/BoardCard";
-import { Whiteboard } from "@/components/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import React from "react";
 
 export default function page() {

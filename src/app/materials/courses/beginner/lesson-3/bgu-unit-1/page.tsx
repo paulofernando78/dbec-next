@@ -1,5 +1,5 @@
-import { Whiteboard } from "@/components/Whiteboard";
-import { Dropdown } from "@/components/ExerciseTemplates/Dropdown";
+import { Whiteboard } from "@/components/Molecules/Whiteboard";
+import { Dropdown } from "@/components/Molecules/ExerciseTemplates/Dropdown";
 
 const dropdown = [
   {

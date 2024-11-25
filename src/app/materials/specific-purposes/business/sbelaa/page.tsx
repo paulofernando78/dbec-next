@@ -2,7 +2,10 @@
 
 import { useEffect, useState } from "react";
 import { ContentCard } from "@/components/Cards/ContentCard";
-import { Whiteboard, MainContent } from "@/types/contentCard";
+import {
+  Whiteboard,
+  MainContent,
+} from "@/components/Cards/ContentCard/ContentCard";
 
 export default function SpeakBusinessEnglishLikeAnAmerican() {
   const [whiteboard, setWhiteboard] = useState<Whiteboard | null>(null);
