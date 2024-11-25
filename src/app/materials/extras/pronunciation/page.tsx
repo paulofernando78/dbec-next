@@ -1,7 +1,6 @@
 "use client";
 
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
-import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 import TheAlphabet from "@/components/Lessons/Topics/TheAlphabet/page";
@@ -44,6 +43,7 @@ import { LetterY } from "@/components/Extras/Pronunciation/Letters/LetterY";
 
 import { ScrollToTop } from "@/components/Atoms/ScrollToTop";
 import { LettersUS } from "@/components/Extras/Pronunciation/Letters/LettersUS";
+import { Card } from "@/components";
 
 const links = [
   {

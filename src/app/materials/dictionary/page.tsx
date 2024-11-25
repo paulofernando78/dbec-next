@@ -6,16 +6,16 @@ import { useState } from "react";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import { Button } from "@/components/Atoms/Button";
 import { WordCard } from "@/components/WordCard/WordCard";
-import { DescriptionCard } from "@/components/Cards/DescriptionCard";
 
 // Utils
 import { searchWords } from "@/utils/searchWords";
 
 // Interface
-import { IDictionary } from "../../../../interfaces";
 
 // CSS
 import styles from "./styles.module.css";
+import { IDictionary } from "@/components/WordCard/types";
+import { DescriptionCard } from "@/components/Molecules/Cards/DescriptionCard";
 
 const descriptions = [
   {

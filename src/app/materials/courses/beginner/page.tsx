@@ -1,11 +1,9 @@
 "use client";
 import { useEffect, useState } from "react";
-import { ContentCard } from "@/components/Cards/ContentCard";
-import {
-  Whiteboard,
-  MainContent,
-} from "@/components/Cards/ContentCard/ContentCard";
+
 import { ScrollToTop } from "@/components";
+import { ContentCard } from "@/components/Molecules/Cards/ContentCard";
+import { MainContent, Whiteboard } from "@/components/Molecules/Cards/ContentCard/type";
 
 export default function Beginner() {
   const [whiteboard, setWhiteboard] = useState<Whiteboard | null>(null);
