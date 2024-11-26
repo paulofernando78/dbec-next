@@ -4,7 +4,7 @@
     "keyword": "aim",
     "definitions": [
       {
-        "audio": "/a/aim-d.mp3",
+        "audio": "/dictionary/a/aim-d.mp3",
         "word": "aim",
         "phonetics": "/eɪm/",
         "partOfSpeech": "regular verb • present",
@@ -25,7 +25,7 @@
     "keyword": "an",
     "definitions": [
       {
-        "audio": "/a/an.mp3",
+        "audio": "/dictionary/a/an.mp3",
         "word": "an",
         "phonetics": "/an/",
         "partOfSpeech": "article",
@@ -56,7 +56,7 @@
     "keyword": "all-you-can-eat",
     "definitions": [
       {
-        "audio": "/a/all-you-can-eat-d.mp3",
+        "audio": "/dictionary/a/all-you-can-eat-d.mp3",
         "word": "all-you-can-eat",
         "phonetics": "/ɑːl.jə.kənˈiːt/",
         "partOfSpeech": "adjective",
@@ -77,7 +77,7 @@
     "keyword": "annoy",
     "definitions": [
       {
-        "audio": "/a/annoy-present.mp3",
+        "audio": "/dictionary/a/annoy-present.mp3",
         "word": "annoy",
         "phonetics": "/əˈnɔɪ/",
         "partOfSpeech": "regular verb",
@@ -92,7 +92,7 @@
         "antonyms": "please, gratify"
       },
       {
-        "audio": "/a/annoyed-past.mp3",
+        "audio": "/dictionary/a/annoyed-past.mp3",
         "word": "annoyed",
         "phonetics": "/əˈnɔɪd/",
         "partOfSpeech": "past of annoy",
@@ -104,7 +104,7 @@
         ]
       },
       {
-        "audio": "/a/annoyed-past-participle.mp3",
+        "audio": "/dictionary/a/annoyed-past-participle.mp3",
         "word": "annoyed",
         "phonetics": "/əˈnɔɪd/",
         "partOfSpeech": "past participle of annoy",
@@ -120,7 +120,7 @@
         ]
       },
       {
-        "audio": "/a/annoying-present-participle.mp3",
+        "audio": "/dictionary/a/annoying-present-participle.mp3",
         "word": "annoying",
         "phonetics": "/əˈnɔɪ.ɪŋ/",
         "partOfSpeech": "present participle of annoy",
@@ -132,7 +132,7 @@
         ]
       },
       {
-        "audio": "/a/annoys-he-she-it.mp3",
+        "audio": "/dictionary/a/annoys-he-she-it.mp3",
         "word": "annoys",
         "phonetics": "/əˈnɔɪz/",
         "partOfSpeech": "he • she • it: affirmative only",
@@ -144,7 +144,7 @@
         ]
       },
       {
-        "audio": "/a/annoying-adjective.mp3",
+        "audio": "/dictionary/a/annoying-adjective.mp3",
         "word": "annoying",
         "phonetics": "/əˈnɔɪ.ɪŋ/",
         "partOfSpeech": "adjective",
@@ -165,7 +165,7 @@
     "keyword": "anticipate",
     "definitions": [
       {
-	      "audio": "/a/anticipate-verb.mp3",
+	      "audio": "/dictionary/a/anticipate-verb.mp3",
 	      "word": "anticipate",
 		    "phonetics": "/ænˈtɪs.ə.peɪt/",
 		    "partOfSpeech": "verb",
@@ -209,7 +209,7 @@
     "keyword": "anxiety",
     "definitions": [
       {
-        "audio": "/a/anxiety-d.mp3",
+        "audio": "/dictionary/a/anxiety-d.mp3",
         "word": "anxiety",
         "phonetics": "/æŋˈzaɪ.ə.t̬i/",
         "partOfSpeech": "noun",
@@ -227,7 +227,7 @@
     "keyword": "apple",
     "definitions": [
       {
-        "audio": "/a/apple-d.mp3",
+        "audio": "/dictionary/a/apple-d.mp3",
         "word": "apple",
         "phonetics": "/ˈæp.əl/",
         "partOfSpeech": "noun",
@@ -245,7 +245,7 @@
     "keyword": "ask",
     "definitions": [
       {
-        "audio": "/a/ask-present.mp3",
+        "audio": "/dictionary/a/ask-present.mp3",
         "word": "ask",
         "phonetics": "/æsk/",
         "partOfSpeech": "regular verb • present",
@@ -310,7 +310,7 @@
        "antonyms": "avoid, refrain (from)"
        },
       {
-        "audio": "/a/ask-past.mp3",
+        "audio": "/dictionary/a/asked-past.mp3",
         "word": "asked",
         "phonetics": "/æskt/",
         "partOfSpeech": "past of ask",
@@ -326,7 +326,7 @@
         ]
       },
       {
-        "audio": "/a/ask-past-participle.mp3",
+        "audio": "/dictionary/a/asked-past-participle.mp3",
         "word": "asked",
         "phonetics": "/æskt/",
         "partOfSpeech": "past participle of ask",
@@ -342,7 +342,7 @@
         ]
       },
       {
-        "audio": "/a/ask-present-participle.mp3",
+        "audio": "/dictionary/a/asking-present-participle.mp3",
         "word": "asking",
         "phonetics": "/æsk.ɪŋ/",
         "partOfSpeech": "present participle of ask",
@@ -362,7 +362,7 @@
         ]
       },
       {
-        "audio": "/a/ask-he-she-it.mp3",
+        "audio": "/dictionary/a/asks-he-she-it.mp3",
         "word": "asks",
         "phonetics": "/æsks/",
         "partOfSpeech": "he, she, it of ask: affirmative only",
@@ -374,8 +374,8 @@
         ]
       },
       {
-	      "audio": "/a/ask-for-it-idiom.mp3",
-	      "word": "ask for it/trouble",
+	      "audio": "/dictionary/a/ask-for-it-trouble-idiom.mp3",
+	      "word": "ask for it or trouble",
 		    "partOfSpeech": "idiom",
         "enDefinition": "to be behaving stupidly in a way that is likely to cause problems for you",
         "ptDefinition": "procurar confusão",

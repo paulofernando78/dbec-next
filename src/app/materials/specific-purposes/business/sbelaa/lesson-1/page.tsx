@@ -6,13 +6,16 @@ import { useEffect, useState } from "react";
 // Components
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 
-export default function LessonData() {
+const lesson1 =
+  "/assets/data/materials/specific-purposes/business/sbelaa/lesson-1.json";
+
+export default function SpeakBusinessEnglishLikeAnAmericanLesson1() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch("/assets/data/materials/specific-purposes/business/sbelaa/lesson-1.json")
+    fetch(lesson1)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch lesson data");

@@ -3,7 +3,7 @@
     "keyword": "record-breaking",
     "definitions": [
       {
-        "audio": "/r/record-breaking-idiom.mp3",
+        "audio": "/dictionary/r/record-breaking-idiom.mp3",
         "word": "record-breaking",
         "partOfSpeech": "idiom",
         "enDefinition": "better than ever before; exceeding all previous results",
@@ -20,7 +20,7 @@
     "keyword": "redundancy",
     "definitions": [
       {
-        "audio": "/r/redundancy-noun.mp3",
+        "audio": "/dictionary/r/redundancy-noun.mp3",
         "word": "redundancy",
         "phonetics": "/rɪˈdʌn.dən.si/",
         "partOfSpeech": "noun",
@@ -45,7 +45,7 @@
     "keyword": "rip off",
     "definitions": [
       {
-        "audio": "/r/rip-off.mp3",
+        "audio": "/dictionary/r/rip-off-idiom.mp3",
         "word": "rip off",
         "partOfSpeech": "idiom",
         "enDefinition": "to copy an ideia; to steal",
@@ -57,22 +57,5 @@
         ]
       }
     ]
-  },
-  {
-    "keyword": "give a run for one's money",
-    "definitions": [
-    {
-    "audio": "/g/give-a-run-for-ones-money-idiom.mp3",
-    "word": "give a run for one's money",
-    "partOfSpeech": "idiom",
-    "enDefinition": "strong competition",
-    "examples": [
-    {
-    "enExample": "When Yahoo decided to go into the online search business, they <b>gave</b> Google <b>a run for their money</b>.",
-    "ptExample": "Quando o Yahoo decidiu investir no mercado de buscas online, eles se tornaram uma forte concorrência para o Google."
-    }
-    ]
-    }
-    ]
-    }
+  }
 ]

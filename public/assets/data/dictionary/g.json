@@ -3,7 +3,7 @@
     "keyword": "game plan",
     "definitions": [
       {
-        "audio": "/g/game-plan-idiom.mp3",
+        "audio": "/dictionary/g/game-plan-idiom.mp3",
         "word": "game plan",
         "partOfSpeech": "idiom",
         "enDefinition": "an action plan; a plan for how a project will proceed",
@@ -20,7 +20,7 @@
     "keyword": "gene",
     "definitions": [
       {
-        "audio": "/g/gene-d.mp3",
+        "audio": "/dictionary/g/gene-d.mp3",
         "word": "gene",
         "phonetics": "",
         "partOfSpeech": "noun",
@@ -33,7 +33,7 @@
     "keyword": "genome",
     "definitions": [
       {
-        "audio": "/g/genome-d.mp3",
+        "audio": "/dictionary/g/genome-d.mp3",
         "word": "genome",
         "phonetics": "/ˈdʒiː.noʊm/",
         "partOfSpeech": "noun",
@@ -46,7 +46,7 @@
     "keyword": "genetic code",
     "definitions": [
       {
-        "audio": "/g/genetic-code.mp3",
+        "audio": "/dictionary/g/genetic-code.mp3",
         "word": "genetic code",
         "phonetics": "/.../",
         "partOfSpeech": "noun",
@@ -59,7 +59,7 @@
     "keyword": "get something off the ground",
     "definitions": [
       {
-        "audio": "/g/get-something-off-the-ground-idiom.mp3",
+        "audio": "/dictionary/g/get-something-off-the-ground-idiom.mp3",
         "word": "get something off the ground",
         "partOfSpeech": "idiom",
         "enDefinition": "to get started on something, often a project",
@@ -76,7 +76,7 @@
     "keyword": "get wind of",
     "definitions": [
       {
-        "audio": "/g/get-wind-of-idiom.mp3",
+        "audio": "/dictionary/g/get-wind-of-idiom.mp3",
         "word": "get wind of",
         "partOfSpeech": "idiom",
         "enDefinition": "to find out about something, often sensitive information",
@@ -90,10 +90,27 @@
     ]
   },
   {
+    "keyword": "give a run for one's money",
+    "definitions": [
+      {
+        "audio": "/g/give-a-run-for-ones-money-idiom.mp3",
+        "word": "give a run for one's money",
+        "partOfSpeech": "idiom",
+        "enDefinition": "strong competition",
+        "examples": [
+          {
+            "enExample": "When Yahoo decided to go into the online search business, they <b>gave</b> Google <b>a run for their money</b>.",
+            "ptExample": "Quando o Yahoo decidiu investir no mercado de buscas online, eles se tornaram uma forte concorrência para o Google."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "good",
     "definitions": [
       {
-        "audio": "/g/good.mp3",
+        "audio": "/dictionary/g/good.mp3",
         "word": "good",
         "phonetics": "/ɡʊd/",
         "partOfSpeech": "adjective",
@@ -140,7 +157,7 @@
     "keyword": "goods",
     "definitions": [
       {
-        "audio": "/g/goods.mp3",
+        "audio": "/dictionary/g/goods.mp3",
         "word": "goods",
         "phonetics": "/ɡʊdz/",
         "partOfSpeech": "noun",
@@ -159,7 +176,7 @@
     "keyword": "the grass is always greener on the other side",
     "definitions": [
       {
-        "audio": "/g/grass-other-side.mp3",
+        "audio": "/dictionary/g/grass-other-side.mp3",
         "word": "the grass is always greener on the other side",
         "partOfSpeech": "proverb",
         "enDefinition": "The circumstances of others seem more desirable than one's own but in reality often are not.",
@@ -177,7 +194,7 @@
     "keyword": "guerrilla marketing",
     "definitions": [
       {
-        "audio": "/g/guerrilla-marketing-idiom.mp3",
+        "audio": "/dictionary/g/guerrilla-marketing-idiom.mp3",
         "word": "guerrilla marketing",
         "partOfSpeech": "idiom",
         "enDefinition": "innovative methods to sell products; non-traditional methods of advertising or promotion that deliver good results with minimal spending",

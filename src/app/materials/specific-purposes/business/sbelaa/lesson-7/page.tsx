@@ -1,23 +1,22 @@
 "use client";
 
+// Hooks
 import { useEffect, useState } from "react";
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
-import { Ribbon } from "@/components/Molecules/Ribbon";
-import {
-  AudioPlayer,
-  DictionaryCard,
-  SwiperFraction,
-  VideoPlayer,
-} from "@/components";
 
-export default function LessonData() {
+// Components
+import { LessonTemplate } from "@/components/Templates/LessonData/Index";
+import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
+
+const lesson7 =
+  "/assets/data/materials/specific-purposes/business/sbelaa/lesson-7.json";
+
+export default function SpeakBusinessEnglishLikeAnAmericanLesson7() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    // Fetch the JSON file
-    fetch("/assets/data/materials/lessonData.json")
+    fetch(lesson7)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch lesson data");
@@ -38,5 +37,14 @@ export default function LessonData() {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading lesson data.</p>;
 
-  return <></>;
+  return (
+    <UnderConstruction
+      title="Specific Purposes"
+      subtitle="Business"
+      descriptions={[
+        "Speak English Like an American",
+        "Lesson 7 • Discussing bad results",
+      ]}
+    />
+  );
 }

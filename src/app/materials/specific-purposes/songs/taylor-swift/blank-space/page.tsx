@@ -1,8 +1,10 @@
 "use client";
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
-import { VideoPlayer } from "@/components/Atoms/VideoPlayer";
-import { Songs } from "@/components/Templates/Specific-Purposes/Songs";
-import { ScrollToTop } from "@/components/Atoms/ScrollToTop";
+
+// Hooks
+import { useEffect, useState } from "react";
+
+// Components
+import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 
 const songs = [
   {
@@ -337,20 +339,35 @@ const songs = [
 ];
 
 export default function TaylorSwiftbBlankSpace() {
+  const [lessonData, setLessonData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
+
+  useEffect(() => {
+    fetch("/assets/data/materials/lessonData.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to fetch lesson data");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        setLessonData(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error(err);
+        setError(true);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error loading lesson data.</p>;
+
   return (
     <>
-      <Whiteboard
-        title="Specific Purposes"
-        subtitle="Songs"
-        descriptions={["Taylor Swift", "Blank Space"]}
-      />
-      <div className="line-break">
-        <div className="video-border">
-          <VideoPlayer videoSrc="https://www.youtube.com/embed/e-ORhEE9VVg?si=lF1iWor9wVSYgPzB" />
-        </div>
-        <Songs songs={songs} />
-      </div>
-      <ScrollToTop />
+      <LessonTemplate lessonData={lessonData} />
     </>
   );
 }

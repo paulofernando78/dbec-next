@@ -3,7 +3,7 @@
     "keyword": "happy",
     "definitions": [
       {
-        "audio": "/h/happy.mp3",
+        "audio": "/dictionary/h/happy.mp3",
         "phonetics": "...",
         "partOfSpeech": "...",
         "enDefinition": "...",
@@ -27,7 +27,8 @@
     "keyword": "hard stop",
     "definitions": [
       {
-        "audio": "/h/hard-stop.mp3",
+        "audio": "/dictionary/h/hard-stop-idiom.mp3",
+        "word": "hard stop",
         "partOfSpeech": "idiom",
         "enDefinition": "It refers to a predetermined, non-negotiable point where an activity or process must come to an immediate halt or conclusion.",
         "examples": [

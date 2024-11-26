@@ -1,10 +1,10 @@
 "use client";
 import Link from "next/link";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
-import { Card } from "@/components/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { Collapsible } from "@/components/Atoms/Collapsibles/Collapsible/Collapsible";
 import { ScrollToTop } from "@/components/Atoms/ScrollToTop";
+import { Card } from "@/components";
+import { Collapsible } from "@/components/Atoms/Collapsibles";
 
 export default function FoodAndDrink() {
   return (

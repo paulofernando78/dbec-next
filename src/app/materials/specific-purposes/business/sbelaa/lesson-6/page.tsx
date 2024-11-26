@@ -5,26 +5,46 @@ import { useEffect, useState } from "react";
 
 // Components
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
+import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 
-// Typescript
-import { LessonData } from "@/components/Templates/LessonData/types";
+const lesson6 =
+  "/assets/data/materials/specific-purposes/business/sbelaa/lesson-6.json";
 
-export default function SpecificPurposesBusinessSbellaLesson6() {
-  const [lessonData, setLessonData] = useState<LessonData | null>(null);
+export default function SpeakBusinessEnglishLikeAnAmericanLesson6() {
+  const [lessonData, setLessonData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch(
-      "/assets/data/materials/specific-purposes/business/sbelaa/lesson-6.json"
-    )
+    fetch(lesson6)
       .then((response) => {
-        if (!response.ok) throw new Error("Error loading JSON");
+        if (!response.ok) {
+          throw new Error("Failed to fetch lesson data");
+        }
         return response.json();
       })
-      .then((data) => setLessonData(data))
-      .catch((error) => console.error(error));
+      .then((data) => {
+        setLessonData(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error(err);
+        setError(true);
+        setLoading(false);
+      });
   }, []);
 
-  if (!lessonData) return <p>Loading...</p>;
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error loading lesson data.</p>;
 
-  return <LessonTemplate data={lessonData} />;
+  return (
+    <UnderConstruction
+      title="Specific Purposes"
+      subtitle="Business"
+      descriptions={[
+        "Speak English Like an American",
+        "Lesson 6 • Discussing good results",
+      ]}
+    />
+  );
 }

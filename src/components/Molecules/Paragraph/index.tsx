@@ -1,12 +1,12 @@
 "use client";
 
+import DOMPurify from "dompurify";
+
 // Components
 import { DictionaryCard } from "@/components";
 
 // Typescript
 import { ParagraphSectionsProps } from "./.types";
-
-const baseAudioSrc = "/assets/audio";
 
 export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
   return (
@@ -15,16 +15,18 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
         <div key={paragraphSectionIndex}>
           {paragraphSection.paragraphs?.map((paragraph, paragraphIndex) => (
             <div key={paragraphIndex} className="display-inline">
-              {paragraph.vocabulary && (
+              {paragraph.dictionary && (
                 <DictionaryCard
                   keyword={paragraph.keyword}
-                  label={paragraph.vocabulary}
-                  audioSrc={`${baseAudioSrc}${paragraph.audioSrc}`}
+                  label={paragraph.dictionary}
+                  audioSrc={paragraph.dictionaryAudioSrc}
                 />
               )}{" "}
               <p
                 className="display-inline"
-                dangerouslySetInnerHTML={{ __html: paragraph.text }}
+                dangerouslySetInnerHTML={{
+                  __html: DOMPurify.sanitize(paragraph.text),
+                }}
               ></p>{" "}
             </div>
           ))}

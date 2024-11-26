@@ -3,7 +3,7 @@
     "keyword": "weird",
     "definitions": [
       {
-        "audio": "/w/weird.mp3",
+        "audio": "/dictionary/w/weird.mp3",
         "word": "weird",
         "partOfSpeech": "adjective",
         "ptDefinition": "esquisito, estranho",
@@ -15,7 +15,7 @@
         ]
       },
       {
-        "audio": "/w/weirdo.mp3",
+        "audio": "/dictionary/w/weirdo.mp3",
         "word": "weirdo",
         "partOfSpeech": "noun",
         "ptDefinition": "pessoa estranha, esquisita",

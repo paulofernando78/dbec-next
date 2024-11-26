@@ -2,23 +2,22 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 
+// Components
+import { WordCard } from "../Templates/WordCard/WordCard";
+
+// CSS
+import styles from "./styles.module.css";
+
 // Images
 import PlayButton from "../../../public/assets/img/icon/play-button.png";
 import Eye from "../../../public/assets/img/icon/eye.png";
 
-// CSS
-import styles from "./styles.module.css";
-import { IDictionary } from "../../../interfaces";
-import { searchWords } from "@/utils/searchWords";
-import { WordCard } from "../WordCard/WordCard";
+// Types
+import { DictionaryCardProps } from "./types";
+import { IDictionary } from "../Templates/WordCard/types";
 
-// Typescript
-interface DictionaryCardProps {
-  audioSrc?: string;
-  keyword?: string;
-  label?: string;
-  phonetics?: string;
-}
+// Utils
+import { searchWords } from "@/utils/searchWords";
 
 const baseAudioSrc = "/assets/audio/";
 

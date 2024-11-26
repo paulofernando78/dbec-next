@@ -5,7 +5,7 @@ import { useState } from "react";
 // Components
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import { Button } from "@/components/Atoms/Button";
-import { WordCard } from "@/components/WordCard/WordCard";
+import { WordCard } from "@/components/Templates/WordCard/WordCard";
 
 // Utils
 import { searchWords } from "@/utils/searchWords";
@@ -14,7 +14,7 @@ import { searchWords } from "@/utils/searchWords";
 
 // CSS
 import styles from "./styles.module.css";
-import { IDictionary } from "@/components/WordCard/types";
+import { IDictionary } from "@/components/Templates/WordCard/types";
 import { DescriptionCard } from "@/components/Molecules/Cards/DescriptionCard";
 
 const descriptions = [

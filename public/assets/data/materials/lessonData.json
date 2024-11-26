@@ -14,14 +14,14 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "vocabulary": "vocabulary",
-              "audioSrc": "/assets/audio/welcome.mp3",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
               "text": "Text 1"
             },
             {
               "keyword": "...",
-              "vocabulary": "vocabulary",
-              "audioSrc": "/assets/audio/welcome.mp3",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "...",
               "text": "Text 2"
             }
           ]
@@ -30,14 +30,14 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "vocabulary": "vocabulary",
-              "audioSrc": "/assets/audio/welcome.mp3",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "...",
               "text": "Text 3"
             },
             {
               "keyword": "...",
-              "vocabulary": "vocabulary",
-              "audioSrc": "/assets/audio/welcome.mp3",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "...",
               "text": "Text 4"
             }
           ]

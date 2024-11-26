@@ -1,9 +1,8 @@
 export interface Paragraph {
     keyword?: string;
-    vocabulary: string;
-    audioSrc: string;
+    dictionary: string;
+    dictionaryAudioSrc: string;
     text: string;
-    textBold: string;
   }
  
   export interface ParagraphSection {

@@ -1,6 +1,5 @@
 // Components
-import { Card } from "..";
-import { AudioPlayer } from "../Atoms/AudioPlayer";
+import { AudioPlayer, Card } from "../..";
 
 // CSS
 import styles from "./styles.module.css";
@@ -8,8 +7,7 @@ import { IDictionaryDefinitions, WordCardProps } from "./types";
 
 // Types
 
-
-const AudioSrcBase = "/assets/audio/dictionary";
+const AudioSrcBase = "/assets/audio/";
 
 export function WordCard({ dictionary }: WordCardProps) {
   return (

@@ -16,16 +16,21 @@ import {
 // Typescript
 import { LessonTemplateProps } from "@/components/Templates/LessonData/types";
 
-const baseAudioSrc = "/assets/audio";
+const baseAudioSrc = "/assets/audio/";
 
 export const LessonTemplate = ({ lessonData }: LessonTemplateProps) => {
+  if (!lessonData) {
+    return null;
+  }
   return (
     <>
-      <Whiteboard
-        title={lessonData.whiteboard.title}
-        subtitle={lessonData.whiteboard.subtitle}
-        descriptions={lessonData.whiteboard.descriptions}
-      />
+      {lessonData.whiteboard && (
+        <Whiteboard
+          title={lessonData.whiteboard.title}
+          subtitle={lessonData.whiteboard.subtitle}
+          descriptions={lessonData.whiteboard.descriptions}
+        />
+      )}
       <div className="line-break">
         {lessonData.lessons.map((lesson, lessonIndex) => (
           <div key={lessonIndex} className="line-break">
@@ -36,6 +41,11 @@ export const LessonTemplate = ({ lessonData }: LessonTemplateProps) => {
                 bgColor={lesson.bgColor || "defaultBgColor"}
                 textColor={lesson.textColor || "defaultTextColor"}
               />
+            )}
+
+            {/* Paragraphs + Word */}
+            {lesson.paragraphSections && (
+              <Paragraph paragraphSections={lesson.paragraphSections} />
             )}
 
             {/* SwiperFraction images */}
@@ -54,11 +64,6 @@ export const LessonTemplate = ({ lessonData }: LessonTemplateProps) => {
             {/* Audio Player */}
             {lesson.audioSrc && (
               <AudioPlayer audioSrc={`${baseAudioSrc}${lesson.audioSrc}`} />
-            )}
-
-            {/* Paragraphs + Word */}
-            {lesson.paragraphSections && (
-              <Paragraph paragraphSections={lesson.paragraphSections} />
             )}
 
             {/* Video Player */}

@@ -1,211 +1,58 @@
-"use client";
-
-// Components
 import { AudioPlayer } from "../../Atoms/AudioPlayer";
 import { DictionaryCard } from "../../DictionaryCard/DictionaryCard";
 
 // CSS
-import style from "./styles.module.css";
+import styles from "./styles.module.css";
 
-// Images
-import Image from "next/image";
-// Dynamically import all images in the gif directory
-const images = require.context(
-  "../../../public/assets/img/gif",
-  false,
-  /\.(gif)$/
-);
+// Images (you can continue to use dynamic imports if needed)
+const gifPaths = [
+  "/assets/img/gif/good.gif",
+  "/assets/img/gif/happy.gif",
+  "/assets/img/gif/sad.gif",
+  "/assets/img/gif/angry.gif",
+  "/assets/img/gif/annoyed.gif",
+  "/assets/img/gif/calm.gif",
+  "/assets/img/gif/crazy.gif",
+  "/assets/img/gif/tired.gif",
+  "/assets/img/gif/anxious.gif",
+  "/assets/img/gif/bored.gif",
+  "/assets/img/gif/silly.gif",
+  "/assets/img/gif/scared.gif",
+  "/assets/img/gif/thoughtful.gif",
+  "/assets/img/gif/frustrated.gif",
+  "/assets/img/gif/disappointed.gif",
+  "/assets/img/gif/embarrassed.gif",
+  "/assets/img/gif/sleepy.gif",
+  "/assets/img/gif/strong.gif",
+  "/assets/img/gif/peaceful.gif",
+  "/assets/img/gif/thankful.gif",
+  "/assets/img/gif/sick.gif",
+  "/assets/img/gif/i-dont-know.gif",
+];
 
 const emojis = [
-  {
-    altLabel: "ok",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/g/good.mp3",
-      label: "good",
-    },
-  },
-  {
-    altLabel: "happy",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/h/happy.mp3",
-      label: "happy",
-    },
-  },
-  {
-    altLabel: "sad",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/s/sad.mp3",
-      label: "sad",
-    },
-  },
-  {
-    altLabel: "angry",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/a/angry.mp3",
-      label: "angry",
-    },
-  },
-  {
-    altLabel: "annoyed",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/a/annoyed.mp3",
-      label: "annoyed",
-    },
-  },
-  {
-    altLabel: "calm",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/c/calm.mp3",
-      label: "calm",
-    },
-  },
-  // {
-  //   altLabel: "...",
-  //   label: "in love",
-  // },
-  {
-    altLabel: "crazy",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/c/crazy.mp3",
-      label: "crazy",
-    },
-  },
-  {
-    altLabel: "tired",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/t/tired.mp3",
-      label: "tired",
-    },
-  },
-  // {
-  //   altLabel: "...",
-  //   label: "worried",
-  // },
-  {
-    altLabel: "anxious",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/a/anxious.mp3",
-      label: "anxious",
-    },
-  },
-  {
-    altLabel: "bored",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/b/bored.mp3",
-      label: "bored",
-    },
-  },
-  {
-    altLabel: "silly",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/s/silly.mp3",
-      label: "silly",
-    },
-  },
-  {
-    altLabel: "scared",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/s/scared.mp3",
-      label: "scared",
-    },
-  },
-  {
-    altLabel: "thoughtful",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/t/thoughtful.mp3",
-      label: "thoughtful",
-    },
-  },
-  {
-    altLabel: "frustrated",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/f/frustrated.mp3",
-      label: "frustrated",
-    },
-  },
-  {
-    altLabel: "disappointed",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/d/disappointed.mp3",
-      label: "disappointed",
-    },
-  },
-  {
-    altLabel: "embarrassed",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/e/embarrassed.mp3",
-      label: "embarrassed",
-    },
-  },
-  {
-    altLabel: "sleepy",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/s/sleepy.mp3",
-      label: "sleepy",
-    },
-  },
-  // {
-
-  //   altLabel: "...",
-  //   label: "lazy",
-  // },
-  {
-    altLabel: "strong",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/s/strong.mp3",
-      label: "strong",
-    },
-  },
-  {
-    altLabel: "peaceful",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/p/peaceful.mp3",
-      label: "peaceful",
-    },
-  },
-  {
-    altLabel: "thankful",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/t/thankful.mp3",
-      label: "thankful",
-    },
-  },
-  {
-    altLabel: "sick",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/s/sick.mp3",
-      label: "sick",
-    },
-  },
-  {
-    altLabel: "I don't know",
-    component: (props: any) => <DictionaryCard {...props} />,
-    props: {
-      audioSrc: "/dictionary/i/I-dont-know.mp3",
-      label: "I don't know",
-    },
-  },
+  { altLabel: "ok", label: "good", audioSrc: "/dictionary/g/good.mp3" },
+  { altLabel: "happy", label: "happy", audioSrc: "/dictionary/h/happy.mp3" },
+  { altLabel: "sad", label: "sad", audioSrc: "/dictionary/s/sad.mp3" },
+  { altLabel: "angry", label: "angry", audioSrc: "/dictionary/a/angry.mp3" },
+  { altLabel: "annoyed", label: "annoyed", audioSrc: "/dictionary/a/annoyed.mp3" },
+  { altLabel: "calm", label: "calm", audioSrc: "/dictionary/c/calm.mp3" },
+  { altLabel: "crazy", label: "crazy", audioSrc: "/dictionary/c/crazy.mp3" },
+  { altLabel: "tired", label: "tired", audioSrc: "/dictionary/t/tired.mp3" },
+  { altLabel: "anxious", label: "anxious", audioSrc: "/dictionary/a/anxious.mp3" },
+  { altLabel: "bored", label: "bored", audioSrc: "/dictionary/b/bored.mp3" },
+  { altLabel: "silly", label: "silly", audioSrc: "/dictionary/s/silly.mp3" },
+  { altLabel: "scared", label: "scared", audioSrc: "/dictionary/s/scared.mp3" },
+  { altLabel: "thoughtful", label: "thoughtful", audioSrc: "/dictionary/t/thoughtful.mp3" },
+  { altLabel: "frustrated", label: "frustrated", audioSrc: "/dictionary/f/frustrated.mp3" },
+  { altLabel: "disappointed", label: "disappointed", audioSrc: "/dictionary/d/disappointed.mp3" },
+  { altLabel: "embarrassed", label: "embarrassed", audioSrc: "/dictionary/e/embarrassed.mp3" },
+  { altLabel: "sleepy", label: "sleepy", audioSrc: "/dictionary/s/sleepy.mp3" },
+  { altLabel: "strong", label: "strong", audioSrc: "/dictionary/s/strong.mp3" },
+  { altLabel: "peaceful", label: "peaceful", audioSrc: "/dictionary/p/peaceful.mp3" },
+  { altLabel: "thankful", label: "thankful", audioSrc: "/dictionary/t/thankful.mp3" },
+  { altLabel: "sick", label: "sick", audioSrc: "/dictionary/s/sick.mp3" },
+  { altLabel: "I don't know", label: "idontknow", audioSrc: "/dictionary/i/I-dont-know.mp3" },
 ];
 
 export default function HowYouFeeling() {
@@ -213,25 +60,20 @@ export default function HowYouFeeling() {
     <>
       <div className="line-break">
         <AudioPlayer audioSrc="/assets/audio/how-you-feeling.mp3" />
-        <div className={style["feeling"]}>
+        <div className={styles["feeling"]}>
           <h3>A: Hey, how are you feeling today?</h3>
           <h3>B: I'm feeling pretty good. Thanks for asking.</h3>
         </div>
-        <div className={style["emoji-container"]}>
-          {emojis.map((emoji) => (
-            <div
-              key={emoji.altLabel}
-              className={style["emoji-inner-container"]}
-            >
-              <Image
-                src={images(`./${emoji.props.label}.gif`)} // Use dynamic image import
+        <div className={styles["emoji-container"]}>
+          {emojis.map((emoji, index) => (
+            <div key={emoji.altLabel} className={styles["emoji-inner-container"]}>
+              <img
+                src={gifPaths[index]} // Use dynamic path here
                 alt={emoji.altLabel}
-                className={style["emoji-size"]}
+                className={styles["emoji-size"]} // Use 'styles' instead of 'style'
               />
               <p>
-                {emoji.component?.(emoji.props) && (
-                  <DictionaryCard {...emoji.props} />
-                )}
+                <DictionaryCard {...{ audioSrc: emoji.audioSrc, label: emoji.label }} />
               </p>
             </div>
           ))}

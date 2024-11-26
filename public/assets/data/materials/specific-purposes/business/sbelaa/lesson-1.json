@@ -6,7 +6,9 @@
   },
   "lessons": [
     {
-      "audioSrc": "/specific-purposes/business/sbelaa/lesson-1.mp3",
+      "audioSrc": "/specific-purposes/business/sbelaa/lesson-1.mp3"
+    },
+    {
       "paragraphSections": [
         {
           "paragraphs": [
@@ -29,8 +31,8 @@
             },
             {
               "keyword": "come up with a winner",
-              "vocabulary": "come up with a winner",
-              "audioSrc": "/dictionary/c/come-up-with-a-winner.mp3"
+              "dictionary": "come up with a winner",
+              "dictionaryAudioSrc": "/dictionary/c/come-up-with-a-winner.mp3"
             },
             {
               "text": "."
@@ -44,8 +46,8 @@
             },
             {
               "keyword": "blockbuster",
-              "vocabulary": "blockbuster",
-              "audioSrc": "/dictionary/b/blockbuster.mp3"
+              "dictionary": "blockbuster",
+              "dictionaryAudioSrc": "/dictionary/b/blockbuster.mp3"
             },
             {
               "text": "!"
@@ -58,9 +60,9 @@
               "text": "<b>Greg:</b> We should"
             },
             {
-              "keyword": "fast track",
-              "vocabulary": "fast track",
-              "audioSrc": "/dictionary/f/fast-track-a-project.mp3"
+              "keyword": "fast track a project",
+              "dictionary": "fast track this project",
+              "dictionaryAudioSrc": "/dictionary/f/fast-track-this-project.mp3"
             },
             {
               "text": ". Let's try to launch it in time for the holiday season."
@@ -74,8 +76,8 @@
             },
             {
               "keyword": "stocking stuffer",
-              "vocabulary": "stocking stuffer",
-              "audioSrc": "/dictionary/s/stocking-stuffer.mp3"
+              "dictionary": "stocking stuffer",
+              "dictionaryAudioSrc": "/dictionary/s/stocking-stuffer.mp3"
             },
             {
               "text": "!"
@@ -89,8 +91,8 @@
             },
             {
               "keyword": "big win",
-              "vocabulary": "big win",
-              "audioSrc": "/dictionary/b/big-win.mp3"
+              "dictionary": "big win",
+              "dictionaryAudioSrc": "/dictionary/b/big-win.mp3"
             },
             {
               "text": "for the holidays."
@@ -104,8 +106,8 @@
             },
             {
               "keyword": "make a killing",
-              "vocabulary": "make a killing",
-              "audioSrc": "/dictionary/m/make-a-killing.mp3"
+              "dictionary": "make a killing",
+              "dictionaryAudioSrc": "/dictionary/m/make-a-killing.mp3"
             },
             {
               "text": "."
@@ -119,8 +121,8 @@
             },
             {
               "keyword": "keep something under wraps",
-              "vocabulary": "keep it under wraps.",
-              "audioSrc": "/dictionary/k/keep-it-under-wraps.mp3"
+              "dictionary": "keep it under wraps.",
+              "dictionaryAudioSrc": "/dictionary/k/keep-it-under-wraps.mp3"
             },
             {
               "text": "keep it under wraps."
@@ -134,24 +136,24 @@
             },
             {
               "keyword": "mum's the word",
-              "vocabulary": "mum's the word",
-              "audioSrc": "/dictionary/m/mums-the-word.mp3"
+              "dictionary": "mum's the word",
+              "dictionaryAudioSrc": "/dictionary/m/mums-the-word.mp3"
             },
             {
               "text": ". We don't want any of our competitors to"
             },
             {
               "keyword": "get wind of",
-              "vocabulary": "get wind of",
-              "audioSrc": "/dictionary/g/get-wind-of.mp3"
+              "dictionary": "get wind of",
+              "dictionaryAudioSrc": "/dictionary/g/get-wind-of.mp3"
             },
             {
               "text": "the idea and"
             },
             {
               "keyword": "rip off",
-              "vocabulary": "rip it off",
-              "audioSrc": "/dictionary/r/rip-off-idiom.mp3"
+              "dictionary": "rip it off",
+              "dictionaryAudioSrc": "/dictionary/r/rip-it-off.mp3"
             },
             {
               "text": "."
@@ -165,16 +167,16 @@
             },
             {
               "keyword": "game plan",
-              "vocabulary": "game plan",
-              "audioSrc": "/dictionary/g/game-plan.mp3"
+              "dictionary": "game plan",
+              "dictionaryAudioSrc": "/dictionary/g/game-plan.mp3"
             },
             {
               "text": "for"
             },
             {
               "keyword": "get something off the ground",
-              "vocabulary": "getting this project off the ground",
-              "audioSrc": "/dictionary/g/getting-this-project-off-the-ground.mp3"
+              "dictionary": "getting this project off the ground",
+              "dictionaryAudioSrc": "/dictionary/g/getting-this-project-off-the-ground.mp3"
             },
             {
               "text": "!"

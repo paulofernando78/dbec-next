@@ -1,4 +1,4 @@
-import { IconLink } from "@/components/Molecules/Icon/IconLink/Idex";
+// import { IconLink } from "@/components/Molecules/Icon/IconLink/Index";
 import { Card } from "@/components";
 import styles from "./styles.module.css";
 
@@ -91,18 +91,18 @@ export default function Home() {
             </Card>
           </div>
           <div>
-            <IconLink imgSrc={contentIcon} link="/" prompt="Amostra conteúdo" />
+            {/* <IconLink imgSrc={contentIcon} link="/" prompt="Amostra conteúdo" />
             <IconLink imgSrc={infoIcon} link="/about" prompt="Sobre" />
-            <IconLink imgSrc={moneyIcon} link="/" prompt="Preço" />
+            <IconLink imgSrc={moneyIcon} link="/" prompt="Preço" /> */}
           </div>
           <div>
             <p className="bold">Contato</p>
-            <IconLink
+            {/* <IconLink
               imgSrc={emailIcon}
               link="/price"
               prompt="paulofernando78@gmail.com"
             />
-            <IconLink imgSrc={whatsappIcon} link="/" prompt="..." />
+            <IconLink imgSrc={whatsappIcon} link="/" prompt="..." /> */}
           </div>
         </div>
       </div>

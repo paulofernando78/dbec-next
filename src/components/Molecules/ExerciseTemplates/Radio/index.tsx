@@ -12,6 +12,8 @@ import { Button } from "@/components/Atoms/Button";
 // Typescript
 import { RadioProps } from "./type";
 
+import DOMPurify from "dompurify";
+
 export const Radio = ({ questions }: RadioProps) => {
   // Use an array to store the selected answers for each question
   const [selectedAnswers, setSelectedAnswers] = useState<(number | null)[]>(
@@ -35,7 +37,11 @@ export const Radio = ({ questions }: RadioProps) => {
       {questions.map((question, questionIndex) => (
         <div key={questionIndex} className="margin-bottom">
           <p className="margin-bottom bold">{question.title}</p>
-          <p>{question.question}</p>
+          <p
+            dangerouslySetInnerHTML={{
+              __html: DOMPurify.sanitize(question.question),
+            }}
+          ></p>
           <div>
             {question.options.map((option, optionIndex) => {
               // Determine if the current option is selected for the current question

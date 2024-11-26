@@ -3,7 +3,7 @@
     "keyword": "sad",
     "definitions": [
       {
-        "audio": "/s/sad.mp3",
+        "audio": "/dictionary/s/sad.mp3",
         "word": "sad",
         "phonetics": "",
         "partOfSpeech": "adjective",
@@ -24,7 +24,7 @@
     "keyword": "seem",
     "definitions": [
       {
-        "audio": "/s/seem-present.mp3",
+        "audio": "/dictionary/s/seem-present.mp3",
         "word": "seem",
         "partOfSpeech": "regular verb",
         "phonetics": "/siːm/",
@@ -56,7 +56,7 @@
         "antonyms": "be real"
       },
       {
-        "audio": "/s/seemed-past.mp3",
+        "audio": "/dictionary/s/seemed-past.mp3",
         "word": "seemed",
         "phonetics": "/siːmd/",
         "partOfSpeech": "past of verb seem",
@@ -72,7 +72,7 @@
         ]
       },
       {
-        "audio": "/s/seems-he-she-it.mp3",
+        "audio": "/dictionary/s/seems-he-she-it.mp3",
         "word": "seems",
         "phonetics": "/siːmz/",
         "partOfSpeech": "he/she/it: affirmative only",
@@ -104,7 +104,7 @@
         ]
       },
       {
-        "audio": "/s/seeming-adjective.mp3",
+        "audio": "/dictionary/s/seeming-adjective.mp3",
         "word": "seeming",
         "phonetics": "/ˈsiː.mɪŋ/",
         "partOfSpeech": "adjective",
@@ -118,7 +118,7 @@
         ]
       },
       {
-        "audio": "/s/seemingly-adverb.mp3",
+        "audio": "/dictionary/s/seemingly-adverb.mp3",
         "word": "seemingly",
         "phonetics": "/ˈsiː.mɪŋ.li/",
         "partOfSpeech": "adverb",
@@ -136,7 +136,7 @@
     "keyword": "several",
     "definitions": [
       {
-        "audio": "/s/several-adjective.mp3",
+        "audio": "/dictionary/s/several-adjective.mp3",
         "word": "several",
         "phonetics": " /ˈsev.ɚ.əl/",
         "partOfSpeech": "adjective",
@@ -163,7 +163,7 @@
     "keyword": "share the credit",
     "definitions": [
       {
-        "audio": "/s/share-the-credit-idiom.mp3",
+        "audio": "/dictionary/s/share-the-credit-idiom.mp3",
         "word": "share the credit",
         "partOfSpeech": "idiom",
         "enDefinition": "to acknowledge someone else's contribution; to share with somebody else recognition for a job well done",
@@ -180,7 +180,7 @@
     "keyword": "sign on new customers or members",
     "definitions": [
       {
-        "audio": "/s/sign-on-new-customers-or-members.mp3",
+        "audio": "/dictionary/s/sign-on-new-customers-or-members.mp3",
         "word": "sign on new customers or members",
         "partOfSpeech": "idiom",
         "enDefinition": "to enlist new customers; to get customers to open an account or take a membership",
@@ -197,7 +197,7 @@
     "keyword": "sliperry slope",
     "definitions": [
       {
-        "audio": "/s/slippery-slope-d.mp3",
+        "audio": "/dictionary/s/slippery-slope-d.mp3",
         "word": "slippery slope",
         "phonetics": "...",
         "partOfSpeech": "adverb",
@@ -215,7 +215,7 @@
     "keyword": "stem cell",
     "definitions": [
       {
-        "audio": "/s/stem-cell-noun.mp3",
+        "audio": "/dictionary/s/stem-cell-noun.mp3",
         "word": "stem cell",
         "phonetics": "/ˈstem ˌsel/",
         "partOfSpeech": "noun",
@@ -228,7 +228,7 @@
     "keyword": "stocking stuffer",
     "definitions": [
       {
-        "audio": "/s/stocking-stuffer-idiom.mp3",
+        "audio": "/dictionary/s/stocking-stuffer-idiom.mp3",
         "word": "stocking stuffer",
         "partOfSpeech": "idiom",
         "enDefinition": "a small gift at Christmas time",
@@ -246,7 +246,7 @@
     "keyword": "synthetic",
     "definitions": [
       {
-        "audio": "/s/synthetic-adjective.mp3",
+        "audio": "/dictionary/s/synthetic-adjective.mp3",
         "word": "synthetic",
         "phonetics": "/sɪnˈθet̬.ɪk/",
         "partOfSpeech": "adjective",
