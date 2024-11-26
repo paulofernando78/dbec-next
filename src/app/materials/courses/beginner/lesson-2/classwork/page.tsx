@@ -1,15 +1,21 @@
 "use client";
 
+// Hooks
 import { useEffect, useState } from "react";
+
+// Components
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 
-export default function CoursesBeginnerLesson2() {
+const lesson2Classwork =
+  "/assets/data/materials/courses/beginner/lesson-2/classwork.json";
+
+export default function CourseBeginnerLesson2Classwork() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch("/assets/data/materials/courses/beginner/lesson-2/classwork.json")
+    fetch(lesson2Classwork)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch lesson data");
@@ -30,9 +36,5 @@ export default function CoursesBeginnerLesson2() {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading lesson data.</p>;
 
-  return (
-    <>
-      <LessonTemplate lessonData={lessonData} />
-    </>
-  );
+  return <LessonTemplate lessonData={lessonData} isUnderConstruction={true} />;
 }

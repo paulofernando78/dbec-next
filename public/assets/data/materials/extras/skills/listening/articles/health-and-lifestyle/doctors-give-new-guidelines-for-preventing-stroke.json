@@ -1,0 +1,248 @@
+{
+  "whiteboard": {
+    "title": "Extras",
+    "subtitle": "Skills",
+    "descriptions": [
+      "Listening",
+      "Doctors Give New Guidelines for Preventing Stroke"
+    ]
+  },
+  "lessons": [
+    {
+      "title": "Introduction",
+      "bgColor": "black",
+      "textColor": "white",
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Check out these pictures? What do you see?</b>"
+            }
+          ]
+        }
+      ],
+      "swiperFractionImages": [
+        {
+          "imgSrcLink": "https://gdb.voanews.com/adfb512d-035a-4eae-9bb2-3ad6e53e2eed_cx0_cy1_cw0_w1023_r1_s.jpg",
+          "imgAltLink": "Example image description"
+        },
+        {
+          "imgSrcLink": "https://gdb.voanews.com/c48ddfde-59dc-41c4-acfc-ba8fd0bd0c0d_cx0_cy6_cw100_w650_r1.jpg",
+          "imgAltLink": "Example image description"
+        }
+      ]
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Discuss these questions?</b>"
+            }
+          ],
+          "addBreakLine": true
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "What are some general ways to stay healthy and prevent illnesses? "
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "What do you know about strokes?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Pre-vocabulary",
+      "bgColor": "black",
+      "textColor": "white",
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Check these words.</b>"
+            }
+          ],
+          "addBreakLine": true
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Listening for gist",
+      "bgColor": "black",
+      "textColor": "white",
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Listen to this article. What's the main idea of this article?</b>"
+            }
+          ]
+        }
+      ],
+      "audioSrc": "/assets/audio/welcome.mp3"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "text": "..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Listening for details",
+      "bgColor": "black",
+      "textColor": "white",
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Listen again and do the exercise.</b>"
+            }
+          ]
+        }
+      ],
+      "audioSrc": "/assets/audio/welcome.mp3",
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "1. How many people in the U.S. suffer strokes each year?",
+          "options": [
+            { "label": "a) 100,000", "isCorrect": false },
+            { "label": "b) 500,000", "isCorrect": true },
+            { "label": "c) 1,000,000", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "2. What percentage of strokes can potentially be prevented?",
+          "options": [
+            { "label": "a) 50%", "isCorrect": false },
+            { "label": "b) 70%", "isCorrect": false },
+            { "label": "c) 80%", "isCorrect": true }
+          ]
+        },
+        {
+          "question": "3. Which of the following is part of the Mediterranean diet?",
+          "options": [
+            { "label": "a) Olive oil", "isCorrect": true },
+            { "label": "b) Red meat", "isCorrect": false },
+            { "label": "c) Processed foods", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "4. What is the recommended amount of moderate aerobic exercise per week?",
+          "options": [
+            { "label": "a) 75 minutes", "isCorrect": false },
+            { "label": "b) 100 minutes", "isCorrect": false },
+            { "label": "c) 150 minutes", "isCorrect": true }
+          ]
+        },
+        {
+          "question": "5. What is a new tool doctors can use to help reduce obesity?",
+          "options": [
+            { "label": "a) Physical therapy", "isCorrect": false },
+            { "label": "b) New weight-loss drugs", "isCorrect": true },
+            { "label": "c) Vitamin supplements", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "6. What does the new guideline suggest doctors screen for in women?",
+          "options": [
+            { "label": "a) High cholesterol levels", "isCorrect": false },
+            {
+              "label": "b) High blood pressure during pregnancy",
+              "isCorrect": true
+            },
+            { "label": "c) High sugar intake", "isCorrect": false }
+          ]
+        },
+        {
+          "question": "7. Which of the following is NOT a recommended protein source in the Mediterranean diet?",
+          "options": [
+            { "label": "a) Seafood", "isCorrect": false },
+            { "label": "b) Beans", "isCorrect": false },
+            { "label": "c) Saturated fats", "isCorrect": true }
+          ]
+        },
+        {
+          "question": "8. What does the \"T\" in the acronym FAST stand for?",
+          "options": [
+            { "label": "a) Treatment", "isCorrect": false },
+            { "label": "b) Time", "isCorrect": true },
+            { "label": "c) Test", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Follow-up",
+      "bgColor": "black",
+      "textColor": "white",
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
+              "text": "Text 1"
+            },
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "...",
+              "text": "Text 2"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "...",
+              "text": "Text 3"
+            },
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "...",
+              "text": "Text 4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

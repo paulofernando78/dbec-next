@@ -165,11 +165,11 @@ import sustainable1 from "./sustainable1.jpg"
 // T
 import teenChoppingVegetable from "./teen-chopping-vegetable.avif";
 import teenLookingAtFoodLabel from "./teen-looking-at-food-label.avif";
+import tools from "./icon/tools.png";
 import track1 from "./track1.webp"
 import translate1 from "./translate1.svg";
 
 // U
-import underConstruction1 from "./icon/underconstruction1.png";
 import update1 from "./update1.avif";
 import upgrade1 from "./upgrade1.jpg";
 import usaFlagIcon from "./icon/flag/usa.png";
@@ -359,11 +359,11 @@ export {
   // T
   teenChoppingVegetable,
   teenLookingAtFoodLabel,
+  tools,
   track1,
   translate1,
 
   // U
-  underConstruction1,
   update1,
   upgrade1,
   usaFlagIcon,

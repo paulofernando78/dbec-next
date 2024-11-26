@@ -1,30 +1,43 @@
 "use client";
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
-import TheAlphabet from "@/components/Lessons/Topics/TheAlphabet/page";
-import { NoteCard } from "@/components/Cards/NoteCard";
-import Titles from "@/components/Lessons/Topics/Tiltes";
-import MyYourHisHer from "@/components/Lessons/Topics/MyYourHisHer";
-import { Exercises } from "@/components/Molecules/Ribbons/Exercises";
 
-export default function BeginnerLesson2FlippedClassroom() {
+// Hooks
+import { useEffect, useState } from "react";
+
+// Components
+import { LessonTemplate } from "@/components/Templates/LessonData/Index";
+import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
+
+const lesson2FlippedClassroom =
+  "/assets/data/materials/courses/beginner/lesson-2/flipped-classroom.json";
+
+export default function CourseBeginnerLesson2FlippedClassroom() {
+  const [lessonData, setLessonData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
+
+  useEffect(() => {
+    fetch(lesson2FlippedClassroom)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to fetch lesson data");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        setLessonData(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error(err);
+        setError(true);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error loading lesson data.</p>;
+
   return (
-    <>
-      <Whiteboard
-        title="Courses"
-        subtitle="Beginner"
-        descriptions={[
-          "Lesson 2",
-          "Flipped classroom",
-          "What's your name? (Cycle 1)",
-        ]}
-      />
-      <div className="line-break">
-        <TheAlphabet />
-
-        <Titles />
-        <MyYourHisHer />
-        <Exercises />
-      </div>
-    </>
+    <LessonTemplate lessonData={lessonData} isUnderConstruction={true} />
   );
 }

@@ -1,4 +1,4 @@
-import { Card } from "@/components/Cards/Card";
+import { Card } from "@/components/Molecules/Cards/Card";
 import Image, { StaticImageData } from "next/image";
 
 interface SubContent {

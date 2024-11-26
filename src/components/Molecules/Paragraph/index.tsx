@@ -12,7 +12,7 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
   return (
     <>
       {paragraphSections?.map((paragraphSection, paragraphSectionIndex) => (
-        <div key={paragraphSectionIndex}>
+        <div key={paragraphSectionIndex} className={paragraphSection.addBreakLine ? "margin-bottom" : ""}>
           {paragraphSection.paragraphs?.map((paragraph, paragraphIndex) => (
             <div key={paragraphIndex} className="display-inline">
               {paragraph.dictionary && (

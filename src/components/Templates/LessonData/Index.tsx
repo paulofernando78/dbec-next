@@ -13,12 +13,15 @@ import {
   FillInTheBlanks,
 } from "@/components";
 
+import { tools } from "@/img/index";
+
 // Typescript
 import { LessonTemplateProps } from "@/components/Templates/LessonData/types";
+import Image from "next/image";
 
 const baseAudioSrc = "/assets/audio/";
 
-export const LessonTemplate = ({ lessonData }: LessonTemplateProps) => {
+export const LessonTemplate = ({ lessonData, isUnderConstruction }: LessonTemplateProps) => {
   if (!lessonData) {
     return null;
   }
@@ -32,6 +35,12 @@ export const LessonTemplate = ({ lessonData }: LessonTemplateProps) => {
         />
       )}
       <div className="line-break">
+        {isUnderConstruction && (
+          <div className="flex-8px">
+            <Image src={tools} alt="Tools icon" className="icon-general" />
+            <p>Under Construction!</p>
+          </div>
+        )}
         {lessonData.lessons.map((lesson, lessonIndex) => (
           <div key={lessonIndex} className="line-break">
             {/* Title */}
@@ -44,9 +53,11 @@ export const LessonTemplate = ({ lessonData }: LessonTemplateProps) => {
             )}
 
             {/* Paragraphs + Word */}
-            {lesson.paragraphSections && (
-              <Paragraph paragraphSections={lesson.paragraphSections} />
-            )}
+            <div>
+              {lesson.paragraphSections && (
+                <Paragraph paragraphSections={lesson.paragraphSections} />
+              )}
+            </div>
 
             {/* SwiperFraction images */}
             {lesson.swiperFractionImages &&

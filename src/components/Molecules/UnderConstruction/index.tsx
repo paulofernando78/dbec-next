@@ -1,6 +1,6 @@
 // Images
 import Image from "next/image";
-import { underConstruction1 } from "@/img/index";
+import { tools } from "@/img/index";
 import { Whiteboard } from "../Whiteboard";
 
 import { UnderConstructionProps } from "./types";
@@ -19,8 +19,8 @@ export const UnderConstruction: React.FC<UnderConstructionProps> = ({
       />
       <div className="flex-8px">
         <Image
-          src={underConstruction1}
-          alt="Tools icon"
+          src={tools}
+          alt="Tools icnderConon"
           className="icon-general"
         />
         <p>Under Construction!</p>
