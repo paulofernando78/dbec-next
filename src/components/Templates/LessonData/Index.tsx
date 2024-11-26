@@ -47,6 +47,7 @@ export const LessonTemplate = ({ lessonData, isUnderConstruction }: LessonTempla
             {lesson.title && (
               <Ribbon
                 label={lesson.title}
+                time={lesson.time}
                 bgColor={lesson.bgColor || "defaultBgColor"}
                 textColor={lesson.textColor || "defaultTextColor"}
               />

@@ -5,6 +5,7 @@ import { ParagraphSection } from "@/components/Molecules/Paragraph/.types";
 
 export interface LessonData {
   title: string;
+  time: string;
   bgColor?: string;
   textColor?: string;
   paragraphSections?: ParagraphSection[];

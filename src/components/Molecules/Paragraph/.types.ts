@@ -7,6 +7,7 @@ export interface Paragraph {
  
   export interface ParagraphSection {
     paragraphs: Paragraph[]
+    addBreakLine: boolean
   }
 
   export interface ParagraphSectionsProps {

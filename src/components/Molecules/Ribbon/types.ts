@@ -1,5 +1,6 @@
 export interface RibbonProps {
-    label: string;
-    bgColor?: string;
-    textColor?: string;
-  }
+  label: string;
+  time: string;
+  bgColor?: string;
+  textColor?: string;
+}

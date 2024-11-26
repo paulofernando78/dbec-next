@@ -13,3 +13,8 @@
   background-color: blue;
   color: rgb(228, 216, 216);
 }
+
+.flex-space {
+  display: flex;
+  justify-content: space-between;
+}
