@@ -11,6 +11,7 @@ import {
   Radio,
   Dropdown,
   FillInTheBlanks,
+  FlipCard,
 } from "@/components";
 
 import { tools } from "@/img/index";
@@ -21,7 +22,10 @@ import Image from "next/image";
 
 const baseAudioSrc = "/assets/audio/";
 
-export const LessonTemplate = ({ lessonData, isUnderConstruction }: LessonTemplateProps) => {
+export const LessonTemplate = ({
+  lessonData,
+  isUnderConstruction,
+}: LessonTemplateProps) => {
   if (!lessonData) {
     return null;
   }
@@ -32,6 +36,7 @@ export const LessonTemplate = ({ lessonData, isUnderConstruction }: LessonTempla
           title={lessonData.whiteboard.title}
           subtitle={lessonData.whiteboard.subtitle}
           descriptions={lessonData.whiteboard.descriptions}
+          subDescription={lessonData.whiteboard.subDescription}
         />
       )}
       <div className="line-break">
@@ -66,12 +71,17 @@ export const LessonTemplate = ({ lessonData, isUnderConstruction }: LessonTempla
                 <SwiperFraction
                   images={lesson.swiperFractionImages?.map(
                     (swiperFractionImage) => ({
+                      // imgSrc: swiperFractionImage.imgSrc,
+                      // imgAlt: swiperFractionImage.imgAlt,
                       imgSrcLink: swiperFractionImage.imgSrcLink,
                       imgAltLink: swiperFractionImage.imgAltLink,
                     })
                   )}
                 />
               )}
+
+            {lesson.flipcards && <FlipCard flipCards={lesson.flipcards}
+            />}
 
             {/* Audio Player */}
             {lesson.audioSrc && (

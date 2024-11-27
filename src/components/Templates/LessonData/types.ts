@@ -2,6 +2,7 @@ import { WhiteboardProps } from "@/components/Molecules/Whiteboard/type";
 import { SwiperFractionProps } from "@/components/Organisms/Swiper/Fraction/types";
 import { Question } from "@/components/Molecules/ExerciseTemplates/Radio/type";
 import { ParagraphSection } from "@/components/Molecules/Paragraph/.types";
+import { FlipCardsProps } from "@/components/Molecules/Cards/Flip/types";
 
 export interface LessonData {
   title: string;
@@ -10,8 +11,9 @@ export interface LessonData {
   textColor?: string;
   paragraphSections?: ParagraphSection[];
   swiperFractionImages?: SwiperFractionProps["images"];
+  flipcards?: FlipCardsProps[]
   radio?: Question[];
-  audioSrc: string;
+  audioSrc?: string;
   videoSrc?: string;
 }
 

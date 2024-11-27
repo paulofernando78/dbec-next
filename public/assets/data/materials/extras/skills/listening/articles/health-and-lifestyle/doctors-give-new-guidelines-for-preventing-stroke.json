@@ -5,9 +5,10 @@
     "descriptions": [
       "Listening",
       "Articles",
-      "Health and ",
+      "Health and Lifestyle",
       "Doctors Give New Guidelines for Preventing Stroke"
-    ]
+    ],
+    "subDescription": "June, 24, 2024"
   },
   "lessons": [
     {
@@ -30,8 +31,8 @@
           "imgAltLink": "Example image description"
         },
         {
-          "imgSrcLink": "https://gdb.voanews.com/c48ddfde-59dc-41c4-acfc-ba8fd0bd0c0d_cx0_cy6_cw100_w650_r1.jpg",
-          "imgAltLink": "Example image description"
+          "imgSrc": "https://gdb.voanews.com/c48ddfde-59dc-41c4-acfc-ba8fd0bd0c0d_cx0_cy6_cw100_w650_r1.jpg",
+          "imgAlt": "Example image description"
         }
       ]
     },
@@ -40,7 +41,7 @@
         {
           "paragraphs": [
             {
-              "text": "<b>Discuss these questions?</b>"
+              "text": "<b>Discuss these questions.</b>"
             }
           ],
           "addBreakLine": true
@@ -70,27 +71,73 @@
         {
           "paragraphs": [
             {
-              "text": "<b>Check these words.</b>"
+              "text": "<b>Flip the cards and match the pictures with the right vocabulary.</b>"
             }
           ],
           "addBreakLine": true
+        }
+      ]
+    },
+    {
+      "flipcards": [
+        {
+          "imgSrc": "/assets/img/menopause.jpg",
+          "imgAlt": "...",
+          "width": "180px",
+          "height": "180px"
         },
+        {
+          "imgSrc": "/assets/img/saturated-fat.webp",
+          "imgAlt": "...",
+          "width": "180px",
+          "height": "180px"
+        },
+        {
+          "imgSrc": "/assets/img/screen-examine.jpg",
+          "imgAlt": "...",
+          "width": "180px",
+          "height": "180px"
+        },
+        {
+          "imgSrc": "/assets/img/vigorous.jpg",
+          "imgAlt": "...",
+          "width": "180px",
+          "height": "180px"
+        },
+        {
+          "imgSrc": "/assets/img/acronym-ibm.jpg",
+          "imgAlt": "...",
+          "width": "180px",
+          "height": "180px"
+        },
+        {
+          "imgSrc": "/assets/img/gauge-moderate.png",
+          "imgAlt": "...",
+          "width": "180px",
+          "height": "180px"
+        },
+        {
+          "imgSrc": "/assets/img/calorie.jpg",
+          "imgAlt": "...",
+          "width": "180px",
+          "height": "180px"
+        },
+        {
+          "imgSrc": "/assets/img/aerobic-fitness.jpg",
+          "imgAlt": "...",
+          "width": "180px",
+          "height": "180px"
+        }
+      ]
+    },
+    {
+      "paragraphSections": [
         {
           "paragraphs": [
             {
-              "keyword": "saturated fat",
-              "dictionary": "saturated fat",
-              "dictionaryAudioSrc": "/dictionary/s/saturated.mp3"
-            },
-            {
-              "keyword": "calorie",
-              "dictionary": "calorie",
-              "dictionaryAudioSrc": "/dictionary/c/calorie.mp3"
-            },
-            {
-              "keyword": "moderate",
-              "dictionary": "moderate",
-              "dictionaryAudioSrc": "/dictionary/m/moderate.mp3"
+              "keyword": "acronym",
+              "dictionary": "acronym",
+              "dictionaryAudioSrc": "/dictionary/a/acronym.mp3"
             },
             {
               "keyword": ".aerobic",
@@ -98,9 +145,24 @@
               "dictionaryAudioSrc": "/dictionary/a/aerobic.mp3"
             },
             {
-              "keyword": "vigorous",
-              "dictionary": "vigorous",
-              "dictionaryAudioSrc": "/dictionary/v/vigorous.mp3"
+              "keyword": "calorie",
+              "dictionary": "calorie",
+              "dictionaryAudioSrc": "/dictionary/c/calorie.mp3"
+            },
+            {
+              "keyword": "menopause",
+              "dictionary": "menopause",
+              "dictionaryAudioSrc": "/dictionary/m/woman-menopause.mp3"
+            },
+            {
+              "keyword": "moderate",
+              "dictionary": "moderate",
+              "dictionaryAudioSrc": "/dictionary/m/moderate.mp3"
+            },
+            {
+              "keyword": "saturated fat",
+              "dictionary": "saturated fat",
+              "dictionaryAudioSrc": "/dictionary/s/saturated.mp3"
             },
             {
               "keyword": "screen",
@@ -108,14 +170,9 @@
               "dictionaryAudioSrc": "/dictionary/s/screen.mp3"
             },
             {
-              "keyword": "menopause",
-              "dictionary": "menopause",
-              "dictionaryAudioSrc": "/dictionary/m/menopause.mp3"
-            },
-            {
-              "keyword": "acronym",
-              "dictionary": "acronym",
-              "dictionaryAudioSrc": "/dictionary/a/acronym.mp3"
+              "keyword": "vigorous",
+              "dictionary": "vigorous",
+              "dictionaryAudioSrc": "/dictionary/v/vigorous.mp3"
             }
           ]
         }
@@ -151,6 +208,14 @@
           "paragraphs": [
             {
               "text": "New guidelines have been issued in the United States for preventing stroke – the nation's 4th biggest killer."
+            },
+            {
+              "keyword": "stroke",
+              "dictionary": "stroke",
+              "dictionaryAudioSrc": "/dictionary/s/stroke.mp3"
+            },
+            {
+              "text": "– the nation's 4th biggest killer."
             }
           ],
           "addBreakLine": true
@@ -270,7 +335,7 @@
         {
           "paragraphs": [
             {
-              "text": "However, health experts say more movement is better. The stroke association suggests at least 150 minutes of moderate aerobic or 75 minutes of vigorous exercise activity every week. Such exercise could include going to the gym, taking a walk or running. People can also use exercise machines at home, dance or play a sport."
+              "text": "However, health experts say more movement is better. The stroke association suggests <mark>at least 150 minutes of moderate</mark> aerobic or 75 minutes of vigorous exercise activity every week. Such exercise could include going to the gym, taking a walk or running. People can also use exercise machines at home, dance or play a sport."
             }
           ],
           "addBreakLine": true
@@ -310,7 +375,7 @@
         {
           "paragraphs": [
             {
-              "text": "The new guidelines also suggest that doctors screen for conditions that may increase a woman's risk for stroke. These could include high blood pressure during pregnancy or early menopause."
+              "text": "The new <mark>guidelines</mark> also suggest that doctors screen for conditions that may <mark>increase a woman's risk for stroke</mark>. These could include <mark>high blood pressure during pregnancy</mark> or early menopause."
             }
           ],
           "addBreakLine": true
@@ -468,10 +533,22 @@
         {
           "paragraphs": [
             {
-              "keyword": "...",
-              "dictionary": "vocabulary",
-              "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-              "text": "Text 1"
+              "text": "<b>Discuss these questions.</b>"
+            }
+          ],
+          "addBreakLine": true
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "What changes could you make to your lifestyle to reduce the risk of stroke?"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "How would you recognize and respond if someone was having a stroke?"
             }
           ]
         }

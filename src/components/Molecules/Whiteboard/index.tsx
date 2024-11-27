@@ -19,7 +19,7 @@ export const Whiteboard = ({
           <b>{description}</b>
         </p>
       ))}
-      {subDescription && <p className="p-size-smaller">{subDescription}</p>}
+      {subDescription && <p className="p-size-small">{subDescription}</p>}
     </div>
   );
 };

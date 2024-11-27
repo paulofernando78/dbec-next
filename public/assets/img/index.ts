@@ -48,9 +48,12 @@ import incorrectIcon from "./icon/incorrect.png";
 
 // A
 import addictive1 from "./addictive1.jpg"
-import africanCivet from "./african-civet.jpg"
+import animalAfricanCivet from "./african-civet.jpg"
+import animalAsianCivet from "./asian-palm-civet.jpg"
+import animalCat1 from "./animal-cat1.jpg";
+import animalCat2 from "./animal-cat2.jpeg";
+import animalCat3 from "./animal-cat3.png";
 import anticipate1 from "./anticipate1.jpg";
-import asianCivet from "./asian-palm-civet.jpg"
 import aviationIcon from "./icon/aviation.png"
 
 // B
@@ -58,9 +61,6 @@ import brFlagIcon from "./icon/flag/brazil.png";
 import btnIcon from "../../../public/assets/img/icon/btn-menu.png";
 
 // C
-import cat1 from "./cat1.jpg";
-import cat2 from "./cat2.jpeg";
-import cat3 from "./cat3.png";
 import characteristic1 from "./characteristic1.jpg";
 import challenge1 from "./challenge1.jpg"
 import chocolatePinkLemonadeKitKat from "./chocolate-kit-kat-pink-lemonad.jpg";
@@ -241,9 +241,12 @@ export {
 
   // A
   addictive1,
-  africanCivet,
+  animalAfricanCivet,
+  animalAsianCivet, 
+  animalCat1,
+  animalCat2,
+  animalCat3,
   anticipate1,
-  asianCivet, 
   aviationIcon,
 
   // B
@@ -251,9 +254,6 @@ export {
   btnIcon,
 
   // C
-  cat1,
-  cat2,
-  cat3,
   challenge1,
   characteristic1,
   chocolatePinkLemonadeKitKat,

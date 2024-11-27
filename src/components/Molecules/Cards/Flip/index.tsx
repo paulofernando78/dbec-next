@@ -57,13 +57,13 @@ export const FlipCard = ({
                 alt="Flip icon"
                 className={styles["flip-icon"]}
               />
+              <p>{index + 1}</p>
               <Image
                 src={questionMarkGif}
                 alt="Question mark gif"
                 className={styles["front-image"]}
               />
               <div className={`flex ${styles["front-text-padding"]}`}>
-                <p>{index + 1}.</p>
                 {flipCard.frontText && (
                   <p className={styles["front-text"]}>{flipCard.frontText}</p>
                 )}
