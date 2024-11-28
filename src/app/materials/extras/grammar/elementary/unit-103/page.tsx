@@ -7,7 +7,6 @@ import {
   BoardCard,
   Card,
   FillInTheBlanks,
-  ExclamationIcon,
 } from "@/components";
 
 // Images
@@ -272,12 +271,10 @@ export default function Unit103() {
                     (of) November. (UK)
                   </p>
                 </div>
-                <ExclamationIcon>
                   <p>
                     <span className="bold">at</span> the weekend / weekends (UK)
                   </p>
                   <p>Use ordinal numbers for dates.</p>
-                </ExclamationIcon>
               </div>
             </div>
 
@@ -327,9 +324,7 @@ export default function Unit103() {
                     <span className="bold unerline">in</span> spring.
                   </p>
                 </div>
-                <ExclamationIcon>
                   <p>Specific</p>
-                </ExclamationIcon>
                 <p>
                   <span className="bold unerline">in</span> <mark>the</mark>{" "}
                   spring of 1967... (specific)
@@ -386,7 +381,6 @@ export default function Unit103() {
               </div>
             </div>
             <div>
-              <ExclamationIcon>
                 <p className="italic margin-bottom">Exceptions</p>
                 <p>
                   - <span className="bold">on</span> Christmas <mark>Day</mark>
@@ -418,7 +412,6 @@ export default function Unit103() {
                   finalmente
                   <span className=""></span>
                 </p>
-              </ExclamationIcon>
             </div>
           </div>
         </BoardCard>
@@ -487,9 +480,7 @@ export default function Unit103() {
                 </p>
               </div>
             </div>
-            <ExclamationIcon>
               <p>Check the exercise on page 10. Continue on the next page</p>
-            </ExclamationIcon>
           </div>
         </BoardCard>
 
@@ -519,14 +510,12 @@ export default function Unit103() {
                 • I'll talk to you <span className="bold">in three weeks</span>.
               </p>
             </div>
-            <ExclamationIcon>
               <p>
                 <span className="bold">
                   More specific. "in a few day's time
                 </span>{" "}
                 / in a year's time.
               </p>
-            </ExclamationIcon>
             <p>
               • Presidential elections will be held{" "}
               <span className="bold">in ten days' time</span>.{" "}
