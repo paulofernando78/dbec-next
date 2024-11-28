@@ -1,4 +1,4 @@
-import { Card } from "@/components/Atoms/Cards/Card";
+import { Card } from "@/components";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 
 export default function Dentistry() {
