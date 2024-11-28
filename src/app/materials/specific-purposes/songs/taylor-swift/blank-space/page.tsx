@@ -367,7 +367,7 @@ export default function TaylorSwiftbBlankSpace() {
 
   return (
     <>
-      <LessonTemplate lessonData={lessonData} />
+      <LessonTemplate lessonData={lessonData} isUnderConstruction={false}/>
     </>
   );
 }
