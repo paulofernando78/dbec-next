@@ -61,16 +61,12 @@ export function WordCard({ dictionary }: WordCardProps) {
                     return (
                       <p key={exampleIndex}>
                         <b>• </b>
-                        {example.enExample && (
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: example.enExample,
-                            }}
-                          />
-                        )}
+                        {example.enExample &&
+                        <span>{example.enExample}
+                        </span>}
+                        {" "}
                         {example.ptExample && (
                           <span className="portuguese">
-                            {" "}
                             {example.ptExample}
                           </span>
                         )}

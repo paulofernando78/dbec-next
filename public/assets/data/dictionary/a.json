@@ -1,23 +1,43 @@
 [
-  
   {
     "keyword": "aim",
     "definitions": [
       {
-        "audio": "/dictionary/a/aim-d.mp3",
+        "audio": "/dictionary/a/aim-noun.mp3",
         "word": "aim",
         "phonetics": "/eɪm/",
-        "partOfSpeech": "regular verb • present",
+        "partOfSpeech": "noun",
         "enDefinition": "a result that your plans or actions are intended to achieve",
-        "ptDefinition": "...",
+        "ptDefinition": "Um resultado que seus planos ou ações têm a intenção de alcançar",
+        "ptWordDefinition": "objetivo",
         "examples": [
           {
-            "enExample": "...",
-            "ptExample": "..."
+            "enExample": "My main aim in life is to be a good husband and father.",
+            "ptExample": "Meu principal objetivo na vida é ser um bom marido e pai."
           }
         ],
-        "synonyms": "...",
-        "antonyms": "..."
+        "synonyms": "goal, ambition, dream, target, intention, wish",
+        "antonyms": "dislike, hate, hatred"
+      }
+    ]
+  },
+  {
+    "keyword": "acronym",
+    "definitions": [
+      {
+        "audio": "/dictionary/a/acronym-noun.mp3",
+        "word": "acronym",
+        "phonetics": "/ˈæ.krə.nɪm/",
+        "partOfSpeech": "noun",
+        "enDefinition": "A word formed from the initial letters of other words and pronounced as a word itself, such as NASA or UNESCO.",
+        "ptDefinition": "Uma palavra formada pelas letras iniciais de outras palavras e pronunciada como uma palavra, como NASA ou UNESCO.",
+        "examples": [
+          {
+            "enExample": "NASA is an acronym for National Aeronautics and Space Administration.",
+            "ptExample": "NASA é um acrônimo para Administração Nacional de Aeronáutica e Espaço."
+          }
+        ],
+        "synonyms": "abbreviation, initialism"
       }
     ]
   },
@@ -165,10 +185,10 @@
     "keyword": "anticipate",
     "definitions": [
       {
-	      "audio": "/dictionary/a/anticipate-verb.mp3",
-	      "word": "anticipate",
-		    "phonetics": "/ænˈtɪs.ə.peɪt/",
-		    "partOfSpeech": "verb",
+        "audio": "/dictionary/a/anticipate-verb.mp3",
+        "word": "anticipate",
+        "phonetics": "/ænˈtɪs.ə.peɪt/",
+        "partOfSpeech": "verb",
         "ptDefinition": "prever",
         "examples": [
           {
@@ -200,7 +220,7 @@
             "ptExample": "A expectativa de inflação é menor do que a do mês passado."
           }
         ],
-	      "synonyms": "expect, look for, await, count on, prepare oneself for, look toward, look forward to, long for. pin hope on. foresee",
+        "synonyms": "expect, look for, await, count on, prepare oneself for, look toward, look forward to, long for. pin hope on. foresee",
         "antonyms": "remember"
       }
     ]
@@ -238,6 +258,27 @@
             "ptExample": "uma macieira"
           }
         ]
+      }
+    ]
+  },
+  {
+    "keyword": "aerobic",
+    "definitions": [
+      {
+        "audio": "/dictionary/a/aerobic-adjective.mp3",
+        "word": "aerobic",
+        "phonetics": "/erˈoʊ.bɪk/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "Relating to or requiring free oxygen to live and grow, or involving or improving the body’s ability to absorb and transport oxygen.",
+        "ptDefinition": "Relativo a ou que exige oxigênio livre para viver e crescer, ou que envolve ou melhora a capacidade do corpo de absorver e transportar oxigênio.",
+        "examples": [
+          {
+            "enExample": "Aerobic exercise, like running, improves cardiovascular health.",
+            "ptExample": "Exercícios aeróbicos, como correr, melhoram a saúde cardiovascular."
+          }
+        ],
+        "synonyms": "cardio, oxygen-consuming",
+        "antonyms": "anaerobic"
       }
     ]
   },
@@ -301,14 +342,14 @@
       {
         "ptDefinition": "convidar",
         "examples": [
-         {
-          "enExample": "My grandma always asks me over.",
-          "ptExample": "Minha avó sempre me convida para ir na casa dela."
-         }
-       ],
-       "synonyms": "invite",
-       "antonyms": "avoid, refrain (from)"
-       },
+          {
+            "enExample": "My grandma always asks me over.",
+            "ptExample": "Minha avó sempre me convida para ir na casa dela."
+          }
+        ],
+        "synonyms": "invite",
+        "antonyms": "avoid, refrain (from)"
+      },
       {
         "audio": "/dictionary/a/asked-past.mp3",
         "word": "asked",
@@ -374,9 +415,9 @@
         ]
       },
       {
-	      "audio": "/dictionary/a/ask-for-it-trouble-idiom.mp3",
-	      "word": "ask for it or trouble",
-		    "partOfSpeech": "idiom",
+        "audio": "/dictionary/a/ask-for-it-trouble-idiom.mp3",
+        "word": "ask for it or trouble",
+        "partOfSpeech": "idiom",
         "enDefinition": "to be behaving stupidly in a way that is likely to cause problems for you",
         "ptDefinition": "procurar confusão",
         "examples": [

@@ -81,50 +81,50 @@
     {
       "flipcards": [
         {
-          "imgSrc": "/assets/img/menopause.jpg",
-          "imgAlt": "...",
+          "imgSrc": "/assets/img/woman-menopause.jpg",
+          "imgAlt": "An Image of a woman experiencing menopause symptoms, with a thoughtful expression.",
           "width": "180px",
           "height": "180px"
         },
         {
-          "imgSrc": "/assets/img/saturated-fat.webp",
-          "imgAlt": "...",
+          "imgSrc": "/assets/img/food-saturated-fat.webp",
+          "imgAlt": "An Illustration of foods high in saturated fat, such as bacon, ice cream, and nuts.",
           "width": "180px",
           "height": "180px"
         },
         {
-          "imgSrc": "/assets/img/screen-examine.jpg",
-          "imgAlt": "...",
+          "imgSrc": "/assets/img/health-screen-examine.jpg",
+          "imgAlt": "A doctor examining a patient's health information on a screen.",
           "width": "180px",
           "height": "180px"
         },
         {
-          "imgSrc": "/assets/img/vigorous.jpg",
-          "imgAlt": "...",
+          "imgSrc": "/assets/img/man-vigorous.jpg",
+          "imgAlt": "A man in vigorous body shape.",
           "width": "180px",
           "height": "180px"
         },
         {
           "imgSrc": "/assets/img/acronym-ibm.jpg",
-          "imgAlt": "...",
+          "imgAlt": "Graphic of the acronym IBM..",
           "width": "180px",
           "height": "180px"
         },
         {
           "imgSrc": "/assets/img/gauge-moderate.png",
-          "imgAlt": "...",
+          "imgAlt": "Gauge showing a moderate level on a scale.",
           "width": "180px",
           "height": "180px"
         },
         {
           "imgSrc": "/assets/img/calorie.jpg",
-          "imgAlt": "...",
+          "imgAlt": "Visual representation of calorie measurement with food items.",
           "width": "180px",
           "height": "180px"
         },
         {
           "imgSrc": "/assets/img/aerobic-fitness.jpg",
-          "imgAlt": "...",
+          "imgAlt": "Person performing aerobic exercise.",
           "width": "180px",
           "height": "180px"
         }
@@ -140,7 +140,7 @@
               "dictionaryAudioSrc": "/dictionary/a/acronym.mp3"
             },
             {
-              "keyword": ".aerobic",
+              "keyword": "aerobic",
               "dictionary": "aerobic",
               "dictionaryAudioSrc": "/dictionary/a/aerobic.mp3"
             },
@@ -152,7 +152,7 @@
             {
               "keyword": "menopause",
               "dictionary": "menopause",
-              "dictionaryAudioSrc": "/dictionary/m/woman-menopause.mp3"
+              "dictionaryAudioSrc": "/dictionary/m/menopause.mp3"
             },
             {
               "keyword": "moderate",
@@ -162,7 +162,7 @@
             {
               "keyword": "saturated fat",
               "dictionary": "saturated fat",
-              "dictionaryAudioSrc": "/dictionary/s/saturated.mp3"
+              "dictionaryAudioSrc": "/dictionary/s/saturated-fat.mp3"
             },
             {
               "keyword": "screen",
@@ -207,7 +207,7 @@
         {
           "paragraphs": [
             {
-              "text": "New guidelines have been issued in the United States for preventing stroke – the nation's 4th biggest killer."
+              "text": "New guidelines have been issued in the United States for preventing"
             },
             {
               "keyword": "stroke",

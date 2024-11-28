@@ -5,7 +5,7 @@ import { useState } from "react";
 // Components
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import { Button } from "@/components/Atoms/Button";
-import { WordCard } from "@/components/Templates/WordCard/WordCard";
+import { WordCard } from "@/components/Templates/WordCard";
 
 // Utils
 import { searchWords } from "@/utils/searchWords";

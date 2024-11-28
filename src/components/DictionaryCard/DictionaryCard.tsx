@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 
 // Components
-import { WordCard } from "../Templates/WordCard/WordCard";
+import { WordCard } from "../Templates/WordCard";
 
 // CSS
 import styles from "./styles.module.css";

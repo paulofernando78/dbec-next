@@ -21,6 +21,68 @@
     ]
   },
   {
+    "keyword": "saturated fat",
+    "definitions": [
+      {
+        "audio": "/dictionary/s/saturated-fat-noun.mp3",
+        "word": "saturated fat",
+        "phonetics": "/ˈsætʃ.ə.reɪ.tɪd fæt/",
+        "partOfSpeech": "noun",
+        "enDefinition": "A type of fat found in animal products and some plant oils, characterized by single bonds between carbon atoms, typically solid at room temperature.",
+        "ptDefinition": "Um tipo de gordura encontrada em produtos de origem animal e alguns óleos vegetais, caracterizada por ligações simples entre átomos de carbono, geralmente sólida à temperatura ambiente.",
+        "examples": [
+          {
+            "enExample": "Butter is high in saturated fat, which can increase cholesterol levels.",
+            "ptExample": "A manteiga é rica em gordura saturada, o que pode aumentar os níveis de colesterol."
+          }
+        ],
+        "synonyms": "animal fat, solid fat",
+        "antonyms": "unsaturated fat, healthy fat"
+      }
+    ]
+  },
+  {
+    "keyword": "screen",
+    "definitions": [
+      {
+        "audio": "/dictionary/s/screen-noun.mp3",
+        "word": "screen",
+        "phonetics": "/skriːn/",
+        "partOfSpeech": "noun",
+        "enDefinition": "A flat surface on which images or data are displayed, such as on a television, computer, or smartphone.",
+        "ptDefinition": "Uma superfície plana na qual imagens ou dados são exibidos, como em uma televisão, computador ou smartphone.",
+        "examples": [
+          {
+            "enExample": "I spend too much time staring at my phone screen.",
+            "ptExample": "Eu passo muito tempo olhando para a tela do meu celular."
+          }
+        ],
+        "synonyms": "display, monitor, panel",
+        "antonyms": ""
+      },
+      {
+        "audio": "/dictionary/s/screen-verb.mp3",
+        "word": "screen",
+        "phonetics": "/skriːn/",
+        "partOfSpeech": "verb",
+        "enDefinition": "To show a movie or video, or to examine or filter something.",
+        "ptDefinition": "Exibir um filme ou vídeo, ou examinar ou filtrar algo.",
+        "examples": [
+          {
+            "enExample": "The movie will be screened at the festival tomorrow.",
+            "ptExample": "O filme será exibido no festival amanhã."
+          },
+          {
+            "enExample": "All passengers are screened at the airport for security purposes.",
+            "ptExample": "Todos os passageiros são examinados no aeroporto por motivos de segurança."
+          }
+        ],
+        "synonyms": "examine, filter, display",
+        "antonyms": ""
+      }
+    ]
+  },
+  {
     "keyword": "seem",
     "definitions": [
       {

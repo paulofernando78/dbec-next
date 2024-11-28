@@ -1,11 +1,31 @@
 [
   {
+    "keyword": "calorie",
+    "definitions": [
+      {
+        "audio": "/dictionary/c/calorie-noun.mp3",
+        "word": "calorie",
+        "phonetics": "/ˈkæl.ɚ.i/",
+        "partOfSpeech": "noun",
+        "enDefinition": "A unit of energy often used to measure the energy content of foods and beverages.",
+        "ptDefinition": "Uma unidade de energia frequentemente usada para medir o conteúdo energético de alimentos e bebidas.",
+        "examples": [
+          {
+            "enExample": "This chocolate bar contains 250 calories.",
+            "ptExample": "Esta barra de chocolate contém 250 calorias."
+          }
+        ],
+        "synonyms": "kilocalorie, energy unit"
+      }
+    ]
+  },
+  {
     "keyword": "capital flight",
     "definitions": [
       {
-	      "audio": "/dictionary/c/capital-flight-noun.mp3",
-	      "word": "capital flight",
-		    "partOfSpeech": "noun",
+        "audio": "/dictionary/c/capital-flight-noun.mp3",
+        "word": "capital flight",
+        "partOfSpeech": "noun",
         "enDefinition": "a situation in which large amounts of money are sent out of a country to be kept or invested in other countries, for example, because of fears about the economy:",
         "ptDefinition": "fuga de capital",
         "examples": [
@@ -28,19 +48,19 @@
         "enDefinition": "to hold something or someone with your hands, arms, or on your back and transport it, him, or her from one place to another",
         "ptDefinition": "levar, carregar",
         "examples": [
-         {
-          "enExample": "These books are too heavy for me to carry.",
-          "ptExample": "Estes livros são muito pesados para eu carregar."
-         }
-       ],
-       "synonyms": "bear, take",
-       "antonyms": "drop "
-       },
+          {
+            "enExample": "These books are too heavy for me to carry.",
+            "ptExample": "Estes livros são muito pesados para eu carregar."
+          }
+        ],
+        "synonyms": "bear, take",
+        "antonyms": "drop"
+      },
       {
-	      "audio": "/c/carry-out-phrasal-verb.mp3",
-	      "word": "carry out",
-		    "phonetics": "/ˈkær·i/ ",
-		    "partOfSpeech": "phrasal verb",
+        "audio": "/c/carry-out-phrasal-verb.mp3",
+        "word": "carry out",
+        "phonetics": "/ˈkær·i/ ",
+        "partOfSpeech": "phrasal verb",
         "enDefinition": "to perform or complete a job or activity; to fulfill",
         "ptDefinition": "cumprir algo, levar algo adiante, pôr algo em prática",
         "examples": [
@@ -53,7 +73,7 @@
             "ptExample": "Não me culpe, estou apenas fazendo o que me foi pedido."
           }
         ],
-	      "synonyms": "perform, execute, accomplish",
+        "synonyms": "perform, execute, accomplish",
         "antonyms": "fail, abandon, halt, ignore, miss"
       }
     ]
@@ -62,10 +82,10 @@
     "keyword": "characteristic",
     "definitions": [
       {
-	      "audio": "/dictionary/c/characteristic-noun.mp3",
-	      "word": "characteristic",
-		    "phonetics": "/ˌker.ək.təˈrɪs.tɪk/",
-		    "partOfSpeech": "noun",
+        "audio": "/dictionary/c/characteristic-noun.mp3",
+        "word": "characteristic",
+        "phonetics": "/ˌker.ək.təˈrɪs.tɪk/",
+        "partOfSpeech": "noun",
         "ptDefinition": "característica",
         "examples": [
           {
@@ -98,10 +118,10 @@
     "keyword": "compel",
     "definitions": [
       {
-	      "audio": "/dictionary/c/compel-verb.mp3",
-	      "word": "compel",
-		    "phonetics": "/kəmˈpel/",
-		    "partOfSpeech": "verb",
+        "audio": "/dictionary/c/compel-verb.mp3",
+        "word": "compel",
+        "phonetics": "/kəmˈpel/",
+        "partOfSpeech": "verb",
         "enDefinition": "to force someone to do something",
         "ptDefinition": "obrigar",
         "examples": [
@@ -110,14 +130,14 @@
             "ptExample": "Como estudante, ele foi obrigado a usar shorts mesmo no inverno."
           }
         ],
-	      "synonyms": "force, require, impel, oblige",
+        "synonyms": "force, require, impel, oblige",
         "antonyms": "stop, prevent, thwart, deter, hinder"
       },
       {
-	      "audio": "/dictionary/c/compelling-adjective.mp3",
-	      "word": "compelling",
-		    "phonetics": "/kəmˈpel.ɪŋ/",
-		    "partOfSpeech": "adjective",
+        "audio": "/dictionary/c/compelling-adjective.mp3",
+        "word": "compelling",
+        "phonetics": "/kəmˈpel.ɪŋ/",
+        "partOfSpeech": "adjective",
         "enDefinition": "If a reason, argument, etc. is compelling, it makes you believe it or accept it because it is so strong.",
         "ptDefinition": "convincente",
         "examples": [
@@ -149,10 +169,10 @@
     "keyword": "customer",
     "definitions": [
       {
-	      "audio": "/dictionary/c/customer.mp3",
-	      "word": "customer",
-		    "phonetics": "/ˈkʌs.tə.mɚ/",
-		    "partOfSpeech": "noun",
+        "audio": "/dictionary/c/customer.mp3",
+        "word": "customer",
+        "phonetics": "/ˈkʌs.tə.mɚ/",
+        "partOfSpeech": "noun",
         "enDefinition": "a person who buys goods or a service",
         "ptDefinition": "uma pessoa que compra bens ou serviços",
         "examples": [

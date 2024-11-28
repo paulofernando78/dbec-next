@@ -17,6 +17,26 @@
     ]
   },
   {
+    "keyword": "menopause",
+    "definitions": [
+      {
+        "audio": "/dictionary/m/menopause-noun.mp3",
+        "word": "menopause",
+        "phonetics": "/ˈmen.ə.pɑːz/ (US)",
+        "partOfSpeech": "noun",
+        "enDefinition": "The time in a woman's life, typically around the age of 45–55, when menstruation permanently ceases.",
+        "ptDefinition": "O período na vida de uma mulher, geralmente entre 45 e 55 anos, em que a menstruação cessa permanentemente.",
+        "examples": [
+          {
+            "enExample": "Many women experience hot flashes during menopause.",
+            "ptExample": "Muitas mulheres experimentam ondas de calor durante a menopausa."
+          }
+        ],
+        "synonyms": "climacteric, change of life"
+      }
+    ]
+  },
+  {
     "keyword": "miscarriage",
     "definitions": [
       {
@@ -32,6 +52,43 @@
             "ptExample": "O teste de amniocentese carrega um risco significativo de aborto espontâneo."
           }
         ]
+      }
+    ]
+  },
+  {
+    "keyword": "moderate",
+    "definitions": [
+      {
+        "audio": "/dictionary/m/moderate-adjective.mp3",
+        "word": "moderate",
+        "phonetics": "/ˈmɑː.dɚ.ət/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "Average in amount, intensity, or degree; not extreme.",
+        "ptDefinition": "Médio em quantidade, intensidade ou grau; não extremo.",
+        "examples": [
+          {
+            "enExample": "She exercises at a moderate intensity for better health.",
+            "ptExample": "Ela se exercita com intensidade moderada para melhorar a saúde."
+          }
+        ],
+        "synonyms": "average, medium, mild",
+        "antonyms": "extreme, intense"
+      },
+      {
+        "audio": "/dictionary/m/moderate-verb.mp3",
+        "word": "moderate",
+        "phonetics": "/ˈmɑː.dɚ.reɪt/",
+        "partOfSpeech": "verb",
+        "enDefinition": "To make or become less extreme, intense, or severe.",
+        "ptDefinition": "Fazer ou tornar algo menos extremo, intenso ou severo.",
+        "examples": [
+          {
+            "enExample": "The teacher moderated the discussion to keep it on topic.",
+            "ptExample": "O professor moderou a discussão para mantê-la no tema."
+          }
+        ],
+        "synonyms": "temper, control, adjust",
+        "antonyms": "intensify, escalate"
       }
     ]
   },
