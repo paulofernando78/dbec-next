@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit24() {
           "Unit 24 • will be doing and will have done",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit96() {
           "Unit 96 • Relative clauses 5: extra information clauses (1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

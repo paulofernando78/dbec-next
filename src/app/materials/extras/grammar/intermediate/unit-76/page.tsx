@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit76() {
           "Unit 76 • the 4 (the giraffe / the telephone / the old, etc.)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

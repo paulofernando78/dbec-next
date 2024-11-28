@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit7() {
           "Unit 7 • Present perfect 1 (I have done)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

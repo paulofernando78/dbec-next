@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit110() {
           "Unit 110 • Word order 2: adverbs with the verb",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

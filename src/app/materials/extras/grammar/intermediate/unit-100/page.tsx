@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit100() {
           "Unit 100 • Adjectives and advebrs 1 (quickly / quickly)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

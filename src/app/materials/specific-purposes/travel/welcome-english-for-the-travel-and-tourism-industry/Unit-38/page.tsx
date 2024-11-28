@@ -9,9 +9,6 @@ export default function Unit38() {
         subtitle="Travel"
         descriptions={["Unit 38 • Car rental"]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

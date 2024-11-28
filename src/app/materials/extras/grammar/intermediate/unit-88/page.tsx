@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit88() {
           "Unit 88 • all / all of , most / most of, no / none of etc.",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

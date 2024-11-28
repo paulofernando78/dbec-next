@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit51() {
           "Unit 51 • Auxiliary verbs (have / do / can, etc.), I think so / I hope so",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

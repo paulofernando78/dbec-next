@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit120() {
           "Unit 120 • by and until, by the time...",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

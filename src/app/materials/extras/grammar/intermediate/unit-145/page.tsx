@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit145() {
           "Unit 145 • Phrasal verbs 9 away / back",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

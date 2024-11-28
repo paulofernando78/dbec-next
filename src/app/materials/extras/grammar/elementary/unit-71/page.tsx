@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit71() {
           "Unit 71 • go to work / go home / go to the movie theater",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

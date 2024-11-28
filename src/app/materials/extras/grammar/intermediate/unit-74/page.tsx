@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit74() {
           "Unit 74 • the 2 (school / the school, etc.)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

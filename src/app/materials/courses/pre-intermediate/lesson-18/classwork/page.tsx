@@ -13,9 +13,6 @@ export default function PreIntermediateLesson18Classwork() {
           "What do you use this for? (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

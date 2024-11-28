@@ -14,9 +14,6 @@ export default function BeginnerLesson22Classwork() {
           "+ Written Quiz",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

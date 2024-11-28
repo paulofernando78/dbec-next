@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit99() {
           "Unit 99 • If we go..., If you see... etc.",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

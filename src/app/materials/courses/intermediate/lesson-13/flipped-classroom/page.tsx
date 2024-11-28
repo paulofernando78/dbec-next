@@ -13,9 +13,6 @@ export default function IntermediateLesson13FlippedClassroom() {
           "Expanding your horizons (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

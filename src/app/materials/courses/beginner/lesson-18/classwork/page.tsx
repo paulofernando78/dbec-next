@@ -13,9 +13,6 @@ export default function BeginnerLesson18Classwork() {
           "Does it have a view? (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

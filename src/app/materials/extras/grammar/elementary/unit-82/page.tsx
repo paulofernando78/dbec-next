@@ -9,9 +9,6 @@ export default function GrammarInUseElementaryUnit82() {
         subtitle="Grammar"
         descriptions={["Elementary", "Unit 82 • both, either, neither"]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

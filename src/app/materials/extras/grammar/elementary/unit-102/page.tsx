@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit101() {
           "Unit 102 • the people we went, the hotel you stayed at (relative clauses 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit61() {
           "Unit 61 • be / get used to... (I'm used to...)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

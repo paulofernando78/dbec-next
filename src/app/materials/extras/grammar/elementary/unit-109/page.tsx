@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit109() {
           "Unit 109 • under / behind / opposite etc.",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

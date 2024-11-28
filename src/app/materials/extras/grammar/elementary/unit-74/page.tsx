@@ -9,9 +9,6 @@ export default function GrammarInUseElementaryUnit74() {
         subtitle="Grammar"
         descriptions={["Elementary", "Unit 74 • this/that/these/those"]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

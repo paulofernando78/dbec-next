@@ -9,9 +9,6 @@ export default function GrammarInUseElementaryUnit97() {
         subtitle="Grammar"
         descriptions={["Elementary", "Unit 97 • and, but, or, so, because"]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

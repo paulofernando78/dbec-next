@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit86() {
           "Unit 86 • no / none / any, nothing / nobody, etc.",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

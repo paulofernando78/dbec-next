@@ -13,9 +13,6 @@ export default function BeginnerLesson8Classwork() {
           "Where are you from? (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

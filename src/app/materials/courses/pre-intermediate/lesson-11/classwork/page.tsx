@@ -14,9 +14,6 @@ export default function PreIntermediateLesson11Classwork() {
           "+ Written and Oral Quiz",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

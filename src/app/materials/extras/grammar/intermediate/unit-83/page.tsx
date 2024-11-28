@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit83() {
           "Unit 83 • a friend of mine / my own house on my own / by yourself",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

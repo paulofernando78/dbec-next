@@ -9,9 +9,6 @@ export default function GrammarInUseIntermediateUnit143() {
         subtitle="Grammar"
         descriptions={["Intermediate", "Unit 143 • Phrasal verbs 7 up (1)"]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

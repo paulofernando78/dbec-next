@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit43() {
           "Unit 43 • isn't, haven't, don't etc. (negatives)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit54() {
           "Unit 54 • Verb + to... (decide to... / forget to..., etc.)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

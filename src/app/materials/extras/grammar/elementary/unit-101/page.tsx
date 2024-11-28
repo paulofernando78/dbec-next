@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit101() {
           "Unit 101 • a person who... a thing that / which... (relative clauses 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

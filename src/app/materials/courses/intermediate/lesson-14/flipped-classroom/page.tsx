@@ -13,9 +13,6 @@ export default function IntermediateLesson14FlippedClassroom() {
           "That needs fixing (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

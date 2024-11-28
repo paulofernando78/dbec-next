@@ -9,9 +9,6 @@ export default function GrammarInUseElementaryUnit59() {
         subtitle="Grammar"
         descriptions={["Elementary", "Unit 59 • I/me, he/him, they/them etc."]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

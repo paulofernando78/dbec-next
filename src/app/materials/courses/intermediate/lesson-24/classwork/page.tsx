@@ -13,9 +13,6 @@ export default function IntermediateLesson24Classwork() {
           "Getting things done? (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

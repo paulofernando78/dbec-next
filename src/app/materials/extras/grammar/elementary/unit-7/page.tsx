@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit7() {
           "Unit 7 • Do you? (simple present questions)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

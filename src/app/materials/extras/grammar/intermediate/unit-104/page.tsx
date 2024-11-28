@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit104() {
           "Unit 104 • quite, pretty, rather and fairly",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

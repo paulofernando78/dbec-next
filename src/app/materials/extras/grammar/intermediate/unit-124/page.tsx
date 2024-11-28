@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit124() {
           "Unit • Unit 124 • in / at / on (position) 2",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit11() {
           "Unit 11 • How long have you (been)... ?",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

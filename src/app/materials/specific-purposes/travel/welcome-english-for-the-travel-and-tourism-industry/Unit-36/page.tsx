@@ -9,9 +9,6 @@ export default function Unit36() {
         subtitle="Travel"
         descriptions={["Unit 36 • Local knowledge"]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

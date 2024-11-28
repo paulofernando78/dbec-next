@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit60() {
           "Unit 60 • Preposition (in / for / about, etc.) + -ing",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

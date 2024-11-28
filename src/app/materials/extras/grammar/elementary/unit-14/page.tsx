@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit14() {
           "Unit 14 • I was doing (past continuous) I did (simple past)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

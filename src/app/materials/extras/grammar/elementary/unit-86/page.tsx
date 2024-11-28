@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit86() {
           "Unit 86 • quickly / badly / suddenly etc. (adverbs)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

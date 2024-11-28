@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit67() {
           "Unit 67 • see somebody do and see somebody doing",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

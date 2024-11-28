@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit47() {
           "Unit 47 • Reported speech 1 (he said that...)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

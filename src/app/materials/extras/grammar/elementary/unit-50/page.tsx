@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit50() {
           "Unit 50 • She said that... / He told me that...",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit135() {
           "Unit 135 • Verb + preposition 4 of / for / from / on",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

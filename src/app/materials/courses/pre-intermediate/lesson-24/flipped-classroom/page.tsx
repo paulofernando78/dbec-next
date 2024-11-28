@@ -13,9 +13,6 @@ export default function PreIntermediateLesson24FlippedClassroom() {
           "Only time will tell. (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

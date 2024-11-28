@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit13() {
           "Unit 13 • Present perfect and past 1 (I have done and I did)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

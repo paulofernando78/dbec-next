@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit47() {
           "Unit 47 • What? / Which? / How? (questions 4)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

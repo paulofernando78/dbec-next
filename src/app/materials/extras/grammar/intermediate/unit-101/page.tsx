@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit101() {
           "Unit 101 • Adjectives and adverbs 2 (well, fast, alte, hard / hardly)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

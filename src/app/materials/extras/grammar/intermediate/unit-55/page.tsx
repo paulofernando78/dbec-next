@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit55() {
           "Unit 55 • Verb (+obejct) + to... (I want you to...)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

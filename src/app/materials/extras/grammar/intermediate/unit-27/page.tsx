@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit27() {
           "Unit 27 • could (do) and could have (done)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

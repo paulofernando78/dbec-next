@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit58() {
           "Unit 58 • Verb + -ing ot to... 3 (like, would like, etc.)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

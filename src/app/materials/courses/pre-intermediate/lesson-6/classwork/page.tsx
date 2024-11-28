@@ -13,9 +13,6 @@ export default function PreIntermediateLesson6Classwork() {
           "Review lessons 2-5 + Written and Oral Quiz",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

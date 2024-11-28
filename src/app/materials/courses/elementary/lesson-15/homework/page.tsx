@@ -13,9 +13,6 @@ export default function ElementaryLesson15Homework() {
           "How often do you run? (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

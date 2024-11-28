@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit40() {
           "Unit 40 • if I had known I wish I had known",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

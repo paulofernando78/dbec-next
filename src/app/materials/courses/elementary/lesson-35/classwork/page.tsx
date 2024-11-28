@@ -13,9 +13,6 @@ export default function ElementaryLesson35Classwork() {
           "It's the coldest city! (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

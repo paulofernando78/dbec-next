@@ -13,9 +13,6 @@ export default function IntermediateLesson38Homework() {
           "A law must be passed! (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

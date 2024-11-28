@@ -13,9 +13,6 @@ export default function PreIntermediateLessonXXXFlippedClassroom() {
           "Good memories (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

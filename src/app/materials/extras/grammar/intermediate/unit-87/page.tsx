@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit87() {
           "Unit 87 • much, many, little, few, a lot, plenty",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

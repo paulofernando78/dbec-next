@@ -13,9 +13,6 @@ export default function BeginnerLesson28Classwork() {
           "I'm going to have a party. (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

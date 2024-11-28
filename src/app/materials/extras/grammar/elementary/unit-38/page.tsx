@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit38() {
           "Unit 38 • there was / were there, has / have been, there will be",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

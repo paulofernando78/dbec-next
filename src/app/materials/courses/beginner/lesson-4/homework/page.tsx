@@ -9,9 +9,6 @@ export default function BeginnerLesson4Homework() {
         subtitle="Beginner"
         descriptions={["Lesson 4", "Homework", "Where are my keys? (Cycle 1)"]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

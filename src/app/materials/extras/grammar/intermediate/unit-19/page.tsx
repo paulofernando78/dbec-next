@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit19() {
           "Unit 19 • Present tenses (I am doing / I do) for the future",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

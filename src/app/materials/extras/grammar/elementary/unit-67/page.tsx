@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit67() {
           "Unit 67 • a bottle / some water (countable/uncountable 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

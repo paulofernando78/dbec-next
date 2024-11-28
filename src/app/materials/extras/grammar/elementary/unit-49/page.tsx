@@ -9,9 +9,6 @@ export default function GrammarInUseElementaryUnit49() {
         subtitle="Grammar"
         descriptions={["Elementary", "Unit 49 • Do you know where... ?"]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

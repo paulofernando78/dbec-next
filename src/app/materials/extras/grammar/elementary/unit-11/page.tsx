@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit11() {
           "Unit 11 • worked / got / went etc. (simple past)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

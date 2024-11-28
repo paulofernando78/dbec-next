@@ -13,9 +13,6 @@ export default function BeginnerLesson15FlippedClassroom() {
           "I ride my bike to school. (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

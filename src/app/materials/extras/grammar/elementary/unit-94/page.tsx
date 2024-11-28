@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit94() {
           "Unit 94 • always/usually/often etc. (word order 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

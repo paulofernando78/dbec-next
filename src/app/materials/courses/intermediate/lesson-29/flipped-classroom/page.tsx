@@ -13,9 +13,6 @@ export default function IntermediateLesson29FlippedClassroom() {
           "Rites of passage (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

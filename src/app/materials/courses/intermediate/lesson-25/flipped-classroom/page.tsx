@@ -13,9 +13,6 @@ export default function IntermediateLesson25FlippedClassroom() {
           "A matter of time (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

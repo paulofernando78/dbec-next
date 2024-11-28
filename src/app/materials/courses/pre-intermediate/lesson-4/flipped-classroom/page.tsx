@@ -13,9 +13,6 @@ export default function PreIntermediateLesson4FlippedClassroom() {
           "Life in the city (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -13,9 +13,6 @@ export default function PreIntermediateLesson26FlippedClassroom() {
           "I like working with people. (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

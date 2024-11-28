@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit92() {
           "Unit 92 • Relative clauses 1: clauses with who / that / which",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

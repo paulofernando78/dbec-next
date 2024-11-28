@@ -13,9 +13,6 @@ export default function BeginnerLesson41Classwork() {
           "Can I take a message? (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

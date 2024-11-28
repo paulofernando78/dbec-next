@@ -13,9 +13,6 @@ export default function IntermediateLesson34Classwork() {
           "What might have been (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

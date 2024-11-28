@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit90() {
           "Unit 90 • the oldest, the most expensive",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

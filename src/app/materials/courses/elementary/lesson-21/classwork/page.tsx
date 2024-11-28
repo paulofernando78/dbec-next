@@ -14,9 +14,6 @@ export default function ElementaryLesson21Classwork() {
           "+ Written and Oral Quiz",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

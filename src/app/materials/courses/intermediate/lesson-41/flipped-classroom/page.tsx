@@ -13,9 +13,6 @@ export default function IntermediateLesson41FlippedClassroom() {
           "Reaching your goals (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

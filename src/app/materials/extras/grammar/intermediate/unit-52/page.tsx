@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit52() {
           "Unit 52 • Question tags (do you? / isn't?, etc.)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

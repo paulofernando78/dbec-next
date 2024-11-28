@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit104() {
           "Unit 104 • from... to, until, since, for",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

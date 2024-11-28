@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit103() {
           "Unit 113 • list to..., look at... etc. (verb + preposition)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

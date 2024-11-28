@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit105() {
           "Unit 115 • put on your shoes / put your shoes on (phrasal verbs 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit16() {
           "Unit 16 • Past perfect continouos (I had been doing)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit140() {
           "Unit 140 • Phrasal verbs 4 on / off (1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

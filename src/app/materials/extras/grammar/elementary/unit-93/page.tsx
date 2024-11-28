@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit93() {
           "Unit 93 • He speaks English very well. (word order 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

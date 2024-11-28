@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit85() {
           "Unit 85 • old, nice, interesting etc. (adjectives)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

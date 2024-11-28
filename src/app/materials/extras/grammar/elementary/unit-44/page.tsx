@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit44() {
           "Unit 44 • is it...? / have you...? / do they...? etc. (questions 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit132() {
           "Unit 132 • Verb + preposition 1 to / at",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

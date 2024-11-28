@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit79() {
           "Unit 79 • somebody/anything/nowhere etc.",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

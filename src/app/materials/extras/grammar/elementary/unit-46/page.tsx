@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit46() {
           "Unit 46 • Who is she talking to? / What is it like? (questions 3)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -13,9 +13,6 @@ export default function PreIntermediateLesson25Classwork() {
           "I like working with people. (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

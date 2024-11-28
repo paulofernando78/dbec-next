@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit107() {
           "Unit 107 • Comparative 3 (as... as / than)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit63() {
           "Unit 63 • there's no point in -ing / it's worth -ing, etc.)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

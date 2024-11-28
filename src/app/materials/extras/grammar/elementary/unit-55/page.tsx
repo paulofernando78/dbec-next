@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit55() {
           "Unit 55 • go to... / go on... / go for... / go -ing",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

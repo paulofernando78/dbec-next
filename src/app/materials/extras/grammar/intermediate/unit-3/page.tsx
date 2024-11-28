@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit3() {
           "Unit 3 • Present continuous and Present simple 1 (I am doing and I do)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

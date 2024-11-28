@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit42() {
           "Unit 42 • too/either, so am I / neither do I etc.",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

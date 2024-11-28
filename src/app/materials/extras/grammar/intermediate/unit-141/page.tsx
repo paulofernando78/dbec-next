@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit141() {
           "Unit 141 • Phrasal vebrs 5 on / off (2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

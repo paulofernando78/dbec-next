@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit12() {
           "Unit 12 • for and since / when... ? / and how long... ?",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

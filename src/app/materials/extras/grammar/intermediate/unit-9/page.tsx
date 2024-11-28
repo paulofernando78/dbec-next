@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit9() {
           "Unit 9 • Present perfect continuous (I have been doing)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

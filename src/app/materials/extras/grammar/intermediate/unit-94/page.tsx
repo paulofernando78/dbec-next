@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit94() {
           "Unit 94 • Relative clause 3: whose / whom / where",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit122() {
           "Unit 122 • on time and in time, at the end and in the end",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

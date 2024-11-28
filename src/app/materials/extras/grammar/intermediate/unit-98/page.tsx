@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit98() {
           "Unit 98 • Adjectives ending in -ing and -ed (boring / bored",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

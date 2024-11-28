@@ -13,9 +13,6 @@ export default function ElementaryLesson24Classwork() {
           "What does she look like? (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

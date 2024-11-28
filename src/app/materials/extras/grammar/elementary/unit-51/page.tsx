@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit51() {
           "Unit 51 • work / working, go / going, do / doing",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

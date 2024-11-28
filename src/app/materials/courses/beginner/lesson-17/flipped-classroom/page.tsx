@@ -13,9 +13,6 @@ export default function BeginnerLesson17FlippedClassroom() {
           "Does it have a view? (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

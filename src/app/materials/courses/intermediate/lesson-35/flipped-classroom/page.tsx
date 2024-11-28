@@ -13,9 +13,6 @@ export default function IntermediateLesson35FlippedClassroom() {
           "Creative carrers (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit12() {
           "Unit 12 • I didn't... Did you? (simple past negative and questions)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

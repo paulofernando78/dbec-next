@@ -13,9 +13,6 @@ export default function BeginnerLesson23Homework() {
           "I always eat breakfast. (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit8() {
           "Unit 8 • I am doing (present continouos) and I do (simple present)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

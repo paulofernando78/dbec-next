@@ -14,9 +14,6 @@ export default function IntermediateLesson22Classwork() {
           "+ Written Test",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

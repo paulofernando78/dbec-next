@@ -13,9 +13,6 @@ export default function BeginnerLesson5FlippedClassroom() {
           "Where are my keys? (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

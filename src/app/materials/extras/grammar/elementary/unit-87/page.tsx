@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit87() {
           "Unit 87 • old/older, expensive/more expensive",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

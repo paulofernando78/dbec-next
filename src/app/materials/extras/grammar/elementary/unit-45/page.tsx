@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit45() {
           "Unit • Unit 45 • Who saw you? / Who did you see? (questions 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

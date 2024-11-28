@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit6() {
           "Unit 6 • I don't... (simple present negative)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

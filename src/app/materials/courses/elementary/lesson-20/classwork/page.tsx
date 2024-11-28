@@ -13,9 +13,6 @@ export default function ElementaryLesson20Classwork() {
           "How's the neighborhood? (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -9,9 +9,6 @@ export default function Unit48() {
         subtitle="Travel"
         descriptions={["Unit 48 • History and folklore"]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

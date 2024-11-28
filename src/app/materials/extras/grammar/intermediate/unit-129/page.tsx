@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit129() {
           "Unit 129 • Noun + preposition (reason for, cause of, etc.)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -9,9 +9,6 @@ export default function GrammarInUseIntermediateUnit70() {
         subtitle="Grammar"
         descriptions={["Intermediate", "Unit 70 • Countable and uncountable 2"]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -13,9 +13,6 @@ export default function ElementaryLesson40Classwork() {
           "How have you changed? (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

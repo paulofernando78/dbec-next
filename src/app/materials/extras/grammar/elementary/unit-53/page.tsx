@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit53() {
           "Unit 53 • I want you to... / I told you to...",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

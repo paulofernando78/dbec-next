@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit43() {
           "Unit 43 • Passive 2 (be done / been done / being done)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

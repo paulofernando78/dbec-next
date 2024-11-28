@@ -13,9 +13,6 @@ export default function ElementaryLesson13Classwork() {
           "What's an interesting family? (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

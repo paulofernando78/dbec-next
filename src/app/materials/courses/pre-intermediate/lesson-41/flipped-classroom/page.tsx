@@ -13,9 +13,6 @@ export default function PreIntermediateLesson41FlippedClassroom() {
           "Making excuses (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

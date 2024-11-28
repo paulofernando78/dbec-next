@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit133() {
           "Unit 133 • Verb + preposition 2 about / for / of / after",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

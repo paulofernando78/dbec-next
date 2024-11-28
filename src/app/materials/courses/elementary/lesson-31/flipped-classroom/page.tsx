@@ -13,9 +13,6 @@ export default function ElementaryLesson31FlippedClassroom() {
           "It's important to get rest (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

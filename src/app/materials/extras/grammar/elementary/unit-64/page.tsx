@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit64() {
           "Unit 64 • -'s (Kate's camera / my brother's car etc.)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

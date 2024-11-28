@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit71() {
           "Unit 71 • Countable nouns with a / an and some",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

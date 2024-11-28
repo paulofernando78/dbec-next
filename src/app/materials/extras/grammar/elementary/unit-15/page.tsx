@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit15() {
           "Unit 15 • I have done (present present 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

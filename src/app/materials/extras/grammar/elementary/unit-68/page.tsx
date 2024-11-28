@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit68() {
           "Unit 68 • a cake / some cake / some cakes (countable/uncoutable 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

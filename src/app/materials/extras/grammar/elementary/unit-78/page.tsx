@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit78() {
           "Unit 78 • not + anybody/anyone/anything, nobody/no one/nothing",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit63() {
           "Unit 63 • myself/yourself/themselves etc.",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit61() {
           "Unit 61 • Whose is this? It's mine/yours/hers etc.",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -13,9 +13,6 @@ export default function IntermediateLesson7FlippedClassroom() {
           "Lend a hand (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

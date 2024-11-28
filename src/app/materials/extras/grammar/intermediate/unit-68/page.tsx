@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit68() {
           "Unit 68 • -ing clauses (He hurst knee playing football",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

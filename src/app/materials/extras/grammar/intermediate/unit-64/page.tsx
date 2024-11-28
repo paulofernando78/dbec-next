@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit64() {
           "Unit 64 • to..., for... and so that...",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

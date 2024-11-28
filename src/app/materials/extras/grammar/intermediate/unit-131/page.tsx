@@ -9,9 +9,6 @@ export default function GrammarInUseIntermediateUnit131() {
         subtitle="Grammar"
         descriptions={["Intermediate", "Unit 131 • Adjective + preposition 2"]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

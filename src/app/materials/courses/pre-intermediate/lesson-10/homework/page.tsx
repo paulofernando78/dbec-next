@@ -13,9 +13,6 @@ export default function BeginnerLesson10Homework() {
           "Have you ever tried it? (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

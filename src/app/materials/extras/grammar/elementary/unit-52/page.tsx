@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit52() {
           "Unit 52 • to... (want to do) and -ing (I enjoy doing)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

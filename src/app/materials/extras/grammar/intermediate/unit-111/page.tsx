@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit111() {
           "Unit 111 • still, anymore, yet, already",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

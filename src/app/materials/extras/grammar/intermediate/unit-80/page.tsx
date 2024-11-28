@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit80() {
           "Unit 80 • Noun + noun (a bus driver / a headache",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

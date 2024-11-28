@@ -13,9 +13,6 @@ export default function BeginnerLesson40FlippedClassroom() {
           "Can I take a message? (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

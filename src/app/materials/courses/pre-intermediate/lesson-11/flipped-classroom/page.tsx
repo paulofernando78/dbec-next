@@ -9,9 +9,6 @@ export default function PreIntermediateLessonXXXFlippedClassroom() {
         subtitle="Pre-Intermediate"
         descriptions={["Lesson XXX", "Flipped classroom", "..."]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

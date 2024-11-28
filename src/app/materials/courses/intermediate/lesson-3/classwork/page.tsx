@@ -13,9 +13,6 @@ export default function IntermediateLesson3Classwork() {
           "That's my kind of friend! (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

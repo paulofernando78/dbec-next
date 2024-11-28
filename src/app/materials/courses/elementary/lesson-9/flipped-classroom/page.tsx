@@ -13,9 +13,6 @@ export default function ElementaryLesson9FlippedClassroom() {
           "Do you play the guitar? (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

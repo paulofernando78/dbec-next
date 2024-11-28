@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit37() {
           "Unit 37 • can / could / would you... ? (Requests, offers, permission and invitations)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

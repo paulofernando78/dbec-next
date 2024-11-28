@@ -13,9 +13,6 @@ export default function ElementaryLesson25FlippedClassroom() {
           "Have you ever been there? (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

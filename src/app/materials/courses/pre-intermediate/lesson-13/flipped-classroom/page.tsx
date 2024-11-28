@@ -13,9 +13,6 @@ export default function PreIntermediateLesson13FlippedClassroom() {
           "Hit the road! (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

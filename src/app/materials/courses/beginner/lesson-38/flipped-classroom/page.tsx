@@ -13,9 +13,6 @@ export default function BeginnerLesson38FlippedClassroom() {
           "Where were you born? (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

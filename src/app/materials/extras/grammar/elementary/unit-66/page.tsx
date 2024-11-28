@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit66() {
           "Unit 66 • train(s) / bus(es) (singular and plural nouns)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

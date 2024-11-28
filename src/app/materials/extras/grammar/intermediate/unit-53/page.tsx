@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit53() {
           "Unit 53 • Verb + -ing (enjoy doing / stop doing, etc.)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

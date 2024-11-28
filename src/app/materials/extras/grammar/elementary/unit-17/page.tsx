@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit17() {
           "Unit 17 • Have you ever... ? (present perfect 3)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

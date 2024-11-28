@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit23() {
           "Unit 23 • be / have / do in present and past tenses",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

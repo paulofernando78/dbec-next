@@ -9,9 +9,6 @@ export default function GrammarInUseElementaryUnit24() {
         subtitle="Grammar"
         descriptions={["Elementary", "Unit 24 • Regular and irregular verbs"]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

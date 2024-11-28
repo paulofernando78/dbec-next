@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit25() {
           "Unit 25 • When I do and When I've done, if and when",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

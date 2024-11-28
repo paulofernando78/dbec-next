@@ -13,9 +13,6 @@ export default function IntermediateLesson40Classwork() {
           "Reaching your goals (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

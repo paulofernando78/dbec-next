@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit89() {
           "Unit 89 • both / both of, either / eother of, neither / neither of",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

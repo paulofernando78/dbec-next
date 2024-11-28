@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit108() {
           "Unit 108 • Superlative (the longest, the most enjoyable, etc.)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

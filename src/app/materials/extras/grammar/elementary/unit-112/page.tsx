@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit112() {
           "Unit 112 • afraid of..., good at... etc. of/at/for etc. (prepositions) + -ing",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

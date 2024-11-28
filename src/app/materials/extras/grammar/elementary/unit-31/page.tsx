@@ -12,9 +12,6 @@ export default function GrammarInUseElementaryUnit31() {
           "Unit 31 • must / mustn't / don't need to",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -9,9 +9,6 @@ export default function GrammarInUseElementaryUnit81() {
         subtitle="Grammar"
         descriptions={["Elementary", "Unit 81 • all, most, some, any, no/none"]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit137() {
           "Unit 137 • Phrasal verbs 1 Introduction",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

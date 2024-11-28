@@ -13,9 +13,6 @@ export default function BeginnerLesson23FlippedClassroom() {
           "I always eat breakfast. (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

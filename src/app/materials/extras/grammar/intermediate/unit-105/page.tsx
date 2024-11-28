@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit105() {
           "Unit 105 • Comparatives 1 (cheaper, more expensive, etc.)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

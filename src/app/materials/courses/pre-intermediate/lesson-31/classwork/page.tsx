@@ -13,9 +13,6 @@ export default function PreIntermediateLesson31Classwork() {
           "It's a long story. (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

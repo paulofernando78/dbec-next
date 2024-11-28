@@ -13,9 +13,6 @@ export default function IntermediateLesson12Homework() {
           "Expanding your horizons (Cycle 1)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

@@ -13,9 +13,6 @@ export default function IntermediateLesson39FlippedClassroom() {
           "A law must be passed! (Cycle 2)",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }

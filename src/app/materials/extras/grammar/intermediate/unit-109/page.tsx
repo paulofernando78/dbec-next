@@ -12,9 +12,6 @@ export default function GrammarInUseIntermediateUnit109() {
           "Unit 109 • Word order 1: verb + object; place and time",
         ]}
       />
-      <div className="line-break">
-        <UnderConstruction />
-      </div>
     </>
   );
 }
