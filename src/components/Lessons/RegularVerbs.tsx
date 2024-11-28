@@ -1,6 +1,6 @@
 import React from "react";
-import { Card } from "../Cards/Card";
 import { DictionaryCard } from "../DictionaryCard/DictionaryCard";
+import { Card } from "../Molecules/Cards/Card";
 
 export const RegularVerbs = () => {
   return (
