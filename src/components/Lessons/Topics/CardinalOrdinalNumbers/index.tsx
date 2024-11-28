@@ -1,6 +1,6 @@
-import { BoardCard } from "@/components/Cards/BoardCard";
-import { AudioPlayer } from "@/components/Atoms/Audioplayer";
+import { AudioPlayer } from "@/components/Atoms/AudioPlayer";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+import { BoardCard } from "@/components/Molecules/Cards/BoardCard";
 
 export const CardinalOrdinalNumbers = () => {
   return (

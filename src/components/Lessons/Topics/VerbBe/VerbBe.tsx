@@ -1,4 +1,4 @@
-import { BoardCard } from "@/components/Cards/BoardCard";
+import { BoardCard } from "@/components/Molecules/Cards/BoardCard";
 import React from "react";
 
 export const VerbBe = () => {
