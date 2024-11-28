@@ -1,5 +1,4 @@
 import { ContentCard } from "@/components/Molecules/Cards/ContentCard";
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
 
 const whiteboard = {
   title: "Listening",

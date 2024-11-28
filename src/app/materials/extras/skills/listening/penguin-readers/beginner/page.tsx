@@ -1,4 +1,4 @@
-import { DescriptionCard } from "@/components/Cards/DescriptionCard";
+import { DescriptionCard } from "@/components/Molecules/Cards/DescriptionCard";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import React from "react";
 
