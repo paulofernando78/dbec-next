@@ -80,8 +80,10 @@ export const LessonTemplate = ({
                 />
               )}
 
-            {lesson.flipcards && <FlipCard flipCards={lesson.flipcards}
-            />}
+            {lesson.flipcards &&
+              lesson.flipcards.map((flipCardProps, index) => (
+                <FlipCard key={index} flipCards={flipCardProps.flipCards} />
+              ))}
 
             {/* Audio Player */}
             {lesson.audioSrc && (

@@ -81,55 +81,60 @@
     {
       "flipcards": [
         {
-          "imgSrc": "/assets/img/woman-menopause.jpg",
-          "imgAlt": "An Image of a woman experiencing menopause symptoms, with a thoughtful expression.",
-          "width": "180px",
-          "height": "180px"
-        },
-        {
-          "imgSrc": "/assets/img/food-saturated-fat.webp",
-          "imgAlt": "An Illustration of foods high in saturated fat, such as bacon, ice cream, and nuts.",
-          "width": "180px",
-          "height": "180px"
-        },
-        {
-          "imgSrc": "/assets/img/health-screen-examine.jpg",
-          "imgAlt": "A doctor examining a patient's health information on a screen.",
-          "width": "180px",
-          "height": "180px"
-        },
-        {
-          "imgSrc": "/assets/img/man-vigorous.jpg",
-          "imgAlt": "A man in vigorous body shape.",
-          "width": "180px",
-          "height": "180px"
-        },
-        {
-          "imgSrc": "/assets/img/acronym-ibm.jpg",
-          "imgAlt": "Graphic of the acronym IBM..",
-          "width": "180px",
-          "height": "180px"
-        },
-        {
-          "imgSrc": "/assets/img/gauge-moderate.png",
-          "imgAlt": "Gauge showing a moderate level on a scale.",
-          "width": "180px",
-          "height": "180px"
-        },
-        {
-          "imgSrc": "/assets/img/calorie.jpg",
-          "imgAlt": "Visual representation of calorie measurement with food items.",
-          "width": "180px",
-          "height": "180px"
-        },
-        {
-          "imgSrc": "/assets/img/aerobic-fitness.jpg",
-          "imgAlt": "Person performing aerobic exercise.",
-          "width": "180px",
-          "height": "180px"
+          "flipCards": [
+            {
+              "imgSrc": "/assets/img/woman-menopause.jpg",
+              "imgAlt": "An Image of a woman experiencing menopause symptoms, with a thoughtful expression.",
+              "width": "180px",
+              "height": "180px"
+            },
+            {
+              "imgSrc": "/assets/img/food-saturated-fat.webp",
+              "imgAlt": "An Illustration of foods high in saturated fat, such as bacon, ice cream, and nuts.",
+              "width": "180px",
+              "height": "180px"
+            },
+            {
+              "imgSrc": "/assets/img/health-screen-examine.jpg",
+              "imgAlt": "A doctor examining a patient's health information on a screen.",
+              "width": "180px",
+              "height": "180px"
+            },
+            {
+              "imgSrc": "/assets/img/man-vigorous.jpg",
+              "imgAlt": "A man in vigorous body shape.",
+              "width": "180px",
+              "height": "180px"
+            },
+            {
+              "imgSrc": "/assets/img/acronym-ibm.jpg",
+              "imgAlt": "Graphic of the acronym IBM..",
+              "width": "180px",
+              "height": "180px"
+            },
+            {
+              "imgSrc": "/assets/img/gauge-moderate.png",
+              "imgAlt": "Gauge showing a moderate level on a scale.",
+              "width": "180px",
+              "height": "180px"
+            },
+            {
+              "imgSrc": "/assets/img/calorie.jpg",
+              "imgAlt": "Visual representation of calorie measurement with food items.",
+              "width": "180px",
+              "height": "180px"
+            },
+            {
+              "imgSrc": "/assets/img/aerobic-fitness.jpg",
+              "imgAlt": "Person performing aerobic exercise.",
+              "width": "180px",
+              "height": "180px"
+            }
+          ]
         }
       ]
     },
+    
     {
       "paragraphSections": [
         {
