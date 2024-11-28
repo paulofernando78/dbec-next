@@ -12,7 +12,7 @@ import { Button } from "@/components/Atoms/Button";
 // Typescript
 import { RadioProps } from "./type";
 
-import DOMPurify from "dompurify";
+// import DOMPurify from "dompurify";
 
 export const Radio = ({ questions }: RadioProps) => {
   // Use an array to store the selected answers for each question
@@ -39,7 +39,7 @@ export const Radio = ({ questions }: RadioProps) => {
           <p className="margin-bottom bold">{question.title}</p>
           <p
             dangerouslySetInnerHTML={{
-              __html: DOMPurify.sanitize(question.question),
+              __html: question.question,
             }}
           ></p>
           <div>

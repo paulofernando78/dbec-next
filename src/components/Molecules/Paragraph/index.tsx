@@ -1,6 +1,6 @@
 "use client";
 
-import DOMPurify from "dompurify";
+// import DOMPurify from "dompurify";
 
 // Components
 import { DictionaryCard } from "@/components";
@@ -25,7 +25,7 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
               <p
                 className="display-inline"
                 dangerouslySetInnerHTML={{
-                  __html: DOMPurify.sanitize(paragraph.text),
+                  __html: paragraph.text,
                 }}
               ></p>{" "}
             </div>
