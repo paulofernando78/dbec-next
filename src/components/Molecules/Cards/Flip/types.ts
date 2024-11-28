@@ -1,6 +1,6 @@
 import { StaticImageData } from "next/image";
 
-interface FlipCardData {
+export interface FlipCardData {
   frontText?: string;
   backText?: string;
   imgSrc?: StaticImageData;

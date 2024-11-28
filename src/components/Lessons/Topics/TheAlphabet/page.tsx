@@ -1,6 +1,5 @@
-import { AudioPlayer } from "@/components/Audioplayer";
-import { Card } from "@/components/Cards/Card";
-import { NoteCard } from "@/components/Cards/NoteCard";
+import { AudioPlayer } from "@/components/Atoms/AudioPlayer";
+import { Card } from "@/components/Molecules/Cards/Card";
 
 interface Alphabet {
   audioSrc: string;
@@ -206,23 +205,21 @@ export default function TheAlphabet() {
           </div>
         ))}
       </div>
-      <NoteCard>
-        <AudioPlayer audioSrc="\assets\audio\components\Topics\TheAlphabet\the-alphabet-notes.mp3"/>
-        <p>
-          Z in British English is pronounced{" "}
-          <span className="phonetics">/zed/</span>
-        </p>
-        <p>**Don't confuse the letters "a", "e", and "i".</p>
-        <p>The letter "c" has the same sound as the words "see", and "sea".</p>
-        <p>
-          The letter "h" <span className="phonetics">/eɪtʃ/</span> doesn't have
-          the same sound as the number 8{" "}
-          <span className="phonetics">/eɪt/</span>
-        </p>
-        <p>The letter "t" has the same sound as the word "tea".</p>
-        <p>The letter "u" has the same sound as the word "you".</p>
-        <p>The letter "y" has the same sound as the word "why".</p>
-      </NoteCard>
+
+      <AudioPlayer audioSrc="\assets\audio\components\Topics\TheAlphabet\the-alphabet-notes.mp3" />
+      <p>
+        Z in British English is pronounced{" "}
+        <span className="phonetics">/zed/</span>
+      </p>
+      <p>**Don't confuse the letters "a", "e", and "i".</p>
+      <p>The letter "c" has the same sound as the words "see", and "sea".</p>
+      <p>
+        The letter "h" <span className="phonetics">/eɪtʃ/</span> doesn't have
+        the same sound as the number 8 <span className="phonetics">/eɪt/</span>
+      </p>
+      <p>The letter "t" has the same sound as the word "tea".</p>
+      <p>The letter "u" has the same sound as the word "you".</p>
+      <p>The letter "y" has the same sound as the word "why".</p>
     </div>
   );
 }
