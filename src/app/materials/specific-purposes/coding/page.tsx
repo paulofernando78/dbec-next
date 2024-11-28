@@ -1,4 +1,4 @@
-import { Card } from "@/components/Cards/Card";
+import { Card } from "@/components/Atoms/Cards/Card";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 

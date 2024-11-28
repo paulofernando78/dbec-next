@@ -1,5 +1,5 @@
 import { BoardCard } from "@/components/Cards/BoardCard";
-import { AudioPlayer } from "@/components/Audioplayer";
+import { AudioPlayer } from "@/components/Atoms/Audioplayer";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 export const CardinalOrdinalNumbers = () => {
@@ -82,8 +82,10 @@ export const CardinalOrdinalNumbers = () => {
             <span className="underline">th</span>
           </p>
           <p>
-            20 twenty <span className="portuguese">vinte</span> • 20<sup>th</sup> twent
-            <span className="underline">ieth</span><span className="portuguese"> vigésimo(a)</span>
+            20 twenty <span className="portuguese">vinte</span> • 20
+            <sup>th</sup> twent
+            <span className="underline">ieth</span>
+            <span className="portuguese"> vigésimo(a)</span>
           </p>
           <p>
             21 twenty-one • 21<sup>st</sup> twenty-fir
@@ -122,8 +124,10 @@ export const CardinalOrdinalNumbers = () => {
             <span className="underline">th</span>
           </p>
           <p>
-            30 thirty  <span className="portuguese">trinta</span> • 30<sup>th</sup> thirt
-            <span className="underline">ieth</span> <span className="portuguese">trigésimo(a)</span>
+            30 thirty <span className="portuguese">trinta</span> • 30
+            <sup>th</sup> thirt
+            <span className="underline">ieth</span>{" "}
+            <span className="portuguese">trigésimo(a)</span>
           </p>
           <p>
             31 thirty-one • 31<sup>st</sup> thirty-fir

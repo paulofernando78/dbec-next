@@ -1,4 +1,4 @@
-import { AudioPlayer } from "@/components/Audioplayer";
+import { AudioPlayer } from "@/components/Atoms/Audioplayer";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import Link from "next/link";
 import React from "react";

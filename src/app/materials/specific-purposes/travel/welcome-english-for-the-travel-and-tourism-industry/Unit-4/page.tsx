@@ -1,4 +1,4 @@
-import { AudioPlayer } from "@/components/Audioplayer";
+import { AudioPlayer } from "@/components/Atoms/Audioplayer";
 import { Radio } from "@/components/Molecules/ExerciseTemplates/Radio";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 
