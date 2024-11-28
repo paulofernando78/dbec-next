@@ -1,4 +1,3 @@
-import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 
 export default function ElementaryLesson20FlippedClassroom() {
@@ -13,7 +12,6 @@ export default function ElementaryLesson20FlippedClassroom() {
           "How's the neighborhood? (Cycle 2)",
         ]}
       />
-      <UnderConstruction />
       <div className="line-break"></div>
     </>
   );

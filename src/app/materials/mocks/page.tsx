@@ -12,7 +12,7 @@ import {
 } from "@/components";
 
 // Images
-import { cat1, cat2, cat3 } from "@/img/index";
+import { animalCat1, animalCat2, animalCat3 } from "@/img/index";
 import { Dropdown } from "@/components/Molecules/ExerciseTemplates/Dropdown";
 
 const radio = [
@@ -105,15 +105,15 @@ const fillInTheBlanks = [
 
 const swiperFraction = [
   {
-    imgSrc: cat1,
+    imgSrc: animalCat1,
     imgAlt: "A cat picture 1",
   },
   {
-    imgSrc: cat2,
+    imgSrc: animalCat2,
     imgAlt: "A cat picture 2",
   },
   {
-    imgSrc: cat3,
+    imgSrc: animalCat3,
     imgAlt: "A cat picture 3",
   },
 ];
@@ -130,7 +130,7 @@ const flipCards = [
     backText: "...",
   },
   {
-    imgSrc: cat1,
+    imgSrc: animalCat1,
     imgAlt: "A cat",
   },
 ];
