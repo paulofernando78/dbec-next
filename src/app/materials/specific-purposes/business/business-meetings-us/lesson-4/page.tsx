@@ -12,9 +12,6 @@ export default function Lesson1() {
           "Lesson 4 • Giving a Presentation (Part A)",
         ]}
       />
-      <div>
-        <UnderConstruction />
-      </div>
     </>
   );
 }

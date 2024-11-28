@@ -12,9 +12,6 @@ export default function Lesson1() {
           "Lesson 7 • Managing a Discussion",
         ]}
       />
-      <div>
-        <UnderConstruction />
-      </div>
     </>
   );
 }

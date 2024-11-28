@@ -12,9 +12,6 @@ export default function Lesson1() {
           "Lesson 10 • Ending a Meeting",
         ]}
       />
-      <div>
-        <UnderConstruction />
-      </div>
     </>
   );
 }

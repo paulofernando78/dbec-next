@@ -9,9 +9,6 @@ export default function Lesson1() {
         subtitle="Business"
         descriptions={["Business MEetings (US)", "Lesson 8 • Taking Questions"]}
       />
-      <div>
-        <UnderConstruction />
-      </div>
     </>
   );
 }
