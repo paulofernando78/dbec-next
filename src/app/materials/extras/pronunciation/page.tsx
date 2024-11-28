@@ -3,47 +3,11 @@
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
-import TheAlphabet from "@/components/Lessons/Topics/TheAlphabet/page";
-import { LetterA } from "@/components/Extras/Pronunciation/Letters/LetterA";
-import { LettersAI } from "@/components/Extras/Pronunciation/Letters/LettersAI";
-import { LettersAU } from "@/components/Extras/Pronunciation/Letters/LettersAU";
-import { LettersAW } from "@/components/Extras/Pronunciation/Letters/LettersAW";
-import { LettersAWE } from "@/components/Extras/Pronunciation/Letters/LettersAWE";
-import { LetterE } from "@/components/Extras/Pronunciation/Letters/LetterE";
-import { LetterEsilent } from "@/components/Extras/Pronunciation/Letters/LetterEsilent/page";
-import { LettersEA } from "@/components/Extras/Pronunciation/Letters/LettersEA";
-import { LettersEAR } from "@/components/Extras/Pronunciation/Letters/LettersEAR";
-import { LettersEE } from "@/components/Extras/Pronunciation/Letters/LettersEE";
-import { LettersEI } from "@/components/Extras/Pronunciation/Letters/LettersEI";
-import { LettersER } from "@/components/Extras/Pronunciation/Letters/LettersER";
-import { LettersEAU } from "@/components/Extras/Pronunciation/Letters/LettersEAU";
-import { LettersET } from "@/components/Extras/Pronunciation/Letters/LettersET";
-import { LettersEY } from "@/components/Extras/Pronunciation/Letters/LettersEY";
-import { LettersAvsE } from "@/components/Extras/Pronunciation/Letters/LettersAvsE";
-import { LetterI } from "@/components/Extras/Pronunciation/Letters/LetterI";
-import { LettersIE } from "@/components/Extras/Pronunciation/Letters/LetterIE";
-import { LettersIR } from "@/components/Extras/Pronunciation/Letters/LettersIR";
-import { LettersEAvsI } from "@/components/Extras/Pronunciation/Letters/LettersEAvsI";
-import { LettersNG } from "@/components/Extras/Pronunciation/Letters/LettersNG";
-import { LettersSH } from "@/components/Extras/Pronunciation/Letters/LettersSH";
-import { LettersTch } from "@/components/Extras/Pronunciation/Letters/LettersTch";
-import { LettersSHvsCH } from "@/components/Extras/Pronunciation/Letters/LettersSHvsCH";
-import { LetterO } from "@/components/Extras/Pronunciation/Letters/LetterO";
-import { LettersOA } from "@/components/Extras/Pronunciation/Letters/LettersOA";
-import { LettersOO } from "@/components/Extras/Pronunciation/Letters/LettersOO";
-import { LettersOR } from "@/components/Extras/Pronunciation/Letters/LettersOR";
-import { LettersOUS } from "@/components/Extras/Pronunciation/Letters/LettersOUS";
-import { LettersOW } from "@/components/Extras/Pronunciation/Letters/LettersOW";
-import { LetterT } from "@/components/Extras/Pronunciation/Letters/LetterT";
-import { LettersTH } from "@/components/Extras/Pronunciation/Letters/LettersTH";
-import { LetterU } from "@/components/Extras/Pronunciation/Letters/LetterU";
-import { LettersUI } from "@/components/Extras/Pronunciation/Letters/LettersUI";
-import { LettersOOvsU } from "@/components/Extras/Pronunciation/Letters/LettersOOvsU";
-import { LetterY } from "@/components/Extras/Pronunciation/Letters/LetterY";
+
 
 import { ScrollToTop } from "@/components/Atoms/ScrollToTop";
-import { LettersUS } from "@/components/Extras/Pronunciation/Letters/LettersUS";
 import { Card } from "@/components";
+import TheAlphabet from "@/components/Lessons/Topics/TheAlphabet/page";
 
 const links = [
   {
@@ -230,158 +194,7 @@ const links = [
     letter: 'Letters "y"',
     phonetics: "/i/, /j/, /aɪ/",
   },
-];
-
-const letters = [
-  {
-    id: "letter-a",
-    component: () => <LetterA />,
-  },
-  {
-    id: "letters-ai",
-    component: () => <LettersAI />,
-  },
-  {
-    id: "letters-au",
-    component: () => <LettersAU />,
-  },
-  {
-    id: "letters-aw",
-    component: () => <LettersAW />,
-  },
-  {
-    id: "letters-awe",
-    component: () => <LettersAWE />,
-  },
-  {
-    id: "letter-e",
-    component: () => <LetterE />,
-  },
-  {
-    id: "letter-e-silent",
-    component: () => <LetterEsilent />,
-  },
-  {
-    id: "letters-ea",
-    component: () => <LettersEA />,
-  },
-  {
-    id: "letters-ear",
-    component: () => <LettersEAR />,
-  },
-  {
-    id: "letters-eau",
-    component: () => <LettersEAU />,
-  },
-  {
-    id: "letters-ee",
-    component: () => <LettersEE />,
-  },
-  {
-    id: "letters-ei",
-    component: () => <LettersEI />,
-  },
-  {
-    id: "letters-er",
-    component: () => <LettersER />,
-  },
-  {
-    id: "letters-et",
-    component: () => <LettersET />,
-  },
-  {
-    id: "letters-ey",
-    component: () => <LettersEY />,
-  },
-  {
-    id: "letters-a-vs-e",
-    component: () => <LettersAvsE />,
-  },
-  {
-    id: "letter-i",
-    component: () => <LetterI />,
-  },
-  {
-    id: "letters-ie",
-    component: () => <LettersIE />,
-  },
-  {
-    id: "letters-ir",
-    component: () => <LettersIR />,
-  },
-  {
-    id: "letters-ea-vs-i",
-    component: () => <LettersEAvsI />,
-  },
-  {
-    id: "letters-ng",
-    component: () => <LettersNG />,
-  },
-  {
-    id: "letters-sh",
-    component: () => <LettersSH />,
-  },
-  {
-    id: "letters-(t)ch",
-    component: () => <LettersTch />,
-  },
-  {
-    id: "letters-sh-vs-ch",
-    component: () => <LettersSHvsCH />,
-  },
-  {
-    id: "letter-o",
-    component: () => <LetterO />,
-  },
-  {
-    id: "letters-oa",
-    component: () => <LettersOA />,
-  },
-  {
-    id: "letters-oo",
-    component: () => <LettersOO />,
-  },
-  {
-    id: "letters-or",
-    component: () => <LettersOR />,
-  },
-  {
-    id: "letters-ous",
-    component: () => <LettersOUS />,
-  },
-  {
-    id: "letters-ow",
-    component: () => <LettersOW />,
-  },
-  {
-    id: "letters-th",
-    component: () => <LettersTH />,
-  },
-  {
-    id: "letter-t",
-    component: () => <LetterT />,
-  },
-  {
-    id: "letter-u",
-    component: () => <LetterU />,
-  },
-  {
-    id: "letters-ui",
-    component: () => <LettersUI />,
-  },
-  {
-    id: "letters-us",
-    component: () => <LettersUS />,
-  },
-  {
-    id: "letters-oo-vs-u",
-    component: () => <LettersOOvsU />,
-  },
-  {
-    id: "letter-y",
-    component: () => <LetterY />,
-  },
-];
+]
 
 export default function ExtraPronunciation() {
   return (
@@ -421,12 +234,7 @@ export default function ExtraPronunciation() {
 
         <hr />
 
-        {/* Letters */}
-        {letters.map((letter, index) => (
-          <span id={letter.id} key={index}>
-            {letter.component()}
-          </span>
-        ))}
+       
 
         <Card bgColor="Black" textColor="White">
           <p className="bold">Comparisons</p>
