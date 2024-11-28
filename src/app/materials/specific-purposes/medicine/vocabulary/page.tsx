@@ -1,9 +1,9 @@
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-import { Card } from "@/components/Atoms/Cards/Card";
 import Image from "next/image";
 
 import bladderCancer from "@/img/bladder-cancer.jpg";
+import { Card } from "@/components";
 
 interface Word {
   word?: string;

@@ -1,4 +1,4 @@
-import { AudioPlayer } from "@/components/Atoms/Audioplayer";
+import { AudioPlayer } from "@/components";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 
 export default function History() {

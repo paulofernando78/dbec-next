@@ -1,5 +1,4 @@
-import { AudioPlayer } from "@/components/Atoms/Audioplayer";
-import { Card } from "@/components/Atoms/Cards/Card";
+import { Card } from "@/components";
 import React from "react";
 
 export default function PriscilaTanaca() {

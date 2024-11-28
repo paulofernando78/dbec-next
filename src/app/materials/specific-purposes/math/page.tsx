@@ -1,7 +1,7 @@
 import React from "react";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import Link from "next/link";
-import { BoardCard } from "@/components/Cards/BoardCard";
+import { BoardCard } from "@/components";
 
 export default function Math() {
   return (
