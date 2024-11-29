@@ -7,16 +7,16 @@ import { useEffect, useState } from "react";
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 
-const lesson2Homework =
+const CONTENTS_JSON_PATH =
   "/assets/data/materials/courses/beginner/lesson-2/homework.json";
 
-export default function SpeakBusinessEnglishLikeAnAmericanLesson2() {
+export default function CourseBeginnerLesson2Homework() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch(lesson2Homework)
+    fetch(CONTENTS_JSON_PATH)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch lesson data");

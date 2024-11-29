@@ -1,3 +1,4 @@
+import SwiperFraction from "@/components/Organisms/Swiper/Fraction";
 import { AudioPlayer } from "../../Atoms/AudioPlayer";
 import { DictionaryCard } from "../../DictionaryCard/DictionaryCard";
 

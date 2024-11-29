@@ -33,6 +33,8 @@ export default function SwiperFraction({ images }: SwiperFractionProps) {
                 <Image
                   src={image.imgSrc}
                   alt={image.imgAlt}
+                  width={1000}
+                  height={1000}
                   className={styles["image"]}
                 />
               )}

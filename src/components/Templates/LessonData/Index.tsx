@@ -39,6 +39,8 @@ export const LessonTemplate = ({
           subDescription={lessonData.whiteboard.subDescription}
         />
       )}
+
+      {/* Under Construction */}
       <div className="line-break">
         {isUnderConstruction && (
           <div className="flex-8px">
@@ -46,6 +48,7 @@ export const LessonTemplate = ({
             <p>Under Construction!</p>
           </div>
         )}
+
         {lessonData.lessons.map((lesson, lessonIndex) => (
           <div key={lessonIndex} className="line-break">
             {/* Title */}
@@ -59,11 +62,9 @@ export const LessonTemplate = ({
             )}
 
             {/* Paragraphs + Word */}
-            <div>
               {lesson.paragraphSections && (
                 <Paragraph paragraphSections={lesson.paragraphSections} />
               )}
-            </div>
 
             {/* SwiperFraction images */}
             {lesson.swiperFractionImages &&
@@ -71,8 +72,8 @@ export const LessonTemplate = ({
                 <SwiperFraction
                   images={lesson.swiperFractionImages?.map(
                     (swiperFractionImage) => ({
-                      // imgSrc: swiperFractionImage.imgSrc,
-                      // imgAlt: swiperFractionImage.imgAlt,
+                      imgSrc: swiperFractionImage.imgSrc,
+                      imgAlt: swiperFractionImage.imgAlt,
                       imgSrcLink: swiperFractionImage.imgSrcLink,
                       imgAltLink: swiperFractionImage.imgAltLink,
                     })
@@ -99,10 +100,10 @@ export const LessonTemplate = ({
             {/* Checkbox Exercises */}
 
             {/* Dropdown Exercises */}
-            {/* <Dropdown questions={lesson.dropdown} /> */}
+            {lesson.dropdown && <Dropdown questions={lesson.dropdown} />}
 
             {/* Fill in the Blanks Exercises */}
-            {/* <FillInTheBlanks questions={lesson.fillInTheBlanks} /> */}
+            {lesson.fillInTheBlanks && <FillInTheBlanks questions={lesson.fillInTheBlanks} />}
           </div>
         ))}
       </div>

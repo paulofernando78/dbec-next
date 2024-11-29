@@ -1,4 +1,4 @@
-interface FillInTheBlanksData {
+export interface FillInTheBlanksQuestion {
     options: boolean;
     width?: string;
     title?: string;
@@ -13,6 +13,6 @@ interface FillInTheBlanksData {
   }
   
   export interface FillInTheBlankProps {
-    questions: FillInTheBlanksData[];
+    questions: FillInTheBlanksQuestion[];
     display?: string;
   }

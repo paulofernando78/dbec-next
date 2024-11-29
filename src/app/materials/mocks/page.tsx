@@ -11,7 +11,7 @@ import {
   Whiteboard,
 } from "@/components";
 
-import { animalCat1, animalCat2, animalCat3 } from "@/img/index";
+import { animalCat1, animalCat2 } from "@/img/index";
 import { Dropdown } from "@/components/Molecules/ExerciseTemplates/Dropdown";
 
 const radio = [
@@ -108,12 +108,8 @@ const swiperFraction = [
     imgAlt: "A cat picture 1",
   },
   {
-    imgSrc: animalCat2,
+    imgSrc: "/assets/img/animal-cat2.jpeg",
     imgAlt: "A cat picture 2",
-  },
-  {
-    imgSrc: animalCat3,
-    imgAlt: "A cat picture 3",
   },
 ];
 
@@ -188,7 +184,7 @@ export default function Mocks() {
           today.
         </p>
         <Card bgColor="black" textColor="white">
-          <b>Slider Fraction</b>
+          <b>Swiper Fraction</b>
         </Card>
         <SwiperFraction images={swiperFraction} />
         <Card bgColor="black" textColor="white">

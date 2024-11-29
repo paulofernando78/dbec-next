@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 
-const lesson2FlippedClassroom =
+const CONTENTS_JSON_PATH =
   "/assets/data/materials/courses/beginner/lesson-2/flipped-classroom.json";
 
 export default function CourseBeginnerLesson2FlippedClassroom() {
@@ -16,7 +16,7 @@ export default function CourseBeginnerLesson2FlippedClassroom() {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch(lesson2FlippedClassroom)
+    fetch(CONTENTS_JSON_PATH)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch lesson data");

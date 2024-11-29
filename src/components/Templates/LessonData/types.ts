@@ -3,6 +3,8 @@ import { SwiperFractionProps } from "@/components/Organisms/Swiper/Fraction/type
 import { Question } from "@/components/Molecules/ExerciseTemplates/Radio/type";
 import { ParagraphSection } from "@/components/Molecules/Paragraph/.types";
 import { FlipCardsProps } from "@/components/Molecules/Cards/Flip/types";
+import { DropdownProps, DropdownQuestion } from "@/components/Molecules/ExerciseTemplates/Dropdown/types";
+import { FillInTheBlanksQuestion } from "@/components/Molecules/ExerciseTemplates/FillInTheBlank/type";
 
 export interface LessonData {
   title: string;
@@ -12,9 +14,11 @@ export interface LessonData {
   paragraphSections?: ParagraphSection[];
   swiperFractionImages?: SwiperFractionProps["images"];
   flipcards?: FlipCardsProps[]
-  radio?: Question[];
   audioSrc?: string;
   videoSrc?: string;
+  radio?: Question[];
+  dropdown?: DropdownQuestion[]
+  fillInTheBlanks?: FillInTheBlanksQuestion[]
 }
 
 export interface LessonTemplateProps {

@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/image";
 
 interface SwiperFractionImages {
-  imgSrc?: StaticImageData;
+  imgSrc?: StaticImageData | string;
   imgAlt?: string;
   imgSrcLink?: string;
   imgAltLink?: string;
