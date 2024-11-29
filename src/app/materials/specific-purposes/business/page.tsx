@@ -29,7 +29,7 @@ export default function Business() {
 
   return (
     <>
-      <ContentCard whiteboard={whiteboard} contents={contents} />
+      {/* <ContentCard contents={contents} /> */}
     </>
   );
 }

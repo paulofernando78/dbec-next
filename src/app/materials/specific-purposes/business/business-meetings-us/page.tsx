@@ -77,7 +77,7 @@ const contents = [
 export default function BusinessMeetingUs() {
   return (
     <>
-      <ContentCard whiteboard={whiteboard} contents={contents} />
+      {/* <ContentCard whiteboard={whiteboard} contents={contents} /> */}
     </>
   );
 }

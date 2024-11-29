@@ -32,7 +32,7 @@ export default function SpeakBusinessEnglishLikeAnAmerican() {
   return (
     <>
       <div>
-        <ContentCard whiteboard={whiteboard} contents={contents} />
+        {/* <ContentCard whiteboard={whiteboard} contents={contents} /> */}
       </div>
     </>
   );
