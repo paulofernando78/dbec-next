@@ -1,0 +1,34 @@
+{
+  "whiteboard": {
+    "title": "Courses",
+    "subtitle": "Beginner (A1)"
+  },
+  "contents": [
+    {
+      "cardContents": [
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "...",
+          "contents": [
+            {
+              "content": "..."
+            },
+            {
+              "link": "...",
+              "linkLabel": "Test ... "
+            },
+            {
+              "globeLink": "...",
+              "globeLabel": "Test ... "
+            },
+            {
+              "checkboxLink": "...",
+              "checkboxLabel": "Test ... "
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
