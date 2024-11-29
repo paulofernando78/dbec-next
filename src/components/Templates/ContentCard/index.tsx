@@ -1,7 +1,6 @@
 // Imports
 import Link from "next/link";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
-import { Card } from "../Card";
 
 import Image from "next/image";
 
@@ -13,6 +12,7 @@ import globeIcon from "@/img/icon/globe.png";
 
 // Typescript
 import { CardContent, ContentCardProps } from "./type";
+import { Card } from "@/components/Molecules/Cards/Card";
 
 export const ContentCard = ({ contentData }: ContentCardProps) => {
   return (
