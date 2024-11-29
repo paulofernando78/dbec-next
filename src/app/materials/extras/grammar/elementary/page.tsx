@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { ContentCard } from "@/components/Molecules/Cards/ContentCard";
 import { MainContent, Whiteboard } from "@/components/Molecules/Cards/ContentCard/type";
 
-export default function ExtraGrammarElementary() {
+export default function ExtrasGrammarElementary() {
   const [contentData, setContentData] = useState<{ whiteboard?: Whiteboard; contents: MainContent[] }>({
     whiteboard: undefined,
     contents: [],
@@ -12,10 +12,10 @@ export default function ExtraGrammarElementary() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  const extraGrammarElementaryContents = "/assets/data/materials/extra/grammar/elementary/contents.json";
+  const extrasGrammarElementaryContents = "/assets/data/materials/extras/grammar/elementary/contents.json";
 
   useEffect(() => {
-    fetch(extraGrammarElementaryContents)
+    fetch(extrasGrammarElementaryContents)
       .then((response) => {
         if (!response.ok) throw new Error("Error loading JSON");
         return response.json();

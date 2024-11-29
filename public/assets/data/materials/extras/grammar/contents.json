@@ -1,0 +1,27 @@
+{
+  "whiteboard": {
+    "title": "Extras",
+    "subtitle": "Grammar"
+  },
+  "contents": [
+    {
+      "cardContents": [
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Grammar in Use",
+          "contents": [
+            {
+              "link": "/materials/extras/grammar/elementary",
+              "linkLabel": "Elementary"
+            },
+            {
+              "link": "/materials/extras/grammar/intermediate",
+              "linkLabel": "Intermediate"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
