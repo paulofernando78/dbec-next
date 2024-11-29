@@ -1,6 +1,4 @@
-import { ContentCard } from "@/components/Molecules/Cards/ContentCard";
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
-import { title } from "process";
+import { ContentCard } from "@/components/Templates/ContentCard";
 
 const whiteboard = {
   title: "Specific Purposes",

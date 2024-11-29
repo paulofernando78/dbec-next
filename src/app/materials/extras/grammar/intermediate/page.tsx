@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 
-import { ContentCard } from "@/components/Molecules/Cards/ContentCard";
-import { MainContent, Whiteboard } from "@/components/Molecules/Cards/ContentCard/type";
+import { ContentCard } from "@/components/Templates/ContentCard";
+import { MainContent, Whiteboard } from "@/components/Templates/ContentCard/type";
 
 export default function ExtrasGrammarIntermediate() {
   const [contentData, setContentData] = useState<{ whiteboard?: Whiteboard; contents: MainContent[] }>({

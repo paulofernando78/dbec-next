@@ -4,8 +4,8 @@
 import { useEffect, useState } from "react";
 
 // Components
-import { ContentCard } from "@/components/Molecules/Cards/ContentCard";
-import { MainContent, Whiteboard } from "@/components/Molecules/Cards/ContentCard/type";
+import { ContentCard } from "@/components/Templates/ContentCard";
+import { MainContent, Whiteboard } from "@/components/Templates/ContentCard/type";
 
 
 export default function SpeakBusinessEnglishLikeAnAmerican() {
