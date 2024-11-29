@@ -30,9 +30,13 @@ export interface Whiteboard {
   title: string;
   subtitle: string
   descriptions?: string[]
+  subDescription?: string
 }
 
 export interface ContentCardProps {
-  whiteboard?: Whiteboard
-  contents: MainContent[];
+  contentData: {
+    whiteboard?: Whiteboard;
+    contents: MainContent[];
+  };
 }
+

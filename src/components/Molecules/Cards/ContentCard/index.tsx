@@ -14,18 +14,19 @@ import globeIcon from "@/img/icon/globe.png";
 // Typescript
 import { CardContent, ContentCardProps } from "./type";
 
-export const ContentCard = ({ whiteboard, contents }: ContentCardProps) => {
+export const ContentCard = ({ contentData }: ContentCardProps) => {
   return (
     <>
-      {whiteboard && (
+      {contentData.whiteboard && (
         <Whiteboard
-          title={whiteboard.title}
-          subtitle={whiteboard.subtitle}
-          descriptions={whiteboard.descriptions}
+          title={contentData.whiteboard.title}
+          subtitle={contentData.whiteboard.subtitle}
+          descriptions={contentData.whiteboard.descriptions}
+          subDescription={contentData.whiteboard.subDescription}
         />
       )}
       <div className="line-break">
-        {contents.map((content, contentIndex) => (
+        {contentData.contents.map((content, contentIndex) => (
           <div key={contentIndex} className="line-break">
             {/* Render Card if cardLabel exists */}
             {content.headerLabel && (

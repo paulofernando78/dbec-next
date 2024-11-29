@@ -17,12 +17,20 @@ const contents = [
         cardLabel: "Audiobooks",
         contents: [
           {
-            link: "/materials/extras/skills/listening/penguin-kids",
-            linkLabel: "Penguin Kids",
+            link: "/materials/extras/skills/listening/audiobooks/beginner",
+            linkLabel: "Beginner (A1)",
           },
           {
-            link: "/materials/extras/skills/listening/penguin-readers",
-            linkLabel: "Penguin Readers",
+            link: "/materials/extras/skills/listening/audiobooks/elementary ",
+            linkLabel: "Elementary (A2)",
+          },
+          {
+            link: "/materials/extras/skills/listening/audiobooks/pre-intermediate ",
+            linkLabel: "Pre-Intermediate (A2-B1)",
+          },
+          {
+            link: "/materials/extras/skills/listening/audiobooks/intermediate ",
+            linkLabel: "Intermediate (B1)",
           },
         ],
       },

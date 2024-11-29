@@ -26,8 +26,8 @@ export default function CourseBeginnerLesson2Classwork() {
         setLessonData(data);
         setLoading(false);
       })
-      .catch((err) => {
-        console.error(err);
+      .catch((error) => {
+        console.error(error);
         setError(true);
         setLoading(false);
       });
