@@ -1,35 +1,42 @@
+"use client";
+import { useEffect, useState } from "react";
+
 import { ContentCard } from "@/components/Molecules/Cards/ContentCard";
+import { MainContent, Whiteboard } from "@/components/Molecules/Cards/ContentCard/type";
 
-const whiteboard = {
-  title: "Listening",
-  subtitle: "Articles",
-  descriptions: ["Arts and Culture"],
-};
+export default function ExtrasSkillsListeningArticlesArtsAndCulture() {
+  const [contentData, setContentData] = useState<{ whiteboard?: Whiteboard; contents: MainContent[] }>({
+    whiteboard: undefined,
+    contents: [],
+  });
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
 
-const contents = [
-  {
-    cardContents: [
-      {
-        bgColor: "black",
-        textColor: "white",
-        cardLabel: "By date",
-        contents: [
-          {
-            link: "/extras/skills/listening/articles/arts-and-culture/new-food-flavors-coming-to-stores",
-            linkLabel: "New Food flavors coming to stores (May 24, 2024)",
-          },
-        ],
-      },
-    ],
-  },
-];
+  const extrasSkillsListeningArticlesArtsAndCulture = "/assets/data/materials/extras/skills/listening/articles/arts-and-culture";
 
-export default function ArtsAndCulture() {
+  useEffect(() => {
+    fetch(extrasSkillsListeningArticlesArtsAndCulture)
+      .then((response) => {
+        if (!response.ok) throw new Error("Error loading JSON");
+        return response.json();
+      })
+      .then((data: { whiteboard?: Whiteboard; contents: MainContent[] }) => {
+        setContentData(data);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error(error);
+        setError(true);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error loading lesson data.</p>;
+
   return (
     <>
-      <div>
-        <ContentCard whiteboard={whiteboard} contents={contents} />
-      </div>
+      <ContentCard contentData={contentData} />
     </>
   );
 }

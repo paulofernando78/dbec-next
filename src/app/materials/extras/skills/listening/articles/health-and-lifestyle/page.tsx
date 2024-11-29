@@ -1,39 +1,46 @@
+"use client";
+
+// Hooks
+import { useEffect, useState } from "react";
+
+// Components
 import { ContentCard } from "@/components/Molecules/Cards/ContentCard";
+import { MainContent, Whiteboard } from "@/components/Molecules/Cards/ContentCard/type";
 
-const whiteboard = {
-  title: "Listening",
-  subtitle: "Articles",
-  descriptions: ["Health & Lifestyle"],
-};
+export default function ExtrasSkillsListeningArticlesHealthAndLifestyle() {
+  const [contentData, setContentData] = useState<{ whiteboard?: Whiteboard; contents: MainContent[] }>({
+    whiteboard: undefined,
+    contents: [],
+  });
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
 
-const contents = [
-  {
-    cardContents: [
-      {
-        bgColor: "black",
-        textColor: "white",
-        cardLabel: "By date",
-        contents: [
-          {
-            link: "/materials/extras/skills/listening/articles/health-and-lifestyle/doctors-give-new-guidelines-for-preventing-stroke",
-            linkLabel:
-              "Doctors Give New Guidelines for Preventing Stroke (June 24, 2024)",
-          },
-          {
-            link: "/materials/extras/skills/listening/articles/health-and-lifestyle/life-is-a-video-game",
-            linkLabel:
-              "Life is a Video Game, These Are the Cheat Codes (August, 2024)",
-          }
-        ],
-      },
-    ],
-  },
-];
+  const extrasSkillsListeningArticlesHealthAndLifestyle = "/assets/data/materials/extras/skills/listening/articles/health-and-lifestyle/contents.json";
 
-export default function HealthAndLifestyle() {
+  useEffect(() => {
+    fetch(extrasSkillsListeningArticlesHealthAndLifestyle)
+      .then((response) => {
+        if (!response.ok) throw new Error("Error loading JSON");
+        return response.json();
+      })
+      .then((data: { whiteboard?: Whiteboard; contents: MainContent[] }) => {
+        setContentData(data);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error(error);
+        setError(true);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error loading lesson data.</p>;
+
   return (
     <>
-      <ContentCard whiteboard={whiteboard} contents={contents} />
+      <ContentCard contentData={contentData} />
     </>
   );
 }
+
