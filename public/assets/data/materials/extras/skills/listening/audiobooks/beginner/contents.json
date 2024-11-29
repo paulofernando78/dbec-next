@@ -1,0 +1,74 @@
+{
+  "whiteboard": {
+    "title": "Courses",
+    "subtitle": "Beginner (A1)"
+  },
+  "contents": [
+    {
+      "cardContents": [
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Kids",
+          "contents": [
+            {
+              "checkboxLink": "/extras/skills/listening/audiobooks/beginner/a-new-zealand-adventure",
+              "checkboxLabel": "Dumbo • ..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cardContents": [
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Tennagers / Adults",
+          "contents": [
+            {
+              "checkboxLink": "/extras/skills/listening/audiobooks/beginner/a-new-zealand-adventure",
+              "checkboxLabel": "A New Zealand Adventure • 08:05"
+            },
+            {
+              "checkboxLink": "/extras/skills/listening/audiobooks/beginner/flying-home",
+              "checkboxLabel": "Flying home • 10:13"
+            },
+            {
+              "checkboxLink": "/extras/skills/listening/audiobooks/beginner/marcel-and-the-white-star",
+              "checkboxLabel": "Marcel and the White Star • 09:54"
+            },
+            {
+              "checkboxLink": "/extras/skills/listening/audiobooks/beginner/newspaer-chase",
+              "checkboxLabel": "Newspaper Chase • 08:18"
+            },
+            {
+              "checkboxLink": "/extras/skills/listening/audiobooks/beginner/simon-and-the-spy",
+              "checkboxLabel": "Simon and the Spy • 11:21"
+            },
+            {
+              "checkboxLink": "/extras/skills/listening/audiobooks/beginner/the-fireboy",
+              "checkboxLabel": "The Fireboy • 12:34"
+            },
+            {
+              "checkboxLink": "/extras/listening/audiobooks/beginner/the-last-photo",
+              "checkboxLabel": "The Last Photo • 08:48"
+            },
+            {
+              "checkboxLink": "/extras/listening/audiobooks/beginner/the-leopard-and-the-lighthouse",
+              "checkboxLabel": "The Leopard and the Lighthouse • 10:30"
+            },
+            {
+              "checkboxLink": "/extras/listening/audiobooks/beginner/the-pearl-girl",
+              "checkboxLabel": "The Pearl Girl • 11:47"
+            },
+            {
+              "checkboxLink": "/extras/listening/audiobooks/beginner/who-wants-to-be=a=star",
+              "checkboxLabel": "Who wants to be a star • 10:09"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

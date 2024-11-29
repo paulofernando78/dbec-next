@@ -26,6 +26,12 @@ export const ContentCard = ({ contentData }: ContentCardProps) => {
         />
       )}
       <div className="line-break">
+        {/* {isUnderConstruction && (
+          <div className="flex-8px">
+            <Image src={tools} alt="Tools icon" className="icon-general" />
+            <p>Under Construction!</p>
+          </div>
+        )} */}
         {contentData.contents.map((content, contentIndex) => (
           <div key={contentIndex} className="line-break">
             {/* Render Card if cardLabel exists */}
