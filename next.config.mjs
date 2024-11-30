@@ -2,11 +2,13 @@
 const nextConfig = {
   images: {
     domains: [
+      "share.icloud.com",
       "images.unsplash.com",
+      "unsplash.com",
       "gdb.voanews.com",
       "payloadspace.com",
       "sm.mashable.com",
-      "share.icloud.com"
+      "images.pexels.com"
     ],
   },
 };

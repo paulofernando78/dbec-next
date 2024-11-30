@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 // Components
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 
-const lesson1 =
+const CONTENTS_JSON_PATH =
   "/assets/data/materials/specific-purposes/business/sbelaa/lesson-1.json";
 
 export default function SpeakBusinessEnglishLikeAnAmericanLesson1() {
@@ -15,7 +15,7 @@ export default function SpeakBusinessEnglishLikeAnAmericanLesson1() {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch(lesson1)
+    fetch(CONTENTS_JSON_PATH)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch lesson data");

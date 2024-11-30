@@ -1,0 +1,94 @@
+{
+  "whiteboard": {
+    "title": "Specific Purposes",
+    "subtitle": "Business",
+    "descriptions": ["Speak BETTER Business English Like an American"]
+  },
+  "contents": [
+    {
+      "cardContents": [
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Lessons 1-5",
+          "contents": [
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbbelaa/lesson-1",
+              "checkboxLabel": "Lesson 1 • Politely disagreeing with someone"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbbelaa/lesson-2",
+              "checkboxLabel": "Lesson 2 • Telling somebody off"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbbelaa/lesson-3",
+              "checkboxLabel": "Lesson 3 • Discussing office scandals"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbbelaa/lesson-4",
+              "checkboxLabel": "Lesson 4 • Complaining about a co-worker"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbbelaa/lesson-5",
+              "checkboxLabel": "Lesson 5 • Talking about a brown noser"
+            }
+          ]
+        },
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Lessons 6-10",
+          "contents": [
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbbelaa/lesson-6",
+              "checkboxLabel": "Lesson 6 • Explaining that you're feeling overworked"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbbelaa/lesson-7",
+              "checkboxLabel": "Lesson 7 • Calling in sick"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbbelaa/lesson-8",
+              "checkboxLabel": "Lesson 8 • Requesting a bank loan"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbbelaa/lesson-9",
+              "checkboxLabel": "Lesson 9 • Negotiating a purchase"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbbelaa/lesson-10",
+              "checkboxLabel": "Lesson 10 • Conducting a performance review"
+            }
+          ]
+        },
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Lessons 11-15",
+          "contents": [
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbbelaa/lesson-11",
+              "checkboxLabel": "Lesson 11 • Promoting an employee"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbbelaa/lesson-12",
+              "checkboxLabel": "Lesson 12 • Firing somebody"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbbelaa/lesson-13",
+              "checkboxLabel": "Lesson 13 • Job interview 1"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbbelaa/lesson-14",
+              "checkboxLabel": "Lesson 14 • Job interview 2"
+            },
+            {
+              "checkboxLink": "/materials/specific-purposes/business/sbbelaa/lesson-5",
+              "checkboxLabel": "Lesson 15 • Negotiating a salary offer"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

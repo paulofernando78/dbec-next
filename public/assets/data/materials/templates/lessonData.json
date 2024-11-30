@@ -8,53 +8,46 @@
     {
       "title": "Title",
       "bgColor": "black",
-      "textColor": "white",
+      "textColor": "white"
+    },
+    {
       "paragraphSections": [
         {
           "paragraphs": [
             {
               "keyword": "...",
               "dictionary": "vocabulary",
-              "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-              "text": "Text 1"
+              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
+              "text": "..."
             },
             {
               "keyword": "...",
               "dictionary": "vocabulary",
-              "dictionaryAudioSrc": "...",
-              "text": "Text 2"
-            }
-          ]
-        },
-        {
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "dictionary": "vocabulary",
-              "dictionaryAudioSrc": "...",
-              "text": "Text 3"
-            },
-            {
-              "keyword": "...",
-              "dictionary": "vocabulary",
-              "dictionaryAudioSrc": "...",
-              "text": "Text 4"
+              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3"
             }
           ]
         }
-      ],
+      ]
+    },
+    {
       "swiperFractionImages": [
         {
-          "imgSrcLink": "https://gdb.voanews.com/8a8f513c-5f28-492a-9409-d321f4dd6c5e_cx0_cy3_cw0_w650_r1_s.jpg",
-          "imgAltLink": "Example image description"
+          "imgSrc": "/assets/img/animal-cat1.jpg",
+          "imgAlt": "An image of a cat."
         },
         {
-          "imgSrcLink": "https://gdb.voanews.com/c48ddfde-59dc-41c4-acfc-ba8fd0bd0c0d_cx0_cy6_cw100_w650_r1.jpg",
-          "imgAltLink": "Example image description"
+          "imgSrc": "https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?cs=srgb&dl=pexels-bri-schneiter-28802-346529.jpg&fm=jpg",
+          "imgAlt": "Example image description"
         }
-      ],
-      "audioSrc": "/assets/audio/welcome.mp3",
-      "videoSrc": "https://www.youtube.com/embed/oCY5YEEjlwE",
+      ]
+    },
+    {
+      "audioSrc": "/assets/audio/welcome.mp3"
+    },
+    {
+      "videoSrc": "https://www.youtube.com/embed/oCY5YEEjlwE"
+    },
+    {
       "radio": [
         {
           "title": "Choose the correct answer.",
@@ -64,10 +57,12 @@
             { "label": "Answer 2", "isCorrect": false }
           ]
         }
-      ],
+      ]
+    },
+    {
       "dropdown": [
         {
-          "title": "Title",
+          "title": "Select the correct answer.",
           "subtitle": "subtitle",
           "beforeOptions": "1. I",
           "options": [
@@ -77,19 +72,21 @@
           ],
           "width": "100",
           "afterOptions": "a teacher.",
-          "lineBreak": false
+          "lineBreak": true
         },
         {
-          "beforeOptions": "1. I",
+          "beforeOptions": "1. He",
           "options": [
-            { "value": "am", "label": "am", "correctAnswer": true },
-            { "value": "is", "label": "is", "correctAnswer": false },
+            { "value": "am", "label": "am", "correctAnswer": false },
+            { "value": "is", "label": "is", "correctAnswer": true },
             { "value": "are", "label": "are", "correctAnswer": false }
           ],
           "width": "100",
           "afterOptions": "a teacher."
         }
-      ],
+      ]
+    },
+    {
       "fillInTheBlanks": [
         {
           "title": "1. Fill in the blank with the correct word.",
@@ -99,7 +96,7 @@
           "placeholder": "...",
           "correctAnswer": ["..."],
           "afterBlank": "...",
-          "lineBreakAfter": false
+          "lineBreakAfter": true
         },
         {
           "options": true,

@@ -1,6 +1,6 @@
 // import { IconLink } from "@/components/Molecules/Icon/IconLink/Index";
 import { Card } from "@/components";
-import styles from "./styles.module.css";
+import "./styles.css";
 
 import Image from "next/image";
 import {
@@ -26,23 +26,23 @@ export default function Home() {
         <p>Login</p>
       </Link>
       {/* <Login /> */}
-      <div className={styles["margin-top"]}>
+      <div className="margin-top">
         <div className="flex-col-center">
-          <p className={styles["dbec"]}>DAILY BASIS ENGLISH COURSE</p>
+          <p className="dbec">DAILY BASIS ENGLISH COURSE</p>
           <Image
             src={ukUSflag}
             alt="Uk / USA flag"
-            className={styles["uk-us-flag"]}
+            className="uk-us-flag"
           />
           <Image
             src={howYouDoing}
             alt="How you doing?"
-            className={styles["how-you-doing"]}
+            className="how-you-doing"
           />
           <Image
             src={meComputer}
             alt="Avatar and computer"
-            className={styles["me-computer"]}
+            className="me-computer"
           />
         </div>
 
@@ -61,7 +61,7 @@ export default function Home() {
                 <Image
                   src={groupIcon}
                   alt="Icon of a group"
-                  className={styles["icons"]}
+                  className="icons"
                 />
                 <p>Aula individual ou em grupo.</p>
               </div>
@@ -71,7 +71,7 @@ export default function Home() {
                 <Image
                   src={clockIcon}
                   alt="Icon of a clock"
-                  className={styles["icons"]}
+                  className="icons"
                 />
                 <p>
                   Aulas de 1 hora ou mais conforme a disponibilidade do aluno e
@@ -84,7 +84,7 @@ export default function Home() {
                 <Image
                   src={laptopComputerIcon}
                   alt="Icon of a laptop computer"
-                  className={styles["icons"]}
+                  className="icons"
                 />
                 <p>Material como áudios, vídeos e exercícios online.</p>
               </div>

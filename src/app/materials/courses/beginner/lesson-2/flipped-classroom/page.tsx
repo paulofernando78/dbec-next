@@ -5,15 +5,14 @@ import { useEffect, useState } from "react";
 
 // Components
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
-import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 
-const CONTENTS_JSON_PATH =
-  "/assets/data/materials/courses/beginner/lesson-2/flipped-classroom.json";
 
 export default function CourseBeginnerLesson2FlippedClassroom() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
+  const CONTENTS_JSON_PATH =
+    "/assets/data/materials/courses/beginner/lesson-2/flipped-classroom.json";
 
   useEffect(() => {
     fetch(CONTENTS_JSON_PATH)

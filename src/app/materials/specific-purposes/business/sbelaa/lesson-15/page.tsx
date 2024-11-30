@@ -5,9 +5,8 @@ import { useEffect, useState } from "react";
 
 // Components
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
-import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 
-const lesson15 =
+const CONTENTS_JSON_PATH =
   "/assets/data/materials/specific-purposes/business/sbelaa/lesson-15.json";
 
 export default function SpeakBusinessEnglishLikeAnAmericanLesson15() {
@@ -16,7 +15,7 @@ export default function SpeakBusinessEnglishLikeAnAmericanLesson15() {
   const [error, setError] = useState(false);
 
   useEffect(() => {
-    fetch(lesson15)
+    fetch(CONTENTS_JSON_PATH)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch lesson data");
@@ -38,13 +37,8 @@ export default function SpeakBusinessEnglishLikeAnAmericanLesson15() {
   if (error) return <p>Error loading lesson data.</p>;
 
   return (
-    <UnderConstruction
-      title="Specific Purposes"
-      subtitle="Business"
-      descriptions={[
-        "Speak English Like an American",
-        "Lesson 15 • Shifting Blame",
-      ]}
-    />
+    <>
+      <LessonTemplate lessonData={lessonData} isUnderConstruction={true}/>
+    </>
   );
 }

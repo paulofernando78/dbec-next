@@ -310,11 +310,11 @@
               "checkboxLabel": "Flipped Classroom • What time is it? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/beginner/lesson-12/",
+              "checkboxLink": "/materials/courses/beginner/lesson-12/classwork",
               "checkboxLabel": "Classwork • What time is it? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/beginner/class-12/",
+              "checkboxLink": "/materials/courses/beginner/class-12/homework",
               "checkboxLabel": "Homework • What time is it? (Cycle 1)"
             }
           ]

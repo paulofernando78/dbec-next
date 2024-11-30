@@ -1,20 +1,31 @@
 "use client";
+
+// Hooks
 import { useEffect, useState } from "react";
 
+
+// Components
 import { ContentCard } from "@/components/Templates/ContentCard";
-import { MainContent, Whiteboard } from "@/components/Templates/ContentCard/type";
-export default function Beginner() {
-  const [contentData, setContentData] = useState<{ whiteboard?: Whiteboard; contents: MainContent[] }>({
+import {
+  MainContent,
+  Whiteboard,
+} from "@/components/Templates/ContentCard/type";
+export default function CourseBeginner() {
+  const [contentData, setContentData] = useState<{
+    whiteboard?: Whiteboard;
+    contents: MainContent[];
+  }>({
     whiteboard: undefined,
     contents: [],
   });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  const courseBeginnerContents = "/assets/data/materials/courses/beginner/contents.json";
+  const CONTENTS_JSON_PATH =
+    "/assets/data/materials/courses/beginner/contents.json";
 
   useEffect(() => {
-    fetch(courseBeginnerContents)
+    fetch(CONTENTS_JSON_PATH)
       .then((response) => {
         if (!response.ok) throw new Error("Error loading JSON");
         return response.json();

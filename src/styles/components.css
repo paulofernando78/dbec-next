@@ -1,0 +1,57 @@
+input[type="checkbox"] {
+  min-width: 21px;
+  min-height: 21px;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "";
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  background-image: url(../../public/assets/img/icon/checkbox-blue.png);
+  background-size: contain;
+  position: relative;
+  top: -1px;
+  left: -1px;
+}
+
+input[type="text"] {
+  padding-left: 0.3rem;
+  margin: 0.1rem 0 0.1rem 0;
+  font-family: var(--font);
+  font-size: var(--p-size);
+  border-radius: var(--border-radius);
+  border: 1px solid;
+}
+
+.textarea {
+  padding: 5px;
+  font-size: var(--p-size);
+  height: 250px;
+  border-radius: var(--border-radius);
+}
+
+.icon-general {
+  width: 1.6rem;
+  height: fit-content;
+}
+
+.img-border {
+  border: var(--img-border);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  width: 100%;
+  height: fit-content;
+}
+
+.gray-dashed-border {
+  border-radius: var(--border-radius);
+  padding: 8px;
+  border: 2px dashed gray;
+}
+
+.red-dashed-border {
+  border-radius: var(--border-radius);
+  padding: 8px;
+  border: 2px dashed red;
+}

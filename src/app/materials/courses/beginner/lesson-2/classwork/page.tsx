@@ -6,13 +6,13 @@ import { useEffect, useState } from "react";
 // Components
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 
-const CONTENTS_JSON_PATH =
-  "/assets/data/materials/courses/beginner/lesson-2/classwork.json";
 
 export default function CourseBeginnerLesson2Classwork() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
+  const CONTENTS_JSON_PATH =
+    "/assets/data/materials/courses/beginner/lesson-2/classwork.json";
 
   useEffect(() => {
     fetch(CONTENTS_JSON_PATH)

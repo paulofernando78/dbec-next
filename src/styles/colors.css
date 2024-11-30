@@ -1,0 +1,48 @@
+.yellow-highlight {
+  background-color: yellow;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: #00a2ff;
+}
+
+.beginner {
+  color: var(--beginner);
+}
+
+.elementary {
+  color: var(--elementary);
+}
+
+.pre-intermediate {
+  color: var(--pre-intermediate);
+}
+
+.intermediate {
+  color: var(--intermediate);
+  color: "#81C221";
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-lightgrey {
+  background-color: lightgrey;
+}

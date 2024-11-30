@@ -1,14 +1,42 @@
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
-import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
+"use client";
 
-export default function BeginnerLesson7Homework() {
+// Hooks
+import { useEffect, useState } from "react";
+
+// Components
+import { LessonTemplate } from "@/components/Templates/LessonData/Index";
+
+
+export default function CourseBeginnerLesson7Homework() {
+  const [lessonData, setLessonData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
+  const CONTENTS_JSON_PATH =
+    "/assets/data/materials/courses/beginner/lesson-7/homework.json";
+
+  useEffect(() => {
+    fetch(CONTENTS_JSON_PATH)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Failed to fetch lesson data");
+        }
+        return response.json();
+      })
+      .then((data) => {
+        setLessonData(data);
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error(err);
+        setError(true);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error loading lesson data.</p>;
+
   return (
-    <>
-      <Whiteboard
-        title="Courses"
-        subtitle="Beginner"
-        descriptions={["Lesson 7", "Homework", "Where are you from? (Cycle 1)"]}
-      />
-    </>
+    <LessonTemplate lessonData={lessonData} isUnderConstruction={true} />
   );
 }

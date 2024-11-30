@@ -3,12 +3,12 @@ interface Option {
   label: string;
 }
 
-export interface Question {
+export interface RadioQuestion {
   title?: string;
   question: string;
   options: Option[];
 }
 
 export interface RadioProps {
-  questions: Question[];
+  questions: RadioQuestion[];
 }

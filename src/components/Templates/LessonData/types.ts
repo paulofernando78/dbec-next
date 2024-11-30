@@ -1,9 +1,9 @@
 import { WhiteboardProps } from "@/components/Molecules/Whiteboard/type";
 import { SwiperFractionProps } from "@/components/Organisms/Swiper/Fraction/types";
-import { Question } from "@/components/Molecules/ExerciseTemplates/Radio/type";
+import {  RadioQuestion } from "@/components/Molecules/ExerciseTemplates/Radio/type";
 import { ParagraphSection } from "@/components/Molecules/Paragraph/.types";
 import { FlipCardsProps } from "@/components/Molecules/Cards/Flip/types";
-import { DropdownProps, DropdownQuestion } from "@/components/Molecules/ExerciseTemplates/Dropdown/types";
+import { DropdownQuestion } from "@/components/Molecules/ExerciseTemplates/Dropdown/types";
 import { FillInTheBlanksQuestion } from "@/components/Molecules/ExerciseTemplates/FillInTheBlank/type";
 
 export interface LessonData {
@@ -16,7 +16,7 @@ export interface LessonData {
   flipcards?: FlipCardsProps[]
   audioSrc?: string;
   videoSrc?: string;
-  radio?: Question[];
+  radio?: RadioQuestion[];
   dropdown?: DropdownQuestion[]
   fillInTheBlanks?: FillInTheBlanksQuestion[]
 }

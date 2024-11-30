@@ -1,35 +1,52 @@
 "use client";
 
-// Hook
+// Hooks
 import { useEffect, useState } from "react";
+
 
 // Components
 import { ContentCard } from "@/components/Templates/ContentCard";
-import { MainContent, Whiteboard } from "@/components/Templates/ContentCard/type";
+import {
+  MainContent,
+  Whiteboard,
+} from "@/components/Templates/ContentCard/type";
+export default function SpecificPurposesBusiness() {
+  const [contentData, setContentData] = useState<{
+    whiteboard?: Whiteboard;
+    contents: MainContent[];
+  }>({
+    whiteboard: undefined,
+    contents: [],
+  });
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
 
-
-export default function Business() {
-  const [whiteboard, setWhiteboard] = useState<Whiteboard | null>(null);
-  const [contents, setContents] = useState<MainContent[] | null>(null);
+  const CONTENTS_JSON_PATH =
+    "/assets/data/materials/specific-purposes/business/business.json";
 
   useEffect(() => {
-    fetch("/assets/data/materials/specific-purposes/business/business.json")
+    fetch(CONTENTS_JSON_PATH)
       .then((response) => {
         if (!response.ok) throw new Error("Error loading JSON");
         return response.json();
       })
-      .then((data: { whiteboard: Whiteboard; contents: MainContent[] }) => {
-        setWhiteboard(data.whiteboard);
-        setContents(data.contents);
+      .then((data: { whiteboard?: Whiteboard; contents: MainContent[] }) => {
+        setContentData(data);
+        setLoading(false);
       })
-      .catch((error) => console.error(error));
+      .catch((error) => {
+        console.error(error);
+        setError(true);
+        setLoading(false);
+      });
   }, []);
 
-  if (!whiteboard || !contents) return <p>Loading...</p>;
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error loading lesson data.</p>;
 
   return (
     <>
-      {/* <ContentCard contents={contents} /> */}
+      <ContentCard contentData={contentData} />
     </>
   );
 }

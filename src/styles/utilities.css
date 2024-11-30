@@ -1,0 +1,206 @@
+.display-inline {
+  display: inline;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.display-block {
+  display: block;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.position-sticky {
+  position: sticky;
+}
+
+.display-none {
+  display: none;
+}
+
+/* SPACING */
+
+.margin-top {
+  margin-top: 1.25rem;
+}
+
+.margin-auto {
+  margin: auto;
+}
+
+.margin-right {
+  margin-right: 8px;
+}
+
+.margin-bottom {
+  margin-bottom: 1.25rem;
+}
+
+.margin-bottom:last-child {
+  margin-bottom: 0;
+}
+
+.margin-left {
+  margin-right: 8px;
+}
+
+.margin-block {
+  margin: 1.25rem 0;
+}
+
+.margin-inline {
+  margin: 0 8px;
+}
+.margin-inline-3px {
+  margin: 0 3px;
+}
+
+.line-break {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.white-space-pre-wrap {
+  white-space: pre-wrap;
+}
+
+/* LAYOUT */
+
+/* Flex */
+
+.flex {
+  display: flex;
+}
+
+.flex-4px {
+  display: flex;
+  gap: 4px;
+}
+
+.flex-8px {
+  display: flex;
+  gap: 8px;
+}
+
+.flex-12px {
+  display: flex;
+  gap: 12px;
+}
+
+.flex-8px-wrap {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.flex-8px-center-wrap {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-8px-end-wrap {
+  display: flex;
+  gap: 8px;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.flex-8px-space-between {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-col-8px-center {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.flex-col-4px {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.flex-col-8px {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.flex-col-125rem {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.grid-2fr-8px {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+/* Grid */
+
+.grid-3fr-8px {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.grid-checkbox-text input[type="checkbox"] {
+  justify-self: center;
+  margin-left: 2px;
+}
+
+.grid-repeat-auto-fit-110px-justify {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 110px);
+  gap: 8px;
+  justify-content: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.icon-position-top {
+  position: relative;
+  top: 3px;
+}
+
+/* AUDIO */
+
+.audio-fixed {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}

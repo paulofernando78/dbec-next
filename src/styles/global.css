@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/* ROOT */
+
+:root {
+  scrollbar-gutter: stable;
+  --navbar-icon-size: 2rem;
+  --font: "Walter Turncoat", cursive;
+  --p-size: 1.3rem;
+  --img-border: 5px solid rgba(211, 211, 211, 0.233);
+  --box-shadow: 0 0 5px 0.5px #999;
+  --border-radius: 5px;
+  --padding: 2px 7px;
+  --beginner: #fcc418;
+  --elementary: #ec3b3b;
+  --pre-intermediate: #1f8feb;
+  --intermediate: #81c221;
+  --upper-intermediate: ;
+  --advanced: ;
+  /* --isActive: #F77D7A; */
+}
+
+
+
+::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(10, 10%, 90%);
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(10, 5%, 70%);
+  border-radius: 100vw;
+  border: 0.1rem solid hsl(10, 10%, 90%);
+}
+
+body {
+  max-width: 1050px;
+  margin: 0 auto;
+  font-family: var(--font);
+  /* user-select: none; */
+}
+
+main {
+  padding: 10px;
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.5);
+}

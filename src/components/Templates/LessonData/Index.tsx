@@ -20,8 +20,6 @@ import { tools } from "@/img/index";
 import { LessonTemplateProps } from "@/components/Templates/LessonData/types";
 import Image from "next/image";
 
-const baseAudioSrc = "/assets/audio/";
-
 export const LessonTemplate = ({
   lessonData,
   isUnderConstruction,
@@ -88,7 +86,7 @@ export const LessonTemplate = ({
 
             {/* Audio Player */}
             {lesson.audioSrc && (
-              <AudioPlayer audioSrc={`${baseAudioSrc}${lesson.audioSrc}`} />
+              <AudioPlayer audioSrc={lesson.audioSrc} />
             )}
 
             {/* Video Player */}
