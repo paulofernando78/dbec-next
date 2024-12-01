@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import styles from "../styles.module.css";
+import styles from "./styles.module.css";
 
 import { meLinkedIn } from "@/img/index";
 import { Card } from "@/components";

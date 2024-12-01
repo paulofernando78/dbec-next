@@ -1,0 +1,11 @@
+.about-picture {
+    width: 100px;
+    height: 100px;
+    margin: 5px 0 0 1px;
+  }
+
+  @media (width <= 700px) {
+    .about-picture {
+      margin: auto;
+    }
+  }
