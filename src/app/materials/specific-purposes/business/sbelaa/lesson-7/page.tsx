@@ -37,14 +37,5 @@ export default function SpeakBusinessEnglishLikeAnAmericanLesson7() {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading lesson data.</p>;
 
-  return (
-    <UnderConstruction
-      title="Specific Purposes"
-      subtitle="Business"
-      descriptions={[
-        "Speak English Like an American",
-        "Lesson 7 • Discussing bad results",
-      ]}
-    />
-  );
+  return <LessonTemplate lessonData={lessonData} isUnderConstruction={true} />;
 }
