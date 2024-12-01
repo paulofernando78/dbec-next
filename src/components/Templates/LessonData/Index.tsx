@@ -18,7 +18,7 @@ import { tools } from "@/img/index";
 
 // Typescript
 import { LessonTemplateProps } from "@/components/Templates/LessonData/types";
-import Image from "next/image";
+import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 
 export const LessonTemplate = ({
   lessonData,
@@ -40,12 +40,7 @@ export const LessonTemplate = ({
 
       {/* Under Construction */}
       <div className="line-break">
-        {isUnderConstruction && (
-          <div className="flex-8px">
-            <Image src={tools} alt="Tools icon" className="icon-general" />
-            <p>Under Construction!</p>
-          </div>
-        )}
+        {isUnderConstruction && <UnderConstruction />}
 
         {lessonData.lessons.map((lesson, lessonIndex) => (
           <div key={lessonIndex} className="line-break">
@@ -60,9 +55,9 @@ export const LessonTemplate = ({
             )}
 
             {/* Paragraphs + Word */}
-              {lesson.paragraphSections && (
-                <Paragraph paragraphSections={lesson.paragraphSections} />
-              )}
+            {lesson.paragraphSections && (
+              <Paragraph paragraphSections={lesson.paragraphSections} />
+            )}
 
             {/* SwiperFraction images */}
             {lesson.swiperFractionImages &&
@@ -85,9 +80,7 @@ export const LessonTemplate = ({
               ))}
 
             {/* Audio Player */}
-            {lesson.audioSrc && (
-              <AudioPlayer audioSrc={lesson.audioSrc} />
-            )}
+            {lesson.audioSrc && <AudioPlayer audioSrc={lesson.audioSrc} />}
 
             {/* Video Player */}
             {lesson.videoSrc && <VideoPlayer videoSrc={lesson.videoSrc} />}
@@ -101,7 +94,9 @@ export const LessonTemplate = ({
             {lesson.dropdown && <Dropdown questions={lesson.dropdown} />}
 
             {/* Fill in the Blanks Exercises */}
-            {lesson.fillInTheBlanks && <FillInTheBlanks questions={lesson.fillInTheBlanks} />}
+            {lesson.fillInTheBlanks && (
+              <FillInTheBlanks questions={lesson.fillInTheBlanks} />
+            )}
           </div>
         ))}
       </div>

@@ -1,30 +1,15 @@
 // Images
 import Image from "next/image";
 import { tools } from "@/img/index";
-import { Whiteboard } from "../Whiteboard";
 
-import { UnderConstructionProps } from "./types";
+// CSS
+import styles from "./styles.module.css";
 
-export const UnderConstruction: React.FC<UnderConstructionProps> = ({
-  title,
-  subtitle,
-  descriptions,
-}) => {
+export const UnderConstruction = () => {
   return (
-    <>
-      <Whiteboard
-        title={title}
-        subtitle={subtitle}
-        descriptions={descriptions}
-      />
-      <div className="flex-8px">
-        <Image
-          src={tools}
-          alt="Tools icnderConon"
-          className="icon-general"
-        />
-        <p>Under Construction!</p>
-      </div>
-    </>
+    <div className={styles["flex"]}>
+      <Image src={tools} alt="Tools icnderConon" className="icon-general" />
+      <p>Under Construction!</p>
+    </div>
   );
 };
