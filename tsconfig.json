@@ -31,7 +31,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/app/materials/courses/placement-test/page.tsx",
-    "src/components/Molecules/Paragraph/.types.ts"
+    "src/components/Molecules/Paragraph/types.ts"
   ],
   "exclude": ["node_modules"]
 }

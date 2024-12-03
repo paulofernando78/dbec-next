@@ -24,24 +24,24 @@
       "time": "'15"
     },
     {
-      "title": "Meaning",
-      "bgColor": "lightgrey",
-      "textColor": "black"
+      "subtitle": "Meaning",
+      "subBgColor": "lightgray",
+      "subTextColor": "black"
     },
     {
-      "title": "ICQ",
-      "bgColor": "lightred",
-      "textColor": "black"
+      "card": "ccq",
+      "cardBgColor": "#F7F09B",
+      "cardTextColor": ""
     },
     {
-      "title": "Pronunciation",
-      "bgColor": "lightgrey",
-      "textColor": "black"
+      "subtitle": "Pronunciation",
+      "subBgColor": "lightgray",
+      "subTextColor": "black"
     },
     {
-      "title": "Use / Form",
-      "bgColor": "lightgrey",
-      "textColor": "black"
+      "subtitle": "Use / Form",
+      "subBgColor": "lightgray",
+      "subTextColor": "black"
     },
     {
       "title": "Practice",

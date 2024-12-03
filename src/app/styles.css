@@ -4,7 +4,6 @@
 @import url('../styles/utilities.css');
 @import url('../styles/components.css');
 @import url('../styles/colors.css');
-@import url('../styles/responsives.css');
 
 .margin-top {
   margin-top: 20px;

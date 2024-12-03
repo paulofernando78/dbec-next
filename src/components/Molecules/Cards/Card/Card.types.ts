@@ -1,7 +1,9 @@
-import { ReactNode } from "react";
+export interface CardData {
+  text: string;
+}
 
 export interface CardProps {
-    children: ReactNode;
-    bgColor?: string;
-    textColor?: string;
-  }
+  cards: CardData[];
+  bgColor?: string;
+  textColor?: string;
+}

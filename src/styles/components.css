@@ -55,3 +55,10 @@ input[type="text"] {
   padding: 8px;
   border: 2px dashed red;
 }
+
+@media (max-width: 768px) {
+  .img-border {
+    width: 100%;
+    height: fit-content;
+  }
+}

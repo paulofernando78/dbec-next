@@ -12,6 +12,7 @@ import {
   Dropdown,
   FillInTheBlanks,
   FlipCard,
+  Card,
 } from "@/components";
 
 import { tools } from "@/img/index";
@@ -64,6 +65,13 @@ export const LessonTemplate = ({
               />
             )}
 
+            {lesson.cards && lesson.cards.length > 0 && (
+              <Card
+                bgColor={lesson.bgColor}
+                textColor={lesson.textColor}
+                cards={lesson.cards}
+              />
+            )}
             {/* Paragraphs + Word */}
             {lesson.paragraphSections && (
               <Paragraph paragraphSections={lesson.paragraphSections} />
