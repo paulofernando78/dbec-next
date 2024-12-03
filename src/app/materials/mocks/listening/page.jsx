@@ -10,7 +10,7 @@ export default function XXX() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
-  const CONTENTS_JSON_PATH = "/assets/data/materials/templates/lessonData.json";
+  const CONTENTS_JSON_PATH = "/assets/data/materials/templates/listening.json";
 
   useEffect(() => {
     fetch(CONTENTS_JSON_PATH)

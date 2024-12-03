@@ -1,0 +1,59 @@
+{
+  "whiteboard": {
+    "title": "Courses",
+    "subtitle": "...",
+    "descriptions": ["..."]
+  },
+  "lessons": [
+    {
+      "title": "Warm-up",
+      "bgColor": "black",
+      "textColor": "white",
+      "time": "'5"
+    },
+    {
+      "title": "Introduction",
+      "bgColor": "black",
+      "textColor": "white",
+      "time": "'10"
+    },
+    {
+      "title": "Presentation",
+      "bgColor": "black",
+      "textColor": "white",
+      "time": "'15"
+    },
+    {
+      "title": "Meaning",
+      "bgColor": "lightgrey",
+      "textColor": "black"
+    },
+    {
+      "title": "ICQ",
+      "bgColor": "lightred",
+      "textColor": "black"
+    },
+    {
+      "title": "Pronunciation",
+      "bgColor": "lightgrey",
+      "textColor": "black"
+    },
+    {
+      "title": "Use / Form",
+      "bgColor": "lightgrey",
+      "textColor": "black"
+    },
+    {
+      "title": "Practice",
+      "bgColor": "black",
+      "textColor": "white",
+      "time": "'10"
+    },
+    {
+      "title": "Production",
+      "bgColor": "black",
+      "textColor": "white",
+      "time": "'10"
+    }
+  ]
+}

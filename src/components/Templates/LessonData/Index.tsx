@@ -19,6 +19,7 @@ import { tools } from "@/img/index";
 // Typescript
 import { LessonTemplateProps } from "@/components/Templates/LessonData/types";
 import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
+import { SubRibbon } from "@/components/Molecules/SubRibbon";
 
 export const LessonTemplate = ({
   lessonData,
@@ -49,8 +50,17 @@ export const LessonTemplate = ({
               <Ribbon
                 label={lesson.title}
                 time={lesson.time}
-                bgColor={lesson.bgColor || "defaultBgColor"}
-                textColor={lesson.textColor || "defaultTextColor"}
+                bgColor={lesson.bgColor}
+                textColor={lesson.textColor}
+              />
+            )}
+
+            {lesson.subtitle && (
+              <SubRibbon
+                sublabel={lesson.subtitle}
+                subtime={lesson.subtime}
+                subBgColor={lesson.subBgColor}
+                subTextColor={lesson.subTextColor}
               />
             )}
 

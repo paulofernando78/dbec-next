@@ -1,35 +1,6 @@
 import Link from "next/link";
 
-import {
-  AudioPlayer,
-  Card,
-  DictionaryCard,
-  FillInTheBlanks,
-  FlipCard,
-  Radio,
-  SwiperFraction,
-  Whiteboard,
-} from "@/components";
-
-import { animalCat1, animalCat2 } from "@/img/index";
-import { Dropdown } from "@/components/Molecules/ExerciseTemplates/Dropdown";
-
-const flipCards = [
-  {
-    // width: "..."
-    // height: "..."
-    frontText: "What's the past of ask?",
-    backText: "asked",
-  },
-  {
-    frontText: "...  ",
-    backText: "...",
-  },
-  {
-    imgSrc: animalCat1,
-    imgAlt: "A cat",
-  },
-];
+import { Whiteboard } from "@/components";
 
 export default function Mocks() {
   return (
@@ -37,12 +8,20 @@ export default function Mocks() {
       <Whiteboard title="Mocks" />
       <div className="line-break">
         <div className="line-break">
-          
           {/* Create lesson*/}
           <p className="bold">Create lessons:</p>
           <div>
-            <Link href="\materials\mocks\lesson-data\">
-              <p>Lesson Data</p>
+            <Link href="\materials\mocks\LessonData\">
+              <p>Lesson Data (General)</p>
+            </Link>
+            <Link href="\materials\mocks\audiobooks\">
+              <p>Audiobooks</p>
+            </Link>
+            <Link href="\materials\mocks\vocabulary-grammar\">
+              <p>Vocabulary / Grammar</p>
+            </Link>
+            <Link href="\materials\mocks\listening\">
+              <p>Listening</p>
             </Link>
           </div>
 
@@ -54,7 +33,6 @@ export default function Mocks() {
             </Link>
           </div>
         </div>
-        
       </div>
     </div>
   );

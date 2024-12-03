@@ -7,8 +7,15 @@
   "lessons": [
     {
       "title": "Title",
+      "time": "'5",
       "bgColor": "black",
       "textColor": "white"
+    },
+    {
+      "subtitle": "Subtitle",
+      "subtime": "'5",
+      "subBgColor": "lightgray",
+      "subTextColor": "black"
     },
     {
       "paragraphSections": [

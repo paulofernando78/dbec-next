@@ -4,7 +4,12 @@ import styles from "./styles.module.css";
 // Typescript
 import { RibbonProps } from "./types";
 
-export const Ribbon = ({ label, time, bgColor, textColor }: RibbonProps) => {
+export const Ribbon = ({
+  label,
+  time,
+  bgColor = "defaultBgColor",
+  textColor = "defaultTextColor",
+}: RibbonProps) => {
   return (
     <div
       className={styles["ribbon"]}
@@ -12,7 +17,7 @@ export const Ribbon = ({ label, time, bgColor, textColor }: RibbonProps) => {
     >
       <div className={styles["flex-space"]}>
         <p className="bold">{label}</p>
-        <p className="p-size-small">{time}</p>
+        <p className="p-size-smaller">{time}</p>
       </div>
     </div>
   );
