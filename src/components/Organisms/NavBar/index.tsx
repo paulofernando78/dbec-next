@@ -287,10 +287,11 @@ const navBarLinks = [
 
 export const NavBar = ({ show, toggleShow }: NavBarProps) => {
   const isSmallDevice = useMediaQuery("only screen and (max-width : 768px)");
+
   return show || !isSmallDevice ? (
     <nav className={styles["nav-bar"]}>
       <ul className="line-break">
-      <input type="text" placeholder="search"/>
+        <input type="text" placeholder="search" />
         <div>
           <div className={styles["nav-list"]}>
             <Image

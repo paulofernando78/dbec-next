@@ -42,6 +42,24 @@
       ]
     },
     {
+      "flipcards": [
+        {
+          "width": "...",
+          "height": "...",
+          "frontText": "What's the past of ask?",
+          "backText": "asked"
+        },
+        {
+          "frontText": "...  ",
+          "backText": "..."
+        },
+        {
+          "imgSrc": "/assets/img/animal-cat1.jpg",
+          "imgAlt": "A cat"
+        }
+      ]
+    },
+    {
       "audioSrc": "/assets/audio/welcome.mp3"
     },
     {

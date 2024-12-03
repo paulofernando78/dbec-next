@@ -74,10 +74,8 @@ export const LessonTemplate = ({
                 />
               )}
 
-            {lesson.flipcards &&
-              lesson.flipcards.map((flipCardProps, index) => (
-                <FlipCard key={index} flipCards={flipCardProps.flipCards} />
-              ))}
+            {/* Flip Cards */}
+            {lesson.flipcards && <FlipCard flipCards={lesson.flipcards} />}
 
             {/* Audio Player */}
             {lesson.audioSrc && <AudioPlayer audioSrc={lesson.audioSrc} />}

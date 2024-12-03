@@ -57,7 +57,7 @@ export const FlipCard = ({
                 alt="Flip icon"
                 className={styles["flip-icon"]}
               />
-              <p>{index + 1}</p>
+              <p className={styles["front-font"]}>{index + 1}</p>
               <Image
                 src={questionMarkGif}
                 alt="Question mark gif"

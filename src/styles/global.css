@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 
 /* ROOT */
 
 :root {
   scrollbar-gutter: stable;
-  --navbar-icon-size: 2rem;
-  --font: "Walter Turncoat", cursive;
+  --primary-font: "Walter Turncoat", cursive;
+  --secondary-font: "Pacifico", cursive;
+  --third-font: "Bebas Neue", sans-serif;
   --p-size: 1.3rem;
   --img-border: 5px solid rgba(211, 211, 211, 0.233);
   --box-shadow: 0 0 5px 0.5px #999;
@@ -18,10 +18,8 @@
   --intermediate: #81c221;
   --upper-intermediate: ;
   --advanced: ;
-  /* --isActive: #F77D7A; */
+  --isActive: #F77D7A;
 }
-
-
 
 ::-webkit-scrollbar {
   width: 0.7rem;
@@ -41,7 +39,7 @@
 body {
   max-width: 1050px;
   margin: 0 auto;
-  font-family: var(--font);
+  /* font-family: var(--primary-font); */
   /* user-select: none; */
 }
 

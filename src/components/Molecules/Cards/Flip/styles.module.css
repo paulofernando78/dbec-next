@@ -46,6 +46,10 @@
   justify-content: center;
 }
 
+.front-font {
+  font-family: var(--third-font)
+}
+
 .flip-icon {
   width: 20px;
   height: auto;
