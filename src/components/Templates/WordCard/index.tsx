@@ -12,7 +12,7 @@ const AudioSrcBase = "/assets/audio/";
 export function WordCard({ dictionary }: WordCardProps) {
   return (
     <div className={styles["word-card-margin"]}>
-      <Card bgColor="#FFF8B8">
+      <div className={styles["border"]}>
         <p className="display-none">
           <b>{dictionary.keyword}</b>
         </p>
@@ -123,7 +123,7 @@ export function WordCard({ dictionary }: WordCardProps) {
             );
           })}
         </div>
-      </Card>
+      </div>
     </div>
   );
 }
