@@ -206,9 +206,7 @@ export default function ExtraPronunciation() {
       />
       <div className="line-break">
         <TheAlphabet />
-        <Card bgColor="black" textColor="white">
           <p className="bold">Sounds of Letters</p>
-        </Card>
 
         <p className="bold">jump to:</p>
 
@@ -236,9 +234,7 @@ export default function ExtraPronunciation() {
 
        
 
-        <Card bgColor="Black" textColor="White">
           <p className="bold">Comparisons</p>
-        </Card>
         <div className="flex-8px-center-wrap">
           <DictionaryCard
             audioSrc="/s/seat.mp3"
@@ -258,9 +254,7 @@ export default function ExtraPronunciation() {
         <span className="line-break"></span>
 
         <span id="linked-sounds">
-          <Card bgColor="Black" textColor="White">
             <p className="bold">Linked sound examples</p>
-          </Card>
         </span>
         <p>
           <b>consonant + vowel</b>
