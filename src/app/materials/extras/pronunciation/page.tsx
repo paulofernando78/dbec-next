@@ -7,7 +7,6 @@ import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
 
 import { ScrollToTop } from "@/components/Atoms/ScrollToTop";
 import { Card } from "@/components";
-import TheAlphabet from "@/components/Lessons/Topics/TheAlphabet/page";
 
 const links = [
   {
@@ -205,7 +204,6 @@ export default function ExtraPronunciation() {
         descriptions={["Focused on Brazilian students"]}
       />
       <div className="line-break">
-        <TheAlphabet />
           <p className="bold">Sounds of Letters</p>
 
         <p className="bold">jump to:</p>

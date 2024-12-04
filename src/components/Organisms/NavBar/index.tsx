@@ -42,7 +42,6 @@ import {
   stockMarketIcon,
   technologyIcon,
   examsIcon,
-  allInOneIcon,
   miscIcon,
 } from "@/img/index";
 import { NavBarProps } from "./types";
@@ -274,13 +273,7 @@ const navBarLinks = [
         altName: "Ellipsis icon",
         link: "/materials//specific-purposes/misc",
         name: "Miscellaneous",
-      },
-      {
-        imgSrc: allInOneIcon,
-        altName: "Book a-z icon",
-        link: "/materials//specific-purposes/all-in-one",
-        name: "all-in-one",
-      },
+      }
     ],
   },
 ];
