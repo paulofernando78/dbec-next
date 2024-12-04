@@ -66,6 +66,22 @@
           ],
           "img": "/assets/img/animal-cat2.jpeg",
           "imgAlt": "An image of a cat."
+        },
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
+              "text": "..."
+            },
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
+              "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
+            }
+          ]
         }
       ]
     },
