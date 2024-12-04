@@ -36,9 +36,9 @@ export const ContentCard = ({ contentData }: ContentCardProps) => {
           <div key={contentIndex} className="line-break">
             {/* Render Card if cardLabel exists */}
             {content.headerLabel && (
-              <Card bgColor="black" textColor="white">
+              <div className="">
                 <p className="bold">{content.headerLabel}</p>
-              </Card>
+              </div>
             )}
             {/* Render CardContents */}
             {content.cardContents.map((cardContent, cardContentIndex) => (
