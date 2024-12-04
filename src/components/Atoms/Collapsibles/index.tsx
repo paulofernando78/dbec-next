@@ -19,19 +19,17 @@ export const Collapsible = ({ label, children }: CollapsibleProps) => {
     setOpen(!isOpen);
   };
   return (
-    <>
-      <Card>
-        <span
-          onClick={toggleCollapse}
-          className="cursor-pointer user-select-none"
-        >
-          <span className={`bold ${styles["plus-minus-position"]}`}>
-            {isOpen ? "-" : "+"}{" "}
-          </span>
-          <b>{label}</b>
+    <div className={styles["border"]}>
+      <span
+        onClick={toggleCollapse}
+        className="cursor-pointer user-select-none"
+      >
+        <span className={`bold ${styles["plus-minus-position"]}`}>
+          {isOpen ? "-" : "+"}{" "}
         </span>
-        {isOpen && <span className="block margin-top">{children}</span>}
-      </Card>
-    </>
+        <b>{label}</b>
+      </span>
+      {isOpen && <span className="block margin-top">{children}</span>}
+    </div>
   );
 };
