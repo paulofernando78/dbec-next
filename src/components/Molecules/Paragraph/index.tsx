@@ -15,33 +15,43 @@ import styles from "./styles.module.css";
 export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
   return (
     <>
-      {paragraphSections?.map((paragraphSection, paragraphSectionIndex) => (
-        <div key={paragraphSectionIndex} className={styles["grid"]}>
-          <div>
-            {paragraphSection.paragraphs?.map((paragraph, paragraphIndex) => (
-              <div key={paragraphIndex} className="display-inline">
-                {paragraph.dictionary && (
-                  <DictionaryCard
-                    keyword={paragraph.keyword}
-                    label={paragraph.dictionary}
-                    audioSrc={paragraph.dictionaryAudioSrc}
-                  />
-                )}{" "}
-                <p
-                  className="display-inline"
-                  dangerouslySetInnerHTML={{
-                    __html: paragraph.text,
-                  }}
-                ></p>{" "}
-              </div>
-            ))}
+      {paragraphSections?.map((paragraphSection, paragraphSectionIndex) => {
+        const hasImage = Boolean(paragraphSection.img);
+
+        return (
+          <div
+            key={paragraphSectionIndex}
+            className={hasImage ? styles["grid"] : ""}
+          >
+            <div>
+              {paragraphSection.paragraphs?.map((paragraph, paragraphIndex) => (
+                <div key={paragraphIndex} className="display-inline">
+                  {paragraph.dictionary && (
+                    <DictionaryCard
+                      keyword={paragraph.keyword}
+                      label={paragraph.dictionary}
+                      audioSrc={paragraph.dictionaryAudioSrc}
+                    />
+                  )}{" "}
+                  <p
+                    className="display-inline"
+                    dangerouslySetInnerHTML={{
+                      __html: paragraph.text,
+                    }}
+                  ></p>{" "}
+                </div>
+              ))}
+            </div>
+            {hasImage && (
+              <CustomImage
+                customImg={paragraphSection.img!}
+                customImgAlt={paragraphSection.imgAlt || ""}
+              />
+            )}
           </div>
-          <CustomImage
-            customImg={paragraphSection.img}
-            customImgAlt={paragraphSection.imgAlt}
-          />
-        </div>
-      ))}
+        );
+      })}
     </>
   );
 };
+
