@@ -5,7 +5,7 @@ import { ParagraphSection } from "@/components/Molecules/Paragraph/types";
 import { FlipCardData } from "@/components/Molecules/Cards/Flip/types";
 import { DropdownQuestion } from "@/components/Molecules/ExerciseTemplates/Dropdown/types";
 import { FillInTheBlanksQuestion } from "@/components/Molecules/ExerciseTemplates/FillInTheBlank/type";
-import { CardData } from "@/components/Molecules/Cards/Card/Card.types";
+import { CardData } from "@/components/Molecules/Cards/Card/types";
 
 export interface LessonData {
   title: string;

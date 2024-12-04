@@ -2,7 +2,7 @@
 import styles from "./styles.module.css";
 
 // Typescript
-import { CardProps } from "./Card.types";
+import { CardProps } from "./types";
 
 export const Card = ({ cards, bgColor, textColor }: CardProps) => {
   return (

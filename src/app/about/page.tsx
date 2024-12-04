@@ -3,7 +3,6 @@ import Image from "next/image";
 import styles from "./styles.module.css";
 
 import { meLinkedIn } from "@/img/index";
-import { Card } from "@/components";
 
 export default function About() {
   return (
@@ -24,7 +23,6 @@ export default function About() {
             </p>
           </div>
          <div className="line-break">
-            <Card bgColor="black" textColor="white"><p className="bold">Formação</p></Card>
             <div>
               <p className="bold">
                 • Los Angeles Music Academy LAMA, Pasadena – CA
@@ -53,7 +51,6 @@ export default function About() {
             </div>
          </div>
           <div className="line-break">
-            <Card bgColor="black" textColor="white"><p className="bold">Experiência</p></Card>
             <div>
               <p className="bold">• Seven Idiomas</p>
               <p>Julho 2019 - Jan 2024</p>

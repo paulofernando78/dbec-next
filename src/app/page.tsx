@@ -19,6 +19,14 @@ import {
 import { Login } from "@/components/Molecules/Inputs/Login";
 import Link from "next/link";
 
+const card1 = [{ text: "Aula individual ou em grupo." }];
+const card2 = [
+  {
+    text: "Aulas de 1 hora ou mais conforme a disponibilidade do aluno e do professor.",
+  },
+];
+const card3 = [{ text: "Material como áudios, vídeos e exercícios online." }];
+
 export default function Home() {
   return (
     <>
@@ -29,11 +37,7 @@ export default function Home() {
       <div className="margin-top">
         <div className="flex-col-center">
           <p className="dbec">DAILY BASIS ENGLISH COURSE</p>
-          <Image
-            src={ukUSflag}
-            alt="Uk / USA flag"
-            className="uk-us-flag"
-          />
+          <Image src={ukUSflag} alt="Uk / USA flag" className="uk-us-flag" />
           <Image
             src={howYouDoing}
             alt="How you doing?"
@@ -56,39 +60,22 @@ export default function Home() {
             <span className="bold">Writing</span> (Escrita).
           </p>
           <div className="grid-3fr-8px">
-            <Card>
-              <div className="flex-col-8px-center">
-                <Image
-                  src={groupIcon}
-                  alt="Icon of a group"
-                  className="icons"
-                />
-                <p>Aula individual ou em grupo.</p>
-              </div>
-            </Card>
-            <Card>
-              <div className="flex-col-8px-center">
-                <Image
-                  src={clockIcon}
-                  alt="Icon of a clock"
-                  className="icons"
-                />
-                <p>
-                  Aulas de 1 hora ou mais conforme a disponibilidade do aluno e
-                  do professor.
-                </p>
-              </div>
-            </Card>
-            <Card>
-              <div className="flex-col-8px-center">
-                <Image
-                  src={laptopComputerIcon}
-                  alt="Icon of a laptop computer"
-                  className="icons"
-                />
-                <p>Material como áudios, vídeos e exercícios online.</p>
-              </div>
-            </Card>
+            <div className="flex-col-8px-center">
+              <Image src={groupIcon} alt="Icon of a group" className="icons" />
+              <Card cards={card1}/>
+            </div>
+            <div className="flex-col-8px-center">
+              <Image src={clockIcon} alt="Icon of a clock" className="icons" />
+              <Card cards={card2} />
+            </div>
+            <div className="flex-col-8px-center">
+              <Image
+                src={laptopComputerIcon}
+                alt="Icon of a laptop computer"
+                className="icons"
+              />
+              <Card cards={card3} />
+            </div>
           </div>
           <div>
             {/* <IconLink imgSrc={contentIcon} link="/" prompt="Amostra conteúdo" />
