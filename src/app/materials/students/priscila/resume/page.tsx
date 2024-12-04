@@ -1,16 +1,10 @@
-import { Card } from "@/components";
 import React from "react";
 
 export default function PriscilaTanaca() {
   return (
     <div className="line-break">
-      <Card bgColor="black" textColor="white">
         <p className="bold">RESUMÉ / CV</p>
-      </Card>
-      <Card bgColor="lightgray">
         <p className="bold">EXECUTIVE SUMMARY</p>
-      </Card>
-      <Card>
         <p className="line-break">
           <span className="bold">
             I have over twenty years of experience across various Legal
@@ -28,8 +22,6 @@ export default function PriscilaTanaca() {
             sectors.
           </span>
         </p>
-      </Card>
-      <Card>
         <p className="line-break">
           <span className="bold">
             Additionally, I have a solid academic background, having served as
@@ -44,8 +36,6 @@ export default function PriscilaTanaca() {
             Social Security and Labor Law.
           </span>
         </p>
-      </Card>
-      <Card>
         <p>
           <span className="bold">I have solid leadership...</span> in managing
           challenging projects with strategic and preventive knowledge for legal
@@ -54,7 +44,6 @@ export default function PriscilaTanaca() {
           restructuring, process management, implementation of labor policies,
           contracts, audits (due diligence) and internal investigations.
         </p>
-      </Card>
       <p>
         <span className="bold">I've developed a</span> reputation for strategy
         and communication skills leading multidisciplinary projects, aiming to

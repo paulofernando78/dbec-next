@@ -1,7 +1,6 @@
 import HowYouFeeling from "@/components/Molecules/HowYouFeeling";
 import { Welcome } from "@/components/Molecules/Welcome";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
-import Link from "next/link";
 import React from "react";
 
 export default function AlexOishi() {
