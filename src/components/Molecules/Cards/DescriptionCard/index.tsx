@@ -42,9 +42,7 @@ export const DescriptionCard = ({ descriptions }: DescriptionCardProps) => {
         <div key={descIndex} className="line-break">
           {/* Main label */}
           {description.mainLabel && (
-            <Card bgColor="black" textColor="white">
               <p className="bold">{description.mainLabel}</p>
-            </Card>
           )}
 
           {description.subDescriptions.map(
