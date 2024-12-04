@@ -8,9 +8,7 @@ export default function Games() {
       <Whiteboard title="Specific Purposes" subtitle="Games" />
       <div className="line-break">
         <div className="line-break">
-          <Card>
             <b>SIERRA</b>
-          </Card>
           <div>
             <Link href="/specific-purposes/games/">
               <p>Larry I</p>
@@ -59,9 +57,7 @@ export default function Games() {
           </div>
         </div>
         <div className="line-break">
-          <Card>
             <b>LucasArts</b>
-          </Card>
           <div>
             <Link href="/specific-purposes/games/maniac-mansion">
               <p>Maniac Mansion (1987)</p>
@@ -89,7 +85,6 @@ export default function Games() {
             </Link>
           </div>
           <div>
-            <Card>Misc</Card>
           </div>
           <Link href="/specific-purposes/games/minecraft">
             <p>Minecraft (2011)</p>

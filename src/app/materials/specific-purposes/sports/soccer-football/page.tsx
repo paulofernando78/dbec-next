@@ -38,7 +38,6 @@ export default function SoocerFootball() {
             <p>Finland</p>
             <p>France</p>
             <p>Georgia</p>
-            <Card>
               <p className="bold">Germany (13 clubs)</p>
               <p>Bayer</p>
               <p>Dortmund</p>
@@ -53,7 +52,6 @@ export default function SoocerFootball() {
               <p>Köin</p>
               <p>Freiburg</p>
               <p>Mainz</p>
-            </Card>
             <p>Gibraltar</p>
             <p>Greece</p>
             <p>Hungary</p>

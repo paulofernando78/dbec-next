@@ -17,6 +17,24 @@ import {
   inFiveMinutes,
 } from "@/img/index";
 
+const card1 = [
+  {
+    text: "<b>at</b>",
+  }
+]
+
+const card2 = [
+  {
+    text: "<b>on</b>",
+  }
+]
+
+const card3 = [
+  {
+    text: "<b>in</b>",
+  }
+]
+
 const fillInTheBlanks = [
   {
     options: true,
@@ -178,9 +196,7 @@ export default function Unit103() {
         <BoardCard label="A" bgColor="#EF4444" textColor="white">
           <div className="line-break">
             {/* at */}
-            <Card bgColor="lightgray" textColor="black">
-              <p className="bold">at</p>
-            </Card>
+            <Card cards={card1} bgColor="lightgrey"/>
             <div className={styles["grid-section-a"]}>
               <Image
                 src={clockWakeUpHate}
@@ -218,9 +234,7 @@ export default function Unit103() {
               </div>
             </div>
             {/* on */}
-            <Card bgColor="lightgray" textColor="black">
-              <p className="bold">on</p>
-            </Card>
+            <Card cards={card2} bgColor="lightgrey"/>
             <div className={styles["grid-section-a"]}>
               <Image
                 src={xmas1}
@@ -279,9 +293,7 @@ export default function Unit103() {
             </div>
 
             {/* in */}
-            <Card bgColor="lightgray" textColor="black">
-              <p className="bold">in</p>
-            </Card>
+            <Card cards={card3} bgColor="lightgrey"/>
             <div className={styles["grid-section-a"]}>
               <Image
                 src={smallSwimmingPool}

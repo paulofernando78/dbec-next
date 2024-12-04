@@ -6,11 +6,9 @@ export default function Dentistry() {
     <>
       <Whiteboard title="Specific Purposes" subtitle="Dentistry" />
       <div className="line-break">
-        <Card>
           <p>
             <b>Vocabulary</b>
           </p>
-        </Card>
         <div>
           <p>...</p>
           <p>...</p>

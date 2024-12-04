@@ -12,16 +12,12 @@ export default function FoodAndDrink() {
       <Whiteboard title="Specific Purposes" subtitle="Food / Drink" />
       <div className="line-break">
         <div className="line-break">
-          <Card bgColor="black" textColor="white">
             <span className="bold">Verbs</span>
-          </Card>
           <DictionaryCard label="husk" audioSrc="/h/husk.mp3" />
           <p>We can husk apple's seed.</p>
           <DictionaryCard label="peel" audioSrc="/p/peel.mp3" />
           <p>We can peel apples, bananas, potatos, tomatos, carrots, etc.</p>
-          <Card bgColor="black" textColor="white">
             <span className="bold">Fruit</span>
-          </Card>
           <div className="flex-col">
             <DictionaryCard label="apple" audioSrc="/a/apple.mp3" />
             <DictionaryCard audioSrc="/c/caper.mp3" label="caper" />
@@ -30,17 +26,13 @@ export default function FoodAndDrink() {
             <DictionaryCard label="strawberry" audioSrc="/s/strawberry.mp3" />
           </div>
         </div>
-        <Card bgColor="black" textColor="white">
           <span className="bold">Seed</span>
-        </Card>
         <div className="flex-col">
           <DictionaryCard audioSrc="/c/chia.mp3" label="chia" />
           <DictionaryCard audioSrc="/f/flaxseed.mp3" label="flaxseed" />
         </div>
         <div className="line-break">
-          <Card bgColor="black" textColor="white">
             <span className="bold">Vegetables</span>
-          </Card>
           <div className="flex-col">
             <DictionaryCard audioSrc="/b/broccoli.mp3" label="broccoli" />
             <DictionaryCard
@@ -51,13 +43,9 @@ export default function FoodAndDrink() {
             <DictionaryCard audioSrc="/c/cauliflower.mp3" label="cauliflower" />
             <DictionaryCard audioSrc="/k/kale.mp3" label="kale" />
           </div>
-          <Card bgColor="black" textColor="white">
             <span className="bold">Cheese</span>
-          </Card>
           <p>Casu Marzu</p>
-          <Card bgColor="black" textColor="white">
             <span className="bold">Meat</span>
-          </Card>
           <div className="line-break">
             <DictionaryCard audioSrc="/m/minced-meat.mp3" label="minced meat" />
             <Collapsible label="What's the difference between 'minced meat' and 'ground meat'?">
@@ -96,17 +84,13 @@ export default function FoodAndDrink() {
             <p>I'm starving (to death)</p>
             <p>I'll have chicken salad.</p>
           </div>
-          <Card bgColor="black" textColor="white">
             <span className="bold">Drink</span>
-          </Card>
           <div className="flex-col">
             <DictionaryCard audioSrc="" label="iced-cold beer" />
             <DictionaryCard audioSrc="" label="sparking water" />
             <DictionaryCard audioSrc="" label="draft wine" />
           </div>
-          <Card bgColor="black" textColor="white">
             <span className="bold">Extra</span>
-          </Card>
           <Link href="/specific-purposes/food-drink/how-to-clean-and-remove-pesticides">
             <p>
               How to Clean and Remove Pesticides From Your Fruits and Vegetables

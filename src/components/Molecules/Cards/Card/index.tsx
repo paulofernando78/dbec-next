@@ -11,8 +11,7 @@ export const Card = ({ cards, bgColor, textColor }: CardProps) => {
       style={{ backgroundColor: bgColor, color: textColor }}
     >
       {cards.map((card, index) => (
-        <span key={index} className="p-font">
-          {card.text}
+        <span key={index} className="p-font" dangerouslySetInnerHTML={{ __html: card.text}}>
         </span>
       ))}
     </div>
