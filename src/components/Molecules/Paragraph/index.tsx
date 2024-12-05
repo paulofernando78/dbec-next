@@ -1,7 +1,5 @@
 "use client";
 
-// import DOMPurify from "dompurify";
-
 // Components
 import { DictionaryCard } from "@/components";
 import { CustomImage } from "../CustomImage";
@@ -16,13 +14,28 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
   return (
     <>
       {paragraphSections?.map((paragraphSection, paragraphSectionIndex) => {
+        // Verifica se há imagem antes ou depois dos parágrafos
         const hasImage = Boolean(paragraphSection.img);
+        const imgBefore = hasImage
+          ? Object.keys(paragraphSection).indexOf("img") <
+            Object.keys(paragraphSection).indexOf("paragraphs")
+          : false;
+
+        // Define a classe de estilo baseada na posição da imagem
+        const containerClass = hasImage
+          ? imgBefore
+            ? styles["img-before"]
+            : styles["img-after"]
+          : styles["no-image"];
 
         return (
-          <div
-            key={paragraphSectionIndex}
-            className={hasImage ? styles["grid"] : ""}
-          >
+          <div key={paragraphSectionIndex} className={containerClass}>
+            {imgBefore && hasImage && paragraphSection.img && (
+              <CustomImage
+                customImg={paragraphSection.img}
+                customImgAlt={paragraphSection.imgAlt || ""}
+              />
+            )}
             <div>
               {paragraphSection.paragraphs?.map((paragraph, paragraphIndex) => (
                 <div key={paragraphIndex} className="display-inline">
@@ -42,9 +55,9 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
                 </div>
               ))}
             </div>
-            {hasImage && (
+            {!imgBefore && hasImage && paragraphSection.img && (
               <CustomImage
-                customImg={paragraphSection.img!}
+                customImg={paragraphSection.img}
                 customImgAlt={paragraphSection.imgAlt || ""}
               />
             )}
@@ -54,4 +67,3 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
     </>
   );
 };
-

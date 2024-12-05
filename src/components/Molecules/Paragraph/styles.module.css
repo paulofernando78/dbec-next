@@ -1,5 +1,22 @@
-.grid {
-    display: grid;
-    grid-template-columns: auto 200px;
-    gap: 15px;
+.img-before {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 200px auto;
+}
+
+.img-after {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: auto 200px;
+}
+
+.no-image {
+  display: block; /* Garante que o layout funcione sem imagens */
+}
+
+@media (max-width: 500px) {
+  .img-before,
+  .img-after {
+    grid-template-columns: 1fr;
+  }
 }

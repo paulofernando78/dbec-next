@@ -12,7 +12,7 @@
           "cardLabel": "Kids",
           "contents": [
             {
-              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/a-new-zealand-adventure",
+              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/kids/dumbo",
               "checkboxLabel": "Dumbo • ..."
             }
           ]
@@ -31,39 +31,39 @@
               "checkboxLabel": "A New Zealand Adventure • 08:05"
             },
             {
-              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/flying-home",
+              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/flying-home",
               "checkboxLabel": "Flying home • 10:13"
             },
             {
-              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/marcel-and-the-white-star",
+              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/marcel-and-the-white-star",
               "checkboxLabel": "Marcel and the White Star • 09:54"
             },
             {
-              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/newspaer-chase",
+              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/newspaer-chase",
               "checkboxLabel": "Newspaper Chase • 08:18"
             },
             {
-              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/simon-and-the-spy",
+              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy",
               "checkboxLabel": "Simon and the Spy • 11:21"
             },
             {
-              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/the-fireboy",
+              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/the-fireboy",
               "checkboxLabel": "The Fireboy • 12:34"
             },
             {
-              "checkboxLink": "/materials/extras/listening/audiobooks/beginner/the-last-photo",
+              "checkboxLink": "/materials/extras/listening/audiobooks/beginner/general/the-last-photo",
               "checkboxLabel": "The Last Photo • 08:48"
             },
             {
-              "checkboxLink": "/materials/extras/listening/audiobooks/beginner/the-leopard-and-the-lighthouse",
+              "checkboxLink": "/materials/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse",
               "checkboxLabel": "The Leopard and the Lighthouse • 10:30"
             },
             {
-              "checkboxLink": "/materials/extras/listening/audiobooks/beginner/the-pearl-girl",
+              "checkboxLink": "/materials/extras/listening/audiobooks/beginner/general/the-pearl-girl",
               "checkboxLabel": "The Pearl Girl • 11:47"
             },
             {
-              "checkboxLink": "/materials/extras/listening/audiobooks/beginner/who-wants-to-be=a=star",
+              "checkboxLink": "/materials/extras/listening/audiobooks/beginner/general/who-wants-to-be=a=star",
               "checkboxLabel": "Who wants to be a star • 10:09"
             }
           ]

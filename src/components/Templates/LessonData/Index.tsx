@@ -15,8 +15,6 @@ import {
   Card,
 } from "@/components";
 
-import { tools } from "@/img/index";
-
 // Typescript
 import { LessonTemplateProps } from "@/components/Templates/LessonData/types";
 import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
@@ -96,7 +94,11 @@ export const LessonTemplate = ({
             {lesson.flipcards && <FlipCard flipCards={lesson.flipcards} />}
 
             {/* Audio Player */}
-            {lesson.audioSrc && <AudioPlayer audioSrc={lesson.audioSrc} />}
+            {lesson.audioSrc && (
+              <div>
+                <AudioPlayer audioSrc={lesson.audioSrc} />
+              </div>
+            )}
 
             {/* Video Player */}
             {lesson.videoSrc && <VideoPlayer videoSrc={lesson.videoSrc} />}

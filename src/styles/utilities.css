@@ -20,6 +20,7 @@
 
 .position-fixed {
   position: fixed;
+  z-index: 1000;
 }
 
 .position-sticky {
@@ -170,7 +171,6 @@
   gap: 8px;
 }
 
-
 .grid-3fr-8px {
   display: grid;
   grid-template-columns: repeat(3, auto);
@@ -201,17 +201,15 @@
   cursor: pointer;
 }
 
+.audio-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
 .icon-position-top {
   position: relative;
   top: 3px;
-}
-
-/* AUDIO */
-
-.audio-fixed {
-  position: sticky;
-  top: 0;
-  z-index: 1;
 }
 
 @media (max-width: 500px) {

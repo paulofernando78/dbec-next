@@ -1,689 +1,683 @@
 {
-    "whiteboard": {
-      "title": "Extras",
-      "subtitle": "Skills",
-      "descriptions": [
-        "Listening",
-        "Audiobooks",
-        "beginner",
-        "A New Zealand Adventure"
+  "whiteboard": {
+    "title": "Extras",
+    "subtitle": "Skills",
+    "descriptions": ["Listening", "Audiobooks", "beginner", "..."]
+  },
+  "lessons": [
+    {
+      "title": "Summary",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "...",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Summary"
+            }
+          ]
+        }
       ]
     },
-    "lessons": [
-      {
-        "title": "Summary",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/xxx.mp3",
-                "text": "Summary"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Paragraph 1",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "audioSrc": "/assets/audio/xxx.mp3"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/xxx.mp3",
-                "text": "Paragraph 1"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "radio": [
-          {
-            "title": "Choose the correct answer.",
-            "question": "1. Question",
-            "options": [
-              { "label": "Answer 1", "isCorrect": true },
-              { "label": "Answer 2", "isCorrect": false }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Paragraph 2",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "audioSrc": "/assets/audio/xxx.mp3"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-                "text": "Paragraph 2"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "radio": [
-          {
-            "title": "Choose the correct answer.",
-            "question": "1. Question",
-            "options": [
-              { "label": "Answer 1", "isCorrect": true },
-              { "label": "Answer 2", "isCorrect": false }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Paragraph 3",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "audioSrc": "/assets/audio/xxx.mp3"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-                "text": "Paragraph 3"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "radio": [
-          {
-            "title": "Choose the correct answer.",
-            "question": "1. Question",
-            "options": [
-              { "label": "Answer 1", "isCorrect": true },
-              { "label": "Answer 2", "isCorrect": false }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Paragraph 4",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "audioSrc": "/assets/audio/xxx.mp3"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-                "text": "Paragraph 3"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "radio": [
-          {
-            "title": "Choose the correct answer.",
-            "question": "1. Question",
-            "options": [
-              { "label": "Answer 1", "isCorrect": true },
-              { "label": "Answer 2", "isCorrect": false }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Paragraph 5",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "audioSrc": "/assets/audio/xxx.mp3"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-                "text": "Paragraph 3"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "radio": [
-          {
-            "title": "Choose the correct answer.",
-            "question": "1. Question",
-            "options": [
-              { "label": "Answer 1", "isCorrect": true },
-              { "label": "Answer 2", "isCorrect": false }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Paragraph 6",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "audioSrc": "/assets/audio/xxx.mp3"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-                "text": "Paragraph 3"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "radio": [
-          {
-            "title": "Choose the correct answer.",
-            "question": "1. Question",
-            "options": [
-              { "label": "Answer 1", "isCorrect": true },
-              { "label": "Answer 2", "isCorrect": false }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Paragraph 7",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "audioSrc": "/assets/audio/xxx.mp3"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-                "text": "Paragraph 3"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "radio": [
-          {
-            "title": "Choose the correct answer.",
-            "question": "1. Question",
-            "options": [
-              { "label": "Answer 1", "isCorrect": true },
-              { "label": "Answer 2", "isCorrect": false }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Paragraph 8",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "audioSrc": "/assets/audio/xxx.mp3"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-                "text": "Paragraph 3"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "radio": [
-          {
-            "title": "Choose the correct answer.",
-            "question": "1. Question",
-            "options": [
-              { "label": "Answer 1", "isCorrect": true },
-              { "label": "Answer 2", "isCorrect": false }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Paragraph 9",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "audioSrc": "/assets/audio/xxx.mp3"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-                "text": "Paragraph 3"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "radio": [
-          {
-            "title": "Choose the correct answer.",
-            "question": "1. Question",
-            "options": [
-              { "label": "Answer 1", "isCorrect": true },
-              { "label": "Answer 2", "isCorrect": false }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Paragraph 10",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "audioSrc": "/assets/audio/xxx.mp3"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-                "text": "Paragraph 3"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "radio": [
-          {
-            "title": "Choose the correct answer.",
-            "question": "1. Question",
-            "options": [
-              { "label": "Answer 1", "isCorrect": true },
-              { "label": "Answer 2", "isCorrect": false }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Paragraph 11",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "audioSrc": "/assets/audio/xxx.mp3"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-                "text": "Paragraph 3"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "radio": [
-          {
-            "title": "Choose the correct answer.",
-            "question": "1. Question",
-            "options": [
-              { "label": "Answer 1", "isCorrect": true },
-              { "label": "Answer 2", "isCorrect": false }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Paragraph 12",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "audioSrc": "/assets/audio/xxx.mp3"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-                "text": "Paragraph 3"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "radio": [
-          {
-            "title": "Choose the correct answer.",
-            "question": "1. Question",
-            "options": [
-              { "label": "Answer 1", "isCorrect": true },
-              { "label": "Answer 2", "isCorrect": false }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Paragraph 13",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "audioSrc": "/assets/audio/xxx.mp3"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-                "text": "Paragraph 3"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "radio": [
-          {
-            "title": "Choose the correct answer.",
-            "question": "1. Question",
-            "options": [
-              { "label": "Answer 1", "isCorrect": true },
-              { "label": "Answer 2", "isCorrect": false }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Paragraph 14",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "audioSrc": "/assets/audio/xxx.mp3"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-                "text": "Paragraph 3"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "radio": [
-          {
-            "title": "Choose the correct answer.",
-            "question": "1. Question",
-            "options": [
-              { "label": "Answer 1", "isCorrect": true },
-              { "label": "Answer 2", "isCorrect": false }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Paragraph 15",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "audioSrc": "/assets/audio/xxx.mp3"
-      },
-      {
-        "paragraphSections": [
-          {
-            "paragraphs": [
-              {
-                "keyword": "...",
-                "dictionary": "vocabulary",
-                "dictionaryAudioSrc": "/dictionary/a/annoy.mp3",
-                "text": "Paragraph 3"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "radio": [
-          {
-            "title": "Choose the correct answer.",
-            "question": "1. Question",
-            "options": [
-              { "label": "Answer 1", "isCorrect": true },
-              { "label": "Answer 2", "isCorrect": false }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Exercises",
-        "bgColor": "black",
-        "textColor": "white"
-      },
-      {
-        "fillInTheBlanks": [
-          {
-            "title": "1. Fill in the blank with the correct word.",
-            "options": true,
-            "width": "100px",
-            "beforeBlank": "...",
-            "placeholder": "...",
-            "correctAnswer": ["..."],
-            "afterBlank": "...",
-            "lineBreakAfter": true
-          },
-          {
-            "options": true,
-            "width": "100px",
-            "beforeBlank": "...",
-            "placeholder": "...",
-            "correctAnswer": ["..."],
-            "afterBlank": "...",
-            "lineBreakAfter": true
-          },
-          {
-            "options": true,
-            "width": "100px",
-            "beforeBlank": "...",
-            "placeholder": "...",
-            "correctAnswer": ["..."],
-            "afterBlank": "...",
-            "lineBreakAfter": true
-          },
-          {
-            "options": true,
-            "width": "100px",
-            "beforeBlank": "...",
-            "placeholder": "...",
-            "correctAnswer": ["..."],
-            "afterBlank": "...",
-            "lineBreakAfter": true
-          },
-          {
-            "options": true,
-            "width": "100px",
-            "beforeBlank": "...",
-            "placeholder": "...",
-            "correctAnswer": ["..."],
-            "afterBlank": "...",
-            "lineBreakAfter": true
-          },
-          {
-            "options": true,
-            "width": "100px",
-            "beforeBlank": "...",
-            "placeholder": "...",
-            "correctAnswer": ["..."],
-            "afterBlank": "...",
-            "lineBreakAfter": true
-          },
-          {
-            "options": true,
-            "width": "100px",
-            "beforeBlank": "...",
-            "placeholder": "...",
-            "correctAnswer": ["..."],
-            "afterBlank": "...",
-            "lineBreakAfter": true
-          },
-          {
-            "options": true,
-            "width": "100px",
-            "beforeBlank": "...",
-            "placeholder": "...",
-            "correctAnswer": ["..."],
-            "afterBlank": "...",
-            "lineBreakAfter": true
-          },
-          {
-            "options": true,
-            "width": "100px",
-            "beforeBlank": "...",
-            "placeholder": "...",
-            "correctAnswer": ["..."],
-            "afterBlank": "...",
-            "lineBreakAfter": true
-          },
-          {
-            "options": true,
-            "width": "100px",
-            "beforeBlank": "...",
-            "placeholder": "...",
-            "correctAnswer": ["..."],
-            "afterBlank": "...",
-            "lineBreakAfter": true
-          },
-          {
-            "options": true,
-            "width": "100px",
-            "beforeBlank": "...",
-            "placeholder": "...",
-            "correctAnswer": ["..."],
-            "afterBlank": "...",
-            "lineBreakAfter": true
-          },
-          {
-            "options": true,
-            "width": "100px",
-            "beforeBlank": "...",
-            "placeholder": "...",
-            "correctAnswer": ["..."],
-            "afterBlank": "...",
-            "lineBreakAfter": true
-          },
-          {
-            "options": true,
-            "width": "100px",
-            "beforeBlank": "...",
-            "placeholder": "...",
-            "correctAnswer": ["..."],
-            "afterBlank": "...",
-            "lineBreakAfter": true
-          },
-          {
-            "options": true,
-            "width": "100px",
-            "beforeBlank": "...",
-            "placeholder": "...",
-            "correctAnswer": ["..."],
-            "afterBlank": "...",
-            "lineBreakAfter": true
-          },
-          {
-            "options": true,
-            "width": "100px",
-            "beforeBlank": "...",
-            "placeholder": "...",
-            "correctAnswer": ["..."],
-            "afterBlank": "...",
-            "lineBreakAfter": true
-          }
-        ]
-      }
-    ]
-  }
-  
+    {
+      "audioSrc": "/assets/audio/xxx.mp3"
+    },
+    {
+      "title": "Paragraph 1",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 1"
+            }
+          ],
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 1 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "1.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 2",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 2"
+            }
+          ],
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 2 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "2.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 3",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 3"
+            }
+          ],
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 3 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "3.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 4",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 4"
+            }
+          ],
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 4 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "4.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 5",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 5"
+            }
+          ],
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 5 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "5.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 6",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 6"
+            }
+          ],
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 6 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "6.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 7",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 7"
+            }
+          ],
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 7 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "7.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 8",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 8"
+            }
+          ],
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 8 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "8.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 9",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 9"
+            }
+          ],
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 9 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "9.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 10",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 10"
+            }
+          ],
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 10 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "10.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 11",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 11"
+            }
+          ],
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 11 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "11.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 12",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 12"
+            }
+          ],
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 12 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "12.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 13",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 13"
+            }
+          ],
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 13 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "13.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 14",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 14"
+            }
+          ],
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 14 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "14.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 15",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 15"
+            }
+          ],
+          "img": "/assets/img/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 15 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "15.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "fillInTheBlanks": [
+        {
+          "title": "1. Fill in the blank with the correct word.",
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        }
+      ]
+    }
+  ]
+}

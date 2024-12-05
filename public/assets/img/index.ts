@@ -47,8 +47,6 @@ import incorrectIcon from "./icon/incorrect.png";
 // Folder
 
 // A
-import addictive1 from "./addictive1.jpg"
-import animalAfricanCivet from "./african-civet.jpg"
 import animalAsianCivet from "./asian-palm-civet.jpg"
 import animalCat1 from "./animal-cat1.jpg";
 import animalCat2 from "./animal-cat2.jpeg";
@@ -240,8 +238,6 @@ export {
   // Folder
 
   // A
-  addictive1,
-  animalAfricanCivet,
   animalAsianCivet, 
   animalCat1,
   animalCat2,

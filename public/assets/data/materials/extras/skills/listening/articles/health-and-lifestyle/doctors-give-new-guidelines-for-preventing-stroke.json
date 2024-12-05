@@ -27,11 +27,11 @@
       ],
       "swiperFractionImages": [
         {
-          "imgSrcLink": "https://gdb.voanews.com/adfb512d-035a-4eae-9bb2-3ad6e53e2eed_cx0_cy1_cw0_w1023_r1_s.jpg",
+          "imgSrcLink": "/assets/img/fitness-stretching-out.webp",
           "imgAltLink": "Example image description"
         },
         {
-          "imgSrc": "https://gdb.voanews.com/c48ddfde-59dc-41c4-acfc-ba8fd0bd0c0d_cx0_cy6_cw100_w650_r1.jpg",
+          "imgSrc": "/assets/img/fitness-exercising.webp",
           "imgAlt": "Example image description"
         }
       ]
@@ -123,7 +123,7 @@
           "height": "180px"
         },
         {
-          "imgSrc": "/assets/img/aerobic-fitness.jpg",
+          "imgSrc": "/assets/img/fitness-aerobic.jpg",
           "imgAlt": "Person performing aerobic exercise.",
           "width": "180px",
           "height": "180px"
