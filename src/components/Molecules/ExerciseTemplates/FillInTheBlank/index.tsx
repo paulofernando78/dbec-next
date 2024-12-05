@@ -81,7 +81,7 @@ export const FillInTheBlanks = ({
               </div>
             )}
             <span>
-              {`${index + 1}`}. {/* beforeQuestion */}
+              {/* beforeQuestion */}
               {question.beforeBlank && (
                 <span
                   dangerouslySetInnerHTML={{ __html: question.beforeBlank }}

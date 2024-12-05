@@ -72,6 +72,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  overflow: visible;
 }
 
 .white-space-pre-wrap {
@@ -201,10 +202,16 @@
   cursor: pointer;
 }
 
-.audio-sticky {
+.audioplayer-container {
+  position: relative;
+  overflow: visible;
+}
+
+.audioplayer-sticky {
   position: sticky;
   top: 0;
   z-index: 10;
+  padding-top: 10px;
 }
 
 .icon-position-top {

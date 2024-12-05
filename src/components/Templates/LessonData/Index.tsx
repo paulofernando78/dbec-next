@@ -19,6 +19,7 @@ import {
 import { LessonTemplateProps } from "@/components/Templates/LessonData/types";
 import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 import { SubRibbon } from "@/components/Molecules/SubRibbon";
+import React from "react";
 
 export const LessonTemplate = ({
   lessonData,
@@ -27,8 +28,9 @@ export const LessonTemplate = ({
   if (!lessonData) {
     return null;
   }
+
   return (
-    <>
+    <div className="line-break">
       {lessonData.whiteboard && (
         <Whiteboard
           title={lessonData.whiteboard.title}
@@ -38,86 +40,82 @@ export const LessonTemplate = ({
         />
       )}
 
-      {/* Under Construction */}
-      <div className="line-break">
-        {isUnderConstruction && <UnderConstruction />}
+      {isUnderConstruction && <UnderConstruction />}
 
-        {lessonData.lessons.map((lesson, lessonIndex) => (
-          <div key={lessonIndex} className="line-break">
-            {/* Title */}
-            {lesson.title && (
-              <Ribbon
-                label={lesson.title}
-                time={lesson.time}
-                bgColor={lesson.bgColor}
-                textColor={lesson.textColor}
+      {lessonData.lessons.map((lesson, lessonIndex) => (
+        <React.Fragment key={lessonIndex}>
+          {/* Title */}
+          {lesson.title && (
+            <Ribbon
+              label={lesson.title}
+              time={lesson.time}
+              bgColor={lesson.bgColor}
+              textColor={lesson.textColor}
+            />
+          )}
+
+          {/* Subtitle */}
+          {lesson.subtitle && (
+            <SubRibbon
+              sublabel={lesson.subtitle}
+              subtime={lesson.subtime}
+              subBgColor={lesson.subBgColor}
+              subTextColor={lesson.subTextColor}
+            />
+          )}
+
+          {/* Cards */}
+          {lesson.cards && lesson.cards.length > 0 && (
+            <Card
+              bgColor={lesson.bgColor}
+              textColor={lesson.textColor}
+              cards={lesson.cards}
+            />
+          )}
+
+          {/* Paragraphs */}
+          {lesson.paragraphSections && (
+            <Paragraph paragraphSections={lesson.paragraphSections} />
+          )}
+
+          {/* SwiperFraction images */}
+          {lesson.swiperFractionImages &&
+            lesson.swiperFractionImages.length > 0 && (
+              <SwiperFraction
+                images={lesson.swiperFractionImages.map(
+                  (swiperFractionImage) => ({
+                    imgSrc: swiperFractionImage.imgSrc,
+                    imgAlt: swiperFractionImage.imgAlt,
+                    imgSrcLink: swiperFractionImage.imgSrcLink,
+                    imgAltLink: swiperFractionImage.imgAltLink,
+                  })
+                )}
               />
             )}
 
-            {lesson.subtitle && (
-              <SubRibbon
-                sublabel={lesson.subtitle}
-                subtime={lesson.subtime}
-                subBgColor={lesson.subBgColor}
-                subTextColor={lesson.subTextColor}
-              />
-            )}
+          {/* Flip Cards */}
+          {lesson.flipcards && <FlipCard flipCards={lesson.flipcards} />}
 
-            {lesson.cards && lesson.cards.length > 0 && (
-              <Card
-                bgColor={lesson.bgColor}
-                textColor={lesson.textColor}
-                cards={lesson.cards}
-              />
-            )}
-            {/* Paragraphs + Word */}
-            {lesson.paragraphSections && (
-              <Paragraph paragraphSections={lesson.paragraphSections} />
-            )}
+          {/* Audio Player */}
+          {lesson.audioSrc && (
+            <div className="audioplayer-sticky"><AudioPlayer audioSrc={lesson.audioSrc} /></div>
+          )}
 
-            {/* SwiperFraction images */}
-            {lesson.swiperFractionImages &&
-              lesson.swiperFractionImages.length > 0 && (
-                <SwiperFraction
-                  images={lesson.swiperFractionImages?.map(
-                    (swiperFractionImage) => ({
-                      imgSrc: swiperFractionImage.imgSrc,
-                      imgAlt: swiperFractionImage.imgAlt,
-                      imgSrcLink: swiperFractionImage.imgSrcLink,
-                      imgAltLink: swiperFractionImage.imgAltLink,
-                    })
-                  )}
-                />
-              )}
+          {/* Video Player */}
+          {lesson.videoSrc && <VideoPlayer videoSrc={lesson.videoSrc} />}
 
-            {/* Flip Cards */}
-            {lesson.flipcards && <FlipCard flipCards={lesson.flipcards} />}
+          {/* Radio Exercises */}
+          {lesson.radio && <Radio questions={lesson.radio} />}
 
-            {/* Audio Player */}
-            {lesson.audioSrc && (
-              <div>
-                <AudioPlayer audioSrc={lesson.audioSrc} />
-              </div>
-            )}
+          {/* Dropdown Exercises */}
+          {lesson.dropdown && <Dropdown questions={lesson.dropdown} />}
 
-            {/* Video Player */}
-            {lesson.videoSrc && <VideoPlayer videoSrc={lesson.videoSrc} />}
-
-            {/* Radio Exercises */}
-            {lesson.radio && <Radio questions={lesson.radio} />}
-
-            {/* Checkbox Exercises */}
-
-            {/* Dropdown Exercises */}
-            {lesson.dropdown && <Dropdown questions={lesson.dropdown} />}
-
-            {/* Fill in the Blanks Exercises */}
-            {lesson.fillInTheBlanks && (
-              <FillInTheBlanks questions={lesson.fillInTheBlanks} />
-            )}
-          </div>
-        ))}
-      </div>
-    </>
+          {/* Fill in the Blanks Exercises */}
+          {lesson.fillInTheBlanks && (
+            <FillInTheBlanks questions={lesson.fillInTheBlanks} />
+          )}
+        </React.Fragment>
+      ))}
+    </div>
   );
 };
