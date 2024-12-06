@@ -1,7 +1,7 @@
 "use client";
 
 // Hook
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 // CSS
 import styles from "./styles.module.css";
@@ -19,6 +19,15 @@ export const Radio = ({ questions }: RadioProps) => {
   const [selectedAnswers, setSelectedAnswers] = useState<(number | null)[]>(
     Array(questions.length).fill(null)
   );
+
+  // Preload correct / incorrect images
+  useEffect(() => {
+    const correctImg = new Image();
+    correctImg.src = "/assets/img/icon/radio-correct.png";
+
+    const incorrectImg = new Image();
+    incorrectImg.src = "/assets/img/icon/radio-incorrect.png";
+  }, []);
 
   // Reset all selected answers to null
   const resetRadio = () => {
