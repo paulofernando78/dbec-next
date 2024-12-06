@@ -1,34 +1,9 @@
-.display-inline {
-  display: inline;
+.bold {
+  font-weight: bold;
 }
 
-.display-inline-block {
-  display: inline-block;
-}
-
-.display-block {
-  display: block;
-}
-
-.position-absolute {
-  position: absolute;
-}
-
-.position-relative {
-  position: relative;
-}
-
-.position-fixed {
-  position: fixed;
-  z-index: 1000;
-}
-
-.position-sticky {
-  position: sticky;
-}
-
-.display-none {
-  display: none;
+.underline {
+  text-decoration: underline;
 }
 
 /* SPACING */
@@ -80,6 +55,39 @@
 }
 
 /* LAYOUT */
+
+.display-inline {
+  display: inline;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.display-block {
+  display: block;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-fixed {
+  position: fixed;
+  z-index: 1000;
+}
+
+.position-sticky {
+  position: sticky;
+}
+
+.display-none {
+  display: none;
+}
 
 /* Flex */
 

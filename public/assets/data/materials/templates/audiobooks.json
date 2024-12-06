@@ -13,12 +13,12 @@
     {
       "paragraphSections": [
         {
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "...",
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Summary"
             }
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "audioSrc": "/assets/audio/xxx.mp3"
+      "audioSrc": "/extras/listening/audiobooks/"
     },
     {
       "title": "Paragraph 1",
@@ -41,12 +41,12 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 1"
             }
           ],
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 1 photo"
         }
       ]
@@ -75,12 +75,12 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 2"
             }
           ],
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 2 photo"
         }
       ]
@@ -109,12 +109,12 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 3"
             }
           ],
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 3 photo"
         }
       ]
@@ -143,12 +143,12 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 4"
             }
           ],
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 4 photo"
         }
       ]
@@ -177,12 +177,12 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 5"
             }
           ],
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 5 photo"
         }
       ]
@@ -211,12 +211,12 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 6"
             }
           ],
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 6 photo"
         }
       ]
@@ -245,12 +245,12 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 7"
             }
           ],
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 7 photo"
         }
       ]
@@ -279,12 +279,12 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 8"
             }
           ],
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 8 photo"
         }
       ]
@@ -313,12 +313,12 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 9"
             }
           ],
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 9 photo"
         }
       ]
@@ -347,12 +347,12 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 10"
             }
           ],
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 10 photo"
         }
       ]
@@ -381,12 +381,12 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 11"
             }
           ],
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 11 photo"
         }
       ]
@@ -415,12 +415,12 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 12"
             }
           ],
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 12 photo"
         }
       ]
@@ -449,12 +449,12 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 13"
             }
           ],
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 13 photo"
         }
       ]
@@ -483,12 +483,12 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 14"
             }
           ],
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 14 photo"
         }
       ]
@@ -517,12 +517,12 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
+              "dictionary": "...",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 15"
             }
           ],
-          "img": "/assets/img/extras/listening/audiobooks/...",
+          "img": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 15 photo"
         }
       ]
