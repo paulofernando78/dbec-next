@@ -19,8 +19,6 @@ import { IDictionary } from "../Templates/WordCard/types";
 // Utils
 import { searchWords } from "@/utils/searchWords";
 
-const baseAudioSrc = "/assets/audio";
-
 export const DictionaryCard = ({
   audioSrc,
   keyword,
@@ -29,12 +27,13 @@ export const DictionaryCard = ({
 }: DictionaryCardProps) => {
   const [visible, setVisible] = useState(false);
   const [dictionary, setDictionary] = useState<IDictionary | null>(null);
+  const baseAudioSrc = "/assets/audio";
+  audioSrc = baseAudioSrc + audioSrc;
 
   const playAudio = () => {
     let audio = new Audio(audioSrc);
     audio.play();
   };
-  audioSrc = baseAudioSrc + audioSrc;
 
   useEffect(() => {
     if (!dictionary) {

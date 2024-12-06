@@ -3,11 +3,11 @@ import { AudioPlayer, Card } from "../..";
 
 // CSS
 import styles from "./styles.module.css";
-import { IDictionaryDefinitions, WordCardProps } from "./types";
 
 // Types
+import { IDictionaryDefinitions, WordCardProps } from "./types";
 
-const AudioSrcBase = "/assets/audio/";
+// const AudioSrcBase = "/assets/audio";
 
 export function WordCard({ dictionary }: WordCardProps) {
   return (
@@ -22,9 +22,7 @@ export function WordCard({ dictionary }: WordCardProps) {
               <>
                 {definition.audio && (
                   <div className={styles["audio-player-margin-top"]}>
-                    <AudioPlayer
-                      audioSrc={`${AudioSrcBase}/${definition.audio}`}
-                    />
+                    <AudioPlayer audioSrc={definition.audio} />
                   </div>
                 )}
                 {definition.word && (
@@ -61,10 +59,9 @@ export function WordCard({ dictionary }: WordCardProps) {
                     return (
                       <p key={exampleIndex}>
                         <b>• </b>
-                        {example.enExample &&
-                        <span>{example.enExample}
-                        </span>}
-                        {" "}
+                        {example.enExample && (
+                          <span>{example.enExample}</span>
+                        )}{" "}
                         {example.ptExample && (
                           <span className="portuguese">
                             {example.ptExample}
