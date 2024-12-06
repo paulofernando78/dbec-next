@@ -59,6 +59,21 @@
         {
           "paragraphs": [
             {
+              "text": "<b>Carl:</b> Our designers have already made up some prototypes. The toothbrushes have a tooth-whitening attachment and many other."
+            },
+            {
+              "keyword": "bells and whistles",
+              "dictionary": "bells and whistles",
+              "dictionaryAudioSrc": "/dictionary/b/bells-and-whistles.mp3"
+            },
+            {
+              "text": "."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
               "text": "<b>Greg:</b> We should"
             },
             {
@@ -194,7 +209,7 @@
       "radio": [
         {
           "title": "Choose the best substitute for the phrase or sentence in bold.",
-          "question": "1. Did the company think of this new produxt idea themselves? No, they ripped it off from an inventor.",
+          "question": "1. Did the company think of this new product idea themselves? No, they <b>ripped it off</b> from an inventor.",
           "options": [
             {
               "label": "a) No, they paid an inventor for the idea.",
@@ -211,7 +226,7 @@
           ]
         },
         {
-          "question": "2. Jill is planning to quit her job at the end of September, but mum's the word.",
+          "question": "2. Jill is planning to quit her job at the end of September, but <b>mum's the word</b>.",
           "options": [
             { "label": "a) don't tell anybody", "isCorrect": true },
             { "label": "b) don't tell her mother", "isCorrect": false },
@@ -227,7 +242,7 @@
           ]
         },
         {
-          "question": "4. After receiving a large loan from the bank, the company was finally able to get its project off the ground.",
+          "question": "4. After receiving a large loan from the bank, the company was finally able to <b>get its project off the ground</b>.",
           "options": [
             { "label": "a) get started on the project", "isCorrect": true },
             { "label": "b) cancel the project", "isCorrect": false },
@@ -235,7 +250,7 @@
           ]
         },
         {
-          "question": "5. That new software company seems very disorganized. Do they have a game plan?",
+          "question": "5. That new software company seems very disorganized. Do they have a <b>game plan</b>?",
           "options": [
             {
               "label": "a) plan for closing down their business",
@@ -249,7 +264,7 @@
           ]
         },
         {
-          "question": "6. Some experts recommend that when you're interviewing for a new job, you should keep your current salary under wraps.",
+          "question": "6. Some experts recommend that when you're interviewing for a new job, you should <b>keep your current salary under wraps</b>.",
           "options": [
             {
               "label": "a) you should tell the interviewer what your current salary is",
@@ -266,7 +281,7 @@
           ]
         },
         {
-          "question": "7. Don's new cell phone has a video camera and all sorts of other bells and whistles.",
+          "question": "7. Don's new cell phone has a video camera and all sorts of other <b>bells and whistles</b>.",
           "options": [
             { "label": "a) fancy features", "isCorrect": true },
             {
@@ -280,7 +295,7 @@
           ]
         },
         {
-          "question": "8. When investors got wind of the fact that the pharmaceutical company's major drug increased the risk of heart attacks, the company's stock price fell.",
+          "question": "8. When investors <b>got wind of</b> the fact that the pharmaceutical company's major drug increased the risk of heart attacks, the company's stock price fell.",
           "options": [
             { "label": "a) hid", "isCorrect": false },
             { "label": "b) discovered", "isCorrect": true },
