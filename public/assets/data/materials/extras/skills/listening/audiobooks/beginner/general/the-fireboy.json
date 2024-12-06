@@ -651,7 +651,7 @@
     {
       "fillInTheBlanks": [
         {
-          "title": "1. Fill in the blank with the correct word.",
+          "title": "1. Fill in the blank with the correct verb conjugation.",
           "options": true,
           "width": "100px",
           "beforeBlank": "1. He",
@@ -675,7 +675,7 @@
           "beforeBlank": "3. Bak",
           "placeholder": "fall",
           "correctAnswer": ["falls"],
-          "afterBlank": "on the ground",
+          "afterBlank": "on the ground.",
           "lineBreakAfter": true
         },
         {
