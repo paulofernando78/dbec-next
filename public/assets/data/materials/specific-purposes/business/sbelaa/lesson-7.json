@@ -1,9 +1,319 @@
 {
-    "whiteboard": {
-      "title": "Specific Purposes",
-      "subtitle": "Business",
-      "descriptions": ["Lesson 7 • Discussing bad results"]
+  "whiteboard": {
+    "title": "Specific Purposes",
+    "subtitle": "Business",
+    "descriptions": ["Lesson 7 • Discussing bad results"]
+  },
+  "lessons": [
+    {
+      "audioSrc": "/specific-purposes/business/sbelaa/lesson-7.mp3"
     },
-    "lessons": []
-  }
-  
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Lesson 7 • Discussing bad results</b>"
+            }
+          ],
+          "addBreakLine": true
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "Ron, Alex, and Pam work for Brooklyn Brewski, a company that brews and distributes beer throughout New York. The company's recent results have been terrible."
+            }
+          ],
+          "addBreakLine": true
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Alex:</b> We need to "
+            },
+            {
+              "keyword": "face the music",
+              "dictionary": "face the music",
+              "dictionaryAudioSrc": "/dictionary/f/face-the-music.mp3"
+            },
+            {
+              "text": "here. We're"
+            },
+            {
+              "keyword": "in deep trouble",
+              "dictionary": "in deep trouble",
+              "dictionaryAudioSrc": "/dictionary/d/deep-trouble.mp3"
+            },
+            {
+              "text": "! Sales are down by 50 percent versus last year."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Pam:</b> It looks like we're going to be in the red for the year to the tune of $1 miliion."
+            },
+            {
+              "keyword": "...",
+              "dictionary": "...",
+              "dictionaryAudioSrc": "/dictionary/c/....mp3"
+            },
+            {
+              "text": "..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Ron:</b> No wonder. We're losing market share to Manhattan Beer."
+            },
+            {
+              "keyword": "...",
+              "dictionary": "...",
+              "dictionaryAudioSrc": "/dictionary/c/....mp3"
+            },
+            {
+              "text": "..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Alex:</b> Why? We need to get to the bottom of this!"
+            },
+            {
+              "keyword": "...",
+              "dictionary": "...",
+              "dictionaryAudioSrc": "/dictionary/c/....mp3"
+            },
+            {
+              "text": "..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Pam:</b> Every year they come up woth beers. They're really on top of trends. For instance, last year they released a low-carb beer."
+            },
+            {
+              "keyword": "...",
+              "dictionary": "...",
+              "dictionaryAudioSrc": "/dictionary/c/....mp3"
+            },
+            {
+              "text": "..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Ron:</b> No wonder they're eating our lunch! They're cashing in on the latest trends and bringing great new products to market!"
+            },
+            {
+              "keyword": "...",
+              "dictionary": "...",
+              "dictionaryAudioSrc": "/dictionary/c/....mp3"
+            },
+            {
+              "text": "..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Pam:</b> Meanwhile, we're running in place. We need a new product line and new ideas for marketing."
+            },
+            {
+              "keyword": "...",
+              "dictionary": "...",
+              "dictionaryAudioSrc": "/dictionary/c/....mp3"
+            },
+            {
+              "text": "..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Alex:</b> It's time to clean house and bring some new blood into this company."
+            },
+            {
+              "keyword": "...",
+              "dictionary": "...",
+              "dictionaryAudioSrc": "/dictionary/c/....mp3"
+            },
+            {
+              "text": "..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Ron:</b> You took the words right out of my mouth! We need some new people with fresh ideas."
+            },
+            {
+              "keyword": "...",
+              "dictionary": "...",
+              "dictionaryAudioSrc": "/dictionary/c/....mp3"
+            },
+            {
+              "text": "..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Exercise",
+      "bgColor": "black",
+      "textColor": "white",
+      "radio": [
+        {
+          "title": "Choose the best substitute for the phrase or sentence in bold.",
+          "question": "1. These past few years our company has been <b>running in place</b>.",
+          "options": [
+            {
+              "label": "a) making good progress",
+              "isCorrect": false
+            },
+            {
+              "label": "b) expanding our business",
+              "isCorrect": false
+            },
+            {
+              "label": "c) not making nay progress",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "question": "2. \"I hope Todd doesn't get promoted to sales director.\" - \"<b>You took the words out of my mouth!</b>\"",
+          "options": [
+            {
+              "label": "a) I was thinking the same thing!",
+              "isCorrect": true
+            },
+            {
+              "label": "b) That's what I told him!",
+              "isCorrect": false
+            },
+            {
+              "label": "c) Don't try to influence me!",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "3. Some <b>new blood</b> would really help our company.",
+          "options": [
+            {
+              "label": "a) new ideas",
+              "isCorrect": false
+            },
+            {
+              "label": "b) new acquisitions",
+              "isCorrect": false
+            },
+            {
+              "label": "c) new employees",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "question": "4. Apple has really been able to <b>cash in on</b> the demand for mobile computing.",
+          "options": [
+            {
+              "label": "a) make lots of money from",
+              "isCorrect": true
+            },
+            {
+              "label": "b) foresee",
+              "isCorrect": false
+            },
+            {
+              "label": "c) increase",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "5. <b>No wonder</b> Sergey is having trouble getting a job in the United States. His accent is really strong.",
+          "options": [
+            {
+              "label": "a) I don't understand why",
+              "isCorrect": false
+            },
+            {
+              "label": "b) It's not surprising that",
+              "isCorrect": true
+            },
+            {
+              "label": "c) It's surprising that",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "6. After another bad quater, our CEO announced plans to <b>clean house</b>.",
+          "options": [
+            {
+              "label": "a) introduce new products",
+              "isCorrect": false
+            },
+            {
+              "label": "b) re-thinking our strategy",
+              "isCorrect": false
+            },
+            {
+              "label": "c) cut employess",
+              "isCorrect": true
+            }
+          ]
+        },
+        {
+          "question": "7. Why are so many of our employees arriving late to work? We need to <b>get to the bottom of it</b>.",
+          "options": [
+            {
+              "label": "a) figure out what the problem is",
+              "isCorrect": true
+            },
+            {
+              "label": "b) fire them",
+              "isCorrect": false
+            },
+            {
+              "label": "c) tell them to stop it",
+              "isCorrect": false
+            }
+          ]
+        },
+        {
+          "question": "8. Last year we had revenues <b>to the tune of</b> $2 million.",
+          "options": [
+            {
+              "label": "a) of around",
+              "isCorrect": true
+            },
+            {
+              "label": "b) of more than",
+              "isCorrect": false
+            },
+            {
+              "label": "c) of much less than",
+              "isCorrect": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

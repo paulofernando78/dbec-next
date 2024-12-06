@@ -5,18 +5,15 @@ import { useEffect, useState } from "react";
 
 // Components
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
-import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 
-const lesson7 =
-  "/assets/data/materials/specific-purposes/business/sbelaa/lesson-7.json";
-
-export default function SpeakBusinessEnglishLikeAnAmericanLesson7() {
+export default function XXX() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
+  const CONTENTS_JSON_PATH = "/assets/data/materials/templates/sbelaa.json";
 
   useEffect(() => {
-    fetch(lesson7)
+    fetch(CONTENTS_JSON_PATH)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch lesson data");

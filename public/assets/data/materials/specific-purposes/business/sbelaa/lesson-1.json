@@ -13,7 +13,7 @@
         {
           "paragraphs": [
             {
-              "text": "<b>Lesson 1 • Talking about a new project.</b>"
+              "text": "<b>Lesson 1 • Talking about a new project</b>"
             }
           ],
           "addBreakLine": true
@@ -201,7 +201,7 @@
               "isCorrect": false
             },
             {
-              "label": "b) No, they stole the idea from an inventor",
+              "label": "b) No, they stole the idea from an inventor.",
               "isCorrect": true
             },
             {
