@@ -75,7 +75,7 @@ export const LessonTemplate = ({
 
           {/* Paragraphs */}
           {lesson.paragraphSections && (
-            <Paragraph paragraphSections={lesson.paragraphSections} />
+            <div><Paragraph paragraphSections={lesson.paragraphSections} /></div>
           )}
 
           {/* SwiperFraction images */}

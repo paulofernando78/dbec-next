@@ -29,7 +29,10 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
           : styles["no-image"];
 
         return (
-          <div key={paragraphSectionIndex} className={containerClass}>
+          <div
+            key={paragraphSectionIndex}
+            className={` ${containerClass} ${paragraphSection.addBreakLine ? "margin-bottom" : ""}`}
+          >
             {imgBefore && hasImage && paragraphSection.img && (
               <CustomImage
                 customImg={paragraphSection.img}
