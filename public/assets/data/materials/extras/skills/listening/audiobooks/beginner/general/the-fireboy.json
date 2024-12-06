@@ -64,8 +64,8 @@
         {
           "question": "1.3 Are they rich?",
           "options": [
-            { "label": "Yes, they are.", "isCorrect": true },
-            { "label": "No, they aren't. They're poor.", "isCorrect": false }
+            { "label": "No, they aren't. They're poor.", "isCorrect": true },
+            { "label": "Yes, they are.", "isCorrect": false }
           ]
         }
       ]
