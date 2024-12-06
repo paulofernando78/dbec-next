@@ -205,7 +205,8 @@
           "beforeBlank": "2. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
-          "afterBlank": "..."
+          "afterBlank": "...",
+          "lineBreakAfter": true
         },
         {
           "options": true,
@@ -213,7 +214,8 @@
           "beforeBlank": "3. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
-          "afterBlank": "..."
+          "afterBlank": "...",
+          "lineBreakAfter": true
         },
         {
           "options": true,
@@ -221,7 +223,8 @@
           "beforeBlank": "4. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
-          "afterBlank": "..."
+          "afterBlank": "...",
+          "lineBreakAfter": true
         },
         {
           "options": true,
@@ -229,7 +232,8 @@
           "beforeBlank": "5. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
-          "afterBlank": "..."
+          "afterBlank": "...",
+          "lineBreakAfter": true
         },
         {
           "options": true,
@@ -237,7 +241,8 @@
           "beforeBlank": "6. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
-          "afterBlank": "..."
+          "afterBlank": "...",
+          "lineBreakAfter": true
         },
         {
           "options": true,
@@ -245,7 +250,8 @@
           "beforeBlank": "7. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
-          "afterBlank": "..."
+          "afterBlank": "...",
+          "lineBreakAfter": true
         },
         {
           "options": true,
@@ -253,7 +259,8 @@
           "beforeBlank": "8.",
           "placeholder": "...",
           "correctAnswer": ["..."],
-          "afterBlank": "..."
+          "afterBlank": "...",
+          "lineBreakAfter": true
         }
       ]
     }

@@ -1,0 +1,31 @@
+{
+  "keyword": "...",
+  "definitions": [
+    {
+      "audio": "/dictionary/.mp3",
+      "word": "...",
+      "phonetics": "...",
+      "partOfSpeech": "...",
+      "enDefinition": "...",
+      "ptDefinition": "...",
+      "examples": [
+        {
+          "enExample": "...",
+          "ptExample": "..."
+        },
+        {
+          "enExample": "...",
+          "ptExample": "..."
+        }
+      ],
+      "notes": [
+        {
+          "note": "..."
+        }
+      ],
+      "synonyms": "...",
+      "antonyms": "...",
+      "seeAlso": "..."
+    }
+  ]
+}

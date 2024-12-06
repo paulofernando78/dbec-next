@@ -1,12 +1,30 @@
 [
   {
+    "keyword": "in deep trouble",
+    "definitions": [
+      {
+        "audio": "/dictionary/i/in-deep-trouble-idiom.mp3",
+        "word": "in deep trouble",
+        "partOfSpeech": "idiom",
+        "enDefinition": "having a serious problem; in crisis",
+        "ptDefinition": "ter um problema sério; estar em crise",
+        "examples": [
+          {
+            "enExample": "If there's another winter without any snowfall, Craig's snow plowing business is going to be deep in trouble.",
+            "ptExample": "Se houver outro inverno sem neve, o negócio de remoção de neve do Craig estará em sérios apuros."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "intent",
     "definitions": [
       {
-	      "audio": "/dictionary/dictionary/i/intent-noun.mp3",
-	      "word": "intent",
-		    "phonetics": "/ɪnˈtent/",
-		    "partOfSpeech": "noun",
+        "audio": "/dictionary/dictionary/i/intent-noun.mp3",
+        "word": "intent",
+        "phonetics": "/ɪnˈtent/",
+        "partOfSpeech": "noun",
         "ptDefinition": "intenção",
         "examples": [
           {
@@ -22,7 +40,7 @@
             "ptExample": "Ela foi acusada de possuir armas com a intenção de colocar vidas em perigo."
           }
         ],
-	      "synonyms": "aim (intention), ambition, aspiration (hope), dream (hope), goal (aim), hope, intention, objective, target (aim)",
+        "synonyms": "aim (intention), ambition, aspiration (hope), dream (hope), goal (aim), hope, intention, objective, target (aim)",
         "antonyms": "accident, chance, luck, fortune",
         "extra": "Intention and intent are synonyms, but with a subtle difference. Intention implies a general desire or plan to accomplish something, while intent is a little stronger, indicating a firm resolve to get it done. Intent can be used as a noun or adjective."
       }
