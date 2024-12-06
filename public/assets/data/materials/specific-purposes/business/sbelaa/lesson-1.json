@@ -208,7 +208,7 @@
       "textColor": "white",
       "radio": [
         {
-          "title": "Choose the best substitute for the phrase or sentence in bold.",
+          "title": "1. Choose the best substitute for the phrase or sentence in bold.",
           "question": "1. Did the company think of this new product idea themselves? No, they <b>ripped it off</b> from an inventor.",
           "options": [
             {
@@ -301,6 +301,90 @@
             { "label": "b) discovered", "isCorrect": true },
             { "label": "c) got fed up with", "isCorrect": false }
           ]
+        }
+      ]
+    },
+    {
+      "fillInTheBlanks": [
+        {
+          "title": "2. Fill in the blank with the correct word.",
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "1. When Greg",
+          "correctAnswer": ["got"],
+          "afterBlank": "wind of the coming merger between the two software companies, he posted a story on his blog.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "2. Hedge fund owner John Paulson",
+          "correctAnswer": ["made"],
+          "afterBlank": "a killing betting on the collapse of the housing market.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "3. Toytota's Aurion Touring car has parking sensors, a six-disc CD player, and several other bells and",
+          "correctAnswer": ["whistles"],
+          "afterBlank": ".",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "4. Nike has come",
+          "correctAnswer": ["up"],
+          "afterBlank": "with a winner with its new running shoes.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "5. Best Buy offers lots of great stocking",
+          "correctAnswer": ["stuffers"],
+          "afterBlank": "during the holiday season.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "6. The market for smartphone apps is growing. What's your game",
+          "correctAnswer": ["plan"],
+          "afterBlank": "for getting into this market?",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "7. Nobody knows about our upcoming merger, so please keep it",
+          "correctAnswer": ["under"],
+          "afterBlank": "wraps.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "8. I think the market for our new heart disease drug will be huge. Let's",
+          "correctAnswer": ["fast"],
+          "afterBlank": "track this project.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "9. Alex is going to look for funding so he can get his new business off the",
+          "correctAnswer": ["ground"],
+          "afterBlank": ".",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "10. We're planning a surprise baby shower for Emma.",
+          "correctAnswer": ["Mum's"],
+          "afterBlank": "the word."
         }
       ]
     }

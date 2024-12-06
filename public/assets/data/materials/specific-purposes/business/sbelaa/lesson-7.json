@@ -314,6 +314,76 @@
           ]
         }
       ]
+    },
+    {
+      "fillInTheBlanks": [
+        {
+          "title": "2. Fill in the blank with the correct word.",
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "1. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "2. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "..."
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "3. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "..."
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "4. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "..."
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "5. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "..."
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "6. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "..."
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "7. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "..."
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "8.",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "..."
+        }
+      ]
     }
   ]
 }
