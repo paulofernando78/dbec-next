@@ -1,4 +1,3 @@
-import SwiperFraction from "@/components/Organisms/Swiper/Fraction";
 import { AudioPlayer } from "../../Atoms/AudioPlayer";
 import { DictionaryCard } from "../../DictionaryCard/DictionaryCard";
 
@@ -60,10 +59,10 @@ export default function HowYouFeeling() {
   return (
     <>
       <div className="line-break">
-        <AudioPlayer audioSrc="/assets/audio/how-you-feeling.mp3" />
+        <AudioPlayer audioSrc="/how-you-feeling.mp3" />
         <div className={styles["feeling"]}>
-          <h3>A: Hey, how are you feeling today?</h3>
-          <h3>B: I'm feeling pretty good. Thanks for asking.</h3>
+          <p>A: Hey, how are you feeling today?</p>
+          <p>B: I'm feeling pretty good. Thanks for asking.</p>
         </div>
         <div className={styles["emoji-container"]}>
           {emojis.map((emoji, index) => (
