@@ -123,7 +123,7 @@
     },
     {
       "title": "Paragraph 3",
-      "time": "(1:44)",
+      "time": "1:44",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -154,7 +154,7 @@
     },
     {
       "title": "Paragraph 4",
-      "time": "(2:40)",
+      "time": "2:40",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -195,7 +195,7 @@
     },
     {
       "title": "Paragraph 5",
-      "time": "(3:30)",
+      "time": "3:30",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -240,7 +240,7 @@
     },
     {
       "title": "Paragraph 6",
-      "time": "(4:15)",
+      "time": "4:15",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -295,7 +295,7 @@
     },
     {
       "title": "Paragraph 7",
-      "time": "(4:56)",
+      "time": "4:56",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -348,7 +348,7 @@
     },
     {
       "title": "Paragraph 8",
-      "time": "(5:39)",
+      "time": "5:39",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -391,7 +391,7 @@
     },
     {
       "title": "Paragraph 9",
-      "time": "(6:36)",
+      "time": "6:36",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -441,7 +441,7 @@
     },
     {
       "title": "Paragraph 10",
-      "time": "(7:30)",
+      "time": "7:30",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -472,7 +472,7 @@
     },
     {
       "title": "Paragraph 11",
-      "time": "(8:18)",
+      "time": "8:18",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -503,7 +503,7 @@
     },
     {
       "title": "Paragraph 12",
-      "time": "(9:15)",
+      "time": "9:15",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -537,7 +537,7 @@
     },
     {
       "title": "Paragraph 13",
-      "time": "(10:06)",
+      "time": "10:06",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -574,7 +574,7 @@
     },
     {
       "title": "Paragraph 14",
-      "time": "(10:58)",
+      "time": "10:58",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -611,7 +611,7 @@
     },
     {
       "title": "Paragraph 15",
-      "time": "(11:42)",
+      "time": "11:42",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -653,7 +653,7 @@
         {
           "title": "1. Fill in the blank with verbs in the present simple tense ending in -s, -es, or -ies.",
           "options": true,
-          "width": "100px",
+          "width": "55px",
           "beforeBlank": "1. He",
           "placeholder": "live",
           "correctAnswer": ["lives"],
@@ -662,7 +662,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "2. Bak",
           "placeholder": "talk",
           "correctAnswer": ["talks"],
@@ -671,7 +671,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "3. Bak",
           "placeholder": "fall",
           "correctAnswer": ["falls"],
@@ -680,7 +680,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "4. The next day Bak ",
           "placeholder": "stay",
           "correctAnswer": ["stays"],
@@ -689,7 +689,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "5. Hapu makes ",
           "placeholder": "make",
           "correctAnswer": ["makes"],
@@ -698,7 +698,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "6. The next morning he",
           "placeholder": "go",
           "correctAnswer": ["goes"],
@@ -707,7 +707,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "7.1 He",
           "placeholder": "leave",
           "correctAnswer": ["leaves"],
@@ -716,7 +716,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "7.2 ...and",
           "placeholder": "begin",
           "correctAnswer": ["begins"],
@@ -725,7 +725,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "8. The next day the fireboy ",
           "placeholder": "get up",
           "correctAnswer": ["gets up"],
@@ -734,7 +734,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "9. Hapu ",
           "placeholder": "put",
           "correctAnswer": ["puts"],
@@ -743,7 +743,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "10. The queen ",
           "placeholder": "look",
           "correctAnswer": ["looks"],
@@ -752,7 +752,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "11. Hapu",
           "placeholder": "run",
           "correctAnswer": ["runs"],
@@ -761,7 +761,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "12. He ",
           "placeholder": "have",
           "correctAnswer": ["has"],
@@ -770,7 +770,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "13. \"When the Queen",
           "placeholder": "give",
           "correctAnswer": ["gives"],
@@ -779,7 +779,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "14. At the palace, Cleopatra",
           "placeholder": "talk",
           "correctAnswer": ["talks"],
@@ -788,7 +788,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "15. \"Oh yes!\" Hapu",
           "placeholder": "smile",
           "correctAnswer": ["smiles"],

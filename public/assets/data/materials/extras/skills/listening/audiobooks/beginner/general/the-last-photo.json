@@ -648,7 +648,7 @@
         {
           "title": "1. Fill in the blank with verbs in the present simple tense ending in -s, -es, or -ies.",
           "options": true,
-          "width": "100px",
+          "width": "60px",
           "beforeBlank": "1. Pam",
           "placeholder": "like",
           "correctAnswer": ["likes"],
@@ -657,7 +657,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "75px",
           "beforeBlank": "2. Pam",
           "placeholder": "want",
           "correctAnswer": ["wants"],
@@ -666,7 +666,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "80px",
           "beforeBlank": "3. Martin",
           "placeholder": "stand",
           "correctAnswer": ["stands"],
@@ -675,7 +675,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "58px",
           "beforeBlank": "4. He",
           "placeholder": "go",
           "correctAnswer": ["goes"],
@@ -684,7 +684,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "56px",
           "beforeBlank": "5. Aln Rook",
           "placeholder": "get",
           "correctAnswer": ["gets"],
@@ -693,7 +693,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "59px",
           "beforeBlank": "6. Pam",
           "placeholder": "say",
           "correctAnswer": ["says"],
@@ -702,7 +702,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "7. Pam",
           "placeholder": "look",
           "correctAnswer": ["looks"],
@@ -711,7 +711,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "74px",
           "beforeBlank": "8. Alan Rook",
           "placeholder": "work",
           "correctAnswer": ["works"],
@@ -720,7 +720,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "65px",
           "beforeBlank": "9. Martin",
           "placeholder": "take",
           "correctAnswer": ["takes"],
@@ -729,7 +729,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "76px",
           "beforeBlank": "10. Martin",
           "placeholder": "draw",
           "correctAnswer": ["draws"],
@@ -738,7 +738,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "80px",
           "beforeBlank": "11. Pam",
           "placeholder": "speak",
           "correctAnswer": ["speaks"],
@@ -747,7 +747,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "75px",
           "beforeBlank": "12. Pam",
           "placeholder": "think",
           "correctAnswer": ["thinks"],
@@ -765,7 +765,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "71px",
           "beforeBlank": "14. Pam and Martin",
           "placeholder": "read",
           "correctAnswer": ["reads"],
@@ -774,7 +774,7 @@
         },
         {
           "options": true,
-          "width": "100px",
+          "width": "61px",
           "beforeBlank": "15. The bank",
           "placeholder": "give",
           "correctAnswer": ["gives"],
