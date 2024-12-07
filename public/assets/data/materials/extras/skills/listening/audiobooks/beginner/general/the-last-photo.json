@@ -217,7 +217,7 @@
             }
           ],
           "img": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph4.jpg",
-          "imgAlt": "Paragraph 4 photo"
+          "imgAlt": "Pam is putting away her camera."
         }
       ]
     },
@@ -225,10 +225,26 @@
       "radio": [
         {
           "title": "Choose the correct answer.",
-          "question": "4.1 Question",
+          "question": "4.1 Is the man kind to them?",
           "options": [
-            { "label": "Answer 1", "isCorrect": true },
-            { "label": "Answer 2", "isCorrect": false }
+            { "label": "Yes, he's very kind.", "isCorrect": false },
+            { "label": "No, he isn't. He's angry.", "isCorrect": true }
+          ]
+        },
+        {
+          "title": "Choose the correct answer.",
+          "question": "4.2 Where does the man go?",
+          "options": [
+            { "label": "He goes into the bus station.", "isCorrect": true },
+            { "label": "He goes into a car.", "isCorrect": false }
+          ]
+        },
+        {
+          "title": "Choose the correct answer.",
+          "question": "4.3 What's he wearing?",
+          "options": [
+            { "label": "He's got glasses and a red hat", "isCorrect": false },
+            { "label": "He's got sunglasses and a blue hat.", "isCorrect": true }
           ]
         }
       ]
