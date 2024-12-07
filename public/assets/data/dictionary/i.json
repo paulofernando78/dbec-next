@@ -47,6 +47,24 @@
     ]
   },
   {
+    "keyword": "in the red",
+    "definitions": [
+      {
+        "audio": "/dictionary/i/in-the-red.mp3",
+        "word": "in the red",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To be in debt or operating at a financial loss.",
+        "ptDefinition": "Estar em dívida ou operando com prejuízo financeiro.",
+        "examples": [
+          {
+            "enExample": "The company has been in the red for three consecutive quarters.",
+            "ptExample": "A empresa esteve no vermelho por três trimestres consecutivos."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "Israeli",
     "definitions": [
       {

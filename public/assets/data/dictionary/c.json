@@ -79,6 +79,28 @@
     ]
   },
   {
+    "keyword": "cash in on",
+    "definitions": [
+      {
+        "audio": "/dictionary/c/cash-in-on.mp3",
+        "word": "cash in on",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "To take advantage of an opportunity, especially to make money from something.",
+        "ptDefinition": "Aproveitar uma oportunidade, especialmente para ganhar dinheiro com algo.",
+        "examples": [
+          {
+            "enExample": "The company is looking to cash in on the growing demand for electric cars.",
+            "ptExample": "A empresa está tentando aproveitar a crescente demanda por carros elétricos."
+          },
+          {
+            "enExample": "She cashed in on her popularity by launching a successful fashion line.",
+            "ptExample": "Ela aproveitou sua popularidade lançando uma linha de moda de sucesso."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "characteristic",
     "definitions": [
       {
@@ -114,6 +136,25 @@
       }
     ]
   },
+  {
+    "keyword": "clean house",
+    "definitions": [
+      {
+        "audio": "/dictionary/c/clean-house-idiom.mp3",
+        "word": "clean house",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To remove unnecessary or undesirable people or things from an organization or situation.",
+        "ptDefinition": "Remover pessoas ou coisas desnecessárias ou indesejáveis de uma organização ou situação.",
+        "examples": [
+          {
+            "enExample": "After the scandal, the new CEO decided to clean house and fire the corrupt executives.",
+            "ptExample": "Após o escândalo, o novo CEO decidiu demitir os executivos corruptos."
+          }
+        ]
+      }
+    ]
+  },
+
   {
     "keyword": "compel",
     "definitions": [

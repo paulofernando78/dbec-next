@@ -17,6 +17,25 @@
     ]
   },
   {
+    "keyword": "market share",
+    "definitions": [
+      {
+        "audio": "/dictionary/m/market-share-noun.mp3",
+        "word": "market share",
+        "partOfSpeech": "noun",
+        "enDefinition": "The portion or percentage of total sales or revenue in a market that is held by a company, product, or brand.",
+        "ptDefinition": "A porção ou porcentagem das vendas ou receita total em um mercado que é detida por uma empresa, produto ou marca.",
+        "examples": [
+          {
+            "enExample": "The company increased its market share by 5% in the last quarter.",
+            "ptExample": "A empresa aumentou sua participação de mercado em 5% no último trimestre."
+          }
+        ]
+      }
+    ]
+  },
+
+  {
     "keyword": "menopause",
     "definitions": [
       {

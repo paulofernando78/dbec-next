@@ -50,6 +50,28 @@
     ]
   },
   {
+    "keyword": "to the tune of",
+    "definitions": [
+      {
+        "audio": "/dictionary/t/to-the-tune-of-idiom.mp3",
+        "word": "to the tune of",
+        "partOfSpeech": "idiom",
+        "enDefinition": "in the amount of; approximately",
+        "ptDefinition": "no valor de; aproximadamente",
+        "examples": [
+          {
+            "enExample": "The company was fined to the tune of $5 million for violating regulations.",
+            "ptExample": "A empresa foi multada na ordem de 5 milhões de dólares por violar regulamentos."
+          },
+          {
+            "enExample": "He invested to the tune of $50,000 in the startup.",
+            "ptExample": "Ele investiu na ordem de 50 mil dólares na startup."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "track",
     "definitions": [
       {

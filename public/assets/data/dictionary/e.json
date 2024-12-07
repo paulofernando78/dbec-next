@@ -1,5 +1,27 @@
 [
   {
+    "keyword": "eat one's lunch",
+    "definitions": [
+      {
+        "audio": "/dictionary/e/eat-ones-lunch.mp3",
+        "word": "eat one's lunch",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To outdo, defeat, or surpass someone, often in a competitive situation.",
+        "ptDefinition": "Superar, derrotar ou deixar alguém para trás, geralmente em uma situação competitiva.",
+        "examples": [
+          {
+            "enExample": "The new startup is eating the lunch of established companies in the tech industry.",
+            "ptExample": "A nova startup está deixando as empresas estabelecidas para trás na indústria de tecnologia."
+          },
+          {
+            "enExample": "If we don’t improve our customer service, the competitor will eat our lunch.",
+            "ptExample": "Se não melhorarmos nosso atendimento ao cliente, o concorrente vai nos deixar para trás."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "escarole",
     "definitions": [
       {
@@ -22,10 +44,10 @@
     "keyword": "ethical",
     "definitions": [
       {
-	      "audio": "/dictionary/e/ethical-adjective.mp3",
-	      "word": "ethical",
-		    "phonetics": "/ˈeθ.ɪ.kəl/",
-		    "partOfSpeech": "adjective",
+        "audio": "/dictionary/e/ethical-adjective.mp3",
+        "word": "ethical",
+        "phonetics": "/ˈeθ.ɪ.kəl/",
+        "partOfSpeech": "adjective",
         "enDefinition": "relating to beliefs about what is morally right and wrong",
         "ptDefinition": "ético",
         "examples": [
@@ -34,7 +56,7 @@
             "ptExample": "Assegurar / Garantir a confidencialidade do paciente é uma parte fundamental da conduta ética na medicina."
           }
         ],
-	      "synonyms": "honest, honoroble, humane, proper",
+        "synonyms": "honest, honoroble, humane, proper",
         "antonyms": "dishonest, immoral, corrupt, improper, unjust"
       }
     ]

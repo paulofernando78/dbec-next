@@ -1,22 +1,44 @@
 [
-    {
-        "keyword": "outage",
-        "definitions": [
+  {
+    "keyword": "on top of trends",
+    "definitions": [
+      {
+        "audio": "/dictionary/o/on-top-of-trends.mp3",
+        "word": "on top of trends",
+        "partOfSpeech": "idiom",
+        "enDefinition": "Being aware of, and staying current with, the latest developments, fashions, or movements in a particular field or industry.",
+        "ptDefinition": "Estar ciente e atualizado com os últimos desenvolvimentos, modas ou movimentos em um campo ou indústria específica.",
+        "examples": [
           {
-              "audio": "/dictionary/o/outage-noun.mp3",
-              "word": "outage",
-                "phonetics": "/ˈaʊ.t̬ɪdʒ/",
-                "partOfSpeech": "noun",
-            "enDefinition": "a period when a service, such as electricity, is not available",
-            "ptDefinition": "corte de energia, apagão",
-            "examples": [
-              {
-                "enExample": "The radio news reported power outages affecting 50 homes.",
-                "ptExample": "O noticiário no rádio relatou quedas de energia afetando 50 casas."
-              }
-            ],
-              "synonyms": "blackout"
+            "enExample": "To succeed in the fashion industry, you need to stay on top of trends.",
+            "ptExample": "Para ter sucesso na indústria da moda, é preciso estar por dentro das tendências."
+          },
+          {
+            "enExample": "Our marketing team is always on top of trends to make sure our campaigns are relevant.",
+            "ptExample": "Nossa equipe de marketing está sempre por dentro das tendências para garantir que nossas campanhas sejam relevantes."
           }
         ]
       }
+    ]
+  },
+  {
+    "keyword": "outage",
+    "definitions": [
+      {
+        "audio": "/dictionary/o/outage-noun.mp3",
+        "word": "outage",
+        "phonetics": "/ˈaʊ.t̬ɪdʒ/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a period when a service, such as electricity, is not available",
+        "ptDefinition": "corte de energia, apagão",
+        "examples": [
+          {
+            "enExample": "The radio news reported power outages affecting 50 homes.",
+            "ptExample": "O noticiário no rádio relatou quedas de energia afetando 50 casas."
+          }
+        ],
+        "synonyms": "blackout"
+      }
+    ]
+  }
 ]

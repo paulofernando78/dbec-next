@@ -1,5 +1,23 @@
 [
   {
+    "keyword": "new blood",
+    "definitions": [
+      {
+        "audio": "/dictionary/n/new-blood-idiom.mp3",
+        "word": "new blood",
+        "partOfSpeech": "idiom",
+        "enDefinition": "New members or participants who bring fresh energy, ideas, or perspectives to a group or organization.",
+        "ptDefinition": "Novos membros ou participantes que trazem energia, ideias ou perspectivas renovadas para um grupo ou organização.",
+        "examples": [
+          {
+            "enExample": "The company hired several young employees to bring in some new blood.",
+            "ptExample": "A empresa contratou alguns funcionários jovens para renovar a equipe."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "nip ",
     "definitions": [
       {
@@ -15,8 +33,7 @@
             "ptExample": "O cachorrinho me mordeu na perna."
           }
         ],
-        "synonyms": "bite, , pinch, snap",
-        "antonyms": "lot???"
+        "synonyms": "bite, , pinch, snap"
       },
       {
         "enDefinition": "frost",
@@ -110,6 +127,24 @@
         ],
         "synonyms": "abort",
         "antonyms": "cut off, cut short"
+      }
+    ]
+  },
+  {
+    "keyword": "no wonder",
+    "definitions": [
+      {
+        "audio": "/dictionary/n/no-wonder.mp3",
+        "word": "no wonder",
+        "partOfSpeech": "idiom",
+        "enDefinition": "Used to express that something is not surprising or that the reason for something is obvious.",
+        "ptDefinition": "Usado para expressar que algo não é surpreendente ou que a razão de algo é óbvia.",
+        "examples": [
+          {
+            "enExample": "No wonder she was tired after running a marathon!",
+            "ptExample": "Não é de se admirar que ela estivesse cansada depois de correr uma maratona!"
+          }
+        ]
       }
     ]
   }

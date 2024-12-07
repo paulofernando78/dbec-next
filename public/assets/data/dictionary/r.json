@@ -57,5 +57,27 @@
         ]
       }
     ]
+  },
+  {
+    "keyword": "run in place",
+    "definitions": [
+      {
+        "audio": "/dictionary/r/run-in-place-idiom.mp3",
+        "word": "run in place",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To make efforts or take actions that do not lead to progress or results.",
+        "ptDefinition": "Fazer esforços ou tomar ações que não levam a progresso ou resultados.",
+        "examples": [
+          {
+            "enExample": "The team felt like they were running in place because their project kept getting delayed.",
+            "ptExample": "A equipe sentiu que estava correndo no mesmo lugar porque o projeto continuava sendo adiado."
+          },
+          {
+            "enExample": "If we don't change our strategy, we'll just keep running in place.",
+            "ptExample": "Se não mudarmos nossa estratégia, continuaremos apenas correndo no mesmo lugar."
+          }
+        ]
+      }
+    ]
   }
 ]

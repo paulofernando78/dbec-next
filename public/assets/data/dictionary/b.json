@@ -82,5 +82,27 @@
         ]
       }
     ]
+  },
+  {
+    "keyword": "bring a product to market",
+    "definitions": [
+      {
+        "audio": "/dictionary/b/bring-a-product-to-market-phrase.mp3",
+        "word": "bring a product to market",
+        "partOfSpeech": "phrase",
+        "enDefinition": "To develop and successfully introduce high-quality, innovative products to consumers or the marketplace.",
+        "ptDefinition": "Desenvolver e introduzir com sucesso produtos inovadores e de alta qualidade para os consumidores ou no mercado.",
+        "examples": [
+          {
+            "enExample": "The company's mission is to bring products to market that improve people's lives.",
+            "ptExample": "A missão da empresa é levar ao mercado novos produtos excelentes que melhorem a vida das pessoas."
+          },
+          {
+            "enExample": "It's crucial for startups to bring products to market quickly to stay competitive.",
+            "ptExample": "É crucial para startups levar novos produtos excelentes ao mercado rapidamente para se manterem competitivas."
+          }
+        ]
+      }
+    ]
   }
 ]
