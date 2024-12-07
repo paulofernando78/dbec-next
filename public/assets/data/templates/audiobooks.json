@@ -31,7 +31,6 @@
     },
     {
       "title": "Paragraph 1",
-      "time": "...",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -545,7 +544,7 @@
           "title": "1. Fill in the blank with the correct word.",
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
+          "beforeBlank": "1. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
           "afterBlank": "...",
@@ -554,7 +553,7 @@
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
+          "beforeBlank": "2. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
           "afterBlank": "...",
@@ -563,7 +562,7 @@
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
+          "beforeBlank": "3. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
           "afterBlank": "...",
@@ -572,7 +571,7 @@
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
+          "beforeBlank": "4. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
           "afterBlank": "...",
@@ -581,7 +580,7 @@
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
+          "beforeBlank": "5. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
           "afterBlank": "...",
@@ -590,7 +589,7 @@
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
+          "beforeBlank": "6. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
           "afterBlank": "...",
@@ -599,7 +598,7 @@
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
+          "beforeBlank": "7. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
           "afterBlank": "...",
@@ -608,7 +607,7 @@
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
+          "beforeBlank": "8. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
           "afterBlank": "...",
@@ -617,7 +616,7 @@
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
+          "beforeBlank": "9. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
           "afterBlank": "...",
@@ -626,7 +625,7 @@
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
+          "beforeBlank": "10. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
           "afterBlank": "...",
@@ -635,7 +634,7 @@
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
+          "beforeBlank": "11. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
           "afterBlank": "...",
@@ -644,7 +643,7 @@
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
+          "beforeBlank": "12. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
           "afterBlank": "...",
@@ -653,7 +652,17 @@
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
+          "beforeBlank": "13. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "title": "1. Fill in the blank with the correct word.",
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "14. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
           "afterBlank": "...",
@@ -662,16 +671,7 @@
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
-          "lineBreakAfter": true
-        },
-        {
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "...",
+          "beforeBlank": "15. ",
           "placeholder": "...",
           "correctAnswer": ["..."],
           "afterBlank": "...",

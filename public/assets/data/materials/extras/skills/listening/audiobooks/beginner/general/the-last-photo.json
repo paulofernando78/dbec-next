@@ -28,7 +28,6 @@
     },
     {
       "title": "Paragraph 1",
-      "time": "...",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -93,7 +92,7 @@
     },
     {
       "title": "Paragraph 2",
-      "time": "...",
+      "time": "0:37",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -124,7 +123,6 @@
           ]
         },
         {
-          "title": "Choose the correct answer.",
           "question": "2.2 How are they going home?",
           "options": [
             { "label": "They're going home by bus.", "isCorrect": true },
@@ -132,7 +130,6 @@
           ]
         },
         {
-          "title": "Choose the correct answer.",
           "question": "2.3 Where is the bus station?",
           "options": [
             { "label": "The bus station is near the shopping center / mall.", "isCorrect": false },
@@ -140,8 +137,7 @@
           ]
         },
         {
-          "title": "Why does Pam want to take one more photo / picture?",
-          "question": "2.4 Question",
+          "question": "2.4 Why does Pam want to take one more photo?",
           "options": [
             { "label": "Because she wants to finish her film.", "isCorrect": true },
             { "label": "Because she wants to buy another film.", "isCorrect": false }
@@ -151,7 +147,7 @@
     },
     {
       "title": "Paragraph 3",
-      "time": "...",
+      "time": "1:15",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -182,7 +178,6 @@
           ]
         },
         {
-          "title": "Choose the correct answer.",
           "question": "3.2 What happens when Pam takes a photo / picture?",
           "options": [
             { "label": "A man walks between Pam and Martin.", "isCorrect": true },
@@ -190,7 +185,6 @@
           ]
         },
         {
-          "title": "Choose the correct answer.",
           "question": "3.3 Was Pam happy about it?",
           "options": [
             { "label": "Yes, she was.", "isCorrect": false },
@@ -201,7 +195,7 @@
     },
     {
       "title": "Paragraph 4",
-      "time": "...",
+      "time": "1:53",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -232,7 +226,6 @@
           ]
         },
         {
-          "title": "Choose the correct answer.",
           "question": "4.2 Where does the man go?",
           "options": [
             { "label": "He goes into the bus station.", "isCorrect": true },
@@ -240,7 +233,6 @@
           ]
         },
         {
-          "title": "Choose the correct answer.",
           "question": "4.3 What's he wearing?",
           "options": [
             { "label": "He's got glasses and a red hat", "isCorrect": false },
@@ -251,7 +243,7 @@
     },
     {
       "title": "Paragraph 5",
-      "time": "...",
+      "time": "2:30",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -267,7 +259,7 @@
             }
           ],
           "img": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph5.jpg",
-          "imgAlt": "Paragraph 5 photo"
+          "imgAlt": "Pam and Martin are at the bus station."
         }
       ]
     },
@@ -275,17 +267,17 @@
       "radio": [
         {
           "title": "Choose the correct answer.",
-          "question": "5.1 Question",
+          "question": "5.1 Where's he man going?",
           "options": [
-            { "label": "Answer 1", "isCorrect": true },
-            { "label": "Answer 2", "isCorrect": false }
+            { "label": "He's going to Dublin. That's in Ireland.", "isCorrect": false },
+            { "label": "He's going to Aberdeen. That's in Scotland.", "isCorrect": true }
           ]
         }
       ]
     },
     {
       "title": "Paragraph 6",
-      "time": "...",
+      "time": "3:12",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -301,7 +293,7 @@
             }
           ],
           "img": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph6.jpg",
-          "imgAlt": "Paragraph 6 photo"
+          "imgAlt": "Pam and Martin are looking at some developed photos."
         }
       ]
     },
@@ -309,17 +301,24 @@
       "radio": [
         {
           "title": "Choose the correct answer.",
-          "question": "6.1 Question",
+          "question": "6.1 When does Pam get the developed photos?",
           "options": [
-            { "label": "Answer 1", "isCorrect": true },
-            { "label": "Answer 2", "isCorrect": false }
+            { "label": "They get the developed photos five days later.", "isCorrect": false },
+            { "label": "They get the developed photos three days later.", "isCorrect": true }
+          ]
+        },
+        {
+          "question": "6.2 What's the problem with the last photo",
+          "options": [
+            { "label": "A man with a rucksack appears in the photo.", "isCorrect": true },
+            { "label": "A woman with a rucksack appears in the photo.", "isCorrect": false }
           ]
         }
       ]
     },
     {
       "title": "Paragraph 7",
-      "time": "...",
+      "time": "3:43",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -335,7 +334,7 @@
             }
           ],
           "img": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph7.jpg",
-          "imgAlt": "Paragraph 7 photo"
+          "imgAlt": "Martin is showing the same man on a newspaper."
         }
       ]
     },
@@ -343,17 +342,17 @@
       "radio": [
         {
           "title": "Choose the correct answer.",
-          "question": "7.1 Question",
+          "question": "7.1 What do they see in the today's newspaper?",
           "options": [
-            { "label": "Answer 1", "isCorrect": true },
-            { "label": "Answer 2", "isCorrect": false }
+            { "label": "They see a picture of a different man.", "isCorrect": false },
+            { "label": "They see a picture of the same man.", "isCorrect": true }
           ]
         }
       ]
     },
     {
       "title": "Paragraph 8",
-      "time": "...",
+      "time": "4:27",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -377,17 +376,17 @@
       "radio": [
         {
           "title": "Choose the correct answer.",
-          "question": "8.1 Question",
+          "question": "8.1 Where does Alan Rook work?",
           "options": [
-            { "label": "Answer 1", "isCorrect": true },
-            { "label": "Answer 2", "isCorrect": false }
+            { "label": "he works in a bank in Aberdeen.", "isCorrect": false },
+            { "label": "He works in a bank in London.", "isCorrect": true }
           ]
         }
       ]
     },
     {
       "title": "Paragraph 9",
-      "time": "...",
+      "time": "5:05",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -403,7 +402,7 @@
             }
           ],
           "img": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph9.jpg",
-          "imgAlt": "Paragraph 9 photo"
+          "imgAlt": "Martin compares the two photos."
         }
       ]
     },
@@ -411,17 +410,17 @@
       "radio": [
         {
           "title": "Choose the correct answer.",
-          "question": "9.1 Question",
+          "question": "9.1 What does Martin do when he sees the man on the newspaper?",
           "options": [
-            { "label": "Answer 1", "isCorrect": true },
-            { "label": "Answer 2", "isCorrect": false }
+            { "label": "He takes a pencil and starts to draw on a book.", "isCorrect": false },
+            { "label": "He takes a pencil and starts to draw on the newspaper.", "isCorrect": true }
           ]
         }
       ]
     },
     {
       "title": "Paragraph 10",
-      "time": "...",
+      "time": "5:43",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -430,14 +429,14 @@
         {
           "paragraphs": [
             {
-              "keyword": "...",
+              "keyword": "5:43",
               "dictionary": "vocabulary",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
               "text": "\"Look,\" says Martin. \"I'm putting dark glasses and a two-day beard on the man in this photo. Now I'm drawing a hat on his head. See? Now, look at the two pictures.\" \"You're right, says Pam. \"It's him. It's Alan Rook.\" \"Come on, says Martin. Let's take these pictures to the police.\""
             }
           ],
           "img": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph10.jpg",
-          "imgAlt": "Paragraph 10 photo"
+          "imgAlt": "Now the two photos look alike."
         }
       ]
     },
@@ -445,17 +444,24 @@
       "radio": [
         {
           "title": "Choose the correct answer.",
-          "question": "10.1 Question",
+          "question": "10.1 What does Martin draw?",
           "options": [
-            { "label": "Answer 1", "isCorrect": true },
-            { "label": "Answer 2", "isCorrect": false }
+            { "label": "He draws dark glasses, a three-day beard, and a cowboy hat on the man's head.", "isCorrect": false },
+            { "label": "He draws dark glasses, a two-day beard, and a hat on the man's head.", "isCorrect": true }
+          ]
+        },
+        {
+          "question": "10.2 Where do they take the pictures?",
+          "options": [
+            { "label": "They take the pictures to the police.", "isCorrect": true },
+            { "label": "They take the pictures to the bank.", "isCorrect": false }
           ]
         }
       ]
     },
     {
       "title": "Paragraph 11",
-      "time": "...",
+      "time": "6:19",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -479,17 +485,17 @@
       "radio": [
         {
           "title": "Choose the correct answer.",
-          "question": "11.1 Question",
+          "question": "11.1 What do the police put on the table?",
           "options": [
-            { "label": "Answer 1", "isCorrect": true },
-            { "label": "Answer 2", "isCorrect": false }
+            { "label": "They put Pam's photo and the newspaper on the chair.", "isCorrect": false },
+            { "label": "They put Pam's photo and the newspaper on the table.", "isCorrect": true }
           ]
         }
       ]
     },
     {
       "title": "Paragraph 12",
-      "time": "...",
+      "time": "6:47",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -505,7 +511,7 @@
             }
           ],
           "img": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph12.jpg",
-          "imgAlt": "Paragraph 12 photo"
+          "imgAlt": "Pam's telling the police Alan is taking a bus to Aberdeen."
         }
       ]
     },
@@ -513,17 +519,24 @@
       "radio": [
         {
           "title": "Choose the correct answer.",
-          "question": "12.1 Question",
+          "question": "12.1 Where does Pam think Alan Rook is?",
           "options": [
-            { "label": "Answer 1", "isCorrect": true },
-            { "label": "Answer 2", "isCorrect": false }
+            { "label": "She thinks he's in England, in Cambridge.", "isCorrect": false },
+            { "label": "She thinks he's in Scotland, in Aberdeen.", "isCorrect": true }
+          ]
+        },
+        {
+          "question": "12.2 What does Allan Rook have in his back?",
+          "options": [
+            { "label": "He has a rucksack and a tent.", "isCorrect": true },
+            { "label": "He has nothing.", "isCorrect": false }
           ]
         }
       ]
     },
     {
       "title": "Paragraph 13",
-      "time": "...",
+      "time": "7:27",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -539,7 +552,7 @@
             }
           ],
           "img": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph13.jpg",
-          "imgAlt": "Paragraph 13 photo"
+          "imgAlt": "Police is looking for Alan who's in his tent."
         }
       ]
     },
@@ -547,17 +560,24 @@
       "radio": [
         {
           "title": "Choose the correct answer.",
-          "question": "13.1 Question",
+          "question": "13.1 Where's Alan Rook camping?",
           "options": [
-            { "label": "Answer 1", "isCorrect": true },
-            { "label": "Answer 2", "isCorrect": false }
+            { "label": "He's camping far from Aberdeen.", "isCorrect": false },
+            { "label": "He's camping near Aberdeen.", "isCorrect": true }
+          ]
+        },
+        {
+          "question": "13.2 Where's the money?",
+          "options": [
+            { "label": "The money is in the rucksack.", "isCorrect": true },
+            { "label": "The money is in his pocket.", "isCorrect": false }
           ]
         }
       ]
     },
     {
       "title": "Paragraph 14",
-      "time": "...",
+      "time": "8:00",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -581,17 +601,17 @@
       "radio": [
         {
           "title": "Choose the correct answer.",
-          "question": "14.1 Question",
+          "question": "14.1 What does the newspaper say?",
           "options": [
-            { "label": "Answer 1", "isCorrect": true },
-            { "label": "Answer 2", "isCorrect": false }
+            { "label": "It says: CAMERA GIRL GETS PHOTO OF ROOK BUT POLICE IN ABERDEEN CAN'T FIND BANK MONEY.", "isCorrect": false },
+            { "label": "It says: CAMERA GIRL GETS PHOTO OF ROOK POLICE IN ABERDEEN FIND BANK MONEY.", "isCorrect": true }
           ]
         }
       ]
     },
     {
       "title": "Paragraph 15",
-      "time": "...",
+      "time": "8:28",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -603,11 +623,11 @@
               "keyword": "...",
               "dictionary": "vocabulary",
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
-              "text": "Paragraph 15"
+              "text": "The people at the bank are very happy. They give Pam and Martin a thousand pounds. \"My last photo's a good one after all,\" laughs Pam. Now I can buy a very good new camera."
             }
           ],
           "img": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph15.jpg",
-          "imgAlt": "The people at the bank are very happy. They give Pam and Martin a thousand pounds. \"My last photo's a good one after all,\" laughs Pam. Now I can buy a very good new camera."
+          "imgAlt": "Pam and Alan Rook are celebrating Alan Rook's capture."
         }
       ]
     },
@@ -615,9 +635,9 @@
       "radio": [
         {
           "title": "Choose the correct answer.",
-          "question": "15.1 Question",
+          "question": "15.1 What do the people from the bank give Pam and Martin?",
           "options": [
-            { "label": "Answer 1", "isCorrect": true },
+            { "label": "They give Pam and Martin a thousand pounds", "isCorrect": true },
             { "label": "Answer 2", "isCorrect": false }
           ]
         }
@@ -626,139 +646,139 @@
     {
       "fillInTheBlanks": [
         {
-          "title": "1. Fill in the blank with the correct word.",
+          "title": "1. Fill in the blank with verbs in the present simple tense ending in -s, -es, or -ies.",
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
+          "beforeBlank": "1. Pam",
+          "placeholder": "like",
+          "correctAnswer": ["likes"],
+          "afterBlank": "taking photos and sometimes they are very good.",
           "lineBreakAfter": true
         },
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
+          "beforeBlank": "2. Pam",
+          "placeholder": "want",
+          "correctAnswer": ["wants"],
+          "afterBlank": "to finish the film in her camera.",
           "lineBreakAfter": true
         },
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
+          "beforeBlank": "3. Martin",
+          "placeholder": "stand",
+          "correctAnswer": ["stands"],
+          "afterBlank": "in front of the flowers.",
           "lineBreakAfter": true
         },
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
+          "beforeBlank": "4. He",
+          "placeholder": "go",
+          "correctAnswer": ["goes"],
+          "afterBlank": "across the road without a word.",
           "lineBreakAfter": true
         },
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
+          "beforeBlank": "5. Aln Rook",
+          "placeholder": "get",
+          "correctAnswer": ["gets"],
+          "afterBlank": "into that bus.",
           "lineBreakAfter": true
         },
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
+          "beforeBlank": "6. Pam",
+          "placeholder": "say",
+          "correctAnswer": ["says"],
+          "afterBlank": "to Martin to look at the photos.",
           "lineBreakAfter": true
         },
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
+          "beforeBlank": "7. Pam",
+          "placeholder": "look",
+          "correctAnswer": ["looks"],
+          "afterBlank": "at the photo in the newspaper.",
           "lineBreakAfter": true
         },
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
+          "beforeBlank": "8. Alan Rook",
+          "placeholder": "work",
+          "correctAnswer": ["works"],
+          "afterBlank": "in a bank in London.",
           "lineBreakAfter": true
         },
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
+          "beforeBlank": "9. Martin",
+          "placeholder": "take",
+          "correctAnswer": ["takes"],
+          "afterBlank": "a pencil and starts to draw on the newspaper.",
           "lineBreakAfter": true
         },
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
+          "beforeBlank": "10. Martin",
+          "placeholder": "draw",
+          "correctAnswer": ["draws"],
+          "afterBlank": "dark glasses and a two-day beard on the man.",
           "lineBreakAfter": true
         },
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
+          "beforeBlank": "11. Pam",
+          "placeholder": "speak",
+          "correctAnswer": ["speaks"],
+          "afterBlank": "to the police.",
           "lineBreakAfter": true
         },
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
+          "beforeBlank": "12. Pam",
+          "placeholder": "think",
+          "correctAnswer": ["thinks"],
+          "afterBlank": "Alan Rook is in Scotland, in Aberdeen.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "163px",
+          "beforeBlank": "13. The policeman",
+          "placeholder": "telephone, call",
+          "correctAnswer": ["telephones", "calls"],
+          "afterBlank": "the police station in Aberdeen.",
           "lineBreakAfter": true
         },
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
+          "beforeBlank": "14. Pam and Martin",
+          "placeholder": "read",
+          "correctAnswer": ["reads"],
+          "afterBlank": "the newspaper.",
           "lineBreakAfter": true
         },
         {
           "options": true,
           "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
-          "lineBreakAfter": true
-        },
-        {
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
+          "beforeBlank": "15. The bank",
+          "placeholder": "give",
+          "correctAnswer": ["gives"],
+          "afterBlank": "Pam and Martin a thousand pounds.",
           "lineBreakAfter": true
         }
       ]

@@ -651,7 +651,7 @@
     {
       "fillInTheBlanks": [
         {
-          "title": "1. Fill in the blank with the correct verb conjugation.",
+          "title": "1. Fill in the blank with verbs in the present simple tense ending in -s, -es, or -ies.",
           "options": true,
           "width": "100px",
           "beforeBlank": "1. He",
