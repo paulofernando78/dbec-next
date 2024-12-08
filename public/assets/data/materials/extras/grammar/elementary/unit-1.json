@@ -115,7 +115,7 @@
       "subTextColor": "black"
     },
     {
-      "paragraphs": [
+      "paragraphSections": [
         {
           "paragraphs": [
             {
@@ -126,56 +126,56 @@
         {
           "paragraphs": [
             {
-              "text": "I am (I'm)"
+              "text": "I <b>am</b> (I<b>'m</b>)"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "you are (you're)"
+              "text": "you <b>are</b> (you<b>'re</b>)"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "he is (he's)"
+              "text": "he <b>is</b> (he<b>'s</b>)"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "she is (she's)"
+              "text": "she <b>is</b> (she<b>'s</b>)"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "it is (it's)"
+              "text": "it <b>is</b> (it<b>'s</b>)"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "we are (we're)"
+              "text": "we <b>are</b> (we<b>'re</b>)"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "you are (you're)"
+              "text": "you <b>are</b> (you<b>'re</b>)"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "they are (they're)"
+              "text": "they <b>are</b> (they<b>'re</b>)"
             }
           ]
         }
@@ -187,51 +187,53 @@
         {
           "paragraphs": [
             {
-              "text": "• I<b>'m</b> cold. Can you close the window, please?"
+              "text": "• I<b>'m</b> cold. Can you close the window, please? \n • I<b>'m</b> 32 (years old). My sister is 29."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "• I'm 32 (years old). My sister is 29."
+              "text": "• I<b>'m</b> 32 (years old). My sister is 29."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "• It's ten (o'clock). You're late again."
+              "text": "• It<b>'s</b> ten (o'clock). You're late again."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "• Ann and I are good friends."
+              "text": "• Ann and I <b>are</b> good friends."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "• Your keys are on the table."
+              "text": "• Your keys <b>are</b> on the table."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "• Steve is sick. He's in bed."
+              "text": "• Steve <b>is</b> sick. He's in bed."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "• Jane is scared of spiders."
+              "text": "• Jane <b>is</b> scared of spiders."
             }
-          ]
+          ],
+          "img": "/assets/img/animal-cat1.jpg",
+          "imgAlt": "An image of a cat."
         }
       ]
     },
@@ -252,56 +254,56 @@
         {
           "paragraphs": [
             {
-              "text": "I am not (I'm not)"
+              "text": "I <b>am not</b> (I<b>'m not</b>)"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "you are not (you're not or youaren't)"
+              "text": "you <b>are not</b> (you<b>'re not</b> or you <b>aren't</b>)"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "he is not (he's not or he isn't)"
+              "text": "he is not (he<b>'s not</b> or he <b>isn't</b>)"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "she is not (she's not or she isn't)"
+              "text": "she is not (she<b>'s not</b> or she <b>isn't</b>)"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "it is not (it's not or it isn't)"
+              "text": "it is not (it<b>'s not</b> or it <b>isn't</b>)"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "we are not (we're not or wearen't)"
+              "text": "we are not (we<b>'re</b> not or we <b>aren't</b>)"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "you are not (you're not or youaren't)"
+              "text": "you are not (yo<b>u're not</b> or you <b>aren't</b>)"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "they are not (they're not or they aren't)"
+              "text": "they are not (they<b>'re not</b> or they <b>aren't</b>)"
             }
           ]
         }

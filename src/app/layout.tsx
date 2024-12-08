@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 
 // CSS
 import "./styles.css";
-import styles from "./layout.module.css";
 
 export const metadata: Metadata = {
   title: "Daily Basis English Course",
@@ -16,6 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body>
         <main>
           <span>{children}</span>
