@@ -6,11 +6,11 @@ import { useEffect, useState } from "react";
 // Components
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 
-export default function XXX() {
+export default function VocabularyGrammarMock() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
-  const CONTENTS_JSON_PATH = "/assets/data/materials/templates/vocabulary-grammar.json";
+  const CONTENTS_JSON_PATH = "/assets/data/templates/vocabulary-grammar.json";
 
   useEffect(() => {
     fetch(CONTENTS_JSON_PATH)

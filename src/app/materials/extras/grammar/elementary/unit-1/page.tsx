@@ -35,6 +35,6 @@ export default function ExtrasGrammarElementaryUnit1() {
   if (error) return <p>Error loading lesson data.</p>;
 
   return (
-    <LessonTemplate lessonData={lessonData} isUnderConstruction={true} />
+    <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />
   );
 }

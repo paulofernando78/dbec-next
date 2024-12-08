@@ -1,9 +1,429 @@
 {
-    "whiteboard": {
-      "title": "Extras",
-      "subtitle": "Grammar",
-      "descriptions": ["Elementary", "Unit 1 • am/is/are"]
+  "whiteboard": {
+    "title": "Extras",
+    "subtitle": "Grammar",
+    "descriptions": ["Elementary", "Unit 1 • am/is/are"]
+  },
+
+  "lessons": [
+    {
+      "title": "A",
+      "bgColor": "lightgray",
+      "textColor": "black"
     },
-    "lessons": []
-  }
-  
+    {
+      "swiperFractionImages": [
+        {
+          "imgSrc": "/assets/img/extras/grammar/elementary/unit-1/lisa.jpg",
+          "imgAlt": "This is Lisa."
+        }
+      ]
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "text": "My name <b>is</b> Lisa."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "I<b>'m</b> 22."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "I<b>'m</b> American. I<b>'m</b> from Chigago.."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "I<b>'m</b> a student."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "I<b>'m</b> 22."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "My dad <b>is</b> a doctor, andmyh mom <b>is</b> a journalist."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "My favorite color <b>is</b> blue."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "My favorite sports <b>are</b> baseball and basketball."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "I<b>'m</b> interestd in arts."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "I<b>'m not</b> interested in politics.."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "B",
+      "bgColor": "lightgray",
+      "textColor": "black"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "text": "<b>Take a look at the singular form:</b>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtitle": "AFFIRMATIVE",
+      "subBgColor": "lightgray",
+      "subTextColor": "black"
+    },
+    {
+      "paragraphs": [
+        {
+          "paragraphs": [
+            {
+              "text": "<i>subject + verb (short form)</i>"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "I am (I'm)"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "you are (you're)"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "he is (he's)"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "she is (she's)"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "it is (it's)"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "we are (we're)"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "you are (you're)"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "they are (they're)"
+            }
+          ]
+        }
+      ],
+      "addBreakLine": true
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "text": "• I<b>'m</b> cold. Can you close the window, please?"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "• I'm 32 (years old). My sister is 29."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "• It's ten (o'clock). You're late again."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "• Ann and I are good friends."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "• Your keys are on the table."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "• Steve is sick. He's in bed."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "• Jane is scared of spiders."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subtitle": "NEGATIVE",
+      "subBgColor": "lightgray",
+      "subTextColor": "black"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "text": "<i>subject + verb not (short form)</i>"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "I am not (I'm not)"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "you are not (you're not or youaren't)"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "he is not (he's not or he isn't)"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "she is not (she's not or she isn't)"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "it is not (it's not or it isn't)"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "we are not (we're not or wearen't)"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "you are not (you're not or youaren't)"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "text": "they are not (they're not or they aren't)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "C",
+      "bgColor": "lightgray",
+      "textColor": "black"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
+              "text": "..."
+            },
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
+              "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
+            }
+          ],
+          "addBreakLine": true
+        }
+      ]
+    },
+    {
+      "title": "D",
+      "bgColor": "lightgray",
+      "textColor": "black"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
+              "text": "..."
+            },
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
+              "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
+            }
+          ],
+          "addBreakLine": true
+        }
+      ]
+    },
+    {
+      "title": "Exercises",
+      "bgColor": "lightgray",
+      "textColor": "black"
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "1. Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "dropdown": [
+        {
+          "title": "Select the correct answer.",
+          "subtitle": "subtitle",
+          "beforeOptions": "1. I",
+          "options": [
+            { "value": "am", "label": "am", "correctAnswer": true },
+            { "value": "is", "label": "is", "correctAnswer": false },
+            { "value": "are", "label": "are", "correctAnswer": false }
+          ],
+          "width": "100",
+          "afterOptions": "a teacher.",
+          "lineBreak": true
+        },
+        {
+          "beforeOptions": "2. He",
+          "options": [
+            { "value": "am", "label": "am", "correctAnswer": false },
+            { "value": "is", "label": "is", "correctAnswer": true },
+            { "value": "are", "label": "are", "correctAnswer": false }
+          ],
+          "width": "100",
+          "afterOptions": "a teacher."
+        }
+      ]
+    },
+    {
+      "fillInTheBlanks": [
+        {
+          "title": "1. Fill in the blank with the correct word.",
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "...",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "..."
+        }
+      ]
+    }
+  ]
+}

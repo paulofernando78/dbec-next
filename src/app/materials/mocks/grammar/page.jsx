@@ -6,11 +6,11 @@ import { useEffect, useState } from "react";
 // Components
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 
-export default function LessonDataMock() {
+export default function GrammarMock() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
-  const CONTENTS_JSON_PATH = "/assets/data/templates/LessonData.json";
+  const CONTENTS_JSON_PATH = "/assets/data/templates/grammar.json";
 
   useEffect(() => {
     fetch(CONTENTS_JSON_PATH)
@@ -34,5 +34,7 @@ export default function LessonDataMock() {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading lesson data.</p>;
 
-  return <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />;
+  return (
+    <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />
+  );
 }

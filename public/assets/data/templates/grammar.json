@@ -1,32 +1,25 @@
 {
   "whiteboard": {
-    "title": "Lesson Data",
-    "subtitle": "...",
-    "descriptions": ["..."]
+    "title": "Extras",
+    "subtitle": "Grammar",
+    "descriptions": ["Elementary / Intermediate"]
   },
-  
+
   "lessons": [
     {
-      "title": "Title",
-      "time": "'5",
-      "bgColor": "black",
-      "textColor": "white"
+      "title": "A",
+      "bgColor": "lightgray",
+      "textColor": "black"
     },
     {
-      "subtitle": "Subtitle",
-      "subtime": "'5",
-      "subBgColor": "lightgray",
-      "subTextColor": "black"
-    },
-    {
-      "bgColor": "#F0E994",
-      "textColor": "black",
-      "cards": [
+      "swiperFractionImages": [
         {
-          "text": "text 1 "
+          "imgSrc": "/assets/img/animal-cat1.jpg",
+          "imgAlt": "An image of a cat."
         },
         {
-          "text": "text 2"
+          "imgSrc": "https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?cs=srgb&dl=pexels-bri-schneiter-28802-346529.jpg&fm=jpg",
+          "imgAlt": "Example image description"
         }
       ]
     },
@@ -48,7 +41,28 @@
             }
           ],
           "addBreakLine": true
+        }
+      ]
+    },
+    {
+      "cards": [
+        {
+          "text": "text 1 "
         },
+        {
+          "text": "text 2"
+        }
+      ],
+      "bgColor": "#F0E994",
+      "textColor": "black"
+    },
+    {
+      "title": "B",
+      "bgColor": "lightgray",
+      "textColor": "black"
+    },
+    {
+      "paragraphSections": [
         {
           "paragraphs": [
             {
@@ -64,13 +78,18 @@
               "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
             }
           ],
-          "img": "/assets/img/animal-cat1.jpg",
-          "imgAlt": "An image of a cat.",
           "addBreakLine": true
-        },
+        }
+      ]
+    },
+    {
+      "title": "C",
+      "bgColor": "lightgray",
+      "textColor": "black"
+    },
+    {
+      "paragraphSections": [
         {
-          "img": "/assets/img/animal-cat2.jpeg",
-          "imgAlt": "An image of a cat.",
           "paragraphs": [
             {
               "keyword": "...",
@@ -90,40 +109,35 @@
       ]
     },
     {
-      "swiperFractionImages": [
+      "title": "D",
+      "bgColor": "lightgray",
+      "textColor": "black"
+    },
+    {
+      "paragraphSections": [
         {
-          "imgSrc": "/assets/img/animal-cat1.jpg",
-          "imgAlt": "An image of a cat."
-        },
-        {
-          "imgSrc": "https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?cs=srgb&dl=pexels-bri-schneiter-28802-346529.jpg&fm=jpg",
-          "imgAlt": "Example image description"
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
+              "text": "..."
+            },
+            {
+              "keyword": "...",
+              "dictionary": "vocabulary",
+              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
+              "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
+            }
+          ],
+          "addBreakLine": true
         }
       ]
     },
     {
-      "flipcards": [
-        {
-          "width": "...",
-          "height": "...",
-          "frontText": "What's the past of ask?",
-          "backText": "asked"
-        },
-        {
-          "frontText": "...  ",
-          "backText": "..."
-        },
-        {
-          "imgSrc": "/assets/img/animal-cat1.jpg",
-          "imgAlt": "A cat"
-        }
-      ]
-    },
-    {
-      "audioSrc": "/assets/audio/welcome.mp3"
-    },
-    {
-      "videoSrc": "https://www.youtube.com/embed/oCY5YEEjlwE"
+      "title": "Exercises",
+      "bgColor": "lightgray",
+      "textColor": "black"
     },
     {
       "radio": [
