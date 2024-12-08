@@ -10,7 +10,7 @@ import { ParagraphSectionsProps } from "./types";
 // CSS
 import styles from "./styles.module.css";
 
-export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
+export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => { 
   return (
     <>
       {paragraphSections?.map((paragraphSection, paragraphSectionIndex) => {
@@ -41,7 +41,7 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
             )}
             <div>
               {paragraphSection.paragraphs?.map((paragraph, paragraphIndex) => (
-                <div key={paragraphIndex} className="display-inline">
+                <div key={paragraphIndex} className="display-inline white-space-pre-wrap">
                   {paragraph.dictionary && (
                     <DictionaryCard
                       keyword={paragraph.keyword}

@@ -17,6 +17,8 @@ import styles from "./style.module.css";
 import { SwiperFractionProps } from "./types";
 
 export default function SwiperFraction({ images }: SwiperFractionProps) {
+  const baseImgSrc = "/assets/img";
+
   return (
     <>
       <div className={styles["container"]}>
@@ -24,31 +26,34 @@ export default function SwiperFraction({ images }: SwiperFractionProps) {
           pagination={{
             type: "fraction",
           }}
-          // navigation={true}
           modules={[Pagination, Navigation]}
         >
-          {images.map((image, index) => (
-            <SwiperSlide key={index} className={styles["swipe-slide"]}>
-              {image.imgSrc && image.imgAlt && (
-                <Image
-                  src={image.imgSrc}
-                  alt={image.imgAlt}
-                  width={1000}
-                  height={1000}
-                  className={styles["image"]}
-                />
-              )}
-              {image.imgSrcLink && image.imgAltLink && (
-                <Image
-                  src={image.imgSrcLink}
-                  alt={image.imgAltLink}
-                  width={1000}
-                  height={1000}
-                  className={styles["image"]}
-                />
-              )}
-            </SwiperSlide>
-          ))}
+          {images.map((image, index) => {
+            const fullImgSrc = `${baseImgSrc}${image.imgSrc}`; // Correctly reference image here.
+
+            return (
+              <SwiperSlide key={index} className={styles["swipe-slide"]}>
+                {image.imgSrc && image.imgAlt && (
+                  <Image
+                    src={fullImgSrc}
+                    alt={image.imgAlt}
+                    width={1000}
+                    height={1000}
+                    className={styles["image"]}
+                  />
+                )}
+                {image.imgSrcLink && image.imgAltLink && (
+                  <Image
+                    src={image.imgSrcLink}
+                    alt={image.imgAltLink}
+                    width={1000}
+                    height={1000}
+                    className={styles["image"]}
+                  />
+                )}
+              </SwiperSlide>
+            );
+          })}
         </Swiper>
       </div>
     </>

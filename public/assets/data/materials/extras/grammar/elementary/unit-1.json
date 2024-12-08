@@ -14,7 +14,11 @@
     {
       "swiperFractionImages": [
         {
-          "imgSrc": "/assets/img/extras/grammar/elementary/unit-1/lisa.jpg",
+          "imgSrc": "/animal-cat1.jpg",
+          "imgAlt": "This is Lisa."
+        },
+        {
+          "imgSrc": "/animal-cat1.jpg",
           "imgAlt": "This is Lisa."
         }
       ]
@@ -187,53 +191,11 @@
         {
           "paragraphs": [
             {
-              "text": "• I<b>'m</b> cold. Can you close the window, please? \n • I<b>'m</b> 32 (years old). My sister is 29."
-            }
-          ]
-        },
-        {
-          "paragraphs": [
-            {
-              "text": "• I<b>'m</b> 32 (years old). My sister is 29."
-            }
-          ]
-        },
-        {
-          "paragraphs": [
-            {
-              "text": "• It<b>'s</b> ten (o'clock). You're late again."
-            }
-          ]
-        },
-        {
-          "paragraphs": [
-            {
-              "text": "• Ann and I <b>are</b> good friends."
-            }
-          ]
-        },
-        {
-          "paragraphs": [
-            {
-              "text": "• Your keys <b>are</b> on the table."
-            }
-          ]
-        },
-        {
-          "paragraphs": [
-            {
-              "text": "• Steve <b>is</b> sick. He's in bed."
-            }
-          ]
-        },
-        {
-          "paragraphs": [
-            {
-              "text": "• Jane <b>is</b> scared of spiders."
+              "text": "• I<b>'m</b> cold. Can you close the window, please?\n• I<b>'m</b> 32 (years old). My sister is 29.\n• It<b>'s</b> ten (o'clock). You're late again.\n• Ann and I <b>are</b> good friends.\n• Your keys <b>are</b> on the table.\n• Steve <b>is</b> sick. He's in bed.\n• Jane <b>is</b> scared of spiders."
             }
           ],
-          "img": "/assets/img/animal-cat1.jpg",
-          "imgAlt": "An image of a cat."
+          "img": "/man-animal-dog-scared.jpg",
+          "imgAlt": "A man running from dogs."
         }
       ]
     },
