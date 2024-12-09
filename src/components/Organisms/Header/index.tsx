@@ -8,7 +8,7 @@ import styles from "./style.module.css";
 
 // Images
 import Image from "next/image";
-import { ukUSflag, btnIcon } from "@/img/index";
+import { btnIcon } from "@/img/index";
 
 // Typescript
 import { HeaderProps } from "./type";
@@ -16,11 +16,6 @@ import { HeaderProps } from "./type";
 export const Header = ({ show, toggleShow }: HeaderProps) => {
   return (
     <div className={styles["header-content"]}>
-      <Image
-        src={ukUSflag}
-        alt="Flag icon"
-        className={styles["usa-uk-flag-icon"]}
-      />
       <Image
         src={btnIcon}
         alt="Button icon"

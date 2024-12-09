@@ -1,3 +1,5 @@
+import dictionaryIcon from "./icon/dictionary.png";
+
 // Courses
 import placementTest from "./icon/placement-test.png";
 import beginner from "./icon/beginner.png";
@@ -17,6 +19,7 @@ import vocabularyIcon from "./icon/dictionary.png";
 
 // Specific Purposes
 import automobileIcon from "./icon/automobile.png";
+import aviationIcon from "./icon/aviation.png";
 import businessIcon from "./icon/business.png";
 import chemistryIcon from "./icon/chemistry.png";
 import codingIcon from "./icon/coding.png";
@@ -29,6 +32,7 @@ import hairdressingIcon from "./icon/hairdressing.png";
 import historyIcon from "./icon/history.png";
 import lawIcon from "./icon/law.png";
 import jobInterviewIcon from "./icon/job-interviews.png";
+import mathIcon from "./icon/math.png";
 import medicineIcon from "./icon/medicine.png";
 import travelIcon from "./icon/travel.png";
 import scienceIcon from "./icon/science.png";
@@ -40,11 +44,15 @@ import allInOneIcon from "./icon/dictionary.png";
 import examsIcon from "./icon/exams.png";
 import miscIcon from "./icon/misc.png";
 
+import btnIcon from "./icon/btn-menu.png";
+
 // Exercise Templates
 import correctIcon from "./icon/correct.png";
 import incorrectIcon from "./icon/incorrect.png";
 
 export {
+  dictionaryIcon,
+
   // Courses
   placementTest,
   beginner,
@@ -64,6 +72,7 @@ export {
 
   // Specific-purposes
   automobileIcon,
+  aviationIcon,
   businessIcon,
   chemistryIcon,
   codingIcon,
@@ -76,6 +85,7 @@ export {
   historyIcon,
   lawIcon,
   jobInterviewIcon,
+  mathIcon,
   medicineIcon,
   travelIcon,
   scienceIcon,
@@ -90,4 +100,5 @@ export {
   // Exercise Templates
   correctIcon,
   incorrectIcon,
+  btnIcon,
 };
