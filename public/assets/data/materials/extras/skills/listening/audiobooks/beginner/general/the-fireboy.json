@@ -223,7 +223,6 @@
           ]
         },
         {
-          "title": "Choose the correct answer.",
           "question": "5.2 Why is Hapu happy?",
           "options": [
             {
@@ -268,7 +267,6 @@
           ]
         },
         {
-          "title": "Choose the correct answer.",
           "question": "6.2 What does he have in a bag under his shirt?",
           "options": [
             { "label": "He has a necklace.", "isCorrect": true },
@@ -276,19 +274,17 @@
           ]
         },
         {
-          "title": "Choose the correct answer.",
-          "question": "6.3 How many guards are there at palace?",
+          "question": "6.3 How many guards are there at the palace?",
           "options": [
             { "label": "There are three.", "isCorrect": false },
             { "label": "There are two.", "isCorrect": true }
           ]
         },
         {
-          "title": "Choose the correct answer.",
           "question": "6.4 Can he pass the guards?",
           "options": [
-            { "label": "Yes, he can.", "isCorrect": true },
-            { "label": "No, he can't.", "isCorrect": false }
+            { "label": "No, he can't.", "isCorrect": true },
+            { "label": "Yes, he can.", "isCorrect": false }
           ]
         }
       ]
@@ -323,7 +319,6 @@
           ]
         },
         {
-          "title": "Choose the correct answer.",
           "question": "7.2 What happens after ten minutes later?",
           "options": [
             { "label": "He goes home and work.", "isCorrect": false },
@@ -331,7 +326,6 @@
           ]
         },
         {
-          "title": "Choose the correct answer.",
           "question": "7.3 What do Cleopatra's women want to buy?",
           "options": [
             {
@@ -374,7 +368,6 @@
           ]
         },
         {
-          "title": "Choose the correct answer.",
           "question": "8.2 What does he do before he leaves the factory for the market?",
           "options": [
             {
@@ -411,15 +404,14 @@
     {
       "radio": [
         {
-          "title": "How many men are carrying the queen?",
-          "question": "9.1 Question",
+          "title": "Choose the correct answer.",
+          "question": "How many men are carrying the queen?",
           "options": [
             { "label": "Four men are carrying the Queen.", "isCorrect": true },
             { "label": "Two men are carrying the Queen.", "isCorrect": false }
           ]
         },
         {
-          "title": "Choose the correct answer.",
           "question": "9.2 What does he do when he see the queen?",
           "options": [
             { "label": "He goes back home.", "isCorrect": false },
@@ -430,7 +422,6 @@
           ]
         },
         {
-          "title": "Choose the correct answer.",
           "question": "9.3 What does he say?",
           "options": [
             { "label": "\"Please, stop!\"", "isCorrect": true },
@@ -639,11 +630,10 @@
           ]
         },
         {
-          "title": "Choose the correct answer.",
-          "question": "15.2 Does Hapu leave his father at home and go to the palace alone?",
+          "question": "15.2 Does Hapu leave his father and work at the palace?",
           "options": [
             { "label": "Yes, he does.", "isCorrect": false },
-            { "label": "No, he doens't. He takes him to the palace, too.", "isCorrect": true }
+            { "label": "No, he doens't. He goes home to work with his father.", "isCorrect": true }
           ]
         }
       ]
@@ -689,7 +679,7 @@
         },
         {
           "options": true,
-          "width": "65px",
+          "width": "75px",
           "beforeBlank": "5. Hapu makes ",
           "placeholder": "make",
           "correctAnswer": ["makes"],
@@ -707,16 +697,16 @@
         },
         {
           "options": true,
-          "width": "65px",
+          "width": "75px",
           "beforeBlank": "7.1 He",
           "placeholder": "leave",
           "correctAnswer": ["leaves"],
-          "afterBlank": "the palave...",
+          "afterBlank": "the palace...",
           "lineBreakAfter": true
         },
         {
           "options": true,
-          "width": "65px",
+          "width": "70px",
           "beforeBlank": "7.2 ...and",
           "placeholder": "begin",
           "correctAnswer": ["begins"],
@@ -725,7 +715,7 @@
         },
         {
           "options": true,
-          "width": "65px",
+          "width": "85px",
           "beforeBlank": "8. The next day the fireboy ",
           "placeholder": "get up",
           "correctAnswer": ["gets up"],
@@ -734,7 +724,7 @@
         },
         {
           "options": true,
-          "width": "65px",
+          "width": "55px",
           "beforeBlank": "9. Hapu ",
           "placeholder": "put",
           "correctAnswer": ["puts"],
@@ -788,7 +778,7 @@
         },
         {
           "options": true,
-          "width": "65px",
+          "width": "70px",
           "beforeBlank": "15. \"Oh yes!\" Hapu",
           "placeholder": "smile",
           "correctAnswer": ["smiles"],
