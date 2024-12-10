@@ -47,8 +47,6 @@ import incorrectIcon from "./icon/incorrect.png";
 // Folder
 
 // A
-import addictive1 from "./addictive1.jpg"
-import animalAfricanCivet from "./african-civet.jpg"
 import animalAsianCivet from "./asian-palm-civet.jpg"
 import animalCat1 from "./animal-cat1.jpg";
 import animalCat2 from "./animal-cat2.jpeg";
@@ -112,7 +110,6 @@ import labEmbryo2 from "./lab-embryo2.jpg";
 import labEmbryo3 from "./lab-embryo3.jpg";
 import labScientist from "./lab-scientist.avif";
 import laptopComputerIcon from "./icon/laptop-computer.png"
-import lisa from "./extras/grammar/elementary/unit-1/lisa.jpg";
 
 // M
 import macAndCheeseIceCreamFlavor from "./mac-and-cheese-ice-cream-flavor.avif";
@@ -240,8 +237,6 @@ export {
   // Folder
 
   // A
-  addictive1,
-  animalAfricanCivet,
   animalAsianCivet, 
   animalCat1,
   animalCat2,
@@ -307,7 +302,6 @@ export {
   labEmbryo3,
   labScientist,
   laptopComputerIcon,
-  lisa,
 
   // M
   manBedSick,
