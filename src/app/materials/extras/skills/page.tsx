@@ -12,10 +12,10 @@ export default function ExtrasSkills() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  const extrasSkillsContents = "/assets/data/materials/extras/skills/contents.json";
+  const CONTENTS_JSON_PATH = "/assets/data/materials/extras/skills/contents.json";
 
   useEffect(() => {
-    fetch(extrasSkillsContents)
+    fetch(CONTENTS_JSON_PATH)
       .then((response) => {
         if (!response.ok) throw new Error("Error loading JSON");
         return response.json();

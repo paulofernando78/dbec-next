@@ -12,10 +12,10 @@ export default function ExtrasSkillsListeningAudioBooksBeginner() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  const audiobboksBeginnerContents = "/assets/data/materials/extras/skills/listening/audiobooks/beginner/contents.json";
+  const CONTENTS_JSON_PATH = "/assets/data/materials/extras/skills/listening/audiobooks/beginner/contents.json";
 
   useEffect(() => {
-    fetch(audiobboksBeginnerContents)
+    fetch(CONTENTS_JSON_PATH)
       .then((response) => {
         if (!response.ok) throw new Error("Error loading JSON");
         return response.json();

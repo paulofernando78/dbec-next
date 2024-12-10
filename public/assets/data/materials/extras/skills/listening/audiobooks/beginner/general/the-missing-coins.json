@@ -1,0 +1,635 @@
+{
+  "whiteboard": {
+    "title": "Extras",
+    "subtitle": "Skills",
+    "descriptions": ["Listening", "Audiobooks", "beginner", "The missing coins"]
+  },
+  "lessons": [
+    {
+      "title": "Summary",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "img": "/extras/listening/audiobooks/beginner/general/the-missing-coins/cover.jpg",
+          "imgAlt": "Cover photo",
+          "paragraphs": [
+            { 
+              "text": "PEte and Carla are students. One day they look at some very old coins and stamps in a shop. Pete wants to buy some stamps, but they are very expensive. Later that day some coins are missing from the shop - and the shopkeepers ants to find Pete..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "audioSrc": "/extras/listening/audiobooks/beginner/general/the-missing-coins/audio.mp3"
+    },
+    {
+      "title": "Paragraph 1",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            { 
+              "text": "Bath is a very old city in England. It has a beautiful Abbey. A lot of people visit the city every year. And in the summer there are always a lot of tourists in the streets.\nPete and Carla are students in bath. They like the city. Pete likes looking at the beautiful old buildings. Carls likes walking in the little streets. She often finds pretty little shops there and goes into them. Or she sits with Pete ina café and watches the tourists.\nIt's a Saturday in summer and a hot afternoon. There are a lot of tourists in the city today. People from many countries are going into the Abbey.\n'Let's find a quiet street, away from the tourists,' Carla says.\n'OK,' Pete says. He likes being with Carla.\nThey walk away from the Abbey."
+            }
+          ],
+          "img": "/extras/listening/audiobooks/beginner/general/the-missing-coins/paragraph1.png",
+          "imgAlt": "Paragraph 1 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "1.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 2",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            { 
+              "text": "Paragraph 2"
+            }
+          ],
+          "img": "/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 2 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "2.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 3",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            { 
+              "text": "Paragraph 3"
+            }
+          ],
+          "img": "/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 3 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "3.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 4",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            { 
+              "text": "Paragraph 4"
+            }
+          ],
+          "img": "/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 4 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "4.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 5",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            { 
+              "text": "Paragraph 5"
+            }
+          ],
+          "img": "/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 5 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "5.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 6",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            { 
+              "text": "Paragraph 6"
+            }
+          ],
+          "img": "/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 6 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "6.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 7",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            { 
+              "text": "Paragraph 7"
+            }
+          ],
+          "img": "/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 7 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "7.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 8",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            { 
+              "text": "Paragraph 8"
+            }
+          ],
+          "img": "/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 8 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "8.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 9",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            { 
+              "text": "Paragraph 9"
+            }
+          ],
+          "img": "/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 9 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "9.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 10",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            { 
+              "text": "Paragraph 10"
+            }
+          ],
+          "img": "/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 10 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "10.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 11",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            { 
+              "text": "Paragraph 11"
+            }
+          ],
+          "img": "/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 11 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "11.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 12",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            { 
+              "text": "Paragraph 12"
+            }
+          ],
+          "img": "/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 12 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "12.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 13",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            { 
+              "text": "Paragraph 13"
+            }
+          ],
+          "img": "/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 13 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "13.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 14",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            { 
+              "text": "Paragraph 14"
+            }
+          ],
+          "img": "/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 14 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "14.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 15",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            { 
+              "text": "Paragraph 15"
+            }
+          ],
+          "img": "/extras/listening/audiobooks/...",
+          "imgAlt": "Paragraph 15 photo"
+        }
+      ]
+    },
+    {
+      "radio": [
+        {
+          "title": "Choose the correct answer.",
+          "question": "15.1 Question",
+          "options": [
+            { "label": "Answer 1", "isCorrect": true },
+            { "label": "Answer 2", "isCorrect": false }
+          ]
+        }
+      ]
+    },
+    {
+      "fillInTheBlanks": [
+        {
+          "title": "1. Fill in the blank with the correct word.",
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "1. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "2. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "3. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "4. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "5. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "6. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "7. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "8. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "9. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "10. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "11. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "12. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "13. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "title": "1. Fill in the blank with the correct word.",
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "14. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "width": "100px",
+          "beforeBlank": "15. ",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "...",
+          "lineBreakAfter": true
+        }
+      ]
+    }
+  ]
+}
