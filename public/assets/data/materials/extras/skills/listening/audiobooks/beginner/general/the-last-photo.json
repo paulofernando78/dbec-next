@@ -129,15 +129,27 @@
         {
           "question": "2.3 Where is the bus station?",
           "options": [
-            { "label": "The bus station is near the shopping center / mall.", "isCorrect": false },
-            { "label": "The bus station is near the garden.", "isCorrect": true }
+            {
+              "label": "The bus station is near the shopping center / mall.",
+              "isCorrect": false
+            },
+            {
+              "label": "The bus station is near the garden.",
+              "isCorrect": true
+            }
           ]
         },
         {
           "question": "2.4 Why does Pam want to take one more photo?",
           "options": [
-            { "label": "Because she wants to finish her film.", "isCorrect": true },
-            { "label": "Because she wants to buy another film.", "isCorrect": false }
+            {
+              "label": "Because she wants to finish her film.",
+              "isCorrect": true
+            },
+            {
+              "label": "Because she wants to buy another film.",
+              "isCorrect": false
+            }
           ]
         }
       ]
@@ -168,13 +180,19 @@
           "question": "3.1 Where is Martin Standing?",
           "options": [
             { "label": "He's standing behind the flowers", "isCorrect": false },
-            { "label": "He's standing in front of the flowers", "isCorrect": true }
+            {
+              "label": "He's standing in front of the flowers",
+              "isCorrect": true
+            }
           ]
         },
         {
           "question": "3.2 What happens when Pam takes a photo / picture?",
           "options": [
-            { "label": "A man walks between Pam and Martin.", "isCorrect": true },
+            {
+              "label": "A man walks between Pam and Martin.",
+              "isCorrect": true
+            },
             { "label": "A man walks behind Martin.", "isCorrect": false }
           ]
         },
@@ -227,7 +245,10 @@
           "question": "4.3 What's he wearing?",
           "options": [
             { "label": "He's got glasses and a red hat", "isCorrect": false },
-            { "label": "He's got sunglasses and a blue hat.", "isCorrect": true }
+            {
+              "label": "He's got sunglasses and a blue hat.",
+              "isCorrect": true
+            }
           ]
         }
       ]
@@ -257,8 +278,14 @@
           "title": "Choose the correct answer.",
           "question": "5.1 Where's he man going?",
           "options": [
-            { "label": "He's going to Dublin. That's in Ireland.", "isCorrect": false },
-            { "label": "He's going to Aberdeen. That's in Scotland.", "isCorrect": true }
+            {
+              "label": "He's going to Dublin, in Ireland.",
+              "isCorrect": false
+            },
+            {
+              "label": "He's going to Aberdeen, in Scotland.",
+              "isCorrect": true
+            }
           ]
         }
       ]
@@ -288,15 +315,27 @@
           "title": "Choose the correct answer.",
           "question": "6.1 When does Pam get the developed photos?",
           "options": [
-            { "label": "They get the developed photos five days later.", "isCorrect": false },
-            { "label": "They get the developed photos three days later.", "isCorrect": true }
+            {
+              "label": "They get the developed photos five days later.",
+              "isCorrect": false
+            },
+            {
+              "label": "They get the developed photos three days later.",
+              "isCorrect": true
+            }
           ]
         },
         {
-          "question": "6.2 What's the problem with the last photo",
+          "question": "6.2 What's the problem with the last photo?",
           "options": [
-            { "label": "A man with a rucksack appears in the photo.", "isCorrect": true },
-            { "label": "A woman with a rucksack appears in the photo.", "isCorrect": false }
+            {
+              "label": "A man with a rucksack appears in the photo.",
+              "isCorrect": true
+            },
+            {
+              "label": "A woman with a rucksack appears in the photo.",
+              "isCorrect": false
+            }
           ]
         }
       ]
@@ -326,8 +365,14 @@
           "title": "Choose the correct answer.",
           "question": "7.1 What do they see in the today's newspaper?",
           "options": [
-            { "label": "They see a picture of a different man.", "isCorrect": false },
-            { "label": "They see a picture of the same man.", "isCorrect": true }
+            {
+              "label": "They see a picture of a different man.",
+              "isCorrect": false
+            },
+            {
+              "label": "They see a picture of the same man.",
+              "isCorrect": true
+            }
           ]
         }
       ]
@@ -388,8 +433,14 @@
           "title": "Choose the correct answer.",
           "question": "9.1 What does Martin do when he sees the man on the newspaper?",
           "options": [
-            { "label": "He takes a pencil and starts to draw on a book.", "isCorrect": false },
-            { "label": "He takes a pencil and starts to draw on the newspaper.", "isCorrect": true }
+            {
+              "label": "He takes a pencil and starts to draw on a book.",
+              "isCorrect": false
+            },
+            {
+              "label": "He takes a pencil and starts to draw on the newspaper.",
+              "isCorrect": true
+            }
           ]
         }
       ]
@@ -419,15 +470,27 @@
           "title": "Choose the correct answer.",
           "question": "10.1 What does Martin draw?",
           "options": [
-            { "label": "He draws dark glasses, a three-day beard, and a cowboy hat on the man's head.", "isCorrect": false },
-            { "label": "He draws dark glasses, a two-day beard, and a hat on the man's head.", "isCorrect": true }
+            {
+              "label": "He draws dark glasses, a three-day beard, and a cowboy hat on the man's head.",
+              "isCorrect": false
+            },
+            {
+              "label": "He draws dark glasses, a two-day beard, and a hat on the man's head.",
+              "isCorrect": true
+            }
           ]
         },
         {
           "question": "10.2 Where do they take the pictures?",
           "options": [
-            { "label": "They take the pictures to the police.", "isCorrect": true },
-            { "label": "They take the pictures to the bank.", "isCorrect": false }
+            {
+              "label": "They take the pictures to the police.",
+              "isCorrect": true
+            },
+            {
+              "label": "They take the pictures to the bank.",
+              "isCorrect": false
+            }
           ]
         }
       ]
@@ -457,8 +520,14 @@
           "title": "Choose the correct answer.",
           "question": "11.1 What do the police put on the table?",
           "options": [
-            { "label": "They put Pam's photo and the newspaper on the chair.", "isCorrect": false },
-            { "label": "They put Pam's photo and the newspaper on the table.", "isCorrect": true }
+            {
+              "label": "They put Pam's keys and wallet on the table.",
+              "isCorrect": false
+            },
+            {
+              "label": "They put Pam's photo and the newspaper om the table.",
+              "isCorrect": true
+            }
           ]
         }
       ]
@@ -488,8 +557,14 @@
           "title": "Choose the correct answer.",
           "question": "12.1 Where does Pam think Alan Rook is?",
           "options": [
-            { "label": "She thinks he's in England, in Cambridge.", "isCorrect": false },
-            { "label": "She thinks he's in Scotland, in Aberdeen.", "isCorrect": true }
+            {
+              "label": "She thinks he's in England, in Cambridge.",
+              "isCorrect": false
+            },
+            {
+              "label": "She thinks he's in Scotland, in Aberdeen.",
+              "isCorrect": true
+            }
           ]
         },
         {
@@ -564,8 +639,14 @@
           "title": "Choose the correct answer.",
           "question": "14.1 What does the newspaper say?",
           "options": [
-            { "label": "It says: CAMERA GIRL GETS PHOTO OF ROOK BUT POLICE IN ABERDEEN CAN'T FIND BANK MONEY.", "isCorrect": false },
-            { "label": "It says: CAMERA GIRL GETS PHOTO OF ROOK POLICE IN ABERDEEN FIND BANK MONEY.", "isCorrect": true }
+            {
+              "label": "It says: CAMERA GIRL GETS PHOTO OF ROOK BUT POLICE IN ABERDEEN CAN'T FIND BANK MONEY.",
+              "isCorrect": false
+            },
+            {
+              "label": "It says: CAMERA GIRL GETS PHOTO OF ROOK POLICE IN ABERDEEN FIND BANK MONEY.",
+              "isCorrect": true
+            }
           ]
         }
       ]
@@ -595,8 +676,14 @@
           "title": "Choose the correct answer.",
           "question": "15.1 What do the people from the bank give Pam and Martin?",
           "options": [
-            { "label": "They give Pam and Martin a thousand pounds", "isCorrect": true },
-            { "label": "Answer 2", "isCorrect": false }
+            {
+              "label": "They give Pam and Martin a hundred pounds",
+              "isCorrect": false
+            },
+            {
+              "label": "They give Pam and Martin a thousand pounds",
+              "isCorrect": true
+            }
           ]
         }
       ]
@@ -604,19 +691,40 @@
     {
       "fillInTheBlanks": [
         {
-          "title": "1. Fill in the blank with verbs in the present simple tense ending in -s, -es, or -ies.",
+          "title": "1. Fill in the blank with the correct answer.",
           "options": true,
-          "width": "60px",
           "beforeBlank": "1. Pam",
           "placeholder": "like",
           "correctAnswer": ["likes"],
-          "afterBlank": "taking photos and sometimes they are very good.",
+          "afterBlank": "taking good photos.",
           "lineBreakAfter": true
         },
         {
           "options": true,
-          "width": "75px",
-          "beforeBlank": "2. Pam",
+          "beforeBlank": "1.2 She",
+          "placeholder": "not like",
+          "correctAnswer": ["does not like", "doesn't like"],
+          "afterBlank": "taking bad photos.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "1.3",
+          "placeholder": "",
+          "correctAnswer": ["Does"],
+          "afterBlank": "she"
+        },
+        {
+          "options": true,
+          "placeholder": "like",
+          "correctAnswer": ["like"],
+          "afterBlank": "to take photos?",
+          "lineBreakAfter": true,
+          "addHr": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "2 Pam",
           "placeholder": "want",
           "correctAnswer": ["wants"],
           "afterBlank": "to finish the film in her camera.",
@@ -624,16 +732,58 @@
         },
         {
           "options": true,
-          "width": "80px",
+          "beforeBlank": "2.2 She",
+          "placeholder": "not want",
+          "correctAnswer": ["does not want", "doesn't want"],
+          "afterBlank": "to finish taking photos.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "2.3",
+          "correctAnswer": ["Does"],
+          "afterBlank": "she"
+        },
+        {
+          "options": true,
+          "placeholder": "want",
+          "correctAnswer": ["want"],
+          "afterBlank": "to finish her camera?",
+          "lineBreakAfter": true,
+          "addHr": true
+        },
+        {
+          "options": true,
           "beforeBlank": "3. Martin",
           "placeholder": "stand",
-          "correctAnswer": ["stands"],
+          "correctAnswer": ["is standing"],
           "afterBlank": "in front of the flowers.",
           "lineBreakAfter": true
         },
         {
           "options": true,
-          "width": "58px",
+          "beforeBlank": "3.2 He",
+          "placeholder": "not stand",
+          "correctAnswer": ["is not standing", "isn't standing"],
+          "afterBlank": "in front of the buildings.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "3.3",
+          "correctAnswer": ["Is"],
+          "afterBlank": "he"
+        },
+        {
+          "options": true,
+          "placeholder": "stand",
+          "correctAnswer": ["standing"],
+          "afterBlank": "in front of the flowers?",
+          "lineBreakAfter": true,
+          "addHr": true
+        },
+        {
+          "options": true,
           "beforeBlank": "4. He",
           "placeholder": "go",
           "correctAnswer": ["goes"],
@@ -642,8 +792,29 @@
         },
         {
           "options": true,
-          "width": "56px",
-          "beforeBlank": "5. Aln Rook",
+          "beforeBlank": "4.2 He",
+          "placeholder": "not go",
+          "correctAnswer": ["does not go", "doesn't go"],
+          "afterBlank": "near them.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "4.3",
+          "correctAnswer": ["Does"],
+          "afterBlank": "he"
+        },
+        {
+          "options": true,
+          "placeholder": "go",
+          "correctAnswer": ["go"],
+          "afterBlank": "across the road without a word?",
+          "lineBreakAfter": true,
+          "addHr": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "5. Alan Rook",
           "placeholder": "get",
           "correctAnswer": ["gets"],
           "afterBlank": "into that bus.",
@@ -651,7 +822,28 @@
         },
         {
           "options": true,
-          "width": "59px",
+          "beforeBlank": "5.2 He",
+          "placeholder": "not get",
+          "correctAnswer": ["does not get", "doesn't get"],
+          "afterBlank": "into a car.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "5.3",
+          "correctAnswer": ["Does"],
+          "afterBlank": "he"
+        },
+        {
+          "options": true,
+          "placeholder": "get",
+          "correctAnswer": ["get"],
+          "afterBlank": "into a bus?",
+          "lineBreakAfter": true,
+          "addHr": true
+        },
+        {
+          "options": true,
           "beforeBlank": "6. Pam",
           "placeholder": "say",
           "correctAnswer": ["says"],
@@ -660,7 +852,28 @@
         },
         {
           "options": true,
-          "width": "65px",
+          "beforeBlank": "6.2 She",
+          "placeholder": "not say",
+          "correctAnswer": ["does not say", "doesn't say"],
+          "afterBlank": "to Maetin to look at the camera.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "6.3",
+          "correctAnswer": ["Does"],
+          "afterBlank": "She"
+        },
+        {
+          "options": true,
+          "placeholder": "say",
+          "correctAnswer": ["say"],
+          "afterBlank": "to Martin to look at the photos?",
+          "lineBreakAfter": true,
+          "addHr": true
+        },
+        {
+          "options": true,
           "beforeBlank": "7. Pam",
           "placeholder": "look",
           "correctAnswer": ["looks"],
@@ -669,7 +882,28 @@
         },
         {
           "options": true,
-          "width": "74px",
+          "beforeBlank": "7.2 She",
+          "placeholder": "not look",
+          "correctAnswer": ["does not look", "doesn't look"],
+          "afterBlank": "at the photo in a book.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "7.3",
+          "correctAnswer": ["Does"],
+          "afterBlank": "she"
+        },
+        {
+          "options": true,
+          "placeholder": "look",
+          "correctAnswer": ["look"],
+          "afterBlank": "at the photo in the newspaper?",
+          "lineBreakAfter": true,
+          "addHr": true
+        },
+        {
+          "options": true,
           "beforeBlank": "8. Alan Rook",
           "placeholder": "work",
           "correctAnswer": ["works"],
@@ -678,7 +912,28 @@
         },
         {
           "options": true,
-          "width": "65px",
+          "beforeBlank": "8.2 He",
+          "placeholder": "not work",
+          "correctAnswer": ["does not work", "doesn't work"],
+          "afterBlank": "in a police department.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "8.3",
+          "correctAnswer": ["Does"],
+          "afterBlank": "he"
+        },
+        {
+          "options": true,
+          "placeholder": "work",
+          "correctAnswer": ["work"],
+          "afterBlank": "in a bank?",
+          "lineBreakAfter": true,
+          "addHr": true
+        },
+        {
+          "options": true,
           "beforeBlank": "9. Martin",
           "placeholder": "take",
           "correctAnswer": ["takes"],
@@ -687,7 +942,28 @@
         },
         {
           "options": true,
-          "width": "76px",
+          "beforeBlank": "9.2 He",
+          "placeholder": "not take",
+          "correctAnswer": ["does not take", "doesn't take"],
+          "afterBlank": "a pen and starts to draw.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "9.3",
+          "correctAnswer": ["Does"],
+          "afterBlank": "he"
+        },
+        {
+          "options": true,
+          "placeholder": "take",
+          "correctAnswer": ["take"],
+          "afterBlank": "a pencil and starts to draw on the newspaper?",
+          "lineBreakAfter": true,
+          "addHr": true
+        },
+        {
+          "options": true,
           "beforeBlank": "10. Martin",
           "placeholder": "draw",
           "correctAnswer": ["draws"],
@@ -696,7 +972,28 @@
         },
         {
           "options": true,
-          "width": "80px",
+          "beforeBlank": "10.2 He",
+          "placeholder": "not do",
+          "correctAnswer": ["does not draw", "doesn't draw"],
+          "afterBlank": "glasses and a mustache on the man.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "10.3",
+          "correctAnswer": ["Does"],
+          "afterBlank": "he"
+        },
+        {
+          "options": true,
+          "placeholder": "draw",
+          "correctAnswer": ["draw"],
+          "afterBlank": "dark glasses and a two-day beard on the man?",
+          "lineBreakAfter": true,
+          "addHr": true
+        },
+        {
+          "options": true,
           "beforeBlank": "11. Pam",
           "placeholder": "speak",
           "correctAnswer": ["speaks"],
@@ -705,7 +1002,28 @@
         },
         {
           "options": true,
-          "width": "75px",
+          "beforeBlank": "11.2 She",
+          "placeholder": "not speak",
+          "correctAnswer": ["does not speak", "doesn't speak"],
+          "afterBlank": "to the bank.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "11.3",
+          "correctAnswer": ["Does"],
+          "afterBlank": "she"
+        },
+        {
+          "options": true,
+          "placeholder": "speak",
+          "correctAnswer": ["speak"],
+          "afterBlank": "to the police?",
+          "lineBreakAfter": true,
+          "addHr": true
+        },
+        {
+          "options": true,
           "beforeBlank": "12. Pam",
           "placeholder": "think",
           "correctAnswer": ["thinks"],
@@ -714,29 +1032,113 @@
         },
         {
           "options": true,
-          "width": "163px",
+          "beforeBlank": "12.2 She",
+          "placeholder": "not think",
+          "correctAnswer": ["does not think", "doesn't think"],
+          "afterBlank": "Alan Rook is in England, in Cambridge.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "12.3",
+          "correctAnswer": ["Does"],
+          "afterBlank": "she"
+        },
+        {
+          "options": true,
+          "placeholder": "think",
+          "correctAnswer": ["think"],
+          "afterBlank": "he's in Aberdeen, in Scotland?",
+          "lineBreakAfter": true,
+          "addHr": true
+        },
+        {
+          "options": true,
           "beforeBlank": "13. The policeman",
-          "placeholder": "telephone, call",
-          "correctAnswer": ["telephones", "calls"],
+          "placeholder": "call",
+          "correctAnswer": ["calls"],
           "afterBlank": "the police station in Aberdeen.",
           "lineBreakAfter": true
         },
         {
           "options": true,
-          "width": "71px",
+          "beforeBlank": "13.2 The policeman",
+          "placeholder": "not call",
+          "correctAnswer": ["does not call", "doesn't call"],
+          "afterBlank": "the bank.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "13.3",
+          "correctAnswer": ["Does"],
+          "afterBlank": "the policeman"
+        },
+        {
+          "options": true,
+          "placeholder": "call",
+          "correctAnswer": ["call"],
+          "afterBlank": "the police in Aberdeen?",
+          "lineBreakAfter": true,
+          "addHr": true
+        },
+        {
+          "options": true,
           "beforeBlank": "14. Pam and Martin",
           "placeholder": "read",
-          "correctAnswer": ["reads"],
+          "correctAnswer": ["read"],
           "afterBlank": "the newspaper.",
           "lineBreakAfter": true
         },
         {
           "options": true,
-          "width": "61px",
+          "beforeBlank": "14.2 They",
+          "placeholder": "not read",
+          "correctAnswer": ["do not read", "don't read"],
+          "afterBlank": "a magazine.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "14.3",
+          "correctAnswer": ["Do"],
+          "afterBlank": "they"
+        },
+        {
+          "options": true,
+          "placeholder": "read",
+          "correctAnswer": ["read"],
+          "afterBlank": "the newspaper?",
+          "lineBreakAfter": true,
+          "addHr": true
+        },
+        {
+          "options": true,
           "beforeBlank": "15. The bank",
           "placeholder": "give",
           "correctAnswer": ["gives"],
           "afterBlank": "Pam and Martin a thousand pounds.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "15.2 It",
+          "placeholder": "not give",
+          "correctAnswer": ["does not give", "doesn't give"],
+          "afterBlank": "Them a hundred pounds.",
+          "lineBreakAfter": true
+        },
+        {
+          "options": true,
+          "beforeBlank": "15.3",
+          "correctAnswer": ["Does"],
+          "afterBlank": "it"
+        },
+        {
+          "options": true,
+          "placeholder": "give",
+          "correctAnswer": ["give"],
+          "afterBlank": "them a thousand pounds?",
           "lineBreakAfter": true
         }
       ]

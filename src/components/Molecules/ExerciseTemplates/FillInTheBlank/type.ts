@@ -10,6 +10,7 @@ export interface FillInTheBlanksQuestion {
     afterBlank: string;
     portuguese?: string;
     lineBreakAfter?: boolean;
+    addHr: string
   }
   
   export interface FillInTheBlankProps {

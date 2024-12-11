@@ -6,6 +6,10 @@
   text-decoration: underline;
 }
 
+.customized-hr {
+  margin-block: 10px;
+}
+
 /* SPACING */
 
 .margin-top {

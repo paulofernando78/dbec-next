@@ -51,19 +51,19 @@ export const FillInTheBlanks = ({
     setIsCorrects(newIsCorrects);
   };
 
-  // Depois comparar, pois estava dando como certo mesmo sem escrever nada. E isso foi quando passei como prop no Listening.
-  // const handleCheckAnswers = () => {
-  //   const newIsCorrects = selectedOptions.map((options, index) =>
-  //     options.every(option => questions[index].correctAnswer.includes(option.trim()))
-  //   );
-  //   setIsCorrects(newIsCorrects);
-  // };
+ const calculateWidth = (answer: string | string[]) => {
+  const baseWidth = 20 // Base width in pixels for empty input
+  const characterWidth = 8 // Approximate with per character in pixels
+  const maxAnswerLength = Array.isArray(answer) ? Math.max(...answer.map((a) => a.length)) : answer.length
+
+  return `${baseWidth + maxAnswerLength * characterWidth}px`
+ }
 
   const handleShowAnswers = () => setShowAnswers(!showAnswers);
-
   const handleReset = () => {
     setSelectedOptions(questions.map(() => [""]));
     setIsCorrects(Array(questions.length).fill(null));
+    setShowAnswers(false);
   };
 
   const renderAnswers = (answers: string | string[]) =>
@@ -92,7 +92,7 @@ export const FillInTheBlanks = ({
                 type="text"
                 value={selectedOptions[index][0] || ""}
                 onChange={(event) => handleOptionChange(index, event)}
-                style={{ width: question.width || "auto", display }}
+                style={{ width: calculateWidth(question.correctAnswer), display }}
                 placeholder={question.placeholder || ""}
               />{" "}
               {isCorrects[index] !== null && (
@@ -115,6 +115,7 @@ export const FillInTheBlanks = ({
               {/* lineBreakAfter */}
               {question.lineBreakAfter && <br />}
             </span>
+            {question.addHr && <hr className="customized-hr"/>}
           </Fragment>
         ))}
       </div>
