@@ -143,6 +143,7 @@ import potatoChipWalkersBrusselsSprout from "./potato-chip-walkers-brussels-spro
 // Q
 
 // R
+import radioIcon from "./icon/radio.svg"
 import radioCorrectIcon from "./icon/radio-correct.png"
 import radioIncorrectIcon from "./icon/radio-incorrect.png"
 import remoteHouse1 from "./remote-house1.webp";
@@ -334,6 +335,7 @@ export {
   // Q
 
   // R
+  radioIcon,
   radioCorrectIcon,
   radioIncorrectIcon,
   remoteHouse1,

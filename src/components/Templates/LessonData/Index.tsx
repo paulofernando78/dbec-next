@@ -20,6 +20,7 @@ import { LessonTemplateProps } from "@/components/Templates/LessonData/types";
 import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 import { SubRibbon } from "@/components/Molecules/SubRibbon";
 import React from "react";
+import { Exercises } from "@/components/Organisms/Exercises";
 
 export const LessonTemplate = ({
   lessonData,
@@ -75,7 +76,9 @@ export const LessonTemplate = ({
 
           {/* Paragraphs */}
           {lesson.paragraphSections && (
-            <div><Paragraph paragraphSections={lesson.paragraphSections} /></div>
+            <div>
+              <Paragraph paragraphSections={lesson.paragraphSections} />
+            </div>
           )}
 
           {/* SwiperFraction images */}
@@ -98,22 +101,27 @@ export const LessonTemplate = ({
 
           {/* Audio Player */}
           {lesson.audioSrc && (
-            <div className="audioplayer-sticky"><AudioPlayer audioSrc={lesson.audioSrc} /></div>
+            <div className="audioplayer-sticky">
+              <AudioPlayer audioSrc={lesson.audioSrc} />
+            </div>
           )}
 
           {/* Video Player */}
           {lesson.videoSrc && <VideoPlayer videoSrc={lesson.videoSrc} />}
 
+          {/* Exercises */}
+          <Exercises exercises={lesson.exercises}/> 
+
           {/* Radio Exercises */}
-          {lesson.radio && <Radio questions={lesson.radio} />}
+          {/* {lesson.radio && <Radio questions={lesson.radio} />} */}
 
           {/* Dropdown Exercises */}
-          {lesson.dropdown && <Dropdown questions={lesson.dropdown} />}
+          {/* {lesson.dropdown && <Dropdown questions={lesson.dropdown} />} */}
 
           {/* Fill in the Blanks Exercises */}
-          {lesson.fillInTheBlanks && (
+          {/* {lesson.fillInTheBlanks && (
             <FillInTheBlanks questions={lesson.fillInTheBlanks} />
-          )}
+          )} */}
         </React.Fragment>
       ))}
     </div>

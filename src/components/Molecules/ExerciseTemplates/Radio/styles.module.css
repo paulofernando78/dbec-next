@@ -10,7 +10,6 @@
   display: grid;
   grid-template-columns: 20px 1fr;
   align-items: start;
-  /* flex-wrap: wrap; */
   gap: 15px;
   padding: 2px;
   line-height: 1.3;

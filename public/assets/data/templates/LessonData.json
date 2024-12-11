@@ -4,7 +4,7 @@
     "subtitle": "...",
     "descriptions": ["..."]
   },
-  
+
   "lessons": [
     {
       "title": "Title",
@@ -126,63 +126,26 @@
       "videoSrc": "https://www.youtube.com/embed/oCY5YEEjlwE"
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "1. Question",
-          "options": [
-            { "label": "Answer 1", "isCorrect": true },
-            { "label": "Answer 2", "isCorrect": false }
+          "title": "Title",
+          "subtitle": "Subtitle",
+          "radio": [
+            {
+              "question": "1. Question",
+              "options": [
+                { "label": "Answer 1", "isCorrect": true },
+                { "label": "Answer 2", "isCorrect": false }
+              ]
+            },
+            {
+              "question": "2. Question",
+              "options": [
+                { "label": "Answer 1", "isCorrect": true },
+                { "label": "Answer 2", "isCorrect": false }
+              ]
+            }
           ]
-        }
-      ]
-    },
-    {
-      "dropdown": [
-        {
-          "title": "Select the correct answer.",
-          "subtitle": "subtitle",
-          "beforeOptions": "1. I",
-          "options": [
-            { "value": "am", "label": "am", "correctAnswer": true },
-            { "value": "is", "label": "is", "correctAnswer": false },
-            { "value": "are", "label": "are", "correctAnswer": false }
-          ],
-          "width": "100",
-          "afterOptions": "a teacher.",
-          "lineBreak": true
-        },
-        {
-          "beforeOptions": "2. He",
-          "options": [
-            { "value": "am", "label": "am", "correctAnswer": false },
-            { "value": "is", "label": "is", "correctAnswer": true },
-            { "value": "are", "label": "are", "correctAnswer": false }
-          ],
-          "width": "100",
-          "afterOptions": "a teacher."
-        }
-      ]
-    },
-    {
-      "fillInTheBlanks": [
-        {
-          "title": "1. Fill in the blank with the correct word.",
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
-          "lineBreakAfter": true
-        },
-        {
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "..."
         }
       ]
     }
