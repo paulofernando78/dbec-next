@@ -29,16 +29,16 @@ export const Radio = ({ questions }: RadioProps) => {
     incorrectImg.src = "/assets/img/icon/radio-incorrect.png";
   }, []);
 
-  // Reset all selected answers to null
-  const resetRadio = () => {
-    setSelectedAnswers(Array(questions.length).fill(null));
-  };
-
   // Update the selected answer for a specific question
   const handleSelectAnswer = (questionIndex: number, optionIndex: number) => {
     const newSelectedAnswers = [...selectedAnswers];
     newSelectedAnswers[questionIndex] = optionIndex;
     setSelectedAnswers(newSelectedAnswers);
+  };
+
+  // Reset all selected answers to null
+  const resetRadio = () => {
+    setSelectedAnswers(Array(questions.length).fill(null));
   };
 
   return (

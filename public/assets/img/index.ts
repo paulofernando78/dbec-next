@@ -41,8 +41,8 @@ import examsIcon from "./icon/exams.png";
 import miscIcon from "./icon/misc.png";
 
 // Exercise Templates
-import correctIcon from "./icon/correct.png";
-import incorrectIcon from "./icon/incorrect.png";
+import correctIcon from "./icon/correct.svg";
+import incorrectIcon from "./icon/incorrect.svg";
 
 // Folder
 
@@ -61,6 +61,7 @@ import btnIcon from "../../../public/assets/img/icon/btn-menu.png";
 // C
 import characteristic1 from "./characteristic1.jpg";
 import challenge1 from "./challenge1.jpg"
+import checkboxIcon from "./icon/checkbox.png"
 import chocolatePinkLemonadeKitKat from "./chocolate-kit-kat-pink-lemonad.jpg";
 import clipboard1 from "./clipboard1.jpg";
 import clockIcon from "./icon/clock.gif"
@@ -252,6 +253,7 @@ export {
   // C
   challenge1,
   characteristic1,
+  checkboxIcon,
   chocolatePinkLemonadeKitKat,
   clockIcon,
   clipboard1,
