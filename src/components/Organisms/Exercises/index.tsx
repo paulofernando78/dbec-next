@@ -54,7 +54,7 @@ export const Exercises = ({ exercises = [] }: ExercisesProps) => {
           {/* Radio */}
           {exercise.radio?.map((radioItem, radioIndex) => (
             <div key={radioIndex}>
-              <p>{radioItem.question}</p>
+              <p dangerouslySetInnerHTML={{ __html: radioItem.question}}></p>
               {radioItem.options.map((option, optionIndex) => (
                 <label key={optionIndex} className="radio-checkbox-flex">
                   <div className="radio-checkbox-container">

@@ -8,13 +8,13 @@
   "lessons": [
     {
       "title": "Title",
-      "time": "'5",
+      "time": "...",
       "bgColor": "black",
       "textColor": "white"
     },
     {
       "subtitle": "Subtitle",
-      "subtime": "'5",
+      "subtime": "...",
       "subBgColor": "lightgray",
       "subTextColor": "black"
     },

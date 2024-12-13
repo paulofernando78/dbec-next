@@ -1,0 +1,22 @@
+{
+  "keyword": "...",
+  "definitions": [
+    {
+      "audio": "/xxx/xxx.mp3",
+      "word": "...",
+      "phonetics": "...",
+      "partOfSpeech": "...",
+      "enDefinition": "...",
+      "ptDefinition": "...",
+      "examples": [
+        {
+          "enExample": "...",
+          "ptExample": "..."
+        }
+      ],
+      "synonyms": "...",
+      "antonyms": "...",
+      "seeAlso": "..."
+    }
+  ]
+}
