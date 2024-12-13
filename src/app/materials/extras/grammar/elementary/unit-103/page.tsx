@@ -35,150 +35,150 @@ const card3 = [
   }
 ]
 
-const fillInTheBlanks = [
-  {
-    options: true,
-    width: "50px",
-    title: "103.1 Choose at / on /in.",
-    subtitle: "Write in lower-case letters. [Escreva em letras minúsculas.]",
-    correctAnswer: ["on"],
-    afterBlank: "June 6 (sixth)",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["in"],
-    afterBlank: "the evening",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["at"],
-    afterBlank: "2:30",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["on"],
-    afterBlank: "Wednesday",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["in"],
-    afterBlank: "2007",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["in"],
-    afterBlank: "September",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["on"],
-    afterBlank: "September 24 (twenty-fourth)",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["on"],
-    afterBlank: "Thursday",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["at"],
-    afterBlank: "11:45",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["on"],
-    afterBlank: "Christmas Day",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["at"],
-    afterBlank: "Christmas",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["in"],
-    afterBlank: "the morning",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["on"],
-    afterBlank: "Friday morning",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["on"],
-    afterBlank: "Saturday night",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["at", "in"],
-    afterBlank: "night",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["at"],
-    afterBlank: "the end of the day",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["on"],
-    afterBlank: "the weekend (USA)",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["in"],
-    afterBlank: "winter",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["in"],
-    afterBlank: "the end of the problem",
-    lineBreakAfter: true,
-  },
-  {
-    options: true,
-    width: "50px",
-    correctAnswer: ["in"],
-    afterBlank: "summer",
-    lineBreakAfter: true,
-  },
-];
+// const fillInTheBlanks = [
+//   {
+//     options: true,
+//     width: "50px",
+//     title: "103.1 Choose at / on /in.",
+//     subtitle: "Write in lower-case letters. [Escreva em letras minúsculas.]",
+//     correctAnswer: ["on"],
+//     afterBlank: "June 6 (sixth)",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["in"],
+//     afterBlank: "the evening",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["at"],
+//     afterBlank: "2:30",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["on"],
+//     afterBlank: "Wednesday",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["in"],
+//     afterBlank: "2007",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["in"],
+//     afterBlank: "September",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["on"],
+//     afterBlank: "September 24 (twenty-fourth)",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["on"],
+//     afterBlank: "Thursday",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["at"],
+//     afterBlank: "11:45",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["on"],
+//     afterBlank: "Christmas Day",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["at"],
+//     afterBlank: "Christmas",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["in"],
+//     afterBlank: "the morning",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["on"],
+//     afterBlank: "Friday morning",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["on"],
+//     afterBlank: "Saturday night",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["at", "in"],
+//     afterBlank: "night",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["at"],
+//     afterBlank: "the end of the day",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["on"],
+//     afterBlank: "the weekend (USA)",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["in"],
+//     afterBlank: "winter",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["in"],
+//     afterBlank: "the end of the problem",
+//     lineBreakAfter: true,
+//   },
+//   {
+//     options: true,
+//     width: "50px",
+//     correctAnswer: ["in"],
+//     afterBlank: "summer",
+//     lineBreakAfter: true,
+//   },
+// ];
 
 export default function Unit103() {
   return (
@@ -541,7 +541,7 @@ export default function Unit103() {
         {/* Exercises */}
         <BoardCard label="Exercise" bgColor="lightgray" textColor="black">
           <div className="line-break">
-            <FillInTheBlanks questions={fillInTheBlanks} />
+            {/* <FillInTheBlanks questions={fillInTheBlanks} /> */}
           </div>
         </BoardCard>
       </div>
