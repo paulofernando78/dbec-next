@@ -1,11 +1,32 @@
 import { WhiteboardProps } from "@/components/Molecules/Whiteboard/type";
 import { SwiperFractionProps } from "@/components/Organisms/Swiper/Fraction/types";
-import { RadioQuestion } from "@/components/Molecules/ExerciseTemplates/Radio/type";
+// import { RadioQuestion } from "@/components/Molecules/ExerciseTemplates/Radio/type";
 import { ParagraphSection } from "@/components/Molecules/Paragraph/types";
 import { FlipCardData } from "@/components/Molecules/Cards/Flip/types";
 import { DropdownQuestion } from "@/components/Molecules/ExerciseTemplates/Dropdown/types";
 import { FillInTheBlanksQuestion } from "@/components/Molecules/ExerciseTemplates/FillInTheBlank/type";
 import { CardData } from "@/components/Molecules/Cards/Card/types";
+
+export interface ExerciseOption {
+  label: string;
+  isCorrect: boolean;
+}
+
+export interface RadioQuestion {
+  question: string;
+  options: ExerciseOption[];
+}
+
+export interface Exercise {
+  title?: string;
+  subtitle?: string;
+  radio?: RadioQuestion[];
+}
+
+export interface ExercisesProps {
+  exercises: Exercise[]; // Array of exercises
+}
+
 
 export interface LessonData {
   title: string;
@@ -23,7 +44,7 @@ export interface LessonData {
   flipcards?: FlipCardData[];
   audioSrc?: string;
   videoSrc?: string;
-  radio?: RadioQuestion[];
+  // radio?: RadioQuestion[];
   dropdown?: DropdownQuestion[];
   fillInTheBlanks?: FillInTheBlanksQuestion[];
 }
