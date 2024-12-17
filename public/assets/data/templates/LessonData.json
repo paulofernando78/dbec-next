@@ -138,24 +138,6 @@
                 { "label": "Answer 2", "isCorrect": false }
               ]
             }
-          ],
-          "checkbox": [
-            {
-              "question": "1. Question",
-              "options": [
-                { "label": "Answer 1", "isCorrect": true },
-                { "label": "Answer 2", "isCorrect": false },
-                { "label": "Answer 3", "isCorrect": false }
-              ]
-            },
-            {
-              "question": "2. Question",
-              "options": [
-                { "label": "Answer 1", "isCorrect": true },
-                { "label": "Answer 2", "isCorrect": false },
-                { "label": "Answer 3", "isCorrect": false }
-              ]
-            }
           ]
         }
       ]

@@ -2,7 +2,7 @@
   "whiteboard": {
     "title": "Extras",
     "subtitle": "Skills",
-    "descriptions": ["Listening", "Audiobooks", "beginner", "..."]
+    "descriptions": ["Listening", "Audiobooks", "beginner", "Mother Teresa"]
   },
   "lessons": [
     {
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/skills/listening/audiobooks/"
+      "audioSrc": "/extras/listening/audiobooks/"
     },
     {
       "title": "Paragraph 1",
