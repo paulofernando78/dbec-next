@@ -29,7 +29,7 @@ export const LessonTemplate = ({
   if (!lessonData) {
     return null;
   }
-
+console.log(lessonData)
   return (
     <div className="line-break">
       {lessonData.whiteboard && (
@@ -110,7 +110,7 @@ export const LessonTemplate = ({
           {lesson.videoSrc && <VideoPlayer videoSrc={lesson.videoSrc} />}
 
           {/* Exercises */}
-          <Exercises exercises={lesson.exercises}/> 
+          <Exercises exercises={lesson?.exercises as Exercise[]} />
 
           {/* Radio Exercises */}
           {/* {lesson.radio && <Radio questions={lesson.radio} />} */}

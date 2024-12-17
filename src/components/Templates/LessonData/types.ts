@@ -24,7 +24,7 @@ export interface Exercise {
 }
 
 export interface ExercisesProps {
-  exercises: Exercise[]; // Array of exercises
+  exercises?: Exercise[]; // Array of exercises
 }
 
 
@@ -45,6 +45,7 @@ export interface LessonData {
   audioSrc?: string;
   videoSrc?: string;
   // radio?: RadioQuestion[];
+  exercises?: Exercise[]
   dropdown?: DropdownQuestion[];
   fillInTheBlanks?: FillInTheBlanksQuestion[];
 }

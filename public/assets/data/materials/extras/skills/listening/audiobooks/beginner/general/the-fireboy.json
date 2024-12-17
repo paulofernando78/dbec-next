@@ -45,27 +45,34 @@
       ]
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "1.1 Where does Hapu live?",
-          "options": [
-            { "label": "He lives in Modern Egypt.", "isCorrect": false },
-            { "label": "He lives in Ancient Egypt.", "isCorrect": true }
-          ]
-        },
-        {
-          "question": "1.2 What does Bak make in the factory?",
-          "options": [
-            { "label": "He makes jars and cups.", "isCorrect": false },
-            { "label": "He makes tables and chairs.", "isCorrect": true }
-          ]
-        },
-        {
-          "question": "1.3 Are they rich?",
-          "options": [
-            { "label": "No, they aren't. They're poor.", "isCorrect": true },
-            { "label": "Yes, they are.", "isCorrect": false }
+          "radio": [
+            {
+              "title": "Choose the correct answer.",
+              "question": "1.1 Where does Hapu live?",
+              "options": [
+                { "label": "He lives in Modern Egypt.", "isCorrect": false },
+                { "label": "He lives in Ancient Egypt.", "isCorrect": true }
+              ]
+            },
+            {
+              "question": "1.2 What does Bak make in the factory?",
+              "options": [
+                { "label": "He makes jars and cups.", "isCorrect": false },
+                { "label": "He makes tables and chairs.", "isCorrect": true }
+              ]
+            },
+            {
+              "question": "1.3 Are they rich?",
+              "options": [
+                {
+                  "label": "No, they aren't. They're poor.",
+                  "isCorrect": true
+                },
+                { "label": "Yes, they are.", "isCorrect": false }
+              ]
+            }
           ]
         }
       ]
@@ -90,37 +97,42 @@
       ]
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "2.1 Where do they usually go every evening?",
-          "options": [
-            { "label": "They go to the pyramid.", "isCorrect": false },
+          "radio": [
             {
-              "label": "They go to the Nile and sit beside it.",
-              "isCorrect": true
-            }
-          ]
-        },
-        {
-          "question": "2.2 What do they talk about?",
-          "options": [
-            { "label": "They talk about pyramids.", "isCorrect": false },
+              "title": "Choose the correct answer.",
+              "question": "2.1 Where do they usually go every evening?",
+              "options": [
+                { "label": "They go to the pyramid.", "isCorrect": false },
+                {
+                  "label": "They go to the Nile and sit beside it.",
+                  "isCorrect": true
+                }
+              ]
+            },
             {
-              "label": "They talk about the factory, tomorrow's work — everything.",
-              "isCorrect": true
+              "question": "2.2 What do they talk about?",
+              "options": [
+                { "label": "They talk about pyramids.", "isCorrect": false },
+                {
+                  "label": "They talk about the factory, tomorrow's work — everything.",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "question": "2.3 Does Bak know how and when they're going to be rich?",
+              "options": [
+                { "label": "No, he doesn't.", "isCorrect": true },
+                { "label": "Yes, he does..", "isCorrect": false }
+              ]
             }
-          ]
-        },
-        {
-          "question": "2.3 Does Bak know how and when they're going to be rich?",
-          "options": [
-            { "label": "No, he doesn't.", "isCorrect": true },
-            { "label": "Yes, he does..", "isCorrect": false }
           ]
         }
       ]
     },
+
     {
       "title": "Paragraph 3",
       "time": "1:44",
@@ -141,13 +153,17 @@
       ]
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "3.1 What happens three days later?",
-          "options": [
-            { "label": "Bak falls asleep.", "isCorrect": false },
-            { "label": "Bak falls on the ground", "isCorrect": true }
+          "radio": [
+            {
+              "title": "Choose the correct answer.",
+              "question": "3.1 What happens three days later?",
+              "options": [
+                { "label": "Bak falls asleep.", "isCorrect": false },
+                { "label": "Bak falls on the ground", "isCorrect": true }
+              ]
+            }
           ]
         }
       ]
@@ -172,27 +188,32 @@
       ]
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "4.1 Can Bak work the next day?",
-          "options": [
-            { "label": "Yes, he can.", "isCorrect": false },
-            { "label": "No, he can't.", "isCorrect": true }
-          ]
-        },
-        {
-          "question": "4.2 What idea does Hapu have.",
-          "options": [
+          "radio": [
             {
-              "label": "He wants to make a necklace for the Queen.",
-              "isCorrect": true
+              "title": "Choose the correct answer.",
+              "question": "4.1 Can Bak work the next day?",
+              "options": [
+                { "label": "Yes, he can.", "isCorrect": false },
+                { "label": "No, he can't.", "isCorrect": true }
+              ]
             },
-            { "label": "He wants to stop work.", "isCorrect": false }
+            {
+              "question": "4.2 What idea does Hapu have.",
+              "options": [
+                {
+                  "label": "He wants to make a necklace for the Queen.",
+                  "isCorrect": true
+                },
+                { "label": "He wants to stop work.", "isCorrect": false }
+              ]
+            }
           ]
         }
       ]
     },
+
     {
       "title": "Paragraph 5",
       "time": "3:30",
@@ -213,30 +234,35 @@
       ]
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "5.1 How long is Bak ill for?",
-          "options": [
-            { "label": "He's ill for one week.", "isCorrect": false },
-            { "label": "He's ill for two week.", "isCorrect": true }
-          ]
-        },
-        {
-          "question": "5.2 Why is Hapu happy?",
-          "options": [
+          "radio": [
             {
-              "label": "Because he made a gold necklace for the queen",
-              "isCorrect": true
+              "title": "Choose the correct answer.",
+              "question": "5.1 How long is Bak ill for?",
+              "options": [
+                { "label": "He's ill for one week.", "isCorrect": false },
+                { "label": "He's ill for two week.", "isCorrect": true }
+              ]
             },
             {
-              "label": "Because he made a table and a chair for the queen.",
-              "isCorrect": false
+              "question": "5.2 Why is Hapu happy?",
+              "options": [
+                {
+                  "label": "Because he made a gold necklace for the queen",
+                  "isCorrect": true
+                },
+                {
+                  "label": "Because he made a table and a chair for the queen.",
+                  "isCorrect": false
+                }
+              ]
             }
           ]
         }
       ]
     },
+
     {
       "title": "Paragraph 6",
       "time": "4:15",
@@ -257,38 +283,43 @@
       ]
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "6.1 Where does Hapu go the next morning?",
-          "options": [
-            { "label": "He goes to the Nile.", "isCorrect": false },
-            { "label": "he goes to Cleopatra's palace.", "isCorrect": true }
-          ]
-        },
-        {
-          "question": "6.2 What does he have in a bag under his shirt?",
-          "options": [
-            { "label": "He has a necklace.", "isCorrect": true },
-            { "label": "He has a knife.", "isCorrect": false }
-          ]
-        },
-        {
-          "question": "6.3 How many guards are there at the palace?",
-          "options": [
-            { "label": "There are three.", "isCorrect": false },
-            { "label": "There are two.", "isCorrect": true }
-          ]
-        },
-        {
-          "question": "6.4 Can he pass the guards?",
-          "options": [
-            { "label": "No, he can't.", "isCorrect": true },
-            { "label": "Yes, he can.", "isCorrect": false }
+          "radio": [
+            {
+              "title": "Choose the correct answer.",
+              "question": "6.1 Where does Hapu go the next morning?",
+              "options": [
+                { "label": "He goes to the Nile.", "isCorrect": false },
+                { "label": "he goes to Cleopatra's palace.", "isCorrect": true }
+              ]
+            },
+            {
+              "question": "6.2 What does he have in a bag under his shirt?",
+              "options": [
+                { "label": "He has a necklace.", "isCorrect": true },
+                { "label": "He has a knife.", "isCorrect": false }
+              ]
+            },
+            {
+              "question": "6.3 How many guards are there at the palace?",
+              "options": [
+                { "label": "There are three.", "isCorrect": false },
+                { "label": "There are two.", "isCorrect": true }
+              ]
+            },
+            {
+              "question": "6.4 Can he pass the guards?",
+              "options": [
+                { "label": "No, he can't.", "isCorrect": true },
+                { "label": "Yes, he can.", "isCorrect": false }
+              ]
+            }
           ]
         }
       ]
     },
+
     {
       "title": "Paragraph 7",
       "time": "4:56",
@@ -309,37 +340,45 @@
       ]
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "7.1 Where does Hapu go after he leaves the palace?",
-          "options": [
-            { "label": "He walks home.", "isCorrect": true },
-            { "label": "He goes to the market.", "isCorrect": false }
-          ]
-        },
-        {
-          "question": "7.2 What happens after ten minutes later?",
-          "options": [
-            { "label": "He goes home and work.", "isCorrect": false },
-            { "label": "He passes two men in the market.", "isCorrect": true }
-          ]
-        },
-        {
-          "question": "7.3 What do Cleopatra's women want to buy?",
-          "options": [
+          "radio": [
             {
-              "label": "They want to buy lots of new clothes.",
-              "isCorrect": true
+              "title": "Choose the correct answer.",
+              "question": "7.1 Where does Hapu go after he leaves the palace?",
+              "options": [
+                { "label": "He walks home.", "isCorrect": true },
+                { "label": "He goes to the market.", "isCorrect": false }
+              ]
             },
             {
-              "label": "They want to buy lots of new perfume.",
-              "isCorrect": false
+              "question": "7.2 What happens after ten minutes later?",
+              "options": [
+                { "label": "He goes home and work.", "isCorrect": false },
+                {
+                  "label": "He passes two men in the market.",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "question": "7.3 What do Cleopatra's women want to buy?",
+              "options": [
+                {
+                  "label": "They want to buy lots of new clothes.",
+                  "isCorrect": true
+                },
+                {
+                  "label": "They want to buy lots of new perfume.",
+                  "isCorrect": false
+                }
+              ]
             }
           ]
         }
       ]
     },
+
     {
       "title": "Paragraph 8",
       "time": "5:39",
@@ -358,25 +397,29 @@
       ]
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "8.1 What time does Hapu get up?",
-          "options": [
-            { "label": "He wakes up late.", "isCorrect": false },
-            { "label": "He wakes up very early.", "isCorrect": true }
-          ]
-        },
-        {
-          "question": "8.2 What does he do before he leaves the factory for the market?",
-          "options": [
+          "radio": [
             {
-              "label": "He makes a cup of sweet tea for his father.",
-              "isCorrect": true
+              "title": "Choose the correct answer.",
+              "question": "8.1 What time does Hapu get up?",
+              "options": [
+                { "label": "He wakes up late.", "isCorrect": false },
+                { "label": "He wakes up very early.", "isCorrect": true }
+              ]
             },
             {
-              "label": "He makes a cup of coffe for his father.",
-              "isCorrect": false
+              "question": "8.2 What does he do before he leaves the factory for the market?",
+              "options": [
+                {
+                  "label": "He makes a cup of sweet tea for his father.",
+                  "isCorrect": true
+                },
+                {
+                  "label": "He makes a cup of coffe for his father.",
+                  "isCorrect": false
+                }
+              ]
             }
           ]
         }
@@ -402,30 +445,43 @@
       ]
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "How many men are carrying the queen?",
-          "options": [
-            { "label": "Four men are carrying the Queen.", "isCorrect": true },
-            { "label": "Two men are carrying the Queen.", "isCorrect": false }
-          ]
-        },
-        {
-          "question": "9.2 What does he do when he see the queen?",
-          "options": [
-            { "label": "He goes back home.", "isCorrect": false },
+          "radio": [
             {
-              "label": "He runs in front of Cleopatra's chair.",
-              "isCorrect": true
+              "title": "Choose the correct answer.",
+              "question": "How many men are carrying the queen?",
+              "options": [
+                {
+                  "label": "Four men are carrying the Queen.",
+                  "isCorrect": true
+                },
+                {
+                  "label": "Two men are carrying the Queen.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "9.2 What does he do when he see the queen?",
+              "options": [
+                { "label": "He goes back home.", "isCorrect": false },
+                {
+                  "label": "He runs in front of Cleopatra's chair.",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "question": "9.3 What does he say?",
+              "options": [
+                { "label": "\"Please, stop!\"", "isCorrect": true },
+                {
+                  "label": "\"Please, go away! [Vá embora!]\"",
+                  "isCorrect": false
+                }
+              ]
             }
-          ]
-        },
-        {
-          "question": "9.3 What does he say?",
-          "options": [
-            { "label": "\"Please, stop!\"", "isCorrect": true },
-            { "label": "\"Please, go away! [Vá embora!]\"", "isCorrect": false }
           ]
         }
       ]
@@ -450,13 +506,17 @@
       ]
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "10.1 What does the Queen give to Hapu?",
-          "options": [
-            { "label": "She gives him some food.", "isCorrect": false },
-            { "label": "She gives him some money.", "isCorrect": true }
+          "radio": [
+            {
+              "title": "Choose the correct answer.",
+              "question": "10.1 What does the Queen give to Hapu?",
+              "options": [
+                { "label": "She gives him some food.", "isCorrect": false },
+                { "label": "She gives him some money.", "isCorrect": true }
+              ]
+            }
           ]
         }
       ]
@@ -481,13 +541,17 @@
       ]
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "11.1 What does Hapu bring back home?",
-          "options": [
-            { "label": "He brings food.", "isCorrect": false },
-            { "label": "He brings money.", "isCorrect": true }
+          "radio": [
+            {
+              "title": "Choose the correct answer.",
+              "question": "11.1 What does Hapu bring back home?",
+              "options": [
+                { "label": "He brings food.", "isCorrect": false },
+                { "label": "He brings money.", "isCorrect": true }
+              ]
+            }
           ]
         }
       ]
@@ -512,16 +576,20 @@
       ]
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "12.1 What can Hapu do with the money he received from the Queen?",
-          "options": [
+          "radio": [
             {
-              "label": "He can pay for a doctor to visit his father.",
-              "isCorrect": true
-            },
-            { "label": "He can buy a new house.", "isCorrect": false }
+              "title": "Choose the correct answer.",
+              "question": "12.1 What can Hapu do with the money he received from the Queen?",
+              "options": [
+                {
+                  "label": "He can pay for a doctor to visit his father.",
+                  "isCorrect": true
+                },
+                { "label": "He can buy a new house.", "isCorrect": false }
+              ]
+            }
           ]
         }
       ]
@@ -546,18 +614,22 @@
       ]
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "13.1 What does the Queen want to give to Hapu?",
-          "options": [
+          "radio": [
             {
-              "label": "She wants to give him a job at the market.",
-              "isCorrect": false
-            },
-            {
-              "label": "She wants to give him a job at the palace.",
-              "isCorrect": true
+              "title": "Choose the correct answer.",
+              "question": "13.1 What does the Queen want to give to Hapu?",
+              "options": [
+                {
+                  "label": "She wants to give him a job at the market.",
+                  "isCorrect": false
+                },
+                {
+                  "label": "She wants to give him a job at the palace.",
+                  "isCorrect": true
+                }
+              ]
             }
           ]
         }
@@ -583,18 +655,22 @@
       ]
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "14.1 What does the Queen want from Hapu?",
-          "options": [
+          "radio": [
             {
-              "label": "She wants him to live in the palace and make lots of beautiful things for her",
-              "isCorrect": true
-            },
-            {
-              "label": "She wants him to live in the palace and clean the floor.",
-              "isCorrect": false
+              "title": "Choose the correct answer.",
+              "question": "14.1 What does the Queen want from Hapu?",
+              "options": [
+                {
+                  "label": "She wants him to live in the palace and make lots of beautiful things for her",
+                  "isCorrect": true
+                },
+                {
+                  "label": "She wants him to live in the palace and clean the floor.",
+                  "isCorrect": false
+                }
+              ]
             }
           ]
         }
@@ -620,20 +696,27 @@
       ]
     },
     {
-      "radio": [
+      "exercises": [
         {
-          "title": "Choose the correct answer.",
-          "question": "15.1 Does Hapu accept the Queen's job?",
-          "options": [
-            { "label": "Yes, he does.", "isCorrect": true },
-            { "label": "No, he doesn't.", "isCorrect": false }
-          ]
-        },
-        {
-          "question": "15.2 Does Hapu leave his father and work at the palace?",
-          "options": [
-            { "label": "Yes, he does.", "isCorrect": false },
-            { "label": "No, he doens't. He goes home to work with his father.", "isCorrect": true }
+          "radio": [
+            {
+              "title": "Choose the correct answer.",
+              "question": "15.1 Does Hapu accept the Queen's job?",
+              "options": [
+                { "label": "Yes, he does.", "isCorrect": true },
+                { "label": "No, he doesn't.", "isCorrect": false }
+              ]
+            },
+            {
+              "question": "15.2 Does Hapu leave his father and work at the palace?",
+              "options": [
+                { "label": "Yes, he does.", "isCorrect": false },
+                {
+                  "label": "No, he doens't. He goes home to work with his father.",
+                  "isCorrect": true
+                }
+              ]
+            }
           ]
         }
       ]
