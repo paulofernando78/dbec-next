@@ -3,7 +3,6 @@ import { useState } from "react";
 
 // CSS
 import { Button } from "@/components/Atoms/Button";
-import styles from "./styles.module.css";
 
 // Images
 import { correctIcon, incorrectIcon } from "@/img/index";

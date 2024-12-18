@@ -257,16 +257,16 @@
               "title": "Choose the correct answer.",
               "question": "3.3 What do the men do when they see the leopard coming?",
               "options": [
-                { "label": "Men throw celebrate.", "isCorrect": false },
+                { "label": "Men celebrate.", "isCorrect": false },
                 { "label": "Men throw stones.", "isCorrect": true }
               ]
             },
             {
               "title": "Choose the correct answer.",
-              "question": "3.4 Does it get hurt?",
+              "question": "3.4 Do the stones hit him?",
               "options": [
-                { "label": "Yes, it does.", "isCorrect": true },
-                { "label": "No, it doesn't.", "isCorrect": false }
+                { "label": "Yes, they do.", "isCorrect": true },
+                { "label": "No, they don't.", "isCorrect": false }
               ]
             }
           ]
@@ -646,7 +646,7 @@
                   "isCorrect": true
                 },
                 {
-                  "label": "He takes the goat up to the top.",
+                  "label": "He takes the goat up to the top of the lighthouse.",
                   "isCorrect": false
                 }
               ]
@@ -767,7 +767,7 @@
           "title": "Choose the correct answer.",
           "radio": [
             {
-              "question": "13.1 What's Said look like? [Como ele é?]",
+              "question": "13.1 What's Said like? [Como ele é?]",
               "options": [
                 { "label": "He has nice eyes and a kind face.", "isCorrect": true },
                 { "label": "He has strange eyes and a mean face.", "isCorrect": false }
@@ -823,7 +823,7 @@
               ]
             },
             {
-              "question": "14.2 What happened to him?",
+              "question": "14.2 What happens to him?",
               "options": [
                 { "label": "The dart makes him sleep.", "isCorrect": true },
                 { "label": "The dart makes him run away.", "isCorrect": false }

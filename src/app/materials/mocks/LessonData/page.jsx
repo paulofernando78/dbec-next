@@ -6,11 +6,11 @@ import { useEffect, useState } from "react";
 // Components
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 
+const CONTENTS_JSON_PATH = "/assets/data/templates/LessonData.json";
 export default function LessonDataMock() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
-  const CONTENTS_JSON_PATH = "/assets/data/templates/LessonData.json";
 
   useEffect(() => {
     fetch(CONTENTS_JSON_PATH)
@@ -21,6 +21,9 @@ export default function LessonDataMock() {
         return response.json();
       })
       .then((data) => {
+        const data01 = {
+          data: data
+        }
         setLessonData(data);
         setLoading(false);
       })

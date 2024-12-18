@@ -137,6 +137,37 @@
                 { "label": "Answer 1", "isCorrect": true },
                 { "label": "Answer 2", "isCorrect": false }
               ]
+            },
+            {
+              "question": "2. Question",
+              "options": [
+                { "label": "Answer 1", "isCorrect": true },
+                { "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercises": [
+        {
+          "title": "Title",
+          "subtitle": "Subtitle",
+          "radio": [
+            {
+              "question": "1. Question",
+              "options": [
+                { "label": "Answer 1", "isCorrect": true },
+                { "label": "Answer 2", "isCorrect": false }
+              ]
+            },
+            {
+              "question": "2. Question",
+              "options": [
+                { "label": "Answer 1", "isCorrect": true },
+                { "label": "Answer 2", "isCorrect": false }
+              ]
             }
           ]
         }
