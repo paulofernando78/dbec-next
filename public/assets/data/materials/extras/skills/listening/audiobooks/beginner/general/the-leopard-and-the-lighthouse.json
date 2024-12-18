@@ -96,11 +96,11 @@
               "question": "1.2 What's Sindi like?'",
               "options": [
                 {
-                  "label": "The beaches are beautiful and the sand is white.",
+                  "label": "It's beautiful with beaches and the sand is white.",
                   "isCorrect": true
                 },
                 {
-                  "label": "The beaches are ugly and the sand is gray.",
+                  "label": "It's ugly with no beaches and the sand is gray.",
                   "isCorrect": false
                 }
               ]
