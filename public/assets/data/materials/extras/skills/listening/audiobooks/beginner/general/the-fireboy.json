@@ -13,7 +13,7 @@
     {
       "paragraphSections": [
         {
-          "img": "/extras/listening/audiobooks/beginner/general/the-fireboy/cover.jpg",
+          "img": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/cover.jpg",
           "imgAlt": "Book cover",
           "paragraphs": [
             {
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/audio.mp3"
+      "audioSrc": "/extras/skills/skills/listening/audiobooks/beginner/general/the-fireboy/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -39,38 +39,64 @@
               "text": "This is the story of Hapu. He lives in Ancient Egypt at the time of Queen Cleopatra. His father, Bak, has a small factory. He makes gold tables and chairs. Hapu helps him. He is a \"fireboy\". Every day he pushes a long handle up and down. The work is hot and very hard. But what can he and his father do? They are poor people. They need to make money."
             }
           ],
-          "img": "/extras/listening/audiobooks/beginner/general/the-fireboy/paragraph-1.jpg",
+          "img": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/paragraph-1.jpg",
           "imgAlt": "Bak and Hapu works hard in the factory."
         }
       ]
     },
     {
+      "id": "25fda4b8-aedc-4217-a42c-7a7ab8209cea",
       "exercises": [
         {
+          "id": "302f0811-9256-4a9b-b215-9bd05fc7b5f0",
+          "title": "1. Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
+              "id": "d335ed3d-8000-49c0-b2bf-8fe3c14b45f0",
               "question": "1.1 Where does Hapu live?",
               "options": [
-                { "label": "He lives in Modern Egypt.", "isCorrect": false },
-                { "label": "He lives in Ancient Egypt.", "isCorrect": true }
+                {
+                  "id": "e1f1c3c1-6744-4169-9957-0866a8338b7d",
+                  "label": "He lives in Modern Egypt.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "7e7f9520-04e9-4904-8307-cd24a746509b",
+                  "label": "He lives in Ancient Egypt.",
+                  "isCorrect": true
+                }
               ]
             },
             {
+              "id": "7dc529ce-64a2-4ebb-abb8-7f36892b7ce7",
               "question": "1.2 What does Bak make in the factory?",
               "options": [
-                { "label": "He makes jars and cups.", "isCorrect": false },
-                { "label": "He makes tables and chairs.", "isCorrect": true }
+                {
+                  "id": "938b7545-93ff-4976-90b1-81f274189681",
+                  "label": "He makes jars and cups.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "1472f78c-bcdc-408d-93cd-d75b6c09c65b",
+                  "label": "He makes tables and chairs.",
+                  "isCorrect": true
+                }
               ]
             },
             {
+              "id": "3d81e99f-bbe1-4d2e-af00-b12cd2c35759",
               "question": "1.3 Are they rich?",
               "options": [
                 {
+                  "id": "b45c6f83-2929-4d88-a6a8-1b4d29204e41",
                   "label": "No, they aren't. They're poor.",
                   "isCorrect": true
                 },
-                { "label": "Yes, they are.", "isCorrect": false }
+                {
+                  "id": "a7ffbce3-252f-4d5c-9234-ed9f7db30107",
+                  "label": "Yes, they are.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -91,7 +117,7 @@
               "text": "Every evening they sit beside the Nile. Bak talks to his son about the factory, tomorrow's work — everything. \"One day we're going to be very rich,\" he tells Hapu. \"Are we?\" The fireboy looks into his father's tired eyes. \"Yes,\" Bak smiles. \"I don't know how and I don't know when, but we are.\" Then he stands up. \"Come on,\" he says. \"It's late. Let's go home.\""
             }
           ],
-          "img": "/extras/listening/audiobooks/beginner/general/the-fireboy/paragraph-2.jpg",
+          "img": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/paragraph-2.jpg",
           "imgAlt": "Bak and Hapu talks beside the river Nile."
         }
       ]
@@ -99,9 +125,9 @@
     {
       "exercises": [
         {
+          "title": "2. Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "2.1 Where do they usually go every evening?",
               "options": [
                 { "label": "They go to the pyramid.", "isCorrect": false },
@@ -147,7 +173,7 @@
               "text": "Three days later Hapu and Bak are making a table. It is very hot in the room. Suddenly, Bak stops work. \"What is it, father?\" Hapu asks. \"Is something wrong?\" \"I don't know,\" Bak answers. He closes his eyes. \"It's my head. I can't...\" And then he falls on the ground. \"Father!\" Hapu runs to Bak and puts one hand under his head. \"Father — are you all right?\""
             }
           ],
-          "img": "/extras/listening/audiobooks/beginner/general/the-fireboy/paragraph-3.jpg",
+          "img": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/paragraph-3.jpg",
           "imgAlt": "Suddenly, Bak begins to feel sick and falls to the ground."
         }
       ]
@@ -155,9 +181,9 @@
     {
       "exercises": [
         {
+          "title": "3. Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "3.1 What happens three days later?",
               "options": [
                 { "label": "Bak falls asleep.", "isCorrect": false },
@@ -182,7 +208,7 @@
               "text": "The next day Bak stays in bed. \"I'm sorry Hapu,\" he says. \"I want to work but I can't. I'm ill.\" Hapu is very sad. \"Father works too hard,\" he thinks. \"That's why he's ill. We need more money - but what can I do?\" Then he has an idea. \"Of course!\" he thinks \"I must make something for somebody very rich. Somebody like ... the Queen!\""
             }
           ],
-          "img": "/extras/listening/audiobooks/beginner/general/the-fireboy/paragraph-4.jpg",
+          "img": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/paragraph-4.jpg",
           "imgAlt": "Hapu talks to Bak while he's in bed."
         }
       ]
@@ -190,9 +216,9 @@
     {
       "exercises": [
         {
+          "title": "4. Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "4.1 Can Bak work the next day?",
               "options": [
                 { "label": "Yes, he can.", "isCorrect": false },
@@ -228,7 +254,7 @@
               "text": "Bak is ill for two weeks. In that time, Hapu makes a lot of tables and chairs. But only tables and chairs. He makes a gold necklace, too. \"There!\" he thinks late one night. \"It's ready. He smiles. The necklace is very beautiful. \"Queen Cleopatra is going to like this, \"Hapu thinks. \"She's going to pay a lot of money for it, too. I know she is.\""
             }
           ],
-          "img": "/extras/listening/audiobooks/beginner/general/the-fireboy/paragraph-5.jpg",
+          "img": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/paragraph-5.jpg",
           "imgAlt": "Hapu makes a beautiful necklace to the Queen Cleopatra."
         }
       ]
@@ -236,9 +262,9 @@
     {
       "exercises": [
         {
+          "title": "5. Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "5.1 How long is Bak ill for?",
               "options": [
                 { "label": "He's ill for one week.", "isCorrect": false },
@@ -277,7 +303,7 @@
               "text": "The next morning he goes to Cleopatra's palace. The necklace is in a bag under his shirt. \"What do you want?\" asks a palace guard. There are two guards. Each one has a sword. \"I want to see the queen,\" Hapu answers. Both guards laugh. Go home, boy,\" says one of them. \"Queen Cleopatra doesn't see people like you.\""
             }
           ],
-          "img": "/extras/listening/audiobooks/beginner/general/the-fireboy/paragraph-6.jpg",
+          "img": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/paragraph-6.jpg",
           "imgAlt": "Two man stands in front of the palace and don't let Hapu in."
         }
       ]
@@ -285,9 +311,9 @@
     {
       "exercises": [
         {
+          "title": "6. Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "6.1 Where does Hapu go the next morning?",
               "options": [
                 { "label": "He goes to the Nile.", "isCorrect": false },
@@ -334,7 +360,7 @@
               "text": "Hapu is very unhappy. \"What do I do now?\" He thinks. He leaves the palace and begins to walk home. But ten minutes later he passes two men in the market. \"Cleopatra's women are coming here tomorrow morning,\" says one. \"They're arriving very early. They want to buy lots of new clothes for her.\" \"That's very good news,\" Hapu thinks."
             }
           ],
-          "img": "/extras/listening/audiobooks/beginner/general/the-fireboy/paragraph-7.jpg",
+          "img": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/paragraph-7.jpg",
           "imgAlt": "Happu hears two mean talking about Cleopatra visit to the market."
         }
       ]
@@ -342,9 +368,9 @@
     {
       "exercises": [
         {
+          "title": "7. Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "7.1 Where does Hapu go after he leaves the palace?",
               "options": [
                 { "label": "He walks home.", "isCorrect": true },
@@ -399,9 +425,9 @@
     {
       "exercises": [
         {
+          "title": "8. Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "8.1 What time does Hapu get up?",
               "options": [
                 { "label": "He wakes up late.", "isCorrect": false },
@@ -439,7 +465,7 @@
               "text": "Four men are carrying a very beautiful chair. A woman is sitting in it. Hapu puts one hand across his eyes. \"It's the Queen\"! he thinks. \"She's coming, too!\" A minute later Cleopatra arrives. Suddenly, everyone is very quiet. Then Hapu thinks, \"This is the moment.\" He runs in front of Cleopatra's chair. \"Stop!\" he says. \"Please, stop!\""
             }
           ],
-          "img": "/extras/listening/audiobooks/beginner/general/the-fireboy/paragraphs-8-9.jpg",
+          "img": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/paragraphs-8-9.jpg",
           "imgAlt": "Cleopatra arrives at the market carried by four man."
         }
       ]
@@ -447,10 +473,10 @@
     {
       "exercises": [
         {
+          "title": "9. Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
-              "question": "How many men are carrying the queen?",
+              "question": "9.1 How many men are carrying the queen?",
               "options": [
                 {
                   "label": "Four men are carrying the Queen.",
@@ -500,7 +526,7 @@
               "text": "The queen looks at him. \"What do you want?\" she asks. Hapu gives her the necklace. \"Is this really your work?\" asks Cleopatra. \"Yes, it is,\" Hapu answers. \"Guards!\" says Cleopatra. \"Give this boy some money.\" She holds the necklace in her hands. \"This is beautiful,\" she says. Then she leaves."
             }
           ],
-          "img": "/extras/listening/audiobooks/beginner/general/the-fireboy/paragraph-10.jpg",
+          "img": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/paragraph-10.jpg",
           "imgAlt": "The queen decides to talk to Hapu."
         }
       ]
@@ -508,9 +534,9 @@
     {
       "exercises": [
         {
+          "title": "10. Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "10.1 What does the Queen give to Hapu?",
               "options": [
                 { "label": "She gives him some food.", "isCorrect": false },
@@ -535,7 +561,7 @@
               "text": "Hapu runs home. He is very very happy. Bak is in bed. \"Look!\" Hapu says. He shows the money from Cleopatra's necklace to his father. \"But how ...? Bak closes his eyes, then opens them again. \"I don't understand,\" he says. Hapu smiles. He sits down and tells his father everything. At the end of the story, Bak says, \"You're a good son, Hapu. Thank you.\""
             }
           ],
-          "img": "/extras/listening/audiobooks/beginner/general/the-fireboy/paragraph-11.jpg",
+          "img": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/paragraph-11.jpg",
           "imgAlt": "Hapu goes back home and show his father some money."
         }
       ]
@@ -543,9 +569,9 @@
     {
       "exercises": [
         {
+          "title": "11. Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "11.1 What does Hapu bring back home?",
               "options": [
                 { "label": "He brings food.", "isCorrect": false },
@@ -570,7 +596,7 @@
               "text": "That night Hapu looks up at the stars. \"Now I can pay for a doctor to visit father,\" he thinks. \"Then, after the father is strong again ... \" But at that moment he stops. One of Cleopatra's guards is standing in front of him. He has a big sword. \"Are you Hapu, son of Bak?\" he asks. Hapu looks at him. \"Yes. Yes, I am,\" he answers."
             }
           ],
-          "img": "/extras/listening/audiobooks/beginner/general/the-fireboy/paragraph-12.jpg",
+          "img": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/paragraph-12.jpg",
           "imgAlt": "A guard visits Hapu."
         }
       ]
@@ -578,9 +604,9 @@
     {
       "exercises": [
         {
+          "title": "12. Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "12.1 What can Hapu do with the money he received from the Queen?",
               "options": [
                 {
@@ -608,7 +634,7 @@
               "text": "\"Come with me,\" says the guard. \"Queen Cleopatra likes your work. She wants to give you a job at the palace.\" \"But I have a job,\" Hapu says. \"I work with my father. I can't leave him. You don't underst ...\" No, You don't understand,\" the guard says. \"When the Queen gives you a job, you take it.\" He puts one hand on his sword. \"Now go and say goodbye to your father.\""
             }
           ],
-          "img": "/extras/listening/audiobooks/beginner/general/the-fireboy/paragraph-13.jpg",
+          "img": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/paragraph-13.jpg",
           "imgAlt": "The guard says to Hapu that the queen wanta to offer him a job."
         }
       ]
@@ -616,9 +642,9 @@
     {
       "exercises": [
         {
+          "title": "13. Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "13.1 What does the Queen want to give to Hapu?",
               "options": [
                 {
@@ -649,7 +675,7 @@
               "text": "At the palace, Cleopatra talks to Hapu. She is wearing his necklace. \"I want you to live here and make lots of beautiful things for me,\" she says. \"Thank you, Queen, of the Nile,\" Hapu says. \"But ...\" \"But?\" The Queen looks at Hapu. \"But ... I can't live here. You see, my father is very ill and ...\" Hapu tells the Queen everything."
             }
           ],
-          "img": "/extras/listening/audiobooks/beginner/general/the-fireboy/paragraph-14.jpg",
+          "img": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/paragraph-14.jpg",
           "imgAlt": "Hapu goes to the palace and meets Cleopatra."
         }
       ]
@@ -657,9 +683,9 @@
     {
       "exercises": [
         {
+          "title": "14. Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "14.1 What does the Queen want from Hapu?",
               "options": [
                 {
@@ -690,7 +716,7 @@
               "text": "At the end of Hapu's story, Cleopatra looks at him. \"All right,\" she says. \"You can go home to your father. But ...\" \"But?\" asks Hapu. \"But from today, the two of you work only for me. Do you understand?\" \"Oh yes!\" Hapu smiles. He is very happy. Now he and his father can make lots of beautiful things and be rich. \"Yes, I understand.\""
             }
           ],
-          "img": "/extras/listening/audiobooks/beginner/general/the-fireboy/paragraph-15.jpg",
+          "img": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/paragraph-15.jpg",
           "imgAlt": "Hapu is happy because he gets the job offered by the queen."
         }
       ]
@@ -698,9 +724,9 @@
     {
       "exercises": [
         {
+          "title": "15. Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "15.1 Does Hapu accept the Queen's job?",
               "options": [
                 { "label": "Yes, he does.", "isCorrect": true },

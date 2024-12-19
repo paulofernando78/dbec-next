@@ -924,7 +924,7 @@
             },
             {
               "id": "488c31fd-fd55-42b7-b3dc-0d0b948bfbb2",
-              "question": "12.1 Does he have a real gun?",
+              "question": "12.2 Does he have a real gun?",
               "options": [
                 {
                   "id": "13dbea6e-77b1-4396-869c-1ace74f4f6d2",
@@ -1081,6 +1081,22 @@
         }
       ]
     },
+
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "text": "shoot the leopard."
+            },
+            {
+              "text": "shoot at the leopard."
+            }
+          ]
+        }
+      ]
+    },
+
     {
       "title": "Paragraph 15",
       "time": "10:11",

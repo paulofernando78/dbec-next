@@ -1,26 +1,20 @@
 "use client";
 
-// Components
-import {
-  Whiteboard,
-  Ribbon,
-  Paragraph,
-  AudioPlayer,
-  SwiperFraction,
-  VideoPlayer,
-  Dropdown,
-  FillInTheBlanks,
-  FlipCard,
-  Card,
-} from "@/components";
-
 // Typescript
 import { LessonTemplateProps } from "@/components/Templates/LessonData/types";
-import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
-import { SubRibbon } from "@/components/Molecules/SubRibbon";
 import React from "react";
-import { Exercises } from "@/components/Organisms/Exercises";
-import { Exercise } from "@/components/Templates/LessonData/types";
+
+import { DynamicRender } from "@/components/Templates/index-temp";
+
+type ComponentType = {
+  component: string;
+data : {
+  [key: string]: any;
+}
+options?: {
+  [key: string]: any;
+}
+};
 
 export const LessonTemplate = ({
   lessonData,
@@ -29,91 +23,30 @@ export const LessonTemplate = ({
   if (!lessonData) {
     return null;
   }
-
+  console.log(lessonData.lessons);
+  const components:ComponentType[] = [
+    { component: "Whiteboard", data: {...lessonData.whiteboard} },
+    { component: "Lesson", data: lessonData.lessons[0] }
+  ];
   return (
-    <div className="line-break">
-      {lessonData.whiteboard && (
-        <Whiteboard
-          title={lessonData.whiteboard.title}
-          subtitle={lessonData.whiteboard.subtitle}
-          descriptions={lessonData.whiteboard.descriptions}
-          subDescription={lessonData.whiteboard.subDescription}
-        />
-      )}
+    // <div className="line-break">
+    //   {lessonData.whiteboard && (
+    //     <Whiteboard
+    //       title={lessonData.whiteboard.title}
+    //       subtitle={lessonData.whiteboard.subtitle}
+    //       descriptions={lessonData.whiteboard.descriptions}
+    //       subDescription={lessonData.whiteboard.subDescription}
+    //     />
+    //   )}
 
-      {isUnderConstruction && <UnderConstruction />}
+    //   {isUnderConstruction && <UnderConstruction />}
 
-      {lessonData.lessons.map((lesson, lessonIndex) => (
-        <React.Fragment key={lessonIndex}>
-          {/* Title */}
-          {lesson.title && (
-            <Ribbon
-              label={lesson.title}
-              time={lesson.time}
-              bgColor={lesson.bgColor}
-              textColor={lesson.textColor}
-            />
-          )}
-
-          {/* Subtitle */}
-          {lesson.subtitle && (
-            <SubRibbon
-              sublabel={lesson.subtitle}
-              subtime={lesson.subtime}
-              subBgColor={lesson.subBgColor}
-              subTextColor={lesson.subTextColor}
-            />
-          )}
-
-          {/* Cards */}
-          {lesson.cards && lesson.cards.length > 0 && (
-            <Card
-              bgColor={lesson.bgColor}
-              textColor={lesson.textColor}
-              cards={lesson.cards}
-            />
-          )}
-
-          {/* Paragraphs */}
-          {lesson.paragraphSections && (
-            <div>
-              <Paragraph paragraphSections={lesson.paragraphSections} />
-            </div>
-          )}
-
-          {/* SwiperFraction images */}
-          {lesson.swiperFractionImages &&
-            lesson.swiperFractionImages.length > 0 && (
-              <SwiperFraction
-                images={lesson.swiperFractionImages.map(
-                  (swiperFractionImage) => ({
-                    imgSrc: swiperFractionImage.imgSrc,
-                    imgAlt: swiperFractionImage.imgAlt,
-                    imgSrcLink: swiperFractionImage.imgSrcLink,
-                    imgAltLink: swiperFractionImage.imgAltLink,
-                  })
-                )}
-              />
-            )}
-
-          {/* Flip Cards */}
-          {lesson.flipcards && <FlipCard flipCards={lesson.flipcards} />}
-
-          {/* Audio Player */}
-          {lesson.audioSrc && (
-            <div className="audioplayer-sticky">
-              <AudioPlayer audioSrc={lesson.audioSrc} />
-            </div>
-          )}
-
-          {/* Video Player */}
-          {lesson.videoSrc && <VideoPlayer videoSrc={lesson.videoSrc} />}
-
-          {/* Exercises */}
-          <Exercises exercises={lesson?.exercises as Exercise[]} id={lesson?.id!} />
-
-        </React.Fragment>
-      ))}
+    //   {lessonData.lessons.map((lesson, lessonIndex) => (
+   
+    //   ))}
+    // </div>
+    <div>
+      <DynamicRender components={components}/>
     </div>
   );
 };
