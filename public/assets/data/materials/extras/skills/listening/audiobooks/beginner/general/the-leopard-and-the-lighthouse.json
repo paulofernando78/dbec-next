@@ -97,7 +97,7 @@
             },
             {
               "id": "0ca0b333-2cb8-4fbc-8915-ee27000febda",
-              "question": "1.2 What's Sindi like?'",
+              "question": "1.2 What's Sindi like?",
               "options": [
                 {
                   "id": "3d808d4c-2668-4f4b-a8d3-2748e4794a7f",
@@ -175,7 +175,7 @@
             },
             {
               "id": "7fcc3efa-6f46-46f8-9477-f475b2cb431b",
-              "question": "2.2 What kind of animals live on the mainland?",
+              "question": "2.2 What kind of animals live there?",
               "options": [
                 {
                   "id": "8a8d23fe-411e-48aa-b2bd-4bf562f0b9a5",
@@ -491,12 +491,12 @@
               "options": [
                 {
                   "id": "add6ad39-d606-45d2-9941-a49b54043a6d",
-                  "label": "Because the leopard is at the top of lighthouse.",
+                  "label": "Because the leopard is at the top of the lighthouse.",
                   "isCorrect": true
                 },
                 {
                   "id": "8f03dd1a-6299-4237-8076-e8bf15cf08b7",
-                  "label": "Because the leopard is at the on the stairs.",
+                  "label": "Because the leopard is on the stairs.",
                   "isCorrect": false
                 }
               ]
