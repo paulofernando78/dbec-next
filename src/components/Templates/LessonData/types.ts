@@ -18,6 +18,7 @@ export interface RadioQuestion {
 }
 
 export interface Exercise {
+  id: string
   title?: string;
   subtitle?: string;
   radio?: RadioQuestion[];
