@@ -48,6 +48,7 @@ export interface LessonData {
   exercises?: Exercise[]
   dropdown?: DropdownQuestion[];
   fillInTheBlanks?: FillInTheBlanksQuestion[];
+  id?: string
 }
 
 export interface LessonTemplateProps {

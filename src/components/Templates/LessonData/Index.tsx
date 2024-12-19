@@ -110,18 +110,8 @@ console.log(lessonData)
           {lesson.videoSrc && <VideoPlayer videoSrc={lesson.videoSrc} />}
 
           {/* Exercises */}
-          <Exercises exercises={lesson?.exercises as Exercise[]} />
+          <Exercises exercises={lesson?.exercises as Exercise[]} id={lesson?.id!} />
 
-          {/* Radio Exercises */}
-          {/* {lesson.radio && <Radio questions={lesson.radio} />} */}
-
-          {/* Dropdown Exercises */}
-          {/* {lesson.dropdown && <Dropdown questions={lesson.dropdown} />} */}
-
-          {/* Fill in the Blanks Exercises */}
-          {/* {lesson.fillInTheBlanks && (
-            <FillInTheBlanks questions={lesson.fillInTheBlanks} />
-          )} */}
         </React.Fragment>
       ))}
     </div>

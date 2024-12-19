@@ -21,9 +21,6 @@ export default function LessonDataMock() {
         return response.json();
       })
       .then((data) => {
-        const data01 = {
-          data: data
-        }
         setLessonData(data);
         setLoading(false);
       })

@@ -73,47 +73,55 @@
       ]
     },
     {
+      "id": "4974c7af-5d0a-4462-95f2-03c3c793638c",
       "exercises": [
         {
+          "id": "7e0d9299-e759-440f-9aca-096a322a826a",
           "title": "Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
+              "id": "0b63900d-621a-4a8f-b06e-619b57a88dde",
               "question": "1.1 Where's Sindi?",
               "options": [
                 {
+                  "id": "7cba17ea-dbe0-44e0-9a5d-79971714529b",
                   "label": "Sindi is an island in West Africa.",
                   "isCorrect": false
                 },
                 {
+                  "id": "a1feeb5c-2481-422a-84e8-c7d59bec9f5e",
                   "label": "Sindi is an island in East Africa.",
                   "isCorrect": true
                 }
               ]
             },
             {
-              "title": "Choose the correct answer.",
+              "id": "0ca0b333-2cb8-4fbc-8915-ee27000febda",
               "question": "1.2 What's Sindi like?'",
               "options": [
                 {
+                  "id": "3d808d4c-2668-4f4b-a8d3-2748e4794a7f",
                   "label": "It's beautiful with beaches and the sand is white.",
                   "isCorrect": true
                 },
                 {
+                  "id": "e63e67c9-0a82-4fe6-abb5-9b0205823abe",
                   "label": "It's ugly with no beaches and the sand is gray.",
                   "isCorrect": false
                 }
               ]
             },
             {
-              "title": "Choose the correct answer.",
+              "id": "e07b040c-fc07-4791-85d2-e0cc49a804c6",
               "question": "1.3 Where do children usually play?",
               "options": [
                 {
+                  "id": "722149bd-cc57-40b7-a855-d61902e5f6b8",
                   "label": "Children usually play in the village.",
                   "isCorrect": false
                 },
                 {
+                  "id": "a57c828a-17f9-4528-8feb-2057e0e7c477",
                   "label": "Children usually play in the lighthouse.",
                   "isCorrect": true
                 }
@@ -145,53 +153,66 @@
     {
       "exercises": [
         {
+          "id": "8ef243df-ee24-429d-9bca-e7cacbfd02b2",
           "title": "Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
+              "id": "11161bac-e182-4115-af4d-8300d20d61ca",
               "question": "2.1 How many meters does Sindi lie from the mainland (of Africa?)",
               "options": [
                 {
+                  "id": "580ea2f4-2d7f-4514-8b3e-25fd191560ed",
                   "label": "Sindi lies about five thousand metres from the mainland of Africa. ",
                   "isCorrect": false
                 },
                 {
+                  "id": "4e5fad62-83ff-4a9c-a3ee-9f1d364bed92",
                   "label": "Sindi lies about five hundred metres from the mainland of Africa.",
                   "isCorrect": true
                 }
               ]
             },
             {
-              "title": "Choose the correct answer.",
+              "id": "7fcc3efa-6f46-46f8-9477-f475b2cb431b",
               "question": "2.2 What kind of animals live on the mainland?",
               "options": [
                 {
+                  "id": "8a8d23fe-411e-48aa-b2bd-4bf562f0b9a5",
                   "label": "The animals are: monkeys, snakes, and crocodiles.",
                   "isCorrect": false
                 },
                 {
+                  "id": "5a15c8dd-8ae0-4130-a37a-1b39015c1ea0",
                   "label": "The animals are: monkeys, elephants, and leopards.",
                   "isCorrect": true
                 }
               ]
             },
             {
-              "title": "Choose the correct answer.",
+              "id": "1d036db9-ee7e-4010-aefd-ae691ce19041",
               "question": "2.3 Why is the leopard looking for food?",
               "options": [
-                { "label": "Because it's hungry.", "isCorrect": true },
-                { "label": "Because it's angry.", "isCorrect": false }
+                {
+                  "id": "7ffebe10-eb92-40a2-874d-36a772fa893c",
+                  "label": "Because it's hungry.", "isCorrect": true
+                },
+                {
+                  "id": "7b38a2f9-b5ad-4651-be2e-5a34d76c44b9",
+                  "label": "Because it's angry.", "isCorrect": false
+                }
               ]
             },
             {
-              "title": "Choose the correct answer.",
+              "id": "d7470b28-99cc-431f-a7a9-457fa56169c6",
               "question": "2.4 Where does the leopard go after it gets out of the water?",
               "options": [
                 {
+                  "id": "c6dd711a-3168-48a1-bee0-50b8759f7062",
                   "label": "He walks along the road to the lighthouse.",
                   "isCorrect": false
                 },
                 {
+                  "id": "ca34e7a4-4701-405b-98a6-5a5460de9e4f",
                   "label": "He walks along the road to the village.",
                   "isCorrect": true
                 }
@@ -221,12 +242,13 @@
       ]
     },
     {
+      "id": "b356d71d-cb93-4b26-8a3d-9370214079e5",
       "exercises": [
         {
+          "id": "0e89b349-a2c1-4091-9c50-12dd3bfa8727",
           "title": "Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "3.1 Where does the leopard run?",
               "options": [
                 {
@@ -240,7 +262,6 @@
               ]
             },
             {
-              "title": "Choose the correct answer.",
               "question": "3.2 What are the people doing in the marketplace?",
               "options": [
                 {
@@ -254,7 +275,6 @@
               ]
             },
             {
-              "title": "Choose the correct answer.",
               "question": "3.3 What do the men do when they see the leopard coming?",
               "options": [
                 { "label": "Men celebrate.", "isCorrect": false },
@@ -262,7 +282,6 @@
               ]
             },
             {
-              "title": "Choose the correct answer.",
               "question": "3.4 Do the stones hit him?",
               "options": [
                 { "label": "Yes, they do.", "isCorrect": true },
@@ -293,12 +312,12 @@
       ]
     },
     {
+      "id": "80103cb0-851b-48ec-b19e-a4cc991e6385",
       "exercises": [
         {
           "title": "Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "4.1 Where does the leopard run through?",
               "options": [
                 {
@@ -312,7 +331,6 @@
               ]
             },
             {
-              "title": "Choose the correct answer.",
               "question": "4.2 Do the people want the leopard in their village?",
               "options": [
                 { "label": "No, they don't.", "isCorrect": true },
@@ -320,7 +338,6 @@
               ]
             },
             {
-              "title": "Choose the correct answer.",
               "question": "4.3 Can the leopard escape from the people?",
               "options": [
                 { "label": "Yes, it can.", "isCorrect": true },
@@ -351,12 +368,12 @@
       ]
     },
     {
+      "id": "647a0bd8-6057-42e4-bc76-5afe925331e8",
       "exercises": [
         {
           "title": "Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "5.1 Is there a way out for the leopard?",
               "options": [
                 { "label": "No, there isn't.", "isCorrect": true },
@@ -364,7 +381,6 @@
               ]
             },
             {
-              "title": "Choose the correct answer.",
               "question": "5.2 So, where does it go?",
               "options": [
                 { "label": "It goes into the water.", "isCorrect": false },
@@ -398,12 +414,12 @@
       ]
     },
     {
+      "id": "eb865275-e081-4c48-a9fa-d235072663c4",
       "exercises": [
         {
           "title": "Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "6.1 Why do the people stop running?",
               "options": [
                 {
@@ -440,12 +456,12 @@
       ]
     },
     {
+      "id": "74772c2e-1632-41b1-a431-99b2a991b419",
       "exercises": [
         {
           "title": "Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "7.1 How long does the leopard stay in the lighthouse?",
               "options": [
                 {
@@ -459,8 +475,7 @@
               ]
             },
             {
-              "title": "Choose the correct answer.",
-              "question": "7.1 Does it have food and water?",
+              "question": "7.2 Does it have food and water?",
               "options": [
                 { "label": "No, he doesn't.", "isCorrect": true },
                 { "label": "Yes, he does", "isCorrect": false }
@@ -468,7 +483,7 @@
             },
             {
               "title": "Choose the correct answer.",
-              "question": "7.1 Then, what do the people do?",
+              "question": "7.3 Then, what do the people do?",
               "options": [
                 { "label": "They wait.", "isCorrect": true },
                 { "label": "They go into the lighthouse.", "isCorrect": false }
@@ -498,6 +513,7 @@
       ]
     },
     {
+      "id": "6ecaa6ae-7793-4bbb-9962-6cf290a5bfb1",
       "exercises": [
         {
           "title": "Choose the correct answer.",
@@ -559,6 +575,7 @@
       ]
     },
     {
+      "id": "367da300-a49b-4602-ba5e-76dd2b2a9fd6",
       "exercises": [
         {
           "title": "Choose the correct answer.",
@@ -614,11 +631,12 @@
       ]
     },
     {
+      "id": "3b9a66ad-4ed3-4ba0-a0d6-4be2cc665a81",
       "exercises": [
         {
+          "title": "Choose the correct answer.",
           "radio": [
             {
-              "title": "Choose the correct answer.",
               "question": "10.1 Is Jamal short and weak?",
               "options": [
                 {
@@ -675,6 +693,7 @@
       ]
     },
     {
+      "id": "2e587c32-8a56-4a25-bb73-f3574cb4de71",
       "exercises": [
         {
           "title": "Choose the correct answer.",
@@ -693,7 +712,10 @@
                   "label": "The goat goes up to the top of the lighthouse.",
                   "isCorrect": false
                 },
-                { "label": "The goat runs away.", "isCorrect": true }
+                {
+                  "label": "The rope breaks and the goat runs away.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -720,6 +742,7 @@
       ]
     },
     {
+      "id": "6d199850-99ad-472d-9dbc-974a2356a092",
       "exercises": [
         {
           "title": "Choose the correct answer.",
@@ -762,6 +785,7 @@
       ]
     },
     {
+      "id": "0ddf127f-6494-4b5d-81ae-69a7552b85f4",
       "exercises": [
         {
           "title": "Choose the correct answer.",
@@ -769,8 +793,14 @@
             {
               "question": "13.1 What's Said like? [Como ele é?]",
               "options": [
-                { "label": "He has nice eyes and a kind face.", "isCorrect": true },
-                { "label": "He has strange eyes and a mean face.", "isCorrect": false }
+                {
+                  "label": "He has nice eyes and a kind face.",
+                  "isCorrect": true
+                },
+                {
+                  "label": "He has strange eyes and a mean face.",
+                  "isCorrect": false
+                }
               ]
             },
             {
@@ -811,6 +841,7 @@
       ]
     },
     {
+      "id": "4426ab3b-6056-427d-9633-b065bf205c2c",
       "exercises": [
         {
           "title": "Choose the correct answer.",
@@ -853,6 +884,7 @@
       ]
     },
     {
+      "id": "2c38c211-9daf-41a5-b6ef-ccf733bf25be",
       "exercises": [
         {
           "title": "Choose the correct answer.",
@@ -860,21 +892,33 @@
             {
               "question": "15.1 Where does Saied take the leopard?",
               "options": [
-                { "label": "Saied takes the leopard to the Animal Park in Nairobi.", "isCorrect": true },
-                { "label": "Saied takes the leopard home.", "isCorrect": false }
+                {
+                  "label": "Saied takes the leopard home.",
+                  "isCorrect": false
+                },
+                {
+                  "label": "Saied takes the leopard to the Animal Park in Nairobi.",
+                  "isCorrect": true
+                }
               ]
             },
             {
               "question": "15.1 What happens to Saied and Tanza?",
               "options": [
-                { "label": "Tanza and Saied become friends.", "isCorrect": false },
+                {
+                  "label": "Tanza and Saied become friends.",
+                  "isCorrect": false
+                },
                 { "label": "Tanza and Saied get married.", "isCorrect": true }
               ]
             },
             {
               "question": "15.1 How many children do they have?",
               "options": [
-                { "label": "They have two boys and a girl.", "isCorrect": true },
+                {
+                  "label": "They have two boys and a girl.",
+                  "isCorrect": true
+                },
                 { "label": "They have two girls and a boy", "isCorrect": false }
               ]
             }

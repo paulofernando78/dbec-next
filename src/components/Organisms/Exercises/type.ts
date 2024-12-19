@@ -33,14 +33,17 @@ interface CheckboxExercise {
 interface RadioOption {
   label: string;
   isCorrect: boolean;
+  id: string
 }
 
 interface RadioExercise {
   question: string;
   options: RadioOption[];
+  id: string
 }
 
-interface Exercise {
+export interface Exercise {
+  id: string
   title: string;
   subtitle: string;
   radio?: RadioExercise[];
@@ -49,6 +52,7 @@ interface Exercise {
   fillInTheBlanks?: FillInTheBlankExercise[];
 }
 
-interface ExercisesProps {
+export interface ExercisesProps {
   exercises: Exercise[];
+  id: string
 }
