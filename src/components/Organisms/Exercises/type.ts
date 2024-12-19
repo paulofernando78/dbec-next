@@ -45,7 +45,7 @@ interface RadioExercise {
 export interface Exercise {
   id: string
   title: string;
-  subtitle: string;
+  subtitle?: string;
   radio?: RadioExercise[];
   checkbox?: CheckboxExercise[];
   dropdown?: DropdownExercise[];

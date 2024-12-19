@@ -15,11 +15,6 @@ import "./type";
 import Image from "next/image";
 
 export const Exercises = ({ exercises = [], id }: ExercisesProps) => {
-  
-  
-
-  
-
   return (
     <>
       {exercises.map((exercise, exerciseIndex) => (

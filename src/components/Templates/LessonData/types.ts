@@ -21,13 +21,11 @@ export interface Exercise {
   id: string
   title: string;
   subtitle?: string;
-  radio?: RadioQuestion[];
 }
 
 export interface ExercisesProps {
-  exercises?: Exercise[]; // Array of exercises
+  exercises?: Exercise[];
 }
-
 
 export interface LessonData {
   title: string;
@@ -45,7 +43,6 @@ export interface LessonData {
   flipcards?: FlipCardData[];
   audioSrc?: string;
   videoSrc?: string;
-  // radio?: RadioQuestion[];
   exercises?: Exercise[]
   dropdown?: DropdownQuestion[];
   fillInTheBlanks?: FillInTheBlanksQuestion[];
