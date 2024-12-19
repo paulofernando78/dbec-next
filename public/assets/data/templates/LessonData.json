@@ -128,37 +128,37 @@
     {
       "exercises": [
         {
-          "id": "c0b3566e-d748-4f40-affc-4024c0cbd7b1",
+          "id": "",
           "title": "Exercise 1",
           "subtitle": "Subtitle",
           "radio": [
             {
-              "id": "2f4d41c1-9f5a-4d19-bce7-420d8bcb4a01",
+              "id": "",
               "question": "1. Question",
               "options": [
                 {
-                  "id": "d146c964-1c0d-4d15-9cb1-f8f321e69c59",
+                  "id": "",
                   "label": "Answer 1",
                   "isCorrect": true
                 },
                 {
-                  "id": "9d891c83-f7ed-404e-a18d-60e14c6c2e1b",
+                  "id": "",
                   "label": "Answer 2",
                   "isCorrect": false
                 }
               ]
             },
             {
-              "id": "0f27230d-7315-4c06-9e82-d1b6bcece053",
+              "id": "",
               "question": "2. Question",
               "options": [
                 {
-                  "id": "d29712cc-c2d2-408c-8183-394fb58d040c",
+                  "id": "",
                   "label": "Answer 1",
                   "isCorrect": true
                 },
                 {
-                  "id": "bb607f33-26b5-499f-ae4a-6f8d7da82555",
+                  "id": "",
                   "label": "Answer 2",
                   "isCorrect": false
                 }

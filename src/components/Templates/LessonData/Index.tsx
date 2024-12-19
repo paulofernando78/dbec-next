@@ -21,6 +21,7 @@ import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 import { SubRibbon } from "@/components/Molecules/SubRibbon";
 import React from "react";
 import { Exercises } from "@/components/Organisms/Exercises";
+import { Exercise } from "@/components/Templates/LessonData/types";
 
 export const LessonTemplate = ({
   lessonData,
@@ -29,7 +30,7 @@ export const LessonTemplate = ({
   if (!lessonData) {
     return null;
   }
-console.log(lessonData)
+
   return (
     <div className="line-break">
       {lessonData.whiteboard && (
