@@ -7,7 +7,6 @@ import { VideoPlayer } from "./Atoms/VideoPlayer";
 import { Paragraph } from "./Molecules/Paragraph";
 import SwiperFraction from "./Organisms/Swiper/Fraction";
 import { FlipCard } from "./Molecules/Cards/Flip";
-import { Radio } from "./Molecules/ExerciseTemplates/Radio";
 import { Dropdown } from "./Molecules/ExerciseTemplates/Dropdown";
 import { FillInTheBlanks } from "./Molecules/ExerciseTemplates/FillInTheBlank";
 import { DictionaryCard } from "./DictionaryCard/DictionaryCard";
@@ -23,7 +22,6 @@ export {
   Paragraph,
   SwiperFraction,
   FlipCard,
-  Radio,
   Dropdown,
   FillInTheBlanks,
   DictionaryCard,
