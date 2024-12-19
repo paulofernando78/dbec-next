@@ -77,7 +77,7 @@
       "exercises": [
         {
           "id": "7e0d9299-e759-440f-9aca-096a322a826a",
-          "title": "Choose the correct answer.",
+          "title": "1. Choose the correct answer.",
           "radio": [
             {
               "id": "0b63900d-621a-4a8f-b06e-619b57a88dde",
@@ -155,11 +155,11 @@
       "exercises": [
         {
           "id": "8ef243df-ee24-429d-9bca-e7cacbfd02b2",
-          "title": "Choose the correct answer.",
+          "title": "2. Choose the correct answer.",
           "radio": [
             {
               "id": "11161bac-e182-4115-af4d-8300d20d61ca",
-              "question": "2.1 How many meters does Sindi lie from the mainland (of Africa?)",
+              "question": "2.1 How many meters does Sindi lie from the mainland of Africa?",
               "options": [
                 {
                   "id": "580ea2f4-2d7f-4514-8b3e-25fd191560ed",
@@ -249,7 +249,7 @@
       "exercises": [
         {
           "id": "0e89b349-a2c1-4091-9c50-12dd3bfa8727",
-          "title": "Choose the correct answer.",
+          "title": "3. Choose the correct answer.",
           "radio": [
             {
               "id": "e55dfe1b-73fa-4504-b7a4-25f84d483635",
@@ -343,7 +343,7 @@
       "exercises": [
         {
           "id": "8db83c1a-bfc3-4639-bc56-5f74716dc162",
-          "title": "Choose the correct answer.",
+          "title": "4. Choose the correct answer.",
           "radio": [
             {
               "id": "db4a2d5e-2f51-422f-8823-cedae735515c",
@@ -421,7 +421,7 @@
       "exercises": [
         {
           "id": "a4828cd9-dd8b-4236-9bb4-ed9c6eb6787a",
-          "title": "Choose the correct answer.",
+          "title": "5. Choose the correct answer.",
           "radio": [
             {
               "id": "50726c6b-f6cc-4109-a993-dbdd682faa44",
@@ -483,7 +483,7 @@
       "exercises": [
         {
           "id": "1e6a4c73-e22f-4851-948d-33d4a46298ec",
-          "title": "Choose the correct answer.",
+          "title": "6. Choose the correct answer.",
           "radio": [
             {
               "id": "d3e807fc-7ad1-4cef-9b20-b8ce131bb88c",
@@ -529,7 +529,7 @@
       "exercises": [
         {
           "id": "8874f426-a8ec-4c8d-b708-8b0d8408982c",
-          "title": "Choose the correct answer.",
+          "title": "7. Choose the correct answer.",
           "radio": [
             {
               "id": "73661813-30b9-49e0-87a9-82981fdb8d28",
@@ -608,7 +608,7 @@
       "exercises": [
         {
           "id": "7c1c5e68-3d93-4cf1-99bf-9f46aad595ea",
-          "title": "Choose the correct answer.",
+          "title": "8. Choose the correct answer.",
           "radio": [
             {
               "id": "53d67440-5205-45a0-8812-ca2dea6ae22b",
@@ -686,7 +686,7 @@
       "exercises": [
         {
           "id": "d1a32581-807e-4bc5-9b5c-78655333f740",
-          "title": "Choose the correct answer.",
+          "title": "9. Choose the correct answer.",
           "radio": [
             {
               "id": "9acf1165-e8da-47f3-9d02-14db93bcaa37",
@@ -764,7 +764,7 @@
       "exercises": [
         {
           "id": "a1437cac-e545-40f6-9cca-3b27aced23db",
-          "title": "Choose the correct answer.",
+          "title": "10. Choose the correct answer.",
           "radio": [
             {
               "id": "f6975360-eba7-479f-bdea-15d5b6bd4491",
@@ -842,7 +842,7 @@
       "exercises": [
         {
           "id": "25ab0579-4814-46be-b6b2-86e53f5a0296",
-          "title": "Choose the correct answer.",
+          "title": "11. Choose the correct answer.",
           "radio": [
             {
               "id": "f6853c5f-71dd-400e-9eda-d876e35cd2ca",
@@ -904,7 +904,7 @@
       "exercises": [
         {
           "id": "3633e7cf-b90a-486d-93dd-6e42bdf069ca",
-          "title": "Choose the correct answer.",
+          "title": "12. Choose the correct answer.",
           "radio": [
             {
               "id": "fc18c214-311c-4926-901c-f649d544ddfb",
@@ -966,7 +966,7 @@
       "exercises": [
         {
           "id": "7ee97ac3-fad4-470f-b7d4-019dc60510fb",
-          "title": "Choose the correct answer.",
+          "title": "13. Choose the correct answer.",
           "radio": [
             {
               "id": "b96c2b55-942f-40d1-aa34-5dc354fbc0d6",
@@ -1043,7 +1043,7 @@
       "exercises": [
         {
           "id": "04e6c619-8584-48f0-ab80-badd9275e78e",
-          "title": "Choose the correct answer.",
+          "title": "14. Choose the correct answer.",
           "radio": [
             {
               "id": "0ef12bc9-d526-45b3-8ec0-76b1eec35b3d",
@@ -1105,7 +1105,7 @@
       "exercises": [
         {
           "id": "e8d3fdaa-32f0-43e3-af72-11976a16eae3",
-          "title": "Choose the correct answer.",
+          "title": "15. Choose the correct answer.",
           "radio": [
             {
               "id": "6f0f2cae-eda9-43b6-a937-4a079785fcdc",

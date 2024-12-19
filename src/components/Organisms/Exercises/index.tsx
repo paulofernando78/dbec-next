@@ -116,6 +116,12 @@ const ExerciseItem = ({exercise}:{exercise:Exercise}) => {
             </div>
           ))}
 
+          {/* Checkbox */}
+
+          {/* Dropdown */}
+
+          {/* Fill in the Blank */}
+
           <div className="flex-8px-center-wrap">
             <Button label="Check answers" onClick={checkAnswer} />
             <Button label="Reset" onClick={resetAnswers} />
