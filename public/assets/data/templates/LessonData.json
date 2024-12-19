@@ -167,37 +167,37 @@
           ]
         },
         {
-          "id": "30d9b79d-fda6-44d0-8bfb-4462abc0f8d8",
+          "id": "",
           "title": "Exercise 2",
           "subtitle": "Subtitle",
           "radio": [
             {
-              "id": "c9f1e4cc-f59b-44e5-b1b5-25748ad6ed32",
+              "id": "",
               "question": "1. Question",
               "options": [
                 {
-                  "id": "d0ccad56-c132-4933-9ff0-e9077c27bc3e",
+                  "id": "",
                   "label": "Answer 1",
                   "isCorrect": true
                 },
                 {
-                  "id": "8102535b-5b73-4b46-baad-4a7c0f053759",
+                  "id": "",
                   "label": "Answer 2",
                   "isCorrect": false
                 }
               ]
             },
             {
-              "id": "0217dd08-732b-43df-8463-e3efef2a4b0a",
+              "id": "",
               "question": "2. Question",
               "options": [
                 {
-                  "id": "f108f8c5-d8d1-4e3b-a051-d32d6a161841",
+                  "id": "",
                   "label": "Answer 1",
                   "isCorrect": true
                 },
                 {
-                  "id": "c6a1d6d2-7624-4b85-b491-8a9532cb02e7",
+                  "id": "",
                   "label": "Answer 2",
                   "isCorrect": false
                 }

@@ -151,6 +151,7 @@
       ]
     },
     {
+      "id": "71387944-f0dc-4166-930b-49f645338fb0",
       "exercises": [
         {
           "id": "8ef243df-ee24-429d-9bca-e7cacbfd02b2",
@@ -194,11 +195,13 @@
               "options": [
                 {
                   "id": "7ffebe10-eb92-40a2-874d-36a772fa893c",
-                  "label": "Because it's hungry.", "isCorrect": true
+                  "label": "Because it's hungry.",
+                  "isCorrect": true
                 },
                 {
                   "id": "7b38a2f9-b5ad-4651-be2e-5a34d76c44b9",
-                  "label": "Because it's angry.", "isCorrect": false
+                  "label": "Because it's angry.",
+                  "isCorrect": false
                 }
               ]
             },
@@ -249,43 +252,67 @@
           "title": "Choose the correct answer.",
           "radio": [
             {
+              "id": "e55dfe1b-73fa-4504-b7a4-25f84d483635",
               "question": "3.1 Where does the leopard run?",
               "options": [
                 {
+                  "id": "b23d3a4b-5010-4889-ac6d-c45e3ff1c216",
                   "label": "The leopard runs into the marketplace.",
                   "isCorrect": true
                 },
                 {
+                  "id": "b692ef5d-b8d4-4ed3-b3ac-0b2a134eb683",
                   "label": "The leopard runs into a house.",
                   "isCorrect": false
                 }
               ]
             },
             {
+              "id": "",
               "question": "3.2 What are the people doing in the marketplace?",
               "options": [
                 {
+                  "id": "",
                   "label": "They are buying clothes, jewelry, and shoes.",
                   "isCorrect": false
                 },
                 {
+                  "id": "",
                   "label": "They are buying meat, vegetables, and fruit.",
                   "isCorrect": true
                 }
               ]
             },
             {
+              "id": "8ad90d74-80cb-4e09-a060-f8200678cd4b",
               "question": "3.3 What do the men do when they see the leopard coming?",
               "options": [
-                { "label": "Men celebrate.", "isCorrect": false },
-                { "label": "Men throw stones.", "isCorrect": true }
+                {
+                  "id": "2dd18e46-b6d3-404a-ac37-18cfe6c4eb1a",
+                  "label": "Men celebrate.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "702835c7-d5d4-424e-8abc-6d2daf84b4c1",
+                  "label": "Men throw stones.",
+                  "isCorrect": true
+                }
               ]
             },
             {
+              "id": "7701de29-60ac-480f-86ce-9752dff57397",
               "question": "3.4 Do the stones hit him?",
               "options": [
-                { "label": "Yes, they do.", "isCorrect": true },
-                { "label": "No, they don't.", "isCorrect": false }
+                {
+                  "id": "12c25c77-1d78-4bf2-944f-75d1ec5f7e8d",
+                  "label": "Yes, they do.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "a1254efa-4c95-4335-8e2a-576936389b6e",
+                  "label": "No, they don't.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -315,33 +342,55 @@
       "id": "80103cb0-851b-48ec-b19e-a4cc991e6385",
       "exercises": [
         {
+          "id": "8db83c1a-bfc3-4639-bc56-5f74716dc162",
           "title": "Choose the correct answer.",
           "radio": [
             {
+              "id": "db4a2d5e-2f51-422f-8823-cedae735515c",
               "question": "4.1 Where does the leopard run through?",
               "options": [
                 {
+                  "id": "15b5e38a-42ae-4a84-a78c-6ad5252b41ac",
                   "label": "The leopard runs through the people of the village.",
                   "isCorrect": false
                 },
                 {
+                  "id": "b5493b3c-02da-44d2-ac1e-98618710719f",
                   "label": "The leopard runs through the streets of the village.",
                   "isCorrect": true
                 }
               ]
             },
             {
+              "id": "c5338c55-010b-4274-9673-ae092c2fd096",
               "question": "4.2 Do the people want the leopard in their village?",
               "options": [
-                { "label": "No, they don't.", "isCorrect": true },
-                { "label": "Yes, they do.", "isCorrect": false }
+                {
+                  "id": "429f5520-5048-4f2c-bcb6-a4a099bc997d",
+                  "label": "No, they don't.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "6ce91180-680c-4c04-8ea7-c374222f53b4",
+                  "label": "Yes, they do.",
+                  "isCorrect": false
+                }
               ]
             },
             {
+              "id": "22e272f5-2337-4446-8efa-ef5d011055a0",
               "question": "4.3 Can the leopard escape from the people?",
               "options": [
-                { "label": "Yes, it can.", "isCorrect": true },
-                { "label": "No, it can't.", "isCorrect": false }
+                {
+                  "id": "a7c585ea-db40-4c48-b38b-43257242c095",
+                  "label": "Yes, it can.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "740c44d2-fa92-464e-9cfb-0dc628a3f3bc",
+                  "label": "No, it can't.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -371,20 +420,36 @@
       "id": "647a0bd8-6057-42e4-bc76-5afe925331e8",
       "exercises": [
         {
+          "id": "a4828cd9-dd8b-4236-9bb4-ed9c6eb6787a",
           "title": "Choose the correct answer.",
           "radio": [
             {
+              "id": "50726c6b-f6cc-4109-a993-dbdd682faa44",
               "question": "5.1 Is there a way out for the leopard?",
               "options": [
-                { "label": "No, there isn't.", "isCorrect": true },
-                { "label": "Yes, there is.", "isCorrect": false }
+                {
+                  "id": "bf3e80a1-abf1-4cb5-b20a-495841917419",
+                  "label": "No, there isn't.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "f19eded5-2f2a-45a9-baf3-e44b96207731",
+                  "label": "Yes, there is.",
+                  "isCorrect": false
+                }
               ]
             },
             {
+              "id": "2414ee70-35e8-4783-a9cc-06a21f27e84d",
               "question": "5.2 So, where does it go?",
               "options": [
-                { "label": "It goes into the water.", "isCorrect": false },
                 {
+                  "id": "7f89f088-b522-4eb8-a3f3-39d9a8559e02",
+                  "label": "It goes into the water.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "91cbe3cd-a075-46ef-b40b-2dfa1dec7613",
                   "label": "It goes into the old lighthouse.",
                   "isCorrect": true
                 }
@@ -417,16 +482,20 @@
       "id": "eb865275-e081-4c48-a9fa-d235072663c4",
       "exercises": [
         {
+          "id": "1e6a4c73-e22f-4851-948d-33d4a46298ec",
           "title": "Choose the correct answer.",
           "radio": [
             {
+              "id": "d3e807fc-7ad1-4cef-9b20-b8ce131bb88c",
               "question": "6.1 Why do the people stop running?",
               "options": [
                 {
+                  "id": "add6ad39-d606-45d2-9941-a49b54043a6d",
                   "label": "Because the leopard is at the top of lighthouse.",
                   "isCorrect": true
                 },
                 {
+                  "id": "8f03dd1a-6299-4237-8076-e8bf15cf08b7",
                   "label": "Because the leopard is at the on the stairs.",
                   "isCorrect": false
                 }
@@ -459,34 +528,56 @@
       "id": "74772c2e-1632-41b1-a431-99b2a991b419",
       "exercises": [
         {
+          "id": "8874f426-a8ec-4c8d-b708-8b0d8408982c",
           "title": "Choose the correct answer.",
           "radio": [
             {
+              "id": "73661813-30b9-49e0-87a9-82981fdb8d28",
               "question": "7.1 How long does the leopard stay in the lighthouse?",
               "options": [
                 {
+                  "id": "553268d9-a187-43a3-beb4-76808381db81",
                   "label": "The leopard stays in the lighthouse for four days and nights.",
                   "isCorrect": false
                 },
                 {
+                  "id": "f2381f5f-c419-4291-afb1-39d6bf96f45c",
                   "label": "The leopard stays in the lighthouse for three days and nights.",
                   "isCorrect": true
                 }
               ]
             },
             {
+              "id": "0ae98ed1-62b2-4ced-88a0-84673a5898b7",
               "question": "7.2 Does it have food and water?",
               "options": [
-                { "label": "No, he doesn't.", "isCorrect": true },
-                { "label": "Yes, he does", "isCorrect": false }
+                {
+                  "id": "6ca27d82-483b-45a7-b115-3149ce21b755",
+                  "label": "No, he doesn't.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "892043d8-5aae-417d-94e1-f8ce62fa5e6f",
+                  "label": "Yes, he does",
+                  "isCorrect": false
+                }
               ]
             },
             {
+              "id": "7431db64-de92-4567-bac7-0268f5bf0efe",
               "title": "Choose the correct answer.",
               "question": "7.3 Then, what do the people do?",
               "options": [
-                { "label": "They wait.", "isCorrect": true },
-                { "label": "They go into the lighthouse.", "isCorrect": false }
+                {
+                  "id": "430ede15-1b28-47e5-a09b-0b6d6fdde467",
+                  "label": "They wait.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "e0d060f0-a86c-4eb0-8b62-3fc576808792",
+                  "label": "They go into the lighthouse.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -516,39 +607,55 @@
       "id": "6ecaa6ae-7793-4bbb-9962-6cf290a5bfb1",
       "exercises": [
         {
+          "id": "7c1c5e68-3d93-4cf1-99bf-9f46aad595ea",
           "title": "Choose the correct answer.",
           "radio": [
             {
+              "id": "53d67440-5205-45a0-8812-ca2dea6ae22b",
               "question": "8.1 Who's the head of Sindi?",
               "options": [
                 {
+                  "id": "f802542b-0fad-4f79-a98b-14c98fc32cc0",
                   "label": "The Head Man of Sindi is called Tanza.",
                   "isCorrect": false
                 },
                 {
+                  "id": "9615025b-a3fa-4dd9-9c55-c212492f36c9",
                   "label": "The Head Man of Sindi is called Mohammed.",
                   "isCorrect": true
                 }
               ]
             },
             {
+              "id": "cf9e2c91-4de0-49e1-9dff-fecb2139573d",
               "question": "8.2 What does he decide to do?",
               "options": [
                 {
+                  "id": "5aef8833-d7ef-43db-ae30-656218643bbd",
                   "label": "He decides to have a competition.",
                   "isCorrect": true
                 },
                 {
+                  "id": "58edf909-1dc5-48a2-b0be-ff51f0f4367e",
                   "label": "He decides to free the leopard.",
                   "isCorrect": false
                 }
               ]
             },
             {
+              "id": "2e01214f-f32e-4850-9725-b07ee9e43722",
               "question": "8.3 Can the winner marry Tanza?",
               "options": [
-                { "label": "No, he can't.", "isCorrect": false },
-                { "label": "Yes, he can.", "isCorrect": true }
+                {
+                  "id": "cc478452-3961-47da-8273-f2245255b05d",
+                  "label": "No, he can't.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "e65a3a7d-e0e1-4680-b529-f00275c2aca1",
+                  "label": "Yes, he can.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -578,33 +685,55 @@
       "id": "367da300-a49b-4602-ba5e-76dd2b2a9fd6",
       "exercises": [
         {
+          "id": "d1a32581-807e-4bc5-9b5c-78655333f740",
           "title": "Choose the correct answer.",
           "radio": [
             {
+              "id": "9acf1165-e8da-47f3-9d02-14db93bcaa37",
               "question": "9.1 What does Ahmed have?",
               "options": [
                 {
+                  "id": "a21776f2-ca8b-47d6-8b1a-94ff405da0e3",
                   "label": "He has a small house and some animals.",
                   "isCorrect": false
                 },
                 {
+                  "id": "ab5469cc-d2ef-4e2e-89ef-f41e97c0c9d3",
                   "label": "He has a big house and lots of animals.",
                   "isCorrect": true
                 }
               ]
             },
             {
+              "id": "3a83ca9f-baa0-4484-aa6b-a46fcc0b147c",
               "question": "9.2 Does Tanza like him?",
               "options": [
-                { "label": "No, she doesn't.", "isCorrect": true },
-                { "label": "Yes, she does.", "isCorrect": false }
+                {
+                  "id": "c0a8eab1-e97f-45ee-8a92-4c24dec0029b",
+                  "label": "No, she doesn't.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "0fde768a-a355-4576-89fe-d6da2321023e",
+                  "label": "Yes, she does.",
+                  "isCorrect": false
+                }
               ]
             },
             {
+              "id": "775e3ab0-d358-4d51-aba9-4c80a87db755",
               "question": "9.3 Can Ahmed kill the leopard?",
               "options": [
-                { "label": "Yes, he can.", "isCorrect": false },
-                { "label": "No, he can't.", "isCorrect": true }
+                {
+                  "id": "71cc3118-2d7c-4c0b-a24f-1327403dc129",
+                  "label": "Yes, he can.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "d2247416-cd7d-48fe-ae6a-e6559a1a748c",
+                  "label": "No, he can't.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -634,36 +763,52 @@
       "id": "3b9a66ad-4ed3-4ba0-a0d6-4be2cc665a81",
       "exercises": [
         {
+          "id": "a1437cac-e545-40f6-9cca-3b27aced23db",
           "title": "Choose the correct answer.",
           "radio": [
             {
+              "id": "f6975360-eba7-479f-bdea-15d5b6bd4491",
               "question": "10.1 Is Jamal short and weak?",
               "options": [
                 {
+                  "id": "10479b6f-07fe-481b-b51e-e60e68e281ba",
                   "label": "Yes, he is. He's short and weak.",
                   "isCorrect": false
                 },
                 {
+                  "id": "a95eec8d-63b9-4f14-8295-0a9f80371d9c",
                   "label": "No, he isn't. He's big and strong.",
                   "isCorrect": true
                 }
               ]
             },
             {
+              "id": "d8fd9880-74b3-4572-89b1-fc8253afce9c",
               "question": "10.2 Does Tanza like him?",
               "options": [
-                { "label": "Yes, she does.", "isCorrect": false },
-                { "label": "No, she doesn't.", "isCorrect": true }
+                {
+                  "id": "bcaeb229-81a5-46ea-8471-a5283dbe86be",
+                  "label": "Yes, she does.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "92611d78-72f4-4b59-82ab-7466ebaa45ba",
+                  "label": "No, she doesn't.",
+                  "isCorrect": true
+                }
               ]
             },
             {
+              "id": "295ac1dd-bc33-41ac-aad5-6d12d8b100c7",
               "question": "10.3 What does Jamal do with the goat?",
               "options": [
                 {
+                  "id": "d6919fc4-aa82-4265-b4ed-4a4d50a89e1a",
                   "label": "He ties the goat to the bottom of the stairs.",
                   "isCorrect": true
                 },
                 {
+                  "id": "e69dbaa8-ba50-4e03-a5f1-38c8e3eaaeca",
                   "label": "He takes the goat up to the top of the lighthouse.",
                   "isCorrect": false
                 }
@@ -696,23 +841,36 @@
       "id": "2e587c32-8a56-4a25-bb73-f3574cb4de71",
       "exercises": [
         {
+          "id": "25ab0579-4814-46be-b6b2-86e53f5a0296",
           "title": "Choose the correct answer.",
           "radio": [
             {
+              "id": "f6853c5f-71dd-400e-9eda-d876e35cd2ca",
               "question": "11.1 Can the leopard eat the goat?",
               "options": [
-                { "label": "No, he can't.", "isCorrect": true },
-                { "label": "Yes, he can.", "isCorrect": false }
+                {
+                  "id": "9d726e3f-5e66-4cc2-94f3-ea1bb98a41df",
+                  "label": "No, he can't.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "5eadb183-1e1f-45bd-9476-8bde43935dab",
+                  "label": "Yes, he can.",
+                  "isCorrect": false
+                }
               ]
             },
             {
+              "id": "e7fa48f9-68d4-40ff-bdb3-58772a83ab34",
               "question": "11.2 What happens when the leopard comes down the stairs?",
               "options": [
                 {
+                  "id": "86922ac1-1043-4ab4-93b1-72e0c2e55a40",
                   "label": "The goat goes up to the top of the lighthouse.",
                   "isCorrect": false
                 },
                 {
+                  "id": "bc113a7f-cd1d-43dd-aa2d-53c4eb52c459",
                   "label": "The rope breaks and the goat runs away.",
                   "isCorrect": true
                 }
@@ -745,20 +903,39 @@
       "id": "6d199850-99ad-472d-9dbc-974a2356a092",
       "exercises": [
         {
+          "id": "3633e7cf-b90a-486d-93dd-6e42bdf069ca",
           "title": "Choose the correct answer.",
           "radio": [
             {
+              "id": "fc18c214-311c-4926-901c-f649d544ddfb",
               "question": "12.1 Who's the next person who tries to catch the leopard?",
               "options": [
-                { "label": "Mohammed.", "isCorrect": false },
-                { "label": "A young man.", "isCorrect": true }
+                {
+                  "id": "071b4882-6194-4e74-b18e-8bf5f3b9397e",
+                  "label": "Mohammed.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "192b2010-932c-40af-a626-9770f63e82a7",
+                  "label": "A young man.",
+                  "isCorrect": true
+                }
               ]
             },
             {
+              "id": "488c31fd-fd55-42b7-b3dc-0d0b948bfbb2",
               "question": "12.1 Does he have a real gun?",
               "options": [
-                { "label": "No, he doesn't.", "isCorrect": true },
-                { "label": "Yes, he does.", "isCorrect": false }
+                {
+                  "id": "13dbea6e-77b1-4396-869c-1ace74f4f6d2",
+                  "label": "No, he doesn't.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "2b709360-140f-4907-8e27-cda3c6c47117",
+                  "label": "Yes, he does.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -788,33 +965,54 @@
       "id": "0ddf127f-6494-4b5d-81ae-69a7552b85f4",
       "exercises": [
         {
+          "id": "7ee97ac3-fad4-470f-b7d4-019dc60510fb",
           "title": "Choose the correct answer.",
           "radio": [
             {
+              "id": "b96c2b55-942f-40d1-aa34-5dc354fbc0d6",
               "question": "13.1 What's Said like? [Como ele é?]",
               "options": [
                 {
+                  "id": "6d0775a7-769f-4704-91a0-cfdff1e31a53",
                   "label": "He has nice eyes and a kind face.",
                   "isCorrect": true
                 },
                 {
+                  "id": "a9dee4e5-728e-4ae6-b5d4-eb540e034d51",
                   "label": "He has strange eyes and a mean face.",
                   "isCorrect": false
                 }
               ]
             },
             {
+              "id": "9d2374e0-b648-4a83-bae0-45e9210a7f7b",
               "question": "13.2 Does Tanza like him?",
               "options": [
-                { "label": "No, she doesn't.", "isCorrect": false },
-                { "label": "Yes, she does.", "isCorrect": true }
+                {
+                  "id": "c681923e-58b3-4059-ad6d-fa9ed91ce8c9",
+                  "label": "No, she doesn't.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4c0ead24-de65-4bbc-9a24-d5be43c60106",
+                  "label": "Yes, she does.",
+                  "isCorrect": true
+                }
               ]
             },
             {
               "question": "13.3 Does Said shoot the leopard?",
               "options": [
-                { "label": "Yes, he does.", "isCorrect": true },
-                { "label": "No, he doesn't.", "isCorrect": false }
+                {
+                  "id": "4b65acba-018e-4b58-b7ae-2f7ae0bbce1a",
+                  "label": "Yes, he does.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "91c802c9-725a-41e9-bd40-8af997e89f3b",
+                  "label": "No, he doesn't.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -844,20 +1042,39 @@
       "id": "4426ab3b-6056-427d-9633-b065bf205c2c",
       "exercises": [
         {
+          "id": "04e6c619-8584-48f0-ab80-badd9275e78e",
           "title": "Choose the correct answer.",
           "radio": [
             {
+              "id": "0ef12bc9-d526-45b3-8ec0-76b1eec35b3d",
               "question": "14.1 Is the leopard dead?",
               "options": [
-                { "label": "Yes, he is.", "isCorrect": false },
-                { "label": "No, it's not.", "isCorrect": true }
+                {
+                  "id": "10a46421-53ff-44b6-892f-1b9819095808",
+                  "label": "Yes, he is.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "287b44db-106b-46cb-b439-2b522d666a7b",
+                  "label": "No, it's not.",
+                  "isCorrect": true
+                }
               ]
             },
             {
+              "id": "957e5ca4-7aae-49b8-beaa-d36cfed9a74e",
               "question": "14.2 What happens to him?",
               "options": [
-                { "label": "The dart makes him sleep.", "isCorrect": true },
-                { "label": "The dart makes him run away.", "isCorrect": false }
+                {
+                  "id": "af002b42-3ba6-4504-925e-7239b486db30",
+                  "label": "The dart makes him sleep.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "bc4f97e0-89b5-47a9-b511-4fa4673e53ee",
+                  "label": "The dart makes him run away.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -887,39 +1104,55 @@
       "id": "2c38c211-9daf-41a5-b6ef-ccf733bf25be",
       "exercises": [
         {
+          "id": "e8d3fdaa-32f0-43e3-af72-11976a16eae3",
           "title": "Choose the correct answer.",
           "radio": [
             {
+              "id": "6f0f2cae-eda9-43b6-a937-4a079785fcdc",
               "question": "15.1 Where does Saied take the leopard?",
               "options": [
                 {
+                  "id": "d6cc49f1-baa9-4b0a-8662-e4c274a6039e",
                   "label": "Saied takes the leopard home.",
                   "isCorrect": false
                 },
                 {
+                  "id": "5a346d5d-9781-4ee0-be5d-070404788f38",
                   "label": "Saied takes the leopard to the Animal Park in Nairobi.",
                   "isCorrect": true
                 }
               ]
             },
             {
+              "id": "96ec6e32-3df3-4997-8b79-52675c11a40c",
               "question": "15.1 What happens to Saied and Tanza?",
               "options": [
                 {
+                  "id": "dce050a0-1893-47e6-beb0-46962d067454",
                   "label": "Tanza and Saied become friends.",
                   "isCorrect": false
                 },
-                { "label": "Tanza and Saied get married.", "isCorrect": true }
+                {
+                  "id": "e2f1a1df-f185-45ce-9a4f-7e4df7bc79cf",
+                  "label": "Tanza and Saied get married.",
+                  "isCorrect": true
+                }
               ]
             },
             {
-              "question": "15.1 How many children do they have?",
+              "id": "219fdc01-f5d7-4992-97a0-3b6544e70be0",
+              "question": "15.2 How many children do they have?",
               "options": [
                 {
+                  "id": "3fd38115-64dc-421f-a2de-a7a093df7cb3",
                   "label": "They have two boys and a girl.",
                   "isCorrect": true
                 },
-                { "label": "They have two girls and a boy", "isCorrect": false }
+                {
+                  "id": "55a75e90-dad7-4d8a-b0ea-15972df1a24c",
+                  "label": "They have two girls and a boy",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -929,6 +1162,7 @@
     {
       "fillInTheBlanks": [
         {
+          "id": "6e19ad9a-258c-481c-aa2b-2b77954b3432",
           "options": true,
           "width": "65px",
           "beforeBlank": "1. (+))",
@@ -938,6 +1172,7 @@
           "lineBreakAfter": true
         },
         {
+          "id": "54603f6c-fea4-43ab-97b9-950c1a5b8146",
           "options": true,
           "width": "140px",
           "beforeBlank": "1.2 (-)",
@@ -947,19 +1182,12 @@
           "lineBreakAfter": true
         },
         {
+          "id": "ac83f5d7-20ed-47f8-9422-998b93bb3760",
           "options": true,
           "width": "60px",
           "beforeBlank": "1.3 (?)",
           "correctAnswer": ["..."],
           "afterBlank": "..."
-        },
-        {
-          "options": true,
-          "width": "90px",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "... ?",
-          "lineBreakAfter": true
         }
       ]
     }
