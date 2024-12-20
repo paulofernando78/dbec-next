@@ -24,7 +24,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/skills/skills/listening/audiobooks/beginner/general/the-fireboy/audio.mp3"
+      "audioSrc": "/extras/skills/listening/audiobooks/beginner/general/the-fireboy/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -72,12 +72,12 @@
               "options": [
                 {
                   "id": "8cd67421-3f78-4fe4-a2ef-00d7ae9a48bc",
-                  "label": "He makes jars and cups.",
+                  "label": "He makes silver tables and chairs.",
                   "isCorrect": false
                 },
                 {
                   "id": "dd340fa4-ab9d-41da-8dbd-ee0290ccae9c",
-                  "label": "He makes tables and chairs.",
+                  "label": "He makes gold tables and chairs.",
                   "isCorrect": true
                 }
               ]
@@ -138,7 +138,7 @@
                 },
                 {
                   "id": "d1a52783-eaf6-43ea-b123-4a0be07e590b",
-                  "label": "They go to the Nile and sit beside it.",
+                  "label": "They go to the Nile river and sit beside it.",
                   "isCorrect": true
                 }
               ]
@@ -334,12 +334,12 @@
               "options": [
                 {
                   "id": "838eba73-67bd-4fdc-bb57-960130ba7132",
-                  "label": "Because he made a gold necklace for the queen",
+                  "label": "Because he makes a gold necklace for the queen",
                   "isCorrect": true
                 },
                 {
                   "id": "f59eea10-5607-4aef-a917-46384b4af132",
-                  "label": "Because he made a table and a chair for the queen.",
+                  "label": "Because he makes a table and a chair for the queen.",
                   "isCorrect": false
                 }
               ]

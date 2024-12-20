@@ -1,4 +1,4 @@
-// import { IconLink } from "@/components/Molecules/Icon/IconLink/Index";
+
 import { Card } from "@/components";
 import "./styles.css";
 
