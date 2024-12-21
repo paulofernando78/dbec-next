@@ -7,7 +7,7 @@ export function htmlParser(text: string) {
         console.log(domNode)
       if (domNode.attribs && domNode.name === "audio") {
         const { label, src } = domNode.attribs;
-        return <DictionaryCard label={label} audioSrc={src} />;
+        return <DictionaryCard word={label} audioSrc={src} />;
       }
     },
   };

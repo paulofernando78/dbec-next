@@ -10,12 +10,12 @@ export default function Coding() {
         <div className="flex-col">
           <DictionaryCard
             audioSrc="/f/folder.mp3"
-            label="folder"
+            word="folder"
             phonetics="/ˈfoʊl.dɚ/"
           />
           <DictionaryCard
             audioSrc="/c/cache.mp3"
-            label="cache"
+            word="cache"
             phonetics="/kæʃ/"
           />
         </div>
@@ -23,12 +23,12 @@ export default function Coding() {
         <div className="flex-col">
           <DictionaryCard
             audioSrc="/w/width.mp3"
-            label="width"
+            word="width"
             phonetics="/wɪdθ/"
           />
           <DictionaryCard
             audioSrc="/h/height.mp3"
-            label="height"
+            word="height"
             phonetics="/haɪt/"
           />
         </div>

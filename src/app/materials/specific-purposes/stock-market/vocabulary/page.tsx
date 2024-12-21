@@ -13,7 +13,7 @@ export default function Vocaulary() {
       <div>
         <DictionaryCard
           audioSrc="/c/capital-flight.mp3"
-          label="capital flight"
+          word="capital flight"
         />
       </div>
     </>

@@ -13,31 +13,31 @@ export default function LawVocabulary() {
         <DictionaryCard
           audioSrc="/a/agribusiness.mp3"
           keyword="agribusiness"
-          label="agribusiness"
+          word="agribusiness"
           phonetics="/ˈæɡ.rəˌbɪz.nɪs/"
         />
         <DictionaryCard
           audioSrc="/c/court.mp3"
           keyword="court"
-          label="court"
+          word="court"
           phonetics="/kɔːrt/"
         />
         <DictionaryCard
           audioSrc="/e/enact.mp3"
           keyword="enact"
-          label="enact"
+          word="enact"
           phonetics="/ɪˈnækt/"
         />
         <DictionaryCard
           audioSrc="/d/defendant.mp3"
           keyword="enact"
-          label="defendant"
+          word="defendant"
           phonetics="/dɪˈfen.dənt/"
         />
         <DictionaryCard
           audioSrc="/h/heinous.mp3"
           keyword="heinous"
-          label="heinous"
+          word="heinous"
           phonetics="/ˈheɪ.nəs/"
         />
       </div>

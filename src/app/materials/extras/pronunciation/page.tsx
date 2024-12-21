@@ -236,15 +236,15 @@ export default function ExtraPronunciation() {
         <div className="flex-8px-center-wrap">
           <DictionaryCard
             audioSrc="/s/seat.mp3"
-            label="seat"
+            word="seat"
             phonetics="/siːt/"
           />
           <p>vs.</p>
-          <DictionaryCard audioSrc="/s/sit.mp3" label="sit" phonetics="/sɪt/" />
+          <DictionaryCard audioSrc="/s/sit.mp3" word="sit" phonetics="/sɪt/" />
           <p>vs.</p>
           <DictionaryCard
             audioSrc="/c/city.mp3"
-            label="city"
+            word="city"
             phonetics="/ˈsɪt̬.i/"
           />
         </div>

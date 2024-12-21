@@ -13,41 +13,41 @@ export default function FoodAndDrink() {
       <div className="line-break">
         <div className="line-break">
             <span className="bold">Verbs</span>
-          <DictionaryCard label="husk" audioSrc="/h/husk.mp3" />
+          <DictionaryCard word="husk" audioSrc="/h/husk.mp3" />
           <p>We can husk apple's seed.</p>
-          <DictionaryCard label="peel" audioSrc="/p/peel.mp3" />
+          <DictionaryCard word="peel" audioSrc="/p/peel.mp3" />
           <p>We can peel apples, bananas, potatos, tomatos, carrots, etc.</p>
             <span className="bold">Fruit</span>
           <div className="flex-col">
-            <DictionaryCard label="apple" audioSrc="/a/apple.mp3" />
-            <DictionaryCard audioSrc="/c/caper.mp3" label="caper" />
+            <DictionaryCard word="apple" audioSrc="/a/apple.mp3" />
+            <DictionaryCard audioSrc="/c/caper.mp3" word="caper" />
 
-            <DictionaryCard label="plantain" audioSrc="/p/plantain.mp3" />
-            <DictionaryCard label="strawberry" audioSrc="/s/strawberry.mp3" />
+            <DictionaryCard word="plantain" audioSrc="/p/plantain.mp3" />
+            <DictionaryCard word="strawberry" audioSrc="/s/strawberry.mp3" />
           </div>
         </div>
           <span className="bold">Seed</span>
         <div className="flex-col">
-          <DictionaryCard audioSrc="/c/chia.mp3" label="chia" />
-          <DictionaryCard audioSrc="/f/flaxseed.mp3" label="flaxseed" />
+          <DictionaryCard audioSrc="/c/chia.mp3" word="chia" />
+          <DictionaryCard audioSrc="/f/flaxseed.mp3" word="flaxseed" />
         </div>
         <div className="line-break">
             <span className="bold">Vegetables</span>
           <div className="flex-col">
-            <DictionaryCard audioSrc="/b/broccoli.mp3" label="broccoli" />
+            <DictionaryCard audioSrc="/b/broccoli.mp3" word="broccoli" />
             <DictionaryCard
               audioSrc="/b/brussels-sprout.mp3"
-              label="brussels sprout"
+              word="brussels sprout"
             />
-            <DictionaryCard audioSrc="/c/cucumber.mp3" label="cucumber" />
-            <DictionaryCard audioSrc="/c/cauliflower.mp3" label="cauliflower" />
-            <DictionaryCard audioSrc="/k/kale.mp3" label="kale" />
+            <DictionaryCard audioSrc="/c/cucumber.mp3" word="cucumber" />
+            <DictionaryCard audioSrc="/c/cauliflower.mp3" word="cauliflower" />
+            <DictionaryCard audioSrc="/k/kale.mp3" word="kale" />
           </div>
             <span className="bold">Cheese</span>
           <p>Casu Marzu</p>
             <span className="bold">Meat</span>
           <div className="line-break">
-            <DictionaryCard audioSrc="/m/minced-meat.mp3" label="minced meat" />
+            <DictionaryCard audioSrc="/m/minced-meat.mp3" word="minced meat" />
             <Collapsible label="What's the difference between 'minced meat' and 'ground meat'?">
               <div className="line-break">
                 <p>
@@ -86,9 +86,9 @@ export default function FoodAndDrink() {
           </div>
             <span className="bold">Drink</span>
           <div className="flex-col">
-            <DictionaryCard audioSrc="" label="iced-cold beer" />
-            <DictionaryCard audioSrc="" label="sparking water" />
-            <DictionaryCard audioSrc="" label="draft wine" />
+            <DictionaryCard audioSrc="" word="iced-cold beer" />
+            <DictionaryCard audioSrc="" word="sparking water" />
+            <DictionaryCard audioSrc="" word="draft wine" />
           </div>
             <span className="bold">Extra</span>
           <Link href="/specific-purposes/food-drink/how-to-clean-and-remove-pesticides">

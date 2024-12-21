@@ -12,7 +12,7 @@ export default function Science() {
             <p>Chemical elements</p>
             <div>
               <p>FAZER TABELA PERIODICA</p>
-              <DictionaryCard keyword="tin" label="tin" audioSrc="/t/tin.mp3" />
+              <DictionaryCard keyword="tin" word="tin" audioSrc="/t/tin.mp3" />
             </div>
           </div>
         </div>

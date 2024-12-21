@@ -58,11 +58,14 @@ import technologyIcon from "./icon/technology.png";
 import allInOneIcon from "./icon/dictionary.png";
 import examsIcon from "./icon/exams.png";
 import miscIcon from "./icon/misc.png";
+import mathIcon from "./icon/math.png";
 
 // Exercises
 import radioIcon from "./icon/radio.svg"
 import checkboxIcon from "./icon/checkbox.png"
 import flipIcon from "./icon/flip.png";
+import correctIcon from "./icon/correct.png";
+import incorrectIcon from "./icon/incorrect.png";
 
 // Misc
 import brFlagIcon from "./icon/flag/brazil.png";
@@ -73,6 +76,9 @@ import xmas1 from "./bitmoji/xmas1.png"
 import smallSwimmingPool from "./bitmoji/small-swimming-pool.png"
 import inFiveMinutes from "./extras/grammar/elementary/unit-103/in-five-minutes.png"
 import clockWakeUpHate from "./bitmoji/clock-wakeup-hate.png"
+import usaFlagIcon from "./icon/flag/usa.png"
+import ukFlagIcon from "./icon/flag/uk.png"
+import notesIcon from "./icon/notes.png"
 
 export {
 
@@ -134,6 +140,7 @@ export {
   allInOneIcon,
   examsIcon,
   miscIcon,
+  mathIcon,
 
   // Misc
   aviationIcon,
@@ -145,9 +152,16 @@ export {
   radioIcon,
   checkboxIcon,
   flipIcon,
+  correctIcon,
+  incorrectIcon,
+
+
   brFlagIcon,
   clockWakeUpHate,
   xmas1,
   smallSwimmingPool,
-  inFiveMinutes
+  inFiveMinutes,
+  usaFlagIcon,
+  ukFlagIcon,
+  notesIcon
 };

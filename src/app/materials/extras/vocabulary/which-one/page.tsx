@@ -46,7 +46,7 @@ export default function WhichOne() {
               <p>
                 <DictionaryCard
                   keyword="look"
-                  label="look"
+                  word="look"
                   audioSrc="/l/look.mp3"
                 />{" "}
                 <span className="portuguese">(+ baseado na aparência)</span>
@@ -60,7 +60,7 @@ export default function WhichOne() {
               <p>
                 <DictionaryCard
                   keyword="seem"
-                  label="seem"
+                  word="seem"
                   audioSrc="/s/seem.mp3"
                 />{" "}
                 <span className="portuguese">(+ baseado na opnião)</span>

@@ -9,7 +9,7 @@ export default function Aviation() {
       <Whiteboard title="Specific Purposes" subtitle="Aviation" />
       <div className="line-break">
         <DictionaryCard
-          label="pneumatic boots"
+          word="pneumatic boots"
           audioSrc="/p/pneumatic-boots.mp3"
         />
         <AudioPlayer audioSrc="" />

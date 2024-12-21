@@ -50,10 +50,10 @@ export default function Geography() {
             As direções cardeais são os quatro pontos principais de uma bússola
             que são usados para indicar a direção. Elas são:
           </p>
-          <DictionaryCard audioSrc="" label="north (N)" />
-          <DictionaryCard audioSrc="" label="east (E)" />
-          <DictionaryCard audioSrc="" label="south (S)" />
-          <DictionaryCard audioSrc="" label="west (W)" />
+          <DictionaryCard audioSrc="" word="north (N)" />
+          <DictionaryCard audioSrc="" word="east (E)" />
+          <DictionaryCard audioSrc="" word="south (S)" />
+          <DictionaryCard audioSrc="" word="west (W)" />
         </div>
         <div className="flex-col-8px">
           <p>
@@ -64,10 +64,10 @@ export default function Geography() {
             Além das quatro direções cardeais, existem direções intermediárias
             que fornecem uma navegação mais precisa. Elas incluem:
           </p>
-          <DictionaryCard audioSrc="" label="northeast (NE)" />
-          <DictionaryCard audioSrc="" label="southeast (SE)" />
-          <DictionaryCard audioSrc="" label="southwest (SW)" />
-          <DictionaryCard audioSrc="" label="northwest (NW)" />
+          <DictionaryCard audioSrc="" word="northeast (NE)" />
+          <DictionaryCard audioSrc="" word="southeast (SE)" />
+          <DictionaryCard audioSrc="" word="southwest (SW)" />
+          <DictionaryCard audioSrc="" word="northwest (NW)" />
         </div>
       </div>
     </>
