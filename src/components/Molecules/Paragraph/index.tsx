@@ -42,11 +42,11 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
             <div>
               {paragraphSection.paragraphs?.map((paragraph, paragraphIndex) => (
                 <div key={paragraphIndex} className="display-inline white-space-pre-wrap">
-                  {paragraph.dictionary && (
+                  {paragraph.word && (
                     <DictionaryCard
                       keyword={paragraph.keyword}
-                      label={paragraph.dictionary}
-                      audioSrc={paragraph.dictionaryAudioSrc}
+                      word={paragraph.word}
+                      audioSrc={paragraph.wordAudioSrc}
                     />
                   )}{" "}
                   <p

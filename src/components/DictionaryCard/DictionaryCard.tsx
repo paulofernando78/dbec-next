@@ -22,7 +22,7 @@ import { searchWords } from "@/utils/searchWords";
 export const DictionaryCard = ({
   audioSrc,
   keyword,
-  label,
+  word,
   phonetics,
 }: DictionaryCardProps) => {
   const [visible, setVisible] = useState(false);
@@ -43,7 +43,7 @@ export const DictionaryCard = ({
         }
       });
     }
-  }, [dictionary, keyword, label]);
+  }, [dictionary, keyword, word]);
 
   return (
     <>
@@ -54,10 +54,10 @@ export const DictionaryCard = ({
           onClick={playAudio}
           className={styles["play-button"]}
         />
-        {label && (
+        {word && (
           <span
             className={styles["label"]}
-            dangerouslySetInnerHTML={{ __html: label }}
+            dangerouslySetInnerHTML={{ __html: word }}
           ></span>
         )}
         {phonetics && (

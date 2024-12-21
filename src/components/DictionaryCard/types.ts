@@ -1,6 +1,6 @@
 export interface DictionaryCardProps {
     audioSrc?: string;
     keyword?: string;
-    label?: string;
+    word?: string;
     phonetics?: string;
   }

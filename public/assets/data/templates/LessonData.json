@@ -36,14 +36,14 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
-              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
-              "text": "..."
+              "word": "test 1",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "test 2"
             },
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
-              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
+              "word": "test 3",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
             }
           ],
@@ -53,14 +53,14 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
-              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "..."
             },
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
-              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
             }
           ],
@@ -74,14 +74,14 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
-              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "..."
             },
             {
               "keyword": "...",
-              "dictionary": "vocabulary",
-              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
             }
           ],

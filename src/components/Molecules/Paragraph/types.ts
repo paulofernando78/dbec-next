@@ -1,7 +1,7 @@
 export interface Paragraph {
   keyword?: string;
-  dictionary: string;
-  dictionaryAudioSrc: string;
+  word: string;
+  wordAudioSrc: string;
   text: string;
 }
 
