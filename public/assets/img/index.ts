@@ -14,6 +14,7 @@ import infoIcon from "./icon/info.png"
 import moneyIcon from "./icon/money.png"
 import emailIcon from "./icon/email.png"
 import whatsappIcon from "./icon/whatsapp.png"
+import meLinkedIn from "./site/me-linkedin.png"
 
 // Courses
 import placementTest from "./icon/placement-test.png";
@@ -65,6 +66,7 @@ import checkboxIcon from "./icon/checkbox.png"
 import dictionaryIcon from "./icon/dictionary.png"
 import flipIcon from "./icon/flip.png";
 import radioIcon from "./icon/radio.svg"
+import tool from "./icon/tools.png"
 
 // Exercise Templates
 import correctIcon from "./icon/correct.svg";
@@ -87,6 +89,7 @@ export {
   moneyIcon,
   emailIcon,
   whatsappIcon,
+  meLinkedIn,
 
   // Courses
   placementTest,
@@ -133,6 +136,7 @@ export {
   // Misc
   aviationIcon,
   dictionaryIcon,
+  tool,
 
   // Exercise Templates
   radioIcon,
