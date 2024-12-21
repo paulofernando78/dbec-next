@@ -2,7 +2,6 @@
 import btnIcon from "../../../public/assets/img/icon/btn-menu.png";
 
 // Main Site
-// import ukUSflag from "./site/usa-uk-flag.png"
 import ukUSflag from "./site/uk-usa-flag.png"
 import howYouDoing from "./site/how-you-doing.gif"
 import meComputer from "./site/me-computer.png"
@@ -60,17 +59,20 @@ import allInOneIcon from "./icon/dictionary.png";
 import examsIcon from "./icon/exams.png";
 import miscIcon from "./icon/misc.png";
 
+// Exercises
+import radioIcon from "./icon/radio.svg"
+import checkboxIcon from "./icon/checkbox.png"
+import flipIcon from "./icon/flip.png";
+
 // Misc
 import brFlagIcon from "./icon/flag/brazil.png";
-import checkboxIcon from "./icon/checkbox.png"
 import dictionaryIcon from "./icon/dictionary.png"
-import flipIcon from "./icon/flip.png";
-import radioIcon from "./icon/radio.svg"
-import tool from "./icon/tools.png"
-
-// Exercise Templates
-import correctIcon from "./icon/correct.svg";
-import incorrectIcon from "./icon/incorrect.svg";
+import tools from "./icon/tools.png"
+import questionMarkGif from "./gif/question-mark.gif"
+import xmas1 from "./bitmoji/xmas1.png"
+import smallSwimmingPool from "./bitmoji/small-swimming-pool.png"
+import inFiveMinutes from "./extras/grammar/elementary/unit-103/in-five-minutes.png"
+import clockWakeUpHate from "./bitmoji/clock-wakeup-hate.png"
 
 export {
 
@@ -136,17 +138,16 @@ export {
   // Misc
   aviationIcon,
   dictionaryIcon,
-  tool,
+  questionMarkGif,
+  tools,
 
   // Exercise Templates
   radioIcon,
   checkboxIcon,
   flipIcon,
   brFlagIcon,
-  
-  correctIcon,
-  incorrectIcon,
-
-  
-  
+  clockWakeUpHate,
+  xmas1,
+  smallSwimmingPool,
+  inFiveMinutes
 };
