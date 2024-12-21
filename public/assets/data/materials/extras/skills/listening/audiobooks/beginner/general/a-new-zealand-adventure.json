@@ -904,30 +904,12 @@
     {
       "exercises": [
         {
-          "id": "",
+          "id": "2ccf277c-75e2-415d-a7cc-c1b8db8e71c6",
           "title": "14. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "14.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "exercises": [
-        {
-          "id": "2ccf277c-75e2-415d-a7cc-c1b8db8e71c6",
-          "title": "15. Choose the correct answer.",
-          "radio": [
-            {
               "id": "b8581b71-02bd-4ea2-9c91-9b308a83784a",
-              "question": "15.1 Do they like the whales?",
+              "question": "14.1 Do they like the whales?",
               "options": [
                 {
                   "id": "69ae36f4-f3b4-482b-8f7a-be5f0116b200",
