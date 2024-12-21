@@ -14,7 +14,7 @@ import infoIcon from "./icon/info.png"
 import moneyIcon from "./icon/money.png"
 import emailIcon from "./icon/email.png"
 import whatsappIcon from "./icon/whatsapp.png"
-import meLinkedIn from "./site/me-linkedin.jpg"
+import meLinkedIn from "./site/meLinkedIn.jpg"
 
 // Courses
 import placementTest from "./icon/placement-test.png";
