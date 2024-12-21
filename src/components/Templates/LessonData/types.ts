@@ -38,6 +38,10 @@ export interface LessonData {
   subTextColor?: string;
   cards: CardData[];
   text: string;
+  iframeTitle?: string;
+  iframeSrc?: string;
+  iframeWidth?: string | number;
+  iframeHeight?: string | number;
   paragraphSections?: ParagraphSection[];
   swiperFractionImages?: SwiperFractionProps["images"];
   flipcards?: FlipCardData[];

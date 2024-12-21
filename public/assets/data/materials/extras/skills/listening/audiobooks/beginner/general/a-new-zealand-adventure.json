@@ -73,6 +73,10 @@
       ]
     },
     {
+      "iframeTitle": "External Resource",
+      "iframeSrc": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3268890.664738037!2d174.706121!3d-36.859811!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47fb5a9ce6fb%3A0x500ef6143a29917!2sAuckland%2C%20New%20Zealand!5e0!3m2!1sen!2sus!4v1734803605582!5m2!1sen!2sus"
+    },
+    {
       "id": "82471cf5-1ecf-486d-80ba-a18b040845a7",
       "exercises": [
         {

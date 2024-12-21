@@ -21,6 +21,7 @@ import { SubRibbon } from "@/components/Molecules/SubRibbon";
 import React from "react";
 import { Exercises } from "@/components/Organisms/Exercises";
 import { Exercise } from "@/components/Templates/LessonData/types";
+import Iframe from "@/components/Atoms/Iframe";
 
 export const LessonTemplate = ({
   lessonData,
@@ -76,10 +77,15 @@ export const LessonTemplate = ({
 
           {/* Paragraphs */}
           {lesson.paragraphSections && (
-            <div>
-              <Paragraph paragraphSections={lesson.paragraphSections} />
-            </div>
+            <Paragraph paragraphSections={lesson.paragraphSections} />
           )}
+
+          {lesson.iframeSrc &&
+          <Iframe
+          src={lesson.iframeSrc}
+          width={lesson.iframeWidth}
+          height={lesson.iframeHeight}
+          />}
 
           {/* SwiperFraction images */}
           {lesson.swiperFractionImages &&
@@ -110,8 +116,10 @@ export const LessonTemplate = ({
           {lesson.videoSrc && <VideoPlayer videoSrc={lesson.videoSrc} />}
 
           {/* Exercises */}
-          <Exercises exercises={lesson?.exercises as Exercise[]} id={lesson?.id!} />
-
+          <Exercises
+            exercises={lesson?.exercises as Exercise[]}
+            id={lesson?.id!}
+          />
         </React.Fragment>
       ))}
     </div>
