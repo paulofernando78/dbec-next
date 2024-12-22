@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 import { AudioPlayer } from "../../Atoms/AudioPlayer";
 import { DictionaryCard } from "../../DictionaryCard/DictionaryCard";
 
@@ -31,28 +33,28 @@ const gifPaths = [
 ];
 
 const emojis = [
-  { altLabel: "ok", label: "good", audioSrc: "/dictionary/g/good.mp3" },
-  { altLabel: "happy", label: "happy", audioSrc: "/dictionary/h/happy.mp3" },
-  { altLabel: "sad", label: "sad", audioSrc: "/dictionary/s/sad.mp3" },
-  { altLabel: "angry", label: "angry", audioSrc: "/dictionary/a/angry.mp3" },
-  { altLabel: "annoyed", label: "annoyed", audioSrc: "/dictionary/a/annoyed.mp3" },
-  { altLabel: "calm", label: "calm", audioSrc: "/dictionary/c/calm.mp3" },
-  { altLabel: "crazy", label: "crazy", audioSrc: "/dictionary/c/crazy.mp3" },
-  { altLabel: "tired", label: "tired", audioSrc: "/dictionary/t/tired.mp3" },
-  { altLabel: "anxious", label: "anxious", audioSrc: "/dictionary/a/anxious.mp3" },
-  { altLabel: "bored", label: "bored", audioSrc: "/dictionary/b/bored.mp3" },
-  { altLabel: "silly", label: "silly", audioSrc: "/dictionary/s/silly.mp3" },
-  { altLabel: "scared", label: "scared", audioSrc: "/dictionary/s/scared.mp3" },
-  { altLabel: "thoughtful", label: "thoughtful", audioSrc: "/dictionary/t/thoughtful.mp3" },
-  { altLabel: "frustrated", label: "frustrated", audioSrc: "/dictionary/f/frustrated.mp3" },
-  { altLabel: "disappointed", label: "disappointed", audioSrc: "/dictionary/d/disappointed.mp3" },
-  { altLabel: "embarrassed", label: "embarrassed", audioSrc: "/dictionary/e/embarrassed.mp3" },
-  { altLabel: "sleepy", label: "sleepy", audioSrc: "/dictionary/s/sleepy.mp3" },
-  { altLabel: "strong", label: "strong", audioSrc: "/dictionary/s/strong.mp3" },
-  { altLabel: "peaceful", label: "peaceful", audioSrc: "/dictionary/p/peaceful.mp3" },
-  { altLabel: "thankful", label: "thankful", audioSrc: "/dictionary/t/thankful.mp3" },
-  { altLabel: "sick", label: "sick", audioSrc: "/dictionary/s/sick.mp3" },
-  { altLabel: "I don't know", label: "idontknow", audioSrc: "/dictionary/i/I-dont-know.mp3" },
+  { altWord: "ok", word: "good", audioSrc: "/dictionary/g/good.mp3" },
+  { altWord: "happy", word: "happy", audioSrc: "/dictionary/h/happy.mp3" },
+  { altWord: "sad", word: "sad", audioSrc: "/dictionary/s/sad.mp3" },
+  { altWord: "angry", word: "angry", audioSrc: "/dictionary/a/angry.mp3" },
+  { altWord: "annoyed", word: "annoyed", audioSrc: "/dictionary/a/annoyed.mp3" },
+  { altWord: "calm", word: "calm", audioSrc: "/dictionary/c/calm.mp3" },
+  { altWord: "crazy", word: "crazy", audioSrc: "/dictionary/c/crazy.mp3" },
+  { altWord: "tired", word: "tired", audioSrc: "/dictionary/t/tired.mp3" },
+  { altWord: "anxious", word: "anxious", audioSrc: "/dictionary/a/anxious.mp3" },
+  { altWord: "bored", word: "bored", audioSrc: "/dictionary/b/bored.mp3" },
+  { altWord: "silly", word: "silly", audioSrc: "/dictionary/s/silly.mp3" },
+  { altWord: "scared", word: "scared", audioSrc: "/dictionary/s/scared.mp3" },
+  { altWord: "thoughtful", word: "thoughtful", audioSrc: "/dictionary/t/thoughtful.mp3" },
+  { altWord: "frustrated", word: "frustrated", audioSrc: "/dictionary/f/frustrated.mp3" },
+  { altWord: "disappointed", word: "disappointed", audioSrc: "/dictionary/d/disappointed.mp3" },
+  { altWord: "embarrassed", word: "embarrassed", audioSrc: "/dictionary/e/embarrassed.mp3" },
+  { altWord: "sleepy", word: "sleepy", audioSrc: "/dictionary/s/sleepy.mp3" },
+  { altWord: "strong", word: "strong", audioSrc: "/dictionary/s/strong.mp3" },
+  { altWord: "peaceful", word: "peaceful", audioSrc: "/dictionary/p/peaceful.mp3" },
+  { altWord: "thankful", word: "thankful", audioSrc: "/dictionary/t/thankful.mp3" },
+  { altWord: "sick", word: "sick", audioSrc: "/dictionary/s/sick.mp3" },
+  { altWord: "I don't know", word: "idontknow", audioSrc: "/dictionary/i/I-dont-know.mp3" },
 ];
 
 export default function HowYouFeeling() {
@@ -66,14 +68,16 @@ export default function HowYouFeeling() {
         </div>
         <div className={styles["emoji-container"]}>
           {emojis.map((emoji, index) => (
-            <div key={emoji.altLabel} className={styles["emoji-inner-container"]}>
-              <img
-                src={gifPaths[index]} // Use dynamic path here
-                alt={emoji.altLabel}
-                className={styles["emoji-size"]} // Use 'styles' instead of 'style'
+            <div key={emoji.altWord} className={styles["emoji-inner-container"]}>
+              <Image
+              src={gifPaths[index]} // Use dynamic path here
+              alt={emoji.altWord}
+              className={styles["emoji-size"]} // Use 'styles' instead of 'style'
+              width={50} // Adjust width as needed
+              height={50} // Adjust height as needed
               />
               <p>
-                <DictionaryCard {...{ audioSrc: emoji.audioSrc, label: emoji.label }} />
+              <DictionaryCard {...{ audioSrc: emoji.audioSrc, word: emoji.word }} />
               </p>
             </div>
           ))}
