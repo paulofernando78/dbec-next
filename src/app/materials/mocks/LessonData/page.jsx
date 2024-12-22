@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 // Components
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 
-const CONTENTS_JSON_PATH = "/assets/data/templates/LessonData.json";
+const CONTENTS_JSON_PATH = "/assets/data/templates/Lesson.json";
 export default function LessonDataMock() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);

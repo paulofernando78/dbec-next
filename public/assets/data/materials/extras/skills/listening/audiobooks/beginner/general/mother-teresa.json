@@ -31,7 +31,7 @@
     {
       "paragraphSections": [
         {
-          "img": "/extras/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/...",
           "imgAlt": "Cover photo",
           "paragraphs": [
             {
@@ -63,7 +63,7 @@
               "text": "Paragraph 1"
             }
           ],
-          "img": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
           "imgAlt": "Paragraph 1 photo"
         }
       ]
@@ -101,7 +101,7 @@
               "text": "Paragraph 2"
             }
           ],
-          "img": "/extras/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 2 photo"
         }
       ]
@@ -139,7 +139,7 @@
               "text": "Paragraph 3"
             }
           ],
-          "img": "/extras/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 3 photo"
         }
       ]
@@ -177,7 +177,7 @@
               "text": "Paragraph 4"
             }
           ],
-          "img": "/extras/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 4 photo"
         }
       ]
@@ -215,7 +215,7 @@
               "text": "Paragraph 5"
             }
           ],
-          "img": "/extras/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 5 photo"
         }
       ]
@@ -253,7 +253,7 @@
               "text": "Paragraph 6"
             }
           ],
-          "img": "/extras/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 6 photo"
         }
       ]
@@ -291,7 +291,7 @@
               "text": "Paragraph 7"
             }
           ],
-          "img": "/extras/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 7 photo"
         }
       ]
@@ -329,7 +329,7 @@
               "text": "Paragraph 8"
             }
           ],
-          "img": "/extras/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 8 photo"
         }
       ]
@@ -367,7 +367,7 @@
               "text": "Paragraph 9"
             }
           ],
-          "img": "/extras/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 9 photo"
         }
       ]
@@ -405,7 +405,7 @@
               "text": "Paragraph 10"
             }
           ],
-          "img": "/extras/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 10 photo"
         }
       ]
@@ -443,7 +443,7 @@
               "text": "Paragraph 11"
             }
           ],
-          "img": "/extras/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 11 photo"
         }
       ]
@@ -481,7 +481,7 @@
               "text": "Paragraph 12"
             }
           ],
-          "img": "/extras/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 12 photo"
         }
       ]
@@ -519,7 +519,7 @@
               "text": "Paragraph 13"
             }
           ],
-          "img": "/extras/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 13 photo"
         }
       ]
@@ -557,7 +557,7 @@
               "text": "Paragraph 14"
             }
           ],
-          "img": "/extras/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 14 photo"
         }
       ]
@@ -595,7 +595,7 @@
               "text": "Paragraph 15"
             }
           ],
-          "img": "/extras/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/...",
           "imgAlt": "Paragraph 15 photo"
         }
       ]

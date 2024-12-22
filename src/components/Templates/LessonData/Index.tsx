@@ -22,6 +22,9 @@ import React from "react";
 import { Exercises } from "@/components/Organisms/Exercises";
 import { Exercise } from "@/components/Templates/LessonData/types";
 import Iframe from "@/components/Atoms/Iframe";
+import Image from "next/image";
+
+const baseImgScr = "/assets/img";
 
 export const LessonTemplate = ({
   lessonData,
@@ -80,12 +83,16 @@ export const LessonTemplate = ({
             <Paragraph paragraphSections={lesson.paragraphSections} />
           )}
 
-          {lesson.iframeSrc &&
-          <Iframe
-          src={lesson.iframeSrc}
-          width={lesson.iframeWidth}
-          height={lesson.iframeHeight}
-          />}
+          {lesson.imgSrc && (
+            <Image
+              src={`${baseImgScr}${lesson.imgSrc}`}
+              alt={lesson.imgAlt || "..."}
+              width={1000}
+              height={1000}
+              className="img-customization"
+              style={{ width: lesson.imgWidth, margin: "auto" }}
+            />
+          )}
 
           {/* SwiperFraction images */}
           {lesson.swiperFractionImages &&
@@ -114,6 +121,14 @@ export const LessonTemplate = ({
 
           {/* Video Player */}
           {lesson.videoSrc && <VideoPlayer videoSrc={lesson.videoSrc} />}
+
+          {lesson.iframeSrc && (
+            <Iframe
+              src={lesson.iframeSrc}
+              width={lesson.iframeWidth}
+              height={lesson.iframeHeight}
+            />
+          )}
 
           {/* Exercises */}
           <Exercises

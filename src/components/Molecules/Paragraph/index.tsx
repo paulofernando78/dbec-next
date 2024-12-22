@@ -1,8 +1,8 @@
 "use client";
 
 // Components
+import Image from "next/image";
 import { DictionaryCard } from "@/components";
-import { CustomImage } from "../CustomImage";
 
 // Typescript
 import { ParagraphSectionsProps } from "./types";
@@ -10,12 +10,15 @@ import { ParagraphSectionsProps } from "./types";
 // CSS
 import styles from "./styles.module.css";
 
-export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => { 
+const baseImgScr = "/assets/img";
+
+export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
   return (
     <>
       {paragraphSections?.map((paragraphSection, paragraphSectionIndex) => {
         // Verifica se há imagem antes ou depois dos parágrafos
-        const hasImage = Boolean(paragraphSection.img);
+        const hasImage = Boolean(paragraphSection.imgSrc);
+        
         const imgBefore = hasImage
           ? Object.keys(paragraphSection).indexOf("img") <
             Object.keys(paragraphSection).indexOf("paragraphs")
@@ -31,17 +34,25 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
         return (
           <div
             key={paragraphSectionIndex}
-            className={` ${containerClass} ${paragraphSection.addBreakLine ? "margin-bottom" : ""}`}
+            className={` ${containerClass} ${
+              paragraphSection.addBreakLine ? "margin-bottom" : ""
+            }`}
           >
-            {imgBefore && hasImage && paragraphSection.img && (
-              <CustomImage
-                customImg={paragraphSection.img}
-                customImgAlt={paragraphSection.imgAlt || ""}
+            {imgBefore && hasImage && paragraphSection.imgSrc && (
+              <Image
+                src={`${baseImgScr}${paragraphSection.imgSrc}`}
+                alt={paragraphSection.imgAlt || ""}
+                width={500}
+                height={500}
+                className="img-customization"
               />
             )}
             <div>
               {paragraphSection.paragraphs?.map((paragraph, paragraphIndex) => (
-                <div key={paragraphIndex} className="display-inline white-space-pre-wrap">
+                <div
+                  key={paragraphIndex}
+                  className="display-inline white-space-pre-wrap"
+                >
                   {paragraph.word && (
                     <DictionaryCard
                       keyword={paragraph.keyword}
@@ -58,10 +69,13 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
                 </div>
               ))}
             </div>
-            {!imgBefore && hasImage && paragraphSection.img && (
-              <CustomImage
-                customImg={paragraphSection.img}
-                customImgAlt={paragraphSection.imgAlt || ""}
+            {!imgBefore && hasImage && paragraphSection.imgSrc && (
+              <Image
+                src={`${baseImgScr}${paragraphSection.imgSrc}`}
+                alt={paragraphSection.imgAlt || ""}
+                width={500}
+                height={500}
+                className="img-customization"
               />
             )}
           </div>

@@ -8,7 +8,7 @@ export interface Paragraph {
 export interface ParagraphSection {
   paragraphs: Paragraph[];
   addBreakLine: boolean;
-  img?: string;
+  imgSrc?: string;
   imgAlt?: string;
 }
 

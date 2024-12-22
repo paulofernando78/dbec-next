@@ -81,7 +81,7 @@ input[type="text"] {
   height: fit-content;
 }
 
-.img-border {
+.img-customization {
   border: var(--img-border);
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);

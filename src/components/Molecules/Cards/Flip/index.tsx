@@ -46,7 +46,7 @@ export const FlipCard = ({
           {/* handleFlip */}
           <div
             onClick={() => handleFlip(index)}
-            className={`img-border ${styles["card"]} ${
+            className={`img-customization ${styles["card"]} ${
               flippedCards[index] ? styles.flipped : ""
             }`}
           >

@@ -35,17 +35,13 @@ export default function SwiperFraction({ images }: SwiperFractionProps) {
               <SwiperSlide key={index} className={styles["swipe-slide"]}>
                 {image.imgSrc && image.imgAlt && (
                   <Image
-                    src={fullImgSrc}
+                    src={
+                      typeof image.imgSrc === "string" &&
+                      image.imgSrc.startsWith("http")
+                        ? image.imgSrc
+                        : fullImgSrc
+                    }
                     alt={image.imgAlt}
-                    width={1000}
-                    height={1000}
-                    className={styles["image"]}
-                  />
-                )}
-                {image.imgSrcLink && image.imgAltLink && (
-                  <Image
-                    src={image.imgSrcLink}
-                    alt={image.imgAltLink}
                     width={1000}
                     height={1000}
                     className={styles["image"]}
