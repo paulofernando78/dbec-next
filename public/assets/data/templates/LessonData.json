@@ -120,6 +120,12 @@
       ]
     },
     {
+      "iframeTitle": "Title",
+      "iframeSrc": "Source URL",
+      "iframeWidth": "Width",
+      "iframeHeight": "Height"
+    },
+    {
       "audioSrc": "/assets/audio/welcome.mp3"
     },
     {

@@ -73,7 +73,7 @@
       ]
     },
     {
-      "iframeTitle": "External Resource",
+      "iframeTitle": "Auckland",
       "iframeSrc": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3268890.664738037!2d174.706121!3d-36.859811!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47fb5a9ce6fb%3A0x500ef6143a29917!2sAuckland%2C%20New%20Zealand!5e0!3m2!1sen!2sus!4v1734803605582!5m2!1sen!2sus"
     },
     {
@@ -231,6 +231,10 @@
           "imgAlt": "Paragraph 3 photo"
         }
       ]
+    },
+    {
+      "iframeTitle": "Nitety Mile Beach",
+      "iframeSrc": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6716282.398077579!2d172.928415!3d-34.719434!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d09b4c1de3b7777%3A0x6031476e8f5691ff!2sNinety%20Mile%20Beach!5e0!3m2!1sen!2sbr!4v1734841161283!5m2!1sen!2sbr"
     },
     {
       "id": "3d8c90dc-eebe-43f8-bf58-7302420ca92b",
@@ -434,6 +438,10 @@
       ]
     },
     {
+      "iframeTitle": "Sky Tower",
+      "iframeSrc": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d817344.1603166473!2d174.762191!3d-36.848448!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d47f06d4bdc25%3A0x2d1b5c380ad9387!2sSky%20Tower!5e0!3m2!1sen!2sbr!4v1734842998945!5m2!1sen!2sbr"
+    },
+    {
       "exercises": [
         {
           "id": "4cd791fd-79c6-4116-bdc5-ac3d1ccbdeb6",
@@ -601,6 +609,10 @@
       ]
     },
     {
+      "iframeTitle": "Glow Worm Caves",
+      "iframeSrc": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11496089.463169565!2d167.727202!3d-45.295042!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa9d417aea23b14e9%3A0xb74c6de4ff0070f9!2sGlow%20Worm%20Caves!5e0!3m2!1sen!2sbr!4v1734845933030!5m2!1sen!2sbr"
+    },
+    {
       "exercises": [
         {
           "id": "",
@@ -721,6 +733,10 @@
           "imgAlt": "Paragraph 11 photo"
         }
       ]
+    },
+    {
+      "iframeTitle": "Title",
+      "iframeSrc": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d754270.089788524!2d173.680537!3d-42.398618!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d3a203a34917c75%3A0x500ef8684799936!2sKaik%C5%8Dura%2C%20New%20Zealand!5e0!3m2!1sen!2sbr!4v1734846072389!5m2!1sen!2sbr"
     },
     {
       "exercises": [

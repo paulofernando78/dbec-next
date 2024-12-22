@@ -1,5 +1,7 @@
 import React, { FC } from 'react';
 
+import styles from './styles.module.css';
+
 interface IframeProps {
   src: string;
   width?: string | number;
@@ -29,6 +31,7 @@ const Iframe: FC<IframeProps> = ({
       height={typeof height === "number" ? `${height}px` : height}
       allowFullScreen={allowFullScreen}
       loading={loading}
+      className={styles["iframe-customization"]}
       style={style}
     />
   );
