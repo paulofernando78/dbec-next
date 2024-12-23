@@ -36,6 +36,7 @@
         {
           "imgSrc": "/extras/skills/listening/audiobooks/...",
           "imgAlt": "Cover photo",
+          "imgPosition": "left",
           "paragraphs": [
             {
               "keyword": "...",
@@ -58,6 +59,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 1 photo",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
@@ -65,9 +69,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 1"
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 1 photo"
+          ]
         }
       ]
     },
@@ -99,6 +101,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 2 photo",
+          "imgPosition": "left",
           "paragraphs": [
             {
               "keyword": "...",
@@ -106,9 +111,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 2"
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 2 photo"
+          ]
         }
       ]
     },
@@ -140,6 +143,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 3 photo",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
@@ -147,9 +153,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 3"
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 3 photo"
+          ]
         }
       ]
     },
@@ -181,6 +185,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 4 photo",
+          "imgPosition": "left",
           "paragraphs": [
             {
               "keyword": "...",
@@ -188,9 +195,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 4"
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 4 photo"
+          ]
         }
       ]
     },
@@ -222,6 +227,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 5 photo",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
@@ -229,9 +237,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 5"
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 5 photo"
+          ]
         }
       ]
     },
@@ -262,6 +268,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 6 photo",
+          "imgPosition": "left",
           "paragraphs": [
             {
               "keyword": "...",
@@ -269,9 +278,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 6"
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 6 photo"
+          ]
         }
       ]
     },
@@ -302,6 +309,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 7 photo",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
@@ -309,9 +319,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 7"
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 7 photo"
+          ]
         }
       ]
     },
@@ -342,6 +350,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 8 photo",
+          "imgPosition": "left",
           "paragraphs": [
             {
               "keyword": "...",
@@ -349,9 +360,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 8"
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 8 photo"
+          ]
         }
       ]
     },
@@ -382,6 +391,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 9 photo",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
@@ -389,9 +401,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 9"
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 9 photo"
+          ]
         }
       ]
     },
@@ -422,6 +432,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 10 photo",
+          "imgPosition": "left",
           "paragraphs": [
             {
               "keyword": "...",
@@ -429,9 +442,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 10"
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 10 photo"
+          ]
         }
       ]
     },
@@ -462,6 +473,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 11 photo",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
@@ -469,9 +483,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 11"
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 11 photo"
+          ]
         }
       ]
     },
@@ -502,6 +514,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 12 photo",
+          "imgPosition": "left",
           "paragraphs": [
             {
               "keyword": "...",
@@ -509,9 +524,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 12"
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 12 photo"
+          ]
         }
       ]
     },
@@ -542,6 +555,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 13 photo",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
@@ -549,9 +565,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 13"
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 13 photo"
+          ]
         }
       ]
     },
@@ -582,6 +596,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 14 photo",
+          "imgPosition": "left",
           "paragraphs": [
             {
               "keyword": "...",
@@ -589,9 +606,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 14"
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 14 photo"
+          ]
         }
       ]
     },
@@ -622,6 +637,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 15 photo",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
@@ -629,9 +647,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Paragraph 15"
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 15 photo"
+          ]
         }
       ]
     },

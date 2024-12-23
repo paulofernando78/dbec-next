@@ -2,7 +2,9 @@
   "whiteboard": {
     "title": "Extras",
     "subtitle": "Skills",
-    "descriptions": ["Listening", "Audiobooks", "Beginner", "The Last Photo"]
+    "descriptions": ["Listening", "Audiobooks", "Beginner", "The Last Photo"],
+    "time": "8:48",
+    "uk" : true
   },
   "lessons": [
     {
