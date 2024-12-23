@@ -5,6 +5,6 @@ export interface WhiteboardProps {
     subDescription?: string;
     time?: string;
     accent?: string;
-    usa: boolean;
-    uk: boolean;
+    usa?: boolean;
+    uk?: boolean;
   }
