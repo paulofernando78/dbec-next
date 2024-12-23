@@ -43,10 +43,6 @@
               "checkboxLabel": "Marcel goes to hollywood • 00:00"
             },
             {
-              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/missing-coins",
-              "checkboxLabel": "Missing coins • 00:00"
-            },
-            {
               "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/mother-teresa",
               "checkboxLabel": "Mother Teresa • 00:00"
             },
@@ -69,6 +65,10 @@
             {
               "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse",
               "checkboxLabel": "The Leopard and the Lighthouse • 10:30"
+            },
+            {
+              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/the-missing-coins",
+              "checkboxLabel": "The Missing coins • 00:00"
             },
             {
               "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl",

@@ -42,6 +42,7 @@ export const LessonTemplate = ({
           subtitle={lessonData.whiteboard.subtitle}
           descriptions={lessonData.whiteboard.descriptions}
           subDescription={lessonData.whiteboard.subDescription}
+          time={lessonData.whiteboard.time}
         />
       )}
 

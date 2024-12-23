@@ -3,4 +3,5 @@ export interface WhiteboardProps {
     subtitle?: string;
     descriptions?: string[];
     subDescription?: string;
+    time?: string;
   }
