@@ -5,7 +5,7 @@ import "./styles.css";
 
 export const metadata: Metadata = {
   title: "Daily Basis English Course",
-  description: "Speak up!",
+  description: "Private English Classes",
 };
 
 export default function RootLayout({
