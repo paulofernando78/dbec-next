@@ -6,11 +6,11 @@ import { useEffect, useState } from "react";
 // Components
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 
-export default function ExtrasGrammarElementaryUnit103() {
+export default function ExtrasGrammarElementaryUnit34() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
-  const CONTENTS_JSON_PATH = "/assets/data/materials/extras/grammar/elementary/unit-103.json";
+  const CONTENTS_JSON_PATH = "/assets/data/materials/extras/grammar/elementary/unit-34.json";
 
   useEffect(() => {
     fetch(CONTENTS_JSON_PATH)
@@ -35,6 +35,6 @@ export default function ExtrasGrammarElementaryUnit103() {
   if (error) return <p>Error loading lesson data.</p>;
 
   return (
-    <LessonTemplate lessonData={lessonData} isUnderConstruction={true} />
+    <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />
   );
 }
