@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./styles.module.css";
 
 // Images
-import { clockIcon } from "@/img/index";
+import { clockIcon, ukFlagIcon, usaFlagIcon } from "@/img/index";
 
 // Typescript
 import { WhiteboardProps } from "./type";
@@ -13,7 +13,9 @@ export const Whiteboard = ({
   subtitle,
   descriptions = [],
   subDescription,
-  time
+  time,
+  usa,
+  uk
 }: WhiteboardProps) => {
   return (
     <div className={styles["container"]}>
@@ -33,6 +35,26 @@ export const Whiteboard = ({
         className={`icon-general ${styles["icon-time"]}`}
         />
         <p>{time}</p>
+      </div>
+      }
+      {usa &&
+      <div className="flex-8px-center-wrap">
+        <Image
+        src={usaFlagIcon}
+        alt="Time icon"
+        className="icon-general"
+        />
+        <p>American English</p>
+      </div>
+      }
+      {uk &&
+      <div className="flex-8px-center-wrap">
+        <Image
+        src={ukFlagIcon}
+        alt="Time icon"
+        className="icon-general"
+        />
+        <p>British English</p>
       </div>
       }
     </div>
