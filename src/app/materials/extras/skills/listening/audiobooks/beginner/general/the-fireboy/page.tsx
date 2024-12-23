@@ -6,13 +6,11 @@ import { useEffect, useState } from "react";
 // Components
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 
-const CONTENTS_JSON_PATH =
-  "/assets/data/materials/extras/skills/listening/audiobooks/beginner/general/flying-home.json";
-
 export default function Audiobook() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
+  const CONTENTS_JSON_PATH = "/assets/data/materials/extras/skills/listening/audiobooks/beginner/general/the-fireboy.json";
 
   useEffect(() => {
     fetch(CONTENTS_JSON_PATH)
@@ -37,6 +35,6 @@ export default function Audiobook() {
   if (error) return <p>Error loading lesson data.</p>;
 
   return (
-    <LessonTemplate lessonData={lessonData} isUnderConstruction={true} />
+    <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />
   );
 }

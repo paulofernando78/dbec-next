@@ -9,7 +9,7 @@ import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 const CONTENTS_JSON_PATH =
   "/assets/data/materials/extras/skills/listening/audiobooks/beginner/general/a-new-zealand-adventure.json";
 
-export default function AudiobooksANewZealandAdventure() {
+export default function Audiobook() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);

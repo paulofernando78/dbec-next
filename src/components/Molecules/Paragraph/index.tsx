@@ -16,17 +16,12 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
   return (
     <>
       {paragraphSections?.map((paragraphSection, paragraphSectionIndex) => {
-        // Verifica se há imagem antes ou depois dos parágrafos
+        // Determine if there is an image
         const hasImage = Boolean(paragraphSection.imgSrc);
-        
-        const imgBefore = hasImage
-          ? Object.keys(paragraphSection).indexOf("img") <
-            Object.keys(paragraphSection).indexOf("paragraphs")
-          : false;
 
-        // Define a classe de estilo baseada na posição da imagem
+        // Apply the appropriate CSS class based on the image position
         const containerClass = hasImage
-          ? imgBefore
+          ? paragraphSection.imgPosition === "left"
             ? styles["img-before"]
             : styles["img-after"]
           : styles["no-image"];
@@ -34,11 +29,11 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
         return (
           <div
             key={paragraphSectionIndex}
-            className={` ${containerClass} ${
+            className={`${containerClass} ${
               paragraphSection.addBreakLine ? "margin-bottom" : ""
             }`}
           >
-            {imgBefore && hasImage && paragraphSection.imgSrc && (
+            {hasImage && paragraphSection.imgPosition === "left" && (
               <Image
                 src={`${baseImgScr}${paragraphSection.imgSrc}`}
                 alt={paragraphSection.imgAlt || ""}
@@ -69,7 +64,7 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
                 </div>
               ))}
             </div>
-            {!imgBefore && hasImage && paragraphSection.imgSrc && (
+            {hasImage && paragraphSection.imgPosition === "right" && (
               <Image
                 src={`${baseImgScr}${paragraphSection.imgSrc}`}
                 alt={paragraphSection.imgAlt || ""}

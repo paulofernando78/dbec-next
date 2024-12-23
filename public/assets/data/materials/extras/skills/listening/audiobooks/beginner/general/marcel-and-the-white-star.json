@@ -1,1 +1,13 @@
-[]
+{
+  "whiteboard": {
+    "title": "Extras",
+    "subtitle": "Skills",
+    "descriptions": [
+      "Listening",
+      "Audiobooks",
+      "Beginner",
+      "Marcel and the White Star"
+    ]
+  },
+  "lessons": []
+}

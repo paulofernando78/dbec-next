@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 
 const CONTENTS_JSON_PATH =
-  "/assets/data/materials/extras/skills/listening/audiobooks/beginner/general/flying-home.json";
+  "/assets/data/materials/extras/skills/listening/audiobooks/beginner/general/missing-coins.json";
 
 export default function Audiobook() {
   const [lessonData, setLessonData] = useState(null);
@@ -37,6 +37,6 @@ export default function Audiobook() {
   if (error) return <p>Error loading lesson data.</p>;
 
   return (
-    <LessonTemplate lessonData={lessonData} isUnderConstruction={true} />
+    <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />
   );
 }

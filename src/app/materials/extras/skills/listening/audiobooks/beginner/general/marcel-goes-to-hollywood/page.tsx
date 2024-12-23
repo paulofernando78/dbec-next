@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 
 const CONTENTS_JSON_PATH =
-  "/assets/data/materials/extras/skills/listening/audiobooks/beginner/general/flying-home.json";
+  "/assets/data/materials/extras/skills/listening/audiobooks/beginner/general/marcel-goes-to-hollywood.json";
 
 export default function Audiobook() {
   const [lessonData, setLessonData] = useState(null);

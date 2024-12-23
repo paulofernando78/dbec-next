@@ -10,6 +10,7 @@ export interface ParagraphSection {
   addBreakLine: boolean;
   imgSrc?: string;
   imgAlt?: string;
+  imgPosition?: "left" | "right";
 }
 
 export interface ParagraphSectionsProps {

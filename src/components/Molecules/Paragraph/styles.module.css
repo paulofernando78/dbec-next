@@ -11,12 +11,13 @@
 }
 
 .no-image {
-  display: block; /* Garante que o layout funcione sem imagens */
+  display: block;
 }
 
 @media (max-width: 500px) {
   .img-before,
-  .img-after {
+  .img-after,
+  .no-image {
     grid-template-columns: 1fr;
   }
 }

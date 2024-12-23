@@ -9,7 +9,7 @@ import { LessonTemplate } from "@/components/Templates/LessonData/Index";
 const CONTENTS_JSON_PATH =
   "/assets/data/materials/extras/skills/listening/audiobooks/beginner/general/marcel-and-the-white-star.json";
 
-export default function AudiobooksANewZealandAdventure() {
+export default function Audiobook() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
@@ -37,6 +37,6 @@ export default function AudiobooksANewZealandAdventure() {
   if (error) return <p>Error loading lesson data.</p>;
 
   return (
-    <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />
+    <LessonTemplate lessonData={lessonData} isUnderConstruction={true} />
   );
 }

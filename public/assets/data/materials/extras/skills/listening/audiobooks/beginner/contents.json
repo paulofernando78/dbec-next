@@ -39,7 +39,19 @@
               "checkboxLabel": "Marcel and the White Star • 09:54"
             },
             {
-              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/newspaer-chase",
+              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/marcel-goes-to-hollywood",
+              "checkboxLabel": "Marcel goes to hollywood • 00:00"
+            },
+            {
+              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/missing-coins",
+              "checkboxLabel": "Missing coins • 00:00"
+            },
+            {
+              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/mother-teresa",
+              "checkboxLabel": "Mother Teresa • 00:00"
+            },
+            {
+              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/newspaper-chase",
               "checkboxLabel": "Newspaper Chase • 08:18"
             },
             {
@@ -59,15 +71,15 @@
               "checkboxLabel": "The Leopard and the Lighthouse • 10:30"
             },
             {
-              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/the-missing-coins",
-              "checkboxLabel": "The missing coins • 00:00"
-            },
-            {
               "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl",
               "checkboxLabel": "The Pearl Girl • 11:47"
             },
             {
-              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/who-wants-to-be=a=star",
+              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/the-white-oryx",
+              "checkboxLabel": "The White Oryx • 00:00"
+            },
+            {
+              "checkboxLink": "/materials/extras/skills/listening/audiobooks/beginner/general/who-wants-to-be-a-star",
               "checkboxLabel": "Who wants to be a star • 10:09"
             }
           ]

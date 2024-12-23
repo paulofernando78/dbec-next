@@ -50,9 +50,6 @@
           "addBreakLine": true
         },
         {
-          "imgSrc": "/general/animal-cat1.jpg",
-          "imgAlt": "An image of a cat.",
-          "imgPosition": "left",
           "paragraphs": [
             {
               "keyword": "...",
@@ -67,13 +64,13 @@
               "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
             }
           ],
-
+          "img": "/animal-cat1.jpg",
+          "imgAlt": "An image of a cat.",
           "addBreakLine": true
         },
         {
-          "imgSrc": "/general/animal-cat2.jpeg",
+          "img": "/animal-cat2.jpeg",
           "imgAlt": "An image of a cat.",
-          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
@@ -87,24 +84,20 @@
               "wordAudioSrc": "/dictionary/xxx.mp3",
               "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
             }
-          ]
+          ],
+          "addBreakLine": true
         }
       ]
     },
     {
-      "imgSrc": "/general/animal-cat1.jpg",
-      "imgAlt": "An image of a cat.",
-      "imgWidth": "60%"
-    },
-    {
       "swiperFractionImages": [
         {
-          "imgSrc": "/general/animal-cat1.jpg",
+          "imgSrc": "/animal-cat1.jpg",
           "imgAlt": "An image of a cat."
         },
         {
-          "imgSrc": "https://cdn.britannica.com/34/235834-050-C5843610/two-different-breeds-of-cats-side-by-side-outdoors-in-the-garden.jpg",
-          "imgAlt": "An image of a cat."
+          "imgSrc": "https://images.pexels.com/photos/346529/pexels-photo-346529.jpeg?cs=srgb&dl=pexels-bri-schneiter-28802-346529.jpg&fm=jpg",
+          "imgAlt": "Example image description"
         }
       ]
     },
@@ -121,7 +114,7 @@
           "backText": "..."
         },
         {
-          "imgSrc": "/assets/img/general/animal-cat1.jpg",
+          "imgSrc": "/assets/img/animal-cat1.jpg",
           "imgAlt": "A cat"
         }
       ]
@@ -131,12 +124,6 @@
     },
     {
       "videoSrc": "https://www.youtube.com/embed/oCY5YEEjlwE"
-    },
-    {
-      "iframeTitle": "Title",
-      "iframeSrc": "https://www.dbec.com.br/",
-      "iframeWidth": "...",
-      "iframeHeight": "..."
     },
     {
       "exercises": [
