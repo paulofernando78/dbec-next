@@ -15,6 +15,7 @@
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-last-photo/cover.jpg",
           "imgAlt": "Book cover",
+          "imgPosition": "left",
           "paragraphs": [
             {
               "text": "Pam and Martin visit Cambridge. Pam takes a photo, but a man walks in front of her. Later Martin sees a picture of a man in a newspaper. The police want this man. Is he the same man? And where is he now? Does Pam's photo have the answers?"
@@ -34,6 +35,9 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-last-photo/paragraph1.jpg",
+          "imgAlt": "Pam and Martin are taking some photos.",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "dictionaryAudioSrc": "/dictionary/xxx.mp3",
@@ -45,9 +49,7 @@
               "dictionaryAudioSrc": "/dictionary/l/laughs-at.mp3",
               "text": "them."
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-last-photo/paragraph1.jpg",
-          "imgAlt": "Pam and Martin are taking some photos."
+          ]
         }
       ]
     },
@@ -135,13 +137,14 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-last-photo/paragraph2.jpg",
+          "imgAlt": "Martin is taking photos of Pam.",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "text": "It is five o'clock. Pam and Martin are going home now. They are tired after their long day. They are in the garden near the bus station. \"Let's have a last photo of you\", says Pam. \"Oh no, not again\", says Martin. \"Come on\", says Pam. \"It's the last one. I want to finish the film in my camera.\""
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-last-photo/paragraph2.jpg",
-          "imgAlt": "Martin is taking photos of Pam."
+          ]
         }
       ]
     },
@@ -229,13 +232,14 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-last-photo/paragraph3.jpg",
+          "imgAlt": "Pam is taking a photo when a man walks between Pam and Martin.",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "text": "\"Oh, all right,\" says Martin. He stands in front of the flowers. \"Look at me\", says Pam and takes a photo. A man with a big rucksack on his back walks between Pam and Martin. \"Oh no\", says Pam. \"Now I've got a picture of that man, not of you, Martin.\""
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-last-photo/paragraph3.jpg",
-          "imgAlt": "Pam is taking a photo when a man walks between Pam and Martin."
+          ]
         }
       ]
     },
@@ -305,15 +309,15 @@
       "textColor": "white"
     },
     {
+      "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-last-photo/paragraph4.jpg",
+      "imgAlt": "Pam is putting away her camera.",
       "paragraphSections": [
         {
           "paragraphs": [
             {
               "text": "The man looks at Pam. He is angry. He goes across the road without a word. \"That man isn't very nice, is he?\" says Martin. \"No\", says Pam. \"And that was the last picture on the film, too.\" The man with the rucksack on his back goes into the bus station. He's got sunglasses and a blue hat."
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-last-photo/paragraph4.jpg",
-          "imgAlt": "Pam is putting away her camera."
+          ]
         }
       ]
     },
@@ -385,13 +389,14 @@
     {
       "paragraphSections": [
         {
+          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-last-photo/paragraph5.jpg",
+          "imgAlt": "Pam and Martin are at the bus station.",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "text": "\"Come on,\" says Martin. \"Let's find our bus.\" They go into the bus station. \"Look\", says Martin. \"There's that man again. He's getting into that bus. He's going to Aberdeen. That's in Scotland.\" \"Good\", says Pam. \"Far from here and far from me!\" She is angry with the man."
             }
-          ],
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-last-photo/paragraph5.jpg",
-          "imgAlt": "Pam and Martin are at the bus station."
+          ]
         }
       ]
     },

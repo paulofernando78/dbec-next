@@ -52,7 +52,7 @@
         {
           "imgSrc": "/general/animal-cat1.jpg",
           "imgAlt": "An image of a cat.",
-          "imgPosition": "left",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
@@ -73,7 +73,7 @@
         {
           "imgSrc": "/general/animal-cat2.jpeg",
           "imgAlt": "An image of a cat.",
-          "imgPosition": "right",
+          "imgPosition": "left",
           "paragraphs": [
             {
               "keyword": "...",

@@ -10,14 +10,9 @@
   grid-template-columns: auto 200px;
 }
 
-.no-image {
-  display: block;
-}
-
 @media (max-width: 500px) {
   .img-before,
-  .img-after,
-  .no-image {
+  .img-after {
     grid-template-columns: 1fr;
   }
 }
