@@ -1,5 +1,5 @@
-
-import { ExercisesProps, Exercise } from "./type";
+// Components
+import Image from "next/image";
 
 // Hook
 import { useState } from "react";
@@ -11,43 +11,46 @@ import { Button } from "@/components/Atoms/Button";
 import { correctIcon, incorrectIcon } from "@/img/index";
 
 // Typescript
-import "./type";
-import Image from "next/image";
+import { ExercisesProps, Exercise } from "./type";
 
 export const Exercises = ({ exercises = [], id }: ExercisesProps) => {
   return (
     <>
-      {exercises.map((exercise, exerciseIndex) => (
+      {exercises.map((exercise) => (
         <ExerciseItem exercise={exercise} key={exercise.id}/>
       ))}
     </>
   );
 };
 
-const ExerciseItem = ({exercise}:{exercise:Exercise}) => {
+const ExerciseItem = ({exercise}:{exercise:Exercise}) => { 
+  // State to store selected answers
+  const [selectedOption, setSelectedOption] = useState<Record<string, string>>({});
+  
   // State to manage feedback visibility
   const [showFeedback, setShowFeedback] = useState(false);
-  // State to store selected answers
-  const [selectedAnswer, setSelectedAnswer] = useState<Record<string, string>>(
-    {}
-  );
-  const handleSelectedAnswer = (
-    id: string,
-    answer: string
+  
+  // Function to handle the selection of an option
+  const handleSelectedOption = (
+    id: string, // Unique identifier for the question
+    answer: string // Selected answer
   ) => {
-    setSelectedAnswer((prev) => ({
-      ...prev,
-      [id]: answer,
+    // Update the state with the selected option
+    setSelectedOption((prev) => ({
+      ...prev, // Preserve previous selections
+      [id]: answer, // Update the selection for the current question
     }));
   };
 
+  // Function to handle the "Check answers" button click
   const checkAnswer = () => {
     setShowFeedback(true); // Display feedback when "Check answers" is clicked
   };
 
+  // Function to handle the "Reset" button click
   const resetAnswers = () => {
-    setSelectedAnswer({}); // Reset selected answers to an empty object
-    setShowFeedback(false);
+    setSelectedOption({}); // Reset selected options to an empty object
+    setShowFeedback(false); // Hide feedback when answers are reset
   };
   return (
     <div className="line-break">
@@ -64,8 +67,7 @@ const ExerciseItem = ({exercise}:{exercise:Exercise}) => {
               <p dangerouslySetInnerHTML={{ __html: radioItem.question}}></p>
               {radioItem.options.map((option, optionIndex) => {
                 const idpp=`${exercise.id}-${radioItem.id}`
-                const isChecked=selectedAnswer[idpp] ===
-                option.label
+                const isChecked=selectedOption[idpp] === option.label
                 return (
                   <label key={optionIndex} className="radio-checkbox-flex">
                     <div className="radio-checkbox-container">
@@ -76,7 +78,7 @@ const ExerciseItem = ({exercise}:{exercise:Exercise}) => {
                         className="radio-size"
                         onChange={() =>
                           !showFeedback && // Allow selection only if feedback is not shown
-                          handleSelectedAnswer(
+                          handleSelectedOption(
                             idpp,
                             option.label
                           )

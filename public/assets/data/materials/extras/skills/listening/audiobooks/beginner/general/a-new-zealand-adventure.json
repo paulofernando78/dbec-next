@@ -94,7 +94,15 @@
               "wordAudioSrc": "/dictionary/n/near.mp3"
             },
             {
-              "text": " the window. \"Look!\" she says, \"There's Auckland! We're here!\" \"But we're late,\" Sarah answers. \"When's our bus?\" \"At one o'clock,\"Jessica says. \"We can get a taxi from the airport to the bus station.\""
+              "text": " the window. \"Look!\" she says, \"There's"
+            },
+            {
+              "keyword": "auckland",
+              "word": "Auckland",
+              "wordAudioSrc": "/dictionary/a/auckland.mp3"
+            },
+            {
+              "text":	"! We're here!\" \"But we're late,\" Sarah answers. \"When'<span class=\"underline\">s o</span>ur bus?\" \"At one o'clock, \"Jessica says. \"We can ge<span class=\"underline\">t a</span> taxi from the airport to the bus station.\""
             }
           ]
         }
