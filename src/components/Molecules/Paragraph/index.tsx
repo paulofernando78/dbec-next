@@ -54,7 +54,7 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
                       word={paragraph.word}
                       audioSrc={paragraph.wordAudioSrc}
                     />
-                  )}{" "}
+                  )}
                   <p
                     className="display-inline"
                     dangerouslySetInnerHTML={{

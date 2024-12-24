@@ -9,7 +9,7 @@
       "A New Zealand Adventure"
     ],
     "time": "8:05",
-    "uk" : true
+    "uk": true
   },
   "lessons": [
     {
@@ -22,7 +22,7 @@
         {
           "paragraphs": [
             {
-              "keyword": "new zeland",
+              "keyword": "new zealand",
               "word": "New Zealand",
               "wordAudioSrc": "/dictionary/n/new-zealand.mp3"
             },
@@ -70,7 +70,31 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "Sarah and Jessica are going to New Zealand for a holiday. They are very excited. Jessica is near the window. \"Look!\" she says, \"There's Auckland! We're here!\" \"But we're late,\" Sarah answers. \"When's our bus?\" \"At one o'clock,\"Jessica says. \"We can get a taxi from the airport to the bus station.\""
+              "text": "Sarah and Jessica are going to"
+            },
+            {
+              "keyword": "new zealand",
+              "word": "New Zealand",
+              "wordAudioSrc": "/dictionary/n/new-zealand.mp3"
+            },
+            {
+              "text": "for a holiday. They are very"
+            },
+            {
+              "keyword": "excite",
+              "word": "excited",
+              "wordAudioSrc": "/dictionary/e/excite.mp3"
+            },
+            {
+              "text": ". Jessica is"
+            },
+            {
+              "keyword": "near",
+              "word": "near",
+              "wordAudioSrc": "/dictionary/n/near.mp3"
+            },
+            {
+              "text": " the window. \"Look!\" she says, \"There's Auckland! We're here!\" \"But we're late,\" Sarah answers. \"When's our bus?\" \"At one o'clock,\"Jessica says. \"We can get a taxi from the airport to the bus station.\""
             }
           ]
         }
