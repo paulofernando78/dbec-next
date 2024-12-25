@@ -102,7 +102,7 @@
               "wordAudioSrc": "/dictionary/a/auckland.mp3"
             },
             {
-              "text":	"! We're here!\" \"But we're late,\" Sarah answers. \"When'<span class=\"underline\">s o</span>ur bus?\" \"At one o'clock, \"Jessica says. \"We can ge<span class=\"underline\">t a</span> taxi from the airport to the bus station.\""
+              "text": "! We're here!\" \"But we're late,\" Sarah answers. \"When'<span class=\"underline\">s o</span>ur bus?\" \"At one o'clock, \"Jessica says. \"We can ge<span class=\"underline\">t a</span> taxi from the airport to the bus station.\""
             }
           ]
         }
@@ -264,8 +264,25 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "The taxi stops at the bus station. Suddenly, Jessica sees a mobile phone on the taxi floor. \"Is that your mobile phone?\" she asks the driver. He looks at it. \"No,\" he answers. \"It's the boy's mobile.\" Sarah takes it. \"Perhaps I can find his address,\" she says. \"Yes! His name's Michael. Tomorrow he's at Ninety Mile Beach. We can give it to him there.\""
+              "text": "The taxi stops at the bus station. Suddenly"
+            },
+            {
+              "keyword": "suddenly",
+              "word": "suddlenly",
+              "wordAudioSrc": "/dictionary/s/suddenly.mp3"
+            },
+            {
+              "text": ", Jessica sees a mobile phone on the taxi floor. \"Is that your mobile phone?\" she asks the driver. He look<span class=\"underline\">s at i</span>t. \"No,\" he answers. \"It's the boy's mobile.\" Sarah take<span class=\"underline\">s i</span>t. \""
+            },
+            {
+              "keyword": "perhaps",
+              "word": "Perhaps",
+              "wordAudioSrc": "/dictionary/p/perhaps.mp3"
+            },
+            {
+              "text": "I can find his address,\" she says. \"Yes! His name's Michael. Tomorrow he'<span class=\"underline\">s a</span>t Ninety Mile Beach. We can gi<span class=\"underline\">ve it t</span>o him there.\""
             }
+            
           ]
         }
       ]
