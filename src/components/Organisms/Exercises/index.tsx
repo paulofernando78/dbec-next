@@ -89,29 +89,32 @@ const ExerciseItem = ({exercise}:{exercise:Exercise}) => {
                         disabled={showFeedback} // Disable radio button once feedback is shown
                       />
                     </div>
-                    <p className="cursor-pointer">{option.label}</p>
-  
+                    <p className="cursor-pointer">{option.label}
+                    {" "}
                     {/* Only show the feedback icon for the selected option */}
-                    {showFeedback &&
-                      isChecked && (
-                        <Image
-                          src={
-                            option.isCorrect
-                              ? correctIcon // Show correct icon if selected answer is correct
-                              : incorrectIcon // Show incorrect icon if selected answer is incorrect
-                          }
-                          alt={
-                            option.isCorrect ? "Correct icon" : "Incorrect icon"
-                          }
-                          width={27}
-                          height={27}
-                          className={
-                            isChecked
-                              ? ""
-                              : "hidden" // Hide icons for unselected options
-                          }
-                        />
+                    {showFeedback && isChecked && (
+                       <span className="icon-position">
+                          <Image
+                            src={
+                              option.isCorrect
+                                ? correctIcon // Show correct icon if selected answer is correct
+                                : incorrectIcon // Show incorrect icon if selected answer is incorrect
+                            }
+                            alt={
+                              option.isCorrect ? "Correct icon" : "Incorrect icon"
+                            }
+                            width={27}
+                            height={27}
+                            className={
+                              isChecked
+                                ? ""
+                                : "hidden" // Hide icons for unselected options
+                            }
+                          />
+                       </span>
                       )}
+                    </p>
+  
                   </label>
                 )})}
               

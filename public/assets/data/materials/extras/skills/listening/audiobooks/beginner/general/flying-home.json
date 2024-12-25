@@ -254,7 +254,7 @@
     },
     {
       "title": "Paragraph 2",
-      "time": "...",
+      "time": "0:36",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -283,16 +283,32 @@
               "id": "43a6dd48-5e29-4cc9-bdb7-72c22a02bf76",
               "question": "2.1 What does Felix see from his cage?",
               "options": [
-                { "id": "5026c987-3ac8-41de-9d0d-57e0c86fcb5d", "label": "He can see the whole jungle.", "isCorrect": false },
-                { "id": "4e6cd473-aaf4-433c-8188-f9c861560020", "label": "He can see the whole city.", "isCorrect": true }
+                {
+                  "id": "5026c987-3ac8-41de-9d0d-57e0c86fcb5d",
+                  "label": "He can see the whole jungle.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4e6cd473-aaf4-433c-8188-f9c861560020",
+                  "label": "He can see the whole city.",
+                  "isCorrect": true
+                }
               ]
             },
             {
               "id": "b4aa92b4-11a6-4be1-b4be-804a7d15a477",
               "question": "2.2 What does he remember from Brazil?",
               "options": [
-                { "id": "b3244d2d-2aa1-404d-882c-f5e2f19654ae", "label": "He remembers the two men with yellow hats. The small box. The long bus journey.", "isCorrect": false },
-                { "id": "7851e88c-d01b-4e36-9c30-461833340c44", "label": "He remembers the two men with white hats. The big box. The long plane journey.", "isCorrect": true }
+                {
+                  "id": "b3244d2d-2aa1-404d-882c-f5e2f19654ae",
+                  "label": "He remembers the two men with yellow hats. The small box. The long bus journey.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "7851e88c-d01b-4e36-9c30-461833340c44",
+                  "label": "He remembers the two men with white hats. The big box. The long plane journey.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -301,7 +317,7 @@
     },
     {
       "title": "Paragraph 3",
-      "time": "...",
+      "time": "1:10",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -330,16 +346,32 @@
               "id": "e86a8981-4354-47c2-b0ca-d66019f4b652",
               "question": "3.1 What does Felix want?",
               "options": [
-                { "id": "83ebea22-1729-4166-b69b-cc618f5b9e05", "label": "He wants to be with the Baxters.", "isCorrect": false },
-                { "id": "abe74ba2-f679-4234-86e3-7c607bc36730", "label": "He wants to be with his family.", "isCorrect": true }
+                {
+                  "id": "83ebea22-1729-4166-b69b-cc618f5b9e05",
+                  "label": "He wants to be with the Baxters.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "abe74ba2-f679-4234-86e3-7c607bc36730",
+                  "label": "He wants to be with his family.",
+                  "isCorrect": true
+                }
               ]
             },
             {
               "id": "70dfa2ff-ea4f-4eb4-bdef-111681ced7cf",
               "question": "3.2 What's Brazil like?",
               "options": [
-                { "id": "6d678bcf-b262-4c27-9f2a-e8f4f8d8fac4", "label": "It's warm and the trees are always green.", "isCorrect": true },
-                { "id": "e4be4392-4f57-40a3-aed2-1a99caa6ac6b", "label": "It's cold and the trees are always yellow.", "isCorrect": false }
+                {
+                  "id": "6d678bcf-b262-4c27-9f2a-e8f4f8d8fac4",
+                  "label": "It's warm and the trees are always green.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "e4be4392-4f57-40a3-aed2-1a99caa6ac6b",
+                  "label": "It's cold and the trees are always yellow.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -348,7 +380,7 @@
     },
     {
       "title": "Paragraph 4",
-      "time": "...",
+      "time": "1:54",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -377,16 +409,32 @@
               "id": "5662def8-b779-4a50-b135-5d7d4377f05f",
               "question": "4.1 What does Mr. Baxter give Felix?",
               "options": [
-                { "id": "66bf6ddc-42f5-4e66-997c-dd5b5ed456e9", "label": "He gives him some water.", "isCorrect": false },
-                { "id": "72e26558-df94-4ac0-8b54-6f4d2f196b47", "label": "He gives him some food.", "isCorrect": true }
+                {
+                  "id": "66bf6ddc-42f5-4e66-997c-dd5b5ed456e9",
+                  "label": "He gives him some water.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "72e26558-df94-4ac0-8b54-6f4d2f196b47",
+                  "label": "He gives him some food.",
+                  "isCorrect": true
+                }
               ]
             },
             {
               "id": "20149e05-3ef4-4b51-9d01-e475566d1262",
               "question": "4.2 How does Felix escape the cage?",
               "options": [
-                { "id": "1f1f887a-eb11-4eb6-8753-6e23804d2731", "label": "Mr. Baxter forgets to shut Felix's cage.", "isCorrect": true },
-                { "id": "c29b6150-67b3-4adf-8b7c-388e4ea90642", "label": "Mr. Baxter forgets to open Felix's cage.", "isCorrect": false }
+                {
+                  "id": "1f1f887a-eb11-4eb6-8753-6e23804d2731",
+                  "label": "Mr. Baxter forgets to shut Felix's cage.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "c29b6150-67b3-4adf-8b7c-388e4ea90642",
+                  "label": "Mr. Baxter forgets to open Felix's cage.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -395,7 +443,7 @@
     },
     {
       "title": "Paragraph 5",
-      "time": "...",
+      "time": "2:30",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -416,15 +464,23 @@
     {
       "exercises": [
         {
-          "id": "",
+          "id": "660df26c-7bd5-435c-99b4-7333be69793d",
           "title": "5. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
+              "id": "b28aeb49-08c7-4747-97b1-87bfef433dc3",
               "question": "5.1 Where does Felix fly through?",
               "options": [
-                { "id": "", "label": "He flies through the jungle.", "isCorrect": false },
-                { "id": "", "label": "He flies through the city.", "isCorrect": true }
+                {
+                  "id": "fbb89891-24d5-4620-a25d-ee615094b11a",
+                  "label": "He flies through the jungle.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "0875eb33-0cbd-42a5-821e-2eb61d8f3a57",
+                  "label": "He flies through the city.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -433,7 +489,7 @@
     },
     {
       "title": "Paragraph 6",
-      "time": "...",
+      "time": "3:08",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -452,17 +508,26 @@
       ]
     },
     {
+      "id": "73f02e02-3182-4202-8976-386915099f89",
       "exercises": [
         {
-          "id": "",
+          "id": "0123c164-6f45-4996-9b2b-9d7bf9ad8320",
           "title": "6. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "6.1 Question",
+              "id": "52b975b5-2a92-455e-b3c6-9b7754a52598",
+              "question": "6.1 Where does Felix first stop?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "6b6a3c2c-30f9-4761-9734-21c9fcb050c4",
+                  "label": "He first stops on the head of the Statue od Liberty.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "70cba6e0-c381-4d03-aebc-09959a84a1d6",
+                  "label": "He first stops on the arm of the Statue od Liberty.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -471,7 +536,7 @@
     },
     {
       "title": "Paragraph 7",
-      "time": "...",
+      "time": "3:50",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -490,17 +555,42 @@
       ]
     },
     {
+      "id": "6340cbb4-3e46-4610-96bb-be442538760d",
       "exercises": [
         {
-          "id": "",
+          "id": "638918e3-ca45-44d7-a112-2285380b4d26",
           "title": "7. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "7.1 Question",
+              "id": "4f844d34-415f-48b4-ab57-56bc52bf0425",
+              "question": "7.1 Which direction does Felix fly?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "75aae59a-4d1b-4abb-b182-37b372a879bc",
+                  "label": "He flies north.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "ed268eb1-690f-45e6-93ae-b0637b419b1a",
+                  "label": "He flie south.",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "f98bf7d5-cd47-4d9d-9b58-e47f388207bc",
+              "question": "7.2 And what can he see?",
+              "options": [
+                {
+                  "id": "6b0b82ca-9f84-4256-8b7e-17487f2ba5eb",
+                  "label": "He can see the Atlantic Ocean.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "946ff3b8-72e1-4a55-acab-c1e5ebebc9cc",
+                  "label": "He can see the Pacific Ocean.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -509,7 +599,7 @@
     },
     {
       "title": "Paragraph 8",
-      "time": "...",
+      "time": "4:26",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -521,24 +611,41 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "Two hours later it starts to rain. Now the sky is black. Soon, Felix can't see the moon or the stars. \"Where am I?\" he thinks. He remembers his warm cage. \"Am I doing the right thing?\" He looks down at the cold sea. Then he sees something. Is it a star in the black water? No, it can't be a star. He looks again. It is a ship!"
+              "text": "Two hours later it starts to rain. Now the sky is black. Soon, Felix can't see the moon or the stars. \"Where am I?\" he thinks. He remembers his warm cage. \"Am I doing the right thing?\" He looks down at the cold sea. Then he sees something. Is it a star in the black water? No, it can't be a star. He looks again. It is a"
+            },
+            {
+              "keyword": "ship",
+              "word": "ship",
+              "wordAudioSrc": "/dictionary/s/ship.mp3"
+            },
+            {
+              "text": "!"
             }
           ]
         }
       ]
     },
     {
+      "id": "d7823a86-0464-4b04-862e-00d2a7f241e0",
       "exercises": [
         {
-          "id": "",
+          "id": "40fcb155-9d10-4718-b274-ad07929d8a10",
           "title": "8. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "8.1 Question",
+              "id": "0eafcd19-2165-4b63-9680-19572fc17cdf",
+              "question": "8.1 What does he see when he looks down at the cold sea?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "a58d8dbe-cda1-4d6f-baab-a1312b91809a",
+                  "label": "He sees a star.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "c4aebbe3-30ae-491b-8fce-1a49502b53f3",
+                  "label": "He sees the ship.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -547,7 +654,7 @@
     },
     {
       "title": "Paragraph 9",
-      "time": "...",
+      "time": "5:16",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -566,17 +673,42 @@
       ]
     },
     {
+      "id": "e98e85c9-ae76-4f9c-8093-9a6d08737e8e",
       "exercises": [
         {
-          "id": "",
+          "id": "665c5719-2cea-4be1-9e18-caf4e5b534ff",
           "title": "9. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "9.1 Question",
+              "id": "c5172cd6-f625-414d-b8a6-c43819dea373",
+              "question": "9.1 How many fish are there on the ship?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "ca4f3fba-7dce-408e-a706-65d8f663781d",
+                  "label": "There are hundreds of fish on it.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "735a2b0b-c795-41e9-9ea3-b0d9d71e0938",
+                  "label": "There are thousands of fish on it.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "28812095-08b8-4e46-b855-1a4d2eb1372f",
+              "question": "9.2 How many fish can he eat in five minutes?",
+              "options": [
+                {
+                  "id": "f83e7f54-3fc5-4c63-86d0-5cf24a384028",
+                  "label": "He eats 20",
+                  "isCorrect": false
+                },
+                {
+                  "id": "a5577b98-ca0d-47e3-b126-1c5904406b83",
+                  "label": "He eats 25.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -585,7 +717,7 @@
     },
     {
       "title": "Paragraph 10",
-      "time": "...",
+      "time": "5:56",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -604,17 +736,42 @@
       ]
     },
     {
+      "id": "432787aa-c8e7-4fa3-a17f-2de95c6bd381",
       "exercises": [
         {
-          "id": "",
+          "id": "595b49b6-605c-4720-8ba3-ca413b1ce168",
           "title": "10. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "10.1 Question",
+              "id": "9b210095-42c6-4896-b574-490e7ffcfefc",
+              "question": "10.1 Where does he fly through next?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "80777e87-4ce9-41de-993e-48969888b6cb",
+                  "label": "He flies through Peru.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "79081057-2686-4bc4-a5f6-d9ac2002c774",
+                  "label": "He flies through Colombia.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "ac1fd0c0-c450-4040-bab9-94f6faa7746a",
+              "question": "10.2 Who does he meet there?",
+              "options": [
+                {
+                  "id": "be6ae362-93c4-4ad6-8e97-8a67de364fc3",
+                  "label": "He sees a small bird with beautiful red and yellow feathers.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "a65543ae-ca4e-4f54-b063-dbbd335dd302",
+                  "label": "He sees a big bird with beautiful black and white feathers.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -623,7 +780,7 @@
     },
     {
       "title": "Paragraph 11",
-      "time": "...",
+      "time": "6:30",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -642,17 +799,26 @@
       ]
     },
     {
+      "id": "8ac9c1c0-5801-44f3-94bd-f9f1bff51ea0",
       "exercises": [
         {
-          "id": "",
+          "id": "88c426fd-b011-42ff-ab16-cce477c6108b",
           "title": "11. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "11.1 Question",
+              "id": "ae3297dc-1b91-47e8-acf3-aa98c95950e5",
+              "question": "11.1 What does the big bird tell Felix?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "d393a9d6-63a1-45e1-ad3c-ba0e05828e86",
+                  "label": "He tells Felix he has a friend in New York.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "97d9f2ab-f2a6-4351-a10c-e847ed914ebb",
+                  "label": "He tells Felix he has a friend in Rio.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -661,7 +827,7 @@
     },
     {
       "title": "Paragraph 12",
-      "time": "...",
+      "time": "7:08",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -680,17 +846,26 @@
       ]
     },
     {
+      "id": "3ee826e8-554f-40d8-894c-ee5caced3f1e",
       "exercises": [
         {
-          "id": "",
+          "id": "96f21768-37b3-454f-b605-fc66ef046d97",
           "title": "12. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "12.1 Question",
+              "id": "6b709a25-003c-4ab0-9929-6bc72b4fa725",
+              "question": "12.1 What does he see when he arrives in Rio?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "02f7e2e0-84e3-407b-b683-53dfe98220cb",
+                  "label": "he sees a lot of people on the beach.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "8cccae58-20fc-4323-9590-dba9f5eaaa92",
+                  "label": "He sees a lot of people in the street.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -699,7 +874,7 @@
     },
     {
       "title": "Paragraph 13",
-      "time": "...",
+      "time": "7:50",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -718,17 +893,18 @@
       ]
     },
     {
+      "id": "6ffc7474-e9d4-46c7-beee-da7c69cee159",
       "exercises": [
         {
-          "id": "",
+          "id": "7cdd9cdb-3ddd-46c0-828e-5b364278e865",
           "title": "13. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "13.1 Question",
+              "id": "34548b24-aa77-451b-9120-4bc91211d7a9",
+              "question": "13.1 Who's Felix looking for?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                { "id": "d93eb42a-e3a0-4920-9db2-90fcbc5f19d8", "label": "He's looking for a bird called Aca.", "isCorrect": true },
+                { "id": "78d554a3-1039-4802-b51b-f4818e32e7da", "label": "He's looking for a boy.", "isCorrect": false }
               ]
             }
           ]
@@ -737,7 +913,7 @@
     },
     {
       "title": "Paragraph 14",
-      "time": "...",
+      "time": "8:34",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -756,26 +932,36 @@
       ]
     },
     {
+      "id": "f29679b7-aa61-4be6-996a-c52b958d382d",
       "exercises": [
         {
-          "id": "",
+          "id": "0444bda3-5d0e-42e9-86ac-dbda52b19777",
           "title": "14. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "14.1 Question",
+              "id": "25e2e484-6ea2-404e-bd65-694e85e47479",
+              "question": "14.1 Where do they fly?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                { "id": "897ead5d-2189-41d0-bbff-28980e82768f", "label": "From Rio to the city.", "isCorrect": false },
+                { "id": "9ef22d57-5319-4352-9866-67d50e6fdb44", "label": "From Rio to the jungle.", "isCorrect": true }
+              ]
+            },
+            {
+              "id": "01a3741c-2247-4cea-ae93-24f1600f45a6",
+              "question": "14.2 What are the men doing?",
+              "options": [
+                { "id": "6725e391-dc22-44ae-9a89-68171312deae", "label": "they're making a new road.", "isCorrect": true },
+                { "id": "f3010edc-7392-49de-b3fc-e964b8d1aa8c", "label": "they're making a new village.", "isCorrect": false }
               ]
             }
+            
           ]
         }
       ]
     },
     {
       "title": "Paragraph 15",
-      "time": "...",
+      "time": "9:10",
       "bgColor": "black",
       "textColor": "white"
     },
@@ -794,17 +980,26 @@
       ]
     },
     {
+      "id": "7adb9d93-9309-47b9-9785-ae250172ac4a",
       "exercises": [
         {
-          "id": "",
+          "id": "6b45b80a-ac79-4019-a0c0-c8b04fdaed6a",
           "title": "15. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "15.1 Question",
+              "id": "294e1a4c-8aa7-427a-83f4-50216f1414c3",
+              "question": "15.1 Can Felix find his family?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "e0e042b3-5b02-4ff5-a461-356d274f2c3f",
+                  "label": "No he can't.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "0a5b3b9b-f1c2-4fe4-84d8-f518b4ed24d1",
+                  "label": "Yes, he can.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
