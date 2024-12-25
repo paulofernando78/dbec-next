@@ -22,14 +22,104 @@
         {
           "paragraphs": [
             {
-              "keyword": "new zealand",
-              "word": "New Zealand",
-              "wordAudioSrc": "/dictionary/n/new-zealand.mp3"
+              "keyword": "adventure",
+              "word": "adventure",
+              "wordAudioSrc": "/dictionary/a/adventure.mp3"
+            },
+            {
+              "keyword": "beach",
+              "word": "beach",
+              "wordAudioSrc": "/dictionary/b/beach.mp3"
+            },
+            {
+              "keyword": "bungy jump",
+              "word": "bungy jump",
+              "wordAudioSrc": "/dictionary/b/bungy-jump.mp3"
+            },
+            {
+              "keyword": "call",
+              "word": "call",
+              "wordAudioSrc": "/dictionary/c/call.mp3"
+            },
+            {
+              "keyword": "cave",
+              "word": "cave",
+              "wordAudioSrc": "/dictionary/.mp3"
             },
             {
               "keyword": "excite",
-              "word": "excite",
-              "wordAudioSrc": "/dictionary/e/excite.mp3"
+              "word": "excited",
+              "wordAudioSrc": "/dictionary/e/excited.mp3"
+            },
+            {
+              "keyword": "glow worm",
+              "word": "glow worm",
+              "wordAudioSrc": "/dictionary/g/glow-worm.mp3"
+            },
+            {
+              "keyword": "island",
+              "word": "island",
+              "wordAudioSrc": "/dictionary/i/island.mp3"
+            },
+            {
+              "keyword": "jump",
+              "word": "jump",
+              "wordAudioSrc": "/dictionary/j/jump.mp3"
+            },
+            {
+              "keyword": "mile",
+              "word": "mile",
+              "wordAudioSrc": "/dictionary/m/mile.mp3"
+            },
+            {
+              "keyword": "message",
+              "word": "message",
+              "wordAudioSrc": "/dictionary/m/message.mp3"
+            },
+            {
+              "keyword": "mobile",
+              "word": "mobile",
+              "wordAudioSrc": "/dictionary/m/mobile.mp3"
+            },
+            {
+              "keyword": "sky",
+              "word": "sky",
+              "wordAudioSrc": "/dictionary/s/sky.mp3"
+            },
+            {
+              "keyword": "south",
+              "word": "south",
+              "wordAudioSrc": "/dictionary/s/south.mp3"
+            },
+            {
+              "keyword": "surprise",
+              "word": "surprise",
+              "wordAudioSrc": "/dictionary/s/surprise.mp3"
+            },
+            {
+              "keyword": "tower",
+              "word": "tower",
+              "wordAudioSrc": "/dictionary/t/tower.mp3"
+            },
+            {
+              "keyword": "wave",
+              "word": "wave",
+              "wordAudioSrc": "/dictionary/w/wave.mp3"
+            },
+            {
+              "keyword": "whale",
+              "word": "whale",
+              "wordAudioSrc": "/dictionary/w/whale.mp3"
+            },
+            {
+              "keyword": "worry",
+              "word": "worry",
+              "wordAudioSrc": "/dictionary/w/worry.mp3"
+            },
+            {
+              "keyword": "new zealand",
+              "word": "New Zealand",
+              "wordAudioSrc": "/dictionary/n/new-zealand.mp3"
             }
           ]
         }
@@ -282,7 +372,6 @@
             {
               "text": "I can find his address,\" she says. \"Yes! His name's Michael. Tomorrow he'<span class=\"underline\">s a</span>t Ninety Mile Beach. We can gi<span class=\"underline\">ve it t</span>o him there.\""
             }
-            
           ]
         }
       ]
@@ -332,7 +421,15 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "The girls wait at Ninety Mile Beach. They eat and watch the buses. The buses aren't driving on a road — they are driving on the long beach. \"Look for Michael!\" Jessica says. But Sarah is looking at the sea. Suddenly, Jessica sees him. \"He's on that bus!\" she says. She waves. Michael waves to her, but the bus doesn't stop."
+              "text": "The girls wait at Ninety Mile Beach. They eat and watch the buses. The buses aren't driving on a road — they are driving on the long beach. \"Look for Michael!\" Jessica says. But Sarah is looking at the sea."
+            },
+            {
+              "keyword": "suddenly",
+              "word": "Suddlenly",
+              "wordAudioSrc": "/dictionary/s/suddenly.mp3"
+            },
+            {
+              "text": ", Jessica sees him. \"He'<span class=\"underline\">s on</span> that bus!\" she says. She waves. Michael waves to her, but the bus doesn'(t) stop."
             }
           ]
         }
@@ -411,8 +508,17 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "The girls get on a bus. \"Can we catch him?\" Jessica asks. \"I don't know,\" Sarah answers. \"I can't see his bus now.\" Suddenly, they hear a beep. Sarah looks at the mobile. \"There's a message for Michael,\" she says. She reads the message. \"It's important,\" she says. \"Perhaps we can find him tomorrow at the Sky Tower in Auckland.\""
+              "text": "The girls ge<span class=\"underline\">t on a</span> bus. \"Can we ca<span class=\"underline\">tch (h)i</span>m?\" Jessica asks. \"I don'(t) know,\" Sarah answers. \"I can'(t) see his bus now.\" Suddenly, they hear a beep. Sarah look<span class=\"underline\">s a</span>t the mobile. \"There'<span class=\"underline\">s a</span> message for Michael,\" she says. She reads the message. \"It'<span class=\"underline\">s i</span>mportant,\" she says. \""
+            },
+            {
+              "keyword": "perhaps",
+              "word": "Perhaps",
+              "wordAudioSrc": "/dictionary/.mp3"
+            },
+            {
+              "text":	"we can fin<span class=\"underline\">d (h)i</span>m tomorrow a(t) the Sky Tower in Auckland."
             }
+            
           ]
         }
       ]
@@ -489,7 +595,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "At the Sky Tower, the girls can't see Michael. \"He isn't here,\" Sarah says. A woman bungy jumps from the tower. \"I can do that,\" she says. \"Are you coming, Jessica?\" \"No,\" Jessica answers. \"But I can watch you from here.\" \"Please watch my bag too,\" Sarah says. She gives her bag to Jessica and she goes up the tower."
+              "text": "At the Sky Tower, the girls can'(t) see Michael. \"He isn'(t) here,\" Sarah says. A woman bungy jumps from the tower. \"I can do that,\" she says. \"Are you coming, Jessica?\" \"No,\" Jessica answers. \"Bu<span class=\"underline\">t I</span> can watch you from here.\" \"Please watch my bag too,\" Sarah says. She gives her bag to Jessica and she go<span class=\"underline\">es u</span>p the tower."
             }
           ]
         }
