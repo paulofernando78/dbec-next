@@ -2,11 +2,9 @@
   "whiteboard": {
     "title": "Extras",
     "subtitle": "Skills",
-    "descriptions": [
-        "Listening",
-        "Audiobooks",
-        "Beginner",
-        "Flying Home"]
+    "descriptions": ["Listening", "Audiobooks", "Beginner", "Flying Home"],
+    "time": "10:13",
+    "uk": true
   },
   "lessons": []
 }

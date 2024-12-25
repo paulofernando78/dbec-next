@@ -1,12 +1,15 @@
 {
-    "whiteboard": {
-      "title": "Extras",
-      "subtitle": "Skills",
-      "descriptions": [
-          "Listening",
-          "Audiobooks",
-          "Beginner",
-          "Who Wants to Be a Star"]
-    },
-    "lessons": []
-  }
+  "whiteboard": {
+    "title": "Extras",
+    "subtitle": "Skills",
+    "descriptions": [
+      "Listening",
+      "Audiobooks",
+      "Beginner",
+      "Who Wants to Be a Star"
+    ],
+    "time": "10:09",
+    "uk": true
+  },
+  "lessons": []
+}

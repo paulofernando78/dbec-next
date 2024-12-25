@@ -6,7 +6,9 @@
         "Listening",
         "Audiobooks",
         "Beginner",
-        "The White Oryx"]
+        "The White Oryx"],
+        "time": "0:00",
+    "uk": true
   },
   "lessons": []
 }

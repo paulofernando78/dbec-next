@@ -1,12 +1,15 @@
 {
-    "whiteboard": {
-      "title": "Extras",
-      "subtitle": "Skills",
-      "descriptions": [
-          "Listening",
-          "Audiobooks",
-          "Beginner",
-          "Simon and the Spy"]
-    },
-    "lessons": []
-  }
+  "whiteboard": {
+    "title": "Extras",
+    "subtitle": "Skills",
+    "descriptions": [
+      "Listening",
+      "Audiobooks",
+      "Beginner",
+      "Simon and the Spy"
+    ],
+    "time": "11:21",
+    "uk": true
+  },
+  "lessons": []
+}
