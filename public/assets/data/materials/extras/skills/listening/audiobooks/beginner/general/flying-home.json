@@ -6,5 +6,804 @@
     "time": "10:13",
     "uk": true
   },
-  "lessons": []
+  "lessons": [
+    {
+      "title": "Pre-vocabulary",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "keyword": "bird ",
+              "word": "bird",
+              "wordAudioSrc": "/dictionary/b/bird.mp3"
+            },
+            {
+              "keyword": "cage",
+              "word": "cage",
+              "wordAudioSrc": "/dictionary/c/cage.mp3"
+            },
+            {
+              "keyword": "city",
+              "word": "city",
+              "wordAudioSrc": "/dictionary/c/city.mp3"
+            },
+            {
+              "keyword": "feather",
+              "word": "feather",
+              "wordAudioSrc": "/dictionary/f/feather.mp3"
+            },
+            {
+              "keyword": "fish",
+              "word": "fish",
+              "wordAudioSrc": "/dictionary/f/fish.mp3"
+            },
+            {
+              "keyword": "fly",
+              "word": "fly",
+              "wordAudioSrc": "/dictionary/f/fly.mp3"
+            },
+            {
+              "keyword": "gray",
+              "word": "gray",
+              "wordAudioSrc": "/dictionary/g/gray.mp3"
+            },
+            {
+              "keyword": "help",
+              "word": "help",
+              "wordAudioSrc": "/dictionary/h/help.mp3"
+            },
+            {
+              "keyword": "hungry",
+              "word": "hungry",
+              "wordAudioSrc": "/dictionary/h/hungry.mp3"
+            },
+            {
+              "keyword": "jungle",
+              "word": "jungle",
+              "wordAudioSrc": "/dictionary/j/jungle.mp3"
+            },
+            {
+              "keyword": "moon",
+              "word": "moon",
+              "wordAudioSrc": "/dictionary/m/moon.mp3"
+            },
+            {
+              "keyword": "ocean",
+              "word": "ocean",
+              "wordAudioSrc": "/dictionary/o/ocean.mp3"
+            },
+            {
+              "keyword": "ship",
+              "word": "ship",
+              "wordAudioSrc": "/dictionary/s/ship.mp3"
+            },
+            {
+              "keyword": "shut",
+              "word": "shut",
+              "wordAudioSrc": "/dictionary/s/shut.mp3"
+            },
+            {
+              "keyword": "sky",
+              "word": "sky",
+              "wordAudioSrc": "/dictionary/s/sky.mp3"
+            },
+            {
+              "keyword": "south",
+              "word": "south",
+              "wordAudioSrc": "/dictionary/s/south.mp3"
+            },
+            {
+              "keyword": "statue",
+              "word": "statue",
+              "wordAudioSrc": "/dictionary/s/statue.mp3"
+            },
+            {
+              "keyword": "village",
+              "word": "village",
+              "wordAudioSrc": "/dictionary/v/village.mp3"
+            },
+            {
+              "keyword": "warm",
+              "word": "warm",
+              "wordAudioSrc": "/dictionary/warm.mp3"
+            },
+            {
+              "keyword": "wing",
+              "word": "wing",
+              "wordAudioSrc": "/dictionary/w/wing.mp3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Summary",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Cover photo",
+          "imgPosition": "left",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Summary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "audioSrc": "/extras/skills/listening/audiobooks/..."
+    },
+    {
+      "title": "Paragraph 1",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 1 photo",
+          "imgPosition": "right",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "",
+      "exercises": [
+        {
+          "id": "",
+          "title": "1. Choose the correct answer.",
+          "radio": [
+            {
+              "id": "",
+              "question": "1.1 Question",
+              "options": [
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 2",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 2 photo",
+          "imgPosition": "left",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "",
+      "exercises": [
+        {
+          "id": "",
+          "title": "2. Choose the correct answer.",
+          "radio": [
+            {
+              "id": "",
+              "question": "2.1 Question",
+              "options": [
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 3",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 3 photo",
+          "imgPosition": "right",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "",
+      "exercises": [
+        {
+          "id": "",
+          "title": "3. Choose the correct answer.",
+          "radio": [
+            {
+              "id": "",
+              "question": "3.1 Question",
+              "options": [
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 4",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 4 photo",
+          "imgPosition": "left",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "",
+      "exercises": [
+        {
+          "id": "",
+          "title": "4. Choose the correct answer.",
+          "radio": [
+            {
+              "id": "",
+              "question": "4.1 Question",
+              "options": [
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 5",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 5 photo",
+          "imgPosition": "right",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercises": [
+        {
+          "id": "",
+          "title": "5. Choose the correct answer.",
+          "radio": [
+            {
+              "id": "",
+              "question": "5.1 Question",
+              "options": [
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 6",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 6 photo",
+          "imgPosition": "left",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercises": [
+        {
+          "id": "",
+          "title": "6. Choose the correct answer.",
+          "radio": [
+            {
+              "id": "",
+              "question": "6.1 Question",
+              "options": [
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 7",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 7 photo",
+          "imgPosition": "right",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 7"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercises": [
+        {
+          "id": "",
+          "title": "7. Choose the correct answer.",
+          "radio": [
+            {
+              "id": "",
+              "question": "7.1 Question",
+              "options": [
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 8",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 8 photo",
+          "imgPosition": "left",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercises": [
+        {
+          "id": "",
+          "title": "8. Choose the correct answer.",
+          "radio": [
+            {
+              "id": "",
+              "question": "8.1 Question",
+              "options": [
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 9",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 9 photo",
+          "imgPosition": "right",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercises": [
+        {
+          "id": "",
+          "title": "9. Choose the correct answer.",
+          "radio": [
+            {
+              "id": "",
+              "question": "9.1 Question",
+              "options": [
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 10",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 10 photo",
+          "imgPosition": "left",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercises": [
+        {
+          "id": "",
+          "title": "10. Choose the correct answer.",
+          "radio": [
+            {
+              "id": "",
+              "question": "10.1 Question",
+              "options": [
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 11",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 11 photo",
+          "imgPosition": "right",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercises": [
+        {
+          "id": "",
+          "title": "11. Choose the correct answer.",
+          "radio": [
+            {
+              "id": "",
+              "question": "11.1 Question",
+              "options": [
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 12",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 12 photo",
+          "imgPosition": "left",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 12"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercises": [
+        {
+          "id": "",
+          "title": "12. Choose the correct answer.",
+          "radio": [
+            {
+              "id": "",
+              "question": "12.1 Question",
+              "options": [
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 13",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 13 photo",
+          "imgPosition": "right",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 13"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercises": [
+        {
+          "id": "",
+          "title": "13. Choose the correct answer.",
+          "radio": [
+            {
+              "id": "",
+              "question": "13.1 Question",
+              "options": [
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 14",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 14 photo",
+          "imgPosition": "left",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercises": [
+        {
+          "id": "",
+          "title": "14. Choose the correct answer.",
+          "radio": [
+            {
+              "id": "",
+              "question": "14.1 Question",
+              "options": [
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Paragraph 15",
+      "time": "...",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "paragraphSections": [
+        {
+          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgAlt": "Paragraph 15 photo",
+          "imgPosition": "right",
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "text": "Paragraph 15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercises": [
+        {
+          "id": "",
+          "title": "15. Choose the correct answer.",
+          "radio": [
+            {
+              "id": "",
+              "question": "15.1 Question",
+              "options": [
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "",
+      "fillInTheBlanks": [
+        {
+          "id": "",
+          "options": true,
+          "width": "65px",
+          "beforeBlank": "1. (+))",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "... .",
+          "lineBreakAfter": true
+        },
+        {
+          "id": "",
+          "options": true,
+          "width": "140px",
+          "beforeBlank": "1.2 (-)",
+          "placeholder": "...",
+          "correctAnswer": ["...", "..."],
+          "afterBlank": "... .",
+          "lineBreakAfter": true
+        },
+        {
+          "id": "",
+          "options": true,
+          "width": "60px",
+          "beforeBlank": "1.3 (?)",
+          "correctAnswer": ["..."],
+          "afterBlank": "..."
+        },
+        {
+          "id": "",
+          "options": true,
+          "width": "90px",
+          "placeholder": "...",
+          "correctAnswer": ["..."],
+          "afterBlank": "... ?",
+          "lineBreakAfter": true
+        }
+      ]
+    }
+  ]
 }
