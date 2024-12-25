@@ -4,8 +4,8 @@
     "subtitle": "Skills",
     "descriptions": ["Listening", "Audiobooks", "Beginner", "..."],
     "time": "00:00",
-    "usa" : true,
-    "uk" : true
+    "usa": true,
+    "uk": true
   },
   "lessons": [
     {
@@ -41,7 +41,9 @@
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Summary"
             }
           ]
@@ -66,7 +68,9 @@
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Paragraph 1"
             }
           ]
@@ -103,12 +107,14 @@
         {
           "imgSrc": "/extras/skills/listening/audiobooks/...",
           "imgAlt": "Paragraph 2 photo",
-          "imgPosition": "left",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Paragraph 2"
             }
           ]
@@ -150,7 +156,9 @@
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Paragraph 3"
             }
           ]
@@ -187,12 +195,14 @@
         {
           "imgSrc": "/extras/skills/listening/audiobooks/...",
           "imgAlt": "Paragraph 4 photo",
-          "imgPosition": "left",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Paragraph 4"
             }
           ]
@@ -234,7 +244,9 @@
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Paragraph 5"
             }
           ]
@@ -270,12 +282,14 @@
         {
           "imgSrc": "/extras/skills/listening/audiobooks/...",
           "imgAlt": "Paragraph 6 photo",
-          "imgPosition": "left",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Paragraph 6"
             }
           ]
@@ -316,7 +330,9 @@
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Paragraph 7"
             }
           ]
@@ -352,12 +368,14 @@
         {
           "imgSrc": "/extras/skills/listening/audiobooks/...",
           "imgAlt": "Paragraph 8 photo",
-          "imgPosition": "left",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Paragraph 8"
             }
           ]
@@ -398,7 +416,9 @@
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Paragraph 9"
             }
           ]
@@ -434,12 +454,14 @@
         {
           "imgSrc": "/extras/skills/listening/audiobooks/...",
           "imgAlt": "Paragraph 10 photo",
-          "imgPosition": "left",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Paragraph 10"
             }
           ]
@@ -480,7 +502,9 @@
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Paragraph 11"
             }
           ]
@@ -516,12 +540,14 @@
         {
           "imgSrc": "/extras/skills/listening/audiobooks/...",
           "imgAlt": "Paragraph 12 photo",
-          "imgPosition": "left",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Paragraph 12"
             }
           ]
@@ -562,7 +588,9 @@
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Paragraph 13"
             }
           ]
@@ -598,12 +626,14 @@
         {
           "imgSrc": "/extras/skills/listening/audiobooks/...",
           "imgAlt": "Paragraph 14 photo",
-          "imgPosition": "left",
+          "imgPosition": "right",
           "paragraphs": [
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Paragraph 14"
             }
           ]
@@ -644,7 +674,9 @@
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
               "text": "Paragraph 15"
             }
           ]
