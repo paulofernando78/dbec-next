@@ -22,9 +22,69 @@
         {
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
+              "keyword": "above",
+              "word": "above",
+              "wordAudioSrc": "/dictionary/a/above.mp3"
+            },
+            {
+              "keyword": "asleep",
+              "word": "asleep",
+              "wordAudioSrc": "/dictionary/a/asleep.mp3"
+            },
+            {
+              "keyword": "bottle",
+              "word": "bottle",
+              "wordAudioSrc": "/dictionary/b/bottle.mp3"
+            },
+            {
+              "keyword": "corner",
+              "word": "corner",
+              "wordAudioSrc": "/dictionary/c/corner.mp3"
+            },
+            {
+              "keyword": "diamond",
+              "word": "diamond",
               "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
+              "keyword": "expensive",
+              "word": "expenive",
+              "wordAudioSrc": "/dictionary/e/expensive.mp3"
+            },
+            {
+              "keyword": "mirror",
+              "word": "",
+              "wordAudioSrc": "/dictionary/.mp3"
+            },
+            {
+              "keyword": "mouth",
+              "word": "mouth",
+              "wordAudioSrc": "/dictionary/m/mouth.mp3"
+            },
+            {
+              "keyword": "neck",
+              "word": "neck",
+              "wordAudioSrc": "/dictionary/n/neck.mp3"
+            },
+            {
+              "keyword": "ring",
+              "word": "ring",
+              "wordAudioSrc": "/dictionary/r/ring.mp3"
+            },
+            {
+              "keyword": "soap",
+              "word": "soap",
+              "wordAudioSrc": "/dictionary/s/soap.mp3"
+            },
+            {
+              "keyword": "steal",
+              "word": "steal",
+              "wordAudioSrc": "/dictionary/s/steal.mp3"
+            },
+            {
+              "keyword": "thieves",
+              "word": "steal",
+              "wordAudioSrc": "/dictionary/t/thieves.mp3"
             }
           ]
         }
@@ -72,18 +132,74 @@
       ]
     },
     {
-      "id": "",
+      "id": "d6d203e2-524e-4ebe-8a4e-c138a47cbf51",
       "exercises": [
         {
-          "id": "",
+          "id": "077cf055-10d4-4e35-abaa-b8afb056718d",
           "title": "1. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "1.1 Question",
+              "id": "d03b9215-0eab-4b2d-a0a0-d206d44e9258",
+              "question": "1.1 Where's Marcel from?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "120b6936-b1c1-4885-a160-ca7ed22f7bb7",
+                  "label": "He's from England.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2e4d6401-3ada-4f37-82d6-b7d78d50898c",
+                  "label": "He's from France.",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "aea70760-dfc0-48c7-8789-a396e5c37517",
+              "question": "1.2 What's his nationality?",
+              "options": [
+                {
+                  "id": "c52d5582-f929-4fa6-b2d7-afd089db7fa3",
+                  "label": "He's French.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "4231b6a8-932e-46ad-b868-64b3a24e3eff",
+                  "label": "He's English.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "a0b54125-e6dd-408c-ac16-da6148015664",
+              "question": "1.3 Where does he live?",
+              "options": [
+                {
+                  "id": "06a5781e-e459-4650-b612-4ed8261cb394",
+                  "label": "He lives on a beautiful old house in Paris.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "d6d79f56-26c6-4c97-b1a6-ee72b8c2a295",
+                  "label": "He lives on a beautiful old boat in Paris.",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "f25ab357-2e1d-460e-84ca-13c854763ae5",
+              "question": "1.4 What does he do?",
+              "options": [
+                {
+                  "id": "8cc7ab5b-faa5-4296-b9fa-23647ee28509",
+                  "label": "He's a detective.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "71a8705d-e6e9-43e7-a93e-ffc41338e883",
+                  "label": "He's a police officer.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
