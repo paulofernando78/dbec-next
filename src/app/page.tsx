@@ -18,6 +18,7 @@ import {
 } from "@/img/index";
 import { Login } from "@/components/Molecules/Inputs/Login";
 import Link from "next/link";
+import Iframe from "@/components/Atoms/Iframe";
 
 const card1 = [{ text: "Aula individual ou em grupo." }];
 const card2 = [
@@ -29,7 +30,7 @@ const card3 = [{ text: "Material como áudios, vídeos e exercícios online." }]
 
 export default function Home() {
   return (
-    <>
+    <>    
       <Link href="/materials">
         <p>Login</p>
       </Link>

@@ -70,7 +70,7 @@ const ExerciseItem = ({exercise}:{exercise:Exercise}) => {
                 const isChecked=selectedOption[idpp] === option.label
                 return (
                   <label key={optionIndex} className="radio-checkbox-flex">
-                    <div className="radio-checkbox-container">
+                    <div className="radio-checkbox-container position-relative">
                       <input
                         type="radio"
                         name={`radio-${idpp}`} // Grouping inputs for the same question
@@ -93,7 +93,6 @@ const ExerciseItem = ({exercise}:{exercise:Exercise}) => {
                     {" "}
                     {/* Only show the feedback icon for the selected option */}
                     {showFeedback && isChecked && (
-                       <span className="icon-position">
                           <Image
                             src={
                               option.isCorrect
@@ -103,15 +102,14 @@ const ExerciseItem = ({exercise}:{exercise:Exercise}) => {
                             alt={
                               option.isCorrect ? "Correct icon" : "Incorrect icon"
                             }
-                            width={27}
-                            height={27}
-                            className={
+                            width={22}
+                            height={22}
+                            className={`${
                               isChecked
                                 ? ""
                                 : "hidden" // Hide icons for unselected options
-                            }
+                            } icon-position`}
                           />
-                       </span>
                       )}
                     </p>
   

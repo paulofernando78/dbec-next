@@ -227,18 +227,26 @@
       ]
     },
     {
-      "id": "",
+      "id": "c6df77ec-007f-4e0f-8f5b-a0fc724fcfef",
       "exercises": [
         {
-          "id": "",
+          "id": "b1d1a6a3-48ff-48f2-9ac4-91cfb11f2ead",
           "title": "2. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "2.1 Question",
+              "id": "7d9bfca5-3112-43e3-aa98-026fdf1d9c3a",
+              "question": "2.1 What does Marcel see at the station?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "6a9532c6-91e0-4a6e-b405-d52dead66767",
+                  "label": "He sees two tall men.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "52f9f4ef-03e5-4137-b83d-8d58c186c039",
+                  "label": "He sees two men. One is tall and the other is short.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -266,18 +274,26 @@
       ]
     },
     {
-      "id": "",
+      "id": "0697a321-dd26-44c7-8413-e42f931b7d8c",
       "exercises": [
         {
-          "id": "",
+          "id": "a36998dd-3c24-4070-b25f-fec93d0a30a9",
           "title": "3. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "3.1 Question",
+              "id": "fe439068-c087-4f39-b338-edc2084bfa1d",
+              "question": "3.1 What are the men's plan?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "829dc5c2-6651-452c-9145-1de36b57cee2",
+                  "label": "They're going to steal Zaza Dupont's diamond.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "6af8fc53-8dab-4636-9b7f-45ec177c45cd",
+                  "label": "They're going to steal Zaza Dupont's dress.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -305,18 +321,42 @@
       ]
     },
     {
-      "id": "",
+      "id": "953be2e0-f335-4280-b0d9-212b6e7f6584",
       "exercises": [
         {
-          "id": "",
+          "id": "fb247b36-8147-4bd9-a314-fee9788870e8",
           "title": "4. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "4.1 Question",
+              "id": "49509011-07ef-4c2c-937e-a0118c283000",
+              "question": "4.1 Where do Marcel get off?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "ac6fe3bd-e062-4974-98d3-b61ae3cfc208",
+                  "label": "He gets off at Louvre station.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "c6520500-d74a-4201-a929-848753284315",
+                  "label": "He gets off at La Mouette station.",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "f87934b5-e776-4394-b517-b4e67b191b2c",
+              "question": "4.2 Why is Zaza Dupont calling the police?",
+              "options": [
+                {
+                  "id": "76dc5225-6e41-4cf3-8310-da119666e72c",
+                  "label": "Because she's singing on the phone.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "2b1088da-c967-4426-bb8c-f48e96f475fa",
+                  "label": "Because the thieves have got the Wite Star.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -344,18 +384,42 @@
       ]
     },
     {
-      "id": "",
+      "id": "4f3a9693-c123-436d-aa2e-db34f3c9b1c5",
       "exercises": [
         {
-          "id": "",
+          "id": "4cc42263-7244-442a-b827-1e0d6b20c0c3",
           "title": "5. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "5.1 Question",
+              "id": "d44da49c-732e-4165-9402-6ee53e10c666",
+              "question": "5.1 What do the men also steal?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "b943c297-33e2-4eff-a91a-28f193d60e96",
+                  "label": "They steal a bus.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "dacfe315-2f1b-434c-b761-cbf909277445",
+                  "label": "They steal a car.",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "7bc86fde-820d-40f5-8d31-620fe3b4c7c0",
+              "question": "5.2 Does Marcel follow them?",
+              "options": [
+                {
+                  "id": "da016190-5707-44b0-8f97-5461468efb25",
+                  "label": "Yes, he does.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "7350ca8a-b17a-4f85-a2b6-09786ca1380d",
+                  "label": "No, he doesn't.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -383,18 +447,42 @@
       ]
     },
     {
-      "id": "",
+      "id": "5704ee4e-2b64-4f71-9dff-50007c38d0eb",
       "exercises": [
         {
-          "id": "",
+          "id": "109aab1c-fb0b-416e-b9eb-bdfe01157198",
           "title": "6. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "6.1 Question",
+              "id": "8c4839b2-97b6-4873-b789-c110f0947ea4",
+              "question": "6.1 How long do the thieves drive for?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "56afe099-854b-43b2-8dd1-c59422a46f63",
+                  "label": "They drive for half an hour.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "93cc9d0a-5902-41b0-95ec-0659b012ccfb",
+                  "label": "They drive for an hour.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "010f8478-d238-4bb9-b0a1-de2c300e3859",
+              "question": "6.2 Where does the car stop?",
+              "options": [
+                {
+                  "id": "f766b24d-77f0-4f4c-a1cf-994725f6be0f",
+                  "label": "The car stops next to a shop.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4cf8ddb0-98a6-4849-b2b2-2f32089d770f",
+                  "label": "The car stops next to a café.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -430,10 +518,18 @@
           "radio": [
             {
               "id": "",
-              "question": "7.1 Question",
+              "question": "7.1 In the café, where does Marcel sit?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "",
+                  "label": "He sits on the chair.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "He sits under the table.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -460,18 +556,42 @@
       ]
     },
     {
-      "id": "",
+      "id": "ccbd140e-e2e4-48fe-a71a-23b1a8d2921a",
       "exercises": [
         {
-          "id": "",
+          "id": "8c7cf0d0-0313-4420-b195-2b506ebd8be3",
           "title": "8. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "8.1 Question",
+              "id": "86e7b36b-fe2f-440f-b68a-2f71223a2238",
+              "question": "8.1 what does Marcel do to get the diamond ring?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "d65c65d2-6189-48dd-a5fe-ffb6a4447253",
+                  "label": "He bites the tall man's leg.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "1bdbda32-9806-46d7-b22a-8bc952046ba4",
+                  "label": "He talks to the tall man.",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "fd123a7e-93e5-48d9-baed-a9569814df57",
+              "question": "8.1 How does Marcel carry the ring?",
+              "options": [
+                {
+                  "id": "3703c02e-a210-40b4-9f5a-61a16d86cb30",
+                  "label": "He puts the White Star under his arm.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "a83da5c4-21a9-4fe8-a82b-3b7549d313a7",
+                  "label": "He puts the White Star around his neck.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -501,18 +621,18 @@
       "imgAlt": "Paragraph 8-9 illustration"
     },
     {
-      "id": "",
+      "id": "2d29a9c5-7716-411c-a5b7-2b4950b0ff04",
       "exercises": [
         {
-          "id": "",
+          "id": "26000efc-21f9-49cd-aeb6-33c24405a89f",
           "title": "9. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "9.1 Question",
+              "id": "83e517cb-676e-43aa-ae8c-c1646be35eb2",
+              "question": "9.1 Can Marcel escape the café?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                { "id": "ee2cd458-10c0-4385-89ca-2ff7f8f3156d", "label": "Yes, he can.", "isCorrect": true },
+                { "id": "14f1e468-5cb7-4f8f-87f5-b061a17b95d9", "label": "No, he can't.", "isCorrect": false }
               ]
             }
           ]
