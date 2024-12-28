@@ -83,7 +83,7 @@
             },
             {
               "keyword": "thieves",
-              "word": "steal",
+              "word": "thieves",
               "wordAudioSrc": "/dictionary/t/thieves.mp3"
             }
           ]
@@ -631,8 +631,16 @@
               "id": "83e517cb-676e-43aa-ae8c-c1646be35eb2",
               "question": "9.1 Can Marcel escape the café?",
               "options": [
-                { "id": "ee2cd458-10c0-4385-89ca-2ff7f8f3156d", "label": "Yes, he can.", "isCorrect": true },
-                { "id": "14f1e468-5cb7-4f8f-87f5-b061a17b95d9", "label": "No, he can't.", "isCorrect": false }
+                {
+                  "id": "ee2cd458-10c0-4385-89ca-2ff7f8f3156d",
+                  "label": "Yes, he can.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "14f1e468-5cb7-4f8f-87f5-b061a17b95d9",
+                  "label": "No, he can't.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -660,18 +668,26 @@
       ]
     },
     {
-      "id": "",
+      "id": "c6d1aa51-67a5-4413-9cc6-760fd760af26",
       "exercises": [
         {
-          "id": "",
+          "id": "466adc3b-383a-403b-9c49-fdc9864a424f",
           "title": "10. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "10.1 Question",
+              "id": "974600cb-554a-481c-b55c-b86e7ec991b3",
+              "question": "10.1 How long does Marcel run?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "5ef06e09-02c2-41d3-bbad-f36dce29ab2b",
+                  "label": "He runs for 1 minute.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "ba61fc78-10e2-408f-88e0-a65678f80ead",
+                  "label": "He runs for 10 minutes.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -699,18 +715,42 @@
       ]
     },
     {
-      "id": "",
+      "id": "d720c62b-bf54-47a9-8123-74525f1cbb45",
       "exercises": [
         {
-          "id": "",
+          "id": "e3a360e6-ba06-474d-8e38-c9f453190f96",
           "title": "11. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "11.1 Question",
+              "id": "af19911f-ff96-479e-b362-790644559b94",
+              "question": "11.1 What's next to the window?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "f4f35425-89a7-4671-9cd0-f79bbce20d1d",
+                  "label": "It's a bed.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "aca13cf0-13cf-4555-a50b-5abf0fbd3ef8",
+                  "label": "It's a table.",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "670d2c34-dcea-4e3d-a717-7d69da9aaff6",
+              "question": "11.1 How does he get to the table?",
+              "options": [
+                {
+                  "id": "de85852e-3ee9-4932-95dc-f9332eba6b31",
+                  "label": "He goes up one leg of the table.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "5fde88ce-090a-470f-8bb7-abdd5b5cf706",
+                  "label": "He jumps on the table.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -738,18 +778,26 @@
       ]
     },
     {
-      "id": "",
+      "id": "f9a5642b-4745-4f84-a73c-11f4a78b2869",
       "exercises": [
         {
-          "id": "",
+          "id": "5e9101a6-8179-4342-8bba-c33050bf52f7",
           "title": "12. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "12.1 Question",
+              "id": "e81fb3f2-c357-4d90-a698-55277894a7ec",
+              "question": "12.1 How does the ring come off his neck?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "e50af003-e9da-4763-a6ac-327bc9d37629",
+                  "label": "He uses oil.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "d65a0940-44d8-4ef8-8314-61add11db3a3",
+                  "label": "He uses a soap.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -777,18 +825,26 @@
       ]
     },
     {
-      "id": "",
+      "id": "2d711c79-0007-4ffc-8e93-0a966dc1fe9c",
       "exercises": [
         {
-          "id": "",
+          "id": "4aded92d-ad6a-4ec6-97cc-761e336bc89f",
           "title": "13. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "13.1 Question",
+              "id": "ff0f99ed-6f78-445f-9ba3-cd22cf825656",
+              "question": "13.1 What does Zaza Dupont do after she finds out the ring is back?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "ca5426f5-7be4-418a-b13e-c0db4f3d0bb8",
+                  "label": "She calls the police.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "c9341f84-0c7a-48ac-bfe9-c101d6d22718",
+                  "label": "She calls the thieves.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -815,18 +871,26 @@
       ]
     },
     {
-      "id": "",
+      "id": "09948eb9-2fd9-4a6e-b471-7bfc24a51d45",
       "exercises": [
         {
-          "id": "",
+          "id": "5889bce9-29c1-4f0c-8636-d08c5b716e58",
           "title": "14. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "14.1 Question",
+              "id": "c1bac79e-a50b-4b01-974c-44a42d0a2aae",
+              "question": "14.1 How much is the diamond ring?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "d6d68831-f7a5-43ae-97cc-5ebdb16fbca2",
+                  "label": "It's $1,000,000.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "07a8878a-2e0e-4bdf-861c-570ecfa125ad",
+                  "label": "It's £1,000,000 (pounds).",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -864,11 +928,35 @@
           "title": "15. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "15.1 Question",
+              "id": "5e528b22-ab15-4574-a022-77ac3f8995ac",
+              "question": "15.1 What does Marcel do when he gets back to the boat?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false }
+                {
+                  "id": "a7f15f2e-002b-4052-9ca9-14687fab827c",
+                  "label": "He reads a magazine.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "a73da13f-c8ec-438e-8af7-2f201f8555f2",
+                  "label": "He reached the newspaper stories.",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "6cdf487f-1fdb-4ce3-97d8-1ae0d1329b63",
+              "question": "15.2 What does he see on the mirror?",
+              "options": [
+                {
+                  "id": "9eec24bd-4bbe-43d4-8f5c-36d288afded0",
+                  "label": "He sees a thick, red line on his neck.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "24215bde-23b2-4dd1-bac8-dcc016ce4244",
+                  "label": "He sees a thin, red line on his neck.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
