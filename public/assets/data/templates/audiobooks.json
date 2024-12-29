@@ -9,24 +9,6 @@
   },
   "lessons": [
     {
-      "title": "Pre-vocabulary",
-      "bgColor": "black",
-      "textColor": "white"
-    },
-    {
-      "paragraphSections": [
-        {
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "Summary",
       "bgColor": "black",
       "textColor": "white"

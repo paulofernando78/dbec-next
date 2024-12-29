@@ -643,15 +643,15 @@
               "id": "9c3f3e72-433a-4b98-b7e0-83a4bb9ec91d",
               "question": "11.2 Where does Marcel go to escape the cats?",
               "options": [
-                { 
-                  "id": "b2371be7-b44f-4aa3-b3c0-073d6d3c3766", 
-                  "label": "He climbs up a red curtain.", 
-                  "isCorrect": true 
+                {
+                  "id": "b2371be7-b44f-4aa3-b3c0-073d6d3c3766",
+                  "label": "He climbs up a red curtain.",
+                  "isCorrect": true
                 },
-                { 
-                  "id": "d91dfebf-3f8b-4c3b-921b-52ac7696a53b", 
-                  "label": "He hides under a table.", 
-                  "isCorrect": false 
+                {
+                  "id": "d91dfebf-3f8b-4c3b-921b-52ac7696a53b",
+                  "label": "He hides under a table.",
+                  "isCorrect": false
                 }
               ]
             },
@@ -659,15 +659,15 @@
               "id": "3a9d9c6e-812c-40bc-9097-4edc9d2b3bb7",
               "question": "11.1 What makes Marcel go cold?",
               "options": [
-                { 
-                  "id": "d74bbde9-bf04-45f6-93b4-b0f8ff8a3542", 
-                  "label": "Seeing all the cats in the room.", 
-                  "isCorrect": true 
+                {
+                  "id": "d74bbde9-bf04-45f6-93b4-b0f8ff8a3542",
+                  "label": "Seeing all the cats in the room.",
+                  "isCorrect": true
                 },
-                { 
-                  "id": "83e1e1a6-9058-4c5c-bad1-1f0f0840f012", 
-                  "label": "Hearing Henri's voice.", 
-                  "isCorrect": false 
+                {
+                  "id": "83e1e1a6-9058-4c5c-bad1-1f0f0840f012",
+                  "label": "Hearing Henri's voice.",
+                  "isCorrect": false
                 }
               ]
             }
@@ -706,15 +706,15 @@
               "id": "9c3f3e72-433a-4b98-b7e0-83a4bb9ec92d",
               "question": "12.1 What does Marcel do to stop the cat?",
               "options": [
-                { 
-                  "id": "d91dfebf-3f8b-4c3b-921b-52ac7696a53d", 
-                  "label": "He hides behind a chair.", 
-                  "isCorrect": false 
+                {
+                  "id": "d91dfebf-3f8b-4c3b-921b-52ac7696a53d",
+                  "label": "He hides behind a chair.",
+                  "isCorrect": false
                 },
-                { 
-                  "id": "b2371be7-b44f-4aa3-b3c0-073d6d3c3766", 
-                  "label": "He pushes two candles off the bookcase.", 
-                  "isCorrect": true 
+                {
+                  "id": "b2371be7-b44f-4aa3-b3c0-073d6d3c3766",
+                  "label": "He pushes two candles off the bookcase.",
+                  "isCorrect": true
                 }
               ]
             },
@@ -722,15 +722,15 @@
               "id": "3a9d9c6e-812c-40bc-9097-4edc9d2b3bb8",
               "question": "12.2 What sound does Marcel hear after pushing the candles?",
               "options": [
-                { 
-                  "id": "d74bbde9-bf04-45f6-93b4-b0f8ff8a3543", 
-                  "label": "A loud 'Yee•owwwww!'", 
-                  "isCorrect": true 
+                {
+                  "id": "d74bbde9-bf04-45f6-93b4-b0f8ff8a3543",
+                  "label": "A loud 'Yee•owwwww!'",
+                  "isCorrect": true
                 },
-                { 
-                  "id": "83e1e1a6-9058-4c5c-bad1-1f0f0840f013", 
-                  "label": "The sound of a door slamming.", 
-                  "isCorrect": false 
+                {
+                  "id": "83e1e1a6-9058-4c5c-bad1-1f0f0840f013",
+                  "label": "The sound of a door slamming.",
+                  "isCorrect": false
                 }
               ]
             }
@@ -769,15 +769,15 @@
               "id": "9c3f3e72-433a-4b98-b7e0-83a4bb9ec93d",
               "question": "13.1 What does Henri notice in the room?",
               "options": [
-                { 
-                  "id": "b2371be7-b44f-4aa3-b3c0-073d6d3c3767", 
-                  "label": "The carpet is on fire.", 
-                  "isCorrect": true 
+                {
+                  "id": "b2371be7-b44f-4aa3-b3c0-073d6d3c3767",
+                  "label": "The carpet is on fire.",
+                  "isCorrect": true
                 },
-                { 
-                  "id": "d91dfebf-3f8b-4c3b-921b-52ac7696a53f", 
-                  "label": "The Mona Lisa is missing.", 
-                  "isCorrect": false 
+                {
+                  "id": "d91dfebf-3f8b-4c3b-921b-52ac7696a53f",
+                  "label": "The Mona Lisa is missing.",
+                  "isCorrect": false
                 }
               ]
             },
@@ -785,15 +785,15 @@
               "id": "3a9d9c6e-812c-40bc-9097-4edc9d2b3bb9",
               "question": "13.2 What does Marcel do after noticing the fire?",
               "options": [
-                { 
-                  "id": "83e1e1a6-9058-4c5c-bad1-1f0f0840f014", 
-                  "label": "He hides himself behind te bookcase..", 
-                  "isCorrect": false 
+                {
+                  "id": "83e1e1a6-9058-4c5c-bad1-1f0f0840f014",
+                  "label": "He hides himself behind te bookcase..",
+                  "isCorrect": false
                 },
-                { 
-                  "id": "d74bbde9-bf04-45f6-93b4-b0f8ff8a3544", 
-                  "label": "He runs down the curtain, grabs the Mona Lisa, and runs out of the room.", 
-                  "isCorrect": true 
+                {
+                  "id": "d74bbde9-bf04-45f6-93b4-b0f8ff8a3544",
+                  "label": "He runs down the curtain, grabs the Mona Lisa, and runs out of the room.",
+                  "isCorrect": true
                 }
               ]
             }
@@ -832,15 +832,15 @@
               "id": "9c3f3e72-433a-4b98-b7e0-83a4bb9ec94d",
               "question": "14.1 Where does Marcel stop after running for a long time?",
               "options": [
-                { 
-                  "id": "d91dfebf-3f8b-4c3b-921b-52ac7696a53g", 
-                  "label": "In a quiet park.", 
-                  "isCorrect": false 
+                {
+                  "id": "d91dfebf-3f8b-4c3b-921b-52ac7696a53g",
+                  "label": "In a quiet park.",
+                  "isCorrect": false
                 },
-                { 
-                  "id": "b2371be7-b44f-4aa3-b3c0-073d6d3c3768", 
-                  "label": "In front of a police station.", 
-                  "isCorrect": true 
+                {
+                  "id": "b2371be7-b44f-4aa3-b3c0-073d6d3c3768",
+                  "label": "In front of a police station.",
+                  "isCorrect": true
                 }
               ]
             },
@@ -848,15 +848,15 @@
               "id": "3a9d9c6e-812c-40bc-9097-4edc9d2b3bba",
               "question": "14.2 What does Marcel do with the Mona Lisa?",
               "options": [
-                { 
-                  "id": "83e1e1a6-9058-4c5c-bad1-1f0f0840f015", 
-                  "label": "He takes home.", 
-                  "isCorrect": false 
+                {
+                  "id": "83e1e1a6-9058-4c5c-bad1-1f0f0840f015",
+                  "label": "He takes home.",
+                  "isCorrect": false
                 },
-                { 
-                  "id": "d74bbde9-bf04-45f6-93b4-b0f8ff8a3545", 
-                  "label": "He pushes it through a letter-box.", 
-                  "isCorrect": true 
+                {
+                  "id": "d74bbde9-bf04-45f6-93b4-b0f8ff8a3545",
+                  "label": "He pushes it through a letter-box.",
+                  "isCorrect": true
                 }
               ]
             }
@@ -895,15 +895,15 @@
               "id": "9c3f3e72-433a-4b98-b7e0-83a4bb9ec95e",
               "question": "15.1 What does Marcel see in the newspaper?",
               "options": [
-                { 
-                  "id": "d91dfebf-3f8b-4c3b-921b-52ac7696a53h", 
-                  "label": "The Mona Lisa has been sold to a private collector.", 
-                  "isCorrect": false 
+                {
+                  "id": "d91dfebf-3f8b-4c3b-921b-52ac7696a53h",
+                  "label": "The Mona Lisa has been sold to a private collector.",
+                  "isCorrect": false
                 },
-                { 
-                  "id": "b2371be7-b44f-4aa3-b3c0-073d6d3c3769", 
-                  "label": "The Mona Lisa has been found by the Italian police.", 
-                  "isCorrect": true 
+                {
+                  "id": "b2371be7-b44f-4aa3-b3c0-073d6d3c3769",
+                  "label": "The Mona Lisa has been found by the Italian police.",
+                  "isCorrect": true
                 }
               ]
             },
@@ -911,15 +911,15 @@
               "id": "3a9d9c6e-812c-40bc-9097-4edc9d2b3bbb",
               "question": "15.2 How does Céline react when Marcel tells her everything?",
               "options": [
-                { 
-                  "id": "d74bbde9-bf04-45f6-93b4-b0f8ff8a3546", 
-                  "label": "She is surprised and asks if Marcel is all right.", 
-                  "isCorrect": true 
+                {
+                  "id": "d74bbde9-bf04-45f6-93b4-b0f8ff8a3546",
+                  "label": "She is surprised and asks if Marcel is all right.",
+                  "isCorrect": true
                 },
-                { 
-                  "id": "83e1e1a6-9058-4c5c-bad1-1f0f0840f016", 
-                  "label": "She laughs and says it was all a dream.", 
-                  "isCorrect": false 
+                {
+                  "id": "83e1e1a6-9058-4c5c-bad1-1f0f0840f016",
+                  "label": "She laughs and says it was all a dream.",
+                  "isCorrect": false
                 }
               ]
             }
