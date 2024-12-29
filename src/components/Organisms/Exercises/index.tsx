@@ -64,7 +64,8 @@ const ExerciseItem = ({exercise}:{exercise:Exercise}) => {
           {/* Radio */}
           {exercise.radio?.map((radioItem, radioIndex) => (
             <div key={radioIndex}>
-              <p dangerouslySetInnerHTML={{ __html: radioItem.question}}></p>
+              <p dangerouslySetInnerHTML={{ __html: radioItem.question}} className="display-inline"></p>{" "}
+              <p className="display-inline portuguese">{radioItem.questionPt}</p>
               {radioItem.options.map((option, optionIndex) => {
                 const idpp=`${exercise.id}-${radioItem.id}`
                 const isChecked=selectedOption[idpp] === option.label

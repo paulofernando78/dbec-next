@@ -8,119 +8,6 @@
   },
   "lessons": [
     {
-      "title": "Pre-vocabulary",
-      "bgColor": "black",
-      "textColor": "white"
-    },
-    {
-      "paragraphSections": [
-        {
-          "paragraphs": [
-            {
-              "keyword": "bird ",
-              "word": "bird",
-              "wordAudioSrc": "/dictionary/b/bird.mp3"
-            },
-            {
-              "keyword": "cage",
-              "word": "cage",
-              "wordAudioSrc": "/dictionary/c/cage.mp3"
-            },
-            {
-              "keyword": "city",
-              "word": "city",
-              "wordAudioSrc": "/dictionary/c/city.mp3"
-            },
-            {
-              "keyword": "feather",
-              "word": "feather",
-              "wordAudioSrc": "/dictionary/f/feather.mp3"
-            },
-            {
-              "keyword": "fish",
-              "word": "fish",
-              "wordAudioSrc": "/dictionary/f/fish.mp3"
-            },
-            {
-              "keyword": "fly",
-              "word": "fly",
-              "wordAudioSrc": "/dictionary/f/fly.mp3"
-            },
-            {
-              "keyword": "gray",
-              "word": "gray",
-              "wordAudioSrc": "/dictionary/g/gray.mp3"
-            },
-            {
-              "keyword": "help",
-              "word": "help",
-              "wordAudioSrc": "/dictionary/h/help.mp3"
-            },
-            {
-              "keyword": "hungry",
-              "word": "hungry",
-              "wordAudioSrc": "/dictionary/h/hungry.mp3"
-            },
-            {
-              "keyword": "jungle",
-              "word": "jungle",
-              "wordAudioSrc": "/dictionary/j/jungle.mp3"
-            },
-            {
-              "keyword": "moon",
-              "word": "moon",
-              "wordAudioSrc": "/dictionary/m/moon.mp3"
-            },
-            {
-              "keyword": "ocean",
-              "word": "ocean",
-              "wordAudioSrc": "/dictionary/o/ocean.mp3"
-            },
-            {
-              "keyword": "ship",
-              "word": "ship",
-              "wordAudioSrc": "/dictionary/s/ship.mp3"
-            },
-            {
-              "keyword": "shut",
-              "word": "shut",
-              "wordAudioSrc": "/dictionary/s/shut.mp3"
-            },
-            {
-              "keyword": "sky",
-              "word": "sky",
-              "wordAudioSrc": "/dictionary/s/sky.mp3"
-            },
-            {
-              "keyword": "south",
-              "word": "south",
-              "wordAudioSrc": "/dictionary/s/south.mp3"
-            },
-            {
-              "keyword": "statue",
-              "word": "statue",
-              "wordAudioSrc": "/dictionary/s/statue.mp3"
-            },
-            {
-              "keyword": "village",
-              "word": "village",
-              "wordAudioSrc": "/dictionary/v/village.mp3"
-            },
-            {
-              "keyword": "warm",
-              "word": "warm",
-              "wordAudioSrc": "/dictionary/warm.mp3"
-            },
-            {
-              "keyword": "wing",
-              "word": "wing",
-              "wordAudioSrc": "/dictionary/w/wing.mp3"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "Summary",
       "bgColor": "black",
       "textColor": "white"
@@ -903,8 +790,16 @@
               "id": "34548b24-aa77-451b-9120-4bc91211d7a9",
               "question": "13.1 Who's Felix looking for?",
               "options": [
-                { "id": "d93eb42a-e3a0-4920-9db2-90fcbc5f19d8", "label": "He's looking for a bird called Aca.", "isCorrect": true },
-                { "id": "78d554a3-1039-4802-b51b-f4818e32e7da", "label": "He's looking for a boy.", "isCorrect": false }
+                {
+                  "id": "d93eb42a-e3a0-4920-9db2-90fcbc5f19d8",
+                  "label": "He's looking for a bird called Aca.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "78d554a3-1039-4802-b51b-f4818e32e7da",
+                  "label": "He's looking for a boy.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -942,19 +837,34 @@
               "id": "25e2e484-6ea2-404e-bd65-694e85e47479",
               "question": "14.1 Where do they fly?",
               "options": [
-                { "id": "897ead5d-2189-41d0-bbff-28980e82768f", "label": "From Rio to the city.", "isCorrect": false },
-                { "id": "9ef22d57-5319-4352-9866-67d50e6fdb44", "label": "From Rio to the jungle.", "isCorrect": true }
+                {
+                  "id": "897ead5d-2189-41d0-bbff-28980e82768f",
+                  "label": "From Rio to the city.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "9ef22d57-5319-4352-9866-67d50e6fdb44",
+                  "label": "From Rio to the jungle.",
+                  "isCorrect": true
+                }
               ]
             },
             {
               "id": "01a3741c-2247-4cea-ae93-24f1600f45a6",
               "question": "14.2 What are the men doing?",
               "options": [
-                { "id": "6725e391-dc22-44ae-9a89-68171312deae", "label": "they're making a new road.", "isCorrect": true },
-                { "id": "f3010edc-7392-49de-b3fc-e964b8d1aa8c", "label": "they're making a new village.", "isCorrect": false }
+                {
+                  "id": "6725e391-dc22-44ae-9a89-68171312deae",
+                  "label": "they're making a new road.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "f3010edc-7392-49de-b3fc-e964b8d1aa8c",
+                  "label": "they're making a new village.",
+                  "isCorrect": false
+                }
               ]
             }
-            
           ]
         }
       ]
