@@ -38,6 +38,7 @@ interface RadioOption {
 
 interface RadioExercise {
   question: string;
+  questionPt?: string
   options: RadioOption[];
   id: string
 }
