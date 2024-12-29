@@ -3,7 +3,7 @@
     "title": "Extras",
     "subtitle": "Skills",
     "descriptions": ["Listening", "Audiobooks", "Beginner", "Newspaper Chase"],
-    "time": "00:00",
+    "time": "08:18",
     "usa": true,
     "uk": false
   },
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/skills/listening/audiobooks/..."
+      "audioSrc": "/extras/skills/listening/audiobooks/beginner/general/newspaper-chase/audio.mp3"
     },
     {
       "title": "Paragraph 1",
