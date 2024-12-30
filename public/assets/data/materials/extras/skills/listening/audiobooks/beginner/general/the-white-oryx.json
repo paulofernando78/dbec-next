@@ -2,12 +2,8 @@
   "whiteboard": {
     "title": "Extras",
     "subtitle": "Skills",
-    "descriptions": [
-        "Listening",
-        "Audiobooks",
-        "Beginner",
-        "The White Oryx"],
-        "time": "0:00",
+    "descriptions": ["Listening", "Audiobooks", "Beginner", "The White Oryx"],
+    "time": "0:00",
     "uk": true
   },
   "lessons": []

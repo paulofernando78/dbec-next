@@ -46,7 +46,7 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
               {paragraphSection.paragraphs?.map((paragraph, paragraphIndex) => (
                 <div
                   key={paragraphIndex}
-                  className="display-inline white-space-pre-wrap"
+                  className="display-inline"
                 >
                   {paragraph.word && (
                     <DictionaryCard
@@ -58,9 +58,11 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
                   <p
                     className="display-inline"
                     dangerouslySetInnerHTML={{
-                      __html: paragraph.text,
+                      __html: paragraph.textEn,
                     }}
-                  ></p>{" "}
+                  ></p>
+                  {" "}
+                  {paragraph.textPt && <p className="display-inline portuguese">{paragraph.textPt}</p>}
                 </div>
               ))}
             </div>

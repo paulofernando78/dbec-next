@@ -38,13 +38,12 @@
               "keyword": "...",
               "word": "test 1",
               "wordAudioSrc": "/dictionary/xxx.mp3",
-              "text": "test 2"
+              "textEn": "xxx"
             },
             {
               "keyword": "...",
               "word": "test 3",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
-              "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
+              "wordAudioSrc": "/dictionary/xxx.mp3"
             }
           ],
           "addBreakLine": true
@@ -58,13 +57,13 @@
               "keyword": "...",
               "word": "...",
               "wordAudioSrc": "/dictionary/xxx.mp3",
-              "text": "..."
+              "textEn": "..."
             },
             {
               "keyword": "...",
               "word": "...",
               "wordAudioSrc": "/dictionary/xxx.mp3",
-              "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
+              "textEn": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
             }
           ],
 
@@ -79,13 +78,13 @@
               "keyword": "...",
               "word": "...",
               "wordAudioSrc": "/dictionary/xxx.mp3",
-              "text": "..."
+              "textEn": "..."
             },
             {
               "keyword": "...",
               "word": "...",
               "wordAudioSrc": "/dictionary/xxx.mp3",
-              "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
+              "textEn": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
             }
           ]
         }

@@ -26,7 +26,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Summary"
+              "textEn": "Summary"
             }
           ]
         }
@@ -53,7 +53,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Paragraph 1"
+              "textEn": "Paragraph 1"
             }
           ]
         }
@@ -97,7 +97,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Paragraph 2"
+              "textEn": "Paragraph 2"
             }
           ]
         }
@@ -141,7 +141,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Paragraph 3"
+              "textEn": "Paragraph 3"
             }
           ]
         }
@@ -185,7 +185,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Paragraph 4"
+              "textEn": "Paragraph 4"
             }
           ]
         }
@@ -229,7 +229,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Paragraph 5"
+              "textEn": "Paragraph 5"
             }
           ]
         }
@@ -273,7 +273,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Paragraph 6"
+              "textEn": "Paragraph 6"
             }
           ]
         }
@@ -317,7 +317,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Paragraph 7"
+              "textEn": "Paragraph 7"
             }
           ]
         }
@@ -361,7 +361,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Paragraph 8"
+              "textEn": "Paragraph 8"
             }
           ]
         }
@@ -405,7 +405,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Paragraph 9"
+              "textEn": "Paragraph 9"
             }
           ]
         }
@@ -449,7 +449,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Paragraph 10"
+              "textEn": "Paragraph 10"
             }
           ]
         }
@@ -493,7 +493,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Paragraph 11"
+              "textEn": "Paragraph 11"
             }
           ]
         }
@@ -537,7 +537,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Paragraph 12"
+              "textEn": "Paragraph 12"
             }
           ]
         }
@@ -581,7 +581,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Paragraph 13"
+              "textEn": "Paragraph 13"
             }
           ]
         }
@@ -625,7 +625,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Paragraph 14"
+              "textEn": "Paragraph 14"
             }
           ]
         }
@@ -669,7 +669,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "text": "Paragraph 15"
+              "textEn": "Paragraph 15"
             }
           ]
         }
@@ -691,48 +691,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "fillInTheBlanks": [
-        {
-          "id": "",
-          "options": true,
-          "width": "65px",
-          "beforeBlank": "1. (+))",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "... .",
-          "lineBreakAfter": true
-        },
-        {
-          "id": "",
-          "options": true,
-          "width": "140px",
-          "beforeBlank": "1.2 (-)",
-          "placeholder": "...",
-          "correctAnswer": ["...", "..."],
-          "afterBlank": "... .",
-          "lineBreakAfter": true
-        },
-        {
-          "id": "",
-          "options": true,
-          "width": "60px",
-          "beforeBlank": "1.3 (?)",
-          "correctAnswer": ["..."],
-          "afterBlank": "..."
-        },
-        {
-          "id": "",
-          "options": true,
-          "width": "90px",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "... ?",
-          "lineBreakAfter": true
         }
       ]
     }

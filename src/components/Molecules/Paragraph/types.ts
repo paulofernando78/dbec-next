@@ -2,7 +2,8 @@ export interface Paragraph {
   keyword?: string;
   word: string;
   wordAudioSrc: string;
-  text: string;
+  textEn: string;
+  textPt?: string
 }
 
 export interface ParagraphSection {

@@ -26,7 +26,7 @@
           "imgPosition": "left",
           "paragraphs": [
             {
-              "text": "Simon Simple is going on a holiday and the police are looking for a spy. On the train, Simon meets a beautiful girl. He likes her and she likes him. But the spy is there too. Simon and the police can't see the spy. Can you?"
+              "textEn": "Simon Simple is going on a holiday and the police are looking for a spy. On the train, Simon meets a beautiful girl. He likes her and she likes him. But the spy is there too. Simon and the police can't see the spy. Can you?"
             }
           ]
         }
@@ -38,9 +38,7 @@
     {
       "title": "Paragraph 1",
       "bgColor": "black",
-      "textColor": "white"
-    },
-    {
+      "textColor": "white",
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-1.png",
@@ -48,7 +46,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "Simon Simple is at the station. He is going on a train. There are policemen at the station. There are policemen on the trains. They are all working very hard. \"Why are the police here?\" Simon asks a man. \"Look,\" the man says. Simon looks at the man's newspaper. \"Do you know this man?\" he reads. \"He's a spy! Find him! Stop him! Catch him!\""
+              "textEn": "Simon Simple is at the station. He is going on a train. There are policemen at the station. There are policemen on the trains. They are all working very hard. \"Why are the police here?\" Simon asks a man. \"Look,\" the man says. Simon looks at the man's newspaper. \"Do you know this man?\" he reads. \"He's a spy! Find him! Stop him! Catch him!\""
             }
           ]
         }
@@ -130,9 +128,7 @@
       "title": "Paragraph 2",
       "time": "0:48",
       "bgColor": "black",
-      "textColor": "white"
-    },
-    {
+      "textColor": "white",
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-2.jpg",
@@ -140,13 +136,11 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "Simon looks at the people in the station. He can see students in jeans, and men in suits. He can see families and children. He can't see any spies. Simon's train goes at 11.00, and it is 10.57 now. Simon runs to the train. There is an old woman with an umbrella near Simon. She is walking very fast. Simon doesn't see her. He doesn't see her bag."
+              "textEn": "Simon looks at the people in the station. He can see students in jeans, and men in suits. He can see families and children. He can't see any spies. Simon's train goes at 11.00, and it is 10.57 now. Simon runs to the train. There is an old woman with an umbrella near Simon. She is walking very fast. Simon doesn't see her. He doesn't see her bag."
             }
           ]
         }
-      ]
-    },
-    {
+      ],
       "id": "26c4ef73-e0f2-452c-8540-25942c193b43",
       "exercises": [
         {
@@ -203,9 +197,7 @@
       "title": "Paragraph 3",
       "time": "1:32",
       "bgColor": "black",
-      "textColor": "white"
-    },
-    {
+      "textColor": "white",
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-3.jpg",
@@ -213,13 +205,11 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "The old woman’s bag hits Simon's foot. Simon falls. His bag opens. His things fall to the ground. The old woman's bag is open, too. A letter falls out. Simon puts his things into his bag. The old woman's letter is with Simon's things. Simon does not see it. He puts the old woman's letter in his bag. He closes his bag and runs to the train."
+              "textEn": "The old woman’s bag hits Simon's foot. Simon falls. His bag opens. His things fall to the ground. The old woman's bag is open, too. A letter falls out. Simon puts his things into his bag. The old woman's letter is with Simon's things. Simon does not see it. He puts the old woman's letter in his bag. He closes his bag and runs to the train."
             }
           ]
         }
-      ]
-    },
-    {
+      ],
       "id": "3c9f7b8e-8d6a-4f5b-9c7e-b8f7d6c9b7f3",
       "exercises": [
         {
@@ -297,9 +287,7 @@
       "title": "Paragraph 4",
       "time": "2:20",
       "bgColor": "black",
-      "textColor": "white"
-    },
-    {
+      "textColor": "white",
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-4.jpg",
@@ -307,13 +295,11 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "Simon sits down in the train. There is a beautiful girl beside him. \"Hello,\" Simon says. \"Hello,\" the girl says. The old woman is on the train, too. She is looking at Simon's bag. She wants her letter. There are policemen on the train. They can't find the spy. The old woman sees the policemen. She turns and walks quickly down the train."
+              "textEn": "Simon sits down in the train. There is a beautiful girl beside him. \"Hello,\" Simon says. \"Hello,\" the girl says. The old woman is on the train, too. She is looking at Simon's bag. She wants her letter. There are policemen on the train. They can't find the spy. The old woman sees the policemen. She turns and walks quickly down the train."
             }
           ]
         }
-      ]
-    },
-    {
+      ],
       "id": "4a8e2c8d-9f47-4e76-88fd-0a62d8d6c11b",
       "exercises": [
         {
@@ -391,9 +377,7 @@
       "title": "Paragraph 5",
       "time": "3:02",
       "bgColor": "black",
-      "textColor": "white"
-    },
-    {
+      "textColor": "white",
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-5.jpg",
@@ -401,13 +385,11 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "Simon likes the girl. She likes him. \"There's a restaurant on the train,\" Simon says. \"Do you want a cup of coffee?\" \"Yes, please,\" the girl says. \"OK, wait here,\" Simon says. Simon takes his bag and goes to the restaurant. The old woman is waiting for him. Simon doesn't see her. He doesn't see her foot."
+              "textEn": "Simon likes the girl. She likes him. \"There's a restaurant on the train,\" Simon says. \"Do you want a cup of coffee?\" \"Yes, please,\" the girl says. \"OK, wait here,\" Simon says. Simon takes his bag and goes to the restaurant. The old woman is waiting for him. Simon doesn't see her. He doesn't see her foot."
             }
           ]
         }
-      ]
-    },
-    {
+      ],
       "id": "4a8e2c8d-9f47-4e76-88fd-0a62d8d6c11b",
       "exercises": [
         {
@@ -485,9 +467,7 @@
       "title": "Paragraph 6",
       "time": "3:47",
       "bgColor": "black",
-      "textColor": "white"
-    },
-    {
+      "textColor": "white",
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-6.png",
@@ -495,13 +475,11 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "The train is going fast. Simon falls. The old woman falls, too. She sits down on the floor. \"Oh, I'm sorry,\" Simon says. He helps the old woman. Simon sees the old woman's shoes. He looks at her shoes, and he looks at her face. \"They're not women's shoes,\" Simon thinks. Simon buys the coffee and goes back to the girl."
+              "textEn": "The train is going fast. Simon falls. The old woman falls, too. She sits down on the floor. \"Oh, I'm sorry,\" Simon says. He helps the old woman. Simon sees the old woman's shoes. He looks at her shoes, and he looks at her face. \"They're not women's shoes,\" Simon thinks. Simon buys the coffee and goes back to the girl."
             }
           ]
         }
-      ]
-    },
-    {
+      ],
       "id": "4a8e2c8d-9f47-4e76-88fd-0a62d8d6c11b",
       "exercises": [
         {
@@ -579,9 +557,7 @@
       "title": "Paragraph 7",
       "time": "4:29",
       "bgColor": "black",
-      "textColor": "white"
-    },
-    {
+      "textColor": "white",
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-7.jpg",
@@ -589,13 +565,11 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "The train stops. Simon and the girl are going on a boat now. They walk from the train to the boat. There are policemen here, too. \"What do they want?\" the girl asks. \"There's a spy,\" Simon says. \"A spy?\" the girl says. \"I can't see any spies.\" Simon looks, too. He sees families and students. He sees the old woman. \"No,\" Simon says. \"I can't see any spies.\""
+              "textEn": "The train stops. Simon and the girl are going on a boat now. They walk from the train to the boat. There are policemen here, too. \"What do they want?\" the girl asks. \"There's a spy,\" Simon says. \"A spy?\" the girl says. \"I can't see any spies.\" Simon looks, too. He sees families and students. He sees the old woman. \"No,\" Simon says. \"I can't see any spies.\""
             }
           ]
         }
-      ]
-    },
-    {
+      ],
       "id": "4a8e2c8d-9f47-4e76-88fd-0a62d8d6c11b",
       "exercises": [
         {
@@ -652,9 +626,7 @@
       "title": "Paragraph 8",
       "time": "5:21",
       "bgColor": "black",
-      "textColor": "white"
-    },
-    {
+      "textColor": "white",
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-8.png",
@@ -662,13 +634,11 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "It is a beautiful day. The sun is shining and the water is blue. Simon and the girl sit near the water and wait. The boat is coming. \"What's your name?\" Simon asks. \"Samantha,\" the girl says. \"Oh,\" Simon says. \"My name's Simon. Simon and Samantha. That's nice.\" Simon and Samantha are talking. They don't see the old woman. They don't see her umbrella."
+              "textEn": "It is a beautiful day. The sun is shining and the water is blue. Simon and the girl sit near the water and wait. The boat is coming. \"What's your name?\" Simon asks. \"Samantha,\" the girl says. \"Oh,\" Simon says. \"My name's Simon. Simon and Samantha. That's nice.\" Simon and Samantha are talking. They don't see the old woman. They don't see her umbrella."
             }
           ]
         }
-      ]
-    },
-    {
+      ],
       "id": "8d1c95c1-eedb-473f-a74c-b3a34c72e1e7",
       "exercises": [
         {
@@ -726,9 +696,7 @@
       "title": "Paragraph 9",
       "time": "6:09",
       "bgColor": "black",
-      "textColor": "white"
-    },
-    {
+      "textColor": "white",
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-9.jpg",
@@ -736,13 +704,11 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "\"Look out!\" a man shouts. \"There's a lorry!\" Simon and Samantha look. A lorry is coming down the road very fast. They jump back. The old woman jumps back, too. Simon sees her trousers. \"They're not women's trousers,\" Simon thinks. \"Come on, Simon, the boat's here,\" Samantha says. Simon and Samantha get on the boat."
+              "textEn": "\"Look out!\" a man shouts. \"There's a lorry!\" Simon and Samantha look. A lorry is coming down the road very fast. They jump back. The old woman jumps back, too. Simon sees her trousers. \"They're not women's trousers,\" Simon thinks. \"Come on, Simon, the boat's here,\" Samantha says. Simon and Samantha get on the boat."
             }
           ]
         }
-      ]
-    },
-    {
+      ],
       "id": "9f6b0a62-7290-49c4-a36d-57da2e726dfe",
       "exercises": [
         {
@@ -799,9 +765,7 @@
       "title": "Paragraph 10",
       "time": "6:58",
       "bgColor": "black",
-      "textColor": "white"
-    },
-    {
+      "textColor": "white",
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-10.jpg",
@@ -809,13 +773,11 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "Simon opens his bag and takes his lunch out. He takes the old woman's letter out, too, but he doesn't see it. \"Do you want a sandwich?\" Simon asks Samantha. \"Yes, please,\" Samantha says. She takes her lunch out of her bag. \"Do you want an apple?\" she says. The old woman is behind them. Simon and Samantha don't see her. They don't see her hand."
+              "textEn": "Simon opens his bag and takes his lunch out. He takes the old woman's letter out, too, but he doesn't see it. \"Do you want a sandwich?\" Simon asks Samantha. \"Yes, please,\" Samantha says. She takes her lunch out of her bag. \"Do you want an apple?\" she says. The old woman is behind them. Simon and Samantha don't see her. They don't see her hand."
             }
           ]
         }
-      ]
-    },
-    {
+      ],
       "id": "0d531f8a-464b-484b-bb28-6d4d8b2eeb9d",
       "exercises": [
         {
@@ -888,9 +850,7 @@
       "title": "Paragraph 11",
       "time": "7:41",
       "bgColor": "black",
-      "textColor": "white"
-    },
-    {
+      "textColor": "white",
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-11.jpg",
@@ -898,13 +858,11 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "The boat is going fast now. The wind is strong. Samantha's hair goes in her eyes. The wind takes the old woman's letter. The letter flies along the boat. \"What's that paper?\" Samantha says. \"Is it your boat ticket?\" \"I don't know,\" Simon says. Simon runs. He wants his ticket. The old woman runs, too. She wants her letter."
+              "textEn": "The boat is going fast now. The wind is strong. Samantha's hair goes in her eyes. The wind takes the old woman's letter. The letter flies along the boat. \"What's that paper?\" Samantha says. \"Is it your boat ticket?\" \"I don't know,\" Simon says. Simon runs. He wants his ticket. The old woman runs, too. She wants her letter."
             }
           ]
         }
-      ]
-    },
-    {
+      ],
       "id": "c1f8d8e3-b3a3-45d9-b941-dfe37d0351e1",
       "exercises": [
         {
@@ -982,9 +940,7 @@
       "title": "Paragraph 12",
       "time": "8:24",
       "bgColor": "black",
-      "textColor": "white"
-    },
-    {
+      "textColor": "white",
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-12.jpg",
@@ -992,13 +948,11 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "Simon and the old woman run fast. They are near the paper now. \"Woof!\" \"What is that? It's a dog!\" He's running very fast. He runs to the paper and catches it in his mouth. \"My ticket!\" Simon says. \"My letter!\" the old woman says. The dog runs along the boat. \"Catch the dog!\" Simon says. \"Stop him!\" says the old woman."
+              "textEn": "Simon and the old woman run fast. They are near the paper now. \"Woof!\" \"What is that? It's a dog!\" He's running very fast. He runs to the paper and catches it in his mouth. \"My ticket!\" Simon says. \"My letter!\" the old woman says. The dog runs along the boat. \"Catch the dog!\" Simon says. \"Stop him!\" says the old woman."
             }
           ]
         }
-      ]
-    },
-    {
+      ],
       "id": "d8f1c39e-3b67-4db5-8e3a-1f02c0ed6c1e",
       "exercises": [
         {
@@ -1076,9 +1030,7 @@
       "title": "Paragraph 13",
       "time": "9:07",
       "bgColor": "black",
-      "textColor": "white"
-    },
-    {
+      "textColor": "white",
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-13.jpg",
@@ -1086,13 +1038,11 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "The dog is happy. He can run fast. He's playing a game with Simon and the old woman. He doesn't see Samantha. Samantha jumps up and catches him. \"I've got him, Simon,\" Samantha says. Simon and the old woman run to Samantha. The paper's in the dog's mouth. Simon looks at it. \"That's not my ticket,\" he says. \"No,\" the old woman says. \"It's my letter.\""
+              "textEn": "The dog is happy. He can run fast. He's playing a game with Simon and the old woman. He doesn't see Samantha. Samantha jumps up and catches him. \"I've got him, Simon,\" Samantha says. Simon and the old woman run to Samantha. The paper's in the dog's mouth. Simon looks at it. \"That's not my ticket,\" he says. \"No,\" the old woman says. \"It's my letter.\""
             }
           ]
         }
-      ]
-    },
-    {
+      ],
       "id": "f4c2d9e7-bd35-4f74-8ad4-7408aeb222db",
       "exercises": [
         {
@@ -1149,9 +1099,7 @@
       "title": "Paragraph 14",
       "time": "9:48",
       "bgColor": "black",
-      "textColor": "white"
-    },
-    {
+      "textColor": "white",
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-14.jpg",
@@ -1159,13 +1107,11 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "The dog likes Simon and Samantha, but he doesn't like the old woman. He takes her coat in his mouth and pulls it. The coat falls to the ground. The wind takes the old woman's hat. It falls into the water. Her hair falls with the hat. Simon and Samantha look at the old woman. It's not an old woman! It's a man! \"The spy!\" Simon says. \"Police! Come here!\""
+              "textEn": "The dog likes Simon and Samantha, but he doesn't like the old woman. He takes her coat in his mouth and pulls it. The coat falls to the ground. The wind takes the old woman's hat. It falls into the water. Her hair falls with the hat. Simon and Samantha look at the old woman. It's not an old woman! It's a man! \"The spy!\" Simon says. \"Police! Come here!\""
             }
           ]
         }
-      ]
-    },
-    {
+      ],
       "id": "f7b62cd2-49c1-4927-bf44-57500aab4d24",
       "exercises": [
         {
@@ -1243,9 +1189,7 @@
       "title": "Paragraph 15",
       "time": "10:32",
       "bgColor": "black",
-      "textColor": "white"
-    },
-    {
+      "textColor": "white",
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-15.jpg",
@@ -1253,13 +1197,11 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "text": "The police are very happy. \"Thank you, Simon,\" they say. \"Now we have the spy. But the spy has a letter. The letter has names and addresses on it. We want the letter but we can't find it. Where is it? Do you know?\" Simon looks at the dog. The dog looks at Simon. \"There's the letter,\" Simon says. \"Where?\" says the policeman. \"It's in the dog,\" Simon says."
+              "textEn": "The police are very happy. \"Thank you, Simon,\" they say. \"Now we have the spy. But the spy has a letter. The letter has names and addresses on it. We want the letter but we can't find it. Where is it? Do you know?\" Simon looks at the dog. The dog looks at Simon. \"There's the letter,\" Simon says. \"Where?\" says the policeman. \"It's in the dog,\" Simon says."
             }
           ]
         }
-      ]
-    },
-    {
+      ],
       "id": "d914f072-4902-4f1d-bf3a-773e3e0d4c47",
       "exercises": [
         {
@@ -1309,48 +1251,6 @@
               ]
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "46c5e3dd-9e83-43f7-b883-8c345001b6db",
-      "fillInTheBlanks": [
-        {
-          "id": "b83da705-72f6-4300-9544-dcf7c6aacd6c",
-          "options": true,
-          "width": "65px",
-          "beforeBlank": "1. (+))",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "... .",
-          "lineBreakAfter": true
-        },
-        {
-          "id": "6caf458b-bde7-481a-9c16-90d0a10cb5e5",
-          "options": true,
-          "width": "140px",
-          "beforeBlank": "1.2 (-)",
-          "placeholder": "...",
-          "correctAnswer": ["...", "..."],
-          "afterBlank": "... .",
-          "lineBreakAfter": true
-        },
-        {
-          "id": "dbf9c781-8632-40f8-9a1a-960639200192",
-          "options": true,
-          "width": "60px",
-          "beforeBlank": "1.3 (?)",
-          "correctAnswer": ["..."],
-          "afterBlank": "..."
-        },
-        {
-          "id": "9452473f-cd12-4531-8db6-505a2b5ead2f",
-          "options": true,
-          "width": "90px",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "... ?",
-          "lineBreakAfter": true
         }
       ]
     }

@@ -30,8 +30,10 @@
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
-              "text": "..."
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
+              "textEn":	"..."
             },
             {
               "keyword": "...",
@@ -68,8 +70,10 @@
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
-              "text": "..."
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
+              "textEn":	"..."
             },
             {
               "keyword": "...",
@@ -94,8 +98,10 @@
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
-              "text": "..."
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
+              "textEn":	"..."
             },
             {
               "keyword": "...",
@@ -120,8 +126,10 @@
             {
               "keyword": "...",
               "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
-              "text": "..."
+              "wordAudioSrc": "/dictionary/xxx.mp3"
+            },
+            {
+              "textEn":	"..."
             },
             {
               "keyword": "...",
