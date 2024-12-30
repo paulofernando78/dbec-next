@@ -110,13 +110,18 @@
               "options": [
                 {
                   "id": "c0ab8c54-70b5-4e0a-9729-70ada7caaa61",
-                  "label": "They are going to England.",
+                  "label": "a) They're going to England.",
                   "isCorrect": false
                 },
                 {
-                  "id": "c5cd3b5b-ae52-40ac-88b3-5df0de9a3f46",
-                  "label": "They are going to New Zealand.",
+                  "id": "5c424ca5-8f16-45d1-bac7-7df911355079",
+                  "label": "b) They're going to New Zealand.",
                   "isCorrect": true
+                },
+                {
+                  "id": "c5cd3b5b-ae52-40ac-88b3-5df0de9a3f46",
+                  "label": "c) They're going to Australia.",
+                  "isCorrect": false
                 }
               ]
             },
@@ -126,12 +131,12 @@
               "options": [
                 {
                   "id": "e407bc31-59d6-475a-8c4d-c70a81660e50",
-                  "label": "Yes, they are.",
+                  "label": "a) Yes, they are.",
                   "isCorrect": true
                 },
                 {
                   "id": "3d3f84fe-74b6-40b6-94af-4ed3b742e284",
-                  "label": "No, they aren't.",
+                  "label": "b) No, they aren't.",
                   "isCorrect": false
                 }
               ]
@@ -142,12 +147,12 @@
               "options": [
                 {
                   "id": "ad063ef0-6261-4db0-adf5-6f03c4fb6b7a",
-                  "label": "Sarah is sitting near the window.",
+                  "label": "a) Sarah is sitting near the window.",
                   "isCorrect": false
                 },
                 {
                   "id": "449313cf-78c9-429f-b0a1-2f2777872786",
-                  "label": "Jessica is sitting near the window.",
+                  "label": "b) Jessica is sitting near the window.",
                   "isCorrect": true
                 }
               ]
@@ -158,13 +163,18 @@
               "options": [
                 {
                   "id": "dbb78123-2a62-43f2-aafe-2772e9dc0dd3",
-                  "label": "They are going to walk.",
+                  "label": "a) They are going to walk.",
                   "isCorrect": false
                 },
                 {
-                  "id": "dd144f4e-98dc-4f19-8e72-f86906920bd5",
-                  "label": "They are going to get a taxi.",
+                  "id": "b4809f8d-f0eb-448d-8f95-490719822f5b",
+                  "label": "b) They are going to get a taxi.",
                   "isCorrect": true
+                },
+                {
+                  "id": "dd144f4e-98dc-4f19-8e72-f86906920bd5",
+                  "label": "c) They are going to get a plane.",
+                  "isCorrect": false
                 }
               ]
             }
@@ -205,28 +215,38 @@
               "options": [
                 {
                   "id": "4a7eb517-0208-4e0f-834d-48102a823f6d",
-                  "label": "There at the airport.",
+                  "label": "a) They're at the airport.",
                   "isCorrect": true
                 },
                 {
                   "id": "66968848-22f5-4007-9e7d-8c767b75a9cc",
-                  "label": "There at the bus station.",
+                  "label": "b) They're at the bus station.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "d6ef566b-4686-4aba-9645-aa9cf0bc9caf",
+                  "label": "c) They're at home.",
                   "isCorrect": false
                 }
               ]
             },
             {
               "id": "fd057e26-4d0b-4618-b1fa-292717c7c870",
-              "question": "2.1 Who's waving to the girls?",
+              "question": "2.2 Who's waving to the girls?",
               "options": [
                 {
                   "id": "483bcd52-dd85-424c-bc09-f070d8702446",
-                  "label": "The girl is waving to them.",
+                  "label": "a) A girl is waving to them.",
                   "isCorrect": false
                 },
                 {
                   "id": "ec85203d-6cf3-46f7-aba2-850c2e017733",
-                  "label": "Boy is waving to them.",
+                  "label": "b) A man is waving to them.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "bd96e267-9fe0-4588-9138-9241651ab9f5",
+                  "label": "c) A boy is waving to them.",
                   "isCorrect": true
                 }
               ]
@@ -288,13 +308,18 @@
               "options": [
                 {
                   "id": "f345c2a1-9b44-4089-b58d-bbfcfc880d9c",
-                  "label": "She sees a wallet phone on the floor.",
+                  "label": "a) She sees a wallet on the floor.",
                   "isCorrect": false
                 },
                 {
                   "id": "aae65f8c-61a4-4bb9-babc-b49b499472ee",
-                  "label": "She sees a mobile phone on the floor.",
+                  "label": "b) She sees a mobile phone on the floor.",
                   "isCorrect": true
+                },
+                {
+                  "id": "04e68a8a-8efe-438d-baaf-1240f3c4c558",
+                  "label": "c) She sees a photo phone on the floor.",
+                  "isCorrect": false
                 }
               ]
             }
@@ -343,12 +368,17 @@
               "options": [
                 {
                   "id": "60c68e57-32d8-4d1b-8f51-76960b1e2ee5",
-                  "label": "The buses are driving on the a road.",
+                  "label": "a) The buses are driving on the a road.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "0fb43a07-4355-4e89-8da7-0aa4bb97abec",
+                  "label": "b) The buses are driving on the a street.",
                   "isCorrect": false
                 },
                 {
                   "id": "a9c704d4-45e5-4bbe-a33f-3c803e938825",
-                  "label": "The buses are driving on the Long Beach.",
+                  "label": "c) The buses are driving on the Long Beach.",
                   "isCorrect": true
                 }
               ]
@@ -359,12 +389,12 @@
               "options": [
                 {
                   "id": "ba150a03-d984-4b67-9613-e673585b8a1d",
-                  "label": "Yes, they do.",
+                  "label": "a) Yes, they do.",
                   "isCorrect": true
                 },
                 {
                   "id": "944b593f-45c8-4423-b0b5-ac235b4bb392",
-                  "label": "No, they don't.",
+                  "label": "b) No, they don't.",
                   "isCorrect": false
                 }
               ]
@@ -375,12 +405,12 @@
               "options": [
                 {
                   "id": "cb9e8d8c-9729-4eab-b8da-437c5d4d899a",
-                  "label": "Yes, he does.",
+                  "label": "a) Yes, he does.",
                   "isCorrect": true
                 },
                 {
                   "id": "409f3b43-3553-4197-ab5a-c4f50dc3bab4",
-                  "label": "No, he doesn't.",
+                  "label": "b) No, he doesn't.",
                   "isCorrect": false
                 }
               ]
@@ -430,12 +460,12 @@
               "options": [
                 {
                   "id": "a9bce47e-9a2e-4488-b074-454c2bbbb0a0",
-                  "label": "Yes, they are.",
+                  "label": "a) Yes, they are.",
                   "isCorrect": false
                 },
                 {
                   "id": "64319043-829b-4cf1-a104-3db2cd47e146",
-                  "label": "No, they aren't.",
+                  "label": "b) No, they aren't.",
                   "isCorrect": true
                 }
               ]
@@ -446,12 +476,17 @@
               "options": [
                 {
                   "id": "213cac09-2dc3-4145-9953-fe1108deed48",
-                  "label": "Because there's a message for Michael.",
+                  "label": "a) Because there's a message for Michael.",
                   "isCorrect": true
                 },
                 {
                   "id": "a544ae1d-3bf8-46b5-baa7-285b03ae26a4",
-                  "label": "Because there's a message for Jessica.",
+                  "label": "b) Because there's a message for Jessica.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "c579465b-ce57-48e0-86ee-09d14e09422d",
+                  "label": "c) Because there's a message for Sarah.",
                   "isCorrect": false
                 }
               ]
@@ -462,12 +497,17 @@
               "options": [
                 {
                   "id": "462b6da0-0410-4503-8a4d-22502eadf477",
-                  "label": "Perhaps they can find him at Ninety Mile Beach",
+                  "label": "a) Perhaps they can find him at Ninety Mile Beach",
+                  "isCorrect": false
+                },
+                {
+                  "id": "c3b27136-2e9e-4ad2-9e94-8a8f5f852e9c",
+                  "label": "b) Perhaps they can find him at aiport.",
                   "isCorrect": false
                 },
                 {
                   "id": "25911f85-8b6b-411f-b0a1-ccac42757679",
-                  "label": "Perhaps they can find him at the Sky Tower in Auckland",
+                  "label": "c) Perhaps they can find him at the Sky Tower in Auckland",
                   "isCorrect": true
                 }
               ]
@@ -513,12 +553,12 @@
               "options": [
                 {
                   "id": "d2a37540-82e6-440b-b4c2-3fa772da8813",
-                  "label": "No, he isn't.",
+                  "label": "a) No, he isn't.",
                   "isCorrect": false
                 },
                 {
                   "id": "5a3f4926-7533-4e1b-b398-67659f29650e",
-                  "label": "Yes, he is",
+                  "label": "b) Yes, he is",
                   "isCorrect": true
                 }
               ]
@@ -528,13 +568,18 @@
               "question": "6.2 What does Sarah want to do when they get there?",
               "options": [
                 {
+                  "id": "3a3a5ea8-1fe1-4a77-a8d6-a5d4ac0d99cc",
+                  "label": "a) She wants to go to a movie theater.",
+                  "isCorrect": false
+                },
+                {
                   "id": "d391003a-ac1e-4891-85f0-1f12f8a665d0",
-                  "label": "She wants to bungy jump from the tower.",
+                  "label": "b) She wants to bungy jump from the tower.",
                   "isCorrect": true
                 },
                 {
                   "id": "237c7e08-a8e2-4d6c-97d5-c78a0bf00db5",
-                  "label": "She wants to be on the ground.",
+                  "label": "c) She wants to be on the ground.",
                   "isCorrect": false
                 }
               ]
@@ -576,12 +621,17 @@
               "options": [
                 {
                   "id": "46c10d9f-5303-4b20-94d5-50987ba82e0f",
-                  "label": "She forgets to take Michael's phone.",
+                  "label": "a) She forgets to take Michael's phone.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "e22f36fa-061e-4cd8-a73a-cd3467b9e6e7",
+                  "label": "b) She forgets to take Michael's bag.",
                   "isCorrect": false
                 },
                 {
                   "id": "2f08313f-05f7-4456-b23a-761e9c5166a5",
-                  "label": "She forgets to take Sarah's bag.",
+                  "label": "c) She forgets to take Sarah's bag.",
                   "isCorrect": true
                 }
               ]
@@ -623,12 +673,12 @@
               "options": [
                 {
                   "id": "5ae5c843-3da1-450f-a575-0288b42ae7cc",
-                  "label": "Yeah, she does.",
+                  "label": "a) Yeah, she does.",
                   "isCorrect": false
                 },
                 {
                   "id": "a764e094-c1b4-492d-8bb7-0ca96830b119",
-                  "label": "No, she doesn't.",
+                  "label": "b) No, she doesn't.",
                   "isCorrect": true
                 }
               ]
@@ -639,12 +689,17 @@
               "options": [
                 {
                   "id": "dfb345cb-ee1b-4c32-b3f5-b726e782bc6d",
-                  "label": "They have tickets for the Glow-worm caves.",
+                  "label": "a) They have tickets for the movie theater..",
+                  "isCorrect": false
+                },
+                {
+                  "id": "d65df5b7-8656-438a-b736-7bea1339add5",
+                  "label": "b) They have tickets for the Glow-worm caves.",
                   "isCorrect": true
                 },
                 {
                   "id": "0aa8284c-4731-41ea-a2b0-6ad312f0b6cc",
-                  "label": "They have tickets for the concert.",
+                  "label": "c) They have tickets for the concert.",
                   "isCorrect": false
                 }
               ]
@@ -690,28 +745,38 @@
               "options": [
                 {
                   "id": "078614c4-23cc-47de-8b79-c10a8a26c4fa",
-                  "label": "They swim into the dark cave.",
+                  "label": "a) They swim into the dark cave.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "8362883d-6e2c-4fb5-b7e7-4f0eeead11a6",
+                  "label": "b) They walk into the dark cave.",
                   "isCorrect": false
                 },
                 {
                   "id": "c7483053-1012-4d92-ac5c-b9e8db7feff3",
-                  "label": "They go on a boat into the dark cave.",
+                  "label": "c) They go on a boat into the dark cave.",
                   "isCorrect": true
                 }
               ]
             },
             {
               "id": "c4c11f04-bf59-42b2-8004-a60c7e795163",
-              "question": "9.2 Why do the people get angry in the cave?",
+              "question": "9.2 Why do people get angry in the cave?",
               "options": [
                 {
                   "id": "a392a2f4-e7ba-47c4-b785-c982691c928b",
-                  "label": "Because people can use phones in the cave.",
+                  "label": "a) Because the cave is too dark.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "46c49422-dd1f-4d7c-b8b2-2f10d3266793",
+                  "label": "b) Because people can't see the glow-worms.",
                   "isCorrect": false
                 },
                 {
                   "id": "e05db567-4fc4-42f3-b657-4d4019408e1a",
-                  "label": "Because people can't use phones in the cave.",
+                  "label": "c) Because phones aren't allowed in the cave.",
                   "isCorrect": true
                 }
               ]
@@ -753,12 +818,12 @@
               "options": [
                 {
                   "id": "adba2634-446b-4d33-bd20-b32492c52f4e",
-                  "label": "He is in North Island.",
+                  "label": "a) He is in North Island.",
                   "isCorrect": false
                 },
                 {
                   "id": "122601ff-a844-4093-a45f-300a6e56dd6e",
-                  "label": "He is in South Island.",
+                  "label": "b) He is in South Island.",
                   "isCorrect": true
                 }
               ]
@@ -769,12 +834,17 @@
               "options": [
                 {
                   "id": "e12d4c0f-f527-49fa-90fe-c9bc1eb678a2",
-                  "label": "They take a boat.",
+                  "label": "a) They take a boat.",
                   "isCorrect": true
                 },
                 {
+                  "id": "ff10347b-4554-4142-8dcf-23c1a00a300d",
+                  "label": "b) They take a plane.",
+                  "isCorrect": false
+                },
+                {
                   "id": "4b1b587d-98da-46ec-8526-01bab7af109d",
-                  "label": "They take a plane.",
+                  "label": "c) They go by car.",
                   "isCorrect": false
                 }
               ]
@@ -820,12 +890,17 @@
               "options": [
                 {
                   "id": "a2136b17-a367-4dbc-95fb-2db135a73c8f",
-                  "label": "They take his mobile phone to the police station in Auckland.",
+                  "label": "a) They take his mobile phone to the police station in Rotorua.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "505a3484-aaad-4fef-ae1d-dffd7e0a5c2e",
+                  "label": "b) They take his mobile phone to the police station in Auckland.",
                   "isCorrect": true
                 },
                 {
                   "id": "08eb25b4-3bf0-4102-96a8-cba80d4ae721",
-                  "label": "They take his mobile phone to the police station in Kaikoura.",
+                  "label": "c) They take his mobile phone to the police station in Kaikoura.",
                   "isCorrect": false
                 }
               ]
@@ -867,12 +942,17 @@
               "options": [
                 {
                   "id": "b030409f-e157-46e4-b53f-4215698635b9",
-                  "label": "They want to watch a Whale movie..",
+                  "label": "a) They want to see a Whale movie.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3a5cca4c-d961-4bd4-8b2b-823fbe60bcb1",
+                  "label": "b) They want to go to a concert.",
                   "isCorrect": false
                 },
                 {
                   "id": "baa4bcb0-29ba-4608-ab81-cdfaa3276608",
-                  "label": "They want to see the Whale watch.",
+                  "label": "c) They want to see the Whale Watch.",
                   "isCorrect": true
                 }
               ]
@@ -883,12 +963,12 @@
               "options": [
                 {
                   "id": "9a98dc69-9cec-4e58-aa5c-776d206cb543",
-                  "label": "No, it isn't",
+                  "label": "a) No, it isn't",
                   "isCorrect": true
                 },
                 {
                   "id": "28757f2a-8820-4eb2-808a-f354b8c3d265",
-                  "label": "Yes, it is.",
+                  "label": "b) Yes, it is.",
                   "isCorrect": false
                 }
               ]
@@ -930,13 +1010,18 @@
               "options": [
                 {
                   "id": "b761e6d1-03ab-44d6-967c-4e67807bd867",
-                  "label": "Michael calls his friends.",
+                  "label": "a) Michael calls his friends.",
                   "isCorrect": false
                 },
                 {
                   "id": "7918ba7f-98e9-4d72-9a61-8c4ce6613b8e",
-                  "label": "Michael calls home",
+                  "label": "b) Michael calls home",
                   "isCorrect": true
+                },
+                {
+                  "id": "59ec4281-73df-4c0e-8e12-896e2813cb65",
+                  "label": "c) Michael calls Sarah and Jessica.",
+                  "isCorrect": false
                 }
               ]
             },
@@ -945,29 +1030,39 @@
               "question": "13.2 What does Michael's parents say?",
               "options": [
                 {
+                  "id": "c7362398-856b-4fe2-810a-4897bce17eb6",
+                  "label": "a) They say they've got £10,000 from the lottery!",
+                  "isCorrect": false
+                },
+                {
                   "id": "67d4ad0d-0e36-45b3-9652-cd190676b3a0",
-                  "label": "They say they've got £100,000 from the lottery!",
+                  "label": "b) They say they've got £100,000 from the lottery!",
                   "isCorrect": true
                 },
                 {
-                  "id": "c7362398-856b-4fe2-810a-4897bce17eb6",
-                  "label": "They say they've got $100,000 from the lottery!",
+                  "id": "76bcc544-adc1-4160-a746-102defed151c",
+                  "label": "c) They say they've got £1000,000 from the lottery!",
                   "isCorrect": false
                 }
               ]
             },
             {
               "id": "887032f7-60d2-45e6-8dcf-febff04913b3",
-              "question": "13.3 What surprise does Michael give to the girl?",
+              "question": "13.3 What surprise does Michael give to the girls?",
               "options": [
                 {
                   "id": "8e15ad6a-675b-4545-95bf-02a08e6bcd38",
-                  "label": "Michael's gives the girls some money.",
+                  "label": "a) Michael gives them some money.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "d3111d2e-fc56-4dd8-a8b3-e01c3517f4fc",
+                  "label": "b) Michael gives them some food.",
                   "isCorrect": false
                 },
                 {
                   "id": "d31ac6ae-7aa7-4745-83e5-d35f6e8f5568",
-                  "label": "Michael's gives the girls tickets for the Whale watch.",
+                  "label": "c) Michael gives them tickets for the Whale watch.",
                   "isCorrect": true
                 }
               ]
@@ -1009,12 +1104,12 @@
               "options": [
                 {
                   "id": "69ae36f4-f3b4-482b-8f7a-be5f0116b200",
-                  "label": "No, they don't.",
+                  "label": "a) No, they don't.",
                   "isCorrect": false
                 },
                 {
                   "id": "5278d163-df7b-4c50-bdc3-5a3f539bd867",
-                  "label": "Yes, they do.",
+                  "label": "b) Yes, they do.",
                   "isCorrect": true
                 }
               ]
