@@ -61,6 +61,7 @@ export interface LessonData {
 export interface LessonTemplateProps {
   lessonData: {
     whiteboard?: WhiteboardProps | null;
+    contents?: Content[];
     lessons: LessonData[];
   } | null;
   isUnderConstruction: boolean;

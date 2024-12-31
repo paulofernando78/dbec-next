@@ -5,8 +5,15 @@ import { ContentProps } from './type'
 export const Content = ({ contents }:ContentProps) => {
   return (
     <div>
+      <h3 className='margin-bottom'><b>Contents</b></h3>
       {contents.map((content, contentIndex) => (
-        <p key={contentIndex}>{content.content}</p>
+        <a
+        href={content.link}
+        className='display-block'
+        key={contentIndex} 
+        >
+        {content.content}
+        </a>
       ))}
     </div>
   )

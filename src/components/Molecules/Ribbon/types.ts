@@ -3,4 +3,5 @@ export interface RibbonProps {
   time: string;
   bgColor?: string;
   textColor?: string;
+  id?: string
 }

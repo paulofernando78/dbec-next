@@ -9,11 +9,13 @@ export const Ribbon = ({
   time,
   bgColor = "defaultBgColor",
   textColor = "defaultTextColor",
+  id
 }: RibbonProps) => {
   return (
     <div
       className={styles["ribbon"]}
       style={{ backgroundColor: bgColor, color: textColor }}
+      id={id}
     >
       <div className={styles["flex-space"]}>
         <p className="bold">{label}</p>

@@ -12,6 +12,7 @@ import {
   FillInTheBlanks,
   FlipCard,
   Card,
+  ScrollToTop,
 } from "@/components";
 
 // Typescript
@@ -37,6 +38,7 @@ export const LessonTemplate = ({
 
   return (
     <div className="line-break">
+      {/* Whiteboard */}
       {lessonData.whiteboard && (
         <Whiteboard
           title={lessonData.whiteboard.title}
@@ -51,11 +53,12 @@ export const LessonTemplate = ({
 
       {isUnderConstruction && <UnderConstruction />}
 
+      {/* Content */}
+      {lessonData.contents && <Content contents={lessonData.contents}/>}
+
       {lessonData.lessons.map((lesson, lessonIndex) => (
         <React.Fragment key={lessonIndex}>
           
-          {/* Content */}
-          {lesson.contents && <Content contents={lesson.contents}/>}
 
           {/* Title */}
           {lesson.title && (
@@ -64,6 +67,7 @@ export const LessonTemplate = ({
               time={lesson.time}
               bgColor={lesson.bgColor}
               textColor={lesson.textColor}
+              id={lesson.id}
             />
           )}
 
@@ -145,6 +149,7 @@ export const LessonTemplate = ({
           />
         </React.Fragment>
       ))}
+    <ScrollToTop />
     </div>
   );
 };
