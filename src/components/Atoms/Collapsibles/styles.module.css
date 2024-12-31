@@ -1,6 +1,6 @@
-.plus-minus-position {
+.icons-position {
   position: relative;
-  top: 1.3px;
+  top: 5px;
 }
 
 .plus-minus-icons {
@@ -11,8 +11,8 @@
   display: inline;
 }
 
-.border {
+/* .border {
   border: var(--border);
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
-}
+} */

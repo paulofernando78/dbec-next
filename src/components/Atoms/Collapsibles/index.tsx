@@ -3,11 +3,14 @@
 // Hook
 import { useState } from "react";
 
-// Components
-import { Card } from "@/components";
+// Component
+import Image from "next/image";
 
 // CSS
 import styles from "./styles.module.css";
+
+// Images / Icons
+import { expandForward, expandDown } from "@/img/index";
 
 // Typescript
 import { CollapsibleProps } from "./type";
@@ -19,17 +22,29 @@ export const Collapsible = ({ label, children }: CollapsibleProps) => {
     setOpen(!isOpen);
   };
   return (
-    <div className={styles["border"]}>
+    <div>
       <span
         onClick={toggleCollapse}
         className="cursor-pointer user-select-none"
       >
-        <span className={`bold ${styles["plus-minus-position"]}`}>
-          {isOpen ? "-" : "+"}{" "}
+        <span className={`bold ${styles["icons-position"]}`}>
+          {isOpen ? (
+            <Image
+              src={expandDown}
+              alt="Expand Down"
+              className="icon-general"
+              />
+            ) : (
+              <Image src={expandForward} alt="Expand Forward" 
+              className="icon-general"
+              />
+          )}{" "}
         </span>
-        <b>{label}</b>
+        <p className="display-inline">
+          <b>{label}</b>
+        </p>
       </span>
-      {isOpen && <span className="block margin-top">{children}</span>}
+      {isOpen && <p className="block margin-top">{children}</p>}
     </div>
   );
 };
