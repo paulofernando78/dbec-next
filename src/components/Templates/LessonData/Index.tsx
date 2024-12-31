@@ -23,6 +23,7 @@ import { Exercises } from "@/components/Organisms/Exercises";
 import { Exercise } from "@/components/Templates/LessonData/types";
 import Iframe from "@/components/Atoms/Iframe";
 import Image from "next/image";
+import { Content } from "@/components/Atoms/Content";
 
 const baseImgScr = "/assets/img";
 
@@ -52,6 +53,10 @@ export const LessonTemplate = ({
 
       {lessonData.lessons.map((lesson, lessonIndex) => (
         <React.Fragment key={lessonIndex}>
+          
+          {/* Content */}
+          {lesson.contents && <Content contents={lesson.contents}/>}
+
           {/* Title */}
           {lesson.title && (
             <Ribbon

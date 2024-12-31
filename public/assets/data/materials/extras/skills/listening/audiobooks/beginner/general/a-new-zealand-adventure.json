@@ -18,6 +18,16 @@
       "textColor": "white"
     },
     {
+      "contents": [
+        {
+          "content": "Paragraph 1"
+        },
+        {
+          "content": "Paragraph 2"
+        }
+      ]
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/a-new-zealand-adventure/cover.jpg",

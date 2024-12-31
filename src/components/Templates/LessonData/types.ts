@@ -1,3 +1,4 @@
+import { Content } from "@/components/Atoms/Content/type";
 import { WhiteboardProps } from "@/components/Molecules/Whiteboard/type";
 import { SwiperFractionProps } from "@/components/Organisms/Swiper/Fraction/types";
 // import { RadioQuestion } from "@/components/Molecules/ExerciseTemplates/Radio/type";
@@ -28,6 +29,7 @@ export interface ExercisesProps {
 }
 
 export interface LessonData {
+  contents: Content[]
   title: string;
   time: string;
   bgColor?: string;
