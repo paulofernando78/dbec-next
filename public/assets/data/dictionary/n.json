@@ -1,5 +1,78 @@
 [
   {
+    "keyword": "near",
+    "definitions": [
+      {
+        "audio": "/dictionary/n/near-verb.mp3",
+        "word": "near",
+        "phonetics": "/nɪr/",
+        "partOfSpeech": "verb",
+        "enDefinition": "To come closer to someone or something.",
+        "ptDefinition": "Aproximar-se de alguém ou algo.",
+        "examples": [
+          {
+            "enExample": "The train neared the station.",
+            "ptExample": "O trem se aproximou da estação."
+          }
+        ],
+        "synonyms": "approach, advance",
+        "antonyms": "recede, withdraw",
+        "seeAlso": "come closer, draw near"
+      },
+      {
+        "audio": "/dictionary/n/near.mp3",
+        "word": "near",
+        "phonetics": "/nɪr/",
+        "partOfSpeech": "adverb",
+        "enDefinition": "At or to a short distance away.",
+        "ptDefinition": "A uma curta distância.",
+        "examples": [
+          {
+            "enExample": "We moved nearer to the stage.",
+            "ptExample": "Nós nos movemos mais perto do palco."
+          }
+        ],
+        "synonyms": "closely, nearby",
+        "antonyms": "far, distantly",
+        "seeAlso": "close, approximately"
+      },
+      {
+        "audio": "/dictionary/n/near.mp3",
+        "word": "near",
+        "phonetics": "/nɪr/",
+        "partOfSpeech": "preposition",
+        "enDefinition": "Close to someone or something in distance or time.",
+        "ptDefinition": "Perto de alguém ou algo em distância ou tempo.",
+        "examples": [
+          {
+            "enExample": "She sat near the window.",
+            "ptExample": "Ela se sentou perto da janela."
+          }
+        ],
+        "synonyms": "by, beside, next to",
+        "antonyms": "far from, away from",
+        "seeAlso": "adjacent, alongside"
+      },
+      {
+        "audio": "/dictionary/n/near.mp3",
+        "word": "near",
+        "phonetics": "/nɪr/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "Located a short distance away; close.",
+        "ptDefinition": "Localizado a uma curta distância; próximo.",
+        "examples": [
+          {
+            "enExample": "The nearest hospital is just a mile away.",
+            "ptExample": "O hospital mais próximo fica a apenas um quilômetro."
+          }
+        ],
+        "synonyms": "close, neighboring",
+        "antonyms": "distant, remote",
+        "seeAlso": "proximal, nearby"
+      }
+    ]
+  },
+  {
     "keyword": "new blood",
     "definitions": [
       {
@@ -14,6 +87,18 @@
             "ptExample": "A empresa contratou alguns funcionários jovens para renovar a equipe."
           }
         ]
+      }
+    ]
+  },
+  {
+    "keyword": "new zealand",
+    "definitions": [
+      {
+        "audio": "/dictionary/n/new-zealand.mp3",
+        "word": "New Zealand",
+        "partOfSpeech": "noun",
+        "enDefinition": "a country in the southern Pacific Ocean",
+        "ptDefinition": "Nova Zelândia"
       }
     ]
   },

@@ -18,8 +18,8 @@ export interface IDictionaryDefinitions {
   notes?: IDictionaryDefinitionsNotes[];
   synonyms?: string;
   antonyms?: string;
-  seeAlso: string;
-  note: string;
+  seeAlso?: string; // Changed to optional
+  note?: string; // Changed to optional
 }
 
 export interface IDictionary {

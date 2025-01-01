@@ -19,8 +19,16 @@
   font-size: var(--p-size);
 }
 
-.audio-player-margin-top {
+.margin-top {
   margin-top: 0.3rem;
+}
+
+.play-button {
+  margin-right: 5px;
+  width: 15px;
+  height: 18px;
+  position: relative;
+  top: 2px;
 }
 
 .margin-right {

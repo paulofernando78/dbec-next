@@ -27,7 +27,9 @@ export const Button = ({ label, onClick, toggle }: ButtonProps) => {
       <button className={styles.pushable} onClick={handleClick}>
         <span className={styles.shadow}></span>
         <span className={styles.edge}></span>
-        <span className={styles.front}>{label}</span>
+        <span className={styles.front}>
+          {typeof label === 'string' ? label : label}
+          </span>
       </button>
       {toggle && show && <p>...</p>}
     </>

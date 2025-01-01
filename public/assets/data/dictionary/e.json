@@ -60,5 +60,31 @@
         "antonyms": "dishonest, immoral, corrupt, improper, unjust"
       }
     ]
+  },
+  {
+    "keyword": "excite",
+    "definitions": [
+      {
+        "audio": "/dictionary/e/excite-verb.mp3",
+        "word": "excite",
+        "phonetics": "/ɪkˈsaɪt/",
+        "partOfSpeech": "verb",
+        "enDefinition": "To cause someone to feel very enthusiastic and eager.",
+        "ptDefinition": "Causar em alguém um sentimento de muito entusiasmo e animação.",
+        "examples": [
+          {
+            "enExample": "The news of the concert excited her.",
+            "ptExample": "A notícia do show a animou."
+          },
+          {
+            "enExample": "The discovery excited the scientific community.",
+            "ptExample": "A descoberta entusiasmou a comunidade científica."
+          }
+        ],
+        "synonyms": "thrill, elate, stimulate, energize",
+        "antonyms": "bore, depress, calm, discourage",
+        "seeAlso": "arouse, inspire, provoke"
+      }
+    ]
   }
 ]
