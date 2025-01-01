@@ -12,6 +12,67 @@
     "usa": false,
     "uk": true
   },
+  "contents": [
+    {
+      "content": "Paragraph 1"
+    },
+    {
+      "content": "Paragraph 2",
+      "link": "#paragraph-2"
+    },
+    {
+      "content": "Paragraph 3",
+      "link": "#paragraph-3"
+    },
+    {
+      "content": "Paragraph 4",
+      "link": "#paragraph-4"
+    },
+    {
+      "content": "Paragraph 5",
+      "link": "#paragraph-5"
+    },
+    {
+      "content": "Paragraph 6",
+      "link": "#paragraph-6"
+    },
+    {
+      "content": "Paragraph 7",
+      "link": "#paragraph-7"
+    },
+    {
+      "content": "Paragraph 8",
+      "link": "#paragraph-8"
+    },
+    {
+      "content": "Paragraph 9",
+      "link": "#paragraph-9"
+    },
+    {
+      "content": "Paragraph 10",
+      "link": "#paragraph-10"
+    },
+    {
+      "content": "Paragraph 11",
+      "link": "#paragraph-11"
+    },
+    {
+      "content": "Paragraph 12",
+      "link": "#paragraph-12"
+    },
+    {
+      "content": "Paragraph 13",
+      "link": "#paragraph-13"
+    },
+    {
+      "content": "Paragraph 14",
+      "link": "#paragraph-14"
+    },
+    {
+      "content": "Paragraph 15",
+      "link": "#paragraph-15"
+    }
+  ],
   "lessons": [
     {
       "title": "Summary",
@@ -38,7 +99,9 @@
     {
       "title": "Paragraph 1",
       "bgColor": "black",
-      "textColor": "white",
+      "textColor": "white"
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-1.png",
@@ -50,7 +113,9 @@
             }
           ]
         }
-      ],
+      ]
+    },
+    {
       "id": "343c9e16-6dfa-4736-84df-24e06c6b16bd",
       "exercises": [
         {
@@ -129,6 +194,9 @@
       "time": "0:48",
       "bgColor": "black",
       "textColor": "white",
+      "id": "paragraph-2"
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-2.jpg",
@@ -140,7 +208,9 @@
             }
           ]
         }
-      ],
+      ]
+    },
+    {
       "id": "26c4ef73-e0f2-452c-8540-25942c193b43",
       "exercises": [
         {
@@ -198,6 +268,9 @@
       "time": "1:32",
       "bgColor": "black",
       "textColor": "white",
+      "id": "paragraph-3"
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-3.jpg",
@@ -209,7 +282,9 @@
             }
           ]
         }
-      ],
+      ]
+    },
+    {
       "id": "3c9f7b8e-8d6a-4f5b-9c7e-b8f7d6c9b7f3",
       "exercises": [
         {
@@ -287,7 +362,9 @@
       "title": "Paragraph 4",
       "time": "2:20",
       "bgColor": "black",
-      "textColor": "white",
+      "textColor": "white"
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-4.jpg",
@@ -299,7 +376,9 @@
             }
           ]
         }
-      ],
+      ]
+    },
+    {
       "id": "4a8e2c8d-9f47-4e76-88fd-0a62d8d6c11b",
       "exercises": [
         {
@@ -377,7 +456,9 @@
       "title": "Paragraph 5",
       "time": "3:02",
       "bgColor": "black",
-      "textColor": "white",
+      "textColor": "white"
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-5.jpg",
@@ -389,7 +470,9 @@
             }
           ]
         }
-      ],
+      ]
+    },
+    {
       "id": "4a8e2c8d-9f47-4e76-88fd-0a62d8d6c11b",
       "exercises": [
         {
@@ -467,7 +550,9 @@
       "title": "Paragraph 6",
       "time": "3:47",
       "bgColor": "black",
-      "textColor": "white",
+      "textColor": "white"
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-6.png",
@@ -479,7 +564,9 @@
             }
           ]
         }
-      ],
+      ]
+    },
+    {
       "id": "4a8e2c8d-9f47-4e76-88fd-0a62d8d6c11b",
       "exercises": [
         {
@@ -557,7 +644,9 @@
       "title": "Paragraph 7",
       "time": "4:29",
       "bgColor": "black",
-      "textColor": "white",
+      "textColor": "white"
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-7.jpg",
@@ -569,7 +658,9 @@
             }
           ]
         }
-      ],
+      ]
+    },
+    {
       "id": "4a8e2c8d-9f47-4e76-88fd-0a62d8d6c11b",
       "exercises": [
         {
@@ -626,7 +717,9 @@
       "title": "Paragraph 8",
       "time": "5:21",
       "bgColor": "black",
-      "textColor": "white",
+      "textColor": "white"
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-8.png",
@@ -638,7 +731,9 @@
             }
           ]
         }
-      ],
+      ]
+    },
+    {
       "id": "8d1c95c1-eedb-473f-a74c-b3a34c72e1e7",
       "exercises": [
         {
@@ -696,7 +791,9 @@
       "title": "Paragraph 9",
       "time": "6:09",
       "bgColor": "black",
-      "textColor": "white",
+      "textColor": "white"
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-9.jpg",
@@ -708,7 +805,9 @@
             }
           ]
         }
-      ],
+      ]
+    },
+    {
       "id": "9f6b0a62-7290-49c4-a36d-57da2e726dfe",
       "exercises": [
         {
@@ -765,7 +864,9 @@
       "title": "Paragraph 10",
       "time": "6:58",
       "bgColor": "black",
-      "textColor": "white",
+      "textColor": "white"
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-10.jpg",
@@ -777,7 +878,9 @@
             }
           ]
         }
-      ],
+      ]
+    },
+    {
       "id": "0d531f8a-464b-484b-bb28-6d4d8b2eeb9d",
       "exercises": [
         {
@@ -850,7 +953,9 @@
       "title": "Paragraph 11",
       "time": "7:41",
       "bgColor": "black",
-      "textColor": "white",
+      "textColor": "white"
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-11.jpg",
@@ -863,6 +968,9 @@
           ]
         }
       ],
+      "id": "c1f8d8e3-b3a3-45d9-b941-dfe37d0351e1"
+    },
+    {
       "id": "c1f8d8e3-b3a3-45d9-b941-dfe37d0351e1",
       "exercises": [
         {
@@ -940,7 +1048,9 @@
       "title": "Paragraph 12",
       "time": "8:24",
       "bgColor": "black",
-      "textColor": "white",
+      "textColor": "white"
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-12.jpg",
@@ -952,7 +1062,9 @@
             }
           ]
         }
-      ],
+      ]
+    },
+    {
       "id": "d8f1c39e-3b67-4db5-8e3a-1f02c0ed6c1e",
       "exercises": [
         {
@@ -1030,7 +1142,9 @@
       "title": "Paragraph 13",
       "time": "9:07",
       "bgColor": "black",
-      "textColor": "white",
+      "textColor": "white"
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-13.jpg",
@@ -1042,7 +1156,9 @@
             }
           ]
         }
-      ],
+      ]
+    },
+    {
       "id": "f4c2d9e7-bd35-4f74-8ad4-7408aeb222db",
       "exercises": [
         {
@@ -1099,7 +1215,9 @@
       "title": "Paragraph 14",
       "time": "9:48",
       "bgColor": "black",
-      "textColor": "white",
+      "textColor": "white"
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-14.jpg",
@@ -1111,7 +1229,9 @@
             }
           ]
         }
-      ],
+      ]
+    },
+    {
       "id": "f7b62cd2-49c1-4927-bf44-57500aab4d24",
       "exercises": [
         {
@@ -1189,7 +1309,9 @@
       "title": "Paragraph 15",
       "time": "10:32",
       "bgColor": "black",
-      "textColor": "white",
+      "textColor": "white"
+    },
+    {
       "paragraphSections": [
         {
           "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/simon-and-the-spy/paragraph-15.jpg",
@@ -1201,7 +1323,9 @@
             }
           ]
         }
-      ],
+      ]
+    },
+    {
       "id": "d914f072-4902-4f1d-bf3a-773e3e0d4c47",
       "exercises": [
         {

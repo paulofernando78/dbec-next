@@ -11,85 +11,68 @@
     "time": "9:54",
     "uk": true
   },
+  "contents": [
+    {
+      "content": "Paragraph 1"
+    },
+    {
+      "content": "Paragraph 2",
+      "link": "#paragraph-2"
+    },
+    {
+      "content": "Paragraph 3",
+      "link": "#paragraph-3"
+    },
+    {
+      "content": "Paragraph 4",
+      "link": "#paragraph-4"
+    },
+    {
+      "content": "Paragraph 5",
+      "link": "#paragraph-5"
+    },
+    {
+      "content": "Paragraph 6",
+      "link": "#paragraph-6"
+    },
+    {
+      "content": "Paragraph 7",
+      "link": "#paragraph-7"
+    },
+    {
+      "content": "Paragraph 8",
+      "link": "#paragraph-8"
+    },
+    {
+      "content": "Paragraph 9",
+      "link": "#paragraph-9"
+    },
+    {
+      "content": "Paragraph 10",
+      "link": "#paragraph-10"
+    },
+    {
+      "content": "Paragraph 11",
+      "link": "#paragraph-11"
+    },
+    {
+      "content": "Paragraph 12",
+      "link": "#paragraph-12"
+    },
+    {
+      "content": "Paragraph 13",
+      "link": "#paragraph-13"
+    },
+    {
+      "content": "Paragraph 14",
+      "link": "#paragraph-14"
+    },
+    {
+      "content": "Paragraph 15",
+      "link": "#paragraph-15"
+    }
+  ],
   "lessons": [
-    {
-      "title": "Pre-vocabulary",
-      "bgColor": "black",
-      "textColor": "white"
-    },
-    {
-      "paragraphSections": [
-        {
-          "paragraphs": [
-            {
-              "keyword": "above",
-              "word": "above",
-              "wordAudioSrc": "/dictionary/a/above.mp3"
-            },
-            {
-              "keyword": "asleep",
-              "word": "asleep",
-              "wordAudioSrc": "/dictionary/a/asleep.mp3"
-            },
-            {
-              "keyword": "bottle",
-              "word": "bottle",
-              "wordAudioSrc": "/dictionary/b/bottle.mp3"
-            },
-            {
-              "keyword": "corner",
-              "word": "corner",
-              "wordAudioSrc": "/dictionary/c/corner.mp3"
-            },
-            {
-              "keyword": "diamond",
-              "word": "diamond",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "keyword": "expensive",
-              "word": "expenive",
-              "wordAudioSrc": "/dictionary/e/expensive.mp3"
-            },
-            {
-              "keyword": "mirror",
-              "word": "",
-              "wordAudioSrc": "/dictionary/.mp3"
-            },
-            {
-              "keyword": "mouth",
-              "word": "mouth",
-              "wordAudioSrc": "/dictionary/m/mouth.mp3"
-            },
-            {
-              "keyword": "neck",
-              "word": "neck",
-              "wordAudioSrc": "/dictionary/n/neck.mp3"
-            },
-            {
-              "keyword": "ring",
-              "word": "ring",
-              "wordAudioSrc": "/dictionary/r/ring.mp3"
-            },
-            {
-              "keyword": "soap",
-              "word": "soap",
-              "wordAudioSrc": "/dictionary/s/soap.mp3"
-            },
-            {
-              "keyword": "steal",
-              "word": "steal",
-              "wordAudioSrc": "/dictionary/s/steal.mp3"
-            },
-            {
-              "keyword": "thieves",
-              "word": "thieves",
-              "wordAudioSrc": "/dictionary/t/thieves.mp3"
-            }
-          ]
-        }
-      ]
-    },
     {
       "title": "Summary",
       "bgColor": "black",
@@ -210,7 +193,8 @@
       "title": "Paragraph 2",
       "time": "0:34",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "link": "paragraph-2"
     },
     {
       "paragraphSections": [
@@ -257,7 +241,8 @@
       "title": "Paragraph 3",
       "time": "1:16",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "link": "paragraph-3"
     },
     {
       "paragraphSections": [
@@ -304,7 +289,8 @@
       "title": "Paragraph 4",
       "time": "1:56",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "link": "paragrap-4"
     },
     {
       "paragraphSections": [
@@ -367,7 +353,8 @@
       "title": "Paragraph 5",
       "time": "2:32",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "link": "paragraph-5"
     },
     {
       "paragraphSections": [
@@ -430,7 +417,8 @@
       "title": "Paragraph 6",
       "time": "3:11",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "link": "paragraph-6"
     },
     {
       "paragraphSections": [
@@ -493,7 +481,8 @@
       "title": "Paragraph 7",
       "time": "3:48",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "link": "paragraph-7"
     },
     {
       "paragraphSections": [
@@ -540,7 +529,8 @@
       "title": "Paragraph 8",
       "time": "4:30",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "link": "paragraph-8"
     },
     {
       "paragraphSections": [
@@ -602,7 +592,8 @@
       "title": "Paragraph 9",
       "time": "5:15",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "link": "paragraph-9"
     },
     {
       "paragraphSections": [
@@ -651,7 +642,8 @@
       "title": "Paragraph 10",
       "time": "5:58",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "link": "paragraph-10"
     },
     {
       "paragraphSections": [
@@ -698,7 +690,8 @@
       "title": "Paragraph 11",
       "time": "6:39",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "link": "paragraph-11"
     },
     {
       "paragraphSections": [
@@ -761,7 +754,8 @@
       "title": "Paragraph 12",
       "time": "7:20",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "link": "paragraph-12"
     },
     {
       "paragraphSections": [
@@ -808,7 +802,8 @@
       "title": "Paragraph 13",
       "time": "8:02",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "link": "paragraph-13"
     },
     {
       "paragraphSections": [
@@ -855,7 +850,8 @@
       "title": "Paragraph 14",
       "time": "8:38",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "link": "paragraph-14"
     },
     {
       "paragraphSections": [
@@ -901,7 +897,8 @@
       "title": "Paragraph 15",
       "time": "9:13",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "link": "paragraph-15"
     },
     {
       "paragraphSections": [

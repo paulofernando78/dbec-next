@@ -7,6 +7,67 @@
     "usa": true,
     "uk": true
   },
+  "contents": [
+    {
+      "content": "Paragraph 1"
+    },
+    {
+      "content": "Paragraph 2",
+      "link": "#paragraph-2"
+    },
+    {
+      "content": "Paragraph 3",
+      "link": "#paragraph-3"
+    },
+    {
+      "content": "Paragraph 4",
+      "link": "#paragraph-4"
+    },
+    {
+      "content": "Paragraph 5",
+      "link": "#paragraph-5"
+    },
+    {
+      "content": "Paragraph 6",
+      "link": "#paragraph-6"
+    },
+    {
+      "content": "Paragraph 7",
+      "link": "#paragraph-7"
+    },
+    {
+      "content": "Paragraph 8",
+      "link": "#paragraph-8"
+    },
+    {
+      "content": "Paragraph 9",
+      "link": "#paragraph-9"
+    },
+    {
+      "content": "Paragraph 10",
+      "link": "#paragraph-10"
+    },
+    {
+      "content": "Paragraph 11",
+      "link": "#paragraph-11"
+    },
+    {
+      "content": "Paragraph 12",
+      "link": "#paragraph-12"
+    },
+    {
+      "content": "Paragraph 13",
+      "link": "#paragraph-13"
+    },
+    {
+      "content": "Paragraph 14",
+      "link": "#paragraph-14"
+    },
+    {
+      "content": "Paragraph 15",
+      "link": "#paragraph-15"
+    }
+  ],
   "lessons": [
     {
       "title": "Summary",
@@ -82,7 +143,8 @@
       "title": "Paragraph 2",
       "time": "...",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "#paragraph-2"
     },
     {
       "paragraphSections": [
@@ -126,7 +188,8 @@
       "title": "Paragraph 3",
       "time": "...",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "#paragraph-3"
     },
     {
       "paragraphSections": [
@@ -170,7 +233,8 @@
       "title": "Paragraph 4",
       "time": "...",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "#paragraph-4"
     },
     {
       "paragraphSections": [
@@ -214,7 +278,8 @@
       "title": "Paragraph 5",
       "time": "...",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "#paragraph-5"
     },
     {
       "paragraphSections": [
@@ -258,7 +323,8 @@
       "title": "Paragraph 6",
       "time": "...",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "#paragraph-6"
     },
     {
       "paragraphSections": [
@@ -302,7 +368,8 @@
       "title": "Paragraph 7",
       "time": "...",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "#paragraph-7"
     },
     {
       "paragraphSections": [
@@ -346,7 +413,8 @@
       "title": "Paragraph 8",
       "time": "...",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "#paragraph-8"
     },
     {
       "paragraphSections": [
@@ -390,7 +458,8 @@
       "title": "Paragraph 9",
       "time": "...",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "#paragraph-9"
     },
     {
       "paragraphSections": [
@@ -434,7 +503,8 @@
       "title": "Paragraph 10",
       "time": "...",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "#paragraph-10"
     },
     {
       "paragraphSections": [
@@ -478,7 +548,8 @@
       "title": "Paragraph 11",
       "time": "...",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "#paragraph-11"
     },
     {
       "paragraphSections": [
@@ -522,7 +593,8 @@
       "title": "Paragraph 12",
       "time": "...",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "#paragraph-12"
     },
     {
       "paragraphSections": [
@@ -566,7 +638,8 @@
       "title": "Paragraph 13",
       "time": "...",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "#paragraph-13"
     },
     {
       "paragraphSections": [
@@ -610,7 +683,8 @@
       "title": "Paragraph 14",
       "time": "...",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "#paragraph-14"
     },
     {
       "paragraphSections": [
@@ -654,7 +728,8 @@
       "title": "Paragraph 15",
       "time": "...",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "#paragraph-15"
     },
     {
       "paragraphSections": [
