@@ -11,30 +11,68 @@
     "time": "10:30",
     "uk" : true
   },
+  "contents": [
+    {
+      "content": "Paragraph 1"
+    },
+    {
+      "content": "Paragraph 2",
+      "link": "#paragraph-2"
+    },
+    {
+      "content": "Paragraph 3",
+      "link": "#paragraph-3"
+    },
+    {
+      "content": "Paragraph 4",
+      "link": "#paragraph-4"
+    },
+    {
+      "content": "Paragraph 5",
+      "link": "#paragraph-5"
+    },
+    {
+      "content": "Paragraph 6",
+      "link": "#paragraph-6"
+    },
+    {
+      "content": "Paragraph 7",
+      "link": "#paragraph-7"
+    },
+    {
+      "content": "Paragraph 8",
+      "link": "#paragraph-8"
+    },
+    {
+      "content": "Paragraph 9",
+      "link": "#paragraph-9"
+    },
+    {
+      "content": "Paragraph 10",
+      "link": "#paragraph-10"
+    },
+    {
+      "content": "Paragraph 11",
+      "link": "#paragraph-11"
+    },
+    {
+      "content": "Paragraph 12",
+      "link": "#paragraph-12"
+    },
+    {
+      "content": "Paragraph 13",
+      "link": "#paragraph-13"
+    },
+    {
+      "content": "Paragraph 14",
+      "link": "#paragraph-14"
+    },
+    {
+      "content": "Paragraph 15",
+      "link": "#paragraph-15"
+    }
+  ],
   "lessons": [
-    {
-      "title": "Pre-vocabulary",
-      "bgColor": "black",
-      "textColor": "white"
-    },
-    {
-      "paragraphSections": [
-        {
-          "paragraphs": [
-            {
-              "keyword": "lighthouse",
-              "word": "lighthouse",
-              "wordAudioSrc": "/dictionary/lighthouse.mp3"
-            },
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            }
-          ]
-        }
-      ]
-    },
     {
       "title": "Summary",
       "bgColor": "black",
@@ -139,7 +177,8 @@
       "title": "Paragraph 2",
       "time": "0:54",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-2"
     },
     {
       "paragraphSections": [
@@ -234,7 +273,8 @@
       "title": "Paragraph 3",
       "time": "1:34",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-3"
     },
     {
       "paragraphSections": [
@@ -329,7 +369,8 @@
       "title": "Paragraph 4",
       "time": "2:10",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-4"
     },
     {
       "paragraphSections": [
@@ -408,7 +449,8 @@
       "title": "Paragraph 5",
       "time": "2:46",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-5"
     },
     {
       "paragraphSections": [
@@ -471,7 +513,8 @@
       "title": "Paragraph 6",
       "time": "3:30",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-6"
     },
     {
       "paragraphSections": [
@@ -518,7 +561,8 @@
       "title": "Paragraph 7",
       "time": "4:05",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-7"
     },
     {
       "paragraphSections": [
@@ -598,7 +642,8 @@
       "title": "Paragraph 8",
       "time": "4:44",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-8"
     },
     {
       "paragraphSections": [
@@ -677,7 +722,8 @@
       "title": "Paragraph 9",
       "time": "5:37",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-9"
     },
     {
       "paragraphSections": [
@@ -756,7 +802,8 @@
       "title": "Paragraph 10",
       "time": "6:23",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-10"
     },
     {
       "paragraphSections": [
@@ -835,7 +882,8 @@
       "title": "Paragraph 11",
       "time": "7:02",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-11"
     },
     {
       "paragraphSections": [
@@ -898,7 +946,8 @@
       "title": "Paragraph 12",
       "time": "7:45",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-12"
     },
     {
       "paragraphSections": [
@@ -961,7 +1010,8 @@
       "title": "Paragraph 13",
       "time": "8:30",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-13"
     },
     {
       "paragraphSections": [
@@ -1039,7 +1089,8 @@
       "title": "Paragraph 14",
       "time": "9:26",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-14"
     },
     {
       "paragraphSections": [
@@ -1102,7 +1153,8 @@
       "title": "Paragraph 15",
       "time": "10:11",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-15"
     },
     {
       "paragraphSections": [

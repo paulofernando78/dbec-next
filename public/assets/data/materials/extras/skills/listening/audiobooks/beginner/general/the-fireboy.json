@@ -6,6 +6,67 @@
     "time": "12:33",
     "uk": true
   },
+  "contents": [
+    {
+      "content": "Paragraph 1"
+    },
+    {
+      "content": "Paragraph 2",
+      "link": "#paragraph-2"
+    },
+    {
+      "content": "Paragraph 3",
+      "link": "#paragraph-3"
+    },
+    {
+      "content": "Paragraph 4",
+      "link": "#paragraph-4"
+    },
+    {
+      "content": "Paragraph 5",
+      "link": "#paragraph-5"
+    },
+    {
+      "content": "Paragraph 6",
+      "link": "#paragraph-6"
+    },
+    {
+      "content": "Paragraph 7",
+      "link": "#paragraph-7"
+    },
+    {
+      "content": "Paragraph 8",
+      "link": "#paragraph-8"
+    },
+    {
+      "content": "Paragraph 9",
+      "link": "#paragraph-9"
+    },
+    {
+      "content": "Paragraph 10",
+      "link": "#paragraph-10"
+    },
+    {
+      "content": "Paragraph 11",
+      "link": "#paragraph-11"
+    },
+    {
+      "content": "Paragraph 12",
+      "link": "#paragraph-12"
+    },
+    {
+      "content": "Paragraph 13",
+      "link": "#paragraph-13"
+    },
+    {
+      "content": "Paragraph 14",
+      "link": "#paragraph-14"
+    },
+    {
+      "content": "Paragraph 15",
+      "link": "#paragraph-15"
+    }
+  ],
   "lessons": [
     {
       "title": "Summary",
@@ -49,6 +110,7 @@
       ]
     },
     {
+      "id": "8abac12f-bcb0-4abb-b8c6-e8115bc4a7c6",
       "exercises": [
         {
           "id": "defd5898-73c5-4d35-8fcb-ec34197bfb7a",
@@ -110,7 +172,8 @@
       "title": "Paragraph 2",
       "time": "(0:52)",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-2"
     },
     {
       "paragraphSections": [
@@ -127,6 +190,7 @@
       ]
     },
     {
+      "id": "7bc992ed-e7f9-4900-9459-ca00da375590",
       "exercises": [
         {
           "id": "1abe395c-10cf-40cb-9ac5-d1b8097753b3",
@@ -189,7 +253,8 @@
       "title": "Paragraph 3",
       "time": "1:44",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-3"
     },
     {
       "paragraphSections": [
@@ -206,6 +271,7 @@
       ]
     },
     {
+      "id": "14167d16-7905-4860-ae3e-45c41aee9124",
       "exercises": [
         {
           "id": "cca3d755-2e57-493a-98bd-2d7c0dc7ff26",
@@ -235,7 +301,8 @@
       "title": "Paragraph 4",
       "time": "2:40",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-4"
     },
     {
       "paragraphSections": [
@@ -252,6 +319,7 @@
       ]
     },
     {
+      "id": "616c8d72-4782-472e-a9b7-1772cf1a6237",
       "exercises": [
         {
           "id": "46f9e7b2-81ba-43da-a6ed-447b18dfa571",
@@ -298,7 +366,8 @@
       "title": "Paragraph 5",
       "time": "3:30",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-5"
     },
     {
       "paragraphSections": [
@@ -315,6 +384,7 @@
       ]
     },
     {
+      "id": "4b6c9d83-e19d-4ba2-9318-ed1f2dc25501",
       "exercises": [
         {
           "id": "51c892f4-c182-42dd-abd2-7d0c26e5cbe1",
@@ -361,7 +431,8 @@
       "title": "Paragraph 6",
       "time": "4:15",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-6"
     },
     {
       "paragraphSections": [
@@ -378,6 +449,7 @@
       ]
     },
     {
+      "id": "aa82d268-e072-4903-b5f7-eb8f6e90d252",
       "exercises": [
         {
           "id": "2f29763c-b8f9-4831-8baa-6fb56e9582af",
@@ -456,7 +528,8 @@
       "title": "Paragraph 7",
       "time": "4:56",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-7"
     },
     {
       "paragraphSections": [
@@ -473,6 +546,7 @@
       ]
     },
     {
+      "id": "4cbd7b0f-6c7e-4fa3-80b8-75303bc3f8cc",
       "exercises": [
         {
           "id": "34026154-bb74-41a0-bd2e-13ece268d3f5",
@@ -535,7 +609,8 @@
       "title": "Paragraph 8",
       "time": "5:39",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-8"
     },
     {
       "paragraphSections": [
@@ -549,6 +624,7 @@
       ]
     },
     {
+      "id": "de3bc8d5-c4dc-4b9b-8894-605e64ed9fea",
       "exercises": [
         {
           "id": "d273eee4-4083-4703-a6bd-2cb450fe4329",
@@ -594,7 +670,8 @@
       "title": "Paragraph 9",
       "time": "6:36",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-9"
     },
     {
       "paragraphSections": [
@@ -612,6 +689,7 @@
       "imgAlt": "Cleopatra arrives at the market carried by four man."
     },
     {
+      "id": "8a821204-9496-426b-ab58-7672b1a6b4d9",
       "exercises": [
         {
           "id": "cd579c83-97d6-4f2e-875b-4561facc8afc",
@@ -673,7 +751,8 @@
       "title": "Paragraph 10",
       "time": "7:30",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-10"
     },
     {
       "paragraphSections": [
@@ -690,6 +769,7 @@
       ]
     },
     {
+      "id": "d954b29c-69c4-439d-a327-af6d1116fc1f",
       "exercises": [
         {
           "id": "f46951d6-0787-4434-b676-44e7a1649de3",
@@ -719,7 +799,8 @@
       "title": "Paragraph 11",
       "time": "8:18",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-11"
     },
     {
       "paragraphSections": [
@@ -736,6 +817,7 @@
       ]
     },
     {
+      "id": "3317fa29-e448-4b66-920c-7305ff174fe6",
       "exercises": [
         {
           "id": "b84de172-e74e-49e9-87a0-e5eee670e94b",
@@ -765,7 +847,8 @@
       "title": "Paragraph 12",
       "time": "9:15",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-12"
     },
     {
       "paragraphSections": [
@@ -782,6 +865,7 @@
       ]
     },
     {
+      "id": "4aca8f6a-97f7-418b-982e-5e9d0d5c4c05",
       "exercises": [
         {
           "id": "e50ea94d-bd5b-4891-98d6-a049853dab1f",
@@ -811,7 +895,8 @@
       "title": "Paragraph 13",
       "time": "10:06",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-13"
     },
     {
       "paragraphSections": [
@@ -828,6 +913,7 @@
       ]
     },
     {
+      "id": "244c41c5-8b63-41e2-9f63-3fedd9128aa3",
       "exercises": [
         {
           "id": "cb430670-d3e6-4b42-875d-9b68d9d79899",
@@ -857,7 +943,8 @@
       "title": "Paragraph 14",
       "time": "10:58",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-14"
     },
     {
       "paragraphSections": [
@@ -874,6 +961,7 @@
       ]
     },
     {
+      "id": "63a8e8d5-5715-4427-8554-4dfb3a1e56cc",
       "exercises": [
         {
           "id": "431fba98-5c45-4893-bf49-85497010d2e6",
@@ -903,7 +991,8 @@
       "title": "Paragraph 15",
       "time": "11:42",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-15"
     },
     {
       "paragraphSections": [
@@ -920,6 +1009,7 @@
       ]
     },
     {
+      "id": "913d3a7d-411a-4f6d-b63b-2f5641963d1e",
       "exercises": [
         {
           "id": "f9427950-6b32-4429-9807-4645df6d65f1",

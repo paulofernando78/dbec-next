@@ -194,7 +194,7 @@
       "time": "0:34",
       "bgColor": "black",
       "textColor": "white",
-      "link": "paragraph-2"
+      "id": "paragraph-2"
     },
     {
       "paragraphSections": [
@@ -242,7 +242,7 @@
       "time": "1:16",
       "bgColor": "black",
       "textColor": "white",
-      "link": "paragraph-3"
+      "id": "paragraph-3"
     },
     {
       "paragraphSections": [
@@ -290,7 +290,7 @@
       "time": "1:56",
       "bgColor": "black",
       "textColor": "white",
-      "link": "paragrap-4"
+      "id": "paragrap-4"
     },
     {
       "paragraphSections": [
@@ -354,7 +354,7 @@
       "time": "2:32",
       "bgColor": "black",
       "textColor": "white",
-      "link": "paragraph-5"
+      "id": "paragraph-5"
     },
     {
       "paragraphSections": [
@@ -418,7 +418,7 @@
       "time": "3:11",
       "bgColor": "black",
       "textColor": "white",
-      "link": "paragraph-6"
+      "id": "paragraph-6"
     },
     {
       "paragraphSections": [
@@ -482,7 +482,7 @@
       "time": "3:48",
       "bgColor": "black",
       "textColor": "white",
-      "link": "paragraph-7"
+      "id": "paragraph-7"
     },
     {
       "paragraphSections": [
@@ -499,7 +499,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "452e6277-69dc-42b5-8d35-5f0ef7339a81",
       "exercises": [
         {
           "id": "",
@@ -530,7 +530,7 @@
       "time": "4:30",
       "bgColor": "black",
       "textColor": "white",
-      "link": "paragraph-8"
+      "id": "paragraph-8"
     },
     {
       "paragraphSections": [
@@ -593,7 +593,7 @@
       "time": "5:15",
       "bgColor": "black",
       "textColor": "white",
-      "link": "paragraph-9"
+      "id": "paragraph-9"
     },
     {
       "paragraphSections": [
@@ -643,7 +643,7 @@
       "time": "5:58",
       "bgColor": "black",
       "textColor": "white",
-      "link": "paragraph-10"
+      "id": "paragraph-10"
     },
     {
       "paragraphSections": [
@@ -691,7 +691,7 @@
       "time": "6:39",
       "bgColor": "black",
       "textColor": "white",
-      "link": "paragraph-11"
+      "id": "paragraph-11"
     },
     {
       "paragraphSections": [
@@ -755,7 +755,7 @@
       "time": "7:20",
       "bgColor": "black",
       "textColor": "white",
-      "link": "paragraph-12"
+      "id": "paragraph-12"
     },
     {
       "paragraphSections": [
@@ -803,7 +803,7 @@
       "time": "8:02",
       "bgColor": "black",
       "textColor": "white",
-      "link": "paragraph-13"
+      "id": "paragraph-13"
     },
     {
       "paragraphSections": [
@@ -851,7 +851,7 @@
       "time": "8:38",
       "bgColor": "black",
       "textColor": "white",
-      "link": "paragraph-14"
+      "id": "paragraph-14"
     },
     {
       "paragraphSections": [
@@ -898,7 +898,7 @@
       "time": "9:13",
       "bgColor": "black",
       "textColor": "white",
-      "link": "paragraph-15"
+      "id": "paragraph-15"
     },
     {
       "paragraphSections": [
@@ -918,7 +918,7 @@
       "imgAlt": "Paragraph 8-9 illustration"
     },
     {
-      "id": "",
+      "id": "4644d0d1-a90b-4f99-b0e4-9b3c0947959a",
       "exercises": [
         {
           "id": "",
