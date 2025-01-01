@@ -1,9 +1,5 @@
 "use client";
 
-// Components
-import { AudioPlayer } from "../..";
-import { Button } from "@/components/Atoms/Button";
-
 // CSS
 import styles from "./styles.module.css";
 
@@ -16,9 +12,38 @@ import Image from "next/image";
 
 export function WordCard({ dictionary }: WordCardProps) {
   const handleTextToSpeech = (text: string) => {
-    const speech = new SpeechSynthesisUtterance(text);
-    speech.lang = "en-US";
-    window.speechSynthesis.speak(speech);
+    if ('speechSynthesis' in window && 'SpeechSynthesisUtterance' in window) {
+      const speech = new SpeechSynthesisUtterance(text);
+  
+      // Force voice selection
+      const voices = window.speechSynthesis.getVoices();
+      let selectedVoice = voices.find(
+        (voice) => voice.lang === "en-US" && voice.name.includes("Google")
+      );
+  
+      // Fallback to any "en-US" voice
+      if (!selectedVoice) {
+        selectedVoice = voices.find((voice) => voice.lang === "en-US");
+      }
+  
+      // If no exact match, log error and pick first available voice
+      if (!selectedVoice) {
+        console.warn("No 'en-US' voice found. Using default voice.");
+        selectedVoice = voices[0]; // Use the first available voice as a last resort
+      }
+  
+      // Apply forced voice and settings
+      speech.voice = selectedVoice;
+      speech.lang = "en-US"; // Explicitly enforce language
+      speech.rate = 1.0; // Normal speed
+      speech.pitch = 0.9; // Default pitch
+      speech.volume = 1.0; // Full volume
+  
+      // Speak the text
+      window.speechSynthesis.speak(speech);
+    } else {
+      console.error("Text-to-speech is not supported in this browser.");
+    }
   };
   return (
     <div className={styles["word-card-margin"]}>
