@@ -22,7 +22,7 @@ export const Collapsible = ({ label, children }: CollapsibleProps) => {
     setOpen(!isOpen);
   };
   return (
-    <div>
+    <div className={styles['border']}>
       <span
         onClick={toggleCollapse}
         className="cursor-pointer user-select-none"
@@ -32,11 +32,11 @@ export const Collapsible = ({ label, children }: CollapsibleProps) => {
             <Image
               src={expandDown}
               alt="Expand Down"
-              className="icon-general"
+              className={styles["collapsible-icon-size"]}
               />
             ) : (
               <Image src={expandForward} alt="Expand Forward" 
-              className="icon-general"
+              className={styles["collapsible-icon-size"]}
               />
           )}{" "}
         </span>

@@ -175,11 +175,6 @@
                   "id": "5c424ca5-8f16-45d1-bac7-7df911355079",
                   "label": "b) They're going to New Zealand.",
                   "isCorrect": true
-                },
-                {
-                  "id": "c5cd3b5b-ae52-40ac-88b3-5df0de9a3f46",
-                  "label": "c) They're going to Australia.",
-                  "isCorrect": false
                 }
               ]
             },
@@ -228,11 +223,6 @@
                   "id": "b4809f8d-f0eb-448d-8f95-490719822f5b",
                   "label": "b) They are going to get a taxi.",
                   "isCorrect": true
-                },
-                {
-                  "id": "dd144f4e-98dc-4f19-8e72-f86906920bd5",
-                  "label": "c) They are going to get a plane.",
-                  "isCorrect": false
                 }
               ]
             }
@@ -281,11 +271,6 @@
                   "id": "66968848-22f5-4007-9e7d-8c767b75a9cc",
                   "label": "b) They're at the bus station.",
                   "isCorrect": false
-                },
-                {
-                  "id": "d6ef566b-4686-4aba-9645-aa9cf0bc9caf",
-                  "label": "c) They're at home.",
-                  "isCorrect": false
                 }
               ]
             },
@@ -297,11 +282,6 @@
                   "id": "483bcd52-dd85-424c-bc09-f070d8702446",
                   "label": "a) A girl is waving to them.",
                   "isCorrect": false
-                },
-                {
-                  "id": "ec85203d-6cf3-46f7-aba2-850c2e017733",
-                  "label": "b) A man is waving to them.",
-                  "isCorrect": true
                 },
                 {
                   "id": "bd96e267-9fe0-4588-9138-9241651ab9f5",
@@ -368,18 +348,13 @@
               "options": [
                 {
                   "id": "f345c2a1-9b44-4089-b58d-bbfcfc880d9c",
-                  "label": "a) She sees a wallet on the floor.",
+                  "label": "a) She sees a photo on the floor.",
                   "isCorrect": false
                 },
                 {
                   "id": "aae65f8c-61a4-4bb9-babc-b49b499472ee",
                   "label": "b) She sees a mobile phone on the floor.",
                   "isCorrect": true
-                },
-                {
-                  "id": "04e68a8a-8efe-438d-baaf-1240f3c4c558",
-                  "label": "c) She sees a photo phone on the floor.",
-                  "isCorrect": false
                 }
               ]
             }
@@ -430,11 +405,6 @@
                 {
                   "id": "60c68e57-32d8-4d1b-8f51-76960b1e2ee5",
                   "label": "a) The buses are driving on the a road.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "0fb43a07-4355-4e89-8da7-0aa4bb97abec",
-                  "label": "b) The buses are driving on the a street.",
                   "isCorrect": false
                 },
                 {
@@ -545,11 +515,6 @@
                   "id": "a544ae1d-3bf8-46b5-baa7-285b03ae26a4",
                   "label": "b) Because there's a message for Jessica.",
                   "isCorrect": false
-                },
-                {
-                  "id": "c579465b-ce57-48e0-86ee-09d14e09422d",
-                  "label": "c) Because there's a message for Sarah.",
-                  "isCorrect": false
                 }
               ]
             },
@@ -560,11 +525,6 @@
                 {
                   "id": "462b6da0-0410-4503-8a4d-22502eadf477",
                   "label": "a) Perhaps they can find him at Ninety Mile Beach",
-                  "isCorrect": false
-                },
-                {
-                  "id": "c3b27136-2e9e-4ad2-9e94-8a8f5f852e9c",
-                  "label": "b) Perhaps they can find him at aiport.",
                   "isCorrect": false
                 },
                 {
@@ -631,11 +591,6 @@
               "question": "6.2 What does Sarah want to do when they get there?",
               "options": [
                 {
-                  "id": "3a3a5ea8-1fe1-4a77-a8d6-a5d4ac0d99cc",
-                  "label": "a) She wants to go to a movie theater.",
-                  "isCorrect": false
-                },
-                {
                   "id": "d391003a-ac1e-4891-85f0-1f12f8a665d0",
                   "label": "b) She wants to bungy jump from the tower.",
                   "isCorrect": true
@@ -683,11 +638,6 @@
               "id": "3f84d0d5-35e0-4f22-8610-edab02814be5",
               "question": "7.1 What does Jessica forget to take after Sarah jumps from the tower?",
               "options": [
-                {
-                  "id": "46c10d9f-5303-4b20-94d5-50987ba82e0f",
-                  "label": "a) She forgets to take Michael's phone.",
-                  "isCorrect": false
-                },
                 {
                   "id": "e22f36fa-061e-4cd8-a73a-cd3467b9e6e7",
                   "label": "b) She forgets to take Michael's bag.",
@@ -753,11 +703,6 @@
               "question": "8.2 What tickets do they have for?",
               "options": [
                 {
-                  "id": "dfb345cb-ee1b-4c32-b3f5-b726e782bc6d",
-                  "label": "a) They have tickets for the movie theater..",
-                  "isCorrect": false
-                },
-                {
                   "id": "d65df5b7-8656-438a-b736-7bea1339add5",
                   "label": "b) They have tickets for the Glow-worm caves.",
                   "isCorrect": true
@@ -810,11 +755,6 @@
               "question": "9.1 How do they go into the dark cave?",
               "options": [
                 {
-                  "id": "078614c4-23cc-47de-8b79-c10a8a26c4fa",
-                  "label": "a) They swim into the dark cave.",
-                  "isCorrect": false
-                },
-                {
                   "id": "8362883d-6e2c-4fb5-b7e7-4f0eeead11a6",
                   "label": "b) They walk into the dark cave.",
                   "isCorrect": false
@@ -839,11 +779,6 @@
                   "id": "46c49422-dd1f-4d7c-b8b2-2f10d3266793",
                   "label": "b) Because people can't see the glow-worms.",
                   "isCorrect": false
-                },
-                {
-                  "id": "e05db567-4fc4-42f3-b657-4d4019408e1a",
-                  "label": "c) Because phones aren't allowed in the cave.",
-                  "isCorrect": true
                 }
               ]
             }
@@ -908,11 +843,6 @@
                   "id": "ff10347b-4554-4142-8dcf-23c1a00a300d",
                   "label": "b) They take a plane.",
                   "isCorrect": false
-                },
-                {
-                  "id": "4b1b587d-98da-46ec-8526-01bab7af109d",
-                  "label": "c) They go by car.",
-                  "isCorrect": false
                 }
               ]
             }
@@ -956,11 +886,6 @@
               "id": "de1fa924-9b62-4ed3-897a-2209980376d0",
               "question": "11.1 Where do Sarah and Jessica take Michael's phone?",
               "options": [
-                {
-                  "id": "a2136b17-a367-4dbc-95fb-2db135a73c8f",
-                  "label": "a) They take his mobile phone to the police station in Rotorua.",
-                  "isCorrect": false
-                },
                 {
                   "id": "505a3484-aaad-4fef-ae1d-dffd7e0a5c2e",
                   "label": "b) They take his mobile phone to the police station in Auckland.",
@@ -1012,11 +937,6 @@
                 {
                   "id": "b030409f-e157-46e4-b53f-4215698635b9",
                   "label": "a) They want to see a Whale movie.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "3a5cca4c-d961-4bd4-8b2b-823fbe60bcb1",
-                  "label": "b) They want to go to a concert.",
                   "isCorrect": false
                 },
                 {
@@ -1087,11 +1007,6 @@
                   "id": "7918ba7f-98e9-4d72-9a61-8c4ce6613b8e",
                   "label": "b) Michael calls home",
                   "isCorrect": true
-                },
-                {
-                  "id": "59ec4281-73df-4c0e-8e12-896e2813cb65",
-                  "label": "c) Michael calls Sarah and Jessica.",
-                  "isCorrect": false
                 }
               ]
             },
@@ -1099,11 +1014,6 @@
               "id": "535ad7f6-d69a-4ad7-ad3a-bc4ac5a0a016",
               "question": "13.2 What does Michael's parents say?",
               "options": [
-                {
-                  "id": "c7362398-856b-4fe2-810a-4897bce17eb6",
-                  "label": "a) They say they've got £10,000 from the lottery!",
-                  "isCorrect": false
-                },
                 {
                   "id": "67d4ad0d-0e36-45b3-9652-cd190676b3a0",
                   "label": "b) They say they've got £100,000 from the lottery!",
@@ -1123,11 +1033,6 @@
                 {
                   "id": "8e15ad6a-675b-4545-95bf-02a08e6bcd38",
                   "label": "a) Michael gives them some money.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "d3111d2e-fc56-4dd8-a8b3-e01c3517f4fc",
-                  "label": "b) Michael gives them some food.",
                   "isCorrect": false
                 },
                 {
