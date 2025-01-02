@@ -10,15 +10,21 @@ import styles from "./styles.module.css";
 
 import {
   dictionaryIcon,
+
+  // Courses
   placementTest,
   beginner,
   elementary,
   preIntermediate,
   intermediate,
-  grammarIcon,
-  skillsIcon,
+
+  // Extras
+  listeningIcon,
   pronunciationIcon,
+  grammarIcon,
   vocabularyIcon,
+
+  // Specific Purposes
   aviationIcon,
   automobileIcon,
   businessIcon,
@@ -100,22 +106,22 @@ const navBarLinks = [
     label: "EXTRAS",
     links: [
       {
-        imgSrc: skillsIcon,
-        altName: "Skills icon",
-        link: "/materials//extras/skills",
-        name: "Skills",
-      },
-      {
-        imgSrc: grammarIcon,
-        altName: "Grammar icon",
-        link: "/materials//extras/grammar",
-        name: "Grammar",
+        imgSrc: listeningIcon,
+        altName: "Listening icon",
+        link: "/materials/extras/listening",
+        name: "Listening",
       },
       {
         imgSrc: pronunciationIcon,
         altName: "Pronunciation icon",
         link: "/materials//extras/pronunciation",
         name: "Pronunciation",
+      },
+      {
+        imgSrc: grammarIcon,
+        altName: "Grammar icon",
+        link: "/materials//extras/grammar",
+        name: "Grammar",
       },
       {
         imgSrc: vocabularyIcon,

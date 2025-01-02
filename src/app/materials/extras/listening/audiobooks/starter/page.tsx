@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { ContentCard } from "@/components/Templates/ContentCard";
 import { MainContent, Whiteboard } from "@/components/Templates/ContentCard/type";
 
-export default function ExtrasGrammar() {
+export default function ExtrasSkillsListeningAudioBooksStarter() {
   const [contentData, setContentData] = useState<{ whiteboard?: Whiteboard; contents: MainContent[] }>({
     whiteboard: undefined,
     contents: [],
@@ -12,7 +12,7 @@ export default function ExtrasGrammar() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  const CONTENTS_JSON_PATH = "/assets/data/materials/extras/grammar/contents.json";
+  const CONTENTS_JSON_PATH = "/assets/data/materials/extras/listening/audiobooks/starter/contents.json";
 
   useEffect(() => {
     fetch(CONTENTS_JSON_PATH)

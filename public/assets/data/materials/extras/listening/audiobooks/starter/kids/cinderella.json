@@ -2,10 +2,9 @@
   "whiteboard": {
     "title": "Extras",
     "subtitle": "Listening",
-    "descriptions": ["Audiobooks", "Beginner", "..."],
+    "descriptions": ["Audiobooks", "Starter", "Kids", "Cinderella"],
     "time": "00:00",
-    "usa": true,
-    "uk": true
+    "usa": true
   },
   "contents": [
     {
