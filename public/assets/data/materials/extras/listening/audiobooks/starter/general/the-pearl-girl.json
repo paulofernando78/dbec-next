@@ -122,17 +122,12 @@
               "options": [
                 {
                   "id": "59a4178b-c234-4f23-bbe5-9fdb6137fd79",
-                  "label": "a) He's looking at a picture of an old woman.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "59a4178b-c234-4f23-bbe5-9fdb6137fd79",
-                  "label": "b) He's looking at a picture of a young boy.",
+                  "label": "He's looking at a picture of an old woman.",
                   "isCorrect": false
                 },
                 {
                   "id": "be18fabb-8a05-4934-98db-c9d4fddb75a1",
-                  "label": "c) He's looking at a picture of an old man.",
+                  "label": "He's looking at a picture of an old man.",
                   "isCorrect": true
                 }
               ]
@@ -143,18 +138,13 @@
               "options": [
                 {
                   "id": "b49f5595-6fed-422d-8841-27fada200c13",
-                  "label": "a) She looks at her watch at 4:30.",
+                  "label": "She looks at her watch at 4:55.",
                   "isCorrect": false
                 },
                 {
                   "id": "2aa8d016-33cf-480e-a3b7-97683c236b6b",
-                  "label": "b) She looks at her watch at  4:45.",
+                  "label": "She looks at her watch at  4:45.",
                   "isCorrect": true
-                },
-                {
-                  "id": "c0850c76-19b6-4beb-9d9b-44cdf8f78d42",
-                  "label": "c) She looks at her watch at 5:00.",
-                  "isCorrect": false
                 }
               ]
             }
@@ -196,18 +186,13 @@
               "options": [
                 {
                   "id": "a0b1c2d3-4d5e-4f6b-5d4e-5e4f6b5d4e5e",
-                  "label": "a) She loves paintings.",
+                  "label": "She loves paintings.",
                   "isCorrect": false
                 },
                 {
                   "id": "b1c2d3e4-5d6e-4f7b-6d5e-6e4f7b6d5e6e",
-                  "label": "b) She loves earrings.",
+                  "label": "She loves earrings.",
                   "isCorrect": true
-                },
-                {
-                  "id": "a0b1c2d3-4d5e-4f6b-5d4e-5e4f6b5d4e5e",
-                  "label": "c) She loves pictures.",
-                  "isCorrect": false
                 }
               ]
             },
@@ -216,18 +201,13 @@
               "question": "2.2 What is the name of the painting Kate sees?",
               "options": [
                 {
-                  "id": "6226ed68-09ee-427e-8222-6f5eacf0fcb2",
-                  "label": "a) The Night Watch.",
-                  "isCorrect": false
-                },
-                {
                   "id": "87641a96-0b70-46fe-a4f0-ebb9ba6f6f74",
-                  "label": "b) The Starry Night.",
+                  "label": "Girl with a Gold Earring.",
                   "isCorrect": false
                 },
                 {
                   "id": "9fb23ef2-8905-47e4-872d-e7bf9dd4beb3",
-                  "label": "c) Girl with a Pearl Earring.",
+                  "label": "Girl with a Pearl Earring.",
                   "isCorrect": true
                 }
               ]
@@ -269,18 +249,13 @@
               "question": "3.1 What time are the Grants drinking coffee?",
               "options": [
                 {
-                  "id": "a51bae84-2f6d-4a42-af48-96124eedabcb",
-                  "label": "a) At 4:38.",
-                  "isCorrect": false
-                },
-                {
                   "id": "4581baa2-fa77-4115-85fc-4fa67af24282",
-                  "label": "b) At 4:48.",
+                  "label": "At 4:48.",
                   "isCorrect": false
                 },
                 {
                   "id": "6c0ad6fb-5906-4d73-a2db-0c6da26263e6",
-                  "label": "c) At 4:58.",
+                  "label": "At 4:58.",
                   "isCorrect": true
                 }
               ]
@@ -290,18 +265,13 @@
               "question": "3.2 Where did Mr. Grant leave his passport?",
               "options": [
                 {
-                  "id": "a1b2c3d4-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
-                  "label": "a) He leaves the passport in his bag.",
-                  "isCorrect": false
-                },
-                {
                   "id": "b2c3d4e5-6f7g-8h9i-0j1k-2l3m4n5o6p7q",
-                  "label": "b) He leaves the passport on a chair near 'Girl with a Pearl Earring.'",
+                  "label": "He leaves the passport on a chair near 'Girl with a Pearl Earring.'",
                   "isCorrect": true
                 },
                 {
                   "id": "d4e5f6g7-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
-                  "label": "c) He leaves the passport in his pocket.",
+                  "label": "He leaves the passport in his pocket.",
                   "isCorrect": false
                 }
               ]
@@ -344,17 +314,12 @@
               "options": [
                 {
                   "id": "c4d5e6f7-8g9h-0i1j-2k3l-4m5n6o7p8q9r",
-                  "label": "a) She asks him to let her in to find her father's passport.",
+                  "label": "She asks him to let her in to find her father's passport.",
                   "isCorrect": true
                 },
                 {
                   "id": "b3c4d5e6-7f8g-9h0i-1j2k-3l4m5n6o7p8q",
-                  "label": "b) She asks him to show her the famous painting.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "d4e5f6g7-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
-                  "label": "c) She asks him to help her find her parents.",
+                  "label": "She asks him to show her the famous painting.",
                   "isCorrect": false
                 }
               ]
@@ -364,18 +329,13 @@
               "question": "4.2 What is the guard's name?",
               "options": [
                 {
-                  "id": "b4646b6b-1483-4b78-9ade-1075ae028a75",
-                  "label": "a) Hi name is Pete Van Dyck.",
-                  "isCorrect": false
-                },
-                {
                   "id": "7f80f5e5-de95-44b0-9cae-e00e25a0a59b",
-                  "label": "b) Hi name is Paul Van Dyck.",
+                  "label": "Hi name is Paul Van Dyck.",
                   "isCorrect": true
                 },
                 {
                   "id": "7e28c424-1f74-4976-a7a0-facfea1ff476",
-                  "label": "c) Hi name is Peter Van Dyck.",
+                  "label": "Hi name is Peter Van Dyck.",
                   "isCorrect": false
                 }
               ]
@@ -418,17 +378,12 @@
               "options": [
                 {
                   "id": "d6e7f8g9-0h1i-2j3k-4l5m-6n7o8p9q0r1s",
-                  "label": "a) He hears voices.",
+                  "label": "He hears voices.",
                   "isCorrect": true
                 },
                 {
                   "id": "c5d6e7f8-9g0h-1i2j-3k4l-5m6n7o8p9q0r",
-                  "label": "b) He hears footsteps.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "d4e5f6g7-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
-                  "label": "c) He hears some music.",
+                  "label": "He hears footsteps.",
                   "isCorrect": false
                 }
               ]
@@ -471,17 +426,12 @@
               "options": [
                 {
                   "id": "d6e7f8g9-0h1i-2j3k-4l5m-6n7o8p9q0r1s",
-                  "label": "a) He has a knife.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "c5d6e7f8-9g0h-1i2j-3k4l-5m6n7o8p9q0r",
-                  "label": "b) He has a phone a rope.",
+                  "label": "He has a knife.",
                   "isCorrect": false
                 },
                 {
                   "id": "e7f8g9h0-1i2j-3k4l-5m6n-7o8p9q0r1s2t",
-                  "label": "c) He has a gun.",
+                  "label": "He has a gun.",
                   "isCorrect": true
                 }
               ]
@@ -491,18 +441,13 @@
               "question": "6.2 What does the tall man carry?",
               "options": [
                 {
-                  "id": "4695bfe6-dd2e-4f4a-930c-c6eb2a322078",
-                  "label": "a) He carrie a gun.",
-                  "isCorrect": false
-                },
-                {
                   "id": "89c363b1-9a54-49c1-821a-708887823dbb",
-                  "label": "b) He carries a black bag,",
+                  "label": "He carries a black bag,",
                   "isCorrect": true
                 },
                 {
                   "id": "809ae1cd-8264-4237-add8-b04fa5130e50",
-                  "label": "c) He carries a flashlight",
+                  "label": "He carries a flashlight",
                   "isCorrect": false
                 }
               ]
@@ -545,19 +490,13 @@
               "options": [
                 {
                   "id": "e7f8g9h0-1i2j-3k4l-5m6n-7o8p9q0r1s2t",
-                  "label": "a) He gets hit on the head.",
+                  "label": "He gets shot in the arm.",
                   "isCorrect": false
                 },
                 {
                   "id": "f8g9h0i1-2j3k-4l5m-6n7o-8p9q0r1s2t3u",
-                  "label": "b) He gets shot in the leg.",
+                  "label": "He gets shot in the leg.",
                   "isCorrect": true
-                },
-                {
-                  "id": "d4e5f6g7-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
-                  "label": "c) He gets tied up.",
-                  "labelPt": "c) He gets tied up.",
-                  "isCorrect": false
                 }
               ]
             }
@@ -599,17 +538,12 @@
               "options": [
                 {
                   "id": "g9h0i1j2-3k4l-5m6n-7o8p-9q0r1s2t3u4v",
-                  "label": "a) They take her to a small street behind the museum.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "f8g9h0i1-2j3k-4l5m-6n7o-8p9q0r1s2t3u",
-                  "label": "b) They take her to her house.",
+                  "label": "They take her to a small street behind the museum.",
                   "isCorrect": false
                 },
                 {
                   "id": "d4e5f6g7-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
-                  "label": "c) They take her to Amsterdam.",
+                  "label": "They take her to Amsterdam.",
                   "isCorrect": true
                 }
               ]
@@ -652,18 +586,13 @@
               "options": [
                 {
                   "id": "g9h0i1j2-3k4l-5m6n-7o8p-9q0r1s2t3u4v",
-                  "label": "a) Kate sees a boat called 'The White Cat.'",
+                  "label": "Kate sees a boat called 'The Black Cat.'",
                   "isCorrect": false
                 },
                 {
                   "id": "h0i1j2k3-4l5m-6n7o-8p9q-0r1s2t3u4v5w",
-                  "label": "b) Kate sees a boat called 'The Black Dog'.",
+                  "label": "Kate sees a boat called 'The Black Dog'.",
                   "isCorrect": true
-                },
-                {
-                  "id": "d4e5f6g7-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
-                  "label": "c) Kate sees a boat called 'The Red Fox'.",
-                  "isCorrect": false
                 }
               ]
             }
@@ -704,18 +633,13 @@
               "question": "10.1 What do the thieves plan to do?",
               "options": [
                 {
-                  "id": "h0i1j2k3-4l5m-6n7o-8p9q-0r1s2t3u4v5w",
-                  "label": "a) They plan to send the paiting to the police.",
-                  "isCorrect": false
-                },
-                {
                   "id": "i1j2k3l4-5m6n-7o8p-9q0r-1s2t3u4v5w6x",
-                  "label": "b) They plan to send a note to Kate's family.",
+                  "label": "They plan to send a note to Kate's family.",
                   "isCorrect": true
                 },
                 {
                   "id": "d4e5f6g7-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
-                  "label": "c) They plan to send a note to the police.",
+                  "label": "They plan to send a note to the police.",
                   "isCorrect": false
                 }
               ]
@@ -757,18 +681,13 @@
               "question": "11.1 What does Kate do with the note she writes?",
               "options": [
                 {
-                  "id": "i1j2k3l4-5m6n-7o8p-9q0r-1s2t3u4v5w6x",
-                  "label": "a) She hides it in the kitchen.",
-                  "isCorrect": false
-                },
-                {
                   "id": "d4e5f6g7-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
-                  "label": "b) She gives it to the thieves.",
+                  "label": "She gives it to the thieves.",
                   "isCorrect": false
                 },
                 {
                   "id": "j2k3l4m5-6n7o-8p9q-0r1s-2t3u4v5w6x7y",
-                  "label": "c) She puts it in a bottle and throws it into the canal.",
+                  "label": "She puts it in a bottle and throws it into the canal.",
                   "isCorrect": true
                 }
               ]
@@ -811,17 +730,12 @@
               "options": [
                 {
                   "id": "k3l4m5n6-7o8p-9q0r-1s2t-3u4v5w6x7y8z",
-                  "label": "a) An old man.",
+                  "label": "An old man.",
                   "isCorrect": true
                 },
                 {
                   "id": "j2k3l4m5-6n7o-8p9q-0r1s-2t3u4v5w6x7y",
-                  "label": "b) A police officer.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "d4e5f6g7-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
-                  "label": "c) A child.",
+                  "label": "A police officer.",
                   "isCorrect": false
                 }
               ]
@@ -864,17 +778,12 @@
               "options": [
                 {
                   "id": "k3l4m5n6-7o8p-9q0r-1s2t-3u4v5w6x7y8z",
-                  "label": "a) Her parents",
-                  "isCorrect": false
-                },
-                {
-                  "id": "d4e5f6g7-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
-                  "label": "b) A friend",
+                  "label": "Her parents",
                   "isCorrect": false
                 },
                 {
                   "id": "l4m5n6o7-8p9q-0r1s-2t3u-4v5w6x7y8z9a",
-                  "label": "c) The police",
+                  "label": "The police",
                   "isCorrect": true
                 }
               ]
@@ -916,24 +825,14 @@
               "question": "14.1 What does the director give to Kate?",
               "options": [
                 {
-                  "id": "l4m5n6o7-8p9q-0r1s-2t3u-4v5w6x7y8z9a",
-                  "label": "a) He gives her a painting",
-                  "isCorrect": false
-                },
-                {
                   "id": "d4e5f6g7-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
-                  "label": "b) He gives her a big box.",
+                  "label": "He gives her a big box.",
                   "isCorrect": false
                 },
                 {
                   "id": "m5n6o7p8-9q0r-1s2t-3u4v-5w6x7y8z9a0b",
-                  "label": "c) He gives her a small bag.",
+                  "label": "He gives her a small bag.",
                   "isCorrect": true
-                },
-                {
-                  "id": "d4e5f6g7-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
-                  "label": "d) He gives her a necklace.",
-                  "isCorrect": false
                 }
               ]
             }
