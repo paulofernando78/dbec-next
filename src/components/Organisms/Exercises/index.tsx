@@ -12,6 +12,7 @@ import { correctIcon, incorrectIcon } from "@/img/index";
 
 // Typescript
 import { ExercisesProps, Exercise } from "./type";
+import { stringify } from "querystring";
 
 export const Exercises = ({ exercises = [], id }: ExercisesProps) => {
   return (
@@ -67,20 +68,20 @@ const ExerciseItem = ({exercise}:{exercise:Exercise}) => {
               <p dangerouslySetInnerHTML={{ __html: radioItem.question}} className="display-inline"></p>{" "}
               <p className="display-inline portuguese">{radioItem.questionPt}</p>
               {radioItem.options.map((option, optionIndex) => {
-                const idpp=`${exercise.id}-${radioItem.id}`
-                const isChecked=selectedOption[idpp] === option.label
+                const idRadio=`${exercise.id}-${radioItem.id}`
+                const isChecked=selectedOption[idRadio] === option.label
                 return (
                   <label key={optionIndex} className="radio-checkbox-flex">
                     <div className="radio-checkbox-container position-relative">
                       <input
                         type="radio"
-                        name={`radio-${idpp}`} // Grouping inputs for the same question
+                        name={`radio-${idRadio}`} // Grouping inputs for the same question
                         id={`radio-${exercise.id}-${radioItem.id}-${option.id}`}
                         className="radio-size"
                         onChange={() =>
                           !showFeedback && // Allow selection only if feedback is not shown
                           handleSelectedOption(
-                            idpp,
+                            idRadio,
                             option.label
                           )
                         }
@@ -90,7 +91,7 @@ const ExerciseItem = ({exercise}:{exercise:Exercise}) => {
                         disabled={showFeedback} // Disable radio button once feedback is shown
                       />
                     </div>
-                    <p className="cursor-pointer">{option.label}
+                    <p className="cursor-pointer">{String.fromCharCode(97 + optionIndex)}){" "}{option.label}
                     {" "}
                     {/* Only show the feedback icon for the selected option */}
                     {showFeedback && isChecked && (

@@ -63,8 +63,8 @@
       "link": "#paragraph-14"
     },
     {
-      "content": "Paragraph 15",
-      "link": "#paragraph-15"
+      "content": "Extra",
+      "link": "#extra"
     }
   ],
   "lessons": [
@@ -166,7 +166,8 @@
       "title": "Paragraph 2",
       "time": "0:50",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-2"
     },
     {
       "paragraphSections": [
@@ -239,7 +240,8 @@
       "title": "Paragraph 3",
       "time": "1:33",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-3"
     },
     {
       "paragraphSections": [
@@ -312,7 +314,8 @@
       "title": "Paragraph 4",
       "time": "2:26",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-4"
     },
     {
       "paragraphSections": [
@@ -385,7 +388,8 @@
       "title": "Paragraph 5",
       "time": "3:14",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-5"
     },
     {
       "paragraphSections": [
@@ -437,7 +441,8 @@
       "title": "Paragraph 6",
       "time": "3:56",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-6"
     },
     {
       "paragraphSections": [
@@ -510,7 +515,8 @@
       "title": "Paragraph 7",
       "time": "4:45",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-7"
     },
     {
       "paragraphSections": [
@@ -563,7 +569,8 @@
       "title": "Paragraph 8",
       "time": "5:32",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-8"
     },
     {
       "paragraphSections": [
@@ -615,7 +622,8 @@
       "title": "Paragraph 9",
       "time": "6:27",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-9"
     },
     {
       "paragraphSections": [
@@ -667,7 +675,8 @@
       "title": "Paragraph 10",
       "time": "7:18",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-10"
     },
     {
       "paragraphSections": [
@@ -719,7 +728,8 @@
       "title": "Paragraph 11",
       "time": "8:11",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-11"
     },
     {
       "paragraphSections": [
@@ -771,7 +781,8 @@
       "title": "Paragraph 12",
       "time": "9:04",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-12"
     },
     {
       "paragraphSections": [
@@ -823,7 +834,8 @@
       "title": "Paragraph 13",
       "time": "10:04",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-13"
     },
     {
       "paragraphSections": [
@@ -875,7 +887,8 @@
       "title": "Paragraph 14",
       "time": "11:58",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-14"
     },
     {
       "paragraphSections": [
@@ -931,7 +944,8 @@
     {
       "title": "Extra",
       "bgColor": "Lightgray",
-      "textColor": "black"
+      "textColor": "black",
+      "id": "extra"
     },
     {
       "paragraphSections": [
