@@ -76,7 +76,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/cover.jpg",
+          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/cover.jpg",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/audio.mp3"
+      "audioSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -98,7 +98,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-1.jpg",
+          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-1.jpg",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -162,7 +162,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-2.jpg",
+          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-2.jpg",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -226,7 +226,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-3.jpg",
+          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-3.jpg",
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -290,7 +290,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-4.jpg",
+          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-4.jpg",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -354,7 +354,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-5.jpg",
+          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-5.jpg",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -402,7 +402,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-6.jpg",
+          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-6.jpg",
           "imgAlt": "Paragraph 6 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -466,7 +466,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-7.jpg",
+          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-7.jpg",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -514,7 +514,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-8.jpg",
+          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-8.jpg",
           "imgAlt": "Paragraph 8 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -562,7 +562,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-9.jpg",
+          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-9.jpg",
           "imgAlt": "Paragraph 9 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -610,7 +610,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-10.jpg",
+          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-10.jpg",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -658,7 +658,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-11.jpg",
+          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-11.jpg",
           "imgAlt": "Paragraph 11 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -706,7 +706,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-12.jpg",
+          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-12.jpg",
           "imgAlt": "Paragraph 12 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -754,7 +754,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-13.jpg",
+          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-13.jpg",
           "imgAlt": "Paragraph 13 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -802,7 +802,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-14.jpg",
+          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-pearl-girl/paragraph-14.jpg",
           "imgAlt": "Paragraph 14 illustration",
           "imgPosition": "right",
           "paragraphs": [

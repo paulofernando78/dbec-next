@@ -1,4 +1,4 @@
-import React from 'react'
+  import React from 'react'
 import styles from './styles.module.css'
 
 import { ContentProps } from './type'
@@ -7,7 +7,7 @@ import { Collapsible } from '../Collapsibles'
 export const Content = ({ contents }:ContentProps) => {
   return (
       <Collapsible label='Contents'>
-      <React.Fragment>
+      <div className={styles["content-container"]}>
         {contents.map((content, contentIndex) => (
           <a
           href={content.link}
@@ -17,7 +17,7 @@ export const Content = ({ contents }:ContentProps) => {
           {content.content}
           </a>
         ))}
-      </React.Fragment>
+      </div>
       </Collapsible>
   )
 }

@@ -3,7 +3,7 @@
     "title": "Extras",
     "subtitle": "Listening",
     "descriptions": ["Audiobooks", "Starter", "Kids", "Cinderella"],
-    "time": "00:00",
+    "time": "03:05",
     "usa": true
   },
   "contents": [
@@ -76,24 +76,19 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/cinderella/cover.png",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Summary"
+              "textEn": "There is a dance at the big house today! Cinderella is sad. Her sisters are at the dance … POUF! It is the Fairy Godmother. Does Cinderella go to the dance? Does she see the Prince?"
             }
           ]
         }
       ]
     },
     {
-      "audioSrc": "/extras/skills/listening/audiobooks/..."
+      "audioSrc": "/extras/listening/audiobooks/starter/kids/cinderella/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -103,17 +98,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/cinderella/paragraph-1.png",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 1"
+              "textEn": "Cluck! Cluck! This is Cinderella."
             }
           ]
         }
@@ -130,9 +120,8 @@
               "id": "",
               "question": "1.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
               ]
             }
           ]
@@ -149,17 +138,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/cinderella/paragraph-2.png",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 2"
+              "textEn": "Cinderella is nice. Her sisters are bad."
             }
           ]
         }
@@ -176,9 +160,8 @@
               "id": "",
               "question": "2.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
               ]
             }
           ]
@@ -195,17 +178,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/cinderella/paragraph-3.png",
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 3"
+              "textEn": "There is a dance at the big house today."
             }
           ]
         }
@@ -222,9 +200,8 @@
               "id": "",
               "question": "3.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
               ]
             }
           ]
@@ -241,17 +218,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/cinderella/paragraph-4.png",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 4"
+              "textEn": "Her sisters are at the dance. Cinderella is sad."
             }
           ]
         }
@@ -268,9 +240,8 @@
               "id": "",
               "question": "4.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
               ]
             }
           ]
@@ -287,17 +258,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/cinderella/paragraph-5.png",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 5"
+              "textEn": "It is the Fairy Godmother. Now Cinderella has beautiful clothes."
             }
           ]
         }
@@ -314,9 +280,8 @@
               "id": "",
               "question": "5.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
               ]
             }
           ]
@@ -333,17 +298,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/cinderella/paragraph-6.png",
           "imgAlt": "Paragraph 6 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 6"
+              "textEn": "Twelve is home time, Cinderella! She goes to the dance."
             }
           ]
         }
@@ -360,9 +320,8 @@
               "id": "",
               "question": "6.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
               ]
             }
           ]
@@ -379,17 +338,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/cinderella/paragraph-7.png",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 7"
+              "textEn": "Cinderella is at the dance. The prince sees Cinderella."
             }
           ]
         }
@@ -406,9 +360,8 @@
               "id": "",
               "question": "7.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
               ]
             }
           ]
@@ -425,17 +378,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/cinderella/paragraph-8.png",
           "imgAlt": "Paragraph 8 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 8"
+              "textEn": "They dance and dance. Dong, dong, dong, dong, dong, dong, dong, dong! Oh, no! It is twelve."
             }
           ]
         }
@@ -452,9 +400,8 @@
               "id": "",
               "question": "8.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
               ]
             }
           ]
@@ -471,17 +418,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/cinderella/paragraph-9.png",
           "imgAlt": "Paragraph 9 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 9"
+              "textEn": "Cinderella runs and runs. Oh no! Where is her shoe?"
             }
           ]
         }
@@ -498,9 +440,8 @@
               "id": "",
               "question": "9.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
               ]
             }
           ]
@@ -517,17 +458,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/cinderella/paragraph-10.png",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 10"
+              "textEn": "A man comes to the house. Where is the beautiful girl?"
             }
           ]
         }
@@ -544,9 +480,8 @@
               "id": "",
               "question": "10.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
               ]
             }
           ]
@@ -563,17 +498,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/cinderella/paragraph-11.png",
           "imgAlt": "Paragraph 11 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 11"
+              "textEn": "Is it her shoe? No, it isn't. Ouch! Ouch!"
             }
           ]
         }
@@ -590,9 +520,8 @@
               "id": "",
               "question": "11.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
               ]
             }
           ]
@@ -609,17 +538,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/cinderella/paragraph-10.png",
           "imgAlt": "Paragraph 12 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 12"
+              "textEn": "Now Cinderella comes. Is it her shoe?"
             }
           ]
         }
@@ -636,9 +560,8 @@
               "id": "",
               "question": "12.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
               ]
             }
           ]
@@ -655,17 +578,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/cinderella/paragraph-13.png",
           "imgAlt": "Paragraph 13 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 13"
+              "textEn": "Yes, it is! She is the beautiful girl!"
             }
           ]
         }
@@ -682,9 +600,8 @@
               "id": "",
               "question": "13.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
               ]
             }
           ]
@@ -701,17 +618,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/cinderella/paragraph-14.png",
           "imgAlt": "Paragraph 14 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 14"
+              "textEn": "Now the prince and Cinderella are husband and wife."
             }
           ]
         }
@@ -728,55 +640,8 @@
               "id": "",
               "question": "14.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Paragraph 15",
-      "time": "...",
-      "bgColor": "black",
-      "textColor": "white",
-      "id": "paragraph-15"
-    },
-    {
-      "paragraphSections": [
-        {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 15 illustration",
-          "imgPosition": "right",
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 15"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "15. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "15.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false }
               ]
             }
           ]

@@ -14,11 +14,19 @@
           "contents": [
             {
               "checkboxLink": "/materials/extras/listening/audiobooks/starter/kids/cinderella",
-              "checkboxLabel": "Cinderella • ..."
+              "checkboxLabel": "Cinderella • 3:05"
             },
             {
               "checkboxLink": "/materials/extras/listening/audiobooks/starter/kids/dumbo",
-              "checkboxLabel": "Dumbo • ..."
+              "checkboxLabel": "Dumbo • 0:00"
+            },
+            {
+              "checkboxLink": "/materials/extras/listening/audiobooks/starter/kids/finding-nemo",
+              "checkboxLabel": "Finding Nemo • 0:00"
+            },
+            {
+              "checkboxLink": "/materials/extras/listening/audiobooks/starter/kids/sleeping-beauty",
+              "checkboxLabel": "Sleeping Beauty • 0:00"
             }
           ]
         }
@@ -70,6 +78,10 @@
             {
               "checkboxLink": "/materials/extras/listening/audiobooks/starter/general/the-pearl-girl",
               "checkboxLabel": "The Pearl Girl • 11:47"
+            },
+            {
+              "checkboxLink": "/materials/extras/listening/audiobooks/starter/general/the-pearl-girl",
+              "checkboxLabel": "The Troy Stone • 00:00"
             },
             {
               "checkboxLink": "/materials/extras/listening/audiobooks/starter/general/the-white-oryx",
