@@ -127,18 +127,13 @@
               "options": [
                 {
                   "id": "v9w0x1y2-z3a4-5b6c-7d8e-9f0g1h2i3j4k",
-                  "label": "a) Her nickname is 'Star'.",
+                  "label": "Her nickname is 'Star'.",
                   "isCorrect": false
                 },
                 {
                   "id": "f3g4h5i6-j7k8-9l0m-1n2o-3p4q5r6s7t8u",
-                  "label": "b) Her nickname is 'Curls'.",
+                  "label": "Her nickname is 'Curls'.",
                   "isCorrect": true
-                },
-                {
-                  "id": "l5m6n7o8-p9q0-1r2s-3t4u-5v6w7x8y9z0a",
-                  "label": "c) Her nickname is 'Singer'.",
-                  "isCorrect": false
                 }
               ]
             },
@@ -148,17 +143,12 @@
               "options": [
                 {
                   "id": "g7h8i9j0-k1l2-3m4n-5o6p-7q8r9s0t1u2v",
-                  "label": "a) She's 15.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "m5n6o7p8-q9r0-1s2t-3u4v-5w6x7y8z9a0b",
-                  "label": "b) She's  12.",
+                  "label": "She's thirty.",
                   "isCorrect": false
                 },
                 {
                   "id": "w9x0y1z2-a3b4-5c6d-7e8f-9g0h1i2j3k4l",
-                  "label": "c) She's 13.",
+                  "label": "She's 13.",
                   "isCorrect": true
                 }
               ]
@@ -200,18 +190,13 @@
               "question": "2.1 Why is Tina's mother angry?",
               "options": [
                 {
-                  "id": "d2e3f4g5-h6i7-8j9k-0l1m-2n3o4p5q6r7s",
-                  "label": "a) Because she's Tina is dancing.",
-                  "isCorrect": false
-                },
-                {
                   "id": "x0y1z2a3-b4c5-6d7e-8f9g-0h1i2j3k4l5m",
-                  "label": "b) Because she's Tina is eating chocolates.",
+                  "label": "Because she's Tina is eating chocolates.",
                   "isCorrect": true
                 },
                 {
                   "id": "n6o7p8q9-r0s1-2t3u-4v5w-6x7y8z9a0b1c",
-                  "label": "c) Because she's Tina is singing.",
+                  "label": "Because she's Tina is singing.",
                   "isCorrect": false
                 }
               ]
@@ -221,18 +206,13 @@
               "question": "2.2 What does Tina's mother want?",
               "options": [
                 {
-                  "id": "p6q7r8s9-t0u1-2v3w-4x5y-6z7a8b9c0d1e",
-                  "label": "a) She wants Tina to be happy.",
-                  "isCorrect": false
-                },
-                {
                   "id": "f2g3h4i5-j6k7-8l9m-0n1o-2p3q4r5s6t7u",
-                  "label": "b) She wants Tina to be a dancer.",
+                  "label": "She wants Tina to eat chocolate.",
                   "isCorrect": false
                 },
                 {
                   "id": "j0k1l2m3-n4o5-6p7q-8r9s-0t1u2v3w4x5y",
-                  "label": "c) She wants Tina to be a star.",
+                  "label": "She wants Tina to be a star.",
                   "isCorrect": true
                 }
               ]
@@ -274,18 +254,13 @@
               "question": "3.1 Where does Tina decide to go?",
               "options": [
                 {
-                  "id": "e3f4g5h6-i7j8-9k0l-1m2n-3o4p5q6r7s8t",
-                  "label": "a) She decides to go to home.",
-                  "isCorrect": false
-                },
-                {
                   "id": "y1z2a3b4-c5d6-7e8f-9g0h-1i2j3k4l5m6n",
-                  "label": "b) She decides to go to Stonechurch.",
+                  "label": "She decides to go to Stonechurch.",
                   "isCorrect": true
                 },
                 {
                   "id": "o7p8q9r0-s1t2-3u4v-5w6x-7y8z9a0b1c2d",
-                  "label": "c) She decides to go to Hollywood.",
+                  "label": "She decides to go to Hollywood.",
                   "isCorrect": false
                 }
               ]
@@ -296,17 +271,12 @@
               "options": [
                 {
                   "id": "k5l6m7n8-o9p0-1q2r-3s4t-5u6v7w8x9y0z",
-                  "label": "a) Mrs.. White.",
+                  "label": "Mrs. White lives in Stonechurch.",
                   "isCorrect": true
                 },
                 {
-                  "id": "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
-                  "label": "b) Tina's mother.",
-                  "isCorrect": false
-                },
-                {
                   "id": "q7r8s9t0-u1v2-3w4x-5y6z-7a8b9c0d1e2f",
-                  "label": "c) Tina's friend.",
+                  "label": "Tina's friend lives in Stonechurch.",
                   "isCorrect": false
                 }
               ]
@@ -348,18 +318,13 @@
               "question": "4.1 What is Tina wearing at the city station?",
               "options": [
                 {
-                  "id": "f4g5h6i7-j8k9-0l1m-2n3o-4p5q6r7s8t9u",
-                  "label": "a) She's wearing a suit.",
-                  "isCorrect": false
-                },
-                {
                   "id": "p8q9r0s1-t2u3-4v5w-6x7y-8z9a0b1c2d3e",
-                  "label": "b) She's wearing a dress.",
+                  "label": "She's wearing a dress.",
                   "isCorrect": false
                 },
                 {
                   "id": "z2a3b4c5-d6e7-8f9g-0h1i-2j3k4l5m6n7o",
-                  "label": "c) She's wearing jeans and an old jumper.",
+                  "label": "She's wearing jeans and an old jumper.",
                   "isCorrect": true
                 }
               ]
@@ -370,17 +335,12 @@
               "options": [
                 {
                   "id": "w7x8y9z0-a1b2-3c4d-5e6f-7g8h9i0j1k2l",
-                  "label": "a) The train leaves two o'clock",
+                  "label": "The train leaves at two o'clock",
                   "isCorrect": true
                 },
                 {
-                  "id": "m3n4o5p6-q7r8-9s0t-1u2v-3w4x5y6z7a8b",
-                  "label": "b) The train leaves three o'clock",
-                  "isCorrect": false
-                },
-                {
                   "id": "c9d0e1f2-g3h4-5i6j-7k8l-9m0n1o2p3q4r",
-                  "label": "c) The train leaves one o'clock",
+                  "label": "The train leaves at one o'clock",
                   "isCorrect": false
                 }
               ]
@@ -423,17 +383,12 @@
               "options": [
                 {
                   "id": "a3b4c5d6-e7f8-9g0h-1i2j-3k4l5m6n7o8p",
-                  "label": "a) An old lady with white hair.",
+                  "label": "An old lady with white hair.",
                   "isCorrect": true
                 },
                 {
-                  "id": "g5h6i7j8-k9l0-1m2n-3o4p-5q6r7s8t9u0v",
-                  "label": "b) A man.",
-                  "isCorrect": false
-                },
-                {
                   "id": "q9r0s1t2-u3v4-5w6x-7y8z-9a0b1c2d3e4f",
-                  "label": "c) A young girl.",
+                  "label": "A young girl.",
                   "isCorrect": false
                 }
               ]
@@ -443,18 +398,13 @@
               "question": "5.2 What color is the cat?",
               "options": [
                 {
-                  "id": "n3o4p5q6-r7s8-9t0u-1v2w-3x4y5z6a7b8c",
-                  "label": "a) White.",
-                  "isCorrect": false
-                },
-                {
                   "id": "h1i2j3k4-l5m6-7n8o-9p0q-1r2s3t4u5v6w",
-                  "label": "b) Brown.",
+                  "label": "Brown.",
                   "isCorrect": false
                 },
                 {
                   "id": "x7y8z9a0-b1c2-3d4e-5f6g-7h8i9j0k1l2m",
-                  "label": "c) Black.",
+                  "label": "Black.",
                   "isCorrect": true
                 }
               ]
@@ -496,18 +446,13 @@
               "question": "6.1 What does Mrs. White offer Tina?",
               "options": [
                 {
-                  "id": "h6i7j8k9-l0m1-2n3o-4p5q-6r7s8t9u0v1w",
-                  "label": "a) She offers a piece of cake.",
-                  "isCorrect": false
-                },
-                {
                   "id": "b4c5d6e7-f8g9-0h1i-2j3k-4l5m6n7o8p9q",
-                  "label": "b) She offers a cup of tea.",
+                  "label": "She offers a cup of tea.",
                   "isCorrect": true
                 },
                 {
                   "id": "r0s1t2u3-v4w5-6x7y-8z9a-0b1c2d3e4f5g",
-                  "label": "c) She offers a glass of water.",
+                  "label": "She offers a glass of water.",
                   "isCorrect": false
                 }
               ]
@@ -518,17 +463,12 @@
               "options": [
                 {
                   "id": "y8z9a0b1-c2d3-4e5f-6g7h-8i9j0k1l2m3n",
-                  "label": "a) She says she hates the city life.",
+                  "label": "She says she hates the city life.",
                   "isCorrect": true
                 },
                 {
                   "id": "o4p5q6r7-s8t9-0u1v-2w3x-4y5z6a7b8c9d",
-                  "label": "b) She says she hates the country life.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "i2j3k4l5-m6n7-8o9p-0q1r-2s3t4u5v6w7x",
-                  "label": "c) She says she hates school.",
+                  "label": "She says she hates the country life.",
                   "isCorrect": false
                 }
               ]
@@ -570,18 +510,13 @@
               "question": "7.1 Why doesn't Tina telephone her mother?",
               "options": [
                 {
-                  "id": "i7j8k9l0-m1n2-3o4p-5q6r-7s8t9u0v1w2x",
-                  "label": "a) Because she's she is busy.",
-                  "isCorrect": false
-                },
-                {
                   "id": "s1t2u3v4-w5x6-7y8z-9a0b-1c2d3e4f5g6h",
-                  "label": "b) Because she's happy.",
+                  "label": "Because she's happy with her mother.",
                   "isCorrect": false
                 },
                 {
                   "id": "c5d6e7f8-g9h0-1i2j-3k4l-5m6n7o8p9q0r",
-                  "label": "c) Because angry with her mother.",
+                  "label": "Because she's angry with her mother.",
                   "isCorrect": true
                 }
               ]
@@ -591,18 +526,13 @@
               "question": "7.2 What doesn't Mrs. White have?",
               "options": [
                 {
-                  "id": "a0b1c2d3-e4f5-6g7h-8i9j-0k1l2m3n4o5p",
-                  "label": "a) She doesn't have a house.",
-                  "isCorrect": false
-                },
-                {
                   "id": "q6r7s8t9-u0v1-2w3x-4y5z-6a7b8c9d0e1f",
-                  "label": "b) She doesn't have a cat.",
+                  "label": "She doesn't have a cat.",
                   "isCorrect": false
                 },
                 {
                   "id": "j4k5l6m7-n8o9-0p1q-2r3s-4t5u6v7w8x9y",
-                  "label": "c) She doesn't have a television.",
+                  "label": "She doesn't have a television.",
                   "isCorrect": true
                 }
               ]
@@ -645,17 +575,12 @@
               "options": [
                 {
                   "id": "t2u3v4w5-x6y7-8z9a-0b1c-2d3e4f5g6h7i",
-                  "label": "a) Tina wants to be a star.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "j8k9l0m1-n2o3-4p5q-6r7s-8t9u0v1w2x3y",
-                  "label": "b) Tina wants to be a singer.",
+                  "label": "Tina wants to be a star.",
                   "isCorrect": false
                 },
                 {
                   "id": "d6e7f8g9-h0i1-2j3k-4l5m-6n7o8p9q0r1s",
-                  "label": "c) Tina wants to be a lamb.",
+                  "label": "Tina wants to be a lamb.",
                   "isCorrect": true
                 }
               ]
@@ -666,17 +591,12 @@
               "options": [
                 {
                   "id": "k0l1m2n3-o4p5-6q7r-8s9t-0u1v2w3x4y5z",
-                  "label": "a) She tells Tina to run.",
+                  "label": "She tells Tina to run.",
                   "isCorrect": true
                 },
                 {
                   "id": "a6b7c8d9-e0f1-2g3h-4i5j-6k7l8m9n0o1p",
-                  "label": "b) She tells Tina to sing.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "q2r3s4t5-u6v7-8w9x-0y1z-2a3b4c5d6e7f",
-                  "label": "c) She tells Tina to dance.",
+                  "label": "She tells Tina to sing.",
                   "isCorrect": false
                 }
               ]
@@ -718,18 +638,13 @@
               "question": "9.1 What animals come to Mrs. White's garden every night?",
               "options": [
                 {
-                  "id": "u3v4w5x6-y7z8-9a0b-1c2d-3e4f5g6h7i8j",
-                  "label": "a) Foxes.",
-                  "isCorrect": false
-                },
-                {
                   "id": "k9l0m1n2-o3p4-5q6r-7s8t-9u0v1w2x3y4z",
-                  "label": "b) Chickens.",
+                  "label": "Chickens.",
                   "isCorrect": false
                 },
                 {
                   "id": "e7f8g9h0-i1j2-3k4l-5m6n-7o8p9q0r1s2t",
-                  "label": "c) Hedgehogs.",
+                  "label": "Hedgehogs.",
                   "isCorrect": true
                 }
               ]
@@ -740,18 +655,13 @@
               "options": [
                 {
                   "id": "b0c1d2e3-f4g5-6h7i-8j9k-0l1m2n3o4p5q",
-                  "label": "a) She puts out water for them.",
+                  "label": "She puts out water for them.",
                   "isCorrect": false
                 },
                 {
                   "id": "l4m5n6o7-p8q9-0r1s-2t3u-4v5w6x7y8z9a",
-                  "label": "b) She puts out food for them.",
+                  "label": "She puts out food for them.",
                   "isCorrect": true
-                },
-                {
-                  "id": "47b18d41-3cc8-4bf2-95e0-f0e3adff41c2",
-                  "label": "c) She puts out nothing.",
-                  "isCorrect": false
                 }
               ]
             }
@@ -792,18 +702,13 @@
               "question": "10.1 What does the fox take from Mrs. White's garden?",
               "options": [
                 {
-                  "id": "v4w5x6y7-z8a9-0b1c-2d3e-4f5g6h7i8j9k",
-                  "label": "a) The fox takes a lamb.",
-                  "isCorrect": false
-                },
-                {
                   "id": "f8g9h0i1-j2k3-4l5m-6n7o-8p9q0r1s2t3u",
-                  "label": "b) The fox takes a chicken.",
+                  "label": "The fox takes a chicken.",
                   "isCorrect": true
                 },
                 {
                   "id": "l0m1n2o3-p4q5-6r7s-8t9u-0v1w2x3y4z5a",
-                  "label": "c) The fox takes a hedgehog.",
+                  "label": "The fox takes a hedgehog.",
                   "isCorrect": false
                 }
               ]
@@ -814,17 +719,12 @@
               "options": [
                 {
                   "id": "w0x1y2z3-a4b5-6c7d-8e9f-0g1h2i3j4k5l",
-                  "label": "a) She wants to feed it.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "m6n7o8p9-q0r1-2s3t-4u5v-6w7x8y9z0a1b",
-                  "label": "b) She wants to keep it as a pet.",
+                  "label": "She wants to feed it.",
                   "isCorrect": false
                 },
                 {
                   "id": "g4h5i6j7-k8l9-0m1n-2o3p-4q5r6s7t8u9v",
-                  "label": "c) She wants to kill it",
+                  "label": "She wants to kill it",
                   "isCorrect": true
                 }
               ]
@@ -867,18 +767,13 @@
               "options": [
                 {
                   "id": "w5x6y7z8-a9b0-1c2d-3e4f-5g6h7i8j9k0l",
-                  "label": "a) Because they don't have chickens.",
+                  "label": "Because they don't have chickens.",
                   "isCorrect": false
                 },
                 {
                   "id": "g9h0i1j2-k3l4-5m6n-7o8p-9q0r1s2t3u4v",
-                  "label": "b) Because the chickens aren't happy.",
+                  "label": "Because the chickens aren't happy.",
                   "isCorrect": true
-                },
-                {
-                  "id": "m1n2o3p4-q5r6-7s8t-9u0v-1w2x3y4z5a6b",
-                  "label": "c) Because they don't have eggs.",
-                  "isCorrect": false
                 }
               ]
             },
@@ -888,17 +783,12 @@
               "options": [
                 {
                   "id": "t0u1v2w3-x4y5-6z7a-8b9c-0d1e2f3g4h5i",
-                  "label": "a) She has eggs and bacon.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "j6k7l8m9-n0o1-2p3q-4r5s-6t7u8v9w0x1y",
-                  "label": "b) She has pancakes.",
+                  "label": "She has eggs and bacon.",
                   "isCorrect": false
                 },
                 {
                   "id": "d4e5f6g7-h8i9-0j1k-2l3m-4n5o6p7q8r9s",
-                  "label": "c) She has toast and fresh orange juice.",
+                  "label": "She has toast and fresh orange juice.",
                   "isCorrect": true
                 }
               ]
@@ -941,17 +831,12 @@
               "options": [
                 {
                   "id": "h1i2j3k4-l5m6-7n8o-9p0q-1r2s3t4u5v6w",
-                  "label": "a) The postman is who recognizes her.",
+                  "label": "The postman is who recognizes her.",
                   "isCorrect": true
                 },
                 {
-                  "id": "x7y8z9a0-b1c2-3d4e-5f6g-7h8i9j0k1l2m",
-                  "label": "b) Mrs. White is who recognizes her.",
-                  "isCorrect": false
-                },
-                {
                   "id": "n3o4p5q6-r7s8-9t0u-1v2w-3x4y5z6a7b8c",
-                  "label": "c) Bella is who recognizes her.",
+                  "label": "Bella is who recognizes her.",
                   "isCorrect": false
                 }
               ]
@@ -962,17 +847,12 @@
               "options": [
                 {
                   "id": "u7v8w9x0-y1z2-3a4b-5c6d-7e8f9g0h1i2j",
-                  "label": "a) He runs to his van to find a letter.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "k3l4m5n6-o7p8-9q0r-1s2t-3u4v5w6x7y8z",
-                  "label": "b) He runs to his van to find a package.",
+                  "label": "He runs to his van to find a letter.",
                   "isCorrect": false
                 },
                 {
                   "id": "e1f2g3h4-i5j6-7k8l-9m0n-1o2p3q4r5s6t",
-                  "label": "c) He runs to his van to find his newspaper.",
+                  "label": "He runs to his van to find his newspaper.",
                   "isCorrect": true
                 }
               ]
@@ -1014,18 +894,13 @@
               "question": "13.1 Who's in the newspaper?",
               "options": [
                 {
-                  "id": "y8z9a0b1-c2d3-4e5f-6g7h-8i9j0k1l2m3n",
-                  "label": "a) Mrs. White.",
-                  "isCorrect": false
-                },
-                {
                   "id": "o4p5q6r7-s8t9-0u1v-2w3x-4y5z6a7b8c9d",
-                  "label": "b) The postman.",
+                  "label": "The postman.",
                   "isCorrect": false
                 },
                 {
                   "id": "i2j3k4l5-m6n7-8o9p-0q1r-2s3t4u5v6w7x",
-                  "label": "c) Tina.",
+                  "label": "Tina.",
                   "isCorrect": true
                 }
               ]
@@ -1035,18 +910,13 @@
               "question": "13.2 What does Tina ask Mrs. White not to do?",
               "options": [
                 {
-                  "id": "a1b2c3d4-e5f6-7g8h-9i0j-1k2l3m4n5o6p",
-                  "label": "a) She asks Mrs. White not to take her to school.",
-                  "isCorrect": false
-                },
-                {
                   "id": "j5k6l7m8-n9o0-1p2q-3r4s-5t6u7v8w9x0y",
-                  "label": "b) She asks Mrs. White not to send her home.",
+                  "label": "She asks Mrs. White not to send her home.",
                   "isCorrect": true
                 },
                 {
                   "id": "q7r8s9t0-u1v2-3w4x-5y6z-7a8b9c0d1e2f",
-                  "label": "c) She asks Mrs. White not to call her mother.",
+                  "label": "She asks Mrs. White not to call her mother.",
                   "isCorrect": false
                 }
               ]
@@ -1088,18 +958,13 @@
               "question": "14.1 Where is Tina's friend's school?",
               "options": [
                 {
-                  "id": "z9a0b1c2-d3e4-5f6g-7h8i-9j0k1l2m3n4o",
-                  "label": "a) In France.",
-                  "isCorrect": false
-                },
-                {
                   "id": "j3k4l5m6-n7o8-9p0q-1r2s-3t4u5v6w7x8y",
-                  "label": "b) On the Island of Guernsey.",
+                  "label": "On the Island of Guernsey.",
                   "isCorrect": true
                 },
                 {
                   "id": "p5q6r7s8-t9u0-1v2w-3x4y-5z6a7b8c9d0e",
-                  "label": "c) In the England.",
+                  "label": "In England.",
                   "isCorrect": false
                 }
               ]
@@ -1110,17 +975,12 @@
               "options": [
                 {
                   "id": "l0m1n2o3-p4q5-6r7s-8t9u-0v1w2x3y4z5a",
-                  "label": "a) She wants to be a star",
-                  "isCorrect": false
-                },
-                {
-                  "id": "f8g9h0i1-j2k3-4l5m-6n7o-8p9q0r1s2t3u",
-                  "label": "b) She wants to be a singer",
+                  "label": "She wants to be a star",
                   "isCorrect": false
                 },
                 {
                   "id": "v4w5x6y7-z8a9-0b1c-2d3e-4f5g6h7i8j9k",
-                  "label": "c) She wants to be happy",
+                  "label": "She wants to be happy",
                   "isCorrect": true
                 }
               ]
@@ -1159,21 +1019,16 @@
           "radio": [
             {
               "id": "u8v9w0x1-y2z3-4a5b-6c7d-8e9f0g1h2i3j",
-              "question": "15.1 What does Tina say about being a star?",
+              "question": "15.1 What's Tina friend reading??",
               "options": [
                 {
                   "id": "k4l5m6n7-o8p9-0q1r-2s3t-4u5v6w7x8y9z",
-                  "label": "a) She doesn't want to be a star.",
+                  "label": "She's reading a magazine.",
                   "isCorrect": true
                 },
                 {
                   "id": "a0b1c2d3-e4f5-6g7h-8i9j-0k1l2m3n4o5p",
-                  "label": "b) She wants to be a star.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "q6r7s8t9-u0v1-2w3x-4y5z-6a7b8c9d0e1f",
-                  "label": "c) She wants to be a singer.",
+                  "label": "She's reading a newspaper.",
                   "isCorrect": false
                 }
               ]
@@ -1184,12 +1039,7 @@
               "options": [
                 {
                   "id": "s0t1u2v3-w4x5-6y7z-8a9b-0c1d2e3f4g5h",
-                  "label": "a) She wants to sing.",
-                  "isCorrect": false
-                },
-                {
-                  "id": "i6j7k8l9-m0n1-2o3p-4q5r-6s7t8u9v0w1x",
-                  "label": "b) She wants to dance.",
+                  "label": "She wants to sing.",
                   "isCorrect": false
                 },
                 {
