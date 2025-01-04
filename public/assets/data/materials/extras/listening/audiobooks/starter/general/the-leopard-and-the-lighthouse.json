@@ -5,7 +5,7 @@
     "descriptions": [
       "Listening",
       "Audiobooks",
-      "beginner",
+      "Starter (Pre-A1)",
       "The Leopard and the Lighthouse"
     ],
     "time": "10:30",
@@ -81,7 +81,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/cover.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/cover.jpg",
           "imgAlt": "Cover photo",
           "imgPosition": "left",
           "paragraphs": [
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/audio.mp3"
+      "audioSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -103,7 +103,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/paragraph1.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/paragraph1.jpg",
           "imgAlt": "Paragraph 1 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -183,7 +183,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/paragraph2.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/paragraph2.jpg",
           "imgAlt": "Paragraph 2 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -279,7 +279,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/paragraph3.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/paragraph3.jpg",
           "imgAlt": "Paragraph 3 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -375,7 +375,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/paragraph4.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/paragraph4.jpg",
           "imgAlt": "Paragraph 4 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -455,7 +455,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/paragraph5.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/paragraph5.jpg",
           "imgAlt": "Paragraph 5 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -519,7 +519,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/paragraph6.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/paragraph6.jpg",
           "imgAlt": "Paragraph 6 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -567,7 +567,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/paragraph7.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/paragraph7.jpg",
           "imgAlt": "Paragraph 7 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -648,7 +648,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/paragraph8.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/paragraph8.jpg",
           "imgAlt": "Paragraph 8 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -728,7 +728,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/paragraph9.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/paragraph9.jpg",
           "imgAlt": "Paragraph 9 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -808,7 +808,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/paragraph10.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/paragraph10.jpg",
           "imgAlt": "Paragraph 10 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -888,7 +888,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/paragraph11.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/paragraph11.jpg",
           "imgAlt": "Paragraph 11 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -952,7 +952,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/paragraph12.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/paragraph12.jpg",
           "imgAlt": "Paragraph 12 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -1016,7 +1016,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/paragraph13.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/paragraph13.jpg",
           "imgAlt": "Paragraph 13 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -1095,7 +1095,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/paragraph14.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/paragraph14.jpg",
           "imgAlt": "Paragraph 14 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -1159,7 +1159,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-leopard-and-the-lighthouse/paragraph15.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-leopard-and-the-lighthouse/paragraph15.jpg",
           "imgAlt": "Paragraph 15 photo",
           "imgPosition": "right",
           "paragraphs": [

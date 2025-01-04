@@ -1,18 +1,18 @@
-.img-before {
+.img-left {
   display: grid;
   gap: 15px;
   grid-template-columns: 200px auto;
 }
 
-.img-after {
+.img-right {
   display: grid;
   gap: 15px;
   grid-template-columns: auto 200px;
 }
 
 @media (max-width: 500px) {
-  .img-before,
-  .img-after {
+  .img-left,
+  .img-right {
     grid-template-columns: 1fr;
   }
 }

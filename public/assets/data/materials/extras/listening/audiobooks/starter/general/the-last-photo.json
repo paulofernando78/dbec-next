@@ -2,9 +2,9 @@
   "whiteboard": {
     "title": "Extras",
     "subtitle": "Skills",
-    "descriptions": ["Listening", "Audiobooks", "Beginner", "The Last Photo"],
+    "descriptions": ["Listening", "Audiobooks", "Starter (Pre-A1)", "The Last Photo"],
     "time": "8:48",
-    "uk" : true
+    "uk": true
   },
   "contents": [
     {
@@ -76,7 +76,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/cover.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/cover.jpg",
           "imgAlt": "Book cover",
           "imgPosition": "left",
           "paragraphs": [
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/audio.mp3"
+      "audioSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -98,7 +98,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph1.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/paragraph1.jpg",
           "imgAlt": "Pam and Martin are taking some photos.",
           "imgPosition": "right",
           "paragraphs": [
@@ -201,7 +201,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph2.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/paragraph2.jpg",
           "imgAlt": "Martin is taking photos of Pam.",
           "imgPosition": "right",
           "paragraphs": [
@@ -297,7 +297,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph3.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/paragraph3.jpg",
           "imgAlt": "Pam is taking a photo when a man walks between Pam and Martin.",
           "imgPosition": "right",
           "paragraphs": [
@@ -377,7 +377,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph4.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/paragraph4.jpg",
           "imgAlt": "Pam is putting away her camera.",
           "imgPosition": "right",
           "paragraphs": [
@@ -457,7 +457,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph5.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/paragraph5.jpg",
           "imgAlt": "Pam and Martin are at the bus station.",
           "imgPosition": "right",
           "paragraphs": [
@@ -505,7 +505,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph6.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/paragraph6.jpg",
           "imgAlt": "Pam and Martin are looking at some developed photos.",
           "imgPosition": "right",
           "paragraphs": [
@@ -569,7 +569,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph7.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/paragraph7.jpg",
           "imgAlt": "Martin is showing the same man on a newspaper.",
           "imgPosition": "right",
           "paragraphs": [
@@ -617,7 +617,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph8.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/paragraph8.jpg",
           "imgAlt": "Martin is talking about the man with Pam.",
           "imgPosition": "right",
           "paragraphs": [
@@ -665,7 +665,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph9.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/paragraph9.jpg",
           "imgAlt": "Martin compares the two photos.",
           "imgPosition": "right",
           "paragraphs": [
@@ -713,7 +713,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph10.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/paragraph10.jpg",
           "imgAlt": "Now the two photos look alike.",
           "imgPosition": "right",
           "paragraphs": [
@@ -777,7 +777,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph11.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/paragraph11.jpg",
           "imgAlt": "Paragraph 11 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -825,7 +825,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph12.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/paragraph12.jpg",
           "imgAlt": "Pam's telling the police Alan is taking a bus to Aberdeen.",
           "imgPosition": "right",
           "paragraphs": [
@@ -889,7 +889,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph13.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/paragraph13.jpg",
           "imgAlt": "Police is looking for Alan who's in his tent.",
           "imgPosition": "right",
           "paragraphs": [
@@ -953,7 +953,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph14.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/paragraph14.jpg",
           "imgAlt": "Paragraph 14 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -1001,7 +1001,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/the-last-photo/paragraph15.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/the-last-photo/paragraph15.jpg",
           "imgAlt": "Pam and Alan Rook are celebrating Alan Rook's capture.",
           "imgPosition": "right",
           "paragraphs": [

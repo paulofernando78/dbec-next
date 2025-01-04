@@ -5,7 +5,7 @@
     "descriptions": [
       "Listening",
       "Audiobooks",
-      "Beginner",
+      "Starter (Pre-A1)",
       "A New Zealand Adventure"
     ],
     "time": "8:05",
@@ -78,7 +78,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/cover.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/cover.jpg",
           "imgAlt": "Cover photo",
           "imgPosition": "left",
           "paragraphs": [
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/audio.mp3"
+      "audioSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -108,7 +108,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/paragraph-1.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/paragraph-1.jpg",
           "imgAlt": "Paragraph 1 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -240,7 +240,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/paragraph-2.png",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/paragraph-2.png",
           "imgAlt": "Paragraph 2 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -304,7 +304,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/paragraph-3.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/paragraph-3.jpg",
           "imgAlt": "Paragraph 3 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -372,7 +372,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/paragraph-4.png",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/paragraph-4.png",
           "imgAlt": "Paragraph 4 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -460,7 +460,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/paragraph-5.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/paragraph-5.jpg",
           "imgAlt": "Paragraph 5 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -548,7 +548,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/paragraph-6.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/paragraph-6.jpg",
           "imgAlt": "Paragraph 6 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -616,7 +616,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/paragraph-7.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/paragraph-7.jpg",
           "imgAlt": "Paragraph 7 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -664,7 +664,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/paragraph-8.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/paragraph-8.jpg",
           "imgAlt": "Paragraph 8 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -728,7 +728,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/paragraph-9.png",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/paragraph-9.png",
           "imgAlt": "Paragraph 9 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -796,7 +796,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/paragraph-10.png",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/paragraph-10.png",
           "imgAlt": "Paragraph 10 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -860,7 +860,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/paragraph-11.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/paragraph-11.jpg",
           "imgAlt": "Paragraph 11 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -912,7 +912,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/paragraph-12.jpg",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/paragraph-12.jpg",
           "imgAlt": "Paragraph 12 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -976,7 +976,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/paragraph-13.png",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/paragraph-13.png",
           "imgAlt": "Paragraph 13 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -1056,7 +1056,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/beginner/general/a-new-zealand-adventure/paragraph-14.png",
+          "imgSrc": "/extras/listening/audiobooks/starter/general/a-new-zealand-adventure/paragraph-14.png",
           "imgAlt": "Paragraph 14 photo",
           "imgPosition": "right",
           "paragraphs": [

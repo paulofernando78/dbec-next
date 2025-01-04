@@ -3,7 +3,7 @@
     "title": "Extras",
     "subtitle": "Listening",
     "descriptions": ["Audiobooks", "Starter", "Kids", "Sleeping Beauty"],
-    "time": "00:00",
+    "time": "1:54",
     "usa": true
   },
   "contents": [
@@ -45,26 +45,6 @@
     {
       "content": "Paragraph 10",
       "link": "#paragraph-10"
-    },
-    {
-      "content": "Paragraph 11",
-      "link": "#paragraph-11"
-    },
-    {
-      "content": "Paragraph 12",
-      "link": "#paragraph-12"
-    },
-    {
-      "content": "Paragraph 13",
-      "link": "#paragraph-13"
-    },
-    {
-      "content": "Paragraph 14",
-      "link": "#paragraph-14"
-    },
-    {
-      "content": "Paragraph 15",
-      "link": "#paragraph-15"
     }
   ],
   "lessons": [
@@ -76,24 +56,46 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/sleeping-beauty/cover.png",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Summary"
+              "textEn": "Princess Aurora lives in a big castle. Prince Phillip is her friend.The Princess puts one hand on a spindle … she sleeps and sleeps. Does Princess Aurora see Prince Phillip again?"
             }
           ]
         }
       ]
     },
     {
-      "audioSrc": "/extras/skills/listening/audiobooks/..."
+      "id": "1ae4b159-31d0-446d-b500-62ef628b5859",
+      "exercises": [
+        {
+          "id": "c23822e0-ff7f-4d7f-be6d-d2ab17b5ebc4",
+          "title": "Choose the correct answer.",
+          "radio": [
+            {
+              "id": "72970005-da12-45b6-947e-db8b518ff7d3",
+              "question": "Princess is:",
+              "options": [
+                { "id": "683300b1-9260-4930-87ed-9016761bf60d", "label": "ugly", "isCorrect": false },
+                { "id": "568ceaa7-7640-4b20-a6f5-37d269534557", "label": "beautiful", "isCorrect": true }
+              ]
+            },
+            {
+              "id": "27d570a1-9d88-4398-b018-27a1065a69a7",
+              "question": "Princess has:",
+              "options": [
+                { "id": "deb6a2aa-9663-431d-bf6f-4ba8c2c9eed2", "label": "black hair", "isCorrect": false },
+                { "id": "ae20a50b-ef0d-4fea-95d9-4bc3e328cfbd", "label": "blonde hair", "isCorrect": true }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "audioSrc": "/extras/listening/audiobooks/starter/kids/sleeping-beauty/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -103,37 +105,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/sleeping-beauty/paragraph-1.png",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "1. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "1.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "This is princess Aurora. She walks in the forest today."
             }
           ]
         }
@@ -149,37 +126,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/sleeping-beauty/paragraph-2.png",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "2. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "2.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "Princess Aurora likes birds and animals. They live in the forest."
             }
           ]
         }
@@ -195,37 +147,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/sleeping-beauty/paragraph-3.png",
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
               "textEn": "Paragraph 3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "3. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "3.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
             }
           ]
         }
@@ -241,37 +168,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/sleeping-beauty/paragraph-4.png",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
               "textEn": "Paragraph 4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "4. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "4.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
             }
           ]
         }
@@ -287,37 +189,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/sleeping-beauty/paragraph-5.png",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
               "textEn": "Paragraph 5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "5. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "5.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
             }
           ]
         }
@@ -333,7 +210,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/sleeping-beauty/paragraph-6.png",
           "imgAlt": "Paragraph 6 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -350,26 +227,6 @@
       ]
     },
     {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "6. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "6.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "Paragraph 7",
       "time": "...",
       "bgColor": "black",
@@ -379,37 +236,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/sleeping-beauty/paragraph-7.png",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
               "textEn": "Paragraph 7"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "7. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "7.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
             }
           ]
         }
@@ -425,37 +257,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/sleeping-beauty/paragraph-8.png",
           "imgAlt": "Paragraph 8 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
               "textEn": "Paragraph 8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "8. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "8.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
             }
           ]
         }
@@ -471,37 +278,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/sleeping-beauty/paragraph-9.png",
           "imgAlt": "Paragraph 9 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
               "textEn": "Paragraph 9"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "9. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "9.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
             }
           ]
         }
@@ -517,267 +299,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/sleeping-beauty/paragraph-10.png",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
               "textEn": "Paragraph 10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "10. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "10.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Paragraph 11",
-      "time": "...",
-      "bgColor": "black",
-      "textColor": "white",
-      "id": "paragraph-11"
-    },
-    {
-      "paragraphSections": [
-        {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 11 illustration",
-          "imgPosition": "right",
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 11"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "11. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "11.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Paragraph 12",
-      "time": "...",
-      "bgColor": "black",
-      "textColor": "white",
-      "id": "paragraph-12"
-    },
-    {
-      "paragraphSections": [
-        {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 12 illustration",
-          "imgPosition": "right",
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 12"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "12. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "12.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Paragraph 13",
-      "time": "...",
-      "bgColor": "black",
-      "textColor": "white",
-      "id": "paragraph-13"
-    },
-    {
-      "paragraphSections": [
-        {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 13 illustration",
-          "imgPosition": "right",
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 13"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "13. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "13.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Paragraph 14",
-      "time": "...",
-      "bgColor": "black",
-      "textColor": "white",
-      "id": "paragraph-14"
-    },
-    {
-      "paragraphSections": [
-        {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 14 illustration",
-          "imgPosition": "right",
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 14"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "14. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "14.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Paragraph 15",
-      "time": "...",
-      "bgColor": "black",
-      "textColor": "white",
-      "id": "paragraph-15"
-    },
-    {
-      "paragraphSections": [
-        {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 15 illustration",
-          "imgPosition": "right",
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 15"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "15. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "15.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
             }
           ]
         }

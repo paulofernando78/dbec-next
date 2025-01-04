@@ -131,9 +131,9 @@
               "id": "",
               "question": "1.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false },
+                { "id": "", "label": "Answer 3", "isCorrect": false }
               ]
             }
           ]
@@ -177,9 +177,9 @@
               "id": "",
               "question": "2.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false },
+                { "id": "", "label": "Answer 3", "isCorrect": false }
               ]
             }
           ]
@@ -223,9 +223,9 @@
               "id": "",
               "question": "3.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false },
+                { "id": "", "label": "Answer 3", "isCorrect": false }
               ]
             }
           ]
@@ -269,9 +269,9 @@
               "id": "",
               "question": "4.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false },
+                { "id": "", "label": "Answer 3", "isCorrect": false }
               ]
             }
           ]
@@ -315,9 +315,9 @@
               "id": "",
               "question": "5.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false },
+                { "id": "", "label": "Answer 3", "isCorrect": false }
               ]
             }
           ]
@@ -361,9 +361,9 @@
               "id": "",
               "question": "6.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false },
+                { "id": "", "label": "Answer 3", "isCorrect": false }
               ]
             }
           ]
@@ -407,9 +407,9 @@
               "id": "",
               "question": "7.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false },
+                { "id": "", "label": "Answer 3", "isCorrect": false }
               ]
             }
           ]
@@ -453,9 +453,9 @@
               "id": "",
               "question": "8.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false },
+                { "id": "", "label": "Answer 3", "isCorrect": false }
               ]
             }
           ]
@@ -499,9 +499,9 @@
               "id": "",
               "question": "9.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false },
+                { "id": "", "label": "Answer 3", "isCorrect": false }
               ]
             }
           ]
@@ -545,9 +545,9 @@
               "id": "",
               "question": "10.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false },
+                { "id": "", "label": "Answer 3", "isCorrect": false }
               ]
             }
           ]
@@ -591,9 +591,9 @@
               "id": "",
               "question": "11.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false },
+                { "id": "", "label": "Answer 3", "isCorrect": false }
               ]
             }
           ]
@@ -637,9 +637,9 @@
               "id": "",
               "question": "12.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false },
+                { "id": "", "label": "Answer 3", "isCorrect": false }
               ]
             }
           ]
@@ -683,9 +683,9 @@
               "id": "",
               "question": "13.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false },
+                { "id": "", "label": "Answer 3", "isCorrect": false }
               ]
             }
           ]
@@ -729,9 +729,9 @@
               "id": "",
               "question": "14.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false },
+                { "id": "", "label": "Answer 3", "isCorrect": false }
               ]
             }
           ]
@@ -775,9 +775,9 @@
               "id": "",
               "question": "15.1 Question",
               "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "", "label": "Answer 1", "isCorrect": true },
+                { "id": "", "label": "Answer 2", "isCorrect": false },
+                { "id": "", "label": "Answer 3", "isCorrect": false }
               ]
             }
           ]

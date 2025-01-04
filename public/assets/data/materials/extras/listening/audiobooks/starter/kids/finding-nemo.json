@@ -3,7 +3,7 @@
     "title": "Extras",
     "subtitle": "Listening",
     "descriptions": ["Audiobooks", "Starter", "Kids", "Finding Nemo"],
-    "time": "00:00",
+    "time": "1:44",
     "usa": true
   },
   "contents": [
@@ -45,26 +45,6 @@
     {
       "content": "Paragraph 10",
       "link": "#paragraph-10"
-    },
-    {
-      "content": "Paragraph 11",
-      "link": "#paragraph-11"
-    },
-    {
-      "content": "Paragraph 12",
-      "link": "#paragraph-12"
-    },
-    {
-      "content": "Paragraph 13",
-      "link": "#paragraph-13"
-    },
-    {
-      "content": "Paragraph 14",
-      "link": "#paragraph-14"
-    },
-    {
-      "content": "Paragraph 15",
-      "link": "#paragraph-15"
     }
   ],
   "lessons": [
@@ -76,24 +56,46 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/finding-nemo/cover.png",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Summary"
+              "textEn": "Nemo is a fish. Nemo and his Dad live in the ocean. It is the first day in school today. Who does Nemo see in school on the first day?"
             }
           ]
         }
       ]
     },
     {
-      "audioSrc": "/extras/skills/listening/audiobooks/..."
+      "id": "6f78ff60-f94d-4e6d-879a-93f0632ea7b7",
+      "exercises": [
+        {
+          "id": "fb16ea2e-d882-4a9a-b054-918968ba867d",
+          "title": "Choose the correct answer.",
+          "radio": [
+            {
+              "id": "6a5017df-b9f7-470c-91c4-00b62480c674",
+              "question": "Nemo is a:",
+              "options": [
+                { "id": "b85df950-78da-4954-87ce-6bcf737c031c", "label": "clown", "isCorrect": false },
+                { "id": "41d25ffc-0b17-4d7c-87fe-757583760f90", "label": "fish", "isCorrect": true }
+              ]
+            },
+            {
+              "id": "51c8c135-1b8c-4e40-80ce-4dcde8f3f588",
+              "question": "He lives in:",
+              "options": [
+                { "id": "4599587d-f3f3-437d-bbf7-1dad8af0ca30", "label": "a pool", "isCorrect": false },
+                { "id": "4b595536-4bb1-4a7a-810a-139979d0f3ba", "label": "the ocean", "isCorrect": true }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "audioSrc": "/extras/listening/audiobooks/starter/kids/finding-nemo/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -103,37 +105,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/finding-nemo/paragraph-1.png",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "1. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "1.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "Hello. My name is Nemo."
             }
           ]
         }
@@ -149,37 +126,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/finding-nemo/paragraph-2.png",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "2. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "2.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "This is my dad. Marlin."
             }
           ]
         }
@@ -195,37 +147,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/finding-nemo/paragraph-3.png",
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "3. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "3.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "We live in the ocean."
             }
           ]
         }
@@ -241,37 +168,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/finding-nemo/paragraph-4.png",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "4. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "4.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "Hoorah! Hoorah! It's my first day in school today"
             }
           ]
         }
@@ -287,37 +189,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/finding-nemo/paragraph-5.png",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "5. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "5.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "Where is my school, Dad?"
             }
           ]
         }
@@ -333,37 +210,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/finding-nemo/paragraph-6.png",
           "imgAlt": "Paragraph 6 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "6. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "6.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "It is there, Son."
             }
           ]
         }
@@ -379,37 +231,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/finding-nemo/paragraph-7.png",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 7"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "7. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "7.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "Hello! Are you the teachers? No, we're moms and dads."
             }
           ]
         }
@@ -425,37 +252,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/finding-nemo/paragraph-8.png",
           "imgAlt": "Paragraph 8 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "8. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "8.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "Hello, I'm Nemo. Are you my new friends? Yes, we are."
             }
           ]
         }
@@ -471,37 +273,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/finding-nemo/paragraph-9.png",
           "imgAlt": "Paragraph 9 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 9"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "9. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "9.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "I'm Mr Ray. I'm the teacher. Where's my new class? Here we are."
             }
           ]
         }
@@ -517,267 +294,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/finding-nemo/paragraph-10.png",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "10. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "10.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Paragraph 11",
-      "time": "...",
-      "bgColor": "black",
-      "textColor": "white",
-      "id": "paragraph-11"
-    },
-    {
-      "paragraphSections": [
-        {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 11 illustration",
-          "imgPosition": "right",
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 11"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "11. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "11.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Paragraph 12",
-      "time": "...",
-      "bgColor": "black",
-      "textColor": "white",
-      "id": "paragraph-12"
-    },
-    {
-      "paragraphSections": [
-        {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 12 illustration",
-          "imgPosition": "right",
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 12"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "12. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "12.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Paragraph 13",
-      "time": "...",
-      "bgColor": "black",
-      "textColor": "white",
-      "id": "paragraph-13"
-    },
-    {
-      "paragraphSections": [
-        {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 13 illustration",
-          "imgPosition": "right",
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 13"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "13. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "13.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Paragraph 14",
-      "time": "...",
-      "bgColor": "black",
-      "textColor": "white",
-      "id": "paragraph-14"
-    },
-    {
-      "paragraphSections": [
-        {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 14 illustration",
-          "imgPosition": "right",
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 14"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "14. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "14.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Paragraph 15",
-      "time": "...",
-      "bgColor": "black",
-      "textColor": "white",
-      "id": "paragraph-15"
-    },
-    {
-      "paragraphSections": [
-        {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 15 illustration",
-          "imgPosition": "right",
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 15"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "15. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "15.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "Bye, Dad. Bye, Nemo. Have fun in school."
             }
           ]
         }

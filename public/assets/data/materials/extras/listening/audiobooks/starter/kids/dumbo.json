@@ -2,9 +2,10 @@
   "whiteboard": {
     "title": "Extras",
     "subtitle": "Listening",
-    "descriptions": ["Audiobooks", "Starter", "Kids", "Dumbo"],
-    "time": "00:00",
-    "usa": true
+    "descriptions": ["Audiobooks", "Sstarter", "Kids", "Dumbo"],
+    "time": "2:56",
+    "usa": true,
+    "uk": true
   },
   "contents": [
     {
@@ -57,14 +58,6 @@
     {
       "content": "Paragraph 13",
       "link": "#paragraph-13"
-    },
-    {
-      "content": "Paragraph 14",
-      "link": "#paragraph-14"
-    },
-    {
-      "content": "Paragraph 15",
-      "link": "#paragraph-15"
     }
   ],
   "lessons": [
@@ -76,24 +69,46 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/cover.png",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Summary"
+              "textEn": "This is Dumbo. She has a yellow hat and big ears. He can fly."
             }
           ]
         }
       ]
     },
     {
-      "audioSrc": "/extras/skills/listening/audiobooks/..."
+      "id": "2b00d91a-c1dd-4df8-a683-90a844488f7e",
+      "exercises": [
+        {
+          "id": "360056b5-2ff6-418a-ae94-1325f7523319",
+          "title": "Choose the correct answer.",
+          "radio": [
+            {
+              "id": "1a57e20b-d5cf-4672-9820-1a275b94c442",
+              "question": "Dumbo is:",
+              "options": [
+                { "id": "98fbea45-7b7e-4c9b-bc84-8c16852551a5", "label": "a dog", "isCorrect": false },
+                { "id": "389ed13a-b28d-458b-91d8-a4ddbf285984", "label": "an elephant", "isCorrect": true }
+              ]
+            },
+            {
+              "id": "19f079fa-53aa-4644-9088-c3ea099c3c2b",
+              "question": "He has:",
+              "options": [
+                { "id": "be63fe9c-d37f-4434-a990-01bfc3ac416a", "label": "small ears", "isCorrect": false },
+                { "id": "023e7f59-28a5-48be-9ceb-063c2d004b09", "label": "big ears", "isCorrect": true }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "audioSrc": "/extras/listening/audiobooks/starter/kids/dumbo/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -103,37 +118,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-1.png",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "1. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "1.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "This is baby Dumbo. Small eyes, a big nose, and…"
             }
           ]
         }
@@ -141,7 +131,7 @@
     },
     {
       "title": "Paragraph 2",
-      "time": "...",
+      "time": "0:17",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-2"
@@ -149,37 +139,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-2.png",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 2"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "2. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "2.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "Ha! Ha! He has big ears!"
             }
           ]
         }
@@ -187,7 +152,7 @@
     },
     {
       "title": "Paragraph 3",
-      "time": "...",
+      "time": "0:27",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-3"
@@ -195,37 +160,13 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-3.png",
+          
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 3"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "3. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "3.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "Mommy Elephant is big. The boys are scared. They run."
             }
           ]
         }
@@ -233,7 +174,7 @@
     },
     {
       "title": "Paragraph 4",
-      "time": "...",
+      "time": "0:45",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-4"
@@ -241,37 +182,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-4.png",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "4. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "4.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "The Boss shuts Mommy Elephant in the train."
             }
           ]
         }
@@ -279,7 +195,7 @@
     },
     {
       "title": "Paragraph 5",
-      "time": "...",
+      "time": "0:59",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-5"
@@ -287,37 +203,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-5.png",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 5"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "5. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "5.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "Dumbo is sad. Where is his mommy?"
             }
           ]
         }
@@ -325,7 +216,7 @@
     },
     {
       "title": "Paragraph 6",
-      "time": "...",
+      "time": "1:09",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-6"
@@ -333,37 +224,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-6.png",
           "imgAlt": "Paragraph 6 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 6"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "6. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "6.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "Dumbo is in the circus now. He jumps. He is scared."
             }
           ]
         }
@@ -371,7 +237,7 @@
     },
     {
       "title": "Paragraph 7",
-      "time": "...",
+      "time": "1:21",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-7"
@@ -379,37 +245,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-7.png",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 7"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "7. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "7.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "Dumbo is sad, but he has a friend."
             }
           ]
         }
@@ -417,7 +258,7 @@
     },
     {
       "title": "Paragraph 8",
-      "time": "...",
+      "time": "1:31",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-8"
@@ -425,37 +266,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-8.png",
           "imgAlt": "Paragraph 8 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 8"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "8. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "8.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "A bird gives Dumbo a magic feather."
             }
           ]
         }
@@ -463,7 +279,7 @@
     },
     {
       "title": "Paragraph 9",
-      "time": "...",
+      "time": "1:38",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-9"
@@ -471,37 +287,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-9.png",
           "imgAlt": "Paragraph 9 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 9"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "9. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "9.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "Weeeeeee! Now Dumbo flies. Dumbo has the magic feather!"
             }
           ]
         }
@@ -509,7 +300,7 @@
     },
     {
       "title": "Paragraph 10",
-      "time": "...",
+      "time": "1:52",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-10"
@@ -517,37 +308,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-10.png",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 10"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "10. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "10.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "This is the big jump. The house is tall."
             }
           ]
         }
@@ -555,7 +321,7 @@
     },
     {
       "title": "Paragraph 11",
-      "time": "...",
+      "time": "2:02",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-11"
@@ -563,37 +329,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-11.png",
           "imgAlt": "Paragraph 11 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 11"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "11. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "11.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "1, 2, 3! Dumbo jumps! Oops! Where is the feather?"
             }
           ]
         }
@@ -601,7 +342,7 @@
     },
     {
       "title": "Paragraph 12",
-      "time": "...",
+      "time": "2:21",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-12"
@@ -609,37 +350,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-12.png",
           "imgAlt": "Paragraph 12 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 12"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "12. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "12.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "Dumbo has big, big, big ears! The boys, girls, moms, and dads look. Dumbo flies."
             }
           ]
         }
@@ -647,7 +363,7 @@
     },
     {
       "title": "Paragraph 13",
-      "time": "...",
+      "time": "2:44",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-13"
@@ -655,129 +371,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
+          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-13.png",
           "imgAlt": "Paragraph 13 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 13"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "13. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "13.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Paragraph 14",
-      "time": "...",
-      "bgColor": "black",
-      "textColor": "white",
-      "id": "paragraph-14"
-    },
-    {
-      "paragraphSections": [
-        {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 14 illustration",
-          "imgPosition": "right",
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 14"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "14. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "14.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Paragraph 15",
-      "time": "...",
-      "bgColor": "black",
-      "textColor": "white",
-      "id": "paragraph-15"
-    },
-    {
-      "paragraphSections": [
-        {
-          "imgSrc": "/extras/skills/listening/audiobooks/...",
-          "imgAlt": "Paragraph 15 illustration",
-          "imgPosition": "right",
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 15"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "15. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "15.1 Question",
-              "options": [
-                { "id": "", "label": "a) Answer 1", "isCorrect": true },
-                { "id": "", "label": "b) Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
-              ]
+              "textEn": "Hooray! Dumbo and Mommy Elephant are happy again."
             }
           ]
         }

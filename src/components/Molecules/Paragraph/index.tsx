@@ -22,8 +22,8 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
         // Apply the appropriate CSS class based on the image position
         const containerClass = hasImage
           ? paragraphSection.imgPosition === "left"
-            ? styles["img-before"]
-            : styles["img-after"]
+            ? styles["img-left"]
+            : styles["img-right"]
           : styles["no-image"];
 
         return (
