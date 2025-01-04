@@ -13,7 +13,7 @@
         {
           "paragraphs": [
             {
-              "text": "<b>Lesson 7 • Discussing bad results</b>"
+              "textEn": "<b>Lesson 7 • Discussing bad results</b>"
             }
           ],
           "addBreakLine": true
@@ -21,7 +21,7 @@
         {
           "paragraphs": [
             {
-              "text": "Ron, Alex, and Pam work for Brooklyn Brewski, a company that brews and distributes beer throughout New York. The company's recent results have been terrible."
+              "textEn": "Ron, Alex, and Pam work for Brooklyn Brewski, a company that brews and distributes beer throughout New York. The company's recent results have been terrible."
             }
           ],
           "addBreakLine": true
@@ -29,7 +29,7 @@
         {
           "paragraphs": [
             {
-              "text": "<b>Alex:</b> We need to "
+              "textEn": "<b>Alex:</b> We need to "
             },
             {
               "keyword": "face the music",
@@ -37,7 +37,7 @@
               "dictionaryAudioSrc": "/dictionary/f/face-the-music.mp3"
             },
             {
-              "text": "here. We're"
+              "textEn": "here. We're"
             },
             {
               "keyword": "in deep trouble",
@@ -45,14 +45,14 @@
               "dictionaryAudioSrc": "/dictionary/i/in-deep-trouble.mp3"
             },
             {
-              "text": "! Sales are down by 50 percent versus last year."
+              "textEn": "! Sales are down by 50 percent versus last year."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "<b>Pam:</b> It looks like we're going to be"
+              "textEn": "<b>Pam:</b> It looks like we're going to be"
             },
             {
               "keyword": "in the red",
@@ -60,7 +60,7 @@
               "dictionaryAudioSrc": "/dictionary/i/in-the-red.mp3"
             },
             {
-              "text": "for the year "
+              "textEn": "for the year "
             },
             {
               "keyword": "to the tune of",
@@ -68,20 +68,20 @@
               "dictionaryAudioSrc": "/dictionary/t/to-the-tune-of.mp3"
             },
             {
-              "text": "$1 million."
+              "textEn": "$1 million."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "<b>Ron:</b>"
+              "textEn": "<b>Ron:</b>"
             },
             {
               "keyword": "no wonder",
               "dictionary": "no wonder",
               "dictionaryAudioSrc": "/dictionary/n/no-wonder.mp3",
-              "text": ". We're losing"
+              "textEn": ". We're losing"
             },
             {
               "keyword": "market share",
@@ -89,14 +89,14 @@
               "dictionaryAudioSrc": "/dictionary/m/market-share.mp3"
             },
             {
-              "text": "to Manhattan Beer."
+              "textEn": "to Manhattan Beer."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "<b>Alex:</b> Why? We need to "
+              "textEn": "<b>Alex:</b> Why? We need to "
             },
             {
               "keyword": "get to the bottom of",
@@ -104,14 +104,14 @@
               "dictionaryAudioSrc": "/dictionary/g/get-to-the-bottom-of.mp3"
             },
             {
-              "text": "this!"
+              "textEn": "this!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "<b>Pam:</b> Every year they come up with beers. They're really"
+              "textEn": "<b>Pam:</b> Every year they come up with beers. They're really"
             },
             {
               "keyword": "on top of trends",
@@ -119,14 +119,14 @@
               "dictionaryAudioSrc": "/dictionary/o/on-top-of-trends.mp3"
             },
             {
-              "text": ". For instance, last year they released a low-carb beer."
+              "textEn": ". For instance, last year they released a low-carb beer."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "<b>Ron:</b> No wonder they're"
+              "textEn": "<b>Ron:</b> No wonder they're"
             },
             {
               "keyword": "eat one's lunch",
@@ -134,7 +134,7 @@
               "dictionaryAudioSrc": "/dictionary/e/eating-our-lunch.mp3"
             },
             {
-              "text": "! They're "
+              "textEn": "! They're "
             },
             {
               "keyword": "cash in on",
@@ -142,7 +142,7 @@
               "dictionaryAudioSrc": "/dictionary/c/cash-in-on.mp3"
             },
             {
-              "text": "the latest trends and"
+              "textEn": "the latest trends and"
             },
             {
               "keyword": "bring a product to market",
@@ -150,14 +150,14 @@
               "dictionaryAudioSrc": "/dictionary/b/bring-great-new-products-to-market.mp3"
             },
             {
-              "text": "!"
+              "textEn": "!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "<b>Pam:</b> Meanwhile, we're"
+              "textEn": "<b>Pam:</b> Meanwhile, we're"
             },
             {
               "keyword": "run in place",
@@ -165,14 +165,14 @@
               "dictionaryAudioSrc": "/dictionary/r/run-in-place.mp3"
             },
             {
-              "text": ". We need a new product line and new ideas for marketing."
+              "textEn": ". We need a new product line and new ideas for marketing."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "<b>Alex:</b> It's time to"
+              "textEn": "<b>Alex:</b> It's time to"
             },
             {
               "keyword": "clean house",
@@ -180,7 +180,7 @@
               "dictionaryAudioSrc": "/dictionary/c/clean-house.mp3"
             },
             {
-              "text": "and bring some "
+              "textEn": "and bring some "
             },
             {
               "keyword": "new blood",
@@ -188,14 +188,14 @@
               "dictionaryAudioSrc": "/dictionary/n/new-blood.mp3"
             },
             {
-              "text": "into this company."
+              "textEn": "into this company."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "text": "<b>Ron:</b> "
+              "textEn": "<b>Ron:</b> "
             },
             {
               "keyword": "You took the words right out of my mouth",
@@ -203,238 +203,242 @@
               "dictionaryAudioSrc": "/dictionary/y/you-took-the-words-right-out-of-my-mouth.mp3"
             },
             {
-              "text": "! We need some new people with fresh ideas."
+              "textEn": "! We need some new people with fresh ideas."
             }
           ]
         }
       ]
     },
     {
-      "title": "Exercise",
+      "title": "Exercises",
       "bgColor": "black",
-      "textColor": "white",
-      "radio": [
+      "textColor": "white"
+    },
+    {
+      "exercises": [
         {
           "title": "Choose the best substitute for the phrase or sentence in bold.",
-          "question": "1. These past few years our company has been <b>running in place</b>.",
-          "options": [
+          "radio": [
             {
-              "label": "a) making good progress",
-              "isCorrect": false
+              "question": "1. These past few years our company has been <b>running in place</b>.",
+              "options": [
+                {
+                  "label": "a) making good progress",
+                  "isCorrect": false
+                },
+                {
+                  "label": "b) expanding our business",
+                  "isCorrect": false
+                },
+                {
+                  "label": "c) not making any progress",
+                  "isCorrect": true
+                }
+              ]
             },
             {
-              "label": "b) expanding our business",
-              "isCorrect": false
+              "question": "2. \"I hope Todd doesn't get promoted to sales director.\" - \"<b>You took the words out of my mouth!</b>\"",
+              "options": [
+                {
+                  "label": "a) I was thinking the same thing!",
+                  "isCorrect": true
+                },
+                {
+                  "label": "b) That's what I told him!",
+                  "isCorrect": false
+                },
+                {
+                  "label": "c) Don't try to influence me!",
+                  "isCorrect": false
+                }
+              ]
             },
             {
-              "label": "c) not making any progress",
-              "isCorrect": true
+              "question": "3. Some <b>new blood</b> would really help our company.",
+              "options": [
+                {
+                  "label": "a) new ideas",
+                  "isCorrect": false
+                },
+                {
+                  "label": "b) new acquisitions",
+                  "isCorrect": false
+                },
+                {
+                  "label": "c) new employees",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "question": "4. Apple has really been able to <b>cash in on</b> the demand for mobile computing.",
+              "options": [
+                {
+                  "label": "a) make lots of money from",
+                  "isCorrect": true
+                },
+                {
+                  "label": "b) foresee",
+                  "isCorrect": false
+                },
+                {
+                  "label": "c) increase",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "5. <b>No wonder</b> Sergey is having trouble getting a job in the United States. His accent is really strong.",
+              "options": [
+                {
+                  "label": "a) I don't understand why",
+                  "isCorrect": false
+                },
+                {
+                  "label": "b) It's not surprising that",
+                  "isCorrect": true
+                },
+                {
+                  "label": "c) It's surprising that",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "6. After another bad quarter, our CEO announced plans to <b>clean house</b>.",
+              "options": [
+                {
+                  "label": "a) introduce new products",
+                  "isCorrect": false
+                },
+                {
+                  "label": "b) re-thinking our strategy",
+                  "isCorrect": false
+                },
+                {
+                  "label": "c) cut employess",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "question": "7. Why are so many of our employees arriving late to work? We need to <b>get to the bottom of it</b>.",
+              "options": [
+                {
+                  "label": "a) figure out what the problem is",
+                  "isCorrect": true
+                },
+                {
+                  "label": "b) fire them",
+                  "isCorrect": false
+                },
+                {
+                  "label": "c) tell them to stop it",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "question": "8. Last year we had revenues <b>to the tune of</b> $2 million.",
+              "options": [
+                {
+                  "label": "b) of more than",
+                  "isCorrect": false
+                },
+                {
+                  "label": "a) of around",
+                  "isCorrect": true
+                },
+                {
+                  "label": "c) of much less than",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ],
+          "fillInTheBlanks": [
+            {
+              "title": "2. Fill in the blank with the correct word.",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "1. If the market for computer accessories doesn't improve soon, we're going to be in deep",
+              "correctAnswer": ["trouble"],
+              "afterBlank": ".",
+              "lineBreakAfter": true
+            },
+            {
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "2. While many of our comperitors have been",
+              "correctAnswer": ["running"],
+              "afterBlank": "in place this past year. we've been able to gain market share.",
+              "lineBreakAfter": true
+            },
+            {
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "3. After a third year of losing money, Jamco finally realized it'd be better to",
+              "correctAnswer": ["face"],
+              "afterBlank": "the music.",
+              "lineBreakAfter": true
+            },
+            {
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "4. When Dan Hesse joined Sprint as CEO, one of the first things he did was to",
+              "correctAnswer": ["clean"],
+              "afterBlank": "house",
+              "lineBreakAfter": true
+            },
+            {
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "5. Harvard is cashing in",
+              "correctAnswer": ["on"],
+              "afterBlank": "its great brand by licesing its name to clothing manufacturer",
+              "lineBreakAfter": true
+            },
+            {
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "6. This year, our company plans to",
+              "correctAnswer": ["bring"],
+              "afterBlank": "many new products to market.",
+              "lineBreakAfter": true
+            },
+            {
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "7. ABC Language institute needs to increase its marketing efforts. Berlitz is",
+              "correctAnswer": ["eating"],
+              "afterBlank": "its lunch.",
+              "lineBreakAfter": true
+            },
+            {
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "8. We'll make a profit this year to the ",
+              "correctAnswer": ["tune"],
+              "afterBlank": "of $1 million.",
+              "lineBreakAfter": true
+            },
+            {
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "\"9. I hope we get out early on Friday.\" \"You took the words right out of my",
+              "correctAnswer": ["mouth"],
+              "afterBlank": ".\"",
+              "lineBreakAfter": true
+            },
+            {
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "10. We're hiring three new MBAs this year. This",
+              "correctAnswer": ["new"],
+              "afterBlank": "blood should help us grow our business.",
+              "lineBreakAfter": true
             }
           ]
-        },
-        {
-          "question": "2. \"I hope Todd doesn't get promoted to sales director.\" - \"<b>You took the words out of my mouth!</b>\"",
-          "options": [
-            {
-              "label": "a) I was thinking the same thing!",
-              "isCorrect": true
-            },
-            {
-              "label": "b) That's what I told him!",
-              "isCorrect": false
-            },
-            {
-              "label": "c) Don't try to influence me!",
-              "isCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "3. Some <b>new blood</b> would really help our company.",
-          "options": [
-            {
-              "label": "a) new ideas",
-              "isCorrect": false
-            },
-            {
-              "label": "b) new acquisitions",
-              "isCorrect": false
-            },
-            {
-              "label": "c) new employees",
-              "isCorrect": true
-            }
-          ]
-        },
-        {
-          "question": "4. Apple has really been able to <b>cash in on</b> the demand for mobile computing.",
-          "options": [
-            {
-              "label": "a) make lots of money from",
-              "isCorrect": true
-            },
-            {
-              "label": "b) foresee",
-              "isCorrect": false
-            },
-            {
-              "label": "c) increase",
-              "isCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "5. <b>No wonder</b> Sergey is having trouble getting a job in the United States. His accent is really strong.",
-          "options": [
-            {
-              "label": "a) I don't understand why",
-              "isCorrect": false
-            },
-            {
-              "label": "b) It's not surprising that",
-              "isCorrect": true
-            },
-            {
-              "label": "c) It's surprising that",
-              "isCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "6. After another bad quarter, our CEO announced plans to <b>clean house</b>.",
-          "options": [
-            {
-              "label": "a) introduce new products",
-              "isCorrect": false
-            },
-            {
-              "label": "b) re-thinking our strategy",
-              "isCorrect": false
-            },
-            {
-              "label": "c) cut employess",
-              "isCorrect": true
-            }
-          ]
-        },
-        {
-          "question": "7. Why are so many of our employees arriving late to work? We need to <b>get to the bottom of it</b>.",
-          "options": [
-            {
-              "label": "a) figure out what the problem is",
-              "isCorrect": true
-            },
-            {
-              "label": "b) fire them",
-              "isCorrect": false
-            },
-            {
-              "label": "c) tell them to stop it",
-              "isCorrect": false
-            }
-          ]
-        },
-        {
-          "question": "8. Last year we had revenues <b>to the tune of</b> $2 million.",
-          "options": [
-            {
-              "label": "b) of more than",
-              "isCorrect": false
-            },
-            {
-              "label": "a) of around",
-              "isCorrect": true
-            },
-            {
-              "label": "c) of much less than",
-              "isCorrect": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "fillInTheBlanks": [
-        {
-          "title": "2. Fill in the blank with the correct word.",
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "1. If the market for computer accessories doesn't improve soon, we're going to be in deep",
-          "correctAnswer": ["trouble"],
-          "afterBlank": ".",
-          "lineBreakAfter": true
-        },
-        {
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "2. While many of our comperitors have been",
-          "correctAnswer": ["running"],
-          "afterBlank": "in place this past year. we've been able to gain market share.",
-          "lineBreakAfter": true
-        },
-        {
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "3. After a third year of losing money, Jamco finally realized it'd be better to",
-          "correctAnswer": ["face"],
-          "afterBlank": "the music.",
-          "lineBreakAfter": true
-        },
-        {
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "4. When Dan Hesse joined Sprint as CEO, one of the first things he did was to",
-          "correctAnswer": ["clean"],
-          "afterBlank": "house",
-          "lineBreakAfter": true
-        },
-        {
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "5. Harvard is cashing in",
-          "correctAnswer": ["on"],
-          "afterBlank": "its great brand by licesing its name to clothing manufacturer",
-          "lineBreakAfter": true
-        },
-        {
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "6. This year, our company plans to",
-          "correctAnswer": ["bring"],
-          "afterBlank": "many new products to market.",
-          "lineBreakAfter": true
-        },
-        {
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "7. ABC Language institute needs to increase its marketing efforts. Berlitz is",
-          "correctAnswer": ["eating"],
-          "afterBlank": "its lunch.",
-          "lineBreakAfter": true
-        },
-        {
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "8. We'll make a profit this year to the ",
-          "correctAnswer": ["tune"],
-          "afterBlank": "of $1 million.",
-          "lineBreakAfter": true
-        },
-        {
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "\"9. I hope we get out early on Friday.\" \"You took the words right out of my",
-          "correctAnswer": ["mouth"],
-          "afterBlank": ".\"",
-          "lineBreakAfter": true
-        },
-        {
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "10. We're hiring three new MBAs this year. This",
-          "correctAnswer": ["new"],
-          "afterBlank": "blood should help us grow our business.",
-          "lineBreakAfter": true
         }
       ]
     }

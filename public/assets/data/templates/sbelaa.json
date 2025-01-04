@@ -24,7 +24,7 @@
               "keyword": "...",
               "word": "...",
               "wordAudioSrc": "/dictionary/xxx.mp3",
-              "text": "xxx"
+              "textEn": "xxx"
             }
           ],
           "addBreakLine": true
@@ -32,7 +32,7 @@
         {
           "paragraphs": [
             {
-              "text": "<b>...:</b> ..."
+              "textEn": "<b>...:</b> ..."
             },
             {
               "keyword": "...",
@@ -40,7 +40,7 @@
               "dictionaryAudioSrc": "/dictionary/c/....mp3"
             },
             {
-              "text": "..."
+              "textEn": "..."
             }
           ]
         }
@@ -51,7 +51,6 @@
       "bgColor": "black",
       "textColor": "white"
     },
-
     {
       "exercises": [
         {
@@ -61,15 +60,15 @@
               "question": "1. ...",
               "options": [
                 {
-                  "label": "a) ...",
+                  "label": "...",
                   "isCorrect": true
                 },
                 {
-                  "label": "b) ...",
+                  "label": "...",
                   "isCorrect": false
                 },
                 {
-                  "label": "c) ...",
+                  "label": "...",
                   "isCorrect": false
                 }
               ]
@@ -78,15 +77,15 @@
               "question": "2. ...",
               "options": [
                 {
-                  "label": "a) ...",
+                  "label": "...",
                   "isCorrect": true
                 },
                 {
-                  "label": "b) ...",
+                  "label": "...",
                   "isCorrect": false
                 },
                 {
-                  "label": "c) ...",
+                  "label": "...",
                   "isCorrect": false
                 }
               ]
@@ -95,15 +94,15 @@
               "question": "3. ...",
               "options": [
                 {
-                  "label": "a) ...",
+                  "label": "...",
                   "isCorrect": true
                 },
                 {
-                  "label": "b) ...",
+                  "label": "...",
                   "isCorrect": false
                 },
                 {
-                  "label": "c) ...",
+                  "label": "...",
                   "isCorrect": false
                 }
               ]
@@ -112,15 +111,15 @@
               "question": "4. ...",
               "options": [
                 {
-                  "label": "a) ...",
+                  "label": "...",
                   "isCorrect": true
                 },
                 {
-                  "label": "b) ...",
+                  "label": "...",
                   "isCorrect": false
                 },
                 {
-                  "label": "c) ...",
+                  "label": "...",
                   "isCorrect": false
                 }
               ]
@@ -129,15 +128,15 @@
               "question": "5. ...",
               "options": [
                 {
-                  "label": "a) ...",
+                  "label": "...",
                   "isCorrect": true
                 },
                 {
-                  "label": "b) ...",
+                  "label": "...",
                   "isCorrect": false
                 },
                 {
-                  "label": "c) ...",
+                  "label": "...",
                   "isCorrect": false
                 }
               ]
@@ -146,15 +145,15 @@
               "question": "6. ...",
               "options": [
                 {
-                  "label": "a) ...",
+                  "label": "...",
                   "isCorrect": true
                 },
                 {
-                  "label": "b) ...",
+                  "label": "...",
                   "isCorrect": false
                 },
                 {
-                  "label": "c) ...",
+                  "label": "...",
                   "isCorrect": false
                 }
               ]
@@ -163,15 +162,15 @@
               "question": "7. ...",
               "options": [
                 {
-                  "label": "a) ...",
+                  "label": "...",
                   "isCorrect": true
                 },
                 {
-                  "label": "b) ...",
+                  "label": "...",
                   "isCorrect": false
                 },
                 {
-                  "label": "c) ...",
+                  "label": "...",
                   "isCorrect": false
                 }
               ]
@@ -180,15 +179,15 @@
               "question": "8. ...",
               "options": [
                 {
-                  "label": "a) ...",
+                  "label": "...",
                   "isCorrect": true
                 },
                 {
-                  "label": "b) ...",
+                  "label": "...",
                   "isCorrect": false
                 },
                 {
-                  "label": "c) ...",
+                  "label": "...",
                   "isCorrect": false
                 }
               ]
