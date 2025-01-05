@@ -81,7 +81,7 @@
           "imgPosition": "left",
           "paragraphs": [
             {
-              "textEn": "Mark Jackson is on holiday in Turkey. He visits the old city of Troy and finds a yellow stone. 'I know this stone, 'he thinks. 'It comes from.. from...' Suddenly Mark Goes back in time. He can see a beautiful city, soldiers and a big wooden horse."
+              "textEn": "Mark Jackson is on holiday in Turkey. He visits the old city of Troy and finds a yellow stone. \"I know this stone, \"he thinks. \"It comes from.. from...\" Suddenly Mark Goes back in time. He can see a beautiful city, soldiers and a big wooden horse."
             }
           ]
         }
@@ -103,7 +103,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "The Jackson family are on holiday in Turkey. They are staying at a big hotel in Istanbul. Mark (13), his sister Fay (12) and their parents like Turkey. It is beautiful, the weather is hot and the food is good. There is a lot to see, too. Today they are visiting the city of Troy. It is 9 o’clock in the morning. They are getting on a bus in front of their hotel"
+              "textEn": "The Jackson family are on holiday in Turkey. They are staying at a big hotel in Istanbul. Mark (13), his sister Fay (12) and their parents like Turkey. It is beautiful, the weather is hot and the food is good. There is a lot to see, too. Today they are visiting the city of Troy. It is 9 o'clock in the morning. They are getting on a bus in front of their hotel"
             }
           ]
         }
@@ -122,12 +122,12 @@
               "options": [
                 {
                   "id": "2aefa30e-ce51-4cc4-ad3b-50d6d6c4fe32",
-                  "label": "Greece",
+                  "label": "They are in Greece",
                   "isCorrect": false
                 },
                 {
                   "id": "f8228a86-3b09-4063-847e-46be38326808",
-                  "label": "Turkey",
+                  "label": "They are in Turkey",
                   "isCorrect": true
                 }
               ]
@@ -138,12 +138,12 @@
               "options": [
                 {
                   "id": "e48b7c6c-3d12-4f1b-a939-f6b321b7e4e5",
-                  "label": "They’re visting Istanbul.",
+                  "label": "They're visting Istanbul.",
                   "isCorrect": false
                 },
                 {
                   "id": "d823bd42-02a6-4f3e-8f94-83b82c0f5621",
-                  "label": "They’re visting Troy.",
+                  "label": "They're visting Troy.",
                   "isCorrect": true
                 }
               ]
@@ -167,7 +167,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "There are forty people on the bus. They come from Britain, America, France, Italy and Holland. At Troy they all have lunch. Then they start to look at the old city. It is a very hot day. After an hour, Mark sits under a tree. “I’m going to stop here for a moment,” he tells Fay. “OK,” she answers. Then Mark sees something on the ground. “What’s that?” he thinks."
+              "textEn": "There are forty people on the bus. They come from Britain, America, France, Italy and Holland. At Troy they all have lunch. Then they start to look at the old city. It is a very hot day. After an hour, Mark sits under a tree. \"I'm going to stop here for a moment,\" he tells Fay. \"OK,\" she answers. Then Mark sees something on the ground. \"What's that?\" he thinks."
             }
           ]
         }
@@ -231,7 +231,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "It is a flat, yellow stone. Mark picks it up. Then he starts to clean it with his hands. “But I know this stone,” he thinks. “It comes from... from... Suddenly there is a white light in his eyes. Mark closes them. The light is strong. Now there is a loud wind in his ears. He cannot hear or see anything. “What’s happening ?” he thinks."
+              "textEn": "It is a flat, yellow stone. Mark picks it up. Then he starts to clean it with his hands. \"But I know this stone,\" he thinks. \"It comes from... from... Suddenly there is a white light in his eyes. Mark closes them. The light is strong. Now there is a loud wind in his ears. He cannot hear or see anything. \"What's happening ?\" he thinks."
             }
           ]
         }
@@ -242,11 +242,11 @@
       "exercises": [
         {
           "id": "43b5df55-bd72-40f1-8f46-8d61852324ef",
-          "title": "Choose the correct answer.",
+          "title": "3. Choose the correct answer.",
           "radio": [
             {
               "id": "cc5834ab-8e80-4c9b-b7c4-da62f89350c9",
-              "question": "What does Mark do with the stone?",
+              "question": "3.1 What does Mark do with the stone?",
               "options": [
                 {
                   "id": "da704547-6684-4ead-b7c3-93c1cf7e58c5",
@@ -262,7 +262,7 @@
             },
             {
               "id": "cc5834ab-8e80-4c9b-b7c4-da62f89350c9",
-              "question": "How does Mark react to the bright light?",
+              "question": "3.2 How does Mark react to the bright light?",
               "options": [
                 {
                   "id": "0138efc1-b33a-430e-a83a-5f2f0aef94fa",
@@ -295,7 +295,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Ten seconds later the light and the wind stop. Mark opens his eyes. He is standing on a beach. He can see hundreds of ships and men. Behind him there is a beautiful city with high walls. “Where am I?” he thinks. “Where’s my family?” He puts the yellow stone in his pocket. Then one of the men says to him, “Boy! Come here!”"
+              "textEn": "Ten seconds later the light and the wind stop. Mark opens his eyes. He is standing on a beach. He can see hundreds of ships and men. Behind him there is a beautiful city with high walls. \"Where am I?\" he thinks. \"Where's my family?\" He puts the yellow stone in his pocket. Then one of the men says to him, \"Boy! Come here!\""
             }
           ]
         }
@@ -310,16 +310,32 @@
           "radio": [
             {
               "id": "6f896fd8-a324-4416-9073-71b39b49737d",
-              "question": "4.1 Question",
+              "question": "4.1 Where is Mark standing when he opens his eyes?",
               "options": [
                 {
                   "id": "fc1bbfbb-3856-4f24-8955-0140296d526c",
-                  "label": "Answer 1",
-                  "isCorrect": true
+                  "label": "He's standing on a rock.",
+                  "isCorrect": false
                 },
                 {
                   "id": "efb43308-6cec-4c23-b2b6-d8e0a53a6e0e",
-                  "label": "Answer 2",
+                  "label": "He's standing on a beach.",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "52f6e992-4a6d-48a3-8d06-b5849b1355a7",
+              "question": "4.2 What can Mark see when see open his eyes?",
+              "options": [
+                {
+                  "id": "3720dc8c-306f-40df-bf85-5b70b5ebf01b",
+                  "label": "He can see hundreds of ships and men.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "1b8f9872-80ce-4ebc-abac-014f724631ad",
+                  "label": "He can see hundreds of buses and men.",
                   "isCorrect": false
                 }
               ]
@@ -343,26 +359,49 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "“Me?” Mark walks across the beach to a long, black ship. “Carry this,” the man says. He gives Mark a lot of wood. Then he gets off the ship. “Follow me,” he says. Mark follows him. The man is very tall and has a short, brown beard. “I don’t know your face,” he says. “Are you new here?” “Y-yes,” Mark answers. “That’s right. I’m new here.”"
+              "textEn": "\"Me?\" Mark walks across the beach to a long, black ship. \"Carry this,\" the man says. He gives Mark a lot of wood. Then he gets off the ship. \"Follow me,\" he says. Mark follows him. The man is very tall and has a short, brown beard. \"I don't know your face,\" he says. \"Are you new here?\" \"Y-yes,\" Mark answers. \"That's right. I'm new here.\""
             }
           ]
         }
       ]
     },
     {
-      "id": "",
+      "id": "b3f9c3e1-8a4b-4f91-b9c7-d7a5e2f9b1c4",
       "exercises": [
         {
-          "id": "",
+          "id": "e1a9b7f3-4c21-4d91-b2c7-d8a5e1f9c4b7",
           "title": "5. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "5.1 Question",
+              "id": "f2b7c3a4-8a1f-4b91-b9d7-e4a5c1b7e9f3",
+              "question": "5.1 What does the man give to Mark when he gets off the ship?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                {
+                  "id": "b1c4e2f9-8a7d-4b91-b1c7-d5a3f9b7e4f2",
+                  "label": "He gives him a sword.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "a9b3f1c4-5d7e-4b91-b18c-f4e2a1b9f7c3",
+                  "label": "He gives him a lot of wood.",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "c4b7f2a9-1e8a-4d91-b9c7-f3e2b1d7a5f9",
+              "question": "5.2 How does Mark describe himself when the man asks if he is new?",
+              "options": [
+                {
+                  "id": "e9b7f3a1-4c5d-4b91-b18c-d2a1f9e7c4b3",
+                  "label": "He describes himself saying: No, I've been here before.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "f1b7c3a9-8e4d-4b91-b1c7-d5a2e9f4b7f3",
+                  "label": "He describes himself saying: Y-yes, that's right. I'm new here.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -381,26 +420,49 @@
         {
           "paragraphs": [
             {
-              "textEn": "“My name is Andros,” says the man. He and Mark walk for another ten minutes. Then they climb a small hill. At the top Mark stops. There, in front of them, is a big wooden horse. Andros sees Mark’s face and smiles. “Well... what do you think of it?” he asks. Mark does not answer, and Andros says, “This horse is going to win the war for us Greeks.”"
+              "textEn": "\"My name is Andros,\" says the man. He and Mark walk for another ten minutes. Then they climb a small hill. At the top Mark stops. There, in front of them, is a big wooden horse. Andros sees Mark's face and smiles. \"Well... what do you think of it?\" he asks. Mark does not answer, and Andros says, \"This horse is going to win the war for us Greeks.\""
             }
           ]
         }
       ]
     },
     {
-      "id": "",
+      "id": "a7b9f3c4-5d8e-4b91-b1c7-d5a2e9f4b7f3",
       "exercises": [
         {
-          "id": "",
-          "title": "6. Choose the correct answer.",
+          "id": "b3e9f4a8-7c5d-4b91-b7c9-d2f9e5b4c2a1",
+          "title": "6. Choose the correct answers.",
           "radio": [
             {
-              "id": "",
-              "question": "6.1 Question",
+              "id": "c1f3e9b4-7c5d-4b91-b7c9-d2f9e5b4c2a8",
+              "question": "6.1 What does Andros say the wooden horse will do?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                {
+                  "id": "c5a9e4b7-1f3d-4b91-b7c9-d2f9b4a8e5c2",
+                  "label": "He said that the horse was going to win the war for the Troys.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "b4a7e9f3-5c2d-4b91-b7c9-d2f9e5b1f3c8",
+                  "label": "He said that the horse was going to win the war for the Greeks.",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "d2f7b4a9-8e5c-4b91-b7c9-a1f3e9d4c5b2",
+              "question": "6.2 What does Mark see at the top of the hill?",
+              "options": [
+                {
+                  "id": "f4b7e9a3-5c2d-4b91-b7c9-d2f9b1e5c3a8",
+                  "label": "A big wooden horse.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "e5a9c4b7-1f3d-4b91-b7c9-d2f9b4a8e5c2",
+                  "label": "A group of soldiers.",
+                  "isCorrect": false
+                }
               ]
             }
           ]
@@ -422,27 +484,33 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "They walk down the hill. There are a lot of men workingunder the horse. One of them talks to Andros. “There’s a problem,” he says. “We can’t find a stone for the second eye. We must find one before tomorrow.” Mark looks at the horse’s one bright eye. Then he remembers the stone in his pocket. “Wait!” he says. “I think I can help you.”"
+              "textEn": "They walk down the hill. There are a lot of men working under the horse. One of them talks to Andros. \"There's a problem,\" he says. \"We can't find a stone for the second eye. We must find one before tomorrow.\" Mark looks at the horse's one bright eye. Then he remembers the stone in his pocket. \"Wait!\" he says. \"I think I can help you.\""
             }
           ]
         }
       ]
     },
-
     {
-      "id": "",
+      "id": "a7d9b3e1-8a4c-4d91-b7c3-e9d1f8e9b6a5",
       "exercises": [
         {
-          "id": "",
-          "title": "7. Choose the correct answer.",
+          "id": "e3f7a9b4-5c2d-4b91-b7c9-d2f9e4b7e9c1",
+          "title": "7. Choose the correct answers.",
           "radio": [
             {
-              "id": "",
-              "question": "7.1 Question",
+              "id": "f1b7c3e9-4c5d-4b91-b7c9-d2f9b4e5c9a2",
+              "question": "7.1 What problem do the men face with the horse?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "c) Answer 2", "isCorrect": false }
+                { "id": "b4e7f1c5-8d2e-4b91-b7c9-e2a3b7c4f5d6", "label": "They can't find a stone for the second eye.", "isCorrect": true },
+                { "id": "c5e4a3b7-1d2f-4b91-b7c9-d2f9e4c9b7a9", "label": "They are missing some wood for the body.", "isCorrect": false }
+              ]
+            },
+            {
+              "id": "d2e5f8a9-8c3d-4b91-b7c9-d5e4a9f7b5c2",
+              "question": "7.2 What does Mark remember that might help the men?",
+              "options": [
+                { "id": "b9f7e4c5-7c3d-4b91-b7c9-d2f9f9e4b8a7", "label": "He remembers the stone in his bag.", "isCorrect": false },
+                { "id": "f7e4b1c5-8c3d-4b91-b7c9-e2a3f9d5b7c9", "label": "He remembers the stone in his pocket.", "isCorrect": true }
               ]
             }
           ]
@@ -464,7 +532,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "He takes the stone out of his pocket. “But how. . .?!” says Andros. The man smiles. “That’s it. That’s it!” He looks at Mark. “What’s your name, boy?” Mark tells him. “He’s new here,” says Andros. “Ah!” The man is very happy. “Well ... we must thank him. / know. You can come with us in the horse tomorrow night.” Mark’s mouth opens. “Me?!”"
+              "textEn": "He takes the stone out of his pocket. \"But how. . .?!\" says Andros. The man smiles. \"That's it. That's it!\" He looks at Mark. \"What's your name, boy?\" Mark tells him. \"He's new here,\" says Andros. \"Ah!\" The man is very happy. \"Well ... we must thank him. / know. You can come with us in the horse tomorrow night.\" Mark's mouth opens. \"Me?!\""
             }
           ]
         }
@@ -505,7 +573,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "That evening Mark sits near a big fire on the beach. There is an old woman beside him. Her name is Ana and she is a cook. She tells Mark lots of stories. Stories about Greece, the war, and the beautiful princess Helen. In the end she goes to bed. “Goodbye, boy,” she says. “Come and see me again one day. Come and see me again.”"
+              "textEn": "That evening Mark sits near a big fire on the beach. There is an old woman beside him. Her name is Ana and she is a cook. She tells Mark lots of stories. Stories about Greece, the war, and the beautiful princess Helen. In the end she goes to bed. \"Goodbye, boy,\" she says. \"Come and see me again one day. Come and see me again.\""
             }
           ]
         }
@@ -546,7 +614,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Next morning the horse is ready. Greek soldiers pull it to the gates of Troy. Then they leave it there, inside the horse there are forty Greeks. They wait all afternoon under the hot, yellow sun. Mark is sitting in the horse’s head. “What happens now?” he thinks. Suddenly the gates open. Trojan soldiers walk out. They pull the horse inside and shut the gates again."
+              "textEn": "Next morning the horse is ready. Greek soldiers pull it to the gates of Troy. Then they leave it there, inside the horse there are forty Greeks. They wait all afternoon under the hot, yellow sun. Mark is sitting in the horse's head. \"What happens now?\" he thinks. Suddenly the gates open. Trojan soldiers walk out. They pull the horse inside and shut the gates again."
             }
           ]
         }
@@ -587,7 +655,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Mark can hear the Trojans. “Why are the Greeks giving us this horse?” asks one. “Do you think they want to end the war?” “Yes! Look!” says a soldier on top of the city walls. “Their ships are leaving!” After that the Trojans eat, sing and dance all evening. Then they go to bed very late and Troy is quiet. At that moment the Greeks climb out of the horse."
+              "textEn": "Mark can hear the Trojans. \"Why are the Greeks giving us this horse?\" asks one. \"Do you think they want to end the war?\" \"Yes! Look!\" says a soldier on top of the city walls. \"Their ships are leaving!\" After that the Trojans eat, sing and dance all evening. Then they go to bed very late and Troy is quiet. At that moment the Greeks climb out of the horse."
             }
           ]
         }
@@ -628,7 +696,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Four men go to the gates and open them. A minute later there are thousands of Greek soldiers in the city. They and their ships are back! They run from one building to another. In five minutes Troy is on fire. Mark watches all this. Suddenly he sees a beautiful woman. She is running along the city walls. “It’s Helen,” he thinks, “Helen of Troy!”"
+              "textEn": "Four men go to the gates and open them. A minute later there are thousands of Greek soldiers in the city. They and their ships are back! They run from one building to another. In five minutes Troy is on fire. Mark watches all this. Suddenly he sees a beautiful woman. She is running along the city walls. \"It's Helen,\" he thinks, \"Helen of Troy!\""
             }
           ]
         }
@@ -669,7 +737,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "At that moment Andros says, “Follow me, boy.” He runs down a small street very fast. Mark follows, but the street is full of smoke. After a minute he cannot see anything. “Andros!” he says. “Where are you?” Then suddenly two Trojans with swords come out of the smoke. Mark looks at them. “Please don’t kill me,” he says. “Don’t kill me! PleaseV’"
+              "textEn": "At that moment Andros says, \"Follow me, boy.\" He runs down a small street very fast. Mark follows, but the street is full of smoke. After a minute he cannot see anything. \"Andros!\" he says. \"Where are you?\" Then suddenly two Trojans with swords come out of the smoke. Mark looks at them. \"Please don't kill me,\" he says. \"Don't kill me! PleaseV'"
             }
           ]
         }
@@ -710,7 +778,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "“Mark! Mark! It’s 4 o’clock. The bus is leaving in a minute.” Fay is looking down at Mark. After a moment he suddenly wakes up. “What?” he asks. “The bus is leaving,” Fay says again. Then she asks, “Are you OK? Your face is white. And what’s that dirty stone?” Mark looks at the yellow stone in his hand. “This? Oh... it’s nothing.” he says."
+              "textEn": "\"Mark! Mark! It's 4 o'clock. The bus is leaving in a minute.\" Fay is looking down at Mark. After a moment he suddenly wakes up. \"What?\" he asks. \"The bus is leaving,\" Fay says again. Then she asks, \"Are you OK? Your face is white. And what's that dirty stone?\" Mark looks at the yellow stone in his hand. \"This? Oh... it's nothing.\" he says."
             }
           ]
         }
@@ -751,7 +819,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Mark stands up. He sees an old woman. She has lots of small wooden horses in a basket. “Do you want one, boy?” she asks. “Yes. Why not?” Mark buys a horse and looks at the woman. “No. It can’t be,” he thinks. He walks to the bus. Behind him the old woman smiles. “Goodbye, boy,” she says. “Come and see me again one day. Come and see me again.”"
+              "textEn": "Mark stands up. He sees an old woman. She has lots of small wooden horses in a basket. \"Do you want one, boy?\" she asks. \"Yes. Why not?\" Mark buys a horse and looks at the woman. \"No. It can't be,\" he thinks. He walks to the bus. Behind him the old woman smiles. \"Goodbye, boy,\" she says. \"Come and see me again one day. Come and see me again.\""
             }
           ]
         }
