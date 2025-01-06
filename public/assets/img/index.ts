@@ -78,6 +78,7 @@ import notesIcon from "./icon/notes.png";
 import playIcon from "./icon/play-button.png"
 import questionMarkGif from "./gif/question-mark.gif";
 import smallSwimmingPool from "./bitmoji/small-swimming-pool.png";
+import timeIcon from "./icon/time.png";
 import tools from "./icon/tools.png";
 import usaFlagIcon from "./icon/flag/usa.png";
 import ukFlagIcon from "./icon/flag/uk.png";
@@ -164,6 +165,7 @@ export {
   questionMarkGif,
   smallSwimmingPool,
   usaFlagIcon,
+  timeIcon,
   tools,
   ukFlagIcon,
   xmas1,

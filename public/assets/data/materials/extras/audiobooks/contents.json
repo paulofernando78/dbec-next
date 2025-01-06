@@ -1,0 +1,95 @@
+{
+  "whiteboard": {
+    "title": "Audiobooks"
+  },
+  "contents": [
+    {
+      "cardContents": [
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Starter (Pre-A1) 200 headwords",
+          "contents": [
+            {
+              "content": "<b>Kids</b>"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/kids/cinderella",
+              "checkboxLabel": "Cinderella • 3:05"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/kids/dumbo",
+              "checkboxLabel": "Dumbo • 2:56"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/kids/finding-nemo",
+              "checkboxLabel": "Finding Nemo • 1:44"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/kids/sleeping-beauty",
+              "checkboxLabel": "Sleeping Beauty • 1:54"
+            },
+            {
+              "applyHr": true
+            },
+            {
+              "content": "<b>Young learners / Adults</b>"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/a-new-zealand-adventure",
+              "checkboxLabel": "A New Zealand Adventure • 08:05"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/flying-home",
+              "checkboxLabel": "Flying home • 10:13"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa",
+              "checkboxLabel": "Marcel and the Mona lisa • 11:50"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star",
+              "checkboxLabel": "Marcel and the White Star • 09:54"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase",
+              "checkboxLabel": "Newspaper Chase • 08:18"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/simon-and-the-spy",
+              "checkboxLabel": "Simon and the Spy • 11:21"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/the-fireboy",
+              "checkboxLabel": "The Fireboy • 12:34"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo",
+              "checkboxLabel": "The Last Photo • 08:48"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/the-leopard-and-the-lighthouse",
+              "checkboxLabel": "The Leopard and the Lighthouse • 10:30"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/the-pearl-girl",
+              "checkboxLabel": "The Pearl Girl • 11:47"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/the-troy-stone",
+              "checkboxLabel": "The Troy Stone • 10:22"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/the-white-oryx",
+              "checkboxLabel": "The White Oryx • 00:00"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/who-wants-to-be-a-star",
+              "checkboxLabel": "Who Wants to be a star • 10:09"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
