@@ -102,7 +102,7 @@
               "content": "<b>Kids</b>"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/kids/cinderella",
+              "checkboxLink": "/materials/extras/audiobooks/beginner/...",
               "checkboxLabel": "... • 0:00"
             },
             {
@@ -112,8 +112,50 @@
               "content": "<b>Young learners / Adults</b>"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/kids/cinderella",
+              "checkboxLink": "/materials/extras/audiobooks/beginner/...",
               "checkboxLabel": "... • 0:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cardContents": [
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Elementary (A2)",
+          "contents": [
+            {
+              "content": "<b>...</b>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cardContents": [
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Pre-Intermediate (A2-B1)",
+          "contents": [
+            {
+              "content": "<b>...</b>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "cardContents": [
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Intermediate (B1)",
+          "contents": [
+            {
+              "content": "<b>...</b>"
             }
           ]
         }
