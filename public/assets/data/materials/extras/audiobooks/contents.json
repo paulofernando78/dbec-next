@@ -90,6 +90,34 @@
           ]
         }
       ]
+    },
+    {
+      "cardContents": [
+        {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Beginner (A1)",
+          "contents": [
+            {
+              "content": "<b>Kids</b>"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/kids/cinderella",
+              "checkboxLabel": "... • 0:00"
+            },
+            {
+              "applyHr": true
+            },
+            {
+              "content": "<b>Young learners / Adults</b>"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/kids/cinderella",
+              "checkboxLabel": "... • 0:00"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
