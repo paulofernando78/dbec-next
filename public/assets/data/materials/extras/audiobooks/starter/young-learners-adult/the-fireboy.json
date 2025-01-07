@@ -1,8 +1,11 @@
 {
   "whiteboard": {
     "title": "Extras",
-    "subtitle": "Skills",
-    "descriptions": ["Listening", "Audiobooks", "Starter (Pre-A1)", "The Fireboy"],
+    "subtitle": "Audiobooks",
+    "descriptions": [
+      "Starter (Pre-A1)",
+      "The Fireboy"
+    ],
     "time": "12:33",
     "uk": true
   },
@@ -76,7 +79,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/cover.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/cover.jpg",
           "imgAlt": "Book cover",
           "imgPosition": "left",
           "paragraphs": [
@@ -88,7 +91,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/audio.mp3"
+      "audioSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -98,7 +101,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/paragraph-1.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/paragraph-1.jpg",
           "imgAlt": "Bak and Hapu works hard in the factory.",
           "imgPosition": "right",
           "paragraphs": [
@@ -178,7 +181,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/paragraph-2.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/paragraph-2.jpg",
           "imgAlt": "Bak and Hapu talks beside the river Nile.",
           "imgPosition": "right",
           "paragraphs": [
@@ -259,7 +262,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/paragraph-3.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/paragraph-3.jpg",
           "imgAlt": "Suddenly, Bak begins to feel sick and falls to the ground.",
           "imgPosition": "right",
           "paragraphs": [
@@ -307,7 +310,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/paragraph-4.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/paragraph-4.jpg",
           "imgAlt": "Hapu talks to Bak while he's in bed.",
           "imgPosition": "right",
           "paragraphs": [
@@ -374,7 +377,7 @@
         {
           "paragraphs": [
             {
-              "imgSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/paragraph-5.jpg",
+              "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/paragraph-5.jpg",
               "imgAlt": "Hapu makes a beautiful necklace to the Queen Cleopatra.",
               "imgPosition": "right",
               "textEn": "Bak is ill for two weeks. In that time, Hapu makes a lot of tables and chairs. But only tables and chairs. He makes a gold necklace, too. \"There!\" he thinks late one night. \"It's ready. He smiles. The necklace is very beautiful. \"Queen Cleopatra is going to like this, \"Hapu thinks. \"She's going to pay a lot of money for it, too. I know she is.\""
@@ -437,7 +440,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/paragraph-6.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/paragraph-6.jpg",
           "imgAlt": "Two man stands in front of the palace and don't let Hapu in.",
           "imgPosition": "right",
           "paragraphs": [
@@ -534,7 +537,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/paragraph-7.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/paragraph-7.jpg",
           "imgAlt": "Happu hears two mean talking about Cleopatra visit to the market.",
           "imgPosition": "right",
           "paragraphs": [
@@ -685,7 +688,7 @@
       ]
     },
     {
-      "imgSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/paragraphs-8-9.jpg",
+      "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/paragraphs-8-9.jpg",
       "imgAlt": "Cleopatra arrives at the market carried by four man."
     },
     {
@@ -757,7 +760,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/paragraph-10.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/paragraph-10.jpg",
           "imgAlt": "The queen decides to talk to Hapu.",
           "imgPosition": "right",
           "paragraphs": [
@@ -805,7 +808,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/paragraph-11.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/paragraph-11.jpg",
           "imgAlt": "Hapu goes back home and show his father some money.",
           "imgPosition": "right",
           "paragraphs": [
@@ -853,7 +856,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/paragraph-12.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/paragraph-12.jpg",
           "imgAlt": "A guard visits Hapu.",
           "imgPosition": "right",
           "paragraphs": [
@@ -901,7 +904,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/paragraph-13.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/paragraph-13.jpg",
           "imgAlt": "The guard says to Hapu that the queen wanta to offer him a job.",
           "imgPosition": "right",
           "paragraphs": [
@@ -949,7 +952,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/paragraph-14.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/paragraph-14.jpg",
           "imgAlt": "Hapu goes to the palace and meets Cleopatra.",
           "imgPosition": "right",
           "paragraphs": [
@@ -997,7 +1000,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-fireboy/paragraph-15.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-fireboy/paragraph-15.jpg",
           "imgAlt": "Hapu is happy because he gets the job offered by the queen.",
           "imgPosition": "right",
           "paragraphs": [

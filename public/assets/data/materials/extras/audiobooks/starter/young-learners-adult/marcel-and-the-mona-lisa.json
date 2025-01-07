@@ -1,13 +1,8 @@
 {
   "whiteboard": {
     "title": "Extras",
-    "subtitle": "Skills",
-    "descriptions": [
-      "Listening",
-      "Audiobooks",
-      "Starter (Pre-A1)",
-      "Marcel and the Monalisa"
-    ],
+    "subtitle": "Audiobooks",
+    "descriptions": ["Starter (Pre-A1)", "Marcel and the Monalisa"],
     "time": "11:50",
     "uk": true
   },
@@ -81,7 +76,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/cover.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/cover.png",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
@@ -122,7 +117,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/audio.mp3"
+      "audioSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -132,7 +127,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/paragraph-1.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/paragraph-1.png",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -196,7 +191,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/paragraph-2.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/paragraph-2.png",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -238,14 +233,13 @@
       "title": "Paragraph 3",
       "time": "1:32",
       "bgColor": "black",
-      "textColor": "white"
-      ,
+      "textColor": "white",
       "id": "paragraph-3"
     },
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/paragraph-3.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/paragraph-3.png",
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -293,7 +287,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/paragraph-4.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/paragraph-4.png",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -357,7 +351,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/paragraph-5.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/paragraph-5.png",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -405,7 +399,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/paragraph-6.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/paragraph-6.png",
           "imgAlt": "Paragraph 6 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -453,7 +447,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/paragraph-7.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/paragraph-7.png",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -501,7 +495,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/paragraph-8.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/paragraph-8.png",
           "imgAlt": "Paragraph 8 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -565,7 +559,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/paragraph-9.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/paragraph-9.png",
           "imgAlt": "Paragraph 9 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -629,7 +623,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/paragraph-10.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/paragraph-10.png",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -693,7 +687,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/paragraph-11.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/paragraph-11.png",
           "imgAlt": "Paragraph 11 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -757,7 +751,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/paragraph-12.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/paragraph-12.png",
           "imgAlt": "Paragraph 12 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -821,7 +815,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/paragraph-13.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/paragraph-13.png",
           "imgAlt": "Paragraph 13 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -885,7 +879,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/paragraph-14.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/paragraph-14.png",
           "imgAlt": "Paragraph 14 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -949,7 +943,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-mona-lisa/paragraph-15.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa/paragraph-15.png",
           "imgAlt": "Paragraph 15 illustration",
           "imgPosition": "right",
           "paragraphs": [

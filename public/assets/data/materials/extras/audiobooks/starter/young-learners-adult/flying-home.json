@@ -1,10 +1,8 @@
 {
   "whiteboard": {
     "title": "Extras",
-    "subtitle": "Skills",
+    "subtitle": "Audiobooks",
     "descriptions": [
-      "Listening", 
-      "Audiobooks", 
       "Starter (Pre-A1)", 
       "Flying Home"
     ],
@@ -81,7 +79,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/cover.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/cover.jpg",
           "imgAlt": "Cover photo",
           "imgPosition": "left",
           "paragraphs": [
@@ -101,7 +99,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/listening/audiobooks/starter/general/flying-home/audio.mp3"
+      "audioSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -111,7 +109,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/paragraph-1.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/paragraph-1.jpg",
           "imgAlt": "Paragraph 1 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -215,7 +213,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/paragraph-2.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/paragraph-2.jpg",
           "imgAlt": "Paragraph 2 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -279,7 +277,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/paragraph-3.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/paragraph-3.jpg",
           "imgAlt": "Paragraph 3 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -343,7 +341,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/paragraph-4.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/paragraph-4.jpg",
           "imgAlt": "Paragraph 4 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -407,7 +405,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/paragraph-5.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/paragraph-5.jpg",
           "imgAlt": "Paragraph 5 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -454,7 +452,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/paragraph-6.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/paragraph-6.jpg",
           "imgAlt": "Paragraph 6 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -502,7 +500,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/paragraph-7.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/paragraph-7.jpg",
           "imgAlt": "Paragraph 7 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -566,7 +564,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/paragraph-8.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/paragraph-8.jpg",
           "imgAlt": "Paragraph 8 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -622,7 +620,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/paragraph-9.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/paragraph-9.jpg",
           "imgAlt": "Paragraph 9 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -686,7 +684,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/paragraph-10.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/paragraph-10.jpg",
           "imgAlt": "Paragraph 10 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -750,7 +748,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/paragraph-11.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/paragraph-11.jpg",
           "imgAlt": "Paragraph 11 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -798,7 +796,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/paragraph-12.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/paragraph-12.jpg",
           "imgAlt": "Paragraph 12 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -846,7 +844,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/paragraph-13.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/paragraph-13.jpg",
           "imgAlt": "Paragraph 13 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -894,7 +892,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/paragraph-14.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/paragraph-14.jpg",
           "imgAlt": "Paragraph 14 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -958,7 +956,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/flying-home/paragraph-15.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/flying-home/paragraph-15.jpg",
           "imgAlt": "Paragraph 15 photo",
           "imgPosition": "right",
           "paragraphs": [

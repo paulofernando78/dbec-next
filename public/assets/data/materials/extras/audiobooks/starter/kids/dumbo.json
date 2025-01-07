@@ -1,11 +1,10 @@
 {
   "whiteboard": {
     "title": "Extras",
-    "subtitle": "Listening",
-    "descriptions": ["Audiobooks", "Sstarter", "Kids", "Dumbo"],
+    "subtitle": "Audiobooks",
+    "descriptions": ["Starter", "Kids", "Dumbo"],
     "time": "2:56",
-    "usa": true,
-    "uk": true
+    "usa": true
   },
   "contents": [
     {
@@ -69,7 +68,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/cover.png",
+          "imgSrc": "/extras/audiobooks/starter/kids/dumbo/cover.png",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
@@ -108,7 +107,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/listening/audiobooks/starter/kids/dumbo/audio.mp3"
+      "audioSrc": "/extras/audiobooks/starter/kids/dumbo/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -118,7 +117,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-1.png",
+          "imgSrc": "/extras/audiobooks/starter/kids/dumbo/paragraph-1.png",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -139,7 +138,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-2.png",
+          "imgSrc": "/extras/audiobooks/starter/kids/dumbo/paragraph-2.png",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -160,7 +159,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-3.png",
+          "imgSrc": "/extras/audiobooks/starter/kids/dumbo/paragraph-3.png",
           
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
@@ -182,7 +181,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-4.png",
+          "imgSrc": "/extras/audiobooks/starter/kids/dumbo/paragraph-4.png",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -203,7 +202,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-5.png",
+          "imgSrc": "/extras/audiobooks/starter/kids/dumbo/paragraph-5.png",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -224,7 +223,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-6.png",
+          "imgSrc": "/extras/audiobooks/starter/kids/dumbo/paragraph-6.png",
           "imgAlt": "Paragraph 6 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -245,7 +244,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-7.png",
+          "imgSrc": "/extras/audiobooks/starter/kids/dumbo/paragraph-7.png",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -266,7 +265,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-8.png",
+          "imgSrc": "/extras/audiobooks/starter/kids/dumbo/paragraph-8.png",
           "imgAlt": "Paragraph 8 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -287,7 +286,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-9.png",
+          "imgSrc": "/extras/audiobooks/starter/kids/dumbo/paragraph-9.png",
           "imgAlt": "Paragraph 9 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -308,7 +307,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-10.png",
+          "imgSrc": "/extras/audiobooks/starter/kids/dumbo/paragraph-10.png",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -329,7 +328,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-11.png",
+          "imgSrc": "/extras/audiobooks/starter/kids/dumbo/paragraph-11.png",
           "imgAlt": "Paragraph 11 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -350,7 +349,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-12.png",
+          "imgSrc": "/extras/audiobooks/starter/kids/dumbo/paragraph-12.png",
           "imgAlt": "Paragraph 12 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -371,7 +370,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/kids/dumbo/paragraph-13.png",
+          "imgSrc": "/extras/audiobooks/starter/kids/dumbo/paragraph-13.png",
           "imgAlt": "Paragraph 13 illustration",
           "imgPosition": "right",
           "paragraphs": [

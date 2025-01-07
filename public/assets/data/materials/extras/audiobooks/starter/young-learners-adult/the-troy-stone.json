@@ -1,8 +1,8 @@
 {
   "whiteboard": {
     "title": "Extras",
-    "subtitle": "Listening",
-    "descriptions": ["Audiobooks", "Starter (Pre-A1)", "The Troy Stone"],
+    "subtitle": "Audiobooks",
+    "descriptions": ["Starter (Pre-A1)", "The Troy Stone"],
     "time": "10:22",
     "uk": true
   },
@@ -76,7 +76,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/cover.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/cover.png",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/audio.mp3"
+      "audioSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -98,7 +98,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/paragraph-1.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/paragraph-1.png",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -162,7 +162,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/paragraph-2.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/paragraph-2.png",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -226,7 +226,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/paragraph-3.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/paragraph-3.png",
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -290,7 +290,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/paragraph-4.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/paragraph-4.png",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -354,7 +354,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/paragraph-5.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/paragraph-5.png",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -479,7 +479,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/paragraphs-6-7.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/paragraphs-6-7.png",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -543,7 +543,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/paragraph-8.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/paragraph-8.png",
           "imgAlt": "Paragraph 8 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -607,7 +607,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/paragraph-9.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/paragraph-9.png",
           "imgAlt": "Paragraph 9 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -671,7 +671,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/paragraph-10.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/paragraph-10.png",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -735,7 +735,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/paragraph-11.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/paragraph-11.png",
           "imgAlt": "Paragraph 11 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -799,7 +799,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/paragraph-12.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/paragraph-12.png",
           "imgAlt": "Paragraph 12 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -863,7 +863,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/paragraph-13.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/paragraph-13.png",
           "imgAlt": "Paragraph 13 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -927,7 +927,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/paragraph-14.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/paragraph-14.png",
           "imgAlt": "Paragraph 14 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -991,7 +991,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-troy-stone/paragraph-15.png",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-troy-stone/paragraph-15.png",
           "imgAlt": "Paragraph 15 illustration",
           "imgPosition": "right",
           "paragraphs": [

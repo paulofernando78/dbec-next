@@ -1,8 +1,11 @@
 {
   "whiteboard": {
     "title": "Extras",
-    "subtitle": "Skills",
-    "descriptions": ["Listening", "Audiobooks", "Starter (Pre-A1)", "The Pearl Girl"],
+    "subtitle": "Audiobooks",
+    "descriptions": [
+      "Starter (Pre-A1)",
+      "The Pearl Girl"
+    ],
     "time": "11:47",
     "usa": true
   },
@@ -76,7 +79,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/cover.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/cover.jpg",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
@@ -88,7 +91,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/audio.mp3"
+      "audioSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -98,7 +101,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/paragraph-1.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/paragraph-1.jpg",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -162,7 +165,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/paragraph-2.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/paragraph-2.jpg",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -226,7 +229,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/paragraph-3.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/paragraph-3.jpg",
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -290,7 +293,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/paragraph-4.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/paragraph-4.jpg",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -354,7 +357,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/paragraph-5.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/paragraph-5.jpg",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -402,7 +405,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/paragraph-6.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/paragraph-6.jpg",
           "imgAlt": "Paragraph 6 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -466,7 +469,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/paragraph-7.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/paragraph-7.jpg",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -514,7 +517,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/paragraph-8.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/paragraph-8.jpg",
           "imgAlt": "Paragraph 8 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -562,7 +565,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/paragraph-9.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/paragraph-9.jpg",
           "imgAlt": "Paragraph 9 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -610,7 +613,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/paragraph-10.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/paragraph-10.jpg",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -658,7 +661,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/paragraph-11.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/paragraph-11.jpg",
           "imgAlt": "Paragraph 11 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -706,7 +709,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/paragraph-12.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/paragraph-12.jpg",
           "imgAlt": "Paragraph 12 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -754,7 +757,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/paragraph-13.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/paragraph-13.jpg",
           "imgAlt": "Paragraph 13 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -802,7 +805,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/the-pearl-girl/paragraph-14.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-pearl-girl/paragraph-14.jpg",
           "imgAlt": "Paragraph 14 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -849,7 +852,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/general/girl-with-a-pearl-earring.jpg",
+          "imgSrc": "/young-learners-adult/girl-with-a-pearl-earring.jpg",
           "imgAlt": "The Nertherlands map",
           "imgPosition": "right",
           "paragraphs": [
@@ -859,7 +862,7 @@
           ]
         },
         {
-          "imgSrc": "/general/johannes-vermeer.webp",
+          "imgSrc": "/young-learners-adult/johannes-vermeer.webp",
           "imgAlt": "The Nertherlands map",
           "imgPosition": "right",
           "paragraphs": [
@@ -885,7 +888,7 @@
       ]
     },
     {
-      "imgSrc": "/general/map-the-netherlands.png",
+      "imgSrc": "/young-learners-adult/map-the-netherlands.png",
       "imgAlt": "The Nertherlands map"
     }
   ]

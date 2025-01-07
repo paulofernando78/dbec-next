@@ -1,10 +1,8 @@
 {
   "whiteboard": {
     "title": "Extras",
-    "subtitle": "Skills",
+    "subtitle": "Audiobooks",
     "descriptions": [
-      "Listening",
-      "Audiobooks",
       "Starter (Pre-A1)",
       "Marcel and the White Star"
     ],
@@ -81,7 +79,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-white-star/cover.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star/cover.jpg",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
@@ -93,7 +91,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-white-star/audio.mp3"
+      "audioSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -103,7 +101,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-white-star/paragraph-1.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star/paragraph-1.jpg",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -199,7 +197,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-white-star/paragraph-2.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star/paragraph-2.jpg",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -247,7 +245,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-white-star/paragraph-3.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star/paragraph-3.jpg",
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -295,7 +293,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-white-star/paragraph-4.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star/paragraph-4.jpg",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -359,7 +357,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-white-star/paragraph-5.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star/paragraph-5.jpg",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -423,7 +421,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-white-star/paragraph-6.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star/paragraph-6.jpg",
           "imgAlt": "Paragraph 6 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -487,7 +485,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-white-star/paragraph-7.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star/paragraph-7.jpg",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -608,7 +606,7 @@
       ]
     },
     {
-      "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-white-star/paragraph-8-9.jpg",
+      "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star/paragraph-8-9.jpg",
       "imgAlt": "Paragraph 8-9 illustration"
     },
     {
@@ -648,7 +646,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-white-star/paragraph-10.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star/paragraph-10.jpg",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -696,7 +694,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-white-star/paragraph-11.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star/paragraph-11.jpg",
           "imgAlt": "Paragraph 11 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -760,7 +758,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-white-star/paragraph-12.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star/paragraph-12.jpg",
           "imgAlt": "Paragraph 12 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -808,7 +806,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-white-star/paragraph-13.jpg",
+          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star/paragraph-13.jpg",
           "imgAlt": "Paragraph 13 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -914,7 +912,7 @@
       ]
     },
     {
-      "imgSrc": "/extras/listening/audiobooks/starter/general/marcel-and-the-white-star/paragraph-14-15.jpg",
+      "imgSrc": "/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star/paragraph-14-15.jpg",
       "imgAlt": "Paragraph 8-9 illustration"
     },
     {

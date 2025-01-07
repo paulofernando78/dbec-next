@@ -26,7 +26,6 @@ export const Whiteboard = ({
           <b>{description}</b>
         </p>
       ))}
-      {subDescription && <p className="p-size-small">{subDescription}</p>}
       {time &&
       <div className="flex-8px-center-wrap">
         <Image
