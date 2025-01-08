@@ -1,21 +1,35 @@
   import React from 'react'
-import styles from './styles.module.css'
+  
+  // Components
+  import Image from 'next/image'
+  import { Collapsible } from '../Collapsibles'
+  
+  // CSS
+  import styles from './styles.module.css'
 
-import { ContentProps } from './type'
-import { Collapsible } from '../Collapsibles'
+  import { timeIcon } from '@/img/index'
+
+  // TypeScript
+  import { ContentProps } from './type'
 
 export const Content = ({ contents }:ContentProps) => {
   return (
       <Collapsible label='Contents'>
-      <div className={styles["content-container"]}>
+      <div className={`${styles["content-container"]}`}>
         {contents.map((content, contentIndex) => (
-          <a
-          href={content.link}
-          className={`display-block p-font ${styles["margin-left"]}`}
-          key={contentIndex} 
-          >
-          {content.content}
-          </a>
+          <div key={contentIndex} className='flex-8px-center-wrap'>
+            <a
+            href={content.link}
+            className={`p-font ${styles["margin-left"]}`}
+            key={contentIndex} 
+            >
+            {content.content}
+            </a>
+            {content.time && <div className='flex-8px-center-wrap'>
+              <Image src={timeIcon} alt='Time icon' className='icon-general'/>
+              <p className='user-select-none'>{content.time}</p>
+            </div>}
+          </div>
         ))}
       </div>
       </Collapsible>

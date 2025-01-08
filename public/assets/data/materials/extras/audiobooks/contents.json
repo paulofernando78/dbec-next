@@ -14,6 +14,10 @@
               "content": "<b>Kids</b>"
             },
             {
+              "checkboxLink": "/materials/extras/audiobooks/starter/kids/chicken-run",
+              "checkboxLabel": "Chicken Run • 0:00"
+            },
+            {
               "checkboxLink": "/materials/extras/audiobooks/starter/kids/cinderella",
               "checkboxLabel": "Cinderella • 3:05"
             },
@@ -24,6 +28,10 @@
             {
               "checkboxLink": "/materials/extras/audiobooks/starter/kids/finding-nemo",
               "checkboxLabel": "Finding Nemo • 1:44"
+            },
+            {
+              "checkboxLink": "/materials/extras/audiobooks/starter/kids/puss-in-boots",
+              "checkboxLabel": "Puss-in-Boots • 0:00"
             },
             {
               "checkboxLink": "/materials/extras/audiobooks/starter/kids/sleeping-beauty",

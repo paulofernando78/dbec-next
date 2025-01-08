@@ -11,56 +11,69 @@
       "content": "Paragraph 1"
     },
     {
+      "link": "#paragraph-2",
       "content": "Paragraph 2",
-      "link": "#paragraph-2"
+      "time": "0:10"
     },
     {
+      "link": "#paragraph-3",
       "content": "Paragraph 3",
-      "link": "#paragraph-3"
+      "time": "0:21"
     },
     {
+      "link": "#paragraph-4",
       "content": "Paragraph 4",
-      "link": "#paragraph-4"
+      "time": "0:30"
     },
     {
+      "link": "#paragraph-5",
       "content": "Paragraph 5",
-      "link": "#paragraph-5"
+      "time": "0:45"
     },
     {
+      "link": "#paragraph-6",
       "content": "Paragraph 6",
-      "link": "#paragraph-6"
+      "time": "1:02"
     },
     {
+      "link": "#paragraph-7",
       "content": "Paragraph 7",
-      "link": "#paragraph-7"
+      "time": "1:14"
     },
     {
+      "link": "#paragraph-8",
       "content": "Paragraph 8",
-      "link": "#paragraph-8"
+      "time": "1:26"
     },
     {
+      "link": "#paragraph-9",
       "content": "Paragraph 9",
-      "link": "#paragraph-9"
+      "time": "1:55"
     },
     {
+      "link": "#paragraph-10",
       "content": "Paragraph 10",
-      "link": "#paragraph-10"
+      "time": "2:09"
     },
     {
+      "link": "#paragraph-11",
       "content": "Paragraph 11",
-      "link": "#paragraph-11"
+      "time": "2:22"
     },
     {
+      "link": "#paragraph-12",
       "content": "Paragraph 12",
-      "link": "#paragraph-12"
+      "time": "2:36"
     },
     {
+      "link": "#paragraph-13",
       "content": "Paragraph 13",
-      "link": "#paragraph-13"
+      "time": "2:45"
     },
     {
+      "link": "#paragraph-14",
       "content": "Paragraph 14",
-      "link": "#paragraph-14"
+      "time": "2:56"
     }
   ],
   "lessons": [

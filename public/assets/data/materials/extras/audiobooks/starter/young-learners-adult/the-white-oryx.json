@@ -11,60 +11,74 @@
       "content": "Paragraph 1"
     },
     {
+      "link": "#paragraph-2",
       "content": "Paragraph 2",
-      "link": "#paragraph-2"
+      "time": "0:47"
     },
     {
+      "link": "#paragraph-3",
       "content": "Paragraph 3",
-      "link": "#paragraph-3"
+      "time": "1:29"
     },
     {
+      "link": "#paragraph-4",
       "content": "Paragraph 4",
-      "link": "#paragraph-4"
+      "time": "2:00"
     },
     {
+      "link": "#paragraph-5",
       "content": "Paragraph 5",
-      "link": "#paragraph-5"
+      "time": "2:41"
     },
     {
+      "link": "#paragraph-6",
       "content": "Paragraph 6",
-      "link": "#paragraph-6"
+      "time": "3:18"
     },
     {
+      "link": "#paragraph-7",
       "content": "Paragraph 7",
-      "link": "#paragraph-7"
+      "time": "3:53"
     },
     {
+      "link": "#paragraph-8",
       "content": "Paragraph 8",
-      "link": "#paragraph-8"
+      "time": "4:30"
     },
     {
+      "link": "#paragrap,h-9",
       "content": "Paragraph 9",
-      "link": "#paragraph-9"
+      "time": "5:09"
     },
     {
+      "link": "#paragraph-10",
       "content": "Paragraph 10",
-      "link": "#paragraph-10"
+      "time": "5:48"
     },
     {
+      "link": "#paragraph-11",
       "content": "Paragraph 11",
-      "link": "#paragraph-11"
+      "time": "6:27"
     },
     {
+      "link": "#paragraph-12",
       "content": "Paragraph 12",
-      "link": "#paragraph-12"
+      "time": "7:06"
     },
     {
+      "link": "#paragraph-13",
       "content": "Paragraph 13",
-      "link": "#paragraph-13"
+      "time": "7:41"
     },
     {
+      "link": "#paragraph-14",
       "content": "Paragraph 14",
-      "link": "#paragraph-14"
+      "time": "8:24"
     },
     {
+      "link": "#paragraph-15",
       "content": "Paragraph 15",
-      "link": "#paragraph-15"
+      "time": "9:00"
     }
   ],
   "lessons": [
@@ -154,7 +168,7 @@
     },
     {
       "title": "Paragraph 2",
-      "time": "...",
+      "time": "0:47",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-2"
@@ -234,7 +248,7 @@
     },
     {
       "title": "Paragraph 3",
-      "time": "...",
+      "time": "1:29",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-3"
@@ -282,7 +296,7 @@
     },
     {
       "title": "Paragraph 4",
-      "time": "...",
+      "time": "2:00",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-4"
@@ -346,7 +360,7 @@
     },
     {
       "title": "Paragraph 5",
-      "time": "...",
+      "time": "2:41",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-5"
@@ -394,7 +408,7 @@
     },
     {
       "title": "Paragraph 6",
-      "time": "...",
+      "time": "3:18",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-6"
@@ -458,7 +472,7 @@
     },
     {
       "title": "Paragraph 7",
-      "time": "...",
+      "time": "3:53",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-7"
@@ -522,7 +536,7 @@
     },
     {
       "title": "Paragraph 8",
-      "time": "...",
+      "time": "4:30",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-8"
@@ -586,7 +600,7 @@
     },
     {
       "title": "Paragraph 9",
-      "time": "...",
+      "time": "5:09",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-9"
@@ -651,7 +665,7 @@
     },
     {
       "title": "Paragraph 10",
-      "time": "...",
+      "time": "5:48",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-10"
@@ -699,7 +713,7 @@
     },
     {
       "title": "Paragraph 11",
-      "time": "...",
+      "time": "6:27",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-11"
@@ -763,7 +777,7 @@
     },
     {
       "title": "Paragraph 12",
-      "time": "...",
+      "time": "7:06",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-12"
@@ -811,7 +825,7 @@
     },
     {
       "title": "Paragraph 13",
-      "time": "...",
+      "time": "7:41",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-13"
@@ -875,7 +889,7 @@
     },
     {
       "title": "Paragraph 14",
-      "time": "...",
+      "time": "8:24",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-14"
@@ -923,7 +937,7 @@
     },
     {
       "title": "Paragraph 15",
-      "time": "...",
+      "time": "9:00",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-15"

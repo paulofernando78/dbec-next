@@ -1,6 +1,7 @@
 export interface Content {
-  content: string
   link: string
+  content: string
+  time: string
 }
 
 export interface ContentProps {
