@@ -2,8 +2,8 @@
   "whiteboard": {
     "title": "Extras",
     "subtitle": "Audiobooks",
-    "descriptions": ["Stater", "Kids", "Puss in Boots"],
-    "time": "00:00",
+    "descriptions": ["Starter", "Kids", "Puss in Boots"],
+    "time": "1:45",
     "usa": true,
     "uk": true
   },
@@ -28,7 +28,7 @@
     },
     {
       "link": "#paragraph-5",
-      "content": "Paragraph 5",
+      "content": "Paragrabph 5",
       "time": "0:00"
     },
     {
@@ -91,26 +91,33 @@
           "imgPosition": "left",
           "paragraphs": [
             {
-              "textEn": "Summary"
+              "textEn": "Puss-in-Boots is a very unusual and clever cat. He wears long boots and is so clever that by his actions he makes his master a rich and happy man."
             }
           ]
         }
       ]
     },
     {
-      "id": "",
+      "id": "49eed8c6-7ed6-45bf-9c1c-0960c2336a33",
       "exercises": [
         {
-          "id": "",
+          "id": "82d128cd-7510-43e2-8b5c-1d30078b3ccc",
           "title": "1. Choose the correct answer.",
           "radio": [
             {
-              "id": "",
-              "question": "1.1 Question",
+              "id": "3e723697-e99a-421a-995b-aa42e669c747",
+              "question": "What does he like to wear?",
               "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
+                {
+                  "id": "7f4f1280-bc38-4bc5-b9f0-d334d608c6c6",
+                  "label": "He likes to wear shoes.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "d78333e4-bddf-43e7-a5ed-93c2427f761f",
+                  "label": "He likes to wear boots.",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -154,7 +161,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "\"My name's Puss-in-Boots!\" The cat said. \"Master, I can talk I'd like to help you.\""
+              "textEn": "\"My name's Puss-in-Boots!\" The cat said. \"Master, I can talk, I'd like to help you.\""
             }
           ]
         }
@@ -280,7 +287,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "The king gave the farmer try clothes. They were beautiful. The farmer looked very handsome."
+              "textEn": "The king gave the farmer dry clothes. They were beautiful. The farmer looked very handsome."
             }
           ]
         }
@@ -301,7 +308,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Puss-in-Boots saw a big castle. \"A monster lives here,\" \"but I'm not scared!\""
+              "textEn": "Puss-in-Boots saw a big castle. \"A monster lives here,\" Puss said, \"but I'm not scared!\""
             }
           ]
         }
@@ -343,7 +350,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "\"Yes\", the monster said — he was very silly! He changed into mouse. Puss jumped!"
+              "textEn": "\"Yes\", the monster said — he was very silly! He changed into a mouse. Puss jumped!"
             }
           ]
         }
@@ -364,7 +371,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Puss showed the castle to the king and princess. Puss and his master who lived there."
+              "textEn": "Puss showed the castle to the king and princess. Puss and his master lived there."
             }
           ]
         }
@@ -385,7 +392,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "His master was now very rich. He married the princess. We had a big party!"
+              "textEn": "His master was now very rich. He married the princess. They had a big party!"
             }
           ]
         }
@@ -406,7 +413,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "\"Now, everyone is happy.\" \"What a very clever cat I am.\" \"Purrrrrrrrrrrrrrrrr!\""
+              "textEn": "\"Now, everyone is happy,\" Puss said. \" \"What a very clever cat I am.\" \"Purrrrrrrrrrrrrrrrr!\""
             }
           ]
         }

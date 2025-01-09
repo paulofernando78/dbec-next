@@ -5,18 +5,22 @@
       {
         "audio": "/dictionary/s/sad.mp3",
         "word": "sad",
-        "phonetics": "",
+        "phonetics": "/sæd/",
         "partOfSpeech": "adjective",
-        "enDefinition": "...",
-        "ptDefinition": "triste",
+        "enDefinition": "Feeling or showing sorrow; unhappy.",
+        "ptDefinition": "Sentindo ou demonstrando tristeza; infeliz.",
         "examples": [
           {
-            "enExample": "...",
-            "ptExample": "..."
+            "enExample": "She felt sad after hearing the news.",
+            "ptExample": "Ela ficou triste depois de ouvir a notícia."
+          },
+          {
+            "enExample": "It was a sad story that touched everyone's heart.",
+            "ptExample": "Foi uma história triste que comoveu todos."
           }
         ],
-        "synonyms": "...",
-        "antonyms": "..."
+        "synonyms": ["unhappy", "sorrowful", "downcast", "melancholy"],
+        "antonyms": ["happy", "joyful", "cheerful", "content"]
       }
     ]
   },
@@ -269,6 +273,30 @@
             "ptExample": "Uma vez que você passa a mentir sobre sua idade, isso pode virar uma bola de neve."
           }
         ]
+      }
+    ]
+  },
+  {
+    "keyword": "spindle",
+    "definitions": [
+      {
+        "audio": "/dictionary/s/spindle.mp3",
+        "word": "spindle",
+        "phonetics": "/ˈspɪndl/",
+        "partOfSpeech": "noun",
+        "enDefinition": "A rod or pin used in spinning to twist fibers into thread, or a part of a machine that rotates.",
+        "ptDefinition": "Uma haste ou pino usado na fiação para torcer fibras em fios, ou uma parte de uma máquina que gira; roca.",
+        "examples": [
+          {
+            "enExample": "The spindle of the sewing machine rotates rapidly.",
+            "ptExample": "O eixo da máquina de costura gira rapidamente."
+          },
+          {
+            "enExample": "The craftsman used a spindle to create fine threads.",
+            "ptExample": "O artesão usou um fuso para criar fios finos."
+          }
+        ],
+        "synonyms": ["rod, shaft, axle, pin"]
       }
     ]
   },

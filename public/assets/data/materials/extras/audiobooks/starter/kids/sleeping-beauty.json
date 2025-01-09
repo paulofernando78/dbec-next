@@ -11,40 +11,49 @@
       "content": "Paragraph 1"
     },
     {
+      "link": "#paragraph-2",
       "content": "Paragraph 2",
-      "link": "#paragraph-2"
+      "time": "0:16"
     },
     {
+      "link": "#paragraph-3",
       "content": "Paragraph 3",
-      "link": "#paragraph-3"
+      "time": "0:27"
     },
     {
+      "link": "#paragraph-4",
       "content": "Paragraph 4",
-      "link": "#paragraph-4"
+      "time": "0:34"
     },
     {
+      "link": "#paragraph-5",
       "content": "Paragraph 5",
-      "link": "#paragraph-5"
+      "time": "0:42"
     },
     {
+      "link": "#paragraph-6",
       "content": "Paragraph 6",
-      "link": "#paragraph-6"
+      "time": "0:53"
     },
     {
+      "link": "#paragraph-7",
       "content": "Paragraph 7",
-      "link": "#paragraph-7"
+      "time": "1:05"
     },
     {
+      "link": "#paragraph-8",
       "content": "Paragraph 8",
-      "link": "#paragraph-8"
+      "time": "1:28"
     },
     {
+      "link": "#paragraph-9",
       "content": "Paragraph 9",
-      "link": "#paragraph-9"
+      "time": "1:37"
     },
     {
+      "link": "#paragraph-10",
       "content": "Paragraph 10",
-      "link": "#paragraph-10"
+      "time": "1:48"
     }
   ],
   "lessons": [
@@ -78,16 +87,32 @@
               "id": "72970005-da12-45b6-947e-db8b518ff7d3",
               "question": "Princess is:",
               "options": [
-                { "id": "683300b1-9260-4930-87ed-9016761bf60d", "label": "ugly", "isCorrect": false },
-                { "id": "568ceaa7-7640-4b20-a6f5-37d269534557", "label": "beautiful", "isCorrect": true }
+                {
+                  "id": "683300b1-9260-4930-87ed-9016761bf60d",
+                  "label": "ugly",
+                  "isCorrect": false
+                },
+                {
+                  "id": "568ceaa7-7640-4b20-a6f5-37d269534557",
+                  "label": "beautiful",
+                  "isCorrect": true
+                }
               ]
             },
             {
               "id": "27d570a1-9d88-4398-b018-27a1065a69a7",
               "question": "Princess has:",
               "options": [
-                { "id": "deb6a2aa-9663-431d-bf6f-4ba8c2c9eed2", "label": "black hair", "isCorrect": false },
-                { "id": "ae20a50b-ef0d-4fea-95d9-4bc3e328cfbd", "label": "blonde hair", "isCorrect": true }
+                {
+                  "id": "deb6a2aa-9663-431d-bf6f-4ba8c2c9eed2",
+                  "label": "black hair",
+                  "isCorrect": false
+                },
+                {
+                  "id": "ae20a50b-ef0d-4fea-95d9-4bc3e328cfbd",
+                  "label": "blonde hair",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -96,6 +121,17 @@
     },
     {
       "audioSrc": "/extras/audiobooks/starter/kids/sleeping-beauty/audio.mp3"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Sleeping Beauty</b>"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Paragraph 1",
@@ -118,7 +154,7 @@
     },
     {
       "title": "Paragraph 2",
-      "time": "...",
+      "time": "0:16",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-2"
@@ -139,7 +175,7 @@
     },
     {
       "title": "Paragraph 3",
-      "time": "...",
+      "time": "0:27",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-3"
@@ -152,7 +188,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Paragraph 3"
+              "textEn": "Princess Philip likes the Princess and she likes him."
             }
           ]
         }
@@ -160,7 +196,7 @@
     },
     {
       "title": "Paragraph 4",
-      "time": "...",
+      "time": "0:34",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-4"
@@ -173,7 +209,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Paragraph 4"
+              "textEn": "Princess Aurora lives in a big castle."
             }
           ]
         }
@@ -181,7 +217,7 @@
     },
     {
       "title": "Paragraph 5",
-      "time": "...",
+      "time": "0:42",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-5"
@@ -194,7 +230,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Paragraph 5"
+              "textEn": "Oh, no! Maleficent is in the castle. She is bad."
             }
           ]
         }
@@ -202,7 +238,7 @@
     },
     {
       "title": "Paragraph 6",
-      "time": "...",
+      "time": "0:53",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-6"
@@ -215,12 +251,15 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
+              "textEn": "Princess Aurora sees a"
             },
             {
-              "textEn": "Paragraph 6"
+              "keyword": "spindle",
+              "word": "spindle",
+              "wordAudioSrc": "/dictionary/s/spindle.mp3"
+            },
+            {
+              "textEn":	". She puts one hand on the spindle."
             }
           ]
         }
@@ -228,7 +267,7 @@
     },
     {
       "title": "Paragraph 7",
-      "time": "...",
+      "time": "1:05",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-7"
@@ -241,7 +280,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Paragraph 7"
+              "textEn": "Ouch! It's a bad spindle. Princess Aurora sleeps now. Ha Ha! She sleeps and sleeps and sleeps."
             }
           ]
         }
@@ -249,7 +288,7 @@
     },
     {
       "title": "Paragraph 8",
-      "time": "...",
+      "time": "1:28",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-8"
@@ -262,7 +301,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Paragraph 8"
+              "textEn": "Prince Philip is on a horse. He goes in the castle."
             }
           ]
         }
@@ -270,7 +309,7 @@
     },
     {
       "title": "Paragraph 9",
-      "time": "...",
+      "time": "1:37",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-9"
@@ -283,7 +322,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Paragraph 9"
+              "textEn": "Prince Philipe kisses Princess Aurora. She looks at the Prince."
             }
           ]
         }
@@ -291,7 +330,7 @@
     },
     {
       "title": "Paragraph 10",
-      "time": "...",
+      "time": "1:48",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-10"
@@ -304,7 +343,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Paragraph 10"
+              "textEn": "Now the Prince and Princess are happy."
             }
           ]
         }
