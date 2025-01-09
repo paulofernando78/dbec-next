@@ -11,6 +11,7 @@ import { timeIcon } from "@/img/index";
 // TypeScript
 import { ContentProps } from "./type";
 import { Ribbon } from "@/components/Molecules/Ribbon";
+import { Time } from "@/components/Molecules/Time";
 
 export const Content = ({ contents }: ContentProps) => {
   return (
@@ -28,10 +29,7 @@ export const Content = ({ contents }: ContentProps) => {
             {content.content}
           </a>
           {content.time && (
-            <div className="flex-8px-center-wrap">
-              <Image src={timeIcon} alt="Time icon" className="icon-general" />
-              <p className="user-select-none">{content.time}</p>
-            </div>
+            <Time time={content.time}/>
           )}
         </div>
       ))}

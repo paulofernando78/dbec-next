@@ -101,6 +101,14 @@ input[type="text"] {
   border: 2px dashed red;
 }
 
+.play-button {
+  margin-right: 5px;
+  width: 15px;
+  height: 18px;
+  position: relative;
+  top: 2px;
+}
+
 @media (max-width: 768px) {
   .img-border {
     width: 100%;

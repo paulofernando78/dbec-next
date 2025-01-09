@@ -11,6 +11,11 @@
   },
   "contents": [
     {
+      "link": "#summary",
+      "content": "Summary"
+    },
+    {
+      "link": "#paragraph-1",
       "content": "Paragraph 1"
     },
     {
@@ -74,7 +79,8 @@
     {
       "title": "Summary",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "summary"
     },
     {
       "paragraphSections": [
@@ -96,7 +102,8 @@
     {
       "title": "Paragraph 1",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-1"
     },
     {
       "paragraphSections": [

@@ -1,4 +1,5 @@
 // CSS
+import { Time } from "../Time";
 import styles from "./styles.module.css";
 
 // Typescript
@@ -9,7 +10,7 @@ export const Ribbon = ({
   time,
   bgColor = "defaultBgColor",
   textColor = "defaultTextColor",
-  id
+  id,
 }: RibbonProps) => {
   return (
     <div
@@ -17,9 +18,9 @@ export const Ribbon = ({
       style={{ backgroundColor: bgColor, color: textColor }}
       id={id}
     >
-      <div className={styles["flex-space"]}>
+      <div className="flex-8px-center-wrap">
         <p className="bold">{label}</p>
-        <p className="p-size-smaller">{time}</p>
+        {time && <Time time={time} />}
       </div>
     </div>
   );

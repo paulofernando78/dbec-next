@@ -4,11 +4,11 @@
 import Image from "next/image";
 import { DictionaryCard } from "@/components";
 
-// Typescript
-import { ParagraphSectionsProps } from "./types";
-
 // CSS
 import styles from "./styles.module.css";
+
+// Typescript
+import { ParagraphSectionsProps } from "./types";
 
 const baseImgScr = "/assets/img";
 
@@ -44,10 +44,7 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
             )}
             <div>
               {paragraphSection.paragraphs?.map((paragraph, paragraphIndex) => (
-                <div
-                  key={paragraphIndex}
-                  className="display-inline"
-                >
+                <div key={paragraphIndex} className="display-inline">
                   {paragraph.word && (
                     <DictionaryCard
                       keyword={paragraph.keyword}
@@ -60,9 +57,12 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
                     dangerouslySetInnerHTML={{
                       __html: paragraph.textEn,
                     }}
-                  ></p>
-                  {" "}
-                  {paragraph.textPt && <p className="display-inline portuguese">{paragraph.textPt}</p>}
+                  ></p>{" "}
+                  {paragraph.textPt && (
+                    <p className="display-inline portuguese">
+                      {paragraph.textPt}
+                    </p>
+                  )}
                 </div>
               ))}
             </div>

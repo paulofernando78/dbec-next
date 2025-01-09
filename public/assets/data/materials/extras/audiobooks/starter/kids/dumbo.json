@@ -8,74 +8,68 @@
   },
   "contents": [
     {
+      "link": "#summary",
+      "content": "Summary"
+    },
+    {
+      "link": "#paragraph-1",
       "content": "Paragraph 1"
     },
     {
       "link": "#paragraph-2",
-      "content": "Paragraph 2",
-      "time": "0:17"
+      "content": "Paragraph 2"
     },
     {
       "link": "#paragraph-3",
-      "content": "Paragraph 3",
-      "time": "0:27"
+      "content": "Paragraph 3"
     },
     {
       "link": "#paragraph-4",
-      "content": "Paragraph 4",
-      "time": "0:45"
+      "content": "Paragraph 4"
     },
     {
       "link": "#paragraph-5",
-      "content": "Paragraph 5",
-      "time": "0:59"
+      "content": "Paragraph 5"
     },
     {
       "link": "#paragraph-6",
-      "content": "Paragraph 6",
-      "time": "1:09"
+      "content": "Paragraph 6"
     },
     {
       "link": "#paragraph-7",
-      "content": "Paragraph 7",
-      "time": "1:21"
+      "content": "Paragraph 7"
     },
     {
       "link": "#paragraph-8",
-      "content": "Paragraph 8",
-      "time": "1:31"
+      "content": "Paragraph 8"
     },
     {
       "link": "#paragraph-9",
-      "content": "Paragraph 9",
-      "time": "1:38"
+      "content": "Paragraph 9"
     },
     {
       "link": "#paragraph-10",
-      "content": "Paragraph 10",
-      "time": "1:52"
+      "content": "Paragraph 10"
     },
     {
       "link": "#paragraph-11",
-      "content": "Paragraph 11",
-      "time": "2:02"
+      "content": "Paragraph 11"
     },
     {
       "link": "#paragraph-12",
-      "content": "Paragraph 12",
-      "time": "2:21"
+      "content": "Paragraph 12"
     },
     {
-      "content": "Paragraph 13",
-      "time": "2:44",
-      "link": "#paragraph-13"
+      "link": "#paragraph-13",
+      "content": "Paragraph 13"
     }
   ],
   "lessons": [
     {
       "title": "Summary",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "summary"
     },
     {
       "paragraphSections": [
@@ -124,7 +118,8 @@
     {
       "title": "Paragraph 1",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-1"
     },
     {
       "paragraphSections": [

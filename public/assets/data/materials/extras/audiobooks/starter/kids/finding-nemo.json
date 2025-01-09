@@ -1,66 +1,63 @@
 {
   "whiteboard": {
     "title": "Extras",
-    "subtitle": "Audiobooks", 
+    "subtitle": "Audiobooks",
     "descriptions": ["Starter", "Kids", "Finding Nemo"],
     "time": "1:44",
     "usa": true
   },
   "contents": [
     {
+      "link": "#summary",
+      "content": "Summary"
+    },
+    {
+      "link": "#paragraph-1",
       "content": "Paragraph 1"
     },
     {
       "link": "#paragraph-2",
-      "content": "Paragraph 2",
-      "time": "0:07"
+      "content": "Paragraph 2"
     },
     {
       "link": "#paragraph-3",
-      "content": "Paragraph 3",
-      "time": "0:13"
+      "content": "Paragraph 3"
     },
     {
       "link": "#paragraph-4",
-      "content": "Paragraph 4",
-      "time": "0:18"
+      "content": "Paragraph 4"
     },
     {
       "link": "#paragraph-5",
-      "content": "Paragraph 5",
-      "time": "0:29"
+      "content": "Paragraph 5"
     },
     {
       "link": "#paragraph-6",
-      "content": "Paragraph 6",
-      "time": "0:34"
+      "content": "Paragraph 6"
     },
     {
       "link": "#paragraph-7",
-      "content": "Paragraph 7",
-      "time": "0:40"
+      "content": "Paragraph 7"
     },
     {
       "link": "#paragraph-8",
-      "content": "Paragraph 8",
-      "time": "0:55"
+      "content": "Paragraph 8"
     },
     {
       "link": "#paragraph-9",
-      "content": "Paragraph 9",
-      "time": "1:12"
+      "content": "Paragraph 9"
     },
     {
       "link": "#paragraph-10",
-      "content": "Paragraph 10",
-      "time": "1:32"
+      "content": "Paragraph 10"
     }
   ],
   "lessons": [
     {
       "title": "Summary",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "summary"
     },
     {
       "paragraphSections": [
@@ -87,16 +84,32 @@
               "id": "6a5017df-b9f7-470c-91c4-00b62480c674",
               "question": "Nemo is a:",
               "options": [
-                { "id": "b85df950-78da-4954-87ce-6bcf737c031c", "label": "clown", "isCorrect": false },
-                { "id": "41d25ffc-0b17-4d7c-87fe-757583760f90", "label": "fish", "isCorrect": true }
+                {
+                  "id": "b85df950-78da-4954-87ce-6bcf737c031c",
+                  "label": "clown",
+                  "isCorrect": false
+                },
+                {
+                  "id": "41d25ffc-0b17-4d7c-87fe-757583760f90",
+                  "label": "fish",
+                  "isCorrect": true
+                }
               ]
             },
             {
               "id": "51c8c135-1b8c-4e40-80ce-4dcde8f3f588",
               "question": "He lives in:",
               "options": [
-                { "id": "4599587d-f3f3-437d-bbf7-1dad8af0ca30", "label": "a pool", "isCorrect": false },
-                { "id": "4b595536-4bb1-4a7a-810a-139979d0f3ba", "label": "the ocean", "isCorrect": true }
+                {
+                  "id": "4599587d-f3f3-437d-bbf7-1dad8af0ca30",
+                  "label": "a pool",
+                  "isCorrect": false
+                },
+                {
+                  "id": "4b595536-4bb1-4a7a-810a-139979d0f3ba",
+                  "label": "the ocean",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -109,7 +122,8 @@
     {
       "title": "Paragraph 1",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-1"
     },
     {
       "paragraphSections": [

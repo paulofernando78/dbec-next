@@ -8,59 +8,56 @@
   },
   "contents": [
     {
+      "link": "#summary",
+      "content": "Summary"
+    },
+    {
+      "link": "#paragraph-1",
       "content": "Paragraph 1"
     },
     {
       "link": "#paragraph-2",
-      "content": "Paragraph 2",
-      "time": "0:16"
+      "content": "Paragraph 2"
     },
     {
       "link": "#paragraph-3",
-      "content": "Paragraph 3",
-      "time": "0:27"
+      "content": "Paragraph 3"
     },
     {
       "link": "#paragraph-4",
-      "content": "Paragraph 4",
-      "time": "0:34"
+      "content": "Paragraph 4"
     },
     {
       "link": "#paragraph-5",
-      "content": "Paragraph 5",
-      "time": "0:42"
+      "content": "Paragraph 5"
     },
     {
       "link": "#paragraph-6",
-      "content": "Paragraph 6",
-      "time": "0:53"
+      "content": "Paragraph 6"
     },
     {
       "link": "#paragraph-7",
-      "content": "Paragraph 7",
-      "time": "1:05"
+      "content": "Paragraph 7"
     },
     {
       "link": "#paragraph-8",
-      "content": "Paragraph 8",
-      "time": "1:28"
+      "content": "Paragraph 8"
     },
     {
       "link": "#paragraph-9",
-      "content": "Paragraph 9",
-      "time": "1:37"
+      "content": "Paragraph 9"
     },
     {
       "link": "#paragraph-10",
-      "content": "Paragraph 10",
-      "time": "1:48"
+      "content": "Paragraph 10"
     }
   ],
   "lessons": [
     {
       "title": "Summary",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "summary"
     },
     {
       "paragraphSections": [
@@ -136,7 +133,8 @@
     {
       "title": "Paragraph 1",
       "bgColor": "black",
-      "textColor": "white"
+      "textColor": "white",
+      "id": "paragraph-1"
     },
     {
       "paragraphSections": [
