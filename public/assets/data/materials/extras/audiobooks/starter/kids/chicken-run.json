@@ -153,26 +153,6 @@
       ]
     },
     {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "1. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "1.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "Paragraph 2",
       "time": "...",
       "bgColor": "black",
@@ -188,26 +168,6 @@
           "paragraphs": [
             {
               "textEn": "Mrs. Tweedy counted the eggs. \"I don't like chickens. They don't make money.\" How could chickens make money? Mrs. Tweedy started to smile. Now she had a plan!"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "2. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "2.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
-              ]
             }
           ]
         }
@@ -235,26 +195,6 @@
       ]
     },
     {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "3. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "3.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "Paragraph 4",
       "time": "...",
       "bgColor": "black",
@@ -270,26 +210,6 @@
           "paragraphs": [
             {
               "textEn": "\"Please teach us how to fly,\" Ginger asked him. \"O.K......\" Rocky said slowly. The chickens started their flying lessons. Rocky gave lessons from the bath!"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "4. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "4.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
-              ]
             }
           ]
         }
@@ -317,26 +237,6 @@
       ]
     },
     {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "5. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "5.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "Paragraph 6",
       "time": "...",
       "bgColor": "black",
@@ -352,26 +252,6 @@
           "paragraphs": [
             {
               "textEn": "\"No problem, ladies,\" Rocky said. And he threw a party to make the chickens happy. They all laughed and danced. \"This is great,\" Ginger smiled."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "6. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "6.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
-              ]
             }
           ]
         }
@@ -399,26 +279,6 @@
       ]
     },
     {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "7. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "7.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "Paragraph 8",
       "time": "...",
       "bgColor": "black",
@@ -434,26 +294,6 @@
           "paragraphs": [
             {
               "textEn": "Peas and carrots came down on Rocky and Ginger. \"We're going to turn into a chicken pie,\" Ginger shouted. But Rocky was clever. \"Now, the pie machine doesn't work any more!\" They jumped free."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "8. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "8.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
-              ]
             }
           ]
         }
@@ -481,26 +321,6 @@
       ]
     },
     {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "9. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "9.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "Paragraph 10",
       "time": "...",
       "bgColor": "black",
@@ -516,26 +336,6 @@
           "paragraphs": [
             {
               "textEn": "\"Thank you,\" Ginger said to Rocky. \"You saved me.\" \"Tomorrow, please show us how to fly. We have very little time.\" But Rocky did not know how to fly. The next morning, he was gone."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "10. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "10.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
-              ]
             }
           ]
         }
@@ -563,26 +363,6 @@
       ]
     },
     {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "11. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "11.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "Paragraph 12",
       "time": "...",
       "bgColor": "black",
@@ -604,26 +384,6 @@
       ]
     },
     {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "12. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "12.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "title": "Paragraph 13",
       "time": "...",
       "bgColor": "black",
@@ -639,26 +399,6 @@
           "paragraphs": [
             {
               "textEn": "\"Faster, faster,\" Fowler shouted. The flying machine went up. then down... and then up again. \"Freedom!\" all the chickens shouted, when the machine flew over the fence. \"Thank you, Rocky,\" Ginger said. \"You helped us escape the terrible Tweedys\""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "13. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "13.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
-              ]
             }
           ]
         }
