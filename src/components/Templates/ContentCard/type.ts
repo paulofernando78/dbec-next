@@ -5,6 +5,7 @@ export interface Content {
   applyHr?: boolean;
   link?: string;
   linkLabel?: string;
+  time?: string
   checkboxLink?: string;
   checkboxLabel?: string;
   globeLink?: string;

@@ -1,7 +1,6 @@
-// Imports
+// Components
 import Link from "next/link";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
-
 import Image from "next/image";
 
 // CSS
@@ -12,7 +11,7 @@ import globeIcon from "@/img/icon/globe.png";
 
 // Typescript
 import { CardContent, ContentCardProps } from "./type";
-import { Card } from "@/components/Molecules/Cards/Card";
+import { Time } from "@/components/Molecules/Time";
 
 export const ContentCard = ({ contentData }: ContentCardProps) => {
   return (
@@ -104,8 +103,8 @@ const CardContentRenderer = ({ cardContent }: { cardContent: CardContent }) => {
           )}
 
           {/* Checkbox Link / Checkbox Label Link */}
-          {content.checkboxLink && content.checkboxLabel && (
-            <div className={styles["grid-checkbox-text"]}>
+          {content.checkboxLink && content.checkboxLabel && content.time && (
+            <div className="flex-8px-center-wrap">
               <input type="checkbox" className={styles["checkbox-size"]} />
               <Link href={content.checkboxLink}>
                 <p
@@ -114,6 +113,7 @@ const CardContentRenderer = ({ cardContent }: { cardContent: CardContent }) => {
                   }}
                 />
               </Link>
+              <Time time={content.time}/>
             </div>
           )}
         </div>
