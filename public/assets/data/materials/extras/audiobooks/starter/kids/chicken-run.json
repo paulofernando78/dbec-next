@@ -1,11 +1,10 @@
 {
   "whiteboard": {
     "title": "Extras",
-    "subtitle": "Audiobooks", 
+    "subtitle": "Audiobooks",
     "descriptions": ["Starter", "Kids", "Chicken Run"],
-    "time": "00:00",
-    "usa": true,
-    "uk": true
+    "time": "3:26",
+    "usa": true
   },
   "contents": [
     {
@@ -83,24 +82,55 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/cover.png",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Summary"
+              "textEn": "Chicken Run is about Ginger and her chicken friends escaping a farm where they're turned into pies. With the help of Rocky, a rooster, they plan to escape to freedom!"
             }
           ]
         }
       ]
     },
     {
-      "audioSrc": "/extras/audiobooks/..."
+      "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/characters.png",
+      "imgAlt": ""
+    },
+    {
+      "id": "0cd964a9-0548-41d2-a76b-f4fc7cf19d8e",
+      "exercises": [
+        {
+          "id": "5b2a194d-b303-4718-8b80-008665b801de",
+          "title": "Choose the correct answer.",
+          "radio": [
+            {
+              "id": "7e37275b-392b-46a4-a070-39da357b3085",
+              "question": "How many men, women, and chickens can you see?",
+              "options": [
+                {
+                  "id": "2595ee54-5f68-4e1b-9a18-8ce18d93571a",
+                  "label": "6 man, 2 woman, and 2 chickens",
+                  "isCorrect": true
+                },
+                {
+                  "id": "640d41c9-6a0e-48f5-afe2-3b61ff1f1f10",
+                  "label": "2 man, 6 woman, and 1 chicken",
+                  "isCorrect": false
+                },
+                {
+                  "id": "919736b3-efbf-40e3-ba4b-baf7a9553aed",
+                  "label": "1 man, 1 woman, and 6 chickens",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "audioSrc": "/extras/audiobooks/starter/kids/chicken-run/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -111,17 +141,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-1.png",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 1"
+              "textEn": "The chickens weren't happy. They tried again and again to escape from the farm. \"What now?\" Bunty said. \"We can go over the fence,\" Ginger said. \"How?\" Bunty asked. \"Ah! I've got a plan,\" Mac said."
             }
           ]
         }
@@ -157,17 +182,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-2.png",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 2"
+              "textEn": "Mrs. Tweedy counted the eggs. \"I don't like chickens. They don't make money.\" How could chickens make money? Mrs. Tweedy started to smile. Now she had a plan!"
             }
           ]
         }
@@ -203,17 +223,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-3.png",
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 3"
+              "textEn": "One evening, the chickens had a big surprise. A rooster flew on to the farm. \"FREEDOM AAAHHHH!.\" he shouted. Then, CRASH! He got up. \"Hello ladies. My name's Rocky.\" Now Ginger had a plan too!"
             }
           ]
         }
@@ -249,17 +264,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-4.png",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 4"
+              "textEn": "\"Please teach us how to fly,\" Ginger asked him. \"O.K......\" Rocky said slowly. The chickens started their flying lessons. Rocky gave lessons from the bath!"
             }
           ]
         }
@@ -295,17 +305,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-5.png",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 5"
+              "textEn": "The chickens tried and tried. Flying was difficult! Bunty tried to fly but she came down nose first. Ginger watched her friend. She was not happy. \"The lessons aren't working,\" Ginger said."
             }
           ]
         }
@@ -341,17 +346,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-6.png",
           "imgAlt": "Paragraph 6 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 6"
+              "textEn": "\"No problem, ladies,\" Rocky said. And he threw a party to make the chickens happy. They all laughed and danced. \"This is great,\" Ginger smiled."
             }
           ]
         }
@@ -387,17 +387,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-7.png",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 7"
+              "textEn": "But then the chickens heard a terrible noise. It was the Tweedy's chicken pie machine! Mr. Tweedy put Ginger in it! \"HELP!\" a scared Ginger shouted."
             }
           ]
         }
@@ -433,17 +428,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-8.png",
           "imgAlt": "Paragraph 8 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 8"
+              "textEn": "Peas and carrots came down on Rocky and Ginger. \"We're going to turn into a chicken pie,\" Ginger shouted. But Rocky was clever. \"Now, the pie machine doesn't work any more!\" They jumped free."
             }
           ]
         }
@@ -479,17 +469,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-9.png",
           "imgAlt": "Paragraph 9 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 9"
+              "textEn": "\"My pie machine doesn't work,\" Mrs. Tweedy shouted. \"What did you do wrong this time?\" \"I c-c-c-can make it work,\" Mr. Tweedy said. But they did not see Rocky and Ginger escape."
             }
           ]
         }
@@ -525,17 +510,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-10.png",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 10"
+              "textEn": "\"Thank you,\" Ginger said to Rocky. \"You saved me.\" \"Tomorrow, please show us how to fly. We have very little time.\" But Rocky did not know how to fly. The next morning, he was gone."
             }
           ]
         }
@@ -571,17 +551,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-11.png",
           "imgAlt": "Paragraph 11 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 11"
+              "textEn": "Rocky is gone? How could they escape now? \"When I was in the Royal Air Force...\" Fowler said. \"What's that?\" Ginger asked. \"Here, look at this photo,\" Fowler said. \"It's a flying machine,\" Ginger said. \"Let's make one.\""
             }
           ]
         }
@@ -617,17 +592,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-12.png",
           "imgAlt": "Paragraph 12 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 12"
+              "textEn": "The chickens made a flying machine. \"Please fly it, Fowler,\" Ginger said. \"I can try,\" Fowler shouted. \"All inside ready to take-off.\" And then Rocky came back, in time to help them."
             }
           ]
         }
@@ -663,17 +633,12 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-13.png",
           "imgAlt": "Paragraph 13 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 13"
+              "textEn": "\"Faster, faster,\" Fowler shouted. The flying machine went up. then down... and then up again. \"Freedom!\" all the chickens shouted, when the machine flew over the fence. \"Thank you, Rocky,\" Ginger said. \"You helped us escape the terrible Tweedys\""
             }
           ]
         }
@@ -689,98 +654,6 @@
             {
               "id": "",
               "question": "13.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Paragraph 14",
-      "time": "...",
-      "bgColor": "black",
-      "textColor": "white",
-      "id": "paragraph-14"
-    },
-    {
-      "paragraphSections": [
-        {
-          "imgSrc": "/extras/audiobooks/...",
-          "imgAlt": "Paragraph 14 illustration",
-          "imgPosition": "right",
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 14"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "14. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "14.1 Question",
-              "options": [
-                { "id": "", "label": "Answer 1", "isCorrect": true },
-                { "id": "", "label": "Answer 2", "isCorrect": false },
-                { "id": "", "label": "Answer 3", "isCorrect": false }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Paragraph 15",
-      "time": "...",
-      "bgColor": "black",
-      "textColor": "white",
-      "id": "paragraph-15"
-    },
-    {
-      "paragraphSections": [
-        {
-          "imgSrc": "/extras/audiobooks/...",
-          "imgAlt": "Paragraph 15 illustration",
-          "imgPosition": "right",
-          "paragraphs": [
-            {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
-            },
-            {
-              "textEn": "Paragraph 15"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "",
-      "exercises": [
-        {
-          "id": "",
-          "title": "15. Choose the correct answer.",
-          "radio": [
-            {
-              "id": "",
-              "question": "15.1 Question",
               "options": [
                 { "id": "", "label": "Answer 1", "isCorrect": true },
                 { "id": "", "label": "Answer 2", "isCorrect": false },
