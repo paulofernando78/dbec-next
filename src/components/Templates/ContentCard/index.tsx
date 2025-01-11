@@ -103,9 +103,9 @@ const CardContentRenderer = ({ cardContent }: { cardContent: CardContent }) => {
           )}
 
           {/* Checkbox Link / Checkbox Label Link */}
-          {content.checkboxLink && content.checkboxLabel && content.time && (
-            <div className="flex-8px-center-wrap">
-              <input type="checkbox" className={styles["checkbox-size"]} />
+          {content.checkboxLink && content.checkboxLabel && (
+            <div className={styles["flex-checkbox"]}>
+              <input type="checkbox" className={styles["checkbox-mt"]} />
               <Link href={content.checkboxLink}>
                 <p
                   dangerouslySetInnerHTML={{
@@ -113,7 +113,7 @@ const CardContentRenderer = ({ cardContent }: { cardContent: CardContent }) => {
                   }}
                 />
               </Link>
-              <Time time={content.time}/>
+              {content.time && <Time time={content.time}/>}
             </div>
           )}
         </div>

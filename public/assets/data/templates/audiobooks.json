@@ -1,7 +1,7 @@
 {
   "whiteboard": {
     "title": "Extras",
-    "subtitle": "Audiobooks", 
+    "subtitle": "Audiobooks",
     "descriptions": ["Stater / Beginner", "...", "..."],
     "time": "00:00",
     "usa": true,
@@ -769,7 +769,7 @@
       "exercises": [
         {
           "id": "",
-          "title": "15. Choose the correct answer.",
+          "title": "1. Choose the correct answer.",
           "radio": [
             {
               "id": "",

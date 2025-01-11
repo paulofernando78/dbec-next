@@ -40,20 +40,29 @@ input[type="radio"]:checked::before {
 }
 
 input[type="checkbox"] {
-  min-width: 21px;
-  min-height: 21px;
+  -webkit-appearance: none; /* Reset styling in Safari/Chrome */
+  -moz-appearance: none;    /* Reset styling in Firefox */
+  appearance: none;         /* Reset styling in other browsers */
+
+  /* Define the custom appearance */
+  width: 22px;
+  height: 22px;
+  border: 1px solid #333;
+  border-radius: 2px;      /* Optional: rounded corners */
+  background-color: #fff; /* Ensure background is visible */
+  cursor: pointer;
 }
 
 input[type="checkbox"]:checked::before {
   content: "";
   display: inline-block;
-  width: 25px;
-  height: 25px;
+  width: 24px;
+  height: 24px;
   background-image: url(../../public/assets/img/icon/checkbox.png);
   background-size: contain;
   position: relative;
-  top: -1px;
-  left: -1px;
+  top: -2px;
+  left: -2px;
 }
 
 input[type="text"] {

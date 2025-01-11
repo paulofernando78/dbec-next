@@ -44,11 +44,6 @@
   width: min-content;
 }
 
-.flex-8px {
-  display: flex;
-  gap: 8px;
-}
-
 .grid-icon-text {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -63,6 +58,15 @@
 
 .grid-checkbox-text input[type="checkbox"] {
   align-self: start;
-  margin: 5px 0 0 2px
+  margin: 5px 0 0 2.2px;
 }
 
+.flex-checkbox {
+  display: flex;
+  align-items: start;
+  gap: 8px;
+}
+
+.checkbox-mt {
+  margin-top: 3.5px;
+}

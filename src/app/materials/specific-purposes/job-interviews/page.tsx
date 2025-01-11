@@ -1,23 +1,52 @@
-import Link from "next/link";
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
+"use client";
 
-export default function JobInterviews() {
+// Hooks
+import { useEffect, useState } from "react";
+
+
+// Components
+import { ContentCard } from "@/components/Templates/ContentCard";
+import {
+  MainContent,
+  Whiteboard,
+} from "@/components/Templates/ContentCard/type";
+export default function SpecificPurposesBusiness() {
+  const [contentData, setContentData] = useState<{
+    whiteboard?: Whiteboard;
+    contents: MainContent[];
+  }>({
+    whiteboard: undefined,
+    contents: [],
+  });
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
+
+  const CONTENTS_JSON_PATH =
+    "/assets/data/materials/specific-purposes/job-interview/contents.json";
+
+  useEffect(() => {
+    fetch(CONTENTS_JSON_PATH)
+      .then((response) => {
+        if (!response.ok) throw new Error("Error loading JSON");
+        return response.json();
+      })
+      .then((data: { whiteboard?: Whiteboard; contents: MainContent[] }) => {
+        setContentData(data);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error(error);
+        setError(true);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error loading lesson data.</p>;
+
   return (
     <>
-      <Whiteboard title="Specific Purposes" subtitle="Job Interviews" />
-      <div className="line-break">
-        <Link href="">
-          <p>
-            <b>Key Job Interview Questions</b>
-          </p>
-        </Link>
-        <p>
-          1. Tell me about yourself: This is usually an open-ended question
-          where the interviewer wants to hear a brief summary of your
-          professional background, skills, and experiences.
-        </p>
-      </div>
-      <Link href="/specific-purposes/job-interviews/priscila">Priscila</Link>
+      <ContentCard contentData={contentData} />
     </>
   );
 }

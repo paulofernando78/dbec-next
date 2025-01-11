@@ -3,7 +3,6 @@
     height: max-content;
     border-radius: 9px;
     /* box-shadow: var(--box-shadow); */
-    background-color: #f0f0f0;
     filter: invert();
     background-color: black;
 }

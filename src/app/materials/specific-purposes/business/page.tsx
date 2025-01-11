@@ -22,7 +22,7 @@ export default function SpecificPurposesBusiness() {
   const [error, setError] = useState(false);
 
   const CONTENTS_JSON_PATH =
-    "/assets/data/materials/specific-purposes/business/business.json";
+    "/assets/data/materials/specific-purposes/business/contents.json";
 
   useEffect(() => {
     fetch(CONTENTS_JSON_PATH)
