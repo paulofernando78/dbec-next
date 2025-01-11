@@ -15,16 +15,14 @@
             {
               "textEn": "<b>Lesson 7 • Discussing bad results</b>"
             }
-          ],
-          "addBreakLine": true
+          ]
         },
         {
           "paragraphs": [
             {
               "textEn": "Ron, Alex, and Pam work for Brooklyn Brewski, a company that brews and distributes beer throughout New York. The company's recent results have been terrible."
             }
-          ],
-          "addBreakLine": true
+          ]
         },
         {
           "paragraphs": [
@@ -33,16 +31,16 @@
             },
             {
               "keyword": "face the music",
-              "dictionary": "face the music",
-              "dictionaryAudioSrc": "/dictionary/f/face-the-music.mp3"
+              "word": "face the music",
+              "wordAudioSrc": "/dictionary/f/face-the-music.mp3"
             },
             {
               "textEn": "here. We're"
             },
             {
               "keyword": "in deep trouble",
-              "dictionary": "in deep trouble",
-              "dictionaryAudioSrc": "/dictionary/i/in-deep-trouble.mp3"
+              "word": "in deep trouble",
+              "wordAudioSrc": "/dictionary/i/in-deep-trouble.mp3"
             },
             {
               "textEn": "! Sales are down by 50 percent versus last year."
@@ -56,16 +54,16 @@
             },
             {
               "keyword": "in the red",
-              "dictionary": "in the red ",
-              "dictionaryAudioSrc": "/dictionary/i/in-the-red.mp3"
+              "word": "in the red ",
+              "wordAudioSrc": "/dictionary/i/in-the-red.mp3"
             },
             {
               "textEn": "for the year "
             },
             {
               "keyword": "to the tune of",
-              "dictionary": "to the tune of",
-              "dictionaryAudioSrc": "/dictionary/t/to-the-tune-of.mp3"
+              "word": "to the tune of",
+              "wordAudioSrc": "/dictionary/t/to-the-tune-of.mp3"
             },
             {
               "textEn": "$1 million."
@@ -79,14 +77,14 @@
             },
             {
               "keyword": "no wonder",
-              "dictionary": "no wonder",
-              "dictionaryAudioSrc": "/dictionary/n/no-wonder.mp3",
+              "word": "no wonder",
+              "wordAudioSrc": "/dictionary/n/no-wonder.mp3",
               "textEn": ". We're losing"
             },
             {
               "keyword": "market share",
-              "dictionary": "market share",
-              "dictionaryAudioSrc": "/dictionary/m/market-share.mp3"
+              "word": "market share",
+              "wordAudioSrc": "/dictionary/m/market-share.mp3"
             },
             {
               "textEn": "to Manhattan Beer."
@@ -100,8 +98,8 @@
             },
             {
               "keyword": "get to the bottom of",
-              "dictionary": "get to the bottom of",
-              "dictionaryAudioSrc": "/dictionary/g/get-to-the-bottom-of.mp3"
+              "word": "get to the bottom of",
+              "wordAudioSrc": "/dictionary/g/get-to-the-bottom-of.mp3"
             },
             {
               "textEn": "this!"
@@ -115,8 +113,8 @@
             },
             {
               "keyword": "on top of trends",
-              "dictionary": "on top of trends",
-              "dictionaryAudioSrc": "/dictionary/o/on-top-of-trends.mp3"
+              "word": "on top of trends",
+              "wordAudioSrc": "/dictionary/o/on-top-of-trends.mp3"
             },
             {
               "textEn": ". For instance, last year they released a low-carb beer."
@@ -130,24 +128,24 @@
             },
             {
               "keyword": "eat one's lunch",
-              "dictionary": "eating our lunch",
-              "dictionaryAudioSrc": "/dictionary/e/eating-our-lunch.mp3"
+              "word": "eating our lunch",
+              "wordAudioSrc": "/dictionary/e/eating-our-lunch.mp3"
             },
             {
               "textEn": "! They're "
             },
             {
               "keyword": "cash in on",
-              "dictionary": "cashing in on",
-              "dictionaryAudioSrc": "/dictionary/c/cash-in-on.mp3"
+              "word": "cashing in on",
+              "wordAudioSrc": "/dictionary/c/cash-in-on.mp3"
             },
             {
               "textEn": "the latest trends and"
             },
             {
               "keyword": "bring a product to market",
-              "dictionary": "bring great new products to market",
-              "dictionaryAudioSrc": "/dictionary/b/bring-great-new-products-to-market.mp3"
+              "word": "bring great new products to market",
+              "wordAudioSrc": "/dictionary/b/bring-great-new-products-to-market.mp3"
             },
             {
               "textEn": "!"
@@ -161,8 +159,8 @@
             },
             {
               "keyword": "run in place",
-              "dictionary": "running in place",
-              "dictionaryAudioSrc": "/dictionary/r/run-in-place.mp3"
+              "word": "running in place",
+              "wordAudioSrc": "/dictionary/r/run-in-place.mp3"
             },
             {
               "textEn": ". We need a new product line and new ideas for marketing."
@@ -176,16 +174,16 @@
             },
             {
               "keyword": "clean house",
-              "dictionary": "clean house",
-              "dictionaryAudioSrc": "/dictionary/c/clean-house.mp3"
+              "word": "clean house",
+              "wordAudioSrc": "/dictionary/c/clean-house.mp3"
             },
             {
               "textEn": "and bring some "
             },
             {
               "keyword": "new blood",
-              "dictionary": "new blood",
-              "dictionaryAudioSrc": "/dictionary/n/new-blood.mp3"
+              "word": "new blood",
+              "wordAudioSrc": "/dictionary/n/new-blood.mp3"
             },
             {
               "textEn": "into this company."
@@ -199,8 +197,8 @@
             },
             {
               "keyword": "You took the words right out of my mouth",
-              "dictionary": "You took the words right out of my mouth",
-              "dictionaryAudioSrc": "/dictionary/y/you-took-the-words-right-out-of-my-mouth.mp3"
+              "word": "You took the words right out of my mouth",
+              "wordAudioSrc": "/dictionary/y/you-took-the-words-right-out-of-my-mouth.mp3"
             },
             {
               "textEn": "! We need some new people with fresh ideas."

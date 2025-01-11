@@ -4,6 +4,318 @@
       "subtitle": "Business",
       "descriptions": ["Lesson 4 • Talking about manufacturing"]
     },
-    "lessons": []
+    "lessons": [
+    {
+      "audioSrc": "/specific-purposes/business/sbelaa/lesson-1.mp3"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Lesson 1 • xxx</b>"
+            }
+          ],
+          "addBreakLine": true
+        },
+        {
+          "paragraphs": [
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
+              "textEn": "xxx"
+            }
+          ],
+          "addBreakLine": true
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>...:</b> ..."
+            },
+            {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/c/....mp3"
+            },
+            {
+              "textEn": "..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Exercises",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "id": "",
+      "exercises": [
+        {
+          "id": "",
+          "title": "1. Choose the best substitute for the phrase or sentence in bold.",
+          "radio": [
+            {
+              "id": "",
+              "question": "1. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "2. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "3. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "4. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "5. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "6. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "7. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "8. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "",
+          "title": "2. Fill in the blank with the correct word.",
+          "fillInTheBlanks": [
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "1. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "2. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "3. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "4. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "5. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "6. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "7. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "8.",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
   }
   

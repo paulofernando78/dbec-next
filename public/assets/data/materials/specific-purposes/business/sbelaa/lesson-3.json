@@ -4,6 +4,473 @@
       "subtitle": "Business",
       "descriptions": ["Lesson 3 • Discussing a new ad campaign"]
     },
-    "lessons": []
+    "lessons": [
+    {
+      "audioSrc": "/specific-purposes/business/sbelaa/lesson-3.mp3"
+    },
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Lesson 3 • Discussing a new ad campaign</b>"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "Ted works for an advertising agency. He's presenting to Sam and Lisa, who work for Pacific Beer Company."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Lisa:</b> Ted would like to run some ideas by us for our new ad campaign."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Ted:</b> Please, "
+            },
+            {
+              "keyword": "keep an open mind",
+              "word": "keep an open mind",
+              "wordAudioSrc": "/dictionary/k/....mp3"
+            },
+            {
+              "textEn": ". Remember that nothing is set in stone yet. We're still just brainstorming."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Sam:</b> I hope that doesn't mean we're about to hear a lot of"
+            },
+            {
+              "keyword": "half-baked ideas",
+              "word": "half-baked ideas",
+              "wordAudioSrc": "/dictionary/h/half-baked-ideas.mp3"
+            },
+            {
+              "textEn":	"!"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Ted:</b> I think you're going to like this. Our idea is to use a black bear as our mascot.* Our"
+            },
+            {
+              "keyword": "tagline",
+              "word": "tagline",
+              "wordAudioSrc": "/dictionary/t/tagline.mp3"
+            },
+            {
+              "textEn": "can be: \"Strong enough to satisfy a bear.\""
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Lisa:</b> It would be great if people would associate our brand with a bear — strong and independent. That would really improve our brand equity."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Sam:</b> I don't want to"
+            },
+            {
+              "keyword": "throw cold water",
+              "word": "throw cold water",
+              "wordAudioSrc": "/dictionary/t/throw cold water.mp3"
+            },
+            {
+              "textEn": "on your idea, but where did you get the idea for a bear?"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Ted:</b> Didn't you hear about that bear at the campground a couple weeks ago? He entered a tent and drank two dozen Pacific beers! What a great endorsement for Pacific beer!"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Lisa:</b> I think we're"
+            },
+            {
+              "keyword": "on the right track",
+              "word": "on the right track",
+              "wordAudioSrc": "/dictionary/o/on-the-right-track.mp3"
+            },
+            {
+              "textEn": "<b>with this campaign. The bear should"
+            },
+            {
+              "keyword": "generate lots of buzz",
+              "word": "generate lots of buzz",
+              "wordAudioSrc": "/dictionary/g/generate-buzz.mp3"
+            },
+            {
+              "textEn": ". Everybody will be talking about the bear who loves Pacific beer!"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Ted:</b> And here's the"
+            },
+            {
+              "keyword": "icing on the cake",
+              "word": "icing on the cake",
+              "wordAudioSrc": "/dictionary/i/icing-on-the-cake.mp3"
+            },
+            {
+              "textEn": ": he won't demand an arm and a leg to"
+            },
+            {
+              "keyword": "plug product",
+              "word": "plug our product",
+              "wordAudioSrc": "/dictionary/p/plug-product.mp3"
+            },
+            {
+              "textEn": ". In fact, we can probably pay him in beer!"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Sam:</b> Okay, you've"
+            },
+            {
+              "keyword": "twisted my arm",
+              "word": "twisted my arm",
+              "wordAudioSrc": "/dictionary/c/....mp3"
+            },
+            {
+              "textEn": ". Let's"
+            },
+            {
+              "keyword": "run with the idea",
+              "word": "run with the idea",
+              "wordAudioSrc": "/dictionary/r/run-.mp3"
+            },
+            {
+              "textEn": "."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Ted:</b> Great. I'll"
+            },
+            {
+              "keyword": "flesh it out ",
+              "word": "flesh it out ",
+              "wordAudioSrc": "/dictionary/f/flesh-it-out .mp3"
+            },
+            {
+              "textEn": "some more and"
+            },
+            {
+              "keyword": "touch base with",
+              "word": "touch base with",
+              "wordAudioSrc": "/dictionary/t/touch-base-with.mp3"
+            },
+            {
+              "textEn": "you in a couple of days."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Exercises",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "id": "",
+      "exercises": [
+        {
+          "id": "",
+          "title": "1. Choose the best substitute for the phrase or sentence in bold.",
+          "radio": [
+            {
+              "id": "",
+              "question": "1. Starting a chain of coffee houses in Manhattan is a half-baked idea! There are already more than enough coffee houses in Manhattan.",
+              "options": [
+                {
+                  "id": "",
+                  "label": "a great idea",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "a really bad idea",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "an idea that needs some more time in the oven",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "2. The government is discussing a new proposal to raise the minimum wage, but nothing is set in stone yet.",
+              "options": [
+                {
+                  "id": "",
+                  "label": "nothing has been decided yet",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "the proposal has been approved",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "nothing will ever be decided",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "3. You don't have to twist the boss's arm. She's already decided to let everybody leave early on Friday to avoid holiday traffic.",
+              "options": [
+                {
+                  "id": "",
+                  "label": "convince the boss",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "hurt the boss",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "ignore the boss",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "4. Arnold Schwarzenegger has appeared on television commercials in Japan, China, Austria, and Brazil, plugging products such as vitamin drinks and soup.",
+              "options": [
+                {
+                  "id": "",
+                  "label": "drinking products",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "advertising products",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "terminating products",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "5. Before approaching a bank for a loan, you need to flesh out your business plan.",
+              "options": [
+                {
+                  "id": "",
+                  "label": "throw out",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "present",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "add more detail to",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "6. Buying a new computer system would cost an arm and a leg. Let's just upgrade the system we already have.",
+              "options": [
+                {
+                  "id": "",
+                  "label": "a lot of money.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "not much money",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "a lot of time",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "7. Paul and Susan make a good living running a bed-and-breakfast in Vermont. Meeting lots of friendly people is the icing on the cake.",
+              "options": [
+                {
+                  "id": "",
+                  "label": "easy when you live in Vermont",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "how they earn their living",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "an additional benefit",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "8. I like your idea of selling our products by direct mail. Let's run with it.",
+              "options": [
+                {
+                  "id": "",
+                  "label": "Let's discuss it further.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "Let's proceed with it.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "Let's forget it.",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "",
+          "title": "2. Fill in the blank with the correct word.",
+          "fillInTheBlanks": [
+            {
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "1. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "2. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "3. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "4. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "5. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "6. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "7. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "8.",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
   }
   

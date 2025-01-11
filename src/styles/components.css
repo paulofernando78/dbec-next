@@ -44,6 +44,10 @@ input[type="radio"]:checked::before {
   left: -4px;
 }
 
+.radio-checkbox-top {
+  margin-top: 5px;
+}
+
 /* Checkbox */
 input[type="checkbox"] {
   -webkit-appearance: none;
@@ -75,10 +79,6 @@ input[type="text"] {
   font-size: var(--p-size);
   border-radius: var(--border-radius);
   border: 1px solid;
-}
-
-.radio-checkbox-top {
-  margin-top: 5px;
 }
 
 .radio-question-margin-bottom {

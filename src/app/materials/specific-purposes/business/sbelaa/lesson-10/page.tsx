@@ -38,7 +38,7 @@ export default function SpeakBusinessEnglishLikeAnAmericanLesson10() {
 
   return (
     <>
-      <LessonTemplate lessonData={lessonData} isUnderConstruction={true}/>
+      <LessonTemplate lessonData={lessonData} isUnderConstruction={false}/>
     </>
   );
 }

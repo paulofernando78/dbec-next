@@ -36,8 +36,8 @@
             },
             {
               "keyword": "...",
-              "dictionary": "...",
-              "dictionaryAudioSrc": "/dictionary/c/....mp3"
+              "word": "...",
+              "wordAudioSrc": "/dictionary/c/....mp3"
             },
             {
               "textEn": "..."
@@ -230,11 +230,8 @@
         },
         {
           "id": "",
+          "title": "2. Fill in the blank with the correct word.",
           "fillInTheBlanks": [
-            {
-              "id": "",
-              "title": "2. Fill in the blank with the correct word."
-            },
             {
               "id": "",
               "options": true,

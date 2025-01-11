@@ -6,7 +6,7 @@
   },
   "lessons": [
     {
-      "audioSrc": "/specific-purposes/business/sbelaa/lesson-8.mp3"
+      "audioSrc": "/specific-purposes/business/sbelaa/lesson-1.mp3"
     },
     {
       "paragraphSections": [
@@ -21,6 +21,9 @@
         {
           "paragraphs": [
             {
+              "keyword": "...",
+              "word": "...",
+              "wordAudioSrc": "/dictionary/xxx.mp3",
               "textEn": "xxx"
             }
           ],
@@ -30,6 +33,11 @@
           "paragraphs": [
             {
               "textEn": "<b>...:</b> ..."
+            },
+            {
+              "keyword": "...",
+              "dictionary": "...",
+              "dictionaryAudioSrc": "/dictionary/c/....mp3"
             },
             {
               "textEn": "..."
@@ -217,6 +225,95 @@
                   "isCorrect": false
                 }
               ]
+            }
+          ]
+        },
+        {
+          "id": "",
+          "fillInTheBlanks": [
+            {
+              "id": "",
+              "title": "2. Fill in the blank with the correct word."
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "1. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "2. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "3. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "4. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "5. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "6. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "7. ",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
+            },
+            {
+              "id": "",
+              "options": true,
+              "width": "100px",
+              "beforeBlank": "8.",
+              "placeholder": "...",
+              "correctAnswer": ["..."],
+              "afterBlank": "...",
+              "lineBreakAfter": true
             }
           ]
         }
