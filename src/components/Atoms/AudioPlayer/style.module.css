@@ -1,9 +1,6 @@
 .audio {
     width: 100%;
-    height: max-content;
+    height: 34px;
     border-radius: 9px;
-    /* box-shadow: var(--box-shadow); */
-    filter: invert();
-    background-color: black;
+    /* filter: invert(); */
 }
-
