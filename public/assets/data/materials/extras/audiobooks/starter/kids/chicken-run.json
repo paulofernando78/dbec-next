@@ -111,7 +111,7 @@
                 {
                   "id": "2595ee54-5f68-4e1b-9a18-8ce18d93571a",
                   "label": "6 men, 2 women, and 2 chickens",
-                  "isCorrect": true
+                  "isCorrect": false
                 },
                 {
                   "id": "640d41c9-6a0e-48f5-afe2-3b61ff1f1f10",
@@ -121,7 +121,7 @@
                 {
                   "id": "919736b3-efbf-40e3-ba4b-baf7a9553aed",
                   "label": "1 man, 1 woman, and 6 chickens",
-                  "isCorrect": false
+                  "isCorrect": true
                 }
               ]
             }

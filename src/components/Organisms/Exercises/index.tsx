@@ -65,14 +65,14 @@ const ExerciseItem = ({exercise}:{exercise:Exercise}) => {
           {/* Radio */}
           {exercise.radio?.map((radioItem, radioIndex) => (
             <div key={radioIndex}>
-              <p dangerouslySetInnerHTML={{ __html: radioItem.question}} className="display-inline"></p>{" "}
+              <p dangerouslySetInnerHTML={{ __html: radioItem.question}} className="radio-question-margin-bottom"></p>
               <p className="display-inline portuguese">{radioItem.questionPt}</p>
               {radioItem.options.map((option, optionIndex) => {
                 const idRadio=`${exercise.id}-${radioItem.id}`
                 const isChecked=selectedOption[idRadio] === option.label
                 return (
                   <label key={optionIndex} className="radio-checkbox-flex">
-                    <div className="radio-checkbox-container position-relative">
+                    <div className="radio-checkbox-container">
                       <input
                         type="radio"
                         name={`radio-${idRadio}`} // Grouping inputs for the same question

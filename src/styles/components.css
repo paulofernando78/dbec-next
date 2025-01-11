@@ -1,3 +1,4 @@
+/* Radio */
 .radio-checkbox-container {
   position: relative;
   display: inline-block;
@@ -9,11 +10,16 @@
   display: flex;
   gap: 8px;
   align-items: start;
+  margin-bottom: 5px;
 }
 
 input[type="radio"] {
-  min-width: 25px;
-  min-height: 25px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #333;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .radio-size[type="radio"] {
@@ -23,8 +29,7 @@ input[type="radio"] {
   height: 100%;
   margin: 0;
   cursor: pointer;
-  opacity: 1;
-  margin-top: 2.9px;
+  margin-top: 3px;
 }
 
 input[type="radio"]:checked::before {
@@ -36,20 +41,18 @@ input[type="radio"]:checked::before {
   background-size: contain;
   position: relative;
   top: -4px;
-  left: -3px;
+  left: -4px;
 }
 
+/* Checkbox */
 input[type="checkbox"] {
-  -webkit-appearance: none; /* Reset styling in Safari/Chrome */
-  -moz-appearance: none;    /* Reset styling in Firefox */
-  appearance: none;         /* Reset styling in other browsers */
-
-  /* Define the custom appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   width: 22px;
   height: 22px;
   border: 1px solid #333;
-  border-radius: 2px;      /* Optional: rounded corners */
-  background-color: #fff; /* Ensure background is visible */
+  border-radius: 2px;
   cursor: pointer;
 }
 
@@ -76,6 +79,10 @@ input[type="text"] {
 
 .radio-checkbox-top {
   margin-top: 5px;
+}
+
+.radio-question-margin-bottom {
+  margin-bottom: 5px;
 }
 
 .textarea {
