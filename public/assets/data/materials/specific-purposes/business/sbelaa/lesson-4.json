@@ -1,46 +1,229 @@
 {
-    "whiteboard": {
-      "title": "Specific Purposes",
-      "subtitle": "Business",
-      "descriptions": ["Lesson 4 • Talking about manufacturing"]
-    },
-    "lessons": [
+  "whiteboard": {
+    "title": "Specific Purposes",
+    "subtitle": "Business",
+    "descriptions": ["Lesson 4 • Talking about manufacturing"]
+  },
+  "lessons": [
     {
-      "audioSrc": "/specific-purposes/business/sbelaa/lesson-1.mp3"
+      "audioSrc": "/specific-purposes/business/sbelaa/lesson-4.mp3"
     },
     {
       "paragraphSections": [
         {
           "paragraphs": [
             {
-              "textEn": "<b>Lesson 1 • xxx</b>"
+              "textEn": "<b>Lesson 4 • Talking about manufacturing</b>"
             }
-          ],
-          "addBreakLine": true
+          ]
         },
         {
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
-              "textEn": "xxx"
+              "textEn": "Mike and Dan work for Swift Shoes, a manufacturer of sneakers. Mike is in charge of manufacturing. Dan is trying to push Mike to get some new shoes ready quickly."
             }
-          ],
-          "addBreakLine": true
+          ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>...:</b> ..."
+              "textEn": "<b>Dan:</b> We've decided to launch our new spring shoe on April 20th."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Mike:</b> We're still trying to"
             },
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/c/....mp3"
+              "keyword": "work out the kinks",
+              "word": "work out the kinks",
+              "wordAudioSrc": "/dictionary/w/work-out-the-kinks.mp3"
             },
             {
-              "textEn": "..."
+              "textEn": "in our manufacturing process. Our factory in China is having trouble with the soles."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Dan:</b> I know that, Mike. But you've still got three months. It should be plenty of time."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Mike:</b> It could take another six months to"
+            },
+            {
+              "keyword": "fine-tune",
+              "word": "fine-tune",
+              "wordAudioSrc": "/dictionary/f/fine-tune.mp3"
+            },
+            {
+              "textEn": "our manufacturing process."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Dan:</b> Well, we don't have that much time."
+            },
+            {
+              "keyword": "No ifs, ands, or buts",
+              "word": "No ifs, ands, or buts",
+              "wordAudioSrc": "/dictionary/i/ifs-ands-buts.mp3"
+            },
+            {
+              "textEn": "we need to launch on April 20th."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Mike:</b>"
+            },
+            {
+              "keyword": "Just for the record",
+              "word": "Just for the record",
+              "wordAudioSrc": "/dictionary/.mp3"
+            },
+            {
+              "textEn": ", I think we're."
+            },
+            {
+              "keyword": "cutting it a little close",
+              "word": "cutting it a little close",
+              "wordAudioSrc": "/dictionary/.mp3"
+            },
+            {
+              "textEn": ". I recommend we launch on July 20th instead."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Dan:</b> We can't. We've already decided on the"
+            },
+            {
+              "keyword": "tagline",
+              "word": "tagline",
+              "wordAudioSrc": "/dictionary/t/tagline.mp3"
+            },
+            {
+              "textEn": ": \"Spring into spring with Swift's new spring shoe.\""
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Mike:</b> It's time for a"
+            },
+            {
+              "keyword": "reality check",
+              "word": "reality check",
+              "wordAudioSrc": "/dictionary/r/reality-check.mp3"
+            },
+            {
+              "textEn": ". I'm telling you we might not be ready by April 20th, and you're telling me we have to be because of a "
+            },
+            {
+              "keyword": "tagline",
+              "word": "tagline",
+              "wordAudioSrc": "/dictionary/t/tagline.mp3"
+            },
+            {
+              "textEn": "?"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Dan:</b> Mike, now's the time to"
+            },
+            {
+              "keyword": "step up to the plate",
+              "word": "step up to the plate",
+              "wordAudioSrc": "/dictionary/s/step-up-to-the-plate.mp3"
+            },
+            {
+              "textEn": "and"
+            },
+            {
+              "keyword": "get the job done",
+              "word": "get the job done",
+              "wordAudioSrc": "/dictionary/g/get-the-job-done.mp3"
+            },
+            {
+              "textEn": "."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Mike:</b> Mike: Well, I'm going to be"
+            },
+            {
+              "keyword": "work down to the wire",
+              "word": "working down to the wire",
+              "wordAudioSrc": "/dictionary/w/work-down-to-the-wire.mp3"
+            },
+            {
+              "textEn": "."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Dan:</b> Just"
+            },
+            {
+              "keyword": "do whatever it takes",
+              "word": "do whatever it takes",
+              "wordAudioSrc": "/dictionary/.mp3"
+            },
+            {
+              "textEn": ". Just make sure we've got a million pairs of shoes in inventory by the April 20th deadline."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Mike:</b> I'm going to have to run the factories"
+            },
+            {
+              "keyword": "24/7",
+              "word": "24/7",
+              "wordAudioSrc": "/dictionary/twent-four-seven.mp3"
+            },
+            {
+              "textEn": ". That's going to be a lot of overtime pay."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "textEn": "<b>Dan:</b>"
+            },
+            {
+              "keyword": "At the end of the day",
+              "word": "At the end of the day",
+              "wordAudioSrc": "/dictionary/.mp3"
+            },
+            {
+              "textEn": ", a little extra expense doesn't matter. We just want those shoes ready by April 20th."
             }
           ]
         }
@@ -59,181 +242,181 @@
           "title": "1. Choose the best substitute for the phrase or sentence in bold.",
           "radio": [
             {
-              "id": "",
-              "question": "1. ...",
+              "id": "8733bf74-4432-4be5-8b70-ce767ac4b727",
+              "question": "1. To prepare for the holiday season, the chocolate factory operates <b>24/7</b>.",
               "options": [
                 {
-                  "id": "",
-                  "label": "...",
-                  "isCorrect": true
-                },
-                {
-                  "id": "",
-                  "label": "...",
+                  "id": "88bf0644-08ba-4173-932f-f245307a19a5",
+                  "label": "until midnight",
                   "isCorrect": false
                 },
                 {
-                  "id": "",
-                  "label": "...",
+                  "id": "c8481bee-604d-4c86-b0ea-c8b308c79d21",
+                  "label": "around the clock",
+                  "isCorrect": true
+                },
+                {
+                  "id": "016e47cd-cdc4-4815-9cfe-256bf2d4fbe5",
+                  "label": "24 days a month",
                   "isCorrect": false
                 }
               ]
             },
             {
-              "id": "",
-              "question": "2. ...",
+              "id": "551026e2-ff0a-4929-9379-c93d4ab40b38",
+              "question": "2. I think we'll be get the report out on Friday, but we'll definitely be <b>working down to the wire</b>.",
               "options": [
                 {
-                  "id": "",
-                  "label": "...",
-                  "isCorrect": true
-                },
-                {
-                  "id": "",
-                  "label": "...",
+                  "id": "96921ceb-2ac0-45e9-abaa-2ecc94967eac",
+                  "label": "bringing in extra help",
                   "isCorrect": false
                 },
                 {
-                  "id": "",
-                  "label": "...",
+                  "id": "a74d0765-bafe-4216-b187-484fa714f2f3",
+                  "label": "taking some shortcuts",
+                  "isCorrect": false
+                },
+                {
+                  "id": "6fa38710-5ee1-4a3a-b4fd-c54c2ada1a2e",
+                  "label": "working up until the deadline",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "e76d64ad-723c-467a-bf20-f2112c6b6b5b",
+              "question": "3. When we needed help marketing our conference, Karen was quick to <b>step up to the plate</b>.",
+              "options": [
+                {
+                  "id": "c7e0b9f6-7255-4ca5-ad48-0b04629ea275",
+                  "label": "give excuses",
+                  "isCorrect": false
+                },
+                {
+                  "id": "3b53d722-26c2-4c6f-a9f2-dbf7493161b9",
+                  "label": "disappear",
+                  "isCorrect": false
+                },
+                {
+                  "id": "ce36830b-208b-4a8a-b468-e363d279550b",
+                  "label": "offer to help",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "d16f1aa6-0d5d-442c-99ed-a634f504a50f",
+              "question": "4. <b>At the end of the day</b> we still managed to make a profit this year.",
+              "options": [
+                {
+                  "id": "5385b44d-e448-4b8f-99a1-9d41dd1f326e",
+                  "label": "In summary",
+                  "isCorrect": true
+                },
+                {
+                  "id": "eaaa223f-d772-4946-858b-e6f4e22fc4fa",
+                  "label": "The shocking fact is",
+                  "isCorrect": false
+                },
+                {
+                  "id": "29634c92-f728-4c7c-bb30-c9d36748c9c6",
+                  "label": "Against everyone's expectation",
                   "isCorrect": false
                 }
               ]
             },
             {
-              "id": "",
-              "question": "3. ...",
+              "id": "eae9ed2a-a59a-47ab-a2a5-c285a759350d",
+              "question": "5. Let's assign the website project to Tyler. He'll <b>get the job done</b>.",
               "options": [
                 {
-                  "id": "",
-                  "label": "...",
-                  "isCorrect": true
-                },
-                {
-                  "id": "",
-                  "label": "...",
+                  "id": "250dbd1a-bdb8-4a73-8a4b-38048014e146",
+                  "label": "finish it today",
                   "isCorrect": false
                 },
                 {
-                  "id": "",
-                  "label": "...",
+                  "id": "fa1d5bff-3c6a-4701-add1-2e8c5f351c5d",
+                  "label": "know who to hire",
+                  "isCorrect": false
+                },
+                {
+                  "id": "f2478997-f04e-45fe-8bea-740ecce5e937",
+                  "label": "do it successfully",
+                  "isCorrect": true
+                }
+              ]
+            },
+            {
+              "id": "6fa525fc-510a-44d6-a63a-c38d536447d8",
+              "question": "6. Tim wants to hire another project manager? <b>It's time for a reality check</b>.",
+              "options": [
+                {
+                  "id": "b3f70aa3-e77f-41c7-b051-a0b511650af1",
+                  "label": "That's not a realistic goal.",
+                  "isCorrect": true
+                },
+                {
+                  "id": "7e988a65-cb99-4da0-9143-7d8835d981e4",
+                  "label": "What a great idea.",
+                  "isCorrect": false
+                },
+                {
+                  "id": "d4021216-9c16-4470-92c3-f2e09b824064",
+                  "label": "The truth is we need another",
                   "isCorrect": false
                 }
               ]
             },
             {
-              "id": "",
-              "question": "4. ...",
+              "id": "c1b6cb71-0845-4316-bdcf-5c3c1e1a8b1c",
+              "question": "7. We'd planned to release our new tablet computer on Monday, but we're still <b>working out the kinks</b>.",
               "options": [
                 {
-                  "id": "",
-                  "label": "...",
-                  "isCorrect": true
-                },
-                {
-                  "id": "",
-                  "label": "...",
+                  "id": "158918d6-4075-4743-88a6-cc0e993e71a4",
+                  "label": "on schedule",
                   "isCorrect": false
                 },
                 {
-                  "id": "",
-                  "label": "...",
+                  "id": "163dad27-3267-4e5c-bc41-4209dec4f7d9",
+                  "label": "dealing with some problems",
+                  "isCorrect": true
+                },
+                {
+                  "id": "3a6f45e5-0d51-451f-97f4-59cab58bcb05",
+                  "label": "in the early stages",
                   "isCorrect": false
                 }
               ]
             },
             {
-              "id": "",
-              "question": "5. ...",
+              "id": "10963477-043f-446b-aca0-6aeb96d557b0",
+              "question": "8. <b>No ifs, ands, or buts,</b> our new product line should be ready to ship by December 1st.",
               "options": [
                 {
-                  "id": "",
-                  "label": "...",
+                  "id": "45d1f4f6-9678-47a8-b068-2e281baeaf75",
+                  "label": "If possible",
+                  "isCorrect": false
+                },
+                {
+                  "id": "d46b7229-0ce2-409c-9f4b-4086ee43cec8",
+                  "label": "If we work hard",
+                  "isCorrect": false
+                },
+                {
+                  "id": "77f6e106-f626-4962-87c8-ff04fb403f9e",
+                  "label": "It's necessary that",
                   "isCorrect": true
-                },
-                {
-                  "id": "",
-                  "label": "...",
-                  "isCorrect": false
-                },
-                {
-                  "id": "",
-                  "label": "...",
-                  "isCorrect": false
-                }
-              ]
-            },
-            {
-              "id": "",
-              "question": "6. ...",
-              "options": [
-                {
-                  "id": "",
-                  "label": "...",
-                  "isCorrect": true
-                },
-                {
-                  "id": "",
-                  "label": "...",
-                  "isCorrect": false
-                },
-                {
-                  "id": "",
-                  "label": "...",
-                  "isCorrect": false
-                }
-              ]
-            },
-            {
-              "id": "",
-              "question": "7. ...",
-              "options": [
-                {
-                  "id": "",
-                  "label": "...",
-                  "isCorrect": true
-                },
-                {
-                  "id": "",
-                  "label": "...",
-                  "isCorrect": false
-                },
-                {
-                  "id": "",
-                  "label": "...",
-                  "isCorrect": false
-                }
-              ]
-            },
-            {
-              "id": "",
-              "question": "8. ...",
-              "options": [
-                {
-                  "id": "",
-                  "label": "...",
-                  "isCorrect": true
-                },
-                {
-                  "id": "",
-                  "label": "...",
-                  "isCorrect": false
-                },
-                {
-                  "id": "",
-                  "label": "...",
-                  "isCorrect": false
                 }
               ]
             }
           ]
         },
         {
-          "id": "",
+          "id": "89019e28-da00-4077-8f7b-ca25e1acbd17",
           "title": "2. Fill in the blank with the correct word.",
           "fillInTheBlanks": [
             {
-              "id": "",
+              "id": "d5c9ff15-38f6-422d-aeea-f12feb995974",
               "options": true,
               "width": "100px",
               "beforeBlank": "1. ",
@@ -243,7 +426,7 @@
               "lineBreakAfter": true
             },
             {
-              "id": "",
+              "id": "6b54f948-1805-4fe9-a39e-a1cef7e897b4",
               "options": true,
               "width": "100px",
               "beforeBlank": "2. ",
@@ -253,7 +436,7 @@
               "lineBreakAfter": true
             },
             {
-              "id": "",
+              "id": "f60bd2b8-6569-4056-b246-2ca11f3376cc",
               "options": true,
               "width": "100px",
               "beforeBlank": "3. ",
@@ -263,7 +446,7 @@
               "lineBreakAfter": true
             },
             {
-              "id": "",
+              "id": "7f54178e-e294-4fb3-9ba5-49ebe71a33fb",
               "options": true,
               "width": "100px",
               "beforeBlank": "4. ",
@@ -273,7 +456,7 @@
               "lineBreakAfter": true
             },
             {
-              "id": "",
+              "id": "a14c0a2d-e8ae-418b-bc6d-d3673780cc61",
               "options": true,
               "width": "100px",
               "beforeBlank": "5. ",
@@ -283,7 +466,7 @@
               "lineBreakAfter": true
             },
             {
-              "id": "",
+              "id": "226a99db-c623-40ad-9aef-c766df927cda",
               "options": true,
               "width": "100px",
               "beforeBlank": "6. ",
@@ -293,7 +476,7 @@
               "lineBreakAfter": true
             },
             {
-              "id": "",
+              "id": "367ea7fc-1aca-4d02-bd62-0f45e4a7b72f",
               "options": true,
               "width": "100px",
               "beforeBlank": "7. ",
@@ -303,7 +486,7 @@
               "lineBreakAfter": true
             },
             {
-              "id": "",
+              "id": "964a413a-c88d-4358-aae3-a7178ed5d071",
               "options": true,
               "width": "100px",
               "beforeBlank": "8.",
@@ -317,5 +500,4 @@
       ]
     }
   ]
-  }
-  
+}

@@ -15,19 +15,14 @@
             {
               "textEn": "<b>Lesson 1 • xxx</b>"
             }
-          ],
-          "addBreakLine": true
+          ]
         },
         {
           "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
               "textEn": "xxx"
             }
-          ],
-          "addBreakLine": true
+          ]
         },
         {
           "paragraphs": [
