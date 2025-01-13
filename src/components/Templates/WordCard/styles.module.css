@@ -23,9 +23,9 @@
   margin-top: 0.3rem;
 }
 
-.play-button {
+.audio-buttons {
   margin-right: 5px;
-  width: 15px;
+  width: max-content;
   height: 18px;
   position: relative;
   top: 2px;

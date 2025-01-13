@@ -1,11 +1,14 @@
 "use client";
 
+// Utils
+import { getAudioFromStorage, saveAudioToStorage } from "@/utils/audioStorage";
+
 // Components
 import Image from "next/image";
 import { useState } from "react";
 
 // Image
-import { playIcon } from "@/img/index";
+import { playIcon, stopIcon } from "@/img/index";
 
 // Typescript
 import { IDictionaryDefinitions, WordCardProps } from "./types";
@@ -15,17 +18,32 @@ import styles from "./styles.module.css";
 
 export function WordCard({ dictionary }: WordCardProps) {
   const [isGenerating, setIsGenerating] = useState(false);
-  const [audioElement, setAudioElement] = useState<HTMLAudioElement | null>(null);
+  const [audioElement, setAudioElement] = useState<HTMLAudioElement | null>(
+    null
+  );
   const [error, setError] = useState<string | null>(null);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [playingAudios, setPlayingAudios] = useState<{ [key: string]: boolean }>({});
 
-  const handleTextToSpeech = async (text: string) => {
+  const playAudio = (audio: HTMLAudioElement, key: string) => {
+    setAudioElement(audio);
+
+    audio.onended = () => setPlayingAudios((prev) => ({ ...prev, [key]: false }));
+    audio.play();
+    setPlayingAudios((prev) => ({ ...prev, [key]: true }));
+  };
+
+  const handleTextToSpeech = async (text: string, key: string) => {
     if (!text.trim()) return;
 
     setIsGenerating(true);
     setError(null);
 
     try {
+      const savedAudio = getAudioFromStorage(text);
+      if (savedAudio) {
+        playAudio(savedAudio, key);
+        return;
+      }
       const response = await fetch("/api/elevenlabs", {
         method: "POST",
         headers: {
@@ -43,13 +61,11 @@ export function WordCard({ dictionary }: WordCardProps) {
         throw new Error(data.error || "Failed to generate audio");
       }
 
-      // If the response is successful, it contains the audio as a base64 string
+      saveAudioToStorage(text, data.audio);
       const audio = new Audio(`data:audio/mpeg;base64,${data.audio}`);
-      setAudioElement(audio);
+      playAudio(audio, key);
 
-      audio.onended = () => setIsPlaying(false);
-      audio.play();
-      setIsPlaying(true);
+      // If the response is successful, it contains the audio as a base64 string
     } catch (error: any) {
       console.error("Error generating audio:", error);
       setError(error.message || "Failed to generate audio. Please, try again.");
@@ -65,126 +81,125 @@ export function WordCard({ dictionary }: WordCardProps) {
           <b>{dictionary.keyword}</b>
         </p>
         <div className={styles["margin-top"]}>
-          {dictionary.definitions.map((definition: IDictionaryDefinitions, index: number) => (
-            <div key={index}>
-
-              {/* Word with play button */}
-              {definition.word && (
-                <p className={`margin-bottom ${styles["margin-right"]}`}>
-                  <span className="bold">
-                    <Image
-                      src={playIcon}
-                      alt="Play icon"
-                      onClick={() =>
-                        definition.word && handleTextToSpeech(definition.word)
-                      }
-                      className={styles["play-button"]}
-                    />
-                    {definition.word}
-                  </span>
-                </p>
-              )}
-
-              {/* Phonetics / Part of Speech*/}
-              {definition.phonetics && (
-                <p className={styles["margin-right"]}>
-                  <span className="phonetics">{definition.phonetics}</span>
-                </p>
-              )}
-              <p className={styles["margin-right"]}>
-                <span className="times-new-roman-dictionary">
-                  {definition.partOfSpeech}
-                </span>
-              </p>
-
-              {/* Definitions */}
-              <div className="margin-bottom white-space-pre-wrap">
-                {definition.enDefinition && (
-                  <p>
-                    <span>
+          {dictionary.definitions.map(
+            (definition: IDictionaryDefinitions, index: number) => (
+              <div key={index}>
+                {/* Word with play button */}
+                {definition.word && (
+                  <p className={`margin-bottom ${styles["margin-right"]}`}>
+                    <span className="bold">
                       <Image
-                        src={playIcon}
-                        alt="Play icon"
+                        src={playingAudios[`word-${index}`] ? stopIcon : playIcon}
+                        alt={playingAudios[`word-${index}`] ? "Stop icon" : "Play icon"}
                         onClick={() =>
-                          definition.enDefinition &&
-                          handleTextToSpeech(definition.enDefinition)
+                          definition.word && handleTextToSpeech(definition.word, `word-${index}`)
                         }
-                        className={styles["play-button"]}
+                        className={styles["audio-buttons"]}
                       />
-                      {definition.enDefinition}
+                      {definition.word}
                     </span>
                   </p>
                 )}
 
-                {/* English and Portuguese example */}
-                {definition.examples?.map((example, exampleIndex) => (
-                  <p key={exampleIndex}>
-                    <Image
-                      src={playIcon}
-                      alt="Play icon"
-                      onClick={() =>
-                        example.enExample &&
-                        handleTextToSpeech(example.enExample)
-                      }
-                      className={styles["play-button"]}
-                    />
-                    <b>• </b>
-                    {example.enExample && (
-                      <span>{example.enExample}</span>
-                    )}{" "}
-                    {example.ptExample && (
-                      <span className="portuguese">
-                        {example.ptExample}
-                      </span>
-                    )}
+                {/* Phonetics / Part of Speech*/}
+                {definition.phonetics && (
+                  <p className={styles["margin-right"]}>
+                    <span className="phonetics">{definition.phonetics}</span>
                   </p>
-                ))}
+                )}
+                <p className={styles["margin-right"]}>
+                  <span className="times-new-roman-dictionary">
+                    {definition.partOfSpeech}
+                  </span>
+                </p>
 
-                {/* Note */}
-                <div className="margin-top">
-                  {definition.notes?.map((note, noteIndex) => (
-                    <p key={noteIndex}>
-                      {note.note && (
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: note.note,
-                          }}
+                {/* Definitions */}
+                <div className="margin-bottom white-space-pre-wrap">
+                  {definition.enDefinition && (
+                    <p>
+                      <span>
+                        <Image
+                          src={playingAudios[`definition-${index}`] ? stopIcon : playIcon}
+                          alt={playingAudios[`definition-${index}`] ? "Stop icon" : "Play icon"}
+                          onClick={() =>
+                            definition.enDefinition &&
+                            handleTextToSpeech(definition.enDefinition, `definition-${index}`)
+                          }
+                          className={styles["audio-buttons"]}
                         />
+                        {definition.enDefinition}
+                      </span>
+                    </p>
+                  )}
+
+                  {/* English and Portuguese example */}
+                  {definition.examples?.map((example, exampleIndex) => (
+                    <p key={exampleIndex}>
+                      <Image
+                        src={playingAudios[`example-${index}-${exampleIndex}`] ? stopIcon : playIcon}
+                        alt={playingAudios[`example-${index}-${exampleIndex}`] ? "Stop icon" : "Play icon"}
+                        onClick={() =>
+                          example.enExample &&
+                          handleTextToSpeech(example.enExample, `example-${index}-${exampleIndex}`)
+                        }
+                        className={styles["audio-buttons"]}
+                      />
+                      <b>• </b>
+                      {example.enExample && (
+                        <span>{example.enExample}</span>
+                      )}{" "}
+                      {example.ptExample && (
+                        <span className="portuguese">{example.ptExample}</span>
                       )}
                     </p>
                   ))}
+
+                  {/* Note */}
+                  <div className="margin-top">
+                    {definition.notes?.map((note, noteIndex) => (
+                      <p key={noteIndex}>
+                        {note.note && (
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: note.note,
+                            }}
+                          />
+                        )}
+                      </p>
+                    ))}
+                  </div>
+
+                  {/* Synonyms and Antonyms */}
+                  {definition.synonyms && (
+                    <p>
+                      <span className="times-new-roman-dictionary">
+                        synonyms:{" "}
+                      </span>
+                      <span>{definition.synonyms}</span>
+                    </p>
+                  )}
+                  {definition.antonyms && (
+                    <p>
+                      <span className="times-new-roman-dictionary">
+                        antonyms:{" "}
+                      </span>
+                      <span>{definition.antonyms}</span>
+                    </p>
+                  )}
+
+                  {/* See also */}
+                  {definition.seeAlso && (
+                    <p>
+                      <span className="times-new-roman-dictionary">
+                        See also:{" "}
+                      </span>
+                      <span>{definition.seeAlso}</span>
+                    </p>
+                  )}
                 </div>
-
-                {/* Synonyms and Antonyms */}
-                {definition.synonyms && (
-                  <p>
-                    <span className="times-new-roman-dictionary">
-                      synonyms:{" "}
-                    </span>
-                    <span>{definition.synonyms}</span>
-                  </p>
-                )}
-                {definition.antonyms && (
-                  <p>
-                    <span className="times-new-roman-dictionary">
-                      antonyms:{" "}
-                    </span>
-                    <span>{definition.antonyms}</span>
-                  </p>
-                )}
-
-                {/* See also */}
-                {definition.seeAlso && (
-                  <p>
-                    <span className="times-new-roman-dictionary">
-                      See also:{" "}
-                    </span>
-                    <span>{definition.seeAlso}</span>
-                  </p>
-                )}
               </div>
-            </div>
-          ))}
+            )
+          )}
         </div>
       </div>
     </div>

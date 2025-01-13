@@ -19,7 +19,7 @@
 
 .label {
     display: inline;
-    margin-right: 6px;
+    margin: 0 5px 0 1px;
     font-size: var(--p-size);
 }
 
@@ -32,7 +32,6 @@
     height: fit-content;
     position: relative;
     top: 4px;
-    margin-left: 1px;
   }
 
   /* .word-card {
