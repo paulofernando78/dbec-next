@@ -33,7 +33,7 @@ export function WordCard({ dictionary }: WordCardProps) {
         },
         body: JSON.stringify({
           text,
-          voice: "JBFqnCBsd6RMkjVDRZzb",
+          voice: "nPczCjzI2devNBz1zQrb",
         }),
       });
 
@@ -67,6 +67,7 @@ export function WordCard({ dictionary }: WordCardProps) {
         <div className={styles["margin-top"]}>
           {dictionary.definitions.map((definition: IDictionaryDefinitions, index: number) => (
             <div key={index}>
+
               {/* Word with play button */}
               {definition.word && (
                 <p className={`margin-bottom ${styles["margin-right"]}`}>
@@ -83,7 +84,8 @@ export function WordCard({ dictionary }: WordCardProps) {
                   </span>
                 </p>
               )}
-              {/* Phonetics */}
+
+              {/* Phonetics / Part of Speech*/}
               {definition.phonetics && (
                 <p className={styles["margin-right"]}>
                   <span className="phonetics">{definition.phonetics}</span>
@@ -94,6 +96,7 @@ export function WordCard({ dictionary }: WordCardProps) {
                   {definition.partOfSpeech}
                 </span>
               </p>
+
               {/* Definitions */}
               <div className="margin-bottom white-space-pre-wrap">
                 {definition.enDefinition && (
@@ -112,7 +115,8 @@ export function WordCard({ dictionary }: WordCardProps) {
                     </span>
                   </p>
                 )}
-                {/* More content like synonyms, antonyms, etc. */}
+
+                {/* English and Portuguese example */}
                 {definition.examples?.map((example, exampleIndex) => (
                   <p key={exampleIndex}>
                     <Image
@@ -127,7 +131,7 @@ export function WordCard({ dictionary }: WordCardProps) {
                     <b>• </b>
                     {example.enExample && (
                       <span>{example.enExample}</span>
-                    )}
+                    )}{" "}
                     {example.ptExample && (
                       <span className="portuguese">
                         {example.ptExample}
@@ -135,6 +139,8 @@ export function WordCard({ dictionary }: WordCardProps) {
                     )}
                   </p>
                 ))}
+
+                {/* Note */}
                 <div className="margin-top">
                   {definition.notes?.map((note, noteIndex) => (
                     <p key={noteIndex}>
@@ -148,6 +154,8 @@ export function WordCard({ dictionary }: WordCardProps) {
                     </p>
                   ))}
                 </div>
+
+                {/* Synonyms and Antonyms */}
                 {definition.synonyms && (
                   <p>
                     <span className="times-new-roman-dictionary">
@@ -164,6 +172,8 @@ export function WordCard({ dictionary }: WordCardProps) {
                     <span>{definition.antonyms}</span>
                   </p>
                 )}
+
+                {/* See also */}
                 {definition.seeAlso && (
                   <p>
                     <span className="times-new-roman-dictionary">

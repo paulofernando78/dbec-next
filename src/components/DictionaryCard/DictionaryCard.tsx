@@ -48,12 +48,12 @@ export const DictionaryCard = ({
   return (
     <>
       <span className={styles["dictionary-card"]}>
-        <Image
+        {/* <Image
           src={PlayButton}
           alt="Play icon"
           onClick={playAudio}
           className={styles["play-button"]}
-        />
+        /> */}
         {word && (
           <span
             className={styles["label"]}
