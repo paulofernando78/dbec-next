@@ -15,6 +15,9 @@ import {
   ScrollToTop,
 } from "@/components";
 
+// CSS
+import styles from "./styles.module.css"
+
 // Typescript
 import { LessonTemplateProps } from "@/components/Templates/LessonData/types";
 import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
@@ -54,12 +57,10 @@ export const LessonTemplate = ({
       {isUnderConstruction && <UnderConstruction />}
 
       {/* Content */}
-      {lessonData.contents && <Content contents={lessonData.contents}/>}
+      {lessonData.contents && <Content contents={lessonData.contents} />}
 
       {lessonData.lessons.map((lesson, lessonIndex) => (
         <React.Fragment key={lessonIndex}>
-          
-
           {/* Title */}
           {lesson.title && (
             <Ribbon
@@ -95,14 +96,15 @@ export const LessonTemplate = ({
             <Paragraph paragraphSections={lesson.paragraphSections} />
           )}
 
+          {/* Image */}
           {lesson.imgSrc && (
             <Image
               src={`${baseImgScr}${lesson.imgSrc}`}
               alt={lesson.imgAlt || "..."}
               width={1000}
               height={1000}
-              className="img-customization"
-              style={{ width: lesson.imgWidth, margin: "auto" }}
+              className={`img-customization ${styles["img"]}`}
+              style={{ width: lesson.imgWidth, height: "auto", margin: "auto" }}
             />
           )}
 
@@ -149,7 +151,7 @@ export const LessonTemplate = ({
           />
         </React.Fragment>
       ))}
-    <ScrollToTop />
+      <ScrollToTop />
     </div>
   );
 };

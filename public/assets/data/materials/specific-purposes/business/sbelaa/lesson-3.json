@@ -1,12 +1,12 @@
 {
-    "whiteboard": {
-      "title": "Specific Purposes",
-      "subtitle": "Business",
-      "descriptions": ["Lesson 3 • Discussing a new ad campaign"]
-    },
-    "lessons": [
+  "whiteboard": {
+    "title": "Specific Purposes",
+    "subtitle": "Business",
+    "descriptions": ["Lesson 3 • Discussing a new ad campaign"]
+  },
+  "lessons": [
     {
-      "audioSrc": "/specific-purposes/business/sbelaa/lesson-3.mp3"
+      "audioSrc": "/materials/specific-purposes/business/sbelaa/lesson-3.mp3"
     },
     {
       "paragraphSections": [
@@ -57,7 +57,7 @@
               "wordAudioSrc": "/dictionary/h/half-baked-ideas.mp3"
             },
             {
-              "textEn":	"!"
+              "textEn": "!"
             }
           ]
         },
@@ -209,7 +209,7 @@
       "exercises": [
         {
           "id": "a81d3db5-9a78-499b-b8cb-e419e05e3f5b",
-          "title": "1. Choose the best substitute for the phrase or sentence in bold.",
+          "title": "1. Choose the best substitute for the sentence in bold.",
           "radio": [
             {
               "id": "476cdf45-842d-4e6c-a295-e449f67c5b5d",
@@ -380,97 +380,8 @@
               ]
             }
           ]
-        },
-        {
-          "id": "f4ef6258-5ca1-4373-bc53-402d6db9ac1c",
-          "title": "2. Fill in the blank with the correct word.",
-          "fillInTheBlanks": [
-            {
-            },
-            {
-              "id": "a81ebc5f-ab76-4e55-afa5-5814e58c9bcb",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "1. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "4f7dfd21-05a2-4970-8a8a-6346b7071da4",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "2. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "e09a9a2b-b274-4a16-84d0-50a7bc031097",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "3. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "14390dc6-e68d-4acf-8d2b-abbf86bb7df0",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "4. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "fd431583-ab25-462f-a1f9-b70db76a2d30",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "5. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "cfe95418-8922-4459-91c3-50abc43e3503",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "6. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "cb4c3a7a-c01b-4121-920c-2c423e6aee27",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "7. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "6ec8ef51-a729-48dc-97ee-a5ecba499a89",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "8.",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            }
-          ]
         }
       ]
     }
   ]
-  }
-  
+}

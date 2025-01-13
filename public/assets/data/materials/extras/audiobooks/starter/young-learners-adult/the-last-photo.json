@@ -85,7 +85,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/cover.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/cover.png",
           "imgAlt": "Book cover",
           "imgPosition": "left",
           "paragraphs": [
@@ -97,7 +97,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/audio.mp3"
+      "audioSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -108,7 +108,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph1.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph1.jpg",
           "imgAlt": "Pam and Martin are taking some photos.",
           "imgPosition": "right",
           "paragraphs": [
@@ -211,7 +211,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph2.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph2.jpg",
           "imgAlt": "Martin is taking photos of Pam.",
           "imgPosition": "right",
           "paragraphs": [
@@ -307,7 +307,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph3.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph3.jpg",
           "imgAlt": "Pam is taking a photo when a man walks between Pam and Martin.",
           "imgPosition": "right",
           "paragraphs": [
@@ -387,7 +387,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph4.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph4.jpg",
           "imgAlt": "Pam is putting away her camera.",
           "imgPosition": "right",
           "paragraphs": [
@@ -467,7 +467,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph5.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph5.jpg",
           "imgAlt": "Pam and Martin are at the bus station.",
           "imgPosition": "right",
           "paragraphs": [
@@ -515,7 +515,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph6.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph6.jpg",
           "imgAlt": "Pam and Martin are looking at some developed photos.",
           "imgPosition": "right",
           "paragraphs": [
@@ -579,7 +579,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph7.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph7.jpg",
           "imgAlt": "Martin is showing the same man on a newspaper.",
           "imgPosition": "right",
           "paragraphs": [
@@ -627,7 +627,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph8.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph8.jpg",
           "imgAlt": "Martin is talking about the man with Pam.",
           "imgPosition": "right",
           "paragraphs": [
@@ -675,7 +675,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph9.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph9.jpg",
           "imgAlt": "Martin compares the two photos.",
           "imgPosition": "right",
           "paragraphs": [
@@ -723,7 +723,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph10.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph10.jpg",
           "imgAlt": "Now the two photos look alike.",
           "imgPosition": "right",
           "paragraphs": [
@@ -787,7 +787,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph11.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph11.jpg",
           "imgAlt": "Paragraph 11 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -835,7 +835,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph12.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph12.jpg",
           "imgAlt": "Pam's telling the police Alan is taking a bus to Aberdeen.",
           "imgPosition": "right",
           "paragraphs": [
@@ -899,7 +899,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph13.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph13.jpg",
           "imgAlt": "Police is looking for Alan who's in his tent.",
           "imgPosition": "right",
           "paragraphs": [
@@ -963,7 +963,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph14.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph14.jpg",
           "imgAlt": "Paragraph 14 photo",
           "imgPosition": "right",
           "paragraphs": [
@@ -1011,7 +1011,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph15.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo/paragraph15.jpg",
           "imgAlt": "Pam and Alan Rook are celebrating Alan Rook's capture.",
           "imgPosition": "right",
           "paragraphs": [

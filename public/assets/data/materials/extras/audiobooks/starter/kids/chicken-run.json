@@ -82,7 +82,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/cover.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/cover.png",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
@@ -94,8 +94,8 @@
       ]
     },
     {
-      "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/characters.png",
-      "imgAlt": ""
+      "imgSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/characters.png",
+      "imgAlt": "Character illustration"
     },
     {
       "id": "0cd964a9-0548-41d2-a76b-f4fc7cf19d8e",
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/audiobooks/starter/kids/chicken-run/audio.mp3"
+      "audioSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -141,7 +141,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-1.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/paragraph-1.png",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -162,7 +162,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-2.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/paragraph-2.png",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -183,7 +183,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-3.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/paragraph-3.png",
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -204,7 +204,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-4.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/paragraph-4.png",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -225,7 +225,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-5.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/paragraph-5.png",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -246,7 +246,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-6.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/paragraph-6.png",
           "imgAlt": "Paragraph 6 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -267,7 +267,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-7.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/paragraph-7.png",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -288,7 +288,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-8.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/paragraph-8.png",
           "imgAlt": "Paragraph 8 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -309,7 +309,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-9.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/paragraph-9.png",
           "imgAlt": "Paragraph 9 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -330,7 +330,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-10.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/paragraph-10.png",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -351,7 +351,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-11.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/paragraph-11.png",
           "imgAlt": "Paragraph 11 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -372,7 +372,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-12.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/paragraph-12.png",
           "imgAlt": "Paragraph 12 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -393,7 +393,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/chicken-run/paragraph-13.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/chicken-run/paragraph-13.png",
           "imgAlt": "Paragraph 13 illustration",
           "imgPosition": "right",
           "paragraphs": [

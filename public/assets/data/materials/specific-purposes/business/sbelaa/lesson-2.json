@@ -6,7 +6,12 @@
   },
   "lessons": [
     {
-      "audioSrc": "/specific-purposes/business/sbelaa/lesson-2.mp3"
+    "imgSrc": "/materials/specific-purposes/business/sbelaa/lesson-2.png",
+    "imgAlt": "An image of a boss \"pulling the plug\" on the project.",
+    "imgWidth": "50%"
+    },
+    {
+      "audioSrc": "/materials/specific-purposes/business/sbelaa/lesson-2.mp3"
     },
     {
       "paragraphSections": [
@@ -216,7 +221,7 @@
       "exercises": [
         {
           "id": "e0e2cf82-097c-4983-9951-11c7f1389b9a",
-          "title": "1. Choose the best substitute for the phrase or sentence in bold.",
+          "title": "1. Choose the best appropriate response to each sntence.",
           "radio": [
             {
               "id": "a11854f5-8795-401d-a5c7-81668d0f3367",
@@ -385,92 +390,6 @@
                   "isCorrect": false
                 }
               ]
-            }
-          ]
-        },
-        {
-          "id": "a0f794a4-fbc8-428a-8d81-7829d2323f34",
-          "title": "2. Fill in the blank with the correct word.",
-          "fillInTheBlanks": [
-            {
-              "id": "ac60c7cd-79a8-4e41-9e9f-f286c4d09582",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "1. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "bb05a69a-8d80-4762-952b-479bf13342ca",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "2. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "f584e68a-bf8f-49d1-82b5-ef553951a34c",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "3. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "ba864afe-d6bf-4ad4-bcca-c5af6da05875",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "4. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "03c6b0c2-07f9-48a8-8b49-4cd2736976db",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "5. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "0bef63d3-78b6-4a34-8ef9-1cc34252ff02",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "6. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "f9859578-c85f-4660-b740-33e31b52d5e2",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "7. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "06102087-f37c-45b8-b717-848026338ad1",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "8.",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
             }
           ]
         }

@@ -86,7 +86,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/cover.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/cover.png",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/audio.mp3"
+      "audioSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -109,7 +109,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-1.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-1.png",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -173,7 +173,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-2.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-2.png",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -221,7 +221,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-3.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-3.png",
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -269,7 +269,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-4.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-4.png",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -333,7 +333,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-5.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-5.jpg",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -397,7 +397,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-6.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-6.jpg",
           "imgAlt": "Paragraph 6 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -461,7 +461,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-7.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-7.jpg",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -525,7 +525,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-8.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-8.png",
           "imgAlt": "Paragraph 8 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -589,7 +589,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-9.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-9.jpg",
           "imgAlt": "Paragraph 9 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -637,7 +637,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-10.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-10.jpg",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -701,7 +701,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-11.jpg",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-11.jpg",
           "imgAlt": "Paragraph 11 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -749,7 +749,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-13.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-13.png",
           "imgAlt": "Paragraph 12 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -813,7 +813,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-13.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-13.png",
           "imgAlt": "Paragraph 13 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -861,7 +861,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-14.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-14.png",
           "imgAlt": "Paragraph 14 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -909,7 +909,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-15.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase/paragraph-15.png",
           "imgAlt": "Paragraph 15 illustration",
           "imgPosition": "right",
           "paragraphs": [

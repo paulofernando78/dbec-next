@@ -6,7 +6,7 @@
   },
   "lessons": [
     {
-      "audioSrc": "/specific-purposes/business/sbelaa/lesson-1.mp3"
+      "audioSrc": "/materials/specific-purposes/business/sbelaa/lesson-1.mp3"
     },
     {
       "paragraphSections": [
@@ -210,7 +210,7 @@
       "exercises": [
         {
           "id": "2123ae2c-8707-4c92-86b2-4b87c57a453f",
-          "title": "Choose the best substitute for the phrase or sentence in bold.",
+          "title": "Choose the best substitute for the sentence in bold.",
           "radio": [
             {
               "id": "dd1d4acc-81bc-48f9-a743-3e8d3e9b9b94",

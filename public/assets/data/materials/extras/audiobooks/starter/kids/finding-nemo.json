@@ -62,7 +62,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/finding-nemo/cover.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/finding-nemo/cover.png",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/audiobooks/starter/kids/finding-nemo/audio.mp3"
+      "audioSrc": "/materials/extras/audiobooks/starter/kids/finding-nemo/audio.mp3"
     },
     {
       "title": "Paragraph 1",
@@ -128,7 +128,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/finding-nemo/paragraph-1.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/finding-nemo/paragraph-1.png",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -149,7 +149,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/finding-nemo/paragraph-2.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/finding-nemo/paragraph-2.png",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -170,7 +170,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/finding-nemo/paragraph-3.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/finding-nemo/paragraph-3.png",
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -191,7 +191,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/finding-nemo/paragraph-4.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/finding-nemo/paragraph-4.png",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -212,7 +212,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/finding-nemo/paragraph-5.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/finding-nemo/paragraph-5.png",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -233,7 +233,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/finding-nemo/paragraph-6.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/finding-nemo/paragraph-6.png",
           "imgAlt": "Paragraph 6 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -254,7 +254,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/finding-nemo/paragraph-7.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/finding-nemo/paragraph-7.png",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -275,7 +275,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/finding-nemo/paragraph-8.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/finding-nemo/paragraph-8.png",
           "imgAlt": "Paragraph 8 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -296,7 +296,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/finding-nemo/paragraph-9.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/finding-nemo/paragraph-9.png",
           "imgAlt": "Paragraph 9 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -317,7 +317,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/finding-nemo/paragraph-10.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/finding-nemo/paragraph-10.png",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [

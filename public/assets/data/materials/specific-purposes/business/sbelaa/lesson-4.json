@@ -6,7 +6,7 @@
   },
   "lessons": [
     {
-      "audioSrc": "/specific-purposes/business/sbelaa/lesson-4.mp3"
+      "audioSrc": "/materials/specific-purposes/business/sbelaa/lesson-4.mp3"
     },
     {
       "paragraphSections": [
@@ -239,7 +239,7 @@
       "exercises": [
         {
           "id": "",
-          "title": "1. Choose the best substitute for the phrase or sentence in bold.",
+          "title": "1. Choose the best substitute for the sentence in bold.",
           "radio": [
             {
               "id": "8733bf74-4432-4be5-8b70-ce767ac4b727",
@@ -408,92 +408,6 @@
                   "isCorrect": true
                 }
               ]
-            }
-          ]
-        },
-        {
-          "id": "89019e28-da00-4077-8f7b-ca25e1acbd17",
-          "title": "2. Fill in the blank with the correct word.",
-          "fillInTheBlanks": [
-            {
-              "id": "d5c9ff15-38f6-422d-aeea-f12feb995974",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "1. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "6b54f948-1805-4fe9-a39e-a1cef7e897b4",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "2. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "f60bd2b8-6569-4056-b246-2ca11f3376cc",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "3. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "7f54178e-e294-4fb3-9ba5-49ebe71a33fb",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "4. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "a14c0a2d-e8ae-418b-bc6d-d3673780cc61",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "5. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "226a99db-c623-40ad-9aef-c766df927cda",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "6. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "367ea7fc-1aca-4d02-bd62-0f45e4a7b72f",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "7. ",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
-            },
-            {
-              "id": "964a413a-c88d-4358-aae3-a7178ed5d071",
-              "options": true,
-              "width": "100px",
-              "beforeBlank": "8.",
-              "placeholder": "...",
-              "correctAnswer": ["..."],
-              "afterBlank": "...",
-              "lineBreakAfter": true
             }
           ]
         }

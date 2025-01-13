@@ -73,7 +73,6 @@ import clockWakeUpHate from "./bitmoji/clock-wakeup-hate.png";
 import dictionaryIcon from "./icon/dictionary.png";
 import expandForward from "./icon/expand-forward.png";
 import expandDown from "./icon/expand-down.png";
-import inFiveMinutes from "./extras/grammar/elementary/unit-103/in-five-minutes.png";
 import notesIcon from "./icon/notes.png";
 import playIcon from "./icon/play-button.png"
 import questionMarkGif from "./gif/question-mark.gif";
@@ -159,7 +158,6 @@ export {
   dictionaryIcon,
   expandForward,
   expandDown,
-  inFiveMinutes,
   notesIcon,
   playIcon,
   questionMarkGif,

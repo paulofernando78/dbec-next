@@ -77,7 +77,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/audiobooks/..."
+      "audioSrc": "/materials/extras/audiobooks/..."
     },
     {
       "title": "Paragraph 1",
@@ -104,7 +104,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -150,7 +150,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -196,7 +196,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -242,7 +242,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -288,7 +288,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -334,7 +334,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Paragraph 6 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -380,7 +380,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -426,7 +426,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Paragraph 8 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -472,7 +472,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Paragraph 9 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -518,7 +518,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -564,7 +564,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Paragraph 11 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -610,7 +610,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Paragraph 12 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -656,7 +656,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Paragraph 13 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -702,7 +702,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Paragraph 14 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -748,7 +748,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/...",
+          "imgSrc": "/materials/extras/audiobooks/...",
           "imgAlt": "Paragraph 15 illustration",
           "imgPosition": "right",
           "paragraphs": [

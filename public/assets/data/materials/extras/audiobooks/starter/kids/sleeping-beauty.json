@@ -62,7 +62,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/sleeping-beauty/cover.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/sleeping-beauty/cover.png",
           "imgAlt": "Cover illustration",
           "imgPosition": "left",
           "paragraphs": [
@@ -117,7 +117,7 @@
       ]
     },
     {
-      "audioSrc": "/extras/audiobooks/starter/kids/sleeping-beauty/audio.mp3"
+      "audioSrc": "/materials/extras/audiobooks/starter/kids/sleeping-beauty/audio.mp3"
     },
     {
       "paragraphSections": [
@@ -139,7 +139,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-1.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-1.png",
           "imgAlt": "Paragraph 1 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -160,7 +160,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-2.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-2.png",
           "imgAlt": "Paragraph 2 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -181,7 +181,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-3.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-3.png",
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -202,7 +202,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-4.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-4.png",
           "imgAlt": "Paragraph 4 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -223,7 +223,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-5.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-5.png",
           "imgAlt": "Paragraph 5 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -244,7 +244,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-6.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-6.png",
           "imgAlt": "Paragraph 6 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -273,7 +273,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-7.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-7.png",
           "imgAlt": "Paragraph 7 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -294,7 +294,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-8.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-8.png",
           "imgAlt": "Paragraph 8 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -315,7 +315,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-9.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-9.png",
           "imgAlt": "Paragraph 9 illustration",
           "imgPosition": "right",
           "paragraphs": [
@@ -336,7 +336,7 @@
     {
       "paragraphSections": [
         {
-          "imgSrc": "/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-10.png",
+          "imgSrc": "/materials/extras/audiobooks/starter/kids/sleeping-beauty/paragraph-10.png",
           "imgAlt": "Paragraph 10 illustration",
           "imgPosition": "right",
           "paragraphs": [

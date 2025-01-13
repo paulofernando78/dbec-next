@@ -4,6 +4,6 @@
     height: fit-content;
     bottom: 8px;
     right: 8px;
-    z-index: 2;
+    z-index: 10;
     /* cursor: pointer; */
 }
