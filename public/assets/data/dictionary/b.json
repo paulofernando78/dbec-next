@@ -1,5 +1,25 @@
 [
   {
+    "keyword": "back-of-the-envelope calculations",
+    "definitions": [
+      {
+        "word": "back-of-the-envelope calculations",
+        "partOfSpeech": "idiom",
+        "enDefinition": "quick, approximate calculations done informally, often on any available scrap of paper",
+        "ptDefinition": "cálculos rápidos e aproximados feitos informalmente, muitas vezes em qualquer pedaço de papel disponível",
+        "examples": [
+          {
+            "enExample": "He did some back-of-the-envelope calculations to estimate the cost of the project.",
+            "ptExample": "Ele fez alguns cálculos rápidos para estimar o custo do projeto."
+          }
+        ],
+        "synonyms": ["rough estimate", "quick calculation"],
+        "antonyms": ["detailed analysis", "precise calculation"],
+        "seeAlso": ["ballpark figure", "guesstimate"]
+      }
+    ]
+  },
+  {
     "keyword": "bladder",
     "definitions": [
       {
