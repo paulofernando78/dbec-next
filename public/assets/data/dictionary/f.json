@@ -3,7 +3,6 @@
     "keyword": "faux pas",
     "definitions": [
       {
-        "audio": "/dictionary/f/faux-pas-noun.mp3",
         "word": "faux pas",
         "phonetics": "/ˌfoʊ ˈpɑː/",
         "partOfSpeech": "noun",
@@ -23,7 +22,6 @@
     "keyword": "face the music",
     "definitions": [
       {
-        "audio": "/dictionary/f/face-the-music-idiom.mp3",
         "word": "face the music",
         "partOfSpeech": "idiom",
         "enDefinition": "to admit that there's a problem; to deal with an unpleasant situation realistically",
@@ -40,10 +38,10 @@
     "keyword": "fast track a project",
     "definitions": [
       {
-        "audio": "/dictionary/f/fast-track-a-project-idiom.mp3",
         "word": "fast track a project",
         "partOfSpeech": "idiom",
         "enDefinition": "to make a project a high priority; to speed up the time frame of a project",
+        "ptDefinition": "dar alta prioridade a um projeto; acelerar o cronograma de um projeto",
         "examples": [
           {
             "enExample": "Let's fast track this project. We've heard rumors that our competitors are developing similar products.",
@@ -57,7 +55,6 @@
     "keyword": "feel like",
     "definitions": [
       {
-        "audio": "/dictionary/f/feel-like-d.mp3",
         "word": "feel like",
         "partOfSpeech": "verbal expression",
         "ptDefinition": "sentir-se como",
@@ -100,7 +97,6 @@
     "keyword": "fetus",
     "definitions": [
       {
-        "audio": "/dictionary/f/fetus-noun.mp3",
         "word": "fetus",
         "phonetics": "/ˈfiː.t̬əs/",
         "partOfSpeech": "noun",
@@ -119,7 +115,6 @@
     "keyword": "focus",
     "definitions": [
       {
-        "audio": "/dictionary/f/focus-noun.mp3",
         "word": "focus",
         "phonetics": "/ˈfoʊ.kəs/",
         "partOfSpeech": "noun",
@@ -133,7 +128,6 @@
         "synonyms": "concentration, attention, center, spotlight, limelight"
       },
       {
-        "audio": "/dictionary/f/focus-regular-verb.mp3",
         "word": "focus",
         "phonetics": "/ˈfoʊ.kəs/",
         "partOfSpeech": "regular verb",
@@ -163,7 +157,6 @@
     "keyword": "freebie",
     "definitions": [
       {
-        "audio": "/dictionary/f/freebie-slang.mp3",
         "word": "freebie",
         "partOfSpeech": "slang",
         "enDefinition": "a free thing; something that is given away for free, usually as part of a promotional campaign",

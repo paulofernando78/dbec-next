@@ -36,17 +36,16 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "word": "test 1",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
-              "textEn": "xxx"
+              "word": "test 1"
+            },
+            {
+              "textEn": ""
             },
             {
               "keyword": "...",
-              "word": "test 3",
-              "wordAudioSrc": "/dictionary/xxx.mp3"
+              "word": "test 3"
             }
-          ],
-          "addBreakLine": true
+          ]
         },
         {
           "imgSrc": "/general/animal-cat1.jpg",
@@ -55,19 +54,19 @@
           "paragraphs": [
             {
               "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
-              "textEn": "..."
+              "word": "..."
+            },
+            {
+              "textEn":	"..."
             },
             {
               "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/xxx.mp3",
-              "textEn": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
+              "word": "..."
+            },
+            {
+              "textEn":	"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
             }
-          ],
-
-          "addBreakLine": true
+          ]
         },
         {
           "imgSrc": "/general/animal-cat2.jpeg",

@@ -3,7 +3,6 @@
     "keyword": "sad",
     "definitions": [
       {
-        "audio": "/dictionary/s/sad.mp3",
         "word": "sad",
         "phonetics": "/sæd/",
         "partOfSpeech": "adjective",
@@ -28,7 +27,6 @@
     "keyword": "saturated fat",
     "definitions": [
       {
-        "audio": "/dictionary/s/saturated-fat-noun.mp3",
         "word": "saturated fat",
         "phonetics": "/ˈsætʃ.ə.reɪ.tɪd fæt/",
         "partOfSpeech": "noun",
@@ -49,7 +47,6 @@
     "keyword": "screen",
     "definitions": [
       {
-        "audio": "/dictionary/s/screen-noun.mp3",
         "word": "screen",
         "phonetics": "/skriːn/",
         "partOfSpeech": "noun",
@@ -64,7 +61,6 @@
         "synonyms": "display, monitor, panel"
       },
       {
-        "audio": "/dictionary/s/screen-verb.mp3",
         "word": "screen",
         "phonetics": "/skriːn/",
         "partOfSpeech": "verb",
@@ -89,7 +85,6 @@
     "keyword": "seem",
     "definitions": [
       {
-        "audio": "/dictionary/s/seem-present.mp3",
         "word": "seem",
         "partOfSpeech": "regular verb",
         "phonetics": "/siːm/",
@@ -121,7 +116,6 @@
         "antonyms": "be real"
       },
       {
-        "audio": "/dictionary/s/seemed-past.mp3",
         "word": "seemed",
         "phonetics": "/siːmd/",
         "partOfSpeech": "past of verb seem",
@@ -137,7 +131,6 @@
         ]
       },
       {
-        "audio": "/dictionary/s/seems-he-she-it.mp3",
         "word": "seems",
         "phonetics": "/siːmz/",
         "partOfSpeech": "he/she/it: affirmative only",
@@ -169,7 +162,6 @@
         ]
       },
       {
-        "audio": "/dictionary/s/seeming-adjective.mp3",
         "word": "seeming",
         "phonetics": "/ˈsiː.mɪŋ/",
         "partOfSpeech": "adjective",
@@ -183,7 +175,6 @@
         ]
       },
       {
-        "audio": "/dictionary/s/seemingly-adverb.mp3",
         "word": "seemingly",
         "phonetics": "/ˈsiː.mɪŋ.li/",
         "partOfSpeech": "adverb",
@@ -201,7 +192,6 @@
     "keyword": "several",
     "definitions": [
       {
-        "audio": "/dictionary/s/several-adjective.mp3",
         "word": "several",
         "phonetics": " /ˈsev.ɚ.əl/",
         "partOfSpeech": "adjective",
@@ -228,7 +218,6 @@
     "keyword": "share the credit",
     "definitions": [
       {
-        "audio": "/dictionary/s/share-the-credit-idiom.mp3",
         "word": "share the credit",
         "partOfSpeech": "idiom",
         "enDefinition": "to acknowledge someone else's contribution; to share with somebody else recognition for a job well done",
@@ -245,7 +234,6 @@
     "keyword": "sign on new customers or members",
     "definitions": [
       {
-        "audio": "/dictionary/s/sign-on-new-customers-or-members.mp3",
         "word": "sign on new customers or members",
         "partOfSpeech": "idiom",
         "enDefinition": "to enlist new customers; to get customers to open an account or take a membership",
@@ -262,7 +250,6 @@
     "keyword": "sliperry slope",
     "definitions": [
       {
-        "audio": "/dictionary/s/slippery-slope-d.mp3",
         "word": "slippery slope",
         "phonetics": "...",
         "partOfSpeech": "adverb",
@@ -280,7 +267,6 @@
     "keyword": "spindle",
     "definitions": [
       {
-        "audio": "/dictionary/s/spindle.mp3",
         "word": "spindle",
         "phonetics": "/ˈspɪndl/",
         "partOfSpeech": "noun",
@@ -304,7 +290,6 @@
     "keyword": "stem cell",
     "definitions": [
       {
-        "audio": "/dictionary/s/stem-cell-noun.mp3",
         "word": "stem cell",
         "phonetics": "/ˈstem ˌsel/",
         "partOfSpeech": "noun",
@@ -317,14 +302,14 @@
     "keyword": "stocking stuffer",
     "definitions": [
       {
-        "audio": "/dictionary/s/stocking-stuffer-idiom.mp3",
         "word": "stocking stuffer",
         "partOfSpeech": "idiom",
         "enDefinition": "a small gift at Christmas time",
+        "ptDefinition": "um pequeno presente na época do Natal; lembrancinhas",
         "examples": [
           {
             "enExample": "These new mini travel pillows will make great stocking stuffers!",
-            "ptExample": "Esses novos mini travesseiros de viagem são perfeitos para encher as meias de Natal (lembracinhas)!"
+            "ptExample": "Esses novos mini travesseiros de viagem são perfeitos para encher as meias de Natal."
           }
         ],
         "note": "This expression comes from the practice of kids hanging up stockings that Santa Claus fills (or \"stuffs\") with small gifts."
@@ -335,7 +320,6 @@
     "keyword": "synthetic",
     "definitions": [
       {
-        "audio": "/dictionary/s/synthetic-adjective.mp3",
         "word": "synthetic",
         "phonetics": "/sɪnˈθet̬.ɪk/",
         "partOfSpeech": "adjective",

@@ -3,21 +3,25 @@
     "keyword": "happy",
     "definitions": [
       {
-        "audio": "/dictionary/h/happy.mp3",
-        "phonetics": "...",
-        "partOfSpeech": "...",
-        "enDefinition": "...",
-        "ptDefinition": "...",
+        "word": "happy",
+        "phonetics": "/ˈhæpi/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "Feeling or showing pleasure or contentment.",
+        "ptDefinition": "Sentindo ou mostrando prazer ou contentamento.",
         "examples": [
           {
-            "enExample": "...",
-            "ptExample": "..."
+            "enExample": "She felt happy when she received the news.",
+            "ptExample": "Ela se sentiu feliz quando recebeu a notícia."
+          },
+          {
+            "enExample": "He is always happy to help.",
+            "ptExample": "Ele está sempre feliz em ajudar."
           }
         ],
         "thesauri": [
           {
-            "synonyms": "...",
-            "antonyms": "..."
+            "synonyms": ["joyful, cheerful, content"],
+            "antonyms": ["sad, unhappy, miserable"]
           }
         ]
       }
@@ -27,7 +31,6 @@
     "keyword": "hard stop",
     "definitions": [
       {
-        "audio": "/dictionary/h/hard-stop-idiom.mp3",
         "word": "hard stop",
         "partOfSpeech": "idiom",
         "enDefinition": "It refers to a predetermined, non-negotiable point where an activity or process must come to an immediate halt or conclusion.",

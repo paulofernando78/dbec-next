@@ -3,7 +3,6 @@
     "keyword": "calorie",
     "definitions": [
       {
-        "audio": "/dictionary/c/calorie-noun.mp3",
         "word": "calorie",
         "phonetics": "/ˈkæl.ɚ.i/",
         "partOfSpeech": "noun",
@@ -23,7 +22,6 @@
     "keyword": "capital flight",
     "definitions": [
       {
-        "audio": "/dictionary/c/capital-flight-noun.mp3",
         "word": "capital flight",
         "partOfSpeech": "noun",
         "enDefinition": "a situation in which large amounts of money are sent out of a country to be kept or invested in other countries, for example, because of fears about the economy:",
@@ -41,7 +39,6 @@
     "keyword": "carry",
     "definitions": [
       {
-        "audio": "/dictionary/c/carry-regular-verb.mp3",
         "word": "carry",
         "phonetics": "/ˈker.i/",
         "partOfSpeech": "regular verb",
@@ -57,7 +54,6 @@
         "antonyms": "drop"
       },
       {
-        "audio": "/c/carry-out-phrasal-verb.mp3",
         "word": "carry out",
         "phonetics": "/ˈkær·i/ ",
         "partOfSpeech": "phrasal verb",
@@ -82,7 +78,6 @@
     "keyword": "cash in on",
     "definitions": [
       {
-        "audio": "/dictionary/c/cash-in-on-phrasal-verb.mp3",
         "word": "cash in on",
         "partOfSpeech": "phrasal verb",
         "enDefinition": "To take advantage of an opportunity, especially to make money from something.",
@@ -104,7 +99,6 @@
     "keyword": "characteristic",
     "definitions": [
       {
-        "audio": "/dictionary/c/characteristic-noun.mp3",
         "word": "characteristic",
         "phonetics": "/ˌker.ək.təˈrɪs.tɪk/",
         "partOfSpeech": "noun",
@@ -122,7 +116,6 @@
     "keyword": "chimpanzee",
     "definitions": [
       {
-        "audio": "/dictionary/c/chimpanzee-d.mp3",
         "word": "chimpanzee",
         "phonetics": "/ˌtʃɪm.pænˈziːz/",
         "partOfSpeech": "noun",
@@ -140,7 +133,6 @@
     "keyword": "clean house",
     "definitions": [
       {
-        "audio": "/dictionary/c/clean-house-idiom.mp3",
         "word": "clean house",
         "partOfSpeech": "idiom",
         "enDefinition": "To remove unnecessary or undesirable people or things from an organization or situation.",
@@ -159,7 +151,6 @@
     "keyword": "compel",
     "definitions": [
       {
-        "audio": "/dictionary/c/compel-verb.mp3",
         "word": "compel",
         "phonetics": "/kəmˈpel/",
         "partOfSpeech": "verb",
@@ -175,7 +166,6 @@
         "antonyms": "stop, prevent, thwart, deter, hinder"
       },
       {
-        "audio": "/dictionary/c/compelling-adjective.mp3",
         "word": "compelling",
         "phonetics": "/kəmˈpel.ɪŋ/",
         "partOfSpeech": "adjective",
@@ -194,10 +184,10 @@
     "keyword": "come up with a winner",
     "definitions": [
       {
-        "audio": "/dictionary/c/come-up-with-a-winner-idiom.mp3",
         "word": "come up with a winner",
         "partOfSpeech": "idiom",
         "enDefinition": "to think up a very good idea",
+        "ptDefinition": "pensar em uma ideia muito boa",
         "examples": [
           {
             "enExample": "Everybody likes Pepsi's new advertising campaign. Their advertising agency has come up with a winner.",
@@ -211,7 +201,6 @@
     "keyword": "customer",
     "definitions": [
       {
-        "audio": "/dictionary/c/customer.mp3",
         "word": "customer",
         "phonetics": "/ˈkʌs.tə.mɚ/",
         "partOfSpeech": "noun",

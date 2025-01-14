@@ -22,12 +22,15 @@ export function WordCard({ dictionary }: WordCardProps) {
     null
   );
   const [error, setError] = useState<string | null>(null);
-  const [playingAudios, setPlayingAudios] = useState<{ [key: string]: boolean }>({});
+  const [playingAudios, setPlayingAudios] = useState<{
+    [key: string]: boolean;
+  }>({});
 
   const playAudio = (audio: HTMLAudioElement, key: string) => {
     setAudioElement(audio);
 
-    audio.onended = () => setPlayingAudios((prev) => ({ ...prev, [key]: false }));
+    audio.onended = () =>
+      setPlayingAudios((prev) => ({ ...prev, [key]: false }));
     audio.play();
     setPlayingAudios((prev) => ({ ...prev, [key]: true }));
   };
@@ -51,7 +54,7 @@ export function WordCard({ dictionary }: WordCardProps) {
         },
         body: JSON.stringify({
           text,
-          voice: "nPczCjzI2devNBz1zQrb",
+          voice: "9BWtsMINqrJLrRacOk9x",
         }),
       });
 
@@ -64,8 +67,6 @@ export function WordCard({ dictionary }: WordCardProps) {
       saveAudioToStorage(text, data.audio);
       const audio = new Audio(`data:audio/mpeg;base64,${data.audio}`);
       playAudio(audio, key);
-
-      // If the response is successful, it contains the audio as a base64 string
     } catch (error: any) {
       console.error("Error generating audio:", error);
       setError(error.message || "Failed to generate audio. Please, try again.");
@@ -89,10 +90,17 @@ export function WordCard({ dictionary }: WordCardProps) {
                   <p className={`margin-bottom ${styles["margin-right"]}`}>
                     <span className="bold">
                       <Image
-                        src={playingAudios[`word-${index}`] ? stopIcon : playIcon}
-                        alt={playingAudios[`word-${index}`] ? "Stop icon" : "Play icon"}
+                        src={
+                          playingAudios[`word-${index}`] ? stopIcon : playIcon
+                        }
+                        alt={
+                          playingAudios[`word-${index}`]
+                            ? "Stop icon"
+                            : "Play icon"
+                        }
                         onClick={() =>
-                          definition.word && handleTextToSpeech(definition.word, `word-${index}`)
+                          definition.word &&
+                          handleTextToSpeech(definition.word, `word-${index}`)
                         }
                         className={styles["audio-buttons"]}
                       />
@@ -115,32 +123,59 @@ export function WordCard({ dictionary }: WordCardProps) {
 
                 {/* Definitions */}
                 <div className="margin-bottom white-space-pre-wrap">
-                  {definition.enDefinition && (
-                    <p>
-                      <span>
-                        <Image
-                          src={playingAudios[`definition-${index}`] ? stopIcon : playIcon}
-                          alt={playingAudios[`definition-${index}`] ? "Stop icon" : "Play icon"}
-                          onClick={() =>
-                            definition.enDefinition &&
-                            handleTextToSpeech(definition.enDefinition, `definition-${index}`)
-                          }
-                          className={styles["audio-buttons"]}
-                        />
-                        {definition.enDefinition}
-                      </span>
-                    </p>
-                  )}
+                  <p>
+                    <span>
+                      <Image
+                        src={
+                          playingAudios[`definition-${index}`]
+                            ? stopIcon
+                            : playIcon
+                        }
+                        alt={
+                          playingAudios[`definition-${index}`]
+                            ? "Stop icon"
+                            : "Play icon"
+                        }
+                        onClick={() =>
+                          definition.enDefinition &&
+                          handleTextToSpeech(
+                            definition.enDefinition,
+                            `definition-${index}`
+                          )
+                        }
+                        className={styles["audio-buttons"]}
+                      />
+                      {definition.enDefinition && (
+                        <>
+                          <span>{definition.enDefinition}</span>{" "}
+                          <span className="portuguese">
+                            {definition.ptDefinition}
+                          </span>
+                        </>
+                      )}
+                    </span>
+                  </p>
 
                   {/* English and Portuguese example */}
                   {definition.examples?.map((example, exampleIndex) => (
                     <p key={exampleIndex}>
                       <Image
-                        src={playingAudios[`example-${index}-${exampleIndex}`] ? stopIcon : playIcon}
-                        alt={playingAudios[`example-${index}-${exampleIndex}`] ? "Stop icon" : "Play icon"}
+                        src={
+                          playingAudios[`example-${index}-${exampleIndex}`]
+                            ? stopIcon
+                            : playIcon
+                        }
+                        alt={
+                          playingAudios[`example-${index}-${exampleIndex}`]
+                            ? "Stop icon"
+                            : "Play icon"
+                        }
                         onClick={() =>
                           example.enExample &&
-                          handleTextToSpeech(example.enExample, `example-${index}-${exampleIndex}`)
+                          handleTextToSpeech(
+                            example.enExample,
+                            `example-${index}-${exampleIndex}`
+                          )
                         }
                         className={styles["audio-buttons"]}
                       />

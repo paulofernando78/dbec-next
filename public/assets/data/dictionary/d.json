@@ -3,9 +3,8 @@
     "keyword": "deaf",
     "definitions": [
       {
-        "audio": "/dictionary/dictionary/d/deafness-d.mp3",
         "word": "deafness",
-        "phonetics": "/ˈdef.nəs/",
+        "phonetics": "/'def.nəs/",
         "partOfSpeech": "noun",
         "enDefinition": "the state of being deaf",
         "ptDefinition": "surdez",
@@ -22,7 +21,6 @@
     "keyword": "dead",
     "definitions": [
       {
-        "audio": "/dictionary/d/deadliest-d.mp3",
         "word": "deadliest",
         "phonetics": "/ˈded.liəst/",
         "partOfSpeech": "superlative of deadly",
@@ -52,7 +50,6 @@
     "keyword": "debris",
     "definitions": [
       {
-        "audio": "/dictionary/d/debris-noun.mp3",
         "word": "debris",
         "phonetics": "/dəˈbriː/",
         "partOfSpeech": "noun",
@@ -72,7 +69,6 @@
     "keyword": "dream up",
     "definitions": [
       {
-        "audio": "/dictionary/d/dream-up-idiom.mp3",
         "word": "dream up",
         "partOfSpeech": "idiom",
         "enDefinition": "to think up something creative or unusual; to come up with an original idea; to invent",
@@ -86,10 +82,30 @@
     ]
   },
   {
+    "keyword": "delicious",
+    "definitions": [
+      {
+        "word": "delicious",
+        "phonetics": "/dɪ'lɪʃ.əs/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "highly pleasant to the taste",
+        "ptDefinition": "delicioso",
+        "examples": [
+          {
+            "enExample": "The cake she baked was absolutely delicious.",
+            "ptExample": "O bolo que ela fez estava absolutamente delicioso."
+          }
+        ],
+        "synonyms": "tasty, delectable",
+        "antonyms": "unpalatable, tasteless",
+        "seeAlso": "scrumptious, mouth-watering"
+      }
+    ]
+  },
+  {
     "keyword": "drum up business",
     "definitions": [
       {
-        "audio": "/dictionary/d/drum-up-business-idiom.mp3",
         "word": "drum up business",
         "partOfSpeech": "idiom",
         "enDefinition": "to create business; to find new customers",
@@ -106,7 +122,6 @@
     "keyword": "dulce de leche",
     "definitions": [
       {
-        "audio": "/dictionary/d/dulce-de-leche.mp3",
         "word": "dulce de leche",
         "phonetics": "/ˌdʌl.seɪ də ˈletʃ.eɪ/",
         "partOfSpeech": "noun",

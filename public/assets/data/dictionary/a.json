@@ -3,7 +3,6 @@
     "keyword": "aim",
     "definitions": [
       {
-        "audio": "/dictionary/a/aim-noun.mp3",
         "word": "aim",
         "phonetics": "/eɪm/",
         "partOfSpeech": "noun",
@@ -25,7 +24,6 @@
     "keyword": "acronym",
     "definitions": [
       {
-        "audio": "/dictionary/a/acronym-noun.mp3",
         "word": "acronym",
         "phonetics": "/ˈæ.krə.nɪm/",
         "partOfSpeech": "noun",
@@ -45,7 +43,6 @@
     "keyword": "an",
     "definitions": [
       {
-        "audio": "/dictionary/a/an.mp3",
         "word": "an",
         "phonetics": "/an/",
         "partOfSpeech": "article",
@@ -73,10 +70,30 @@
     ]
   },
   {
+    "keyword": "angry",
+    "definitions": [
+      {
+        "word": "angry",
+        "phonetics": "/ˈæŋɡri/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "Feeling or showing strong displeasure or hostility; having a strong emotional reaction to something perceived as wrong or offensive.",
+        "ptDefinition": "Sentindo ou mostrando grande desagrado ou hostilidade; tendo uma reação emocional forte a algo percebido como errado ou ofensivo.",
+        "examples": [
+          {
+            "enExample": "She was angry because she didn't get the job.",
+            "ptExample": "Ela estava brava porque não conseguiu o emprego."
+          }
+        ],
+        "synonyms": "furious, irate, enraged, livid, upset",
+        "antonyms": "calm, content, peaceful, happy, relaxed",
+        "seeAlso": "frustrated, irritated"
+      }
+    ]
+  },
+  {
     "keyword": "all-you-can-eat",
     "definitions": [
       {
-        "audio": "/dictionary/a/all-you-can-eat-d.mp3",
         "word": "all-you-can-eat",
         "phonetics": "/ɑːl.jə.kənˈiːt/",
         "partOfSpeech": "adjective",
@@ -97,7 +114,6 @@
     "keyword": "annoy",
     "definitions": [
       {
-        "audio": "/dictionary/a/annoy-present.mp3",
         "word": "annoy",
         "phonetics": "/əˈnɔɪ/",
         "partOfSpeech": "regular verb",
@@ -112,7 +128,6 @@
         "antonyms": "please, gratify"
       },
       {
-        "audio": "/dictionary/a/annoyed-past.mp3",
         "word": "annoyed",
         "phonetics": "/əˈnɔɪd/",
         "partOfSpeech": "past of annoy",
@@ -124,7 +139,6 @@
         ]
       },
       {
-        "audio": "/dictionary/a/annoyed-past-participle.mp3",
         "word": "annoyed",
         "phonetics": "/əˈnɔɪd/",
         "partOfSpeech": "past participle of annoy",
@@ -140,7 +154,6 @@
         ]
       },
       {
-        "audio": "/dictionary/a/annoying-present-participle.mp3",
         "word": "annoying",
         "phonetics": "/əˈnɔɪ.ɪŋ/",
         "partOfSpeech": "present participle of annoy",
@@ -152,7 +165,6 @@
         ]
       },
       {
-        "audio": "/dictionary/a/annoys-he-she-it.mp3",
         "word": "annoys",
         "phonetics": "/əˈnɔɪz/",
         "partOfSpeech": "he • she • it: affirmative only",
@@ -164,7 +176,6 @@
         ]
       },
       {
-        "audio": "/dictionary/a/annoying-adjective.mp3",
         "word": "annoying",
         "phonetics": "/əˈnɔɪ.ɪŋ/",
         "partOfSpeech": "adjective",
@@ -185,7 +196,6 @@
     "keyword": "anticipate",
     "definitions": [
       {
-        "audio": "/dictionary/a/anticipate-verb.mp3",
         "word": "anticipate",
         "phonetics": "/ænˈtɪs.ə.peɪt/",
         "partOfSpeech": "verb",
@@ -229,7 +239,6 @@
     "keyword": "anxiety",
     "definitions": [
       {
-        "audio": "/dictionary/a/anxiety-d.mp3",
         "word": "anxiety",
         "phonetics": "/æŋˈzaɪ.ə.t̬i/",
         "partOfSpeech": "noun",
@@ -247,7 +256,6 @@
     "keyword": "apple",
     "definitions": [
       {
-        "audio": "/dictionary/a/apple-d.mp3",
         "word": "apple",
         "phonetics": "/ˈæp.əl/",
         "partOfSpeech": "noun",
@@ -265,7 +273,6 @@
     "keyword": "aerobic",
     "definitions": [
       {
-        "audio": "/dictionary/a/aerobic-adjective.mp3",
         "word": "aerobic",
         "phonetics": "/erˈoʊ.bɪk/",
         "partOfSpeech": "adjective",
@@ -286,7 +293,6 @@
     "keyword": "ask",
     "definitions": [
       {
-        "audio": "/dictionary/a/ask-present.mp3",
         "word": "ask",
         "phonetics": "/æsk/",
         "partOfSpeech": "regular verb • present",
@@ -317,7 +323,7 @@
             "ptExample": "Posso te pedir um conselho?"
           },
           {
-            "enExample": "I usually ask <b>for</b> directions when I'm lost.",
+            "enExample": "I usually ask for directions when I'm lost.",
             "ptExample": "Eu geralmente peço informações quando estou perdido."
           },
           {
@@ -332,7 +338,7 @@
         "ptDefinition": "pedir (preço), cobrar, demandar",
         "examples": [
           {
-            "enExample": "I always ask <b>for</b> $50 per hour for my services.",
+            "enExample": "I always ask for $50 per hour for my services.",
             "ptExample": "Sempre cobro 50 dólares por hora pelos meus serviços."
           }
         ],
@@ -351,7 +357,6 @@
         "antonyms": "avoid, refrain (from)"
       },
       {
-        "audio": "/dictionary/a/asked-past.mp3",
         "word": "asked",
         "phonetics": "/æskt/",
         "partOfSpeech": "past of ask",
@@ -367,7 +372,6 @@
         ]
       },
       {
-        "audio": "/dictionary/a/asked-past-participle.mp3",
         "word": "asked",
         "phonetics": "/æskt/",
         "partOfSpeech": "past participle of ask",
@@ -383,7 +387,6 @@
         ]
       },
       {
-        "audio": "/dictionary/a/asking-present-participle.mp3",
         "word": "asking",
         "phonetics": "/æsk.ɪŋ/",
         "partOfSpeech": "present participle of ask",

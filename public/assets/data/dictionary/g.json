@@ -3,10 +3,10 @@
     "keyword": "game plan",
     "definitions": [
       {
-        "audio": "/dictionary/g/game-plan-idiom.mp3",
         "word": "game plan",
         "partOfSpeech": "idiom",
         "enDefinition": "an action plan; a plan for how a project will proceed",
+        "ptDefinition": "um plano de ação; um plano de como um projeto irá prosseguir",
         "examples": [
           {
             "enExample": "The software company's game plan is to expand its operations into China and India over the next year.",
@@ -20,7 +20,6 @@
     "keyword": "gene",
     "definitions": [
       {
-        "audio": "/dictionary/g/gene-d.mp3",
         "word": "gene",
         "phonetics": "",
         "partOfSpeech": "noun",
@@ -33,7 +32,6 @@
     "keyword": "genome",
     "definitions": [
       {
-        "audio": "/dictionary/g/genome-d.mp3",
         "word": "genome",
         "phonetics": "/ˈdʒiː.noʊm/",
         "partOfSpeech": "noun",
@@ -46,7 +44,6 @@
     "keyword": "genetic code",
     "definitions": [
       {
-        "audio": "/dictionary/g/genetic-code.mp3",
         "word": "genetic code",
         "phonetics": "/.../",
         "partOfSpeech": "noun",
@@ -59,10 +56,10 @@
     "keyword": "get something off the ground",
     "definitions": [
       {
-        "audio": "/dictionary/g/get-something-off-the-ground-idiom.mp3",
         "word": "get something off the ground",
         "partOfSpeech": "idiom",
         "enDefinition": "to get started on something, often a project",
+        "ptDefinition": "começar algo, geralmente um projeto",
         "examples": [
           {
             "enExample": "We've been sitting around talking about this project for months. It's time to take action and get it off the ground!",
@@ -76,7 +73,6 @@
     "keyword": "get to the bottom of",
     "definitions": [
       {
-        "audio": "/dictionary/g/get-to-the-bottom-of-idiom.mp3",
         "word": "get to the bottom of",
         "partOfSpeech": "idiom",
         "enDefinition": "To investigate and discover the true cause or explanation of something, especially a problem or mystery.",
@@ -98,10 +94,10 @@
     "keyword": "get wind of",
     "definitions": [
       {
-        "audio": "/dictionary/g/get-wind-of-idiom.mp3",
         "word": "get wind of",
         "partOfSpeech": "idiom",
         "enDefinition": "to find out about something, often sensitive information",
+        "ptDefinition": "Descobrir algo, muitas vezes uma informação sensível",
         "examples": [
           {
             "enExample": "When the restaurant owner got wind of the fact that one of his waiters was stealing money from the cash register, he was furious.",
@@ -115,7 +111,6 @@
     "keyword": "give a run for one's money",
     "definitions": [
       {
-        "audio": "/g/give-a-run-for-ones-money-idiom.mp3",
         "word": "give a run for one's money",
         "partOfSpeech": "idiom",
         "enDefinition": "strong competition",
@@ -132,7 +127,6 @@
     "keyword": "good",
     "definitions": [
       {
-        "audio": "/dictionary/g/good.mp3",
         "word": "good",
         "phonetics": "/ɡʊd/",
         "partOfSpeech": "adjective",
@@ -179,7 +173,6 @@
     "keyword": "goods",
     "definitions": [
       {
-        "audio": "/dictionary/g/goods.mp3",
         "word": "goods",
         "phonetics": "/ɡʊdz/",
         "partOfSpeech": "noun",
@@ -198,7 +191,6 @@
     "keyword": "the grass is always greener on the other side",
     "definitions": [
       {
-        "audio": "/dictionary/g/grass-other-side.mp3",
         "word": "the grass is always greener on the other side",
         "partOfSpeech": "proverb",
         "enDefinition": "The circumstances of others seem more desirable than one's own but in reality often are not.",
@@ -216,7 +208,6 @@
     "keyword": "guerrilla marketing",
     "definitions": [
       {
-        "audio": "/dictionary/g/guerrilla-marketing-idiom.mp3",
         "word": "guerrilla marketing",
         "partOfSpeech": "idiom",
         "enDefinition": "innovative methods to sell products; non-traditional methods of advertising or promotion that deliver good results with minimal spending",

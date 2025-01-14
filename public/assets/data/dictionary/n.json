@@ -3,7 +3,6 @@
     "keyword": "near",
     "definitions": [
       {
-        "audio": "/dictionary/n/near-verb.mp3",
         "word": "near",
         "phonetics": "/nɪr/",
         "partOfSpeech": "verb",
@@ -20,7 +19,6 @@
         "seeAlso": "come closer, draw near"
       },
       {
-        "audio": "/dictionary/n/near.mp3",
         "word": "near",
         "phonetics": "/nɪr/",
         "partOfSpeech": "adverb",

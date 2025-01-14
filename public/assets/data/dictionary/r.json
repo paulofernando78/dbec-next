@@ -3,7 +3,6 @@
     "keyword": "record-breaking",
     "definitions": [
       {
-        "audio": "/dictionary/r/record-breaking-idiom.mp3",
         "word": "record-breaking",
         "partOfSpeech": "idiom",
         "enDefinition": "better than ever before; exceeding all previous results",
@@ -20,7 +19,6 @@
     "keyword": "redundancy",
     "definitions": [
       {
-        "audio": "/dictionary/r/redundancy-noun.mp3",
         "word": "redundancy",
         "phonetics": "/rɪˈdʌn.dən.si/",
         "partOfSpeech": "noun",
@@ -49,6 +47,7 @@
         "word": "rip off",
         "partOfSpeech": "idiom",
         "enDefinition": "to copy an ideia; to steal",
+        "ptDefinition": "copiar / roubar uma idéia",
         "examples": [
           {
             "enExample": "Why doesn't the Donox Company ever think up any original ideas? All they ever do is rip off their competitors!",

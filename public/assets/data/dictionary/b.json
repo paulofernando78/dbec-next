@@ -13,9 +13,9 @@
             "ptExample": "Ele fez alguns cálculos rápidos para estimar o custo do projeto."
           }
         ],
-        "synonyms": ["rough estimate", "quick calculation"],
-        "antonyms": ["detailed analysis", "precise calculation"],
-        "seeAlso": ["ballpark figure", "guesstimate"]
+        "synonyms": ["rough estimate, quick calculation"],
+        "antonyms": ["detailed analysis, precise calculation"],
+        "seeAlso": ["ballpark figure, guesstimate"]
       }
     ]
   },
@@ -23,7 +23,6 @@
     "keyword": "bladder",
     "definitions": [
       {
-        "audio": "/dictionary/b/bladder-d.mp3",
         "word": "bladder",
         "phonetics": "/ˈblæd.ɚ/",
         "partOfSpeech": "noun",
@@ -41,7 +40,6 @@
     "keyword": "back and forth on an issue",
     "definitions": [
       {
-        "audio": "/dictionary/b/back-and-forth-issue.mp3",
         "word": "back and forth on an issue",
         "partOfSpeech": "idiom",
         "enDefinition": "repeatedly changing one's mind about something; having trouble settling on an opinion or decision",
@@ -57,13 +55,14 @@
     "keyword": "blockbuster",
     "definitions": [
       {
-        "audio": "/dictionary/b/blockbuster-idiom.mp3",
         "word": "blockbuster",
         "partOfSpeech": "idiom",
         "enDefinition": "a big success, something or someone that is forcefully or overwhelmingly impressive, effective or influential",
+        "ptDefinition": "um grande sucesso, algo ou alguém que é impressionante, eficaz ou influente de forma esmagadora",
         "examples": [
           {
-            "enExample": "The campaign was a blockbuster."
+            "enExample": "The campaign was a blockbuster.",
+            "ptExample": "A campanha foi um grande sucesso."
           }
         ]
       }
@@ -73,10 +72,10 @@
     "keyword": "bells and whistles",
     "definitions": [
       {
-        "audio": "/dictionary/b/bells-and-whistles-idiom.mp3",
         "word": "bells and whistles",
         "partOfSpeech": "idiom",
         "enDefinition": "extra product features, usually using the latest technology; product features which are attractive, but not essential for the product to function.",
+        "ptDefinition": "recursos extras do produto, geralmente utilizando a tecnologia mais recente; recursos do produto que são atraentes, mas não essenciais para o funcionamento do produto",
         "examples": [
           {
             "enExample": "Our office just got a new copier with all the bells and whistles. I'll probably never learn how to use all of its features!",
@@ -90,10 +89,10 @@
     "keyword": "big win",
     "definitions": [
       {
-        "audio": "/dictionary/b/big-win-idiom.mp3",
         "word": "big win",
         "partOfSpeech": "idiom",
         "enDefinition": "a huge success; a successful product",
+        "ptDefinition": "um grande sucesso; um produto bem-sucedido",
         "examples": [
           {
             "enExample": "The drug company spent millions on research and development, hoping that one of their new products would be a big win.",
@@ -107,7 +106,6 @@
     "keyword": "bring a product to market",
     "definitions": [
       {
-        "audio": "/dictionary/b/bring-a-product-to-market-phrase.mp3",
         "word": "bring a product to market",
         "partOfSpeech": "phrase",
         "enDefinition": "To develop and successfully introduce high-quality, innovative products to consumers or the marketplace.",
