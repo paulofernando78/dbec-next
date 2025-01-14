@@ -20,23 +20,6 @@
     ]
   },
   {
-    "keyword": "bladder",
-    "definitions": [
-      {
-        "word": "bladder",
-        "phonetics": "/ˈblæd.ɚ/",
-        "partOfSpeech": "noun",
-        "enDefinition": "an organ like a bag inside the body of a person or animal, where urine is stored before it leaves the body",
-        "ptDefinition": "bexiga"
-      },
-      {
-        "audio": "/dictionary/b/bladder-stones.mp3",
-        "word": "bladder stones",
-        "ptDefinition": "cálculos na bexiga"
-      }
-    ]
-  },
-  {
     "keyword": "back and forth on an issue",
     "definitions": [
       {
@@ -46,23 +29,6 @@
         "examples": [
           {
             "enExample": "Should we change our company health plan? I can't make up my mind. I go back and forth on the issue."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "keyword": "blockbuster",
-    "definitions": [
-      {
-        "word": "blockbuster",
-        "partOfSpeech": "idiom",
-        "enDefinition": "a big success, something or someone that is forcefully or overwhelmingly impressive, effective or influential",
-        "ptDefinition": "um grande sucesso, algo ou alguém que é impressionante, eficaz ou influente de forma esmagadora",
-        "examples": [
-          {
-            "enExample": "The campaign was a blockbuster.",
-            "ptExample": "A campanha foi um grande sucesso."
           }
         ]
       }
@@ -120,6 +86,64 @@
             "ptExample": "É crucial para startups levar novos produtos excelentes ao mercado rapidamente para se manterem competitivas."
           }
         ]
+      }
+    ]
+  },
+  {
+    "keyword": "bladder",
+    "definitions": [
+      {
+        "word": "bladder",
+        "phonetics": "/ˈblæd.ɚ/",
+        "partOfSpeech": "noun",
+        "enDefinition": "an organ like a bag inside the body of a person or animal, where urine is stored before it leaves the body",
+        "ptDefinition": "bexiga"
+      },
+      {
+        "audio": "/dictionary/b/bladder-stones.mp3",
+        "word": "bladder stones",
+        "ptDefinition": "cálculos na bexiga"
+      }
+    ]
+  },
+  {
+    "keyword": "blockbuster",
+    "definitions": [
+      {
+        "word": "blockbuster",
+        "partOfSpeech": "idiom",
+        "enDefinition": "a big success, something or someone that is forcefully or overwhelmingly impressive, effective or influential",
+        "ptDefinition": "um grande sucesso, algo ou alguém que é impressionante, eficaz ou influente de forma esmagadora",
+        "examples": [
+          {
+            "enExample": "The campaign was a blockbuster.",
+            "ptExample": "A campanha foi um grande sucesso."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "blow one's mind",
+    "definitions": [
+      {
+        "word": "blow one's mind",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to amaze or overwhelm someone with something incredible or surprising",
+        "ptDefinition": "impressionar ou surpreender alguém com algo incrível ou inesperado",
+        "examples": [
+          {
+            "enExample": "It blows my mind how advanced technology has become in such a short time.",
+            "ptExample": "Me impressiona como a tecnologia avançou tanto em tão pouco tempo."
+          },
+          {
+            "enExample": "The breathtaking view of the mountains really blew my mind.",
+            "ptExample": "A vista deslumbrante das montanhas realmente me impressionou."
+          }
+        ],
+        "synonyms": "amaze, astonish, overwhelm",
+        "antonyms": "bore, disappoint, underwhelm",
+        "seeAlso": "leave speechless, take one's breath away"
       }
     ]
   }

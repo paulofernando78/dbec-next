@@ -214,5 +214,24 @@
         ]
       }
     ]
+  },
+  {
+    "keyword": "crunch the numbers",
+    "definitions": [
+      {
+        "word": "crunch the numbers",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to analyze and process numerical data, often to make decisions or conclusions",
+        "ptDefinition": "analisar e processar dados numéricos, geralmente para tomar decisões ou conclusões",
+        "examples": [
+          {
+            "enExample": "Before making the final decision, the team had to crunch the numbers to ensure the budget would work.",
+            "ptExample": "Antes de tomar a decisão final, a equipe teve que analisar os números para garantir que o orçamento funcionaria."
+          }
+        ],
+        "synonyms": "analyze the data, process the figures, do the calculations",
+        "antonyms": "ignore the data, disregard the numbers"
+      }
+    ]
   }
 ]

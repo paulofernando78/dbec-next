@@ -46,5 +46,26 @@
         ]
       }
     ]
+  },
+  {
+    "keyword": "one's head on the chopping block",
+    "definitions": [
+      {
+        "word": "one's head on the chopping block",
+        "partOfSpeech": "idiom",
+        "enDefinition": "in a position where one is at risk of being criticized, blamed, or punished for something",
+        "ptDefinition": "em uma posição de risco de ser criticado, culpado ou punido por algo",
+        "examples": [
+          {
+            "enExample": "If this project fails, it's my head on the chopping block.",
+            "ptExample": "Se este projeto falhar, será a minha cabeça na guilhotina."
+          }
+        ],
+        "note": "A chopping block is a piece of wood on which food or wood is chopped. Having your head on the block would suggest that it is going to be cut off. Fortunately, the meeting here is not literal. If your head is on the chopping block, you might lose your job, but at least you'll still have your head!",
+        "synonyms": "at risk, on the line, under threat",
+        "antonyms": "safe, out of harm's way",
+        "seeAlso": "on the line, in jeopardy"
+      }
+    ]
   }
 ]

@@ -45,6 +45,26 @@
     ]
   },
   {
+    "keyword": "in hot water",
+    "definitions": [
+      {
+        "word": "in hot water",
+        "partOfSpeech": "idiom",
+        "enDefinition": "in trouble, often as a result of one's actions or decisions",
+        "ptDefinition": "em apuros, geralmente como resultado das próprias ações ou decisões",
+        "examples": [
+          {
+            "enExample": "He was in hot water after missing the important meeting.",
+            "ptExample": "Ele estava em apuros depois de perder a reunião importante."
+          }
+        ],
+        "synonyms": "in trouble, in a jam, in difficulty",
+        "antonyms": "in the clear, safe, out of trouble",
+        "seeAlso": "get into trouble"
+      }
+    ]
+  },
+  {
     "keyword": "in the red",
     "definitions": [
       {
@@ -58,6 +78,26 @@
             "ptExample": "A empresa esteve no vermelho por três trimestres consecutivos."
           }
         ]
+      }
+    ]
+  },
+  {
+    "keyword": "in the red",
+    "definitions": [
+      {
+        "word": "in the red",
+        "partOfSpeech": "idiom",
+        "enDefinition": "in debt or losing money; operating at a financial loss",
+        "ptDefinition": "endividado ou perdendo dinheiro; operando com prejuízo financeiro",
+        "examples": [
+          {
+            "enExample": "After several slow months, the company found itself in the red.",
+            "ptExample": "Após vários meses fracos, a empresa se viu no prejuízo."
+          }
+        ],
+        "synonyms": "in debt, at a loss, in deficit",
+        "antonyms": "in the black, profitable, in surplus",
+        "seeAlso": "financial loss"
       }
     ]
   },

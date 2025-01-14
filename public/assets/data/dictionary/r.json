@@ -78,5 +78,24 @@
         ]
       }
     ]
+  },
+  {
+    "keyword": "run the numbers",
+    "definitions": [
+      {
+        "word": "run the numbers",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to perform calculations or analyze numerical data, usually to evaluate a situation or make a decision",
+        "ptDefinition": "realizar cálculos ou analisar dados numéricos, geralmente para avaliar uma situação ou tomar uma decisão",
+        "examples": [
+          {
+            "enExample": "Before we finalize the project, let's run the numbers to ensure it's financially viable.",
+            "ptExample": "Antes de finalizarmos o projeto, vamos verificar os números para garantir que ele seja financeiramente viável."
+          }
+        ],
+        "synonyms": "crunch the numbers, analyze the data, calculate",
+        "antonyms": "ignore the numbers, skip the analysis"
+      }
+    ]
   }
 ]

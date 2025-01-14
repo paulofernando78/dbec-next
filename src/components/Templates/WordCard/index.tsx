@@ -81,7 +81,7 @@ export function WordCard({ dictionary }: WordCardProps) {
         <p className="display-none">
           <b>{dictionary.keyword}</b>
         </p>
-        <div className={styles["margin-top"]}>
+        <div>
           {dictionary.definitions.map(
             (definition: IDictionaryDefinitions, index: number) => (
               <div key={index}>
@@ -122,7 +122,7 @@ export function WordCard({ dictionary }: WordCardProps) {
                 </p>
 
                 {/* Definitions */}
-                <div className="margin-bottom white-space-pre-wrap">
+                <div className="line-break">
                   <p>
                     <span>
                       <Image
@@ -190,47 +190,46 @@ export function WordCard({ dictionary }: WordCardProps) {
                   ))}
 
                   {/* Note */}
-                  <div className="margin-top">
-                    {definition.notes?.map((note, noteIndex) => (
-                      <p key={noteIndex}>
-                        {note.note && (
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: note.note,
-                            }}
-                          />
-                        )}
+                  {definition.note && (
+                    <p>
+                      <span className="times-new-roman-dictionary">note:</span>{" "}
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: definition.note,
+                        }}
+                      />
+                    </p>
+                  )}
+
+                  <div>
+                    {/* Synonyms and Antonyms */}
+                    {definition.synonyms && (
+                      <p>
+                        <span className="times-new-roman-dictionary">
+                          synonyms:{" "}
+                        </span>
+                        <span>{definition.synonyms}</span>
                       </p>
-                    ))}
+                    )}
+                    {definition.antonyms && (
+                      <p>
+                        <span className="times-new-roman-dictionary">
+                          antonyms:{" "}
+                        </span>
+                        <span>{definition.antonyms}</span>
+                      </p>
+                    )}
+
+                    {/* See also */}
+                    {definition.seeAlso && (
+                      <p>
+                        <span className="times-new-roman-dictionary">
+                          see also:{" "}
+                        </span>
+                        <span>{definition.seeAlso}</span>
+                      </p>
+                    )}
                   </div>
-
-                  {/* Synonyms and Antonyms */}
-                  {definition.synonyms && (
-                    <p>
-                      <span className="times-new-roman-dictionary">
-                        synonyms:{" "}
-                      </span>
-                      <span>{definition.synonyms}</span>
-                    </p>
-                  )}
-                  {definition.antonyms && (
-                    <p>
-                      <span className="times-new-roman-dictionary">
-                        antonyms:{" "}
-                      </span>
-                      <span>{definition.antonyms}</span>
-                    </p>
-                  )}
-
-                  {/* See also */}
-                  {definition.seeAlso && (
-                    <p>
-                      <span className="times-new-roman-dictionary">
-                        See also:{" "}
-                      </span>
-                      <span>{definition.seeAlso}</span>
-                    </p>
-                  )}
                 </div>
               </div>
             )
