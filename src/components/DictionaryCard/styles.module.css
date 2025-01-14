@@ -19,7 +19,7 @@
 
 .label {
     display: inline;
-    margin: 0 5px 0 1px;
+    margin: 0 1px 0 5px;
     font-size: var(--p-size);
 }
 

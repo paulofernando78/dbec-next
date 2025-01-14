@@ -14,11 +14,6 @@
               "content": "<b>Kids</b>"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/kids/chicken-run",
-              "checkboxLabel": "Chicken Run",
-              "time": "3:26"
-            },
-            {
               "checkboxLink": "/materials/extras/audiobooks/starter/kids/cinderella",
               "checkboxLabel": "Cinderella",
               "time": "3:05"
@@ -129,9 +124,9 @@
               "content": "<b>Kids</b>"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/beginner/...",
-              "checkboxLabel": "...",
-              "time": "0:00"
+              "checkboxLink": "/materials/extras/audiobooks/beginner/kids/chicken-run",
+              "checkboxLabel": "Chicken Run",
+              "time": "3:26"
             },
             {
               "applyHr": true

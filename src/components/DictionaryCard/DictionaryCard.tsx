@@ -54,23 +54,18 @@ export const DictionaryCard = ({
           onClick={playAudio}
           className={styles["play-button"]}
         /> */}
-        {word && (
-          <span
-            className={styles["label"]}
-            dangerouslySetInnerHTML={{ __html: word }}
-          ></span>
-        )}
-        {phonetics && (
-          <span className={`phonetics ${styles["phonetics-margin"]}`}>
-            {phonetics}
-          </span>
-        )}
         <Image
           src={Eye}
           alt="Eye icon"
           className={styles["eye"]}
           onClick={() => setVisible(!visible)}
         />
+        {word && (
+          <span
+            className={styles["label"]}
+            dangerouslySetInnerHTML={{ __html: word }}
+          ></span>
+        )}
       </span>
 
       {visible && dictionary && (

@@ -6,9 +6,9 @@
   },
   "lessons": [
     {
-    "imgSrc": "/materials/specific-purposes/business/sbelaa/lesson-2.png",
-    "imgAlt": "An image of a boss \"pulling the plug\" on the project.",
-    "imgWidth": "50%"
+      "imgSrc": "/materials/specific-purposes/business/sbelaa/lesson-2.png",
+      "imgAlt": "An image of a boss \"pulling the plug\" on the project.",
+      "imgWidth": "50%"
     },
     {
       "audioSrc": "/materials/specific-purposes/business/sbelaa/lesson-2.mp3"
@@ -29,8 +29,7 @@
             },
             {
               "keyword": "delicious",
-              "word": "Delicious",
-              "wordAudioSrc": "/dictionary/d/delicious.mp3"
+              "word": "Delicious"
             },
             {
               "textEn": "Delights, a company that makes snack foods. Here, they're discussing the financial projections for a new product line."
@@ -58,8 +57,7 @@
             },
             {
               "keyword": "back-of-the-envelope calculations",
-              "word": "back-of-the-envelope calculations",
-              "wordAudioSrc": "/dictionary/b/back-of-the-envelope-calculations.mp3"
+              "word": "back-of-the-envelope calculations"
             },
             {
               "textEn": ". Take a look."
@@ -80,8 +78,7 @@
             },
             {
               "keyword": "educated guess ",
-              "word": "educated guess ",
-              "wordAudioSrc": "/dictionary/e/educated-guess.mp3"
+              "word": "educated guess "
             },
             {
               "textEn": "based on some equipment I bought last year."
@@ -95,8 +92,7 @@
             },
             {
               "keyword": "in hot water",
-              "word": "in hot water",
-              "wordAudioSrc": "/dictionary/i/in-hot-water.mp3"
+              "word": "in hot water"
             },
             {
               "textEn": "."
@@ -117,8 +113,7 @@
             },
             {
               "keyword": "crunch the numbers",
-              "word": "crunch the numbers",
-              "wordAudioSrc": "/dictionary/c/crunch-the-numbers.mp3"
+              "word": "crunch the numbers"
             },
             {
               "textEn": "."
@@ -139,16 +134,14 @@
             },
             {
               "keyword": "blow one's mind ",
-              "word": "blows my mind ",
-              "wordAudioSrc": "/dictionary/b/blow-ones-mind.mp3"
+              "word": "blows my mind "
             },
             {
               "textEn": "when marketing people want us to"
             },
             {
               "keyword": "run the numbers",
-              "word": "run the numbers",
-              "wordAudioSrc": "/dictionary/r/run-the-numbers.mp3"
+              "word": "run the numbers"
             },
             {
               "textEn": "and they don't bring us the information we need!"
@@ -162,16 +155,14 @@
             },
             {
               "keyword": "in the red",
-              "word": "in the red",
-              "wordAudioSrc": "/dictionary/c/....mp3"
+              "word": "in the red"
             },
             {
               "textEn": "on this project, it's going to be their"
             },
             {
               "keyword": "heads on the chopping block",
-              "word": "heads on the chopping block",
-              "wordAudioSrc": "/dictionary/h/head.mp3"
+              "word": "heads on the chopping block"
             },
             {
               "textEn": ", not ours. They're the ones with P&L* responsibility!"
@@ -185,16 +176,14 @@
             },
             {
               "keyword": "give this project the green light",
-              "word": "give this project the green light",
-              "wordAudioSrc": "/dictionary/g/give this project the green light.mp3"
+              "word": "give this project the green light"
             },
             {
               "textEn": "until he sees all the numbers. If it doesn't look like we'll make money or at least"
             },
             {
               "keyword": "break even",
-              "word": "break even",
-              "wordAudioSrc": "/dictionary/b/break-even.mp3"
+              "word": "break even"
             },
             {
               "textEn": ", he'll"

@@ -11,7 +11,7 @@ export default function Audiobook() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const CONTENTS_JSON_PATH =
-    "/assets/data/materials/extras/audiobooks/starter/kids/chicken-run.json";
+    "/assets/data/materials/extras/audiobooks/beginner/kids/chicken-run.json";
 
   useEffect(() => {
     fetch(CONTENTS_JSON_PATH)
