@@ -298,26 +298,54 @@
     ]
   },
   {
+    "keyword": "pull the plug",
+    "definitions": [
+      {
+        "word": "pull the plug",
+        "phonetics": "",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to stop or end something abruptly, especially a project, plan, or activity",
+        "ptDefinition": "interromper ou encerrar algo abruptamente, especialmente um projeto, plano ou atividade",
+        "examples": [
+          {
+            "enExample": "The company decided to pull the plug on the new product after poor sales performance.",
+            "ptExample": "A empresa decidiu interromper o lançamento do novo produto após o desempenho insatisfatório de vendas."
+          },
+          {
+            "enExample": "After months of delays, they finally pulled the plug on the construction project.",
+            "ptExample": "Após meses de atrasos, eles finalmente interromperam o projeto de construção."
+          }
+        ],
+        "synonyms": "cancel, terminate, end",
+        "antonyms": "continue, proceed, carry on",
+        "seeAlso": "call it quits, shut down"
+      }
+    ]
+  },
+  {
     "keyword": "put",
     "definitions": [
       {
-        "audio": "/dictiomary/p/put.mp3",
         "word": "put",
-        "phonetics": "...",
+        "phonetics": "/pʊt/",
         "partOfSpeech": "irregular verb",
-        "enDefinition": "...",
-        "ptDefinition": "...",
+        "enDefinition": "to move or place something in a particular position or location",
+        "ptDefinition": "mover ou colocar algo em uma posição ou local específico",
         "examples": [
           {
-            "enExample": "...",
-            "ptExample": "..."
+            "enExample": "Can you put the book on the table?",
+            "ptExample": "Você pode colocar o livro na mesa?"
           }
         ],
-        "synonyms": "...",
-        "antonyms": "..."
-      },
+        "synonyms": "place, set, position",
+        "antonyms": "remove, take away"
+      }
+    ]
+  },
+  {
+    "keyword": "put a spoke in someone's wheel",
+    "definitions": [
       {
-        "audio": "/dictiomary/p/put-a-spoke-in-someones-wheel.mp3",
         "word": "put a spoke in someone's wheel",
         "partOfSpeech": "idiom",
         "enDefinition": "to make it difficult for someone to achieve something they had planned to do",
@@ -329,9 +357,13 @@
           }
         ],
         "synonyms": "hinder"
-      },
+      }
+    ]
+  },
+  {
+    "keyword": "put in a good word",
+    "definitions": [
       {
-        "audio": "/dictiomary/p/put-in-a-good-word.mp3",
         "word": "put in a good word",
         "partOfSpeech": "idiom",
         "enDefinition": "to say something good about someone",

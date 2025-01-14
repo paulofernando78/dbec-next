@@ -77,6 +77,8 @@ import notesIcon from "./icon/notes.png";
 import playIcon from "./icon/play-button.png"
 import questionMarkGif from "./gif/question-mark.gif";
 import smallSwimmingPool from "./bitmoji/small-swimming-pool.png";
+import speakerIcon from "./icon/speaker.png"
+import speakerStopIcon from "./icon/speaker-stop.png"
 import stopIcon from "./icon/stop-button.png"
 import timeIcon from "./icon/time.png";
 import tools from "./icon/tools.png";
@@ -163,6 +165,8 @@ export {
   playIcon,
   questionMarkGif,
   smallSwimmingPool,
+  speakerIcon,
+  speakerStopIcon,
   stopIcon,
   timeIcon,
   tools,

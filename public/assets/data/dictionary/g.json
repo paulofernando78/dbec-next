@@ -112,14 +112,48 @@
     "definitions": [
       {
         "word": "give a run for one's money",
+        "phonetics": "",
         "partOfSpeech": "idiom",
-        "enDefinition": "strong competition",
+        "enDefinition": "to challenge someone, providing strong competition or resistance; to make it difficult for someone to succeed or achieve something easily",
+        "ptDefinition": "desafiar alguém, proporcionando forte competição ou resistência; dificultar para que alguém alcance algo facilmente",
         "examples": [
           {
-            "enExample": "When Yahoo decided to go into the online search business, they <b>gave</b> Google <b>a run for their money</b>.",
-            "ptExample": "Quando o Yahoo decidiu investir no mercado de buscas online, eles se tornaram uma forte concorrência para o Google."
+            "enExample": "The underdog team gave the reigning champions a run for their money in the finals.",
+            "ptExample": "O time azarão deu trabalho para os campeões na final."
+          },
+          {
+            "enExample": "If you hire her, she'll give all the other employees a run for their money.",
+            "ptExample": "Se você contratá-la, ela vai dar trabalho para todos os outros funcionários."
           }
-        ]
+        ],
+        "synonyms": "challenge, compete with, rival",
+        "antonyms": "yield, concede, surrender",
+        "seeAlso": "give someone a hard time, hold one's own"
+      }
+    ]
+  },
+  {
+    "keyword": "give somebody the green light",
+    "definitions": [
+      {
+        "word": "give somebody the greenlight",
+        "phonetics": "",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to give someone permission or approval to proceed with a project, action, or idea",
+        "ptDefinition": "dar a alguém permissão ou aprovação para seguir com um projeto, ação ou ideia",
+        "examples": [
+          {
+            "enExample": "The manager gave the team the greenlight to start the new campaign.",
+            "ptExample": "O gerente deu à equipe o sinal verde para começar a nova campanha."
+          },
+          {
+            "enExample": "Once we get the greenlight from the board, we can proceed with construction.",
+            "ptExample": "Assim que recebermos o sinal verde do conselho, podemos prosseguir com a construção."
+          }
+        ],
+        "synonyms": "approve, authorize, permit",
+        "antonyms": "deny, block, refuse",
+        "seeAlso": "give the go-ahead, grant permission"
       }
     ]
   },

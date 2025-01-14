@@ -146,5 +146,29 @@
         "seeAlso": "leave speechless, take one's breath away"
       }
     ]
+  },
+  {
+    "keyword": "break even",
+    "definitions": [
+      {
+        "word": "break even",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to reach a point where total revenue equals total costs, resulting in neither profit nor loss",
+        "ptDefinition": "atingir um ponto onde a receita total é igual ao custo total, resultando sem lucro e sem prejuízo",
+        "examples": [
+          {
+            "enExample": "The company expects to break even by the end of the second quarter.",
+            "ptExample": "A empresa espera alcançar o ponto de equilíbrio até o final do segundo trimestre."
+          },
+          {
+            "enExample": "After the initial investment, the business was finally able to break even.",
+            "ptExample": "Após o investimento inicial, o negócio finalmente conseguiu atingir o ponto de equilíbrio."
+          }
+        ],
+        "synonyms": "balance, reach equilibrium, make no profit or loss",
+        "antonyms": "lose money, make a profit",
+        "seeAlso": "in the black, in the red"
+      }
+    ]
   }
 ]
