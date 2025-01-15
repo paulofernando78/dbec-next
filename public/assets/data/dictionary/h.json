@@ -61,7 +61,11 @@
             "ptExample": "Se este projeto falhar, será a minha cabeça na guilhotina."
           }
         ],
-        "note": "A chopping block is a piece of wood on which food or wood is chopped. Having your head on the block would suggest that it is going to be cut off. Fortunately, the meeting here is not literal. If your head is on the chopping block, you might lose your job, but at least you'll still have your head!",
+        "notes": [
+          {
+            "note": "A chopping block is a piece of wood on which food or wood is chopped. Having your head on the block would suggest that it is going to be cut off. Fortunately, the meeting here is not literal. If your head is on the chopping block, you might lose your job, but at least you'll still have your head!"
+          }
+        ],
         "synonyms": "at risk, on the line, under threat, in jeopardy",
         "antonyms": "safe, out of harm's way"
       }

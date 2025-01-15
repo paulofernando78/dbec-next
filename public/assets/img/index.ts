@@ -74,11 +74,11 @@ import dictionaryIcon from "./icon/dictionary.png";
 import expandForward from "./icon/expand-forward.png";
 import expandDown from "./icon/expand-down.png";
 import notesIcon from "./icon/notes.png";
-import playIcon from "./icon/play-button.png"
+import playIcon from "./icon/play-button.png";
+import playingIcon from "./icon/playing.png"
 import questionMarkGif from "./gif/question-mark.gif";
 import smallSwimmingPool from "./bitmoji/small-swimming-pool.png";
 import speakerIcon from "./icon/speaker.png"
-import speakerStopIcon from "./icon/speaker-stop.png"
 import stopIcon from "./icon/stop-button.png"
 import timeIcon from "./icon/time.png";
 import tools from "./icon/tools.png";
@@ -163,10 +163,10 @@ export {
   expandDown,
   notesIcon,
   playIcon,
+  playingIcon,
   questionMarkGif,
   smallSwimmingPool,
   speakerIcon,
-  speakerStopIcon,
   stopIcon,
   timeIcon,
   tools,

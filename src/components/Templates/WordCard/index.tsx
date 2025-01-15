@@ -8,7 +8,7 @@ import Image from "next/image";
 import { useState } from "react";
 
 // Image
-import { speakerIcon, speakerStopIcon } from "@/img/index";
+import { speakerIcon, playingIcon } from "@/img/index";
 
 // Typescript
 import { IDictionaryDefinitions, WordCardProps } from "./types";
@@ -91,7 +91,9 @@ export function WordCard({ dictionary }: WordCardProps) {
                     <span className="bold">
                       <Image
                         src={
-                          playingAudios[`word-${index}`] ? speakerStopIcon : speakerIcon
+                          playingAudios[`word-${index}`]
+                            ? playingIcon
+                            : speakerIcon
                         }
                         alt={
                           playingAudios[`word-${index}`]
@@ -128,7 +130,7 @@ export function WordCard({ dictionary }: WordCardProps) {
                     <Image
                       src={
                         playingAudios[`definition-${index}`]
-                          ? speakerStopIcon
+                          ? playingIcon
                           : speakerIcon
                       }
                       alt={
@@ -163,7 +165,7 @@ export function WordCard({ dictionary }: WordCardProps) {
                         <Image
                           src={
                             playingAudios[`example-${index}-${exampleIndex}`]
-                              ? speakerStopIcon
+                              ? playingIcon
                               : speakerIcon
                           }
                           alt={
@@ -191,33 +193,41 @@ export function WordCard({ dictionary }: WordCardProps) {
                   </div>
 
                   {/* Synonyms */}
-                  <div className={styles["border-left"]}>
-                    <p className="bold">Synonyms</p>
-                    {definition.synonyms && <p>{definition.synonyms}</p>}
-                  </div>
+                  {definition.synonyms && (
+                    <div className={styles["border-left"]}>
+                      <p className="bold">Synonyms</p>
+                      <p>{definition.synonyms}</p>
+                    </div>
+                  )}
 
                   {/* Antonyms */}
-                  <div className={styles["border-left"]}>
-                    <p className="bold">Antonyms</p>
-                    {definition.antonyms && <p>{definition.antonyms}</p>}
-                  </div>
+                  {definition.antonyms && (
+                    <div className={styles["border-left"]}>
+                      <p className="bold">Antonyms</p>
+                      <p>{definition.antonyms}</p>
+                    </div>
+                  )}
 
                   {/* See also */}
-                  <div className={styles["border-left"]}>
-                    <p className="bold">See also:</p>
-                    {definition.seeAlso && <p>{definition.seeAlso}</p>}
-                  </div>
+                  {definition.seeAlso && (
+                    <div className={styles["border-left"]}>
+                      <p className="bold">See also</p>
+                      <p>{definition.seeAlso}</p>
+                    </div>
+                  )}
 
                   {/* Note */}
                   <div className={styles["border-left"]}>
                     <p className="bold">Note</p>
-                    {definition.note && (
-                      <p
-                        dangerouslySetInnerHTML={{
-                          __html: definition.note,
-                        }}
-                      />
-                    )}
+                    {definition.notes?.map((note, noteIndex) => (
+                      <div key={noteIndex} className="margin-bottom">
+                        <p
+                          dangerouslySetInnerHTML={{
+                            __html: note.note,
+                          }}
+                        />
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>

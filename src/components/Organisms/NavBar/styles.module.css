@@ -3,7 +3,7 @@
   padding: 8px;
   color: white;
   background-color: #062745;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0 ;
   overflow: auto;
   box-shadow: var(--box-shadow);
   height: 92.4vh;
@@ -36,6 +36,7 @@
 
 .nav-bar-link {
   color: white;
+  font-family: var(--font);
 }
 
 .active:active {
