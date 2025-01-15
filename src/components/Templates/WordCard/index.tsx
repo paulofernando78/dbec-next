@@ -223,7 +223,7 @@ export function WordCard({ dictionary }: WordCardProps) {
                       <div key={noteIndex} className="margin-bottom">
                         <p
                           dangerouslySetInnerHTML={{
-                            __html: note.note,
+                            __html: note.note || "",
                           }}
                         />
                       </div>
