@@ -142,7 +142,6 @@
     "keyword": "rip off",
     "definitions": [
       {
-        "audio": "/dictionary/r/rip-off-idiom.mp3",
         "word": "rip off",
         "partOfSpeech": "idiom",
         "enDefinition": "to copy an ideia; to steal",
@@ -160,21 +159,22 @@
     "keyword": "run in place",
     "definitions": [
       {
-        "audio": "/dictionary/r/run-in-place-idiom.mp3",
         "word": "run in place",
         "partOfSpeech": "idiom",
-        "enDefinition": "To make efforts or take actions that do not lead to progress or results.",
-        "ptDefinition": "Fazer esforços ou tomar ações que não levam a progresso ou resultados.",
+        "enDefinition": "to perform an activity or task without making progress or achieving any meaningful results",
+        "ptDefinition": "realizar uma atividade ou tarefa sem fazer progressos ou alcançar resultados significativos",
         "examples": [
           {
-            "enExample": "The team felt like they were running in place because their project kept getting delayed.",
-            "ptExample": "A equipe sentiu que estava correndo no mesmo lugar porque o projeto continuava sendo adiado."
+            "enExample": "The team has been running in place for months, unable to make any real improvements.",
+            "ptExample": "A equipe tem ficado estagnada por meses, sem conseguir fazer melhorias reais."
           },
           {
-            "enExample": "If we don't change our strategy, we'll just keep running in place.",
-            "ptExample": "Se não mudarmos nossa estratégia, continuaremos apenas correndo no mesmo lugar."
+            "enExample": "Despite their efforts, the company seems to be running in place, with no major growth in sales.",
+            "ptExample": "Apesar dos esforços, a empresa parece estar estagnada, sem crescimento significativo nas vendas."
           }
-        ]
+        ],
+        "synonyms": "stagnate, make no progress, go in circles",
+        "antonyms": "advance, move forward, progress"
       }
     ]
   },

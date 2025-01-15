@@ -19,23 +19,6 @@
     ]
   },
   {
-    "keyword": "in deep trouble",
-    "definitions": [
-      {
-        "word": "in deep trouble",
-        "partOfSpeech": "idiom",
-        "enDefinition": "having a serious problem; in crisis",
-        "ptDefinition": "ter um problema sério; estar em crise",
-        "examples": [
-          {
-            "enExample": "If there's another winter without any snowfall, Craig's snow plowing business is going to be deep in trouble.",
-            "ptExample": "Se houver outro inverno sem neve, o negócio de remoção de neve do Craig estará em sérios apuros."
-          }
-        ]
-      }
-    ]
-  },
-  {
     "keyword": "intent",
     "definitions": [
       {
@@ -84,17 +67,28 @@
     ]
   },
   {
-    "keyword": "in the red",
+    "keyword": "in deep trouble",
     "definitions": [
       {
-        "word": "in the red",
+        "word": "in deep trouble",
         "partOfSpeech": "idiom",
-        "enDefinition": "to be in debt or operating at a financial loss",
-        "ptDefinition": "estar em dívida ou operando com prejuízo financeiro",
+        "enDefinition": "to be in a very serious or difficult situation, often with severe consequences",
+        "ptDefinition": "estar em uma situação muito séria ou difícil, frequentemente com consequências graves",
         "examples": [
           {
-            "enExample": "The company has been in the red for three consecutive quarters.",
-            "ptExample": "A empresa esteve no vermelho por três trimestres consecutivos."
+            "enExample": "He’s in deep trouble after missing the payment deadline for his loan.",
+            "ptExample": "Ele está em apuros depois de perder o prazo de pagamento do empréstimo."
+          },
+          {
+            "enExample": "The company found itself in deep trouble after the product recall.",
+            "ptExample": "A empresa se viu em sérios problemas após o recall do produto."
+          }
+        ],
+        "synonyms": "in hot water, in a bind, in a tough spot",
+        "antonyms": "in a good position, trouble-free, safe",
+        "notes": [
+          {
+            "note": "This phrase is commonly used in both personal and professional contexts to emphasize the gravity of a problem."
           }
         ]
       }
@@ -106,17 +100,25 @@
       {
         "word": "in the red",
         "partOfSpeech": "idiom",
-        "enDefinition": "in debt or losing money; operating at a financial loss",
-        "ptDefinition": "endividado ou perdendo dinheiro; operando com prejuízo financeiro",
+        "enDefinition": "to be in debt or operating at a financial loss",
+        "ptDefinition": "estar endividado ou operando com prejuízo financeiro",
         "examples": [
           {
-            "enExample": "After several slow months, the company found itself in the red.",
-            "ptExample": "Após vários meses fracos, a empresa se viu no prejuízo."
+            "enExample": "The company has been in the red since the beginning of the year due to declining sales.",
+            "ptExample": "A empresa está no vermelho desde o início do ano devido à queda nas vendas."
+          },
+          {
+            "enExample": "If we don't cut expenses, we'll be in the red by the end of the month.",
+            "ptExample": "Se não reduzirmos as despesas, estaremos no vermelho até o final do mês."
           }
         ],
-        "synonyms": "in debt, at a loss, in deficit",
-        "antonyms": "in the black, profitable, in surplus",
-        "seeAlso": "financial loss"
+        "synonyms": "in debt, financially struggling, operating at a loss",
+        "antonyms": "in the black, profitable, financially stable",
+        "notes": [
+          {
+            "note": "This idiom is often used in financial contexts to describe a negative cash flow or balance."
+          }
+        ]
       }
     ]
   },

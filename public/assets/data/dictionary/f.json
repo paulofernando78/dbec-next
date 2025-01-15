@@ -1,5 +1,34 @@
 [
   {
+    "keyword": "face the music",
+    "definitions": [
+      {
+        "word": "face the music",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to accept and deal with the consequences of one's actions, especially when they are negative",
+        "ptDefinition": "aceitar e lidar com as consequências de suas ações, especialmente quando são negativas",
+        "examples": [
+          {
+            "enExample": "After making such a big mistake, he had no choice but to face the music.",
+            "ptExample": "Depois de cometer um erro tão grande, ele não teve outra escolha senão encarar as consequências."
+          },
+          {
+            "enExample": "The employees knew they would have to face the music for missing the deadline.",
+            "ptExample": "Os funcionários sabiam que teriam que lidar com as consequências por não cumprirem o prazo."
+          }
+        ],
+        "synonyms": "accept consequences, take responsibility, own up",
+        "antonyms": "avoid blame, escape responsibility, deny",
+        "seeAlso": "",
+        "notes": [
+          {
+            "note": "This idiom is often used when someone must confront a difficult or unpleasant situation as a result of their actions."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "freebie",
     "definitions": [
       {

@@ -1,22 +1,24 @@
 [
   {
-    "keyword": "eat one's lunch",
+    "keyword": "eating one's lunch",
     "definitions": [
       {
-        "word": "eat one's lunch",
+        "word": "eating one's lunch",
         "partOfSpeech": "idiom",
-        "enDefinition": "To outdo, defeat, or surpass someone, often in a competitive situation.",
-        "ptDefinition": "Superar, derrotar ou deixar alguém para trás, geralmente em uma situação competitiva.",
+        "enDefinition": "to outperform or take advantage of someone, often in a competitive or business context",
+        "ptDefinition": "superar ou tirar vantagem de alguém, geralmente em um contexto competitivo ou de negócios",
         "examples": [
           {
-            "enExample": "The new startup is eating the lunch of established companies in the tech industry.",
-            "ptExample": "A nova startup está deixando as empresas estabelecidas para trás na indústria de tecnologia."
+            "enExample": "Their competitor is eating their lunch by offering lower prices and better customer service.",
+            "ptExample": "O concorrente está superando eles oferecendo preços mais baixos e um atendimento ao cliente melhor."
           },
           {
-            "enExample": "If we don’t improve our customer service, the competitor will eat our lunch.",
-            "ptExample": "Se não melhorarmos nosso atendimento ao cliente, o concorrente vai nos deixar para trás."
+            "enExample": "If we don’t innovate, smaller companies will start eating our lunch in this market.",
+            "ptExample": "Se não inovarmos, empresas menores vão começar a nos superar neste mercado."
           }
-        ]
+        ],
+        "synonyms": "outperform, surpass, dominate",
+        "antonyms": "fall behind, lose to, be outdone"
       }
     ]
   },

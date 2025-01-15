@@ -85,8 +85,8 @@ export function WordCard({ dictionary }: WordCardProps) {
           {dictionary.definitions.map(
             (definition: IDictionaryDefinitions, index: number) => (
               <div key={index}>
+                {/* Word with play button */}
                 <div className={`margin-bottom ${styles["padding-left"]}`}>
-                  {/* Word with play button */}
                   {definition.word && (
                     <p>
                       <span className="bold">
@@ -105,20 +105,20 @@ export function WordCard({ dictionary }: WordCardProps) {
                             definition.word &&
                             handleTextToSpeech(definition.word, `word-${index}`)
                           }
-                          className={styles["audio-buttons"]}
+                          className={styles["audio-button"]}
                         />
                         {definition.word}
                       </span>
                     </p>
                   )}
-  
+
                   {/* Phonetics */}
                   {definition.phonetics && (
                     <p className="display-bloc">
                       <span className="phonetics">{definition.phonetics}</span>
                     </p>
                   )}
-  
+
                   {/* Part of Speech*/}
                   <p className={styles["margin-right"]}>
                     <span className="times-new-roman-dictionary">
@@ -128,9 +128,10 @@ export function WordCard({ dictionary }: WordCardProps) {
                 </div>
 
                 <div className="line-break">
+                  {/* Definitions */}
                   <div className={styles["border-left"]}>
-                    {/* Definitions */}
                     <p className="bold">Definition</p>
+
                     <Image
                       src={
                         playingAudios[`definition-${index}`]
@@ -149,7 +150,7 @@ export function WordCard({ dictionary }: WordCardProps) {
                           `definition-${index}`
                         )
                       }
-                      className={styles["audio-buttons"]}
+                      className={styles["audio-button"]}
                     />
                     {definition.enDefinition && (
                       <p className="display-inline">
@@ -161,8 +162,8 @@ export function WordCard({ dictionary }: WordCardProps) {
                     )}
                   </div>
 
+                  {/* English and Portuguese example */}
                   <div className={styles["border-left"]}>
-                    {/* English and Portuguese example */}
                     <p className="bold">Example</p>
                     {definition.examples?.map((example, exampleIndex) => (
                       <p key={exampleIndex}>
@@ -184,7 +185,7 @@ export function WordCard({ dictionary }: WordCardProps) {
                               `example-${index}-${exampleIndex}`
                             )
                           }
-                          className={styles["audio-buttons"]}
+                          className={styles["audio-button"]}
                         />
                         {example.enExample && <span>{example.enExample}</span>}{" "}
                         {example.ptExample && (
@@ -221,18 +222,42 @@ export function WordCard({ dictionary }: WordCardProps) {
                   )}
 
                   {/* Note */}
-                  {definition.notes && <div className={styles["border-left"]}>
+                  <div className={styles["border-left"]}>
                     <p className="bold">Note</p>
-                    {definition.notes?.map((note, noteIndex) => (
-                      <div key={noteIndex} className="margin-bottom">
-                        <p
-                          dangerouslySetInnerHTML={{
-                            __html: note.note || "",
-                          }}
+                    {definition.notes?.map((note, noteIndex) => 
+                    (
+                      <p key={noteIndex}>
+                        <Image
+                          src={
+                            playingAudios[`note-${index}-$
+                            {noteIndex}`]
+                              ? playingIcon
+                              : speakerIcon
+                          }
+                          alt={
+                            playingAudios[`note-${index}-$
+                              {noteIndex}`]
+                              ? "Stop icon"
+                              : "Speaker icon"
+                          }
+                          onClick={() =>
+                            note.enNote &&
+                            handleTextToSpeech(
+                              note.enNote,
+                              `note-${index}-${noteIndex}`
+                            )
+                          }
+                          className={styles["audio-button"]}
                         />
-                      </div>
+                        {note.enNote && <span>{note.enNote}</span>}{" "}
+                        {note.ptNote && (
+                          <span className="portuguese">
+                            {note.ptNote}
+                          </span>
+                        )}
+                      </p>
                     ))}
-                  </div>}
+                  </div>
                 </div>
               </div>
             )

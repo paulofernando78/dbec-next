@@ -63,7 +63,6 @@
         "seeAlso": "close, approximately"
       },
       {
-        "audio": "/dictionary/n/near.mp3",
         "word": "near",
         "phonetics": "/nɪr/",
         "partOfSpeech": "preposition",
@@ -80,7 +79,6 @@
         "seeAlso": "adjacent, alongside"
       },
       {
-        "audio": "/dictionary/n/near.mp3",
         "word": "near",
         "phonetics": "/nɪr/",
         "partOfSpeech": "adjective",
@@ -102,15 +100,25 @@
     "keyword": "new blood",
     "definitions": [
       {
-        "audio": "/dictionary/n/new-blood-idiom.mp3",
         "word": "new blood",
         "partOfSpeech": "idiom",
-        "enDefinition": "New members or participants who bring fresh energy, ideas, or perspectives to a group or organization.",
-        "ptDefinition": "Novos membros ou participantes que trazem energia, ideias ou perspectivas renovadas para um grupo ou organização.",
+        "enDefinition": "new people or ideas brought into a group, organization, or situation, often to invigorate or refresh it",
+        "ptDefinition": "novas pessoas ou ideias introduzidas em um grupo, organização ou situação, geralmente para revigorá-lo ou atualizá-lo",
         "examples": [
           {
-            "enExample": "The company hired several young employees to bring in some new blood.",
-            "ptExample": "A empresa contratou alguns funcionários jovens para renovar a equipe."
+            "enExample": "The company hired new blood to help innovate their outdated processes.",
+            "ptExample": "A empresa contratou novas pessoas para ajudar a inovar seus processos desatualizados."
+          },
+          {
+            "enExample": "The team is looking for some new blood to bring fresh perspectives to the project.",
+            "ptExample": "A equipe está procurando por novas pessoas para trazer perspectivas frescas para o projeto."
+          }
+        ],
+        "synonyms": "fresh talent, new faces, new recruits",
+        "antonyms": "old guard, stagnation, status quo",
+        "notes": [
+          {
+            "note": "This idiom is often used in professional contexts to refer to the infusion of new talent or ideas into a group."
           }
         ]
       }
@@ -120,7 +128,6 @@
     "keyword": "new zealand",
     "definitions": [
       {
-        "audio": "/dictionary/n/new-zealand.mp3",
         "word": "New Zealand",
         "partOfSpeech": "noun",
         "enDefinition": "a country in the southern Pacific Ocean",
@@ -132,7 +139,6 @@
     "keyword": "nip ",
     "definitions": [
       {
-        "audio": "/dictionary/n/nip.mp3",
         "word": "nip ",
         "phonetics": " /nɪp/",
         "partOfSpeech": "verb",
@@ -172,7 +178,6 @@
         ]
       },
       {
-        "audio": "/dictionary/n/nip-off.mp3",
         "word": "nip off",
         "partOfSpeech": "phrasal verb",
         "enDefinition": "remove something by pinching or squeezing sharply",
@@ -191,7 +196,6 @@
         "synonyms": "neck and neck, even, drawn, tied, balanced"
       },
       {
-        "audio": "/dictionary/n/nip-and-tuck-noun.mp3",
         "word": "nip and tuck",
         "partOfSpeech": "noun",
         "enDefinition": "cosmetic surgery",
@@ -206,7 +210,6 @@
         "antonyms": "..."
       },
       {
-        "audio": "/dictionary/n/nip-and-tuck-adjective.mp3",
         "word": "nip and tuck",
         "partOfSpeech": "adjective",
         "enDefinition": "If a competition is nip and tuck, first one side seems to be winning and then the other, so that the result is not certain.",
@@ -225,7 +228,6 @@
         "antonyms": "..."
       },
       {
-        "audio": "/dictionary/n/nip-in-the-bud.mp3",
         "word": "nip (something) in the bud",
         "partOfSpeech": "idiom",
         "enDefinition": "to stop (something) as soon as it starts",
@@ -245,7 +247,6 @@
     "keyword": "no wonder",
     "definitions": [
       {
-        "audio": "/dictionary/n/no-wonder-idiom.mp3",
         "word": "no wonder",
         "partOfSpeech": "idiom",
         "enDefinition": "Used to express that something is not surprising or that the reason for something is obvious.",

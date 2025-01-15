@@ -1,5 +1,27 @@
 [
-  
+  {
+    "keyword": "my gut tells me",
+    "definitions": [
+      {
+        "word": "my gut tells me",
+        "partOfSpeech": "idiom",
+        "enDefinition": "a feeling or intuition that something is true or likely to happen, based on instinct rather than reason or evidence",
+        "ptDefinition": "um sentimento ou intuição de que algo é verdade ou provável de acontecer, baseado no instinto em vez da razão ou evidências",
+        "examples": [
+          {
+            "enExample": "My gut tells me that we should move forward with this project, even if there are risks.",
+            "ptExample": "Meu instinto me diz que devemos seguir com este projeto, mesmo com os riscos."
+          },
+          {
+            "enExample": "I can’t explain it, but my gut tells me that he’s not being honest.",
+            "ptExample": "Não consigo explicar, mas meu instinto me diz que ele não está sendo honesto."
+          }
+        ],
+        "synonyms": "instinct says, feeling tells me, intuition",
+        "antonyms": "reasoned judgment, logical decision, evidence-based conclusion"
+      }
+    ]
+  },
   {
     "keyword": "me-too products",
     "definitions": [
@@ -48,24 +70,34 @@
     "definitions": [
       {
         "word": "market share",
+        "phonetics": "/ˈmɑrkɪt ʃɛr/",
         "partOfSpeech": "noun",
-        "enDefinition": "The portion or percentage of total sales or revenue in a market that is held by a company, product, or brand.",
-        "ptDefinition": "A porção ou porcentagem das vendas ou receita total em um mercado que é detida por uma empresa, produto ou marca.",
+        "enDefinition": "the percentage of total sales or customers that a company or product captures within a specific market",
+        "ptDefinition": "a porcentagem das vendas totais ou clientes que uma empresa ou produto conquista dentro de um mercado específico",
         "examples": [
           {
-            "enExample": "The company increased its market share by 5% in the last quarter.",
-            "ptExample": "A empresa aumentou sua participação de mercado em 5% no último trimestre."
+            "enExample": "The company increased its market share by launching a new product line.",
+            "ptExample": "A empresa aumentou sua participação no mercado ao lançar uma nova linha de produtos."
+          },
+          {
+            "enExample": "They are focusing on customer retention to maintain their market share in the industry.",
+            "ptExample": "Eles estão focados na retenção de clientes para manter sua participação no mercado na indústria."
+          }
+        ],
+        "synonyms": "market portion, market percentage, customer base",
+        "antonyms": "market loss, reduced influence, decreased share",
+        "notes": [
+          {
+            "note": "Market share is often used as a key performance indicator in business strategies."
           }
         ]
       }
     ]
   },
-
   {
     "keyword": "menopause",
     "definitions": [
       {
-        "audio": "/dictionary/m/menopause-noun.mp3",
         "word": "menopause",
         "phonetics": "/ˈmen.ə.pɑːz/ (US)",
         "partOfSpeech": "noun",
@@ -85,7 +117,6 @@
     "keyword": "miscarriage",
     "definitions": [
       {
-        "audio": "/dictionary/m/miscarriage-noun.mp3",
         "word": "miscarriage",
         "phonetics": "/ˈmɪsˌker.ɪdʒ/",
         "partOfSpeech": "noun",
@@ -104,7 +135,6 @@
     "keyword": "moderate",
     "definitions": [
       {
-        "audio": "/dictionary/m/moderate-adjective.mp3",
         "word": "moderate",
         "phonetics": "/ˈmɑː.dɚ.ət/",
         "partOfSpeech": "adjective",
@@ -120,7 +150,6 @@
         "antonyms": "extreme, intense"
       },
       {
-        "audio": "/dictionary/m/moderate-verb.mp3",
         "word": "moderate",
         "phonetics": "/ˈmɑː.dɚ.reɪt/",
         "partOfSpeech": "verb",
@@ -141,7 +170,6 @@
     "keyword": "mum's the word",
     "definitions": [
       {
-        "audio": "/dictionary/m/mums-the-word-idiom.mp3",
         "word": "mum's the word",
         "partOfSpeech": "idiom",
         "enDefinition": "let's keep quiet about this; I agree not to tell anyone about this",

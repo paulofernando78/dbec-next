@@ -1,5 +1,28 @@
 [
   {
+    "keyword": "live to regret this decision",
+    "definitions": [
+      {
+        "word": "live to regret this decision",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to eventually regret a decision, especially after experiencing its negative consequences",
+        "ptDefinition": "eventualmente se arrepender de uma decisão, especialmente após vivenciar suas consequências negativas",
+        "examples": [
+          {
+            "enExample": "He might live to regret this decision of quitting his job without a backup plan.",
+            "ptExample": "Ele pode se arrepender dessa decisão de sair do emprego sem um plano de contingência."
+          },
+          {
+            "enExample": "You could live to regret this decision if you don't take the time to consider all the options.",
+            "ptExample": "Você pode se arrepender dessa decisão se não dedicar um tempo para considerar todas as opções."
+          }
+        ],
+        "synonyms": "regret later, feel sorry, pay the price",
+        "antonyms": "make the right choice, have no regrets, be satisfied"
+      }
+    ]
+  },
+  {
     "keyword": "leapfrog one's competitors",
     "definitions": [
       {

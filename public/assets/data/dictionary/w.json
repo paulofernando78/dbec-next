@@ -1,5 +1,34 @@
 [
   {
+    "keyword": "wishy-washy",
+    "definitions": [
+      {
+        "word": "wishy-washy",
+        "phonetics": "/ˈwɪʃi ˈwɒʃi/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "indecisive, weak, or lacking in strength or conviction, often in relation to opinions or decisions",
+        "ptDefinition": "indeciso, fraco ou sem firmeza, muitas vezes em relação a opiniões ou decisões",
+        "examples": [
+          {
+            "enExample": "His wishy-washy attitude made it difficult to trust his decisions.",
+            "ptExample": "A sua atitude indecisa dificultava confiar nas suas decisões."
+          },
+          {
+            "enExample": "The manager’s wishy-washy response to the situation left the team feeling uncertain about the next steps.",
+            "ptExample": "A resposta indecisa do gerente à situação deixou a equipe insegura sobre os próximos passos."
+          }
+        ],
+        "synonyms": "indecisive, uncertain, weak-willed",
+        "antonyms": "decisive, strong-willed, confident",
+        "notes": [
+          {
+            "note": "This term is often used in a negative sense to describe someone who is unable to make firm decisions or take clear positions."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "Why mess with success?",
     "definitions": [
       {

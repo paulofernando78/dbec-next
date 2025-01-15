@@ -1,5 +1,56 @@
 [
   {
+    "keyword": "put a stake in the ground",
+    "definitions": [
+      {
+        "word": "put a stake in the ground",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to establish a clear position, commitment, or boundary on something, often as a point of reference or to take a stand",
+        "ptDefinition": "estabelecer uma posição clara, compromisso ou limite sobre algo, muitas vezes como um ponto de referência ou para tomar uma posição",
+        "examples": [
+          {
+            "enExample": "The company decided to put a stake in the ground by announcing its commitment to sustainability.",
+            "ptExample": "A empresa decidiu estabelecer sua posição anunciando seu compromisso com a sustentabilidade."
+          },
+          {
+            "enExample": "By launching this product, they’re putting a stake in the ground in the competitive market.",
+            "ptExample": "Ao lançar este produto, eles estão estabelecendo sua posição no mercado competitivo."
+          }
+        ],
+        "synonyms": "take a stand, set a benchmark, draw a line",
+        "antonyms": "remain neutral, stay indecisive, avoid commitment",
+        "notes": [
+          {
+            "enNote": "This idiom is often used in business or leadership contexts to signify a clear decision or boundary being set.",
+            "ptNote": "Este idiom é frequentemente usado em contextos de negócios ou liderança para significar uma decisão clara ou limite sendo estabelecido."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "pros and cons",
+    "definitions": [
+      {
+        "word": "pros and cons",
+        "partOfSpeech": "idiom",
+        "enDefinition": "the advantages and disadvantages of something, often considered when making a decision",
+        "ptDefinition": "as vantagens e desvantagens de algo, geralmente consideradas ao tomar uma decisão",
+        "examples": [
+          {
+            "enExample": "We need to weigh the pros and cons of expanding the business before making a final decision.",
+            "ptExample": "Precisamos avaliar as vantagens e desvantagens de expandir o negócio antes de tomar uma decisão final."
+          },
+          {
+            "enExample": "When choosing a new car, it's important to consider the pros and cons of each model.",
+            "ptExample": "Ao escolher um novo carro, é importante considerar as vantagens e desvantagens de cada modelo."
+          }
+        ],
+        "synonyms": "advantages and disadvantages, benefits and drawbacks, upsides and downsides"
+      }
+    ]
+  },
+  {
     "keyword": "pan out",
     "definitions": [
       {
@@ -111,7 +162,6 @@
     "keyword": "(to be) petty",
     "definitions": [
       {
-        "audio": "/dictiomary/p/petty.mp3",
         "word": "(to be) petty",
         "partOfSpeech": "adjective",
         "enDefinition": "complaining too much about things that are not important",
@@ -158,7 +208,6 @@
     "keyword": "plantain",
     "definitions": [
       {
-        "audio": "/dictiomary/p/plantain.mp3",
         "phonetics": "/ˈplæn.tɪn/",
         "partOfSpeech": "noun",
         "ptDefinition": "banana-da-terra"
@@ -169,7 +218,6 @@
     "keyword": "portmanteau",
     "definitions": [
       {
-        "audio": "/dictiomary/p/portmanteau-noun.mp3",
         "word": "portmanteau",
         "phonetics": " /pɔːrtˈmæn.toʊ/",
         "partOfSpeech": "noun",
@@ -292,7 +340,6 @@
     "keyword": "pregnancy",
     "definitions": [
       {
-        "audio": "/dictiomary/p/pregnancy-noun.mp3",
         "word": "pregnancy",
         "phonetics": "/ˈpreɡ.nən.si/",
         "partOfSpeech": "noun",
@@ -312,7 +359,6 @@
     "keyword": "productivity",
     "definitions": [
       {
-        "audio": "/dictiomary/p/productivity-d.mp3",
         "word": "word",
         "phonetics": "/ˌproʊ.dəkˈtɪv.ə.t̬i/",
         "partOfSpeech": "noun",
@@ -330,7 +376,6 @@
     "keyword": "publicly",
     "definitions": [
       {
-        "audio": "/dictiomary/p/publicly-d.mp3",
         "phonetics": "/ˈpʌb.lɪ.kli/",
         "partOfSpeech": "adverb",
         "ptDefinition": "publicamente",
@@ -352,7 +397,6 @@
     "keyword": "publish",
     "definitions": [
       {
-        "audio": "/dictiomary/p/publish-regular-verb.mp3",
         "word": "publish",
         "phonetics": "/ˈpʌb.lɪʃ/",
         "partOfSpeech": "regular verb",

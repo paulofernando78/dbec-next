@@ -1,5 +1,80 @@
 [
   {
+    "keyword": "the best of both worlds",
+    "definitions": [
+      {
+        "word": "the best of both worlds",
+        "partOfSpeech": "idiom",
+        "enDefinition": "a situation in which one can enjoy the advantages of two different things at the same time, without having to compromise",
+        "ptDefinition": "uma situação em que se pode desfrutar das vantagens de duas coisas diferentes ao mesmo tempo, sem precisar fazer concessões",
+        "examples": [
+          {
+            "enExample": "With the new hybrid car, you get the best of both worlds—great fuel efficiency and a spacious design.",
+            "ptExample": "Com o novo carro híbrido, você tem o melhor dos dois mundos—ótima eficiência de combustível e um design espaçoso."
+          },
+          {
+            "enExample": "Working from home allows me to have the best of both worlds: a flexible schedule and no commute.",
+            "ptExample": "Trabalhar de casa me permite ter o melhor dos dois mundos: um horário flexível e sem necessidade de deslocamento."
+          }
+        ],
+        "synonyms": "have it all, all the advantages, the ideal situation",
+        "antonyms": "compromise, trade-off, sacrifice",
+        "notes": [
+          {
+            "enNote": "This idiom is used to describe a scenario where one benefits from two different things without having to give up either.",
+            "ptNote": "Este idiom é usado para descrever uma situação em que alguém se beneficia de duas coisas diferentes sem precisar abrir mão de nenhuma delas."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "test the waters",
+    "definitions": [
+      {
+        "word": "test the waters",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to try something in a small or cautious way to see if it will be successful before fully committing to it",
+        "ptDefinition": "tentar algo de forma pequena ou cautelosa para ver se será bem-sucedido antes de se comprometer totalmente",
+        "examples": [
+          {
+            "enExample": "Before launching the new product, the company decided to test the waters with a limited release.",
+            "ptExample": "Antes de lançar o novo produto, a empresa decidiu testar o mercado com uma versão limitada."
+          },
+          {
+            "enExample": "We’re testing the waters by offering a free trial to see if customers are interested in our service.",
+            "ptExample": "Estamos testando o mercado oferecendo uma versão de teste gratuita para ver se os clientes têm interesse em nosso serviço."
+          }
+        ],
+        "synonyms": "try out, dip a toe in, sample",
+        "antonyms": "commit, dive in, jump in"
+      }
+    ]
+  },
+  {
+    "keyword": "tough call",
+    "definitions": [
+      {
+        "word": "tough call",
+        "partOfSpeech": "idiom",
+        "enDefinition": "a difficult decision or choice, often involving a trade-off between two or more equally important options",
+        "ptDefinition": "uma decisão ou escolha difícil, muitas vezes envolvendo uma troca entre duas ou mais opções igualmente importantes",
+        "examples": [
+          {
+            "enExample": "Choosing between the two job offers was a tough call, as both had great benefits.",
+            "ptExample": "Escolher entre as duas ofertas de emprego foi uma decisão difícil, já que ambas tinham ótimos benefícios."
+          },
+          {
+            "enExample": "It’s a tough call whether we should expand into new markets or focus on improving our current products.",
+            "ptExample": "É uma decisão difícil decidir se devemos expandir para novos mercados ou focar em melhorar nossos produtos atuais."
+          }
+        ],
+        "synonyms": "difficult decision, hard choice, close call",
+        "antonyms": "easy decision, clear choice, no-brainer"
+      }
+    ]
+  },
+  {
     "keyword": "think outside the box",
     "definitions": [
       {
@@ -229,17 +304,25 @@
     "definitions": [
       {
         "word": "to the tune of",
+        "phonetics": "/tə ðə tuːn ʌv/",
         "partOfSpeech": "idiom",
-        "enDefinition": "in the amount of; approximately",
-        "ptDefinition": "no valor de; aproximadamente",
+        "enDefinition": "used to indicate a specific amount or degree, often referring to money or a quantity",
+        "ptDefinition": "usado para indicar um valor ou quantidade específica, frequentemente relacionado a dinheiro ou uma quantidade",
         "examples": [
           {
-            "enExample": "The company was fined to the tune of $5 million for violating regulations.",
-            "ptExample": "A empresa foi multada na ordem de 5 milhões de dólares por violar regulamentos."
+            "enExample": "The company spent millions to the tune of $5 million on advertising this year.",
+            "ptExample": "A empresa gastou milhões, chegando a $5 milhões, em publicidade este ano."
           },
           {
-            "enExample": "He invested to the tune of $50,000 in the startup.",
-            "ptExample": "Ele investiu na ordem de 50 mil dólares na startup."
+            "enExample": "They raised funds to the tune of $500,000 for the charity event.",
+            "ptExample": "Eles arrecadaram fundos na ordem de $500.000 para o evento beneficente."
+          }
+        ],
+        "synonyms": "amounting to, totaling, in the ballpark of",
+        "antonyms": "insignificant, minimal, small-scale",
+        "notes": [
+          {
+            "note": "This idiom is often used to emphasize the magnitude of something, particularly in financial contexts."
           }
         ]
       }

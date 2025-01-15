@@ -1,5 +1,34 @@
 [
   {
+    "keyword": "bite the bullet",
+    "definitions": [
+      {
+        "word": "bite the bullet",
+        "phonetics": "/baɪt ðə ˈbʊlɪt/",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to endure a painful or unpleasant situation that is unavoidable, often with determination or courage",
+        "ptDefinition": "enfrentar uma situação dolorosa ou desagradável que é inevitável, muitas vezes com determinação ou coragem",
+        "examples": [
+          {
+            "enExample": "She didn’t want to leave her job, but she knew she had to bite the bullet and move on.",
+            "ptExample": "Ela não queria deixar o emprego, mas sabia que precisava enfrentar a situação e seguir em frente."
+          },
+          {
+            "enExample": "Sometimes you just have to bite the bullet and deal with the consequences of your actions.",
+            "ptExample": "Às vezes, você precisa apenas enfrentar a situação e lidar com as consequências de suas ações."
+          }
+        ],
+        "synonyms": "face the music, tough it out, take the plunge",
+        "antonyms": "avoid, run away, evade",
+        "notes": [
+          {
+            "note": "It has been suggested that it is derived historically from the practice of having a patient clench a bullet in their teeth as a way to cope with the pain of a surgical procedure without anesthetic."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "beef up",
     "definitions": [
       {
@@ -54,10 +83,23 @@
       {
         "word": "back and forth on an issue",
         "partOfSpeech": "idiom",
-        "enDefinition": "repeatedly changing one's mind about something; having trouble settling on an opinion or decision",
+        "enDefinition": "to move or happen in one direction and then the opposite, repeatedly or alternately",
+        "ptDefinition": "mover-se ou acontecer em uma direção e depois na direção oposta, repetidamente ou alternadamente",
         "examples": [
           {
-            "enExample": "Should we change our company health plan? I can't make up my mind. I go back and forth on the issue."
+            "enExample": "We had a back-and-forth discussion about the best way to handle the project.",
+            "ptExample": "Tivemos uma discussão de vai-e-vem sobre a melhor forma de lidar com o projeto."
+          },
+          {
+            "enExample": "The negotiations went back and forth for hours before a deal was finally reached.",
+            "ptExample": "As negociações se arrastaram por horas antes que um acordo fosse finalmente alcançado."
+          }
+        ],
+        "synonyms": "alternately",
+        "antonyms": "settled, resolved, straightforward",
+        "notes": [
+          {
+            "note": "This idiom is often used to describe discussions, debates, or movements that are repetitive or constantly shifting between two points."
           }
         ]
       }
@@ -98,21 +140,28 @@
     ]
   },
   {
-    "keyword": "bring a product to market",
+    "keyword": "bring a product to the market",
     "definitions": [
       {
-        "word": "bring a product to market",
-        "partOfSpeech": "phrase",
-        "enDefinition": "To develop and successfully introduce high-quality, innovative products to consumers or the marketplace.",
-        "ptDefinition": "Desenvolver e introduzir com sucesso produtos inovadores e de alta qualidade para os consumidores ou no mercado.",
+        "word": "bring a product to the market",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to launch or introduce a new product or service for sale to the public",
+        "ptDefinition": "lançar ou introduzir um novo produto ou serviço para venda ao público",
         "examples": [
           {
-            "enExample": "The company's mission is to bring products to market that improve people's lives.",
-            "ptExample": "A missão da empresa é levar ao mercado novos produtos excelentes que melhorem a vida das pessoas."
+            "enExample": "The company worked hard to bring their new smartphone to the market before the holiday season.",
+            "ptExample": "A empresa trabalhou arduamente para lançar seu novo smartphone no mercado antes da temporada de festas."
           },
           {
-            "enExample": "It's crucial for startups to bring products to market quickly to stay competitive.",
-            "ptExample": "É crucial para startups levar novos produtos excelentes ao mercado rapidamente para se manterem competitivas."
+            "enExample": "They are planning to bring a line of eco-friendly products to the market next year.",
+            "ptExample": "Eles estão planejando lançar uma linha de produtos ecológicos no mercado no próximo ano."
+          }
+        ],
+        "synonyms": "launch, introduce, roll out",
+        "antonyms": "withdraw, recall, discontinue",
+        "notes": [
+          {
+            "note": "This phrase is commonly used in business and product development contexts to describe the process of making a product available to consumers."
           }
         ]
       }
@@ -129,7 +178,6 @@
         "ptDefinition": "bexiga"
       },
       {
-        "audio": "/dictionary/b/bladder-stones.mp3",
         "word": "bladder stones",
         "ptDefinition": "cálculos na bexiga"
       }

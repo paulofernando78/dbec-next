@@ -160,19 +160,23 @@
     "definitions": [
       {
         "word": "cash in on",
+        "phonetics": "/kæʃ ɪn ɑn/",
         "partOfSpeech": "phrasal verb",
-        "enDefinition": "To take advantage of an opportunity, especially to make money from something.",
-        "ptDefinition": "Aproveitar uma oportunidade, especialmente para ganhar dinheiro com algo.",
+        "enDefinition": "to take advantage of a situation or opportunity to make a profit or gain some benefit",
+        "ptDefinition": "aproveitar uma situação ou oportunidade para lucrar ou obter algum benefício",
         "examples": [
           {
-            "enExample": "The company is looking to cash in on the growing demand for electric cars.",
-            "ptExample": "A empresa está tentando aproveitar a crescente demanda por carros elétricos."
+            "enExample": "The company cashed in on the holiday season by launching a special promotion.",
+            "ptExample": "A empresa aproveitou a temporada de festas para lançar uma promoção especial."
           },
           {
-            "enExample": "She cashed in on her popularity by launching a successful fashion line.",
-            "ptExample": "Ela aproveitou sua popularidade lançando uma linha de moda de sucesso."
+            "enExample": "She cashed in on her popularity by signing a lucrative endorsement deal.",
+            "ptExample": "Ela aproveitou sua popularidade para assinar um contrato lucrativo de patrocínio."
           }
-        ]
+        ],
+        "synonyms": "capitalize on, profit from, take advantage of",
+        "antonyms": "miss an opportunity, overlook, ignore",
+        "seeAlso": ""
       }
     ]
   },
@@ -216,18 +220,28 @@
       {
         "word": "clean house",
         "partOfSpeech": "idiom",
-        "enDefinition": "To remove unnecessary or undesirable people or things from an organization or situation.",
-        "ptDefinition": "Remover pessoas ou coisas desnecessárias ou indesejáveis de uma organização ou situação.",
+        "enDefinition": "to remove unwanted elements or people from a group or organization, often to improve its efficiency or effectiveness",
+        "ptDefinition": "remover elementos ou pessoas indesejadas de um grupo ou organização, geralmente para melhorar sua eficiência ou eficácia",
         "examples": [
           {
-            "enExample": "After the scandal, the new CEO decided to clean house and fire the corrupt executives.",
-            "ptExample": "Após o escândalo, o novo CEO decidiu demitir os executivos corruptos."
+            "enExample": "The new CEO decided to clean house by letting go of several underperforming employees.",
+            "ptExample": "O novo CEO decidiu fazer uma limpeza na empresa, demitindo vários funcionários com baixo desempenho."
+          },
+          {
+            "enExample": "The team needed to clean house after a series of poor results and make some tough decisions.",
+            "ptExample": "A equipe precisou fazer uma limpeza após uma série de resultados ruins e tomar decisões difíceis."
+          }
+        ],
+        "synonyms": "purge, streamline, reorganize",
+        "antonyms": "maintain, preserve, retain",
+        "notes": [
+          {
+            "note": "This idiom is often used in professional or organizational contexts, referring to making significant changes to improve performance."
           }
         ]
       }
     ]
   },
-
   {
     "keyword": "compel",
     "definitions": [

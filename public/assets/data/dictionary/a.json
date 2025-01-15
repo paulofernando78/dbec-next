@@ -457,7 +457,6 @@
         ]
       },
       {
-        "audio": "/dictionary/a/asks-he-she-it.mp3",
         "word": "asks",
         "phonetics": "/æsks/",
         "partOfSpeech": "he, she, it of ask: affirmative only",
@@ -469,7 +468,6 @@
         ]
       },
       {
-        "audio": "/dictionary/a/ask-for-it-trouble-idiom.mp3",
         "word": "ask for it or trouble",
         "partOfSpeech": "idiom",
         "enDefinition": "to be behaving stupidly in a way that is likely to cause problems for you",

@@ -1,5 +1,34 @@
 [
   {
+    "keyword": "good call",
+    "definitions": [
+      {
+        "word": "good call",
+        "partOfSpeech": "idiom",
+        "enDefinition": "a wise or sensible decision or judgment",
+        "ptDefinition": "uma decisão ou julgamento sábio ou sensato",
+        "examples": [
+          {
+            "enExample": "Choosing to invest in renewable energy was a good call for the company.",
+            "ptExample": "Optar por investir em energia renovável foi uma boa decisão para a empresa."
+          },
+          {
+            "enExample": "It was a good call to delay the event until the weather improved.",
+            "ptExample": "Foi uma boa decisão adiar o evento até o tempo melhorar."
+          }
+        ],
+        "synonyms": "wise decision, smart move, good judgment",
+        "antonyms": "bad decision, poor judgment, mistake",
+        "notes": [
+          {
+            "enNote": "This idiom is often used to praise someone for making a smart or appropriate choice.",
+            "ptNote": "Este idiom é frequentemente usado para elogiar alguém por tomar uma decisão inteligente ou apropriada."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "guerrilla marketing",
     "definitions": [
       {
@@ -204,21 +233,28 @@
     ]
   },
   {
-    "keyword": "get to the bottom of",
+    "keyword": "get to the bottom of something",
     "definitions": [
       {
-        "word": "get to the bottom of",
+        "word": "get to the bottom of something",
         "partOfSpeech": "idiom",
-        "enDefinition": "To investigate and discover the true cause or explanation of something, especially a problem or mystery.",
-        "ptDefinition": "Investigar e descobrir a verdadeira causa ou explicação de algo, especialmente um problema ou mistério.",
+        "enDefinition": "to find out the real cause or reason for something, often by thoroughly investigating",
+        "ptDefinition": "descobrir a verdadeira causa ou razão de algo, geralmente por meio de uma investigação detalhada",
         "examples": [
           {
-            "enExample": "The detective worked tirelessly to get to the bottom of the case.",
-            "ptExample": "O detetive trabalhou incansavelmente para chegar à raiz do caso."
+            "enExample": "The manager is determined to get to the bottom of the issue with the delayed shipments.",
+            "ptExample": "O gerente está determinado a descobrir a causa do problema com os atrasos nas entregas."
           },
           {
-            "enExample": "We need to get to the bottom of this issue before it gets worse.",
-            "ptExample": "Precisamos chegar à raiz desse problema antes que piore."
+            "enExample": "We need to get to the bottom of why sales have been declining over the past few months.",
+            "ptExample": "Precisamos entender de fato por que as vendas têm diminuído nos últimos meses."
+          }
+        ],
+        "synonyms": "investigate, uncover, figure out",
+        "antonyms": "ignore, neglect, overlook",
+        "notes": [
+          {
+            "note": "This idiom is often used in problem-solving contexts where understanding the root cause is essential."
           }
         ]
       }

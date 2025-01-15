@@ -1,5 +1,6 @@
 export interface IDictionaryDefinitionsNotes {
-  note?: string;
+  enNote?: string;
+  ptNote?: string;
 }
 export interface IDictionaryDefinitionsExamples {
   enExample?: string;
@@ -18,8 +19,7 @@ export interface IDictionaryDefinitions {
   notes?: IDictionaryDefinitionsNotes[];
   synonyms?: string;
   antonyms?: string;
-  seeAlso?: string; // Changed to optional
-  note?: string; // Changed to optional
+  seeAlso?: string;
 }
 
 export interface IDictionary {

@@ -1,5 +1,28 @@
 [
   {
+    "keyword": "of two minds",
+    "definitions": [
+      {
+        "word": "of two minds",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to be undecided or conflicted about something, having opposing opinions or feelings",
+        "ptDefinition": "estar indeciso ou em conflito sobre algo, tendo opiniões ou sentimentos opostos",
+        "examples": [
+          {
+            "enExample": "I'm of two minds about accepting the job offer; the salary is great, but it's far from home.",
+            "ptExample": "Estou indeciso sobre aceitar a oferta de emprego; o salário é ótimo, mas é longe de casa."
+          },
+          {
+            "enExample": "She’s of two minds regarding the vacation plans; she wants to go, but she's concerned about the cost.",
+            "ptExample": "Ela está indecisa em relação aos planos de férias; quer ir, mas está preocupada com o custo."
+          }
+        ],
+        "synonyms": "undecided, torn between, conflicted",
+        "antonyms": "certain, sure, decided"
+      }
+    ]
+  },
+  {
     "keyword": "on the same page",
     "definitions": [
       {
@@ -56,16 +79,23 @@
       {
         "word": "on top of trends",
         "partOfSpeech": "idiom",
-        "enDefinition": "being aware of, and staying current with, the latest developments, fashions, or movements in a particular field or industry.",
-        "ptDefinition": "estar ciente e atualizado com os últimos desenvolvimentos, modas ou movimentos em um campo ou indústria específica.",
+        "enDefinition": "to stay informed about the latest developments, styles, or changes in a particular field or industry",
+        "ptDefinition": "manter-se informado sobre os últimos desenvolvimentos, estilos ou mudanças em um determinado campo ou setor",
         "examples": [
           {
-            "enExample": "To succeed in the fashion industry, you need to stay on top of trends.",
-            "ptExample": "Para ter sucesso na indústria da moda, é preciso estar por dentro das tendências."
+            "enExample": "Successful marketers always stay on top of trends to keep their strategies relevant.",
+            "ptExample": "Os marqueteiros de sucesso sempre se mantêm atualizados sobre as tendências para manter suas estratégias relevantes."
           },
           {
-            "enExample": "Our marketing team is always on top of trends to make sure our campaigns are relevant.",
-            "ptExample": "Nossa equipe de marketing está sempre por dentro das tendências para garantir que nossas campanhas sejam relevantes."
+            "enExample": "To remain competitive, it's important for designers to stay on top of trends in the fashion industry.",
+            "ptExample": "Para se manter competitivo, é importante que os designers estejam atentos às tendências da indústria da moda."
+          }
+        ],
+        "synonyms": "stay current, stay updated, follow trends",
+        "antonyms": "fall behind, ignore changes, be outdated",
+        "notes": [
+          {
+            "note": "This idiom is often used in professional or creative contexts where being updated is crucial for success."
           }
         ]
       }
@@ -75,7 +105,6 @@
     "keyword": "outage",
     "definitions": [
       {
-        "audio": "/dictionary/o/outage-noun.mp3",
         "word": "outage",
         "phonetics": "/ˈaʊ.t̬ɪdʒ/",
         "partOfSpeech": "noun",
