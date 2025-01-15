@@ -1,5 +1,24 @@
 [
   {
+    "keyword": "icing on the cake",
+    "definitions": [
+      {
+        "word": "icing on the cake",
+        "partOfSpeech": "idiom",
+        "enDefinition": "An additional benefit or feature that makes something even better or more enjoyable, often in a situation that is already positive.",
+        "ptDefinition": "Um benefício ou detalhe adicional que torna algo ainda melhor ou mais agradável, especialmente quando a situação já é boa.",
+        "examples": [
+          {
+            "enExample": "The vacation was amazing, and getting upgraded to a luxury suite was the icing on the cake.",
+            "ptExample": "As férias foram incríveis, e o upgrade para uma suíte de luxo foi o toque final perfeito."
+          }
+        ],
+        "synonyms": "final touch, finishing touch",
+        "antonyms": "a letdown, a disappointment, a setback"
+      }
+    ]
+  },
+  {
     "keyword": "in deep trouble",
     "definitions": [
       {

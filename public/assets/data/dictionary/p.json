@@ -1,5 +1,28 @@
 [
   {
+    "keyword": "plug a product",
+    "definitions": [
+      {
+        "word": "plug a product",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To promote or advertise a product, often in a way that draws attention or generates interest, typically in a casual or informal manner.",
+        "ptDefinition": "Divulgar ou promover um produto, geralmente de forma informal e chamando a atenção de maneira descontraída.",
+        "examples": [
+          {
+            "enExample": "During the interview, the CEO took a moment to plug their latest product, encouraging viewers to check it out.",
+            "ptExample": "Durante a entrevista, o CEO aproveitou para divulgar o lançamento do seu mais novo produto, incentivando os telespectadores a conhecerem."
+          },
+          {
+            "enExample": "We need to plug our product at the event to get more attention and attract potential customers.",
+            "ptExample": "Precisamos promover nosso produto no evento para chamar mais atenção e atrair clientes em potencial."
+          }
+        ],
+        "synonyms": "promote, advertise, market, push",
+        "antonyms": "hide, ignore, downplay"
+      }
+    ]
+  },
+  {
     "keyword": "pat on the back",
     "definitions": [
       {

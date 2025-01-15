@@ -1,5 +1,26 @@
 [
   {
+    "keyword": "half-baked ideas",
+    "definitions": [
+      {
+        "word": "half-baked ideas",
+        "phonetics": "hæf ˈbeɪkt aɪˈdiəz",
+        "partOfSpeech": "idiom",
+        "enDefinition": "Ideas or plans that are still underdeveloped or not fully thought through, often requiring further refinement or consideration.",
+        "ptDefinition": "Ideias ou planos que ainda não estão totalmente desenvolvidos ou que precisam de mais reflexão e ajustes.",
+        "examples": [
+          {
+            "enExample": "In creative brainstorming sessions, half-baked ideas can lead to unexpected breakthroughs when refined.",
+            "ptExample": "Em sessões de brainstorming criativo, ideias inacabadas podem levar a descobertas inesperadas quando aperfeiçoadas."
+          }
+        ],
+        "synonyms": "unfinished ideas, rough concepts, early-stage thoughts",
+        "antonyms": "well-developed ideas, polished solutions, concrete plans",
+        "seeAlso": "brainstorming, creative process, idea development"
+      }
+    ]
+  },
+  {
     "keyword": "happy",
     "definitions": [
       {

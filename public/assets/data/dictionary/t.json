@@ -1,5 +1,109 @@
 [
   {
+    "keyword": "touch base with someone",
+    "definitions": [
+      {
+        "word": "touch base with someone",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To make contact or communicate briefly with someone, often to exchange information or check in on progress.",
+        "ptDefinition": "Entrar em contato ou se comunicar brevemente com alguém, geralmente para trocar informações ou acompanhar o andamento de algo.",
+        "examples": [
+          {
+            "enExample": "I'll touch base with the team to see if they need anything before the meeting.",
+            "ptExample": "Vou entrar em contato com a equipe para ver se eles precisam de algo antes da reunião."
+          },
+          {
+            "enExample": "We should touch base with the client next week to ensure everything is on track with the project.",
+            "ptExample": "Devemos entrar em contato com o cliente na próxima semana para garantir que o projeto esteja no caminho certo."
+          }
+        ],
+        "synonyms": "contact, check in, reach out, communicate",
+        "antonyms": "ignore, avoid, neglect"
+      }
+    ]
+  },
+  {
+    "keyword": "twist one's arm",
+    "definitions": [
+      {
+        "word": "twist one's arm",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To persuade or pressure someone to do something they might not want to do, often by using forceful or convincing arguments.",
+        "ptDefinition": "Persuadir ou pressionar alguém a fazer algo que talvez não queira, geralmente usando argumentos convincentes ou pressão.",
+        "examples": [
+          {
+            "enExample": "I didn't want to go to the party, but my friends twisted my arm, and I ended up going.",
+            "ptExample": "Eu não queria ir à festa, mas meus amigos me convenceram e acabei indo."
+          },
+          {
+            "enExample": "It took a while to twist his arm, but he finally agreed to help with the project.",
+            "ptExample": "Demorou um pouco para convencê-lo, mas ele finalmente concordou em ajudar com o projeto."
+          }
+        ],
+        "synonyms": "persuade, pressure, convince, talk into",
+        "antonyms": "dissuade, discourage, talk out of"
+      }
+    ]
+  },
+  {
+    "keyword": "throw cold water on",
+    "definitions": [
+      {
+        "word": "throw cold water (on)",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To discourage or dampen enthusiasm, ideas, or plans, often by highlighting potential problems or obstacles.",
+        "ptDefinition": "Desanimar ou esfriar o entusiasmo de alguém, geralmente ao apontar dificuldades ou problemas que podem surgir.",
+        "examples": [
+          {
+            "enExample": "While some team members were excited about the new project, one manager threw cold water on it by pointing out the risks.",
+            "ptExample": "Embora alguns membros da equipe estivessem empolgados com o novo projeto, um gerente acabou desmotivando a todos ao destacar os riscos envolvidos."
+          },
+          {
+            "enExample": "It's important to consider feedback, but you don't want to throw cold water on every new idea.",
+            "ptExample": "É importante levar em conta o feedback, mas não se deve desmotivar todas as novas ideias que surgem."
+          }
+        ],
+        "synonyms": "discourage, downplay, dampen enthusiasm, rain on someone's parade",
+        "antonyms": "encourage, support, inspire, fuel enthusiasm",
+        "notes": [
+          {
+            "note": "Although it's important to be cautious, excessive criticism can discourage innovation and creativity."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "tagline",
+    "definitions": [
+      {
+        "word": "tagline",
+        "phonetics": "ˈtæɡˌlaɪn",
+        "partOfSpeech": "noun",
+        "enDefinition": "A short, memorable phrase or slogan used to convey the essence of a brand, product, or company, often used in marketing and advertising.",
+        "ptDefinition": "Uma frase curta e memorável usada para transmitir a essência de uma marca, produto ou empresa, frequentemente utilizada em marketing e publicidade.",
+        "examples": [
+          {
+            "enExample": "The tagline 'Just Do It' has become synonymous with Nike's brand identity.",
+            "ptExample": "'Just Do It' se tornou sinônimo da identidade da marca Nike."
+          },
+          {
+            "enExample": "A strong tagline can capture the essence of a business and leave a lasting impression on customers.",
+            "ptExample": "Uma boa tagline pode capturar a essência de um negócio e deixar uma impressão duradoura nos clientes."
+          }
+        ],
+        "synonyms": "slogan, catchphrase, motto, strapline",
+        "antonyms": "content, narrative, description",
+        "seeAlso": "branding, marketing, advertising, identity",
+        "notes": [
+          {
+            "note": "A memorable tagline plays a crucial role in reinforcing a brand's message and creating emotional connections with consumers."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "think outside the box",
     "definitions": [
       {

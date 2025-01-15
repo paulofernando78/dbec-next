@@ -1,5 +1,29 @@
 [
   {
+    "keyword": "flesh out something",
+    "definitions": [
+      {
+        "word": "flesh out something",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To add more detail, substance, or development to an idea, plan, or concept, often to make it more complete or well-rounded.",
+        "ptDefinition": "Adicionar mais detalhes, substância ou desenvolvimento a uma ideia, plano ou conceito, geralmente para torná-lo mais completo ou consistente.",
+        "examples": [
+          {
+            "enExample": "The initial proposal was just a rough outline, but we need to flesh it out before presenting it to the client.",
+            "ptExample": "A proposta inicial era apenas um esboço, mas precisamos detalhá-la antes de apresentá-la ao cliente."
+          }
+        ],
+        "synonyms": "develop, expand, elaborate, refine",
+        "antonyms": "simplify, abbreviate, shorten, condense",
+        "notes": [
+          {
+            "note": "This phrase is commonly used when referring to developing a concept, project, or plan further, especially in creative or business contexts."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "faux pas",
     "definitions": [
       {

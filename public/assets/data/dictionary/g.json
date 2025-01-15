@@ -1,5 +1,29 @@
 [
   {
+    "keyword": "generate lots of buzz",
+    "definitions": [
+      {
+        "word": "generate lots of buzz",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To create excitement, attention, or interest, often in a short period of time, usually through word-of-mouth or publicity.",
+        "ptDefinition": "Gerar muita atenção ou empolgação, geralmente de forma rápida, publicidade ou boca a boca.",
+        "examples": [
+          {
+            "enExample": "The new product launch generated lots of buzz on social media, with people sharing their opinions and excitement.",
+            "ptExample": "O lançamento do novo produto gerou muita atenção nas redes sociais, com as pessoas compartilhando suas opiniões e empolgação."
+          }
+        ],
+        "synonyms": "create excitement, stir up interest, spark attention",
+        "antonyms": "go unnoticed, lack interest, be ignored",
+        "notes": [
+          {
+            "note": "This phrase is often used in marketing and media to describe how something quickly becomes a topic of conversation."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "game plan",
     "definitions": [
       {
@@ -251,7 +275,11 @@
             "ptExample": "Para promover seu novo serviço de namoro na internet, Don pintou seu carro de rosa e escreveu \"Serviço de Namoro do Don\" em letras grandes nos dois lados do carro. Isso é um marketing de guerrilha eficaz!"
           }
         ],
-        "note": "The word \"guerrilla\" refers to carrying on a war using independent bands of soldiers, who tend to use very aggressive and non-traditional tactics to win battles."
+        "notes": [
+          {
+            "note": "The word \"guerrilla\" refers to carrying on a war using independent bands of soldiers, who tend to use very aggressive and non-traditional tactics to win battles."
+          }
+        ]
       }
     ]
   }

@@ -312,7 +312,11 @@
             "ptExample": "Esses novos mini travesseiros de viagem são perfeitos para encher as meias de Natal."
           }
         ],
-        "note": "This expression comes from the practice of kids hanging up stockings that Santa Claus fills (or \"stuffs\") with small gifts."
+        "notes": [
+          {
+            "note": "This expression comes from the practice of kids hanging up stockings that Santa Claus fills (or \"stuffs\") with small gifts."
+          }
+        ]
       }
     ]
   },

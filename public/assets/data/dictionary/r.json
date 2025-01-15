@@ -1,5 +1,51 @@
 [
   {
+    "keyword": "run with an idea",
+    "definitions": [
+      {
+        "word": "run with an idea",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To take an idea and develop it further, often with enthusiasm and energy, or to proceed with it without hesitation.",
+        "ptDefinition": "Pegar uma ideia e desenvolvê-la, geralmente com entusiasmo e energia, ou seguir com ela sem hesitação.",
+        "examples": [
+          {
+            "enExample": "Once the team heard the new proposal, they were eager to run with the idea and start working on it right away.",
+            "ptExample": "Assim que a equipe ouviu a nova proposta, ficaram animados para desenvolver a ideia e começar a trabalhar nela imediatamente."
+          },
+          {
+            "enExample": "She came up with a creative concept, and we decided to run with the idea for our next marketing campaign.",
+            "ptExample": "Ela teve uma ideia criativa, e decidimos desenvolvê-la para nossa próxima campanha de marketing."
+          }
+        ],
+        "synonyms": "develop, pursue, follow through, act on",
+        "antonyms": "abandon, discard, ignore, dismiss"
+      }
+    ]
+  },
+  {
+    "keyword": "on the right track",
+    "definitions": [
+      {
+        "word": "on the right track",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To be making progress in the right direction or doing something correctly.",
+        "ptDefinition": "Estar no caminho certo, fazendo progresso na direção certa ou tomando as decisões corretas.",
+        "examples": [
+          {
+            "enExample": "After a few initial setbacks, the project team is now on the right track and moving forward smoothly.",
+            "ptExample": "Após alguns contratempos iniciais, a equipe do projeto agora está no caminho certo e avançando sem problemas."
+          },
+          {
+            "enExample": "Your ideas are solid, so I believe you're on the right track to finding a solution.",
+            "ptExample": "Suas ideias são boas, então acredito que você está no caminho certo para encontrar uma solução."
+          }
+        ],
+        "synonyms": "making progress, heading in the right direction, on the correct path",
+        "antonyms": "going off course, lost, on the wrong track"
+      }
+    ]
+  },
+  {
     "keyword": "record-breaking",
     "definitions": [
       {

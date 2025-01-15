@@ -217,7 +217,7 @@ export function WordCard({ dictionary }: WordCardProps) {
                   )}
 
                   {/* Note */}
-                  <div className={styles["border-left"]}>
+                  {definition.notes && <div className={styles["border-left"]}>
                     <p className="bold">Note</p>
                     {definition.notes?.map((note, noteIndex) => (
                       <div key={noteIndex} className="margin-bottom">
@@ -228,7 +228,7 @@ export function WordCard({ dictionary }: WordCardProps) {
                         />
                       </div>
                     ))}
-                  </div>
+                  </div>}
                 </div>
               </div>
             )

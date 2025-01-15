@@ -53,7 +53,7 @@
               "word": "through the roof!"
             },
             {
-              "textEn":	"!"
+              "textEn": "!"
             }
           ]
         },
@@ -67,28 +67,28 @@
               "word": "kudos"
             },
             {
-              "textEn":	"to Linda! She deserves"
+              "textEn": "to Linda! She deserves"
             },
             {
               "keyword": "a pat on the back",
               "word": "a pat on the back"
             },
             {
-              "textEn":	". The"
+              "textEn": ". The"
             },
             {
               "keyword": "guerrilla marketing",
               "word": "guerrilla marketing"
             },
             {
-              "textEn":	"guerrilla marketing campaign she"
+              "textEn": "guerrilla marketing campaign she"
             },
             {
               "keyword": "dream up",
               "word": "dreamed up"
             },
             {
-              "textEn":	"was brilliant. She sent out e-mail to all of our customers asking them to e-mail a friend about our services. For each friend they e-mailed, they received a free gift."
+              "textEn": "was brilliant. She sent out e-mail to all of our customers asking them to e-mail a friend about our services. For each friend they e-mailed, they received a free gift."
             }
           ]
         },
@@ -102,7 +102,7 @@
               "word": "drum up a lot of business"
             },
             {
-              "textEn":	". We"
+              "textEn": ". We"
             },
             {
               "keyword": "sign on customer",
@@ -117,19 +117,17 @@
             },
             {
               "keyword": "pan out",
-              "word": "panned out",
-              "wordAudioSrc": "/dictionary/.mp3"
+              "word": "panned out"
             },
             {
-              "textEn":	". I thought it would, since everybody loves a"
+              "textEn": ". I thought it would, since everybody loves a"
             },
             {
               "keyword": "freebie",
-              "word": "freebie",
-              "wordAudioSrc": "/dictionary/.mp3"
+              "word": "freebie"
             },
             {
-              "textEn":	"!"
+              "textEn": "!"
             }
           ]
         },
@@ -147,7 +145,7 @@
         {
           "paragraphs": [
             {
-              "textEn":	"<b>Linda:</b>"
+              "textEn": "<b>Linda:</b>"
             },
             {
               "keyword": "for the record",
@@ -168,7 +166,7 @@
               "word": "sharing the credit"
             },
             {
-              "textEn":	", Linda. But it was your idea."
+              "textEn": ", Linda. But it was your idea."
             }
           ]
         },
@@ -182,7 +180,7 @@
               "word": "run for their money"
             },
             {
-              "textEn":	"."
+              "textEn": "."
             }
           ]
         }
