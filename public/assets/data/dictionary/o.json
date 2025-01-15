@@ -1,12 +1,63 @@
 [
   {
+    "keyword": "on the same page",
+    "definitions": [
+      {
+        "word": "on the same page",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to have a shared understanding or agreement on something, especially in a discussion or collaborative situation",
+        "ptDefinition": "ter um entendimento ou acordo compartilhado sobre algo, especialmente em uma discussão ou situação colaborativa",
+        "examples": [
+          {
+            "enExample": "Let's have a meeting to make sure we're all on the same page before we move forward.",
+            "ptExample": "Vamos fazer uma reunião para garantir que todos estamos alinhados antes de seguir em frente."
+          },
+          {
+            "enExample": "It's important to get everyone on the same page before starting the new project.",
+            "ptExample": "É importante garantir que todos estejam alinhados antes de começar o novo projeto."
+          }
+        ],
+        "synonyms": "in agreement, aligned, on track",
+        "antonyms": "misunderstood, out of sync, confused",
+        "notes": [
+          {
+            "note": "The phrase is commonly used in both professional and casual contexts to ensure clarity and alignment."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "on the right track",
+    "definitions": [
+      {
+        "word": "on the right track",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to be making progress in the right direction or doing something correctly",
+        "ptDefinition": "estar no caminho certo, fazendo progresso na direção certa ou tomando as decisões corretas",
+        "examples": [
+          {
+            "enExample": "After a few initial setbacks, the project team is now on the right track and moving forward smoothly.",
+            "ptExample": "Após alguns contratempos iniciais, a equipe do projeto agora está no caminho certo e avançando sem problemas."
+          },
+          {
+            "enExample": "Your ideas are solid, so I believe you're on the right track to finding a solution.",
+            "ptExample": "Suas ideias são boas, então acredito que você está no caminho certo para encontrar uma solução."
+          }
+        ],
+        "synonyms": "making progress, heading in the right direction, on the correct path",
+        "antonyms": "going off course, lost, on the wrong track"
+      }
+    ]
+  },
+  {
     "keyword": "on top of trends",
     "definitions": [
       {
         "word": "on top of trends",
         "partOfSpeech": "idiom",
-        "enDefinition": "Being aware of, and staying current with, the latest developments, fashions, or movements in a particular field or industry.",
-        "ptDefinition": "Estar ciente e atualizado com os últimos desenvolvimentos, modas ou movimentos em um campo ou indústria específica.",
+        "enDefinition": "being aware of, and staying current with, the latest developments, fashions, or movements in a particular field or industry.",
+        "ptDefinition": "estar ciente e atualizado com os últimos desenvolvimentos, modas ou movimentos em um campo ou indústria específica.",
         "examples": [
           {
             "enExample": "To succeed in the fashion industry, you need to stay on top of trends.",

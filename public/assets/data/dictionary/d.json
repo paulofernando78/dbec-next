@@ -1,5 +1,53 @@
 [
   {
+    "keyword": "dud",
+    "definitions": [
+      {
+        "word": "dud",
+        "phonetics": "/dʌd/",
+        "partOfSpeech": "noun",
+        "enDefinition": "something that is a failure or does not work as intended",
+        "ptDefinition": "algo que é um fracasso ou não funciona como o esperado",
+        "examples": [
+          {
+            "enExample": "The new gadget turned out to be a dud, it broke after one use.",
+            "ptExample": "O novo dispositivo acabou sendo um fracasso, quebrou após o primeiro uso."
+          }
+        ],
+        "synonyms": "failure, flop, bust",
+        "antonyms": "success, hit, winner"
+      }
+    ]
+  },
+  {
+    "keyword": "do whatever it takes",
+    "definitions": [
+      {
+        "word": "do whatever it takes",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to do everything necessary to achieve a goal, even if it requires significant effort or sacrifice",
+        "ptDefinition": "fazer tudo o que for preciso para alcançar um objetivo, mesmo que exija muito esforço ou sacrifício",
+        "examples": [
+          {
+            "enExample": "The team is ready to do whatever it takes to meet the tight deadline.",
+            "ptExample": "A equipe está disposta a fazer o que for necessário para cumprir o prazo apertado."
+          },
+          {
+            "enExample": "He was determined to succeed and would do whatever it takes to make his dream a reality.",
+            "ptExample": "Ele estava determinado a ter sucesso e faria de tudo para tornar seu sonho realidade."
+          }
+        ],
+        "synonyms": "pull out all the stops, go all out, spare no effort",
+        "antonyms": "give up, hold back, limit effort",
+        "notes": [
+          {
+            "note": "This expression is often used to convey a strong sense of determination and commitment."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "deaf",
     "definitions": [
       {

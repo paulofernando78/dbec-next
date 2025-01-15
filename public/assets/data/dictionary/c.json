@@ -1,5 +1,86 @@
 [
   {
+    "keyword": "cash cow",
+    "definitions": [
+      {
+        "word": "cash cow",
+        "phonetics": "kæʃ kaʊ",
+        "partOfSpeech": "noun",
+        "enDefinition": "a product, service, or business that generates a steady and significant flow of income, often with little investment or effort",
+        "ptDefinition": "um produto, serviço ou negócio que gera um fluxo constante e significativo de receita, geralmente com pouco investimento ou esforço",
+        "examples": [
+          {
+            "enExample": "The company’s flagship smartphone became a cash cow, bringing in billions of dollars every year.",
+            "ptExample": "O smartphone insignia da empresa se tornou uma vaca leiteira, gerando bilhões de dólares todos os anos."
+          },
+          {
+            "enExample": "The software subscription model has become a cash cow for many tech companies.",
+            "ptExample": "O modelo de assinatura de software se tornou uma vaca leiteira para muitas empresas de tecnologia."
+          }
+        ],
+        "synonyms": "money maker, profit machine, revenue generator",
+        "antonyms": "money pit, drain, loss-maker",
+        "notes": [
+          {
+            "note": "The term 'cash cow' is often used in business to refer to a reliable and profitable source of income."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "cutting-edge",
+    "definitions": [
+      {
+        "word": "cutting-edge",
+        "phonetics": "ˈkʌtɪŋ ɛdʒ",
+        "partOfSpeech": "adjective",
+        "enDefinition": "at the forefront of innovation or progress; incorporating the latest and most advanced ideas or technology",
+        "ptDefinition": "na vanguarda da inovação ou progresso; incorporando as ideias ou tecnologias mais recentes e avançadas",
+        "examples": [
+          {
+            "enExample": "The company is known for its cutting-edge technology in the field of artificial intelligence.",
+            "ptExample": "A empresa é conhecida pela sua tecnologia de ponta no campo da inteligência artificial."
+          },
+          {
+            "enExample": "They developed a cutting-edge app that revolutionized the way people communicate.",
+            "ptExample": "Eles desenvolveram um aplicativo de ponta que revolucionou a forma como as pessoas se comunicam."
+          }
+        ],
+        "synonyms": "state-of-the-art, pioneering, innovative",
+        "antonyms": "outdated, obsolete, traditional"
+      }
+    ]
+  },
+  {
+    "keyword": "cutting it (a little) close",
+    "definitions": [
+      {
+        "word": "cutting it (a little) close",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to leave very little time or margin for error when completing a task or reaching a deadline",
+        "ptDefinition": "deixar muito pouco tempo ou margem para erros ao concluir uma tarefa ou cumprir um prazo",
+        "examples": [
+          {
+            "enExample": "We’re cutting it a little close, but I think we’ll finish the project on time.",
+            "ptExample": "Estamos no limite, mas acho que vamos terminar o projeto a tempo."
+          },
+          {
+            "enExample": "If we don’t leave now, we’ll be cutting it too close to catch the train.",
+            "ptExample": "Se não sairmos agora, vamos arriscar perder o trem por pouco."
+          }
+        ],
+        "synonyms": "pushing the limit, tight timing, last-minute",
+        "antonyms": "well-planned, ahead of schedule, ample time",
+        "notes": [
+          {
+            "note": "This phrase is often used in situations involving time management or tight deadlines."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "calorie",
     "definitions": [
       {

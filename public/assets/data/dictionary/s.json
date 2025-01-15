@@ -1,5 +1,33 @@
 [
   {
+    "keyword": "step up to the plate",
+    "definitions": [
+      {
+        "word": "step up to the plate",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to take responsibility or take action when a situation demands it, often in a challenging or high-pressure context",
+        "ptDefinition": "assumir a responsabilidade ou tomar uma atitude quando a situação exige, muitas vezes em um contexto desafiador ou de alta pressão",
+        "examples": [
+          {
+            "enExample": "When the project fell behind schedule, Sarah stepped up to the plate and took charge of the team.",
+            "ptExample": "Quando o projeto atrasou, Sarah assumiu a responsabilidade e liderou a equipe."
+          },
+          {
+            "enExample": "It’s time for the new manager to step up to the plate and show what they can do.",
+            "ptExample": "É hora do novo gerente assumir o desafio e mostrar do que é capaz."
+          }
+        ],
+        "synonyms": "take responsibility, rise to the occasion, take charge",
+        "antonyms": "avoid responsibility, back down, pass the buck",
+        "notes": [
+          {
+            "note": "This expression originates from baseball but is commonly used in business and everyday situations to describe taking initiative."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "sad",
     "definitions": [
       {

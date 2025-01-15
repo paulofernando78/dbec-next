@@ -1,5 +1,33 @@
 [
   {
+    "keyword": "no ifs, ands, or buts",
+    "definitions": [
+      {
+        "word": "no ifs, ands, or buts",
+        "partOfSpeech": "idiom",
+        "enDefinition": "used to emphasize that there are no excuses, exceptions, or compromises allowed in a situation",
+        "ptDefinition": "usado para enfatizar que não há desculpas, exceções ou concessões permitidas em uma situação",
+        "examples": [
+          {
+            "enExample": "You need to finish your report by tomorrow — no ifs, ands, or buts.",
+            "ptExample": "Você precisa terminar o relatório até amanhã — sem desculpas ou negociações."
+          },
+          {
+            "enExample": "The rules are clear, and everyone must follow them, no ifs, ands, or buts.",
+            "ptExample": "As regras são claras e todos devem segui-las, sem exceções ou argumentos."
+          }
+        ],
+        "synonyms": "no excuses, no exceptions, no compromises, absolutely",
+        "antonyms": "with exceptions, with conditions, negotiable",
+        "notes": [
+          {
+            "note": "This expression is often used to establish firm boundaries or emphasize strict adherence to a rule or decision."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "near",
     "definitions": [
       {

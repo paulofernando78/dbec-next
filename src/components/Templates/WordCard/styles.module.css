@@ -47,7 +47,7 @@
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
   /* background: #FFF8B8; */
-  padding: 5px;
+  padding: 1px 5px 9px 5px;
 }
 
 .border-left {

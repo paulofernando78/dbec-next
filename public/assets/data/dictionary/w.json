@@ -1,5 +1,80 @@
 [
   {
+    "keyword": "Why mess with success?",
+    "definitions": [
+      {
+        "word": "Why mess with success?",
+        "partOfSpeech": "idiom",
+        "enDefinition": "a rhetorical question suggesting that one should not change or interfere with something that is already working well or is successful",
+        "ptDefinition": "uma pergunta retórica sugerindo que não se deve mudar ou interferir em algo que já está funcionando bem ou é bem-sucedido",
+        "examples": [
+          {
+            "enExample": "The project has been going great, so why mess with success?",
+            "ptExample": "O projeto está indo muito bem, então por que mexer no que já está funcionando?"
+          }
+        ],
+        "synonyms": "don’t rock the boat",
+        "antonyms": "take risks, try something new, innovate"
+      }
+    ]
+  },
+  {
+    "keyword": "work down to the wire",
+    "definitions": [
+      {
+        "word": "work down to the wire",
+        "partOfSpeech": "idiom",
+        "enDefinition": "working on something until the very last moment, typically because of a tight deadline",
+        "ptDefinition": "trabalhar em algo até o último momento, geralmente devido a um prazo apertado",
+        "examples": [
+          {
+            "enExample": "We’re working down to the wire to finalize the presentation before the meeting tomorrow.",
+            "ptExample": "Estamos trabalhando até o último segundo para finalizar a apresentação antes da reunião de amanhã."
+          },
+          {
+            "enExample": "They were still adjusting the software features, working down to the wire before the product launch.",
+            "ptExample": "Eles ainda estavam ajustando as funcionalidades do software, trabalhando até o limite antes do lançamento do produto."
+          }
+        ],
+        "synonyms": "last-minute effort, racing against the clock, under pressure",
+        "antonyms": "ahead of schedule, with plenty of time, well-prepared",
+        "notes": [
+          {
+            "note": "This phrase is often used in contexts where time management is critical, and tasks are completed just before a deadline."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "work out the kinks",
+    "definitions": [
+      {
+        "word": "work out the kinks",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To resolve problems or difficulties, especially minor ones, in order to make something function smoothly.",
+        "ptDefinition": "Resolver problemas ou dificuldades, especialmente os menores, para fazer algo funcionar perfeitamente.",
+        "examples": [
+          {
+            "enExample": "The new software is almost ready, but we still need to work out the kinks before the official launch.",
+            "ptExample": "O novo software está quase pronto, mas ainda precisamos resolver alguns ajustes antes do lançamento oficial."
+          },
+          {
+            "enExample": "The team spent the weekend working out the kinks in the project plan to avoid any issues during implementation.",
+            "ptExample": "A equipe passou o fim de semana ajustando os detalhes do plano do projeto para evitar problemas durante a implementação."
+          }
+        ],
+        "synonyms": "fix problems, iron out issues, resolve, refine",
+        "antonyms": "complicate, overlook, neglect",
+        "notes": [
+          {
+            "note": "This phrase is often used in contexts where something is in progress and requires minor fixes or refinements before completion."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "weird",
     "definitions": [
       {

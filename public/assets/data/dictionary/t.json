@@ -1,12 +1,35 @@
 [
   {
+    "keyword": "twenty-four seven",
+    "definitions": [
+      {
+        "word": "twenty-four seven (24/7)",
+        "partOfSpeech": "idiom",
+        "enDefinition": "available or operating at all times, every day of the week, without interruption",
+        "ptDefinition": "disponível ou funcionando o tempo todo, todos os dias da semana, sem interrupções",
+        "examples": [
+          {
+            "enExample": "The customer service hotline is available 24/7 for any urgent inquiries.",
+            "ptExample": "A linha de atendimento ao cliente está disponível 24/7 para qualquer solicitação urgente."
+          },
+          {
+            "enExample": "Some businesses run 24/7 to meet customer demands.",
+            "ptExample": "Alguns negócios funcionam 24/7 para atender às demandas dos clientes."
+          }
+        ],
+        "synonyms": "around the clock, all day every day, nonstop",
+        "antonyms": "limited hours, part-time, closed"
+      }
+    ]
+  },
+  {
     "keyword": "touch base with someone",
     "definitions": [
       {
         "word": "touch base with someone",
         "partOfSpeech": "idiom",
-        "enDefinition": "To make contact or communicate briefly with someone, often to exchange information or check in on progress.",
-        "ptDefinition": "Entrar em contato ou se comunicar brevemente com alguém, geralmente para trocar informações ou acompanhar o andamento de algo.",
+        "enDefinition": "to make contact or communicate briefly with someone, often to exchange information or check in on progress",
+        "ptDefinition": "entrar em contato ou se comunicar brevemente com alguém, geralmente para trocar informações ou acompanhar o andamento de algo",
         "examples": [
           {
             "enExample": "I'll touch base with the team to see if they need anything before the meeting.",
@@ -28,8 +51,8 @@
       {
         "word": "twist one's arm",
         "partOfSpeech": "idiom",
-        "enDefinition": "To persuade or pressure someone to do something they might not want to do, often by using forceful or convincing arguments.",
-        "ptDefinition": "Persuadir ou pressionar alguém a fazer algo que talvez não queira, geralmente usando argumentos convincentes ou pressão.",
+        "enDefinition": "to persuade or pressure someone to do something they might not want to do, often by using forceful or convincing arguments.",
+        "ptDefinition": "persuadir ou pressionar alguém a fazer algo que talvez não queira, geralmente usando argumentos convincentes ou pressão",
         "examples": [
           {
             "enExample": "I didn't want to go to the party, but my friends twisted my arm, and I ended up going.",
@@ -51,8 +74,8 @@
       {
         "word": "throw cold water (on)",
         "partOfSpeech": "idiom",
-        "enDefinition": "To discourage or dampen enthusiasm, ideas, or plans, often by highlighting potential problems or obstacles.",
-        "ptDefinition": "Desanimar ou esfriar o entusiasmo de alguém, geralmente ao apontar dificuldades ou problemas que podem surgir.",
+        "enDefinition": "to discourage or dampen enthusiasm, ideas, or plans, often by highlighting potential problems or obstacles",
+        "ptDefinition": "desanimar ou esfriar o entusiasmo de alguém, geralmente ao apontar dificuldades ou problemas que podem surgir",
         "examples": [
           {
             "enExample": "While some team members were excited about the new project, one manager threw cold water on it by pointing out the risks.",
@@ -80,8 +103,8 @@
         "word": "tagline",
         "phonetics": "ˈtæɡˌlaɪn",
         "partOfSpeech": "noun",
-        "enDefinition": "A short, memorable phrase or slogan used to convey the essence of a brand, product, or company, often used in marketing and advertising.",
-        "ptDefinition": "Uma frase curta e memorável usada para transmitir a essência de uma marca, produto ou empresa, frequentemente utilizada em marketing e publicidade.",
+        "enDefinition": "a short, memorable phrase or slogan used to convey the essence of a brand, product, or company, often used in marketing and advertising",
+        "ptDefinition": "uma frase curta e memorável usada para transmitir a essência de uma marca, produto ou empresa, frequentemente utilizada em marketing e publicidade",
         "examples": [
           {
             "enExample": "The tagline 'Just Do It' has become synonymous with Nike's brand identity.",

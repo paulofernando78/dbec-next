@@ -1,5 +1,34 @@
 [
   {
+    "keyword": "beef up",
+    "definitions": [
+      {
+        "word": "beef up",
+        "phonetics": "/biːf ʌp/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to strengthen or improve something, often by adding more resources or support",
+        "ptDefinition": "reforçar ou melhorar algo, geralmente adicionando mais recursos ou apoio",
+        "examples": [
+          {
+            "enExample": "The company decided to beef up its security after the data breach.",
+            "ptExample": "A empresa decidiu reforçar sua segurança após a violação de dados."
+          },
+          {
+            "enExample": "To beef up their marketing strategy, they hired a top advertising agency.",
+            "ptExample": "Para reforçar sua estratégia de marketing, contrataram uma das melhores agências de publicidade."
+          }
+        ],
+        "synonyms": "strengthen, enhance, improve",
+        "antonyms": "weaken, diminish",
+        "notes": [
+          {
+            "note": "The phrase can be applied to various situations, from security to marketing or even physical training."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "back-of-the-envelope calculations",
     "definitions": [
       {

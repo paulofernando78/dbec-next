@@ -1,5 +1,85 @@
 [
   {
+    "keyword": "get buy-in (from)",
+    "definitions": [
+      {
+        "word": "get buy-in (from)",
+        "phonetics": "/ɡɛt baɪ ɪn frəm/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to gain approval, support, or agreement from others, especially in a business or organizational context",
+        "ptDefinition": "obter aprovação, apoio ou concordância de outras pessoas, especialmente em um contexto empresarial ou organizacional",
+        "examples": [
+          {
+            "enExample": "We need to get buy-in from the team before we can proceed with the project.",
+            "ptExample": "Precisamos obter o apoio da equipe antes de podermos prosseguir com o projeto."
+          },
+          {
+            "enExample": "The manager worked hard to get buy-in from the stakeholders for the new initiative.",
+            "ptExample": "O gerente trabalhou duro para obter a aprovação dos envolvidos para a nova iniciativa."
+          }
+        ],
+        "synonyms": "gain support, win approval, get agreement",
+        "antonyms": "face opposition, be rejected"
+      }
+    ]
+  },
+  {
+    "keyword": "get with the program",
+    "definitions": [
+      {
+        "word": "get with the program",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to understand or accept the current situation or way of doing things, especially when it is necessary for progress or success",
+        "ptDefinition": "entender ou aceitar a situação atual ou a forma de fazer as coisas, especialmente quando isso é necessário para o progresso ou sucesso",
+        "examples": [
+          {
+            "enExample": "You need to get with the program if you want to succeed in this industry.",
+            "ptExample": "Você precisa se atualizar se quiser ter sucesso nesta indústria."
+          },
+          {
+            "enExample": "Stop resisting change and get with the program—this is how things are done now.",
+            "ptExample": "Pare de resistir à mudança e se atualize—é assim que as coisas funcionam agora."
+          }
+        ],
+        "synonyms": "get on board, get in line, accept the reality",
+        "antonyms": "resist change, be left behind, not adapt",
+        "notes": [
+          {
+            "note": "This phrase is often used to encourage someone to adapt to new ideas, technologies, or approaches."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "get the job done",
+    "definitions": [
+      {
+        "word": "get the job done",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to complete a task or fulfill a responsibility successfully, regardless of challenges",
+        "ptDefinition": "concluir uma tarefa ou cumprir uma responsabilidade com sucesso, apesar dos desafios",
+        "examples": [
+          {
+            "enExample": "We may face some obstacles, but our team knows how to get the job done.",
+            "ptExample": "Podemos enfrentar alguns obstáculos, mas nossa equipe sabe como fazer o trabalho acontecer."
+          },
+          {
+            "enExample": "No matter how difficult it is, she always finds a way to get the job done.",
+            "ptExample": "Não importa quão difícil seja, ela sempre encontra uma maneira de realizar a tarefa."
+          }
+        ],
+        "synonyms": "accomplish the task, make it happen, see it through",
+        "antonyms": "fail to complete, leave unfinished, fall short",
+        "notes": [
+          {
+            "note": "This phrase emphasizes determination and reliability, often in professional or practical contexts."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "generate lots of buzz",
     "definitions": [
       {

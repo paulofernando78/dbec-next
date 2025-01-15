@@ -1,12 +1,120 @@
 [
   {
+    "keyword": "for starters",
+    "definitions": [
+      {
+        "word": "for starters",
+        "partOfSpeech": "idiom",
+        "enDefinition": "used to introduce the first item in a list or sequence of points or ideas",
+        "ptDefinition": "usado para introduzir o primeiro ponto ou item em uma lista ou sequência de ideias",
+        "examples": [
+          {
+            "enExample": "For starters, we need to address the budget issue before moving on to other topics.",
+            "ptExample": "Para começar, precisamos resolver a questão do orçamento antes de passar para outros tópicos."
+          }
+        ],
+        "synonyms": "first of all, to begin with",
+        "notes": [
+          {
+            "note": "The phrase is often used when listing reasons or steps in an argument or plan."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "fast followers",
+    "definitions": [
+      {
+        "word": "fast followers",
+        "partOfSpeech": "noun",
+        "enDefinition": "companies or individuals who quickly adopt innovations or trends after they have been proven successful by early adopters",
+        "ptDefinition": "empresas ou indivíduos que adotam rapidamente inovações ou tendências após elas terem sido comprovadas como bem-sucedidas pelos primeiros adotantes",
+        "examples": [
+          {
+            "enExample": "Many tech companies are fast followers, adopting new technologies after seeing their success with early adopters.",
+            "ptExample": "Muitas empresas de tecnologia são seguidoras rápidas, adotando novas tecnologias após verem o sucesso delas com os primeiros adotantes."
+          },
+          {
+            "enExample": "The fashion industry is full of fast followers, quickly bringing new styles to the market after they are popularized by influencers.",
+            "ptExample": "A indústria da moda está cheia de seguidoras rápidas, trazendo novas tendências para o mercado depois de serem popularizadas por influenciadores."
+          }
+        ],
+        "synonyms": "copycats, imitators, trend followers",
+        "antonyms": "early adopters, innovators",
+        "notes": [
+          {
+            "note": "The term 'fast follower' often carries a connotation of being reactive rather than proactive in adopting new ideas."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "(just) for the record",
+    "definitions": [
+      {
+        "word": "(just) for the record",
+        "partOfSpeech": "idiom",
+        "enDefinition": "used to clarify or emphasize a fact, often to ensure there is no misunderstanding",
+        "ptDefinition": "usado para esclarecer ou enfatizar um fato, geralmente para evitar mal-entendidos",
+        "examples": [
+          {
+            "enExample": "Just for the record, I never agreed to those terms.",
+            "ptExample": "Só para deixar claro, eu nunca concordei com esses termos."
+          },
+          {
+            "enExample": "Just for the record, the project deadline is next Friday, not this Friday.",
+            "ptExample": "Só para constar, o prazo do projeto é na próxima sexta, não nesta."
+          }
+        ],
+        "synonyms": "for clarity, to be clear, let it be known",
+        "antonyms": "ambiguous, unclear, uncertain",
+        "notes": [
+          {
+            "note": "Often used in conversations or formal statements to ensure accurate understanding of a point."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "fine-tune",
+    "definitions": [
+      {
+        "word": "fine-tune",
+        "phonetics": "faɪn-tun",
+        "partOfSpeech": "verb",
+        "enDefinition": "to make small and precise adjustments to improve something, such as a system, plan, or product, so it works perfectly",
+        "ptDefinition": "fazer ajustes pequenos e precisos para melhorar algo, como um sistema, plano ou produto, para que funcione perfeitamente",
+        "examples": [
+          {
+            "enExample": "We need to fine-tune the presentation before showing it to the investors.",
+            "ptExample": "Precisamos ajustar os detalhes da apresentação antes de mostrá-la aos investidores."
+          },
+          {
+            "enExample": "The engineer spent hours fine-tuning the machine to ensure it operated at peak efficiency.",
+            "ptExample": "O engenheiro passou horas ajustando a máquina para garantir que operasse com eficiência máxima."
+          }
+        ],
+        "synonyms": "adjust, refine, tweak, optimize",
+        "antonyms": "neglect, worsen, overlook",
+        "notes": [
+          {
+            "note": "This phrase is often used in technical, creative, or professional contexts when precision is essential."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "flesh out something",
     "definitions": [
       {
         "word": "flesh out something",
         "partOfSpeech": "idiom",
-        "enDefinition": "To add more detail, substance, or development to an idea, plan, or concept, often to make it more complete or well-rounded.",
-        "ptDefinition": "Adicionar mais detalhes, substância ou desenvolvimento a uma ideia, plano ou conceito, geralmente para torná-lo mais completo ou consistente.",
+        "enDefinition": "to add more detail, substance, or development to an idea, plan, or concept, often to make it more complete or well-rounded",
+        "ptDefinition": "adicionar mais detalhes, substância ou desenvolvimento a uma ideia, plano ou conceito, geralmente para torná-lo mais completo ou consistente",
         "examples": [
           {
             "enExample": "The initial proposal was just a rough outline, but we need to flesh it out before presenting it to the client.",

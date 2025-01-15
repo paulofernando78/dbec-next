@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "keyword": "leapfrog one's competitors",
+    "definitions": [
+      {
+        "word": "leapfrog one's competitors",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to surpass or outdo one's competitors by making a significant advance or breakthrough",
+        "ptDefinition": "superar ou ultrapassar os concorrentes com um avanço ou inovação significativa",
+        "examples": [
+          {
+            "enExample": "The company managed to leapfrog its competitors by introducing a revolutionary new technology.",
+            "ptExample": "A empresa conseguiu superar seus concorrentes ao lançar uma tecnologia revolucionária."
+          }
+        ],
+        "synonyms": "outpace, surpass, outstrip",
+        "antonyms": "lag behind, fall short, trail",
+        "notes": [
+          {
+            "note": "The term comes from the idea of one person leaping over another in a race, symbolizing a major leap forward. It's also a popular children's game in which one child bends down and another jumps over him or her."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,5 +1,56 @@
 [
   {
+    "keyword": "at a premium",
+    "definitions": [
+      {
+        "word": "at a premium",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to be in high demand and priced higher than usual, often due to rarity or desirability",
+        "ptDefinition": "estar em alta demanda e com preço mais alto do que o usual, geralmente devido à raridade ou desejo",
+        "examples": [
+          {
+            "enExample": "Tickets for the concert are being sold at a premium due to high demand.",
+            "ptExample": "Os ingressos para o show estão sendo vendidos a um preço elevado devido à alta demanda."
+          },
+          {
+            "enExample": "During the holidays, flights are usually available at a premium.",
+            "ptExample": "Durante as férias, os voos geralmente estão disponíveis a preços mais altos."
+          }
+        ],
+        "synonyms": "expensive, costly, overpriced",
+        "antonyms": "cheap, affordable, discounted"
+      }
+    ]
+  },
+  {
+    "keyword": "at the end of the day",
+    "definitions": [
+      {
+        "word": "at the end of the day",
+        "partOfSpeech": "idiom",
+        "enDefinition": "ultimately, when all is considered, after all factors have been taken into account",
+        "ptDefinition": "no final das contas, quando tudo for considerado, após levar em conta todos os fatores",
+        "examples": [
+          {
+            "enExample": "At the end of the day, it’s the results that matter the most",
+            "ptExample": "No final das contas, são os resultados que importam mais"
+          },
+          {
+            "enExample": "We might disagree on many points, but at the end of the day, we’re all working towards the same goal.",
+            "ptExample": "Podemos discordar de muitos pontos, mas no final das contas, estamos todos trabalhando para o mesmo objetivo."
+          }
+        ],
+        "synonyms": "when all is said and done, in the final analysis, when the dust settles",
+        "antonyms": "at the beginning, in the early stages, initially",
+        "notes": [
+          {
+            "note": "This phrase is often used to summarize or conclude a discussion, emphasizing what matters most after considering all aspects."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "aim",
     "definitions": [
       {

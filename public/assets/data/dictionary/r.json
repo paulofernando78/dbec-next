@@ -1,12 +1,59 @@
 [
   {
+    "keyword": "real dog",
+    "definitions": [
+      {
+        "word": "real dog",
+        "partOfSpeech": "idiom",
+        "enDefinition": "a phrase used to describe something or someone as particularly poor, unpleasant, or unattractive",
+        "ptDefinition": "uma expressão usada para descrever algo ou alguém como particularmente ruim, desagradável ou pouco atraente",
+        "examples": [
+          {
+            "enExample": "That movie was a real dog, I couldn’t sit through it.",
+            "ptExample": "Aquele filme foi um verdadeiro fracasso, eu não consegui assistir até o final."
+          }
+        ],
+        "synonyms": "flop, dud, failure",
+        "antonyms": "hit, success"
+      }
+    ]
+  },
+  {
+    "keyword": "reality check",
+    "definitions": [
+      {
+        "word": "reality check",
+        "partOfSpeech": "noun",
+        "enDefinition": "an occasion or event that forces someone to recognize the truth about a situation, often when their expectations are unrealistic",
+        "ptDefinition": "um momento ou evento que força alguém a reconhecer a realidade de uma situação, especialmente quando suas expectativas são irreais",
+        "examples": [
+          {
+            "enExample": "After seeing the sales numbers, the team had a reality check about the effectiveness of their campaign.",
+            "ptExample": "Depois de ver os números de vendas, a equipe caiu na real sobre a eficácia da campanha."
+          },
+          {
+            "enExample": "Failing the exam was a harsh reality check that she needed to study harder.",
+            "ptExample": "Reprovar no exame foi um choque de realidade que mostrou que ela precisava estudar mais."
+          }
+        ],
+        "synonyms": "wake-up call, dose of reality, moment of truth",
+        "antonyms": "illusion, fantasy, unrealistic expectation",
+        "notes": [
+          {
+            "note": "This phrase is often used to describe moments of clarity or realization, especially when someone's perception is far from reality."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "run with an idea",
     "definitions": [
       {
         "word": "run with an idea",
         "partOfSpeech": "idiom",
-        "enDefinition": "To take an idea and develop it further, often with enthusiasm and energy, or to proceed with it without hesitation.",
-        "ptDefinition": "Pegar uma ideia e desenvolvê-la, geralmente com entusiasmo e energia, ou seguir com ela sem hesitação.",
+        "enDefinition": "to take an idea and develop it further, often with enthusiasm and energy, or to proceed with it without hesitation",
+        "ptDefinition": "pegar uma ideia e desenvolvê-la, geralmente com entusiasmo e energia, ou seguir com ela sem hesitação",
         "examples": [
           {
             "enExample": "Once the team heard the new proposal, they were eager to run with the idea and start working on it right away.",
@@ -19,29 +66,6 @@
         ],
         "synonyms": "develop, pursue, follow through, act on",
         "antonyms": "abandon, discard, ignore, dismiss"
-      }
-    ]
-  },
-  {
-    "keyword": "on the right track",
-    "definitions": [
-      {
-        "word": "on the right track",
-        "partOfSpeech": "idiom",
-        "enDefinition": "To be making progress in the right direction or doing something correctly.",
-        "ptDefinition": "Estar no caminho certo, fazendo progresso na direção certa ou tomando as decisões corretas.",
-        "examples": [
-          {
-            "enExample": "After a few initial setbacks, the project team is now on the right track and moving forward smoothly.",
-            "ptExample": "Após alguns contratempos iniciais, a equipe do projeto agora está no caminho certo e avançando sem problemas."
-          },
-          {
-            "enExample": "Your ideas are solid, so I believe you're on the right track to finding a solution.",
-            "ptExample": "Suas ideias são boas, então acredito que você está no caminho certo para encontrar uma solução."
-          }
-        ],
-        "synonyms": "making progress, heading in the right direction, on the correct path",
-        "antonyms": "going off course, lost, on the wrong track"
       }
     ]
   },

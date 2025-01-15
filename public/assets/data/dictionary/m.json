@@ -1,4 +1,31 @@
 [
+  
+  {
+    "keyword": "me-too products",
+    "definitions": [
+      {
+        "word": "me-too products",
+        "phonetics": "/miː tuː ˈprɒdʌkts/",
+        "partOfSpeech": "noun",
+        "enDefinition": "products that copy or closely resemble successful ones already on the market, typically made by competitors",
+        "ptDefinition": "produtos que imitam ou se assemelham muito a outros já populares no mercado, geralmente feitos por concorrentes",
+        "examples": [
+          {
+            "enExample": "The company introduced a me-too product to take on the top-selling brand in the market.",
+            "ptExample": "A empresa lançou um produto semelhante para competir com a marca mais vendida do mercado."
+          }
+        ],
+        "synonyms": "copycat products, knock-offs, imitations",
+        "antonyms": "innovative products, original products",
+        "seeAlso": "",
+        "notes": [
+          {
+            "note": "This term often implies a lack of originality or creativity."
+          }
+        ]
+      }
+    ]
+  },
   {
     "keyword": "make a killing",
     "definitions": [
