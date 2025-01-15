@@ -1,5 +1,34 @@
 [
   {
+    "keyword": "record-breaking",
+    "definitions": [
+      {
+        "word": "record-breaking",
+        "phonetics": "/ˈrɛkɔːd ˌbreɪkɪŋ/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "surpassing previous achievements or setting a new standard",
+        "ptDefinition": "superando realizações anteriores ou estabelecendo um novo padrão",
+        "examples": [
+          {
+            "enExample": "The athlete achieved a record-breaking performance in the 100-meter dash.",
+            "ptExample": "O atleta alcançou um desempenho recorde nos 100 metros rasos."
+          },
+          {
+            "enExample": "The movie had a record-breaking opening weekend, earning millions at the box office.",
+            "ptExample": "O filme teve um fim de semana de estreia recorde, arrecadando milhões nas bilheterias."
+          }
+        ],
+        "synonyms": "unprecedented, groundbreaking, historic",
+        "antonyms": "ordinary, typical, average",
+        "seeAlso": "",
+        "notes": [
+          {
+            "note": "This term is often used in sports, entertainment, and other fields where exceptional achievements are celebrated."
+          }
+        ]
+      }
+    ]
+  },{
     "keyword": "real dog",
     "definitions": [
       {

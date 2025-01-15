@@ -1,5 +1,58 @@
 [
   {
+    "keyword": "pan out",
+    "definitions": [
+      {
+        "word": "pan out",
+        "phonetics": "/pæn aʊt/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to develop or unfold in a particular way, usually with a positive or successful outcome",
+        "ptDefinition": "se desenrolar ou se desenvolver de uma maneira específica, geralmente com um resultado positivo ou bem-sucedido",
+        "examples": [
+          {
+            "enExample": "The project didn't pan out as expected, but we learned a lot from the experience.",
+            "ptExample": "O projeto não teve o resultado esperado, mas aprendemos muito com a experiência."
+          },
+          {
+            "enExample": "Their plan to expand the business really panned out, and they saw significant growth.",
+            "ptExample": "O plano de expandir os negócios realmente deu certo, e eles viram um crescimento significativo."
+          }
+        ],
+        "synonyms": "work out, succeed, unfold",
+        "antonyms": "fail, flop, go wrong"
+      }
+    ]
+  },
+  {
+    "keyword": "a pat on the back",
+    "definitions": [
+      {
+        "word": "a pat on the back",
+        "partOfSpeech": "idiom",
+        "enDefinition": "an expression of praise or approval for someone's achievement or effort",
+        "ptDefinition": "uma expressão de elogio ou aprovação por uma conquista ou esforço de alguém",
+        "examples": [
+          {
+            "enExample": "She deserves a pat on the back for her hard work on the project.",
+            "ptExample": "Ela merece um elogio pelo trabalho duro no projeto."
+          },
+          {
+            "enExample": "The coach gave the team a pat on the back after their victory.",
+            "ptExample": "O treinador elogiou o time após a vitória."
+          }
+        ],
+        "synonyms": "compliment, praise, recognition",
+        "antonyms": "criticism, reprimand, disapproval",
+        "seeAlso": "",
+        "notes": [
+          {
+            "note": "This idiom is often used to express appreciation informally, either literally or figuratively."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "plug a product",
     "definitions": [
       {

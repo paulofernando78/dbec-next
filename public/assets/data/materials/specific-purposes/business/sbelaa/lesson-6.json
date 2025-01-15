@@ -105,7 +105,7 @@
               "textEn": ". We"
             },
             {
-              "keyword": "sign on customer",
+              "keyword": "sign on new customers (or members)",
               "word": "signed on 800 new customers"
             }
           ]
@@ -173,10 +173,10 @@
         {
           "paragraphs": [
             {
-              "textEn": "<b>Todd:</b> The important thing is that we're now giving our biggest competitor, U.S. Bank, a"
+              "textEn": "<b>Todd:</b> The important thing is that we're now <span class='underline'>giving</span> our biggest competitor, U.S. Bank, a"
             },
             {
-              "keyword": "run for their money",
+              "keyword": "give a run for one's money",
               "word": "run for their money"
             },
             {

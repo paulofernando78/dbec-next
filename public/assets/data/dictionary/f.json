@@ -1,5 +1,29 @@
 [
   {
+    "keyword": "freebie",
+    "definitions": [
+      {
+        "word": "freebie",
+        "phonetics": "/ˈfriːbi/",
+        "partOfSpeech": "noun",
+        "enDefinition": "something that is given for free, often as a promotional item or gift",
+        "ptDefinition": "algo que é dado gratuitamente, geralmente como um item promocional ou presente",
+        "examples": [
+          {
+            "enExample": "They handed out freebies to customers at the grand opening of the store.",
+            "ptExample": "Eles distribuíram brindes para os clientes na inauguração da loja."
+          },
+          {
+            "enExample": "Many websites offer freebies to attract new users or subscribers.",
+            "ptExample": "Muitos sites oferecem brindes para atrair novos usuários ou assinantes."
+          }
+        ],
+        "synonyms": "gift, giveaway, promotional item",
+        "antonyms": "purchase, buy, charge"
+      }
+    ]
+  },
+  {
     "keyword": "for starters",
     "definitions": [
       {

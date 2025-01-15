@@ -1,5 +1,56 @@
 [
   {
+    "keyword": "think outside the box",
+    "definitions": [
+      {
+        "word": "think outside the box",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to think creatively or unconventionally, to consider ideas or solutions that are different from the usual approach",
+        "ptDefinition": "pensar de forma criativa ou não convencional, considerar ideias ou soluções diferentes da abordagem habitual",
+        "examples": [
+          {
+            "enExample": "We need to think outside the box if we want to solve this problem in a new way.",
+            "ptExample": "Precisamos pensar de maneira criativa se quisermos resolver esse problema de uma forma nova."
+          },
+          {
+            "enExample": "The team was encouraged to think outside the box to come up with innovative marketing strategies.",
+            "ptExample": "A equipe foi incentivada a pensar fora da caixa para criar estratégias de marketing inovadoras."
+          }
+        ],
+        "synonyms": "be creative, innovate, think differently",
+        "antonyms": "follow the norm, be conventional, stick to tradition"
+      }
+    ]
+  },
+  {
+    "keyword": "through the roof",
+    "definitions": [
+      {
+        "word": "through the roof",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to increase dramatically or to reach an extremely high level",
+        "ptDefinition": "aumentar drasticamente ou atingir um nível extremamente alto",
+        "examples": [
+          {
+            "enExample": "Demand for the product went through the roof after the advertisement aired.",
+            "ptExample": "A demanda pelo produto disparou depois que o anúncio foi exibido."
+          },
+          {
+            "enExample": "Housing prices have gone through the roof in the last year due to high demand.",
+            "ptExample": "Os preços das casas dispararam no último ano devido à alta demanda."
+          }
+        ],
+        "synonyms": "skyrocket, surge, escalate",
+        "antonyms": "drop, decrease, plummet",
+        "notes": [
+          {
+            "note": "This phrase is often used to describe sharp increases in prices, emotions, or demand."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "twenty-four seven",
     "definitions": [
       {

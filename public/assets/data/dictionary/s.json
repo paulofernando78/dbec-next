@@ -1,5 +1,64 @@
 [
   {
+    "keyword": "share the credit",
+    "definitions": [
+      {
+        "word": "share the credit",
+        "phonetics": "/ʃɛr ðə ˈkrɛdɪt/",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to divide or distribute recognition or praise for an accomplishment among multiple people",
+        "ptDefinition": "dividir ou distribuir o reconhecimento ou elogio por uma conquista entre várias pessoas",
+        "examples": [
+          {
+            "enExample": "The team worked together and decided to share the credit for the success of the project.",
+            "ptExample": "A equipe trabalhou junta e decidiu dividir o reconhecimento pelo sucesso do projeto."
+          },
+          {
+            "enExample": "He was quick to share the credit with his colleagues for the success of the campaign.",
+            "ptExample": "Ele foi rápido em dividir o reconhecimento com seus colegas pelo sucesso da campanha."
+          }
+        ],
+        "synonyms": "give credit, acknowledge others, share the recognition",
+        "antonyms": "take all the credit, claim all the recognition, be selfish",
+        "seeAlso": "",
+        "notes": [
+          {
+            "note": "This phrase emphasizes collaboration and fairness in recognizing everyone's contribution."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "sign on new customers (or members)",
+    "definitions": [
+      {
+        "word": "sign on new customers (or members)",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to acquire new customers or members, usually through contracts, subscriptions, or agreements",
+        "ptDefinition": "adquirir novos clientes ou membros, geralmente por meio de contratos, assinaturas ou acordos",
+        "examples": [
+          {
+            "enExample": "The company is focused on signing on new customers to boost sales this quarter.",
+            "ptExample": "A empresa está focada em conquistar novos clientes para aumentar as vendas neste trimestre."
+          },
+          {
+            "enExample": "They worked hard to sign on new members for the gym by offering special deals.",
+            "ptExample": "Eles se esforçaram para atrair novos membros para a academia oferecendo promoções especiais."
+          }
+        ],
+        "synonyms": "acquire customers, recruit members, gain clients",
+        "antonyms": "lose customers, cancel memberships, reduce clientele",
+        "seeAlso": "",
+        "notes": [
+          {
+            "note": "This phrase is often used in marketing, sales, and membership-driven businesses."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "step up to the plate",
     "definitions": [
       {

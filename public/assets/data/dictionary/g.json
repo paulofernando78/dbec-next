@@ -1,5 +1,35 @@
 [
   {
+    "keyword": "guerrilla marketing",
+    "definitions": [
+      {
+        "word": "guerrilla marketing",
+        "phonetics": "/ɡəˈrɪlə ˈmɑrkɪtɪŋ/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a creative and unconventional approach to marketing that uses low-cost strategies to promote a product or service",
+        "ptDefinition": "uma abordagem criativa e não convencional de marketing que utiliza estratégias de baixo custo para promover um produto ou serviço",
+        "examples": [
+          {
+            "enExample": "The small business used guerrilla marketing to attract attention with street art campaigns.",
+            "ptExample": "A pequena empresa utilizou marketing de guerrilha para atrair atenção com campanhas de arte de rua."
+          },
+          {
+            "enExample": "Guerrilla marketing tactics often rely on surprise and creativity to engage audiences.",
+            "ptExample": "As táticas de marketing de guerrilha frequentemente dependem de surpresa e criatividade para engajar o público."
+          }
+        ],
+        "synonyms": "unconventional marketing, creative advertising, grassroots marketing",
+        "antonyms": "traditional marketing, conventional advertising",
+        "seeAlso": "",
+        "notes": [
+          {
+            "note": "This term originates from the idea of guerrilla warfare, emphasizing unconventional and strategic actions."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "get buy-in (from)",
     "definitions": [
       {

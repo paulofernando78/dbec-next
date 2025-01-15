@@ -1,5 +1,35 @@
 [
   {
+    "keyword": "drum up business",
+    "definitions": [
+      {
+        "word": "drum up business",
+        "phonetics": "/drʌm ʌp ˈbɪznəs/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to generate or increase business, often through activities like advertising, networking, or promotions",
+        "ptDefinition": "aumentar ou gerar negócios, muitas vezes por meio de atividades como publicidade, networking ou promoções",
+        "examples": [
+          {
+            "enExample": "The company is working hard to drum up business by offering discounts to new customers.",
+            "ptExample": "A empresa está se esforçando para atrair mais negócios oferecendo descontos para novos clientes."
+          },
+          {
+            "enExample": "They organized a special event to drum up business for their new store.",
+            "ptExample": "Eles organizaram um evento especial para atrair mais clientes para a nova loja."
+          }
+        ],
+        "synonyms": "increase sales, attract customers",
+        "antonyms": "lose business, decline, reduce sales",
+        "seeAlso": "",
+        "notes": [
+          {
+            "note": "This phrase is commonly used in business contexts to describe efforts aimed at bringing in new customers or clients."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "dud",
     "definitions": [
       {
@@ -118,14 +148,22 @@
     "definitions": [
       {
         "word": "dream up",
-        "partOfSpeech": "idiom",
-        "enDefinition": "to think up something creative or unusual; to come up with an original idea; to invent",
+        "phonetics": "/driːm ʌp/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to imagine or invent something, especially something creative or unusual",
+        "ptDefinition": "imaginar ou inventar algo, especialmente algo criativo ou incomum",
         "examples": [
           {
-            "enExample": "A disposable lemon-scented toilet brush? What will companies dream up next?",
-            "ptExample": "Uma escova de banheiro descartável com aroma de limão? O que será que as empresas vão inventar a seguir?"
+            "enExample": "She managed to dream up an innovative solution to the problem.",
+            "ptExample": "Ela conseguiu imaginar uma solução inovadora para o problema."
+          },
+          {
+            "enExample": "The advertising team dreamed up a catchy slogan for the new product.",
+            "ptExample": "A equipe de publicidade inventou um slogan chamativo para o novo produto."
           }
-        ]
+        ],
+        "synonyms": "invent, create, conceive",
+        "antonyms": "copy, replicate, imitate"
       }
     ]
   },

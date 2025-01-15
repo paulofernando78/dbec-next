@@ -85,43 +85,47 @@ export function WordCard({ dictionary }: WordCardProps) {
           {dictionary.definitions.map(
             (definition: IDictionaryDefinitions, index: number) => (
               <div key={index}>
-                {/* Word with play button */}
-                {definition.word && (
-                  <p className={`margin-bottom ${styles["margin-right"]}`}>
-                    <span className="bold">
-                      <Image
-                        src={
-                          playingAudios[`word-${index}`]
-                            ? playingIcon
-                            : speakerIcon
-                        }
-                        alt={
-                          playingAudios[`word-${index}`]
-                            ? "Stop icon"
-                            : "Speaker icon"
-                        }
-                        onClick={() =>
-                          definition.word &&
-                          handleTextToSpeech(definition.word, `word-${index}`)
-                        }
-                        className={styles["audio-buttons"]}
-                      />
-                      {definition.word}
+                <div className={`margin-bottom ${styles["padding-left"]}`}>
+                  {/* Word with play button */}
+                  {definition.word && (
+                    <p>
+                      <span className="bold">
+                        <Image
+                          src={
+                            playingAudios[`word-${index}`]
+                              ? playingIcon
+                              : speakerIcon
+                          }
+                          alt={
+                            playingAudios[`word-${index}`]
+                              ? "Stop icon"
+                              : "Speaker icon"
+                          }
+                          onClick={() =>
+                            definition.word &&
+                            handleTextToSpeech(definition.word, `word-${index}`)
+                          }
+                          className={styles["audio-buttons"]}
+                        />
+                        {definition.word}
+                      </span>
+                    </p>
+                  )}
+  
+                  {/* Phonetics */}
+                  {definition.phonetics && (
+                    <p className="display-bloc">
+                      <span className="phonetics">{definition.phonetics}</span>
+                    </p>
+                  )}
+  
+                  {/* Part of Speech*/}
+                  <p className={styles["margin-right"]}>
+                    <span className="times-new-roman-dictionary">
+                      {definition.partOfSpeech}
                     </span>
                   </p>
-                )}
-
-                {/* Phonetics / Part of Speech*/}
-                {definition.phonetics && (
-                  <p className={styles["margin-right"]}>
-                    <span className="phonetics">{definition.phonetics}</span>
-                  </p>
-                )}
-                <p className={styles["margin-right"]}>
-                  <span className="times-new-roman-dictionary">
-                    {definition.partOfSpeech}
-                  </span>
-                </p>
+                </div>
 
                 <div className="line-break">
                   <div className={styles["border-left"]}>
