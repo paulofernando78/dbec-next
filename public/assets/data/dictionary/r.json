@@ -109,12 +109,31 @@
     "definitions": [
       {
         "word": "record-breaking",
-        "partOfSpeech": "idiom",
-        "enDefinition": "better than ever before; exceeding all previous results",
+        "phonetics": "ˈrɛkərd ˌbreɪkɪŋ",
+        "partOfSpeech": "adjective",
+        "enDefinition": "surpassing previous records or achievements",
+        "ptDefinition": "superando recordes ou conquistas anteriores",
         "examples": [
           {
-            "enExample": "After another <b>record-breaking</b> quarter, Google's stock price hit a new high.",
-            "ptExample": "Após mais um trimestre recorde, o preço das ações do Google atingiu um novo pico."
+            "enExample": "The athlete achieved a record-breaking time in the marathon.",
+            "ptExample": "O atleta alcançou um tempo recorde na maratona."
+          },
+          {
+            "enExample": "The movie had a record-breaking opening weekend at the box office.",
+            "ptExample": "O filme teve um fim de semana de estreia recorde nas bilheterias."
+          },
+          {
+            "enExample": "The company posted record-breaking profits this quarter.",
+            "ptExample": "A empresa registrou lucros recordes neste trimestre."
+          }
+        ],
+        "synonyms": "unprecedented, historic, unmatched",
+        "antonyms": "average, typical, unremarkable",
+        "seeAlso": "milestone, groundbreaking",
+        "notes": [
+          {
+            "enNote": "This term is often used to highlight extraordinary achievements in various fields.",
+            "ptNote": "Este termo é frequentemente usado para destacar conquistas extraordinárias em diversos campos."
           }
         ]
       }
@@ -127,7 +146,7 @@
         "word": "redundancy",
         "phonetics": "/rɪˈdʌn.dən.si/",
         "partOfSpeech": "noun",
-        "enDefinition": "a situation in which someone loses their job because their employer does not need them.",
+        "enDefinition": "a situation in which someone loses their job because their employer does not need them",
         "ptDefinition": "dispensa, corte de pessoal",
         "examples": [
           {

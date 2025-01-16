@@ -5,8 +5,8 @@
       {
         "word": "a far cry from",
         "partOfSpeech": "idiom",
-        "enDefinition": "This phrase is used to indicate that something is very different from what was expected or compared to something else.",
-        "ptDefinition": "Esta expressão é usada para indicar que algo é muito diferente do que se esperava ou comparado a outra coisa.",
+        "enDefinition": "this phrase is used to indicate that something is very different from what was expected or compared to something else",
+        "ptDefinition": "esta expressão é usada para indicar que algo é muito diferente do que se esperava ou comparado a outra coisa",
         "examples": [
           {
             "enExample": "The new product is a far cry from the original version.",
@@ -257,6 +257,7 @@
         "word": "face the music",
         "partOfSpeech": "idiom",
         "enDefinition": "to admit that there's a problem; to deal with an unpleasant situation realistically",
+        "ptDefinition": "admitir que há um problema; lidar com uma situação desagradável de forma realista",
         "examples": [
           {
             "enExample": "Enron executives finally had to face the music and admit that they were involved in some illegal activities.",
@@ -298,11 +299,6 @@
           {
             "enExample": "He felt like an idiot (= He felt very foolish).",
             "ptExample": "Ele se sentiu como um idiota (= Ele se sentiu muito tolo)."
-          }
-        ],
-        "thesauri": [
-          {
-            "synonyms": "fancy (UK)"
           }
         ]
       },

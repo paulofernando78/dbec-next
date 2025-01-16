@@ -1,5 +1,32 @@
 [
   {
+    "keyword": "take a crack at something",
+    "definitions": [
+      {
+        "word": "take a crack at something",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to attempt to do something, especially when it's challenging or newt",
+        "ptDefinition": "tentar fazer algo, especialmente quando é desafiador ou novo",
+        "examples": [
+          {
+            "enExample": "I've never painted before, but I'll take a crack at it.",
+            "ptExample": "Nunca pintei antes, mas vou tentar."
+          },
+          {
+            "enExample": "She decided to take a crack at solving the puzzle.",
+            "ptExample": "Ela decidiu tentar resolver o quebra-cabeça."
+          },
+          {
+            "enExample": "Why don't you take a crack at writing the report?",
+            "ptExample": "Por que você não tenta escrever o relatório?"
+          }
+        ],
+        "synonyms": "try, attempt, give it a shot",
+        "antonyms": "avoid, ignore, refrain"
+      }
+    ]
+  },
+  {
     "keyword": "the best of both worlds",
     "definitions": [
       {
@@ -267,13 +294,17 @@
       {
         "word": "think outside the box",
         "partOfSpeech": "idiom",
-        "enDefinition": "to think creatively; to think in a new and different way",
+        "enDefinition": "to think creatively and consider ideas that are not confined by traditional or conventional boundaries",
+        "ptDefinition": "pensar de forma criativa e considerar ideias que não estão limitadas por fronteiras tradicionais ou convencionais",
         "examples": [
           {
-            "enExample": "The small law firm is losing business to larger rivals. The firm needs to think outside the box and come up with some creative ways to market its services.",
-            "ptExample": "O pequeno escritório de advocacia está perdendo negócios para concorrentes maiores. O escritório precisa pensar fora da caixa e encontrar maneiras criativas de divulgar seus serviços."
+            "enExample": "The team was encouraged to think outside the box to solve the complex problem.",
+            "ptExample": "A equipe foi incentivada a pensar fora da caixa para resolver o problema complexo."
           }
-        ]
+        ],
+        "synonyms": "be creative, think unconventionally, innovate",
+        "antonyms": "think traditionally, follow conventions, stay conventional",
+        "seeAlso": "brainstorm, blue-sky thinking"
       }
     ]
   },
@@ -283,11 +314,25 @@
       {
         "word": "through the roof",
         "partOfSpeech": "idiom",
-        "enDefinition": "very high; higher than expected",
+        "enDefinition": "to increase or rise very quickly to an extremely high level",
+        "ptDefinition": "aumentar ou subir muito rapidamente para um nível extremamente alto",
         "examples": [
           {
-            "enExample": "No wonder people are complaining about the cost of heating their homes. Oil prices have gone through the roof!",
-            "ptExample": "Não é à toa que as pessoas estão reclamando do custo de aquecer suas casas. Os preços do petróleo estão nas alturas!"
+            "enExample": "During the holiday season, sales went through the roof.",
+            "ptExample": "Durante a temporada de férias, as vendas dispararam."
+          },
+          {
+            "enExample": "Her excitement went through the roof when she heard the news.",
+            "ptExample": "A empolgação dela foi às alturas quando ouviu a notícia."
+          }
+        ],
+        "synonyms": "skyrocket, soar, escalate",
+        "antonyms": "drop, plummet, decline",
+        "seeAlso": "hit the ceiling, go through the ceiling",
+        "notes": [
+          {
+            "enNote": "This idiom is commonly used to describe sudden increases in prices, emotions, or demand.",
+            "ptNote": "Este idioma é comumente usado para descrever aumentos repentinos em preços, emoções ou demanda."
           }
         ]
       }
@@ -297,12 +342,27 @@
     "keyword": "to the letter",
     "definitions": [
       {
+        "word": "to the letter",
         "partOfSpeech": "idiom",
-        "enDefinition": "If you obey instructions or rules to the letter, you do exactly what you have been told to do, giving great attention to every detail.",
+        "enDefinition": "exactly as instructed, without any deviation or error",
+        "ptDefinition": "exatamente como instruído, sem qualquer desvio ou erro",
         "examples": [
           {
-            "enExample": "I followed the instructions to the letter and it still went wrong.",
-            "ptExample": "Segui as instruções ao pé da letra e mesmo assim deu errado."
+            "enExample": "She followed the recipe to the letter and made a perfect cake.",
+            "ptExample": "Ela seguiu a receita à risca e fez um bolo perfeito."
+          },
+          {
+            "enExample": "He carried out the task to the letter, ensuring everything was done as requested.",
+            "ptExample": "Ele executou a tarefa à risca, garantindo que tudo fosse feito conforme solicitado."
+          }
+        ],
+        "synonyms": "exactly, precisely, accurately",
+        "antonyms": "roughly, loosely, imprecisely",
+        "seeAlso": "by the book, verbatim",
+        "notes": [
+          {
+            "enNote": "This phrase is used when something is done with great precision or when instructions are followed exactly as given.",
+            "ptNote": "Essa frase é usada quando algo é feito com grande precisão ou quando as instruções são seguidas exatamente como dadas."
           }
         ]
       }
@@ -406,7 +466,7 @@
     "definitions": [
       {
         "word": "translate",
-        "phonetics": "/trænsˈleɪt/ /trænzˈleɪt/",
+        "phonetics": "/trænsˈleɪt/",
         "partOfSpeech": "verb",
         "ptDefinition": "traduzir",
         "examples": [

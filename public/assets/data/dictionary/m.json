@@ -4,10 +4,9 @@
     "definitions": [
       {
         "word": "make it up to you",
-        "phonetics": "meɪk ɪt ʌp tʊ ju",
         "partOfSpeech": "idiom",
-        "enDefinition": "To do something to show that you are sorry for something wrong you have done and to make amends.",
-        "ptDefinition": "Fazer algo para mostrar que você está arrependido por algo errado que fez e fazer as pazes.",
+        "enDefinition": "to do something to show that you are sorry for something wrong you have done and to make amends",
+        "ptDefinition": "fazer algo para mostrar que você está arrependido por algo errado que fez e fazer as pazes",
         "examples": [
           {
             "enExample": "I missed your birthday, but I’ll make it up to you by taking you out for dinner.",
@@ -36,8 +35,8 @@
         "word": "mess around",
         "phonetics": "mɛs əˈraʊnd",
         "partOfSpeech": "phrasal verb",
-        "enDefinition": "To waste time, engage in playful or unproductive behavior, or handle something carelessly.",
-        "ptDefinition": "Perder tempo, envolver-se em comportamentos brincalhões ou improdutivos, ou lidar com algo de forma descuidada.",
+        "enDefinition": "to waste time, engage in playful or unproductive behavior, or handle something carelessly",
+        "ptDefinition": "perder tempo, envolver-se em comportamentos brincalhões ou improdutivos, ou lidar com algo de forma descuidada",
         "examples": [
           {
             "enExample": "Stop messing around and finish your work.",
@@ -65,8 +64,8 @@
       {
         "word": "mince words",
         "partOfSpeech": "idiom",
-        "enDefinition": "To speak in a way that is indirect or avoids being straightforward, often to avoid offending someone.",
-        "ptDefinition": "Falar de uma maneira indireta ou evitar ser direto, muitas vezes para não ofender alguém.",
+        "enDefinition": "to speak in a way that is indirect or avoids being straightforward, often to avoid offending someone",
+        "ptDefinition": "falar de uma maneira indireta ou evitar ser direto, muitas vezes para não ofender alguém",
         "examples": [
           {
             "enExample": "Stop mincing your words and say what you really mean.",
@@ -204,8 +203,8 @@
         "word": "menopause",
         "phonetics": "/ˈmen.ə.pɑːz/ (US)",
         "partOfSpeech": "noun",
-        "enDefinition": "The time in a woman's life, typically around the age of 45–55, when menstruation permanently ceases.",
-        "ptDefinition": "O período na vida de uma mulher, geralmente entre 45 e 55 anos, em que a menstruação cessa permanentemente.",
+        "enDefinition": "the time in a woman's life, typically around the age of 45–55, when menstruation permanently ceases",
+        "ptDefinition": "o período na vida de uma mulher, geralmente entre 45 e 55 anos, em que a menstruação cessa permanentemente",
         "examples": [
           {
             "enExample": "Many women experience hot flashes during menopause.",
@@ -241,8 +240,8 @@
         "word": "moderate",
         "phonetics": "/ˈmɑː.dɚ.ət/",
         "partOfSpeech": "adjective",
-        "enDefinition": "Average in amount, intensity, or degree; not extreme.",
-        "ptDefinition": "Médio em quantidade, intensidade ou grau; não extremo.",
+        "enDefinition": "average in amount, intensity, or degree; not extreme",
+        "ptDefinition": "médio em quantidade, intensidade ou grau; não extremo",
         "examples": [
           {
             "enExample": "She exercises at a moderate intensity for better health.",
@@ -256,8 +255,8 @@
         "word": "moderate",
         "phonetics": "/ˈmɑː.dɚ.reɪt/",
         "partOfSpeech": "verb",
-        "enDefinition": "To make or become less extreme, intense, or severe.",
-        "ptDefinition": "Fazer ou tornar algo menos extremo, intenso ou severo.",
+        "enDefinition": "to make or become less extreme, intense, or severe",
+        "ptDefinition": "fazer ou tornar algo menos extremo, intenso ou severo",
         "examples": [
           {
             "enExample": "The teacher moderated the discussion to keep it on topic.",

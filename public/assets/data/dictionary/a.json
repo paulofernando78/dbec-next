@@ -9,12 +9,12 @@
         "ptDefinition": "estar em alta demanda e com preço mais alto do que o usual, geralmente devido à raridade ou desejo",
         "examples": [
           {
-            "enExample": "Tickets for the concert are being sold at a premium due to high demand.",
-            "ptExample": "Os ingressos para o show estão sendo vendidos a um preço elevado devido à alta demanda."
+            "enExample": "tickets for the concert are being sold at a premium due to high demand",
+            "ptExample": "os ingressos para o show estão sendo vendidos a um preço elevado devido à alta demanda"
           },
           {
             "enExample": "During the holidays, flights are usually available at a premium.",
-            "ptExample": "Durante as férias, os voos geralmente estão disponíveis a preços mais altos."
+            "ptExample": "durante as férias, os voos geralmente estão disponíveis a preços mais altos"
           }
         ],
         "synonyms": "expensive, costly, overpriced",
@@ -59,7 +59,7 @@
         "phonetics": "/eɪm/",
         "partOfSpeech": "noun",
         "enDefinition": "a result that your plans or actions are intended to achieve",
-        "ptDefinition": "Um resultado que seus planos ou ações têm a intenção de alcançar",
+        "ptDefinition": "um resultado que seus planos ou ações têm a intenção de alcançar",
         "ptWordDefinition": "objetivo",
         "examples": [
           {
@@ -79,8 +79,8 @@
         "word": "acronym",
         "phonetics": "/ˈæ.krə.nɪm/",
         "partOfSpeech": "noun",
-        "enDefinition": "A word formed from the initial letters of other words and pronounced as a word itself, such as NASA or UNESCO.",
-        "ptDefinition": "Uma palavra formada pelas letras iniciais de outras palavras e pronunciada como uma palavra, como NASA ou UNESCO.",
+        "enDefinition": "a word formed from the initial letters of other words and pronounced as a word itself, such as NASA or UNESCO",
+        "ptDefinition": "uma palavra formada pelas letras iniciais de outras palavras e pronunciada como uma palavra, como NASA ou UNESCO",
         "examples": [
           {
             "enExample": "NASA is an acronym for National Aeronautics and Space Administration.",
@@ -99,7 +99,7 @@
         "phonetics": "/an/",
         "partOfSpeech": "article",
         "enDefinition": "used instead of \"a\" when the following word begins with a vowel sound",
-        "ptDefinition": "Usado em vez de \"a\" quando a palavra seguinte começa com um som de vogal.",
+        "ptDefinition": "usado em vez de \"a\" quando a palavra seguinte começa com um som de vogal",
         "examples": [
           {
             "enExample": "an orange",
@@ -128,8 +128,8 @@
         "word": "angry",
         "phonetics": "/ˈæŋɡri/",
         "partOfSpeech": "adjective",
-        "enDefinition": "Feeling or showing strong displeasure or hostility; having a strong emotional reaction to something perceived as wrong or offensive.",
-        "ptDefinition": "Sentindo ou mostrando grande desagrado ou hostilidade; tendo uma reação emocional forte a algo percebido como errado ou ofensivo.",
+        "enDefinition": "feeling or showing strong displeasure or hostility; having a strong emotional reaction to something perceived as wrong or offensive",
+        "ptDefinition": "sentindo ou mostrando grande desagrado ou hostilidade; tendo uma reação emocional forte a algo percebido como errado ou ofensivo",
         "examples": [
           {
             "enExample": "She was angry because she didn't get the job.",
@@ -156,9 +156,7 @@
             "enExample": "The bar has an all-you-can-eat buffet lunch for $10.",
             "ptExample": "O bar tem um buffet de almoço \"coma à vontade\" por $10."
           }
-        ],
-        "synonyms": "...",
-        "antonyms": "..."
+        ]
       }
     ]
   },
@@ -328,8 +326,8 @@
         "word": "aerobic",
         "phonetics": "/erˈoʊ.bɪk/",
         "partOfSpeech": "adjective",
-        "enDefinition": "Relating to or requiring free oxygen to live and grow, or involving or improving the body’s ability to absorb and transport oxygen.",
-        "ptDefinition": "Relativo a ou que exige oxigênio livre para viver e crescer, ou que envolve ou melhora a capacidade do corpo de absorver e transportar oxigênio.",
+        "enDefinition": "relating to or requiring free oxygen to live and grow, or involving or improving the body’s ability to absorb and transport oxygen",
+        "ptDefinition": "relativo a ou que exige oxigênio livre para viver e crescer, ou que envolve ou melhora a capacidade do corpo de absorver e transportar oxigênio",
         "examples": [
           {
             "enExample": "Aerobic exercise, like running, improves cardiovascular health.",

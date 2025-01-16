@@ -93,8 +93,8 @@
         "word": "calorie",
         "phonetics": "/ˈkæl.ɚ.i/",
         "partOfSpeech": "noun",
-        "enDefinition": "A unit of energy often used to measure the energy content of foods and beverages.",
-        "ptDefinition": "Uma unidade de energia frequentemente usada para medir o conteúdo energético de alimentos e bebidas.",
+        "enDefinition": "a unit of energy often used to measure the energy content of foods and beverages",
+        "ptDefinition": "uma unidade de energia frequentemente usada para medir o conteúdo energético de alimentos e bebidas",
         "examples": [
           {
             "enExample": "This chocolate bar contains 250 calories.",
@@ -111,7 +111,7 @@
       {
         "word": "capital flight",
         "partOfSpeech": "noun",
-        "enDefinition": "a situation in which large amounts of money are sent out of a country to be kept or invested in other countries, for example, because of fears about the economy:",
+        "enDefinition": "a situation in which large amounts of money are sent out of a country to be kept or invested in other countries, for example, because of fears about the economy",
         "ptDefinition": "fuga de capital",
         "examples": [
           {

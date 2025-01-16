@@ -25,26 +25,26 @@
     "definitions": [
       {
         "word": "happy",
-        "phonetics": "/ˈhæpi/",
+        "phonetics": "ˈhæpi",
         "partOfSpeech": "adjective",
-        "enDefinition": "Feeling or showing pleasure or contentment.",
-        "ptDefinition": "Sentindo ou mostrando prazer ou contentamento.",
+        "enDefinition": "feeling or showing pleasure, contentment, or joy",
+        "ptDefinition": "sentindo ou demonstrando prazer, satisfação ou alegria",
         "examples": [
           {
-            "enExample": "She felt happy when she received the news.",
-            "ptExample": "Ela se sentiu feliz quando recebeu a notícia."
+            "enExample": "She felt happy when she saw her family after a long time.",
+            "ptExample": "Ela se sentiu feliz ao ver sua família depois de muito tempo."
           },
           {
-            "enExample": "He is always happy to help.",
-            "ptExample": "Ele está sempre feliz em ajudar."
+            "enExample": "The children were happy playing in the park.",
+            "ptExample": "As crianças estavam felizes brincando no parque."
+          },
+          {
+            "enExample": "He was happy with the results of his hard work.",
+            "ptExample": "Ele ficou feliz com os resultados de seu trabalho árduo."
           }
         ],
-        "thesauri": [
-          {
-            "synonyms": ["joyful, cheerful, content"],
-            "antonyms": ["sad, unhappy, miserable"]
-          }
-        ]
+        "synonyms": "joyful, cheerful, content",
+        "antonyms": "sad, unhappy, miserable"
       }
     ]
   },
@@ -53,16 +53,30 @@
     "definitions": [
       {
         "word": "hard stop",
-        "partOfSpeech": "idiom",
-        "enDefinition": "It refers to a predetermined, non-negotiable point where an activity or process must come to an immediate halt or conclusion.",
+        "phonetics": "hɑrd stɑp",
+        "partOfSpeech": "noun",
+        "enDefinition": "a firm and non-negotiable deadline or ending time",
+        "ptDefinition": "um prazo ou horário de término firme e inegociável",
         "examples": [
           {
-            "enExample": "I know some of you have a hard stop at 4:00 for another meeting, so I will keep my remarks brief.",
-            "ptExample": "Sei que alguns de vocês precisam encerrar às 16h para começar outra reunião, por isso serei breve."
+            "enExample": "I have a hard stop at 3 PM for another meeting.",
+            "ptExample": "Tenho um horário final às 15h para outra reunião."
           },
           {
-            "enExample": "Can we have a meeting with a hard stop at 10am?",
-            "ptExample": "Podemos ter uma reunião com encerramento às 10:00? "
+            "enExample": "Let's make sure we cover all the points before the hard stop.",
+            "ptExample": "Vamos garantir que cobrimos todos os pontos antes do horário final."
+          },
+          {
+            "enExample": "The team agreed on a hard stop to keep the project on schedule.",
+            "ptExample": "A equipe concordou em um prazo final para manter o projeto dentro do cronograma."
+          }
+        ],
+        "synonyms": "deadline, cutoff, endpoint",
+        "antonyms": "flexible timing, open-ended",
+        "notes": [
+          {
+            "enNote": "Commonly used in business or scheduling contexts to emphasize strict time management.",
+            "ptNote": "Comumente usado em contextos de negócios ou planejamento para enfatizar a gestão rigorosa do tempo."
           }
         ]
       }

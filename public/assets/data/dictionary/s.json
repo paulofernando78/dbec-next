@@ -6,8 +6,8 @@
         "word": "swamped",
         "phonetics": "swɑmpt",
         "partOfSpeech": "adjective",
-        "enDefinition": "Overwhelmed with tasks, responsibilities, or work, often to the point of being unable to manage everything.",
-        "ptDefinition": "Sobrecarregado com tarefas, responsabilidades ou trabalho, frequentemente a ponto de não conseguir administrar tudo.",
+        "enDefinition": "overwhelmed with tasks, responsibilities, or work, often to the point of being unable to manage everything",
+        "ptDefinition": "sobrecarregado com tarefas, responsabilidades ou trabalho, frequentemente a ponto de não conseguir administrar tudo",
         "examples": [
           {
             "enExample": "I’m swamped with work right now; I can’t take on any more projects.",
@@ -152,8 +152,8 @@
         "word": "sad",
         "phonetics": "/sæd/",
         "partOfSpeech": "adjective",
-        "enDefinition": "Feeling or showing sorrow; unhappy.",
-        "ptDefinition": "Sentindo ou demonstrando tristeza; infeliz.",
+        "enDefinition": "feeling or showing sorrow; unhappy",
+        "ptDefinition": "sentindo ou demonstrando tristeza; infeliz",
         "examples": [
           {
             "enExample": "She felt sad after hearing the news.",
@@ -176,8 +176,8 @@
         "word": "saturated fat",
         "phonetics": "/ˈsætʃ.ə.reɪ.tɪd fæt/",
         "partOfSpeech": "noun",
-        "enDefinition": "A type of fat found in animal products and some plant oils, characterized by single bonds between carbon atoms, typically solid at room temperature.",
-        "ptDefinition": "Um tipo de gordura encontrada em produtos de origem animal e alguns óleos vegetais, caracterizada por ligações simples entre átomos de carbono, geralmente sólida à temperatura ambiente.",
+        "enDefinition": "a type of fat found in animal products and some plant oils, characterized by single bonds between carbon atoms, typically solid at room temperature",
+        "ptDefinition": "um tipo de gordura encontrada em produtos de origem animal e alguns óleos vegetais, caracterizada por ligações simples entre átomos de carbono, geralmente sólida à temperatura ambiente",
         "examples": [
           {
             "enExample": "Butter is high in saturated fat, which can increase cholesterol levels.",
@@ -196,8 +196,8 @@
         "word": "screen",
         "phonetics": "/skriːn/",
         "partOfSpeech": "noun",
-        "enDefinition": "A flat surface on which images or data are displayed, such as on a television, computer, or smartphone.",
-        "ptDefinition": "Uma superfície plana na qual imagens ou dados são exibidos, como em uma televisão, computador ou smartphone.",
+        "enDefinition": "a flat surface on which images or data are displayed, such as on a television, computer, or smartphone",
+        "ptDefinition": "uma superfície plana na qual imagens ou dados são exibidos, como em uma televisão, computador ou smartphone",
         "examples": [
           {
             "enExample": "I spend too much time staring at my phone screen.",
@@ -210,8 +210,8 @@
         "word": "screen",
         "phonetics": "/skriːn/",
         "partOfSpeech": "verb",
-        "enDefinition": "To show a movie or video, or to examine or filter something.",
-        "ptDefinition": "Exibir um filme ou vídeo, ou examinar ou filtrar algo.",
+        "enDefinition": "to show a movie or video, or to examine or filter something.",
+        "ptDefinition": "exibir um filme ou vídeo, ou examinar ou filtrar algo.",
         "examples": [
           {
             "enExample": "The movie will be screened at the festival tomorrow.",
@@ -393,17 +393,35 @@
     ]
   },
   {
-    "keyword": "sliperry slope",
+    "keyword": "slippery slope",
     "definitions": [
       {
         "word": "slippery slope",
-        "phonetics": "...",
-        "partOfSpeech": "adverb",
-        "ptDefinition": "bola de neve",
+        "phonetics": "ˈslɪpəri sloʊp",
+        "partOfSpeech": "noun",
+        "enDefinition": "a situation or course of action that is difficult to stop once started and tends to lead to worse or more extreme outcomes",
+        "ptDefinition": "uma situação ou curso de ação difícil de parar uma vez iniciado e que tende a levar a piores ou mais extremos resultados",
         "examples": [
           {
-            "enExample": "You're on a slippery slope once you start lying about your age!",
-            "ptExample": "Uma vez que você passa a mentir sobre sua idade, isso pode virar uma bola de neve."
+            "enExample": "Introducing censorship can lead to a slippery slope of losing freedom of speech.",
+            "ptExample": "Introduzir a censura pode levar a um declive perigoso de perda da liberdade de expressão."
+          },
+          {
+            "enExample": "Skipping one workout might put you on a slippery slope to abandoning your fitness routine altogether.",
+            "ptExample": "Pular um treino pode colocá-lo em um declive perigoso de abandonar completamente sua rotina de exercícios."
+          },
+          {
+            "enExample": "Allowing exceptions to the rule creates a slippery slope that undermines its purpose.",
+            "ptExample": "Permitir exceções à regra cria um declive perigoso que compromete seu propósito."
+          }
+        ],
+        "synonyms": "domino effect, chain reaction, downward spiral",
+        "antonyms": "stable path, firm ground, safe course",
+        "seeAlso": "snowball effect, cascade",
+        "notes": [
+          {
+            "enNote": "This phrase is often used in arguments to warn against the potential dangers of a seemingly small decision.",
+            "ptNote": "Esta expressão é frequentemente usada em argumentos para alertar contra os perigos potenciais de uma decisão aparentemente pequena."
           }
         ]
       }
@@ -416,8 +434,8 @@
         "word": "spindle",
         "phonetics": "/ˈspɪndl/",
         "partOfSpeech": "noun",
-        "enDefinition": "A rod or pin used in spinning to twist fibers into thread, or a part of a machine that rotates.",
-        "ptDefinition": "Uma haste ou pino usado na fiação para torcer fibras em fios, ou uma parte de uma máquina que gira; roca.",
+        "enDefinition": "a rod or pin used in spinning to twist fibers into thread, or a part of a machine that rotates",
+        "ptDefinition": "uma haste ou pino usado na fiação para torcer fibras em fios, ou uma parte de uma máquina que gira; roca",
         "examples": [
           {
             "enExample": "The spindle of the sewing machine rotates rapidly.",

@@ -5,11 +5,11 @@
       {
         "word": "get right on something",
         "partOfSpeech": "idiom",
-        "enDefinition": "To start doing something immediately or with great focus and attention.",
-        "ptDefinition": "Começar a fazer algo imediatamente ou com grande foco e atenção.",
+        "enDefinition": "to start doing something immediately or with great focus and attention",
+        "ptDefinition": "começar a fazer algo imediatamente ou com grande foco e atenção",
         "examples": [
           {
-            "enExample": "I’ll get right on the report as soon as I finish this task.",
+            "enExample": "I'll get right on the report as soon as I finish this task.",
             "ptExample": "Eu vou começar o relatório assim que terminar essa tarefa."
           },
           {
@@ -34,8 +34,8 @@
       {
         "word": "go all out",
         "partOfSpeech": "idiom",
-        "enDefinition": "This phrase means to put in maximum effort or to go to extremes in doing something.",
-        "ptDefinition": "Esta expressão significa colocar o máximo de esforço ou ir ao extremo em algo.",
+        "enDefinition": "this phrase means to put in maximum effort or to go to extremes in doing something",
+        "ptDefinition": "esta expressão significa colocar o máximo de esforço ou ir ao extremo em algo",
         "examples": [
           {
             "enExample": "They decided to go all out with their wedding, hiring a famous band and booking an expensive venue.",
@@ -211,8 +211,8 @@
       {
         "word": "generate lots of buzz",
         "partOfSpeech": "idiom",
-        "enDefinition": "To create excitement, attention, or interest, often in a short period of time, usually through word-of-mouth or publicity.",
-        "ptDefinition": "Gerar muita atenção ou empolgação, geralmente de forma rápida, publicidade ou boca a boca.",
+        "enDefinition": "to create excitement, attention, or interest, often in a short period of time, usually through word-of-mouth or publicity",
+        "ptDefinition": "gerar muita atenção ou empolgação, geralmente de forma rápida, publicidade ou boca a boca",
         "examples": [
           {
             "enExample": "The new product launch generated lots of buzz on social media, with people sharing their opinions and excitement.",
@@ -254,10 +254,33 @@
     "definitions": [
       {
         "word": "gene",
-        "phonetics": "",
+        "phonetics": "dʒiːn",
         "partOfSpeech": "noun",
-        "enDefinition": "...",
-        "ptDefinition": "gene"
+        "enDefinition": "a unit of heredity in a living organism, typically a segment of DNA or RNA, that determines specific traits or functions",
+        "ptDefinition": "uma unidade de hereditariedade em um organismo vivo, tipicamente um segmento de DNA ou RNA, que determina características ou funções específicas",
+        "examples": [
+          {
+            "enExample": "Scientists discovered a gene responsible for eye color.",
+            "ptExample": "Cientistas descobriram um gene responsável pela cor dos olhos."
+          },
+          {
+            "enExample": "The gene mutation led to a rare disorder.",
+            "ptExample": "A mutação genética levou a uma desordem rara."
+          },
+          {
+            "enExample": "Genes are passed from parents to their offspring.",
+            "ptExample": "Os genes são transmitidos dos pais para seus descendentes."
+          }
+        ],
+        "synonyms": "hereditary unit, DNA segment, genetic material",
+        "antonyms": "non-genetic factor",
+        "seeAlso": "genetics, genome, chromosome",
+        "notes": [
+          {
+            "enNote": "Genes play a fundamental role in the inheritance of traits and biological diversity.",
+            "ptNote": "Os genes desempenham um papel fundamental na herança de características e na diversidade biológica."
+          }
+        ]
       }
     ]
   },
@@ -278,7 +301,6 @@
     "definitions": [
       {
         "word": "genetic code",
-        "phonetics": "/.../",
         "partOfSpeech": "noun",
         "enDefinition": "the instructions contained in a gene that tell a cell how to make a specific protein",
         "ptDefinition": "código genético"
@@ -340,7 +362,7 @@
         "word": "get wind of",
         "partOfSpeech": "idiom",
         "enDefinition": "to find out about something, often sensitive information",
-        "ptDefinition": "Descobrir algo, muitas vezes uma informação sensível",
+        "ptDefinition": "descobrir algo, muitas vezes uma informação sensível",
         "examples": [
           {
             "enExample": "When the restaurant owner got wind of the fact that one of his waiters was stealing money from the cash register, he was furious.",
@@ -380,7 +402,6 @@
     "definitions": [
       {
         "word": "give somebody the greenlight",
-        "phonetics": "",
         "partOfSpeech": "idiom",
         "enDefinition": "to give someone permission or approval to proceed with a project, action, or idea",
         "ptDefinition": "dar a alguém permissão ou aprovação para seguir com um projeto, ação ou ideia",
@@ -470,7 +491,7 @@
       {
         "word": "the grass is always greener on the other side",
         "partOfSpeech": "proverb",
-        "enDefinition": "The circumstances of others seem more desirable than one's own but in reality often are not.",
+        "enDefinition": "the circumstances of others seem more desirable than one's own but in reality often are not",
         "ptDefinition": "a grama do vizinho é sempre mais verde",
         "examples": [
           {
