@@ -1,5 +1,94 @@
 [
   {
+    "keyword": "make it up to you",
+    "definitions": [
+      {
+        "word": "make it up to you",
+        "phonetics": "meɪk ɪt ʌp tʊ ju",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To do something to show that you are sorry for something wrong you have done and to make amends.",
+        "ptDefinition": "Fazer algo para mostrar que você está arrependido por algo errado que fez e fazer as pazes.",
+        "examples": [
+          {
+            "enExample": "I missed your birthday, but I’ll make it up to you by taking you out for dinner.",
+            "ptExample": "Eu perdi seu aniversário, mas vou compensar levando você para jantar."
+          },
+          {
+            "enExample": "She promised to make it up to him after forgetting their anniversary.",
+            "ptExample": "Ela prometeu compensá-lo depois de esquecer o aniversário deles."
+          }
+        ],
+        "synonyms": "apologize, atone, compensate",
+        "antonyms": "ignore, neglect, disregard",
+        "notes": [
+          {
+            "enNote": "This phrase is typically used when trying to repair a relationship or situation caused by a mistake or oversight.",
+            "ptNote": "Essa frase é geralmente usada quando se tenta reparar um relacionamento ou situação causada por um erro ou descuido."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "mess around",
+    "definitions": [
+      {
+        "word": "mess around",
+        "phonetics": "mɛs əˈraʊnd",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "To waste time, engage in playful or unproductive behavior, or handle something carelessly.",
+        "ptDefinition": "Perder tempo, envolver-se em comportamentos brincalhões ou improdutivos, ou lidar com algo de forma descuidada.",
+        "examples": [
+          {
+            "enExample": "Stop messing around and finish your work.",
+            "ptExample": "Pare de perder tempo e termine seu trabalho."
+          },
+          {
+            "enExample": "He was just messing around with his friends when he should have been studying.",
+            "ptExample": "Ele estava apenas brincando com os amigos quando deveria estar estudando."
+          }
+        ],
+        "synonyms": "fool around, play around, waste time",
+        "antonyms": "focus, get serious, concentrate",
+        "notes": [
+          {
+            "enNote": "This phrase is often used in informal settings and can imply a lack of seriousness or a focus on leisure rather than work.",
+            "ptNote": "Esta frase é frequentemente usada em contextos informais e pode implicar a falta de seriedade ou foco no lazer em vez do trabalho."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "mince words",
+    "definitions": [
+      {
+        "word": "mince words",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To speak in a way that is indirect or avoids being straightforward, often to avoid offending someone.",
+        "ptDefinition": "Falar de uma maneira indireta ou evitar ser direto, muitas vezes para não ofender alguém.",
+        "examples": [
+          {
+            "enExample": "Stop mincing your words and say what you really mean.",
+            "ptExample": "Pare de ser indireto e diga o que você realmente quer dizer."
+          },
+          {
+            "enExample": "He minced his words when discussing the sensitive topic.",
+            "ptExample": "Ele foi indireto ao falar sobre o tópico sensível."
+          }
+        ],
+        "synonyms": "sugarcoat, beat around the bush",
+        "antonyms": "speak plainly, speak directly",
+        "notes": [
+          {
+            "enNote": "This idiom often implies a lack of transparency or honesty in speech.",
+            "ptNote": "Este idiom geralmente implica falta de transparência ou honestidade na fala."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "my gut tells me",
     "definitions": [
       {

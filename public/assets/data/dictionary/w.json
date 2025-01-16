@@ -1,5 +1,34 @@
 [
   {
+    "keyword": "where to begin?",
+    "definitions": [
+      {
+        "word": "where to begin?",
+        "partOfSpeech": "idiom",
+        "enDefinition": "An expression used when someone is unsure how to start explaining something complicated or overwhelming.",
+        "ptDefinition": "Uma expressão usada quando alguém não sabe por onde começar a explicar algo complicado ou esmagador.",
+        "examples": [
+          {
+            "enExample": "After hearing all the issues, I didn’t even know where to begin.",
+            "ptExample": "Depois de ouvir todos os problemas, eu nem sabia por onde começar."
+          },
+          {
+            "enExample": "With so many tasks on my list, I'm not sure where to begin.",
+            "ptExample": "Com tantas tarefas na minha lista, não sei por onde começar."
+          }
+        ],
+        "synonyms": "how to start, where to start, where do I even begin",
+        "antonyms": "clear starting point, easy beginning, straightforward",
+        "notes": [
+          {
+            "enNote": "This phrase often conveys a sense of being overwhelmed or unsure about the complexity of a situation.",
+            "ptNote": "Esta frase frequentemente transmite a sensação de estar sobrecarregado ou inseguro sobre a complexidade de uma situação."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "wishy-washy",
     "definitions": [
       {

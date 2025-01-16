@@ -1,5 +1,35 @@
 [
   {
+    "keyword": "deliver",
+    "definitions": [
+      {
+        "word": "deliver",
+        "phonetics": "dɪˈlɪvər",
+        "partOfSpeech": "verb",
+        "enDefinition": "To bring or transport something to a destination, or to fulfill an obligation or promise.",
+        "ptDefinition": "Levar ou transportar algo a um destino, ou cumprir uma obrigação ou promessa.",
+        "examples": [
+          {
+            "enExample": "The company promises to deliver your order within two days.",
+            "ptExample": "A empresa promete entregar seu pedido dentro de dois dias."
+          },
+          {
+            "enExample": "He always delivers excellent results on time.",
+            "ptExample": "Ele sempre entrega resultados excelentes dentro do prazo."
+          }
+        ],
+        "synonyms": "provide, supply, bring",
+        "antonyms": "withhold, keep, retain",
+        "notes": [
+          {
+            "enNote": "In a broader sense, 'deliver' can also mean to perform or achieve something successfully, such as delivering a speech or a presentation.",
+            "ptNote": "Em um sentido mais amplo, 'deliver' também pode significar realizar ou alcançar algo com sucesso, como fazer um discurso ou uma apresentação."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "drum up business",
     "definitions": [
       {

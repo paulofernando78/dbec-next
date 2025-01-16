@@ -1,5 +1,92 @@
 [
   {
+    "keyword": "pull the wool over one's eyes",
+    "definitions": [
+      {
+        "word": "pull the wool over one's eyes",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To deceive or trick someone into believing something that is not true.",
+        "ptDefinition": "Enganar ou iludir alguém, fazendo com que acredite em algo que não é verdade.",
+        "examples": [
+          {
+            "enExample": "He tried to pull the wool over my eyes, but I saw through his plan.",
+            "ptExample": "Ele tentou me enganar, mas eu percebi o plano dele."
+          },
+          {
+            "enExample": "The salesman pulled the wool over her eyes, convincing her to buy the expensive item.",
+            "ptExample": "O vendedor a enganou, convencendo-a a comprar o item caro."
+          }
+        ],
+        "synonyms": "deceive, trick, mislead",
+        "antonyms": "be honest, tell the truth, be straightforward",
+        "notes": [
+          {
+            "enNote": "In the 17th and 18th centuries, men sometimes wore wigs. The \"wool\" refers to the wig (made of wool). Pulling th wool over th eyes made it impossible to see.",
+            "ptNote": "No século XVII e XVIII, os homens às vezes usavam perucas. A palavra \"wool\" se refere à peruca (feita de lã). Puxar a lã sobre os olhos tornava impossível ver.”"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "pull out all the stops",
+    "definitions": [
+      {
+        "word": "pull out all the stops",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To do everything possible to achieve something, often by using all available resources or effort.",
+        "ptDefinition": "Fazer tudo o que é possível para alcançar algo, muitas vezes usando todos os recursos ou esforço disponíveis.",
+        "examples": [
+          {
+            "enExample": "The team pulled out all the stops to win the championship.",
+            "ptExample": "A equipe fez de tudo para ganhar o campeonato."
+          },
+          {
+            "enExample": "They pulled out all the stops for their wedding to make it unforgettable.",
+            "ptExample": "Eles fizeram tudo para que o casamento fosse inesquecível."
+          }
+        ],
+        "synonyms": "go all out, spare no expense, give it all you've got",
+        "antonyms": "hold back, take it easy, not try",
+        "notes": [
+          {
+            "enNote": "This expression comes from the world of music. To increase the volume of a pipe organ, organists \"pull out stops\" (levers that control the volume.)",
+            "ptNote": "Esta expressão vem do mundo da música. Para aumentar o volume de um órgão de tubos, os organistas “puxam os registros” (alavancas que controlam o volume)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "pretty penny",
+    "definitions": [
+      {
+        "word": "pretty penny",
+        "partOfSpeech": "idiom",
+        "enDefinition": "A large amount of money, often more than expected or considered reasonable.",
+        "ptDefinition": "Uma grande quantia de dinheiro, muitas vezes mais do que o esperado ou considerado razoável.",
+        "examples": [
+          {
+            "enExample": "The car cost me a pretty penny, but it was worth it.",
+            "ptExample": "O carro me custou uma boa quantia, mas valeu a pena."
+          },
+          {
+            "enExample": "The wedding expenses ran into a pretty penny.",
+            "ptExample": "Os gastos com o casamento foram altos."
+          }
+        ],
+        "synonyms": "a lot of money, fortune, small fortune",
+        "antonyms": "bargain, cheap, inexpensive",
+        "notes": [
+          {
+            "enNote": "This idiom is often used to describe something expensive or requiring a significant financial investment.",
+            "ptNote": "Este idiom é frequentemente usado para descrever algo caro ou que exige um investimento financeiro significativo."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "put a stake in the ground",
     "definitions": [
       {

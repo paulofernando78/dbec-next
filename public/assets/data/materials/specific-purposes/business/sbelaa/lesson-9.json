@@ -37,7 +37,7 @@
               "textEn": "<b>John:</b> We're disappointed with the website you designed for us. It's."
             },
             {
-              "keyword": "a far cry from ",
+              "keyword": "a far cry from",
               "word": "a far cry from "
             },
             {
@@ -51,7 +51,7 @@
               "textEn": "<b>Kevin:</b> I'm sorry you're not satisfied. We really"
             },
             {
-              "keyword": "went all out",
+              "keyword": "go all out",
               "word": "went all out"
             },
             {
@@ -107,7 +107,7 @@
               "textEn": "<b>John:</b> Don't try to"
             },
             {
-              "keyword": "pull the wool over my eyes",
+              "keyword": "pull the wool over one's eyes",
               "word": "pull the wool over my eyes"
             },
             {
@@ -142,7 +142,7 @@
               "textEn": "<b>Kevin:</b> Really? Well, we'll"
             },
             {
-              "keyword": "get right on that",
+              "keyword": "get right on something",
               "word": "get right on that"
             },
             {
@@ -156,8 +156,8 @@
               "textEn": "<b>John:</b> And you guys"
             },
             {
-              "keyword": "mess around ",
-              "word": "messed around "
+              "keyword": "mess around",
+              "word": "messed around"
             },
             {
               "textEn":	"forever getting the site done. You were three months behind schedule!"

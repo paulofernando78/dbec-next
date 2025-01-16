@@ -1,5 +1,63 @@
 [
   {
+    "keyword": "get right on something",
+    "definitions": [
+      {
+        "word": "get right on something",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To start doing something immediately or with great focus and attention.",
+        "ptDefinition": "Começar a fazer algo imediatamente ou com grande foco e atenção.",
+        "examples": [
+          {
+            "enExample": "I’ll get right on the report as soon as I finish this task.",
+            "ptExample": "Eu vou começar o relatório assim que terminar essa tarefa."
+          },
+          {
+            "enExample": "We need to get right on this project to meet the deadline.",
+            "ptExample": "Precisamos começar este projeto imediatamente para cumprir o prazo."
+          }
+        ],
+        "synonyms": "get started, tackle, dive into",
+        "antonyms": "delay, procrastinate, put off",
+        "notes": [
+          {
+            "enNote": "This idiom emphasizes urgency and prioritization, suggesting that the task at hand should be dealt with right away.",
+            "ptNote": "Este idiom enfatiza urgência e priorização, sugerindo que a tarefa em questão deve ser tratada imediatamente."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "go all out",
+    "definitions": [
+      {
+        "word": "go all out",
+        "partOfSpeech": "idiom",
+        "enDefinition": "This phrase means to put in maximum effort or to go to extremes in doing something.",
+        "ptDefinition": "Esta expressão significa colocar o máximo de esforço ou ir ao extremo em algo.",
+        "examples": [
+          {
+            "enExample": "They decided to go all out with their wedding, hiring a famous band and booking an expensive venue.",
+            "ptExample": "Eles decidiram se dedicar completamente ao casamento, contratando uma banda famosa e reservando um local caro."
+          },
+          {
+            "enExample": "The company is going all out to win this contract, offering extra services and incentives.",
+            "ptExample": "A empresa está se dedicando ao máximo para ganhar este contrato, oferecendo serviços extras e incentivos."
+          }
+        ],
+        "synonyms": "put in maximum effort, go the extra mile, spare no expense",
+        "antonyms": "hold back, take it easy, go easy",
+        "notes": [
+          {
+            "enNote": "This idiom is often used to describe situations where someone is fully committed to achieving a goal.",
+            "ptNote": "Este idiom é frequentemente usado para descrever situações em que alguém está totalmente comprometido em alcançar um objetivo."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "good call",
     "definitions": [
       {

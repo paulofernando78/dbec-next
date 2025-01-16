@@ -1,5 +1,29 @@
 [
   {
+    "keyword": "kick off",
+    "definitions": [
+      {
+        "word": "kick off",
+        "phonetics": "kɪk ɔf",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "To begin or start something, such as an event or activity.",
+        "ptDefinition": "Começar ou iniciar algo, como um evento ou atividade.",
+        "examples": [
+          {
+            "enExample": "The meeting will kick off at 9 AM sharp.",
+            "ptExample": "A reunião começará às 9h em ponto."
+          },
+          {
+            "enExample": "The football match will kick off at noon.",
+            "ptExample": "O jogo de futebol começará ao meio-dia."
+          }
+        ],
+        "synonyms": "begin, start, initiate",
+        "antonyms": "end, finish, conclude"
+      }
+    ]
+  },
+  {
     "keyword": "keep an open mind",
     "definitions": [
       {

@@ -1,5 +1,34 @@
 [
   {
+    "keyword": "a far cry from",
+    "definitions": [
+      {
+        "word": "a far cry from",
+        "partOfSpeech": "idiom",
+        "enDefinition": "This phrase is used to indicate that something is very different from what was expected or compared to something else.",
+        "ptDefinition": "Esta expressão é usada para indicar que algo é muito diferente do que se esperava ou comparado a outra coisa.",
+        "examples": [
+          {
+            "enExample": "The new product is a far cry from the original version.",
+            "ptExample": "O novo produto está bem distante da versão original."
+          },
+          {
+            "enExample": "Her current lifestyle is a far cry from the simple life she once led.",
+            "ptExample": "O estilo de vida atual dela está bem distante da vida simples que ela costumava levar."
+          }
+        ],
+        "synonyms": "different, dissimilar, unlike",
+        "antonyms": "similar, alike, same",
+        "notes": [
+          {
+            "enNote": "This idiom is often used to emphasize a notable difference.",
+            "ptNote": "Este idiom é frequentemente usado para enfatizar uma diferença notável."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "face the music",
     "definitions": [
       {
