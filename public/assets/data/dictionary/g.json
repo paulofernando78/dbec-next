@@ -1,5 +1,39 @@
 [
   {
+    "keyword": "give it one's best shot",
+    "definitions": [
+      {
+        "word": "give it one's best shot",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to try one's hardest or put forth maximum effort in an attempt to succeed",
+        "ptDefinition": "tentar o máximo possível ou dar o melhor de si para ter sucesso",
+        "examples": [
+          {
+            "enExample": "Even though it was a tough challenge, he gave it his best shot and passed the exam.",
+            "ptExample": "Embora fosse um desafio difícil, ele deu o melhor de si e passou na prova."
+          },
+          {
+            "enExample": "She gave it her best shot, but the performance still didn't go as planned.",
+            "ptExample": "Ela deu o melhor de si, mas a apresentação ainda não saiu como o planejado."
+          },
+          {
+            "enExample": "I'm not sure if I can do it, but I'll give it my best shot.",
+            "ptExample": "Não tenho certeza se consigo fazer, mas vou dar o meu melhor."
+          }
+        ],
+        "synonyms": "try hard, give one's all, do one's best",
+        "antonyms": "give up, half-hearted attempt, slack off",
+        "seeAlso": "put in effort, give one's all",
+        "notes": [
+          {
+            "enNote": "This idiom emphasizes putting in maximum effort, regardless of the outcome.",
+            "ptNote": "Essa expressão enfatiza o ato de se esforçar ao máximo, independentemente do resultado."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "get right on something",
     "definitions": [
       {

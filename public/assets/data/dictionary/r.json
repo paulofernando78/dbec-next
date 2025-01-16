@@ -1,5 +1,35 @@
 [
   {
+    "keyword": "roll up one's sleeves",
+    "definitions": [
+      {
+        "word": "roll up one's sleeves",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to prepare to work hard or to take on a task that requires effort",
+        "ptDefinition": "preparar-se para trabalhar duro ou assumir uma tarefa que exige esforço",
+        "examples": [
+          {
+            "enExample": "She rolled up her sleeves and got to work on the challenging project.",
+            "ptExample": "Ela arregaçou as mangas e começou a trabalhar no projeto desafiador."
+          },
+          {
+            "enExample": "It's time to roll up our sleeves and get this done before the deadline.",
+            "ptExample": "É hora de arregaçar as mangas e terminar isso antes do prazo."
+          }
+        ],
+        "synonyms": "prepare to work, get to work, take action",
+        "antonyms": "procrastinate, avoid work, relax",
+        "seeAlso": "get one's hands dirty, dive in",
+        "notes": [
+          {
+            "enNote": "This idiom is often used to describe someone who is ready to work hard or take on a challenging task.",
+            "ptNote": "Essa expressão é frequentemente usada para descrever alguém que está pronto para trabalhar duro ou assumir uma tarefa desafiadora."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "record-breaking",
     "definitions": [
       {

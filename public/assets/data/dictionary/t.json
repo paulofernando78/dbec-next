@@ -5,6 +5,36 @@
       {
         "word": "take a crack at something",
         "partOfSpeech": "idiom",
+        "enDefinition": "to attempt or try something, often for the first time",
+        "ptDefinition": "tentar ou fazer uma tentativa em algo, muitas vezes pela primeira vez",
+        "examples": [
+          {
+            "enExample": "I'm going to take a crack at fixing the car this weekend.",
+            "ptExample": "Vou tentar consertar o carro neste fim de semana."
+          },
+          {
+            "enExample": "He decided to take a crack at painting, even though he had no experience.",
+            "ptExample": "Ele decidiu tentar pintar, mesmo sem experiência."
+          }
+        ],
+        "synonyms": "attempt, try, have a go at",
+        "antonyms": "avoid, refuse, neglect",
+        "seeAlso": "give it a shot, try out",
+        "notes": [
+          {
+            "enNote": "This phrase is often used in informal contexts, emphasizing the act of making an effort or attempt, usually without certainty of success.",
+            "ptNote": "Essa frase é frequentemente usada em contextos informais, enfatizando o ato de fazer um esforço ou tentativa, geralmente sem certeza de sucesso."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "take a crack at something",
+    "definitions": [
+      {
+        "word": "take a crack at something",
+        "partOfSpeech": "idiom",
         "enDefinition": "to attempt to do something, especially when it's challenging or newt",
         "ptDefinition": "tentar fazer algo, especialmente quando é desafiador ou novo",
         "examples": [

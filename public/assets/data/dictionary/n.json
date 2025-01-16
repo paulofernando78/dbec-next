@@ -1,5 +1,35 @@
 [
   {
+    "keyword": "nothing ventured, nothing gained",
+    "definitions": [
+      {
+        "word": "nothing ventured, nothing gained",
+        "partOfSpeech": "idiom",
+        "enDefinition": "you can't achieve anything without taking risks or trying",
+        "ptDefinition": "você não pode alcançar nada sem correr riscos ou tentar",
+        "examples": [
+          {
+            "enExample": "I know starting a new business is risky, but nothing ventured, nothing gained.",
+            "ptExample": "Eu sei que começar um novo negócio é arriscado, mas quem não arrisca, não petisca."
+          },
+          {
+            "enExample": "He decided to ask for the promotion, thinking 'nothing ventured, nothing gained'.",
+            "ptExample": "Ele decidiu pedir a promoção, pensando 'quem não arrisca, não petisca'."
+          }
+        ],
+        "synonyms": "take a chance, no risk, no reward, step out of one's comfort zone",
+        "antonyms": "play it safe, avoid risk",
+        "seeAlso": "take risks, dare to try",
+        "notes": [
+          {
+            "enNote": "This idiom is often used to encourage someone to take chances or embrace new opportunities.",
+            "ptNote": "Essa expressão é frequentemente usada para encorajar alguém a correr riscos ou abraçar novas oportunidades."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "need something like a hole in the head",
     "definitions": [
       {

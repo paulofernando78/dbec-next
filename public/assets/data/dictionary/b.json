@@ -1,5 +1,36 @@
 [
   {
+    "keyword": "bigwig",
+    "definitions": [
+      {
+        "word": "bigwig",
+        "phonetics": "/ˈbɪɡwɪɡ/",
+        "partOfSpeech": "noun",
+        "enDefinition": "an important or influential person, especially in a particular organization or industry",
+        "ptDefinition": "uma pessoa importante ou influente, especialmente em uma organização ou setor específico",
+        "examples": [
+          {
+            "enExample": "The company invited all the bigwigs from the tech industry to the launch event.",
+            "ptExample": "A empresa convidou todas as figuras importantes da indústria de tecnologia para o evento de lançamento."
+          },
+          {
+            "enExample": "As a bigwig in the financial sector, he had the power to influence major decisions.",
+            "ptExample": "Como uma figura importante no setor financeiro, ele tinha o poder de influenciar grandes decisões."
+          }
+        ],
+        "synonyms": "important person, high-ranking official, influential figure, VIP",
+        "antonyms": "ordinary person, subordinate, underling",
+        "seeAlso": "executive, leader, authority",
+        "notes": [
+          {
+            "enNote": "This term originally referred to the elaborate wigs worn by high-ranking individuals in the past, signifying their status.",
+            "ptNote": "Esse termo originalmente se referia às perucas elaboradas usadas por indivíduos de alta posição no passado, simbolizando seu status."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "bite the bullet",
     "definitions": [
       {

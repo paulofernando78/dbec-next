@@ -1,5 +1,39 @@
 [
   {
+    "keyword": "out of touch with reality",
+    "definitions": [
+      {
+        "word": "out of touch with reality",
+        "partOfSpeech": "idiom",
+        "enDefinition": "not aware of or not understanding the true situation, often due to unrealistic thinking or lack of knowledge",
+        "ptDefinition": "não estar ciente ou não entender a situação real, muitas vezes devido a pensamentos irreais ou falta de conhecimento",
+        "examples": [
+          {
+            "enExample": "He was out of touch with reality when he thought his small startup could compete with the big corporations.",
+            "ptExample": "Ele estava fora de contato com a realidade quando pensou que sua pequena startup poderia competir com as grandes corporações."
+          },
+          {
+            "enExample": "After years of living in luxury, she became completely out of touch with reality and unaware of the struggles of everyday people.",
+            "ptExample": "Depois de anos vivendo no luxo, ela ficou completamente fora de contato com a realidade e inconsciente das dificuldades das pessoas comuns."
+          },
+          {
+            "enExample": "The politician was out of touch with reality, making promises that were impossible to fulfill.",
+            "ptExample": "O político estava fora de contato com a realidade, fazendo promessas impossíveis de cumprir."
+          }
+        ],
+        "synonyms": "delusional, unrealistic, disconnected from reality, detached from reality",
+        "antonyms": "informed, aware, grounded, realistic",
+        "seeAlso": "out of one's mind, living in a dream world",
+        "notes": [
+          {
+            "enNote": "This phrase is often used to describe someone who has unrealistic expectations or is not aligned with the practical world.",
+            "ptNote": "Essa frase é frequentemente usada para descrever alguém que tem expectativas irreais ou não está alinhado com o mundo prático."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "out of one's mind",
     "definitions": [
       {

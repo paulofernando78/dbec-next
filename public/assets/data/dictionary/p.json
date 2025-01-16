@@ -1,5 +1,35 @@
 [
   {
+    "keyword": "put one's mind to something",
+    "definitions": [
+      {
+        "word": "put one's mind to something",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to focus one's attention and effort on a task or goal",
+        "ptDefinition": "concentrar a atenção e esforço em uma tarefa ou objetivo",
+        "examples": [
+          {
+            "enExample": "If you put your mind to it, you can finish the project by tomorrow.",
+            "ptExample": "Se você se concentrar, pode terminar o projeto até amanhã."
+          },
+          {
+            "enExample": "She put her mind to solving the problem and found a solution quickly.",
+            "ptExample": "Ela se concentrou em resolver o problema e encontrou uma solução rapidamente."
+          }
+        ],
+        "synonyms": "focus, concentrate, commit to",
+        "antonyms": "distract, neglect, ignore",
+        "seeAlso": "set one's mind to, give one's all",
+        "notes": [
+          {
+            "enNote": "This phrase emphasizes the power of determination and mental focus when tackling challenges.",
+            "ptNote": "Essa frase enfatiza o poder da determinação e foco mental ao enfrentar desafios."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "pull the wool over one's eyes",
     "definitions": [
       {

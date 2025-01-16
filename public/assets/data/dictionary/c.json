@@ -1,5 +1,67 @@
 [
   {
+    "keyword": "child's play",
+    "definitions": [
+      {
+        "word": "child's play",
+        "phonetics": "/ʧaɪldz pleɪ/",
+        "partOfSpeech": "noun",
+        "enDefinition": "something that is very easy to do or understand",
+        "ptDefinition": "algo muito fácil de fazer ou entender",
+        "examples": [
+          {
+            "enExample": "The test was child's play for him; he finished it in just a few minutes.",
+            "ptExample": "O teste foi brincadeira de criança para ele; ele terminou em apenas alguns minutos."
+          },
+          {
+            "enExample": "Compared to the last project, this task is child's play.",
+            "ptExample": "Comparado ao último projeto, esta tarefa é brincadeira de criança."
+          }
+        ],
+        "synonyms": "easy, simple, effortless, a walk in the park",
+        "antonyms": "challenging, difficult, hard",
+        "seeAlso": "piece of cake, a breeze",
+        "notes": [
+          {
+            "enNote": "This idiom is often used to describe tasks or problems that are so simple they seem almost trivial.",
+            "ptNote": "Essa expressão é frequentemente usada para descrever tarefas ou problemas tão simples que parecem quase triviais."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "can-do attitude",
+    "definitions": [
+      {
+        "word": "can-do attitude",
+        "phonetics": "/ˈkæn duː ˈætɪtjuːd/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a positive and determined approach to challenges and tasks",
+        "ptDefinition": "uma abordagem positiva e determinada para desafios e tarefas",
+        "examples": [
+          {
+            "enExample": "Her can-do attitude helped the team achieve their goals on time.",
+            "ptExample": "A atitude positiva dela ajudou a equipe a atingir seus objetivos a tempo."
+          },
+          {
+            "enExample": "With a can-do attitude, he was able to solve the problem quickly.",
+            "ptExample": "Com uma atitude positiva, ele conseguiu resolver o problema rapidamente."
+          }
+        ],
+        "synonyms": "positive attitude, determined, optimistic, proactive",
+        "antonyms": "pessimistic, negative, discouraged",
+        "seeAlso": "take initiative, problem solver",
+        "notes": [
+          {
+            "enNote": "This expression is often used to describe someone who approaches challenges with enthusiasm and a willingness to tackle any obstacles.",
+            "ptNote": "Essa expressão é frequentemente usada para descrever alguém que enfrenta desafios com entusiasmo e disposição para superar obstáculos."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "cash cow",
     "definitions": [
       {
