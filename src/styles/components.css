@@ -53,8 +53,8 @@ input[type="checkbox"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  width: 22px;
-  height: 22px;
+  min-width: 22px;
+  min-height: 22px;
   border: 1px solid #333;
   border-radius: 2px;
   cursor: pointer;
