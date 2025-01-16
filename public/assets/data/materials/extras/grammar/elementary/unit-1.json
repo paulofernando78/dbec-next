@@ -192,58 +192,55 @@
               "enText": "<i>subject + verb not (short form)</i>"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "paragraphSections": [
         {
           "paragraphs": [
             {
               "enText": "I <b>am not</b> (I<b>'m not</b>)"
-            }
-          ]
-        },
-        {
-          "paragraphs": [
+            },
+            {
+              "addBreakLine": true
+            },
             {
               "enText": "you <b>are not</b> (you<b>'re not</b> or you <b>aren't</b>)"
-            }
-          ]
-        },
-        {
-          "paragraphs": [
+            },
+            {
+              "addBreakLine": true
+            },
             {
               "text": "he is not (he<b>'s not</b> or he <b>isn't</b>)"
-            }
-          ]
-        },
-        {
-          "paragraphs": [
+            },
+            {
+              "addBreakLine": true
+            },
             {
               "enText": "she is not (she<b>'s not</b> or she <b>isn't</b>)"
-            }
-          ]
-        },
-        {
-          "paragraphs": [
+            },
+            {
+              "addBreakLine": true
+            },
             {
               "enText": "it is not (it<b>'s not</b> or it <b>isn't</b>)"
-            }
-          ]
-        },
-        {
-          "paragraphs": [
+            },
+            {
+              "addBreakLine": true
+            },
             {
               "enText": "we are not (we<b>'re</b> not or we <b>aren't</b>)"
-            }
-          ]
-        },
-        {
-          "paragraphs": [
+            },
+            {
+              "addBreakLine": true
+            },
             {
               "enText": "you are not (yo<b>u're not</b> or you <b>aren't</b>)"
-            }
-          ]
-        },
-        {
-          "paragraphs": [
+            },
+            {
+              "addBreakLine": true
+            },
             {
               "enText": "they are not (they<b>'re not</b> or they <b>aren't</b>)"
             }
