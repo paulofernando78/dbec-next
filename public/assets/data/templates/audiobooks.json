@@ -87,7 +87,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Summary"
+              "enText": "Summary"
             }
           ]
         }
@@ -114,7 +114,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Paragraph 1"
+              "enText": "Paragraph 1"
             }
           ]
         }
@@ -160,7 +160,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Paragraph 2"
+              "enText": "Paragraph 2"
             }
           ]
         }
@@ -206,7 +206,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Paragraph 3"
+              "enText": "Paragraph 3"
             }
           ]
         }
@@ -252,7 +252,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Paragraph 4"
+              "enText": "Paragraph 4"
             }
           ]
         }
@@ -298,7 +298,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Paragraph 5"
+              "enText": "Paragraph 5"
             }
           ]
         }
@@ -344,7 +344,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Paragraph 6"
+              "enText": "Paragraph 6"
             }
           ]
         }
@@ -390,7 +390,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Paragraph 7"
+              "enText": "Paragraph 7"
             }
           ]
         }
@@ -436,7 +436,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Paragraph 8"
+              "enText": "Paragraph 8"
             }
           ]
         }
@@ -482,7 +482,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Paragraph 9"
+              "enText": "Paragraph 9"
             }
           ]
         }
@@ -528,7 +528,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Paragraph 10"
+              "enText": "Paragraph 10"
             }
           ]
         }
@@ -574,7 +574,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Paragraph 11"
+              "enText": "Paragraph 11"
             }
           ]
         }
@@ -620,7 +620,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Paragraph 12"
+              "enText": "Paragraph 12"
             }
           ]
         }
@@ -666,7 +666,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Paragraph 13"
+              "enText": "Paragraph 13"
             }
           ]
         }
@@ -712,7 +712,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Paragraph 14"
+              "enText": "Paragraph 14"
             }
           ]
         }
@@ -758,7 +758,7 @@
               "wordAudioSrc": "/dictionary/xxx.mp3"
             },
             {
-              "textEn": "Paragraph 15"
+              "enText": "Paragraph 15"
             }
           ]
         }

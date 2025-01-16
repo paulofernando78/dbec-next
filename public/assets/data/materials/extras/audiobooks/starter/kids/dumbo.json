@@ -79,7 +79,7 @@
           "imgPosition": "left",
           "paragraphs": [
             {
-              "textEn": "This is Dumbo. She has a yellow hat and big ears. He can fly."
+              "enText": "This is Dumbo. She has a yellow hat and big ears. He can fly."
             }
           ]
         }
@@ -96,16 +96,32 @@
               "id": "1a57e20b-d5cf-4672-9820-1a275b94c442",
               "question": "Dumbo is:",
               "options": [
-                { "id": "98fbea45-7b7e-4c9b-bc84-8c16852551a5", "label": "a dog", "isCorrect": false },
-                { "id": "389ed13a-b28d-458b-91d8-a4ddbf285984", "label": "an elephant", "isCorrect": true }
+                {
+                  "id": "98fbea45-7b7e-4c9b-bc84-8c16852551a5",
+                  "label": "a dog",
+                  "isCorrect": false
+                },
+                {
+                  "id": "389ed13a-b28d-458b-91d8-a4ddbf285984",
+                  "label": "an elephant",
+                  "isCorrect": true
+                }
               ]
             },
             {
               "id": "19f079fa-53aa-4644-9088-c3ea099c3c2b",
               "question": "He has:",
               "options": [
-                { "id": "be63fe9c-d37f-4434-a990-01bfc3ac416a", "label": "small ears", "isCorrect": false },
-                { "id": "023e7f59-28a5-48be-9ceb-063c2d004b09", "label": "big ears", "isCorrect": true }
+                {
+                  "id": "be63fe9c-d37f-4434-a990-01bfc3ac416a",
+                  "label": "small ears",
+                  "isCorrect": false
+                },
+                {
+                  "id": "023e7f59-28a5-48be-9ceb-063c2d004b09",
+                  "label": "big ears",
+                  "isCorrect": true
+                }
               ]
             }
           ]
@@ -129,7 +145,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "This is baby Dumbo. Small eyes, a big nose, and…"
+              "enText": "This is baby Dumbo. Small eyes, a big nose, and…"
             }
           ]
         }
@@ -150,7 +166,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Ha! Ha! He has big ears!"
+              "enText": "Ha! Ha! He has big ears!"
             }
           ]
         }
@@ -167,12 +183,12 @@
       "paragraphSections": [
         {
           "imgSrc": "/materials/extras/audiobooks/starter/kids/dumbo/paragraph-3.png",
-          
+
           "imgAlt": "Paragraph 3 illustration",
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Mommy Elephant is big. The boys are scared. They run."
+              "enText": "Mommy Elephant is big. The boys are scared. They run."
             }
           ]
         }
@@ -193,7 +209,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "The Boss shuts Mommy Elephant in the train."
+              "enText": "The Boss shuts Mommy Elephant in the train."
             }
           ]
         }
@@ -214,7 +230,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Dumbo is sad. Where is his mommy?"
+              "enText": "Dumbo is sad. Where is his mommy?"
             }
           ]
         }
@@ -235,7 +251,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Dumbo is in the circus now. He jumps. He is scared."
+              "enText": "Dumbo is in the circus now. He jumps. He is scared."
             }
           ]
         }
@@ -256,7 +272,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Dumbo is sad, but he has a friend."
+              "enText": "Dumbo is sad, but he has a friend."
             }
           ]
         }
@@ -277,7 +293,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "A bird gives Dumbo a magic feather."
+              "enText": "A bird gives Dumbo a magic feather."
             }
           ]
         }
@@ -298,7 +314,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Weeeeeee! Now Dumbo flies. Dumbo has the magic feather!"
+              "enText": "Weeeeeee! Now Dumbo flies. Dumbo has the magic feather!"
             }
           ]
         }
@@ -319,7 +335,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "This is the big jump. The house is tall."
+              "enText": "This is the big jump. The house is tall."
             }
           ]
         }
@@ -340,7 +356,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "1, 2, 3! Dumbo jumps! Oops! Where is the feather?"
+              "enText": "1, 2, 3! Dumbo jumps! Oops! Where is the feather?"
             }
           ]
         }
@@ -361,7 +377,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Dumbo has big, big, big ears! The boys, girls, moms, and dads look. Dumbo flies."
+              "enText": "Dumbo has big, big, big ears! The boys, girls, moms, and dads look. Dumbo flies."
             }
           ]
         }
@@ -382,7 +398,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Hooray! Dumbo and Mommy Elephant are happy again."
+              "enText": "Hooray! Dumbo and Mommy Elephant are happy again."
             }
           ]
         }

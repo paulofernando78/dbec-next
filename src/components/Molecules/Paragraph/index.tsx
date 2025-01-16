@@ -29,9 +29,7 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
         return (
           <div
             key={paragraphSectionIndex}
-            className={`${containerClass} ${
-              paragraphSection.addBreakLine ? "margin-bottom" : ""
-            }`}
+            className="containerClass"
           >
             {hasImage && paragraphSection.imgPosition === "left" && (
               <Image
@@ -44,7 +42,8 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
             )}
             <div>
               {paragraphSection.paragraphs?.map((paragraph, paragraphIndex) => (
-                <div key={paragraphIndex} className="display-inline">
+                <div key={paragraphIndex} className={`display-inline ${paragraph.addBreakLine ? "display-block" : ""}`}
+                >
                   {paragraph.word && (
                     <DictionaryCard
                       keyword={paragraph.keyword}
@@ -56,14 +55,15 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
                   <p
                     className="display-inline"
                     dangerouslySetInnerHTML={{
-                      __html: paragraph.textEn,
+                      __html: paragraph.enText,
                     }}
                   ></p>{" "}
-                  {paragraph.textPt && (
+                  {paragraph.ptText && (
                     <p className="display-inline portuguese">
-                      {paragraph.textPt}
+                      {paragraph.ptText}
                     </p>
                   )}
+                  
                 </div>
               ))}
             </div>

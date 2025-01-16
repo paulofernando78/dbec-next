@@ -83,7 +83,7 @@
           "imgPosition": "left",
           "paragraphs": [
             {
-              "textEn": "Puss-in-Boots is a very unusual and clever cat. He wears long boots and is so clever that by his actions he makes his master a rich and happy man."
+              "enText": "Puss-in-Boots is a very unusual and clever cat. He wears long boots and is so clever that by his actions he makes his master a rich and happy man."
             }
           ]
         }
@@ -133,7 +133,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Once upon a time, there was a poor farmer who had a very clever cat."
+              "enText": "Once upon a time, there was a poor farmer who had a very clever cat."
             }
           ]
         }
@@ -154,7 +154,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "\"My name's Puss-in-Boots!\" The cat said. \"Master, I can talk, I'd like to help you.\""
+              "enText": "\"My name's Puss-in-Boots!\" The cat said. \"Master, I can talk, I'd like to help you.\""
             }
           ]
         }
@@ -175,7 +175,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Then Puss-in-Boots went into the forest. He caught a big fat rabbit in his bag."
+              "enText": "Then Puss-in-Boots went into the forest. He caught a big fat rabbit in his bag."
             }
           ]
         }
@@ -196,7 +196,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "He took the rabbit to the king."
+              "enText": "He took the rabbit to the king."
             }
           ]
         }
@@ -217,7 +217,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "\"This present is from my master,\" he said."
+              "enText": "\"This present is from my master,\" he said."
             }
           ]
         }
@@ -238,7 +238,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Later, Puss said to his master, \"take off your clothes and jump in the river!\""
+              "enText": "Later, Puss said to his master, \"take off your clothes and jump in the river!\""
             }
           ]
         }
@@ -259,7 +259,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "\"Quick!\" Puss said to the king and his daughter. \"My master is in the water!\""
+              "enText": "\"Quick!\" Puss said to the king and his daughter. \"My master is in the water!\""
             }
           ]
         }
@@ -280,7 +280,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "The king gave the farmer dry clothes. They were beautiful. The farmer looked very handsome."
+              "enText": "The king gave the farmer dry clothes. They were beautiful. The farmer looked very handsome."
             }
           ]
         }
@@ -301,7 +301,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Puss-in-Boots saw a big castle. \"A monster lives here,\" Puss said, \"but I'm not scared!\""
+              "enText": "Puss-in-Boots saw a big castle. \"A monster lives here,\" Puss said, \"but I'm not scared!\""
             }
           ]
         }
@@ -322,7 +322,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "\"Show me some magic!\" Puss said to the monster. \"Can you change into a mouse?\""
+              "enText": "\"Show me some magic!\" Puss said to the monster. \"Can you change into a mouse?\""
             }
           ]
         }
@@ -343,7 +343,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "\"Yes\", the monster said — he was very silly! He changed into a mouse. Puss jumped!"
+              "enText": "\"Yes\", the monster said — he was very silly! He changed into a mouse. Puss jumped!"
             }
           ]
         }
@@ -364,7 +364,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Puss showed the castle to the king and princess. Puss and his master lived there."
+              "enText": "Puss showed the castle to the king and princess. Puss and his master lived there."
             }
           ]
         }
@@ -385,7 +385,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "His master was now very rich. He married the princess. They had a big party!"
+              "enText": "His master was now very rich. He married the princess. They had a big party!"
             }
           ]
         }
@@ -406,7 +406,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "\"Now, everyone is happy,\" Puss said. \" \"What a very clever cat I am.\" \"Purrrrrrrrrrrrrrrrr!\""
+              "enText": "\"Now, everyone is happy,\" Puss said. \" \"What a very clever cat I am.\" \"Purrrrrrrrrrrrrrrrr!\""
             }
           ]
         }

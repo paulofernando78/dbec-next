@@ -67,7 +67,7 @@
           "imgPosition": "left",
           "paragraphs": [
             {
-              "textEn": "Nemo is a fish. Nemo and his Dad live in the ocean. It is the first day in school today. Who does Nemo see in school on the first day?"
+              "enText": "Nemo is a fish. Nemo and his Dad live in the ocean. It is the first day in school today. Who does Nemo see in school on the first day?"
             }
           ]
         }
@@ -133,7 +133,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Hello. My name is Nemo."
+              "enText": "Hello. My name is Nemo."
             }
           ]
         }
@@ -154,7 +154,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "This is my dad. Marlin."
+              "enText": "This is my dad. Marlin."
             }
           ]
         }
@@ -175,7 +175,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "We live in the ocean."
+              "enText": "We live in the ocean."
             }
           ]
         }
@@ -196,7 +196,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Hoorah! Hoorah! It's my first day in school today"
+              "enText": "Hoorah! Hoorah! It's my first day in school today"
             }
           ]
         }
@@ -217,7 +217,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Where is my school, Dad?"
+              "enText": "Where is my school, Dad?"
             }
           ]
         }
@@ -238,7 +238,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "It is there, Son."
+              "enText": "It is there, Son."
             }
           ]
         }
@@ -259,7 +259,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Hello! Are you the teachers? No, we're moms and dads."
+              "enText": "Hello! Are you the teachers? No, we're moms and dads."
             }
           ]
         }
@@ -280,7 +280,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Hello, I'm Nemo. Are you my new friends? Yes, we are."
+              "enText": "Hello, I'm Nemo. Are you my new friends? Yes, we are."
             }
           ]
         }
@@ -301,7 +301,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "I'm Mr Ray. I'm the teacher. Where's my new class? Here we are."
+              "enText": "I'm Mr Ray. I'm the teacher. Where's my new class? Here we are."
             }
           ]
         }
@@ -322,7 +322,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Bye, Dad. Bye, Nemo. Have fun in school."
+              "enText": "Bye, Dad. Bye, Nemo. Have fun in school."
             }
           ]
         }

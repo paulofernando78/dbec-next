@@ -39,7 +39,7 @@
               "word": "test 1"
             },
             {
-              "textEn": ""
+              "enText": ""
             },
             {
               "keyword": "...",
@@ -57,14 +57,14 @@
               "word": "..."
             },
             {
-              "textEn":	"..."
+              "enText": "..."
             },
             {
               "keyword": "...",
               "word": "..."
             },
             {
-              "textEn":	"Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
+              "enText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
             }
           ]
         },
@@ -77,13 +77,13 @@
               "keyword": "...",
               "word": "...",
               "wordAudioSrc": "/dictionary/xxx.mp3",
-              "textEn": "..."
+              "enText": "..."
             },
             {
               "keyword": "...",
               "word": "...",
               "wordAudioSrc": "/dictionary/xxx.mp3",
-              "textEn": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
+              "enText": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
             }
           ]
         }

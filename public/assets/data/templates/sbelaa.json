@@ -13,21 +13,21 @@
         {
           "paragraphs": [
             {
-              "textEn": "<b>Lesson 1 • xxx</b>"
+              "enText": "<b>Lesson 1 • xxx</b>"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "xxx"
+              "enText": "xxx"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>...:</b> ..."
+              "enText": "<b>...:</b> ..."
             },
             {
               "keyword": "...",
@@ -35,7 +35,7 @@
               "wordAudioSrc": "/dictionary/c/....mp3"
             },
             {
-              "textEn": "..."
+              "enText": "..."
             }
           ]
         }

@@ -2,13 +2,13 @@ export interface Paragraph {
   keyword?: string;
   word: string;
   wordAudioSrc: string;
-  textEn: string;
-  textPt?: string
+  enText: string;
+  ptText?: string
+  addBreakLine?: boolean;
 }
 
 export interface ParagraphSection {
   paragraphs: Paragraph[];
-  addBreakLine: boolean;
   imgSrc?: string;
   imgAlt?: string;
   imgPosition?: "left" | "right";

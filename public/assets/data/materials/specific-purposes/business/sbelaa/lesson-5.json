@@ -18,7 +18,7 @@
         {
           "paragraphs": [
             {
-              "textEn": "<b>Lesson 5 • Talking about company strategy</b>"
+              "enText": "<b>Lesson 5 • Talking about company strategy</b>"
             }
           ]
         },
@@ -32,35 +32,35 @@
         {
           "paragraphs": [
             {
-              "textEn": "<b>Andy:</b> My team has come up with a new strategy. We can't continue being"
+              "enText": "<b>Andy:</b> My team has come up with a new strategy. We can't continue being"
             },
             {
               "keyword": "fast followers",
               "word": "fast followers"
             },
             {
-              "textEn": ". We need to start developing our own"
+              "enText": ". We need to start developing our own"
             },
             {
               "keyword": "cutting-edge",
               "word": "cutting-edge"
             },
             {
-              "textEn": "technologies."
+              "enText": "technologies."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Laura:</b> Why? We've been"
+              "enText": "<b>Laura:</b> Why? We've been"
             },
             {
               "keyword": "fast followers",
               "word": "fast followers"
             },
             {
-              "textEn": "for the past ten years."
+              "enText": "for the past ten years."
             },
             {
               "keyword": "Why mess with success?",
@@ -71,147 +71,147 @@
         {
           "paragraphs": [
             {
-              "textEn": "<b>Andy:</b> Success?"
+              "enText": "<b>Andy:</b> Success?"
             },
             {
               "keyword": "get with the program",
               "word": "Get with the program"
             },
             {
-              "textEn": ". Our sales are way down. Our "
+              "enText": ". Our sales are way down. Our "
             },
             {
               "keyword": "cash cow",
               "word": "cash cow"
             },
             {
-              "textEn": ", the Model 8B, only sold 900 units last month!"
+              "enText": ", the Model 8B, only sold 900 units last month!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Laura:</b> I can understand why. That phone's a relic.* It's been around for over three years. What about our new phones?"
+              "enText": "<b>Laura:</b> I can understand why. That phone's a relic.* It's been around for over three years. What about our new phones?"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Andy:</b> Our latest model cell phone was a"
+              "enText": "<b>Andy:</b> Our latest model cell phone was a"
             },
             {
               "keyword": "real dog",
               "word": "real dog"
             },
             {
-              "textEn": "! It sold only 20 percent of our sales forecast."
+              "enText": "! It sold only 20 percent of our sales forecast."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Laura:</b> Any idea why?"
+              "enText": "<b>Laura:</b> Any idea why?"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Andy:</b> Product life cycles are much shorter now than before. New technologies are developed at a much faster rate."
+              "enText": "<b>Andy:</b> Product life cycles are much shorter now than before. New technologies are developed at a much faster rate."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Laura:</b> So what are we supposed to do?"
+              "enText": "<b>Laura:</b> So what are we supposed to do?"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Andy:</b> We need to become much more innovative as a company. Instead of producing"
+              "enText": "<b>Andy:</b> We need to become much more innovative as a company. Instead of producing"
             },
             {
               "keyword": "me-too products",
               "word": "me-too products"
             },
             {
-              "textEn": ", we need to"
+              "enText": ", we need to"
             },
             {
               "keyword": "leapfrog one's competitors",
               "word": "leapfrog our competitors"
             },
             {
-              "textEn": "."
+              "enText": "."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Laura:</b> How do we do that?"
+              "enText": "<b>Laura:</b> How do we do that?"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Andy:</b>"
+              "enText": "<b>Andy:</b>"
             },
             {
               "keyword": "for starters",
               "word": "For starters"
             },
             {
-              "textEn": ", we need to"
+              "enText": ", we need to"
             },
             {
               "keyword": "beef up",
               "word": "beef up "
             },
             {
-              "textEn": "our R&D* department. We need to develop differentiated products which we can sell"
+              "enText": "our R&D* department. We need to develop differentiated products which we can sell"
             },
             {
               "keyword": "at a premium",
               "word": "at a premium"
             },
             {
-              "textEn": "."
+              "enText": "."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Laura:</b> As a next step, let's"
+              "enText": "<b>Laura:</b> As a next step, let's"
             },
             {
               "keyword": "get buy-in",
               "word": "get buy-in"
             },
             {
-              "textEn": "from our marketing and sales directors."
+              "enText": "from our marketing and sales directors."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Andy:</b> Right. We should get everyone"
+              "enText": "<b>Andy:</b> Right. We should get everyone"
             },
             {
               "keyword": "on the same page",
               "word": " on the same page"
             },
             {
-              "textEn": "."
+              "enText": "."
             }
           ]
         }

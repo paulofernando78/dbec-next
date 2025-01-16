@@ -18,175 +18,175 @@
         {
           "paragraphs": [
             {
-              "textEn": "<b>Lesson 2 • Talking about financial issues</b>"
+              "enText": "<b>Lesson 2 • Talking about financial issues</b>"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "Juan and Diane work in the finance department of"
+              "enText": "Juan and Diane work in the finance department of"
             },
             {
               "keyword": "delicious",
               "word": "Delicious"
             },
             {
-              "textEn": "Delights, a company that makes snack foods. Here, they're discussing the financial projections for a new product line."
+              "enText": "Delights, a company that makes snack foods. Here, they're discussing the financial projections for a new product line."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Juan:</b> I'm really excited about the launch of our new line of fat-free Delicious Delight donuts."
+              "enText": "<b>Juan:</b> I'm really excited about the launch of our new line of fat-free Delicious Delight donuts."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Diane:</b> Me too. But before we go any further, we'd better make sure this product line is going to be profitable."
+              "enText": "<b>Diane:</b> Me too. But before we go any further, we'd better make sure this product line is going to be profitable."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Juan:</b> I did some"
+              "enText": "<b>Juan:</b> I did some"
             },
             {
               "keyword": "back-of-the-envelope calculations",
               "word": "back-of-the-envelope calculations"
             },
             {
-              "textEn": ". Take a look."
+              "enText": ". Take a look."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Diane:</b> I see you've estimated $2 million for the new equipment. Where did you get that figure?"
+              "enText": "<b>Diane:</b> I see you've estimated $2 million for the new equipment. Where did you get that figure?"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Juan:</b> That's an "
+              "enText": "<b>Juan:</b> That's an "
             },
             {
               "keyword": "educated guess",
               "word": "educated guess"
             },
             {
-              "textEn": "based on some equipment I bought last year."
+              "enText": "based on some equipment I bought last year."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Diane:</b> You're going to need to double-check that. Using old estimates can get us"
+              "enText": "<b>Diane:</b> You're going to need to double-check that. Using old estimates can get us"
             },
             {
               "keyword": "in hot water",
               "word": "in hot water"
             },
             {
-              "textEn": "."
+              "enText": "."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Juan:</b> No problem. I'll get on the phone with the manufacturer in Dallas and get a price quote."
+              "enText": "<b>Juan:</b> No problem. I'll get on the phone with the manufacturer in Dallas and get a price quote."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Diane:</b> Do you have a sense for market demand? We should get the forecasts from the marketing department before we"
+              "enText": "<b>Diane:</b> Do you have a sense for market demand? We should get the forecasts from the marketing department before we"
             },
             {
               "keyword": "crunch the numbers",
               "word": "crunch the numbers"
             },
             {
-              "textEn": "."
+              "enText": "."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Juan:</b> We don't have those yet. Mary from marketing said maybe we'd have them next week."
+              "enText": "<b>Juan:</b> We don't have those yet. Mary from marketing said maybe we'd have them next week."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Diane:</b> It just"
+              "enText": "<b>Diane:</b> It just"
             },
             {
               "keyword": "blow one's mind",
               "word": "blows my mind "
             },
             {
-              "textEn": "when marketing people want us to"
+              "enText": "when marketing people want us to"
             },
             {
               "keyword": "run the numbers",
               "word": "run the numbers"
             },
             {
-              "textEn": "and they don't bring us the information we need!"
+              "enText": "and they don't bring us the information we need!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Juan:</b> If we end up "
+              "enText": "<b>Juan:</b> If we end up "
             },
             {
               "keyword": "in the red",
               "word": "in the red"
             },
             {
-              "textEn": "on this project, it's going to be their"
+              "enText": "on this project, it's going to be their"
             },
             {
               "keyword": "one's head on the chopping block",
               "word": "heads on the chopping block"
             },
             {
-              "textEn": ", not ours. They're the ones with P&L* responsibility!"
+              "enText": ", not ours. They're the ones with P&L* responsibility!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Diane:</b> Our CFO won't "
+              "enText": "<b>Diane:</b> Our CFO won't "
             },
             {
               "keyword": "give somebody the green light",
               "word": "give this project the green light"
             },
             {
-              "textEn": "until he sees all the numbers. If it doesn't look like we'll make money or at least"
+              "enText": "until he sees all the numbers. If it doesn't look like we'll make money or at least"
             },
             {
               "keyword": "break even",
               "word": "break even"
             },
             {
-              "textEn": ", he'll"
+              "enText": ", he'll"
             },
             {
               "keyword": "pull the plug",
@@ -194,7 +194,7 @@
               "wordAudioSrc": "/dictionary/p/pull-the-plug.mp3"
             },
             {
-              "textEn": "on the project."
+              "enText": "on the project."
             }
           ]
         }

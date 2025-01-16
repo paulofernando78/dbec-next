@@ -1,15 +1,15 @@
 {
-    "whiteboard": {
-      "title": "Specific Purposes",
-      "subtitle": "Business",
-      "descriptions": ["Lesson 9 • Dealing with a dissastified customer"]
+  "whiteboard": {
+    "title": "Specific Purposes",
+    "subtitle": "Business",
+    "descriptions": ["Lesson 9 • Dealing with a dissastified customer"]
+  },
+  "lessons": [
+    {
+      "imgSrc": "/materials/specific-purposes/business/sbelaa/lesson-9.png",
+      "imgAlt": "...",
+      "imgWidth": "50%"
     },
-    "lessons": [
-      {
-        "imgSrc": "/materials/specific-purposes/business/sbelaa/lesson-9.png",
-        "imgAlt": "...",
-        "imgWidth": "50%"
-      },
     {
       "audioSrc": "/materials/specific-purposes/business/sbelaa/lesson-9.mp3"
     },
@@ -18,7 +18,7 @@
         {
           "paragraphs": [
             {
-              "textEn": "<b>Lesson 9 • Dealing with a dissastified customer</b>"
+              "enText": "<b>Lesson 9 • Dealing with a dissastified customer</b>"
             }
           ],
           "addBreakLine": true
@@ -26,7 +26,7 @@
         {
           "paragraphs": [
             {
-              "textEn": "John hired Kevin's web design firm to design a website for his company, but John is not satisfied with the end result."
+              "enText": "John hired Kevin's web design firm to design a website for his company, but John is not satisfied with the end result."
             }
           ],
           "addBreakLine": true
@@ -34,154 +34,154 @@
         {
           "paragraphs": [
             {
-              "textEn": "<b>John:</b> We're disappointed with the website you designed for us. It's."
+              "enText": "<b>John:</b> We're disappointed with the website you designed for us. It's."
             },
             {
               "keyword": "a far cry from",
               "word": "a far cry from "
             },
             {
-              "textEn":	"what we were expecting"
+              "enText": "what we were expecting"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Kevin:</b> I'm sorry you're not satisfied. We really"
+              "enText": "<b>Kevin:</b> I'm sorry you're not satisfied. We really"
             },
             {
               "keyword": "go all out",
               "word": "went all out"
             },
             {
-              "textEn":	"to make it a great site."
+              "enText": "to make it a great site."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>John:</b> Well, I'm not going to"
+              "enText": "<b>John:</b> Well, I'm not going to"
             },
             {
               "keyword": "mince words",
               "word": "mince words"
             },
             {
-              "textEn":	", but you charged us a"
+              "enText": ", but you charged us a"
             },
             {
               "keyword": "pretty penny",
               "word": "pretty penny"
             },
             {
-              "textEn":	"and you didn't"
+              "enText": "and you didn't"
             },
             {
               "keyword": "deliver",
               "word": "deliver"
             },
             {
-              "textEn":	"."
+              "enText": "."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Kevin:</b> Wow, I'm really surprised to hear you say that! We"
+              "enText": "<b>Kevin:</b> Wow, I'm really surprised to hear you say that! We"
             },
             {
               "keyword": "pull out all the stops",
               "word": "pulled out all the stops"
             },
             {
-              "textEn":	"."
+              "enText": "."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>John:</b> Don't try to"
+              "enText": "<b>John:</b> Don't try to"
             },
             {
               "keyword": "pull the wool over one's eyes",
               "word": "pull the wool over my eyes"
             },
             {
-              "textEn":	". You promised that your best people would work on this project, but our website looks like it was designed by a summer intern!"
+              "enText": ". You promised that your best people would work on this project, but our website looks like it was designed by a summer intern!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Kevin:</b> What exactly is the problem with the site?"
+              "enText": "<b>Kevin:</b> What exactly is the problem with the site?"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>John:</b>"
+              "enText": "<b>John:</b>"
             },
             {
               "keyword": "where to begin?",
               "word": "Where to begin?"
             },
             {
-              "textEn":	"The shopping cart doesn't even work."
+              "enText": "The shopping cart doesn't even work."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Kevin:</b> Really? Well, we'll"
+              "enText": "<b>Kevin:</b> Really? Well, we'll"
             },
             {
               "keyword": "get right on something",
               "word": "get right on that"
             },
             {
-              "textEn":	"."
+              "enText": "."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>John:</b> And you guys"
+              "enText": "<b>John:</b> And you guys"
             },
             {
               "keyword": "mess around",
               "word": "messed around"
             },
             {
-              "textEn":	"forever getting the site done. You were three months behind schedule!"
+              "enText": "forever getting the site done. You were three months behind schedule!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "textEn": "<b>Kevin:</b> I'm sorry about that. We were"
+              "enText": "<b>Kevin:</b> I'm sorry about that. We were"
             },
             {
               "keyword": "swamped",
               "word": "swamped"
             },
             {
-              "textEn":	". Let me"
+              "enText": ". Let me"
             },
             {
               "keyword": "make it up to you",
               "word": "make it up to you"
             },
             {
-              "textEn":	". We'll give you a 25 percent discount on the project."
+              "enText": ". We'll give you a 25 percent discount on the project."
             }
           ]
         }
@@ -372,5 +372,4 @@
       ]
     }
   ]
-  }
-  
+}

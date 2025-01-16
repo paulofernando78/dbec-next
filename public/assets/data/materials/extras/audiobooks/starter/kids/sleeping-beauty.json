@@ -67,7 +67,7 @@
           "imgPosition": "left",
           "paragraphs": [
             {
-              "textEn": "Princess Aurora lives in a big castle. Prince Phillip is her friend.The Princess puts one hand on a spindle … she sleeps and sleeps. Does Princess Aurora see Prince Phillip again?"
+              "enText": "Princess Aurora lives in a big castle. Prince Phillip is her friend.The Princess puts one hand on a spindle … she sleeps and sleeps. Does Princess Aurora see Prince Phillip again?"
             }
           ]
         }
@@ -124,7 +124,7 @@
         {
           "paragraphs": [
             {
-              "textEn": "<b>Sleeping Beauty</b>"
+              "enText": "<b>Sleeping Beauty</b>"
             }
           ]
         }
@@ -144,7 +144,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "This is princess Aurora. She walks in the forest today."
+              "enText": "This is princess Aurora. She walks in the forest today."
             }
           ]
         }
@@ -165,7 +165,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Princess Aurora likes birds and animals. They live in the forest."
+              "enText": "Princess Aurora likes birds and animals. They live in the forest."
             }
           ]
         }
@@ -186,7 +186,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Princess Philip likes the Princess and she likes him."
+              "enText": "Princess Philip likes the Princess and she likes him."
             }
           ]
         }
@@ -207,7 +207,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Princess Aurora lives in a big castle."
+              "enText": "Princess Aurora lives in a big castle."
             }
           ]
         }
@@ -228,7 +228,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Oh, no! Maleficent is in the castle. She is bad."
+              "enText": "Oh, no! Maleficent is in the castle. She is bad."
             }
           ]
         }
@@ -249,7 +249,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Princess Aurora sees a"
+              "enText": "Princess Aurora sees a"
             },
             {
               "keyword": "spindle",
@@ -257,7 +257,7 @@
               "wordAudioSrc": "/dictionary/s/spindle.mp3"
             },
             {
-              "textEn":	". She puts one hand on the spindle."
+              "enText": ". She puts one hand on the spindle."
             }
           ]
         }
@@ -278,7 +278,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Ouch! It's a bad spindle. Princess Aurora sleeps now. Ha Ha! She sleeps and sleeps and sleeps."
+              "enText": "Ouch! It's a bad spindle. Princess Aurora sleeps now. Ha Ha! She sleeps and sleeps and sleeps."
             }
           ]
         }
@@ -299,7 +299,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Prince Philip is on a horse. He goes in the castle."
+              "enText": "Prince Philip is on a horse. He goes in the castle."
             }
           ]
         }
@@ -320,7 +320,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Prince Philipe kisses Princess Aurora. She looks at the Prince."
+              "enText": "Prince Philipe kisses Princess Aurora. She looks at the Prince."
             }
           ]
         }
@@ -341,7 +341,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "Now the Prince and Princess are happy."
+              "enText": "Now the Prince and Princess are happy."
             }
           ]
         }
