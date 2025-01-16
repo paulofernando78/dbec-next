@@ -44,7 +44,10 @@
         "antonyms": "misunderstood, out of sync, confused",
         "notes": [
           {
-            "note": "The phrase is commonly used in both professional and casual contexts to ensure clarity and alignment."
+            "enNote": "The phrase is commonly used in both professional and casual contexts to ensure clarity and alignment."
+          },
+          {
+            "ptnote": "A expressão é comumente usada tanto em contextos profissionais quanto casuais para garantir clareza e alinhamento."
           }
         ]
       }
@@ -95,7 +98,10 @@
         "antonyms": "fall behind, ignore changes, be outdated",
         "notes": [
           {
-            "note": "This idiom is often used in professional or creative contexts where being updated is crucial for success."
+            "enNote": "This idiom is often used in professional or creative contexts where being updated is crucial for success."
+          },
+          {
+            "ptNote": "Este idiom é frequentemente usado em contextos profissionais ou criativos, onde estar atualizado é crucial para o sucesso."
           }
         ]
       }

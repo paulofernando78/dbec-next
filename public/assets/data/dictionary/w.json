@@ -22,7 +22,10 @@
         "antonyms": "decisive, strong-willed, confident",
         "notes": [
           {
-            "note": "This term is often used in a negative sense to describe someone who is unable to make firm decisions or take clear positions."
+            "enNote": "This term is often used in a negative sense to describe someone who is unable to make firm decisions or take clear positions."
+          },
+          {
+            "ptNote": "Este termo é frequentemente usado de forma negativa para descrever alguém que é incapaz de tomar decisões firmes ou adotar posições claras."
           }
         ]
       }
@@ -69,7 +72,10 @@
         "antonyms": "ahead of schedule, with plenty of time, well-prepared",
         "notes": [
           {
-            "note": "This phrase is often used in contexts where time management is critical, and tasks are completed just before a deadline."
+            "enNote": "This phrase is often used in contexts where time management is critical, and tasks are completed just before a deadline."
+          },
+          {
+            "ptNote": "Esta expressão é frequentemente usada em contextos onde o gerenciamento de tempo é crítico, e as tarefas são concluídas pouco antes do prazo."
           }
         ]
       }

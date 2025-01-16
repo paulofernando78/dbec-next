@@ -119,7 +119,10 @@
         "antonyms": "drop, decrease, plummet",
         "notes": [
           {
-            "note": "This phrase is often used to describe sharp increases in prices, emotions, or demand."
+            "enNote": "This phrase is often used to describe sharp increases in prices, emotions, or demand."
+          },
+          {
+            "ptNote": "Esta expressão é frequentemente usada para descrever aumentos acentuados em preços, emoções ou demanda."
           }
         ]
       }
@@ -216,7 +219,10 @@
         "antonyms": "encourage, support, inspire, fuel enthusiasm",
         "notes": [
           {
-            "note": "Although it's important to be cautious, excessive criticism can discourage innovation and creativity."
+            "enNote": "Although it's important to be cautious, excessive criticism can discourage innovation and creativity."
+          },
+          {
+            "ptNote": "Embora seja importante ter cautela, críticas excessivas podem desestimular a inovação e a criatividade."
           }
         ]
       }
@@ -246,7 +252,10 @@
         "seeAlso": "branding, marketing, advertising, identity",
         "notes": [
           {
-            "note": "A memorable tagline plays a crucial role in reinforcing a brand's message and creating emotional connections with consumers."
+            "enNote": "A memorable tagline plays a crucial role in reinforcing a brand's message and creating emotional connections with consumers."
+          },
+          {
+            "ptNote": "Um \"slogan\" memorável desempenha um papel crucial em reforçar a mensagem de uma marca e criar conexões emocionais com os consumidores."
           }
         ]
       }
@@ -322,7 +331,10 @@
         "antonyms": "insignificant, minimal, small-scale",
         "notes": [
           {
-            "note": "This idiom is often used to emphasize the magnitude of something, particularly in financial contexts."
+            "enNote": "This idiom is often used to emphasize the magnitude of something, particularly in financial contexts."
+          },
+          {
+            "ptNote": "Este idiom é frequentemente usado para enfatizar a magnitude de algo, especialmente em contextos financeiros."
           }
         ]
       }

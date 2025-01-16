@@ -1,6 +1,6 @@
 [
   {
-    "keyword": "live to regret this decision",
+    "keyword": "live to regret a decision",
     "definitions": [
       {
         "word": "live to regret this decision",
@@ -40,7 +40,10 @@
         "antonyms": "lag behind, fall short, trail",
         "notes": [
           {
-            "note": "The term comes from the idea of one person leaping over another in a race, symbolizing a major leap forward. It's also a popular children's game in which one child bends down and another jumps over him or her."
+            "enNote": "The term comes from the idea of one person leaping over another in a race, symbolizing a major leap forward. It's also a popular children's game in which one child bends down and another jumps over him or her."
+          },
+          {
+            "ptNote": "O termo vem da ideia de uma pessoa saltando sobre outra em uma corrida, simbolizando um grande avanço. Também é um jogo popular entre crianças em que uma criança se agacha e a outra pula sobre ela."
           }
         ]
       }

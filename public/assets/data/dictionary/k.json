@@ -60,7 +60,10 @@
         "antonyms": "criticism, disapproval, reproach",
         "notes": [
           {
-            "note": "Kudos is the Greek word for \"praise.\""
+            "enNote": "Kudos is the Greek word for \"praise.\""
+          },
+          {
+            "ptNote": "Kudos é a palavra grega para \"elogio\""
           }
         ]
       }

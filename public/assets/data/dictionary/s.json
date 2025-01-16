@@ -1,5 +1,25 @@
 [
   {
+    "keyword": "swivel",
+    "definitions": [
+      {
+        "word": "swivel",
+        "phonetics": "/ˈswɪvəl/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to turn around a central point or axis, often quickly or smoothly",
+        "ptDefinition": "girar em torno de um ponto ou eixo central, muitas vezes de forma rápida ou suave",
+        "examples": [
+          {
+            "enExample": "The office chair swivels 360 degrees for easy movement.",
+            "ptExample": "A cadeira de escritório gira 360 graus para facilitar o movimento."
+          }
+        ],
+        "synonyms": "spin, rotate, turn",
+        "antonyms": "stay still, remain stationary"
+      }
+    ]
+  },
+  {
     "keyword": "share the credit",
     "definitions": [
       {
@@ -23,7 +43,10 @@
         "seeAlso": "",
         "notes": [
           {
-            "note": "This phrase emphasizes collaboration and fairness in recognizing everyone's contribution."
+            "enNote": "This phrase emphasizes collaboration and fairness in recognizing everyone's contribution."
+          },
+          {
+            "ptNote": "Esta expressão enfatiza a colaboração e a justiça ao reconhecer a contribuição de todos."
           }
         ]
       }
@@ -52,7 +75,10 @@
         "seeAlso": "",
         "notes": [
           {
-            "note": "This phrase is often used in marketing, sales, and membership-driven businesses."
+            "enNote": "This phrase is often used in marketing, sales, and membership-driven businesses."
+          },
+          {
+            "ptNote": "Esta expressão é frequentemente usada em marketing, vendas e negócios baseados em adesão."
           }
         ]
       }
@@ -80,7 +106,10 @@
         "antonyms": "avoid responsibility, back down, pass the buck",
         "notes": [
           {
-            "note": "This expression originates from baseball but is commonly used in business and everyday situations to describe taking initiative."
+            "enNote": "This expression originates from baseball but is commonly used in business and everyday situations to describe taking initiative."
+          },
+          {
+            "ptNote": "Esta expressão tem origem no beisebol, mas é comumente usada em negócios e situações cotidianas para descrever a tomada de iniciativa."
           }
         ]
       }
@@ -401,7 +430,10 @@
         ],
         "notes": [
           {
-            "note": "This expression comes from the practice of kids hanging up stockings that Santa Claus fills (or \"stuffs\") with small gifts."
+            "enNote": "This expression comes from the practice of kids hanging up stockings that Santa Claus fills (or \"stuffs\") with small gifts."
+          },
+          {
+            "ptNote": "Esta expressão vem da prática das crianças pendurarem meias que o Papai Noel enche (ou \"recheia\") com pequenos presentes."
           }
         ]
       }

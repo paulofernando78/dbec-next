@@ -4,6 +4,7 @@
     "definitions": [
       {
         "word": "my gut tells me",
+        "phonetics": "/maɪ ɡʌt tɛlz mi/",
         "partOfSpeech": "idiom",
         "enDefinition": "a feeling or intuition that something is true or likely to happen, based on instinct rather than reason or evidence",
         "ptDefinition": "um sentimento ou intuição de que algo é verdade ou provável de acontecer, baseado no instinto em vez da razão ou evidências",
@@ -18,7 +19,14 @@
           }
         ],
         "synonyms": "instinct says, feeling tells me, intuition",
-        "antonyms": "reasoned judgment, logical decision, evidence-based conclusion"
+        "antonyms": "reasoned judgment, logical decision, evidence-based conclusion",
+        "seeAlso": "",
+        "notes": [
+          {
+            "enNote": "This idiom is used to describe a strong, instinctive feeling about something, without relying on hard facts or logic.",
+            "ptNote": "Este idiom é usado para descrever um forte sentimento instintivo sobre algo, sem depender de fatos concretos ou lógica."
+          }
+        ]
       }
     ]
   },
@@ -42,7 +50,10 @@
         "seeAlso": "",
         "notes": [
           {
-            "note": "This term often implies a lack of originality or creativity."
+            "enNote": "This term often implies a lack of originality or creativity."
+          },
+          {
+            "ptNote": "Este termo frequentemente implica falta de originalidade ou criatividade."
           }
         ]
       }
@@ -88,7 +99,10 @@
         "antonyms": "market loss, reduced influence, decreased share",
         "notes": [
           {
-            "note": "Market share is often used as a key performance indicator in business strategies."
+            "enNote": "Market share is often used as a key performance indicator in business strategies."
+          },
+          {
+            "ptNote": "A \"participação de mercado\" é frequentemente usada como um indicador chave de desempenho em estratégias de negócios."
           }
         ]
       }

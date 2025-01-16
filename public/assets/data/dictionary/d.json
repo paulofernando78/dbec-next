@@ -23,7 +23,10 @@
         "seeAlso": "",
         "notes": [
           {
-            "note": "This phrase is commonly used in business contexts to describe efforts aimed at bringing in new customers or clients."
+            "enNote": "This phrase is commonly used in business contexts to describe efforts aimed at bringing in new customers or clients."
+          },
+          {
+            "ptNote": "Esta expressão é comumente usada em contextos de negócios para descrever esforços voltados para atrair novos clientes ou consumidores."
           }
         ]
       }
@@ -71,7 +74,10 @@
         "antonyms": "give up, hold back, limit effort",
         "notes": [
           {
-            "note": "This expression is often used to convey a strong sense of determination and commitment."
+            "enNote": "This expression is often used to convey a strong sense of determination and commitment."
+          },
+          {
+            "ptNote": "Esta expressão é frequentemente usada para transmitir um forte senso de determinação e comprometimento."
           }
         ]
       }

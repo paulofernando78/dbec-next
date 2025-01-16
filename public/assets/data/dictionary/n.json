@@ -21,7 +21,10 @@
         "antonyms": "with exceptions, with conditions, negotiable",
         "notes": [
           {
-            "note": "This expression is often used to establish firm boundaries or emphasize strict adherence to a rule or decision."
+            "enNote": "This expression is often used to establish firm boundaries or emphasize strict adherence to a rule or decision."
+          },
+          {
+            "ptNote": "Esta expressão é frequentemente usada para estabelecer limites firmes ou enfatizar a estrita adesão a uma regra ou decisão."
           }
         ]
       }
@@ -118,7 +121,10 @@
         "antonyms": "old guard, stagnation, status quo",
         "notes": [
           {
-            "note": "This idiom is often used in professional contexts to refer to the infusion of new talent or ideas into a group."
+            "enNote": "This idiom is often used in professional contexts to refer to the infusion of new talent or ideas into a group."
+          },
+          {
+            "ptNote": "Este idiom é frequentemente usado em contextos profissionais para se referir à infusão de novos talentos ou ideias em um grupo."
           }
         ]
       }

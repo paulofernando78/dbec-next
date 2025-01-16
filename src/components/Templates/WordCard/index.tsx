@@ -222,42 +222,39 @@ export function WordCard({ dictionary }: WordCardProps) {
                   )}
 
                   {/* Note */}
-                  <div className={styles["border-left"]}>
-                    <p className="bold">Note</p>
-                    {definition.notes?.map((note, noteIndex) => 
-                    (
-                      <p key={noteIndex}>
-                        <Image
-                          src={
-                            playingAudios[`note-${index}-$
-                            {noteIndex}`]
-                              ? playingIcon
-                              : speakerIcon
-                          }
-                          alt={
-                            playingAudios[`note-${index}-$
-                              {noteIndex}`]
-                              ? "Stop icon"
-                              : "Speaker icon"
-                          }
-                          onClick={() =>
-                            note.enNote &&
-                            handleTextToSpeech(
-                              note.enNote,
-                              `note-${index}-${noteIndex}`
-                            )
-                          }
-                          className={styles["audio-button"]}
-                        />
-                        {note.enNote && <span>{note.enNote}</span>}{" "}
-                        {note.ptNote && (
-                          <span className="portuguese">
-                            {note.ptNote}
-                          </span>
-                        )}
-                      </p>
-                    ))}
-                  </div>
+                  {definition.notes?.some(
+                    (note) => note.enNote || note.ptNote
+                  ) && (
+                    <div className={styles["border-left"]}>
+                      <p className="bold">Note</p>
+                      {definition.notes?.map((note, noteIndex) => (
+                        <p key={noteIndex}>
+                          <Image
+                            src={
+                              playingAudios[`note-${index}-${noteIndex}`]
+                                ? playingIcon
+                                : speakerIcon
+                            }
+                            alt={
+                              playingAudios[`note-${index}-${noteIndex}`]
+                                ? "Stop icon"
+                                : "Speaker icon"
+                            }
+                            onClick={() =>
+                              note.enNote &&
+                              handleTextToSpeech(
+                                note.enNote,
+                                `note-${index}-${noteIndex}`
+                              )
+                            }
+                            className={styles["audio-button"]}
+                          />
+                          <span>{note.enNote}</span>{" "}
+                          <span className="portuguese">{note.ptNote}</span>
+                        </p>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             )

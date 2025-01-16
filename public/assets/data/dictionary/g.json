@@ -52,7 +52,10 @@
         "seeAlso": "",
         "notes": [
           {
-            "note": "This term originates from the idea of guerrilla warfare, emphasizing unconventional and strategic actions."
+            "enNote": "This term originates from the idea of guerrilla warfare, emphasizing unconventional and strategic actions."
+          },
+          {
+            "ptNote": "Este termo vem da guerra de guerrilha, destacando ações não convencionais e estratégicas."
           }
         ]
       }
@@ -105,6 +108,9 @@
         "notes": [
           {
             "note": "This phrase is often used to encourage someone to adapt to new ideas, technologies, or approaches."
+          },
+          {
+            "note": "Esta expressão é frequentemente usada para incentivar alguém a se adaptar a novas ideias, tecnologias ou abordagens."
           }
         ]
       }
@@ -132,7 +138,10 @@
         "antonyms": "fail to complete, leave unfinished, fall short",
         "notes": [
           {
-            "note": "This phrase emphasizes determination and reliability, often in professional or practical contexts."
+            "enNote": "This phrase emphasizes determination and reliability, often in professional or practical contexts."
+          },
+          {
+            "ptNote": "Esta expressão enfatiza determinação e confiabilidade, frequentemente em contextos profissionais ou práticos."
           }
         ]
       }
@@ -156,7 +165,10 @@
         "antonyms": "go unnoticed, lack interest, be ignored",
         "notes": [
           {
-            "note": "This phrase is often used in marketing and media to describe how something quickly becomes a topic of conversation."
+            "enNote": "This phrase is often used in marketing and media to describe how something quickly becomes a topic of conversation."
+          },
+          {
+            "ptNote": "Esta expressão é frequentemente usada em marketing e mídia para descrever como algo rapidamente se torna um tópico de conversa."
           }
         ]
       }
@@ -254,7 +266,10 @@
         "antonyms": "ignore, neglect, overlook",
         "notes": [
           {
-            "note": "This idiom is often used in problem-solving contexts where understanding the root cause is essential."
+            "enNote": "This idiom is often used in problem-solving contexts where understanding the root cause is essential."
+          },
+          {
+            "ptNote": "Este idiom é frequentemente usado em contextos de resolução de problemas, onde entender a causa raiz é essencial."
           }
         ]
       }
@@ -403,27 +418,6 @@
           {
             "enExample": "<b>A:</b> It just seems like they have this perfect life, always traveling and spending time together. <b>B:</b> Hey, the grass is always greener. I'm sure they have their own problems that no one else can see.",
             "ptExample": "A: Parece que eles têm uma vida perfeita, sempre viajando e passando tempo juntos. B: Ei, a grama sempre parece mais verde. Tenho certeza de que eles têm seus próprios problemas que ninguém mais pode ver."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "keyword": "guerrilla marketing",
-    "definitions": [
-      {
-        "word": "guerrilla marketing",
-        "partOfSpeech": "idiom",
-        "enDefinition": "innovative methods to sell products; non-traditional methods of advertising or promotion that deliver good results with minimal spending",
-        "examples": [
-          {
-            "enExample": "To promote his new Internet dating service, Don painted his car pink and wrote \"Don's Dating Service\" in big letters on both sides of the car. That's effective guerrilla marketing!",
-            "ptExample": "Para promover seu novo serviço de namoro na internet, Don pintou seu carro de rosa e escreveu \"Serviço de Namoro do Don\" em letras grandes nos dois lados do carro. Isso é um marketing de guerrilha eficaz!"
-          }
-        ],
-        "notes": [
-          {
-            "note": "The word \"guerrilla\" refers to carrying on a war using independent bands of soldiers, who tend to use very aggressive and non-traditional tactics to win battles."
           }
         ]
       }

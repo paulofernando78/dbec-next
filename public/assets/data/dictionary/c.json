@@ -22,7 +22,10 @@
         "antonyms": "money pit, drain, loss-maker",
         "notes": [
           {
-            "note": "The term 'cash cow' is often used in business to refer to a reliable and profitable source of income."
+            "enNote": "The term 'cash cow' is often used in business to refer to a reliable and profitable source of income."
+          },
+          {
+            "enNote": "O termo \"cash cow\" é frequentemente usado nos negócios para se referir a uma fonte confiável e lucrativa de renda."
           }
         ]
       }
@@ -74,7 +77,10 @@
         "antonyms": "well-planned, ahead of schedule, ample time",
         "notes": [
           {
-            "note": "This phrase is often used in situations involving time management or tight deadlines."
+            "enNote": "This phrase is often used in situations involving time management or tight deadlines."
+          },
+          {
+            "ptNote": "Esta expressão é frequentemente usada em situações envolvendo gerenciamento de tempo ou prazos apertados."
           }
         ]
       }
@@ -236,7 +242,10 @@
         "antonyms": "maintain, preserve, retain",
         "notes": [
           {
-            "note": "This idiom is often used in professional or organizational contexts, referring to making significant changes to improve performance."
+            "enNote": "This idiom is often used in professional or organizational contexts, referring to making significant changes to improve performance."
+          },
+          {
+            "ptNote": "Este idiom é frequentemente usado em contextos profissionais ou organizacionais, referindo-se a fazer mudanças significativas para melhorar o desempenho."
           }
         ]
       }
