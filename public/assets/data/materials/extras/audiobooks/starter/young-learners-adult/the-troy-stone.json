@@ -161,7 +161,7 @@
     },
     {
       "title": "Paragraph 2",
-      "time": "...",
+      "time": "0:38",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-2"
@@ -174,7 +174,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "There are forty people on the bus. They come from Britain, America, France, Italy and Holland. At Troy they all have lunch. Then they start to look at the old city. It is a very hot day. After an hour, Mark sits under a tree. \"I'm going to stop here for a moment,\" he tells Fay. \"OK,\" she answers. Then Mark sees something on the ground. \"What's that?\" he thinks."
+              "textEn": "There are forty people on the bus. They come from Britain, America, France, Italy and Holland. At Troy they all have lunch. Then they start to look at the old city. It is a very hot day. After an hour, Mark sits under a tree. \"I'm going to stop here for a moment,\" he tells Fay. \"OK,\" she answers. Then, Mark sees something on the ground. \"What's that?\" he thinks."
             }
           ]
         }
@@ -225,7 +225,7 @@
     },
     {
       "title": "Paragraph 3",
-      "time": "...",
+      "time": "1:23",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-3"
@@ -238,7 +238,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "It is a flat, yellow stone. Mark picks it up. Then he starts to clean it with his hands. \"But I know this stone,\" he thinks. \"It comes from... from... Suddenly there is a white light in his eyes. Mark closes them. The light is strong. Now there is a loud wind in his ears. He cannot hear or see anything. \"What's happening ?\" he thinks."
+              "textEn": "It is a flat, yellow stone. Mark picks it up. Then he starts to clean it with his hands. \"But I know this stone,\" he thinks. \"It comes from... from... Suddenly, there is a white light in his eyes. Mark closes them. The light is strong. Now there is a loud wind in his ears. He cannot hear or see anything. \"What's happening ?\" he thinks."
             }
           ]
         }
@@ -252,7 +252,7 @@
           "title": "3. Choose the correct answer.",
           "radio": [
             {
-              "id": "cc5834ab-8e80-4c9b-b7c4-da62f89350c9",
+              "id": "fc97041a-2e1e-45d2-88da-2383fc5349e3",
               "question": "3.1 What does Mark do with the stone?",
               "options": [
                 {
@@ -272,12 +272,12 @@
               "question": "3.2 How does Mark react to the bright light?",
               "options": [
                 {
-                  "id": "0138efc1-b33a-430e-a83a-5f2f0aef94fa",
+                  "id": "7d13b03f-9871-472b-889d-9d5d2b712ec6",
                   "label": "He closes his eyes.",
                   "isCorrect": true
                 },
                 {
-                  "id": "da704547-6684-4ead-b7c3-93c1cf7e58c5",
+                  "id": "7486316b-619b-443c-b3a0-b195602d0c23",
                   "label": "He opens his eyes.",
                   "isCorrect": false
                 }
@@ -289,7 +289,7 @@
     },
     {
       "title": "Paragraph 4",
-      "time": "...",
+      "time": "2:00",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-4"
@@ -353,7 +353,7 @@
     },
     {
       "title": "Paragraph 5",
-      "time": "...",
+      "time": "2:36",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-5"
@@ -401,12 +401,12 @@
               "options": [
                 {
                   "id": "e9b7f3a1-4c5d-4b91-b18c-d2a1f9e7c4b3",
-                  "label": "He describes himself saying: No, I've been here before.",
+                  "label": "He describes himself saying: No, I haven't been here before.",
                   "isCorrect": false
                 },
                 {
                   "id": "f1b7c3a9-8e4d-4b91-b1c7-d5a2e9f4b7f3",
-                  "label": "He describes himself saying: Y-yes, that's right. I'm new here.",
+                  "label": "He describes himself saying: Yes, that's right. I'm new here.",
                   "isCorrect": true
                 }
               ]
@@ -417,7 +417,7 @@
     },
     {
       "title": "Paragraph 6",
-      "time": "...",
+      "time": "3:16",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-6"
@@ -446,12 +446,12 @@
               "options": [
                 {
                   "id": "c5a9e4b7-1f3d-4b91-b7c9-d2f9b4a8e5c2",
-                  "label": "He said that the horse was going to win the war for the Troys.",
+                  "label": "He says that the horse is going to win the war for the Troys.",
                   "isCorrect": false
                 },
                 {
                   "id": "b4a7e9f3-5c2d-4b91-b7c9-d2f9e5b1f3c8",
-                  "label": "He said that the horse was going to win the war for the Greeks.",
+                  "label": "He says that the horse is going to win the war for the Greeks.",
                   "isCorrect": true
                 }
               ]
@@ -478,7 +478,7 @@
     },
     {
       "title": "Paragraph 7",
-      "time": "...",
+      "time": "3:55",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-7"
@@ -542,7 +542,7 @@
     },
     {
       "title": "Paragraph 8",
-      "time": "...",
+      "time": "4:29",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-8"
@@ -555,7 +555,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "textEn": "He takes the stone out of his pocket. \"But how. . .?!\" says Andros. The man smiles. \"That's it. That's it!\" He looks at Mark. \"What's your name, boy?\" Mark tells him. \"He's new here,\" says Andros. \"Ah!\" The man is very happy. \"Well ... we must thank him. / know. You can come with us in the horse tomorrow night.\" Mark's mouth opens. \"Me?!\""
+              "textEn": "He takes the stone out of his pocket. \"But how. . .?!\" says Andros. The man smiles. \"That's it. That's it!\" He looks at Mark. \"What's your name, boy?\" Mark tells him. \"He's new here,\" says Andros. \"Ah!\" The man is very happy. \"Well ... we must thank him. I know. You can come with us in the horse tomorrow night.\" Mark's mouth opens. \"Me?!\""
             }
           ]
         }
@@ -606,7 +606,7 @@
     },
     {
       "title": "Paragraph 9",
-      "time": "...",
+      "time": "5:14",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-9"
@@ -670,7 +670,7 @@
     },
     {
       "title": "Paragraph 10",
-      "time": "...",
+      "time": "5:51",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-10"
@@ -734,7 +734,7 @@
     },
     {
       "title": "Paragraph 11",
-      "time": "...",
+      "time": "6:36",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-11"
@@ -798,7 +798,7 @@
     },
     {
       "title": "Paragraph 12",
-      "time": "...",
+      "time": "7:19",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-12"
@@ -862,7 +862,7 @@
     },
     {
       "title": "Paragraph 13",
-      "time": "...",
+      "time": "7:57",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-13"
@@ -926,7 +926,7 @@
     },
     {
       "title": "Paragraph 14",
-      "time": "...",
+      "time": "8:36",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-14"
@@ -990,7 +990,7 @@
     },
     {
       "title": "Paragraph 15",
-      "time": "...",
+      "time": "9:18",
       "bgColor": "black",
       "textColor": "white",
       "id": "paragraph-15"

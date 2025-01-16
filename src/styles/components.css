@@ -29,7 +29,6 @@ input[type="radio"] {
   height: 100%;
   margin: 0;
   cursor: pointer;
-  margin-top: 3px;
 }
 
 input[type="radio"]:checked::before {
