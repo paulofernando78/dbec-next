@@ -29,7 +29,7 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
         return (
           <div
             key={paragraphSectionIndex}
-            className="containerClass"
+            className={containerClass}
           >
             {hasImage && paragraphSection.imgPosition === "left" && (
               <Image
@@ -37,7 +37,7 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
                 alt={paragraphSection.imgAlt || ""}
                 width={500}
                 height={500}
-                className="img-customization"
+                className={`img-customization ${styles["img"]}`}
               />
             )}
             <div>
@@ -73,7 +73,7 @@ export const Paragraph = ({ paragraphSections }: ParagraphSectionsProps) => {
                 alt={paragraphSection.imgAlt || ""}
                 width={500}
                 height={500}
-                className="img-customization"
+                className={`img-customization ${styles["img"]}`}
               />
             )}
           </div>

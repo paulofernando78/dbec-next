@@ -12,7 +12,6 @@ import { correctIcon, incorrectIcon } from "@/img/index";
 
 // Typescript
 import { ExercisesProps, Exercise } from "./type";
-import { stringify } from "querystring";
 
 export const Exercises = ({ exercises = [], id }: ExercisesProps) => {
   return (
