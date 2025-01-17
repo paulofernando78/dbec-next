@@ -41,6 +41,7 @@ export const LessonTemplate = ({
 
   return (
     <div className="line-break">
+      
       {/* Whiteboard */}
       {lessonData.whiteboard && (
         <Whiteboard
@@ -98,14 +99,16 @@ export const LessonTemplate = ({
 
           {/* Image */}
           {lesson.imgSrc && (
-            <Image
-              src={`${baseImgScr}${lesson.imgSrc}`}
-              alt={lesson.imgAlt || "..."}
-              width={1000}
-              height={1000}
-              className={`img-customization ${styles["img"]}`}
-              style={{ width: lesson.imgWidth, height: "auto", margin: "auto" }}
-            />
+            <div className={styles["img-container"]}>
+              <Image
+                src={`${baseImgScr}${lesson.imgSrc}`}
+                alt={lesson.imgAlt || "..."}
+                layout="responsive"
+                width={16}
+                height={9}
+                className="img-customization"
+              />
+            </div>
           )}
 
           {/* SwiperFraction images */}

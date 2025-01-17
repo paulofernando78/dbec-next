@@ -99,9 +99,7 @@ input[type="text"] {
 .img-customization {
   border: var(--img-border);
   box-shadow: var(--box-shadow);
-  border-radius: var(--border-radius);
-  width: 100%;
-  height: fit-content;
+  border-radius: var(--border-radius)
 }
 
 .gray-dashed-border {
@@ -125,7 +123,7 @@ input[type="text"] {
 }
 
 @media (max-width: 768px) {
-  .img-border {
+  .img-customization {
     width: 100%;
     height: fit-content;
   }

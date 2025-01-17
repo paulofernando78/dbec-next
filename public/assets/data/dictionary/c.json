@@ -1,5 +1,60 @@
 [
   {
+    "keyword": "can1",
+    "definitions": [
+      {
+        "word": "can",
+        "phonetics": "/kæn/",
+        "partOfSpeech": "modal verb",
+        "enDefinition": "to be able to do something or have the ability to do it",
+        "ptDefinition": "ser capaz de fazer algo ou ter a habilidade de fazê-lo",
+        "examples": [
+          {
+            "enExample": "She can play the piano beautifully.",
+            "ptExample": "Ela consegue tocar piano lindamente."
+          },
+          {
+            "enExample": "Can you help me with this project?",
+            "ptExample": "Você pode me ajudar com este projeto?"
+          }
+        ],
+        "synonyms": "be able to, have the ability to, be capable of",
+        "antonyms": "cannot, be unable to, lack the ability",
+        "seeAlso": "could, may",
+        "notes": [
+          {
+            "enNote": "Used to express ability or possibility.",
+            "ptNote": "Usado para expressar habilidade ou possibilidade."
+          }
+        ]
+      },
+      {
+        "partOfSpeech": "noun",
+        "enDefinition": "a cylindrical metal container used for storing food or liquids",
+        "ptDefinition": "um recipiente cilíndrico de metal usado para armazenar alimentos ou líquidos",
+        "examples": [
+          {
+            "enExample": "He opened a can of soup for dinner.",
+            "ptExample": "Ele abriu uma lata de sopa para o jantar."
+          },
+          {
+            "enExample": "She recycled a pile of empty cans.",
+            "ptExample": "Ela reciclou uma pilha de latas vazias."
+          }
+        ],
+        "synonyms": "tin, container, drum",
+        "antonyms": "bottle, jar, box",
+        "seeAlso": "canister, tin can, jar",
+        "notes": [
+          {
+            "enNote": "Commonly used for storing beverages or food.",
+            "ptNote": "Comumente usado para armazenar bebidas ou alimentos."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "child's play",
     "definitions": [
       {

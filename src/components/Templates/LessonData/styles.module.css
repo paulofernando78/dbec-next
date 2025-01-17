@@ -1,3 +1,10 @@
-.img {
-  
+.img-container {
+  width: 70%;
+  margin: auto;
+}
+
+@media (width < 500px) {
+  .img-container {
+    width: 100%;
+  }
 }

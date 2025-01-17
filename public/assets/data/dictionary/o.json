@@ -1,5 +1,88 @@
 [
   {
+    "keyword": "open1",
+    "definitions": [
+      {
+        "word": "open",
+        "phonetics": "/ˈoʊ.pən/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "not closed or blocked; allowing passage or access",
+        "ptDefinition": "não fechado ou bloqueado; permitindo passagem ou acesso",
+        "examples": [
+          {
+            "enExample": "The door was left open all night.",
+            "ptExample": "A porta ficou aberta a noite toda."
+          },
+          {
+            "enExample": "The store is open from 9 AM to 9 PM.",
+            "ptExample": "A loja está aberta das 9h às 21h."
+          }
+        ],
+        "synonyms": "unlocked, accessible, clear",
+        "antonyms": "closed, shut, blocked",
+        "seeAlso": "accessible, unlocked",
+        "notes": [
+          {
+            "enNote": "Often used to describe accessibility or availability.",
+            "ptNote": "Frequentemente usado para descrever acessibilidade ou disponibilidade."
+          }
+        ]
+      },
+      {
+        "word": "open",
+        "phonetics": "/ˈoʊ.pən/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to move or change something so that it is no longer closed or blocked",
+        "ptDefinition": "mover ou mudar algo para que não esteja mais fechado ou bloqueado",
+        "examples": [
+          {
+            "enExample": "Please open the window to let some fresh air in.",
+            "ptExample": "Por favor, abra a janela para deixar entrar um pouco de ar fresco."
+          },
+          {
+            "enExample": "He opened the book to read the first chapter.",
+            "ptExample": "Ele abriu o livro para ler o primeiro capítulo."
+          }
+        ],
+        "synonyms": "unseal, uncover, unfasten",
+        "antonyms": "close, shut, seal",
+        "seeAlso": "unbolt, unlock, reveal",
+        "notes": [
+          {
+            "enNote": "Can refer to physical or metaphorical actions.",
+            "ptNote": "Pode se referir a ações físicas ou metafóricas."
+          }
+        ]
+      },
+      {
+        "word": "open",
+        "phonetics": "/ˈoʊ.pən/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a public or unrestricted space or condition",
+        "ptDefinition": "um espaço ou condição público ou irrestrito",
+        "examples": [
+          {
+            "enExample": "The event was held in the open for everyone to attend.",
+            "ptExample": "O evento foi realizado ao ar livre para todos participarem."
+          },
+          {
+            "enExample": "They camped in the open under the stars.",
+            "ptExample": "Eles acamparam ao ar livre sob as estrelas."
+          }
+        ],
+        "synonyms": "outdoors, open air, clear space",
+        "antonyms": "enclosed, confined, indoor",
+        "seeAlso": "nature, wilderness, exterior",
+        "notes": [
+          {
+            "enNote": "Often associated with outdoor or unrestricted environments.",
+            "ptNote": "Frequentemente associado a ambientes ao ar livre ou irrestritos."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "out of touch with reality",
     "definitions": [
       {

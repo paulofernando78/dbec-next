@@ -12,9 +12,8 @@
       "textColor": "black"
     },
     {
-    "imgSrc": "/general/woman-smile.jpg",
-    "imgAlt": "An image of a woman called Lisa.",
-    "imgWidth": "500px"
+      "imgSrc": "/general/woman-smile.jpg",
+      "imgAlt": "An image of a woman called Lisa."
     },
     {
       "paragraphSections": [
@@ -162,20 +161,52 @@
               "enText": "they <b>are</b> (they<b>'re</b>)"
             }
           ]
-        }
-      ],
-      "addBreakLine": true
-    },
-    {
-      "paragraphSections": [
+        },
         {
           "paragraphs": [
             {
-              "text": "• I<b>'m</b> cold. Can you close the window, please?\n• I<b>'m</b> 32 (years old). My sister is 29.\n• It<b>'s</b> ten (o'clock). You're late again.\n• Ann and I <b>are</b> good friends.\n• Your keys <b>are</b> on the table.\n• Steve <b>is</b> sick. He's in bed.\n• Jane <b>is</b> scared of spiders."
+              "enText": "• I'm cold. Can you close the window, please?"
+            },
+            {
+              "addBreakLine": true
+            },
+            {
+              "enText": "• I'm 32 (years old). My sister is 29."
+            },
+            {
+              "addBreakLine": true
+            },
+            {
+              "enText": "• It's ten (o'clock). You're late again."
+            },
+            {
+              "addBreakLine": true
+            },
+            {
+              "enText": "• Ann and I are good friends."
+            },
+            {
+              "addBreakLine": true
+            },
+            {
+              "enText": "• Your keys are on the table."
+            },
+            {
+              "addBreakLine": true
+            },
+            {
+              "enText": "• Steve is sick. He's in bed."
+            },
+            {
+              "addBreakLine": true
+            },
+            {
+              "enText": "• Jane is scared of spiders."
+            },
+            {
+              "addBreakLine": true
             }
-          ],
-          "img": "/man-animal-dog-scared.jpg",
-          "imgAlt": "A man running from dogs."
+          ]
         }
       ]
     },
@@ -192,11 +223,7 @@
               "enText": "<i>subject + verb not (short form)</i>"
             }
           ]
-        }
-      ]
-    },
-    {
-      "paragraphSections": [
+        },
         {
           "paragraphs": [
             {
@@ -245,6 +272,65 @@
               "enText": "they are not (they<b>'re not</b> or they <b>aren't</b>)"
             }
           ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "• I'm not cold. You can open the window."
+            },
+            {
+              "addBreakLine": true
+            },
+            {
+              "enText": "• I'm not 32 (years old). Actually, I'm 30."
+            },
+            {
+              "addBreakLine": true
+            },
+            {
+              "enText": "• Steve isn't sick anymore. He's at work now."
+            },
+            {
+              "addBreakLine": true
+            },
+            {
+              "enText": "• My brother isn't scared of dogs. He's afraid of snakes."
+            },
+            {
+              "addBreakLine": true
+            },
+            {
+              "enText": "• It's still ten (o'clock). You're not late. Ainda são dez horas."
+            },
+            {
+              "addBreakLine": true
+            },
+            {
+              "enText": "• Ann and I aren't good friends. She's just an acquaintance."
+            },
+            {
+              "addBreakLine": true
+            },
+            {
+              "enText": "• Your keys aren't on the table. They're in your pocket. Check that out!"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+            "enText": "We say it's hot / warm / cold / sunny / dark / etc."
+            }
+            
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+            "enText": "• It's sunny today, but it isn't warm."
+            }
+            
+          ]
         }
       ]
     },
@@ -258,45 +344,40 @@
         {
           "paragraphs": [
             {
-              "keyword": "...",
-              "dictionary": "vocabulary",
-              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
-              "text": "..."
+              "enText": "That's = that is"
             },
             {
-              "keyword": "...",
-              "dictionary": "vocabulary",
-              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
-              "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
+              "addBreakLine": true
+            },
+            {
+              "enText": "there's = there is"
+            },
+            {
+              "addBreakLine": true
+            },
+            {
+              "enText": "here's = here is"
             }
-          ],
-          "addBreakLine": true
-        }
-      ]
-    },
-    {
-      "title": "D",
-      "bgColor": "lightgray",
-      "textColor": "black"
-    },
-    {
-      "paragraphSections": [
+          ]
+        },
         {
           "paragraphs": [
             {
-              "keyword": "...",
-              "dictionary": "vocabulary",
-              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
-              "text": "..."
+              "enText": "• Thank you. That's very nice of you."
             },
             {
-              "keyword": "...",
-              "dictionary": "vocabulary",
-              "dictionaryAudioSrc": "/dictionary/xxx/xxx.mp3",
-              "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate reprehenderit id rem laboriosam, aspernatur facere sed ut vel error asperiores. Reiciendis dicta, earum debitis aliquid ratione numquam corrupti minus possimus."
+              "addBreakLine": true
+            },
+            {
+              "enText": "• Look! There's Chris."
+            },
+            {
+              "addBreakLine": true
+            },
+            {
+              "enText": "• Here's your key. Thank you."
             }
-          ],
-          "addBreakLine": true
+          ]
         }
       ]
     },
@@ -304,67 +385,7 @@
       "title": "Exercises",
       "bgColor": "lightgray",
       "textColor": "black"
-    },
-    {
-      "radio": [
-        {
-          "title": "Choose the correct answer.",
-          "question": "1. Question",
-          "options": [
-            { "label": "Answer 1", "isCorrect": true },
-            { "label": "Answer 2", "isCorrect": false }
-          ]
-        }
-      ]
-    },
-    {
-      "dropdown": [
-        {
-          "title": "Select the correct answer.",
-          "subtitle": "subtitle",
-          "beforeOptions": "1. I",
-          "options": [
-            { "value": "am", "label": "am", "correctAnswer": true },
-            { "value": "is", "label": "is", "correctAnswer": false },
-            { "value": "are", "label": "are", "correctAnswer": false }
-          ],
-          "width": "100",
-          "afterOptions": "a teacher.",
-          "lineBreak": true
-        },
-        {
-          "beforeOptions": "2. He",
-          "options": [
-            { "value": "am", "label": "am", "correctAnswer": false },
-            { "value": "is", "label": "is", "correctAnswer": true },
-            { "value": "are", "label": "are", "correctAnswer": false }
-          ],
-          "width": "100",
-          "afterOptions": "a teacher."
-        }
-      ]
-    },
-    {
-      "fillInTheBlanks": [
-        {
-          "title": "1. Fill in the blank with the correct word.",
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "...",
-          "lineBreakAfter": true
-        },
-        {
-          "options": true,
-          "width": "100px",
-          "beforeBlank": "...",
-          "placeholder": "...",
-          "correctAnswer": ["..."],
-          "afterBlank": "..."
-        }
-      ]
     }
-  ]
+  ],
+  "exercises": []
 }
