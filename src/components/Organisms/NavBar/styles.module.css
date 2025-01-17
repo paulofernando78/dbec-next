@@ -3,10 +3,10 @@
   padding: 8px;
   color: white;
   background-color: #062745;
-  border-radius: 5px 5px 0 0 ;
+  border-radius: 5px;
   overflow: auto;
   box-shadow: var(--box-shadow);
-  height: 92.4vh;
+  height: 93vh;
   /* z-index: 1; */
 }
 

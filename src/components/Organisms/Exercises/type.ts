@@ -1,56 +1,11 @@
-interface FillInTheBlankExercise {
-  option: string;
-  beforeBlank?: string;
-  placeholder?: string;
-  correctAnswer: string;
-  afterBlank?: string;
-  addLineBreak: boolean;
-}
+import { RadioItems } from "@/components/Molecules/ExerciseTemplates/Radio/type";
 
-interface DropdownOption {
-  value: string;
-  label: string;
-  correctAnswer: boolean;
-}
 
-interface DropdownExercise {
-  beforeOption?: string;
-  option: DropdownOption[];
-  afterOption?: string;
-  addLineBreak: boolean;
-}
-
-interface CheckboxOption {
-  label: string;
-  isCorrect: boolean;
-}
-
-interface CheckboxExercise {
-  question: string;
-  options: CheckboxOption[];
-}
-
-interface RadioOption {
-  label: string;
-  isCorrect: boolean;
-  id: string
-}
-
-interface RadioExercise {
-  question: string;
-  questionPt?: string
-  options: RadioOption[];
-  id: string
-}
-
-export interface Exercise {
+interface Exercise {
   id: string
   title: string;
   subtitle?: string;
-  radio?: RadioExercise[];
-  checkbox?: CheckboxExercise[];
-  dropdown?: DropdownExercise[];
-  fillInTheBlanks?: FillInTheBlankExercise[];
+  radio?: RadioItems[];
 }
 
 export interface ExercisesProps {
