@@ -7,6 +7,8 @@ import { FillInTheBlankProps } from "./type";
 import correctIcon from "@/img/icon/correct.png";
 import incorrectIcon from "@/img/icon/incorrect.png";
 
+import styles from "./styles.module.css"
+
 export const FillInTheBlanks = ({
   fillInTheBlank = [],
   display = "inline-block",

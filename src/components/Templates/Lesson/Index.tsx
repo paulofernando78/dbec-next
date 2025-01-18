@@ -155,7 +155,7 @@ export const LessonTemplate = ({
           />
         </React.Fragment>
       ))}
-      <DictionarySearch />
+      {/* <DictionarySearch /> */}
       <ScrollToTop />
     </div>
   );
