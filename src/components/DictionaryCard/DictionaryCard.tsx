@@ -23,7 +23,6 @@ export const DictionaryCard = ({
   audioSrc,
   keyword,
   word,
-  phonetics,
 }: DictionaryCardProps) => {
   const [visible, setVisible] = useState(false);
   const [dictionary, setDictionary] = useState<IDictionary | null>(null);

@@ -39,7 +39,7 @@
               "word": "test 1"
             },
             {
-              "enText": ""
+              "enText": "..."
             },
             {
               "keyword": "...",
@@ -137,82 +137,79 @@
       "iframeHeight": "..."
     },
     {
+      "title": "Exercises",
+      "bgColor": "lightgrey"
+    },
+    {
       "exercises": [
         {
-          "id": "",
-          "title": "Exercise 1",
-          "subtitle": "Subtitle",
+          "id": "4c723fee-e3f8-483d-9d89-dbe40e25b41e",
+          "title": "Main Title",
+          "subtitle": "Main Subtitle",
           "radio": [
             {
-              "id": "",
+              "title": "Radio-Title",
+              "subtitle": "Radio-Subtitle"
+            },
+            {
+              "id": "e39477f9-fae4-4d26-baa7-ba3cfaba9f89",
               "question": "1. Question",
               "options": [
                 {
-                  "id": "",
+                  "id": "642babd2-eaf4-4eb3-a866-22b0b33aeca5",
                   "label": "Answer 1",
                   "isCorrect": true
                 },
                 {
-                  "id": "",
+                  "id": "d562f38b-d36a-401a-91bb-89e1eaa6825a",
                   "label": "Answer 2",
                   "isCorrect": false
                 }
               ]
             },
             {
-              "id": "",
+              "id": "5ba39f89-5a9f-4227-b85b-90e9e0807c88",
               "question": "2. Question",
               "options": [
                 {
-                  "id": "",
+                  "id": "88933e10-3f6a-4e81-a903-380d7ced3c14",
                   "label": "Answer 1",
                   "isCorrect": true
                 },
                 {
-                  "id": "",
+                  "id": "c03e7321-5b31-409a-a041-ea20b931751c",
                   "label": "Answer 2",
                   "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "6569d057-a7f3-4bb6-a41f-f1a5bcbad2eb",
+              "question": "3. Question",
+              "options": [
+                {
+                  "id": "a2bf63ea-2d73-4208-b568-60a476addc7f",
+                  "label": "Answer 1",
+                  "isCorrect": false
+                },
+                {
+                  "id": "e33cde97-611a-468e-912c-bddb6dbb0d2f",
+                  "label": "Answer 2",
+                  "isCorrect": true
                 }
               ]
             }
-          ]
-        },
-        {
-          "id": "",
-          "title": "Exercise 2",
-          "subtitle": "Subtitle",
-          "radio": [
+          ],
+          "fillInTheBlank": [
             {
-              "id": "",
-              "question": "1. Question",
-              "options": [
-                {
-                  "id": "",
-                  "label": "Answer 1",
-                  "isCorrect": true
-                },
-                {
-                  "id": "",
-                  "label": "Answer 2",
-                  "isCorrect": false
-                }
-              ]
-            },
-            {
-              "id": "",
-              "question": "2. Question",
-              "options": [
-                {
-                  "id": "",
-                  "label": "Answer 1",
-                  "isCorrect": true
-                },
-                {
-                  "id": "",
-                  "label": "Answer 2",
-                  "isCorrect": false
-                }
-              ]
+              "options": true,
+              "width": "50px",
+              "title": "Fill in the blanks.",
+              "subtitle": "Subtitle",
+              "beforeBlank": "1. He",
+              "correctAnswer": ["works"],
+              "afterBlank": "every day.",
+              "lineBreakAfter": true
             }
           ]
         }

@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 
 // Components
-import { LessonTemplate } from "@/components/Templates/LessonData/Index";
+import { LessonTemplate } from "@/components/Templates/Lesson/Index";
 
 const CONTENTS_JSON_PATH =
   "/assets/data/materials/extras/listening/audiobooks/beginner/general/the-missing-coins.json";
@@ -36,7 +36,5 @@ export default function Audiobook() {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading lesson data.</p>;
 
-  return (
-    <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />
-  );
+  return <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />;
 }

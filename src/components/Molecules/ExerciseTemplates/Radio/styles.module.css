@@ -1,0 +1,12 @@
+.question-margin {
+margin-bottom: 4px;
+}
+
+.option-margin {
+  position: relative;
+  top: 2px;
+}
+
+.disabled-text {
+  color: #888; /* Gray out the text */
+}

@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 
 // Components
-import { LessonTemplate } from "@/components/Templates/LessonData/Index";
+import { LessonTemplate } from "@/components/Templates/Lesson/Index";
 
 export default function CoursesElementaryLesson5Homework() {
   const [lessonData, setLessonData] = useState(null);

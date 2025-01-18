@@ -9,8 +9,6 @@ import styles from "./styles.module.css";
 // Images
 
 import {
-  dictionaryIcon,
-
   // Courses
   placementTest,
   beginner,
@@ -272,22 +270,7 @@ export const NavBar = ({ show, toggleShow }: NavBarProps) => {
   return show || !isSmallDevice ? (
     <nav className={styles["nav-bar"]}>
       <ul className="line-break">
-        <input type="text" placeholder="search" />
-        <div>
-          <div className={styles["nav-list"]}>
-            <Image
-              src={dictionaryIcon}
-              alt="Home"
-              className={styles["nav-icon-size"]}
-            />
-            <li>
-              {/* Dictionary */}
-              <Link href="/materials/dictionary" onClick={() => toggleShow()}>
-                <p className={`bold ${styles["nav-bar-link"]}`}>Dictionary</p>
-              </Link>
-            </li>
-          </div>
-        </div>
+        {/* <input type="text" placeholder="search" /> */}
 
         <div className="line-break">
           {navBarLinks.map((navBarLink, index) => (

@@ -1,31 +1,21 @@
 "use client";
 
-// Hook
 import { Fragment, useState } from "react";
-
-// Component
-import { Button } from "@/components/Atoms/Button";
-
-// Images
 import Image from "next/image";
+import { FillInTheBlankProps } from "./type";
+
 import correctIcon from "@/img/icon/correct.png";
 import incorrectIcon from "@/img/icon/incorrect.png";
 
-// CCS
-import styles from "./styles.module.css";
-
-// Typescript
-import { FillInTheBlankProps } from "./type";
-
 export const FillInTheBlanks = ({
-  questions,
-  display,
+  fillInTheBlank = [],
+  display = "inline-block",
 }: FillInTheBlankProps) => {
   const [selectedOptions, setSelectedOptions] = useState(
-    questions.map(() => [""])
+    fillInTheBlank.map(() => [""])
   );
   const [isCorrects, setIsCorrects] = useState(
-    Array(questions.length).fill(null)
+    Array(fillInTheBlank.length).fill(null)
   );
   const [showAnswers, setShowAnswers] = useState(false);
 
@@ -40,10 +30,10 @@ export const FillInTheBlanks = ({
 
   const handleCheckAnswers = () => {
     const newIsCorrects = selectedOptions.map((options, index) => {
-      const correctAnswers = Array.isArray(questions[index].correctAnswer)
-        ? questions[index].correctAnswer
-        : [questions[index].correctAnswer];
-      const userAnswer = options[0].trim();
+      const correctAnswers = Array.isArray(fillInTheBlank[index].correctAnswer)
+        ? fillInTheBlank[index].correctAnswer
+        : [fillInTheBlank[index].correctAnswer];
+      const userAnswer = options[0]?.trim();
       return correctAnswers.some(
         (answer) => typeof answer === "string" && userAnswer === answer.trim()
       );
@@ -51,18 +41,21 @@ export const FillInTheBlanks = ({
     setIsCorrects(newIsCorrects);
   };
 
- const calculateWidth = (answer: string | string[]) => {
-  const baseWidth = 20 // Base width in pixels for empty input
-  const characterWidth = 8 // Approximate with per character in pixels
-  const maxAnswerLength = Array.isArray(answer) ? Math.max(...answer.map((a) => a.length)) : answer.length
+  const calculateWidth = (answer: string | string[]) => {
+    const baseWidth = 20; // Base width in pixels for empty input
+    const characterWidth = 8; // Approximate width per character in pixels
+    const maxAnswerLength = Array.isArray(answer)
+      ? Math.max(...answer.map((a) => a.length))
+      : answer.length;
 
-  return `${baseWidth + maxAnswerLength * characterWidth}px`
- }
+    return `${baseWidth + maxAnswerLength * characterWidth}px`;
+  };
 
   const handleShowAnswers = () => setShowAnswers(!showAnswers);
+
   const handleReset = () => {
-    setSelectedOptions(questions.map(() => [""]));
-    setIsCorrects(Array(questions.length).fill(null));
+    setSelectedOptions(fillInTheBlank.map(() => [""]));
+    setIsCorrects(Array(fillInTheBlank.length).fill(null));
     setShowAnswers(false);
   };
 
@@ -72,7 +65,7 @@ export const FillInTheBlanks = ({
   return (
     <>
       <div className="p-font">
-        {questions.map((question, index) => (
+        {fillInTheBlank.map((question, index) => (
           <Fragment key={index}>
             {question.title && (
               <div className="margin-bottom">
@@ -110,34 +103,14 @@ export const FillInTheBlanks = ({
               <span
                 dangerouslySetInnerHTML={{ __html: question.afterBlank }}
               />{" "}
-              {/* portguese */}
+              {/* portuguese */}
               <span className="portuguese">{question.portuguese}</span>
               {/* lineBreakAfter */}
               {question.lineBreakAfter && <br />}
             </span>
-            {question.addHr && <hr className="customized-hr"/>}
+            {question.addHr && <hr className="customized-hr" />}
           </Fragment>
         ))}
-      </div>
-
-      <div>
-        <div className="flex-8px-center-wrap">
-          <Button label="Check answers" onClick={handleCheckAnswers} />
-          <Button
-            label={`${showAnswers ? "Hide" : "Show"} answers`}
-            onClick={handleShowAnswers}
-          />
-          <Button label="Reset" onClick={handleReset} />
-        </div>
-        {showAnswers && (
-          <div style={{ marginTop: "1.25rem" }}>
-            {questions.map((question, index) => (
-              <span key={index} className={styles["show-answers"]}>
-                {index + 1}. {renderAnswers(question.correctAnswer)}
-              </span>
-            ))}
-          </div>
-        )}
       </div>
     </>
   );

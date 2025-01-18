@@ -19,15 +19,16 @@ import {
 import styles from "./styles.module.css"
 
 // Typescript
-import { LessonTemplateProps } from "@/components/Templates/LessonData/types";
+import { LessonTemplateProps } from "@/components/Templates/Lesson/types";
 import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 import { SubRibbon } from "@/components/Molecules/SubRibbon";
 import React from "react";
 import { Exercises } from "@/components/Organisms/Exercises";
-import { Exercise } from "@/components/Templates/LessonData/types";
+import { Exercise } from "@/components/Templates/Lesson/types";
 import Iframe from "@/components/Atoms/Iframe";
 import Image from "next/image";
 import { Content } from "@/components/Atoms/Content";
+import { DictionarySearch } from "@/components/Molecules/DictionarySearch";
 
 const baseImgScr = "/assets/img";
 
@@ -154,6 +155,7 @@ export const LessonTemplate = ({
           />
         </React.Fragment>
       ))}
+      <DictionarySearch />
       <ScrollToTop />
     </div>
   );

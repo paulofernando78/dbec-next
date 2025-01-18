@@ -4,13 +4,14 @@
 import { useEffect, useState } from "react";
 
 // Components
-import { LessonTemplate } from "@/components/Templates/LessonData/Index";
+import { LessonTemplate } from "@/components/Templates/Lesson/Index";
 
 export default function Audiobook() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
-  const CONTENTS_JSON_PATH = "/assets/data/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo.json";
+  const CONTENTS_JSON_PATH =
+    "/assets/data/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo.json";
 
   useEffect(() => {
     fetch(CONTENTS_JSON_PATH)
@@ -34,7 +35,5 @@ export default function Audiobook() {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading lesson data.</p>;
 
-  return (
-    <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />
-  );
+  return <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />;
 }

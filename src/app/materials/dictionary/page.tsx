@@ -16,6 +16,7 @@ import { searchWords } from "@/utils/searchWords";
 import styles from "./styles.module.css";
 import { IDictionary } from "@/components/Templates/WordCard/types";
 import { DescriptionCard } from "@/components/Molecules/Cards/DescriptionCard";
+import { DictionarySearch } from "@/components/Molecules/DictionarySearch";
 
 const descriptions = [
   {
@@ -93,6 +94,7 @@ export default function Dictionary() {
           })}
         </div>
       </div>
+      <DictionarySearch />
     </>
   );
 }

@@ -1,4 +1,4 @@
-/* Radio */
+/* Radio / Checkbox */
 .radio-checkbox-container {
   position: relative;
   display: inline-block;
@@ -13,6 +13,7 @@
   margin-bottom: 5px;
 }
 
+/* Radio */
 input[type="radio"] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -20,6 +21,8 @@ input[type="radio"] {
   border: 1px solid #333;
   border-radius: 50%;
   cursor: pointer;
+  position: relative;
+  top: 2px;
 }
 
 .radio-size[type="radio"] {
@@ -41,10 +44,6 @@ input[type="radio"]:checked::before {
   position: relative;
   top: -4px;
   left: -4px;
-}
-
-.radio-checkbox-top {
-  margin-top: 5px;
 }
 
 /* Checkbox */
@@ -100,6 +99,10 @@ input[type="text"] {
   border: var(--img-border);
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius)
+}
+
+.box-shadow {
+  box-shadow: var(--box-shadow);
 }
 
 .gray-dashed-border {

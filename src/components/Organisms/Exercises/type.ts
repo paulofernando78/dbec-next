@@ -1,11 +1,11 @@
-import { RadioItems } from "@/components/Molecules/ExerciseTemplates/Radio/type";
+import { Question } from "@/components/Molecules/ExerciseTemplates/Radio/type";
 
 
 interface Exercise {
   id: string
   title: string;
   subtitle?: string;
-  radio?: RadioItems[];
+  radio?: Question[];
 }
 
 export interface ExercisesProps {

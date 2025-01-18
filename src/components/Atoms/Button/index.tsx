@@ -16,7 +16,6 @@ export const Button = ({ label, onClick, toggle }: ButtonProps) => {
     if (toggle) {
       setShow(!show);
     }
-
     if (onClick) {
       onClick();
     }

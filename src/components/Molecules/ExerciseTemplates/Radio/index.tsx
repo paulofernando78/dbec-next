@@ -1,13 +1,15 @@
-import { useState } from "react";
 import Image from "next/image";
 import { correctIcon, incorrectIcon } from "@/img/index";
-
+import styles from "./styles.module.css"
 import { RadioProps } from "./type";
 
-export const Radio = ({ radio, exerciseId, showFeedback }:RadioProps) => {
-  const [selectedOption, setSelectedOption] = useState<Record<string, string>>({});
-
-  // Function to handle the selection of an option
+export const Radio = ({
+  radio,
+  exerciseId,
+  showFeedback,
+  selectedOption,
+  setSelectedOption,
+}: RadioProps) => {
   const handleSelectedOption = (id: string, answer: string) => {
     setSelectedOption((prev) => ({
       ...prev, // Preserve previous selections
@@ -17,60 +19,76 @@ export const Radio = ({ radio, exerciseId, showFeedback }:RadioProps) => {
 
   return (
     <>
-      {radio?.map((radioItem, radioIndex) => (
-        <div key={radioIndex}>
-          <p
-            dangerouslySetInnerHTML={{ __html: radioItem.question }}
-            className="radio-question-margin-bottom"
-          ></p>
-          <p className="portuguese">{radioItem.questionPt}</p>
-          {radioItem.options.map((option, optionIndex) => {
-            const idRadio = `${exerciseId}-${radioItem.id}`;
-            const isChecked = selectedOption[idRadio] === option.label;
-            return (
-              <label key={optionIndex} className="radio-checkbox-flex">
-                <div className="radio-checkbox-container">
-                  <input
-                    type="radio"
-                    name={`radio-${idRadio}`} // Grouping inputs for the same question
-                    id={`radio-${exerciseId}-${radioItem.id}-${option.id}`}
-                    className="radio-size"
-                    onChange={() =>
-                      !showFeedback &&
-                      handleSelectedOption(idRadio, option.label)
-                    }
-                    checked={isChecked}
-                    disabled={showFeedback} // Disable radio button once feedback is shown
-                  />
+      {radio?.map((radioItem, radioIndex) => {
+        const idRadio = `${exerciseId}-${radioItem.id}`;
+        const selectedAnswer = selectedOption[idRadio]; // Get the selected answer for the current question
+        const isUnanswered = showFeedback && !selectedAnswer; // Determine if the question is unanswered
+
+        return (
+          <div key={radioIndex} className="line-break">
+            {/* Title / Subtitle (Always rendered) */}
+            {radioItem.title && (
+              <div>
+                <p className="bold">{radioItem.title}</p>
+                <p>{radioItem.subtitle}</p>
+              </div>
+            )}
+
+            {/* Conditionally render the question and options */}
+            {radioItem.question && radioItem.options && radioItem.options.length > 0 && (
+              <div className={styles["question-margin"]}>
+                <div>
+                  <p
+                    dangerouslySetInnerHTML={{ __html: radioItem.question }}
+                    className={`${styles["question-margin"]} ${isUnanswered ? styles["disabled-text"] : ""}`}
+                  ></p>
                 </div>
-                <p className="cursor-pointer">
-                  {String.fromCharCode(97 + optionIndex)}) {option.label}
-                  {" "}
-                  {showFeedback && isChecked && (
-                    <Image
-                      src={
-                        option.isCorrect
-                          ? correctIcon // Show correct icon if selected answer is correct
-                          : incorrectIcon // Show incorrect icon if selected answer is incorrect
-                      }
-                      alt={
-                        option.isCorrect
-                          ? "Correct icon"
-                          : "Incorrect icon"
-                      }
-                      width={22}
-                      height={22}
-                      className={`${
-                        isChecked ? "" : "hidden" // Hide icons for unselected options
-                      } icon-position`}
-                    />
-                  )}
-                </p>
-              </label>
-            );
-          })}
-        </div>
-      ))}
+                {radioItem.options.map((option, optionIndex) => {
+                  const isChecked = selectedAnswer === option.label;
+
+                  return (
+                    <label
+                      key={optionIndex}
+                      className={`radio-checkbox-flex ${isUnanswered ? "disabled" : ""
+}`}
+                    >
+                      <div className="radio-checkbox-container">
+                        <input
+                          type="radio"
+                          name={`radio-${idRadio}`} // Grouping inputs for the same question
+                          id={`radio-${exerciseId}-${radioItem.id}-${option.id}`}
+                          className="radio-size"
+                          onChange={() =>
+                            !showFeedback && handleSelectedOption(idRadio, option.label)
+                          }
+                          checked={isChecked}
+                          disabled={showFeedback} // Disable interaction during feedback mode
+                        />
+                      </div>
+                      <p className={`cursor-pointer ${styles["option-margin"]} ${isUnanswered ? styles["disabled-text"] : ""}`}>
+                        {String.fromCharCode(97 + optionIndex)}) {option.label}{" "}
+                        {showFeedback && isChecked && (
+                          <Image
+                            src={
+                              option.isCorrect ? correctIcon : incorrectIcon
+                            }
+                            alt={
+                              option.isCorrect ? "Correct icon" : "Incorrect icon"
+                            }
+                            width={19.2}
+                            height={19.2}
+                            className="exercises-icon-position"
+                          />
+                        )}
+                      </p>
+                    </label>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        );
+      })}
     </>
   );
 };

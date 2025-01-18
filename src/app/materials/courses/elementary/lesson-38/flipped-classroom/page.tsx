@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 
 // Components
-import { LessonTemplate } from "@/components/Templates/LessonData/Index";
+import { LessonTemplate } from "@/components/Templates/Lesson/Index";
 
 export default function CoursesElementaryLesson3FlippedClassroom() {
   const [lessonData, setLessonData] = useState(null);
@@ -37,4 +37,4 @@ export default function CoursesElementaryLesson3FlippedClassroom() {
 
   return <LessonTemplate lessonData={lessonData} isUnderConstruction={true} />;
 }
-38
+38;
