@@ -5,7 +5,7 @@ import { SwiperFractionProps } from "@/components/Organisms/Swiper/Fraction/type
 import { ParagraphSection } from "@/components/Molecules/Paragraph/types";
 import { FlipCardData } from "@/components/Molecules/Cards/Flip/types";
 import { DropdownQuestion } from "@/components/Molecules/ExerciseTemplates/Dropdown/types";
-import { FillInTheBlanksQuestion } from "@/components/Molecules/ExerciseTemplates/FillInTheBlank/type";
+// import { FillInTheBlanksQuestion } from "@/components/Molecules/ExerciseTemplates/FillInTheBlank/type";
 import { CardData } from "@/components/Molecules/Cards/Card/types";
 
 export interface ExerciseOption {
@@ -54,7 +54,7 @@ export interface LessonData {
   iframeHeight?: string | number;
   exercises?: Exercise[]
   dropdown?: DropdownQuestion[];
-  fillInTheBlanks?: FillInTheBlanksQuestion[];
+  // fillInTheBlanks?: FillInTheBlanksQuestion[];
   id?: string
 }
 
