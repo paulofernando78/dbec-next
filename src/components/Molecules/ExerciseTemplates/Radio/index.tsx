@@ -26,7 +26,6 @@ export const Radio = ({
 
         return (
           <div key={radioIndex} className="line-break">
-            {/* Title / Subtitle (Always rendered) */}
             {radioItem.title && (
               <div>
                 <p className="bold">{radioItem.title}</p>

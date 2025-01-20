@@ -1,49 +1,53 @@
-import Link from "next/link";
+"use client";
 
-import { Whiteboard } from "@/components";
+// Hooks
+import { useEffect, useState } from "react";
 
-export default function Mocks() {
+
+// Components
+import { ContentCard } from "@/components/Templates/ContentCard";
+import {
+  MainContent,
+  Whiteboard,
+} from "@/components/Templates/ContentCard/type";
+export default function CourseBeginner() {
+  const [contentData, setContentData] = useState<{
+    whiteboard?: Whiteboard;
+    contents: MainContent[];
+  }>({
+    whiteboard: undefined,
+    contents: [],
+  });
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(false);
+
+  const CONTENTS_JSON_PATH =
+    "/assets/data/materials/mocks/contents.json";
+
+  useEffect(() => {
+    fetch(CONTENTS_JSON_PATH)
+      .then((response) => {
+        if (!response.ok) throw new Error("Error loading JSON");
+        return response.json();
+      })
+      .then((data: { whiteboard?: Whiteboard; contents: MainContent[] }) => {
+        setContentData(data);
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error(error);
+        setError(true);
+        setLoading(false);
+      });
+  }, []);
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error loading lesson data.</p>;
+
   return (
-    <div>
-      <Whiteboard title="Mocks" />
-      <div className="line-break">
-        <div className="line-break">
-          {/* Create lesson*/}
-          <p className="bold">Create lessons:</p>
-          <div className="line-break">
-            <div>
-              <Link href="\materials\mocks\LessonData\">
-                <p>Lesson Data (General)</p>
-              </Link>
-              <Link href="\materials\mocks\vocabulary-grammar\">
-                <p>Vocabulary / Grammar</p>
-              </Link>
-              <Link href="\materials\mocks\listening\">
-                <p>Listening</p>
-              </Link>
-              <Link href="\materials\mocks\audiobooks\">
-                <p>Audiobooks</p>
-              </Link>
-              <Link href="\materials\mocks\grammar\">
-                <p>Grammar</p>
-              </Link>
-            </div>
-            <div>
-              <Link href="\materials\mocks\sbelaa\">
-                <p>Speak Business English like an American</p>
-              </Link>
-            </div>
-          </div>
-
-          {/* Componets */}
-          <div>
-            <p className="bold">Components</p>
-            <Link href="/materials/mocks/ContentCard">
-              <p>ContentCard</p>
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
+    <>
+      <ContentCard contentData={contentData} />
+    </>
   );
 }
+

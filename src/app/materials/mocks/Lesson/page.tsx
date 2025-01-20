@@ -6,11 +6,11 @@ import { useEffect, useState } from "react";
 // Components
 import { LessonTemplate } from "@/components/Templates/Lesson/Index";
 
-export default function AudiobookMock() {
+const CONTENTS_JSON_PATH = "/assets/data/materials/mocks/lesson.json";
+export default function LessonDataMock() {
   const [lessonData, setLessonData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
-  const CONTENTS_JSON_PATH = "/assets/data/templates/audiobooks.json";
 
   useEffect(() => {
     fetch(CONTENTS_JSON_PATH)

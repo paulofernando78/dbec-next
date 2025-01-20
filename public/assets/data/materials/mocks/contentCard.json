@@ -23,6 +23,14 @@
               "globeLabel": "Test ... "
             },
             {
+              "globeLink": "...",
+              "globeLabel": "Test ... "
+            },
+            {
+              "checkboxLink": "...",
+              "checkboxLabel": "Test ... "
+            },
+            {
               "checkboxLink": "...",
               "checkboxLabel": "Test ... "
             }

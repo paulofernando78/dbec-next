@@ -16,7 +16,7 @@ export default function ContentCardTemplate() {
   const [error, setError] = useState(false);
 
   const contentCardTemplate =
-    "/assets/data/materials/templates/contentCard.json";
+    "/assets/data/materials/mocks/contentCard.json";
 
   useEffect(() => {
     fetch(contentCardTemplate)

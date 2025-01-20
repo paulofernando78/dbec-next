@@ -15,18 +15,15 @@ export const Exercises = ({ exercises = [], id }: ExercisesProps) => {
     setShowFeedback(true);
   };
 
+  const handleShowAnswer = () => {
+    setShowAnswer((prev) => !prev); // Toggles the visibility of answers
+  };
+
   const handleResetAnswers = () => {
     setSelectedOption({});
     setShowFeedback(false);
     setShowAnswer(false);
   };
-
-  const handleShowAnswer = () => {
-    setShowAnswer((prev) => !prev); // Toggles the visibility of answers
-  };
-
-  const renderAnswers = (answers: string | string[]) =>
-    Array.isArray(answers) ? answers.join(" / ") : answers;
 
   return (
     <>
@@ -61,18 +58,21 @@ export const Exercises = ({ exercises = [], id }: ExercisesProps) => {
                 ) {
                   return (
                     <div key={index} className={styles["show-answer-radio"]}>
-                      {question.options.map((option, optionIndex) => {
-                        if (option.isCorrect) {
-                          return (
-                            <span key={optionIndex}>
-                              {/* Display the correct answer as 1. a) or 2. b) */}
-                              {index + 0}.{" "}
-                              {String.fromCharCode(97 + optionIndex)}){", "}
-                            </span>
-                          );
-                        }
-                        return null; // Skip incorrect options
-                      })}
+                      {question.options
+                        .map((option, optionIndex) => {
+                          if (option.isCorrect) {
+                            return (
+                              // Return the correct answer as an object with display text
+                              `${index + 1}. ${String.fromCharCode(
+                                97 + optionIndex
+                              )})`
+                            );
+                          }
+                          return null; // Skip incorrect options
+                        })
+                        .filter(Boolean) // Remove null values
+                        .join(", ")}{" "}
+                      {/* Join answers with commas */}
                     </div>
                   );
                 }

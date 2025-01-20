@@ -29,13 +29,8 @@ export const DictionarySearch = () => {
     }
   }
   return (
-    <>
-      <div className={styles["flex"]}>
-        {dicts.map((dict, index) => {
-          return <WordCard key={index} dictionary={dict} />;
-        })}
-      </div>
-      <div className={`margin-top box-shadow ${styles["input-button"]}`}>
+    <div className="position-sticky">
+      <div className={`margin-bottom box-shadow ${styles["input-button"]}`}>
         <Button label="Search" onClick={handleClick} />
         <input
           type="text"
@@ -44,6 +39,11 @@ export const DictionarySearch = () => {
           onKeyUp={detectEnterClick}
         />
       </div>
-    </>
+      <div className="margin-bottom">
+        {dicts.map((dict, index) => {
+          return <WordCard key={index} dictionary={dict} />;
+        })}
+      </div>
+    </div>
   );
 };
