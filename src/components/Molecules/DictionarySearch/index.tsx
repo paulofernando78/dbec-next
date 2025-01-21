@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { Button } from "@/components/Atoms/Button";
 import { WordCard } from "@/components/Templates/WordCard";
 import Image from "next/image";
@@ -46,16 +46,22 @@ export const DictionarySearch = () => {
           />
           <input
             type="text"
-            placeholder="Enter word"
+            placeholder="Searh dictionary"
             onChange={(e) => setText(e.target.value)}
             onKeyUp={detectEnterClick}
           />
-          <Button label="Search" onClick={handleClick} />
+          <Button label="&#128269;" onClick={handleClick} />
         </div>
       </div>
       <div className="margin-bottom">
         {dicts.map((dict, index) => {
-          return <WordCard key={index} dictionary={dict} onClose={handleRemoveWordCard}/>;
+          return (
+            <WordCard
+              key={index}
+              dictionary={dict}
+              onClose={handleRemoveWordCard}
+            />
+          );
         })}
       </div>
     </div>

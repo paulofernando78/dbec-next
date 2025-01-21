@@ -236,13 +236,6 @@
   overflow: visible;
 }
 
-.audioplayer-sticky {
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  padding-top: 10px;
-}
-
 .exercises-icon-position {
   position: relative;
   top: 1px;

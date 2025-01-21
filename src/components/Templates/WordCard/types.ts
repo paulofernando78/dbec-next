@@ -29,4 +29,5 @@ export interface IDictionary {
 
 export interface WordCardProps {
   dictionary: IDictionary;
+  onClose: (keyword: string) => void;
 }

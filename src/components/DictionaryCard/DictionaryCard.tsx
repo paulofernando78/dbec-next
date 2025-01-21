@@ -9,7 +9,7 @@ import { WordCard } from "../Templates/WordCard";
 import styles from "./styles.module.css";
 
 // Images
-import PlayButton from "../../../public/assets/img/icon/play-button.png";
+// import PlayButton from "../../../public/assets/img/icon/play-button.png";
 import Eye from "../../../public/assets/img/icon/eye.png";
 
 // Types
@@ -29,10 +29,10 @@ export const DictionaryCard = ({
   const baseAudioSrc = "/assets/audio";
   audioSrc = baseAudioSrc + audioSrc;
 
-  const playAudio = () => {
-    let audio = new Audio(audioSrc);
-    audio.play();
-  };
+  // const playAudio = () => {
+  //   let audio = new Audio(audioSrc);
+  //   audio.play();
+  // };
 
   useEffect(() => {
     if (!dictionary) {
@@ -69,7 +69,7 @@ export const DictionaryCard = ({
 
       {visible && dictionary && (
         <div className={styles["word-card"]}>
-          <WordCard dictionary={dictionary} />
+          <WordCard dictionary={dictionary} onClose={() => setVisible(false)} />
         </div>
       )}
     </>

@@ -46,18 +46,23 @@ export const LessonTemplate = ({
         {/* Whiteboard */}
         {lessonData.whiteboard && (
           <Whiteboard
-          title={lessonData.whiteboard.title}
-          subtitle={lessonData.whiteboard.subtitle}
-          descriptions={lessonData.whiteboard.descriptions}
-          subDescription={lessonData.whiteboard.subDescription}
-          time={lessonData.whiteboard.time}
-          usa={lessonData.whiteboard.usa}
-          uk={lessonData.whiteboard.uk}
+            title={lessonData.whiteboard.title}
+            subtitle={lessonData.whiteboard.subtitle}
+            descriptions={lessonData.whiteboard.descriptions}
+            subDescription={lessonData.whiteboard.subDescription}
+            time={lessonData.whiteboard.time}
+            usa={lessonData.whiteboard.usa}
+            uk={lessonData.whiteboard.uk}
           />
         )}
 
+        {/* UnderContruxtion */}
         {isUnderConstruction && <UnderConstruction />}
-        <DictionarySearch />
+
+        {/* Dictionary */}
+        <div className="position-sticky">
+          <DictionarySearch />
+        </div>
 
         {/* Content */}
         {lessonData.contents && <Content contents={lessonData.contents} />}
@@ -133,7 +138,7 @@ export const LessonTemplate = ({
 
             {/* Audio Player */}
             {lesson.audioSrc && (
-              <div className="audioplayer-sticky">
+              <div className="position-sticky" style={{ top: "50px" }}>
                 <AudioPlayer audioSrc={lesson.audioSrc} />
               </div>
             )}
@@ -141,6 +146,7 @@ export const LessonTemplate = ({
             {/* Video Player */}
             {lesson.videoSrc && <VideoPlayer videoSrc={lesson.videoSrc} />}
 
+            {/* Iframe */}
             {lesson.iframeSrc && (
               <Iframe
                 src={lesson.iframeSrc}
