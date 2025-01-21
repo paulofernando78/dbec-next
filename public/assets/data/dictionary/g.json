@@ -1,35 +1,25 @@
 [
   {
-    "keyword": "give it one's best shot",
+    "keyword": "get buy-in (from)",
     "definitions": [
       {
-        "word": "give it one's best shot",
-        "partOfSpeech": "idiom",
-        "enDefinition": "to try one's hardest or put forth maximum effort in an attempt to succeed",
-        "ptDefinition": "tentar o máximo possível ou dar o melhor de si para ter sucesso",
+        "word": "get buy-in (from)",
+        "phonetics": "/ɡɛt baɪ ɪn frəm/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to gain approval, support, or agreement from others, especially in a business or organizational context",
+        "ptDefinition": "obter aprovação, apoio ou concordância de outras pessoas, especialmente em um contexto empresarial ou organizacional",
         "examples": [
           {
-            "enExample": "Even though it was a tough challenge, he gave it his best shot and passed the exam.",
-            "ptExample": "Embora fosse um desafio difícil, ele deu o melhor de si e passou na prova."
+            "enExample": "We need to get buy-in from the team before we can proceed with the project.",
+            "ptExample": "Precisamos obter o apoio da equipe antes de podermos prosseguir com o projeto."
           },
           {
-            "enExample": "She gave it her best shot, but the performance still didn't go as planned.",
-            "ptExample": "Ela deu o melhor de si, mas a apresentação ainda não saiu como o planejado."
-          },
-          {
-            "enExample": "I'm not sure if I can do it, but I'll give it my best shot.",
-            "ptExample": "Não tenho certeza se consigo fazer, mas vou dar o meu melhor."
+            "enExample": "The manager worked hard to get buy-in from the stakeholders for the new initiative.",
+            "ptExample": "O gerente trabalhou duro para obter a aprovação dos envolvidos para a nova iniciativa."
           }
         ],
-        "synonyms": "try hard, give one's all, do one's best",
-        "antonyms": "give up, half-hearted attempt, slack off",
-        "seeAlso": "put in effort, give one's all",
-        "notes": [
-          {
-            "enNote": "This idiom emphasizes putting in maximum effort, regardless of the outcome.",
-            "ptNote": "Essa expressão enfatiza o ato de se esforçar ao máximo, independentemente do resultado."
-          }
-        ]
+        "synonyms": "gain support, win approval, get agreement",
+        "antonyms": "face opposition, be rejected"
       }
     ]
   },
@@ -59,121 +49,6 @@
             "ptNote": "Este idiom enfatiza urgência e priorização, sugerindo que a tarefa em questão deve ser tratada imediatamente."
           }
         ]
-      }
-    ]
-  },
-  {
-    "keyword": "go all out",
-    "definitions": [
-      {
-        "word": "go all out",
-        "partOfSpeech": "idiom",
-        "enDefinition": "this phrase means to put in maximum effort or to go to extremes in doing something",
-        "ptDefinition": "esta expressão significa colocar o máximo de esforço ou ir ao extremo em algo",
-        "examples": [
-          {
-            "enExample": "They decided to go all out with their wedding, hiring a famous band and booking an expensive venue.",
-            "ptExample": "Eles decidiram se dedicar completamente ao casamento, contratando uma banda famosa e reservando um local caro."
-          },
-          {
-            "enExample": "The company is going all out to win this contract, offering extra services and incentives.",
-            "ptExample": "A empresa está se dedicando ao máximo para ganhar este contrato, oferecendo serviços extras e incentivos."
-          }
-        ],
-        "synonyms": "put in maximum effort, go the extra mile, spare no expense",
-        "antonyms": "hold back, take it easy, go easy",
-        "notes": [
-          {
-            "enNote": "This idiom is often used to describe situations where someone is fully committed to achieving a goal.",
-            "ptNote": "Este idiom é frequentemente usado para descrever situações em que alguém está totalmente comprometido em alcançar um objetivo."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "keyword": "good call",
-    "definitions": [
-      {
-        "word": "good call",
-        "partOfSpeech": "idiom",
-        "enDefinition": "a wise or sensible decision or judgment",
-        "ptDefinition": "uma decisão ou julgamento sábio ou sensato",
-        "examples": [
-          {
-            "enExample": "Choosing to invest in renewable energy was a good call for the company.",
-            "ptExample": "Optar por investir em energia renovável foi uma boa decisão para a empresa."
-          },
-          {
-            "enExample": "It was a good call to delay the event until the weather improved.",
-            "ptExample": "Foi uma boa decisão adiar o evento até o tempo melhorar."
-          }
-        ],
-        "synonyms": "wise decision, smart move, good judgment",
-        "antonyms": "bad decision, poor judgment, mistake",
-        "notes": [
-          {
-            "enNote": "This idiom is often used to praise someone for making a smart or appropriate choice.",
-            "ptNote": "Este idiom é frequentemente usado para elogiar alguém por tomar uma decisão inteligente ou apropriada."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "keyword": "guerrilla marketing",
-    "definitions": [
-      {
-        "word": "guerrilla marketing",
-        "phonetics": "/ɡəˈrɪlə ˈmɑrkɪtɪŋ/",
-        "partOfSpeech": "noun",
-        "enDefinition": "a creative and unconventional approach to marketing that uses low-cost strategies to promote a product or service",
-        "ptDefinition": "uma abordagem criativa e não convencional de marketing que utiliza estratégias de baixo custo para promover um produto ou serviço",
-        "examples": [
-          {
-            "enExample": "The small business used guerrilla marketing to attract attention with street art campaigns.",
-            "ptExample": "A pequena empresa utilizou marketing de guerrilha para atrair atenção com campanhas de arte de rua."
-          },
-          {
-            "enExample": "Guerrilla marketing tactics often rely on surprise and creativity to engage audiences.",
-            "ptExample": "As táticas de marketing de guerrilha frequentemente dependem de surpresa e criatividade para engajar o público."
-          }
-        ],
-        "synonyms": "unconventional marketing, creative advertising, grassroots marketing",
-        "antonyms": "traditional marketing, conventional advertising",
-        "seeAlso": "",
-        "notes": [
-          {
-            "enNote": "This term originates from the idea of guerrilla warfare, emphasizing unconventional and strategic actions."
-          },
-          {
-            "ptNote": "Este termo vem da guerra de guerrilha, destacando ações não convencionais e estratégicas."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "keyword": "get buy-in (from)",
-    "definitions": [
-      {
-        "word": "get buy-in (from)",
-        "phonetics": "/ɡɛt baɪ ɪn frəm/",
-        "partOfSpeech": "phrasal verb",
-        "enDefinition": "to gain approval, support, or agreement from others, especially in a business or organizational context",
-        "ptDefinition": "obter aprovação, apoio ou concordância de outras pessoas, especialmente em um contexto empresarial ou organizacional",
-        "examples": [
-          {
-            "enExample": "We need to get buy-in from the team before we can proceed with the project.",
-            "ptExample": "Precisamos obter o apoio da equipe antes de podermos prosseguir com o projeto."
-          },
-          {
-            "enExample": "The manager worked hard to get buy-in from the stakeholders for the new initiative.",
-            "ptExample": "O gerente trabalhou duro para obter a aprovação dos envolvidos para a nova iniciativa."
-          }
-        ],
-        "synonyms": "gain support, win approval, get agreement",
-        "antonyms": "face opposition, be rejected"
       }
     ]
   },
@@ -432,6 +307,40 @@
     ]
   },
   {
+    "keyword": "give it one's best shot",
+    "definitions": [
+      {
+        "word": "give it one's best shot",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to try one's hardest or put forth maximum effort in an attempt to succeed",
+        "ptDefinition": "tentar o máximo possível ou dar o melhor de si para ter sucesso",
+        "examples": [
+          {
+            "enExample": "Even though it was a tough challenge, he gave it his best shot and passed the exam.",
+            "ptExample": "Embora fosse um desafio difícil, ele deu o melhor de si e passou na prova."
+          },
+          {
+            "enExample": "She gave it her best shot, but the performance still didn't go as planned.",
+            "ptExample": "Ela deu o melhor de si, mas a apresentação ainda não saiu como o planejado."
+          },
+          {
+            "enExample": "I'm not sure if I can do it, but I'll give it my best shot.",
+            "ptExample": "Não tenho certeza se consigo fazer, mas vou dar o meu melhor."
+          }
+        ],
+        "synonyms": "try hard, give one's all, do one's best",
+        "antonyms": "give up, half-hearted attempt, slack off",
+        "seeAlso": "put in effort, give one's all",
+        "notes": [
+          {
+            "enNote": "This idiom emphasizes putting in maximum effort, regardless of the outcome.",
+            "ptNote": "Essa expressão enfatiza o ato de se esforçar ao máximo, independentemente do resultado."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "give somebody the green light",
     "definitions": [
       {
@@ -520,6 +429,64 @@
     ]
   },
   {
+    "keyword": "good call",
+    "definitions": [
+      {
+        "word": "good call",
+        "partOfSpeech": "idiom",
+        "enDefinition": "a wise or sensible decision or judgment",
+        "ptDefinition": "uma decisão ou julgamento sábio ou sensato",
+        "examples": [
+          {
+            "enExample": "Choosing to invest in renewable energy was a good call for the company.",
+            "ptExample": "Optar por investir em energia renovável foi uma boa decisão para a empresa."
+          },
+          {
+            "enExample": "It was a good call to delay the event until the weather improved.",
+            "ptExample": "Foi uma boa decisão adiar o evento até o tempo melhorar."
+          }
+        ],
+        "synonyms": "wise decision, smart move, good judgment",
+        "antonyms": "bad decision, poor judgment, mistake",
+        "notes": [
+          {
+            "enNote": "This idiom is often used to praise someone for making a smart or appropriate choice.",
+            "ptNote": "Este idiom é frequentemente usado para elogiar alguém por tomar uma decisão inteligente ou apropriada."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "go all out",
+    "definitions": [
+      {
+        "word": "go all out",
+        "partOfSpeech": "idiom",
+        "enDefinition": "this phrase means to put in maximum effort or to go to extremes in doing something",
+        "ptDefinition": "esta expressão significa colocar o máximo de esforço ou ir ao extremo em algo",
+        "examples": [
+          {
+            "enExample": "They decided to go all out with their wedding, hiring a famous band and booking an expensive venue.",
+            "ptExample": "Eles decidiram se dedicar completamente ao casamento, contratando uma banda famosa e reservando um local caro."
+          },
+          {
+            "enExample": "The company is going all out to win this contract, offering extra services and incentives.",
+            "ptExample": "A empresa está se dedicando ao máximo para ganhar este contrato, oferecendo serviços extras e incentivos."
+          }
+        ],
+        "synonyms": "put in maximum effort, go the extra mile, spare no expense",
+        "antonyms": "hold back, take it easy, go easy",
+        "notes": [
+          {
+            "enNote": "This idiom is often used to describe situations where someone is fully committed to achieving a goal.",
+            "ptNote": "Este idiom é frequentemente usado para descrever situações em que alguém está totalmente comprometido em alcançar um objetivo."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "the grass is always greener on the other side",
     "definitions": [
       {
@@ -531,6 +498,39 @@
           {
             "enExample": "<b>A:</b> It just seems like they have this perfect life, always traveling and spending time together. <b>B:</b> Hey, the grass is always greener. I'm sure they have their own problems that no one else can see.",
             "ptExample": "A: Parece que eles têm uma vida perfeita, sempre viajando e passando tempo juntos. B: Ei, a grama sempre parece mais verde. Tenho certeza de que eles têm seus próprios problemas que ninguém mais pode ver."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "guerrilla marketing",
+    "definitions": [
+      {
+        "word": "guerrilla marketing",
+        "phonetics": "/ɡəˈrɪlə ˈmɑrkɪtɪŋ/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a creative and unconventional approach to marketing that uses low-cost strategies to promote a product or service",
+        "ptDefinition": "uma abordagem criativa e não convencional de marketing que utiliza estratégias de baixo custo para promover um produto ou serviço",
+        "examples": [
+          {
+            "enExample": "The small business used guerrilla marketing to attract attention with street art campaigns.",
+            "ptExample": "A pequena empresa utilizou marketing de guerrilha para atrair atenção com campanhas de arte de rua."
+          },
+          {
+            "enExample": "Guerrilla marketing tactics often rely on surprise and creativity to engage audiences.",
+            "ptExample": "As táticas de marketing de guerrilha frequentemente dependem de surpresa e criatividade para engajar o público."
+          }
+        ],
+        "synonyms": "unconventional marketing, creative advertising, grassroots marketing",
+        "antonyms": "traditional marketing, conventional advertising",
+        "seeAlso": "",
+        "notes": [
+          {
+            "enNote": "This term originates from the idea of guerrilla warfare, emphasizing unconventional and strategic actions."
+          },
+          {
+            "ptNote": "Este termo vem da guerra de guerrilha, destacando ações não convencionais e estratégicas."
           }
         ]
       }

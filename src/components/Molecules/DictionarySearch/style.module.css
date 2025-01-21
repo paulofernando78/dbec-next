@@ -1,17 +1,25 @@
-.container {
+/* .outer-dictionary-search-container {
+border: 5px solid red;
+height: 200px;;
+} */
+
+.dictionary-search-container {
   border-radius: 5px;
   padding: 5px 9.7px 5px 9px;
   background-color: white;
+  margin-bottom: 10px;
+  box-shadow: var(--box-shadow);
 }
 
-.dic-input-flex {
+.image-input-button-flex {
   display: flex;
   align-items: center;
   justify-content: space-around;
   gap: 10px;
 }
 
-/* .WordCard {
+.wordcard {
   position: absolute;
+  background-color: white;
   z-index: 100;
-} */
+}

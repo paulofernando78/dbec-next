@@ -1,5 +1,36 @@
 [
   {
+    "keyword": "come",
+    "definitions": [
+      {
+        "word": "come",
+        "phonetics": "/kʌm/",
+        "partOfSpeech": "verb",
+        "enDefinition": "To move or travel toward the speaker or with the speaker.",
+        "ptDefinition": "Mover-se ou viajar em direção ao falante ou com o falante.",
+        "examples": [
+          {
+            "enExample": "Please come to my house this evening.",
+            "ptExample": "Por favor, venha à minha casa esta noite."
+          },
+          {
+            "enExample": "The cat will come if you call it.",
+            "ptExample": "O gato virá se você chamá-lo."
+          }
+        ],
+        "synonyms": ["approach, arrive"],
+        "antonyms": ["go, leave"],
+        "seeAlso": ["arrive, appear"],
+        "notes": [
+          {
+            "enNote": "Often used in phrasal verbs, such as 'come up' or 'come over.'",
+            "ptNote": "Frequentemente usado em verbos frasais, como 'come up' ou 'come over'."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "can1",
     "definitions": [
       {

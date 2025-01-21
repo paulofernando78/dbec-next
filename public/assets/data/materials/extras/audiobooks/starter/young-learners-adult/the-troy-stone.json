@@ -653,14 +653,14 @@
               "question": "9.2 What does Ana say to Mark before she goes to bed?",
               "options": [
                 {
-                  "id": "f1c5e7b3-4a9f-4b91-b7c9-d2f9c1e7b4f2",
-                  "label": "Goodbye, boy. Come and see me again one day.",
-                  "isCorrect": true
-                },
-                {
                   "id": "e7a1f3b5-9c2e-4b91-b7c9-d2f9e9c5a8f4",
                   "label": "Goodbye, boy. Good luck with the war.",
                   "isCorrect": false
+                },
+                {
+                  "id": "f1c5e7b3-4a9f-4b91-b7c9-d2f9c1e7b4f2",
+                  "label": "Goodbye, boy. Come and see me again one day.",
+                  "isCorrect": true
                 }
               ]
             }
@@ -701,14 +701,14 @@
               "question": "10.1 What happens to the horse in the morning?",
               "options": [
                 {
-                  "id": "b3e1a5f7-9c2d-4b91-b7c9-d2f9e4c7a9f5",
-                  "label": "The Greek soldiers pull it to the gates of Troy.",
-                  "isCorrect": true
-                },
-                {
                   "id": "e5c7b3d9-1a8f-4b91-b7c9-d2f9b9c1a5e7",
                   "label": "The Trojan soldiers push it into the city.",
                   "isCorrect": false
+                },
+                {
+                  "id": "b3e1a5f7-9c2d-4b91-b7c9-d2f9e4c7a9f5",
+                  "label": "The Greek soldiers pull it to the gates of Troy.",
+                  "isCorrect": true
                 }
               ]
             },
@@ -781,14 +781,14 @@
               "question": "11.2 What do the Trojans do after they eat, sing, and dance?",
               "options": [
                 {
-                  "id": "f7a9e1c4-8d7f-4b91-b7c9-d2f9b3e1f7c6",
-                  "label": "They go to bed very late and Troy becomes quiet.",
-                  "isCorrect": true
-                },
-                {
                   "id": "e5b4a7f1-1a9e-4b91-b7c9-d2f9e2f8b5c3",
                   "label": "They continue to celebrate all night.",
                   "isCorrect": false
+                },
+                {
+                  "id": "f7a9e1c4-8d7f-4b91-b7c9-d2f9b3e1f7c6",
+                  "label": "They go to bed very late and Troy becomes quiet.",
+                  "isCorrect": true
                 }
               ]
             }
@@ -826,17 +826,17 @@
           "radio": [
             {
               "id": "a7b5c9e1-4d8f-4b91-b7c9-d2f9e5a9f2b3",
-              "question": "12.1 What happens after the gates are opened?",
+              "question": "12.1 What happens after the gates are open?",
               "options": [
-                {
-                  "id": "b7f3e5c2-8d7f-4b91-b7c9-d2f9e4a1b9f4",
-                  "label": "Thousands of Greek soldiers enter the city.",
-                  "isCorrect": true
-                },
                 {
                   "id": "f1e9c5b4-8d3e-4b91-b7c9-d2f9b2e1a6f2",
                   "label": "The Trojan soldiers close the gates again.",
                   "isCorrect": false
+                },
+                {
+                  "id": "b7f3e5c2-8d7f-4b91-b7c9-d2f9e4a1b9f4",
+                  "label": "Thousands of Greek soldiers enter the city.",
+                  "isCorrect": true
                 }
               ]
             },
@@ -846,12 +846,12 @@
               "options": [
                 {
                   "id": "f9a2e7c5-3a1d-4b91-b7c9-d2f9b4a8f3c7",
-                  "label": "Helen of Troy.",
+                  "label": "He sees Helen of Troy.",
                   "isCorrect": true
                 },
                 {
                   "id": "e8b5c3f7-4a2d-4b91-b7c9-d2f9d1e9f6a5",
-                  "label": "A soldier named Hector.",
+                  "label": "He sees Thousands of soldiers.",
                   "isCorrect": false
                 }
               ]
@@ -893,14 +893,14 @@
               "question": "13.1 What does Mark do after the street fills with smoke?",
               "options": [
                 {
-                  "id": "e7f5b9a3-1d9f-4b91-b7c9-d2f9b7c3a1f2",
-                  "label": "He calls out for Andros.",
-                  "isCorrect": true
-                },
-                {
                   "id": "d5c7e2b9-4c3d-4b91-b7c9-d2f9a4f7b9c8",
                   "label": "He runs back down the street.",
                   "isCorrect": false
+                },
+                {
+                  "id": "e7f5b9a3-1d9f-4b91-b7c9-d2f9b7c3a1f2",
+                  "label": "He calls out for Andros.",
+                  "isCorrect": true
                 }
               ]
             },
@@ -957,14 +957,14 @@
               "question": "14.1 What does Fay say to Mark when she wakes him up?",
               "options": [
                 {
-                  "id": "b5e9d2a3-8a7f-4b91-b7c9-d2f9c6b9f1d8",
-                  "label": "The bus is leaving in a minute.",
-                  "isCorrect": true
-                },
-                {
                   "id": "f1c2e5a7-4d8f-4b91-b7c9-d2f9b7a8d6c1",
                   "label": "The bus has already left.",
                   "isCorrect": false
+                },
+                {
+                  "id": "b5e9d2a3-8a7f-4b91-b7c9-d2f9c6b9f1d8",
+                  "label": "The bus is leaving in a minute.",
+                  "isCorrect": true
                 }
               ]
             },
@@ -973,14 +973,14 @@
               "question": "14.2 What does Fay ask about Mark's appearance?",
               "options": [
                 {
-                  "id": "d5c7e9a6-1b7f-4b91-b7c9-d2f9b3e1f9a3",
-                  "label": "She asks if he's OK and why his face is white.",
-                  "isCorrect": true
-                },
-                {
                   "id": "a3d5c6b8-9f4e-4b91-b7c9-d2f9e5a7f6a2",
                   "label": "She asks if he's tired and if he has a headache.",
                   "isCorrect": false
+                },
+                {
+                  "id": "d5c7e9a6-1b7f-4b91-b7c9-d2f9b3e1f9a3",
+                  "label": "She asks if he's OK and why his face is white.",
+                  "isCorrect": true
                 }
               ]
             }

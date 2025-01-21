@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
-
+  
   /* display: grid;
   grid-template-columns: repeat(auto-fit, 150px);
   justify-content: center; */
@@ -19,6 +19,8 @@
   align-items: center;
   gap: 5px;
   margin-bottom: 25px;
+  width: max-content;
+  padding: 10px;
 }
 
 .emoji-size {

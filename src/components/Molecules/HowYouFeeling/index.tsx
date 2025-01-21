@@ -1,136 +1,253 @@
 import Image from "next/image";
-
 import { AudioPlayer } from "../../Atoms/AudioPlayer";
-import { DictionaryCard } from "../Cards/DictionaryCard";
-
-// CSS
 import styles from "./styles.module.css";
 
 const emojis = [
   {
     imgSrc: "/assets/img/gif/good.gif",
     imgAlt: '"thumb" up emoji.',
-    keyword: "good",
-    word: "good",
+    words: [
+      {
+        word: "good",
+      },
+      {
+        word: "well",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/happy.gif",
     imgAlt: '"happy" emoji.',
-    keyword: "happy",
-    word: "happy",
+    words: [
+      {
+        word: "happy",
+      },
+      {
+        word: "glad",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/sad.gif",
     imgAlt: '"sad" emoji.',
-    keyword: "sad",
-    word: "sad",
+    words: [
+      {
+        word: "sad",
+      },
+      {
+        word: "unhappy",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/angry.gif",
     imgAlt: '"angry" emoji.',
     keyword: "angry",
-    word: "angry",
+    words: [
+      {
+        word: "angry",
+      },
+      {
+        word: "mad",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/annoyed.gif",
     imgAlt: '"annoyed" emoji.',
-    keyword: "annoy",
-    word: "annoyed",
+    words: [
+      {
+        word: "annoyed",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/calm.gif",
     imgAlt: '"calm" emoji.',
     keyword: "calm",
-    word: "calm",
+    words: [
+      {
+        word: "calm",
+      },
+      {
+        word: "relaxed",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/crazy.gif",
     imgAlt: '"crazy" emoji.',
-    keyword: "crazy",
-    word: "crazy",
+    words: [
+      {
+        word: "crazy",
+      },
+      {
+        word: "insane",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/tired.gif",
     imgAlt: '"tired" emoji.',
     keyword: "tired",
-    word: "tired",
+    words: [
+      {
+        word: "tired",
+      },
+      {
+        word: "exhausted",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/anxious.gif",
     imgAlt: '"anxious" emoji.',
-    keyword: "anxious",
-    word: "anxious",
+    words: [
+      {
+        word: "anxious",
+      },
+      {
+        word: "nervous",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/bored.gif",
     imgAlt: '"bored" emoji.',
     keyword: "bored",
-    word: "bored",
+    words: [
+      {
+        word: "bored",
+      },
+      {
+        word: "...",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/silly.gif",
     imgAlt: '"silly" emoji.',
-    keyword: "silly",
-    word: "silly",
+    words: [
+      {
+        word: "silly",
+      },
+      {
+        word: "goofy",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/scared.gif",
     imgAlt: '"scared" emoji.',
     keyword: "scared",
-    word: "scared",
+    words: [
+      {
+        word: "scared",
+      },
+      {
+        word: "afraid",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/thoughtful.gif",
     imgAlt: '"thoughtful" emoji.',
-    keyword: "thoughtful",
-    word: "thoughtful",
+    words: [
+      {
+        word: "thoughtful",
+      },
+      {
+        word: "reflective",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/frustrated.gif",
     imgAlt: '"frustrated" emoji.',
     keyword: "frustrate",
-    word: "frustrated",
+    words: [
+      {
+        word: "frustrated",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/disappointed.gif",
     imgAlt: '"disappointed" emoji.',
-    keyword: "disappoint",
-    word: "disappointed",
+    words: [
+      {
+        word: "disappointed",
+      },
+      {
+        word: "let down",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/embarrassed.gif",
     imgAlt: '"embarrassed" emoji.',
-    keyword: "embarrassed",
-    word: "embarrassed",
+    words: [
+      {
+        word: "embarrassed",
+      },
+      {
+        word: "ashamed",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/sleepy.gif",
     imgAlt: '"sleepy" emoji.',
     keyword: "sleepy",
-    word: "sleepy",
+    words: [
+      {
+        word: "sleepy",
+      },
+      {
+        word: "tired",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/peaceful.gif",
     imgAlt: '"peaceful" emoji.',
-    keyword: "peaceful",
-    word: "peaceful",
+    words: [
+      {
+        word: "peaceful",
+      },
+      {
+        word: "...",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/thankful.gif",
     imgAlt: '"thankful" emoji.',
     keyword: "thankful",
-    word: "thankful",
+    words: [
+      {
+        word: "thankful",
+      },
+      {
+        word: "grateful",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/sick.gif",
     imgAlt: '"sick" emoji.',
-    keyword: "sick",
-    word: "sick",
+    words: [
+      {
+        word: "sick",
+      },
+      {
+        word: "ill",
+      },
+    ],
   },
   {
     imgSrc: "/assets/img/gif/i-dont-know.gif",
     imgAlt: '"i-dont-know" emoji.',
-    keyword: "i-dont-know",
     word: "I dont know",
   },
 ];
@@ -146,17 +263,20 @@ export default function HowYouFeeling() {
         </div>
         <div className={styles["emoji-container"]}>
           {emojis.map((emoji, emojiIndex) => (
-            <div key={emojiIndex} className={styles["emoji-inner-container"]}>
+            <div
+              key={emojiIndex}
+              className={`img-customization ${styles["emoji-inner-container"]}`}
+            >
               <Image
                 src={emoji.imgSrc}
                 alt={emoji.imgAlt}
-                className={styles["emoji-size"]} // Use 'styles' instead of 'style'
-                width={50} // Adjust width as needed
-                height={50} // Adjust height as needed
+                width={50}
+                height={50}
+                className={styles["emoji-size"]}
               />
-              <p>
-                <DictionaryCard keyword={emoji.keyword} word={emoji.word} />
-              </p>
+              {emoji.words && emoji.words.map((word, wordIndex) => (
+                <p key={wordIndex}>{word.word}</p>
+              ))}
             </div>
           ))}
         </div>

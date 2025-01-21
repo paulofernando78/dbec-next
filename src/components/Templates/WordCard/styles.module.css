@@ -1,9 +1,18 @@
-.container {
-  margin: 10px auto;
+/* .outer-wordcard-container {
+  border: solid 2px red;
+} */
+
+.wordcard-container {
+  background-color: rgba(255, 255, 0, 0.083);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  max-height: 400px;
+  overflow-y: auto;
 }
 
 .close-button {
-  position: absolute;
+  float: right;
+  position: relative;
   right: 0px;
   top: 5px;  
   cursor: pointer;
@@ -37,10 +46,9 @@
 }
 
 .border {
-  border: var(--border);
+  /* border: var(--border);
   border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
-  background: rgba(255, 255, 0, 0.083);
+  box-shadow: var(--box-shadow); */
   padding: 1px 5px 9px 5px;
   
 }

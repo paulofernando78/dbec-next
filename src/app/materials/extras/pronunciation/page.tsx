@@ -1,14 +1,38 @@
 "use client";
 
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
-import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
-
-
-
+import { DescriptionCard } from "@/components/Molecules/Cards/DescriptionCard";
+import { DictionaryCard } from "@/components";
 import { ScrollToTop } from "@/components/Atoms/ScrollToTop";
 import { Card } from "@/components";
 
+
 const links = [
+  {
+    subDescriptions: [
+      {
+        bgColor: "black",
+        textColor: "white",
+        label: "Sites",
+        contents: [
+          {
+            globeLink: "https://youglish.com/",
+            globeLabel: "Youglish (Words from youtube videos)",
+          },
+          {
+            globeLink: "https://www.playphrase.me/",
+            globeLabel: "Play Phrase (Phrases from movies)",
+          },
+          {
+            globeLink: "https://www.languagereactor.com/",
+            globeLabel: "Language Reactor",
+          },
+        ],
+      },
+    ],
+  },
+];
+const PronunciationLinks = [
   {
     href: "#letter-a",
     letter: 'Letter "a"',
@@ -201,16 +225,17 @@ export default function ExtraPronunciation() {
       <Whiteboard
         title="Extras"
         subtitle="Pronunciation"
-        descriptions={["Focused on Brazilian students"]}
+        descriptions={["For Brazilian students"]}
       />
-      <div className="line-break">
+      <DescriptionCard descriptions={links}/>
+      <div className="line-break margin-top">
           <p className="bold">Sounds of Letters</p>
 
         <p className="bold">jump to:</p>
 
         {/* Links */}
         <div>
-          {links.map((href, index) => (
+          {PronunciationLinks.map((href, index) => (
             <div key={index}>
               <a href={href.href}>
                 <p>

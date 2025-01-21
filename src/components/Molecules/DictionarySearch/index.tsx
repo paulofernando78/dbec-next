@@ -1,6 +1,6 @@
 "use client";
 
-import { Fragment, useState } from "react";
+import { useState } from "react";
 import { Button } from "@/components/Atoms/Button";
 import { WordCard } from "@/components/Templates/WordCard";
 import Image from "next/image";
@@ -13,7 +13,7 @@ export const DictionarySearch = () => {
   const [text, setText] = useState("");
   const [dicts, setDicts] = useState<IDictionary[]>([]);
 
-  async function handleClick() {
+  async function handleShowWordCard() {
     if (text) {
       // Realiza o filtro das palavras do dicionário
       const wordsFound = await searchWords(text);
@@ -27,7 +27,7 @@ export const DictionarySearch = () => {
 
   function detectEnterClick(e: React.KeyboardEvent) {
     if (e.key === "Enter") {
-      handleClick();
+      handleShowWordCard();
     }
   }
 
@@ -36,9 +36,9 @@ export const DictionarySearch = () => {
   };
 
   return (
-    <div>
-      <div className={`box-shadow ${styles["container"]}`}>
-        <div className={styles["dic-input-flex"]}>
+    <div className={styles["outer-dictionary-search-container"]}>
+      <div className={styles["dictionary-search-container"]}>
+        <div className={styles["image-input-button-flex"]}>
           <Image
             src={dictionaryOpenIcon}
             alt={"Dictionary A-Z icon"}
@@ -50,10 +50,10 @@ export const DictionarySearch = () => {
             onChange={(e) => setText(e.target.value)}
             onKeyUp={detectEnterClick}
           />
-          <Button label="&#128269;" onClick={handleClick} />
+          <Button label="&#128269;" onClick={handleShowWordCard} />
         </div>
       </div>
-      <div className={styles["WordCard"]}>
+      <div className={styles["wordcard"]}>
         {dicts.map((dict, index) => {
           return (
             <WordCard
