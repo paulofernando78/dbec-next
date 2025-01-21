@@ -70,13 +70,16 @@ import incorrectIcon from "./icon/incorrect.png";
 // Misc
 import brFlagIcon from "./icon/flag/brazil.png";
 import clockWakeUpHate from "./bitmoji/clock-wakeup-hate.png";
+import closeIcon from "./icon/close.png";
 import dictionaryIcon from "./icon/dictionary.png";
+import dictionaryOpenIcon from "./icon/dictionary-open.png";
 import expandForward from "./icon/expand-forward.png";
 import expandDown from "./icon/expand-down.png";
 import notesIcon from "./icon/notes.png";
 import playIcon from "./icon/play-button.png";
 import playingIcon from "./icon/playing.png"
 import questionMarkGif from "./gif/question-mark.gif";
+import searchIcon from "./icon/search.png"
 import smallSwimmingPool from "./bitmoji/small-swimming-pool.png";
 import speakerIcon from "./icon/speaker.png"
 import stopIcon from "./icon/stop-button.png"
@@ -158,13 +161,16 @@ export {
   aviationIcon,
   brFlagIcon,
   clockWakeUpHate,
+  closeIcon,
   dictionaryIcon,
+  dictionaryOpenIcon,
   expandForward,
   expandDown,
   notesIcon,
   playIcon,
   playingIcon,
   questionMarkGif,
+  searchIcon,
   smallSwimmingPool,
   speakerIcon,
   stopIcon,

@@ -42,22 +42,22 @@ export const LessonTemplate = ({
 
   return (
     <>
-        <DictionarySearch />
       <div className="line-break">
         {/* Whiteboard */}
         {lessonData.whiteboard && (
           <Whiteboard
-            title={lessonData.whiteboard.title}
-            subtitle={lessonData.whiteboard.subtitle}
-            descriptions={lessonData.whiteboard.descriptions}
-            subDescription={lessonData.whiteboard.subDescription}
-            time={lessonData.whiteboard.time}
-            usa={lessonData.whiteboard.usa}
-            uk={lessonData.whiteboard.uk}
+          title={lessonData.whiteboard.title}
+          subtitle={lessonData.whiteboard.subtitle}
+          descriptions={lessonData.whiteboard.descriptions}
+          subDescription={lessonData.whiteboard.subDescription}
+          time={lessonData.whiteboard.time}
+          usa={lessonData.whiteboard.usa}
+          uk={lessonData.whiteboard.uk}
           />
         )}
 
         {isUnderConstruction && <UnderConstruction />}
+        <DictionarySearch />
 
         {/* Content */}
         {lessonData.contents && <Content contents={lessonData.contents} />}

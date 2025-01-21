@@ -1,4 +1,13 @@
-.input-button {
+.container {
+  border-radius: 5px;
+  padding: 5px 9px 3px 9px;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+.dic-input-flex {
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   gap: 10px;
 }

@@ -1,22 +1,13 @@
 "use client";
 
-// Utils
-import { getAudioFromStorage, saveAudioToStorage } from "@/utils/audioStorage";
-
-// Components
 import Image from "next/image";
 import { useState } from "react";
-
-// Image
-import { speakerIcon, playingIcon } from "@/img/index";
-
-// Typescript
+import { speakerIcon, playingIcon, closeIcon } from "@/img/index";
 import { IDictionaryDefinitions, WordCardProps } from "./types";
-
-// CSS
 import styles from "./styles.module.css";
+import { getAudioFromStorage, saveAudioToStorage } from "@/utils/audioStorage";
 
-export function WordCard({ dictionary }: WordCardProps) {
+export function WordCard({ dictionary, onClose }: WordCardProps) {
   const [isGenerating, setIsGenerating] = useState(false);
   const [audioElement, setAudioElement] = useState<HTMLAudioElement | null>(
     null
@@ -81,7 +72,13 @@ export function WordCard({ dictionary }: WordCardProps) {
         <p className="display-none">
           <b>{dictionary.keyword}</b>
         </p>
-        <div>
+        <div className="position-relative">
+          <Image
+            src={closeIcon}
+            alt="Close icon"
+            className={`icon-general ${styles["close-button"]}`}
+            onClick={() => onClose(dictionary.keyword)}
+          />
           {dictionary.definitions.map(
             (definition: IDictionaryDefinitions, index: number) => (
               <div key={index}>

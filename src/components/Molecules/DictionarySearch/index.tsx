@@ -3,6 +3,8 @@
 import { useState } from "react";
 import { Button } from "@/components/Atoms/Button";
 import { WordCard } from "@/components/Templates/WordCard";
+import Image from "next/image";
+import { dictionaryOpenIcon } from "@/img/index";
 import styles from "./style.module.css";
 import { IDictionary } from "@/components/Templates/WordCard/types";
 import { searchWords } from "@/utils/searchWords";
@@ -28,20 +30,32 @@ export const DictionarySearch = () => {
       handleClick();
     }
   }
+
+  const handleRemoveWordCard = (keyword: string) => {
+    setDicts((prev) => prev.filter((dict) => dict.keyword !== keyword));
+  };
+
   return (
-    <div className="position-sticky">
-      <div className={`margin-bottom box-shadow ${styles["input-button"]}`}>
-        <Button label="Search" onClick={handleClick} />
-        <input
-          type="text"
-          placeholder="Enter a word"
-          onChange={(e) => setText(e.target.value)}
-          onKeyUp={detectEnterClick}
-        />
+    <div>
+      <div className={`box-shadow ${styles["container"]}`}>
+        <div className={styles["dic-input-flex"]}>
+          <Image
+            src={dictionaryOpenIcon}
+            alt={"Dictionary A-Z icon"}
+            width={38}
+          />
+          <input
+            type="text"
+            placeholder="Enter word"
+            onChange={(e) => setText(e.target.value)}
+            onKeyUp={detectEnterClick}
+          />
+          <Button label="Search" onClick={handleClick} />
+        </div>
       </div>
       <div className="margin-bottom">
         {dicts.map((dict, index) => {
-          return <WordCard key={index} dictionary={dict} />;
+          return <WordCard key={index} dictionary={dict} onClose={handleRemoveWordCard}/>;
         })}
       </div>
     </div>

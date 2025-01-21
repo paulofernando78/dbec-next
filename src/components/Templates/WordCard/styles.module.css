@@ -2,17 +2,11 @@
   margin-block: 2.6px;
 }
 
-.input-button {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 1.15rem;
-}
-
-.input-style {
-  padding: 6px 0 0 5px;
-  border-radius: var(--border-radius);
-  width: 300px;
-  font-size: var(--p-size);
+.close-button {
+  position: absolute;
+  right: 0px;
+  top: 5px;
+  
 }
 
 .input-style::placeholder {
