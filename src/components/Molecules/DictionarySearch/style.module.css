@@ -1,6 +1,6 @@
 .container {
   border-radius: 5px;
-  padding: 5px 9px 3px 9px;
+  padding: 5px 9.7px 5px 9px;
   background-color: white;
 }
 
@@ -10,3 +10,8 @@
   justify-content: space-around;
   gap: 10px;
 }
+
+/* .WordCard {
+  position: absolute;
+  z-index: 100;
+} */

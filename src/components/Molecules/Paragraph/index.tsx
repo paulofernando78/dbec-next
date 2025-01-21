@@ -1,13 +1,8 @@
 "use client";
 
-// Components
 import Image from "next/image";
 import { DictionaryCard } from "@/components";
-
-// CSS
 import styles from "./styles.module.css";
-
-// Typescript
 import { ParagraphSectionsProps } from "./types";
 
 const baseImgScr = "/assets/img";

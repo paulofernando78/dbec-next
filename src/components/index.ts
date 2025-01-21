@@ -9,7 +9,7 @@ import SwiperFraction from "./Organisms/Swiper/Fraction";
 import { FlipCard } from "./Molecules/Cards/Flip";
 import { Dropdown } from "./Molecules/ExerciseTemplates/Dropdown";
 import { FillInTheBlanks } from "./Molecules/ExerciseTemplates/FillInTheBlank";
-import { DictionaryCard } from "./DictionaryCard/DictionaryCard";
+import { DictionaryCard } from "./Molecules/Cards/DictionaryCard";
 import { ScrollToTop } from "./Atoms/ScrollToTop";
 
 export {

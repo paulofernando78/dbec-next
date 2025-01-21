@@ -67,7 +67,7 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
   };
 
   return (
-    <div className={styles["word-card-margin"]}>
+    <div className={styles["container"]}>
       <div className={styles["border"]}>
         <p className="display-none">
           <b>{dictionary.keyword}</b>

@@ -73,6 +73,7 @@ import clockWakeUpHate from "./bitmoji/clock-wakeup-hate.png";
 import closeIcon from "./icon/close.png";
 import dictionaryIcon from "./icon/dictionary.png";
 import dictionaryOpenIcon from "./icon/dictionary-open.png";
+import EyeIcon from "./icon/eye.png";
 import expandForward from "./icon/expand-forward.png";
 import expandDown from "./icon/expand-down.png";
 import notesIcon from "./icon/notes.png";
@@ -164,6 +165,7 @@ export {
   closeIcon,
   dictionaryIcon,
   dictionaryOpenIcon,
+  EyeIcon,
   expandForward,
   expandDown,
   notesIcon,

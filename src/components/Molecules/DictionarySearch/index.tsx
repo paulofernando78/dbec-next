@@ -46,14 +46,14 @@ export const DictionarySearch = () => {
           />
           <input
             type="text"
-            placeholder="Searh dictionary"
+            placeholder="Search dictionary"
             onChange={(e) => setText(e.target.value)}
             onKeyUp={detectEnterClick}
           />
           <Button label="&#128269;" onClick={handleClick} />
         </div>
       </div>
-      <div className="margin-bottom">
+      <div className={styles["WordCard"]}>
         {dicts.map((dict, index) => {
           return (
             <WordCard

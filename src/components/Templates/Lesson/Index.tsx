@@ -41,7 +41,7 @@ export const LessonTemplate = ({
   }
 
   return (
-    <>
+    <div className={styles["container"]}>
       <div className="line-break">
         {/* Whiteboard */}
         {lessonData.whiteboard && (
@@ -138,7 +138,7 @@ export const LessonTemplate = ({
 
             {/* Audio Player */}
             {lesson.audioSrc && (
-              <div className="position-sticky" style={{ top: "50px" }}>
+              <div className="position-sticky" style={{ top: "52px" }}>
                 <AudioPlayer audioSrc={lesson.audioSrc} />
               </div>
             )}
@@ -164,6 +164,6 @@ export const LessonTemplate = ({
         ))}
         <ScrollToTop />
       </div>
-    </>
+    </div>
   );
 };

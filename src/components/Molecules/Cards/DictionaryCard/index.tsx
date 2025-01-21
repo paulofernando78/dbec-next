@@ -3,18 +3,18 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 
 // Components
-import { WordCard } from "../Templates/WordCard";
+import { WordCard } from "@/components/Templates/WordCard"; 
 
 // CSS
 import styles from "./styles.module.css";
 
 // Images
-import PlayButton from "../../../public/assets/img/icon/play-button.png";
-import Eye from "../../../public/assets/img/icon/eye.png";
+// import PlayButton from "../../../public/assets/img/icon/play-button.png";
+import { EyeIcon } from "@/img/index";
 
 // Types
 import { DictionaryCardProps } from "./types";
-import { IDictionary } from "../Templates/WordCard/types";
+import { IDictionary } from "@/components/Templates/WordCard/types";
 
 // Utils
 import { searchWords } from "@/utils/searchWords";
@@ -29,10 +29,10 @@ export const DictionaryCard = ({
   const baseAudioSrc = "/assets/audio";
   audioSrc = baseAudioSrc + audioSrc;
 
-  const playAudio = () => {
-    let audio = new Audio(audioSrc);
-    audio.play();
-  };
+  // const playAudio = () => {
+  //   let audio = new Audio(audioSrc);
+  //   audio.play();
+  // };
 
   useEffect(() => {
     if (!dictionary) {
@@ -54,7 +54,7 @@ export const DictionaryCard = ({
           className={styles["play-button"]}
         /> */}
         <Image
-          src={Eye}
+          src={EyeIcon}
           alt="Eye icon"
           className={styles["eye"]}
           onClick={() => setVisible(!visible)}
@@ -69,7 +69,7 @@ export const DictionaryCard = ({
 
       {visible && dictionary && (
         <div className={styles["word-card"]}>
-          <WordCard dictionary={dictionary} />
+          <WordCard dictionary={dictionary} onClose={() => setVisible(false)} />
         </div>
       )}
     </>

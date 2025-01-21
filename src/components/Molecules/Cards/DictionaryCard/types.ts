@@ -3,4 +3,5 @@ export interface DictionaryCardProps {
     keyword?: string;
     word?: string;
     phonetics?: string;
+    
   }
