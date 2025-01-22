@@ -1,7 +1,3 @@
-/* .outer-wordcard-container {
-  border: solid 2px red;
-} */
-
 .wordcard-container {
   background-color: rgba(255, 255, 0, 0.083);
   box-shadow: var(--box-shadow);

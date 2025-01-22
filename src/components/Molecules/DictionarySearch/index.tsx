@@ -36,7 +36,7 @@ export const DictionarySearch = () => {
   };
 
   return (
-    <div className={styles["outer-dictionary-search-container"]}>
+    <>
       <div className={styles["dictionary-search-container"]}>
         <div className={styles["image-input-button-flex"]}>
           <Image
@@ -64,6 +64,6 @@ export const DictionarySearch = () => {
           );
         })}
       </div>
-    </div>
+    </>
   );
 };

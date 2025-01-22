@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
-import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+import { DictionaryCard} from "@components/Molecules/Cards/DictionaryCard";
 import { ScrollToTop } from "@/components/Atoms/ScrollToTop";
 import { Card } from "@/components";
 import { Collapsible } from "@/components/Atoms/Collapsibles";

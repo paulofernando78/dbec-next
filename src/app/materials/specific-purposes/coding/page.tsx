@@ -1,4 +1,4 @@
-import { DictionaryCard } from "@/components/DictionaryCard/DictionaryCard";
+import { DictionaryCard } from "@components/Molecules/Cards/DictionaryCard";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 
 export default function Coding() {
@@ -6,7 +6,7 @@ export default function Coding() {
     <>
       <Whiteboard title="Specific Purposes" subtitle="Coding" />
       <div className="line-break">
-          <p className="bold">General Vocabulary</p>
+        <p className="bold">General Vocabulary</p>
         <div className="flex-col">
           <DictionaryCard
             audioSrc="/f/folder.mp3"
@@ -19,7 +19,7 @@ export default function Coding() {
             phonetics="/kæʃ/"
           />
         </div>
-          <p className="bold">Front-End</p>
+        <p className="bold">Front-End</p>
         <div className="flex-col">
           <DictionaryCard
             audioSrc="/w/width.mp3"
@@ -33,7 +33,7 @@ export default function Coding() {
           />
         </div>
         <div>
-            <p className="bold">Back-End</p>
+          <p className="bold">Back-End</p>
         </div>
       </div>
     </>

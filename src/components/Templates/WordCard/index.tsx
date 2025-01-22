@@ -67,197 +67,195 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
   };
 
   return (
-    <div className={styles["outer-wordcard-container"]}>
-      <div className={styles["wordcard-container"]}>
-        <div className={styles["border"]}>
-          <p className="display-none">
-            <b>{dictionary.keyword}</b>
-          </p>
-          <div>
-            <Image
-              src={closeIcon}
-              alt="Close icon"
-              className={`icon-general ${styles["close-button"]}`}
-              onClick={() => onClose(dictionary.keyword)}
-            />
-            {dictionary.definitions.map(
-              (definition: IDictionaryDefinitions, index: number) => (
-                <div key={index}>
-                  {/* Word with play button */}
-                  <div className={`margin-bottom ${styles["padding-left"]}`}>
-                    {definition.word && (
-                      <p>
-                        <span className="bold">
-                          <Image
-                            src={
-                              playingAudios[`word-${index}`]
-                                ? playingIcon
-                                : speakerIcon
-                            }
-                            alt={
-                              playingAudios[`word-${index}`]
-                                ? "Stop icon"
-                                : "Speaker icon"
-                            }
-                            onClick={() =>
-                              definition.word &&
-                              handleTextToSpeech(definition.word, `word-${index}`)
-                            }
-                            className={styles["audio-button"]}
-                          />
-                          {definition.word}
+    <div className={styles["wordcard-container"]}>
+      <div className={styles["border"]}>
+        <p className="display-none">
+          <b>{dictionary.keyword}</b>
+        </p>
+        <div>
+          <Image
+            src={closeIcon}
+            alt="Close icon"
+            className={`icon-general ${styles["close-button"]}`}
+            onClick={() => onClose(dictionary.keyword)}
+          />
+          {dictionary.definitions.map(
+            (definition: IDictionaryDefinitions, index: number) => (
+              <div key={index}>
+                {/* Word with play button */}
+                <div className={`margin-bottom ${styles["padding-left"]}`}>
+                  {definition.word && (
+                    <p>
+                      <span className="bold">
+                        <Image
+                          src={
+                            playingAudios[`word-${index}`]
+                              ? playingIcon
+                              : speakerIcon
+                          }
+                          alt={
+                            playingAudios[`word-${index}`]
+                              ? "Stop icon"
+                              : "Speaker icon"
+                          }
+                          onClick={() =>
+                            definition.word &&
+                            handleTextToSpeech(definition.word, `word-${index}`)
+                          }
+                          className={styles["audio-button"]}
+                        />
+                        {definition.word}
+                      </span>
+                    </p>
+                  )}
+
+                  {/* Phonetics */}
+                  {definition.phonetics && (
+                    <p className="display-bloc">
+                      <span className="phonetics">{definition.phonetics}</span>
+                    </p>
+                  )}
+
+                  {/* Part of Speech*/}
+                  <p className={styles["margin-right"]}>
+                    <span className="times-new-roman-dictionary">
+                      {definition.partOfSpeech}
+                    </span>
+                  </p>
+                </div>
+
+                <div className="line-break">
+                  {/* Definitions */}
+                  <div className={styles["border-left"]}>
+                    <p className="bold">Definition</p>
+
+                    <Image
+                      src={
+                        playingAudios[`definition-${index}`]
+                          ? playingIcon
+                          : speakerIcon
+                      }
+                      alt={
+                        playingAudios[`definition-${index}`]
+                          ? "Stop icon"
+                          : "Play icon"
+                      }
+                      onClick={() =>
+                        definition.enDefinition &&
+                        handleTextToSpeech(
+                          definition.enDefinition,
+                          `definition-${index}`
+                        )
+                      }
+                      className={styles["audio-button"]}
+                    />
+                    {definition.enDefinition && (
+                      <p className="display-inline">
+                        <span>{definition.enDefinition}</span>{" "}
+                        <span className="portuguese">
+                          {definition.ptDefinition}
                         </span>
                       </p>
                     )}
-  
-                    {/* Phonetics */}
-                    {definition.phonetics && (
-                      <p className="display-bloc">
-                        <span className="phonetics">{definition.phonetics}</span>
-                      </p>
-                    )}
-  
-                    {/* Part of Speech*/}
-                    <p className={styles["margin-right"]}>
-                      <span className="times-new-roman-dictionary">
-                        {definition.partOfSpeech}
-                      </span>
-                    </p>
                   </div>
-  
-                  <div className="line-break">
-                    {/* Definitions */}
-                    <div className={styles["border-left"]}>
-                      <p className="bold">Definition</p>
-  
-                      <Image
-                        src={
-                          playingAudios[`definition-${index}`]
-                            ? playingIcon
-                            : speakerIcon
-                        }
-                        alt={
-                          playingAudios[`definition-${index}`]
-                            ? "Stop icon"
-                            : "Play icon"
-                        }
-                        onClick={() =>
-                          definition.enDefinition &&
-                          handleTextToSpeech(
-                            definition.enDefinition,
-                            `definition-${index}`
-                          )
-                        }
-                        className={styles["audio-button"]}
-                      />
-                      {definition.enDefinition && (
-                        <p className="display-inline">
-                          <span>{definition.enDefinition}</span>{" "}
+
+                  {/* English and Portuguese example */}
+                  <div className={styles["border-left"]}>
+                    <p className="bold">Example</p>
+                    {definition.examples?.map((example, exampleIndex) => (
+                      <p key={exampleIndex}>
+                        <Image
+                          src={
+                            playingAudios[`example-${index}-${exampleIndex}`]
+                              ? playingIcon
+                              : speakerIcon
+                          }
+                          alt={
+                            playingAudios[`example-${index}-${exampleIndex}`]
+                              ? "Stop icon"
+                              : "Speaker icon"
+                          }
+                          onClick={() =>
+                            example.enExample &&
+                            handleTextToSpeech(
+                              example.enExample,
+                              `example-${index}-${exampleIndex}`
+                            )
+                          }
+                          className={styles["audio-button"]}
+                        />
+                        {example.enExample && <span>{example.enExample}</span>}{" "}
+                        {example.ptExample && (
                           <span className="portuguese">
-                            {definition.ptDefinition}
+                            {example.ptExample}
                           </span>
-                        </p>
-                      )}
-                    </div>
-  
-                    {/* English and Portuguese example */}
+                        )}
+                      </p>
+                    ))}
+                  </div>
+
+                  {/* Synonyms */}
+                  {definition.synonyms && (
                     <div className={styles["border-left"]}>
-                      <p className="bold">Example</p>
-                      {definition.examples?.map((example, exampleIndex) => (
-                        <p key={exampleIndex}>
+                      <p className="bold">Synonyms</p>
+                      <p>{definition.synonyms}</p>
+                    </div>
+                  )}
+
+                  {/* Antonyms */}
+                  {definition.antonyms && (
+                    <div className={styles["border-left"]}>
+                      <p className="bold">Antonyms</p>
+                      <p>{definition.antonyms}</p>
+                    </div>
+                  )}
+
+                  {/* See also */}
+                  {definition.seeAlso && (
+                    <div className={styles["border-left"]}>
+                      <p className="bold">See also</p>
+                      <p>{definition.seeAlso}</p>
+                    </div>
+                  )}
+
+                  {/* Note */}
+                  {definition.notes?.some(
+                    (note) => note.enNote || note.ptNote
+                  ) && (
+                    <div className={styles["border-left"]}>
+                      <p className="bold">Note</p>
+                      {definition.notes?.map((note, noteIndex) => (
+                        <p key={noteIndex}>
                           <Image
                             src={
-                              playingAudios[`example-${index}-${exampleIndex}`]
+                              playingAudios[`note-${index}-${noteIndex}`]
                                 ? playingIcon
                                 : speakerIcon
                             }
                             alt={
-                              playingAudios[`example-${index}-${exampleIndex}`]
+                              playingAudios[`note-${index}-${noteIndex}`]
                                 ? "Stop icon"
                                 : "Speaker icon"
                             }
                             onClick={() =>
-                              example.enExample &&
+                              note.enNote &&
                               handleTextToSpeech(
-                                example.enExample,
-                                `example-${index}-${exampleIndex}`
+                                note.enNote,
+                                `note-${index}-${noteIndex}`
                               )
                             }
                             className={styles["audio-button"]}
                           />
-                          {example.enExample && <span>{example.enExample}</span>}{" "}
-                          {example.ptExample && (
-                            <span className="portuguese">
-                              {example.ptExample}
-                            </span>
-                          )}
+                          <span>{note.enNote}</span>{" "}
+                          <span className="portuguese">{note.ptNote}</span>
                         </p>
                       ))}
                     </div>
-  
-                    {/* Synonyms */}
-                    {definition.synonyms && (
-                      <div className={styles["border-left"]}>
-                        <p className="bold">Synonyms</p>
-                        <p>{definition.synonyms}</p>
-                      </div>
-                    )}
-  
-                    {/* Antonyms */}
-                    {definition.antonyms && (
-                      <div className={styles["border-left"]}>
-                        <p className="bold">Antonyms</p>
-                        <p>{definition.antonyms}</p>
-                      </div>
-                    )}
-  
-                    {/* See also */}
-                    {definition.seeAlso && (
-                      <div className={styles["border-left"]}>
-                        <p className="bold">See also</p>
-                        <p>{definition.seeAlso}</p>
-                      </div>
-                    )}
-  
-                    {/* Note */}
-                    {definition.notes?.some(
-                      (note) => note.enNote || note.ptNote
-                    ) && (
-                      <div className={styles["border-left"]}>
-                        <p className="bold">Note</p>
-                        {definition.notes?.map((note, noteIndex) => (
-                          <p key={noteIndex}>
-                            <Image
-                              src={
-                                playingAudios[`note-${index}-${noteIndex}`]
-                                  ? playingIcon
-                                  : speakerIcon
-                              }
-                              alt={
-                                playingAudios[`note-${index}-${noteIndex}`]
-                                  ? "Stop icon"
-                                  : "Speaker icon"
-                              }
-                              onClick={() =>
-                                note.enNote &&
-                                handleTextToSpeech(
-                                  note.enNote,
-                                  `note-${index}-${noteIndex}`
-                                )
-                              }
-                              className={styles["audio-button"]}
-                            />
-                            <span>{note.enNote}</span>{" "}
-                            <span className="portuguese">{note.ptNote}</span>
-                          </p>
-                        ))}
-                      </div>
-                    )}
-                  </div>
+                  )}
                 </div>
-              )
-            )}
-          </div>
+              </div>
+            )
+          )}
         </div>
       </div>
     </div>
