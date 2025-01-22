@@ -60,7 +60,8 @@ export const LessonTemplate = ({
         {isUnderConstruction && <UnderConstruction />}
 
         {/* Dictionary */}
-        <div className="position-sticky">
+        {/* position-sticky has z-index: 2 */}
+        <div className="position-sticky" style={{ zIndex: "3" }}> 
           <DictionarySearch />
         </div>
 
