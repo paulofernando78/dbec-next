@@ -107,7 +107,7 @@
           "imgPosition": "right",
           "paragraphs": [
             {
-              "enText": "Sarah and Jessica are going to New Zealand for a holiday. They are very excited. Jessica is near Auckland! We're here!\" \"But we're late,\" Sarah answers. \"When'<span class=\"underline\">s o</span>ur bus?\" \"At one o'clock, \"Jessica says. \"We can ge<span class=\"underline\">t a</span> taxi from the airport to the bus station.\""
+              "enText": "Sarah and Jessica are going to New Zealand for a holiday. They are very excited. Jessica is near the window! We're here!\" \"But we're late,\" Sarah answers. \"When'<span class=\"underline\">s o</span>ur bus?\" \"At one o'clock, \"Jessica says. \"We can ge<span class=\"underline\">t a</span> taxi from the airport to the bus station.\""
             }
           ]
         }
@@ -126,7 +126,7 @@
           "radio": [
             {
               "id": "3ea8e636-e219-4816-a80c-532accc55ee0",
-              "question": "1.1 Where are Sarah and Jessica going",
+              "question": "1.1 Where are Sarah and Jessica going?",
               "options": [
                 {
                   "id": "c0ab8c54-70b5-4e0a-9729-70ada7caaa61",

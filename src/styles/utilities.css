@@ -90,7 +90,7 @@
 
 .position-fixed {
   position: fixed;
-  z-index: 100;
+  z-index: 2;
 }
 
 .position-sticky {
