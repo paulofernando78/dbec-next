@@ -1,35 +1,5 @@
 [
   {
-    "keyword": "swamped",
-    "definitions": [
-      {
-        "word": "swamped",
-        "phonetics": "swɑmpt",
-        "partOfSpeech": "adjective",
-        "enDefinition": "overwhelmed with tasks, responsibilities, or work, often to the point of being unable to manage everything",
-        "ptDefinition": "sobrecarregado com tarefas, responsabilidades ou trabalho, frequentemente a ponto de não conseguir administrar tudo",
-        "examples": [
-          {
-            "enExample": "I’m swamped with work right now; I can’t take on any more projects.",
-            "ptExample": "Estou sobrecarregado de trabalho agora; não posso aceitar mais projetos."
-          },
-          {
-            "enExample": "She's swamped with meetings this week, so she can't attend the conference.",
-            "ptExample": "Ela está sobrecarregada com reuniões esta semana, então não pode comparecer à conferência."
-          }
-        ],
-        "synonyms": "overwhelmed, buried, flooded",
-        "antonyms": "unoccupied, free, relaxed",
-        "notes": [
-          {
-            "enNote": "This term is often used in professional or work contexts to describe a situation where someone has too much to do.",
-            "ptNote": "Este termo é frequentemente usado em contextos profissionais ou de trabalho para descrever uma situação em que alguém tem muitas coisas para fazer."
-          }
-        ]
-      }
-    ]
-  },
-  {
     "keyword": "swivel",
     "definitions": [
       {
@@ -482,6 +452,67 @@
           },
           {
             "ptNote": "Esta expressão vem da prática das crianças pendurarem meias que o Papai Noel enche (ou \"recheia\") com pequenos presentes."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "suddenly",
+    "definitions": [
+      {
+        "word": "suddenly",
+        "phonetics": "/ˈsʌd.ən.li/",
+        "partOfSpeech": "adverb",
+        "enDefinition": "Quickly and unexpectedly.",
+        "ptDefinition": "De forma rápida e inesperada.",
+        "examples": [
+          {
+            "enExample": "Suddenly, the lights went out, and the room was pitch black.",
+            "ptExample": "De repente, as luzes se apagaram e o quarto ficou completamente escuro."
+          },
+          {
+            "enExample": "The car stopped suddenly, avoiding a collision.",
+            "ptExample": "O carro parou de repente, evitando uma colisão."
+          }
+        ],
+        "synonyms": "abruptly, unexpectedly, instantaneously",
+        "antonyms": "gradually, slowly",
+        "seeAlso": "immediately, abruptly",
+        "notes": [
+          {
+            "enNote": "Often used to describe an action that occurs without warning.",
+            "ptNote": "Frequentemente usado para descrever uma ação que ocorre sem aviso prévio."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "swamped",
+    "definitions": [
+      {
+        "word": "swamped",
+        "phonetics": "swɑmpt",
+        "partOfSpeech": "adjective",
+        "enDefinition": "overwhelmed with tasks, responsibilities, or work, often to the point of being unable to manage everything",
+        "ptDefinition": "sobrecarregado com tarefas, responsabilidades ou trabalho, frequentemente a ponto de não conseguir administrar tudo",
+        "examples": [
+          {
+            "enExample": "I’m swamped with work right now; I can’t take on any more projects.",
+            "ptExample": "Estou sobrecarregado de trabalho agora; não posso aceitar mais projetos."
+          },
+          {
+            "enExample": "She's swamped with meetings this week, so she can't attend the conference.",
+            "ptExample": "Ela está sobrecarregada com reuniões esta semana, então não pode comparecer à conferência."
+          }
+        ],
+        "synonyms": "overwhelmed, buried, flooded",
+        "antonyms": "unoccupied, free, relaxed",
+        "notes": [
+          {
+            "enNote": "This term is often used in professional or work contexts to describe a situation where someone has too much to do.",
+            "ptNote": "Este termo é frequentemente usado em contextos profissionais ou de trabalho para descrever uma situação em que alguém tem muitas coisas para fazer."
           }
         ]
       }
