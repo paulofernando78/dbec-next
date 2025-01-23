@@ -53,6 +53,7 @@ export const DictionarySearch = () => {
           <Button label="&#128269;" onClick={handleShowWordCard} />
         </div>
       </div>
+      {dicts.length != 0 && 
       <div className={styles["wordcard"]}>
         {dicts.map((dict, index) => {
           return (
@@ -64,6 +65,7 @@ export const DictionarySearch = () => {
           );
         })}
       </div>
+      }
     </>
   );
 };

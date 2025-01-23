@@ -19,7 +19,7 @@ height: 200px;;
 }
 
 .wordcard {
-  position: absolute;
+  height: 400px;
   background-color: white;
-  z-index: 100;
+  overflow: auto;
 }
