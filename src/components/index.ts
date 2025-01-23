@@ -6,7 +6,7 @@ import { AudioPlayer } from "./Atoms/AudioPlayer";
 import { VideoPlayer } from "./Atoms/VideoPlayer";
 import { Paragraph } from "./Molecules/Paragraph";
 import SwiperFraction from "./Organisms/Swiper/Fraction";
-import { FlipCard } from "./Molecules/Cards/Flip";
+import { FlipCard } from "./Molecules/Cards/FlipCard";
 import { Dropdown } from "./Molecules/ExerciseTemplates/Dropdown";
 import { FillInTheBlanks } from "./Molecules/ExerciseTemplates/FillInTheBlank";
 import { DictionaryCard } from "./Molecules/Cards/DictionaryCard";

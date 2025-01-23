@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 
 // Components
-import { WordCard } from "@/components/Templates/WordCard"; 
+import { WordCard } from "@/components/Molecules/Cards/WordCard";
 
 // CSS
 import styles from "./styles.module.css";
@@ -14,7 +14,7 @@ import { EyeIcon } from "@/img/index";
 
 // Types
 import { DictionaryCardProps } from "./types";
-import { IDictionary } from "@/components/Templates/WordCard/types";
+import { IDictionary } from "@/components/Molecules/Cards/WordCard/types";
 
 // Utils
 import { searchWords } from "@/utils/searchWords";

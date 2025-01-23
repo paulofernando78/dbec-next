@@ -2,11 +2,11 @@
 
 import { useState } from "react";
 import { Button } from "@/components/Atoms/Button";
-import { WordCard } from "@/components/Templates/WordCard";
+import { WordCard } from "@/components/Molecules/Cards/WordCard";
 import Image from "next/image";
 import { dictionaryOpenIcon } from "@/img/index";
 import styles from "./style.module.css";
-import { IDictionary } from "@/components/Templates/WordCard/types";
+import { IDictionary } from "@/components/Molecules/Cards/WordCard/types";
 import { searchWords } from "@/utils/searchWords";
 
 export const DictionarySearch = () => {
@@ -53,19 +53,19 @@ export const DictionarySearch = () => {
           <Button label="&#128269;" onClick={handleShowWordCard} />
         </div>
       </div>
-      {dicts.length != 0 && 
-      <div className={styles["wordcard"]}>
-        {dicts.map((dict, index) => {
-          return (
-            <WordCard
-              key={index}
-              dictionary={dict}
-              onClose={handleRemoveWordCard}
-            />
-          );
-        })}
-      </div>
-      }
+      {dicts.length != 0 && (
+        <div className={styles["wordcard"]}>
+          {dicts.map((dict, index) => {
+            return (
+              <WordCard
+                key={index}
+                dictionary={dict}
+                onClose={handleRemoveWordCard}
+              />
+            );
+          })}
+        </div>
+      )}
     </>
   );
 };

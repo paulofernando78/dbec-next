@@ -1,4 +1,4 @@
-import { IDictionary } from "@/components/Templates/WordCard/types";
+import { IDictionary } from "@/components/Molecules/Cards/WordCard/types";
 
 const alphabet = [
   "a",
