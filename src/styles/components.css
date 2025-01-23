@@ -56,6 +56,7 @@ input[type="checkbox"] {
   border: 1px solid #333;
   border-radius: 2px;
   cursor: pointer;
+  position: relative;
 }
 
 input[type="checkbox"]:checked::before {
@@ -65,9 +66,9 @@ input[type="checkbox"]:checked::before {
   height: 24px;
   background-image: url(../../public/assets/img/icon/checkbox.png);
   background-size: contain;
-  position: relative;
   top: -2px;
   left: -2px;
+  position: absolute;
 }
 
 /* Text */
