@@ -2,6 +2,109 @@ import Image from "next/image";
 import { AudioPlayer } from "../../Atoms/AudioPlayer";
 import styles from "./styles.module.css";
 
+const prompts = [
+  {
+    category: "Possible questions",
+    phrases: [
+      {
+        phrase: "How are you?",
+      },
+      {
+        phrase: "How are you doing?",
+      },
+      {
+        phrase: "How are you feeling today?",
+      },
+      {
+        phrase: "How's it going?",
+      },
+      {
+        phrase: "How's everything?",
+      },
+      {
+        phrase: "How are things with you?",
+      },
+    ],
+  },
+  {
+    category: "Possible responses",
+    phrases: [
+      {
+        phrase: "I'm doing well.",
+      },
+      {
+        phrase: "Great, how about you?",
+      },
+      {
+        phrase: "I'm feeling fantastic today.",
+      },
+      {
+        phrase: "Everything's going really well.",
+      },
+      {
+        phrase: "Things are wonderful, thanks for asking.",
+      },
+    ],
+  },
+  {
+    category: "Neutral responses",
+    phrases: [
+      {
+        phrase: "Not bad, how about you?",
+      },
+      {
+        phrase: "Doing okay, thanks for asking.",
+      },
+      {
+        phrase: "Everything's pretty normal.",
+      },
+      {
+        phrase: "Things are alright.",
+      },
+    ],
+  },
+  {
+    category: "Negative responses",
+    phrases: [
+      {
+        phrase: "I've been better.",
+      },
+      {
+        phrase: "Not so great, to be honest.",
+      },
+      {
+        phrase: "I'm feeling a bit off today.",
+      },
+      {
+        phrase: "Things have been a bit tough lately.",
+      },
+      {
+        phrase: "It's been a challenging day.",
+      },
+    ],
+  },
+  {
+    category: "Informal or Friendly responses",
+    phrases: [
+      {
+        phrase: "All good, you?",
+      },
+      {
+        phrase: "Can’t complain!",
+      },
+      {
+        phrase: "Same old, same old.",
+      },
+      {
+        phrase: "Just hanging in there.",
+      },
+      {
+        phrase: "Pretty chill, how about yourself?",
+      },
+    ],
+  },
+];
+
 const emojis = [
   {
     imgSrc: "/assets/img/gif/good.gif",
@@ -58,6 +161,9 @@ const emojis = [
     words: [
       {
         word: "annoyed",
+      },
+      {
+        word: "...",
       },
     ],
   },
@@ -169,6 +275,9 @@ const emojis = [
       {
         word: "frustrated",
       },
+      {
+        word: "...",
+      },
     ],
   },
   {
@@ -248,7 +357,7 @@ const emojis = [
   {
     imgSrc: "/assets/img/gif/i-dont-know.gif",
     imgAlt: '"i-dont-know" emoji.',
-    word: "I dont know",
+    words: [{ word: "I dont know" }],
   },
 ];
 
@@ -257,32 +366,42 @@ export default function HowYouFeeling() {
     <>
       <div className="line-break">
         <AudioPlayer audioSrc="/how-you-feeling.mp3" />
-        <div className={styles["feeling"]}>
-          <p>A: Hey, how are you feeling today?</p>
-          <p>A: How's it going?</p>
-          <p>A: How are things with you?</p>
 
-          <p>B: I'm feeling pretty good. Thanks for asking.</p>
-        </div>
-        <div className={styles["emoji-container"]}>
-          {emojis.map((emoji, emojiIndex) => (
+        <div className={styles["prompt-container"]}>
+          {prompts.map((prompt, promptIndex) => (
             <div
-              key={emojiIndex}
-              className={`img-customization ${styles["emoji-inner-container"]}`}
+              key={promptIndex}
+              className={`line-break ${styles["prompt-inner-container"]}`}
             >
-              <Image
-                src={emoji.imgSrc}
-                alt={emoji.imgAlt}
-                width={50}
-                height={50}
-                className={styles["emoji-size"]}
-              />
-              {emoji.words && emoji.words.map((word, wordIndex) => (
-                <p key={wordIndex}>{word.word}</p>
-              ))}
+              <p className="bold">{prompt.category}</p>
+              <div>
+                {prompt.phrases.map((phrase, phraseIndex) => (
+                  <p key={phraseIndex}>{phrase.phrase}</p>
+                ))}
+              </div>
             </div>
           ))}
         </div>
+        <h2>Adjectives</h2>
+      </div>
+      <div className={styles["emoji-container"]}>
+        {emojis.map((emoji, emojiIndex) => (
+          <div
+            key={emojiIndex}
+            className={`img-customization ${styles["emoji-inner-container"]}`}
+          >
+            <Image
+              src={emoji.imgSrc}
+              alt={emoji.imgAlt}
+              width={50}
+              height={50}
+            />
+            {emoji.words &&
+              emoji.words.map((word, wordIndex) => (
+                <p key={wordIndex}>{word.word}</p>
+              ))}
+          </div>
+        ))}
       </div>
     </>
   );

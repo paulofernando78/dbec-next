@@ -12,7 +12,6 @@ export default function Material() {
         <DictionarySearch />
         <Welcome />
         <HowYouFeeling />
-        
       </div>
     </>
   );
