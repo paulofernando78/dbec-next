@@ -6,14 +6,6 @@
   margin: 5px;
 }
 
-.close-button {
-  float: right;
-  position: relative;
-  right: 0px;
-  top: 5px;  
-  cursor: pointer;
-}
-
 .input-style::placeholder {
   font-size: var(--p-size);
 }
@@ -22,12 +14,57 @@
   margin-top: 0.3rem;
 }
 
+.flex {
+  display: flex;
+  gap: 8px;
+}
+
+.word {
+  flex: 1
+}
+
 .audio-button {
-  margin-right: 5px;
-  width: max-content;
+  width: 26px;
   height: 26px;
+}
+
+.adjustment {
   position: relative;
-  top: 5px;
+  top: 4px;
+  margin-right: 8px;
+}
+
+.loading {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #bbb;
+  outline: 1px solid rgb(0, 0, 0);
+  object-fit: cover;
+  animation: rotate 1.5s linear infinite;
+  scale: .85;
+}
+
+.close-button {
+  cursor: pointer;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.word-margin-bottom {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
 }
 
 .margin-right {
@@ -35,18 +72,8 @@
   margin-right: 5px;
 }
 
-.flex {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
 .border {
-  /* border: var(--border);
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow); */
   padding: 1px 5px 9px 5px;
-  
 }
 
 .padding-left {
@@ -57,5 +84,5 @@
   margin-left: 4px;
   padding-left: 10px;
   border-left: 3px solid black;
-  border-radius:  5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
 }

@@ -259,6 +259,9 @@ export default function HowYouFeeling() {
         <AudioPlayer audioSrc="/how-you-feeling.mp3" />
         <div className={styles["feeling"]}>
           <p>A: Hey, how are you feeling today?</p>
+          <p>A: How's it going?</p>
+          <p>A: How are things with you?</p>
+
           <p>B: I'm feeling pretty good. Thanks for asking.</p>
         </div>
         <div className={styles["emoji-container"]}>

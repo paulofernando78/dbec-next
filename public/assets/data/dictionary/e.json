@@ -81,6 +81,37 @@
     ]
   },
   {
+    "keyword": "everyone",
+    "definitions": [
+      {
+        "word": "everyone",
+        "phonetics": "ˈɛvrɪwʌn",
+        "partOfSpeech": "pronoun",
+        "enDefinition": "Every person; all people.",
+        "ptDefinition": "Toda pessoa; todas as pessoas.",
+        "examples": [
+          {
+            "enExample": "Everyone is invited to the party.",
+            "ptExample": "Todos estão convidados para a festa."
+          },
+          {
+            "enExample": "Everyone agreed with the decision.",
+            "ptExample": "Todos concordaram com a decisão."
+          }
+        ],
+        "synonyms": ["everybody", "all"],
+        "antonyms": ["nobody", "no one"],
+        "seeAlso": ["all", "anyone", "somebody"],
+        "notes": [
+          {
+            "enNote": "Used to refer to all individuals collectively.",
+            "ptNote": "Usado para se referir a todas as pessoas coletivamente."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "excite",
     "definitions": [
       {

@@ -39,18 +39,18 @@ export const DictionarySearch = () => {
     <>
       <div className={styles["dictionary-search-container"]}>
         <div className={styles["image-input-button-flex"]}>
-          <Image
+          {/* <Image
             src={dictionaryOpenIcon}
             alt={"Dictionary A-Z icon"}
             width={38}
-          />
+          /> */}
+            <Button label="&#128269;" onClick={handleShowWordCard} />
           <input
             type="text"
             placeholder="Search dictionary"
             onChange={(e) => setText(e.target.value)}
             onKeyUp={detectEnterClick}
           />
-          <Button label="&#128269;" onClick={handleShowWordCard} />
         </div>
       </div>
       {dicts.length != 0 && (

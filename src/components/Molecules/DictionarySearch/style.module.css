@@ -1,11 +1,6 @@
-/* .outer-dictionary-search-container {
-border: 5px solid red;
-height: 200px;;
-} */
-
 .dictionary-search-container {
   border-radius: 5px;
-  padding: 5px 9.7px 5px 9px;
+  padding: 5px;
   background-color: white;
   margin-bottom: 10px;
   box-shadow: var(--box-shadow);
@@ -15,11 +10,11 @@ height: 200px;;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  gap: 10px;
+  gap: 5px;
 }
 
 .wordcard {
-  height: 500px;
+  height: max-content;
   background-color: white;
   overflow: auto;
   box-shadow: var(--box-shadow);

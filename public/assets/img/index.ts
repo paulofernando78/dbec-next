@@ -68,27 +68,80 @@ import correctIcon from "./icon/correct.png";
 import incorrectIcon from "./icon/incorrect.png";
 
 // Misc
+
+// A
+
+// B
 import brFlagIcon from "./icon/flag/brazil.png";
+
+// C
 import clockWakeUpHate from "./bitmoji/clock-wakeup-hate.png";
 import closeIcon from "./icon/close.png";
+
+// D
 import dictionaryIcon from "./icon/dictionary.png";
 import dictionaryOpenIcon from "./icon/dictionary-open.png";
+
+// E
 import EyeIcon from "./icon/eye.png";
 import expandForward from "./icon/expand-forward.png";
 import expandDown from "./icon/expand-down.png";
+
+// F
+
+// G
+
+// H
+
+// I
+
+// J
+
+// K
+
+// L
+import loadingIcon from "./icon/loading.png";
+
+// M
+
+// N
 import notesIcon from "./icon/notes.png";
+
+// O
+
+// P
 import playIcon from "./icon/play-button.png";
-import playingIcon from "./icon/playing.png"
+import playingIcon from "./icon/playing.png";
+
+// Q
 import questionMarkGif from "./gif/question-mark.gif";
-import searchIcon from "./icon/search.png"
+
+// R
+
+// S
+import searchIcon from "./icon/search.png";
 import smallSwimmingPool from "./bitmoji/small-swimming-pool.png";
-import speakerIcon from "./icon/speaker.png"
-import stopIcon from "./icon/stop-button.png"
+import speakerIcon from "./icon/speaker.png";
+import stopIcon from "./icon/stop-button.png";
+
+// T
 import timeIcon from "./icon/time.png";
 import tools from "./icon/tools.png";
+
+// U
 import usaFlagIcon from "./icon/flag/usa.png";
 import ukFlagIcon from "./icon/flag/uk.png";
+
+// V
+
+// W
+
+// X
 import xmas1 from "./bitmoji/xmas1.png";
+
+// Y
+
+// Z
 
 export {
   // Header
@@ -150,35 +203,88 @@ export {
   examsIcon,
   miscIcon,
   mathIcon,
-  
+
   // Exercise Templates
   radioIcon,
   checkboxIcon,
   flipIcon,
   correctIcon,
   incorrectIcon,
-  
+
   // Misc
+
+  // A
   aviationIcon,
+
+  // B
   brFlagIcon,
+
+  // C
   clockWakeUpHate,
   closeIcon,
+
+  // D
   dictionaryIcon,
   dictionaryOpenIcon,
+
+  // E
   EyeIcon,
   expandForward,
   expandDown,
+
+  // F
+
+  // G
+
+  // H
+
+  // I
+
+  // J
+
+  // K
+
+  // L
+  loadingIcon,
+
+  // M
+
+  // N
   notesIcon,
+
+  // O
+
+  // P
   playIcon,
   playingIcon,
+
+  // Q
   questionMarkGif,
+
+  // R
+
+  // S
   searchIcon,
   smallSwimmingPool,
   speakerIcon,
   stopIcon,
+
+  // T
   timeIcon,
   tools,
+
+  // U
   usaFlagIcon,
   ukFlagIcon,
+
+  // V
+
+  // W
+
+  // X
   xmas1,
+
+  // Y
+
+  // Z
 };

@@ -38,6 +38,7 @@ export const Radio = ({
               <div className={styles["question-margin"]}>
                 <div>
                   <p
+                  
                     dangerouslySetInnerHTML={{ __html: radioItem.question }}
                     className={`${styles["question-margin"]} ${isUnanswered ? styles["disabled-text"] : ""}`}
                   ></p>
