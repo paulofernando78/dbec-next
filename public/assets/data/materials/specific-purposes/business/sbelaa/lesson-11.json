@@ -1,9 +1,298 @@
 {
-    "whiteboard": {
-      "title": "Specific Purposes",
-      "subtitle": "Business",
-      "descriptions": ["Lesson 11 • Motivating Co-Workers"]
+  "whiteboard": {
+    "title": "Specific Purposes",
+    "subtitle": "Business",
+    "descriptions": ["Lesson 11 • Motivating Co-Workers"]
+  },
+  "lessons": [
+    {
+      "audioSrc": "/materials/specific-purposes/business/sbelaa/lesson-11.mp3"
     },
-    "lessons": []
-  }
-  
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Lesson 11 • Motivating Co-Workers</b>"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "Greg, Stan, and Donna work for Pack-It, a maker of trash bags and other consumer goods. After disappointing sales results, they discuss exiting the trash bag business. But a fresh new idea gives them hope for the"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Greg:</b> Our sales were down again last quarter."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Donna:</b> We've been <b>working our tails off</b> and our results are still lousy!"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Greg:</b> Maybe we should exit the trash bag business — just <p>call it quits!</p>"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Stan:</b> C'mon.* Let's not <b>throw in the towel</b> yet. <b>We've been down before, but we always come back fighting</b>."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Donna:</b> But this time <b>private-label products</b> are driving us out of business!"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Stan:</b> We've got a successful <b>track record</b>. Everybody knows that we offer quality trash bags."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Donna:</b> That's true, but we can't just <b>rest on our laurels</b> forever."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Stan:</b> Well, I have a new idea that's going to <b>turn around our business</b>. It's a new line of trash bags that smell like fresh fruits, such as apples and peaches."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Greg:</b> That sounds like a great idea. I'm ready to roll up my sleeves and get <b>down to business!</b>"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Stan:</b> I appreciate your team spirit! Donna, are you on board too?"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Donna:</b> Sure. <b>Count me in</b>."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Stan:</b> Great. Let's get everybody else in the company excited about this plan too. I'll count on you two to <b>rally the troops</b>."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Exercises",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "id": "",
+      "exercises": [
+        {
+          "id": "",
+          "title": "1. Choose the best substitute for the sentence in bold.",
+          "radio": [
+            {
+              "id": "",
+              "question": "1. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "2. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "3. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "4. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "5. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "6. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "7. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "8. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

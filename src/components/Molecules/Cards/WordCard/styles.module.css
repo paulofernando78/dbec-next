@@ -20,7 +20,7 @@
 }
 
 .word {
-  flex: 1
+  flex: 1;
 }
 
 .audio-button {
@@ -34,17 +34,127 @@
   margin-right: 8px;
 }
 
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Play */
+
+.play {
+  position: relative;
+  width: 21px;
+  height: 21px;
+  clip-path: polygon(50% 10%, 100% 100%, 0% 100%);
+  background: black;
+  /* transform: scale(0.5, 0.8); */
+  transform: rotate(90deg)
+}
+
+/* .play::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  outline: 1px solid;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 21px solid #bbb;
+  transform: scale(1.1);
+  z-index: -1;
+} */
+
+/* Loading */
+
 .loading {
   display: inline-block;
-  width: 26px;
-  height: 26px;
+  width: 21px;
+  height: 21px;
   border-radius: 50%;
   border: 4px solid #f3f3f3;
   border-top: 4px solid #bbb;
   outline: 1px solid rgb(0, 0, 0);
+  box-shadow: var(--box-shadow);
   object-fit: cover;
   animation: rotate 1.5s linear infinite;
-  scale: .85;
+  transform: scale(0.85);
+}
+
+/* Playing */
+
+.waves-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  width: 21;
+  height: 21px;
+}
+
+.waves {
+  background: #bbb;
+  width: 5px;
+  height: 21px;
+  border-radius: 10%;
+  /* box-shadow: var(--box-shadow); */
+  outline: 1px solid;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+.wave-1 {
+  animation-name: wave-1;
+  animation-duration: .5s;
+}
+
+@keyframes wave-1 {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(.5);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.wave-2 {
+  animation-name: wave-2;
+  animation-duration: .5s;
+  animation-delay: 0.5s;
+}
+
+@keyframes wave-2 {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(.5);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.wave-3 {
+  animation-name: wave-3;
+  animation-duration: .5s;
+  animation-delay: 0.2s;
+}
+
+@keyframes wave-3 {
+  0% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(.5);
+  }
+  100% {
+    transform: scaleY(1);
+  }
 }
 
 .close-button {

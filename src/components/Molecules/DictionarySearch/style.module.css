@@ -14,7 +14,7 @@
 }
 
 .wordcard {
-  height: max-content;
+  height: 500px;
   background-color: white;
   overflow: auto;
   box-shadow: var(--box-shadow);

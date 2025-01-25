@@ -16,12 +16,32 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
   }>({});
   const [error, setError] = useState<string | null>(null);
 
+  function Play({ onClick, className }: { onClick?: () => void; className?: string }) {
+    return (
+      <>
+        <div className={`${styles["play"]} ${className}`} onClick={onClick}></div>
+      </>
+    );
+  }
+
   function LoadingAnimation() {
     return <div className={`${styles["loading"]}`}></div>;
   }
 
+  function PLayingAnimation() {
+    return (
+      <div className={styles["waves-flex"]}>
+        <div className={`${styles["waves"]} ${styles["wave-1"]}`}></div>
+        <div className={`${styles["waves"]} ${styles["wave-2"]}`}></div>
+        <div className={`${styles["waves"]} ${styles["wave-3"]}`}></div>
+      </div>
+    );
+  }
+
   return (
     <div className={styles["wordcard-container"]}>
+      <div className="flex">
+      </div>
       <div className={styles["border"]}>
         <p className="display-none">
           <b>{dictionary.keyword}</b>
@@ -35,48 +55,42 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                   {definition.word && (
                     <div className={styles["word-margin-bottom"]}>
                       <p className={`bold ${styles["flex"]}`}>
-                        {loadingAudios[`word-${index}`] ? (
-                          <LoadingAnimation />
-                        ) : (
-                          <Image
-                            src={
-                              playingAudios[`word-${index}`]
-                                ? playingIcon
-                                : speakerIcon
-                            }
-                            alt={
-                              playingAudios[`word-${index}`]
-                                ? "Play icon"
-                                : "Speaker icon"
-                            }
-                            onClick={() => {
-                              if (
-                                definition.word &&
-                                !loadingAudios[`word-${index}`] &&
-                                !playingAudios[`word-${index}`]
-                              ) {
-                                setLoadingAudios((prev) => ({
-                                  ...prev,
-                                  [`word-${index}`]: true,
-                                }));
-                                handleTextToSpeech(
-                                  definition.word,
-                                  `word-${index}`,
-                                  (isLoading) => {
-                                    setLoadingAudios((prev) => ({
-                                      ...prev,
-                                      [`word-${index}`]: !!isLoading,
-                                    }));
-                                  },
-                                  setError,
-                                  setPlayingAudios,
-                                  playingAudios
-                                );
-                              }
-                            }}
-                            className={styles["audio-button"]}
-                          />
-                        )}
+                        <div className={styles["center"]}>
+                          {loadingAudios[`word-${index}`] ? (
+                            <LoadingAnimation />
+                          ) : playingAudios[`word-${index}`] ? (
+                            <PLayingAnimation />
+                          ) : (
+                            <Play
+                              onClick={() => {
+                                if (
+                                  definition.word &&
+                                  !loadingAudios[`word-${index}`] &&
+                                  !playingAudios[`word-${index}`]
+                                ) {
+                                  setLoadingAudios((prev) => ({
+                                    ...prev,
+                                    [`word-${index}`]: true,
+                                  }));
+                                  handleTextToSpeech(
+                                    definition.word,
+                                    `word-${index}`,
+                                    (isLoading) => {
+                                      setLoadingAudios((prev) => ({
+                                        ...prev,
+                                        [`word-${index}`]: !!isLoading,
+                                      }));
+                                    },
+                                    setError,
+                                    setPlayingAudios,
+                                    playingAudios
+                                  );
+                                }
+                              }}
+                              className={styles["audio-button"]}
+                            />
+                          )}
+                        </div>
                         <span className={styles["word"]}>
                           {definition.word}
                         </span>
@@ -158,37 +172,42 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                     <p className="bold">Example</p>
                     {definition.examples?.map((example, exampleIndex) => (
                       <p key={exampleIndex}>
-                        {loadingAudios[`example-${index}`] ? (
+                        {loadingAudios[`example-${index}-${exampleIndex}`] ? (
                           <LoadingAnimation />
                         ) : (
                           <Image
                             src={
-                              playingAudios[`example-${index}`]
+                              playingAudios[`example-${index}-${exampleIndex}`]
                                 ? playingIcon
                                 : speakerIcon
                             }
                             alt={
-                              playingAudios[`example-${index}`]
+                              playingAudios[`example-${index}-${exampleIndex}`]
                                 ? "Play icon"
                                 : "Speaker icon"
                             }
                             onClick={() => {
                               if (
                                 example.enExample &&
-                                !loadingAudios[`example-${index}`] &&
-                                !playingAudios[`example-${index}`]
+                                !loadingAudios[
+                                  `example-${index}-${exampleIndex}`
+                                ] &&
+                                !playingAudios[
+                                  `example-${index}-${exampleIndex}`
+                                ]
                               ) {
                                 setLoadingAudios((prev) => ({
                                   ...prev,
-                                  [`example-${index}`]: true,
+                                  [`example-${index}-${exampleIndex}`]: true,
                                 }));
                                 handleTextToSpeech(
                                   example.enExample || "",
-                                  `example-${index}`,
+                                  `example-${index}-${exampleIndex}`,
                                   (isLoading) => {
                                     setLoadingAudios((prev) => ({
                                       ...prev,
-                                      [`example-${index}`]: !!isLoading,
+                                      [`example-${index}-${exampleIndex}`]:
+                                        !!isLoading,
                                     }));
                                   },
                                   setError,

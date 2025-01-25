@@ -99,7 +99,7 @@ const prompts = [
         phrase: "Just hanging in there.",
       },
       {
-        phrase: "Pretty chill, how about yourself?",
+        phrase: "Pretty chill, how about you?",
       },
     ],
   },
@@ -382,7 +382,7 @@ export default function HowYouFeeling() {
             </div>
           ))}
         </div>
-        <h2>Adjectives</h2>
+        <p className="bold">Adjectives to describe how you're feeling.</p>
       </div>
       <div className={styles["emoji-container"]}>
         {emojis.map((emoji, emojiIndex) => (
@@ -393,8 +393,8 @@ export default function HowYouFeeling() {
             <Image
               src={emoji.imgSrc}
               alt={emoji.imgAlt}
-              width={50}
-              height={50}
+              width={60}
+              height={60}
             />
             {emoji.words &&
               emoji.words.map((word, wordIndex) => (

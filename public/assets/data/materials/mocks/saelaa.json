@@ -2,7 +2,7 @@
   "whiteboard": {
     "title": "Specific Purposes",
     "subtitle": "Business",
-    "descriptions": ["Lesson 1 • xxx"]
+    "descriptions": ["Lesson 1 • ..."]
   },
   "lessons": [
     {
@@ -13,14 +13,14 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Lesson 1 • xxx</b>"
+              "enText": "<b>Lesson 1 • ...</b>"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "xxx"
+              "enText": "..."
             }
           ]
         },
@@ -28,14 +28,83 @@
           "paragraphs": [
             {
               "enText": "<b>...:</b> ..."
-            },
+            }
+          ]
+        },
+        {
+          "paragraphs": [
             {
-              "keyword": "...",
-              "word": "...",
-              "wordAudioSrc": "/dictionary/c/....mp3"
-            },
+              "enText": "<b>...:</b> ..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
             {
-              "enText": "..."
+              "enText": "<b>...:</b> ..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>...:</b> ..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>...:</b> ..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>...:</b> ..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>...:</b> ..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>...:</b> ..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>...:</b> ..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>...:</b> ..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>...:</b> ..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>...:</b> ..."
             }
           ]
         }
