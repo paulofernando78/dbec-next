@@ -1,5 +1,35 @@
 [
   {
+    "keyword": "private-label products",
+    "definitions": [
+      {
+        "word": "private-label products",
+        "partOfSpeech": "noun phrase",
+        "enDefinition": "Products that are manufactured by one company but sold under another company's brand name. Typically, the retailer or brand owner controls the branding, packaging, and marketing of the product.",
+        "ptDefinition": "Produtos fabricados por uma empresa, mas vendidos sob o nome de marca de outra empresa. Normalmente, o varejista ou proprietário da marca controla a marca, embalagem e marketing do produto.",
+        "examples": [
+          {
+            "enExample": "Many supermarkets offer a range of private-label products, often at a lower price than national brands.",
+            "ptExample": "Muitos supermercados oferecem uma variedade de produtos de marca própria, geralmente a um preço mais baixo do que as marcas nacionais."
+          },
+          {
+            "enExample": "Private-label products have become increasingly popular as consumers look for cheaper alternatives to name-brand goods.",
+            "ptExample": "Os produtos de marca própria se tornaram cada vez mais populares à medida que os consumidores procuram alternativas mais baratas aos produtos de marcas famosas."
+          }
+        ],
+        "synonyms": "store brand, house brand, generic brand, own-brand product",
+        "antonyms": "national brand, name-brand product",
+        "seeAlso": "brand equity, white-label products",
+        "notes": [
+          {
+            "enNote": "Private-label products are often sold at a lower price point compared to national brands, while still offering similar quality.",
+            "ptNote": "Os produtos de marca própria costumam ser vendidos a um preço mais baixo em comparação com as marcas nacionais, mas oferecendo qualidade semelhante."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "put one's mind to something",
     "definitions": [
       {

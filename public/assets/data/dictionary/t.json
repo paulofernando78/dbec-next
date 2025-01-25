@@ -1,5 +1,127 @@
 [
   {
+    "keyword": "team spirit",
+    "definitions": [
+      {
+        "word": "team spirit",
+        "phonetics": "/tiːm ˈspɪrɪt/",
+        "partOfSpeech": "noun",
+        "enDefinition": "The feeling of friendship and cooperation among members of a group, especially when working together towards a common goal.",
+        "ptDefinition": "O sentimento de amizade e cooperação entre membros de um grupo, especialmente ao trabalharem juntos em direção a um objetivo comum.",
+        "examples": [
+          {
+            "enExample": "The team's spirit was incredible during the competition, with everyone helping each other to succeed.",
+            "ptExample": "O espírito de equipe foi incrível durante a competição, com todos ajudando uns aos outros a ter sucesso."
+          },
+          {
+            "enExample": "Good team spirit is essential for achieving long-term success in any organization.",
+            "ptExample": "Um bom espírito de equipe é essencial para alcançar o sucesso a longo prazo em qualquer organização."
+          }
+        ],
+        "synonyms": "collaboration, camaraderie, unity, solidarity",
+        "antonyms": "individualism, selfishness, discord",
+        "seeAlso": "teamwork, cooperation, group dynamics",
+        "notes": [
+          {
+            "enNote": "Team spirit is often considered a key factor in achieving success within teams and organizations, as it encourages cooperation and mutual support.",
+            "ptNote": "O espírito de equipe é frequentemente considerado um fator-chave para alcançar o sucesso dentro de equipes e organizações, pois incentiva a cooperação e o apoio mútuo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "turn around one's business",
+    "definitions": [
+      {
+        "word": "turn around one's business",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To improve or change the direction of a business or organization that is struggling or underperforming, typically by implementing new strategies or making major adjustments.",
+        "ptDefinition": "Melhorar ou mudar a direção de um negócio ou organização que está lutando ou tendo um desempenho insatisfatório, geralmente por meio da implementação de novas estratégias ou fazendo ajustes importantes.",
+        "examples": [
+          {
+            "enExample": "After months of low sales, the company decided to turn around its business by launching a new marketing campaign.",
+            "ptExample": "Depois de meses de vendas baixas, a empresa decidiu reverter o seu negócio lançando uma nova campanha de marketing."
+          },
+          {
+            "enExample": "With a fresh approach and new leadership, the company was able to turn around its business within a year.",
+            "ptExample": "Com uma abordagem nova e uma nova liderança, a empresa conseguiu reverter o seu negócio em um ano."
+          }
+        ],
+        "synonyms": "revitalize, restore, improve, recover, bounce back",
+        "antonyms": "decline, deteriorate, fail, struggle",
+        "seeAlso": "business turnaround, business recovery, corporate strategy",
+        "notes": [
+          {
+            "enNote": "This expression is commonly used in the business world when a company is able to overcome financial or operational difficulties and return to profitability or success.",
+            "ptNote": "Essa expressão é comumente usada no mundo dos negócios quando uma empresa consegue superar dificuldades financeiras ou operacionais e retorna à rentabilidade ou ao sucesso."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "track record",
+    "definitions": [
+      {
+        "word": "track record",
+        "phonetics": "/træk ˈrɛkɔːd/",
+        "partOfSpeech": "noun",
+        "enDefinition": "The history of past performance or achievements, especially in a particular field or activity. It refers to the record of someone's or something's previous successes or failures.",
+        "ptDefinition": "O histórico de desempenho ou conquistas passadas, especialmente em um campo ou atividade específica. Refere-se ao registro de sucessos ou falhas anteriores de alguém ou algo.",
+        "examples": [
+          {
+            "enExample": "The company has a strong track record of delivering high-quality products on time.",
+            "ptExample": "A empresa tem um histórico sólido de entrega de produtos de alta qualidade no prazo."
+          },
+          {
+            "enExample": "Before hiring, make sure to check the candidate's track record in previous roles.",
+            "ptExample": "Antes de contratar, certifique-se de verificar o histórico do candidato em funções anteriores."
+          }
+        ],
+        "synonyms": "history, background, past performance, record, reputation",
+        "antonyms": "inexperience, lack of history",
+        "seeAlso": "reputation, credentials, achievements",
+        "notes": [
+          {
+            "enNote": "A good track record is often a key factor in decision-making for hiring, investments, or partnerships.",
+            "ptNote": "Um bom histórico frequentemente é um fator chave na tomada de decisões para contratações, investimentos ou parcerias."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "throw in the towel",
+    "definitions": [
+      {
+        "word": "throw in the towel",
+        "partOfSpeech": "idiomatic expression",
+        "enDefinition": "To give up or admit defeat, often after trying hard for a period of time.",
+        "ptDefinition": "Desistir ou admitir a derrota, muitas vezes após tentar muito por um tempo.",
+        "examples": [
+          {
+            "enExample": "After hours of trying to fix the car, he finally threw in the towel.",
+            "ptExample": "Depois de horas tentando consertar o carro, ele finalmente desistiu."
+          },
+          {
+            "enExample": "She didn't want to throw in the towel, but the project was too complicated.",
+            "ptExample": "Ela não queria desistir, mas o projeto era muito complicado."
+          }
+        ],
+        "synonyms": "give up, quit, surrender, throw up one's hands",
+        "antonyms": "persevere, persist, carry on",
+        "seeAlso": "call it a day, wave the white flag",
+        "notes": [
+          {
+            "enNote": "This expression originated from boxing, where a trainer would throw a towel into the ring to stop the fight, signaling defeat.",
+            "ptNote": "Essa expressão se originou no boxe, onde o treinador jogava uma toalha no ringue para parar a luta, sinalizando a derrota."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "take a crack at something",
     "definitions": [
       {

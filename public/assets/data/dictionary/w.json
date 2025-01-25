@@ -1,5 +1,35 @@
 [
   {
+    "keyword": "work one's tail off",
+    "definitions": [
+      {
+        "word": "work one's tail off",
+        "partOfSpeech": "idiomatic expression",
+        "enDefinition": "To work very hard, often to the point of exhaustion.",
+        "ptDefinition": "Trabalhar muito, geralmente até o ponto de exaustão.",
+        "examples": [
+          {
+            "enExample": "She worked her tail off to finish the project on time.",
+            "ptExample": "Ela trabalhou muito para terminar o projeto a tempo."
+          },
+          {
+            "enExample": "He's been working his tail off all week to get ahead in his job.",
+            "ptExample": "Ele tem trabalhado muito a semana toda para se destacar no trabalho."
+          }
+        ],
+        "synonyms": "bust one's hump, put in a lot of effort, work hard",
+        "antonyms": "slack off, take it easy",
+        "seeAlso": "burn the midnight oil, break a sweat",
+        "notes": [
+          {
+            "enNote": "This phrase is often used informally to describe someone who is putting in a lot of effort, especially in a demanding or tiring task.",
+            "ptNote": "Essa expressão é usada de maneira informal para descrever alguém que está colocando muito esforço, especialmente em uma tarefa exigente ou cansativa."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "where to begin?",
     "definitions": [
       {

@@ -1,5 +1,66 @@
 [
   {
+    "keyword": "count me in",
+    "definitions": [
+      {
+        "word": "count me in",
+        "phonetics": "/kaʊnt mi ɪn/",
+        "partOfSpeech": "phrase",
+        "enDefinition": "An expression used to indicate that you are willing to participate or be included in something.",
+        "ptDefinition": "Uma expressão usada para indicar que você está disposto a participar ou ser incluído em algo.",
+        "examples": [
+          {
+            "enExample": "If you're going to the party tonight, count me in!",
+            "ptExample": "Se você for à festa hoje à noite, me conta!"
+          },
+          {
+            "enExample": "The team is planning a trip, and I said, 'Count me in!'",
+            "ptExample": "A equipe está planejando uma viagem, e eu disse: 'Me conta!'"
+          }
+        ],
+        "synonyms": "I'm in, count me aboard, I’m up for it, I’m game",
+        "antonyms": "count me out, not interested, I pass",
+        "seeAlso": "join in, participate, agree",
+        "notes": [
+          {
+            "enNote": "'Count me in' is a casual and informal way to express that you’re interested in joining or participating in an activity.",
+            "ptNote": "'Count me in' é uma maneira casual e informal de expressar que você tem interesse em se juntar ou participar de uma atividade."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "call it quits",
+    "definitions": [
+      {
+        "word": "call it quits",
+        "partOfSpeech": "idiomatic expression",
+        "enDefinition": "To stop doing something, typically after deciding that it's no longer worth the effort or is no longer successful.",
+        "ptDefinition": "Parar de fazer algo, geralmente depois de decidir que não vale mais a pena ou não está mais dando certo.",
+        "examples": [
+          {
+            "enExample": "After working on the project for hours without making progress, she decided to call it quits.",
+            "ptExample": "Depois de trabalhar no projeto por horas sem fazer progresso, ela decidiu parar."
+          },
+          {
+            "enExample": "He called it quits after trying to fix the machine for over an hour.",
+            "ptExample": "Ele parou depois de tentar consertar a máquina por mais de uma hora."
+          }
+        ],
+        "synonyms": "give up, stop, quit, abandon, pack it in",
+        "antonyms": "continue, persist, carry on, press on",
+        "seeAlso": "throw in the towel, call it a day",
+        "notes": [
+          {
+            "enNote": "This expression is often used when someone decides to stop an activity or task, often because it is no longer productive or enjoyable.",
+            "ptNote": "Essa expressão é frequentemente usada quando alguém decide parar uma atividade ou tarefa, geralmente porque não está mais sendo produtiva ou agradável."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "come",
     "definitions": [
       {

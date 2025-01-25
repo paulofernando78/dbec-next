@@ -1,5 +1,36 @@
 [
   {
+    "keyword": "on board",
+    "definitions": [
+      {
+        "word": "on board",
+        "phonetics": "/ɒn bɔːrd/",
+        "partOfSpeech": "adjective,",
+        "enDefinition": "1. Being a member of a team or group. 2. To agree or support a plan or idea.",
+        "ptDefinition": "1. Ser membro de uma equipe ou grupo. 2. Concordar ou apoiar um plano ou ideia.",
+        "examples": [
+          {
+            "enExample": "The new employee is on board with our project and ready to contribute.",
+            "ptExample": "O novo funcionário está a bordo com nosso projeto e pronto para contribuir."
+          },
+          {
+            "enExample": "We need to make sure everyone is on board with the changes before moving forward.",
+            "ptExample": "Precisamos garantir que todos estejam a bordo com as mudanças antes de seguir em frente."
+          }
+        ],
+        "synonyms": "in agreement, supportive, aligned, with us",
+        "antonyms": "opposed, against, disagreeing",
+        "seeAlso": "team, collaboration, agreement",
+        "notes": [
+          {
+            "enNote": "'On board' is often used in business and team settings to describe someone's agreement or readiness to participate in a plan or project.",
+            "ptNote": "'On board' é frequentemente usado em ambientes de negócios e equipes para descrever o acordo ou disposição de alguém em participar de um plano ou projeto."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "open1",
     "definitions": [
       {

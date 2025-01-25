@@ -1,5 +1,65 @@
 [
   {
+    "keyword": "rally the troops",
+    "definitions": [
+      {
+        "word": "rally the troops",
+        "partOfSpeech": "idiomatic expression",
+        "enDefinition": "To gather and motivate a group of people (often a team or organization) to work together toward a common goal, especially during difficult or challenging times.",
+        "ptDefinition": "Reunir e motivar um grupo de pessoas (geralmente uma equipe ou organização) para trabalhar juntas em direção a um objetivo comum, especialmente em tempos difíceis ou desafiadores.",
+        "examples": [
+          {
+            "enExample": "The coach rallied the troops before the big game to inspire them to give their best.",
+            "ptExample": "O treinador reuniu a equipe antes do grande jogo para inspirá-los a dar o seu melhor."
+          },
+          {
+            "enExample": "The CEO rallied the troops during the crisis to keep the company's morale high.",
+            "ptExample": "O CEO reuniu a equipe durante a crise para manter a moral da empresa alta."
+          }
+        ],
+        "synonyms": "motivate the team, unite the group, inspire the crew, boost morale",
+        "antonyms": "disband the team, demoralize the group, dishearten the crew",
+        "seeAlso": "team building, leadership, encouragement",
+        "notes": [
+          {
+            "enNote": "'Rally the troops' is often used metaphorically and is associated with leadership, particularly in motivating teams or groups to overcome adversity and work toward a shared objective.",
+            "ptNote": "'Rally the troops' é frequentemente usado de forma metafórica e está associado à liderança, especialmente na motivação de equipes ou grupos para superar adversidades e trabalhar em direção a um objetivo comum."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "rest on one's laurels",
+    "definitions": [
+      {
+        "word": "rest on one's laurels",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To be complacent or stop putting in effort because of past achievements, rather than continuing to work hard or strive for further success.",
+        "ptDefinition": "Ficar complacente ou parar de se esforçar devido a conquistas passadas, em vez de continuar a trabalhar arduamente ou buscar mais sucesso.",
+        "examples": [
+          {
+            "enExample": "After winning the award, he decided to rest on his laurels instead of working on new projects.",
+            "ptExample": "Depois de ganhar o prêmio, ele decidiu descansar sobre os seus louros em vez de trabalhar em novos projetos."
+          },
+          {
+            "enExample": "Don't rest on your laurels; there’s still much to achieve.",
+            "ptExample": "Não descanse sobre os seus louros; ainda há muito a ser conquistado."
+          }
+        ],
+        "synonyms": "become complacent, take it easy, stop trying, be content",
+        "antonyms": "keep striving, continue working hard, push forward",
+        "seeAlso": "complacency, self-satisfaction, laziness",
+        "notes": [
+          {
+            "enNote": "This expression is derived from the ancient tradition of rewarding victory with a laurel wreath, but it has a negative connotation when used in modern context.",
+            "ptNote": "Esta expressão é derivada da antiga tradição de premiar a vitória com uma coroa de louros, mas tem uma conotação negativa quando usada no contexto moderno."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "roll up one's sleeves",
     "definitions": [
       {

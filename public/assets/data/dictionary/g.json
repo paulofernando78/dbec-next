@@ -1,5 +1,35 @@
 [
   {
+    "keyword": "get down to business",
+    "definitions": [
+      {
+        "word": "get down to business",
+        "partOfSpeech": "idiom",
+        "enDefinition": "To start focusing on the most important or serious part of something, usually after preliminary or less important tasks have been completed.",
+        "ptDefinition": "Começar a focar na parte mais importante ou séria de algo, geralmente depois que tarefas preliminares ou menos importantes foram concluídas.",
+        "examples": [
+          {
+            "enExample": "After a brief introduction, the meeting finally got down to business and started discussing the main project goals.",
+            "ptExample": "Depois de uma breve introdução, a reunião finalmente entrou no assunto e começou a discutir os principais objetivos do projeto."
+          },
+          {
+            "enExample": "Let's get down to business and figure out how to solve this issue as quickly as possible.",
+            "ptExample": "Vamos nos concentrar no trabalho e descobrir como resolver esse problema o mais rápido possível."
+          }
+        ],
+        "synonyms": "get to the point, focus, begin, start working",
+        "antonyms": "procrastinate, waste time, delay",
+        "seeAlso": "business discussion, focus, priority tasks",
+        "notes": [
+          {
+            "enNote": "This phrase is commonly used to indicate that it's time to stop small talk or distractions and begin the main, serious part of a conversation or activity.",
+            "ptNote": "Essa frase é comumente usada para indicar que é hora de parar com a conversa fiada ou distrações e começar a parte principal e séria de uma conversa ou atividade."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "get buy-in (from)",
     "definitions": [
       {
