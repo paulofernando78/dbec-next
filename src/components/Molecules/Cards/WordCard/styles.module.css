@@ -79,12 +79,14 @@
 
 .waves {
   background: black;
-  width: 4px;
+  width: 3px;
   height: 21px;
   border-radius: 10%;
   outline: 1px solid;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
+  position: relative;
+  left: 4px;
 }
 .wave-1 {
   animation-name: wave-1;

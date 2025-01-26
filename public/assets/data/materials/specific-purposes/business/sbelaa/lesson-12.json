@@ -1,9 +1,305 @@
 {
-    "whiteboard": {
-      "title": "Specific Purposes",
-      "subtitle": "Business",
-      "descriptions": ["Lesson 12 • Running a meeting"]
+  "whiteboard": {
+    "title": "Specific Purposes",
+    "subtitle": "Business",
+    "descriptions": ["Lesson 12 • Running a meeting"]
+  },
+  "lessons": [
+    {
+      "audioSrc": "/materials/specific-purposes/business/sbelaa/lesson-12.mp3"
     },
-    "lessons": []
-  }
-  
+    {
+      "paragraphSections": [
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Lesson 12 • Running a meeting</b>"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "Julia is running a meeting. When Larry and Sally start arguing, Julia has to bring the meeting back under control."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Julia:</b> Let's <b>get down to business</b>. We need to <b>cover a lot of ground</b>. Our first <b>agenda item</b> is to figure out how we're going to respond to all the complaints we've been getting about our new website."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Larry:</b> Just so we're all <b>on the same page</b>, please give us an overview of the problem."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Julia:</b> <b>In a nutshell</b>, our customers are complaining that it's very difficult to place orders through the new website."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Sally:</b> I think we <b>jumped the gun</b> by not conducting focus groups with our customers before we launched our new website."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Larry:</b> More focus groups? <b>Every time I turn around</b> we're running focus groups! It's <b>gotten out of hand</b>."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Sally:</b> <b>I beg to differ</b>. Focus groups are very important. They help us better understand our customer."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Julia:</b> Well, clearly you two <b>don't see eye-to-eye</b> on this issue."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Larry:</b> Ha! <b>That's putting it lightly</b>! Focus groups are a waste of time and…..."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Julia:</b> Excuse me, let's not <b>get off track</b> here. Does anybody else want to <b>weigh in on the issue at hand</b>?"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Carl:</b> If I can <b>put in my two cents</b>, I agree with Sally that focus groups would've been a good idea."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Julia:</b> Well, enough about focus groups for now. Let's move on to our next agenda item — planning for our <b>company offsite</b>."
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Larry:</b> Wait, I'm not finished talking about the website!"
+            }
+          ]
+        },
+        {
+          "paragraphs": [
+            {
+              "enText": "<b>Julia:</b> We can <b>circle back</b> to that at the end of our meeting if we have time. I want to keep us on schedule since I know many of us have another meeting at 11 o'clock."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Exercises",
+      "bgColor": "black",
+      "textColor": "white"
+    },
+    {
+      "id": "",
+      "exercises": [
+        {
+          "id": "",
+          "title": "1. Choose the best substitute for the sentence in bold.",
+          "radio": [
+            {
+              "id": "",
+              "question": "1. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "2. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "3. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "4. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "5. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "6. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "7. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            },
+            {
+              "id": "",
+              "question": "8. ...",
+              "options": [
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": true
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                },
+                {
+                  "id": "",
+                  "label": "...",
+                  "isCorrect": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
