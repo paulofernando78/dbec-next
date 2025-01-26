@@ -24,7 +24,7 @@
   display: inline-block;
   margin-right: 8px;
   position: relative;
-  top: 4px
+  top: 4px;
 }
 
 /* Play */
@@ -32,26 +32,27 @@
 .play {
   width: 21px;
   height: 21px;
-  clip-path: polygon(50% 10%, 95% 100%, 5% 100%);
+  clip-path: polygon(50% 30%, 85% 100%, 10% 100%);
   background: black;
   transform: scale(0.5, 0.8);
   transform: rotate(90deg);
+  position: relative;
+  left: 4px;
 }
 
-/* .play::before {
+.play::before {
   content: "";
   position: absolute;
   top: -10px;
   left: -10px;
-  outline: 1px solid;
-  width: 0;
-  height: 0;
+  width: 21;
+  height: 21;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  border-left: 21px solid #bbb;
+  border-left: 21px solid red;
   transform: scale(1.1);
   z-index: -1;
-} */
+}
 
 /* Loading */
 
@@ -60,10 +61,8 @@
   width: 21px;
   height: 21px;
   border-radius: 50%;
-  border: 4px solid #f3f3f3;
-  border-top: 4px solid #bbb;
-  outline: 1px solid rgb(0, 0, 0);
-  box-shadow: var(--box-shadow);
+  border: 5px solid #bbb;
+  border-top: 5px solid #000;
   animation: rotate 1.5s linear infinite;
   transform: scale(0.85);
 }
@@ -79,11 +78,10 @@
 }
 
 .waves {
-  background: #bbb;
+  background: black;
   width: 4px;
   height: 21px;
   border-radius: 10%;
-  /* box-shadow: var(--box-shadow); */
   outline: 1px solid;
   animation-timing-function: ease;
   animation-iteration-count: infinite;
@@ -95,13 +93,13 @@
 
 @keyframes wave-1 {
   0% {
-    transform: scaleY(1);
+    transform: scaleY(.8);
   }
   50% {
     transform: scaleY(.5);
   }
   100% {
-    transform: scaleY(1);
+    transform: scaleY(.8);
   }
 }
 
@@ -113,13 +111,13 @@
 
 @keyframes wave-2 {
   0% {
-    transform: scaleY(1);
+    transform: scaleY(.8);
   }
   50% {
     transform: scaleY(.5);
   }
   100% {
-    transform: scaleY(1);
+    transform: scaleY(.8);
   }
 }
 
@@ -131,13 +129,13 @@
 
 @keyframes wave-3 {
   0% {
-    transform: scaleY(1);
+    transform: scaleY(.8);
   }
   50% {
     transform: scaleY(.5);
   }
   100% {
-    transform: scaleY(1);
+    transform: scaleY(.8);
   }
 }
 
