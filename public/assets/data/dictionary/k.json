@@ -1,6 +1,5 @@
 [
   {
-    "keyword": "kick off",
     "definitions": [
       {
         "word": "kick off",
@@ -18,13 +17,12 @@
             "ptExample": "O jogo de futebol começará ao meio-dia."
           }
         ],
-        "synonyms": "begin, start, initiate",
-        "antonyms": "end, finish, conclude"
+        "synonyms": ["begin", "start", "initiate"],
+        "antonyms": ["end", "finish", "conclude"]
       }
     ]
   },
   {
-    "keyword": "keep an open mind",
     "definitions": [
       {
         "word": "keep an open mind",
@@ -37,15 +35,14 @@
             "ptExample": "Líderes de sucesso mantêm a mente aberta ao receber feedback de sua equipe."
           }
         ],
-        "synonyms": "be receptive, stay flexible, remain unbiased",
-        "antonyms": "be close-minded, reject ideas, be inflexible",
-        "seeAlso": "embrace change, think outside the box, be open to feedback"
+        "synonyms": ["be receptive", "stay flexible", "remain unbiased"],
+        "antonyms": ["be close-minded", "reject ideas", "be inflexible"],
+        "seeAlso": ["embrace change", "think outside the box", "be open to feedback"]
       }
     ]
   },
 
   {
-    "keyword": "keep something under wraps",
     "definitions": [
       {
         "word": "keep something under wraps",
@@ -62,7 +59,6 @@
     ]
   },
   {
-    "keyword": "kudos",
     "definitions": [
       {
         "word": "kudos",
@@ -80,8 +76,8 @@
             "ptExample": "Ela recebeu elogios dos colegas por suas ideias inovadoras."
           }
         ],
-        "synonyms": "praise, acclaim, commendation",
-        "antonyms": "criticism, disapproval, reproach",
+        "synonyms": ["praise", "acclaim", "commendation"],
+        "antonyms": ["criticism", "disapproval", "reproach"],
         "notes": [
           {
             "enNote": "Kudos is the Greek word for \"praise.\""

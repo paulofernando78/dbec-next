@@ -1,6 +1,5 @@
 [
   {
-    "keyword": "bigwig",
     "definitions": [
       {
         "word": "bigwig",
@@ -18,9 +17,9 @@
             "ptExample": "Como uma figura importante no setor financeiro, ele tinha o poder de influenciar grandes decisões."
           }
         ],
-        "synonyms": "important person, high-ranking official, influential figure, VIP",
-        "antonyms": "ordinary person, subordinate, underling",
-        "seeAlso": "executive, leader, authority",
+        "synonyms": ["important person", "high-ranking official", "influential figure", "VIP"],
+        "antonyms": ["ordinary person", "subordinate", "underling"],
+        "seeAlso": ["executive", "leader", "authority"],
         "notes": [
           {
             "enNote": "This term originally referred to the elaborate wigs worn by high-ranking individuals in the past, signifying their status.",
@@ -31,11 +30,9 @@
     ]
   },
   {
-    "keyword": "bite the bullet",
     "definitions": [
       {
         "word": "bite the bullet",
-        "phonetics": "/baɪt ðə ˈbʊlɪt/",
         "partOfSpeech": "idiom",
         "enDefinition": "to endure a painful or unpleasant situation that is unavoidable, often with determination or courage",
         "ptDefinition": "enfrentar uma situação dolorosa ou desagradável que é inevitável, muitas vezes com determinação ou coragem",
@@ -49,8 +46,8 @@
             "ptExample": "Às vezes, você precisa apenas enfrentar a situação e lidar com as consequências de suas ações."
           }
         ],
-        "synonyms": "face the music, tough it out, take the plunge",
-        "antonyms": "avoid, run away, evade",
+        "synonyms": ["face the music", "tough it out", "take the plunge"],
+        "antonyms": ["avoid", "run away", "evade"],
         "notes": [
           {
             "enNote": "It has been suggested that it is derived historically from the practice of having a patient clench a bullet in their teeth as a way to cope with the pain of a surgical procedure without anesthetic."
@@ -63,7 +60,6 @@
     ]
   },
   {
-    "keyword": "beef up",
     "definitions": [
       {
         "word": "beef up",
@@ -81,8 +77,8 @@
             "ptExample": "Para reforçar sua estratégia de marketing, contrataram uma das melhores agências de publicidade."
           }
         ],
-        "synonyms": "strengthen, enhance, improve",
-        "antonyms": "weaken, diminish",
+        "synonyms": ["strengthen", "enhance", "improve"],
+        "antonyms": ["weaken", "diminish"],
         "notes": [
           {
             "enNote": "The phrase can be applied to various situations, from security to marketing or even physical training."
@@ -95,7 +91,6 @@
     ]
   },
   {
-    "keyword": "back-of-the-envelope calculations",
     "definitions": [
       {
         "word": "back-of-the-envelope calculations",
@@ -108,14 +103,13 @@
             "ptExample": "Ele fez alguns cálculos rápidos para estimar o custo do projeto."
           }
         ],
-        "synonyms": ["rough estimate, quick calculation"],
-        "antonyms": ["detailed analysis, precise calculation"],
-        "seeAlso": ["ballpark figure, guesstimate"]
+        "synonyms": ["rough estimate", "quick calculation"],
+        "antonyms": ["detailed analysis", "precise calculation"],
+        "seeAlso": ["ballpark figure", "guesstimate"]
       }
     ]
   },
   {
-    "keyword": "back and forth on an issue",
     "definitions": [
       {
         "word": "back and forth on an issue",
@@ -132,8 +126,8 @@
             "ptExample": "As negociações se arrastaram por horas antes que um acordo fosse finalmente alcançado."
           }
         ],
-        "synonyms": "alternately",
-        "antonyms": "settled, resolved, straightforward",
+        "synonyms": ["alternately"],
+        "antonyms": ["settled", "resolved", "straightforward"],
         "notes": [
           {
             "enNote": "This idiom is often used to describe discussions, debates, or movements that are repetitive or constantly shifting between two points."
@@ -146,7 +140,6 @@
     ]
   },
   {
-    "keyword": "bells and whistles",
     "definitions": [
       {
         "word": "bells and whistles",
@@ -163,7 +156,6 @@
     ]
   },
   {
-    "keyword": "big win",
     "definitions": [
       {
         "word": "big win",
@@ -180,7 +172,6 @@
     ]
   },
   {
-    "keyword": "bring a product to the market",
     "definitions": [
       {
         "word": "bring a product to the market",
@@ -197,8 +188,8 @@
             "ptExample": "Eles estão planejando lançar uma linha de produtos ecológicos no mercado no próximo ano."
           }
         ],
-        "synonyms": "launch, introduce, roll out",
-        "antonyms": "withdraw, recall, discontinue",
+        "synonyms": ["launch", "introduce", "roll out"],
+        "antonyms": ["withdraw", "recall", "discontinue"],
         "notes": [
           {
             "enNote": "This phrase is commonly used in business and product development contexts to describe the process of making a product available to consumers."
@@ -211,7 +202,6 @@
     ]
   },
   {
-    "keyword": "bladder",
     "definitions": [
       {
         "word": "bladder",
@@ -227,7 +217,6 @@
     ]
   },
   {
-    "keyword": "blockbuster",
     "definitions": [
       {
         "word": "blockbuster",
@@ -252,7 +241,6 @@
     ]
   },
   {
-    "keyword": "blow one's mind",
     "definitions": [
       {
         "word": "blow one's mind",
@@ -269,14 +257,13 @@
             "ptExample": "A vista deslumbrante das montanhas realmente me impressionou."
           }
         ],
-        "synonyms": "amaze, astonish, overwhelm",
-        "antonyms": "bore, disappoint, underwhelm",
-        "seeAlso": "leave speechless, take one's breath away"
+        "synonyms": ["amaze", "astonish", "overwhelm"],
+        "antonyms": ["bore", "disappoint", "underwhelm"],
+        "seeAlso": ["leave speechless", "take one's breath away"]
       }
     ]
   },
   {
-    "keyword": "break even",
     "definitions": [
       {
         "word": "break even",
@@ -293,9 +280,9 @@
             "ptExample": "Após o investimento inicial, o negócio finalmente conseguiu atingir o ponto de equilíbrio."
           }
         ],
-        "synonyms": "balance, reach equilibrium, make no profit or loss",
-        "antonyms": "lose money, make a profit",
-        "seeAlso": "in the black, in the red"
+        "synonyms": ["balance", "reach equilibrium", "make no profit or loss"],
+        "antonyms": ["lose money", "make a profit"],
+        "seeAlso": ["in the black", "in the red"]
       }
     ]
   }

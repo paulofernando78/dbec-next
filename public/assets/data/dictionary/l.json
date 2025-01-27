@@ -1,6 +1,5 @@
 [
   {
-    "keyword": "live to regret a decision",
     "definitions": [
       {
         "word": "live to regret this decision",
@@ -17,13 +16,12 @@
             "ptExample": "Você pode se arrepender dessa decisão se não dedicar um tempo para considerar todas as opções."
           }
         ],
-        "synonyms": "regret later, feel sorry, pay the price",
-        "antonyms": "make the right choice, have no regrets, be satisfied"
+        "synonyms": ["regret later", "feel sorry", "pay the price"],
+        "antonyms": ["make the right choice", "have no regrets", "be satisfied"]
       }
     ]
   },
   {
-    "keyword": "leapfrog one's competitors",
     "definitions": [
       {
         "word": "leapfrog one's competitors",
@@ -36,8 +34,8 @@
             "ptExample": "A empresa conseguiu superar seus concorrentes ao lançar uma tecnologia revolucionária."
           }
         ],
-        "synonyms": "outpace, surpass, outstrip",
-        "antonyms": "lag behind, fall short, trail",
+        "synonyms": ["outpace", "surpass", "outstrip"],
+        "antonyms": ["lag behind", "fall short", "trail"],
         "notes": [
           {
             "enNote": "The term comes from the idea of one person leaping over another in a race, symbolizing a major leap forward. It's also a popular children's game in which one child bends down and another jumps over him or her."

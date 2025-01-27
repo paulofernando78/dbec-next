@@ -1,6 +1,5 @@
 [
   {
-    "keyword": "icing on the cake",
     "definitions": [
       {
         "word": "icing on the cake",
@@ -13,13 +12,12 @@
             "ptExample": "As férias foram incríveis, e o upgrade para uma suíte de luxo foi o toque final perfeito."
           }
         ],
-        "synonyms": "final touch, finishing touch",
-        "antonyms": "a letdown, a disappointment, a setback"
+        "synonyms": ["final touch", "finishing touch"],
+        "antonyms": ["a letdown", "a disappointment", "a setback"]
       }
     ]
   },
   {
-    "keyword": "intent",
     "definitions": [
       {
         "word": "intent",
@@ -40,8 +38,8 @@
             "ptExample": "Ela foi acusada de possuir armas com a intenção de colocar vidas em perigo."
           }
         ],
-        "synonyms": "aim (intention), ambition, aspiration (hope), dream (hope), goal (aim), hope, intention, objective, target (aim)",
-        "antonyms": "accident, chance, luck, fortune",
+        "synonyms": ["aim (intention)", "ambition", "aspiration (hope)", "dream (hope)", "goal (aim)", "hope", "intention", "objective", "target (aim)"],
+        "antonyms": ["accident", "chance", "luck", "fortune"],
         "note": [
           {
             "enNote": "Intention and intent are synonyms, but with a subtle difference. Intention implies a general desire or plan to accomplish something, while intent is a little stronger, indicating a firm resolve to get it done. Intent can be used as a noun or adjective."
@@ -51,7 +49,6 @@
     ]
   },
   {
-    "keyword": "in hot water",
     "definitions": [
       {
         "word": "in hot water",
@@ -64,14 +61,13 @@
             "ptExample": "Ele estava em apuros depois de perder a reunião importante."
           }
         ],
-        "synonyms": "in trouble, in a jam, in difficulty",
-        "antonyms": "in the clear, safe, out of trouble",
+        "synonyms": ["in trouble", "in a jam", "in difficulty"],
+        "antonyms": ["in the clear", "safe", "out of trouble"],
         "seeAlso": "get into trouble"
       }
     ]
   },
   {
-    "keyword": "in deep trouble",
     "definitions": [
       {
         "word": "in deep trouble",
@@ -88,8 +84,8 @@
             "ptExample": "A empresa se viu em sérios problemas após o recall do produto."
           }
         ],
-        "synonyms": "in hot water, in a bind, in a tough spot",
-        "antonyms": "in a good position, trouble-free, safe",
+        "synonyms": ["in hot water", "in a bind", "in a tough spot"],
+        "antonyms": ["in a good position", "trouble-free", "safe"],
         "notes": [
           {
             "enNote": "This phrase is commonly used in both personal and professional contexts to emphasize the gravity of a problem."
@@ -102,7 +98,6 @@
     ]
   },
   {
-    "keyword": "in the red",
     "definitions": [
       {
         "word": "in the red",
@@ -119,8 +114,8 @@
             "ptExample": "Se não reduzirmos as despesas, estaremos no vermelho até o final do mês."
           }
         ],
-        "synonyms": "in debt, financially struggling, operating at a loss",
-        "antonyms": "in the black, profitable, financially stable",
+        "synonyms": ["in debt", "financially struggling", "operating at a loss"],
+        "antonyms": ["in the black", "profitable", "financially stable"],
         "notes": [
           {
             "enNote": "This idiom is often used in financial contexts to describe a negative cash flow or balance."
@@ -133,7 +128,6 @@
     ]
   },
   {
-    "keyword": "Israeli",
     "definitions": [
       {
         "word": "Israeli",

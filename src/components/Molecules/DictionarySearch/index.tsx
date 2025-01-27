@@ -3,27 +3,47 @@
 import { useState } from "react";
 import { Button } from "@/components/Atoms/Button";
 import { WordCard } from "@/components/Molecules/Cards/WordCard";
-import Image from "next/image";
-import { dictionaryOpenIcon } from "@/img/index";
 import styles from "./style.module.css";
 import { IDictionary } from "@/components/Molecules/Cards/WordCard/types";
 import { searchWords } from "@/utils/searchWords";
 
 export const DictionarySearch = () => {
-  const [text, setText] = useState("");
-  const [dicts, setDicts] = useState<IDictionary[]>([]);
+  const [text, setText] = useState(""); // Entrada do usuário
+  const [dicts, setDicts] = useState<IDictionary[]>([]); // Palavras encontradas
+
+  // async function handleShowWordCard() {
+  //   if (text) {
+  //     // Realiza o filtro das palavras usado 'searchWords'
+  //     const wordsFound = await searchWords(text);
+  //     // Valida se contêm items na lista antes de atualiza-la
+  //     if (wordsFound?.length) {
+  //       // Se houver itens, atualiza a lista.
+  //       setDicts(wordsFound);
+  //     }
+  //   }
+  // }
+
+  // const handleRemoveWordCard = (keyword: string) => {
+  //   setDicts((prev) => prev.filter((dict) => dict.keyword !== keyword));
+  // };
 
   async function handleShowWordCard() {
     if (text) {
-      // Realiza o filtro das palavras do dicionário
+      // Realiza a busca no dicionário usando `searchWords`
       const wordsFound = await searchWords(text);
-      // Valida se contêm items na lista antes de atualiza-la
-      if (wordsFound?.length) {
-        // Se houver itens, atualiza a lista.
+      if (wordsFound.length) {
         setDicts(wordsFound);
+      } else {
+        setDicts([]); // Nenhuma palavra encontrada
       }
     }
   }
+
+  const handleRemoveWordCard = (word: string) => {
+    setDicts((prev) =>
+      prev.filter((dict) => dict.definitions.every((def) => def.word !== word))
+    );
+  };
 
   function detectEnterClick(e: React.KeyboardEvent) {
     if (e.key === "Enter") {
@@ -31,20 +51,11 @@ export const DictionarySearch = () => {
     }
   }
 
-  const handleRemoveWordCard = (keyword: string) => {
-    setDicts((prev) => prev.filter((dict) => dict.keyword !== keyword));
-  };
-
   return (
     <>
       <div className={styles["dictionary-search-container"]}>
         <div className={styles["image-input-button-flex"]}>
-          {/* <Image
-            src={dictionaryOpenIcon}
-            alt={"Dictionary A-Z icon"}
-            width={38}
-          /> */}
-            <Button label="&#128269;" onClick={handleShowWordCard} />
+          <Button label="&#128269;" onClick={handleShowWordCard} />
           <input
             type="text"
             placeholder="Search dictionary"
@@ -60,7 +71,9 @@ export const DictionarySearch = () => {
               <WordCard
                 key={index}
                 dictionary={dict}
-                onClose={handleRemoveWordCard}
+                onClose={() =>
+                  handleRemoveWordCard(dict.definitions[0]?.word || "")
+                }
               />
             );
           })}

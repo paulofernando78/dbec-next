@@ -17,8 +17,8 @@ export interface IDictionaryDefinitions {
   ptWordDefinition?: string;
   examples?: IDictionaryDefinitionsExamples[];
   notes?: IDictionaryDefinitionsNotes[];
-  synonyms?: string;
-  antonyms?: string;
+  synonyms?: string[];
+  antonyms?: string[];
   seeAlso?: string;
 }
 

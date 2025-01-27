@@ -1,33 +1,55 @@
 [
   {
-    "keyword": "",
     "definitions": [
       {
-        "word": "",
-        "phonetics": "",
-        "partOfSpeech": "",
-        "enDefinition": "",
-        "ptDefinition": "",
+        "word": "relax",
+        "phonetics": "/rɪˈlæks/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to become less tense or anxious; to rest or take it easy",
+        "ptDefinition": "ficar menos tenso ou ansioso; descansar ou relaxar",
         "examples": [
           {
-            "enExample": "",
-            "ptExample": ""
+            "enExample": "After a long day at work, she likes to relax with a good book.",
+            "ptExample": "Depois de um longo dia de trabalho, ela gosta de relaxar com um bom livro."
+          },
+          {
+            "enExample": "He took a deep breath to relax before giving his speech.",
+            "ptExample": "Ele respirou fundo para relaxar antes de fazer seu discurso."
           }
         ],
-        "synonyms": "",
-        "antonyms": "",
-        "seeAlso": "",
+        "synonyms": ["unwind", "rest", "take it easy", "calm down"],
+        "antonyms": ["stress", "tense", "worry", "strain"],
+        "seeAlso": ["unwind", "chill", "repose"],
         "notes": [
           {
-            "enNote": "",
-            "ptNote": ""
+            "enNote": "Relaxing is important for mental and physical health, helping to reduce stress and improve overall well-being.",
+            "ptNote": "Relaxar é importante para a saúde mental e física, ajudando a reduzir o estresse e melhorar o bem-estar geral."
           }
         ]
+      },
+      {
+        "word": "relaxed",
+        "phonetics": "/rɪˈlækst/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "free from tension and anxiety; at ease",
+        "ptDefinition": "livre de tensão e ansiedade; à vontade",
+        "examples": [
+          {
+            "enExample": "She felt relaxed after the massage.",
+            "ptExample": "Ela se sentiu relaxada após a massagem."
+          },
+          {
+            "enExample": "He appeared relaxed and confident during the interview.",
+            "ptExample": "Ele parecia relaxado e confiante durante a entrevista."
+          }
+        ],
+        "synonyms": ["calm", "at ease", "untroubled"],
+        "antonyms": ["tense", "anxious", "stressed"],
+        "seeAlso": ["calm", "peaceful", "serene"]
       }
     ]
   },
   {
-    "keyword": "rally the troops",
     "definitions": [
       {
         "word": "rally the troops",
@@ -44,9 +66,18 @@
             "ptExample": "O CEO reuniu a equipe durante a crise para manter a moral da empresa alta."
           }
         ],
-        "synonyms": "motivate the team, unite the group, inspire the crew, boost morale",
-        "antonyms": "disband the team, demoralize the group, dishearten the crew",
-        "seeAlso": "team building, leadership, encouragement",
+        "synonyms": [
+          "motivate the team",
+          "unite the group",
+          "inspire the crew",
+          "boost morale"
+        ],
+        "antonyms": [
+          "disband the team",
+          "demoralize the group",
+          "dishearten the crew"
+        ],
+        "seeAlso": ["team building", "leadership", "encouragement"],
         "notes": [
           {
             "enNote": "'Rally the troops' is often used metaphorically and is associated with leadership, particularly in motivating teams or groups to overcome adversity and work toward a shared objective.",
@@ -57,7 +88,6 @@
     ]
   },
   {
-    "keyword": "rest on one's laurels",
     "definitions": [
       {
         "word": "rest on one's laurels",
@@ -74,9 +104,14 @@
             "ptExample": "Não descanse sobre os seus louros; ainda há muito a ser conquistado."
           }
         ],
-        "synonyms": "become complacent, take it easy, stop trying, be content",
-        "antonyms": "keep striving, continue working hard, push forward",
-        "seeAlso": "complacency, self-satisfaction, laziness",
+        "synonyms": [
+          "become complacent",
+          "take it easy",
+          "stop trying",
+          "be content"
+        ],
+        "antonyms": ["keep striving", "continue working hard", "push forward"],
+        "seeAlso": ["complacency", "self-satisfaction", "laziness"],
         "notes": [
           {
             "enNote": "This expression is derived from the ancient tradition of rewarding victory with a laurel wreath, but it has a negative connotation when used in modern context.",
@@ -87,7 +122,6 @@
     ]
   },
   {
-    "keyword": "roll up one's sleeves",
     "definitions": [
       {
         "word": "roll up one's sleeves",
@@ -104,9 +138,9 @@
             "ptExample": "É hora de arregaçar as mangas e terminar isso antes do prazo."
           }
         ],
-        "synonyms": "prepare to work, get to work, take action",
-        "antonyms": "procrastinate, avoid work, relax",
-        "seeAlso": "get one's hands dirty, dive in",
+        "synonyms": ["prepare to work", "get to work", "take action"],
+        "antonyms": ["procrastinate", "avoid work", "relax"],
+        "seeAlso": ["get one's hands dirty", "dive in"],
         "notes": [
           {
             "enNote": "This idiom is often used to describe someone who is ready to work hard or take on a challenging task.",
@@ -117,7 +151,6 @@
     ]
   },
   {
-    "keyword": "record-breaking",
     "definitions": [
       {
         "word": "record-breaking",
@@ -135,21 +168,20 @@
             "ptExample": "O filme teve um fim de semana de estreia recorde, arrecadando milhões nas bilheterias."
           }
         ],
-        "synonyms": "unprecedented, groundbreaking, historic",
-        "antonyms": "ordinary, typical, average",
-        "seeAlso": "",
+        "synonyms": ["unprecedented", "groundbreaking", "historic"],
+        "antonyms": ["ordinary", "typical", "average"],
         "notes": [
           {
             "enNote": "This term is often used in sports, entertainment, and other fields where exceptional achievements are celebrated."
           },
           {
-            "ptNote": "This term is often used in sports, entertainment, and other fields where exceptional achievements are celebrated."
+            "ptNote": "Este termo é frequentemente usado em esportes, entretenimento e outros campos onde conquistas excepcionais são celebradas."
           }
         ]
       }
     ]
-  },{
-    "keyword": "real dog",
+  },
+  {
     "definitions": [
       {
         "word": "real dog",
@@ -162,13 +194,12 @@
             "ptExample": "Aquele filme foi um verdadeiro fracasso, eu não consegui assistir até o final."
           }
         ],
-        "synonyms": "flop, dud, failure",
-        "antonyms": "hit, success"
+        "synonyms": ["flop", "dud", "failure"],
+        "antonyms": ["hit", "success"]
       }
     ]
   },
   {
-    "keyword": "reality check",
     "definitions": [
       {
         "word": "reality check",
@@ -185,13 +216,11 @@
             "ptExample": "Reprovar no exame foi um choque de realidade que mostrou que ela precisava estudar mais."
           }
         ],
-        "synonyms": "wake-up call, dose of reality, moment of truth",
-        "antonyms": "illusion, fantasy, unrealistic expectation",
+        "synonyms": ["wake-up call", "dose of reality", "moment of truth"],
+        "antonyms": ["illusion", "fantasy", "unrealistic expectation"],
         "notes": [
           {
-            "enNote": "This phrase is often used to describe moments of clarity or realization, especially when someone's perception is far from reality."
-          },
-          {
+            "enNote": "This phrase is often used to describe moments of clarity or realization, especially when someone's perception is far from reality.",
             "ptNote": "Esta expressão é frequentemente usada para descrever momentos de clareza ou percepção, especialmente quando a percepção de alguém está distante da realidade."
           }
         ]
@@ -199,7 +228,6 @@
     ]
   },
   {
-    "keyword": "run with an idea",
     "definitions": [
       {
         "word": "run with an idea",
@@ -216,13 +244,12 @@
             "ptExample": "Ela teve uma ideia criativa, e decidimos desenvolvê-la para nossa próxima campanha de marketing."
           }
         ],
-        "synonyms": "develop, pursue, follow through, act on",
-        "antonyms": "abandon, discard, ignore, dismiss"
+        "synonyms": ["develop", "pursue", "follow through", "act on"],
+        "antonyms": ["abandon", "discard", "ignore", "dismiss"]
       }
     ]
   },
   {
-    "keyword": "record-breaking",
     "definitions": [
       {
         "word": "record-breaking",
@@ -244,9 +271,9 @@
             "ptExample": "A empresa registrou lucros recordes neste trimestre."
           }
         ],
-        "synonyms": "unprecedented, historic, unmatched",
-        "antonyms": "average, typical, unremarkable",
-        "seeAlso": "milestone, groundbreaking",
+        "synonyms": ["unprecedented", "historic", "unmatched"],
+        "antonyms": ["average", "typical", "unremarkable"],
+        "seeAlso": ["milestone", "groundbreaking"],
         "notes": [
           {
             "enNote": "This term is often used to highlight extraordinary achievements in various fields.",
@@ -257,7 +284,6 @@
     ]
   },
   {
-    "keyword": "redundancy",
     "definitions": [
       {
         "word": "redundancy",
@@ -275,19 +301,18 @@
             "ptExample": "Ela optou pela dispensa voluntária."
           }
         ],
-        "synonyms": "repetition",
-        "antonyms": "lack, need, want"
+        "synonyms": ["repetition"],
+        "antonyms": ["lack", "need", "want"]
       }
     ]
   },
   {
-    "keyword": "rip off",
     "definitions": [
       {
         "word": "rip off",
         "partOfSpeech": "idiom",
-        "enDefinition": "to copy an ideia; to steal",
-        "ptDefinition": "copiar / roubar uma idéia",
+        "enDefinition": "to copy an idea; to steal",
+        "ptDefinition": "copiar / roubar uma ideia",
         "examples": [
           {
             "enExample": "Why doesn't the Donox Company ever think up any original ideas? All they ever do is rip off their competitors!",
@@ -298,7 +323,6 @@
     ]
   },
   {
-    "keyword": "run in place",
     "definitions": [
       {
         "word": "run in place",
@@ -315,13 +339,12 @@
             "ptExample": "Apesar dos esforços, a empresa parece estar estagnada, sem crescimento significativo nas vendas."
           }
         ],
-        "synonyms": "stagnate, make no progress, go in circles",
-        "antonyms": "advance, move forward, progress"
+        "synonyms": ["stagnate", "make no progress", "go in circles"],
+        "antonyms": ["advance", "move forward", "progress"]
       }
     ]
   },
   {
-    "keyword": "run the numbers",
     "definitions": [
       {
         "word": "run the numbers",
@@ -334,8 +357,8 @@
             "ptExample": "Antes de finalizarmos o projeto, vamos verificar os números para garantir que ele seja financeiramente viável."
           }
         ],
-        "synonyms": "crunch the numbers, analyze the data, calculate",
-        "antonyms": "ignore the numbers, skip the analysis"
+        "synonyms": ["crunch the numbers", "analyze the data", "calculate"],
+        "antonyms": ["ignore the numbers", "skip the analysis"]
       }
     ]
   }

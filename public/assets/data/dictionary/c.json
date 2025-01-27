@@ -1,6 +1,65 @@
 [
   {
-    "keyword": "count me in",
+    "definitions": [
+      {
+        "word": "crazy",
+        "phonetics": "/ˈkreɪ.zi/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "mentally deranged, especially as manifested in a wild or aggressive way",
+        "ptDefinition": "mentalmente perturbado, especialmente manifestado de maneira selvagem ou agressiva",
+        "examples": [
+          {
+            "enExample": "He was acting crazy after the accident.",
+            "ptExample": "Ele estava agindo de forma louca após o acidente."
+          },
+          {
+            "enExample": "She must be crazy to go out in this weather.",
+            "ptExample": "Ela deve estar louca para sair com esse tempo."
+          }
+        ],
+        "synonyms": ["insane", "mad", "deranged", "lunatic"],
+        "antonyms": ["sane", "rational", "sensible"],
+        "seeAlso": ["mad", "insane"],
+        "notes": [
+          {
+            "enNote": "The term 'crazy' can be considered offensive when referring to someone's mental health.",
+            "ptNote": "O termo 'louco' pode ser considerado ofensivo quando se refere à saúde mental de alguém."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "calm",
+        "phonetics": "/kɑːm/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "not showing or feeling nervousness, anger, or other strong emotions",
+        "ptDefinition": "não demonstrar ou sentir nervosismo, raiva ou outras emoções fortes",
+        "examples": [
+          {
+            "enExample": "She remained calm during the emergency.",
+            "ptExample": "Ela permaneceu calma durante a emergência."
+          },
+          {
+            "enExample": "His calm demeanor helped to reassure the anxious passengers.",
+            "ptExample": "Seu comportamento calmo ajudou a tranquilizar os passageiros ansiosos."
+          }
+        ],
+        "synonyms": ["peaceful", "tranquil", "serene", "composed"],
+        "antonyms": ["agitated", "nervous", "anxious", "excited"],
+        "seeAlso": ["peaceful", "relaxed"],
+        "notes": [
+          {
+            "enNote": "Being calm can help in making rational decisions during stressful situations.",
+            "ptNote": "Estar calmo pode ajudar a tomar decisões racionais durante situações estressantes."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "definitions": [
       {
         "word": "count me in",
@@ -18,12 +77,11 @@
             "ptExample": "A equipe está planejando uma viagem, e eu disse: 'Me conta!'"
           }
         ],
-        "synonyms": "I'm in, count me aboard, I’m up for it, I’m game",
-        "antonyms": "count me out, not interested, I pass",
-        "seeAlso": "join in, participate, agree",
+        "synonyms": ["I'm in", "count me aboard", "I'm up for it", "I'm game"],
+        "antonyms": ["count me out", "not interested", "I pass"],
         "notes": [
           {
-            "enNote": "'Count me in' is a casual and informal way to express that you’re interested in joining or participating in an activity.",
+            "enNote": "'Count me in' is a casual and informal way to express that you're interested in joining or participating in an activity.",
             "ptNote": "'Count me in' é uma maneira casual e informal de expressar que você tem interesse em se juntar ou participar de uma atividade."
           }
         ]
@@ -31,7 +89,6 @@
     ]
   },
   {
-    "keyword": "call it quits",
     "definitions": [
       {
         "word": "call it quits",
@@ -48,9 +105,9 @@
             "ptExample": "Ele parou depois de tentar consertar a máquina por mais de uma hora."
           }
         ],
-        "synonyms": "give up, stop, quit, abandon, pack it in",
-        "antonyms": "continue, persist, carry on, press on",
-        "seeAlso": "throw in the towel, call it a day",
+        "synonyms": ["give up", "stop, quit", "abandon", "pack it in"],
+        "antonyms": ["continue", "persist", "carry on", "press on"],
+        "seeAlso": ["throw in the towel", "call it a day"],
         "notes": [
           {
             "enNote": "This expression is often used when someone decides to stop an activity or task, often because it is no longer productive or enjoyable.",
@@ -61,7 +118,6 @@
     ]
   },
   {
-    "keyword": "come",
     "definitions": [
       {
         "word": "come",
@@ -79,9 +135,9 @@
             "ptExample": "O gato virá se você chamá-lo."
           }
         ],
-        "synonyms": ["approach, arrive"],
-        "antonyms": ["go, leave"],
-        "seeAlso": ["arrive, appear"],
+        "synonyms": ["approach", "arrive"],
+        "antonyms": ["go", "leave"],
+        "seeAlso": ["arrive", "appear"],
         "notes": [
           {
             "enNote": "Often used in phrasal verbs, such as 'come up' or 'come over.'",
@@ -92,7 +148,6 @@
     ]
   },
   {
-    "keyword": "can1",
     "definitions": [
       {
         "word": "can",
@@ -110,15 +165,9 @@
             "ptExample": "Você pode me ajudar com este projeto?"
           }
         ],
-        "synonyms": "be able to, have the ability to, be capable of",
-        "antonyms": "cannot, be unable to, lack the ability",
-        "seeAlso": "could, may",
-        "notes": [
-          {
-            "enNote": "Used to express ability or possibility.",
-            "ptNote": "Usado para expressar habilidade ou possibilidade."
-          }
-        ]
+        "synonyms": ["be able to", "have the ability to", "be capable of"],
+        "antonyms": ["cannot", "be unable to", "lack the ability"],
+        "seeAlso": ["could", "may", "might"]
       },
       {
         "partOfSpeech": "noun",
@@ -134,9 +183,7 @@
             "ptExample": "Ela reciclou uma pilha de latas vazias."
           }
         ],
-        "synonyms": "tin, container, drum",
-        "antonyms": "bottle, jar, box",
-        "seeAlso": "canister, tin can, jar",
+        "synonyms": ["tin", "container", "drum"],
         "notes": [
           {
             "enNote": "Commonly used for storing beverages or food.",
@@ -147,7 +194,6 @@
     ]
   },
   {
-    "keyword": "child's play",
     "definitions": [
       {
         "word": "child's play",
@@ -165,9 +211,9 @@
             "ptExample": "Comparado ao último projeto, esta tarefa é brincadeira de criança."
           }
         ],
-        "synonyms": "easy, simple, effortless, a walk in the park",
-        "antonyms": "challenging, difficult, hard",
-        "seeAlso": "piece of cake, a breeze",
+        "synonyms": ["easy", "simple", "effortless", "a walk in the park"],
+        "antonyms": ["challenging", "difficult", "hard"],
+        "seeAlso": ["piece of cake", "a breeze"],
         "notes": [
           {
             "enNote": "This idiom is often used to describe tasks or problems that are so simple they seem almost trivial.",
@@ -178,7 +224,6 @@
     ]
   },
   {
-    "keyword": "can-do attitude",
     "definitions": [
       {
         "word": "can-do attitude",
@@ -196,9 +241,9 @@
             "ptExample": "Com uma atitude positiva, ele conseguiu resolver o problema rapidamente."
           }
         ],
-        "synonyms": "positive attitude, determined, optimistic, proactive",
-        "antonyms": "pessimistic, negative, discouraged",
-        "seeAlso": "take initiative, problem solver",
+        "synonyms": ["positive attitude", "determined", "optimistic", "proactive"],
+        "antonyms": ["pessimistic", "negative", "discouraged"],
+        "seeAlso": ["take initiative", "problem solver"],
         "notes": [
           {
             "enNote": "This expression is often used to describe someone who approaches challenges with enthusiasm and a willingness to tackle any obstacles.",
@@ -209,7 +254,6 @@
     ]
   },
   {
-    "keyword": "cash cow",
     "definitions": [
       {
         "word": "cash cow",
@@ -219,7 +263,7 @@
         "ptDefinition": "um produto, serviço ou negócio que gera um fluxo constante e significativo de receita, geralmente com pouco investimento ou esforço",
         "examples": [
           {
-            "enExample": "The company’s flagship smartphone became a cash cow, bringing in billions of dollars every year.",
+            "enExample": "The company's flagship smartphone became a cash cow, bringing in billions of dollars every year.",
             "ptExample": "O smartphone insignia da empresa se tornou uma vaca leiteira, gerando bilhões de dólares todos os anos."
           },
           {
@@ -227,8 +271,8 @@
             "ptExample": "O modelo de assinatura de software se tornou uma vaca leiteira para muitas empresas de tecnologia."
           }
         ],
-        "synonyms": "money maker, profit machine, revenue generator",
-        "antonyms": "money pit, drain, loss-maker",
+        "synonyms": ["money maker", "profit machine", "revenue generator"],
+        "antonyms": ["money pit", "drain", "loss-maker"],
         "notes": [
           {
             "enNote": "The term 'cash cow' is often used in business to refer to a reliable and profitable source of income."
@@ -241,7 +285,6 @@
     ]
   },
   {
-    "keyword": "cutting-edge",
     "definitions": [
       {
         "word": "cutting-edge",
@@ -259,13 +302,12 @@
             "ptExample": "Eles desenvolveram um aplicativo de ponta que revolucionou a forma como as pessoas se comunicam."
           }
         ],
-        "synonyms": "state-of-the-art, pioneering, innovative",
-        "antonyms": "outdated, obsolete, traditional"
+        "synonyms": ["state-of-the-art", "pioneering", "innovative"],
+        "antonyms": ["outdated", "obsolete", "traditional"]
       }
     ]
   },
   {
-    "keyword": "cutting it (a little) close",
     "definitions": [
       {
         "word": "cutting it (a little) close",
@@ -282,8 +324,8 @@
             "ptExample": "Se não sairmos agora, vamos arriscar perder o trem por pouco."
           }
         ],
-        "synonyms": "pushing the limit, tight timing, last-minute",
-        "antonyms": "well-planned, ahead of schedule, ample time",
+        "synonyms": ["pushing the limit", "tight timing", "last-minute"],
+        "antonyms": ["well-planned", "ahead of schedule", "ample time"],
         "notes": [
           {
             "enNote": "This phrase is often used in situations involving time management or tight deadlines."
@@ -296,7 +338,6 @@
     ]
   },
   {
-    "keyword": "calorie",
     "definitions": [
       {
         "word": "calorie",
@@ -310,12 +351,11 @@
             "ptExample": "Esta barra de chocolate contém 250 calorias."
           }
         ],
-        "synonyms": "kilocalorie, energy unit"
+        "synonyms": ["kilocalorie", "energy unit"]
       }
     ]
   },
   {
-    "keyword": "capital flight",
     "definitions": [
       {
         "word": "capital flight",
@@ -332,7 +372,6 @@
     ]
   },
   {
-    "keyword": "carry",
     "definitions": [
       {
         "word": "carry",
@@ -346,8 +385,8 @@
             "ptExample": "Estes livros são muito pesados para eu carregar."
           }
         ],
-        "synonyms": "bear, take",
-        "antonyms": "drop"
+        "synonyms": ["bear", "take"],
+        "antonyms": ["drop"]
       },
       {
         "word": "carry out",
@@ -365,13 +404,12 @@
             "ptExample": "Não me culpe, estou apenas fazendo o que me foi pedido."
           }
         ],
-        "synonyms": "perform, execute, accomplish",
-        "antonyms": "fail, abandon, halt, ignore, miss"
+        "synonyms": ["perform", "execute", "accomplish"],
+        "antonyms": ["fail", "abandon", "halt", "ignore, miss"]
       }
     ]
   },
   {
-    "keyword": "cash in on",
     "definitions": [
       {
         "word": "cash in on",
@@ -389,14 +427,12 @@
             "ptExample": "Ela aproveitou sua popularidade para assinar um contrato lucrativo de patrocínio."
           }
         ],
-        "synonyms": "capitalize on, profit from, take advantage of",
-        "antonyms": "miss an opportunity, overlook, ignore",
-        "seeAlso": ""
+        "synonyms": ["capitalize on", "profit from", "take advantage of"],
+        "antonyms": ["miss an opportunity", "overlook, ignore"]
       }
     ]
   },
   {
-    "keyword": "characteristic",
     "definitions": [
       {
         "word": "characteristic",
@@ -413,7 +449,6 @@
     ]
   },
   {
-    "keyword": "chimpanzee",
     "definitions": [
       {
         "word": "chimpanzee",
@@ -430,7 +465,6 @@
     ]
   },
   {
-    "keyword": "clean house",
     "definitions": [
       {
         "word": "clean house",
@@ -447,8 +481,8 @@
             "ptExample": "A equipe precisou fazer uma limpeza após uma série de resultados ruins e tomar decisões difíceis."
           }
         ],
-        "synonyms": "purge, streamline, reorganize",
-        "antonyms": "maintain, preserve, retain",
+        "synonyms": ["purge", "streamline", "reorganize"],
+        "antonyms": ["maintain", "preserve", "retain"],
         "notes": [
           {
             "enNote": "This idiom is often used in professional or organizational contexts, referring to making significant changes to improve performance."
@@ -461,7 +495,6 @@
     ]
   },
   {
-    "keyword": "compel",
     "definitions": [
       {
         "word": "compel",
@@ -475,8 +508,8 @@
             "ptExample": "Como estudante, ele foi obrigado a usar shorts mesmo no inverno."
           }
         ],
-        "synonyms": "force, require, impel, oblige",
-        "antonyms": "stop, prevent, thwart, deter, hinder"
+        "synonyms": ["force", "require", "impel", "oblige"],
+        "antonyms": ["stop", "prevent", "thwart", "deter", "hinder"]
       },
       {
         "word": "compelling",
@@ -494,7 +527,6 @@
     ]
   },
   {
-    "keyword": "come up with a winner",
     "definitions": [
       {
         "word": "come up with a winner",
@@ -511,7 +543,6 @@
     ]
   },
   {
-    "keyword": "customer",
     "definitions": [
       {
         "word": "customer",
@@ -529,7 +560,6 @@
     ]
   },
   {
-    "keyword": "crunch the numbers",
     "definitions": [
       {
         "word": "crunch the numbers",
@@ -542,8 +572,8 @@
             "ptExample": "Antes de tomar a decisão final, a equipe teve que analisar os números para garantir que o orçamento funcionaria."
           }
         ],
-        "synonyms": "analyze the data, process the figures, do the calculations",
-        "antonyms": "ignore the data, disregard the numbers"
+        "synonyms": ["analyze the data", "process the figures", "do the calculations"],
+        "antonyms": ["ignore the data", "disregard the numbers"]
       }
     ]
   }

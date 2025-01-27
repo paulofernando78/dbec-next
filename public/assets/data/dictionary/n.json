@@ -1,6 +1,5 @@
 [
   {
-    "keyword": "nothing ventured, nothing gained",
     "definitions": [
       {
         "word": "nothing ventured, nothing gained",
@@ -17,9 +16,13 @@
             "ptExample": "Ele decidiu pedir a promoção, pensando 'quem não arrisca, não petisca'."
           }
         ],
-        "synonyms": "take a chance, no risk, no reward, step out of one's comfort zone",
-        "antonyms": "play it safe, avoid risk",
-        "seeAlso": "take risks, dare to try",
+        "synonyms": [
+          "take a chance",
+          "no risk, no reward",
+          "step out of one's comfort zone"
+        ],
+        "antonyms": ["play it safe", "avoid risk"],
+        "seeAlso": ["take risks", "dare to try"],
         "notes": [
           {
             "enNote": "This idiom is often used to encourage someone to take chances or embrace new opportunities.",
@@ -30,7 +33,6 @@
     ]
   },
   {
-    "keyword": "need something like a hole in the head",
     "definitions": [
       {
         "word": "need something like a hole in the head",
@@ -47,8 +49,8 @@
             "ptExample": "Ele diz que precisa de mais uma reunião \"como de um buraco na cabeça.\""
           }
         ],
-        "synonyms": "not want, unnecessary, undesirable",
-        "antonyms": "welcome, necessary, desirable",
+        "synonyms": ["not want", "unnecessary", "undesirable"],
+        "antonyms": ["welcome", "necessary", "desirable"],
         "notes": [
           {
             "enNote": "This phrase is often used sarcastically to stress how unwanted or unnecessary something is.",
@@ -59,7 +61,6 @@
     ]
   },
   {
-    "keyword": "no ifs, ands, or buts",
     "definitions": [
       {
         "word": "no ifs, ands, or buts",
@@ -76,8 +77,13 @@
             "ptExample": "As regras são claras e todos devem segui-las, sem exceções ou argumentos."
           }
         ],
-        "synonyms": "no excuses, no exceptions, no compromises, absolutely",
-        "antonyms": "with exceptions, with conditions, negotiable",
+        "synonyms": [
+          "no excuses",
+          "no exceptions",
+          "no compromises",
+          "absolutely"
+        ],
+        "antonyms": ["with exceptions", "with conditions", "negotiable"],
         "notes": [
           {
             "enNote": "This expression is often used to establish firm boundaries or emphasize strict adherence to a rule or decision."
@@ -90,7 +96,6 @@
     ]
   },
   {
-    "keyword": "near",
     "definitions": [
       {
         "word": "near",
@@ -104,9 +109,9 @@
             "ptExample": "O trem se aproximou da estação."
           }
         ],
-        "synonyms": "approach, advance",
-        "antonyms": "recede, withdraw",
-        "seeAlso": "come closer, draw near"
+        "synonyms": ["approach", "advance"],
+        "antonyms": ["recede", "withdraw"],
+        "seeAlso": ["come closer", "draw near"]
       },
       {
         "word": "near",
@@ -120,9 +125,9 @@
             "ptExample": "Nós nos movemos mais perto do palco."
           }
         ],
-        "synonyms": "closely, nearby",
-        "antonyms": "far, distantly",
-        "seeAlso": "close, approximately"
+        "synonyms": ["closely", "nearby"],
+        "antonyms": ["far", "distantly"],
+        "seeAlso": ["close", "approximately"]
       },
       {
         "word": "near",
@@ -136,9 +141,9 @@
             "ptExample": "Ela se sentou perto da janela."
           }
         ],
-        "synonyms": "by, beside, next to",
-        "antonyms": "far from, away from",
-        "seeAlso": "adjacent, alongside"
+        "synonyms": ["by", "beside", "next to"],
+        "antonyms": ["far from", "away from"],
+        "seeAlso": ["adjacent", "alongside"]
       },
       {
         "word": "near",
@@ -152,14 +157,13 @@
             "ptExample": "O hospital mais próximo fica a apenas um quilômetro."
           }
         ],
-        "synonyms": "close, neighboring",
-        "antonyms": "distant, remote",
-        "seeAlso": "proximal, nearby"
+        "synonyms": ["close", "neighboring"],
+        "antonyms": ["distant", "remote"],
+        "seeAlso": ["proximal", "nearby"]
       }
     ]
   },
   {
-    "keyword": "new blood",
     "definitions": [
       {
         "word": "new blood",
@@ -176,8 +180,8 @@
             "ptExample": "A equipe está procurando por novas pessoas para trazer perspectivas frescas para o projeto."
           }
         ],
-        "synonyms": "fresh talent, new faces, new recruits",
-        "antonyms": "old guard, stagnation, status quo",
+        "synonyms": ["fresh talent", "new faces", "new recruits"],
+        "antonyms": ["old guard", "stagnation", "status quo"],
         "notes": [
           {
             "enNote": "This idiom is often used in professional contexts to refer to the infusion of new talent or ideas into a group."
@@ -190,7 +194,6 @@
     ]
   },
   {
-    "keyword": "new zealand",
     "definitions": [
       {
         "word": "New Zealand",
@@ -201,7 +204,6 @@
     ]
   },
   {
-    "keyword": "nip ",
     "definitions": [
       {
         "word": "nip ",
@@ -215,7 +217,7 @@
             "ptExample": "O cachorrinho me mordeu na perna."
           }
         ],
-        "synonyms": "bite, , pinch, snap"
+        "synonyms": ["bite", "pinch", "snap"]
       },
       {
         "enDefinition": "frost",
@@ -236,11 +238,7 @@
             "ptExample": "Você pode ir rapidinho na loja para mim?"
           }
         ],
-        "thesauri": [
-          {
-            "synonyms": "go, rush, dash, stop by"
-          }
-        ]
+        "synonyms": ["go", "rush", "dash", "stop by"]
       },
       {
         "word": "nip off",
@@ -253,12 +251,7 @@
             "ptExample": "Ele cortou um pedaço de arame com o alicate."
           }
         ],
-        "thesauri": [
-          {
-            "synonyms": "cut off, trim, remove"
-          }
-        ],
-        "synonyms": "neck and neck, even, drawn, tied, balanced"
+        "synonyms": ["cut off", "trim", "remove"]
       },
       {
         "word": "nip and tuck",
@@ -271,8 +264,8 @@
             "ptExample": "Tessa consultou um cirurgião plástico sobre fazer uma cirurgia plástica."
           }
         ],
-        "synonyms": "neck and neck, even, drawn, tied, balanced",
-        "antonyms": "..."
+        "synonyms": ["neck and neck", "even", "drawn", "tied", "balanced"],
+        "antonyms": []
       },
       {
         "word": "nip and tuck",
@@ -289,8 +282,8 @@
             "ptExample": "Aquela corrida foi tão acirrada que eu não tinha ideia de quem venceria até o final."
           }
         ],
-        "synonyms": "neck and neck, even, drawn, tied, balanced",
-        "antonyms": "..."
+        "synonyms": ["neck and neck", "even", "drawn", "tied", "balanced"],
+        "antonyms": []
       },
       {
         "word": "nip (something) in the bud",
@@ -303,13 +296,12 @@
             "ptExample": "Os dirigentes cortaram a greve pela raiz."
           }
         ],
-        "synonyms": "abort",
-        "antonyms": "cut off, cut short"
+        "synonyms": ["abort"],
+        "antonyms": ["cut off", "cut short"]
       }
     ]
   },
   {
-    "keyword": "no wonder",
     "definitions": [
       {
         "word": "no wonder",

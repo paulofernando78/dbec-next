@@ -1,6 +1,34 @@
 [
   {
-    "keyword": "make it up to you",
+    "definitions": [
+      {
+        "word": "mad",
+        "phonetics": "/mæd/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "very angry or annoyed",
+        "ptDefinition": "muito zangado ou irritado",
+        "examples": [
+          {
+            "enExample": "She was mad at him for being late.",
+            "ptExample": "Ela estava zangada com ele por estar atrasado."
+          },
+          {
+            "enExample": "He gets mad when people don't listen to him.",
+            "ptExample": "Ele fica zangado quando as pessoas não o escutam."
+          }
+        ],
+        "synonyms": ["angry", "furious", "irate"],
+        "antonyms": ["calm", "happy", "pleased"],
+        "notes": [
+          {
+            "enNote": "In British English, 'mad' can also mean 'mentally ill' or 'insane'.",
+            "ptNote": "No inglês britânico, 'mad' também pode significar 'mentalmente doente' ou 'insano'."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "definitions": [
       {
         "word": "make it up to you",
@@ -17,8 +45,8 @@
             "ptExample": "Ela prometeu compensá-lo depois de esquecer o aniversário deles."
           }
         ],
-        "synonyms": "apologize, atone, compensate",
-        "antonyms": "ignore, neglect, disregard",
+        "synonyms": ["apologize", "atone", "compensate"],
+        "antonyms": ["ignore", "neglect", "disregard"],
         "notes": [
           {
             "enNote": "This phrase is typically used when trying to repair a relationship or situation caused by a mistake or oversight.",
@@ -29,7 +57,6 @@
     ]
   },
   {
-    "keyword": "mess around",
     "definitions": [
       {
         "word": "mess around",
@@ -47,8 +74,8 @@
             "ptExample": "Ele estava apenas brincando com os amigos quando deveria estar estudando."
           }
         ],
-        "synonyms": "fool around, play around, waste time",
-        "antonyms": "focus, get serious, concentrate",
+        "synonyms": ["fool around", "play around", "waste time"],
+        "antonyms": ["focus", "get serious", "concentrate"],
         "notes": [
           {
             "enNote": "This phrase is often used in informal settings and can imply a lack of seriousness or a focus on leisure rather than work.",
@@ -59,7 +86,6 @@
     ]
   },
   {
-    "keyword": "mince words",
     "definitions": [
       {
         "word": "mince words",
@@ -76,8 +102,8 @@
             "ptExample": "Ele foi indireto ao falar sobre o tópico sensível."
           }
         ],
-        "synonyms": "sugarcoat, beat around the bush",
-        "antonyms": "speak plainly, speak directly",
+        "synonyms": ["sugarcoat", "beat around the bush"],
+        "antonyms": ["speak plainly", "speak directly"],
         "notes": [
           {
             "enNote": "This idiom often implies a lack of transparency or honesty in speech.",
@@ -88,7 +114,6 @@
     ]
   },
   {
-    "keyword": "my gut tells me",
     "definitions": [
       {
         "word": "my gut tells me",
@@ -106,9 +131,8 @@
             "ptExample": "Não consigo explicar, mas meu instinto me diz que ele não está sendo honesto."
           }
         ],
-        "synonyms": "instinct says, feeling tells me, intuition",
-        "antonyms": "reasoned judgment, logical decision, evidence-based conclusion",
-        "seeAlso": "",
+        "synonyms": ["instinct says", "feeling tells me", "intuition"],
+        "antonyms": ["reasoned judgment", "logical decision", "evidence-based conclusion"],
         "notes": [
           {
             "enNote": "This idiom is used to describe a strong, instinctive feeling about something, without relying on hard facts or logic.",
@@ -119,7 +143,6 @@
     ]
   },
   {
-    "keyword": "me-too products",
     "definitions": [
       {
         "word": "me-too products",
@@ -133,9 +156,8 @@
             "ptExample": "A empresa lançou um produto semelhante para competir com a marca mais vendida do mercado."
           }
         ],
-        "synonyms": "copycat products, knock-offs, imitations",
-        "antonyms": "innovative products, original products",
-        "seeAlso": "",
+        "synonyms": ["copycat products", "knock-offs", "imitations"],
+        "antonyms": ["innovative products", "original products"],
         "notes": [
           {
             "enNote": "This term often implies a lack of originality or creativity."
@@ -148,7 +170,6 @@
     ]
   },
   {
-    "keyword": "make a killing",
     "definitions": [
       {
         "word": "make a killing",
@@ -165,7 +186,6 @@
     ]
   },
   {
-    "keyword": "market share",
     "definitions": [
       {
         "word": "market share",
@@ -183,8 +203,8 @@
             "ptExample": "Eles estão focados na retenção de clientes para manter sua participação no mercado na indústria."
           }
         ],
-        "synonyms": "market portion, market percentage, customer base",
-        "antonyms": "market loss, reduced influence, decreased share",
+        "synonyms": ["market portion", "market percentage", "customer base"],
+        "antonyms": ["market loss", "reduced influence", "decreased share"],
         "notes": [
           {
             "enNote": "Market share is often used as a key performance indicator in business strategies."
@@ -197,7 +217,6 @@
     ]
   },
   {
-    "keyword": "menopause",
     "definitions": [
       {
         "word": "menopause",
@@ -211,12 +230,11 @@
             "ptExample": "Muitas mulheres experimentam ondas de calor durante a menopausa."
           }
         ],
-        "synonyms": "climacteric, change of life"
+        "synonyms": ["climacteric", "change of life"]
       }
     ]
   },
   {
-    "keyword": "miscarriage",
     "definitions": [
       {
         "word": "miscarriage",
@@ -234,7 +252,6 @@
     ]
   },
   {
-    "keyword": "moderate",
     "definitions": [
       {
         "word": "moderate",
@@ -248,8 +265,8 @@
             "ptExample": "Ela se exercita com intensidade moderada para melhorar a saúde."
           }
         ],
-        "synonyms": "average, medium, mild",
-        "antonyms": "extreme, intense"
+        "synonyms": ["average", "medium", "mild"],
+        "antonyms": ["extreme", "intense"]
       },
       {
         "word": "moderate",
@@ -263,13 +280,12 @@
             "ptExample": "O professor moderou a discussão para mantê-la no tema."
           }
         ],
-        "synonyms": "temper, control, adjust",
-        "antonyms": "intensify, escalate"
+        "synonyms": ["temper", "control", "adjust"],
+        "antonyms": ["intensify", "escalate"]
       }
     ]
   },
   {
-    "keyword": "mum's the word",
     "definitions": [
       {
         "word": "mum's the word",

@@ -12,7 +12,6 @@ export const Whiteboard = ({
   title,
   subtitle,
   descriptions = [],
-  subDescription,
   time,
   usa,
   uk

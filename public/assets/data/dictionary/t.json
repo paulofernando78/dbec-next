@@ -1,6 +1,5 @@
 [
   {
-    "keyword": "team spirit",
     "definitions": [
       {
         "word": "team spirit",
@@ -18,9 +17,9 @@
             "ptExample": "Um bom espírito de equipe é essencial para alcançar o sucesso a longo prazo em qualquer organização."
           }
         ],
-        "synonyms": "collaboration, camaraderie, unity, solidarity",
-        "antonyms": "individualism, selfishness, discord",
-        "seeAlso": "teamwork, cooperation, group dynamics",
+        "synonyms": ["collaboration", "camaraderie", "unity", "solidarity"],
+        "antonyms": ["individualism", "selfishness", "discord"],
+        "seeAlso": ["teamwork", "cooperation", "group dynamics"],
         "notes": [
           {
             "enNote": "Team spirit is often considered a key factor in achieving success within teams and organizations, as it encourages cooperation and mutual support.",
@@ -31,7 +30,6 @@
     ]
   },
   {
-    "keyword": "turn around one's business",
     "definitions": [
       {
         "word": "turn around one's business",
@@ -48,9 +46,9 @@
             "ptExample": "Com uma abordagem nova e uma nova liderança, a empresa conseguiu reverter o seu negócio em um ano."
           }
         ],
-        "synonyms": "revitalize, restore, improve, recover, bounce back",
-        "antonyms": "decline, deteriorate, fail, struggle",
-        "seeAlso": "business turnaround, business recovery, corporate strategy",
+        "synonyms": ["revitalize", "restore", "improve", "recover", "bounce back"],
+        "antonyms": ["decline", "deteriorate", "fail", "struggle"],
+        "seeAlso": ["business turnaround", "business recovery", "corporate strategy"],
         "notes": [
           {
             "enNote": "This expression is commonly used in the business world when a company is able to overcome financial or operational difficulties and return to profitability or success.",
@@ -61,7 +59,6 @@
     ]
   },
   {
-    "keyword": "track record",
     "definitions": [
       {
         "word": "track record",
@@ -79,9 +76,9 @@
             "ptExample": "Antes de contratar, certifique-se de verificar o histórico do candidato em funções anteriores."
           }
         ],
-        "synonyms": "history, background, past performance, record, reputation",
-        "antonyms": "inexperience, lack of history",
-        "seeAlso": "reputation, credentials, achievements",
+        "synonyms": ["history", "background", "past performance", "record", "reputation"],
+        "antonyms": ["inexperience", "lack of history"],
+        "seeAlso": ["reputation", "credentials", "achievements"],
         "notes": [
           {
             "enNote": "A good track record is often a key factor in decision-making for hiring, investments, or partnerships.",
@@ -92,7 +89,6 @@
     ]
   },
   {
-    "keyword": "throw in the towel",
     "definitions": [
       {
         "word": "throw in the towel",
@@ -109,9 +105,9 @@
             "ptExample": "Ela não queria desistir, mas o projeto era muito complicado."
           }
         ],
-        "synonyms": "give up, quit, surrender, throw up one's hands",
-        "antonyms": "persevere, persist, carry on",
-        "seeAlso": "call it a day, wave the white flag",
+        "synonyms": ["give up", "quit", "surrender", "throw up one's hands"],
+        "antonyms": ["persevere", "persist", "carry on"],
+        "seeAlso": ["call it a day", "wave the white flag"],
         "notes": [
           {
             "enNote": "This expression originated from boxing, where a trainer would throw a towel into the ring to stop the fight, signaling defeat.",
@@ -122,7 +118,6 @@
     ]
   },
   {
-    "keyword": "take a crack at something",
     "definitions": [
       {
         "word": "take a crack at something",
@@ -139,9 +134,9 @@
             "ptExample": "Ele decidiu tentar pintar, mesmo sem experiência."
           }
         ],
-        "synonyms": "attempt, try, have a go at",
-        "antonyms": "avoid, refuse, neglect",
-        "seeAlso": "give it a shot, try out",
+        "synonyms": ["attempt", "try", "have a go at"],
+        "antonyms": ["avoid", "refuse", "neglect"],
+        "seeAlso": ["give it a shot", "try out"],
         "notes": [
           {
             "enNote": "This phrase is often used in informal contexts, emphasizing the act of making an effort or attempt, usually without certainty of success.",
@@ -152,7 +147,6 @@
     ]
   },
   {
-    "keyword": "take a crack at something",
     "definitions": [
       {
         "word": "take a crack at something",
@@ -173,13 +167,12 @@
             "ptExample": "Por que você não tenta escrever o relatório?"
           }
         ],
-        "synonyms": "try, attempt, give it a shot",
-        "antonyms": "avoid, ignore, refrain"
+        "synonyms": ["try", "attempt", "give it a shot"],
+        "antonyms": ["avoid", "ignore", "refrain"]
       }
     ]
   },
   {
-    "keyword": "the best of both worlds",
     "definitions": [
       {
         "word": "the best of both worlds",
@@ -196,8 +189,8 @@
             "ptExample": "Trabalhar de casa me permite ter o melhor dos dois mundos: um horário flexível e sem necessidade de deslocamento."
           }
         ],
-        "synonyms": "have it all, all the advantages, the ideal situation",
-        "antonyms": "compromise, trade-off, sacrifice",
+        "synonyms": ["have it all", "all the advantages", "the ideal situation"],
+        "antonyms": ["compromise", "trade-off", "sacrifice"],
         "notes": [
           {
             "enNote": "This idiom is used to describe a scenario where one benefits from two different things without having to give up either.",
@@ -208,7 +201,6 @@
     ]
   },
   {
-    "keyword": "test the waters",
     "definitions": [
       {
         "word": "test the waters",
@@ -225,13 +217,12 @@
             "ptExample": "Estamos testando o mercado oferecendo uma versão de teste gratuita para ver se os clientes têm interesse em nosso serviço."
           }
         ],
-        "synonyms": "try out, dip a toe in, sample",
-        "antonyms": "commit, dive in, jump in"
+        "synonyms": ["try out", "dip a toe in", "sample"],
+        "antonyms": ["commit", "dive in", "jump in"]
       }
     ]
   },
   {
-    "keyword": "tough call",
     "definitions": [
       {
         "word": "tough call",
@@ -248,13 +239,12 @@
             "ptExample": "É uma decisão difícil decidir se devemos expandir para novos mercados ou focar em melhorar nossos produtos atuais."
           }
         ],
-        "synonyms": "difficult decision, hard choice, close call",
-        "antonyms": "easy decision, clear choice, no-brainer"
+        "synonyms": ["difficult decision", "hard choice", "close call"],
+        "antonyms": ["easy decision", "clear choice", "no-brainer"]
       }
     ]
   },
   {
-    "keyword": "think outside the box",
     "definitions": [
       {
         "word": "think outside the box",
@@ -271,13 +261,12 @@
             "ptExample": "A equipe foi incentivada a pensar fora da caixa para criar estratégias de marketing inovadoras."
           }
         ],
-        "synonyms": "be creative, innovate, think differently",
-        "antonyms": "follow the norm, be conventional, stick to tradition"
+        "synonyms": ["be creative", "innovate", "think differently"],
+        "antonyms": ["follow the norm", "be conventional", "stick to tradition"]
       }
     ]
   },
   {
-    "keyword": "through the roof",
     "definitions": [
       {
         "word": "through the roof",
@@ -294,8 +283,8 @@
             "ptExample": "Os preços das casas dispararam no último ano devido à alta demanda."
           }
         ],
-        "synonyms": "skyrocket, surge, escalate",
-        "antonyms": "drop, decrease, plummet",
+        "synonyms": ["skyrocket", "surge", "escalate"],
+        "antonyms": ["drop", "decrease", "plummet"],
         "notes": [
           {
             "enNote": "This phrase is often used to describe sharp increases in prices, emotions, or demand."
@@ -308,7 +297,6 @@
     ]
   },
   {
-    "keyword": "twenty-four seven",
     "definitions": [
       {
         "word": "twenty-four seven (24/7)",
@@ -325,13 +313,12 @@
             "ptExample": "Alguns negócios funcionam 24/7 para atender às demandas dos clientes."
           }
         ],
-        "synonyms": "around the clock, all day every day, nonstop",
-        "antonyms": "limited hours, part-time, closed"
+        "synonyms": ["around the clock", "all day every day", "nonstop"],
+        "antonyms": ["limited hours", "part-time", "closed"]
       }
     ]
   },
   {
-    "keyword": "touch base with someone",
     "definitions": [
       {
         "word": "touch base with someone",
@@ -348,13 +335,12 @@
             "ptExample": "Devemos entrar em contato com o cliente na próxima semana para garantir que o projeto esteja no caminho certo."
           }
         ],
-        "synonyms": "contact, check in, reach out, communicate",
-        "antonyms": "ignore, avoid, neglect"
+        "synonyms": ["contact", "check in", "reach out", "communicate"],
+        "antonyms": ["ignore", "avoid", "neglect"]
       }
     ]
   },
   {
-    "keyword": "twist one's arm",
     "definitions": [
       {
         "word": "twist one's arm",
@@ -371,13 +357,12 @@
             "ptExample": "Demorou um pouco para convencê-lo, mas ele finalmente concordou em ajudar com o projeto."
           }
         ],
-        "synonyms": "persuade, pressure, convince, talk into",
-        "antonyms": "dissuade, discourage, talk out of"
+        "synonyms": ["persuade", "pressure", "convince", "talk into"],
+        "antonyms": ["dissuade", "discourage", "talk out of"]
       }
     ]
   },
   {
-    "keyword": "throw cold water on",
     "definitions": [
       {
         "word": "throw cold water (on)",
@@ -394,8 +379,8 @@
             "ptExample": "É importante levar em conta o feedback, mas não se deve desmotivar todas as novas ideias que surgem."
           }
         ],
-        "synonyms": "discourage, downplay, dampen enthusiasm, rain on someone's parade",
-        "antonyms": "encourage, support, inspire, fuel enthusiasm",
+        "synonyms": ["discourage", "downplay", "dampen enthusiasm", "rain on someone's parade"],
+        "antonyms": ["encourage", "support", "inspire", "fuel enthusiasm"],
         "notes": [
           {
             "enNote": "Although it's important to be cautious, excessive criticism can discourage innovation and creativity."
@@ -408,7 +393,6 @@
     ]
   },
   {
-    "keyword": "tagline",
     "definitions": [
       {
         "word": "tagline",
@@ -426,9 +410,9 @@
             "ptExample": "Uma boa tagline pode capturar a essência de um negócio e deixar uma impressão duradoura nos clientes."
           }
         ],
-        "synonyms": "slogan, catchphrase, motto, strapline",
-        "antonyms": "content, narrative, description",
-        "seeAlso": "branding, marketing, advertising, identity",
+        "synonyms": ["slogan", "catchphrase", "motto", "strapline"],
+        "antonyms": ["content", "narrative", "description"],
+        "seeAlso": ["branding", "marketing", "advertising", "identity"],
         "notes": [
           {
             "enNote": "A memorable tagline plays a crucial role in reinforcing a brand's message and creating emotional connections with consumers."
@@ -441,7 +425,6 @@
     ]
   },
   {
-    "keyword": "think outside the box",
     "definitions": [
       {
         "word": "think outside the box",
@@ -454,14 +437,13 @@
             "ptExample": "A equipe foi incentivada a pensar fora da caixa para resolver o problema complexo."
           }
         ],
-        "synonyms": "be creative, think unconventionally, innovate",
-        "antonyms": "think traditionally, follow conventions, stay conventional",
-        "seeAlso": "brainstorm, blue-sky thinking"
+        "synonyms": ["be creative", "think unconventionally", "innovate"],
+        "antonyms": ["think traditionally", "follow conventions", "stay conventional"],
+        "seeAlso": ["brainstorm", "blue-sky thinking"]
       }
     ]
   },
   {
-    "keyword": "through the roof",
     "definitions": [
       {
         "word": "through the roof",
@@ -478,9 +460,9 @@
             "ptExample": "A empolgação dela foi às alturas quando ouviu a notícia."
           }
         ],
-        "synonyms": "skyrocket, soar, escalate",
-        "antonyms": "drop, plummet, decline",
-        "seeAlso": "hit the ceiling, go through the ceiling",
+        "synonyms": ["skyrocket", "soar", "escalate"],
+        "antonyms": ["drop", "plummet", "decline"],
+        "seeAlso": ["hit the ceiling", "go through the ceiling"],
         "notes": [
           {
             "enNote": "This idiom is commonly used to describe sudden increases in prices, emotions, or demand.",
@@ -491,7 +473,6 @@
     ]
   },
   {
-    "keyword": "to the letter",
     "definitions": [
       {
         "word": "to the letter",
@@ -508,9 +489,9 @@
             "ptExample": "Ele executou a tarefa à risca, garantindo que tudo fosse feito conforme solicitado."
           }
         ],
-        "synonyms": "exactly, precisely, accurately",
-        "antonyms": "roughly, loosely, imprecisely",
-        "seeAlso": "by the book, verbatim",
+        "synonyms": ["exactly", "precisely", "accurately"],
+        "antonyms": ["roughly", "loosely", "imprecisely"],
+        "seeAlso": ["by the book", "verbatim"],
         "notes": [
           {
             "enNote": "This phrase is used when something is done with great precision or when instructions are followed exactly as given.",
@@ -521,7 +502,6 @@
     ]
   },
   {
-    "keyword": "to the tune of",
     "definitions": [
       {
         "word": "to the tune of",
@@ -539,8 +519,8 @@
             "ptExample": "Eles arrecadaram fundos na ordem de $500.000 para o evento beneficente."
           }
         ],
-        "synonyms": "amounting to, totaling, in the ballpark of",
-        "antonyms": "insignificant, minimal, small-scale",
+        "synonyms": ["amounting to", "totaling", "in the ballpark of"],
+        "antonyms": ["insignificant", "minimal", "small-scale"],
         "notes": [
           {
             "enNote": "This idiom is often used to emphasize the magnitude of something, particularly in financial contexts."
@@ -553,7 +533,6 @@
     ]
   },
   {
-    "keyword": "track",
     "definitions": [
       {
         "word": "track",
@@ -614,7 +593,6 @@
     ]
   },
   {
-    "keyword": "translate",
     "definitions": [
       {
         "word": "translate",

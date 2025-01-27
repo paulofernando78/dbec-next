@@ -1,6 +1,5 @@
 [
   {
-    "keyword": "deliver",
     "definitions": [
       {
         "word": "deliver",
@@ -18,8 +17,8 @@
             "ptExample": "Ele sempre entrega resultados excelentes dentro do prazo."
           }
         ],
-        "synonyms": "provide, supply, bring",
-        "antonyms": "withhold, keep, retain",
+        "synonyms": ["provide", "supply", "bring"],
+        "antonyms": ["withhold", "keep", "retain"],
         "notes": [
           {
             "enNote": "In a broader sense, 'deliver' can also mean to perform or achieve something successfully, such as delivering a speech or a presentation.",
@@ -30,7 +29,6 @@
     ]
   },
   {
-    "keyword": "drum up business",
     "definitions": [
       {
         "word": "drum up business",
@@ -48,8 +46,8 @@
             "ptExample": "Eles organizaram um evento especial para atrair mais clientes para a nova loja."
           }
         ],
-        "synonyms": "increase sales, attract customers",
-        "antonyms": "lose business, decline, reduce sales",
+        "synonyms": ["increase sales", "attract customers"],
+        "antonyms": ["lose business", "decline", "reduce sales"],
         "seeAlso": "",
         "notes": [
           {
@@ -63,7 +61,6 @@
     ]
   },
   {
-    "keyword": "dud",
     "definitions": [
       {
         "word": "dud",
@@ -77,13 +74,12 @@
             "ptExample": "O novo dispositivo acabou sendo um fracasso, quebrou após o primeiro uso."
           }
         ],
-        "synonyms": "failure, flop, bust",
-        "antonyms": "success, hit, winner"
+        "synonyms": ["failure", "flop", "bust"],
+        "antonyms": ["success", "hit", "winner"]
       }
     ]
   },
   {
-    "keyword": "do whatever it takes",
     "definitions": [
       {
         "word": "do whatever it takes",
@@ -114,7 +110,6 @@
     ]
   },
   {
-    "keyword": "deaf",
     "definitions": [
       {
         "word": "deafness",
@@ -132,7 +127,6 @@
     ]
   },
   {
-    "keyword": "dead",
     "definitions": [
       {
         "word": "deadliest",
@@ -161,7 +155,6 @@
     ]
   },
   {
-    "keyword": "debris",
     "definitions": [
       {
         "word": "debris",
@@ -175,12 +168,11 @@
             "ptExample": "Destroços da aeronave foram espalhados por uma grande área."
           }
         ],
-        "synonyms": "detritus"
+        "synonyms": ["detritus"]
       }
     ]
   },
   {
-    "keyword": "dream up",
     "definitions": [
       {
         "word": "dream up",
@@ -198,13 +190,12 @@
             "ptExample": "A equipe de publicidade inventou um slogan chamativo para o novo produto."
           }
         ],
-        "synonyms": "invent, create, conceive",
-        "antonyms": "copy, replicate, imitate"
+        "synonyms": ["invent", "create", "conceive"],
+        "antonyms": ["copy", "replicate", "imitate"]
       }
     ]
   },
   {
-    "keyword": "delicious",
     "definitions": [
       {
         "word": "delicious",
@@ -218,14 +209,13 @@
             "ptExample": "O bolo que ela fez estava absolutamente delicioso."
           }
         ],
-        "synonyms": "tasty, delectable",
-        "antonyms": "unpalatable, tasteless",
-        "seeAlso": "scrumptious, mouth-watering"
+        "synonyms": ["tasty", "delectable"],
+        "antonyms": ["unpalatable", "tasteless"],
+        "seeAlso": ["scrumptious", "mouth-watering"]
       }
     ]
   },
   {
-    "keyword": "drum up business",
     "definitions": [
       {
         "word": "drum up business",
@@ -241,7 +231,6 @@
     ]
   },
   {
-    "keyword": "dulce de leche",
     "definitions": [
       {
         "word": "dulce de leche",

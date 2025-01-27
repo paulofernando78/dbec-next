@@ -1,6 +1,5 @@
 [
   {
-    "keyword": "a far cry from",
     "definitions": [
       {
         "word": "a far cry from",
@@ -17,8 +16,8 @@
             "ptExample": "O estilo de vida atual dela está bem distante da vida simples que ela costumava levar."
           }
         ],
-        "synonyms": "different, dissimilar, unlike",
-        "antonyms": "similar, alike, same",
+        "synonyms": ["different", "dissimilar", "unlike"],
+        "antonyms": ["similar", "alike", "same"],
         "notes": [
           {
             "enNote": "This idiom is often used to emphasize a notable difference.",
@@ -29,7 +28,6 @@
     ]
   },
   {
-    "keyword": "face the music",
     "definitions": [
       {
         "word": "face the music",
@@ -46,8 +44,8 @@
             "ptExample": "Os funcionários sabiam que teriam que lidar com as consequências por não cumprirem o prazo."
           }
         ],
-        "synonyms": "accept consequences, take responsibility, own up",
-        "antonyms": "avoid blame, escape responsibility, deny",
+        "synonyms": ["accept consequences", "take responsibility", "own up"],
+        "antonyms": ["avoid blame", "escape responsibility", "deny"],
         "seeAlso": "",
         "notes": [
           {
@@ -61,7 +59,6 @@
     ]
   },
   {
-    "keyword": "freebie",
     "definitions": [
       {
         "word": "freebie",
@@ -79,13 +76,12 @@
             "ptExample": "Muitos sites oferecem brindes para atrair novos usuários ou assinantes."
           }
         ],
-        "synonyms": "gift, giveaway, promotional item",
-        "antonyms": "purchase, buy, charge"
+        "synonyms": ["gift", "giveaway", "promotional item"],
+        "antonyms": ["purchase", "buy", "charge"]
       }
     ]
   },
   {
-    "keyword": "for starters",
     "definitions": [
       {
         "word": "for starters",
@@ -98,7 +94,7 @@
             "ptExample": "Para começar, precisamos resolver a questão do orçamento antes de passar para outros tópicos."
           }
         ],
-        "synonyms": "first of all, to begin with",
+        "synonyms": ["first of all", "to begin with"],
         "notes": [
           {
             "ptNote": "The phrase is often used when listing reasons or steps in an argument or plan."
@@ -111,7 +107,6 @@
     ]
   },
   {
-    "keyword": "fast followers",
     "definitions": [
       {
         "word": "fast followers",
@@ -128,8 +123,8 @@
             "ptExample": "A indústria da moda está cheia de seguidoras rápidas, trazendo novas tendências para o mercado depois de serem popularizadas por influenciadores."
           }
         ],
-        "synonyms": "copycats, imitators, trend followers",
-        "antonyms": "early adopters, innovators",
+        "synonyms": ["copycats", "imitators", "trend followers"],
+        "antonyms": ["early adopters", "innovators"],
         "notes": [
           {
             "enNote": "The term \"fast follower\" often carries a connotation of being reactive rather than proactive in adopting new ideas."
@@ -142,7 +137,6 @@
     ]
   },
   {
-    "keyword": "(just) for the record",
     "definitions": [
       {
         "word": "(just) for the record",
@@ -159,8 +153,8 @@
             "ptExample": "Só para constar, o prazo do projeto é na próxima sexta, não nesta."
           }
         ],
-        "synonyms": "for clarity, to be clear, let it be known",
-        "antonyms": "ambiguous, unclear, uncertain",
+        "synonyms": ["for clarity", "to be clear", "let it be known"],
+        "antonyms": ["ambiguous", "unclear", "uncertain"],
         "notes": [
           {
             "enNote": "Often used in conversations or formal statements to ensure accurate understanding of a point."
@@ -173,7 +167,6 @@
     ]
   },
   {
-    "keyword": "fine-tune",
     "definitions": [
       {
         "word": "fine-tune",
@@ -191,8 +184,8 @@
             "ptExample": "O engenheiro passou horas ajustando a máquina para garantir que operasse com eficiência máxima."
           }
         ],
-        "synonyms": "adjust, refine, tweak, optimize",
-        "antonyms": "neglect, worsen, overlook",
+        "synonyms": ["adjust", "refine", "tweak", "optimize"],
+        "antonyms": ["neglect", "worsen", "overlook"],
         "notes": [
           {
             "enNote": "This phrase is often used in technical, creative, or professional contexts when precision is essential."
@@ -205,7 +198,6 @@
     ]
   },
   {
-    "keyword": "flesh out something",
     "definitions": [
       {
         "word": "flesh out something",
@@ -218,8 +210,8 @@
             "ptExample": "A proposta inicial era apenas um esboço, mas precisamos detalhá-la antes de apresentá-la ao cliente."
           }
         ],
-        "synonyms": "develop, expand, elaborate, refine",
-        "antonyms": "simplify, abbreviate, shorten, condense",
+        "synonyms": ["develop", "expand", "elaborate", "refine"],
+        "antonyms": ["simplify", "abbreviate", "shorten", "condense"],
         "notes": [
           {
             "enNote": "This phrase is commonly used when referring to developing a concept, project, or plan further, especially in creative or business contexts."
@@ -232,7 +224,6 @@
     ]
   },
   {
-    "keyword": "faux pas",
     "definitions": [
       {
         "word": "faux pas",
@@ -246,12 +237,11 @@
             "ptExample": "Fiz um comentário sobre a família da esposa dele e, em seguida, percebi que cometi uma gafe séria."
           }
         ],
-        "synonyms": "gaffe, slip"
+        "synonyms": ["gaffe", "slip"]
       }
     ]
   },
   {
-    "keyword": "face the music",
     "definitions": [
       {
         "word": "face the music",
@@ -268,7 +258,6 @@
     ]
   },
   {
-    "keyword": "fast track a project",
     "definitions": [
       {
         "word": "fast track a project",
@@ -285,7 +274,6 @@
     ]
   },
   {
-    "keyword": "feel like",
     "definitions": [
       {
         "word": "feel like",
@@ -322,7 +310,6 @@
     ]
   },
   {
-    "keyword": "fetus",
     "definitions": [
       {
         "word": "fetus",
@@ -340,7 +327,6 @@
     ]
   },
   {
-    "keyword": "focus",
     "definitions": [
       {
         "word": "focus",
@@ -366,7 +352,7 @@
             "ptExample": "Você precisa focar a câmera."
           }
         ],
-        "synonyms": "adjust"
+        "synonyms": ["adjust"]
       },
       {
         "ptDefinition": "concentrar",
@@ -376,13 +362,12 @@
             "ptExample": "Concentre sua atenção no que é importante."
           }
         ],
-        "synonyms": "concentrate"
+        "synonyms": ["concentrate"]
       }
     ]
   },
 
   {
-    "keyword": "freebie",
     "definitions": [
       {
         "word": "freebie",

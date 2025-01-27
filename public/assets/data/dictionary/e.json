@@ -1,6 +1,5 @@
 [
   {
-    "keyword": "eating one's lunch",
     "definitions": [
       {
         "word": "eating one's lunch",
@@ -17,13 +16,12 @@
             "ptExample": "Se não inovarmos, empresas menores vão começar a nos superar neste mercado."
           }
         ],
-        "synonyms": "outperform, surpass, dominate",
-        "antonyms": "fall behind, lose to, be outdone"
+        "synonyms": ["outperform", "surpass", "dominate"],
+        "antonyms": ["fall behind", "ose to", "be outdone"]
       }
     ]
   },
   {
-    "keyword": "educated guess",
     "definitions": [
       {
         "word": "educated guess",
@@ -36,14 +34,13 @@
             "ptExample": "Após revisar os dados, fiz uma suposição sobre o crescimento futuro da empresa."
           }
         ],
-        "synonyms": "informed guess, reasoned guess",
-        "antonyms": "wild guess, shot in the dark",
-        "seeAlso": "hypothesis"
+        "synonyms": ["informed guess", "reasoned guess"],
+        "antonyms": ["wild guess", "shot in the dark"],
+        "seeAlso": ["hypothesis"]
       }
     ]
   },
   {
-    "keyword": "escarole",
     "definitions": [
       {
         "word": "escarole",
@@ -61,7 +58,6 @@
     ]
   },
   {
-    "keyword": "ethical",
     "definitions": [
       {
         "word": "ethical",
@@ -75,13 +71,12 @@
             "ptExample": "Assegurar / Garantir a confidencialidade do paciente é uma parte fundamental da conduta ética na medicina."
           }
         ],
-        "synonyms": "honest, honoroble, humane, proper",
-        "antonyms": "dishonest, immoral, corrupt, improper, unjust"
+        "synonyms": ["honest", "honoroble", "humane", "proper"],
+        "antonyms": ["dishonest", "immoral", "corrupt", "improper", "unjust"]
       }
     ]
   },
   {
-    "keyword": "everyone",
     "definitions": [
       {
         "word": "everyone",
@@ -112,7 +107,6 @@
     ]
   },
   {
-    "keyword": "excite",
     "definitions": [
       {
         "word": "excite",
@@ -130,9 +124,9 @@
             "ptExample": "A descoberta entusiasmou a comunidade científica."
           }
         ],
-        "synonyms": "thrill, elate, stimulate, energize",
-        "antonyms": "bore, depress, calm, discourage",
-        "seeAlso": "arouse, inspire, provoke"
+        "synonyms": ["thrill", "elate", "stimulate", "energize"],
+        "antonyms": ["bore", "depress", "calm", "discourage"],
+        "seeAlso": ["arouse", "inspire", "provoke"]
       }
     ]
   }

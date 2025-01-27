@@ -1,6 +1,5 @@
 [
   {
-    "keyword": "vigorous",
     "definitions": [
       {
         "word": "vigorous",
@@ -18,8 +17,8 @@
             "ptExample": "O debate foi marcado por argumentos vigorosos de ambos os lados."
           }
         ],
-        "synonyms": "energetic, forceful, robust",
-        "antonyms": "weak, sluggish, feeble"
+        "synonyms": ["energetic", "forceful", "robust"],
+        "antonyms": ["weak", "sluggish", "feeble"]
       }
     ]
   }

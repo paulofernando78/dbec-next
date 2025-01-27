@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { speakerIcon, playingIcon, closeIcon } from "@/img/index";
+import { closeIcon } from "@/img/index";
 import { IDictionaryDefinitions, WordCardProps } from "./types";
 import styles from "./styles.module.css";
 import { handleTextToSpeech } from "@/utils/textToSpeech";
@@ -16,13 +16,8 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
   }>({});
   const [error, setError] = useState<string | null>(null);
 
-  function Play({
-    onClick,
-    className,
-  }: {
-    onClick?: () => void;
-    className?: string;
-  }) {
+  // Play omponent
+  function Play({ onClick }: { onClick?: () => void; className?: string }) {
     return (
       <>
         <div className={`${styles["play"]}`} onClick={onClick}></div>
@@ -30,10 +25,12 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
     );
   }
 
+  // Loading Animation Component
   function LoadingAnimation() {
     return <div className={`${styles["loading"]}`}></div>;
   }
 
+  // Playing Animation Component
   function PlayingAnimation() {
     return (
       <div className={styles["waves-flex"]}>
@@ -113,118 +110,150 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                   )}
                 </div>
 
+                {/* Line-break to all */}
                 <div className="line-break">
-                  {/* Definitions */}
-                  <div className={styles["border-left"]}>
-                    <p className="bold">Definition</p>
-                    <div className={styles["audio-container"]}>
-                      {loadingAudios[`enDefinition-${index}`] ? (
-                        <LoadingAnimation />
-                      ) : playingAudios[`enDefinition-${index}`] ? (
-                        <PlayingAnimation />
-                      ) : (
-                        <Play
-                          onClick={() => {
-                            if (
-                              definition.enDefinition &&
-                              !loadingAudios[`enDefinition-${index}`] &&
-                              !playingAudios[`enDefinition-${index}`]
-                            ) {
-                              setLoadingAudios((prev) => ({
-                                ...prev,
-                                [`enDefinition-${index}`]: true,
-                              }));
-                              handleTextToSpeech(
-                                definition.enDefinition || "",
-                                `enDefinition-${index}`,
-                                (isLoading) => {
-                                  setLoadingAudios((prev) => ({
-                                    ...prev,
-                                    [`enDefinition-${index}`]: !!isLoading,
-                                  }));
-                                },
-                                setError,
-                                setPlayingAudios,
-                                playingAudios
-                              );
-                            }
-                          }}
-                        />
-                      )}
-                    </div>
 
-                    {definition.enDefinition && (
-                      <p className="display-inline">
-                        <span>{definition.enDefinition}</span>{" "}
-                        <span className="portuguese">
-                          {definition.ptDefinition}
-                        </span>
-                      </p>
-                    )}
-                  </div>
+                  {/* Definitions */}
+                    <div className={styles["border-left"]}>
+                      <p className="bold">Definition</p>
+                      <ul>
+                        <li>
+                          {definition.enDefinition && <div className={styles["audio-container"]}>
+                            {loadingAudios[`enDefinition-${index}`] ? (
+                              <LoadingAnimation />
+                            ) : playingAudios[`enDefinition-${index}`] ? (
+                              <PlayingAnimation />
+                            ) : (
+                              <Play
+                                onClick={() => {
+                                  if (
+                                    definition.enDefinition &&
+                                    !loadingAudios[`enDefinition-${index}`] &&
+                                    !playingAudios[`enDefinition-${index}`]
+                                  ) {
+                                    setLoadingAudios((prev) => ({
+                                      ...prev,
+                                      [`enDefinition-${index}`]: true,
+                                    }));
+                                    handleTextToSpeech(
+                                      definition.enDefinition || "",
+                                      `enDefinition-${index}`,
+                                      (isLoading) => {
+                                        setLoadingAudios((prev) => ({
+                                          ...prev,
+                                          [`enDefinition-${index}`]:
+                                            !!isLoading,
+                                        }));
+                                      },
+                                      setError,
+                                      setPlayingAudios,
+                                      playingAudios
+                                    );
+                                  }
+                                }}
+                              />
+                            )}
+                          </div>}
+                          
+                              <li className="display-inline">
+                                {definition.enDefinition}{" "}
+                                {definition.ptDefinition && <span className="portuguese">
+                                  {definition.ptDefinition}
+                                </span>}
+                              </li>
+                            
+                        </li>
+                      </ul>
+                    </div>
+                  
 
                   {/* Examples */}
-                  <div className={styles["border-left"]}>
-                    <p className="bold">Example</p>
-                    {definition.examples?.map((example, exampleIndex) => (
-                      <p key={exampleIndex}>
-                        <div className={styles["audio-container"]}>
-                          {loadingAudios[`example-${index}-${exampleIndex}`] ? (
-                            <LoadingAnimation />
-                          ) : playingAudios[
-                              `example-${index}-${exampleIndex}`
-                            ] ? (
-                            <PlayingAnimation />
-                          ) : (
-                            <Play
-                              onClick={() => {
-                                if (
-                                  example.enExample &&
-                                  !loadingAudios[
-                                    `example-${index}-${exampleIndex}`
-                                  ] &&
-                                  !playingAudios[
-                                    `example-${index}-${exampleIndex}`
-                                  ]
-                                ) {
-                                  setLoadingAudios((prev) => ({
-                                    ...prev,
-                                    [`example-${index}-${exampleIndex}`]: true,
-                                  }));
-                                  handleTextToSpeech(
-                                    example.enExample || "",
-                                    `example-${index}-${exampleIndex}`,
-                                    (isLoading) => {
-                                      setLoadingAudios((prev) => ({
-                                        ...prev,
-                                        [`example-${index}-${exampleIndex}`]:
-                                          !!isLoading,
-                                      }));
-                                    },
-                                    setError,
-                                    setPlayingAudios,
-                                    playingAudios
-                                  );
-                                }
-                              }}
-                            />
-                          )}
-                        </div>
-                        {example.enExample && <span>{example.enExample}</span>}{" "}
-                        {example.ptExample && (
-                          <span className="portuguese">
-                            {example.ptExample}
-                          </span>
+                  {definition.examples &&
+                    definition.examples.some(
+                      (example) => example.enExample
+                    ) && (
+                      <div className={styles["border-left"]}>
+                        <p className="bold">Example</p>
+                        {definition.examples.map(
+                          (example, exampleIndex) =>
+                            example.enExample && (
+                              <ul key={exampleIndex}>
+                                <li>
+                                  <div className={styles["audio-container"]}>
+                                    {loadingAudios[
+                                      `example-${index}-${exampleIndex}`
+                                    ] ? (
+                                      <LoadingAnimation />
+                                    ) : playingAudios[
+                                        `example-${index}-${exampleIndex}`
+                                      ] ? (
+                                      <PlayingAnimation />
+                                    ) : (
+                                      <Play
+                                        onClick={() => {
+                                          if (
+                                            example.enExample &&
+                                            !loadingAudios[
+                                              `example-${index}-${exampleIndex}`
+                                            ] &&
+                                            !playingAudios[
+                                              `example-${index}-${exampleIndex}`
+                                            ]
+                                          ) {
+                                            setLoadingAudios((prev) => ({
+                                              ...prev,
+                                              [`example-${index}-${exampleIndex}`]:
+                                                true,
+                                            }));
+                                            handleTextToSpeech(
+                                              example.enExample,
+                                              `example-${index}-${exampleIndex}`,
+                                              (isLoading) => {
+                                                setLoadingAudios((prev) => ({
+                                                  ...prev,
+                                                  [`example-${index}-${exampleIndex}`]:
+                                                    !!isLoading,
+                                                }));
+                                              },
+                                              setError,
+                                              setPlayingAudios,
+                                              playingAudios
+                                            );
+                                          }
+                                        }}
+                                      />
+                                    )}
+                                  </div>
+                                  <span>{example.enExample}</span>{" "}
+                                  {example.ptExample && (
+                                    <span className="portuguese">
+                                      {example.ptExample}
+                                    </span>
+                                  )}
+                                </li>
+                              </ul>
+                            )
                         )}
-                      </p>
-                    ))}
-                  </div>
+                      </div>
+                    )}
 
                   {/* Synonyms */}
-                  {definition.synonyms && (
+                  {definition.synonyms && definition.synonyms.length > 0 && (
                     <div className={styles["border-left"]}>
                       <p className="bold">Synonyms</p>
-                      <p>{definition.synonyms}</p>
+                      <ul>
+                        {definition.synonyms?.map((synonym, synonymIndex) => (
+                          <li
+                            key={synonymIndex}
+                            className="display-inline p-font"
+                          >
+                            {synonym}
+                            {definition.synonyms &&
+                              synonymIndex < definition.synonyms.length - 1 &&
+                              ","}{" "}
+                          </li>
+                        ))}
+                      </ul>
                     </div>
                   )}
 
@@ -232,7 +261,19 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                   {definition.antonyms && (
                     <div className={styles["border-left"]}>
                       <p className="bold">Antonyms</p>
-                      <p>{definition.antonyms}</p>
+                      <ul>
+                        {definition.antonyms?.map((antonym, antonymIndex) => (
+                          <li
+                            key={antonymIndex}
+                            className="display-inline p-font"
+                          >
+                            {antonym}
+                            {definition.antonyms &&
+                              antonymIndex < definition.antonyms.length - 1 &&
+                              ","}{" "}
+                          </li>
+                        ))}
+                      </ul>
                     </div>
                   )}
 
@@ -248,6 +289,13 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                       </p>
                     </div>
                   ))}
+                  <hr
+                    className={`customized-hr ${
+                      index === dictionary.definitions.length - 1
+                        ? "last-customized-hr"
+                        : ""
+                    }`}
+                  />
                 </div>
               </div>
             )

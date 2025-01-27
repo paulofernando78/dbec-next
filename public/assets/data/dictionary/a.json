@@ -1,6 +1,64 @@
 [
   {
-    "keyword": "at a premium",
+    "definitions": [
+      {
+        "word": "ask for trouble",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to behave in a way that is likely to result in trouble or problems",
+        "ptDefinition": "comportar-se de uma maneira que provavelmente resultará em problemas ou dificuldades",
+        "examples": [
+          {
+            "enExample": "If you go out in this storm, you're asking for trouble.",
+            "ptExample": "Se você sair nesta tempestade, estará pedindo problemas."
+          },
+          {
+            "enExample": "Ignoring safety regulations is just asking for trouble.",
+            "ptExample": "Ignorar as normas de segurança é pedir problemas."
+          }
+        ],
+        "synonyms": ["court disaster", "invite trouble", "tempt fate"],
+        "antonyms": ["play it safe", "avoid risk"],
+        "seeAlso": ["bring on trouble", "invite problems"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to warn someone that their actions may lead to negative consequences.",
+            "ptNote": "Este idiom é frequentemente usado para avisar alguém de que suas ações podem levar a consequências negativas."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "agenda item",
+        "phonetics": "/əˈdʒɛndə ˈaɪɾəm/",
+        "partOfSpeech": "noun",
+        "enDefinition": "A specific subject or topic listed for discussion or action during a meeting or event.",
+        "ptDefinition": "Um assunto ou tópico específico listado para discussão ou ação durante uma reunião ou evento.",
+        "examples": [
+          {
+            "enExample": "The budget report is the first agenda item for today's meeting.",
+            "ptExample": "O relatório orçamentário é o primeiro item da agenda para a reunião de hoje."
+          },
+          {
+            "enExample": "Please prepare your notes on the agenda item regarding team restructuring.",
+            "ptExample": "Por favor, prepare suas notas sobre o item da agenda referente à reestruturação da equipe."
+          }
+        ],
+        "synonyms": ["meeting topic", "discussion point", "agenda topic"],
+        "antonyms": [],
+        "seeAlso": ["agenda", "meeting schedule"],
+        "notes": [
+          {
+            "enNote": "Agenda items are typically organized in order of importance or relevance to the meeting objectives.",
+            "ptNote": "Os itens da agenda geralmente são organizados por ordem de importância ou relevância para os objetivos da reunião."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "definitions": [
       {
         "word": "at a premium",
@@ -17,13 +75,12 @@
             "ptExample": "durante as férias, os voos geralmente estão disponíveis a preços mais altos"
           }
         ],
-        "synonyms": "expensive, costly, overpriced",
-        "antonyms": "cheap, affordable, discounted"
+        "synonyms": ["expensive", "costly", "overpriced"],
+        "antonyms": ["cheap", "affordable", "discounted"]
       }
     ]
   },
   {
-    "keyword": "at the end of the day",
     "definitions": [
       {
         "word": "at the end of the day",
@@ -40,8 +97,8 @@
             "ptExample": "Podemos discordar de muitos pontos, mas no final das contas, estamos todos trabalhando para o mesmo objetivo."
           }
         ],
-        "synonyms": "when all is said and done, in the final analysis, when the dust settles",
-        "antonyms": "at the beginning, in the early stages, initially",
+        "synonyms": ["when all is said and done", "in the final analysis", "when the dust settles"],
+        "antonyms": ["at the beginning", "in the early stages", "initially"],
         "notes": [
           {
             "enNote": "This phrase is often used to summarize or conclude a discussion, emphasizing what matters most after considering all aspects.",
@@ -52,7 +109,6 @@
     ]
   },
   {
-    "keyword": "aim",
     "definitions": [
       {
         "word": "aim",
@@ -67,13 +123,12 @@
             "ptExample": "Meu principal objetivo na vida é ser um bom marido e pai."
           }
         ],
-        "synonyms": "goal, ambition, dream, target, intention, wish",
-        "antonyms": "dislike, hate, hatred"
+        "synonyms": ["goal", "ambition", "dream, target", "intention, wish"],
+        "antonyms": ["dislike", "hate", "hatred"]
       }
     ]
   },
   {
-    "keyword": "acronym",
     "definitions": [
       {
         "word": "acronym",
@@ -87,12 +142,11 @@
             "ptExample": "NASA é um acrônimo para Administração Nacional de Aeronáutica e Espaço."
           }
         ],
-        "synonyms": "abbreviation, initialism"
+        "synonyms": ["abbreviation", "initialism"]
       }
     ]
   },
   {
-    "keyword": "an",
     "definitions": [
       {
         "word": "an",
@@ -122,7 +176,6 @@
     ]
   },
   {
-    "keyword": "angry",
     "definitions": [
       {
         "word": "angry",
@@ -136,14 +189,13 @@
             "ptExample": "Ela estava brava porque não conseguiu o emprego."
           }
         ],
-        "synonyms": "furious, irate, enraged, livid, upset",
-        "antonyms": "calm, content, peaceful, happy, relaxed",
-        "seeAlso": "frustrated, irritated"
+        "synonyms": ["furious", "irate", "enraged", "livid, upset"],
+        "antonyms": ["calm", "content", "peaceful", "happy", "relaxed"],
+        "seeAlso": ["frustrated", "irritated"]
       }
     ]
   },
   {
-    "keyword": "all-you-can-eat",
     "definitions": [
       {
         "word": "all-you-can-eat",
@@ -161,7 +213,6 @@
     ]
   },
   {
-    "keyword": "annoy",
     "definitions": [
       {
         "word": "annoy",
@@ -174,8 +225,8 @@
             "ptExample": "É importante respeitar o espaço pessoal dos outros e não fazer coisas que possam incomodá-los."
           }
         ],
-        "synonyms": "bother, irritate, bug",
-        "antonyms": "please, gratify"
+        "synonyms": ["bother", "irritate", "bug"],
+        "antonyms": ["please", "gratify"]
       },
       {
         "word": "annoyed",
@@ -239,11 +290,25 @@
             "ptExample": "Ele tem mesmo uma risada irritante."
           }
         ]
+      },
+      {
+        "word": "annoyed",
+        "phonetics": "/əˈnɔɪd/",
+        "partOfSpeech": "adjective",
+        "examples": [
+          {
+        "enExample": "She was annoyed by the constant noise from the construction site.",
+        "ptExample": "Ela estava irritada com o barulho constante do canteiro de obras."
+          },
+          {
+        "enExample": "He felt annoyed when his plans were suddenly changed.",
+        "ptExample": "Ele se sentiu irritado quando seus planos foram subitamente alterados."
+          }
+        ]
       }
     ]
   },
   {
-    "keyword": "anticipate",
     "definitions": [
       {
         "word": "anticipate",
@@ -280,13 +345,12 @@
             "ptExample": "A expectativa de inflação é menor do que a do mês passado."
           }
         ],
-        "synonyms": "expect, look for, await, count on, prepare oneself for, look toward, look forward to, long for. pin hope on. foresee",
-        "antonyms": "remember"
+        "synonyms": ["expect", "look for", "await", "count on", "prepare oneself for", "look toward", "look forward to", "long for", "pin hope on", "foresee"],
+        "antonyms": ["remember"]
       }
     ]
   },
   {
-    "keyword": "anxiety",
     "definitions": [
       {
         "word": "anxiety",
@@ -303,7 +367,6 @@
     ]
   },
   {
-    "keyword": "apple",
     "definitions": [
       {
         "word": "apple",
@@ -320,7 +383,6 @@
     ]
   },
   {
-    "keyword": "aerobic",
     "definitions": [
       {
         "word": "aerobic",
@@ -334,13 +396,12 @@
             "ptExample": "Exercícios aeróbicos, como correr, melhoram a saúde cardiovascular."
           }
         ],
-        "synonyms": "cardio, oxygen-consuming",
-        "antonyms": "anaerobic"
+        "synonyms": ["cardio", "oxygen-consuming"],
+        "antonyms": ["anaerobic"]
       }
     ]
   },
   {
-    "keyword": "ask",
     "definitions": [
       {
         "word": "ask",
@@ -362,8 +423,8 @@
             "ptExample": "Posso te fazer uma pergunta?"
           }
         ],
-        "synonyms": "inquire, consult",
-        "antonyms": "answer, reply"
+        "synonyms": ["inquire", "consult"],
+        "antonyms": ["answer", "reply"]
       },
       {
         "ptDefinition": "pedir",
@@ -381,8 +442,8 @@
             "ptExample": "Costumamos pedir aos nossos vizinhos para ficarem de olho na nossa casa quando estamos fora."
           }
         ],
-        "synonyms": "request",
-        "antonyms": "refuse, reject, deny"
+        "synonyms": ["request"],
+        "antonyms": ["refuse", "reject", "deny"]
       },
       {
         "ptDefinition": "pedir (preço), cobrar, demandar",
@@ -392,8 +453,8 @@
             "ptExample": "Sempre cobro 50 dólares por hora pelos meus serviços."
           }
         ],
-        "synonyms": "demand, expect, charge",
-        "antonyms": "give, offer"
+        "synonyms": ["demand", "expect", "charge"],
+        "antonyms": ["give, offer"]
       },
       {
         "ptDefinition": "convidar",
@@ -403,8 +464,8 @@
             "ptExample": "Minha avó sempre me convida para ir na casa dela."
           }
         ],
-        "synonyms": "invite",
-        "antonyms": "avoid, refrain (from)"
+        "synonyms": ["invite"],
+        "antonyms": ["avoid", "refrain (from)"]
       },
       {
         "word": "asked",
@@ -450,7 +511,7 @@
             "ptExample": "Quanto está pedindo? / Quanto você quer (por isso)?"
           },
           {
-            "enExample": "*It's asking a lot when your boss wants you to work weekends as well as evenings.",
+            "enExample": "It's asking a lot when your boss wants you to work weekends as well as evenings.",
             "ptExample": "É pedir muito quando seu chefe quer que você trabalhe nos finais de semana e também à noite."
           }
         ]
@@ -463,18 +524,6 @@
           {
             "enExample": "George always asks his parents for advice whenever he's in trouble.",
             "ptExample": "George sempre pede conselhos aos pais sempre que está com problemas."
-          }
-        ]
-      },
-      {
-        "word": "ask for it or trouble",
-        "partOfSpeech": "idiom",
-        "enDefinition": "to be behaving stupidly in a way that is likely to cause problems for you",
-        "ptDefinition": "procurar confusão",
-        "examples": [
-          {
-            "enExample": "Drinking alcohol before driving is really asking for trouble.",
-            "ptExample": "Beber antes de dirigir é pedir para ter problemas."
           }
         ]
       }

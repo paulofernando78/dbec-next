@@ -1,6 +1,35 @@
 [
   {
-    "keyword": "get down to business",
+    "definitions": [
+      {
+        "word": "glad",
+        "phonetics": "/ɡlæd/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "feeling pleasure, joy, or happiness",
+        "ptDefinition": "sentindo prazer, alegria ou felicidade",
+        "examples": [
+          {
+            "enExample": "I'm so glad you came to the party.",
+            "ptExample": "Estou tão feliz que você veio à festa."
+          },
+          {
+            "enExample": "She was glad to hear the good news.",
+            "ptExample": "Ela ficou feliz em ouvir as boas notícias."
+          }
+        ],
+        "synonyms": ["happy", "pleased", "delighted"],
+        "antonyms": ["sad", "unhappy", "displeased"],
+        "seeAlso": ["joyful", "content", "cheerful"],
+        "notes": [
+          {
+            "enNote": "The word 'glad' is often used to express a positive emotional response to something.",
+            "ptNote": "A palavra 'glad' é frequentemente usada para expressar uma resposta emocional positiva a algo."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "definitions": [
       {
         "word": "get down to business",
@@ -17,9 +46,9 @@
             "ptExample": "Vamos nos concentrar no trabalho e descobrir como resolver esse problema o mais rápido possível."
           }
         ],
-        "synonyms": "get to the point, focus, begin, start working",
-        "antonyms": "procrastinate, waste time, delay",
-        "seeAlso": "business discussion, focus, priority tasks",
+        "synonyms": ["get to the point", "focus", "begin", "start working"],
+        "antonyms": ["procrastinate", "waste time", "delay"],
+        "seeAlso": ["business discussion", "focus", "priority tasks"],
         "notes": [
           {
             "enNote": "This phrase is commonly used to indicate that it's time to stop small talk or distractions and begin the main, serious part of a conversation or activity.",
@@ -30,7 +59,6 @@
     ]
   },
   {
-    "keyword": "get buy-in (from)",
     "definitions": [
       {
         "word": "get buy-in (from)",
@@ -48,13 +76,12 @@
             "ptExample": "O gerente trabalhou duro para obter a aprovação dos envolvidos para a nova iniciativa."
           }
         ],
-        "synonyms": "gain support, win approval, get agreement",
-        "antonyms": "face opposition, be rejected"
+        "synonyms": ["gain support", "win approval", "get agreement"],
+        "antonyms": ["face opposition", "be rejected"]
       }
     ]
   },
   {
-    "keyword": "get right on something",
     "definitions": [
       {
         "word": "get right on something",
@@ -71,8 +98,8 @@
             "ptExample": "Precisamos começar este projeto imediatamente para cumprir o prazo."
           }
         ],
-        "synonyms": "get started, tackle, dive into",
-        "antonyms": "delay, procrastinate, put off",
+        "synonyms": ["get started", "tackle", "dive into"],
+        "antonyms": ["delay", "procrastinate", "put off"],
         "notes": [
           {
             "enNote": "This idiom emphasizes urgency and prioritization, suggesting that the task at hand should be dealt with right away.",
@@ -83,7 +110,6 @@
     ]
   },
   {
-    "keyword": "get with the program",
     "definitions": [
       {
         "word": "get with the program",
@@ -100,8 +126,8 @@
             "ptExample": "Pare de resistir à mudança e se atualize—é assim que as coisas funcionam agora."
           }
         ],
-        "synonyms": "get on board, get in line, accept the reality",
-        "antonyms": "resist change, be left behind, not adapt",
+        "synonyms": ["get on board", "get in line", "accept the reality"],
+        "antonyms": ["resist change", "be left behind", "not adapt"],
         "notes": [
           {
             "note": "This phrase is often used to encourage someone to adapt to new ideas, technologies, or approaches."
@@ -114,7 +140,6 @@
     ]
   },
   {
-    "keyword": "get the job done",
     "definitions": [
       {
         "word": "get the job done",
@@ -131,8 +156,8 @@
             "ptExample": "Não importa quão difícil seja, ela sempre encontra uma maneira de realizar a tarefa."
           }
         ],
-        "synonyms": "accomplish the task, make it happen, see it through",
-        "antonyms": "fail to complete, leave unfinished, fall short",
+        "synonyms": ["accomplish the task", "make it happen", "see it through"],
+        "antonyms": ["fail to complete", "leave unfinished", "fall short"],
         "notes": [
           {
             "enNote": "This phrase emphasizes determination and reliability, often in professional or practical contexts."
@@ -145,7 +170,6 @@
     ]
   },
   {
-    "keyword": "generate lots of buzz",
     "definitions": [
       {
         "word": "generate lots of buzz",
@@ -158,8 +182,8 @@
             "ptExample": "O lançamento do novo produto gerou muita atenção nas redes sociais, com as pessoas compartilhando suas opiniões e empolgação."
           }
         ],
-        "synonyms": "create excitement, stir up interest, spark attention",
-        "antonyms": "go unnoticed, lack interest, be ignored",
+        "synonyms": ["create excitement", "stir up interest", "spark attention"],
+        "antonyms": ["go unnoticed", "lack interest", "be ignored"],
         "notes": [
           {
             "enNote": "This phrase is often used in marketing and media to describe how something quickly becomes a topic of conversation."
@@ -172,7 +196,6 @@
     ]
   },
   {
-    "keyword": "game plan",
     "definitions": [
       {
         "word": "game plan",
@@ -189,7 +212,6 @@
     ]
   },
   {
-    "keyword": "gene",
     "definitions": [
       {
         "word": "gene",
@@ -211,9 +233,9 @@
             "ptExample": "Os genes são transmitidos dos pais para seus descendentes."
           }
         ],
-        "synonyms": "hereditary unit, DNA segment, genetic material",
-        "antonyms": "non-genetic factor",
-        "seeAlso": "genetics, genome, chromosome",
+        "synonyms": ["hereditary unit", "DNA segment", "genetic material"],
+        "antonyms": ["non-genetic factor"],
+        "seeAlso": ["genetics", "genome", "chromosome"],
         "notes": [
           {
             "enNote": "Genes play a fundamental role in the inheritance of traits and biological diversity.",
@@ -224,7 +246,6 @@
     ]
   },
   {
-    "keyword": "genome",
     "definitions": [
       {
         "word": "genome",
@@ -236,7 +257,6 @@
     ]
   },
   {
-    "keyword": "genetic code",
     "definitions": [
       {
         "word": "genetic code",
@@ -247,7 +267,6 @@
     ]
   },
   {
-    "keyword": "get something off the ground",
     "definitions": [
       {
         "word": "get something off the ground",
@@ -264,7 +283,6 @@
     ]
   },
   {
-    "keyword": "get to the bottom of something",
     "definitions": [
       {
         "word": "get to the bottom of something",
@@ -281,8 +299,8 @@
             "ptExample": "Precisamos entender de fato por que as vendas têm diminuído nos últimos meses."
           }
         ],
-        "synonyms": "investigate, uncover, figure out",
-        "antonyms": "ignore, neglect, overlook",
+        "synonyms": ["investigate", "uncover", "figure out"],
+        "antonyms": ["ignore", "neglect", "overlook"],
         "notes": [
           {
             "enNote": "This idiom is often used in problem-solving contexts where understanding the root cause is essential."
@@ -295,7 +313,6 @@
     ]
   },
   {
-    "keyword": "get wind of",
     "definitions": [
       {
         "word": "get wind of",
@@ -312,7 +329,6 @@
     ]
   },
   {
-    "keyword": "give a run for one's money",
     "definitions": [
       {
         "word": "give a run for one's money",
@@ -330,14 +346,13 @@
             "ptExample": "Se você contratá-la, ela vai dar trabalho para todos os outros funcionários."
           }
         ],
-        "synonyms": "challenge, compete with, rival",
-        "antonyms": "yield, concede, surrender",
-        "seeAlso": "give someone a hard time, hold one's own"
+        "synonyms": ["challenge", "compete with", "rival"],
+        "antonyms": ["yield", "concede", "surrender"],
+        "seeAlso": ["give someone a hard time", "hold one's own"]
       }
     ]
   },
   {
-    "keyword": "give it one's best shot",
     "definitions": [
       {
         "word": "give it one's best shot",
@@ -358,9 +373,9 @@
             "ptExample": "Não tenho certeza se consigo fazer, mas vou dar o meu melhor."
           }
         ],
-        "synonyms": "try hard, give one's all, do one's best",
-        "antonyms": "give up, half-hearted attempt, slack off",
-        "seeAlso": "put in effort, give one's all",
+        "synonyms": ["try hard", "give one's all", "do one's best"],
+        "antonyms": ["give up", "half-hearted attempt", "slack off"],
+        "seeAlso": ["put in effort", "give one's all"],
         "notes": [
           {
             "enNote": "This idiom emphasizes putting in maximum effort, regardless of the outcome.",
@@ -371,7 +386,6 @@
     ]
   },
   {
-    "keyword": "give somebody the green light",
     "definitions": [
       {
         "word": "give somebody the greenlight",
@@ -388,14 +402,13 @@
             "ptExample": "Assim que recebermos o sinal verde do conselho, podemos prosseguir com a construção."
           }
         ],
-        "synonyms": "approve, authorize, permit",
-        "antonyms": "deny, block, refuse",
-        "seeAlso": "give the go-ahead, grant permission"
+        "synonyms": ["approve", "authorize", "permit"],
+        "antonyms": ["deny", "block", "refuse"],
+        "seeAlso": ["give the go-ahead", "grant permission"]
       }
     ]
   },
   {
-    "keyword": "good",
     "definitions": [
       {
         "word": "good",
@@ -441,7 +454,6 @@
     ]
   },
   {
-    "keyword": "goods",
     "definitions": [
       {
         "word": "goods",
@@ -459,7 +471,6 @@
     ]
   },
   {
-    "keyword": "good call",
     "definitions": [
       {
         "word": "good call",
@@ -476,8 +487,8 @@
             "ptExample": "Foi uma boa decisão adiar o evento até o tempo melhorar."
           }
         ],
-        "synonyms": "wise decision, smart move, good judgment",
-        "antonyms": "bad decision, poor judgment, mistake",
+        "synonyms": ["wise decision", "smart move", "good judgment"],
+        "antonyms": ["bad decision", "poor judgment", "mistake"],
         "notes": [
           {
             "enNote": "This idiom is often used to praise someone for making a smart or appropriate choice.",
@@ -488,7 +499,6 @@
     ]
   },
   {
-    "keyword": "go all out",
     "definitions": [
       {
         "word": "go all out",
@@ -505,8 +515,8 @@
             "ptExample": "A empresa está se dedicando ao máximo para ganhar este contrato, oferecendo serviços extras e incentivos."
           }
         ],
-        "synonyms": "put in maximum effort, go the extra mile, spare no expense",
-        "antonyms": "hold back, take it easy, go easy",
+        "synonyms": ["put in maximum effort", "go the extra mile", "spare no expense"],
+        "antonyms": ["hold back", "take it easy", "go easy"],
         "notes": [
           {
             "enNote": "This idiom is often used to describe situations where someone is fully committed to achieving a goal.",
@@ -517,7 +527,6 @@
     ]
   },
   {
-    "keyword": "the grass is always greener on the other side",
     "definitions": [
       {
         "word": "the grass is always greener on the other side",
@@ -534,7 +543,6 @@
     ]
   },
   {
-    "keyword": "guerrilla marketing",
     "definitions": [
       {
         "word": "guerrilla marketing",
@@ -552,8 +560,8 @@
             "ptExample": "As táticas de marketing de guerrilha frequentemente dependem de surpresa e criatividade para engajar o público."
           }
         ],
-        "synonyms": "unconventional marketing, creative advertising, grassroots marketing",
-        "antonyms": "traditional marketing, conventional advertising",
+        "synonyms": ["unconventional marketing", "creative advertising", "grassroots marketing"],
+        "antonyms": ["traditional marketing", "conventional advertising"],
         "seeAlso": "",
         "notes": [
           {

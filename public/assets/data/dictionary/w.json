@@ -1,6 +1,35 @@
 [
   {
-    "keyword": "work one's tail off",
+    "definitions": [
+      {
+        "word": "well",
+        "phonetics": "/wɛl/",
+        "partOfSpeech": "adverb",
+        "enDefinition": "in a good or satisfactory way.",
+        "ptDefinition": "de uma maneira boa ou satisfatória.",
+        "examples": [
+          {
+            "enExample": "She did well on her exams.",
+            "ptExample": "Ela foi bem nas provas."
+          },
+          {
+            "enExample": "He speaks English very well.",
+            "ptExample": "Ele fala inglês muito bem."
+          }
+        ],
+        "synonyms": ["successfully", "admirably", "excellently"],
+        "antonyms": ["badly", "poorly", "unsatisfactorily"],
+        "seeAlso": ["good", "fine"],
+        "notes": [
+          {
+            "enNote": "The word 'well' can also be used as an adjective, noun, interjection, and verb, depending on the context.",
+            "ptNote": "A palavra 'well' também pode ser usada como adjetivo, substantivo, interjeição e verbo, dependendo do contexto."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "definitions": [
       {
         "word": "work one's tail off",
@@ -17,9 +46,9 @@
             "ptExample": "Ele tem trabalhado muito a semana toda para se destacar no trabalho."
           }
         ],
-        "synonyms": "bust one's hump, put in a lot of effort, work hard",
-        "antonyms": "slack off, take it easy",
-        "seeAlso": "burn the midnight oil, break a sweat",
+        "synonyms": ["bust one's hump", "put in a lot of effort", "work hard"],
+        "antonyms": ["slack off", "take it easy"],
+        "seeAlso": ["burn the midnight oil", "break a sweat"],
         "notes": [
           {
             "enNote": "This phrase is often used informally to describe someone who is putting in a lot of effort, especially in a demanding or tiring task.",
@@ -30,7 +59,6 @@
     ]
   },
   {
-    "keyword": "where to begin?",
     "definitions": [
       {
         "word": "where to begin?",
@@ -47,8 +75,8 @@
             "ptExample": "Com tantas tarefas na minha lista, não sei por onde começar."
           }
         ],
-        "synonyms": "how to start, where to start, where do I even begin",
-        "antonyms": "clear starting point, easy beginning, straightforward",
+        "synonyms": ["how to start", "where to start", "where do I even begin"],
+        "antonyms": ["clear starting point", "easy beginning", "straightforward"],
         "notes": [
           {
             "enNote": "This phrase often conveys a sense of being overwhelmed or unsure about the complexity of a situation.",
@@ -59,7 +87,6 @@
     ]
   },
   {
-    "keyword": "wishy-washy",
     "definitions": [
       {
         "word": "wishy-washy",
@@ -77,8 +104,8 @@
             "ptExample": "A resposta indecisa do gerente à situação deixou a equipe insegura sobre os próximos passos."
           }
         ],
-        "synonyms": "indecisive, uncertain, weak-willed",
-        "antonyms": "decisive, strong-willed, confident",
+        "synonyms": ["indecisive", "uncertain", "weak-willed"],
+        "antonyms": ["decisive", "strong-willed", "confident"],
         "notes": [
           {
             "enNote": "This term is often used in a negative sense to describe someone who is unable to make firm decisions or take clear positions."
@@ -91,7 +118,6 @@
     ]
   },
   {
-    "keyword": "Why mess with success?",
     "definitions": [
       {
         "word": "Why mess with success?",
@@ -104,13 +130,12 @@
             "ptExample": "O projeto está indo muito bem, então por que mexer no que já está funcionando?"
           }
         ],
-        "synonyms": "don’t rock the boat",
-        "antonyms": "take risks, try something new, innovate"
+        "synonyms": ["don’t rock the boat"],
+        "antonyms": ["take risks", "try something new", "innovate"]
       }
     ]
   },
   {
-    "keyword": "work down to the wire",
     "definitions": [
       {
         "word": "work down to the wire",
@@ -127,8 +152,8 @@
             "ptExample": "Eles ainda estavam ajustando as funcionalidades do software, trabalhando até o limite antes do lançamento do produto."
           }
         ],
-        "synonyms": "last-minute effort, racing against the clock, under pressure",
-        "antonyms": "ahead of schedule, with plenty of time, well-prepared",
+        "synonyms": ["last-minute effort", "racing against the clock", "under pressure"],
+        "antonyms": ["ahead of schedule", "with plenty of time", "well-prepared"],
         "notes": [
           {
             "enNote": "This phrase is often used in contexts where time management is critical, and tasks are completed just before a deadline."
@@ -141,7 +166,6 @@
     ]
   },
   {
-    "keyword": "work out the kinks",
     "definitions": [
       {
         "word": "work out the kinks",
@@ -158,8 +182,8 @@
             "ptExample": "A equipe passou o fim de semana ajustando os detalhes do plano do projeto para evitar problemas durante a implementação."
           }
         ],
-        "synonyms": "fix problems, iron out issues, resolve, refine",
-        "antonyms": "complicate, overlook, neglect",
+        "synonyms": ["fix problems", "iron out issues", "resolve", "refine"],
+        "antonyms": ["complicate", "overlook", "neglect"],
         "notes": [
           {
             "note": "This phrase is often used in contexts where something is in progress and requires minor fixes or refinements before completion."
@@ -169,7 +193,6 @@
     ]
   },
   {
-    "keyword": "weird",
     "definitions": [
       {
         "word": "weird",

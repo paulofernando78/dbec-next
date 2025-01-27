@@ -38,18 +38,36 @@ async function getDictionaryData(): Promise<IDictionary[]> {
   return dictionaryData.flat();
 }
 
+// export async function searchWords(word: string): Promise<IDictionary[]> {
+//   try {
+//     // Directly use the imported dictionary data
+//     const data: IDictionary[] = await getDictionaryData();
+//     console.log(data);
+//     // Filtra o dicionário para pegar as palavras que contêm a palavra inserida
+//     const wordsFound = data.filter((dict) => {
+//       // converte para letra mínuscula para melhor compatibilidade
+//       return dict.keyword?.toLowerCase().includes(word.toLowerCase());
+//     });
+
+//     // Retorna o dicionário filtrado
+//     return wordsFound;
+//   } catch (error: any) {
+//     console.error(error.message);
+//     return [];
+//   }
+// }
+
 export async function searchWords(word: string): Promise<IDictionary[]> {
   try {
-    // Directly use the imported dictionary data
     const data: IDictionary[] = await getDictionaryData();
-    console.log(data);
-    // Filtra o dicionário para pegar as palavras que contêm a palavra inserida
-    const wordsFound = data.filter((dict) => {
-      // converte para letra mínuscula para melhor compatibilidade
-      return dict.keyword?.toLowerCase().includes(word.toLowerCase());
-    });
+    
+    // Filtrar palavras usando o campo `word` das definições
+    const wordsFound = data.filter((dict) => 
+      dict.definitions.some((definition) =>
+        definition.word?.toLowerCase().includes(word.toLowerCase())
+      )
+    );
 
-    // Retorna o dicionário filtrado
     return wordsFound;
   } catch (error: any) {
     console.error(error.message);

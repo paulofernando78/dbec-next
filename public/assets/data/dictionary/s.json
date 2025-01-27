@@ -14,8 +14,8 @@
             "ptExample": "A cadeira de escritório gira 360 graus para facilitar o movimento."
           }
         ],
-        "synonyms": "spin, rotate, turn",
-        "antonyms": "stay still, remain stationary"
+        "synonyms": ["spin", "rotate", "turn"],
+        "antonyms": ["stay still", "remain stationary"]
       }
     ]
   },
@@ -38,9 +38,8 @@
             "ptExample": "Ele foi rápido em dividir o reconhecimento com seus colegas pelo sucesso da campanha."
           }
         ],
-        "synonyms": "give credit, acknowledge others, share the recognition",
-        "antonyms": "take all the credit, claim all the recognition, be selfish",
-        "seeAlso": "",
+        "synonyms": ["give credit", "acknowledge others", "share the recognition"],
+        "antonyms": ["take all the credit", "claim all the recognition", "be selfish"],
         "notes": [
           {
             "enNote": "This phrase emphasizes collaboration and fairness in recognizing everyone's contribution."
@@ -70,9 +69,8 @@
             "ptExample": "Eles se esforçaram para atrair novos membros para a academia oferecendo promoções especiais."
           }
         ],
-        "synonyms": "acquire customers, recruit members, gain clients",
-        "antonyms": "lose customers, cancel memberships, reduce clientele",
-        "seeAlso": "",
+        "synonyms": ["acquire customers", "recruit members", "gain clients"],
+        "antonyms": ["lose customers", "cancel memberships", "reduce clientele"],
         "notes": [
           {
             "enNote": "This phrase is often used in marketing, sales, and membership-driven businesses."
@@ -102,8 +100,8 @@
             "ptExample": "É hora do novo gerente assumir o desafio e mostrar do que é capaz."
           }
         ],
-        "synonyms": "take responsibility, rise to the occasion, take charge",
-        "antonyms": "avoid responsibility, back down, pass the buck",
+        "synonyms": ["take responsibility", "rise to the occasion", "take charge"],
+        "antonyms": ["avoid responsibility", "back down", "pass the buck"],
         "notes": [
           {
             "enNote": "This expression originates from baseball but is commonly used in business and everyday situations to describe taking initiative."
@@ -116,7 +114,6 @@
     ]
   },
   {
-    "keyword": "sad",
     "definitions": [
       {
         "word": "sad",
@@ -140,7 +137,6 @@
     ]
   },
   {
-    "keyword": "saturated fat",
     "definitions": [
       {
         "word": "saturated fat",
@@ -154,13 +150,12 @@
             "ptExample": "A manteiga é rica em gordura saturada, o que pode aumentar os níveis de colesterol."
           }
         ],
-        "synonyms": "animal fat, solid fat",
-        "antonyms": "unsaturated fat, healthy fat"
+        "synonyms": ["animal fat", "solid fat"],
+        "antonyms": ["unsaturated fat", "healthy fat"]
       }
     ]
   },
   {
-    "keyword": "screen",
     "definitions": [
       {
         "word": "screen",
@@ -174,7 +169,7 @@
             "ptExample": "Eu passo muito tempo olhando para a tela do meu celular."
           }
         ],
-        "synonyms": "display, monitor, panel"
+        "synonyms": ["display", "monitor", "panel"]
       },
       {
         "word": "screen",
@@ -192,13 +187,11 @@
             "ptExample": "Todos os passageiros são examinados no aeroporto por motivos de segurança."
           }
         ],
-        "synonyms": "examine, filter, display",
-        "antonyms": ""
+        "synonyms": ["examine", "filter", "display"]
       }
     ]
   },
   {
-    "keyword": "seem",
     "definitions": [
       {
         "word": "seem",
@@ -228,8 +221,8 @@
             "ptExample": "As coisas raramente são como/o que parecem."
           }
         ],
-        "synonyms": "look, sound, suggest, imply",
-        "antonyms": "be real"
+        "synonyms": ["look", "sound", "suggest", "imply"],
+        "antonyms": ["be real"]
       },
       {
         "word": "seemed",
@@ -305,7 +298,6 @@
     ]
   },
   {
-    "keyword": "several",
     "definitions": [
       {
         "word": "several",
@@ -331,7 +323,6 @@
     ]
   },
   {
-    "keyword": "share the credit",
     "definitions": [
       {
         "word": "share the credit",
@@ -347,7 +338,6 @@
     ]
   },
   {
-    "keyword": "sign on new customers or members",
     "definitions": [
       {
         "word": "sign on new customers or members",
@@ -363,7 +353,6 @@
     ]
   },
   {
-    "keyword": "slippery slope",
     "definitions": [
       {
         "word": "slippery slope",
@@ -385,9 +374,9 @@
             "ptExample": "Permitir exceções à regra cria um declive perigoso que compromete seu propósito."
           }
         ],
-        "synonyms": "domino effect, chain reaction, downward spiral",
-        "antonyms": "stable path, firm ground, safe course",
-        "seeAlso": "snowball effect, cascade",
+        "synonyms": ["domino effect", "chain reaction", "downward spiral"],
+        "antonyms": ["stable path", "firm ground", "safe course"],
+        "seeAlso": ["snowball effect", "cascade"],
         "notes": [
           {
             "enNote": "This phrase is often used in arguments to warn against the potential dangers of a seemingly small decision.",
@@ -398,7 +387,6 @@
     ]
   },
   {
-    "keyword": "spindle",
     "definitions": [
       {
         "word": "spindle",
@@ -416,12 +404,11 @@
             "ptExample": "O artesão usou um fuso para criar fios finos."
           }
         ],
-        "synonyms": ["rod, shaft, axle, pin"]
+        "synonyms": ["rod", "shaft", "axle", "pin"]
       }
     ]
   },
   {
-    "keyword": "stem cell",
     "definitions": [
       {
         "word": "stem cell",
@@ -433,7 +420,6 @@
     ]
   },
   {
-    "keyword": "stocking stuffer",
     "definitions": [
       {
         "word": "stocking stuffer",
@@ -458,7 +444,6 @@
     ]
   },
   {
-    "keyword": "suddenly",
     "definitions": [
       {
         "word": "suddenly",
@@ -476,9 +461,9 @@
             "ptExample": "O carro parou de repente, evitando uma colisão."
           }
         ],
-        "synonyms": "abruptly, unexpectedly, instantaneously",
-        "antonyms": "gradually, slowly",
-        "seeAlso": "immediately, abruptly",
+        "synonyms": ["abruptly", "unexpectedly", "instantaneously"],
+        "antonyms": ["gradually", "slowly"],
+        "seeAlso": ["immediately", "abruptly"],
         "notes": [
           {
             "enNote": "Often used to describe an action that occurs without warning.",
@@ -489,7 +474,6 @@
     ]
   },
   {
-    "keyword": "swamped",
     "definitions": [
       {
         "word": "swamped",
@@ -507,8 +491,8 @@
             "ptExample": "Ela está sobrecarregada com reuniões esta semana, então não pode comparecer à conferência."
           }
         ],
-        "synonyms": "overwhelmed, buried, flooded",
-        "antonyms": "unoccupied, free, relaxed",
+        "synonyms": ["overwhelmed", "buried", "flooded"],
+        "antonyms": ["unoccupied", "free", "relaxed"],
         "notes": [
           {
             "enNote": "This term is often used in professional or work contexts to describe a situation where someone has too much to do.",
@@ -519,7 +503,6 @@
     ]
   },
   {
-    "keyword": "synthetic",
     "definitions": [
       {
         "word": "synthetic",

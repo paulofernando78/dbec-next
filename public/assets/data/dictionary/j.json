@@ -1,6 +1,5 @@
 [
   {
-    "keyword": "junk",
     "definitions": [
       {
         "word": "junk",
@@ -24,7 +23,7 @@
             "ptExample": "Tem muito lixo no quarto dele"
           }
         ],
-        "synonyms": "trash"
+        "synonyms": ["trash"]
       },
       {
         "enDefinition": "something of low quality or value",
@@ -39,7 +38,6 @@
     ]
   },
   {
-    "keyword": "(just) for the record",
     "definitions": [
       {
         "word": "(just) for the record",

@@ -1,6 +1,5 @@
 [
   {
-    "keyword": "half-baked ideas",
     "definitions": [
       {
         "word": "half-baked ideas",
@@ -13,14 +12,13 @@
             "ptExample": "Em sessões de brainstorming criativo, ideias inacabadas podem levar a descobertas inesperadas quando aperfeiçoadas."
           }
         ],
-        "synonyms": "unfinished ideas, rough concepts, early-stage thoughts",
-        "antonyms": "well-developed ideas, polished solutions, concrete plans",
-        "seeAlso": "brainstorming, creative process, idea development"
+        "synonyms": ["unfinished ideas", "rough concepts", "early-stage thoughts"],
+        "antonyms": ["well-developed ideas", "polished solutions", "concrete plans"],
+        "seeAlso": ["brainstorming", "creative process", "idea development"]
       }
     ]
   },
   {
-    "keyword": "happy",
     "definitions": [
       {
         "word": "happy",
@@ -42,13 +40,12 @@
             "ptExample": "Ele ficou feliz com os resultados de seu trabalho árduo."
           }
         ],
-        "synonyms": "joyful, cheerful, content",
-        "antonyms": "sad, unhappy, miserable"
+        "synonyms": ["joyful", "cheerful", "content"],
+        "antonyms": ["sad", "unhappy", "miserable"]
       }
     ]
   },
   {
-    "keyword": "hard stop",
     "definitions": [
       {
         "word": "hard stop",
@@ -70,8 +67,8 @@
             "ptExample": "A equipe concordou em um prazo final para manter o projeto dentro do cronograma."
           }
         ],
-        "synonyms": "deadline, cutoff, endpoint",
-        "antonyms": "flexible timing, open-ended",
+        "synonyms": ["deadline", "cutoff", "endpoint"],
+        "antonyms": ["flexible timing", "open-ended"],
         "notes": [
           {
             "enNote": "Commonly used in business or scheduling contexts to emphasize strict time management.",
@@ -82,7 +79,6 @@
     ]
   },
   {
-    "keyword": "one's head on the chopping block",
     "definitions": [
       {
         "word": "one's head on the chopping block",
@@ -103,8 +99,8 @@
             "ptNote": "Uma \"tábua de cortar\" é um pedaço de madeira onde alimentos ou madeira são cortados. Ter sua cabeça na tábua sugeriria que ela seria cortada. Felizmente, o significado aqui não é literal. Se sua cabeça estiver na tábua de cortar, você pode perder seu emprego, mas pelo menos ainda terá sua cabeça!"
           }
         ],
-        "synonyms": "at risk, on the line, under threat, in jeopardy",
-        "antonyms": "safe, out of harm's way"
+        "synonyms": ["at risk", "on the line", "under threat", "in jeopardy"],
+        "antonyms": ["safe", "out of harm's way"]
       }
     ]
   }
