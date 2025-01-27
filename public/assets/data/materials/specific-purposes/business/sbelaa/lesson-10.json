@@ -27,28 +27,14 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Tanya:</b> Let me"
-            },
-            {
-              "keyword": "kick off",
-              "word": "kick off"
-            },
-            {
-              "enText": "this meeting with some news. Our marketing department would like us to produce a new fragrance by the end of next month."
+              "enText": "<b>Tanya:</b> Let me <b>kick off</b> this meeting with some news. Our marketing department would like us to produce a new fragrance by the end of next month."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>John:</b> Oh, brother.* We"
-            },
-            {
-              "keyword": "need something like a hole in the head",
-              "word": "need this extra work like a hole in the head"
-            },
-            {
-              "enText": "! What fragrance are they looking for?"
+              "enText": "<b>John:</b> Oh, brother. We <b>need this extra work like a hole in the head</b>! What fragrance are they looking for?"
             }
           ]
         },
@@ -62,35 +48,14 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Andy:</b> Mango? Are they"
-            },
-            {
-              "keyword": "out of one's mind",
-              "word": "out of their minds"
-            },
-            {
-              "enText": "? Do they know how tough that is?"
+              "enText": "<b>Andy:</b> Mango? Are they <b>out of their minds?</b> Do they know how tough that is?"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Tanya:</b> Yeah, but I told them we'd"
-            },
-            {
-              "keyword": "take a crack at something",
-              "word": "take a crack at it"
-            },
-            {
-              "enText": ". If we"
-            },
-            {
-              "keyword": "put one's mind to something",
-              "word": "put our minds to it"
-            },
-            {
-              "enText": ", I know we can do it."
+              "enText": "<b>Tanya:</b> Yeah, but I told them we'd <b>take a crack at it</b>. If we <b>put our minds to it</b>, I know we can do it."
             }
           ]
         },
@@ -104,77 +69,28 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Tanya:</b> Let's"
-            },
-            {
-              "keyword": "roll up one's sleeves",
-              "word": "roll up our sleeves "
-            },
-            {
-              "enText": "and"
-            },
-            {
-              "keyword": "give it one's best shot",
-              "word": "give it our best shot"
-            },
-            {
-              "enText": "."
-            },
-            {
-              "keyword": "nothing ventured, nothing gained",
-              "word": "Nothing ventured, nothing gained"
-            },
-            {
-              "enText": "."
+              "enText": "<b>Tanya:</b> Let's <b>roll up our sleeves</b> and <b>give it our best shot</b>. <b>Nothing ventured, nothing gained</b>."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>John:</b> Well, Tanya, you certainly have a"
-            },
-            {
-              "keyword": "can-do attitude",
-              "word": "can-do attitude"
-            },
-            {
-              "enText": "!"
+              "enText": "<b>John:</b> Well, Tanya, you certainly have a <b>can-do attitude!</b>"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Tanya:</b> Actually, this is"
-            },
-            {
-              "keyword": "child's play",
-              "word": "child's play"
-            },
-            {
-              "enText": "compared to what our CEO wants us to do by the end of the year. He wants us to come up with new, improved formulas for all 50 of our shampoos."
+              "enText": "<b>Tanya:</b> Actually, this is <b>child's play</b> compared to what our CEO wants us to do by the end of the year. He wants us to come up with new, improved formulas for all 50 of our shampoos."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Andy:</b> What? How are we supposed to manage that? Sometimes I think the"
-            },
-            {
-              "keyword": "bigwig",
-              "word": "bigwigs"
-            },
-            {
-              "enText": "at this company are"
-            },
-            {
-              "keyword": "out of touch with reality",
-              "word": "out of touch with reality"
-            },
-            {
-              "enText": "!"
+              "enText": "<b>Andy:</b> What? How are we supposed to manage that? Sometimes I think the <b>bigwigs</b> at this company are <b>out of touch with reality</b>!"
             }
           ]
         }

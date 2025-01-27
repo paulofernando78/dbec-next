@@ -149,32 +149,6 @@
   {
     "definitions": [
       {
-        "word": "take a crack at something",
-        "partOfSpeech": "idiom",
-        "enDefinition": "to attempt to do something, especially when it's challenging or newt",
-        "ptDefinition": "tentar fazer algo, especialmente quando é desafiador ou novo",
-        "examples": [
-          {
-            "enExample": "I've never painted before, but I'll take a crack at it.",
-            "ptExample": "Nunca pintei antes, mas vou tentar."
-          },
-          {
-            "enExample": "She decided to take a crack at solving the puzzle.",
-            "ptExample": "Ela decidiu tentar resolver o quebra-cabeça."
-          },
-          {
-            "enExample": "Why don't you take a crack at writing the report?",
-            "ptExample": "Por que você não tenta escrever o relatório?"
-          }
-        ],
-        "synonyms": ["try", "attempt", "give it a shot"],
-        "antonyms": ["avoid", "ignore", "refrain"]
-      }
-    ]
-  },
-  {
-    "definitions": [
-      {
         "word": "the best of both worlds",
         "partOfSpeech": "idiom",
         "enDefinition": "a situation in which one can enjoy the advantages of two different things at the same time, without having to compromise",
