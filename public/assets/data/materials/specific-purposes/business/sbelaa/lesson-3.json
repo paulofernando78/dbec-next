@@ -34,42 +34,21 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Ted:</b> Please, "
-            },
-            {
-              "keyword": "keep an open mind",
-              "word": "keep an open mind"
-            },
-            {
-              "enText": ". Remember that nothing is set in stone yet. We're still just brainstorming."
+              "enText": "<b>Ted:</b> Please, <b>keep an open mind</b>. Remember that <b>nothing is set in stone</b> yet. We're still just <b>brainstorming</b>." 
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Sam:</b> I hope that doesn't mean we're about to hear a lot of"
-            },
-            {
-              "keyword": "half-baked ideas",
-              "word": "half-baked ideas"
-            },
-            {
-              "enText": "!"
+              "enText": "<b>Sam:</b> I hope that doesn't mean we're about to hear a lot of <b>half-baked ideas</b>!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Ted:</b> I think you're going to like this. Our idea is to use a black bear as our mascot. Our"
-            },
-            {
-              "keyword": "tagline",
-              "word": "tagline"
-            },
-            {
-              "enText": "can be: \"Strong enough to satisfy a bear.\""
+              "enText": "<b>Ted:</b> I think you're going to like this. Our idea is to use a black bear as our mascot. Our <b>tagline</b> can be: \"Strong enough to satisfy a bear.\""
             }
           ]
         },
@@ -83,14 +62,7 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Sam:</b> I don't want to"
-            },
-            {
-              "keyword": "throw cold water on",
-              "word": "throw cold water"
-            },
-            {
-              "enText": "on your idea, but where did you get the idea for a bear?"
+              "enText": "<b>Sam:</b> I don't want to <b>throw cold water on</b> your idea, but where did you get the idea for a bear?"
             }
           ]
         },
@@ -104,84 +76,32 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Lisa:</b> I think we're"
-            },
-            {
-              "keyword": "on the right track",
-              "word": "on the right track"
-            },
-            {
-              "enText": "with this campaign. The bear should"
-            },
-            {
-              "keyword": "generate lots of buzz",
-              "word": "generate lots of buzz"
-            },
-            {
-              "enText": ". Everybody will be talking about the bear who loves Pacific beer!"
+              "enText": "<b>Lisa:</b> I think we're <b>on the right track</b> with this campaign. The bear should <b>generate lots of buzz</b>. Everybody will be talking about the bear who loves Pacific beer!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Ted:</b> And here's the"
-            },
-            {
-              "keyword": "icing on the cake",
-              "word": "icing on the cake"
-            },
-            {
-              "enText": ": he won't demand an arm and a leg to"
-            },
-            {
-              "keyword": "plug a product",
-              "word": "plug our product"
-            },
-            {
-              "enText": ". In fact, we can probably pay him in beer!"
+              "enText": "<b>Ted:</b> And here's the <b>icing on the cake</b>: he won't demand <b>an arm and a leg</b> to <b>plug our product</b>. In fact, we can probably pay him in beer!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Sam:</b> Okay, you've"
+              "enText": "<b>Sam:</b> Okay, you've <b>twist one's arm</b>. Let's <b>run with the idea</b>."
             },
+
             {
-              "keyword": "twist one's arm",
-              "word": "twisted my arm"
-            },
-            {
-              "enText": ". Let's"
-            },
-            {
-              "keyword": "run with an idea",
-              "word": "run with the idea"
-            },
-            {
-              "enText": "."
+              "enText": ""
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Ted:</b> Great. I'll"
-            },
-            {
-              "keyword": "flesh out something",
-              "word": "flesh it out "
-            },
-            {
-              "enText": "some more and"
-            },
-            {
-              "keyword": "touch base with",
-              "word": "touch base with"
-            },
-            {
-              "enText": "you in a couple of days."
+              "enText": "<b>Ted:</b> Great. I'll <b>flesh it out</b> some more and <b>touch base with</b> you in a couple of days."
             }
           ]
         }

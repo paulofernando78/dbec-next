@@ -25,14 +25,7 @@
         {
           "paragraphs": [
             {
-              "enText": "Juan and Diane work in the finance department of"
-            },
-            {
-              "keyword": "delicious",
-              "word": "Delicious"
-            },
-            {
-              "enText": "Delights, a company that makes snack foods. Here, they're discussing the financial projections for a new product line."
+              "enText": "Juan and Diane work in the finance department of Delicious Delights, a company that makes snack foods. Here, they're discussing the financial projections for a new product line."
             }
           ]
         },
@@ -53,14 +46,7 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Juan:</b> I did some"
-            },
-            {
-              "keyword": "back-of-the-envelope calculations",
-              "word": "back-of-the-envelope calculations"
-            },
-            {
-              "enText": ". Take a look."
+              "enText": "<b>Juan:</b> I did some <b>back-of-the-envelope calculations</b>. Take a look."
             }
           ]
         },
@@ -74,28 +60,14 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Juan:</b> That's an "
-            },
-            {
-              "keyword": "educated guess",
-              "word": "educated guess"
-            },
-            {
-              "enText": "based on some equipment I bought last year."
+              "enText": "<b>Juan:</b> That's an <b>educated guess</b> based on some equipment I bought last year."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Diane:</b> You're going to need to double-check that. Using old estimates can get us"
-            },
-            {
-              "keyword": "in hot water",
-              "word": "in hot water"
-            },
-            {
-              "enText": "."
+              "enText": "<b>Diane:</b> You're going to need to double-check that. Using old estimates can get us <b>in hot water.</b>"
             }
           ]
         },
@@ -109,14 +81,7 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Diane:</b> Do you have a sense for market demand? We should get the forecasts from the marketing department before we"
-            },
-            {
-              "keyword": "crunch the numbers",
-              "word": "crunch the numbers"
-            },
-            {
-              "enText": "."
+              "enText": "<b>Diane:</b> Do you have a sense for market demand? We should get the forecasts from the marketing department before we <b>crunch the numbers</b>."
             }
           ]
         },
@@ -130,71 +95,21 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Diane:</b> It just"
-            },
-            {
-              "keyword": "blow one's mind",
-              "word": "blows my mind "
-            },
-            {
-              "enText": "when marketing people want us to"
-            },
-            {
-              "keyword": "run the numbers",
-              "word": "run the numbers"
-            },
-            {
-              "enText": "and they don't bring us the information we need!"
+              "enText": "<b>Diane:</b> It just <b>blows my mind</b> when marketing people want us to <b>run the numbers</b> and they don't bring us the information we need!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Juan:</b> If we end up "
-            },
-            {
-              "keyword": "in the red",
-              "word": "in the red"
-            },
-            {
-              "enText": "on this project, it's going to be their"
-            },
-            {
-              "keyword": "one's head on the chopping block",
-              "word": "heads on the chopping block"
-            },
-            {
-              "enText": ", not ours. They're the ones with P&L* responsibility!"
+              "enText": "<b>Juan:</b> If we end up <b>in the red</b> on this project, it's going to be their <b>heads on the chopping block</b>, not ours. They're the ones with P&L* responsibility!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Diane:</b> Our CFO won't "
-            },
-            {
-              "keyword": "give somebody the green light",
-              "word": "give this project the green light"
-            },
-            {
-              "enText": "until he sees all the numbers. If it doesn't look like we'll make money or at least"
-            },
-            {
-              "keyword": "break even",
-              "word": "break even"
-            },
-            {
-              "enText": ", he'll"
-            },
-            {
-              "keyword": "pull the plug",
-              "word": "pull the plug",
-              "wordAudioSrc": "/dictionary/p/pull-the-plug.mp3"
-            },
-            {
-              "enText": "on the project."
+              "enText": "<b>Diane:</b> Our CFO won't <b>give this project the green light</b> until he sees all the numbers. If it doesn't look like we'll make money or at least <b>break even</b>, he'll <b>pull the plug</b> on the project."
             }
           ]
         }
