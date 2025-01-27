@@ -34,14 +34,7 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Mike:</b> We're still trying to"
-            },
-            {
-              "keyword": "work out the kinks",
-              "word": "work out the kinks"
-            },
-            {
-              "enText": "in our manufacturing process. Our factory in China is having trouble with the soles."
+              "enText": "<b>Mike:</b> We're still trying to <b>work out the kinks</b> in our manufacturing process. Our factory in China is having trouble with the soles."
             }
           ]
         },
@@ -55,161 +48,70 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Mike:</b> It could take another six months to"
-            },
-            {
-              "keyword": "fine-tune",
-              "word": "fine-tune"
-            },
-            {
-              "enText": "our manufacturing process."
+              "enText": "<b>Mike:</b> It could take another six months to <b>fine-tune</b> our manufacturing process."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Dan:</b> Well, we don't have that much time."
-            },
-            {
-              "keyword": "No ifs, ands, or buts",
-              "word": "No ifs, ands, or buts"
-            },
-            {
-              "enText": "we need to launch on April 20th."
+              "enText": "<b>Dan:</b> Well, we don't have that much time. <b>No ifs, ands, or buts</b> we need to launch on April 20th."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Mike:</b>"
-            },
-            {
-              "keyword": "Just for the record",
-              "word": "Just for the record"
-            },
-            {
-              "enText": ", I think we're."
-            },
-            {
-              "keyword": "cutting it (a little) close",
-              "word": "cutting it a little close"
-            },
-            {
-              "enText": ". I recommend we launch on July 20th instead."
+              "enText": "<b>Mike:</b> <b>Just for the record</b>, I think we're <b>cutting it a little close</b>. I recommend we launch on July 20th instead."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Dan:</b> We can't. We've already decided on the"
-            },
-            {
-              "keyword": "tagline",
-              "word": "tagline"
-            },
-            {
-              "enText": ": \"Spring into spring with Swift's new spring shoe.\""
+              "enText": "<b>Dan:</b> We can't. We've already decided on the <b>tagline</b>: \"Spring into spring with Swift's new spring shoe.\""
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Mike:</b> It's time for a"
-            },
-            {
-              "keyword": "reality check",
-              "word": "reality check"
-            },
-            {
-              "enText": ". I'm telling you we might not be ready by April 20th, and you're telling me we have to be because of a "
-            },
-            {
-              "keyword": "tagline",
-              "word": "tagline"
-            },
-            {
-              "enText": "?"
+              "enText": "<b>Mike:</b> It's time for a <b>reality check</b>. I'm telling you we might not be ready by April 20th, and you're telling me we have to be because of a <b>tagline</b>?"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Dan:</b> Mike, now's the time to"
-            },
-            {
-              "keyword": "step up to the plate",
-              "word": "step up to the plate"
-            },
-            {
-              "enText": "and"
-            },
-            {
-              "keyword": "get the job done",
-              "word": "get the job done"
-            },
-            {
-              "enText": "."
+              "enText": "<b>Dan:</b> Mike, now's the time to <b>step up to the plate</b> and <b>get the job done</b>."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Mike:</b> Mike: Well, I'm going to be"
-            },
-            {
-              "keyword": "work down to the wire",
-              "word": "working down to the wire"
-            },
-            {
-              "enText": "."
+              "enText": "<b>Mike:</b> Mike: Well, I'm going to be <b>working down to the wire</b>."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Dan:</b> Just"
-            },
-            {
-              "keyword": "do whatever it takes",
-              "word": "do whatever it takes"
-            },
-            {
-              "enText": ". Just make sure we've got a million pairs of shoes in inventory by the April 20th deadline."
+              "enText": "<b>Dan:</b> Just <b>do whatever it takes</b>. Just make sure we've got a million pairs of shoes in inventory by the April 20th deadline."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Mike:</b> I'm going to have to run the factories"
-            },
-            {
-              "keyword": "twenty-four seven",
-              "word": "24/7"
-            },
-            {
-              "enText": ". That's going to be a lot of overtime pay."
+              "enText": "<b>Mike:</b> I'm going to have to run the factories <b>24/7</b>. That's going to be a lot of overtime pay."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Dan:</b>"
-            },
-            {
-              "keyword": "At the end of the day",
-              "word": "At the end of the day"
-            },
-            {
-              "enText": ", a little extra expense doesn't matter. We just want those shoes ready by April 20th."
+              "enText": "<b>Dan:</b> <b>At the end of the day</b>, a little extra expense doesn't matter. We just want those shoes ready by April 20th."
             }
           ]
         }

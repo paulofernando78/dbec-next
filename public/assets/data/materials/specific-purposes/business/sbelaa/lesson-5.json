@@ -7,7 +7,7 @@
   "lessons": [
     {
       "imgSrc": "/materials/specific-purposes/business/sbelaa/lesson-5.png",
-      "imgAlt": "...",
+      "imgAlt": "Lesson 5 image",
       "imgWidth": "50%"
     },
     {
@@ -32,81 +32,35 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Andy:</b> My team has come up with a new strategy. We can't continue being"
-            },
-            {
-              "keyword": "fast followers",
-              "word": "fast followers"
-            },
-            {
-              "enText": ". We need to start developing our own"
-            },
-            {
-              "keyword": "cutting-edge",
-              "word": "cutting-edge"
-            },
-            {
-              "enText": "technologies."
+              "enText": "<b>Andy:</b> My team has come up with a new strategy. We can't continue being <b>fast followers</b>. We need to start developing our own <b>cutting-edge</b> technologies."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Laura:</b> Why? We've been"
-            },
-            {
-              "keyword": "fast followers",
-              "word": "fast followers"
-            },
-            {
-              "enText": "for the past ten years."
-            },
-            {
-              "keyword": "Why mess with success?",
-              "word": "Why mess with success?"
+              "enText": "<b>Laura:</b> Why? We've been <b>fast followers</b> for the past ten years. <b>Why mess with success?</b>"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Andy:</b> Success?"
-            },
-            {
-              "keyword": "get with the program",
-              "word": "Get with the program"
-            },
-            {
-              "enText": ". Our sales are way down. Our "
-            },
-            {
-              "keyword": "cash cow",
-              "word": "cash cow"
-            },
-            {
-              "enText": ", the Model 8B, only sold 900 units last month!"
+              "enText": "<b>Andy:</b> Success? <b>Get with the program</b>. Our sales are way down. Our <b>cash cow</b>, the Model 8B, only sold 900 units last month!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Laura:</b> I can understand why. That phone's a relic.* It's been around for over three years. What about our new phones?"
+              "enText": "<b>Laura:</b> I can understand why. That phone's a relic. It's been around for over three years. What about our new phones?"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Andy:</b> Our latest model cell phone was a"
-            },
-            {
-              "keyword": "real dog",
-              "word": "real dog"
-            },
-            {
-              "enText": "! It sold only 20 percent of our sales forecast."
+              "enText": "<b>Andy:</b> Our latest model cell phone was a <b>real dog</b>! It sold only 20 percent of our sales forecast."
             }
           ]
         },
@@ -134,21 +88,7 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Andy:</b> We need to become much more innovative as a company. Instead of producing"
-            },
-            {
-              "keyword": "me-too products",
-              "word": "me-too products"
-            },
-            {
-              "enText": ", we need to"
-            },
-            {
-              "keyword": "leapfrog one's competitors",
-              "word": "leapfrog our competitors"
-            },
-            {
-              "enText": "."
+              "enText": "<b>Andy:</b> We need to become much more innovative as a company. Instead of producing <b>me-too products</b>, we need to <b>leapfrog our competitors</b>."
             }
           ]
         },
@@ -162,56 +102,21 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Andy:</b>"
-            },
-            {
-              "keyword": "for starters",
-              "word": "For starters"
-            },
-            {
-              "enText": ", we need to"
-            },
-            {
-              "keyword": "beef up",
-              "word": "beef up "
-            },
-            {
-              "enText": "our R&D* department. We need to develop differentiated products which we can sell"
-            },
-            {
-              "keyword": "at a premium",
-              "word": "at a premium"
-            },
-            {
-              "enText": "."
+              "enText": "<b>Andy:</b> <b>For starters</b>, we need to <b>beef up</b> our R&D* department. We need to develop differentiated products which we can sell <b>at a premium</b>."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Laura:</b> As a next step, let's"
-            },
-            {
-              "keyword": "get buy-in",
-              "word": "get buy-in"
-            },
-            {
-              "enText": "from our marketing and sales directors."
+              "enText": "<b>Laura:</b> As a next step, let's <b>get buy-in</b> from our marketing and sales directors."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Andy:</b> Right. We should get everyone"
-            },
-            {
-              "keyword": "on the same page",
-              "word": " on the same page"
-            },
-            {
-              "enText": "."
+              "enText": "<b>Andy:</b> Right. We should get everyone <b>on the same page</b>."
             }
           ]
         }

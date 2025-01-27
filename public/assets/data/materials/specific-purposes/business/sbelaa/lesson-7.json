@@ -7,7 +7,7 @@
   "lessons": [
     {
       "imgSrc": "/materials/specific-purposes/business/sbelaa/lesson-7.png",
-      "imgAlt": "...",
+      "imgAlt": "Lesson 7 image",
       "imgWidth": "50%"
     },
     {
@@ -32,166 +32,63 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Alex:</b> We need to "
-            },
-            {
-              "keyword": "face the music",
-              "word": "face the music"
-            },
-            {
-              "enText": "here. We're"
-            },
-            {
-              "keyword": "in deep trouble",
-              "word": "in deep trouble"
-            },
-            {
-              "enText": "! Sales are down by 50 percent versus last year."
+              "enText": "<b>Alex:</b> We need to <b>face the music</b> here. We're <b>in deep trouble</b>! Sales are down by 50 percent versus last year."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Pam:</b> It looks like we're going to be"
-            },
-            {
-              "keyword": "in the red",
-              "word": "in the red"
-            },
-            {
-              "enText": "for the year "
-            },
-            {
-              "keyword": "to the tune of",
-              "word": "to the tune of"
-            },
-            {
-              "enText": "$1 million."
+              "enText": "<b>Pam:</b> It looks like we're going to be <b>in the red</b> for the year <b>to the tune of</b> $1 million."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Ron:</b>"
-            },
-            {
-              "keyword": "no wonder",
-              "word": "no wonder",
-              "enText": ". We're losing"
-            },
-            {
-              "keyword": "market share",
-              "word": "market share"
-            },
-            {
-              "enText": "to Manhattan Beer."
+              "enText": "<b>Ron:</b> <b>No wonder</b>. We're losing <b>market share</b> to Manhattan Beer."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Alex:</b> Why? We need to "
-            },
-            {
-              "keyword": "get to the bottom of",
-              "word": "get to the bottom of"
-            },
-            {
-              "enText": "this!"
+              "enText": "<b>Alex:</b> Why? We need to <b>get to the bottom of</b> this!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Pam:</b> Every year they come up with beers. They're really"
-            },
-            {
-              "keyword": "on top of trends",
-              "word": "on top of trends"
-            },
-            {
-              "enText": ". For instance, last year they released a low-carb beer."
+              "enText": "<b>Pam:</b> Every year they come up with beers. They're really <b>on top of trends</b>. For instance, last year they released a low-carb beer."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Ron:</b> No wonder they're"
-            },
-            {
-              "keyword": "eating one's lunch",
-              "word": "eating our lunch"
-            },
-            {
-              "enText": "! They're "
-            },
-            {
-              "keyword": "cash in on",
-              "word": "cashing in on"
-            },
-            {
-              "enText": "the latest trends and"
-            },
-            {
-              "keyword": "bring a product to market",
-              "word": "bring great new products to market"
-            },
-            {
-              "enText": "!"
+              "enText": "<b>Ron:</b> No wonder they're <b>eating our lunch</b>! They're <b>cashing in on</b> the latest trends and <b>bring great new products to market</b>!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Pam:</b> Meanwhile, we're"
-            },
-            {
-              "keyword": "run in place",
-              "word": "running in place"
-            },
-            {
-              "enText": ". We need a new product line and new ideas for marketing."
+              "enText": "<b>Pam:</b> Meanwhile, we're <b>running in place</b>. We need a new product line and new ideas for marketing."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Alex:</b> It's time to"
-            },
-            {
-              "keyword": "clean house",
-              "word": "clean house"
-            },
-            {
-              "enText": "and bring some "
-            },
-            {
-              "keyword": "new blood",
-              "word": "new blood"
-            },
-            {
-              "enText": "into this company."
+              "enText": "<b>Alex:</b> It's time to <b>clean house</b> and bring some <b>new blood</b> into this company."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Ron:</b> "
-            },
-            {
-              "keyword": "You took the words right out of my mouth",
-              "word": "You took the words right out of my mouth"
-            },
-            {
-              "enText": "! We need some new people with fresh ideas."
+              "enText": "<b>Ron:</b> <b>You took the words right out of my mouth</b>! We need some new people with fresh ideas."
             }
           ]
         }

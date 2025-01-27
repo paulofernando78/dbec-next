@@ -32,155 +32,63 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Peter:</b> Great news! We had a"
-            },
-            {
-              "keyword": "record-breaking",
-              "word": "record-breaking"
-            },
-            {
-              "enText": "quarter. We brought in revenues of $500,000."
+              "enText": "<b>Peter:</b> Great news! We had a <b>record-breaking</b> quarter. We brought in revenues of $500,000."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Linda:</b> Wow, revenues really were "
-            },
-            {
-              "keyword": "through the roof",
-              "word": "through the roof!"
-            },
-            {
-              "enText": "!"
+              "enText": "<b>Linda:</b> Wow, revenues really were <b>through the roof</b>!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Todd:</b> That's great. Kudos"
-            },
-            {
-              "keyword": "kudos",
-              "word": "kudos"
-            },
-            {
-              "enText": "to Linda! She deserves"
-            },
-            {
-              "keyword": "a pat on the back",
-              "word": "a pat on the back"
-            },
-            {
-              "enText": ". The"
-            },
-            {
-              "keyword": "guerrilla marketing",
-              "word": "guerrilla marketing"
-            },
-            {
-              "enText": "guerrilla marketing campaign she"
-            },
-            {
-              "keyword": "dream up",
-              "word": "dreamed up"
-            },
-            {
-              "enText": "was brilliant. She sent out e-mail to all of our customers asking them to e-mail a friend about our services. For each friend they e-mailed, they received a free gift."
+              "enText": "<b>Todd:</b> That's great. <b>Kudos</b> to Linda! She deserves <b>a pat on the back</b>. The <b>guerrilla marketing</b> campaign she dreamed up was brilliant. She sent out e-mail to all of our customers asking them to e-mail a friend about our services. For each friend they e-mailed, they received a free gift."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Peter:</b> Linda, your campaign helped us ."
-            },
-            {
-              "keyword": "drum up business",
-              "word": "drum up a lot of business"
-            },
-            {
-              "enText": ". We"
-            },
-            {
-              "keyword": "sign on new customers (or members)",
-              "word": "signed on 800 new customers"
+              "enText": "<b>Peter:</b> Linda, your campaign helped us <b>drum up a lot of business</b>. We <b>signed on 800 new customers</b>."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Linda:</b> I'm really glad my plan"
-            },
-            {
-              "keyword": "pan out",
-              "word": "panned out"
-            },
-            {
-              "enText": ". I thought it would, since everybody loves a"
-            },
-            {
-              "keyword": "freebie",
-              "word": "freebie"
-            },
-            {
-              "enText": "!"
+              "enText": "<b>Linda:</b> I'm really glad my plan <b>panned out</b>. I thought it would, since everybody loves a <b>freebie</b>!"
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Todd:</b> Linda, we can always count on you to."
-            },
-            {
-              "keyword": "think outside the box",
-              "word": "think outside the box"
+              "enText": "<b>Todd:</b> Linda, we can always count on you to <b>think outside the box</b>."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Linda:</b>"
-            },
-            {
-              "keyword": "for the record",
-              "word": "For the record"
-            },
-            {
-              "enText": ", Peter helped me come up with the idea."
+              "enText": "<b>Linda:</b> <b>For the record</b>, Peter helped me come up with the idea."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Peter:</b> Thanks for"
-            },
-            {
-              "keyword": "share the credit",
-              "word": "sharing the credit"
-            },
-            {
-              "enText": ", Linda. But it was your idea."
+              "enText": "<b>Peter:</b> Thanks for <b>sharing the credit</b>, Linda. But it was your idea."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Todd:</b> The important thing is that we're now <span class='underline'>giving</span> our biggest competitor, U.S. Bank, a"
-            },
-            {
-              "keyword": "give a run for one's money",
-              "word": "run for their money"
-            },
-            {
-              "enText": "."
+              "enText": "<b>Todd:</b> The important thing is that we're now <b>giving</b> our biggest competitor, U.S. Bank, a <b>run for their money</b>"
             }
           ]
         }
