@@ -364,26 +364,8 @@ const emojis = [
 export default function HowYouFeeling() {
   return (
     <>
-      <div className="line-break">
-        <AudioPlayer audioSrc="/how-you-feeling.mp3" />
-
-        <div className={styles["prompt-container"]}>
-          {prompts.map((prompt, promptIndex) => (
-            <div
-              key={promptIndex}
-              className={`line-break ${styles["prompt-inner-container"]}`}
-            >
-              <p className="bold">{prompt.category}</p>
-              <div>
-                {prompt.phrases.map((phrase, phraseIndex) => (
-                  <p key={phraseIndex}>{phrase.phrase}</p>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-        <p className="bold">Adjectives to describe how you're feeling.</p>
-      </div>
+    <p className="bold">How are you feeling today? I'm...</p>
+    <p >Some adjectives to describe how you're feeling.</p>
       <div className={styles["emoji-container"]}>
         {emojis.map((emoji, emojiIndex) => (
           <div
@@ -403,6 +385,26 @@ export default function HowYouFeeling() {
           </div>
         ))}
       </div>
+      <div className="line-break">
+        <AudioPlayer audioSrc="/how-you-feeling.mp3" />
+
+        <div className={styles["prompt-container"]}>
+          {prompts.map((prompt, promptIndex) => (
+            <div
+              key={promptIndex}
+              className={`line-break ${styles["prompt-inner-container"]}`}
+            >
+              <p className="bold">{prompt.category}</p>
+              <div>
+                {prompt.phrases.map((phrase, phraseIndex) => (
+                  <p key={phraseIndex}>{phrase.phrase}</p>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      
     </>
   );
 }

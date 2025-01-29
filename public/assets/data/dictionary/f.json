@@ -339,7 +339,7 @@
             "ptExample": "Acho que o Dave gosta de ser o centro das atenções."
           }
         ],
-        "synonyms": "concentration, attention, center, spotlight, limelight"
+        "synonyms": ["concentration", "attention", "center", "spotlight", "limelight"]
       },
       {
         "word": "focus",
