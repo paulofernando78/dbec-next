@@ -1,25 +1,30 @@
 [
   {
+    "keyword": "send",
     "definitions": [
       {
         "word": "send",
-        "phonetics": "",
-        "partOfSpeech": "",
-        "enDefinition": "",
-        "ptDefinition": "",
+        "phonetics": "/sɛnd/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to cause something to go or be taken to a particular destination, especially by mail or email",
+        "ptDefinition": "enviar algo para um destino específico, especialmente por correio ou e-mail",
         "examples": [
           {
-            "enExample": "",
-            "ptExample": ""
+            "enExample": "I will send you the documents by email.",
+            "ptExample": "Vou enviar os documentos por e-mail."
+          },
+          {
+            "enExample": "She sent a letter to her friend.",
+            "ptExample": "Ela enviou uma carta para sua amiga."
           }
         ],
-        "synonyms": "",
-        "antonyms": "",
-        "seeAlso": "",
+        "synonyms": ["dispatch", "forward", "transmit"],
+        "antonyms": ["receive", "retain"],
+        "seeAlso": ["mail", "deliver", "transmit"],
         "notes": [
           {
-            "enNote": "",
-            "ptNote": ""
+            "enNote": "The verb 'send' is commonly used in the context of communication and delivery.",
+            "ptNote": "O verbo 'enviar' é comumente usado no contexto de comunicação e entrega."
           }
         ]
       }
