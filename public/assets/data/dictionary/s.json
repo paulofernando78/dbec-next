@@ -1,5 +1,31 @@
 [
   {
+    "definitions": [
+      {
+        "word": "send",
+        "phonetics": "",
+        "partOfSpeech": "",
+        "enDefinition": "",
+        "ptDefinition": "",
+        "examples": [
+          {
+            "enExample": "",
+            "ptExample": ""
+          }
+        ],
+        "synonyms": "",
+        "antonyms": "",
+        "seeAlso": "",
+        "notes": [
+          {
+            "enNote": "",
+            "ptNote": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "swivel",
     "definitions": [
       {

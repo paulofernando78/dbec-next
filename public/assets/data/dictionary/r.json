@@ -2,6 +2,32 @@
   {
     "definitions": [
       {
+        "word": "read",
+        "phonetics": "/riːd/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to look at and comprehend the meaning of written or printed matter",
+        "ptDefinition": "olhar e compreender o significado de material escrito ou impresso; ler",
+        "examples": [
+          {
+        "enExample": "She loves to read mystery novels in her free time.",
+        "ptExample": "Ela adora ler romances de mistério em seu tempo livre."
+          },
+          {
+        "enExample": "He read the instructions carefully before assembling the furniture.",
+        "ptExample": "Ele leu as instruções cuidadosamente antes de montar os móveis."
+          }
+        ],
+        "synonyms": ["peruse", "scan", "study"],
+        "antonyms": ["ignore", "overlook"],
+        "seeAlso": ["comprehend", "interpret"],
+        "notes": [
+          {
+        "enNote": "Reading is a fundamental skill that is essential for learning and communication.",
+        "ptNote": "Ler é uma habilidade fundamental que é essencial para o aprendizado e a comunicação."
+          }
+        ]
+      },
+      {
         "word": "relax",
         "phonetics": "/rɪˈlæks/",
         "partOfSpeech": "verb",
