@@ -2,6 +2,32 @@
   {
     "definitions": [
       {
+        "definitions": [
+          {
+            "word": "find",
+            "phonetics": "",
+            "partOfSpeech": "",
+            "enDefinition": "",
+            "ptDefinition": "",
+            "examples": [
+              {
+                "enExample": "",
+                "ptExample": ""
+              }
+            ],
+            "synonyms": "",
+            "antonyms": "",
+            "seeAlso": "",
+            "notes": [
+              {
+                "enNote": "",
+                "ptNote": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
         "word": "a far cry from",
         "partOfSpeech": "idiom",
         "enDefinition": "this phrase is used to indicate that something is very different from what was expected or compared to something else",
