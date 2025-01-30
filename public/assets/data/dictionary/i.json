@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "insane",
+        "phonetics": "/ɪnˈseɪn/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "in a state of mind which prevents normal perception, behavior, or social interaction; seriously mentally ill",
+        "ptDefinition": "em um estado mental que impede a percepção normal, comportamento ou interação social; seriamente doente mental",
+        "examples": [
+          {
+            "enExample": "The man was declared insane and committed to a mental institution.",
+            "ptExample": "O homem foi declarado insano e internado em uma instituição mental."
+          },
+          {
+            "enExample": "Her ideas were considered insane by her peers.",
+            "ptExample": "Suas ideias foram consideradas insanas por seus colegas."
+          }
+        ],
+        "synonyms": ["mad", "crazy", "deranged", "mentally ill"],
+        "antonyms": ["sane", "rational", "sound"],
+        "seeAlso": "madness",
+        "notes": [
+          {
+            "enNote": "The term 'insane' is often used in a legal context to describe someone who is not responsible for their actions due to mental illness.",
+            "ptNote": "O termo 'insano' é frequentemente usado em um contexto legal para descrever alguém que não é responsável por suas ações devido a doença mental."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "icing on the cake",
         "partOfSpeech": "idiom",
         "enDefinition": "an additional benefit or feature that makes something even better or more enjoyable, often in a situation that is already positive",

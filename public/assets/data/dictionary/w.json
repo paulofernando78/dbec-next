@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "wacky",
+        "phonetics": "/ˈwæki/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "funny or amusing in a slightly odd or peculiar way.",
+        "ptDefinition": "engraçado ou divertido de uma maneira um pouco estranha ou peculiar.",
+        "examples": [
+          {
+            "enExample": "She wore a wacky hat to the party.",
+            "ptExample": "Ela usou um chapéu estranho na festa."
+          },
+          {
+            "enExample": "His wacky sense of humor always makes us laugh.",
+            "ptExample": "Seu senso de humor estranho sempre nos faz rir."
+          }
+        ],
+        "synonyms": ["zany", "quirky", "eccentric"],
+        "antonyms": ["normal", "conventional", "serious"],
+        "seeAlso": ["bizarre", "odd"],
+        "notes": [
+          {
+            "enNote": "The term 'wacky' is often used in a light-hearted or affectionate way to describe someone or something that is unconventional or amusingly strange.",
+            "ptNote": "O termo 'wacky' é frequentemente usado de maneira leve ou afetuosa para descrever alguém ou algo que é não convencional ou estranhamente divertido."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "well",
         "phonetics": "/wɛl/",
         "partOfSpeech": "adverb",

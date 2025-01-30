@@ -1,4 +1,81 @@
 [
+  
+  {
+    "definitions": [
+      {
+        "word": "exhaust",
+        "phonetics": "/ɪɡˈzɑːst/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to make someone extremely tired",
+        "ptDefinition": "fazer alguém ficar extremamente cansado; exaurir, esgotar",
+        "examples": [
+          {
+            "enExample": "The long journey exhausted the children.",
+            "ptExample": "A longa viagem exauriu as crianças."
+          }
+        ],
+        "synonyms": ["tire out", "wear out", "fatigue"],
+        "antonyms": ["energize", "refresh", "invigorate"],
+        "seeAlso": ["drain", "deplete"],
+        "notes": [
+          {
+            "enNote": "Often used to describe a state of extreme physical or mental fatigue.",
+            "ptNote": "Frequentemente usado para descrever um estado de fadiga física ou mental extrema."
+          }
+        ]
+      },
+      {
+        "word": "exhausted",
+        "phonetics": "/ɪɡˈzɑːstɪd/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "extremely tired",
+        "ptDefinition": "extremamente cansado",
+        "examples": [
+          {
+            "enExample": "After the marathon, she was completely exhausted.",
+            "ptExample": "Depois da maratona, ela estava completamente exausta."
+          },
+          {
+            "enExample": "He felt exhausted after working all night.",
+            "ptExample": "Ele se sentiu exausto depois de trabalhar a noite toda."
+          }
+        ],
+        "synonyms": ["tired", "fatigued", "worn out"],
+        "antonyms": ["energetic", "rested", "refreshed"],
+        "seeAlso": ["weary", "drained"]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "anxious",
+        "phonetics": "/ˈæŋk.ʃəs/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "feeling or showing worry, nervousness, or unease about something with an uncertain outcome",
+        "ptDefinition": "sentindo ou mostrando preocupação, nervosismo ou inquietação sobre algo com um resultado incerto",
+        "examples": [
+          {
+            "enExample": "She was anxious about the exam results.",
+            "ptExample": "Ela estava ansiosa com os resultados do exame."
+          },
+          {
+            "enExample": "He felt anxious before the job interview.",
+            "ptExample": "Ele se sentiu ansioso antes da entrevista de emprego."
+          }
+        ],
+        "synonyms": ["worried", "nervous", "uneasy", "apprehensive"],
+        "antonyms": ["calm", "relaxed", "confident"],
+        "seeAlso": ["nervous", "apprehensive"],
+        "notes": [
+          {
+            "enNote": "Often used to describe a state of mental unease or worry.",
+            "ptNote": "Frequentemente usado para descrever um estado de inquietação ou preocupação mental."
+          }
+        ]
+      }
+    ]
+  },
   {
     "definitions": [
       {

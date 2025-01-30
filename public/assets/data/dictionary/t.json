@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "tired",
+        "phonetics": "/ˈtaɪərd/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "In need of sleep or rest; weary.",
+        "ptDefinition": "Necessitando de sono ou descanso; cansado.",
+        "examples": [
+          {
+            "enExample": "She felt tired after a long day at work.",
+            "ptExample": "Ela se sentiu cansada após um longo dia de trabalho."
+          },
+          {
+            "enExample": "He was too tired to continue the hike.",
+            "ptExample": "Ele estava muito cansado para continuar a caminhada."
+          }
+        ],
+        "synonyms": ["weary", "exhausted", "fatigued", "sleepy"],
+        "antonyms": ["energetic", "rested", "alert"],
+        "seeAlso": ["weariness", "exhaustion"],
+        "notes": [
+          {
+            "enNote": "Feeling tired can be a result of physical exertion, lack of sleep, or mental stress.",
+            "ptNote": "Sentir-se cansado pode ser resultado de esforço físico, falta de sono ou estresse mental."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "team spirit",
         "phonetics": "/tiːm ˈspɪrɪt/",
         "partOfSpeech": "noun",

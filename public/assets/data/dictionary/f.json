@@ -2,6 +2,30 @@
  {
   "definitions": [
     {
+      "word": "fly",
+      "phonetics": "/flaɪ/",
+      "partOfSpeech": "verb",
+      "enDefinition": "to move through the air using wings",
+      "ptDefinition": "mover-se pelo ar usando asas; voar",
+      "examples": [
+        {
+          "enExample": "Birds fly south for the winter.",
+          "ptExample": "Os pássaros voam para o sul no inverno."
+        },
+        {
+          "enExample": "She learned to fly a plane.",
+          "ptExample": "Ela aprendeu a pilotar um avião."
+        }
+      ],
+      "synonyms": ["soar", "glide", "hover"],
+      "antonyms": ["land", "fall"],
+      "seeAlso": "flight"
+    }
+  ]
+ },
+  {
+  "definitions": [
+    {
       "word": "find",
       "phonetics": "/faɪnd/",
       "partOfSpeech": "verb",
