@@ -2,6 +2,161 @@
   {
     "definitions": [
       {
+        "word": "write",
+        "phonetics": "/raɪt/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to mark letters, words, or other symbols on a surface, typically paper, with a pen, pencil, or similar implement",
+        "ptDefinition": "marcar letras, palavras ou outros símbolos em uma superfície, tipicamente papel, com uma caneta, lápis ou implemento similar; escrever",
+        "examples": [
+          {
+            "enExample": "She writes in her journal every night.",
+            "ptExample": "Ela escreve em seu diário todas as noites."
+          },
+          {
+            "enExample": "He wrote a letter to his friend.",
+            "ptExample": "Ele escreveu uma carta para seu amigo."
+          }
+        ],
+        "synonyms": ["compose", "inscribe", "pen"],
+        "antonyms": ["erase", "delete"],
+        "seeAlso": ["scribble", "note", "record"],
+        "notes": [
+          {
+            "enNote": "The act of writing can be both a physical and a creative process.",
+            "ptNote": "O ato de escrever pode ser tanto um processo físico quanto criativo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "writing",
+        "phonetics": "/ˈraɪtɪŋ/",
+        "partOfSpeech": "noun",
+        "enDefinition": "the activity or skill of marking coherent words on paper and composing text",
+        "ptDefinition": "a atividade ou habilidade de marcar palavras coerentes no papel e compor texto; escrita",
+        "examples": [
+          {
+            "enExample": "She has a passion for writing.",
+            "ptExample": "Ela tem uma paixão por escrever."
+          },
+          {
+            "enExample": "His writing is very clear and concise.",
+            "ptExample": "A escrita dele é muito clara e concisa."
+          }
+        ],
+        "synonyms": ["composing", "penning", "scribing"],
+        "antonyms": ["erasing", "deleting"],
+        "seeAlso": ["authoring", "drafting", "typing"],
+        "notes": [
+          {
+            "enNote": "Writing can be a form of communication, expression, and creativity.",
+            "ptNote": "Escrever pode ser uma forma de comunicação, expressão e criatividade."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "work",
+        "phonetics": "/wɝːrk/",
+        "partOfSpeech": "noun",
+        "enDefinition": "activity involving mental or physical effort done in order to achieve a purpose or result",
+        "ptDefinition": "atividade que envolve esforço mental ou físico realizado para alcançar um propósito ou resultado",
+        "examples": [
+          {
+            "enExample": "He has a lot of work to do.",
+            "ptExample": "Ele tem muito trabalho a fazer."
+          },
+          {
+            "enExample": "Her work as a teacher is very rewarding.",
+            "ptExample": "O trabalho dela como professora é muito gratificante."
+          }
+        ],
+        "synonyms": ["employment", "job", "task"],
+        "antonyms": ["leisure", "rest", "relaxation"],
+        "seeAlso": ["labor", "occupation", "profession"],
+        "notes": [
+          {
+            "enNote": "The term 'work' can refer to both the place where one is employed and the tasks one performs.",
+            "ptNote": "O termo 'work' pode se referir tanto ao local onde alguém está empregado quanto às tarefas que alguém realiza."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "work",
+        "phonetics": "/wɝːrk/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to engage in physical or mental activity in order to achieve a purpose or result, especially in one's job",
+        "ptDefinition": "engajar-se em atividade física ou mental para alcançar um propósito ou resultado, especialmente no trabalho",
+        "examples": [
+          {
+            "enExample": "She works at a bank.",
+            "ptExample": "Ela trabalha em um banco."
+          },
+          {
+            "enExample": "He worked all night to finish the report.",
+            "ptExample": "Ele trabalhou a noite toda para terminar o relatório."
+          }
+        ],
+        "synonyms": ["labor", "toil", "perform"],
+        "antonyms": ["rest", "relax", "idle"],
+        "seeAlso": ["job", "task", "employment"],
+        "notes": [
+          {
+            "enNote": "The term 'work' can also be used as a noun to refer to a place of employment or the tasks one performs.",
+            "ptNote": "O termo 'work' também pode ser usado como substantivo para se referir a um local de trabalho ou às tarefas que alguém realiza."
+          }
+        ]
+      },
+      {
+        "enDefinition": "to be effective or successful",
+        "ptDefinition": "funcionar, dar certo",
+        "examples": [
+          {
+            "enExample": "The plan worked perfectly.",
+            "ptExample": "O plano funcionou perfeitamente."
+          },
+          {
+            "enExample": "Does this method work for everyone?",
+            "ptExample": "Esse método funciona para todos?"
+          },
+          {
+            "enExample": "Her strategy worked in the end.",
+            "ptExample": "A estratégia dela deu certo no final."
+          },
+            {
+            "enExample": "My new diet seems to be working. I've lost weight already.",
+            "ptExample": "Minha nova dieta parece estar funcionando. Já perdi peso."
+            },
+            {
+            "enExample": "Her idea for reorganizing the department will never work in practice.",
+            "ptExample": "A ideia dela para reorganizar o departamento nunca funcionará na prática."
+            }
+        ],
+        "synonyms": ["succeed", "function", "achieve"],
+        "antonyms": ["fail", "flop", "break down"],
+        "seeAlso": ["operate", "perform", "execute"],
+        "notes": [
+          {
+            "enNote": "In this context, 'work' means to achieve the desired result or to function as intended.",
+            "ptNote": "Neste contexto, 'work' significa alcançar o resultado desejado ou funcionar como pretendido."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "wacky",
         "phonetics": "/ˈwæki/",
         "partOfSpeech": "adjective",
@@ -106,7 +261,11 @@
           }
         ],
         "synonyms": ["how to start", "where to start", "where do I even begin"],
-        "antonyms": ["clear starting point", "easy beginning", "straightforward"],
+        "antonyms": [
+          "clear starting point",
+          "easy beginning",
+          "straightforward"
+        ],
         "notes": [
           {
             "enNote": "This phrase often conveys a sense of being overwhelmed or unsure about the complexity of a situation.",
@@ -182,8 +341,16 @@
             "ptExample": "Eles ainda estavam ajustando as funcionalidades do software, trabalhando até o limite antes do lançamento do produto."
           }
         ],
-        "synonyms": ["last-minute effort", "racing against the clock", "under pressure"],
-        "antonyms": ["ahead of schedule", "with plenty of time", "well-prepared"],
+        "synonyms": [
+          "last-minute effort",
+          "racing against the clock",
+          "under pressure"
+        ],
+        "antonyms": [
+          "ahead of schedule",
+          "with plenty of time",
+          "well-prepared"
+        ],
         "notes": [
           {
             "enNote": "This phrase is often used in contexts where time management is critical, and tasks are completed just before a deadline."

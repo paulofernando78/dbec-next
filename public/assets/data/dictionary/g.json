@@ -2,6 +2,30 @@
   {
     "definitions": [
       {
+        "word": "go",
+        "phonetics": "/ɡoʊ/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to move or travel from one place to another",
+        "ptDefinition": "ir",
+        "examples": [
+          {
+            "enExample": "I need to go to the store to buy some groceries.",
+            "ptExample": "Eu preciso ir à loja para comprar mantimentos."
+          },
+          {
+            "enExample": "She goes to work by bus every day.",
+            "ptExample": "Ela vai para o trabalho de ônibus todos os dias."
+          }
+        ],
+        "synonyms": ["move", "travel", "proceed"],
+        "antonyms": ["stay", "remain", "stop"],
+        "seeAlso": ["depart", "leave", "advance"]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "grateful",
         "phonetics": "/ˈɡreɪt.fəl/",
         "partOfSpeech": "adjective",

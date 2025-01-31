@@ -1,5 +1,67 @@
 [
   {
+    "keyword": "successful",
+    "definitions": [
+      {
+        "word": "successful",
+        "phonetics": "/səkˈsɛsfəl/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "accomplishing an aim or purpose; having achieved success",
+        "ptDefinition": "realizando um objetivo ou propósito; tendo alcançado sucesso",
+        "examples": [
+          {
+            "enExample": "She was successful in her career as a lawyer.",
+            "ptExample": "Ela foi bem-sucedida em sua carreira como advogada."
+          },
+          {
+            "enExample": "The company had a successful year with record profits.",
+            "ptExample": "A empresa teve um ano de sucesso com lucros recordes."
+          }
+        ],
+        "synonyms": ["prosperous", "triumphant", "victorious"],
+        "antonyms": ["unsuccessful", "failing", "defeated"],
+        "seeAlso": ["accomplished", "achieved"],
+        "notes": [
+          {
+            "enNote": "Being successful can mean different things to different people, including personal satisfaction, financial gain, or recognition.",
+            "ptNote": "Ser bem-sucedido pode significar coisas diferentes para pessoas diferentes, incluindo satisfação pessoal, ganho financeiro ou reconhecimento."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "success",
+    "definitions": [
+      {
+        "word": "success",
+        "phonetics": "/səkˈsɛs/",
+        "partOfSpeech": "noun",
+        "enDefinition": "the accomplishment of an aim or purpose",
+        "ptDefinition": "a realização de um objetivo ou propósito",
+        "examples": [
+          {
+            "enExample": "Her success in the competition was well-deserved.",
+            "ptExample": "Seu sucesso na competição foi merecido."
+          },
+          {
+            "enExample": "The project was a great success.",
+            "ptExample": "O projeto foi um grande sucesso."
+          }
+        ],
+        "synonyms": ["achievement", "triumph", "victory"],
+        "antonyms": ["failure", "defeat", "loss"],
+        "seeAlso": ["accomplishment", "prosperity"],
+        "notes": [
+          {
+            "enNote": "Success can be measured in various ways, including personal satisfaction, financial gain, or recognition.",
+            "ptNote": "O sucesso pode ser medido de várias maneiras, incluindo satisfação pessoal, ganho financeiro ou reconhecimento."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "sickness",
     "definitions": [
       {

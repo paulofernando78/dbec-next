@@ -2,6 +2,66 @@
   {
     "definitions": [
       {
+        "word": "messy",
+        "phonetics": "/ˈmɛsi/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "untidy or dirty",
+        "ptDefinition": "bagunçado",
+        "examples": [
+          {
+            "enExample": "Her room is always messy.",
+            "ptExample": "O quarto dela está sempre bagunçado."
+          },
+          {
+            "enExample": "The kitchen was messy after cooking dinner.",
+            "ptExample": "A cozinha estava bagunçada depois de cozinhar o jantar."
+          }
+        ],
+        "synonyms": ["untidy", "disorganized", "cluttered"],
+        "antonyms": ["tidy", "organized", "neat"],
+        "seeAlso": ["disorderly", "chaotic"],
+        "notes": [
+          {
+            "enNote": "The word 'messy' is often used to describe a place or situation that is not neat or orderly.",
+            "ptNote": "A palavra 'messy' é frequentemente usada para descrever um lugar ou situação que não está arrumado ou organizado."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "mess",
+        "phonetics": "/mɛs/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a situation or state of affairs that is confused or full of difficulties",
+        "ptDefinition": "uma situação ou estado de coisas que está confuso ou cheio de dificuldades",
+        "examples": [
+          {
+            "enExample": "The room was a complete mess after the party.",
+            "ptExample": "O quarto estava uma completa bagunça após a festa."
+          },
+          {
+            "enExample": "He made a mess of the project by not following the instructions.",
+            "ptExample": "Ele fez uma bagunça no projeto por não seguir as instruções."
+          }
+        ],
+        "synonyms": ["disorder", "chaos", "clutter"],
+        "antonyms": ["order", "tidiness", "organization"],
+        "seeAlso": ["disarray", "jumble"],
+        "notes": [
+          {
+            "enNote": "The word 'mess' can also be used as a verb meaning to make something untidy or disorganized.",
+            "ptNote": "A palavra 'mess' também pode ser usada como um verbo que significa fazer algo ficar desarrumado ou desorganizado."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "mad",
         "phonetics": "/mæd/",
         "partOfSpeech": "adjective",

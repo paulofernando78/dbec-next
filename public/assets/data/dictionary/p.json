@@ -2,6 +2,96 @@
   {
     "definitions": [
       {
+        "word": "playful",
+        "phonetics": "/ˈpleɪ.fəl/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "full of fun and high spirits; lively and playful",
+        "ptDefinition": "cheio de diversão e alto astral; animado e brincalhão",
+        "examples": [
+          {
+            "enExample": "The puppy was very playful, chasing its tail around the yard.",
+            "ptExample": "O filhote era muito brincalhão, correndo atrás do próprio rabo no quintal."
+          },
+          {
+            "enExample": "She gave him a playful wink.",
+            "ptExample": "Ela lhe deu uma piscadela brincalhona."
+          }
+        ],
+        "synonyms": ["fun-loving", "frisky", "lively"],
+        "antonyms": ["serious", "solemn", "grave"],
+        "seeAlso": ["mischievous", "jovial"],
+        "notes": [
+          {
+            "enNote": "The word 'playful' often describes behavior that is light-hearted and intended to amuse.",
+            "ptNote": "A palavra 'brincalhão' frequentemente descreve um comportamento leve e destinado a divertir."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "play",
+        "phonetics": "/pleɪ/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a dramatic work for the stage or to be broadcast",
+        "ptDefinition": "uma obra dramática para o palco ou para ser transmitida",
+        "examples": [
+          {
+            "enExample": "We went to see a play at the theater last night.",
+            "ptExample": "Fomos ver uma peça no teatro ontem à noite."
+          },
+          {
+            "enExample": "The play was well-received by the audience.",
+            "ptExample": "A peça foi bem recebida pelo público."
+          }
+        ],
+        "synonyms": ["drama", "performance", "production"],
+        "antonyms": ["reality", "truth"],
+        "seeAlso": ["theater", "stage", "script"],
+        "notes": [
+          {
+            "enNote": "The term 'play' can also refer to a recreational activity, but in this context, it refers to a theatrical production.",
+            "ptNote": "O termo 'play' também pode se referir a uma atividade recreativa, mas neste contexto, refere-se a uma produção teatral."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "play",
+        "phonetics": "/pleɪ/",
+        "partOfSpeech": "verb",
+        "enDefinition": "engage in activity for enjoyment and recreation rather than a serious or practical purpose",
+        "ptDefinition": "participar de uma atividade para diversão e recreação em vez de um propósito sério ou prático; jogar",
+        "examples": [
+          {
+            "enExample": "The children love to play in the park.",
+            "ptExample": "As crianças adoram brincar no parque."
+          },
+          {
+            "enExample": "He plays the guitar beautifully.",
+            "ptExample": "Ele toca guitarra lindamente."
+          }
+        ],
+        "synonyms": ["engage", "participate", "perform"],
+        "antonyms": ["work", "labor", "toil"],
+        "seeAlso": ["game", "recreation", "sport"],
+        "notes": [
+          {
+            "enNote": "The word 'play' can also refer to performing a role in a theatrical production.",
+            "ptNote": "A palavra 'play' também pode se referir a desempenhar um papel em uma produção teatral."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "peaceful",
         "phonetics": "/ˈpiːs.fəl/",
         "partOfSpeech": "adjective",
