@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "nervous",
+        "phonetics": "/ˈnɜːrvəs/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "easily agitated or alarmed; tending to be anxious; highly strung",
+        "ptDefinition": "facilmente agitado ou alarmado; tendendo a ser ansioso; muito tenso",
+        "examples": [
+          {
+            "enExample": "She was nervous about her job interview.",
+            "ptExample": "Ela estava nervosa com a entrevista de emprego."
+          },
+          {
+            "enExample": "He gave a nervous laugh.",
+            "ptExample": "Ele deu uma risada nervosa."
+          }
+        ],
+        "synonyms": ["anxious", "apprehensive", "tense"],
+        "antonyms": ["calm", "relaxed", "confident"],
+        "seeAlso": ["anxiety", "stress"],
+        "notes": [
+          {
+            "enNote": "The word 'nervous' can describe both a temporary state of anxiety and a more general tendency to be anxious.",
+            "ptNote": "A palavra 'nervoso' pode descrever tanto um estado temporário de ansiedade quanto uma tendência mais geral de ser ansioso."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "nothing ventured, nothing gained",
         "partOfSpeech": "idiom",
         "enDefinition": "you can't achieve anything without taking risks or trying",

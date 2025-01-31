@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "reflective",
+        "phonetics": "/rɪˈflɛktɪv/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "providing a reflection; capable of reflecting light or other radiation",
+        "ptDefinition": "que reflete; capaz de refletir luz ou outra radiação",
+        "examples": [
+          {
+            "enExample": "The surface of the lake was calm and reflective, mirroring the sky above.",
+            "ptExample": "A superfície do lago estava calma e refletiva, espelhando o céu acima."
+          },
+          {
+            "enExample": "She wore a reflective vest to ensure she was visible to drivers at night.",
+            "ptExample": "Ela usava um colete refletivo para garantir que fosse visível aos motoristas à noite."
+          }
+        ],
+        "synonyms": ["mirroring", "shiny", "gleaming"],
+        "antonyms": ["dull", "matte", "non-reflective"],
+        "seeAlso": ["mirror-like", "glossy"],
+        "notes": [
+          {
+            "enNote": "Reflective materials are often used in safety equipment to enhance visibility.",
+            "ptNote": "Materiais refletivos são frequentemente usados em equipamentos de segurança para aumentar a visibilidade."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "read",
         "phonetics": "/riːd/",
         "partOfSpeech": "verb",
@@ -9,12 +39,12 @@
         "ptDefinition": "olhar e compreender o significado de material escrito ou impresso; ler",
         "examples": [
           {
-        "enExample": "She loves to read mystery novels in her free time.",
-        "ptExample": "Ela adora ler romances de mistério em seu tempo livre."
+            "enExample": "She loves to read mystery novels in her free time.",
+            "ptExample": "Ela adora ler romances de mistério em seu tempo livre."
           },
           {
-        "enExample": "He read the instructions carefully before assembling the furniture.",
-        "ptExample": "Ele leu as instruções cuidadosamente antes de montar os móveis."
+            "enExample": "He read the instructions carefully before assembling the furniture.",
+            "ptExample": "Ele leu as instruções cuidadosamente antes de montar os móveis."
           }
         ],
         "synonyms": ["scan", "study", "peruse"],
@@ -22,8 +52,8 @@
         "seeAlso": ["comprehend", "interpret"],
         "notes": [
           {
-        "enNote": "Reading is a fundamental skill that is essential for learning and communication.",
-        "ptNote": "Ler é uma habilidade fundamental que é essencial para o aprendizado e a comunicação."
+            "enNote": "Reading is a fundamental skill that is essential for learning and communication.",
+            "ptNote": "Ler é uma habilidade fundamental que é essencial para o aprendizado e a comunicação."
           }
         ]
       },
@@ -80,8 +110,8 @@
       {
         "word": "rally the troops",
         "partOfSpeech": "idiomatic expression",
-        "enDefinition": "To gather and motivate a group of people (often a team or organization) to work together toward a common goal, especially during difficult or challenging times.",
-        "ptDefinition": "Reunir e motivar um grupo de pessoas (geralmente uma equipe ou organização) para trabalhar juntas em direção a um objetivo comum, especialmente em tempos difíceis ou desafiadores.",
+        "enDefinition": "to gather and motivate a group of people (often a team or organization) to work together toward a common goal, especially during difficult or challenging times",
+        "ptDefinition": "reunir e motivar um grupo de pessoas (geralmente uma equipe ou organização) para trabalhar juntas em direção a um objetivo comum, especialmente em tempos difíceis ou desafiadores",
         "examples": [
           {
             "enExample": "The coach rallied the troops before the big game to inspire them to give their best.",
@@ -118,8 +148,8 @@
       {
         "word": "rest on one's laurels",
         "partOfSpeech": "idiom",
-        "enDefinition": "To be complacent or stop putting in effort because of past achievements, rather than continuing to work hard or strive for further success.",
-        "ptDefinition": "Ficar complacente ou parar de se esforçar devido a conquistas passadas, em vez de continuar a trabalhar arduamente ou buscar mais sucesso.",
+        "enDefinition": "to be complacent or stop putting in effort because of past achievements, rather than continuing to work hard or strive for further success",
+        "ptDefinition": "ficar complacente ou parar de se esforçar devido a conquistas passadas, em vez de continuar a trabalhar arduamente ou buscar mais sucesso",
         "examples": [
           {
             "enExample": "After winning the award, he decided to rest on his laurels instead of working on new projects.",
@@ -279,7 +309,7 @@
     "definitions": [
       {
         "word": "record-breaking",
-        "phonetics": "ˈrɛkərd ˌbreɪkɪŋ",
+        "phonetics": "ˈrek.ɚd ˌbreɪkɪŋ",
         "partOfSpeech": "adjective",
         "enDefinition": "surpassing previous records or achievements",
         "ptDefinition": "superando recordes ou conquistas anteriores",

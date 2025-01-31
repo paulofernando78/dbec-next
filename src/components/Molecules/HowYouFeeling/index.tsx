@@ -185,7 +185,7 @@ const emojis = [
         word: "disappointed",
       },
       {
-        word: "let down",
+        word: "betrayed",
       },
     ],
   },

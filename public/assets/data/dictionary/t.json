@@ -2,11 +2,64 @@
   {
     "definitions": [
       {
+        "word": "thoughtful",
+        "phonetics": "/ˈθɔːtfəl/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "engaged in or involving deep or serious thought",
+        "ptDefinition": "envolvido em ou envolvendo pensamento profundo ou sério; pensativo",
+        "examples": [
+          {
+        "enExample": "He looked thoughtful as he pondered the question.",
+        "ptExample": "Ele parecia pensativo enquanto ponderava a questão."
+          },
+          {
+        "enExample": "Her thoughtful expression indicated she was considering all options.",
+        "ptExample": "Sua expressão pensativa indicava que ela estava considerando todas as opções."
+          }
+        ],
+        "synonyms": ["reflective", "pensive", "contemplative", "meditative"],
+        "antonyms": ["unreflective", "thoughtless", "careless"],
+        "seeAlso": ["reflection", "meditation"],
+        "notes": [
+          {
+        "enNote": "Being thoughtful often involves taking time to consider various aspects of a situation.",
+        "ptNote": "Ser pensativo frequentemente envolve dedicar tempo para considerar vários aspectos de uma situação."
+          }
+        ]
+      },
+      {
+        "enDefinition": "Showing consideration for the needs of other people",
+        "ptDefinition": "Mostrando consideração pelas necessidades de outras pessoas; atencioso, cuidadoso",
+        "examples": [
+          {
+            "enExample": "She gave a thoughtful gift to her friend.",
+            "ptExample": "Ela deu um presente atencioso para sua amiga."
+          },
+          {
+            "enExample": "His thoughtful comments were appreciated by everyone.",
+            "ptExample": "Seus comentários atenciosos foram apreciados por todos."
+          }
+        ],
+        "synonyms": ["considerate", "attentive", "kind", "caring"],
+        "antonyms": ["thoughtless", "inconsiderate", "selfish"],
+        "seeAlso": ["consideration", "kindness"],
+        "notes": [
+          {
+            "enNote": "Being thoughtful often involves empathy and understanding of others' feelings.",
+            "ptNote": "Ser atencioso frequentemente envolve empatia e compreensão dos sentimentos dos outros."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "tired",
         "phonetics": "/ˈtaɪərd/",
         "partOfSpeech": "adjective",
-        "enDefinition": "In need of sleep or rest; weary.",
-        "ptDefinition": "Necessitando de sono ou descanso; cansado.",
+        "enDefinition": "in need of sleep or rest; weary",
+        "ptDefinition": "necessitando de sono ou descanso; cansado",
         "examples": [
           {
             "enExample": "She felt tired after a long day at work.",
@@ -35,8 +88,8 @@
         "word": "team spirit",
         "phonetics": "/tiːm ˈspɪrɪt/",
         "partOfSpeech": "noun",
-        "enDefinition": "The feeling of friendship and cooperation among members of a group, especially when working together towards a common goal.",
-        "ptDefinition": "O sentimento de amizade e cooperação entre membros de um grupo, especialmente ao trabalharem juntos em direção a um objetivo comum.",
+        "enDefinition": "the feeling of friendship and cooperation among members of a group, especially when working together towards a common goal",
+        "ptDefinition": "o sentimento de amizade e cooperação entre membros de um grupo, especialmente ao trabalharem juntos em direção a um objetivo comum",
         "examples": [
           {
             "enExample": "The team's spirit was incredible during the competition, with everyone helping each other to succeed.",
@@ -64,8 +117,8 @@
       {
         "word": "turn around one's business",
         "partOfSpeech": "idiom",
-        "enDefinition": "To improve or change the direction of a business or organization that is struggling or underperforming, typically by implementing new strategies or making major adjustments.",
-        "ptDefinition": "Melhorar ou mudar a direção de um negócio ou organização que está lutando ou tendo um desempenho insatisfatório, geralmente por meio da implementação de novas estratégias ou fazendo ajustes importantes.",
+        "enDefinition": "to improve or change the direction of a business or organization that is struggling or underperforming, typically by implementing new strategies or making major adjustments",
+        "ptDefinition": "melhorar ou mudar a direção de um negócio ou organização que está lutando ou tendo um desempenho insatisfatório, geralmente por meio da implementação de novas estratégias ou fazendo ajustes importantes",
         "examples": [
           {
             "enExample": "After months of low sales, the company decided to turn around its business by launching a new marketing campaign.",
@@ -76,9 +129,19 @@
             "ptExample": "Com uma abordagem nova e uma nova liderança, a empresa conseguiu reverter o seu negócio em um ano."
           }
         ],
-        "synonyms": ["revitalize", "restore", "improve", "recover", "bounce back"],
+        "synonyms": [
+          "revitalize",
+          "restore",
+          "improve",
+          "recover",
+          "bounce back"
+        ],
         "antonyms": ["decline", "deteriorate", "fail", "struggle"],
-        "seeAlso": ["business turnaround", "business recovery", "corporate strategy"],
+        "seeAlso": [
+          "business turnaround",
+          "business recovery",
+          "corporate strategy"
+        ],
         "notes": [
           {
             "enNote": "This expression is commonly used in the business world when a company is able to overcome financial or operational difficulties and return to profitability or success.",
@@ -94,8 +157,8 @@
         "word": "track record",
         "phonetics": "/træk ˈrɛkɔːd/",
         "partOfSpeech": "noun",
-        "enDefinition": "The history of past performance or achievements, especially in a particular field or activity. It refers to the record of someone's or something's previous successes or failures.",
-        "ptDefinition": "O histórico de desempenho ou conquistas passadas, especialmente em um campo ou atividade específica. Refere-se ao registro de sucessos ou falhas anteriores de alguém ou algo.",
+        "enDefinition": "the history of past performance or achievements, especially in a particular field or activity. It refers to the record of someone's or something's previous successes or failures",
+        "ptDefinition": "o histórico de desempenho ou conquistas passadas, especialmente em um campo ou atividade específica. Refere-se ao registro de sucessos ou falhas anteriores de alguém ou algo",
         "examples": [
           {
             "enExample": "The company has a strong track record of delivering high-quality products on time.",
@@ -106,7 +169,13 @@
             "ptExample": "Antes de contratar, certifique-se de verificar o histórico do candidato em funções anteriores."
           }
         ],
-        "synonyms": ["history", "background", "past performance", "record", "reputation"],
+        "synonyms": [
+          "history",
+          "background",
+          "past performance",
+          "record",
+          "reputation"
+        ],
         "antonyms": ["inexperience", "lack of history"],
         "seeAlso": ["reputation", "credentials", "achievements"],
         "notes": [
@@ -123,8 +192,8 @@
       {
         "word": "throw in the towel",
         "partOfSpeech": "idiomatic expression",
-        "enDefinition": "To give up or admit defeat, often after trying hard for a period of time.",
-        "ptDefinition": "Desistir ou admitir a derrota, muitas vezes após tentar muito por um tempo.",
+        "enDefinition": "to give up or admit defeat, often after trying hard for a period of time",
+        "ptDefinition": "desistir ou admitir a derrota, muitas vezes após tentar muito por um tempo",
         "examples": [
           {
             "enExample": "After hours of trying to fix the car, he finally threw in the towel.",
@@ -193,7 +262,11 @@
             "ptExample": "Trabalhar de casa me permite ter o melhor dos dois mundos: um horário flexível e sem necessidade de deslocamento."
           }
         ],
-        "synonyms": ["have it all", "all the advantages", "the ideal situation"],
+        "synonyms": [
+          "have it all",
+          "all the advantages",
+          "the ideal situation"
+        ],
         "antonyms": ["compromise", "trade-off", "sacrifice"],
         "notes": [
           {
@@ -383,7 +456,12 @@
             "ptExample": "É importante levar em conta o feedback, mas não se deve desmotivar todas as novas ideias que surgem."
           }
         ],
-        "synonyms": ["discourage", "downplay", "dampen enthusiasm", "rain on someone's parade"],
+        "synonyms": [
+          "discourage",
+          "downplay",
+          "dampen enthusiasm",
+          "rain on someone's parade"
+        ],
         "antonyms": ["encourage", "support", "inspire", "fuel enthusiasm"],
         "notes": [
           {
@@ -442,7 +520,11 @@
           }
         ],
         "synonyms": ["be creative", "think unconventionally", "innovate"],
-        "antonyms": ["think traditionally", "follow conventions", "stay conventional"],
+        "antonyms": [
+          "think traditionally",
+          "follow conventions",
+          "stay conventional"
+        ],
         "seeAlso": ["brainstorm", "blue-sky thinking"]
       }
     ]

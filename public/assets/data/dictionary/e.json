@@ -1,5 +1,94 @@
 [
-  
+  {
+    "definitions": [
+      {
+        "word": "embarrassing",
+        "phonetics": "/ɪmˈbærəsɪŋ/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "causing someone to feel awkward, self-conscious, or ashamed",
+        "ptDefinition": "causando em alguém um sentimento de constrangimento, vergonha ou embaraço",
+        "examples": [
+          {
+            "enExample": "The situation was embarrassing for everyone involved.",
+            "ptExample": "A situação foi constrangedora para todos os envolvidos."
+          },
+          {
+            "enExample": "It was embarrassing to admit that I had forgotten her name.",
+            "ptExample": "Foi embaraçoso admitir que eu tinha esquecido o nome dela."
+          }
+        ],
+        "synonyms": ["awkward", "humiliating", "uncomfortable"],
+        "antonyms": ["comfortable", "reassuring", "pleasant"],
+        "seeAlso": ["mortifying", "shameful"],
+        "notes": [
+          {
+            "enNote": "Often used to describe situations that cause social discomfort.",
+            "ptNote": "Frequentemente usado para descrever situações que causam desconforto social."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "embarrassed",
+        "phonetics": "/ɪmˈbærəst/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "feeling awkward, self-conscious, or ashamed",
+        "ptDefinition": "sentindo-se constrangido, envergonhado ou embaraçado",
+        "examples": [
+          {
+            "enExample": "She felt embarrassed when she realized her mistake.",
+            "ptExample": "Ela se sentiu envergonhada quando percebeu seu erro."
+          },
+          {
+            "enExample": "He was embarrassed by the unexpected attention.",
+            "ptExample": "Ele ficou constrangido com a atenção inesperada."
+          }
+        ],
+        "synonyms": ["ashamed", "self-conscious", "humiliated"],
+        "antonyms": ["confident", "assured", "unashamed"],
+        "seeAlso": ["abashed", "flustered"],
+        "notes": [
+          {
+            "enNote": "Often used to describe a feeling of discomfort in social situations.",
+            "ptNote": "Frequentemente usado para descrever um sentimento de desconforto em situações sociais."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "embarrass",
+        "phonetics": "/ɪmˈbærəs/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to cause someone to feel awkward, self-conscious, or ashamed",
+        "ptDefinition": "causar em alguém um sentimento de constrangimento, vergonha ou embaraço",
+        "examples": [
+          {
+            "enExample": "His comments embarrassed her in front of her friends.",
+            "ptExample": "Os comentários dele a deixaram constrangida na frente dos amigos."
+          },
+          {
+            "enExample": "She was embarrassed by her mistake.",
+            "ptExample": "Ela ficou envergonhada pelo seu erro."
+          }
+        ],
+        "synonyms": ["humiliate", "shame", "mortify"],
+        "antonyms": ["comfort", "reassure", "encourage"],
+        "seeAlso": ["abash", "disconcert"],
+        "notes": [
+          {
+            "enNote": "Often used to describe situations where someone feels socially awkward or self-conscious.",
+            "ptNote": "Frequentemente usado para descrever situações em que alguém se sente socialmente desconfortável ou constrangido."
+          }
+        ]
+      }
+    ]
+  },
   {
     "definitions": [
       {
@@ -43,36 +132,6 @@
         "synonyms": ["tired", "fatigued", "worn out"],
         "antonyms": ["energetic", "rested", "refreshed"],
         "seeAlso": ["weary", "drained"]
-      }
-    ]
-  },
-  {
-    "definitions": [
-      {
-        "word": "anxious",
-        "phonetics": "/ˈæŋk.ʃəs/",
-        "partOfSpeech": "adjective",
-        "enDefinition": "feeling or showing worry, nervousness, or unease about something with an uncertain outcome",
-        "ptDefinition": "sentindo ou mostrando preocupação, nervosismo ou inquietação sobre algo com um resultado incerto",
-        "examples": [
-          {
-            "enExample": "She was anxious about the exam results.",
-            "ptExample": "Ela estava ansiosa com os resultados do exame."
-          },
-          {
-            "enExample": "He felt anxious before the job interview.",
-            "ptExample": "Ele se sentiu ansioso antes da entrevista de emprego."
-          }
-        ],
-        "synonyms": ["worried", "nervous", "uneasy", "apprehensive"],
-        "antonyms": ["calm", "relaxed", "confident"],
-        "seeAlso": ["nervous", "apprehensive"],
-        "notes": [
-          {
-            "enNote": "Often used to describe a state of mental unease or worry.",
-            "ptNote": "Frequentemente usado para descrever um estado de inquietação ou preocupação mental."
-          }
-        ]
       }
     ]
   },
@@ -159,8 +218,8 @@
         "word": "everyone",
         "phonetics": "ˈɛvrɪwʌn",
         "partOfSpeech": "pronoun",
-        "enDefinition": "Every person; all people.",
-        "ptDefinition": "Toda pessoa; todas as pessoas.",
+        "enDefinition": "every person; all people",
+        "ptDefinition": "toda pessoa; todas as pessoas",
         "examples": [
           {
             "enExample": "Everyone is invited to the party.",

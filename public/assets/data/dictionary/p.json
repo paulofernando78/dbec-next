@@ -4,8 +4,8 @@
       {
         "word": "private-label products",
         "partOfSpeech": "noun phrase",
-        "enDefinition": "Products that are manufactured by one company but sold under another company's brand name. Typically, the retailer or brand owner controls the branding, packaging, and marketing of the product.",
-        "ptDefinition": "Produtos fabricados por uma empresa, mas vendidos sob o nome de marca de outra empresa. Normalmente, o varejista ou proprietário da marca controla a marca, embalagem e marketing do produto.",
+        "enDefinition": "products that are manufactured by one company but sold under another company's brand name. Typically, the retailer or brand owner controls the branding, packaging, and marketing of the product",
+        "ptDefinition": "produtos fabricados por uma empresa, mas vendidos sob o nome de marca de outra empresa. Normalmente, o varejista ou proprietário da marca controla a marca, embalagem e marketing do produto",
         "examples": [
           {
             "enExample": "Many supermarkets offer a range of private-label products, often at a lower price than national brands.",
@@ -67,8 +67,8 @@
       {
         "word": "pull the wool over one's eyes",
         "partOfSpeech": "idiom",
-        "enDefinition": "to deceive or trick someone into believing something that is not true.",
-        "ptDefinition": "Enganar ou iludir alguém, fazendo com que acredite em algo que não é verdade",
+        "enDefinition": "to deceive or trick someone into believing something that is not true",
+        "ptDefinition": "enganar ou iludir alguém, fazendo com que acredite em algo que não é verdade",
         "examples": [
           {
             "enExample": "he tried to pull the wool over my eyes, but I saw through his plan",
@@ -281,21 +281,6 @@
   {
     "definitions": [
       {
-        "word": "a pat on the back",
-        "partOfSpeech": "idiom",
-        "enDefinition": "credit; recognition; praise",
-        "examples": [
-          {
-            "enExample": "Team, give yourselves a <b>pat on the back</b>. Our results are in, and we just had our most successful quarter ever!",
-            "ptExample": "Equipe, deem-se os parabéns! Os resultados chegaram, e acabamos de ter o trimestre mais bem-sucedido de nossa história!"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "definitions": [
-      {
         "word": "pan out",
         "partOfSpeech": "idiom",
         "enDefinition": "to succeed; to bring the desired results",
@@ -317,7 +302,7 @@
         "ptDefinition": "mesquinho",
         "examples": [
           {
-            "enExample": "<u>Don't be</u> so petty!",
+            "enExample": "Don't be so petty!",
             "ptExample": "Não seja tão mesquinho!"
           }
         ]

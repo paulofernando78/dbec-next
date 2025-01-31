@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "goofy",
+        "phonetics": "/ˈɡuː.fi/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "silly or ridiculous, often in a way that is endearing or amusing",
+        "ptDefinition": "bobo ou ridículo, muitas vezes de uma maneira cativante ou divertida",
+        "examples": [
+          {
+            "enExample": "He made a goofy face to make the children laugh.",
+            "ptExample": "Ele fez uma cara boba para fazer as crianças rirem."
+          },
+          {
+            "enExample": "Her goofy sense of humor always lightens the mood.",
+            "ptExample": "Seu senso de humor bobo sempre melhora o clima."
+          }
+        ],
+        "synonyms": ["silly", "ridiculous", "absurd"],
+        "antonyms": ["serious", "sensible", "solemn"],
+        "seeAlso": ["funny", "comical", "whimsical"],
+        "notes": [
+          {
+            "enNote": "The term 'goofy' is often used affectionately to describe someone who is playfully silly.",
+            "ptNote": "O termo 'goofy' é frequentemente usado de forma carinhosa para descrever alguém que é brincalhão e bobo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "glad",
         "phonetics": "/ɡlæd/",
         "partOfSpeech": "adjective",

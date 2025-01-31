@@ -2,6 +2,35 @@
   {
     "definitions": [
       {
+        "word": "let down",
+        "phonetics": "lɛt daʊn",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to disappoint someone by failing to do what they expected or hoped for",
+        "ptDefinition": "decepcionar alguém ao não fazer o que esperavam ou esperavam",
+        "examples": [
+          {
+            "enExample": "I promised to help him, and I can't let him down.",
+            "ptExample": "Eu prometi ajudá-lo, e não posso decepcioná-lo."
+          },
+          {
+            "enExample": "She felt let down when her friends didn't show up to her party.",
+            "ptExample": "Ela se sentiu decepcionada quando seus amigos não apareceram na festa."
+          }
+        ],
+        "synonyms": ["disappoint", "fail", "betray"],
+        "antonyms": ["support", "uplift", "encourage"],
+        "notes": [
+          {
+            "enNote": "This phrasal verb is often used when someone does not meet expectations or fulfill a promise.",
+            "ptNote": "Este verbo frasal é frequentemente usado quando alguém não atende às expectativas ou cumpre uma promessa."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "live to regret this decision",
         "partOfSpeech": "idiom",
         "enDefinition": "to eventually regret a decision, especially after experiencing its negative consequences",

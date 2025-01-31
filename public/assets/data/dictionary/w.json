@@ -5,8 +5,8 @@
         "word": "wacky",
         "phonetics": "/ˈwæki/",
         "partOfSpeech": "adjective",
-        "enDefinition": "funny or amusing in a slightly odd or peculiar way.",
-        "ptDefinition": "engraçado ou divertido de uma maneira um pouco estranha ou peculiar.",
+        "enDefinition": "funny or amusing in a slightly odd or peculiar way",
+        "ptDefinition": "engraçado ou divertido de uma maneira um pouco estranha ou peculiar",
         "examples": [
           {
             "enExample": "She wore a wacky hat to the party.",
@@ -35,8 +35,8 @@
         "word": "well",
         "phonetics": "/wɛl/",
         "partOfSpeech": "adverb",
-        "enDefinition": "in a good or satisfactory way.",
-        "ptDefinition": "de uma maneira boa ou satisfatória.",
+        "enDefinition": "in a good or satisfactory way",
+        "ptDefinition": "de uma maneira boa ou satisfatória",
         "examples": [
           {
             "enExample": "She did well on her exams.",
@@ -64,8 +64,8 @@
       {
         "word": "work one's tail off",
         "partOfSpeech": "idiomatic expression",
-        "enDefinition": "To work very hard, often to the point of exhaustion.",
-        "ptDefinition": "Trabalhar muito, geralmente até o ponto de exaustão.",
+        "enDefinition": "to work very hard, often to the point of exhaustion",
+        "ptDefinition": "trabalhar muito, geralmente até o ponto de exaustão",
         "examples": [
           {
             "enExample": "She worked her tail off to finish the project on time.",
@@ -200,8 +200,8 @@
       {
         "word": "work out the kinks",
         "partOfSpeech": "idiom",
-        "enDefinition": "To resolve problems or difficulties, especially minor ones, in order to make something function smoothly.",
-        "ptDefinition": "Resolver problemas ou dificuldades, especialmente os menores, para fazer algo funcionar perfeitamente.",
+        "enDefinition": "to resolve problems or difficulties, especially minor ones, in order to make something function smoothly",
+        "ptDefinition": "resolver problemas ou dificuldades, especialmente os menores, para fazer algo funcionar perfeitamente",
         "examples": [
           {
             "enExample": "The new software is almost ready, but we still need to work out the kinks before the official launch.",

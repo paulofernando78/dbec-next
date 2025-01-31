@@ -2,6 +2,96 @@
   {
     "definitions": [
       {
+        "word": "ashamed",
+        "phonetics": "/əˈʃeɪmd/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "feeling embarrassed or guilty because of one's actions, characteristics, or associations",
+        "ptDefinition": "sentindo-se envergonhado ou culpado por causa de suas ações, características ou associações; envergonhado(a)",
+        "examples": [
+          {
+            "enExample": "She felt ashamed of her behavior.",
+            "ptExample": "Ela se sentiu envergonhada de seu comportamento."
+          },
+          {
+            "enExample": "He was ashamed to admit his mistake.",
+            "ptExample": "Ele estava envergonhado de admitir seu erro."
+          }
+        ],
+        "synonyms": ["embarrassed", "guilty", "humiliated"],
+        "antonyms": ["proud", "unashamed"],
+        "seeAlso": ["embarrassed", "guilty"],
+        "notes": [
+          {
+            "enNote": "Ashamed is often used to describe a feeling of guilt or embarrassment about something one has done.",
+            "ptNote": "Ashamed é frequentemente usado para descrever um sentimento de culpa ou vergonha sobre algo que alguém fez."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "afraid",
+        "phonetics": "/əˈfreɪd/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "feeling fear or anxiety; frightened",
+        "ptDefinition": "sentindo medo ou ansiedade; assustado",
+        "examples": [
+          {
+            "enExample": "She was afraid of the dark.",
+            "ptExample": "Ela tinha medo do escuro."
+          },
+          {
+            "enExample": "He is afraid of flying.",
+            "ptExample": "Ele tem medo de voar."
+          }
+        ],
+        "synonyms": ["scared", "frightened", "terrified", "fearful"],
+        "antonyms": ["brave", "confident", "fearless"],
+        "seeAlso": ["fear", "anxiety"],
+        "notes": [
+          {
+            "enNote": "Afraid is often used to describe a temporary state of fear.",
+            "ptNote": "Afraid é frequentemente usado para descrever um estado temporário de medo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "anxious",
+        "phonetics": "/ˈæŋk.ʃəs/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "experiencing worry, unease, or nervousness, typically about an imminent event or something with an uncertain outcome",
+        "ptDefinition": "experimentando preocupação, inquietação ou nervosismo, geralmente sobre um evento iminente ou algo com um resultado incerto; ansioso",
+        "examples": [
+          {
+            "enExample": "She felt anxious before the exam.",
+            "ptExample": "Ela se sentiu ansiosa antes do exame."
+          },
+          {
+            "enExample": "He was anxious about the meeting with his boss.",
+            "ptExample": "Ele estava ansioso com a reunião com seu chefe."
+          }
+        ],
+        "synonyms": ["worried", "nervous", "apprehensive", "uneasy"],
+        "antonyms": ["calm", "relaxed", "confident"],
+        "seeAlso": ["nervous", "apprehensive"],
+        "notes": [
+          {
+            "enNote": "Anxious can describe both a temporary state of worry and a more chronic condition.",
+            "ptNote": "Ansioso pode descrever tanto um estado temporário de preocupação quanto uma condição mais crônica."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "ask for trouble",
         "partOfSpeech": "idiom",
         "enDefinition": "to behave in a way that is likely to result in trouble or problems",
@@ -34,8 +124,8 @@
         "word": "agenda item",
         "phonetics": "/əˈdʒɛndə ˈaɪɾəm/",
         "partOfSpeech": "noun",
-        "enDefinition": "A specific subject or topic listed for discussion or action during a meeting or event.",
-        "ptDefinition": "Um assunto ou tópico específico listado para discussão ou ação durante uma reunião ou evento.",
+        "enDefinition": "A specific subject or topic listed for discussion or action during a meeting or event",
+        "ptDefinition": "Um assunto ou tópico específico listado para discussão ou ação durante uma reunião ou evento",
         "examples": [
           {
             "enExample": "The budget report is the first agenda item for today's meeting.",

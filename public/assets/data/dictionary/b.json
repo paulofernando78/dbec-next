@@ -2,6 +2,82 @@
   {
     "definitions": [
       {
+        "word": "bore",
+        "phonetics": "/bɔːr/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to make someone feel weary and uninterested by being dull or tedious",
+        "ptDefinition": "fazer alguém se sentir cansado e desinteressado por ser chato ou tedioso",
+        "examples": [
+          {
+            "enExample": "The lecture on ancient pottery bored the students to tears.",
+            "ptExample": "A palestra sobre cerâmica antiga entediou os alunos até as lágrimas."
+          },
+          {
+            "enExample": "He always bores me with his endless stories about his job.",
+            "ptExample": "Ele sempre me entedia com suas intermináveis histórias sobre seu trabalho."
+          }
+        ],
+        "synonyms": ["dull", "weary", "tire"],
+        "antonyms": ["interest", "excite", "entertain"],
+        "seeAlso": ["tedious", "monotonous"]
+      },
+      {
+        "word": "bored",
+        "phonetics": "/bɔːrd/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "feeling weary and impatient because one is unoccupied or lacks interest in one's current activity",
+        "ptDefinition": "sentindo-se cansado e impaciente porque está desocupado ou não tem interesse na atividade atual",
+        "examples": [
+          {
+            "enExample": "She was bored during the long meeting.",
+            "ptExample": "Ela estava entediada durante a longa reunião."
+          },
+          {
+            "enExample": "He felt bored after finishing all his work early.",
+            "ptExample": "Ele se sentiu entediado depois de terminar todo o seu trabalho cedo."
+          }
+        ],
+        "synonyms": ["uninterested", "weary", "disinterested"],
+        "antonyms": ["engaged", "interested", "entertained"],
+        "seeAlso": ["bore", "boring"],
+        "notes": [
+          {
+            "enNote": "The feeling of boredom can often lead to a desire for new or stimulating activities.",
+            "ptNote": "O sentimento de tédio pode frequentemente levar a um desejo por atividades novas ou estimulantes."
+          }
+        ]
+      },
+      {
+        "word": "boring",
+        "phonetics": "/ˈbɔːrɪŋ/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "not interesting; tedious",
+        "ptDefinition": "não interessante; tedioso",
+        "examples": [
+          {
+            "enExample": "The movie was so boring that I fell asleep.",
+            "ptExample": "O filme era tão chato que eu adormeci."
+          },
+          {
+            "enExample": "He found the lecture boring and struggled to stay awake.",
+            "ptExample": "Ele achou a palestra chata e lutou para ficar acordado."
+          }
+        ],
+        "synonyms": ["tedious", "dull", "uninteresting"],
+        "antonyms": ["exciting", "interesting", "engaging"],
+        "seeAlso": ["bore", "bored"],
+        "notes": [
+          {
+            "enNote": "Something that is boring fails to hold attention or interest.",
+            "ptNote": "Algo que é chato não consegue prender a atenção ou interesse."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "bigwig",
         "phonetics": "/ˈbɪɡwɪɡ/",
         "partOfSpeech": "noun",
@@ -17,7 +93,12 @@
             "ptExample": "Como uma figura importante no setor financeiro, ele tinha o poder de influenciar grandes decisões."
           }
         ],
-        "synonyms": ["important person", "high-ranking official", "influential figure", "VIP"],
+        "synonyms": [
+          "important person",
+          "high-ranking official",
+          "influential figure",
+          "VIP"
+        ],
         "antonyms": ["ordinary person", "subordinate", "underling"],
         "seeAlso": ["executive", "leader", "authority"],
         "notes": [

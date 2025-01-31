@@ -1,5 +1,97 @@
 [
   {
+    "definitions": [
+      {
+        "word": "scared",
+        "phonetics": "/skɛrd/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "feeling fear or anxiety; frightened",
+        "ptDefinition": "sentindo medo ou ansiedade; assustado",
+        "examples": [
+          {
+            "enExample": "The children were scared by the thunderstorm.",
+            "ptExample": "As crianças ficaram assustadas com a tempestade."
+          },
+          {
+            "enExample": "She felt scared walking alone at night.",
+            "ptExample": "Ela se sentiu assustada andando sozinha à noite."
+          }
+        ],
+        "synonyms": ["frightened", "afraid", "terrified"],
+        "antonyms": ["calm", "brave", "confident"],
+        "seeAlso": ["afraid", "terrified"],
+        "notes": [
+          {
+            "enNote": "The word 'scared' is often used to describe a temporary feeling of fear.",
+            "ptNote": "A palavra 'scared' é frequentemente usada para descrever um sentimento temporário de medo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "scare",
+    "definitions": [
+      {
+        "word": "scare",
+        "phonetics": "/skɛr/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to cause someone to feel frightened or alarmed",
+        "ptDefinition": "causar medo ou alarme em alguém; assustar",
+        "examples": [
+          {
+            "enExample": "The loud noise scared the children.",
+            "ptExample": "O barulho alto assustou as crianças."
+          },
+          {
+            "enExample": "She was scared by the horror movie.",
+            "ptExample": "Ela ficou assustada com o filme de terror."
+          }
+        ],
+        "synonyms": ["frighten", "alarm", "terrify"],
+        "antonyms": ["calm", "reassure"],
+        "seeAlso": ["frighten", "startle"],
+        "notes": [
+          {
+            "enNote": "The word 'scare' can be used both as a verb and a noun.",
+            "ptNote": "A palavra 'scare' pode ser usada tanto como verbo quanto como substantivo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "silly",
+    "definitions": [
+      {
+        "word": "silly",
+        "phonetics": "/ˈsɪli/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "having or showing a lack of common sense or judgment; absurd and foolish",
+        "ptDefinition": "tendo ou mostrando falta de bom senso ou julgamento; absurdo e tolo",
+        "examples": [
+          {
+            "enExample": "Don't be silly, it's not that big of a deal.",
+            "ptExample": "Não seja bobo, não é tão importante assim."
+          },
+          {
+            "enExample": "She made a silly mistake on the test.",
+            "ptExample": "Ela cometeu um erro bobo no teste."
+          }
+        ],
+        "synonyms": ["foolish", "absurd", "ridiculous"],
+        "antonyms": ["sensible", "serious", "wise"],
+        "seeAlso": ["foolish", "childish"],
+        "notes": [
+          {
+            "enNote": "The word 'silly' is often used in a light-hearted or playful manner.",
+            "ptNote": "A palavra 'silly' é frequentemente usada de maneira descontraída ou brincalhona."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "send",
     "definitions": [
       {
@@ -69,8 +161,16 @@
             "ptExample": "Ele foi rápido em dividir o reconhecimento com seus colegas pelo sucesso da campanha."
           }
         ],
-        "synonyms": ["give credit", "acknowledge others", "share the recognition"],
-        "antonyms": ["take all the credit", "claim all the recognition", "be selfish"],
+        "synonyms": [
+          "give credit",
+          "acknowledge others",
+          "share the recognition"
+        ],
+        "antonyms": [
+          "take all the credit",
+          "claim all the recognition",
+          "be selfish"
+        ],
         "notes": [
           {
             "enNote": "This phrase emphasizes collaboration and fairness in recognizing everyone's contribution."
@@ -101,7 +201,11 @@
           }
         ],
         "synonyms": ["acquire customers", "recruit members", "gain clients"],
-        "antonyms": ["lose customers", "cancel memberships", "reduce clientele"],
+        "antonyms": [
+          "lose customers",
+          "cancel memberships",
+          "reduce clientele"
+        ],
         "notes": [
           {
             "enNote": "This phrase is often used in marketing, sales, and membership-driven businesses."
@@ -131,7 +235,11 @@
             "ptExample": "É hora do novo gerente assumir o desafio e mostrar do que é capaz."
           }
         ],
-        "synonyms": ["take responsibility", "rise to the occasion", "take charge"],
+        "synonyms": [
+          "take responsibility",
+          "rise to the occasion",
+          "take charge"
+        ],
         "antonyms": ["avoid responsibility", "back down", "pass the buck"],
         "notes": [
           {
@@ -480,8 +588,8 @@
         "word": "suddenly",
         "phonetics": "/ˈsʌd.ən.li/",
         "partOfSpeech": "adverb",
-        "enDefinition": "Quickly and unexpectedly.",
-        "ptDefinition": "De forma rápida e inesperada.",
+        "enDefinition": "quickly and unexpectedly",
+        "ptDefinition": "de forma rápida e inesperada",
         "examples": [
           {
             "enExample": "Suddenly, the lights went out, and the room was pitch black.",

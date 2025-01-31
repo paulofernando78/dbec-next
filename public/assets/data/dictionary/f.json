@@ -1,58 +1,118 @@
 [
- {
-  "definitions": [
-    {
-      "word": "fly",
-      "phonetics": "/flaɪ/",
-      "partOfSpeech": "verb",
-      "enDefinition": "to move through the air using wings",
-      "ptDefinition": "mover-se pelo ar usando asas; voar",
-      "examples": [
-        {
-          "enExample": "Birds fly south for the winter.",
-          "ptExample": "Os pássaros voam para o sul no inverno."
-        },
-        {
-          "enExample": "She learned to fly a plane.",
-          "ptExample": "Ela aprendeu a pilotar um avião."
-        }
-      ],
-      "synonyms": ["soar", "glide", "hover"],
-      "antonyms": ["land", "fall"],
-      "seeAlso": "flight"
-    }
-  ]
- },
   {
-  "definitions": [
-    {
-      "word": "find",
-      "phonetics": "/faɪnd/",
-      "partOfSpeech": "verb",
-      "enDefinition": "to discover or perceive by chance or unexpectedly",
-      "ptDefinition": "descobrir ou perceber por acaso ou inesperadamente",
-      "examples": [
-        {
-          "enExample": "I happened to find a rare coin in the attic.",
-          "ptExample": "Eu encontrei uma moeda rara no sótão por acaso."
-        },
-        {
-          "enExample": "She found her keys in the kitchen.",
-          "ptExample": "Ela encontrou suas chaves na cozinha."
-        }
-      ],
-      "synonyms": ["discover", "locate", "uncover"],
-      "antonyms": ["lose", "misplace"],
-      "seeAlso": "discover",
-      "notes": [
-        {
-          "enNote": "The verb 'find' can be used in various contexts, including discovering something by chance or searching for something specific.",
-          "ptNote": "O verbo 'encontrar' pode ser usado em vários contextos, incluindo descobrir algo por acaso ou procurar algo específico."
-        }
-      ]
-    }
-  ]
- },
+    "definitions": [
+      {
+        "word": "frustrated",
+        "phonetics": "/ˈfrʌs.treɪ.tɪd/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "feeling or expressing distress and annoyance resulting from an inability to change or achieve something",
+        "ptDefinition": "sentindo ou expressando angústia e irritação resultantes da incapacidade de mudar ou alcançar algo",
+        "examples": [
+          {
+            "enExample": "He felt frustrated by his lack of progress.",
+            "ptExample": "Ele se sentiu frustrado pela falta de progresso."
+          },
+          {
+            "enExample": "She was frustrated with the slow internet connection.",
+            "ptExample": "Ela estava frustrada com a conexão lenta da internet."
+          }
+        ],
+        "synonyms": ["annoyed", "disappointed", "disheartened"],
+        "antonyms": ["content", "satisfied", "pleased"],
+        "seeAlso": "frustrate",
+        "notes": [
+          {
+            "enNote": "The adjective 'frustrated' is often used to describe a feeling of being blocked or hindered in one's efforts.",
+            "ptNote": "O adjetivo 'frustrado' é frequentemente usado para descrever um sentimento de estar bloqueado ou impedido em seus esforços."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "frustrate",
+        "phonetics": "/ˈfrʌs.treɪt/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to cause someone to feel upset or annoyed, typically as a result of being unable to change or achieve something",
+        "ptDefinition": "causar a alguém sentir-se chateado ou irritado, tipicamente como resultado de não conseguir mudar ou alcançar algo",
+        "examples": [
+          {
+            "enExample": "The delays in the project frustrated the team.",
+            "ptExample": "Os atrasos no projeto frustraram a equipe."
+          },
+          {
+            "enExample": "She was frustrated by her inability to find a job.",
+            "ptExample": "Ela estava frustrada por sua incapacidade de encontrar um emprego."
+          }
+        ],
+        "synonyms": ["annoy", "irritate", "exasperate"],
+        "antonyms": ["satisfy", "please", "delight"],
+        "seeAlso": "frustration",
+        "notes": [
+          {
+            "enNote": "The verb 'frustrate' is often used when someone feels blocked or hindered in their efforts.",
+            "ptNote": "O verbo 'frustrar' é frequentemente usado quando alguém se sente bloqueado ou impedido em seus esforços."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "fly",
+        "phonetics": "/flaɪ/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to move through the air using wings",
+        "ptDefinition": "mover-se pelo ar usando asas; voar",
+        "examples": [
+          {
+            "enExample": "Birds fly south for the winter.",
+            "ptExample": "Os pássaros voam para o sul no inverno."
+          },
+          {
+            "enExample": "She learned to fly a plane.",
+            "ptExample": "Ela aprendeu a pilotar um avião."
+          }
+        ],
+        "synonyms": ["soar", "glide", "hover"],
+        "antonyms": ["land", "fall"],
+        "seeAlso": "flight"
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "find",
+        "phonetics": "/faɪnd/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to discover or perceive by chance or unexpectedly",
+        "ptDefinition": "descobrir ou perceber por acaso ou inesperadamente",
+        "examples": [
+          {
+            "enExample": "I happened to find a rare coin in the attic.",
+            "ptExample": "Eu encontrei uma moeda rara no sótão por acaso."
+          },
+          {
+            "enExample": "She found her keys in the kitchen.",
+            "ptExample": "Ela encontrou suas chaves na cozinha."
+          }
+        ],
+        "synonyms": ["discover", "locate", "uncover"],
+        "antonyms": ["lose", "misplace"],
+        "seeAlso": "discover",
+        "notes": [
+          {
+            "enNote": "The verb 'find' can be used in various contexts, including discovering something by chance or searching for something specific.",
+            "ptNote": "O verbo 'encontrar' pode ser usado em vários contextos, incluindo descobrir algo por acaso ou procurar algo específico."
+          }
+        ]
+      }
+    ]
+  },
   {
     "definitions": [
       {
@@ -365,7 +425,13 @@
             "ptExample": "Acho que o Dave gosta de ser o centro das atenções."
           }
         ],
-        "synonyms": ["concentration", "attention", "center", "spotlight", "limelight"]
+        "synonyms": [
+          "concentration",
+          "attention",
+          "center",
+          "spotlight",
+          "limelight"
+        ]
       },
       {
         "word": "focus",

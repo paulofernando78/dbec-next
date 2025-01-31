@@ -2,6 +2,61 @@
   {
     "definitions": [
       {
+        "word": "disappointed",
+        "phonetics": "/ˌdɪsəˈpɔɪntɪd/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "feeling sad or displeased because someone or something has failed to fulfill one's hopes or expectations",
+        "ptDefinition": "sentindo-se triste ou decepcionado(a) porque alguém ou algo não atendeu às suas esperanças ou expectativas; desapontado(a)",
+        "examples": [
+          {
+            "enExample": "She was disappointed with the results of the exam.",
+            "ptExample": "Ela ficou desapontada com os resultados da prova."
+          },
+          {
+            "enExample": "He felt disappointed when his team lost the match.",
+            "ptExample": "Ele ficou decepcionado quando seu time perdeu o jogo."
+          }
+        ],
+        "synonyms": ["dismayed", "disheartened", "let down"],
+        "antonyms": ["pleased", "satisfied", "content"],
+        "seeAlso": ["disappoint", "disappointment"],
+        "notes": [
+          {
+            "ptNote": "decepcionado(a): que sofreu uma decepção; desiludido(a) / desapontado(a): furstado(a) em seu objetivo ou em suas esperanças, envergonhado(a)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "disappoint",
+        "phonetics": "/ˌdɪsəˈpɔɪnt/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to fail to fulfill the hopes or expectations of someone",
+        "ptDefinition": "falhar em atender as esperanças ou expectativas de alguém; desapontar",
+        "examples": [
+          {
+            "enExample": "The movie did not disappoint; it was as good as the reviews said.",
+            "ptExample": "O filme não decepcionou; foi tão bom quanto as críticas disseram."
+          }
+        ],
+        "synonyms": ["let down", "dissatisfy", "disillusion"],
+        "antonyms": ["satisfy", "please", "fulfill"],
+        "seeAlso": ["disappointment", "disappointing"],
+        "notes": [
+          {
+            "enNote": "The word 'disappoint' is often used when someone or something does not meet expectations.",
+            "ptNote": "A palavra 'decepcionar' é frequentemente usada quando alguém ou algo não atende às expectativas."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "deliver",
         "phonetics": "dɪˈlɪvər",
         "partOfSpeech": "verb",
