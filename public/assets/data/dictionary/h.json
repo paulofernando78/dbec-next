@@ -2,6 +2,32 @@
   {
     "definitions": [
       {
+        "word": "house",
+        "phonetics": "haʊs",
+        "partOfSpeech": "noun",
+        "enDefinition": "a building for human habitation, especially one that is lived in by a family or small group of people",
+        "ptDefinition": "um edifício para habitação humana, especialmente um que é habitado por uma família ou pequeno grupo de pessoas",
+        "examples": [
+          {
+            "enExample": "The house has three bedrooms and two bathrooms.",
+            "ptExample": "A casa tem três quartos e dois banheiros."
+          }
+        ],
+        "synonyms": ["home", "residence", "dwelling"],
+        "antonyms": ["apartment", "condominium"],
+        "seeAlso": ["building", "home", "residence"],
+        "notes": [
+          {
+            "enNote": "A house can be a single-family home, a townhouse, or a row house.",
+            "ptNote": "Uma casa pode ser uma residência unifamiliar, uma casa geminada ou uma casa em banda."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "half-baked ideas",
         "partOfSpeech": "idiom",
         "enDefinition": "ideas or plans that are still underdeveloped or not fully thought through, often requiring further refinement or consideration",

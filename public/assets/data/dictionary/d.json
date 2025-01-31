@@ -197,6 +197,36 @@
   {
     "definitions": [
       {
+        "word": "deaf",
+        "phonetics": "/def/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "lacking the power of hearing or having impaired hearing",
+        "ptDefinition": "sem a capacidade de ouvir ou com audição prejudicada; surdo",
+        "examples": [
+          {
+            "enExample": "She has been deaf since birth.",
+            "ptExample": "Ela é surda desde o nascimento."
+          },
+          {
+            "enExample": "He communicates with his deaf friends using sign language.",
+            "ptExample": "Ele se comunica com seus amigos surdos usando a linguagem de sinais."
+          }
+        ],
+        "synonyms": ["hearing-impaired", "unhearing"],
+        "antonyms": ["hearing"],
+        "seeAlso": ["deafness", "hard of hearing"],
+        "notes": [
+          {
+            "enNote": "The term 'deaf' can refer to a range of hearing loss, from partial to complete.",
+            "ptNote": "O termo 'surdo' pode se referir a uma variedade de perdas auditivas, desde parcial até completa."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "deafness",
         "phonetics": "/'def.nəs/",
         "partOfSpeech": "noun",
