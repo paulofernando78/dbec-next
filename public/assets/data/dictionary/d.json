@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "determine",
+        "phonetics": "/dɪˈtɜːrmɪn/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to establish or ascertain something, often through research or calculation",
+        "ptDefinition": "determinar ou estabelecer algo, muitas vezes através de pesquisa ou cálculo",
+        "examples": [
+          {
+            "enExample": "The test results will determine the next steps in the treatment.",
+            "ptExample": "Os resultados do teste determinarão os próximos passos no tratamento."
+          },
+          {
+            "enExample": "She was determined to succeed in her career.",
+            "ptExample": "Ela estava determinada a ter sucesso em sua carreira."
+          }
+        ],
+        "synonyms": ["ascertain", "decide", "establish"],
+        "antonyms": ["doubt", "hesitate", "ignore"],
+        "seeAlso": ["determination", "determinant"],
+        "notes": [
+          {
+            "enNote": "The word 'determine' can also imply a strong sense of resolve or decision-making.",
+            "ptNote": "A palavra 'determinar' também pode implicar um forte senso de resolução ou tomada de decisão."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "dozen",
         "phonetics": "/ˈdʌzən/",
         "partOfSpeech": "noun",
