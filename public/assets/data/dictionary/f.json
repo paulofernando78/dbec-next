@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "figure out",
+        "phonetics": "/ˈfɪɡ.jər aʊt/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to understand or solve something",
+        "ptDefinition": "entender ou resolver algo",
+        "examples": [
+          {
+            "enExample": "I can't figure out how to do this math problem.",
+            "ptExample": "Não consigo entender como resolver este problema de matemática."
+          },
+          {
+            "enExample": "She figured out a way to make the project work.",
+            "ptExample": "Ela descobriu uma maneira de fazer o projeto funcionar."
+          }
+        ],
+        "synonyms": ["solve", "understand", "comprehend"],
+        "antonyms": ["misunderstand", "confuse"],
+        "seeAlso": "work out",
+        "notes": [
+          {
+            "enNote": "This phrasal verb is commonly used in informal contexts.",
+            "ptNote": "Este verbo frasal é comumente usado em contextos informais."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "frustrated",
         "phonetics": "/ˈfrʌs.treɪ.tɪd/",
         "partOfSpeech": "adjective",

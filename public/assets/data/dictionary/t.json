@@ -2,6 +2,35 @@
   {
     "definitions": [
       {
+        "word": "the (definite article)",
+        "phonetics": "/ðə, ðiː/",
+        "partOfSpeech": "definite article",
+        "enDefinition": "used to specify or make particular a noun that is already known or has been previously mentioned",
+        "ptDefinition": "usado para especificar ou tornar particular um substantivo que já é conhecido ou foi mencionado anteriormente",
+        "examples": [
+          {
+            "enExample": "The cat sat on the mat.",
+            "ptExample": "O gato sentou no tapete."
+          },
+          {
+            "enExample": "She went to the store.",
+            "ptExample": "Ela foi à loja."
+          }
+        ],
+        "synonyms": ["this", "that", "these", "those"],
+        "seeAlso": ["a", "an"],
+        "notes": [
+          {
+            "enNote": "The definite article 'the' is used before singular and plural nouns when the noun is specific or particular.",
+            "ptNote": "O artigo definido 'the' é usado antes de substantivos singulares e plurais quando o substantivo é específico ou particular."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "thankful",
         "phonetics": "/ˈθæŋkfəl/",
         "partOfSpeech": "adjective",

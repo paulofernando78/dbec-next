@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "big",
+        "phonetics": "/bɪɡ/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "of considerable size, extent, or intensity",
+        "ptDefinition": "de tamanho, extensão ou intensidade considerável; grande",
+        "examples": [
+          {
+            "enExample": "The elephant is a big animal.",
+            "ptExample": "O elefante é um animal grande."
+          },
+          {
+            "enExample": "She has big dreams for her future.",
+            "ptExample": "Ela tem grandes sonhos para o seu futuro."
+          }
+        ],
+        "synonyms": ["large", "huge", "enormous"],
+        "antonyms": ["small", "tiny", "little"],
+        "seeAlso": ["large", "massive"],
+        "notes": [
+          {
+            "enNote": "The word 'big' can describe physical size as well as abstract concepts like dreams or ideas.",
+            "ptNote": "A palavra 'grande' pode descrever o tamanho físico, bem como conceitos abstratos como sonhos ou ideias."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "bore",
         "phonetics": "/bɔːr/",
         "partOfSpeech": "verb",
