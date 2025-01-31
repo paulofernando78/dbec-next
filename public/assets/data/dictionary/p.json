@@ -2,6 +2,60 @@
   {
     "definitions": [
       {
+        "word": "peaceful",
+        "phonetics": "/ˈpiːs.fəl/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "free from disturbance; tranquil",
+        "ptDefinition": "livre de perturbação; tranquilo",
+        "examples": [
+          {
+            "enExample": "The park is a peaceful place to relax.",
+            "ptExample": "O parque é um lugar tranquilo para relaxar."
+          },
+          {
+            "enExample": "She felt peaceful after meditating.",
+            "ptExample": "Ela se sentiu tranquila após meditar."
+          }
+        ],
+        "synonyms": ["calm", "serene", "tranquil"],
+        "antonyms": ["chaotic", "noisy", "disturbed"],
+        "seeAlso": ["quiet", "restful"],
+        "notes": [
+          {
+            "enNote": "The word 'peaceful' is often used to describe environments or situations that promote a sense of calm and relaxation.",
+            "ptNote": "A palavra 'tranquilo' é frequentemente usada para descrever ambientes ou situações que promovem uma sensação de calma e relaxamento."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "pet peeve",
+        "phonetics": "/pɛt piːv/",
+        "partOfSpeech": "noun",
+        "enDefinition": "something that a particular person finds especially annoying",
+        "ptDefinition": "algo que uma pessoa em particular acha especialmente irritante",
+        "examples": [
+          {
+            "enExample": "One of my biggest pet peeves is people chewing loudly.",
+            "ptExample": "Uma das coisas que mais me irrita é pessoas mastigando alto."
+          },
+          {
+            "enExample": "Her pet peeve is when people leave dirty dishes in the sink.",
+            "ptExample": "O que mais a irrita é quando as pessoas deixam louça suja na pia."
+          }
+        ],
+        "synonyms": ["annoyance", "irritation", "bother"],
+        "antonyms": ["pleasure", "delight", "satisfaction"],
+        "seeAlso": ["grievance", "complaint"]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "private-label products",
         "partOfSpeech": "noun phrase",
         "enDefinition": "products that are manufactured by one company but sold under another company's brand name. Typically, the retailer or brand owner controls the branding, packaging, and marketing of the product",

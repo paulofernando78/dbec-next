@@ -2,6 +2,99 @@
   {
     "definitions": [
       {
+        "word": "illness",
+        "phonetics": "/ˈɪlnəs/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a disease or period of sickness affecting the body or mind",
+        "ptDefinition": "uma doença ou período de enfermidade que afeta o corpo ou a mente",
+        "examples": [
+          {
+            "enExample": "She missed a lot of school due to illness.",
+            "ptExample": "Ela faltou muito à escola devido a uma doença."
+          },
+          {
+            "enExample": "The illness left him weak and tired.",
+            "ptExample": "A doença o deixou fraco e cansado."
+          }
+        ],
+        "synonyms": ["sickness", "disease", "ailment", "disorder"],
+        "antonyms": ["health", "wellness", "fitness"],
+        "notes": [
+          {
+            "enNote": "Illness can refer to both a specific disease and a general state of poor health.",
+            "ptNote": "Doença pode se referir tanto a uma doença específica quanto a um estado geral de má saúde."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "ill",
+        "phonetics": "/ɪl/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "not in good health; sick",
+        "ptDefinition": "não estar em boa saúde; doente",
+        "examples": [
+          {
+            "enExample": "She has been feeling ill for a few days.",
+            "ptExample": "Ela tem se sentido doente há alguns dias."
+          },
+          {
+            "enExample": "He was too ill to attend the meeting.",
+            "ptExample": "Ele estava muito doente para comparecer à reunião."
+          }
+        ],
+        "synonyms": ["sick", "unwell", "ailing", "indisposed"],
+        "antonyms": ["healthy", "well", "fit"],
+        "seeAlso": "sick",
+        "notes": [
+          {
+            "enNote": "The word 'ill' is often used in British English, while 'sick' is more common in American English.",
+            "ptNote": "A palavra 'ill' é frequentemente usada no inglês britânico, enquanto 'sick' é mais comum no inglês americano."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "ire",
+        "phonetics": "/aɪər/",
+        "partOfSpeech": "noun",
+        "enDefinition": "anger or intense displeasure",
+        "ptDefinition": "ira ou descontentamento intenso",
+        "examples": [
+          {
+            "enExample": "The decision to close the factory aroused the ire of the workers.",
+            "ptExample": "A decisão de fechar a fábrica despertou a ira dos trabalhadores."
+          },
+          {
+            "enExample": "She could not contain her ire when she saw the damage to her car.",
+            "ptExample": "Ela não conseguiu conter sua ira quando viu o dano em seu carro."
+            },
+            {
+            "enExample": "His controversial remarks drew the ire of the community.",
+            "ptExample": "Seus comentários controversos despertaram a ira da comunidade."
+            }
+        ],
+        "synonyms": ["anger", "rage", "fury", "wrath"],
+        "antonyms": ["calm", "peace", "contentment"],
+        "seeAlso": "anger",
+        "notes": [
+          {
+            "enNote": "The word 'ire' is often used in literary contexts to convey a strong sense of anger.",
+            "ptNote": "A palavra 'ira' é frequentemente usada em contextos literários para transmitir um forte senso de raiva."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "insane",
         "phonetics": "/ɪnˈseɪn/",
         "partOfSpeech": "adjective",

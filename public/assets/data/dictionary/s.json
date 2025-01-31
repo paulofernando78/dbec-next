@@ -1,5 +1,91 @@
 [
   {
+    "keyword": "sickness",
+    "definitions": [
+      {
+        "word": "sickness",
+        "phonetics": "/ˈsɪknəs/",
+        "partOfSpeech": "noun",
+        "enDefinition": "the state of being ill or having a disease",
+        "ptDefinition": "o estado de estar doente ou ter uma doença",
+        "examples": [
+          {
+            "enExample": "She was absent from work due to sickness.",
+            "ptExample": "Ela estava ausente do trabalho devido a doença."
+          },
+          {
+            "enExample": "The sickness spread rapidly through the community.",
+            "ptExample": "A doença se espalhou rapidamente pela comunidade."
+          }
+        ],
+        "synonyms": ["illness", "disease", "ailment"],
+        "antonyms": ["health", "wellness"],
+        "notes": [
+          {
+            "enNote": "The term 'sickness' can refer to both physical and mental health conditions.",
+            "ptNote": "O termo 'doença' pode se referir a condições de saúde física e mental."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "sick",
+    "definitions": [
+      {
+        "word": "sick",
+        "phonetics": "/sɪk/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "affected by physical or mental illness",
+        "ptDefinition": "afetado por doença física ou mental; doente",
+        "examples": [
+          {
+            "enExample": "She felt sick after eating too much.",
+            "ptExample": "Ela se sentiu doente depois de comer demais."
+          },
+          {
+            "enExample": "He has been sick with the flu for a week.",
+            "ptExample": "Ele está doente com gripe há uma semana."
+          }
+        ],
+        "synonyms": ["ill", "unwell", "ailing"],
+        "antonyms": ["healthy", "well", "fit"],
+        "seeAlso": ["ill", "unwell"],
+        "notes": [
+          {
+            "enNote": "The word 'sick' can also be used informally to mean 'cool' or 'awesome' in slang.",
+            "ptNote": "A palavra 'sick' também pode ser usada informalmente para significar 'legal' ou 'incrível' em gíria."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "sleepy",
+    "definitions": [
+      {
+        "word": "sleepy",
+        "phonetics": "/ˈsliːpi/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "feeling or needing sleep; drowsy",
+        "ptDefinition": "sonolento",
+        "examples": [
+          {
+            "enExample": "I feel sleepy after lunch.",
+            "ptExample": "Eu me sinto sonolento depois do almoço."
+          },
+          {
+            "enExample": "The baby looked sleepy and ready for bed.",
+            "ptExample": "O bebê parecia sonolento e pronto para dormir."
+          }
+        ],
+        "synonyms": ["drowsy", "tired", "lethargic"],
+        "antonyms": ["alert", "awake", "energetic"],
+        "seeAlso": ["drowsy", "sluggish"]
+      }
+    ]
+  },
+  {
     "definitions": [
       {
         "word": "scared",

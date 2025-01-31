@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "grateful",
+        "phonetics": "/ˈɡreɪt.fəl/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "feeling or showing an appreciation for something done or received",
+        "ptDefinition": "sentindo ou mostrando apreço por algo feito ou recebido",
+        "examples": [
+          {
+            "enExample": "She was grateful for the help she received from her friends.",
+            "ptExample": "Ela estava grata pela ajuda que recebeu de seus amigos."
+          },
+          {
+            "enExample": "I'm grateful for your support during this difficult time.",
+            "ptExample": "Estou grato pelo seu apoio durante este momento difícil."
+          }
+        ],
+        "synonyms": ["thankful", "appreciative", "obliged"],
+        "antonyms": ["ungrateful", "thankless", "unappreciative"],
+        "seeAlso": ["thankful", "appreciative"],
+        "notes": [
+          {
+            "enNote": "Being grateful often involves recognizing the positive impact others have had on your life.",
+            "ptNote": "Ser grato frequentemente envolve reconhecer o impacto positivo que os outros tiveram em sua vida."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "goofy",
         "phonetics": "/ˈɡuː.fi/",
         "partOfSpeech": "adjective",

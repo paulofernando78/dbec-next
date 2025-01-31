@@ -2,6 +2,66 @@
   {
     "definitions": [
       {
+        "word": "thankful",
+        "phonetics": "/ˈθæŋkfəl/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "feeling or expressing gratitude; appreciative",
+        "ptDefinition": "sentindo ou expressando gratidão; agradecido",
+        "examples": [
+          {
+            "enExample": "She was thankful for the support of her friends.",
+            "ptExample": "Ela estava agradecida pelo apoio de seus amigos."
+          },
+          {
+            "enExample": "We are thankful for the opportunity to be here.",
+            "ptExample": "Estamos agradecidos pela oportunidade de estar aqui."
+          }
+        ],
+        "synonyms": ["grateful", "appreciative", "obliged"],
+        "antonyms": ["ungrateful", "thankless", "unappreciative"],
+        "seeAlso": ["gratitude", "appreciation"],
+        "notes": [
+          {
+            "enNote": "Being thankful often involves recognizing and appreciating the positive aspects of one's life.",
+            "ptNote": "Ser agradecido frequentemente envolve reconhecer e apreciar os aspectos positivos da vida."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "tire",
+        "phonetics": "/taɪər/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to lose energy and feel that you need to rest",
+        "ptDefinition": "perder energia e sentir que precisa descansar",
+        "examples": [
+          {
+            "enExample": "After running for an hour, she began to tire.",
+            "ptExample": "Depois de correr por uma hora, ela começou a se cansar."
+          },
+          {
+            "enExample": "He tires easily after his illness.",
+            "ptExample": "Ele se cansa facilmente após a doença."
+          }
+        ],
+        "synonyms": ["weary", "exhaust", "fatigue"],
+        "antonyms": ["energize", "refresh", "invigorate"],
+        "seeAlso": ["fatigue", "wear out"],
+        "notes": [
+          {
+            "enNote": "The verb 'tire' is often used to describe the process of becoming physically or mentally exhausted.",
+            "ptNote": "O verbo 'tire' é frequentemente usado para descrever o processo de se tornar fisicamente ou mentalmente exausto."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "thoughtful",
         "phonetics": "/ˈθɔːtfəl/",
         "partOfSpeech": "adjective",
