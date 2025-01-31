@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "dozen",
+        "phonetics": "/ˈdʌzən/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a group or set of twelve",
+        "ptDefinition": "um grupo ou conjunto de doze",
+        "examples": [
+          {
+            "enExample": "She bought a dozen eggs from the grocery.",
+            "ptExample": "Ela comprou uma dúzia de ovos na mercado."
+          },
+          {
+            "enExample": "There were a dozen cookies in the jar.",
+            "ptExample": "Havia uma dúzia de biscoitos no pote."
+          }
+        ],
+        "synonyms": ["twelve"],
+        "antonyms": [],
+        "seeAlso": ["dozens"],
+        "notes": [
+          {
+            "enNote": "The term 'dozen' is often used to describe a quantity of twelve items.",
+            "ptNote": "O termo 'dúzia' é frequentemente usado para descrever uma quantidade de doze itens."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "disappointed",
         "phonetics": "/ˌdɪsəˈpɔɪntɪd/",
         "partOfSpeech": "adjective",
