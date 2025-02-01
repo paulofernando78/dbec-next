@@ -2,6 +2,65 @@
   {
     "definitions": [
       {
+        "word": "cover oneself",
+        "phonetics": "/ˈkʌvər wʌnˈsɛlf/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to take action to protect oneself from blame, criticism, or legal responsibility",
+        "ptDefinition": "tomar medidas para se proteger de culpa, crítica ou responsabilidade legal",
+        "examples": [
+          {
+            "enExample": "He made sure to document everything to cover himself in case of any issues.",
+            "ptExample": "Ele se certificou de documentar tudo para se proteger em caso de problemas."
+          },
+          {
+            "enExample": "She always covers herself by getting agreements in writing.",
+            "ptExample": "Ela sempre se protege obtendo acordos por escrito."
+          }
+        ],
+        "synonyms": ["protect oneself", "safeguard", "shield"],
+        "antonyms": ["expose oneself", "risk"],
+        "seeAlso": ["cover your tracks", "play it safe"],
+        "notes": [
+          {
+            "enNote": "This phrase is often used in professional or legal contexts where individuals take steps to avoid potential negative consequences.",
+            "ptNote": "Esta frase é frequentemente usada em contextos profissionais ou legais onde os indivíduos tomam medidas para evitar possíveis consequências negativas."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "come with the territory",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to be an unavoidable part of a particular situation or job",
+        "ptDefinition": "ser uma parte inevitável de uma situação ou trabalho específico",
+        "examples": [
+          {
+            "enExample": "Long hours and high stress levels come with the territory of being a doctor.",
+            "ptExample": "Longas horas e altos níveis de estresse fazem parte do trabalho de ser médico."
+          },
+          {
+            "enExample": "Criticism comes with the territory when you're a public figure.",
+            "ptExample": "Críticas fazem parte do território quando você é uma figura pública."
+          }
+        ],
+        "synonyms": ["part and parcel", "inevitable", "unavoidable"],
+        "antonyms": ["unexpected", "unforeseen"],
+        "seeAlso": ["go hand in hand", "come along with"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to express that certain negative aspects are an inherent part of a job or situation.",
+            "ptNote": "Este idiom é frequentemente usado para expressar que certos aspectos negativos são uma parte inerente de um trabalho ou situação."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "circle back to",
         "phonetics": "/ˈsɜːr.kəl bæk tuː/",
         "partOfSpeech": "phrasal verb",

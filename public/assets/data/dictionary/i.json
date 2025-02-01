@@ -2,6 +2,35 @@
   {
     "definitions": [
       {
+        "word": "I can't believe my ears!",
+        "partOfSpeech": "phrase",
+        "enDefinition": "used to express great surprise or disbelief at something heard",
+        "ptDefinition": "usado para expressar grande surpresa ou descrença em algo ouvido",
+        "examples": [
+          {
+            "enExample": "When she told me the news, I couldn't believe my ears!",
+            "ptExample": "Quando ela me contou a notícia, eu não pude acreditar no que ouvi!"
+          },
+          {
+            "enExample": "I can't believe my ears! Did he really say that?",
+            "ptExample": "Eu não posso acreditar no que ouvi! Ele realmente disse isso?"
+          }
+        ],
+        "synonyms": ["astonished", "shocked", "amazed"],
+        "antonyms": ["unsurprised", "unimpressed"],
+        "seeAlso": "I can't believe my eyes",
+        "notes": [
+          {
+            "enNote": "This phrase is often used in situations where the speaker is hearing something unexpected or unbelievable.",
+            "ptNote": "Esta frase é frequentemente usada em situações onde o falante está ouvindo algo inesperado ou inacreditável."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "I could've sworn that",
         "partOfSpeech": "phrase",
         "enDefinition": "used to express strong belief or certainty about something that one remembers or perceives",

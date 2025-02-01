@@ -2,6 +2,91 @@
   {
     "definitions": [
       {
+        "word": "track something down",
+        "phonetics": "",
+        "partOfSpeech": "",
+        "enDefinition": "",
+        "ptDefinition": "",
+        "examples": [
+          {
+            "enExample": "",
+            "ptExample": ""
+          }
+        ],
+        "synonyms": "",
+        "antonyms": "",
+        "seeAlso": "",
+        "notes": [
+          {
+            "enNote": "",
+            "ptNote": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "talk someone into something",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to persuade someone to do something, often by using arguments or reasoning",
+        "ptDefinition": "persuadir alguém a fazer algo, geralmente usando argumentos ou raciocínio",
+        "examples": [
+          {
+            "enExample": "He talked her into going to the party even though she didn't feel like it.",
+            "ptExample": "Ele a convenceu a ir à festa, mesmo que ela não estivesse com vontade."
+          },
+          {
+            "enExample": "They talked him into joining the team despite his initial reluctance.",
+            "ptExample": "Eles o convenceram a entrar para o time, apesar de sua relutância inicial."
+          }
+        ],
+        "synonyms": ["persuade", "convince", "coax"],
+        "antonyms": ["dissuade", "discourage", "talk out of"],
+        "seeAlso": ["coax", "convince"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used when someone is convinced to do something they were initially hesitant about.",
+            "ptNote": "Este idiom é frequentemente usado quando alguém é convencido a fazer algo sobre o qual estava inicialmente hesitante."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "team player",
+        "phonetics": "/tiːm ˈpleɪ.ɚ/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a person who works well as a member of a team or group, often putting the team's goals and needs above their own",
+        "ptDefinition": "uma pessoa que trabalha bem como membro de uma equipe ou grupo, frequentemente colocando os objetivos e necessidades da equipe acima dos seus próprios",
+        "examples": [
+          {
+            "enExample": "She is a great team player and always helps her colleagues.",
+            "ptExample": "Ela é uma ótima jogadora de equipe e sempre ajuda seus colegas."
+          },
+          {
+            "enExample": "Being a team player is essential for success in this company.",
+            "ptExample": "Ser um jogador de equipe é essencial para o sucesso nesta empresa."
+          }
+        ],
+        "synonyms": ["collaborator", "cooperator", "team member"],
+        "antonyms": ["individualist", "lone wolf", "soloist"],
+        "seeAlso": ["teamwork", "collaboration"],
+        "notes": [
+          {
+            "enNote": "A team player is often valued for their ability to work harmoniously with others and contribute to the group's success.",
+            "ptNote": "Um jogador de equipe é frequentemente valorizado por sua capacidade de trabalhar harmoniosamente com os outros e contribuir para o sucesso do grupo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "the issue at hand",
         "partOfSpeech": "idiom",
         "enDefinition": "the current topic or problem being discussed or considered",

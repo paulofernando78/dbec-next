@@ -2,6 +2,66 @@
   {
     "definitions": [
       {
+        "word": "rejuvenate",
+        "phonetics": "/rɪˈdʒuːvəˌneɪt/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to make someone or something look or feel younger, fresher, or more lively",
+        "ptDefinition": "fazer alguém ou algo parecer ou se sentir mais jovem, fresco ou mais animado; rejuvenescer",
+        "examples": [
+          {
+            "enExample": "A good night's sleep can rejuvenate the mind and body.",
+            "ptExample": "Uma boa noite de sono pode rejuvenescer a mente e o corpo."
+          },
+          {
+            "enExample": "The spa treatment rejuvenated her skin.",
+            "ptExample": "O tratamento de spa rejuvenesceu sua pele."
+          }
+        ],
+        "synonyms": ["revitalize", "refresh", "renew"],
+        "antonyms": ["age", "wither", "deteriorate"],
+        "seeAlso": ["revive", "restore", "invigorate"],
+        "notes": [
+          {
+            "enNote": "Rejuvenation can refer to both physical and mental renewal.",
+            "ptNote": "Rejuvenescimento pode se referir tanto à renovação física quanto mental."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "R&R",
+        "phonetics": "/ɑr ən ɑr/",
+        "partOfSpeech": "noun",
+        "enDefinition": "rest and relaxation; a period of time when one can rest and enjoy themselves",
+        "ptDefinition": "descanso e relaxamento; um período de tempo em que se pode descansar e se divertir",
+        "examples": [
+          {
+            "enExample": "After the long project, the team needed some R&R to recharge.",
+            "ptExample": "Após o longo projeto, a equipe precisava de um pouco de descanso e relaxamento para recarregar as energias."
+          },
+          {
+            "enExample": "They went to the beach for some R&R over the weekend.",
+            "ptExample": "Eles foram para a praia para um pouco de descanso e relaxamento no fim de semana."
+          }
+        ],
+        "synonyms": ["rest", "relaxation", "downtime"],
+        "antonyms": ["work", "stress", "strain"],
+        "seeAlso": ["vacation", "break", "time off"],
+        "notes": [
+          {
+            "enNote": "R&R is often used to describe a break from work or stressful activities to rejuvenate.",
+            "ptNote": "R&R é frequentemente usado para descrever uma pausa do trabalho ou atividades estressantes para rejuvenescer."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "reflective",
         "phonetics": "/rɪˈflɛktɪv/",
         "partOfSpeech": "adjective",

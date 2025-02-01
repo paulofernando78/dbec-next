@@ -2,6 +2,94 @@
   {
     "definitions": [
       {
+        "word": "point fingers at",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to blame or accuse someone of something",
+        "ptDefinition": "culpar ou acusar alguém de algo",
+        "examples": [
+          {
+            "enExample": "It's easy to point fingers at others when things go wrong.",
+            "ptExample": "É fácil culpar os outros quando as coisas dão errado."
+          },
+          {
+            "enExample": "Instead of finding a solution, they just pointed fingers at each other.",
+            "ptExample": "Em vez de encontrar uma solução, eles apenas culparam uns aos outros."
+          }
+        ],
+        "synonyms": ["blame", "accuse", "fault"],
+        "antonyms": ["praise", "commend", "applaud"],
+        "seeAlso": ["blame game", "scapegoat"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used in situations where people are trying to avoid responsibility by blaming others.",
+            "ptNote": "Este idiom é frequentemente usado em situações onde as pessoas tentam evitar a responsabilidade culpando os outros."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "pass the buck",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to shift responsibility or blame to someone else",
+        "ptDefinition": "passar a responsabilidade ou culpa para outra pessoa",
+        "examples": [
+          {
+            "enExample": "He always tries to pass the buck when something goes wrong.",
+            "ptExample": "Ele sempre tenta passar a responsabilidade quando algo dá errado."
+          },
+          {
+            "enExample": "Instead of solving the problem, she passed the buck to her colleague.",
+            "ptExample": "Em vez de resolver o problema, ela passou a responsabilidade para sua colega."
+          }
+        ],
+        "synonyms": ["shift blame", "evade responsibility", "delegate"],
+        "antonyms": ["take responsibility", "own up", "accept blame"],
+        "seeAlso": ["blame game", "finger-pointing"],
+        "notes": [
+          {
+            "enNote": "This idiom originated from poker, where a marker called a 'buck' was used to indicate the person whose turn it was to deal. Passing the buck meant passing the responsibility of dealing to the next player.",
+            "ptNote": "Este idiom originou-se do pôquer, onde um marcador chamado 'buck' era usado para indicar a pessoa cuja vez era de distribuir as cartas. Passar o 'buck' significava passar a responsabilidade de distribuir para o próximo jogador."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "pitch in",
+        "phonetics": "/pɪtʃ ɪn/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to contribute or help with something, especially by offering money or effort",
+        "ptDefinition": "contribuir ou ajudar com algo, especialmente oferecendo dinheiro ou esforço",
+        "examples": [
+          {
+            "enExample": "Everyone in the community pitched in to help rebuild the playground.",
+            "ptExample": "Todos na comunidade contribuíram para ajudar a reconstruir o parquinho."
+          },
+          {
+            "enExample": "If we all pitch in, we can finish the project by the end of the day.",
+            "ptExample": "Se todos nós ajudarmos, podemos terminar o projeto até o final do dia."
+          }
+        ],
+        "synonyms": ["contribute", "help", "assist"],
+        "antonyms": ["neglect", "ignore", "withhold"],
+        "seeAlso": ["chip in", "lend a hand"],
+        "notes": [
+          {
+            "enNote": "This phrase is often used in the context of group efforts or community activities.",
+            "ptNote": "Esta frase é frequentemente usada no contexto de esforços em grupo ou atividades comunitárias."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "pull something off",
         "partOfSpeech": "phrasal verb",
         "enDefinition": "to succeed in doing something difficult or unexpected",

@@ -2,6 +2,64 @@
   {
     "definitions": [
       {
+        "word": "all in a day's work",
+        "partOfSpeech": "idiom",
+        "enDefinition": "something that is considered a normal part of one's job or routine",
+        "ptDefinition": "algo que é considerado uma parte normal do trabalho ou rotina de alguém",
+        "examples": [
+          {
+            "enExample": "Dealing with difficult customers is all in a day's work for a customer service representative.",
+            "ptExample": "Lidar com clientes difíceis faz parte do trabalho diário de um representante de atendimento ao cliente."
+          },
+          {
+            "enExample": "For a firefighter, rescuing people from burning buildings is all in a day's work.",
+            "ptExample": "Para um bombeiro, resgatar pessoas de prédios em chamas faz parte do trabalho diário."
+          }
+        ],
+        "synonyms": ["routine", "normal", "usual"],
+        "antonyms": ["unusual", "exceptional"],
+        "seeAlso": ["part of the job", "business as usual"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to downplay the difficulty or significance of a task.",
+            "ptNote": "Este idiom é frequentemente usado para minimizar a dificuldade ou importância de uma tarefa."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "around the clock",
+        "partOfSpeech": "idiom",
+        "enDefinition": "continuously for 24 hours a day",
+        "ptDefinition": "continuamente por 24 horas por dia",
+        "examples": [
+          {
+            "enExample": "The hospital staff worked around the clock to care for the patients.",
+            "ptExample": "A equipe do hospital trabalhou dia e noite para cuidar dos pacientes."
+          },
+          {
+            "enExample": "The team is working around the clock to meet the deadline.",
+            "ptExample": "A equipe está trabalhando dia e noite para cumprir o prazo."
+          }
+        ],
+        "synonyms": ["nonstop", "day and night", "unceasingly"],
+        "antonyms": ["intermittently", "occasionally"],
+        "seeAlso": ["24/7", "all day long"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to emphasize continuous effort or activity.",
+            "ptNote": "Este idiom é frequentemente usado para enfatizar esforço ou atividade contínua."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "asleep at the wheel",
         "partOfSpeech": "idiom",
         "enDefinition": "not paying attention to a situation, especially when you are responsible for it",

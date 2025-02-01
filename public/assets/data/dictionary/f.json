@@ -2,6 +2,35 @@
   {
     "definitions": [
       {
+        "word": "fall guy",
+        "phonetics": "/ˈfɔːl ɡaɪ/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a person who is blamed for something that has gone wrong, especially when it is not their fault",
+        "ptDefinition": "uma pessoa que é culpada por algo que deu errado, especialmente quando não é culpa dela",
+        "examples": [
+          {
+            "enExample": "He was the fall guy for the company's financial scandal.",
+            "ptExample": "Ele foi o bode expiatório para o escândalo financeiro da empresa."
+          },
+          {
+            "enExample": "They needed a fall guy to take the blame for the failed project.",
+            "ptExample": "Eles precisavam de um bode expiatório para levar a culpa pelo projeto fracassado."
+          }
+        ],
+        "synonyms": ["scapegoat", "patsy", "victim"],
+        "antonyms": ["culprit", "perpetrator"],
+        "notes": [
+          {
+            "enNote": "The term 'fall guy' is often used in contexts where someone is unfairly blamed for the mistakes or wrongdoings of others.",
+            "ptNote": "O termo 'bode expiatório' é frequentemente usado em contextos onde alguém é injustamente culpado pelos erros ou malfeitos de outros."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "figure out",
         "phonetics": "/ˈfɪɡ.jər aʊt/",
         "partOfSpeech": "phrasal verb",

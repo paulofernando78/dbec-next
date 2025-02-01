@@ -2,6 +2,35 @@
   {
     "definitions": [
       {
+        "word": "wash one's hands of",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to refuse to have anything more to do with someone or something; to disassociate oneself from a situation",
+        "ptDefinition": "recusar-se a ter mais qualquer coisa a ver com alguém ou algo; dissociar-se de uma situação",
+        "examples": [
+          {
+            "enExample": "After the scandal, he decided to wash his hands of the company.",
+            "ptExample": "Após o escândalo, ele decidiu lavar as mãos em relação à empresa."
+          },
+          {
+            "enExample": "She washed her hands of the project after it became too complicated.",
+            "ptExample": "Ela lavou as mãos do projeto depois que ele se tornou muito complicado."
+          }
+        ],
+        "synonyms": ["disown", "disassociate", "abandon"],
+        "antonyms": ["engage", "involve", "commit"],
+        "seeAlso": ["cut ties", "walk away", "step back"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used when someone wants to distance themselves from a problematic or controversial situation.",
+            "ptNote": "Este idiom é frequentemente usado quando alguém quer se distanciar de uma situação problemática ou controversa."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "weigh in on",
         "phonetics": "/weɪ ɪn ɑn/",
         "partOfSpeech": "phrasal verb",

@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "go on about",
+        "partOfSpeech": "phrasal verb",
+        "phonetics": "/ɡoʊ ɑn əˈbaʊt/",
+        "enDefinition": "to talk at length about something, often in a way that is boring or annoying to others",
+        "ptDefinition": "falar longamente sobre algo, muitas vezes de uma maneira que é chata ou irritante para os outros",
+        "examples": [
+          {
+            "enExample": "He went on about his vacation for hours, and everyone was getting bored.",
+            "ptExample": "Ele falou sobre suas férias por horas, e todos estavam ficando entediados."
+          },
+          {
+            "enExample": "She can go on about her favorite TV show for ages.",
+            "ptExample": "Ela pode falar sobre seu programa de TV favorito por muito tempo."
+          }
+        ],
+        "synonyms": ["ramble", "drone on", "talk endlessly"],
+        "antonyms": ["be concise", "summarize", "be brief"],
+        "seeAlso": ["rant", "babble"],
+        "notes": [
+          {
+            "enNote": "This phrase is often used to describe someone who is speaking in a way that others find tedious.",
+            "ptNote": "Esta frase é frequentemente usada para descrever alguém que está falando de uma maneira que os outros acham tediosa."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "get off track",
         "partOfSpeech": "idiom",
         "enDefinition": "to become distracted or lose focus on the main task or objective",

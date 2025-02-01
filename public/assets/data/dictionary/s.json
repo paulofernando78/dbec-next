@@ -1,5 +1,66 @@
 [
   {
+    "keyword": "strike gold",
+    "definitions": [
+      {
+        "word": "strike gold",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to discover something valuable or profitable, often unexpectedly",
+        "ptDefinition": "descobrir algo valioso ou lucrativo, muitas vezes inesperadamente",
+        "examples": [
+          {
+            "enExample": "They struck gold when they found oil on their land.",
+            "ptExample": "Eles encontraram ouro quando descobriram petróleo em suas terras."
+          },
+          {
+            "enExample": "The startup struck gold with its innovative app.",
+            "ptExample": "A startup encontrou ouro com seu aplicativo inovador."
+          }
+        ],
+        "synonyms": ["hit the jackpot", "find a treasure", "hit pay dirt"],
+        "antonyms": ["miss out", "fail", "lose"],
+        "seeAlso": ["hit the jackpot", "come across"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to describe a significant and unexpected success.",
+            "ptNote": "Este idiom é frequentemente usado para descrever um sucesso significativo e inesperado."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "shell out",
+    "definitions": [
+      {
+        "word": "shell out",
+        "phonetics": "/ʃɛl aʊt/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to pay a large amount of money for something, often reluctantly",
+        "ptDefinition": "pagar uma grande quantia de dinheiro por algo, muitas vezes com relutância",
+        "examples": [
+          {
+            "enExample": "I had to shell out $200 for a new phone.",
+            "ptExample": "Tive que desembolsar $200 por um novo telefone."
+          },
+          {
+            "enExample": "They shelled out a lot of money for their vacation.",
+            "ptExample": "Eles desembolsaram muito dinheiro para as férias."
+          }
+        ],
+        "synonyms": ["pay", "spend", "disburse"],
+        "antonyms": ["save", "hoard"],
+        "seeAlso": ["fork out", "cough up"],
+        "notes": [
+          {
+            "enNote": "This phrase is often used to emphasize the high cost or reluctance in spending money.",
+            "ptNote": "Esta expressão é frequentemente usada para enfatizar o alto custo ou a relutância em gastar dinheiro."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "short by",
     "definitions": [
       {

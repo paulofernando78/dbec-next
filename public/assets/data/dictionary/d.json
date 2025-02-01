@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "Dream on!",
+        "phonetics": "",
+        "partOfSpeech": "idiom",
+        "enDefinition": "used to tell someone that what they are hoping for is not likely to happen",
+        "ptDefinition": "usado para dizer a alguém que o que eles estão esperando não é provável que aconteça",
+        "examples": [
+          {
+            "enExample": "You think you can get a promotion without working hard? Dream on!",
+            "ptExample": "Você acha que pode conseguir uma promoção sem trabalhar duro? Continue sonhando!"
+          },
+          {
+            "enExample": "He thinks he can win the lottery. Dream on!",
+            "ptExample": "Ele acha que pode ganhar na loteria. Continue sonhando!"
+          }
+        ],
+        "synonyms": ["keep dreaming", "in your dreams"],
+        "antonyms": ["realistic", "practical"],
+        "seeAlso": ["wishful thinking"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used in a sarcastic or dismissive manner.",
+            "ptNote": "Este idiom é frequentemente usado de maneira sarcástica ou desdenhosa."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "drop the ball",
         "partOfSpeech": "idiom",
         "enDefinition": "to make a mistake or fail to do something important",
