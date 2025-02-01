@@ -2,6 +2,64 @@
   {
     "definitions": [
       {
+        "word": "no big deal",
+        "partOfSpeech": "idiom",
+        "enDefinition": "used to indicate that something is not important or not a problem",
+        "ptDefinition": "usado para indicar que algo não é importante ou não é um problema",
+        "examples": [
+          {
+            "enExample": "Don't worry about being late, it's no big deal.",
+            "ptExample": "Não se preocupe em se atrasar, não é nada demais."
+          },
+          {
+            "enExample": "It's no big deal if you can't come to the party.",
+            "ptExample": "Não é nada demais se você não puder vir à festa."
+          }
+        ],
+        "synonyms": ["not important", "no problem", "no worries"],
+        "antonyms": ["big deal", "important", "significant"],
+        "seeAlso": ["no problem", "no worries"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to reassure someone that something is not a cause for concern.",
+            "ptNote": "Este idiom é frequentemente usado para tranquilizar alguém de que algo não é motivo de preocupação."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "not see eye-to-eye",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to disagree with someone or have different opinions",
+        "ptDefinition": "não concordar com alguém ou ter opiniões diferentes",
+        "examples": [
+          {
+            "enExample": "They don't see eye-to-eye on the new policy.",
+            "ptExample": "Eles não concordam com a nova política."
+          },
+          {
+            "enExample": "We rarely see eye-to-eye on how to raise the children.",
+            "ptExample": "Raramente concordamos sobre como criar os filhos."
+          }
+        ],
+        "synonyms": ["disagree", "differ", "clash"],
+        "antonyms": ["agree", "concur", "see things the same way"],
+        "seeAlso": ["dispute", "conflict"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to describe a situation where two people have different opinions or perspectives.",
+            "ptNote": "Este idiom é frequentemente usado para descrever uma situação em que duas pessoas têm opiniões ou perspectivas diferentes."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "nervous",
         "phonetics": "/ˈnɜːrvəs/",
         "partOfSpeech": "adjective",

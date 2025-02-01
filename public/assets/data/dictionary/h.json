@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "hunker down",
+        "phonetics": "ˈhʌŋkər daʊn",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to settle in a place for a long period of time, especially for protection or to wait for something to happen",
+        "ptDefinition": "se estabelecer em um lugar por um longo período de tempo, especialmente para proteção ou para esperar que algo aconteça",
+        "examples": [
+          {
+            "enExample": "We decided to hunker down and wait out the storm.",
+            "ptExample": "Decidimos nos abrigar e esperar a tempestade passar."
+          },
+          {
+            "enExample": "The soldiers hunkered down in their trenches.",
+            "ptExample": "Os soldados se agacharam em suas trincheiras."
+          }
+        ],
+        "synonyms": ["settle in", "bunker down", "take cover"],
+        "antonyms": ["move out", "evacuate"],
+        "seeAlso": ["shelter", "stay put"],
+        "notes": [
+          {
+            "enNote": "Often used in the context of preparing for a difficult or dangerous situation.",
+            "ptNote": "Frequentemente usado no contexto de se preparar para uma situação difícil ou perigosa."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "house",
         "phonetics": "haʊs",
         "partOfSpeech": "noun",

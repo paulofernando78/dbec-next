@@ -2,6 +2,93 @@
   {
     "definitions": [
       {
+        "word": "burn the midnight oil",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to stay up late working on a project or task",
+        "ptDefinition": "ficar acordado até tarde trabalhando em um projeto ou tarefa",
+        "examples": [
+          {
+            "enExample": "She had to burn the midnight oil to finish the report on time.",
+            "ptExample": "Ela teve que queimar o óleo da meia-noite para terminar o relatório a tempo."
+          },
+          {
+            "enExample": "He often burns the midnight oil to meet his deadlines.",
+            "ptExample": "Ele frequentemente queima o óleo da meia-noite para cumprir seus prazos."
+          }
+        ],
+        "synonyms": ["work late", "stay up late", "work overtime"],
+        "antonyms": ["rest", "relax", "take it easy"],
+        "seeAlso": ["pull an all-nighter", "work around the clock"],
+        "notes": [
+          {
+            "enNote": "This idiom originates from the time when oil lamps were used for lighting, and working late into the night required burning more oil.",
+            "ptNote": "Este idiom se origina da época em que lâmpadas a óleo eram usadas para iluminação, e trabalhar até tarde da noite exigia queimar mais óleo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "bitter pill to swallow",
+        "partOfSpeech": "idiom",
+        "enDefinition": "a difficult or unpleasant fact or situation that must be accepted",
+        "ptDefinition": "uma verdade ou situação difícil ou desagradável que deve ser aceita",
+        "examples": [
+          {
+            "enExample": "Losing the championship game was a bitter pill to swallow for the team.",
+            "ptExample": "Perder o jogo do campeonato foi uma verdade difícil de aceitar para o time."
+          },
+          {
+            "enExample": "The news of the company's bankruptcy was a bitter pill to swallow for the employees.",
+            "ptExample": "A notícia da falência da empresa foi uma verdade difícil de aceitar para os funcionários."
+          }
+        ],
+        "synonyms": ["hard truth", "unpleasant reality"],
+        "antonyms": ["pleasant surprise", "easy to accept"],
+        "seeAlso": ["hard to take", "tough to accept"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to describe situations where acceptance is necessary despite the difficulty.",
+            "ptNote": "Este idiom é frequentemente usado para descrever situações em que a aceitação é necessária apesar da dificuldade."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "blow things out of proportion",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to exaggerate the importance or impact of a situation beyond what is reasonable or necessary",
+        "ptDefinition": "exagerar a importância ou o impacto de uma situação além do que é razoável ou necessário",
+        "examples": [
+          {
+            "enExample": "She tends to blow things out of proportion whenever there's a minor issue.",
+            "ptExample": "Ela tende a exagerar as coisas sempre que há um problema menor."
+          },
+          {
+            "enExample": "Don't blow things out of proportion; it's not as bad as it seems.",
+            "ptExample": "Não exagere as coisas; não é tão ruim quanto parece."
+          }
+        ],
+        "synonyms": ["exaggerate", "overstate", "overreact"],
+        "antonyms": ["understate", "downplay", "minimize"],
+        "seeAlso": ["make a mountain out of a molehill", "overblow"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to describe situations where someone reacts excessively to a relatively minor issue.",
+            "ptNote": "Este idiom é frequentemente usado para descrever situações em que alguém reage de forma excessiva a um problema relativamente menor."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "big",
         "phonetics": "/bɪɡ/",
         "partOfSpeech": "adjective",

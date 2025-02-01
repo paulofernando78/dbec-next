@@ -2,6 +2,91 @@
   {
     "definitions": [
       {
+        "word": "I could've sworn that",
+        "partOfSpeech": "phrase",
+        "enDefinition": "used to express strong belief or certainty about something that one remembers or perceives",
+        "ptDefinition": "usado para expressar forte crença ou certeza sobre algo que se lembra ou percebe",
+        "examples": [
+          {
+            "enExample": "I could've sworn that I left my keys on the table.",
+            "ptExample": "Eu poderia jurar que deixei minhas chaves na mesa."
+          },
+          {
+            "enExample": "She could've sworn that she saw him at the party.",
+            "ptExample": "Ela poderia jurar que o viu na festa."
+          }
+        ],
+        "synonyms": ["I was sure", "I believed", "I thought"],
+        "antonyms": ["I doubted", "I was unsure"],
+        "notes": [
+          {
+            "enNote": "This phrase is often used when someone is surprised to find out that their memory or perception was incorrect.",
+            "ptNote": "Esta frase é frequentemente usada quando alguém fica surpreso ao descobrir que sua memória ou percepção estava incorreta."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "I beg to differ",
+        "partOfSpeech": "idiom",
+        "enDefinition": "a polite way of saying that you disagree with someone",
+        "ptDefinition": "uma maneira educada de dizer que você discorda de alguém",
+        "examples": [
+          {
+            "enExample": "I beg to differ, but I don't think that's the best solution.",
+            "ptExample": "Desculpe, mas eu discordo, não acho que essa seja a melhor solução."
+          },
+          {
+            "enExample": "With all due respect, I beg to differ on this point.",
+            "ptExample": "Com todo o respeito, eu discordo desse ponto."
+          }
+        ],
+        "synonyms": ["disagree", "differ", "take issue"],
+        "antonyms": ["agree", "concur"],
+        "notes": [
+          {
+            "enNote": "This phrase is often used in formal or polite conversations to express disagreement without causing offense.",
+            "ptNote": "Esta frase é frequentemente usada em conversas formais ou educadas para expressar discordância sem causar ofensa."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "in a nutshell",
+        "partOfSpeech": "idiom",
+        "enDefinition": "used to indicate that you are describing something in a very brief way, using few words",
+        "ptDefinition": "usado para indicar que você está descrevendo algo de maneira muito breve, usando poucas palavras",
+        "examples": [
+          {
+            "enExample": "To put it in a nutshell, we’re bankrupt.",
+            "ptExample": "Resumindo, estamos falidos."
+          },
+          {
+            "enExample": "In a nutshell, the project was a success.",
+            "ptExample": "Resumindo, o projeto foi um sucesso."
+          }
+        ],
+        "synonyms": ["briefly", "in short", "summarized"],
+        "antonyms": ["in detail", "at length"],
+        "seeAlso": "to sum up",
+        "notes": [
+          {
+            "enNote": "This idiom is often used to summarize complex information in a simple and concise manner.",
+            "ptNote": "Este idiom é frequentemente usado para resumir informações complexas de maneira simples e concisa."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "illness",
         "phonetics": "/ˈɪlnəs/",
         "partOfSpeech": "noun",

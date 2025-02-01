@@ -2,6 +2,35 @@
   {
     "definitions": [
       {
+        "word": "keep one's eye on the prize",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to stay focused on achieving a positive end result, especially in the face of challenges or distractions",
+        "ptDefinition": "manter o foco em alcançar um resultado positivo, especialmente diante de desafios ou distrações",
+        "examples": [
+          {
+            "enExample": "Despite the difficulties, she kept her eye on the prize and completed her degree.",
+            "ptExample": "Apesar das dificuldades, ela manteve o foco e concluiu seu diploma."
+          },
+          {
+            "enExample": "He reminded his team to keep their eyes on the prize and not get distracted by minor setbacks.",
+            "ptExample": "Ele lembrou sua equipe de manter o foco e não se distrair com pequenos contratempos."
+          }
+        ],
+        "synonyms": ["stay focused", "remain determined", "stay on track"],
+        "antonyms": ["lose focus", "get distracted", "waver"],
+        "seeAlso": ["stay the course", "keep going", "persevere"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to encourage persistence and determination.",
+            "ptNote": "Este idiom é frequentemente usado para encorajar persistência e determinação."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "kick off",
         "phonetics": "kɪk ɔf",
         "partOfSpeech": "phrasal verb",

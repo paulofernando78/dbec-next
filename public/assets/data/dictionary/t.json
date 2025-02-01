@@ -2,6 +2,64 @@
   {
     "definitions": [
       {
+        "word": "the issue at hand",
+        "partOfSpeech": "idiom",
+        "enDefinition": "the current topic or problem being discussed or considered",
+        "ptDefinition": "o tópico ou problema atual sendo discutido ou considerado",
+        "examples": [
+          {
+            "enExample": "Let's focus on the issue at hand and not get distracted by other matters.",
+            "ptExample": "Vamos nos concentrar no problema atual e não nos distrair com outras questões."
+          },
+          {
+            "enExample": "The meeting was called to address the issue at hand, which is the budget deficit.",
+            "ptExample": "A reunião foi convocada para tratar do problema atual, que é o déficit orçamentário."
+          }
+        ],
+        "synonyms": ["current issue", "present matter", "topic of discussion"],
+        "antonyms": ["irrelevant issue", "unrelated matter"],
+        "seeAlso": ["current topic", "focus"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to bring attention back to the main subject of discussion.",
+            "ptNote": "Este idiom é frequentemente usado para trazer a atenção de volta ao assunto principal da discussão."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "put it lightly",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to express or describe something in a way that lessens or mitigates its scale, scope, or significance",
+        "ptDefinition": "expressar ou descrever algo de uma maneira que reduza ou mitigue sua escala, alcance ou significado",
+        "examples": [
+          {
+            "enExample": "Saying the weather is a bit chilly is putting it lightly; it's freezing outside!",
+            "ptExample": "Dizer que o tempo está um pouco frio é um eufemismo; está congelando lá fora!"
+          },
+          {
+            "enExample": "Calling the project challenging is putting it lightly; it was nearly impossible to complete.",
+            "ptExample": "Chamar o projeto de desafiador é um eufemismo; foi quase impossível de completar."
+          }
+        ],
+        "synonyms": ["understatement", "downplay", "minimize"],
+        "antonyms": ["exaggerate", "overstate", "amplify"],
+        "seeAlso": ["understate", "soft-pedal"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to emphasize that the actual situation is much more intense or serious than described.",
+            "ptNote": "Este idiom é frequentemente usado para enfatizar que a situação real é muito mais intensa ou séria do que descrita."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "the (definite article)",
         "phonetics": "/ðə, ðiː/",
         "partOfSpeech": "definite article",

@@ -2,6 +2,35 @@
   {
     "definitions": [
       {
+        "word": "asleep at the wheel",
+        "partOfSpeech": "idiom",
+        "enDefinition": "not paying attention to a situation, especially when you are responsible for it",
+        "ptDefinition": "não prestar atenção a uma situação, especialmente quando você é responsável por ela",
+        "examples": [
+          {
+            "enExample": "The company went bankrupt because the management was asleep at the wheel.",
+            "ptExample": "A empresa faliu porque a administração estava dormindo no ponto."
+          },
+          {
+            "enExample": "If you don't keep up with the latest trends, you'll be asleep at the wheel.",
+            "ptExample": "Se você não acompanhar as últimas tendências, estará dormindo no ponto."
+          }
+        ],
+        "synonyms": ["negligent", "inattentive", "careless"],
+        "antonyms": ["attentive", "vigilant", "alert"],
+        "seeAlso": ["drop the ball", "neglect"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to criticize someone for not fulfilling their responsibilities.",
+            "ptNote": "Este idiom é frequentemente usado para criticar alguém por não cumprir suas responsabilidades."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "ashamed",
         "phonetics": "/əˈʃeɪmd/",
         "partOfSpeech": "adjective",

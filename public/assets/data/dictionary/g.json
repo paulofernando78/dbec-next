@@ -2,6 +2,35 @@
   {
     "definitions": [
       {
+        "word": "get off track",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to become distracted or lose focus on the main task or objective",
+        "ptDefinition": "ficar distraído ou perder o foco na tarefa ou objetivo principal",
+        "examples": [
+          {
+            "enExample": "We were making good progress on the project, but then we got off track with all the side discussions.",
+            "ptExample": "Estávamos fazendo um bom progresso no projeto, mas então nos desviamos com todas as discussões paralelas."
+          },
+          {
+            "enExample": "It's easy to get off track when there are so many distractions around.",
+            "ptExample": "É fácil se desviar quando há tantas distrações ao redor."
+          }
+        ],
+        "synonyms": ["lose focus", "get distracted", "stray"],
+        "antonyms": ["stay focused", "remain on track", "stay on course"],
+        "seeAlso": ["lose sight of", "wander off"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to describe situations where someone or something deviates from the intended path or goal.",
+            "ptNote": "Este idiom é frequentemente usado para descrever situações em que alguém ou algo se desvia do caminho ou objetivo pretendido."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "go",
         "phonetics": "/ɡoʊ/",
         "partOfSpeech": "verb",

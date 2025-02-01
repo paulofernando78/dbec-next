@@ -2,6 +2,65 @@
   {
     "definitions": [
       {
+        "word": "make a mountain out of a molehill",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to exaggerate a minor problem or issue and make it seem more important than it really is",
+        "ptDefinition": "exagerar um problema ou questão menor e torná-lo mais importante do que realmente é",
+        "examples": [
+          {
+            "enExample": "She made a mountain out of a molehill when she complained about the tiny scratch on her car.",
+            "ptExample": "Ela fez uma tempestade em copo d'água quando reclamou do pequeno arranhão no carro."
+          },
+          {
+            "enExample": "Don't make a mountain out of a molehill; it's just a small mistake.",
+            "ptExample": "Não faça uma tempestade em copo d'água; é apenas um pequeno erro."
+          }
+        ],
+        "synonyms": ["exaggerate", "overreact", "blow out of proportion"],
+        "antonyms": ["downplay", "minimize", "understate"],
+        "seeAlso": ["overreact", "make a big deal"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to advise someone to keep things in perspective and not overreact to minor issues.",
+            "ptNote": "Este idiom é frequentemente usado para aconselhar alguém a manter as coisas em perspectiva e não reagir exageradamente a questões menores."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "move on",
+        "phonetics": "/muːv ɑːn/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to leave a place, situation, or relationship and start something new",
+        "ptDefinition": "deixar um lugar, situação ou relacionamento e começar algo novo",
+        "examples": [
+          {
+            "enExample": "After the breakup, she decided to move on and focus on her career.",
+            "ptExample": "Após o término, ela decidiu seguir em frente e focar em sua carreira."
+          },
+          {
+            "enExample": "It's time to move on from this job and find something more fulfilling.",
+            "ptExample": "É hora de seguir em frente deste trabalho e encontrar algo mais gratificante."
+          }
+        ],
+        "synonyms": ["progress", "advance", "proceed"],
+        "antonyms": ["stay", "remain", "linger"],
+        "seeAlso": ["move forward", "let go"],
+        "notes": [
+          {
+            "enNote": "This phrase is often used to encourage someone to stop dwelling on the past and look towards the future.",
+            "ptNote": "Esta frase é frequentemente usada para encorajar alguém a parar de se prender ao passado e olhar para o futuro."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "messy",
         "phonetics": "/ˈmɛsi/",
         "partOfSpeech": "adjective",

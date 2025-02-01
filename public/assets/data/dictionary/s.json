@@ -1,5 +1,36 @@
 [
   {
+    "keyword": "short by",
+    "definitions": [
+      {
+        "word": "short by",
+        "phonetics": "/ʃɔrt baɪ/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to be lacking or deficient in a certain amount or number",
+        "ptDefinition": "estar em falta ou deficiente em uma certa quantidade ou número",
+        "examples": [
+          {
+            "enExample": "We are short by two people for the team.",
+            "ptExample": "Estamos com falta de duas pessoas para a equipe."
+          },
+          {
+            "enExample": "The project budget is short by $500.",
+            "ptExample": "O orçamento do projeto está faltando $500."
+          }
+        ],
+        "synonyms": ["lacking", "deficient", "missing"],
+        "antonyms": ["sufficient", "adequate", "enough"],
+        "seeAlso": ["shortfall", "deficit"],
+        "notes": [
+          {
+            "enNote": "This phrase is often used to indicate a shortage or insufficiency in various contexts.",
+            "ptNote": "Esta expressão é frequentemente usada para indicar uma escassez ou insuficiência em vários contextos."
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "successful",
     "definitions": [
       {

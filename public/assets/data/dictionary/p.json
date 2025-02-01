@@ -2,6 +2,93 @@
   {
     "definitions": [
       {
+        "word": "pull something off",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to succeed in doing something difficult or unexpected",
+        "ptDefinition": "conseguir fazer algo difícil ou inesperado",
+        "examples": [
+          {
+            "enExample": "No one thought he could win the race, but he pulled it off.",
+            "ptExample": "Ninguém achou que ele poderia vencer a corrida, mas ele conseguiu."
+          },
+          {
+            "enExample": "She pulled off a brilliant performance despite the challenges.",
+            "ptExample": "Ela conseguiu uma performance brilhante apesar dos desafios."
+          }
+        ],
+        "synonyms": ["succeed", "accomplish", "achieve"],
+        "antonyms": ["fail", "flop", "fall short"],
+        "seeAlso": ["carry out", "bring off"],
+        "notes": [
+          {
+            "enNote": "This phrase is often used to describe achieving something that seemed unlikely or required significant effort.",
+            "ptNote": "Esta frase é frequentemente usada para descrever a realização de algo que parecia improvável ou exigia um esforço significativo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "push the envelope",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to go beyond the usual or expected limits, especially in a creative or innovative way",
+        "ptDefinition": "ir além dos limites usuais ou esperados, especialmente de maneira criativa ou inovadora",
+        "examples": [
+          {
+            "enExample": "The company is known for pushing the envelope in terms of technology and design.",
+            "ptExample": "A empresa é conhecida por ir além dos limites em termos de tecnologia e design."
+          },
+          {
+            "enExample": "The director pushed the envelope with his latest film, exploring new and controversial themes.",
+            "ptExample": "O diretor foi além dos limites com seu último filme, explorando temas novos e controversos."
+          }
+        ],
+        "synonyms": ["innovate", "break new ground", "go beyond"],
+        "antonyms": ["conform", "stick to the norm", "play it safe"],
+        "seeAlso": ["think outside the box", "break the mold"],
+        "notes": [
+          {
+            "enNote": "This idiom originated from the field of aviation, where 'envelope' refers to the performance limits of an aircraft.",
+            "ptNote": "Este idiom originou-se no campo da aviação, onde 'envelope' se refere aos limites de desempenho de uma aeronave."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "put in one's two cents",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to offer one's opinion or thoughts on a matter, often unsolicited or unwelcome",
+        "ptDefinition": "dar a sua opinião sobre um assunto, muitas vezes sem ser solicitado ou bem-vindo",
+        "examples": [
+          {
+            "enExample": "I know you didn't ask for my advice, but I just had to put in my two cents.",
+            "ptExample": "Eu sei que você não pediu meu conselho, mas eu tive que dar minha opinião."
+          },
+          {
+            "enExample": "She always puts in her two cents, even when no one asks for it.",
+            "ptExample": "Ela sempre dá sua opinião, mesmo quando ninguém pede."
+          }
+        ],
+        "synonyms": ["offer an opinion", "weigh in", "chime in"],
+        "antonyms": ["stay silent", "keep quiet"],
+        "seeAlso": ["give one's opinion", "speak up"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to preface a statement that may be seen as unnecessary or unsolicited.",
+            "ptNote": "Este idiom é frequentemente usado para introduzir uma declaração que pode ser vista como desnecessária ou não solicitada."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "playful",
         "phonetics": "/ˈpleɪ.fəl/",
         "partOfSpeech": "adjective",

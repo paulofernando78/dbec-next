@@ -2,6 +2,65 @@
   {
     "definitions": [
       {
+        "word": "drop the ball",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to make a mistake or fail to do something important",
+        "ptDefinition": "cometer um erro ou falhar em fazer algo importante",
+        "examples": [
+          {
+            "enExample": "He really dropped the ball when he forgot to submit the report on time.",
+            "ptExample": "Ele realmente cometeu um erro quando esqueceu de enviar o relatório a tempo."
+          },
+          {
+            "enExample": "The team dropped the ball in the final minutes of the game.",
+            "ptExample": "O time falhou nos minutos finais do jogo."
+          }
+        ],
+        "synonyms": ["make a mistake", "mess up", "blunder"],
+        "antonyms": ["succeed", "perform well", "excel"],
+        "seeAlso": ["slip up", "screw up"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to describe a failure to meet expectations or responsibilities.",
+            "ptNote": "Este idiom é frequentemente usado para descrever uma falha em atender expectativas ou responsabilidades."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "dot your i's and cross your t's",
+        "phonetics": "",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to pay attention to every small detail, to be thorough and meticulous",
+        "ptDefinition": "prestar atenção a cada pequeno detalhe, ser minucioso e meticuloso",
+        "examples": [
+          {
+            "enExample": "When preparing the contract, make sure to dot your i's and cross your t's.",
+            "ptExample": "Ao preparar o contrato, certifique-se de prestar atenção a cada detalhe."
+          },
+          {
+            "enExample": "She always dots her i's and crosses her t's, which is why her work is so accurate.",
+            "ptExample": "Ela sempre presta atenção a cada detalhe, por isso seu trabalho é tão preciso."
+          }
+        ],
+        "synonyms": ["be meticulous", "be thorough", "pay attention to detail"],
+        "antonyms": ["be careless", "overlook details", "be negligent"],
+        "seeAlso": ["be precise", "be exact"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to emphasize the importance of attention to detail in tasks.",
+            "ptNote": "Este idiom é frequentemente usado para enfatizar a importância da atenção aos detalhes nas tarefas."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "determine",
         "phonetics": "/dɪˈtɜːrmɪn/",
         "partOfSpeech": "verb",

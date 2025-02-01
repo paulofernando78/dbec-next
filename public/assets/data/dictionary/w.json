@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "weigh in on",
+        "phonetics": "/weɪ ɪn ɑn/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to give an opinion or enter a discussion or debate",
+        "ptDefinition": "dar uma opinião ou entrar em uma discussão ou debate",
+        "examples": [
+          {
+            "enExample": "Experts were invited to weigh in on the issue.",
+            "ptExample": "Especialistas foram convidados a opinar sobre a questão."
+          },
+          {
+            "enExample": "She decided to weigh in on the conversation with her own perspective.",
+            "ptExample": "Ela decidiu entrar na conversa com sua própria perspectiva."
+          }
+        ],
+        "synonyms": ["contribute", "participate", "comment"],
+        "antonyms": ["stay silent", "withhold opinion"],
+        "seeAlso": ["chime in", "join in", "speak up"],
+        "notes": [
+          {
+            "enNote": "This phrase is often used in contexts where someone is asked to provide their input or opinion on a matter.",
+            "ptNote": "Esta frase é frequentemente usada em contextos onde alguém é solicitado a fornecer sua opinião sobre um assunto."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "write",
         "phonetics": "/raɪt/",
         "partOfSpeech": "verb",
@@ -133,14 +163,14 @@
             "enExample": "Her strategy worked in the end.",
             "ptExample": "A estratégia dela deu certo no final."
           },
-            {
+          {
             "enExample": "My new diet seems to be working. I've lost weight already.",
             "ptExample": "Minha nova dieta parece estar funcionando. Já perdi peso."
-            },
-            {
+          },
+          {
             "enExample": "Her idea for reorganizing the department will never work in practice.",
             "ptExample": "A ideia dela para reorganizar o departamento nunca funcionará na prática."
-            }
+          }
         ],
         "synonyms": ["succeed", "function", "achieve"],
         "antonyms": ["fail", "flop", "break down"],
@@ -393,27 +423,57 @@
     "definitions": [
       {
         "word": "weird",
+        "phonetics": "/wɪrd/",
         "partOfSpeech": "adjective",
-        "ptDefinition": "esquisito, estranho",
+        "enDefinition": "suggesting something supernatural; uncanny",
+        "ptDefinition": "sugerindo algo sobrenatural; estranho",
         "examples": [
           {
-            "enExample": "He's weird.",
-            "ptExample": "Ele é esquisito."
-          }
-        ]
-      },
-      {
-        "word": "weirdo",
-        "partOfSpeech": "noun",
-        "ptDefinition": "pessoa estranha, esquisita",
-        "examples": [
-          {
-            "enExample": "He's a weirdo.",
-            "ptExample": "Ele é um \"bicho\" estranho."
+            "enExample": "She had a weird feeling that something bad was going to happen.",
+            "ptExample": "Ela teve uma sensação estranha de que algo ruim ia acontecer."
           },
           {
-            "enExample": "[Radiohead's song: I'm a weirdo.",
-            "ptExample": "Eu sou um esquisitão."
+            "enExample": "The movie was really weird, with lots of unexpected twists.",
+            "ptExample": "O filme foi realmente estranho, com muitos reviravoltas inesperadas."
+          }
+        ],
+        "synonyms": ["strange", "bizarre", "unusual"],
+        "antonyms": ["normal", "ordinary", "common"],
+        "seeAlso": ["odd", "peculiar", "eerie"],
+        "notes": [
+          {
+            "enNote": "The term 'weird' can have both positive and negative connotations, depending on the context.",
+            "ptNote": "O termo 'weird' pode ter conotações positivas e negativas, dependendo do contexto."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "weirdo",
+        "phonetics": "/ˈwɪərdoʊ/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a person who is extraordinarily strange or eccentric",
+        "ptDefinition": "uma pessoa que é extraordinariamente estranha ou excêntrica",
+        "examples": [
+          {
+            "enExample": "He was considered a weirdo by his classmates because of his unusual habits.",
+            "ptExample": "Ele era considerado um esquisitão pelos colegas de classe por causa de seus hábitos incomuns."
+          },
+          {
+            "enExample": "She felt like a weirdo at the party because she didn't know anyone.",
+            "ptExample": "Ela se sentiu uma esquisita na festa porque não conhecia ninguém."
+          }
+        ],
+        "synonyms": ["eccentric", "oddball", "freak"],
+        "antonyms": ["normal", "conventional", "ordinary"],
+        "seeAlso": ["oddity", "peculiar", "strange"],
+        "notes": [
+          {
+            "enNote": "The term 'weirdo' is often used informally and can be considered pejorative.",
+            "ptNote": "O termo 'weirdo' é frequentemente usado de maneira informal e pode ser considerado pejorativo."
           }
         ]
       }

@@ -2,6 +2,35 @@
   {
     "definitions": [
       {
+        "word": "(to be or to get) out of hand",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to become difficult or impossible to control",
+        "ptDefinition": "tornar-se difícil ou impossível de controlar",
+        "examples": [
+          {
+            "enExample": "The party got out of hand and the police had to be called.",
+            "ptExample": "A festa saiu do controle e a polícia teve que ser chamada."
+          },
+          {
+            "enExample": "If we don't address the issue now, it could get out of hand.",
+            "ptExample": "Se não abordarmos o problema agora, ele pode sair do controle."
+          }
+        ],
+        "synonyms": ["uncontrollable", "chaotic", "unmanageable"],
+        "antonyms": ["manageable", "controlled", "under control"],
+        "seeAlso": ["out of control", "run wild"],
+        "notes": [
+          {
+            "enNote": "This idiom is often used to describe situations that escalate quickly and become difficult to manage.",
+            "ptNote": "Este idiom é frequentemente usado para descrever situações que escalam rapidamente e se tornam difíceis de gerenciar."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "on board",
         "phonetics": "/ɒn bɔːrd/",
         "partOfSpeech": "adjective,",

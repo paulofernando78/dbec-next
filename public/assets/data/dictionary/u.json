@@ -2,6 +2,31 @@
   {
     "definitions": [
       {
+        "word": "up to scratch",
+        "partOfSpeech": "idiom",
+        "enDefinition": "meeting the required standard; satisfactory",
+        "ptDefinition": "atendendo ao padrão exigido; satisfatório",
+        "examples": [
+          {
+            "enExample": "His work wasn't up to scratch, so he was asked to redo it.",
+            "ptExample": "O trabalho dele não estava à altura, então pediram para ele refazê-lo."
+          }
+        ],
+        "synonyms": ["adequate", "satisfactory", "acceptable"],
+        "antonyms": ["inadequate", "unsatisfactory", "unacceptable"],
+        "seeAlso": ["up to par", "up to standard"],
+        "notes": [
+          {
+            "enNote": "Often used to describe performance or quality.",
+            "ptNote": "Frequentemente usado para descrever desempenho ou qualidade."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "unhappy",
         "phonetics": "/ʌnˈhæpi/",
         "partOfSpeech": "adjective",

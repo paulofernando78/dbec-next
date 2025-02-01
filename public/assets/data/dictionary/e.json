@@ -2,6 +2,35 @@
   {
     "definitions": [
       {
+        "word": "every time I turn around",
+        "partOfSpeech": "idiom",
+        "enDefinition": "used to describe something that happens very frequently or constantly",
+        "ptDefinition": "usado para descrever algo que acontece com muita frequência ou constantemente",
+        "examples": [
+          {
+            "enExample": "Every time I turn around, there's another problem to solve.",
+            "ptExample": "Toda vez que eu me viro, há outro problema para resolver."
+          },
+          {
+            "enExample": "Every time I turn around, my kids are asking for something new.",
+            "ptExample": "Toda vez que eu me viro, meus filhos estão pedindo algo novo."
+          }
+        ],
+        "synonyms": ["constantly", "frequently", "repeatedly"],
+        "antonyms": ["rarely", "seldom"],
+        "seeAlso": ["all the time", "at every turn"],
+        "notes": [
+          {
+            "enNote": "Often used to express frustration with the frequency of occurrences.",
+            "ptNote": "Frequentemente usado para expressar frustração com a frequência das ocorrências."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "embarrassing",
         "phonetics": "/ɪmˈbærəsɪŋ/",
         "partOfSpeech": "adjective",
