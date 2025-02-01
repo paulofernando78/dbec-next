@@ -5,8 +5,17 @@
 @import url('../styles/components.css');
 @import url('../styles/colors.css');
 
+.login {
+  width: 250px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 8px;
+}
+
 .margin-top {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .dbec {

@@ -1,3 +1,4 @@
+"use client";
 
 import { Card } from "@/components";
 import "./styles.css";
@@ -16,9 +17,7 @@ import {
   emailIcon,
   whatsappIcon,
 } from "@/img/index";
-import { Login } from "@/components/Molecules/Inputs/Login";
-import Link from "next/link";
-import Iframe from "@/components/Atoms/Iframe";
+import { Button } from "@/components/Atoms/Button";
 
 const card1 = [{ text: "Aula individual ou em grupo." }];
 const card2 = [
@@ -30,11 +29,19 @@ const card3 = [{ text: "Material como áudios, vídeos e exercícios online." }]
 
 export default function Home() {
   return (
-    <>    
-      <Link href="/materials">
-        <p>Login</p>
-      </Link>
+    <>
       {/* <Login /> */}
+      <div className="login">
+        <p className="bold">Email</p>
+        <input type="text"></input>
+        <p className="bold">Password</p>
+        <input type="text"></input>
+        <Button
+          label="Login"
+          onClick={() => (window.location.href = "/materials")}
+        ></Button>
+      </div>
+
       <div className="margin-top">
         <div className="flex-col-center">
           <p className="dbec">DAILY BASIS ENGLISH COURSE</p>
@@ -63,7 +70,7 @@ export default function Home() {
           <div className="grid-3fr-8px">
             <div className="flex-col-8px-center">
               <Image src={groupIcon} alt="Icon of a group" className="icons" />
-              <Card cards={card1}/>
+              <Card cards={card1} />
             </div>
             <div className="flex-col-8px-center">
               <Image src={clockIcon} alt="Icon of a clock" className="icons" />
