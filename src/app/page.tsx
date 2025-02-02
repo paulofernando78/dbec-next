@@ -17,33 +17,36 @@ import {
   emailIcon,
   whatsappIcon,
 } from "@/img/index";
+import Link from "next/link";
 
-const card1 = [{ text: "Aula individual ou em grupo." }];
+const card1 = "Aula individual ou em grupo.";
 const card2 = [
-  {
-    text: "Aulas de 1 hora ou mais conforme a disponibilidade do aluno e do professor.",
-  },
+  "Aulas de 50 minutes ou mais conforme a disponibilidade do aluno e do professor.",
 ];
-const card3 = [{ text: "Material como áudios, vídeos e exercícios online." }];
+const card3 = "Material como áudios, vídeos e exercícios online.";
 
 export default function Home() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="position-relative">
       {/* <Login /> */}
-      <Button label="Login" onClick={() => setIsOpen(!isOpen)}/>
-  
-      {isOpen && <div className="login">
-        <p className="bold">Email</p>
-        <input type="text"></input>
-        <p className="bold">Password</p>
-        <input type="text"></input>
-        <Button
-          label="Login"
-          onClick={() => (window.location.href = "/materials")}
-        ></Button>
-        Not a member? Contat me!
-      </div>}
+      <Button label="Login" onClick={() => setIsOpen(!isOpen)} />
+
+      {isOpen && (
+        <div className="login">
+          <p className="bold">Email</p>
+          <input type="text"></input>
+          <p className="bold">Password</p>
+          <input type="password" className="p-font password"></input>
+          <Button
+            label="Login"
+            onClick={() => (window.location.href = "/materials")}
+          ></Button>
+          <p className="p-size-small">
+            Not a member? <Link href="#contact-me">Contact me!</Link>
+          </p>
+        </div>
+      )}
 
       <div className="margin-top">
         <div className="flex-col-center">
@@ -71,36 +74,37 @@ export default function Home() {
             <span className="bold">Writing</span> (Escrita).
           </p>
           <div className="grid-3fr-8px">
-            <div className="flex-col-8px-center">
+            <div className="flex-col-8px-center cards">
               <Image src={groupIcon} alt="Icon of a group" className="icons" />
-              <Card cards={card1} />
+              <p>{card1}</p>
             </div>
-            <div className="flex-col-8px-center">
+            <div className="flex-col-8px-center cards">
               <Image src={clockIcon} alt="Icon of a clock" className="icons" />
-              <Card cards={card2} />
+              <p>{card2}</p>
             </div>
-            <div className="flex-col-8px-center">
+            <div className="flex-col-8px-center cards">
               <Image
                 src={laptopComputerIcon}
                 alt="Icon of a laptop computer"
                 className="icons"
               />
-              <Card cards={card3} />
+              <p>{card3}</p>
             </div>
           </div>
           <div>
+            <p className="flex-8px-center"><Image src={contentIcon} alt="Content icon"  className="icon-general"/> Sample (Amostra)</p>
+            <p className="flex-8px-center"><Image src={infoIcon} alt="Content icon"  className="icon-general"/> About (Sobre)</p>
+            <p className="flex-8px-center"><Image src={moneyIcon} alt="Content icon"  className="icon-general"/> Pricing (Preço)</p>
             {/* <IconLink imgSrc={contentIcon} link="/" prompt="Amostra conteúdo" />
             <IconLink imgSrc={infoIcon} link="/about" prompt="Sobre" />
             <IconLink imgSrc={moneyIcon} link="/" prompt="Preço" /> */}
           </div>
           <div>
-            <p className="bold">Contato</p>
-            {/* <IconLink
-              imgSrc={emailIcon}
-              link="/price"
-              prompt="paulofernando78@gmail.com"
-            />
-            <IconLink imgSrc={whatsappIcon} link="/" prompt="..." /> */}
+            <p className="bold" id="contact-me">
+              Contato
+            </p>
+            <p className="flex-8px-center"><Image src={emailIcon} alt="Email icon" className="icon-general" />paulofernando78@gmail.com</p>
+            <p className="flex-8px-center"><Image src={whatsappIcon} alt="Whatsapp icon" className="icon-general"/>+55 (11) 981672145</p>
           </div>
         </div>
       </div>

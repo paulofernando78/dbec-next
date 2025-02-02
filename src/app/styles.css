@@ -6,7 +6,7 @@
 @import url('../styles/colors.css');
 
 .login {
-  width: 350px;
+  width: 330px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -20,6 +20,12 @@
   top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.password {
+  border: 1px solid lightgrey;
+  border-radius: var(--border-radius);
+  height: 32px;
 }
 
 .margin-top {
@@ -53,4 +59,16 @@
 .icons {
   width: 80px;
   height: auto;
+}
+
+.cards {
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  padding: 10px;
+}
+@media (width < 768px) {
+  .cards {
+    width: 300px;
+    margin: 0 auto;
+  }
 }
