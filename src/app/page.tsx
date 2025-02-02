@@ -1,8 +1,8 @@
 "use client";
-
+import { useState } from "react";
 import { Card } from "@/components";
 import "./styles.css";
-
+import { Button } from "@/components/Atoms/Button";
 import Image from "next/image";
 import {
   ukUSflag,
@@ -17,7 +17,6 @@ import {
   emailIcon,
   whatsappIcon,
 } from "@/img/index";
-import { Button } from "@/components/Atoms/Button";
 
 const card1 = [{ text: "Aula individual ou em grupo." }];
 const card2 = [
@@ -28,10 +27,13 @@ const card2 = [
 const card3 = [{ text: "Material como áudios, vídeos e exercícios online." }];
 
 export default function Home() {
+  const [isOpen, setIsOpen] = useState(false)
   return (
-    <>
+    <div className="position-relative">
       {/* <Login /> */}
-      <div className="login">
+      <Button label="Login" onClick={() => setIsOpen(!isOpen)}/>
+  
+      {isOpen && <div className="login">
         <p className="bold">Email</p>
         <input type="text"></input>
         <p className="bold">Password</p>
@@ -40,7 +42,8 @@ export default function Home() {
           label="Login"
           onClick={() => (window.location.href = "/materials")}
         ></Button>
-      </div>
+        Not a member? Contat me!
+      </div>}
 
       <div className="margin-top">
         <div className="flex-col-center">
@@ -101,6 +104,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
