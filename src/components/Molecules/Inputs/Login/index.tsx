@@ -2,12 +2,25 @@ import { Button } from "@/components/Atoms/Button";
 import Link from "next/link";
 import styles from "./styles.module.css";
 import "./type";
+import { useState, useEffect } from "react";
 
 export const Login = ({ isOpen, setIsOpen }: LoginProps) => {
-  if (!isOpen) return null;
+  const [closing, setClosing] = useState(false);
+
+  useEffect(() => {
+    if (!isOpen) setClosing(false);
+  }, [isOpen]);
+
+  const handleClose = () => {
+    setClosing(true);
+    setTimeout(() => setIsOpen(false), 500); // Match the duration of the slide-up animation
+  };
+
+  if (!isOpen && !closing) return null;
+
   return (
     <>
-      <div className={styles["login-container"]}>
+      <div className={`${styles["login-container"]} ${closing ? styles["slide-up"] : ""}`}>
         <p className="bold">Email</p>
         <input type="text"></input>
         <p className="bold">Password</p>
@@ -17,7 +30,7 @@ export const Login = ({ isOpen, setIsOpen }: LoginProps) => {
           label="Login"
           onClick={() => (window.location.href = "/materials")}
         ></Button>
-        <Button label="✖" onClick={() => setIsOpen(false)} />
+        <Button label="✖" onClick={handleClose} />
         </span>
         <p className="p-size-small">
           Not a member? <Link href="#contact-me">Contact me!</Link>

@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div className="position-relative">
       {/* <Login /> */}
-      <Button label="Login" onClick={() => setIsOpen(true)} />
+      <Button label="Student Acess" onClick={() => setIsOpen(true)} />
       <Login isOpen={isOpen} setIsOpen={setIsOpen} />
       <div className="margin-top">
         <div className="flex-col-center">

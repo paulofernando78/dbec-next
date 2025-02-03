@@ -1,6 +1,6 @@
 .login-container {
   width: 330px;
-  margin: 34px auto;
+  margin: 50px auto;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -9,15 +9,53 @@
   border-radius: var(--border-radius);
   background: white;
   padding: 10px;
-  position: relative;
-  /* top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
+
+  animation: slide-down .7s ease-in-out;
+}
+@keyframes slide-down {
+  0% {
+    transform: translateY(-320px);
+  }
+  15% {
+    transform: translateY(25px);
+  }
+  50% {
+    transform: translateY(-25px);
+  }
+  60% {
+    transform: translateY(-20px);
+  }
+  70% {
+    transform: translateY(20px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+  90% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.login-container.slide-up {
+  animation: slide-up .5s ease-in-out;
+}
+
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-320px);
+  }
 }
 
 .login-close-btn {
   display: grid;
-  grid-template-columns: 82.5% 15%;
+  grid-template-columns: 85.5% 12%;
   gap: 8px;
 }
 
