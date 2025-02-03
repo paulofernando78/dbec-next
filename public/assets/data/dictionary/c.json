@@ -2,6 +2,62 @@
   {
     "definitions": [
       {
+        "word": "character",
+        "phonetics": "",
+        "partOfSpeech": "",
+        "enDefinition": "",
+        "ptDefinition": "",
+        "examples": [
+          {
+            "enExample": "",
+            "ptExample": ""
+          }
+        ],
+        "synonyms": "",
+        "antonyms": "",
+        "seeAlso": "",
+        "notes": [
+          {
+            "enNote": "",
+            "ptNote": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "character",
+        "phonetics": "/ˈkærɪktər/",
+        "partOfSpeech": "noun",
+        "enDefinition": "the mental and moral qualities distinctive to an individual",
+        "ptDefinition": "as qualidades mentais e morais distintivas de um indivíduo",
+        "examples": [
+          {
+            "enExample": "Her character is known for being very kind and generous.",
+            "ptExample": "Seu caráter é conhecido por ser muito gentil e generoso."
+          },
+          {
+            "enExample": "He has a strong character and always stands up for what he believes in.",
+            "ptExample": "Ele tem um caráter forte e sempre defende o que acredita."
+          }
+        ],
+        "synonyms": ["personality", "nature", "disposition"],
+        "antonyms": ["anonymity", "facelessness"],
+        "seeAlso": ["trait", "attribute"],
+        "notes": [
+          {
+            "enNote": "Character is often judged by how a person behaves in difficult situations.",
+            "ptNote": "O caráter é frequentemente julgado pela forma como uma pessoa se comporta em situações difíceis."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "cover oneself",
         "phonetics": "/ˈkʌvər wʌnˈsɛlf/",
         "partOfSpeech": "verb",

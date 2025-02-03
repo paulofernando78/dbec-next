@@ -117,7 +117,7 @@
           "radio": [
             {
               "id": "476cdf45-842d-4e6c-a295-e449f67c5b5d",
-              "question": "1. Starting a chain of coffee houses in Manhattan is a half-baked idea! There are already more than enough coffee houses in Manhattan.",
+              "question": "1. Starting a chain of coffee houses in Manhattan is a <b>half-baked idea</b>! There are already more than enough coffee houses in Manhattan.",
               "options": [
                 {
                   "id": "7da42296-46f5-45c7-b029-4c16bc5c9cec",
@@ -138,7 +138,7 @@
             },
             {
               "id": "9202724a-f1a0-4523-a42a-915318a63090",
-              "question": "2. The government is discussing a new proposal to raise the minimum wage, but nothing is set in stone yet.",
+              "question": "2. The government is discussing a new proposal to raise the minimum wage, but <b>nothing is set in stone yet</b>.",
               "options": [
                 {
                   "id": "a865c78f-54d7-41af-835b-e56be70de1c4",
@@ -159,7 +159,7 @@
             },
             {
               "id": "7accab41-2030-413d-a29c-9f0822cf2ebc",
-              "question": "3. You don't have to twist the boss's arm. She's already decided to let everybody leave early on Friday to avoid holiday traffic.",
+              "question": "3. You don't have to <b>twist the boss's arm</b>. She's already decided to let everybody leave early on Friday to avoid holiday traffic.",
               "options": [
                 {
                   "id": "96ff375c-1386-498a-a424-92cbb1f9f129",
@@ -180,7 +180,7 @@
             },
             {
               "id": "204d0db2-86f4-4cd3-b747-cc36b73804a5",
-              "question": "4. Arnold Schwarzenegger has appeared on television commercials in Japan, China, Austria, and Brazil, plugging products such as vitamin drinks and soup.",
+              "question": "4. Arnold Schwarzenegger has appeared on television commercials in Japan, China, Austria, and Brazil, <b>plugging products</b> such as vitamin drinks and soup.",
               "options": [
                 {
                   "id": "ae17a94c-4bc5-4fcd-b676-99aa71c7ec34",
@@ -201,7 +201,7 @@
             },
             {
               "id": "aceebb17-175f-4530-b846-93b1efeb4c01",
-              "question": "5. Before approaching a bank for a loan, you need to flesh out your business plan.",
+              "question": "5. Before approaching a bank for a loan, you need to <b>flesh out</b> your business plan.",
               "options": [
                 {
                   "id": "73195c9a-c813-441e-a9f4-295b4568cd1f",
@@ -222,7 +222,7 @@
             },
             {
               "id": "b52461d5-4e62-48f8-acc9-9c51dfdfadeb",
-              "question": "6. Buying a new computer system would cost an arm and a leg. Let's just upgrade the system we already have.",
+              "question": "6. Buying a new computer system would <b>cost an arm and a leg</b>. Let's just upgrade the system we already have.",
               "options": [
                 {
                   "id": "888e45db-e46c-42c1-a288-e80eca69e665",
@@ -243,7 +243,7 @@
             },
             {
               "id": "4b414c15-10a4-4ffe-b10a-2b102dcff926",
-              "question": "7. Paul and Susan make a good living running a bed-and-breakfast in Vermont. Meeting lots of friendly people is the icing on the cake.",
+              "question": "7. Paul and Susan make a good living running a bed-and-breakfast in Vermont. Meeting lots of friendly people is the <b>icing on the cake</b>.",
               "options": [
                 {
                   "id": "4ed700fc-0102-4247-bb3f-4a95e9d49acc",
@@ -264,7 +264,7 @@
             },
             {
               "id": "2cf0c9a4-20ba-4f83-9cd6-13c99b2f55e0",
-              "question": "8. I like your idea of selling our products by direct mail. Let's run with it.",
+              "question": "8. I like your idea of selling our products by direct mail. Let's <b>run with it</b>.",
               "options": [
                 {
                   "id": "e2c50429-5911-4616-ad71-e0290a9b825d",

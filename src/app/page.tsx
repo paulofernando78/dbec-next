@@ -10,19 +10,56 @@ import {
   groupIcon,
   clockIcon,
   laptopComputerIcon,
-  contentIcon,
+  sampleIcon,
   infoIcon,
   moneyIcon,
   emailIcon,
   whatsappIcon,
 } from "@/img/index";
 import "./styles.css";
+import { IconLink } from "@/components/Molecules/IconLink";
 
 const card1 = "Aula individual ou em grupo.";
 const card2 = [
   "Aulas de 50 minutes ou mais conforme a disponibilidade do aluno e do professor.",
 ];
 const card3 = "Material como áudios, vídeos e exercícios online.";
+
+const iconLink = [
+  {
+    imgSrc: sampleIcon,
+    imgAlt: "Sample Icon",
+    link: "/amostra",
+    linkLabel: "Amostra (Sample)",
+  },
+  {
+    imgSrc: infoIcon,
+    imgAlt: "Info Icon",
+    link: "/sobre",
+    linkLabel: "Sobre (About)",
+  },
+  {
+    imgSrc: moneyIcon,
+    imgAlt: "Money Icon",
+    link: "/preco",
+    linkLabel: "Preço (Pricing)",
+  },
+];
+
+const iconLinkContact = [
+  {
+    imgSrc: emailIcon,
+    imgAlt: "Email Icon",
+    link: "",
+    linkLabel: "paulofernando78@gmail.com",
+  },
+  {
+    imgSrc: whatsappIcon,
+    imgAlt: "Whatsapp Icon",
+    link: "https://wa.me/+5511981672145",
+    linkLabel: "+55 (11) 981672145",
+  },
+];
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
@@ -75,19 +112,15 @@ export default function Home() {
             </div>
           </div>
           <div>
-            <p className="flex-8px-center"><Image src={contentIcon} alt="Content icon"  className="icon-general"/> Sample (Amostra)</p>
-            <p className="flex-8px-center"><Image src={infoIcon} alt="Content icon"  className="icon-general"/> About (Sobre)</p>
-            <p className="flex-8px-center"><Image src={moneyIcon} alt="Content icon"  className="icon-general"/> Pricing (Preço)</p>
-            {/* <IconLink imgSrc={contentIcon} link="/" prompt="Amostra conteúdo" />
-            <IconLink imgSrc={infoIcon} link="/about" prompt="Sobre" />
-            <IconLink imgSrc={moneyIcon} link="/" prompt="Preço" /> */}
+            <IconLink iconLinks={iconLink} />
           </div>
           <div>
             <p className="bold" id="contact-me">
               Contato
             </p>
-            <p className="flex-8px-center"><Image src={emailIcon} alt="Email icon" className="icon-general" />paulofernando78@gmail.com</p>
-            <p className="flex-8px-center"><Image src={whatsappIcon} alt="Whatsapp icon" className="icon-general"/>+55 (11) 981672145</p>
+            <div>
+              <IconLink iconLinks={iconLinkContact} />
+            </div>
           </div>
         </div>
       </div>

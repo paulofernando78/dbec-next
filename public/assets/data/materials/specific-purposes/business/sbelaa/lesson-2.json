@@ -125,7 +125,7 @@
       "exercises": [
         {
           "id": "e0e2cf82-097c-4983-9951-11c7f1389b9a",
-          "title": "1. Choose the best appropriate response to each sntence.",
+          "title": "1. Choose the best appropriate response to each sentence.",
           "radio": [
             {
               "id": "a11854f5-8795-401d-a5c7-81668d0f3367",
@@ -237,19 +237,14 @@
               "question": "6. I know our company is looking for ways to cut costs. Do you think my <b>head is on the chopping block</b>?",
               "options": [
                 {
-                  "id": "24e43270-6b29-439d-b488-5c5407f34f13",
-                  "label": "No, don't worry. They won't fire you.",
-                  "isCorrect": true
-                },
-                {
-                  "id": "cd5bd2b9-ef98-4904-b20b-fc43338a4527",
-                  "label": "No, I don't think so. But you might get fired.",
-                  "isCorrect": false
-                },
-                {
                   "id": "f8aa8878-0eb6-4042-ac63-2c34879b7dd5",
                   "label": "No, I don't think they'll cut off your head.",
                   "isCorrect": false
+                },
+                {
+                  "id": "24e43270-6b29-439d-b488-5c5407f34f13",
+                  "label": "No, don't worry. They won't fire you.",
+                  "isCorrect": true
                 }
               ]
             },

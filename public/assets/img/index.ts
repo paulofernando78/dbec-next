@@ -8,7 +8,7 @@ import meComputer from "./site/me-computer.png";
 import groupIcon from "./icon/group.png";
 import clockIcon from "./icon/clock.gif";
 import laptopComputerIcon from "./icon/laptop-computer.png";
-import contentIcon from "./icon/content.png";
+import sampleIcon from "./icon/sample.png";
 import infoIcon from "./icon/info.png";
 import moneyIcon from "./icon/money.png";
 import emailIcon from "./icon/email.png";
@@ -154,7 +154,7 @@ export {
   groupIcon,
   clockIcon,
   laptopComputerIcon,
-  contentIcon,
+  sampleIcon,
   infoIcon,
   moneyIcon,
   emailIcon,
