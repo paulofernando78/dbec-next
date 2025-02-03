@@ -1,8 +1,7 @@
 "use client";
 import { useState } from "react";
-import { Card } from "@/components";
-import "./styles.css";
 import { Button } from "@/components/Atoms/Button";
+import { Login } from "@/components/Molecules/Inputs/Login";
 import Image from "next/image";
 import {
   ukUSflag,
@@ -17,7 +16,7 @@ import {
   emailIcon,
   whatsappIcon,
 } from "@/img/index";
-import Link from "next/link";
+import "./styles.css";
 
 const card1 = "Aula individual ou em grupo.";
 const card2 = [
@@ -30,24 +29,8 @@ export default function Home() {
   return (
     <div className="position-relative">
       {/* <Login /> */}
-      <Button label="Login" onClick={() => setIsOpen(!isOpen)} />
-
-      {isOpen && (
-        <div className="login">
-          <p className="bold">Email</p>
-          <input type="text"></input>
-          <p className="bold">Password</p>
-          <input type="password" className="p-font password"></input>
-          <Button
-            label="Login"
-            onClick={() => (window.location.href = "/materials")}
-          ></Button>
-          <p className="p-size-small">
-            Not a member? <Link href="#contact-me">Contact me!</Link>
-          </p>
-        </div>
-      )}
-
+      <Button label="Login" onClick={() => setIsOpen(true)} />
+      <Login isOpen={isOpen} setIsOpen={setIsOpen} />
       <div className="margin-top">
         <div className="flex-col-center">
           <p className="dbec">DAILY BASIS ENGLISH COURSE</p>

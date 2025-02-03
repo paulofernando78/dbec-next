@@ -1,15 +1,28 @@
+import { Button } from "@/components/Atoms/Button";
+import Link from "next/link";
+import styles from "./styles.module.css";
+import "./type";
 
-// 
-
-import { Card } from "@/components";
-
-export const Login = () => {
+export const Login = ({ isOpen, setIsOpen }: LoginProps) => {
+  if (!isOpen) return null;
   return (
-      <form>
-        <p>email: </p>
-        <input type="text" id="email" />
-        <p>password: </p>
-        <input type="password" id="password" />
-      </form>
+    <>
+      <div className={styles["login-container"]}>
+        <p className="bold">Email</p>
+        <input type="text"></input>
+        <p className="bold">Password</p>
+        <input type="password" className={`p-font ${styles["password"]}`}></input>
+        <span className={styles["login-close-btn"]}>
+        <Button
+          label="Login"
+          onClick={() => (window.location.href = "/materials")}
+        ></Button>
+        <Button label="✖" onClick={() => setIsOpen(false)} />
+        </span>
+        <p className="p-size-small">
+          Not a member? <Link href="#contact-me">Contact me!</Link>
+        </p>
+      </div>
+    </>
   );
 };

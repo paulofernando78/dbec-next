@@ -5,29 +5,6 @@
 @import url('../styles/components.css');
 @import url('../styles/colors.css');
 
-.login {
-  width: 330px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  gap: 8px;
-  box-shadow: var(--box-shadow);
-  border-radius: var(--border-radius);
-  background: white;
-  padding: 10px;
-  position: absolute;
-  top: 15%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.password {
-  border: 1px solid lightgrey;
-  border-radius: var(--border-radius);
-  height: 32px;
-}
-
 .margin-top {
   margin-top: 50px;
 }

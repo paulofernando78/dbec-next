@@ -4,7 +4,7 @@
 import { useState } from "react";
 
 // CSS
-import styles from "./Button.module.css";
+import styles from "./styles.module.css";
 
 // Typescript
 import { ButtonProps } from "./type";

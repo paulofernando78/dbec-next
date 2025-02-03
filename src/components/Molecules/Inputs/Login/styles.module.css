@@ -1,0 +1,28 @@
+.login-container {
+  width: 330px;
+  margin: 34px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 8px;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  background: white;
+  padding: 10px;
+  position: relative;
+  /* top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+
+.login-close-btn {
+  display: grid;
+  grid-template-columns: 82.5% 15%;
+  gap: 8px;
+}
+
+.password {
+  border: 1px solid lightgrey;
+  border-radius: var(--border-radius);
+  height: 32px;
+}
