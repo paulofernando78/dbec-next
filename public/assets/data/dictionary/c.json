@@ -3,23 +3,27 @@
     "definitions": [
       {
         "word": "character",
-        "phonetics": "",
-        "partOfSpeech": "",
-        "enDefinition": "",
-        "ptDefinition": "",
+        "phonetics": "/ˈkærɪktɚ/",
+        "partOfSpeech": "noun",
+        "enDefinition": "a person represented in a film, play, or story",
+        "ptDefinition": "uma pessoa representada em um filme, peça ou história",
         "examples": [
           {
-            "enExample": "",
-            "ptExample": ""
+            "enExample": "The main character in the movie is a young girl who discovers she has magical powers.",
+            "ptExample": "O personagem principal do filme é uma jovem que descobre que tem poderes mágicos."
+          },
+          {
+            "enExample": "He played the character of Hamlet in the school play.",
+            "ptExample": "Ele interpretou o personagem Hamlet na peça da escola."
           }
         ],
-        "synonyms": "",
-        "antonyms": "",
-        "seeAlso": "",
+        "synonyms": ["role", "persona", "figure"],
+        "antonyms": ["nonentity"],
+        "seeAlso": ["protagonist", "antagonist"],
         "notes": [
           {
-            "enNote": "",
-            "ptNote": ""
+            "enNote": "In literature and film, characters are often developed through their actions, dialogue, and interactions with other characters.",
+            "ptNote": "Na literatura e no cinema, os personagens são frequentemente desenvolvidos através de suas ações, diálogos e interações com outros personagens."
           }
         ]
       }
@@ -29,7 +33,7 @@
     "definitions": [
       {
         "word": "character",
-        "phonetics": "/ˈkærɪktər/",
+        "phonetics": "/ˈkærɪktɚ/",
         "partOfSpeech": "noun",
         "enDefinition": "the mental and moral qualities distinctive to an individual",
         "ptDefinition": "as qualidades mentais e morais distintivas de um indivíduo",
