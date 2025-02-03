@@ -13,7 +13,7 @@ export const Login = ({ isOpen, setIsOpen }: LoginProps) => {
 
   const handleClose = () => {
     setClosing(true);
-    setTimeout(() => setIsOpen(false), 500); // Match the duration of the slide-up animation
+    setTimeout(() => setIsOpen(false), 700); // Match the duration of the slide-up animation
   };
 
   if (!isOpen && !closing) return null;

@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Button } from "@/components/Atoms/Button";
-import { Login } from "@/components/Molecules/Inputs/Login";
+import { Login } from "@/components/Molecules/Login";
 import Image from "next/image";
 import {
   ukUSflag,
