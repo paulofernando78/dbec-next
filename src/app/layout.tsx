@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-
-// CSS
 import "./styles.css";
+import { montserrat } from "../../public/fonts/index";
 
 export const metadata: Metadata = {
   title: "Daily Basis English Course",
@@ -14,14 +13,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.ico" />
-      </head>
+    <html lang="en" className={`${montserrat.className} font-sans`}>
       <body>
-        <main>
-          <span>{children}</span>
-        </main>
+        <main>{children}</main>
       </body>
     </html>
   );
