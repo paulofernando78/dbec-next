@@ -58,7 +58,7 @@ export const DictionarySearch = () => {
           <Button label="Search" onClick={handleShowWordCard} />
           <input
             type="text"
-            placeholder="Type word"
+            placeholder="Dictionary"
             onChange={(e) => setText(e.target.value)}
             onKeyUp={detectEnterClick}
           />
