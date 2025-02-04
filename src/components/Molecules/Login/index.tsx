@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/Atoms/Button";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import styles from "./styles.module.css";
 import "./type";
 
@@ -10,7 +9,6 @@ export const Login = ({ isOpen, setIsOpen }: LoginProps) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const router = useRouter(); // Start router
 
   useEffect(() => {
     if (!isOpen) setClosing(false);
@@ -41,7 +39,7 @@ export const Login = ({ isOpen, setIsOpen }: LoginProps) => {
 
       if (res.ok) {
         alert("You're in");
-        router.push("/materials"); // Redirect upon login
+        window.location.href = "/materials"; // Redirect upon login
       } else {
         setError(data.message);
       }
@@ -72,11 +70,14 @@ export const Login = ({ isOpen, setIsOpen }: LoginProps) => {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         ></input>
-
-        {error && <p style={{ color: "red" }}>{error}</p>}
+        
+        {error && <p style={{ color: "red"}}>{error}</p>}
 
         <span className={styles["login-close-btn"]}>
-          <Button label="Login" onClick={handleLogin}></Button>
+          <Button
+            label="Login"
+            onClick={handleLogin}
+          ></Button>
           <Button label="✖" onClick={handleClose} />
         </span>
         <p className="p-size-small">

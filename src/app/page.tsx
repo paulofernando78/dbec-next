@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Button } from "@/components/Atoms/Button";
+import { Login } from "@/components/Molecules/Login";
 import Image from "next/image";
 import {
   ukUSflag,
@@ -17,10 +18,6 @@ import {
 } from "@/img/index";
 import "./styles.css";
 import { IconLink } from "@/components/Molecules/IconLink";
-import dynamic from 'next/dynamic';
-
-// Adjusted dynamic import to use named export
-const DynamicLogin = dynamic(() => import('@/components/Molecules/Login').then(mod => mod.Login), { ssr: false });
 
 const card1 = "Aula individual ou em grupo.";
 const card2 = [
@@ -68,8 +65,9 @@ export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="position-relative">
+      {/* <Login /> */}
       <Button label="Student Access" onClick={() => setIsOpen(true)} />
-      <DynamicLogin isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Login isOpen={isOpen} setIsOpen={setIsOpen} />
       <div className="margin-top">
         <div className="flex-col-center">
           <p className="dbec">DAILY BASIS ENGLISH COURSE</p>
