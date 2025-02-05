@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import { Button } from "@/components/Atoms/Button";
-import { Login } from "@/components/Molecules/Login";
 import Image from "next/image";
 import {
   ukUSflag,
@@ -18,12 +17,8 @@ import {
 } from "@/img/index";
 import "./styles.css";
 import { IconLink } from "@/components/Molecules/IconLink";
-
-const card1 = "Aula individual ou em grupo.";
-const card2 = [
-  "Aulas de 50 minutes ou mais conforme a disponibilidade do aluno e do professor.",
-];
-const card3 = "Material como áudios, vídeos e exercícios online.";
+import styles from "./styles.module.css";
+import { AuthForm } from "@/components/Organisms/AuthForm";
 
 const iconLink = [
   {
@@ -63,11 +58,52 @@ const iconLinkContact = [
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleFlip = () => {
+    setIsFlipped((prev) => !prev);
+  };
+
   return (
-    <div className="position-relative">
+    <div>
       {/* <Login /> */}
-      <Button label="Student Access" onClick={() => setIsOpen(true)} />
-      <Login isOpen={isOpen} setIsOpen={setIsOpen} />
+      <div className={styles["page-container"]}>
+        <Button label="Student Access" onClick={() => setIsOpen(true)} />
+      </div>
+
+      {isOpen && (
+        <div className={styles["wrapper-student-access"]}>
+          <div
+            className={`${styles["sign-in-container"]} ${
+              isFlipped ? styles["sign-in-container-flip"] : ""
+            }`}
+          >
+            <AuthForm
+              label1="Email"
+              label2="Password"
+              BtnLabel="Sign in"
+              member="Not a member?"
+              switchAuth="Sign Up"
+              handleFlip={handleFlip}
+            />
+          </div>
+          <div
+            className={`${styles["sign-up-container"]} ${
+              isFlipped ? styles["sign-up-container-flip"] : ""
+            }`}
+          >
+            <AuthForm
+              label1="Email"
+              label2="Password"
+              BtnLabel="Sign up"
+              member="Already a member?"
+              switchAuth="Log in"
+              handleFlip={handleFlip}
+            />
+          </div>
+        </div>
+      )}
+
       <div className="margin-top">
         <div className="flex-col-center">
           <p className="dbec">DAILY BASIS ENGLISH COURSE</p>
@@ -96,11 +132,14 @@ export default function Home() {
           <div className="grid-3fr-8px">
             <div className="flex-col-8px-center cards">
               <Image src={groupIcon} alt="Icon of a group" className="icons" />
-              <p>{card1}</p>
+              <p>Aula individual ou em grupo.</p>
             </div>
             <div className="flex-col-8px-center cards">
               <Image src={clockIcon} alt="Icon of a clock" className="icons" />
-              <p>{card2}</p>
+              <p>
+                Aulas de 50 minutes ou mais conforme a disponibilidade do aluno
+                e do professor.
+              </p>
             </div>
             <div className="flex-col-8px-center cards">
               <Image
@@ -108,7 +147,7 @@ export default function Home() {
                 alt="Icon of a laptop computer"
                 className="icons"
               />
-              <p>{card3}</p>
+              <p>Material como áudios, vídeos e exercícios online.</p>
             </div>
           </div>
           <div>

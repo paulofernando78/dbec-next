@@ -3,23 +3,27 @@
     "definitions": [
       {
         "word": "track something down",
-        "phonetics": "",
-        "partOfSpeech": "",
-        "enDefinition": "",
-        "ptDefinition": "",
+        "phonetics": "/træk ˈsʌmθɪŋ daʊn/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to find someone or something after a thorough or difficult search",
+        "ptDefinition": "encontrar alguém ou algo após uma busca minuciosa ou difícil",
         "examples": [
           {
-            "enExample": "",
-            "ptExample": ""
+            "enExample": "It took me weeks to track down the book I needed for my research.",
+            "ptExample": "Demorei semanas para encontrar o livro que precisava para minha pesquisa."
+          },
+          {
+            "enExample": "The police managed to track down the suspect after a long investigation.",
+            "ptExample": "A polícia conseguiu localizar o suspeito após uma longa investigação."
           }
         ],
-        "synonyms": "",
-        "antonyms": "",
-        "seeAlso": "",
+        "synonyms": ["locate", "find", "discover"],
+        "antonyms": ["lose", "miss", "overlook"],
+        "seeAlso": ["hunt down", "search for"],
         "notes": [
           {
-            "enNote": "",
-            "ptNote": ""
+            "enNote": "This phrasal verb is often used when the search is challenging or requires significant effort.",
+            "ptNote": "Este phrasal verb é frequentemente usado quando a busca é desafiadora ou requer um esforço significativo."
           }
         ]
       }

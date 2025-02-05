@@ -9,7 +9,7 @@ import styles from "./styles.module.css";
 // Typescript
 import { ButtonProps } from "./type";
 
-export const Button = ({ label, onClick, toggle }: ButtonProps) => {
+export const Button = ({ label, onClick, toggle, type }: ButtonProps) => {
   const [show, setShow] = useState(false);
 
   const handleClick = () => {
@@ -23,7 +23,7 @@ export const Button = ({ label, onClick, toggle }: ButtonProps) => {
 
   return (
     <>
-      <button className={styles.pushable} onClick={handleClick}>
+      <button className={styles.pushable} onClick={handleClick} type={type}>
         <span className={styles.shadow}></span>
         <span className={styles.edge}></span>
         <span className={styles.front}>
