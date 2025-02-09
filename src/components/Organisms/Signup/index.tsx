@@ -45,13 +45,13 @@ export const SignUp = ({ handleFlip }: SignUpProps) => {
         handleSubmit();
       }}
     >
-      <p className="bold">Username</p>
+      <p className="font-bold">Username</p>
       <input
         type="text"
         value={username}
         onChange={(e) => setusername(e.target.value)}
       ></input>
-      <p className="bold">Password</p>
+      <p className="font-bold">Password</p>
       <input
         type="password"
         className="p-font auth-container-password"

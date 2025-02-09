@@ -7,7 +7,7 @@ import { FillInTheBlankProps } from "./type";
 import correctIcon from "@/img/icon/correct.png";
 import incorrectIcon from "@/img/icon/incorrect.png";
 
-import styles from "./styles.module.css"
+import styles from "./styles.module.css";
 
 export const FillInTheBlanks = ({
   fillInTheBlank = [],
@@ -71,7 +71,7 @@ export const FillInTheBlanks = ({
           <Fragment key={index}>
             {question.title && (
               <div className="margin-bottom">
-                <p className="bold">{question.title}</p>
+                <p className="font-bold">{question.title}</p>
                 <p>{question.subtitle}</p>
               </div>
             )}
@@ -87,7 +87,10 @@ export const FillInTheBlanks = ({
                 type="text"
                 value={selectedOptions[index][0] || ""}
                 onChange={(event) => handleOptionChange(index, event)}
-                style={{ width: calculateWidth(question.correctAnswer), display }}
+                style={{
+                  width: calculateWidth(question.correctAnswer),
+                  display,
+                }}
                 placeholder={question.placeholder || ""}
               />{" "}
               {isCorrects[index] !== null && (

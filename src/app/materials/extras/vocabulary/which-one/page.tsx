@@ -1,4 +1,4 @@
-import { DictionaryCard} from "@components/Molecules/Cards/DictionaryCard";
+import { DictionaryCard } from "@components/Molecules/Cards/DictionaryCard";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import React from "react";
 
@@ -12,7 +12,7 @@ export default function WhichOne() {
       />
       <div className="line-break">
         <div>
-          <p className="bold">jump to:</p>
+          <p className="font-bold">jump to:</p>
 
           {/* ... */}
           <a href="#...">

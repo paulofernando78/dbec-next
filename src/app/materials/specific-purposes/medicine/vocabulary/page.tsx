@@ -480,7 +480,7 @@ export default function MedicineVocabulary() {
           <div className="line-break">
             {items.map((item, labelIndex) => (
               <div key={labelIndex} className="line-break">
-                <p className="bold">{item.label}</p>
+                <p className="font-bold">{item.label}</p>
                 <div className="flex-col-8px">
                   {item.words.map((word, wordIndex) => (
                     <div key={wordIndex}>

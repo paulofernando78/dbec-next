@@ -19,7 +19,7 @@ export const Ribbon = ({
       id={id}
     >
       <div className="flex-8px-center-wrap">
-        <p className="bold">{label}</p>
+        <p className="font-bold">{label}</p>
         {time && <Time time={time} />}
       </div>
     </div>

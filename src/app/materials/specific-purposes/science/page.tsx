@@ -7,7 +7,7 @@ export default function Science() {
       <Whiteboard title="Specific Purposes" subtitle="Science" />
       <div className="line-break">
         <div className="line-break">
-          <p className="bold">What's a supernova?</p>
+          <p className="font-bold">What's a supernova?</p>
           <div>
             <p>Chemical elements</p>
             <div>

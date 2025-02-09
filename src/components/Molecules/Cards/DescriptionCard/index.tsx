@@ -42,7 +42,7 @@ export const DescriptionCard = ({ descriptions }: DescriptionCardProps) => {
         <div key={descIndex} className="line-break">
           {/* Main label */}
           {description.mainLabel && (
-              <p className="bold">{description.mainLabel}</p>
+            <p className="font-bold">{description.mainLabel}</p>
           )}
 
           {description.subDescriptions.map(
@@ -78,7 +78,9 @@ export const DescriptionCard = ({ descriptions }: DescriptionCardProps) => {
                           className={`icon-general ${styles["link-icon"]}`}
                         />{" "} */}
                         <Link href={content.link}>
-                          <p className={`display-inline ${styles["link-label-position"]}`}>
+                          <p
+                            className={`display-inline ${styles["link-label-position"]}`}
+                          >
                             {content.linkLabel}
                           </p>
                         </Link>

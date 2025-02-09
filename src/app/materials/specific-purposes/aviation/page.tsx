@@ -1,5 +1,5 @@
 import { AudioPlayer } from "@/components";
-import { DictionaryCard} from "@components/Molecules/Cards/DictionaryCard";
+import { DictionaryCard } from "@components/Molecules/Cards/DictionaryCard";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import Link from "next/link";
 
@@ -13,7 +13,7 @@ export default function Aviation() {
           audioSrc="/p/pneumatic-boots.mp3"
         />
         <AudioPlayer audioSrc="" />
-        <p className="bold">How do pneumatic boots work in aviation?</p>
+        <p className="font-bold">How do pneumatic boots work in aviation?</p>
         <p>
           During expansion, the boots are inflated by pneumatic pressure that
           breaks away the ice. They are then deflated by vacuum suction. When

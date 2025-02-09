@@ -13,7 +13,7 @@ export default function Priscila() {
           </p>
         </Link>
         <div className="line-break">
-          <p className="bold">Dates</p>
+          <p className="font-bold">Dates</p>
           <div>
             <p>...</p>
           </div>

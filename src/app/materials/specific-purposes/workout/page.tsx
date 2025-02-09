@@ -19,7 +19,7 @@ export default function Workout() {
           <p>dumbell</p>
         </div>
         <div>
-          <p className="bold">What's your training program?</p>
+          <p className="font-bold">What's your training program?</p>
           <p>biceps /ˈbaɪ.sep/</p>
           <p>triceps /ˈtraɪ.sep/</p>
           <p>chest press</p>

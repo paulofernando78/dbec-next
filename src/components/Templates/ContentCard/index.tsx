@@ -36,7 +36,7 @@ export const ContentCard = ({ contentData }: ContentCardProps) => {
             {/* Render Card if cardLabel exists */}
             {content.headerLabel && (
               <div className="">
-                <p className="bold">{content.headerLabel}</p>
+                <p className="font-bold">{content.headerLabel}</p>
               </div>
             )}
             {/* Render CardContents */}
@@ -113,7 +113,7 @@ const CardContentRenderer = ({ cardContent }: { cardContent: CardContent }) => {
                   }}
                 />
               </Link>
-              {content.time && <Time time={content.time}/>}
+              {content.time && <Time time={content.time} />}
             </div>
           )}
         </div>

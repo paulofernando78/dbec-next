@@ -48,7 +48,7 @@ export default function Vocabulary() {
             <p>to bring forward, to move forward </p>
           </div>
           <div>
-            <p className="bold">Adjectives</p>
+            <p className="font-bold">Adjectives</p>
             <p>living organisms</p>
             <p>flying saucer</p>
           </div>

@@ -37,7 +37,7 @@ export default function Hairdressing() {
             <p>trimmer</p>
             <p>burner</p>
             <p>fade trimming</p>
-            <p className="bold">Verbs</p>
+            <p className="font-bold">Verbs</p>
             <p>cut</p>
             <p>dye *die</p>
             <p>trim</p>

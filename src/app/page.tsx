@@ -76,7 +76,7 @@ export default function Home() {
         <div className={styles["wrapper-student-access"]}>
           {isFlipped ? (
             <div className={styles["sign-in-container"]}>
-              <SignIn handleFlip={handleFlip}/>
+              <SignIn handleFlip={handleFlip} />
             </div>
           ) : (
             <div className={styles["sign-up-container"]}>
@@ -136,7 +136,7 @@ export default function Home() {
             <IconLink iconLinks={iconLink} />
           </div>
           <div>
-            <p className="bold" id="contact-me">
+            <p className="font-bold" id="contact-me">
               Contato
             </p>
             <div>

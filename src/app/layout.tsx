@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import "./global.css";
-import { montserrat } from "../../public/fonts/index";
+import { Montserrat } from "next/font/google";
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Daily Basis English Course",

@@ -20,17 +20,24 @@ export const Login = ({ isOpen, setIsOpen }: LoginProps) => {
 
   return (
     <>
-      <div className={`${styles["login-container"]} ${closing ? styles["slide-up"] : ""}`}>
-        <p className="bold">Email</p>
+      <div
+        className={`${styles["login-container"]} ${
+          closing ? styles["slide-up"] : ""
+        }`}
+      >
+        <p className="font-bold">Email</p>
         <input type="text"></input>
-        <p className="bold">Password</p>
-        <input type="password" className={`p-font ${styles["password"]}`}></input>
+        <p className="font-bold">Password</p>
+        <input
+          type="password"
+          className={`p-font ${styles["password"]}`}
+        ></input>
         <span className={styles["login-close-btn"]}>
-        <Button
-          label="Login"
-          onClick={() => (window.location.href = "/materials")}
-        ></Button>
-        <Button label="✖" onClick={handleClose} />
+          <Button
+            label="Login"
+            onClick={() => (window.location.href = "/materials")}
+          ></Button>
+          <Button label="✖" onClick={handleClose} />
         </span>
         <p className="p-size-small">
           Not a member? <Link href="#contact-me">Contact me!</Link>

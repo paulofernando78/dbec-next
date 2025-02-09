@@ -205,31 +205,31 @@ export default function Unit103() {
               />
               <div>
                 <p>
-                  <span className="bold">at</span> 8 o'clock
+                  <span className="font-bold">at</span> 8 o'clock
                 </p>
                 <p>
-                  <span className="bold">at</span> 10:30 (US)
+                  <span className="font-bold">at</span> 10:30 (US)
                 </p>
                 <p>
-                  <span className="bold">at</span> 10.30 (UK)
+                  <span className="font-bold">at</span> 10.30 (UK)
                 </p>
                 <p>
-                  <span className="bold">at</span> midnight
+                  <span className="font-bold">at</span> midnight
                 </p>
                 <p>etc.</p>
               </div>
               <div>
                 <p>
-                  • I wake up <span className="bold">at</span> 5:30.
+                  • I wake up <span className="font-bold">at</span> 5:30.
                 </p>
                 <p>
-                  • I start work <span className="bold">at</span> 8:00.
+                  • I start work <span className="font-bold">at</span> 8:00.
                 </p>
                 <p>
-                  • The banks open <span className="bold">at</span> 10:00.
+                  • The banks open <span className="font-bold">at</span> 10:00.
                 </p>
                 <p>
-                  • The museum closes <span className="bold">at</span> 5:30.
+                  • The museum closes <span className="font-bold">at</span> 5:30.
                 </p>
               </div>
             </div>
@@ -245,48 +245,48 @@ export default function Unit103() {
                 <div>
                   <p className="bold underline">Days of week / weekend</p>
                   <p>
-                    <span className="bold">on</span> Sunday(s) / Monday(s), etc.
+                    <span className="font-bold">on</span> Sunday(s) / Monday(s), etc.
                   </p>
                   <p>
-                    <span className="bold">on</span> the weekend / weekends (US)
+                    <span className="font-bold">on</span> the weekend / weekends (US)
                   </p>
                 </div>
                 <div>
                   <p className="bold underline">Months + Dates</p>
                   <p>
-                    <span className="bold">on</span> April 25 / June 6, etc.
+                    <span className="font-bold">on</span> April 25 / June 6, etc.
                   </p>
                 </div>
                 <div>
                   <p className="bold underline">Events</p>
                   <p>
-                    <span className="bold">on</span> Christmas Day
+                    <span className="font-bold">on</span> Christmas Day
                   </p>
                   <p>
-                    <span className="bold">on</span> New Year's Day
+                    <span className="font-bold">on</span> New Year's Day
                   </p>
                 </div>
               </div>
               <div className="line-break">
                 <div>
                   <p>
-                    • Bye! I'll see you <span className="bold">on</span> Friday.
+                    • Bye! I'll see you <span className="font-bold">on</span> Friday.
                   </p>
                   <p>
-                    • What do you usually do <span className="bold">on</span>{" "}
+                    • What do you usually do <span className="font-bold">on</span>{" "}
                     Sundays?
                   </p>
                   <p>
-                    • The concert is <span className="bold">on</span> November
+                    • The concert is <span className="font-bold">on</span> November
                     22.
                   </p>
                   <p>
-                    • The concert is <span className="bold">on</span> (the) 22
+                    • The concert is <span className="font-bold">on</span> (the) 22
                     (of) November. (UK)
                   </p>
                 </div>
                   <p>
-                    <span className="bold">at</span> the weekend / weekends (UK)
+                    <span className="font-bold">at</span> the weekend / weekends (UK)
                   </p>
                   <p>Use ordinal numbers for dates.</p>
               </div>
@@ -355,50 +355,50 @@ export default function Unit103() {
           <div className="line-break">
             <div className="grid-2fr-8px">
               <div>
-                <p className="bold">We say:</p>
+                <p className="font-bold">We say:</p>
                 <p>
-                  <span className="bold">at</span> night
+                  <span className="font-bold">at</span> night
                 </p>
                 <p>
-                  <span className="bold">at</span> the end of the...
+                  <span className="font-bold">at</span> the end of the...
                 </p>
                 <p>- day</p>
                 <p>- month</p>
                 <p>- year</p>
                 <p>
-                  <span className="bold">at</span> the moment
+                  <span className="font-bold">at</span> the moment
                 </p>
                 <p>
-                  <span className="bold">at</span> Christmas
+                  <span className="font-bold">at</span> Christmas
                 </p>
               </div>
               <div>
                 <p>
-                  • I can't sleep <span className="bold">at</span> night.
+                  • I can't sleep <span className="font-bold">at</span> night.
                 </p>
                 <p>
-                  • Where will you be <span className="bold">at</span>{" "}
+                  • Where will you be <span className="font-bold">at</span>{" "}
                   Christmas?
                 </p>
                 <p>
-                  • I'm going on vacation <span className="bold">at</span> the
+                  • I'm going on vacation <span className="font-bold">at</span> the
                   end of October.
                 </p>
                 <p>
-                  • Are you busy <span className="bold">at</span> the moment?
+                  • Are you busy <span className="font-bold">at</span> the moment?
                 </p>
                 <p>
-                  • Are you coming <span className="bold">on</span> the weekend?
+                  • Are you coming <span className="font-bold">on</span> the weekend?
                 </p>
               </div>
             </div>
             <div>
                 <p className="italic margin-bottom">Exceptions</p>
                 <p>
-                  - <span className="bold">on</span> Christmas <mark>Day</mark>
+                  - <span className="font-bold">on</span> Christmas <mark>Day</mark>
                 </p>
                 <p>
-                  - <span className="bold">at night</span>{" "}
+                  - <span className="font-bold">at night</span>{" "}
                   <span className="portuguese">
                     se refere ao fato de não mais ser dia como um todo, de uma
                     forma geral (de/à noite).
@@ -406,21 +406,21 @@ export default function Unit103() {
                 </p>
 
                 <p>
-                  - <span className="bold">in the night</span>{" "}
+                  - <span className="font-bold">in the night</span>{" "}
                   <span className="portuguese">
                     enfatiza a idéia de ser tarde, escuro e as pessoas estarem
                     dormindo (na noite). -{" "}
-                    <span className="bold">in the night</span>{" "}
+                    <span className="font-bold">in the night</span>{" "}
                   </span>
                   • I heard an owl hooting{" "}
-                  <span className="bold">in the night</span>.{" "}
+                  <span className="font-bold">in the night</span>.{" "}
                   <span className="portuguese">
                     Eu ouvi um pio de coruja no meio da noite.
                   </span>
                 </p>
 
                 <p>
-                  - <span className="bold">in the end</span> no fim das contas;
+                  - <span className="font-bold">in the end</span> no fim das contas;
                   finalmente
                   <span className=""></span>
                 </p>
@@ -432,7 +432,7 @@ export default function Unit103() {
         <BoardCard label="C" bgColor="#EF4444" textColor="white">
           <div className="line-break">
             <div>
-              <p className="bold">
+              <p className="font-bold">
                 in the morning / in the afternoon / in the evening
               </p>
               <p>• I always feel good in the morning.</p>
@@ -440,7 +440,7 @@ export default function Unit103() {
             </div>
             <div>
               <p className="italic">but</p>
-              <p className="bold">
+              <p className="font-bold">
                 on Monday morning / on Tuesday afternoon / on Friday evening /
                 on Saturday night, etc.
               </p>
@@ -454,41 +454,41 @@ export default function Unit103() {
         <BoardCard label="D" bgColor="#EF4444" textColor="white">
           <div className="line-break">
             <p>
-              We don't use <span className="bold">at</span> /{" "}
-              <span className="bold">on</span> /{" "}
-              <span className="bold">in</span> before:
+              We don't use <span className="font-bold">at</span> /{" "}
+              <span className="font-bold">on</span> /{" "}
+              <span className="font-bold">in</span> before:
             </p>
             <div className="grid-2fr-8px">
               <div>
                 <p>
-                  - <span className="bold">this</span> ... (this morning / this
+                  - <span className="font-bold">this</span> ... (this morning / this
                   week, etc.)
                 </p>
                 <p>
-                  - <span className="bold">last</span> ... (last August / last
+                  - <span className="font-bold">last</span> ... (last August / last
                   week, etc.)
                 </p>
                 <p>
-                  - <span className="bold">next</span> ... (next Monday / next
+                  - <span className="font-bold">next</span> ... (next Monday / next
                   week, etc.)
                 </p>
                 <p>
-                  - <span className="bold">every</span> ... (every day / every
+                  - <span className="font-bold">every</span> ... (every day / every
                   week, etc.)
                 </p>
               </div>
               <div>
                 <p>
-                  • Are you going out <span className="bold">this evening</span>
+                  • Are you going out <span className="font-bold">this evening</span>
                   ?
                 </p>
                 <p>
-                  • We go on vacation <span className="bold">every summer</span>
-                  . <span className="bold">Last summer</span> we went to
+                  • We go on vacation <span className="font-bold">every summer</span>
+                  . <span className="font-bold">Last summer</span> we went to
                   Salvador.
                 </p>
                 <p>
-                  • I'm leaving <span className="bold">next Monday</span>.
+                  • I'm leaving <span className="font-bold">next Monday</span>.
                 </p>
               </div>
             </div>
@@ -500,10 +500,10 @@ export default function Unit103() {
         <BoardCard label="E" bgColor="red" textColor="white">
           <div className="line-break">
             <p>
-              <span className="bold">in five minutes</span> /{" "}
-              <span className="bold">in a few days</span> /{" "}
-              <span className="bold">in six weeks</span> /{" "}
-              <span className="bold">in two years</span>, etc.
+              <span className="font-bold">in five minutes</span> /{" "}
+              <span className="font-bold">in a few days</span> /{" "}
+              <span className="font-bold">in six weeks</span> /{" "}
+              <span className="font-bold">in two years</span>, etc.
             </p>
             <Image
               src={inFiveMinutes}
@@ -513,24 +513,24 @@ export default function Unit103() {
             <div>
               <p>
                 • Hurry! The train leaves{" "}
-                <span className="bold">in five minutes.</span>
+                <span className="font-bold">in five minutes.</span>
               </p>
               <p>
-                • Bye! I'll see you <span className="bold">in a few days</span>.
+                • Bye! I'll see you <span className="font-bold">in a few days</span>.
               </p>
               <p>
-                • I'll talk to you <span className="bold">in three weeks</span>.
+                • I'll talk to you <span className="font-bold">in three weeks</span>.
               </p>
             </div>
               <p>
-                <span className="bold">
+                <span className="font-bold">
                   More specific. "in a few day's time
                 </span>{" "}
                 / in a year's time.
               </p>
             <p>
               • Presidential elections will be held{" "}
-              <span className="bold">in ten days' time</span>.{" "}
+              <span className="font-bold">in ten days' time</span>.{" "}
               <span className="portuguese">
                 As eleições presidenciais serão realizadas em dez dias.
               </span>

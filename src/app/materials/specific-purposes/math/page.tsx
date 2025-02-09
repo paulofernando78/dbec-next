@@ -21,13 +21,13 @@ export default function Math() {
         <BoardCard label="LCM and GCD" bgColor="black" textColor="white">
           <div className="line-break">
             <div className="line-break">
-              <p className="bold">LCM (Least Common Multiple )</p>
+              <p className="font-bold">LCM (Least Common Multiple )</p>
               <div>
                 <p>...</p>
               </div>
             </div>
             <div className="line-break">
-              <p className="bold">
+              <p className="font-bold">
                 LCM (Greatest Common Divisor), also HCF (Highest Common Factor)
               </p>
               <div>
@@ -37,7 +37,7 @@ export default function Math() {
           </div>
         </BoardCard>
         <BoardCard label="Prime Numbers" bgColor="black" textColor="white">
-          <p className="bold">What are the prime numbers?</p>
+          <p className="font-bold">What are the prime numbers?</p>
           <div>
             <p>
               Prime numbers are natural numbers greater than 1 that have no

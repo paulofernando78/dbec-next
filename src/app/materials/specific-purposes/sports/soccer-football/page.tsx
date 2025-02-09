@@ -11,14 +11,14 @@ export default function SoocerFootball() {
       />
       <div className="line-break">
         <div>
-          <p className="bold">Brazilian ...</p>
+          <p className="font-bold">Brazilian ...</p>
         </div>
         <div className="line-break">
-          <p className="bold">
+          <p className="font-bold">
             The Union European Football Associations (UEFA)
           </p>
           <div className="line-break">
-            <p className="bold">Countries</p>
+            <p className="font-bold">Countries</p>
             <p>Albania</p>
             <p>Andorra</p>
             <p>Armenia</p>
@@ -38,20 +38,20 @@ export default function SoocerFootball() {
             <p>Finland</p>
             <p>France</p>
             <p>Georgia</p>
-              <p className="bold">Germany (13 clubs)</p>
-              <p>Bayer</p>
-              <p>Dortmund</p>
-              <p>Leipzig</p>
-              <p>Leverkusen</p>
-              <p>Schalke</p>
-              <p>Mönchengladbach</p>
-              <p>Eintracht Frankfurt</p>
-              <p>Hoffenheim</p>
-              <p>Wolfsburg</p>
-              <p>Hertha</p>
-              <p>Köin</p>
-              <p>Freiburg</p>
-              <p>Mainz</p>
+            <p className="font-bold">Germany (13 clubs)</p>
+            <p>Bayer</p>
+            <p>Dortmund</p>
+            <p>Leipzig</p>
+            <p>Leverkusen</p>
+            <p>Schalke</p>
+            <p>Mönchengladbach</p>
+            <p>Eintracht Frankfurt</p>
+            <p>Hoffenheim</p>
+            <p>Wolfsburg</p>
+            <p>Hertha</p>
+            <p>Köin</p>
+            <p>Freiburg</p>
+            <p>Mainz</p>
             <p>Gibraltar</p>
             <p>Greece</p>
             <p>Hungary</p>

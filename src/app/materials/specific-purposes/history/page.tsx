@@ -8,18 +8,18 @@ export default function History() {
       <div className="line-break">
         <div className="line-break">
           <div className="line-break">
-            <p className="bold">Mythology</p>
+            <p className="font-bold">Mythology</p>
             <div>
-              <p className="bold">Greek</p>
+              <p className="font-bold">Greek</p>
               <p>Chimera</p>
               <p>Phoenix</p>
             </div>
             <div>
-              <p className="bold">Egyption</p>
+              <p className="font-bold">Egyption</p>
               <p>...</p>
             </div>
           </div>
-          <p className="bold">World War II</p>
+          <p className="font-bold">World War II</p>
           <p>Unit 731</p>
           <div>
             <p>

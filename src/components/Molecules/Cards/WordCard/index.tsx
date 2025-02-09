@@ -112,13 +112,13 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
 
                 {/* Line-break to all */}
                 <div className="line-break">
-
                   {/* Definitions */}
-                    <div className={styles["border-left"]}>
-                      <p className="bold">Definition</p>
-                      <ul>
-                        <li>
-                          {definition.enDefinition && <div className={styles["audio-container"]}>
+                  <div className={styles["border-left"]}>
+                    <p className="font-bold">Definition</p>
+                    <ul>
+                      <li>
+                        {definition.enDefinition && (
+                          <div className={styles["audio-container"]}>
                             {loadingAudios[`enDefinition-${index}`] ? (
                               <LoadingAnimation />
                             ) : playingAudios[`enDefinition-${index}`] ? (
@@ -153,19 +153,20 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                                 }}
                               />
                             )}
-                          </div>}
-                          
-                              <li className="display-inline">
-                                {definition.enDefinition}{" "}
-                                {definition.ptDefinition && <span className="portuguese">
-                                  {definition.ptDefinition}
-                                </span>}
-                              </li>
-                            
+                          </div>
+                        )}
+
+                        <li className="display-inline">
+                          {definition.enDefinition}{" "}
+                          {definition.ptDefinition && (
+                            <span className="portuguese">
+                              {definition.ptDefinition}
+                            </span>
+                          )}
                         </li>
-                      </ul>
-                    </div>
-                  
+                      </li>
+                    </ul>
+                  </div>
 
                   {/* Examples */}
                   {definition.examples &&
@@ -173,7 +174,7 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                       (example) => example.enExample
                     ) && (
                       <div className={styles["border-left"]}>
-                        <p className="bold">Example</p>
+                        <p className="font-bold">Example</p>
                         {definition.examples.map(
                           (example, exampleIndex) =>
                             example.enExample && (
@@ -240,7 +241,7 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                   {/* Synonyms */}
                   {definition.synonyms && definition.synonyms.length > 0 && (
                     <div className={styles["border-left"]}>
-                      <p className="bold">Synonyms</p>
+                      <p className="font-bold">Synonyms</p>
                       <ul>
                         {definition.synonyms?.map((synonym, synonymIndex) => (
                           <li
@@ -260,7 +261,7 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                   {/* Antonyms */}
                   {definition.antonyms && (
                     <div className={styles["border-left"]}>
-                      <p className="bold">Antonyms</p>
+                      <p className="font-bold">Antonyms</p>
                       <ul>
                         {definition.antonyms?.map((antonym, antonymIndex) => (
                           <li
@@ -280,7 +281,7 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                   {/* Notes */}
                   {definition.notes?.map((note, noteIndex) => (
                     <div className={styles["border-left"]} key={noteIndex}>
-                      <p className="bold">Note</p>
+                      <p className="font-bold">Note</p>
                       <p>
                         {note.enNote && <span>{note.enNote}</span>}{" "}
                         {note.ptNote && (

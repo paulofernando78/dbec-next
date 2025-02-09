@@ -364,8 +364,8 @@ const prompts = [
 export default function HowYouFeeling() {
   return (
     <>
-    <p className="bold">How are you feeling today? I'm...</p>
-    <p >Some adjectives to describe how you're feeling.</p>
+      <p className="font-bold">How are you feeling today? I'm...</p>
+      <p>Some adjectives to describe how you're feeling.</p>
       <div className={styles["emoji-container"]}>
         {emojis.map((emoji, emojiIndex) => (
           <div
@@ -394,7 +394,7 @@ export default function HowYouFeeling() {
               key={promptIndex}
               className={`line-break ${styles["prompt-inner-container"]}`}
             >
-              <p className="bold">{prompt.category}</p>
+              <p className="font-bold">{prompt.category}</p>
               <div>
                 {prompt.phrases.map((phrase, phraseIndex) => (
                   <p key={phraseIndex}>{phrase.phrase}</p>
@@ -404,7 +404,6 @@ export default function HowYouFeeling() {
           ))}
         </div>
       </div>
-      
     </>
   );
 }

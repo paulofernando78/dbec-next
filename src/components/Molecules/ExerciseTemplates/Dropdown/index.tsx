@@ -65,7 +65,9 @@ export const Dropdown: React.FC<DropdownProps> = ({ questions }) => {
                 <div
                   className={`margin-bottom ${index > 0 ? "margin-top" : ""}`}
                 >
-                  {question.title && <p className="bold">{question.title}</p>}
+                  {question.title && (
+                    <p className="font-bold">{question.title}</p>
+                  )}
                   {question.subtitle && <p>{question.subtitle}</p>}{" "}
                 </div>
               )}

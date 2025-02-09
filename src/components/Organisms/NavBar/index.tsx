@@ -275,7 +275,7 @@ export const NavBar = ({ show, toggleShow }: NavBarProps) => {
         <div className="line-break">
           {navBarLinks.map((navBarLink, index) => (
             <div key={index} className="line-break">
-              <p className="bold">{navBarLink.label}</p>
+              <p className="font-bold">{navBarLink.label}</p>
               <div>
                 {navBarLink.links.map((link, linkIndex) => (
                   <div key={linkIndex} className={styles["nav-list"]}>

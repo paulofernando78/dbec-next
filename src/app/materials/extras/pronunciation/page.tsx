@@ -6,7 +6,6 @@ import { DictionaryCard } from "@/components";
 import { ScrollToTop } from "@/components/Atoms/ScrollToTop";
 import { Card } from "@/components";
 
-
 const links = [
   {
     subDescriptions: [
@@ -217,7 +216,7 @@ const PronunciationLinks = [
     letter: 'Letters "y"',
     phonetics: "/i/, /j/, /aɪ/",
   },
-]
+];
 
 export default function ExtraPronunciation() {
   return (
@@ -227,11 +226,11 @@ export default function ExtraPronunciation() {
         subtitle="Pronunciation"
         descriptions={["For Brazilian students"]}
       />
-      <DescriptionCard descriptions={links}/>
+      <DescriptionCard descriptions={links} />
       <div className="line-break margin-top">
-          <p className="bold">Sounds of Letters</p>
+        <p className="font-bold">Sounds of Letters</p>
 
-        <p className="bold">jump to:</p>
+        <p className="font-bold">jump to:</p>
 
         {/* Links */}
         <div>
@@ -255,9 +254,7 @@ export default function ExtraPronunciation() {
 
         <hr />
 
-       
-
-          <p className="bold">Comparisons</p>
+        <p className="font-bold">Comparisons</p>
         <div className="flex-8px-center-wrap">
           <DictionaryCard
             audioSrc="/s/seat.mp3"
@@ -277,7 +274,7 @@ export default function ExtraPronunciation() {
         <span className="line-break"></span>
 
         <span id="linked-sounds">
-            <p className="bold">Linked sound examples</p>
+          <p className="font-bold">Linked sound examples</p>
         </span>
         <p>
           <b>consonant + vowel</b>
@@ -298,7 +295,7 @@ export default function ExtraPronunciation() {
           </p>
         </div>
         <div className="line-break">
-          <p className="bold">
+          <p className="font-bold">
             S + Y <span className="phonetics">/tʃ/, /ʒ/</span>
           </p>
           <p className="phonetics">/tʃ/</p>
@@ -310,7 +307,7 @@ export default function ExtraPronunciation() {
           </div>
         </div>
         <div>
-          <p className="bold">
+          <p className="font-bold">
             T + Y <span className="phonetics">/tʃ/</span>
           </p>
           <p>Don't you want it?</p>

@@ -130,14 +130,6 @@ p {
   font-style: italic;
 }
 
-.justify {
-  text-align: justify;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
 .portuguese {
   color: rgba(128, 128, 128, 0.75);
 }

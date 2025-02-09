@@ -45,14 +45,14 @@ export const SignIn = ({ handleFlip }: SignInProps) => {
         handleSubmit();
       }}
     >
-      <p className="bold">Username</p>
+      <p className="font-bold">Username</p>
       <input
         type="text"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
         required
       ></input>
-      <p className="bold">Password</p>
+      <p className="font-bold">Password</p>
       <input
         type="password"
         className="p-font auth-container-password"
@@ -65,7 +65,10 @@ export const SignIn = ({ handleFlip }: SignInProps) => {
 
       <Button label="Sign in / Log in" type="submit" onClick={handleSubmit} />
       <p className="p-size-small">
-        Not a member? <span onClick={handleFlip} className="cursor-pointer">Sign up</span>
+        Not a member?{" "}
+        <span onClick={handleFlip} className="cursor-pointer">
+          Sign up
+        </span>
       </p>
     </form>
   );
