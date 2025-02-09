@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Button, SignIn, SignUp } from "@/components/index";
+import { Button, SignIn } from "@/components/index";
 import Image from "next/image";
 import {
   ukUSflag,
@@ -18,6 +18,7 @@ import {
 import "./global.css";
 import { IconLink } from "@/components/Molecules/IconLink";
 import styles from "./styles.module.css";
+import SignUp from "@/components/Organisms/SignUp";
 
 const iconLink = [
   {
