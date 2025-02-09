@@ -1,17 +1,10 @@
-import { AudioPlayer } from "@/components";
-import { DictionaryCard } from "@components/Molecules/Cards/DictionaryCard";
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
+import { Whiteboard } from "@/components/index";
 
 export default function Aviation() {
   return (
     <>
       <Whiteboard title="Specific Purposes" subtitle="Aviation" />
       <div className="line-break">
-        <DictionaryCard
-          word="pneumatic boots"
-          audioSrc="/p/pneumatic-boots.mp3"
-        />
-        <AudioPlayer audioSrc="" />
         <p className="font-bold">How do pneumatic boots work in aviation?</p>
         <p>
           During expansion, the boots are inflated by pneumatic pressure that
