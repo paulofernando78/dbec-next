@@ -1,6 +1,5 @@
 import { useState } from "react";
-import { Button } from "@/components/Atoms/Button";
-import styles from "./styles.module.css";
+import { Button } from "@components/index"
 import "./type";
 
 export const SignUp = ({ handleFlip }: SignUpProps) => {
