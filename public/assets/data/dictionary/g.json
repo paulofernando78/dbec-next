@@ -2,6 +2,35 @@
   {
     "definitions": [
       {
+        "word": "go cold turkey",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to suddenly and completely stop using an addictive substance or engaging in a habitual behavior",
+        "ptDefinition": "parar abruptamente e completamente de usar uma substância viciante ou um comportamento habitual",
+        "examples": [
+          {
+            "enExample": "He decided to go cold turkey and quit smoking immediately.",
+            "ptExample": "Ele decidiu parar de uma vez e deixou de fumar imediatamente."
+          },
+          {
+            "enExample": "Going cold turkey on caffeine can cause withdrawal headaches.",
+            "ptExample": "Parar de consumir cafeína abruptamente pode causar dores de cabeça."
+          }
+        ],
+        "synonyms": ["quit abruptly", "stop suddenly", "withdraw completely"],
+        "antonyms": ["wean off", "gradually reduce", "taper off"],
+        "seeAlso": ["withdrawal", "addiction", "quit"],
+        "notes": [
+          {
+            "enNote": "This phrase originated in the early 20th century, possibly referring to the cold, clammy skin during drug withdrawal.",
+            "ptNote": "Esta frase originou-se no início do século XX, possivelmente referindo-se à pele fria e úmida durante a abstinência de drogas."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "go on about",
         "partOfSpeech": "phrasal verb",
         "phonetics": "/ɡoʊ ɑn əˈbaʊt/",

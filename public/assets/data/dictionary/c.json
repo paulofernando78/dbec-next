@@ -2,6 +2,126 @@
   {
     "definitions": [
       {
+        "word": "clock in",
+        "phonetics": "/klɑk ɪn/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to record or register one's arrival time at work, typically by using a time clock or similar system",
+        "ptDefinition": "registrar o horário de chegada no trabalho, geralmente usando um relógio de ponto ou sistema similar",
+        "examples": [
+          {
+            "enExample": "I have to clock in by 9 AM every morning.",
+            "ptExample": "Eu tenho que bater o ponto às 9h todas as manhãs."
+          },
+          {
+            "enExample": "The employees are required to clock in when they arrive at work.", 
+            "ptExample": "Os funcionários são obrigados a registrar a entrada quando chegam ao trabalho."
+          }
+        ],
+        "synonyms": ["punch in", "sign in", "check in"],
+        "antonyms": ["clock out", "punch out", "sign out"],
+        "seeAlso": ["time card", "attendance"],
+        "notes": [
+          {
+            "enNote": "This phrase is commonly used in workplace contexts to describe the formal recording of work hours.",
+            "ptNote": "Esta frase é comumente usada em contextos de trabalho para descrever o registro formal das horas trabalhadas."
+          }
+        ]
+            }
+          ]
+        },
+  {
+    "definitions": [
+      {
+        "word": "clock up",
+        "phonetics": "/klɑk ʌp/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to gradually accumulate or achieve an amount of something over time",
+        "ptDefinition": "acumular ou atingir gradualmente uma quantidade de algo ao longo do tempo",
+        "examples": [
+          {
+            "enExample": "He has clocked up over 20 years of experience in the industry.",
+            "ptExample": "Ele acumulou mais de 20 anos de experiência na indústria."
+          },
+          {
+            "enExample": "The car has clocked up 100,000 miles.",
+            "ptExample": "O carro acumulou 100.000 milhas."
+          }
+        ],
+        "synonyms": ["accumulate", "amass", "build up"],
+        "antonyms": ["reduce", "decrease"],
+        "seeAlso": ["rack up", "pile up"],
+        "notes": [
+          {
+            "enNote": "Often used when talking about time, distance, or achievements accumulated over a period.",
+            "ptNote": "Frequentemente usado ao falar sobre tempo, distância ou conquistas acumuladas ao longo de um período."
+          }
+        ]
+            }
+          ]
+        },
+  {
+    "definitions": [
+      {
+        "word": "clockwise",
+        "phonetics": "/ˈklɒkwaɪz/",
+        "partOfSpeech": "adjective/adverb",
+        "enDefinition": "moving in the same direction as the hands of a clock",
+        "ptDefinition": "no sentido dos ponteiros do relógio",
+        "examples": [
+          {
+            "enExample": "Turn the lid clockwise to tighten it.",
+            "ptExample": "Gire a tampa no sentido horário para apertá-la."
+          },
+          {
+            "enExample": "The carousel rotates in a clockwise direction.",
+            "ptExample": "O carrossel gira no sentido horário."
+          }
+        ],
+        "synonyms": ["dextrorotary", "dextrorotatory"],
+        "antonyms": ["counterclockwise", "anticlockwise"],
+        "seeAlso": ["rotation", "direction"],
+        "notes": [
+          {
+            "enNote": "Often used in instructions and technical descriptions to specify direction of rotation.",
+            "ptNote": "Frequentemente usado em instruções e descrições técnicas para especificar direção de rotação."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "convolute",
+        "phonetics": "/kənˈvɑːluːt/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to make something complex and difficult to follow",
+        "ptDefinition": "tornar algo complexo e difícil de entender",
+        "examples": [
+          {
+            "enExample": "The writer convoluted the plot with too many characters and subplots.",
+            "ptExample": "O escritor complicou o enredo com muitos personagens e subtramas."
+          },
+          {
+            "enExample": "Don't convolute the instructions - keep them simple and clear.",
+            "ptExample": "Não complique as instruções - mantenha-as simples e claras."
+          }
+        ],
+        "synonyms": ["complicate", "confuse", "entangle", "perplex"],
+        "antonyms": ["simplify", "clarify", "streamline"],
+        "seeAlso": ["complex", "intricate"],
+        "notes": [
+          {
+            "enNote": "Often used to describe making something unnecessarily complicated or difficult to understand.",
+            "ptNote": "Frequentemente usado para descrever algo que foi tornado desnecessariamente complicado ou difícil de entender."
+          }
+        ]
+            }
+          ]
+        },
+  {
+    "definitions": [
+      {
         "word": "character",
         "phonetics": "/ˈkærɪktɚ/",
         "partOfSpeech": "noun",

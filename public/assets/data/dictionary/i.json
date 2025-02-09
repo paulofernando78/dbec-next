@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "insidious",
+        "phonetics": "/ɪnˈsɪdiəs/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "proceeding in a gradual, subtle way, but with harmful effects",
+        "ptDefinition": "que progride de maneira gradual e sutil, mas com efeitos prejudiciais",
+        "examples": [
+          {
+            "enExample": "The insidious effects of smoking damaged his health over many years.",
+            "ptExample": "Os efeitos insidiosos do tabagismo prejudicaram sua saúde ao longo de muitos anos."
+          },
+          {
+            "enExample": "The disease progressed in an insidious manner, showing few early symptoms.",
+            "ptExample": "A doença progrediu de maneira insidiosa, mostrando poucos sintomas iniciais."
+          }
+        ],
+        "synonyms": ["treacherous", "sneaky", "subtle", "harmful"],
+        "antonyms": ["obvious", "apparent", "harmless"],
+        "seeAlso": "subtle",
+        "notes": [
+          {
+            "enNote": "Often used to describe harmful things that develop so gradually that they are not noticed until it's too late.",
+            "ptNote": "Frequentemente usado para descrever coisas prejudiciais que se desenvolvem tão gradualmente que não são notadas até ser tarde demais."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "I can't believe my ears!",
         "partOfSpeech": "phrase",
         "enDefinition": "used to express great surprise or disbelief at something heard",

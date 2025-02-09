@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "dire",
+        "phonetics": "/daɪər/",
+        "partOfSpeech": "adjective",
+        "enDefinition": "extremely serious or urgent; causing great fear or suffering",
+        "ptDefinition": "terrível, grave, urgente; que causa muito medo ou sofrimento",
+        "examples": [
+          {
+            "enExample": "The country is in dire need of medical supplies.",
+            "ptExample": "O país está em necessidade urgente de suprimentos médicos."
+          },
+          {
+            "enExample": "The economic situation has become dire.",
+            "ptExample": "A situação econômica tornou-se grave."
+          }
+        ],
+        "synonyms": ["desperate", "critical", "severe", "extreme"],
+        "antonyms": ["mild", "trivial", "insignificant"],
+        "seeAlso": ["serious", "urgent"],
+        "notes": [
+          {
+            "enNote": "Often used to emphasize the extreme seriousness of a situation",
+            "ptNote": "Frequentemente usado para enfatizar a extrema gravidade de uma situação"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "Dream on!",
         "phonetics": "",
         "partOfSpeech": "idiom",

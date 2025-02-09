@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -18,12 +22,23 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"],
-      "@/img/*": ["./public/assets/img/*"],
-      "@/audio/*": ["./public/assets/audio/*"],
-      "@components/*": ["./src/components/*"],
-      "@/types/*": ["./src/types/*"]
-    }
+      "@/*": [
+        "./src/*"
+      ],
+      "@/img/*": [
+        "./public/assets/img/*"
+      ],
+      "@/audio/*": [
+        "./public/assets/audio/*"
+      ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@/types/*": [
+        "./src/types/*"
+      ]
+    },
+    "target": "ES2017"
   },
   "include": [
     "next-env.d.ts",
@@ -33,5 +48,7 @@
     "src/app/materials/courses/placement-test/page.tsx",
     "src/components/Molecules/Paragraph/types.ts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }

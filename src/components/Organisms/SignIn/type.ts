@@ -1,3 +1,3 @@
-interface SignUpProps {
+interface SignInProps {
   handleFlip: () => void;
 }

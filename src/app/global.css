@@ -1,0 +1,206 @@
+@import url('../styles/reset.css');
+@import url('../styles/utilities.css');
+@import url('../styles/components.css');
+
+/* Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+  scrollbar-gutter: stable;
+  --p-size: 1.2rem;
+  --img-border: 5px solid rgba(211, 211, 211, 0.233);
+  --box-shadow: 0 0 5px 0.5px #999;
+  --border-radius: 5px;
+  --padding: 2px 7px;
+  --beginner: #fcc418;
+  --elementary: #ec3b3b;
+  --pre-intermediate: #1f8feb;
+  --intermediate: #81c221;
+  --upper-intermediate: #9b59b6;
+  --advanced: #8e44ad;
+  --isActive: #f77d7a;
+}
+
+::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(10, 10%, 90%);
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(10, 5%, 70%);
+  border-radius: 100vw;
+  border: 0.1rem solid hsl(10, 10%, 90%);
+}
+
+body {
+  max-width: 1050px;
+  margin: 0 auto;
+  /* user-select: none; */
+}
+
+main {
+  padding: 10px;
+}
+
+li {
+  font-size: var(--p-size);
+}
+
+hr {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.margin-top {
+  margin-top: 50px;
+}
+
+.dbec {
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 1.32rem;
+}
+
+.uk-us-flag {
+  width: 300px;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.how-you-doing {
+  width: 100px;
+  height: 100px;
+  margin: 0 37px 0 0px;
+}
+
+.me-computer {
+  width: 230px;
+  height: 230px;
+  margin-bottom: 20px;
+}
+
+.icons {
+  width: 80px;
+  height: auto;
+}
+
+.cards {
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  padding: 10px;
+}
+
+/* TIPOGRAPHY */
+
+h1 {
+  font-size: 2.3rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: var(--p-size);
+}
+
+.p-font {
+  font-size: var(--p-size);
+  display: block;
+}
+
+.p-size-small {
+  font-size: 0.9rem;
+}
+
+.p-size-smaller {
+  font-size: 0.7rem;
+}
+
+.times-new-roman-dictionary {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.portuguese {
+  color: rgba(128, 128, 128, 0.75);
+}
+
+.phonetics {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  color: #00a2ff;
+}
+
+/* COLORS */
+
+.yellow-highlight {
+  background-color: yellow;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.red {
+  color: red;
+}
+
+.blue {
+  color: #00a2ff;
+}
+
+.beginner {
+  color: var(--beginner);
+}
+
+.elementary {
+  color: var(--elementary);
+}
+
+.pre-intermediate {
+  color: var(--pre-intermediate);
+}
+
+.intermediate {
+  color: var(--intermediate);
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-lightgrey {
+  background-color: lightgrey;
+}
+
+@media (width < 768px) {
+  .cards {
+    width: 300px;
+    margin: 0 auto;
+  }
+}

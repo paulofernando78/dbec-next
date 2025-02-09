@@ -2,6 +2,32 @@
   {
     "definitions": [
       {
+        "word": "enthrall",
+        "phonetics": "/ɪnˈθrɔːl/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to capture the fascinated attention of someone; to charm or captivate completely",
+        "ptDefinition": "cativar ou fascinar completamente; encantar",
+        "examples": [
+          {
+            "enExample": "The storyteller's tales enthralled the children.",
+            "ptExample": "As histórias do contador encantaram as crianças."
+          }
+        ],
+        "synonyms": ["captivate", "fascinate", "spellbind", "enchant"],
+        "antonyms": ["bore", "repel", "disinterest"],
+        "seeAlso": ["charm", "mesmerize"],
+        "notes": [
+          {
+            "enNote": "Often used to describe a state of being completely absorbed or captivated by something.",
+            "ptNote": "Frequentemente usado para descrever um estado de estar completamente absorto ou cativado por algo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "every time I turn around",
         "partOfSpeech": "idiom",
         "enDefinition": "used to describe something that happens very frequently or constantly",
@@ -9,11 +35,11 @@
         "examples": [
           {
             "enExample": "Every time I turn around, there's another problem to solve.",
-            "ptExample": "Toda vez que eu me viro, há outro problema para resolver."
+            "ptExample": "Mal resolvo um problema, já aparece outro."
           },
           {
             "enExample": "Every time I turn around, my kids are asking for something new.",
-            "ptExample": "Toda vez que eu me viro, meus filhos estão pedindo algo novo."
+            "ptExample": "Mal me viro e meus filhos já estão pedindo algo novo."
           }
         ],
         "synonyms": ["constantly", "frequently", "repeatedly"],

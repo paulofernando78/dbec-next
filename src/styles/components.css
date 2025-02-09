@@ -1,3 +1,29 @@
+.auth-container {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 8px;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  background: white;
+  padding: 10px;
+}
+
+.auth-container-password {
+  border: 1px solid lightgrey;
+  border-radius: var(--border-radius);
+  height: 32px;
+}
+
+.card-box {
+  padding: 20px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  background-color: white;
+}
+
 /* Radio / Checkbox */
 .radio-checkbox-container {
   position: relative;

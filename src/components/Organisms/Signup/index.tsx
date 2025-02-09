@@ -1,17 +1,15 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Button } from "@/components/Atoms/Button";
-import Link from "next/link";
 import styles from "./styles.module.css";
 import "./type";
 
-export const SignUp = () => {
-  const [closing, setClosing] = useState(false);
-  const [email, setEmail] = useState("");
+export const SignUp = ({ handleFlip }: SignUpProps) => {
+  const [username, setusername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  const handleLogin = async () => {
-    if (!email || !password) {
+  const handleSubmit = async () => {
+    if (!username || !password) {
       alert("Please, fill out the fields.");
       return;
     }
@@ -22,7 +20,7 @@ export const SignUp = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ username: email, password }),
+        body: JSON.stringify({ username: username, password }),
       });
 
       const data = await res.json();
@@ -41,31 +39,34 @@ export const SignUp = () => {
 
   return (
     <form
-      className={styles["signin-container"]}
+      className="auth-container"
       onSubmit={(e) => {
-      e.preventDefault();
-      handleLogin();
+        e.preventDefault();
+        handleSubmit();
       }}
     >
-      <p className="bold">Email</p>
+      <p className="bold">Username</p>
       <input
-      type="text"
-      value={email}
-      onChange={(e) => setEmail(e.target.value)}
+        type="text"
+        value={username}
+        onChange={(e) => setusername(e.target.value)}
       ></input>
       <p className="bold">Password</p>
       <input
-      type="password"
-      className={`p-font ${styles["password"]}`}
-      value={password}
-      onChange={(e) => setPassword(e.target.value)}
+        type="password"
+        className="p-font auth-container-password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
       ></input>
 
       {error && <p style={{ color: "red" }}>{error}</p>}
 
-      <Button label="Sign Up" type="submit" onClick={handleLogin} />
+      <Button label="Sign Up" type="submit" onClick={handleSubmit} />
       <p className="p-size-small">
-      Already a member? <Link href="/signup">Log in</Link>
+        Already a member?{" "}
+        <span onClick={handleFlip} className="cursor-pointer">
+          Sign in / Log in
+        </span>
       </p>
     </form>
   );

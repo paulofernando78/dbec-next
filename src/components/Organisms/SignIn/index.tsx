@@ -1,16 +1,15 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Button } from "@/components/Atoms/Button";
-import Link from "next/link";
 import styles from "./styles.module.css";
 import "./type";
 
-export const Login = () => {
-  const [email, setEmail] = useState("");
+export const SignIn = ({ handleFlip }: SignInProps) => {
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  const handleLogin = async () => {
-    if (!email || !password) {
+  const handleSubmit = async () => {
+    if (!username || !password) {
       alert("Please, fill out the fields.");
       return;
     }
@@ -21,7 +20,7 @@ export const Login = () => {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ username: email, password }),
+        body: JSON.stringify({ username: username, password }),
       });
 
       const data = await res.json();
@@ -40,33 +39,33 @@ export const Login = () => {
 
   return (
     <form
-      className={styles["login-container"]}
+      className="auth-container"
       onSubmit={(e) => {
-      e.preventDefault();
-      handleLogin();
+        e.preventDefault();
+        handleSubmit();
       }}
     >
-      <p className="bold">Email</p>
+      <p className="bold">Username</p>
       <input
-      type="text"
-      value={email}
-      onChange={(e) => setEmail(e.target.value)}
-      required
+        type="text"
+        value={username}
+        onChange={(e) => setUsername(e.target.value)}
+        required
       ></input>
       <p className="bold">Password</p>
       <input
-      type="password"
-      className={`p-font ${styles["password"]}`}
-      value={password}
-      onChange={(e) => setPassword(e.target.value)}
-      required
+        type="password"
+        className="p-font auth-container-password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+        required
       ></input>
 
       {error && <p style={{ color: "red" }}>{error}</p>}
 
-      <Button label="Login" type="submit" onClick={handleLogin}/>
+      <Button label="Sign in / Log in" type="submit" onClick={handleSubmit} />
       <p className="p-size-small">
-      Not a member? <Link href="/signup">Sign up</Link>
+        Not a member? <span onClick={handleFlip} className="cursor-pointer">Sign up</span>
       </p>
     </form>
   );
