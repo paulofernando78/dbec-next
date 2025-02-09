@@ -1,8 +1,10 @@
+"use client"
+
 import { useState } from "react";
 import { Button } from "@components/index"
 import "./type";
 
-export const SignUp = ({ handleFlip }: SignUpProps) => {
+export const SignUp = ({ handleFlipAction }: SignUpProps) => {
   const [username, setusername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -63,7 +65,7 @@ export const SignUp = ({ handleFlip }: SignUpProps) => {
       <Button label="Sign Up" type="submit" onClick={handleSubmit} />
       <p className="p-size-small">
         Already a member?{" "}
-        <span onClick={handleFlip} className="cursor-pointer">
+        <span onClick={handleFlipAction} className="cursor-pointer">
           Sign in / Log in
         </span>
       </p>

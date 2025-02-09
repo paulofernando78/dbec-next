@@ -1,3 +1,3 @@
 interface SignInProps {
-  handleFlip: () => void;
+  handleFlipAction: () => void;
 }

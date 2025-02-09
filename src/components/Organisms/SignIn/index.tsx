@@ -1,9 +1,10 @@
+"use client"
+
 import { useState } from "react";
 import { Button } from "@/components/Atoms/Button";
-import styles from "./styles.module.css";
 import "./type";
 
-export const SignIn = ({ handleFlip }: SignInProps) => {
+export const SignIn = ({ handleFlipAction }: SignInProps) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -66,7 +67,7 @@ export const SignIn = ({ handleFlip }: SignInProps) => {
       <Button label="Sign in / Log in" type="submit" onClick={handleSubmit} />
       <p className="p-size-small">
         Not a member?{" "}
-        <span onClick={handleFlip} className="cursor-pointer">
+        <span onClick={handleFlipAction} className="cursor-pointer">
           Sign up
         </span>
       </p>

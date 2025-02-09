@@ -73,11 +73,11 @@ export default function Home() {
         <div className={styles["wrapper-student-access"]}>
           {isFlipped ? (
             <div className={styles["sign-in-container"]}>
-              <SignIn handleFlip={handleFlip} />
+              <SignIn handleFlipAction={handleFlip} />
             </div>
           ) : (
             <div className={styles["sign-up-container"]}>
-              <SignUp handleFlip={handleFlip} />
+              <SignUp handleFlipAction={handleFlip} />
             </div>
           )}
         </div>
