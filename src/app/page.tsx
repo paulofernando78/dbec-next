@@ -18,7 +18,6 @@ import {
 import "./global.css";
 import { IconLink } from "@/components/Molecules/IconLink";
 import styles from "./styles.module.css";
-import SignUp from "@/components/Organisms/SignUp";
 
 const iconLink = [
   {
@@ -78,7 +77,7 @@ export default function Home() {
             </div>
           ) : (
             <div className={styles["sign-up-container"]}>
-              <SignUp handleFlipAction={handleFlip} />
+              {/* <SignUp handleFlipAction={handleFlip} /> */}
             </div>
           )}
         </div>
