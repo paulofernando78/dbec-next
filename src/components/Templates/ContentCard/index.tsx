@@ -40,7 +40,7 @@ export const ContentCard = ({ contentData }: ContentCardProps) => {
               </div>
             )}
             {/* Render CardContents */}
-            {content.cardContents.map((cardContent, cardContentIndex) => (
+            {content.cardContents?.map((cardContent, cardContentIndex) => (
               <CardContentRenderer
                 key={cardContentIndex}
                 cardContent={cardContent}

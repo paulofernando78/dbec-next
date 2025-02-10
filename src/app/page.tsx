@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Button, SignIn } from "@/components/index";
+import { Button, SignIn, SignUp } from "@/components/index";
 import Image from "next/image";
 import {
   ukUSflag,
@@ -9,42 +9,54 @@ import {
   groupIcon,
   clockIcon,
   laptopComputerIcon,
-  sampleIcon,
   infoIcon,
   moneyIcon,
   emailIcon,
   whatsappIcon,
 } from "@/img/index";
 import "./global.css";
-import { IconLink } from "@/components/Molecules/IconLink";
+import { IconContent } from "@/components/Molecules/IconContent";
 import styles from "./styles.module.css";
 
-const iconLink = [
+const iconContent = [
   {
-    imgSrc: sampleIcon,
-    imgAlt: "Sample Icon",
+    imgSrc: groupIcon,
+    imgAlt: "Group Icon",
+    content: "Aula individual ou em grupo."
+  },
+  {
+    imgSrc: laptopComputerIcon,
+    imgAlt: "Group Icon",
+    content: "Material como áudios, vídeos e exercícios online.",
     link: "/amostra",
-    linkLabel: "Amostra (Sample)",
+    linkLabel: "Clique aqui (Amostra)",
+  },
+  {
+    imgSrc: clockIcon,
+    imgAlt: "Group Icon",
+    content: "Aulas de 50 minutes ou mais conforme a disponibilidade do aluno e do professor.",
+    link: "https://calendar.google.com/calendar/u/0?cid=cGF1bG9mZXJuYW5kbzc4QGdtYWlsLmNvbQ",
+    linkLabel: "Clique aqui",
   },
   {
     imgSrc: infoIcon,
     imgAlt: "Info Icon",
     link: "/sobre",
-    linkLabel: "Sobre (About)",
+    linkLabel: "Sobre",
   },
   {
     imgSrc: moneyIcon,
     imgAlt: "Money Icon",
     link: "/preco",
-    linkLabel: "Preço (Pricing)",
+    linkLabel: "Preço",
   },
 ];
 
-const iconLinkContact = [
+const iconContentContact = [
   {
     imgSrc: emailIcon,
     imgAlt: "Email Icon",
-    link: "",
+    link: "mailto:paulofernando78@gmail.com",
     linkLabel: "paulofernando78@gmail.com",
   },
   {
@@ -56,7 +68,7 @@ const iconLinkContact = [
 ];
 
 export default function Home() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const [isFlipped, setIsFlipped] = useState(true);
 
   const handleFlip = () => {
@@ -66,10 +78,10 @@ export default function Home() {
   return (
     <div>
       <div className={styles["page-container"]}>
-        <Button label="Student Access" onClick={() => setIsOpen(true)} />
+        <Button label="Student Access" onClick={() => setIsModalOpen(true)} />
       </div>
 
-      {isOpen && (
+      {isModalOpen && (
         <div className={styles["wrapper-student-access"]}>
           {isFlipped ? (
             <div className={styles["sign-in-container"]}>
@@ -77,7 +89,7 @@ export default function Home() {
             </div>
           ) : (
             <div className={styles["sign-up-container"]}>
-              {/* <SignUp handleFlipAction={handleFlip} /> */}
+              <SignUp handleFlipAction={handleFlip} />
             </div>
           )}
         </div>
@@ -108,36 +120,15 @@ export default function Home() {
             <span className="font-bold">Reading</span> (Leitura) e{" "}
             <span className="font-bold">Writing</span> (Escrita).
           </p>
-          <div className="grid-3fr-8px">
-            <div className="flex-col-8px-center cards">
-              <Image src={groupIcon} alt="Icon of a group" className="icons" />
-              <p>Aula individual ou em grupo.</p>
-            </div>
-            <div className="flex-col-8px-center cards">
-              <Image src={clockIcon} alt="Icon of a clock" className="icons" />
-              <p>
-                Aulas de 50 minutes ou mais conforme a disponibilidade do aluno
-                e do professor.
-              </p>
-            </div>
-            <div className="flex-col-8px-center cards">
-              <Image
-                src={laptopComputerIcon}
-                alt="Icon of a laptop computer"
-                className="icons"
-              />
-              <p>Material como áudios, vídeos e exercícios online.</p>
-            </div>
-          </div>
           <div>
-            <IconLink iconLinks={iconLink} />
+            <IconContent iconContents={iconContent} />
           </div>
           <div>
             <p className="font-bold" id="contact-me">
               Contato
             </p>
             <div>
-              <IconLink iconLinks={iconLinkContact} />
+              <IconContent iconContents={iconContentContact} />
             </div>
           </div>
         </div>

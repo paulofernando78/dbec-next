@@ -14,28 +14,28 @@
               "content": "<b>Kids</b>"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/kids/cinderella",
-              "checkboxLabel": "Cinderella",
+              "link": "/materials/extras/audiobooks/starter/kids/cinderella",
+              "linkLabel": "Cinderella",
               "time": "3:05"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/kids/dumbo",
-              "checkboxLabel": "Dumbo",
+              "link": "/materials/extras/audiobooks/starter/kids/dumbo",
+              "linkLabel": "Dumbo",
               "time": "2:56"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/kids/finding-nemo",
-              "checkboxLabel": "Finding Nemo",
+              "link": "/materials/extras/audiobooks/starter/kids/finding-nemo",
+              "linkLabel": "Finding Nemo",
               "time": "1:44"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/kids/puss-in-boots",
-              "checkboxLabel": "Puss-in-Boots",
+              "link": "/materials/extras/audiobooks/starter/kids/puss-in-boots",
+              "linkLabel": "Puss-in-Boots",
               "time": "1:45"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/kids/sleeping-beauty",
-              "checkboxLabel": "Sleeping Beauty",
+              "link": "/materials/extras/audiobooks/starter/kids/sleeping-beauty",
+              "linkLabel": "Sleeping Beauty",
               "time": "1:54"
             },
             {
@@ -45,68 +45,68 @@
               "content": "<b>Young learners / Adults</b>"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/a-new-zealand-adventure",
-              "checkboxLabel": "A New Zealand Adventure ",
+              "link": "/materials/extras/audiobooks/starter/young-learners-adult/a-new-zealand-adventure",
+              "linkLabel": "A New Zealand Adventure ",
               "time": "08:05"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/flying-home",
-              "checkboxLabel": "Flying home",
+              "link": "/materials/extras/audiobooks/starter/young-learners-adult/flying-home",
+              "linkLabel": "Flying home",
               "time": "10:13"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa",
-              "checkboxLabel": "Marcel and the Mona lisa",
+              "link": "/materials/extras/audiobooks/starter/young-learners-adult/marcel-and-the-mona-lisa",
+              "linkLabel": "Marcel and the Mona lisa",
               "time": "11:50"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star",
-              "checkboxLabel": "Marcel and the White Star",
+              "link": "/materials/extras/audiobooks/starter/young-learners-adult/marcel-and-the-white-star",
+              "linkLabel": "Marcel and the White Star",
               "time": "09:54"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase",
-              "checkboxLabel": "Newspaper Chase",
+              "link": "/materials/extras/audiobooks/starter/young-learners-adult/newspaper-chase",
+              "linkLabel": "Newspaper Chase",
               "time": "08:18"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/simon-and-the-spy",
-              "checkboxLabel": "Simon and the Spy",
+              "link": "/materials/extras/audiobooks/starter/young-learners-adult/simon-and-the-spy",
+              "linkLabel": "Simon and the Spy",
               "time": "11:21"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/the-fireboy",
-              "checkboxLabel": "The Fireboy",
+              "link": "/materials/extras/audiobooks/starter/young-learners-adult/the-fireboy",
+              "linkLabel": "The Fireboy",
               "time": "12:34"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo",
-              "checkboxLabel": "The Last Photo",
+              "link": "/materials/extras/audiobooks/starter/young-learners-adult/the-last-photo",
+              "linkLabel": "The Last Photo",
               "time": "08:48"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/the-leopard-and-the-lighthouse",
-              "checkboxLabel": "The Leopard and the Lighthouse",
+              "link": "/materials/extras/audiobooks/starter/young-learners-adult/the-leopard-and-the-lighthouse",
+              "linkLabel": "The Leopard and the Lighthouse",
               "time": "10:30"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/the-pearl-girl",
-              "checkboxLabel": "The Pearl Girl",
+              "link": "/materials/extras/audiobooks/starter/young-learners-adult/the-pearl-girl",
+              "linkLabel": "The Pearl Girl",
               "time": "11:47"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/the-troy-stone",
-              "checkboxLabel": "The Troy Stone",
+              "link": "/materials/extras/audiobooks/starter/young-learners-adult/the-troy-stone",
+              "linkLabel": "The Troy Stone",
               "time": "10:22"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/the-white-oryx",
-              "checkboxLabel": "The White Oryx",
+              "link": "/materials/extras/audiobooks/starter/young-learners-adult/the-white-oryx",
+              "linkLabel": "The White Oryx",
               "time": "09:32"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/starter/young-learners-adult/who-wants-to-be-a-star",
-              "checkboxLabel": "Who Wants to be a star",
+              "link": "/materials/extras/audiobooks/starter/young-learners-adult/who-wants-to-be-a-star",
+              "linkLabel": "Who Wants to be a star",
               "time": "10:09"
             }
           ]
@@ -124,8 +124,8 @@
               "content": "<b>Kids</b>"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/beginner/kids/chicken-run",
-              "checkboxLabel": "Chicken Run",
+              "link": "/materials/extras/audiobooks/beginner/kids/chicken-run",
+              "linkLabel": "Chicken Run",
               "time": "3:26"
             },
             {
@@ -135,8 +135,8 @@
               "content": "<b>Young learners / Adults</b>"
             },
             {
-              "checkboxLink": "/materials/extras/audiobooks/beginner/...",
-              "checkboxLabel": "...",
+              "link": "/materials/extras/audiobooks/beginner/...",
+              "linkLabel": "...",
               "time": "0:00"
             }
           ]

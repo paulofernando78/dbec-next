@@ -24,7 +24,7 @@ export interface CardContent {
 
 export interface MainContent {
   headerLabel?: string;
-  cardContents: CardContent[];
+  cardContents?: CardContent[];
 }
 
 export interface Whiteboard {

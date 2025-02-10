@@ -51,16 +51,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-2/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • Where are you from? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-2/flipped-classroom",
+              "linkLabel": "Flipped Classroom • Where are you from? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-2/classwork",
-              "checkboxLabel": "Classwork • Where are you from? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-2/classwork",
+              "linkLabel": "Classwork • Where are you from? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-2/homework",
-              "checkboxLabel": "Homework • Where are you from? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-2/homework",
+              "linkLabel": "Homework • Where are you from? (Cycle 1)"
             }
           ]
         },
@@ -74,16 +74,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-3/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • Where are you from? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-3/flipped-classroom",
+              "linkLabel": "Flipped Classroom • Where are you from? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-3/classwork",
-              "checkboxLabel": "Classwork • Where are you from? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-3/classwork",
+              "linkLabel": "Classwork • Where are you from? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-3/homework",
-              "checkboxLabel": "Homework • Where are you from? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-3/homework",
+              "linkLabel": "Homework • Where are you from? (Cycle 2)"
             }
           ]
         },
@@ -97,16 +97,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-4/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • What do you do? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-4/flipped-classroom",
+              "linkLabel": "Flipped Classroom • What do you do? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-4/classwork",
-              "checkboxLabel": "Classwork • What do you do? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-4/classwork",
+              "linkLabel": "Classwork • What do you do? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-4/homework",
-              "checkboxLabel": "Homework • What do you do? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-4/homework",
+              "linkLabel": "Homework • What do you do? (Cycle 1)"
             }
           ]
         },
@@ -120,16 +120,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-5/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • What do you do? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-5/flipped-classroom",
+              "linkLabel": "Flipped Classroom • What do you do? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-5/classwork",
-              "checkboxLabel": "Classwork • What do you do? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-5/classwork",
+              "linkLabel": "Classwork • What do you do? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-5/homework",
-              "checkboxLabel": "Homework • What do you do? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-5/homework",
+              "linkLabel": "Homework • What do you do? (Cycle 2)"
             }
           ]
         },
@@ -149,8 +149,8 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-6/classwork",
-              "checkboxLabel": "Classwork • Review lessons 2-5 + Written and Oral Quiz"
+              "link": "/materials/courses/elementary/lesson-6/classwork",
+              "linkLabel": "Classwork • Review lessons 2-5 + Written and Oral Quiz"
             }
           ]
         }
@@ -169,16 +169,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-7/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • How much are these? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-7/flipped-classroom",
+              "linkLabel": "Flipped Classroom • How much are these? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-7/classwork",
-              "checkboxLabel": "Classwork • How much are these? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-7/classwork",
+              "linkLabel": "Classwork • How much are these? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-7/homework",
-              "checkboxLabel": "Homework • How much are these? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-7/homework",
+              "linkLabel": "Homework • How much are these? (Cycle 1)"
             }
           ]
         },
@@ -192,16 +192,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-8/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • How much are these? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-8/flipped-classroom",
+              "linkLabel": "Flipped Classroom • How much are these? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-8/classwork",
-              "checkboxLabel": "Classwork • How much are these? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-8/classwork",
+              "linkLabel": "Classwork • How much are these? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-8/homework",
-              "checkboxLabel": "Homework • How much are these? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-8/homework",
+              "linkLabel": "Homework • How much are these? (Cycle 2)"
             }
           ]
         },
@@ -215,16 +215,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-9/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • Do you play the guitar? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-9/flipped-classroom",
+              "linkLabel": "Flipped Classroom • Do you play the guitar? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-9/classwork",
-              "checkboxLabel": "Classwork • Do you play the guitar? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-9/classwork",
+              "linkLabel": "Classwork • Do you play the guitar? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-9/homework",
-              "checkboxLabel": "Homework • Do you play the guitar? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-9/homework",
+              "linkLabel": "Homework • Do you play the guitar? (Cycle 1)"
             }
           ]
         },
@@ -238,16 +238,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-10/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • Do you play the guitar? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-10/flipped-classroom",
+              "linkLabel": "Flipped Classroom • Do you play the guitar? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-10/classwork",
-              "checkboxLabel": "Classwork • Do you play the guitar? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-10/classwork",
+              "linkLabel": "Classwork • Do you play the guitar? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-10/homework",
-              "checkboxLabel": "Homework • Do you play the guitar? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-10/homework",
+              "linkLabel": "Homework • Do you play the guitar? (Cycle 2)"
             }
           ]
         },
@@ -267,8 +267,8 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-11/classwork",
-              "checkboxLabel": "Classwork • Review lessons 7-10 + Written and Oral Quiz"
+              "link": "/materials/courses/elementary/lesson-11/classwork",
+              "linkLabel": "Classwork • Review lessons 7-10 + Written and Oral Quiz"
             }
           ]
         }
@@ -287,16 +287,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-12/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • What's an interesting family? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-12/flipped-classroom",
+              "linkLabel": "Flipped Classroom • What's an interesting family? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-12/classwork",
-              "checkboxLabel": "Classwork • What's an interesting family? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-12/classwork",
+              "linkLabel": "Classwork • What's an interesting family? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-12/homework",
-              "checkboxLabel": "Homework • What's an interesting family? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-12/homework",
+              "linkLabel": "Homework • What's an interesting family? (Cycle 1)"
             }
           ]
         },
@@ -310,16 +310,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-13/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • What's an interesting family? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-13/flipped-classroom",
+              "linkLabel": "Flipped Classroom • What's an interesting family? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-13/classwork",
-              "checkboxLabel": "Classwork • What's an interesting family? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-13/classwork",
+              "linkLabel": "Classwork • What's an interesting family? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-13/homework",
-              "checkboxLabel": "Homework • What's an interesting family? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-13/homework",
+              "linkLabel": "Homework • What's an interesting family? (Cycle 2)"
             }
           ]
         },
@@ -333,16 +333,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-14/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • How often do you run? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-14/flipped-classroom",
+              "linkLabel": "Flipped Classroom • How often do you run? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-14/classwork",
-              "checkboxLabel": "Classwork • How often do you run? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-14/classwork",
+              "linkLabel": "Classwork • How often do you run? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-14/homework",
-              "checkboxLabel": "Homework • How often do you run? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-14/homework",
+              "linkLabel": "Homework • How often do you run? (Cycle 1)"
             }
           ]
         },
@@ -356,16 +356,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-15/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • How often do you run? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-15/flipped-classroom",
+              "linkLabel": "Flipped Classroom • How often do you run? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-15/classwork",
-              "checkboxLabel": "Classwork • How often do you run? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-15/classwork",
+              "linkLabel": "Classwork • How often do you run? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-15/homework",
-              "checkboxLabel": "Homework • How often do you run? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-15/homework",
+              "linkLabel": "Homework • How often do you run? (Cycle 2)"
             }
           ]
         },
@@ -385,8 +385,8 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-16/classwork",
-              "checkboxLabel": "Classwork • Review lessons 12-15 + Written and Oral Quiz"
+              "link": "/materials/courses/elementary/lesson-16/classwork",
+              "linkLabel": "Classwork • Review lessons 12-15 + Written and Oral Quiz"
             }
           ]
         }
@@ -405,16 +405,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-17/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • We went dancing! (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-17/flipped-classroom",
+              "linkLabel": "Flipped Classroom • We went dancing! (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-17/classwork",
-              "checkboxLabel": "Classwork • We went dancing! (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-17/classwork",
+              "linkLabel": "Classwork • We went dancing! (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-17/homework",
-              "checkboxLabel": "Homework • We went dancing! (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-17/homework",
+              "linkLabel": "Homework • We went dancing! (Cycle 1)"
             }
           ]
         },
@@ -428,16 +428,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-18/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • We went dancing! (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-18/flipped-classroom",
+              "linkLabel": "Flipped Classroom • We went dancing! (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-18/classwork",
-              "checkboxLabel": "Classwork • We went dancing! (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-18/classwork",
+              "linkLabel": "Classwork • We went dancing! (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-18/homework",
-              "checkboxLabel": "Homework • We went dancing! (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-18/homework",
+              "linkLabel": "Homework • We went dancing! (Cycle 2)"
             }
           ]
         },
@@ -451,16 +451,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-19/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • How's the neighborhood? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-19/flipped-classroom",
+              "linkLabel": "Flipped Classroom • How's the neighborhood? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-19/classwork",
-              "checkboxLabel": "Classwork • How's the neighborhood? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-19/classwork",
+              "linkLabel": "Classwork • How's the neighborhood? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-19/homework",
-              "checkboxLabel": "Homework • How's the neighborhood? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-19/homework",
+              "linkLabel": "Homework • How's the neighborhood? (Cycle 1)"
             }
           ]
         },
@@ -474,16 +474,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-20/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • How's the neighborhood? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-20/flipped-classroom",
+              "linkLabel": "Flipped Classroom • How's the neighborhood? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-20/classwork",
-              "checkboxLabel": "Classwork • How's the neighborhood? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-20/classwork",
+              "linkLabel": "Classwork • How's the neighborhood? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-20/homework",
-              "checkboxLabel": "Homework • How's the neighborhood? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-20/homework",
+              "linkLabel": "Homework • How's the neighborhood? (Cycle 2)"
             }
           ]
         },
@@ -503,8 +503,8 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-21/classwork",
-              "checkboxLabel": "Classwork • Review lessons 17-20 + Written and Oral Quiz"
+              "link": "/materials/courses/elementary/lesson-21/classwork",
+              "linkLabel": "Classwork • Review lessons 17-20 + Written and Oral Quiz"
             }
           ]
         }
@@ -529,8 +529,8 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-22/classwork",
-              "checkboxLabel": "Classwork • Review • Lessons 2-20 + Written Test"
+              "link": "/materials/courses/elementary/lesson-22/classwork",
+              "linkLabel": "Classwork • Review • Lessons 2-20 + Written Test"
             }
           ]
         }
@@ -549,16 +549,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-23/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • What does she look like? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-23/flipped-classroom",
+              "linkLabel": "Flipped Classroom • What does she look like? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-23/classwork",
-              "checkboxLabel": "Classwork • What does she look like? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-23/classwork",
+              "linkLabel": "Classwork • What does she look like? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-23/homework",
-              "checkboxLabel": "Homework • What does she look like? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-23/homework",
+              "linkLabel": "Homework • What does she look like? (Cycle 1)"
             }
           ]
         },
@@ -572,16 +572,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-24/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • What does she look like? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-24/flipped-classroom",
+              "linkLabel": "Flipped Classroom • What does she look like? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-24/classwork",
-              "checkboxLabel": "Classwork • What does she look like? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-24/classwork",
+              "linkLabel": "Classwork • What does she look like? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-24/homework",
-              "checkboxLabel": "Homework • What does she look like? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-24/homework",
+              "linkLabel": "Homework • What does she look like? (Cycle 2)"
             }
           ]
         },
@@ -595,16 +595,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-25/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • Have you ever been there? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-25/flipped-classroom",
+              "linkLabel": "Flipped Classroom • Have you ever been there? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-25/classwork",
-              "checkboxLabel": "Classwork • Have you ever been there? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-25/classwork",
+              "linkLabel": "Classwork • Have you ever been there? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-25/homework",
-              "checkboxLabel": "Homework • Have you ever been there? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-25/homework",
+              "linkLabel": "Homework • Have you ever been there? (Cycle 1)"
             }
           ]
         },
@@ -618,16 +618,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-26/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • Have you ever been there? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-26/flipped-classroom",
+              "linkLabel": "Flipped Classroom • Have you ever been there? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-26/classwork",
-              "checkboxLabel": "Classwork • Have you ever been there? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-26/classwork",
+              "linkLabel": "Classwork • Have you ever been there? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-26/homework",
-              "checkboxLabel": "Homework • Have you ever been there? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-26/homework",
+              "linkLabel": "Homework • Have you ever been there? (Cycle 2)"
             }
           ]
         },
@@ -647,8 +647,8 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-27/classwork",
-              "checkboxLabel": "Classwork • Review lessons 23-26 + Written and Oral Quiz"
+              "link": "/materials/courses/elementary/lesson-27/classwork",
+              "linkLabel": "Classwork • Review lessons 23-26 + Written and Oral Quiz"
             }
           ]
         }
@@ -667,16 +667,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-28/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • It's a really nice city. (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-28/flipped-classroom",
+              "linkLabel": "Flipped Classroom • It's a really nice city. (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-28/classwork",
-              "checkboxLabel": "Classwork • It's a really nice city. (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-28/classwork",
+              "linkLabel": "Classwork • It's a really nice city. (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-28/homework",
-              "checkboxLabel": "Homework • It's a really nice city. (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-28/homework",
+              "linkLabel": "Homework • It's a really nice city. (Cycle 1)"
             }
           ]
         },
@@ -690,16 +690,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-29/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • It's a really nice city. (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-29/flipped-classroom",
+              "linkLabel": "Flipped Classroom • It's a really nice city. (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-29/classwork",
-              "checkboxLabel": "Classwork • It's a really nice city. (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-29/classwork",
+              "linkLabel": "Classwork • It's a really nice city. (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-29/homework",
-              "checkboxLabel": "Homework • It's a really nice city. (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-29/homework",
+              "linkLabel": "Homework • It's a really nice city. (Cycle 2)"
             }
           ]
         },
@@ -713,16 +713,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-30/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • It's important to get rest (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-30/flipped-classroom",
+              "linkLabel": "Flipped Classroom • It's important to get rest (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-30/classwork",
-              "checkboxLabel": "Classwork • It's important to get rest (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-30/classwork",
+              "linkLabel": "Classwork • It's important to get rest (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-30/homework",
-              "checkboxLabel": "Homework • It's important to get rest (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-30/homework",
+              "linkLabel": "Homework • It's important to get rest (Cycle 1)"
             }
           ]
         },
@@ -736,16 +736,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-31/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • It's important to get rest (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-31/flipped-classroom",
+              "linkLabel": "Flipped Classroom • It's important to get rest (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-31/classwork",
-              "checkboxLabel": "Classwork • It's important to get rest (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-31/classwork",
+              "linkLabel": "Classwork • It's important to get rest (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-31/homework",
-              "checkboxLabel": "Homework • It's important to get rest (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-31/homework",
+              "linkLabel": "Homework • It's important to get rest (Cycle 2)"
             }
           ]
         },
@@ -765,8 +765,8 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-32/classwork",
-              "checkboxLabel": "Classwork • Review lessons 28-31 + Written and Oral Quiz"
+              "link": "/materials/courses/elementary/lesson-32/classwork",
+              "linkLabel": "Classwork • Review lessons 28-31 + Written and Oral Quiz"
             }
           ]
         }
@@ -785,16 +785,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-33/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • What would you like? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-33/flipped-classroom",
+              "linkLabel": "Flipped Classroom • What would you like? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-33/classwork",
-              "checkboxLabel": "Classwork • What would you like? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-33/classwork",
+              "linkLabel": "Classwork • What would you like? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-33/homework",
-              "checkboxLabel": "Homework • What would you like? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-33/homework",
+              "linkLabel": "Homework • What would you like? (Cycle 1)"
             }
           ]
         },
@@ -808,16 +808,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-34/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • What would you like? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-34/flipped-classroom",
+              "linkLabel": "Flipped Classroom • What would you like? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-34/classwork",
-              "checkboxLabel": "Classwork • What would you like? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-34/classwork",
+              "linkLabel": "Classwork • What would you like? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-34/homework",
-              "checkboxLabel": "Homework • What would you like? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-34/homework",
+              "linkLabel": "Homework • What would you like? (Cycle 2)"
             }
           ]
         },
@@ -831,16 +831,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-35/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • It's the coldest city! (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-35/flipped-classroom",
+              "linkLabel": "Flipped Classroom • It's the coldest city! (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-35/classwork",
-              "checkboxLabel": "Classwork • It's the coldest city! (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-35/classwork",
+              "linkLabel": "Classwork • It's the coldest city! (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-35/homework",
-              "checkboxLabel": "Homework • It's the coldest city! (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-35/homework",
+              "linkLabel": "Homework • It's the coldest city! (Cycle 1)"
             }
           ]
         },
@@ -854,16 +854,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-36/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • It's the coldest city! (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-36/flipped-classroom",
+              "linkLabel": "Flipped Classroom • It's the coldest city! (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-36/classwork",
-              "checkboxLabel": "Classwork • It's the coldest city! (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-36/classwork",
+              "linkLabel": "Classwork • It's the coldest city! (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-36/homework",
-              "checkboxLabel": "Homework • It's the coldest city! (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-36/homework",
+              "linkLabel": "Homework • It's the coldest city! (Cycle 2)"
             }
           ]
         },
@@ -883,8 +883,8 @@
               "content": "• identify areas that need improvement"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-37/classwork",
-              "checkboxLabel": "Classwork • Review lessons 33-36 + Written and Oral Quiz"
+              "link": "/materials/courses/elementary/lesson-37/classwork",
+              "linkLabel": "Classwork • Review lessons 33-36 + Written and Oral Quiz"
             }
           ]
         }
@@ -903,16 +903,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-38/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • What are you doing later? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-38/flipped-classroom",
+              "linkLabel": "Flipped Classroom • What are you doing later? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-38/classwork",
-              "checkboxLabel": "Classwork • What are you doing later? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-38/classwork",
+              "linkLabel": "Classwork • What are you doing later? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-38/homework",
-              "checkboxLabel": "Homework • What are you doing later? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-38/homework",
+              "linkLabel": "Homework • What are you doing later? (Cycle 1)"
             }
           ]
         },
@@ -926,16 +926,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-39/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • What are you doing later? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-39/flipped-classroom",
+              "linkLabel": "Flipped Classroom • What are you doing later? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-39/classwork",
-              "checkboxLabel": "Classwork • What are you doing later? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-39/classwork",
+              "linkLabel": "Classwork • What are you doing later? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-39/homework",
-              "checkboxLabel": "Homework • What are you doing later? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-39/homework",
+              "linkLabel": "Homework • What are you doing later? (Cycle 2)"
             }
           ]
         },
@@ -949,16 +949,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-40/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • How have you changed? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-40/flipped-classroom",
+              "linkLabel": "Flipped Classroom • How have you changed? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-40/classwork",
-              "checkboxLabel": "Classwork • How have you changed? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-40/classwork",
+              "linkLabel": "Classwork • How have you changed? (Cycle 1)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-40/homework",
-              "checkboxLabel": "Homework • How have you changed? (Cycle 1)"
+              "link": "/materials/courses/elementary/lesson-40/homework",
+              "linkLabel": "Homework • How have you changed? (Cycle 1)"
             }
           ]
         },
@@ -972,16 +972,16 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-41/flipped-classroom",
-              "checkboxLabel": "Flipped Classroom • How have you changed? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-41/flipped-classroom",
+              "linkLabel": "Flipped Classroom • How have you changed? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-41/classwork",
-              "checkboxLabel": "Classwork • How have you changed? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-41/classwork",
+              "linkLabel": "Classwork • How have you changed? (Cycle 2)"
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-41/homework",
-              "checkboxLabel": "Homework • How have you changed? (Cycle 2)"
+              "link": "/materials/courses/elementary/lesson-41/homework",
+              "linkLabel": "Homework • How have you changed? (Cycle 2)"
             }
           ]
         },
@@ -1001,8 +1001,8 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-42/classwork",
-              "checkboxLabel": "Classwork • Review lessons 38-41 + Written and Oral Quiz"
+              "link": "/materials/courses/elementary/lesson-42/classwork",
+              "linkLabel": "Classwork • Review lessons 38-41 + Written and Oral Quiz"
             }
           ]
         }
@@ -1027,8 +1027,8 @@
               "applyHr": true
             },
             {
-              "checkboxLink": "/materials/courses/elementary/lesson-43/classwork",
-              "checkboxLabel": "Classwork • Review lessons 23-41 + Written Test"
+              "link": "/materials/courses/elementary/lesson-43/classwork",
+              "linkLabel": "Classwork • Review lessons 23-41 + Written Test"
             }
           ]
         }
