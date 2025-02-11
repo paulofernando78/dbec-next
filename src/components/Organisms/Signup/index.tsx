@@ -1,15 +1,10 @@
 "use client";
 
-import React from "react";
 import { useState } from "react";
 import { Button } from "@components/index";
 import "./type";
 
-interface SignUpProps {
-  handleFlipAction: () => void;
-}
-
-export const SignUp: React.FC<SignUpProps> = ({ handleFlipAction }) => {
+export const SignUp = ({ handleFlipAction }:SignUpProps) => {
   const [username, setusername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
