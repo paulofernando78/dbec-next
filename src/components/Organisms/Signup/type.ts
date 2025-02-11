@@ -1,3 +1,0 @@
-interface SignUpProps {
-  handleFlipAction: () => void;
-}
