@@ -136,7 +136,7 @@ const navBarLinks = [
       // {
       //   imgSrc: aviationIcon,
       //   altName: "Aviation icon",
-      //   link: "/materials//specific-purposes/aviation",
+      //   link: "/materials/specific-purposes/aviation",
       //   name: "Aviation",
       // },
       {
