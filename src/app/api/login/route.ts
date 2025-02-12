@@ -9,15 +9,17 @@ export async function POST(req: Request) {
   const { data: user, error } = await supabase
     .from("users")
     .select("*")
-    .eq("email", username)
+    .eq("username", username)
     .single();
 
   if (error || !user) {
     return NextResponse.json({ message: "Invalid credentials" }, { status: 401 });
   }
 
+  delete user.password;
+
   // Check if user is approved
-  if (!user.is_approved) {
+  if (!user.status) {
     return NextResponse.json({ message: "User not approved" }, { status: 403 });
   }
 

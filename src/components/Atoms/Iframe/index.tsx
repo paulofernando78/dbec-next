@@ -1,6 +1,4 @@
-import React, { FC } from 'react';
-
-import styles from './styles.module.css';
+import React, { FC } from "react";
 
 interface IframeProps {
   src: string;
@@ -14,11 +12,9 @@ interface IframeProps {
 
 const Iframe: FC<IframeProps> = ({
   src,
-  width = "100%",
-  height = 300,
+  height = "86vh", // Add default value
   allowFullScreen = false,
   loading = "lazy",
-  style = { border: 0 },
 }) => {
   if (!src) {
     return <p>Error: Invalid iframe source.</p>;
@@ -27,12 +23,9 @@ const Iframe: FC<IframeProps> = ({
   return (
     <iframe
       src={src}
-      width={typeof width === "number" ? `${width}px` : width}
-      height={typeof height === "number" ? `${height}px` : height}
+      style={{ height }}
       allowFullScreen={allowFullScreen}
       loading={loading}
-      className={styles["iframe-customization"]}
-      style={style}
     />
   );
 };

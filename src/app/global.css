@@ -140,6 +140,17 @@ p {
   color: #00a2ff;
 }
 
+input, textarea, select {
+  field-sizing: content;
+}
+
+iframe {
+  width: 100%;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  border: 0;
+}
+
 /* COLORS */
 
 .yellow-highlight {
