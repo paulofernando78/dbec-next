@@ -51,7 +51,6 @@ const iconContent = [
     linkLabel: "Preço",
   },
 ];
-
 const iconContentContact = [
   {
     imgSrc: emailIcon,
@@ -94,7 +93,7 @@ export default function Home() {
           )}
         </div>
       )}
-
+      {/**/}
       <div className="margin-top bg">
         <div className="flex-col-center">
           <p className="dbec">DAILY BASIS ENGLISH COURSE</p>
