@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Button, SignIn } from "@/components/index";
+import {Button, SignIn, SignUp} from "@/components";
 import Image from "next/image";
 import {
   ukUSflag,
@@ -88,7 +88,7 @@ export default function Home() {
             </div>
           ) : (
             <div className={styles["sign-up-container"]}>
-              {/* <SignUp handleFlipAction={handleFlip} /> */}
+               <SignUp handleFlipAction={handleFlip} />
             </div>
           )}
         </div>

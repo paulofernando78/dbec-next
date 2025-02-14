@@ -1,4 +1,5 @@
 import { SignIn } from "./Organisms/SignIn";
+import { SignUp } from "./Organisms/SignUp"
 
 import { Whiteboard } from "./Molecules/Whiteboard";
 import { Button } from "./Atoms/Button";
@@ -17,6 +18,7 @@ import { ScrollToTop } from "./Atoms/ScrollToTop";
 
 export {
   SignIn,
+    SignUp,
   Whiteboard,
   Button,
   Card,
