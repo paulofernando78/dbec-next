@@ -2,6 +2,21 @@
   {
     "definitions": [
       {
+        "word": "Louvre",
+        "enDefinition": "the world's largest art museum located in Paris, France, housed in a historic palace and home to many famous works including the Mona Lisa",
+        "ptDefinition": "o maior museu de arte do mundo localizado em Paris, França, instalado em um palácio histórico e lar de muitas obras famosas, incluindo a Mona Lisa",
+        "notes": [
+          {
+            "enNote": "Originally built as a fortress in the 12th century, later served as a royal residence before becoming a museum in 1793.",
+            "ptNote": "Originalmente construído como uma fortaleza no século XII, posteriormente serviu como residência real antes de se tornar um museu em 1793."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "look",
         "phonetics": "lʊk",
         "partOfSpeech": "verb",

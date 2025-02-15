@@ -25,12 +25,6 @@ export const ContentCard = ({ contentData }: ContentCardProps) => {
         />
       )}
       <div className="line-break">
-        {/* {isUnderConstruction && (
-          <div className="flex-8px">
-            <Image src={tools} alt="Tools icon" className="icon-general" />
-            <p>Under Construction!</p>
-          </div>
-        )} */}
         {contentData.contents.map((content, contentIndex) => (
           <div key={contentIndex} className="line-break">
             {/* Render Card if cardLabel exists */}
@@ -55,7 +49,7 @@ export const ContentCard = ({ contentData }: ContentCardProps) => {
 
 const CardContentRenderer = ({ cardContent }: { cardContent: CardContent }) => {
   return (
-    <div className={styles["card-description"]}>
+    <div className="card-border-shadow">
       {/* Label */}
       {cardContent.cardLabel && (
         <p
@@ -69,8 +63,6 @@ const CardContentRenderer = ({ cardContent }: { cardContent: CardContent }) => {
         </p>
       )}
       {cardContent.contents.map((content, contentIndex) => {
-        const indexPrefix = cardContent.showIndex ? `${contentIndex + 0}. ` : "";
-
         return (
           <div
             key={contentIndex}
@@ -82,21 +74,20 @@ const CardContentRenderer = ({ cardContent }: { cardContent: CardContent }) => {
             )}
             {content.applyHr && <hr className={styles["hr"]} />}
 
-            {/* Link Index / Label Link */}
-            {content.link && content.linkLabel && (
-              <div className={styles["grid-icon-text"]}>
-                <Link href={content.link}>
+            {content.links?.map((link, linkIndex) => (
+              <div key={linkIndex} className={styles["grid-icon-text"]}>
+                <Link href={link.link}>
                   <p>
-                    {indexPrefix}
-                    {content.linkLabel}
+                    {content.showIndex ? `${linkIndex + 1}. ` : ""}
+                    {link.linkLabel}
                   </p>
                 </Link>
               </div>
-            )}
+            ))}
 
             {/* Globe Image / Globe Link */}
             {content.globeLink && content.globeLabel && (
-              <div className={styles["grid-icon-text"]}>
+              <div className={styles["grid-icon-globe"]}>
                 <Image
                   src={globeIcon}
                   alt="Globe icon"

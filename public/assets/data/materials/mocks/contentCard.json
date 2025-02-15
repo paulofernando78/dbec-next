@@ -5,34 +5,65 @@
   },
   "contents": [
     {
+      "headerLabel": "Header Label",
       "cardContents": [
         {
           "bgColor": "black",
           "textColor": "white",
-          "cardLabel": "...",
+          "cardLabel": "Card Label",
           "contents": [
             {
-              "content": "..."
+              "content": "Content"
             },
-            { 
+            {
+              "applyHr": true
+            },
+            {
+              "showIndex": true,
+              "links": [
+                {
+                  "link": "...",
+                  "linkLabel": "Link"
+                },
+                {
+                  "link": "...",
+                  "linkLabel": "Link"
+                },
+                {
+                  "link": "...",
+                  "linkLabel": "Link"
+                }
+              ]
+            },
+            {
+              "showIndex": true,
               "link": "...",
-              "linkLabel": "Test ... "
+              "linkLabel": "Link ... "
+            },
+            {
+              "showIndex": true,
+              "link": "...",
+              "linkLabel": "Link ... "
+            },
+            {
+              "link": "...",
+              "linkLabel": "Link ... "
             },
             {
               "globeLink": "...",
-              "globeLabel": "Test ... "
+              "globeLabel": "Globe Link"
             },
             {
               "globeLink": "...",
-              "globeLabel": "Test ... "
+              "globeLabel": "Globe Link"
             },
             {
               "checkboxLink": "...",
-              "checkboxLabel": "Test ... "
+              "checkboxLabel": "Checkbox Link"
             },
             {
               "checkboxLink": "...",
-              "checkboxLabel": "Test ... "
+              "checkboxLabel": "Checkbox Link"
             }
           ]
         }

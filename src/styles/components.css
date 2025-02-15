@@ -24,6 +24,11 @@
   background-color: white;
 }
 
+.card-border-shadow {
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
 /* Radio / Checkbox */
 .radio-checkbox-container {
   position: relative;

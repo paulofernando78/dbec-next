@@ -1,18 +1,9 @@
 import React, { FC } from "react";
-
-interface IframeProps {
-  src: string;
-  width?: string | number;
-  height?: string | number;
-  allowFullScreen?: boolean;
-  loading?: "lazy" | "eager";
-  referrerPolicy?: string;
-  style?: React.CSSProperties;
-}
+import "./types";
 
 const Iframe: FC<IframeProps> = ({
   src,
-  height = "86vh", // Add default value
+  height,
   allowFullScreen = false,
   loading = "lazy",
 }) => {
@@ -23,7 +14,7 @@ const Iframe: FC<IframeProps> = ({
   return (
     <iframe
       src={src}
-      style={{ height }}
+      style={{ height: height }}
       allowFullScreen={allowFullScreen}
       loading={loading}
     />

@@ -56,7 +56,7 @@ export const LessonTemplate = ({
           />
         )}
 
-        {/* UnderContruxtion */}
+        {/* UnderContruction */}
         {isUnderConstruction && <UnderConstruction />}
 
         {/* Dictionary */}
@@ -151,7 +151,6 @@ export const LessonTemplate = ({
             {lesson.iframeSrc && (
               <Iframe
                 src={lesson.iframeSrc}
-                width={lesson.iframeWidth}
                 height={lesson.iframeHeight}
               />
             )}

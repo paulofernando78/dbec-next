@@ -87,36 +87,7 @@
           "imgPosition": "left",
           "paragraphs": [
             {
-              "enText": "Marcel is a French mouse, and a"
-            },
-            {
-              "keyword": "detective",
-              "word": "detective",
-              "wordAudioSrc": "/dictionary/d/detective.mp3"
-            },
-            {
-              "enText": ". One evening, at the"
-            },
-            {
-              "keyword": "louvre",
-              "word": "Louvre",
-              "wordAudioSrc": "/dictionary/l/louvre.mp3"
-            },
-            {
-              "keyword": "museum",
-              "word": "museum",
-              "wordAudioSrc": "/dictionary/m/museum.mp3"
-            },
-            {
-              "enText": ", he sees a man steal a famous painting - the Mona Lisa. Marcel follows the"
-            },
-            {
-              "keyword": "thief",
-              "word": "thief",
-              "wordAudioSrc": "/dictionary/t/thief.mp3"
-            },
-            {
-              "enText": "to Venice and risk his life to get the painting back again."
+              "enText": "Marcel is a French mouse, and a detective. One evening, at the Louvre museum, he sees a man steal a famous painting - the Mona Lisa. Marcel follows the thief to Venice and risk his life to get the painting back again."
             }
           ]
         }

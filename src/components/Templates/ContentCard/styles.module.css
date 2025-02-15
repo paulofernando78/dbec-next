@@ -14,7 +14,7 @@
   border: solid green;
 } */
 
-.card-description {
+.card-border-shadow {
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
 }
@@ -36,18 +36,27 @@
   margin-block: 8px;
 }
 
-.globe-icon {
-  margin-top: 2px;
-}
-
-.checkbox-size {
-  width: min-content;
-}
-
 .grid-icon-text {
   display: grid;
   grid-template-columns: auto 1fr;
   gap: 8px;
+}
+
+.globe-icon {
+  position: relative;
+  bottom: 1px;
+}
+
+.grid-icon-globe {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px;
+  position: relative;
+  right: 2px;
+}
+
+.checkbox-size {
+  width: min-content;
 }
 
 .grid-checkbox-text {

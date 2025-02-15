@@ -1,10 +1,15 @@
 import { StaticImageData } from "next/image";
 
+interface LinkItem {
+  link: string;
+  linkLabel: string;
+}
+
 export interface ContentItem {
   content?: string;
   applyHr?: boolean;
-  link?: string;
-  linkLabel?: string;
+  showIndex?: boolean;
+  links?: LinkItem[];
   time?: string;
   checkboxLink?: string;
   checkboxLabel?: string;
@@ -16,7 +21,6 @@ export interface ContentItem {
 }
 
 export interface CardContent {
-  showIndex?: boolean;
   bgColor: string;
   textColor?: string;
   cardLabel?: string;
