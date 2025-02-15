@@ -2,6 +2,44 @@
   {
     "definitions": [
       {
+        "word": "look",
+        "phonetics": "lʊk",
+        "partOfSpeech": "verb",
+        "enDefinition": "to direct your eyes in order to see; to appear to be something",
+        "ptDefinition": "olhar",
+        "examples": [
+          {
+            "enExample": "Look at that beautiful sunset!",
+            "ptExample": "Olhe aquele lindo pôr do sol!"
+          }
+        ],
+        "synonyms": ["see", "watch", "observe", "gaze", "stare", "glance", "peer", "inspect", "scrutinize"],
+        "antonyms": ["be blind", "ignore", "overlook"]
+      },
+      {
+        "enDefinition": "to appear to be something",
+        "ptDefinition": "parecer",
+        "examples": [
+          {
+            "enExample": "You look tired today.",
+            "ptExample": "Você parece cansado hoje."
+          }
+        ],
+        "synonyms": ["appear", "seem", "sound", "feel", "come across as"],
+        "antonyms": ["be", "act", "sound like", "feel like"],
+        "seeAlso": ["seem"],
+        "notes": [
+          {
+            "enNote": "look vs. seem: 'Look' is often used for visual appearances, while 'seem' is used for impressions that may not be visual",
+            "ptNote": "'Look' é baseado na aparência (He looks happy today), enquanto 'seem' é na opinião (It seems like... Parece que...)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "let down",
         "phonetics": "lɛt daʊn",
         "partOfSpeech": "phrasal verb",

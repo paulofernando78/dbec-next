@@ -9,6 +9,7 @@
           "bgColor": "black",
           "textColor": "white",
           "cardLabel": "Starter (Pre-A1) 200 headwords",
+          "showIndex": true,
           "contents": [
             {
               "content": "<b>Kids</b>"
@@ -119,6 +120,7 @@
           "bgColor": "black",
           "textColor": "white",
           "cardLabel": "Beginner (A1)",
+          "showIndex": true,
           "contents": [
             {
               "content": "<b>Kids</b>"

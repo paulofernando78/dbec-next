@@ -113,7 +113,6 @@ p {
 
 .p-font {
   font-size: var(--p-size);
-  display: block;
 }
 
 .p-size-small {

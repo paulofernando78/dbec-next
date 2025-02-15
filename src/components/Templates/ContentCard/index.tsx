@@ -68,56 +68,63 @@ const CardContentRenderer = ({ cardContent }: { cardContent: CardContent }) => {
           {cardContent.cardLabel}
         </p>
       )}
-      {cardContent.contents.map((content, contentIndex) => (
-        <div
-          key={contentIndex}
-          className={`flex-col-4px ${styles["card-description-content"]}`}
-        >
-          {/* Content */}
-          {content.content && (
-            <p dangerouslySetInnerHTML={{ __html: content.content }} />
-          )}
-          {content.applyHr && <hr className={styles["hr"]} />}
+      {cardContent.contents.map((content, contentIndex) => {
+        const indexPrefix = cardContent.showIndex ? `${contentIndex + 0}. ` : "";
 
-          {/* Link / Label Link */}
-          {content.link && content.linkLabel && (
-            <div className={styles["grid-icon-text"]}>
-              <Link href={content.link}>
-                <p>{content.linkLabel}</p>
-              </Link>
-            </div>
-          )}
+        return (
+          <div
+            key={contentIndex}
+            className={`flex-col-4px ${styles["card-description-content"]}`}
+          >
+            {/* Content */}
+            {content.content && (
+              <p dangerouslySetInnerHTML={{ __html: content.content }} />
+            )}
+            {content.applyHr && <hr className={styles["hr"]} />}
 
-          {/* Globe Image / Globe Link */}
-          {content.globeLink && content.globeLabel && (
-            <div className={styles["grid-icon-text"]}>
-              <Image
-                src={globeIcon}
-                alt="Globe icon"
-                className={`icon-general ${styles["globe-icon"]}`}
-              />
-              <Link href={content.globeLink}>
-                <p>{content.globeLabel}</p>
-              </Link>
-            </div>
-          )}
+            {/* Link Index / Label Link */}
+            {content.link && content.linkLabel && (
+              <div className={styles["grid-icon-text"]}>
+                <Link href={content.link}>
+                  <p>
+                    {indexPrefix}
+                    {content.linkLabel}
+                  </p>
+                </Link>
+              </div>
+            )}
 
-          {/* Checkbox Link / Checkbox Label Link */}
-          {content.checkboxLink && content.checkboxLabel && (
-            <div className={styles["flex-checkbox"]}>
-              <input type="checkbox" className={styles["checkbox-mt"]} />
-              <Link href={content.checkboxLink}>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: content.checkboxLabel,
-                  }}
+            {/* Globe Image / Globe Link */}
+            {content.globeLink && content.globeLabel && (
+              <div className={styles["grid-icon-text"]}>
+                <Image
+                  src={globeIcon}
+                  alt="Globe icon"
+                  className={`icon-general ${styles["globe-icon"]}`}
                 />
-              </Link>
-              {content.time && <Time time={content.time} />}
-            </div>
-          )}
-        </div>
-      ))}
+                <Link href={content.globeLink}>
+                  <p>{content.globeLabel}</p>
+                </Link>
+              </div>
+            )}
+
+            {/* Checkbox Link / Checkbox Label Link */}
+            {content.checkboxLink && content.checkboxLabel && (
+              <div className={styles["flex-checkbox"]}>
+                <input type="checkbox" className={styles["checkbox-mt"]} />
+                <Link href={content.checkboxLink}>
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: content.checkboxLabel,
+                    }}
+                  />
+                </Link>
+                {content.time && <Time time={content.time} />}
+              </div>
+            )}
+          </div>
+        );
+      })}
     </div>
   );
 };

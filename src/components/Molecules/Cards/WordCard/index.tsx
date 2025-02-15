@@ -98,7 +98,7 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                             />
                           )}
                         </span>
-                        <span className={styles["word-close-button"]}>
+                        <span className="font-bold">
                           {definition.word}
                         </span>
                       </p>
@@ -246,7 +246,7 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                         {definition.synonyms?.map((synonym, synonymIndex) => (
                           <li
                             key={synonymIndex}
-                            className="display-inline p-font"
+                            className="display-inline"
                           >
                             {synonym}
                             {definition.synonyms &&
@@ -266,7 +266,7 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                         {definition.antonyms?.map((antonym, antonymIndex) => (
                           <li
                             key={antonymIndex}
-                            className="display-inline p-font"
+                            className="display-inline"
                           >
                             {antonym}
                             {definition.antonyms &&

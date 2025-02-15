@@ -3,6 +3,32 @@
     "definitions": [
       {
         "word": "no big deal",
+        "phonetics": "/nəʊ bɪɡ diːl/",
+        "partOfSpeech": "idiom", 
+        "enDefinition": "used to indicate that something is not important or not a problem",
+        "ptDefinition": "usado para indicar que algo não é importante ou não é um problema",
+        "examples": [
+          {
+            "enExample": "Don't worry about breaking the glass, it's no big deal.",
+            "ptExample": "Não se preocupe por ter quebrado o copo, não é nada demais."
+          }
+        ],
+        "synonyms": ["not important", "no problem", "no worries"],
+        "antonyms": ["big deal", "major issue"],
+        "seeAlso": ["no problem", "don't worry about it"],
+        "notes": [
+          {
+            "enNote": "A casual expression used to minimize concerns",
+            "ptNote": "Uma expressão casual usada para minimizar preocupações"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "no big deal",
         "partOfSpeech": "idiom",
         "enDefinition": "used to indicate that something is not important or not a problem",
         "ptDefinition": "usado para indicar que algo não é importante ou não é um problema",

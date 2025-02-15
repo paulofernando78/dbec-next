@@ -1,11 +1,11 @@
 import { StaticImageData } from "next/image";
 
-export interface Content {
+export interface ContentItem {
   content?: string;
   applyHr?: boolean;
   link?: string;
   linkLabel?: string;
-  time?: string
+  time?: string;
   checkboxLink?: string;
   checkboxLabel?: string;
   globeLink?: string;
@@ -16,10 +16,11 @@ export interface Content {
 }
 
 export interface CardContent {
+  showIndex?: boolean;
   bgColor: string;
   textColor?: string;
   cardLabel?: string;
-  contents: Content[];
+  contents: ContentItem[];
 }
 
 export interface MainContent {
@@ -29,9 +30,9 @@ export interface MainContent {
 
 export interface Whiteboard {
   title: string;
-  subtitle: string
-  descriptions?: string[]
-  subDescription?: string
+  subtitle: string;
+  descriptions?: string[];
+  subDescription?: string;
 }
 
 export interface ContentCardProps {
@@ -40,4 +41,3 @@ export interface ContentCardProps {
     contents: MainContent[];
   };
 }
-

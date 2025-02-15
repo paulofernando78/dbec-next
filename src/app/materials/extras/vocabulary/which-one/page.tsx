@@ -1,6 +1,32 @@
 import { DictionaryCard } from "@components/Molecules/Cards/DictionaryCard";
 import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import React from "react";
+import { DictionarySearch } from "@/components/Molecules/DictionarySearch";
+
+const lists = [
+  { text: "advice vs. advise" },
+  { text: "affect vs. effect" },
+  { text: "among vs. between" },
+  { text: "borrow vs. lend" },
+  { text: "bring vs. take" },
+  { text: "do vs. make" },
+  { text: "hear vs. listen" },
+  { text: "lose vs. miss" },
+  { text: "look vs. seem" },
+  { text: "meanwhile vs. meantime" },
+  { text: "pretend vs. intend" },
+  { text: "raise vs. rise" },
+  { text: "remember vs. remind" },
+  { text: "say vs. tell" },
+  { text: "speak vs. talk" },
+  { text: "salary vs. wage" },
+  { text: "steal vs. rob" },
+  { text: "stop vs. finish" },
+  { text: "speak vs. talk vs. say vs. tell" },
+  { text: "wish vs. hope" },
+  { text: "work vs. job" },
+  { text: "write vs. write down" },
+];
 
 export default function WhichOne() {
   return (
@@ -11,68 +37,14 @@ export default function WhichOne() {
         descriptions={["Which one?"]}
       />
       <div className="line-break">
-        <div>
-          <p className="font-bold">jump to:</p>
-
-          {/* ... */}
-          <a href="#...">
-            <p>...</p>
-          </a>
-
-          {/* look vs. seem */}
-          <a href="#look-seem">
-            <p>look vs. seem</p>
-          </a>
-          {/*  meanwhile vs. meantime*/}
-          <a href="#...">
-            <p>meanwhile vs. meantime</p>
-          </a>
-          {/* speak vs. talk vs. say vs. tell */}
-          <a href="#...">
-            <p>speak vs. talk vs. say vs. tell</p>
-          </a>
-
-          <a href="#...">
-            <p>...</p>
-          </a>
-        </div>
-
-        {/* Words */}
-        <div className="line-break">
-          {/* look vs. seem */}
-          <div id="look-seem">
-            <p>look vs. seem</p>
-            <div>
-              <p>
-                <DictionaryCard
-                  keyword="look"
-                  word="look"
-                  audioSrc="/l/look.mp3"
-                />{" "}
-                <span className="portuguese">(+ baseado na aparência)</span>
-              </p>
-              <p>
-                • He looks happy today.{" "}
-                <span className="portuguese">Hoje ele parece estar feliz.</span>
-              </p>
-            </div>
-            <div>
-              <p>
-                <DictionaryCard
-                  keyword="seem"
-                  word="seem"
-                  audioSrc="/s/seem.mp3"
-                />{" "}
-                <span className="portuguese">(+ baseado na opnião)</span>
-              </p>
-              <p>
-                • It seems like...{" "}
-                <span className="portuguese">Parece que...</span>
-              </p>
-            </div>
-          </div>
-          <hr />
-        </div>
+        <DictionarySearch />
+        <ul>
+          {lists.map((list, index) => (
+            <li key={index}>
+              {list.text}
+            </li>
+          ))}
+        </ul>
       </div>
     </>
   );

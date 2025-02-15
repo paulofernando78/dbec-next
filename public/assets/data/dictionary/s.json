@@ -1,5 +1,61 @@
 [
   {
+    "definitions": [
+      {
+        "word": "short by",
+        "phonetics": "/ʃɔrt baɪ/",
+        "partOfSpeech": "phrasal verb", 
+        "enDefinition": "to lack or be deficient in a specified amount",
+        "ptDefinition": "faltar ou estar em falta de uma quantidade específica",
+        "examples": [
+          {
+            "enExample": "We are short by $100 to pay the bill.",
+            "ptExample": "Estamos com $100 a menos para pagar a conta."
+          }
+        ],
+        "synonyms": ["lacking", "deficient", "missing"],
+        "antonyms": ["have enough", "sufficient"],
+        "seeAlso": ["shortage", "deficit"],
+        "notes": [
+          {
+            "enNote": "Used when there is a specific numerical or quantifiable shortage",
+            "ptNote": "Usado quando há uma falta específica numérica ou quantificável"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "scrutinize",
+        "phonetics": "/ˈskruːtəˌnaɪz/",
+        "partOfSpeech": "verb", 
+        "enDefinition": "to examine something very carefully and in detail",
+        "ptDefinition": "examinar algo muito cuidadosamente e em detalhe; escrutinar",
+        "examples": [
+          {
+            "enExample": "The committee will scrutinize all applications carefully.",
+            "ptExample": "O comitê examinará todas as inscrições cuidadosamente."
+          },
+          {
+            "enExample": "Investors scrutinized the company's financial records.",
+            "ptExample": "Os investidores escrutinaram os registros financeiros da empresa."
+          }
+        ],
+        "synonyms": ["examine", "inspect", "analyze", "study"],
+        "antonyms": ["overlook", "ignore", "disregard"],
+        "seeAlso": ["investigate", "review"],
+        "notes": [
+          {
+            "enNote": "Often used in contexts involving detailed analysis or investigation",
+            "ptNote": "Frequentemente usado em contextos envolvendo análise ou investigação detalhada"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "keyword": "strike gold",
     "definitions": [
       {
