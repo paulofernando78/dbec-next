@@ -76,12 +76,14 @@ const CardContentRenderer = ({ cardContent }: { cardContent: CardContent }) => {
 
             {content.links?.map((link, linkIndex) => (
               <div key={linkIndex} className={styles["grid-icon-text"]}>
-                <Link href={link.link}>
-                  <p>
-                    {content.showIndex ? `${linkIndex + 1}. ` : ""}
-                    {link.linkLabel}
-                  </p>
-                </Link>
+                {link.link && (
+                  <Link href={link.link}>
+                    <p>
+                      {content.showIndex ? `${linkIndex + 1}. ` : ""}
+                      {link.linkLabel}
+                    </p>
+                  </Link>
+                )}
               </div>
             ))}
 
