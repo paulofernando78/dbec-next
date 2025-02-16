@@ -50,16 +50,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-2/flipped-classroom",
-              "linkLabel": "Flipped Classroom • What's your name? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-2/classwork",
-              "linkLabel": "Classwork • What's your name? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-2/homework",
-              "linkLabel": "Homework • What's your name? (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-2/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • What's your name? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-2/classwork",
+                  "linkLabel": "Classwork • What's your name? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-2/homework",
+                  "linkLabel": "Homework • What's your name? (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -73,20 +77,24 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-3/flipped-classroom",
-              "linkLabel": "Flipped Classroom • What's your name? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-3/classwork",
-              "linkLabel": "Classwork • What's your name? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-3/homework",
-              "linkLabel": "Homework • What's your name? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-3/bgu-unit-1",
-              "linkLabel": "Homework • Basic Grammar in Use • Unit 1"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-3/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • What's your name? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-3/classwork",
+                  "linkLabel": "Classwork • What's your name? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-3/homework",
+                  "linkLabel": "Homework • What's your name? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-3/bgu-unit-1",
+                  "linkLabel": "Homework • Basic Grammar in Use • Unit 1"
+                }
+              ]
             }
           ]
         },
@@ -100,16 +108,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-4/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Where are my keys? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-4/classwork",
-              "linkLabel": "Classwork • Where are my keys? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-4/homework",
-              "linkLabel": "Homework • Where are my keys? (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-4/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Where are my keys? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-4/classwork",
+                  "linkLabel": "Classwork • Where are my keys? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-4/homework",
+                  "linkLabel": "Homework • Where are my keys? (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -123,16 +135,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-5/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Where are my keys? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-5/classwork",
-              "linkLabel": "Classwork • Where are my keys? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-5/homework",
-              "linkLabel": "Homework • Where are my keys? (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-5/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Where are my keys? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-5/classwork",
+                  "linkLabel": "Classwork • Where are my keys? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-5/homework",
+                  "linkLabel": "Homework • Where are my keys? (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -152,8 +168,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-6/classwork",
-              "linkLabel": "Classwork • Review lessons 2-5 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-6/classwork",
+                  "linkLabel": "Classwork • Review lessons 2-5 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         }
@@ -172,16 +192,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-7/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Where are you from? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-7/classwork",
-              "linkLabel": "Classwork • Where are you from? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-7/homework",
-              "linkLabel": "Homework • Where are you from? (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-7/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Where are you from? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-7/classwork",
+                  "linkLabel": "Classwork • Where are you from? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-7/homework",
+                  "linkLabel": "Homework • Where are you from? (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -195,16 +219,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-8/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Where are you from? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-8/classwork",
-              "linkLabel": "Classwork • Where are you from? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-8/homework",
-              "linkLabel": "Homework • Where are you from? (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-8/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Where are you from? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-8/classwork",
+                  "linkLabel": "Classwork • Where are you from? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-8/homework",
+                  "linkLabel": "Homework • Where are you from? (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -218,16 +246,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-9/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Is this your coat? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-9/classwork",
-              "linkLabel": "Classwork • Is this your coat? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-9/homework",
-              "linkLabel": "Homework • Is this your coat? (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-9/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Is this your coat? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-9/classwork",
+                  "linkLabel": "Classwork • Is this your coat? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-9/homework",
+                  "linkLabel": "Homework • Is this your coat? (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -241,16 +273,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-10/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Is this your coat? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-10/classwork",
-              "linkLabel": "Classwork • Is this your coat? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-10/homework",
-              "linkLabel": "Homework • Is this your coat? (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-10/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Is this your coat? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-10/classwork",
+                  "linkLabel": "Classwork • Is this your coat? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-10/homework",
+                  "linkLabel": "Homework • Is this your coat? (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -270,8 +306,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-11/classwork",
-              "linkLabel": "Classwork • Review lessons 7-10 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-11/classwork",
+                  "linkLabel": "Classwork • Review lessons 7-10 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         }
@@ -290,16 +330,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-12/flipped-classroom",
-              "linkLabel": "Flipped Classroom • What time is it? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-12/classwork",
-              "linkLabel": "Classwork • What time is it? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/class-12/homework",
-              "linkLabel": "Homework • What time is it? (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-12/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • What time is it? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-12/classwork",
+                  "linkLabel": "Classwork • What time is it? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/class-12/homework",
+                  "linkLabel": "Homework • What time is it? (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -313,16 +357,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-13/flipped-classroom",
-              "linkLabel": "Flipped Classroom • What time is it? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-13/classwork",
-              "linkLabel": "Classwork • What time is it? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-13/homework",
-              "linkLabel": "Homework • What time is it? (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-13/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • What time is it? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-13/classwork",
+                  "linkLabel": "Classwork • What time is it? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-13/homework",
+                  "linkLabel": "Homework • What time is it? (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -336,16 +384,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-14/flipped-classroom",
-              "linkLabel": "Flipped Classroom • I ride my bike to school. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-14/classwork",
-              "linkLabel": "Classwork • I ride my bike to school. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-14/homework",
-              "linkLabel": "Homework • I ride my bike to school. (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-14/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • I ride my bike to school. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-14/classwork",
+                  "linkLabel": "Classwork • I ride my bike to school. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-14/homework",
+                  "linkLabel": "Homework • I ride my bike to school. (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -359,16 +411,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-15/flipped-classroom",
-              "linkLabel": "Flipped Classroom • I ride my bike to school. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-15/classwork",
-              "linkLabel": "Classwork • I ride my bike to school. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-15/homework",
-              "linkLabel": "Homework • I ride my bike to school. (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-15/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • I ride my bike to school. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-15/classwork",
+                  "linkLabel": "Classwork • I ride my bike to school. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-15/homework",
+                  "linkLabel": "Homework • I ride my bike to school. (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -388,8 +444,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-16/classwork",
-              "linkLabel": "Classwork • Review lessons 12-15 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-16/classwork",
+                  "linkLabel": "Classwork • Review lessons 12-15 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         }
@@ -408,16 +468,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-17/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Does it have a view? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-17/classwork",
-              "linkLabel": "Classwork • Does it have a view? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-17/homework",
-              "linkLabel": "Homework • Does it have a view? (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-17/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Does it have a view? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-17/classwork",
+                  "linkLabel": "Classwork • Does it have a view? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-17/homework",
+                  "linkLabel": "Homework • Does it have a view? (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -431,16 +495,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-18/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Does it have a view? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-18/classwork",
-              "linkLabel": "Classwork • Does it have a view? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-18/homework",
-              "linkLabel": "Homework • Does it have a view? (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-18/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Does it have a view? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-18/classwork",
+                  "linkLabel": "Classwork • Does it have a view? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-18/homework",
+                  "linkLabel": "Homework • Does it have a view? (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -454,16 +522,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-19/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Where do you work? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-19/classwork",
-              "linkLabel": "Classwork • Where do you work? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-19/homework",
-              "linkLabel": "Homework • Where do you work? (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-19/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Where do you work? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-19/classwork",
+                  "linkLabel": "Classwork • Where do you work? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-19/homework",
+                  "linkLabel": "Homework • Where do you work? (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -477,16 +549,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-20/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Where do you work? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-20/classwork",
-              "linkLabel": "Classwork • Where do you work? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-20/homework",
-              "linkLabel": "Homework • Where do you work? (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-20/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Where do you work? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-20/classwork",
+                  "linkLabel": "Classwork • Where do you work? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-20/homework",
+                  "linkLabel": "Homework • Where do you work? (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -506,8 +582,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-21/classwork",
-              "linkLabel": "Classwork • Review lessons 17-20 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-21/classwork",
+                  "linkLabel": "Classwork • Review lessons 17-20 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         }
@@ -532,8 +612,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-22/classwork",
-              "linkLabel": "Classwork • Review lessons 2-20 + Written Test"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-22/classwork",
+                  "linkLabel": "Classwork • Review lessons 2-20 + Written Test"
+                }
+              ]
             }
           ]
         }
@@ -552,16 +636,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-23/flipped-classroom",
-              "linkLabel": "Flipped Classroom • I always eat breakfast. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-23/classwork",
-              "linkLabel": "Classwork • I always eat breakfast. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-23/homework",
-              "linkLabel": "Homework • I always eat breakfast. (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-23/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • I always eat breakfast. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-23/classwork",
+                  "linkLabel": "Classwork • I always eat breakfast. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-23/homework",
+                  "linkLabel": "Homework • I always eat breakfast. (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -575,16 +663,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-24/flipped-classroom",
-              "linkLabel": "Flipped Classroom • I always eat breakfast. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-24/classwork",
-              "linkLabel": "Classwork • I always eat breakfast. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-24/homework",
-              "linkLabel": "Homework • I always eat breakfast. (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-24/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • I always eat breakfast. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-24/classwork",
+                  "linkLabel": "Classwork • I always eat breakfast. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-24/homework",
+                  "linkLabel": "Homework • I always eat breakfast. (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -598,16 +690,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-25/flipped-classroom",
-              "linkLabel": "Flipped Classroom • What sports do you like? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-25/classwork",
-              "linkLabel": "Classwork • What sports do you like? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-25/homework",
-              "linkLabel": "Homework • What sports do you like? (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-25/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • What sports do you like? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-25/classwork",
+                  "linkLabel": "Classwork • What sports do you like? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-25/homework",
+                  "linkLabel": "Homework • What sports do you like? (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -621,16 +717,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-26/flipped-classroom",
-              "linkLabel": "Flipped Classroom • What sports do you like? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-26/classwork",
-              "linkLabel": "Classwork • What sports do you like? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-26/homework",
-              "linkLabel": "Homework • What sports do you like? (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-26/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • What sports do you like? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-26/classwork",
+                  "linkLabel": "Classwork • What sports do you like? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-26/homework",
+                  "linkLabel": "Homework • What sports do you like? (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -650,8 +750,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-27/classwork",
-              "linkLabel": "Classwork • Review lessons 23-26 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-27/classwork",
+                  "linkLabel": "Classwork • Review lessons 23-26 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         }
@@ -670,16 +774,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-28/flipped-classroom",
-              "linkLabel": "Flipped Classroom • I'm going to have a party. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-28/classwork",
-              "linkLabel": "Classwork • I'm going to have a party. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-28/homework",
-              "linkLabel": "Homework • I'm going to have a party. (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-28/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • I'm going to have a party. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-28/classwork",
+                  "linkLabel": "Classwork • I'm going to have a party. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-28/homework",
+                  "linkLabel": "Homework • I'm going to have a party. (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -693,16 +801,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-29/flipped-classroom",
-              "linkLabel": "Flipped Classroom • I'm going to have a party. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-29/classwork",
-              "linkLabel": "Classwork • I'm going to have a party. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-29/homework",
-              "linkLabel": "Homework • I'm going to have a party. (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-29/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • I'm going to have a party. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-29/classwork",
+                  "linkLabel": "Classwork • I'm going to have a party. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-29/homework",
+                  "linkLabel": "Homework • I'm going to have a party. (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -716,16 +828,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-30/flipped-classroom",
-              "linkLabel": "Flipped Classroom • How do you feel? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-30/classwork",
-              "linkLabel": "Classwork • How do you feel? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-30/homework",
-              "linkLabel": "Homework • How do you feel? (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-30/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • How do you feel? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-30/classwork",
+                  "linkLabel": "Classwork • How do you feel? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-30/homework",
+                  "linkLabel": "Homework • How do you feel? (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -739,16 +855,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-31/flipped-classroom",
-              "linkLabel": "Flipped Classroom • How do you feel? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-31/classwork",
-              "linkLabel": "Classwork • How do you feel? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-31/homework",
-              "linkLabel": "Homework • How do you feel? (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-31/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • How do you feel? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-31/classwork",
+                  "linkLabel": "Classwork • How do you feel? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-31/homework",
+                  "linkLabel": "Homework • How do you feel? (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -768,8 +888,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-32/classwork",
-              "linkLabel": "Classwork • Review lessons 28-31 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-32/classwork",
+                  "linkLabel": "Classwork • Review lessons 28-31 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         }
@@ -788,16 +912,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-33/flipped-classroom",
-              "linkLabel": "Flipped Classroom • How do I get there? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-33/classwork",
-              "linkLabel": "Classwork • How do I get there? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-33/homework",
-              "linkLabel": "Homework • How do I get there? (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-33/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • How do I get there? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-33/classwork",
+                  "linkLabel": "Classwork • How do I get there? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-33/homework",
+                  "linkLabel": "Homework • How do I get there? (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -811,16 +939,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-34/flipped-classroom",
-              "linkLabel": "Flipped Classroom • How do I get there? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-34/classwork",
-              "linkLabel": "Classwork • How do I get there? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-34/homework",
-              "linkLabel": "Homework • How do I get there? (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-34/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • How do I get there? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-34/classwork",
+                  "linkLabel": "Classwork • How do I get there? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-34/homework",
+                  "linkLabel": "Homework • How do I get there? (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -834,16 +966,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-35/flipped-classroom",
-              "linkLabel": "Flipped Classroom • I had a good time. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-35/classwork",
-              "linkLabel": "Classwork • I had a good time. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-35/homework",
-              "linkLabel": "Homework • I had a good time. (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-35/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • I had a good time. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-35/classwork",
+                  "linkLabel": "Classwork • I had a good time. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-35/homework",
+                  "linkLabel": "Homework • I had a good time. (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -857,16 +993,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-36/flipped-classroom",
-              "linkLabel": "Flipped Classroom • I had a good time. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-36/classwork",
-              "linkLabel": "Classwork • I had a good time. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-36/homework",
-              "linkLabel": "Homework • I had a good time. (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-36/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • I had a good time. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-36/classwork",
+                  "linkLabel": "Classwork • I had a good time. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-36/homework",
+                  "linkLabel": "Homework • I had a good time. (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -886,8 +1026,12 @@
               "content": "• identify areas that need improvement"
             },
             {
-              "link": "/materials/courses/beginner/lesson-37/classwork",
-              "linkLabel": "Classwork • Review lessons 33-36 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-37/classwork",
+                  "linkLabel": "Classwork • Review lessons 33-36 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         }
@@ -906,16 +1050,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-38/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Where were you born? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-38/classwork",
-              "linkLabel": "Classwork • Where were you born? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-38/homework",
-              "linkLabel": "Homework • Where were you born? (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-38/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Where were you born? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-38/classwork",
+                  "linkLabel": "Classwork • Where were you born? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-38/homework",
+                  "linkLabel": "Homework • Where were you born? (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -929,16 +1077,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-39/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Where were you born? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-39/classwork",
-              "linkLabel": "Classwork • Where were you born? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-39/homework",
-              "linkLabel": "Homework • Where were you born? (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-39/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Where were you born? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-39/classwork",
+                  "linkLabel": "Classwork • Where were you born? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-39/homework",
+                  "linkLabel": "Homework • Where were you born? (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -952,16 +1104,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-40/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Can I take a message? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-40/classwork",
-              "linkLabel": "Classwork • Can I take a message? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-40/homework",
-              "linkLabel": "Homework • Can I take a message? (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-40/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Can I take a message? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-40/classwork",
+                  "linkLabel": "Classwork • Can I take a message? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-40/homework",
+                  "linkLabel": "Homework • Can I take a message? (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -975,16 +1131,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-41/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Can I take a message? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-41/classwork",
-              "linkLabel": "Classwork • Can I take a message? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/beginner/lesson-41/homework",
-              "linkLabel": "Homework • Can I take a message? (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-41/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Can I take a message? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-41/classwork",
+                  "linkLabel": "Classwork • Can I take a message? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/beginner/lesson-41/homework",
+                  "linkLabel": "Homework • Can I take a message? (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -1004,8 +1164,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-42/classwork",
-              "linkLabel": "Classwork • Review lessons 38-41 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-42/classwork",
+                  "linkLabel": "Classwork • Review lessons 38-41 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         }
@@ -1030,8 +1194,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/beginner/lesson-43/classwork",
-              "linkLabel": "Classwork • Review lessons 23-41 + Written Test"
+              "links": [
+                {
+                  "link": "/materials/courses/beginner/lesson-43/classwork",
+                  "linkLabel": "Classwork • Review lessons 23-41 + Written Test"
+                }
+              ]
             }
           ]
         }

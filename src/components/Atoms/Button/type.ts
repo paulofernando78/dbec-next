@@ -5,4 +5,5 @@ export interface ButtonProps {
     onClick: () => void;
     toggle?: boolean;
     type?: "button" | "submit" | "reset";
+    width?: string;
 }

@@ -3,6 +3,11 @@ import { StaticImageData } from "next/image";
 interface LinkItem {
   link: string;
   linkLabel: string;
+  time?: string;
+  checkboxLink?: string;
+  checkboxLabel?: string;
+  globeLink?: string;
+  globeLabel?: string;
 }
 
 export interface ContentItem {
@@ -10,14 +15,6 @@ export interface ContentItem {
   applyHr?: boolean;
   showIndex?: boolean;
   links?: LinkItem[];
-  time?: string;
-  checkboxLink?: string;
-  checkboxLabel?: string;
-  globeLink?: string;
-  globeLabel?: string;
-  courseImg?: StaticImageData;
-  courseLink?: string;
-  courseLabel?: string;
 }
 
 export interface CardContent {

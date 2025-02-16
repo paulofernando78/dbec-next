@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Button } from "@/components/Atoms/Button";
 import "./type";
+import Link from "next/link";
 
 export const SignIn = ({ handleFlipAction }: SignInProps) => {
   const [username, setUsername] = useState("");
@@ -67,9 +68,9 @@ export const SignIn = ({ handleFlipAction }: SignInProps) => {
       <Button label="Sign in / Log in" type="submit" onClick={handleSubmit} />
       <p className="p-size-small">
         Not a member?{" "}
-        <span onClick={handleFlipAction} className="cursor-pointer">
-          Sign up
-        </span>
+        <Link href="#contact-me" className="cursor-pointer underline">
+          Contat me!
+        </Link>
       </p>
     </form>
   );

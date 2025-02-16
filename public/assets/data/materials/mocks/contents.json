@@ -4,16 +4,24 @@
   },
   "contents": [
     {
+      "headerLabel": "Templates",
       "cardContents": [
         {
+          "bgColor": "black",
+          "textColor": "white",
+          "cardLabel": "Main",
           "contents": [
             {
-              "link": "/materials/mocks/ContentCard",
-              "linkLabel": "ContentCard"
-            },
-            {
-              "link": "/materials/mocks/Lesson",
-              "linkLabel": "Lesson"
+              "links": [
+                {
+                  "link": "/materials/mocks/ContentCard",
+                  "linkLabel": "ContentCard"
+                },
+                {
+                  "link": "/materials/mocks/Lesson",
+                  "linkLabel": "Lesson"
+                }
+              ]
             }
           ]
         }
@@ -27,12 +35,16 @@
           "cardLabel": "Celta",
           "contents": [
             {
-              "link": "/materials/mocks/celta/vocabulary-grammar",
-              "linkLabel": "Vocabular/Grammar"
-            },
-            {
-              "link": "/materials/mocks/celta/listening",
-              "linkLabel": "Listening"
+              "links": [
+                {
+                  "link": "/materials/mocks/celta/vocabulary-grammar",
+                  "linkLabel": "Vocabular/Grammar"
+                },
+                {
+                  "link": "/materials/mocks/celta/listening",
+                  "linkLabel": "Listening"
+                }
+              ]
             }
           ]
         }
@@ -46,16 +58,20 @@
           "cardLabel": "Misc",
           "contents": [
             {
-              "link": "/materials/mocks/audiobooks",
-              "linkLabel": "Audiobooks"
-            },
-            {
-              "link": "/materials/mocks/grammar-in-use",
-              "linkLabel": "Grammar In Use"
-            },
-            {
-              "link": "/materials/mocks/saelaa",
-              "linkLabel": "Speak American English Like an American"
+              "links": [
+                {
+                  "link": "/materials/mocks/audiobooks",
+                  "linkLabel": "Audiobooks"
+                },
+                {
+                  "link": "/materials/mocks/grammar-in-use",
+                  "linkLabel": "Grammar In Use"
+                },
+                {
+                  "link": "/materials/mocks/saelaa",
+                  "linkLabel": "Speak American English Like an American"
+                }
+              ]
             }
           ]
         }

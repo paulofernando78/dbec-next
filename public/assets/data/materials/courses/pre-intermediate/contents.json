@@ -45,16 +45,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-2/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Good memories (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-2/classwork",
-              "linkLabel": "Classwork • Good memories (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-2/homework",
-              "linkLabel": "Homework • Good memories (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-2/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Good memories (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-2/classwork",
+                  "linkLabel": "Classwork • Good memories (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-2/homework",
+                  "linkLabel": "Homework • Good memories (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -68,16 +72,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-3/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Good memories (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-3/classwork",
-              "linkLabel": "Classwork • Good memories (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-3/homework",
-              "linkLabel": "Homework • Good memories (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-3/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Good memories (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-3/classwork",
+                  "linkLabel": "Classwork • Good memories (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-3/homework",
+                  "linkLabel": "Homework • Good memories (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -91,16 +99,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-4/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Life in the city (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-4/classwork",
-              "linkLabel": "Classwork • Life in the city (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-4/homework",
-              "linkLabel": "Homework • Life in the city (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-4/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Life in the city (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-4/classwork",
+                  "linkLabel": "Classwork • Life in the city (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-4/homework",
+                  "linkLabel": "Homework • Life in the city (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -114,16 +126,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-5/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Life in the city (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-5/classwork",
-              "linkLabel": "Classwork • Life in the city (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-5/homework",
-              "linkLabel": "Homework • Life in the city (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-5/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Life in the city (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-5/classwork",
+                  "linkLabel": "Classwork • Life in the city (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-5/homework",
+                  "linkLabel": "Homework • Life in the city (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -143,8 +159,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-6/classwork",
-              "linkLabel": "Classwork • Review lessons 2-5 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-6/classwork",
+                  "linkLabel": "Classwork • Review lessons 2-5 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         }
@@ -163,16 +183,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-7/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Making changes (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-7/classwork",
-              "linkLabel": "Classwork • Making changes (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-7/homework",
-              "linkLabel": "Homework • Making changes (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-7/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Making changes (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-7/classwork",
+                  "linkLabel": "Classwork • Making changes (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-7/homework",
+                  "linkLabel": "Homework • Making changes (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -186,16 +210,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-8/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Making changes (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-8/classwork",
-              "linkLabel": "Classwork • Making changes (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-8/homework",
-              "linkLabel": "Homework • Making changes (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-8/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Making changes (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-8/classwork",
+                  "linkLabel": "Classwork • Making changes (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-8/homework",
+                  "linkLabel": "Homework • Making changes (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -209,16 +237,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-9/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Have you ever tried it? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-9/classwork",
-              "linkLabel": "Classwork • Have you ever tried it? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-9/homework",
-              "linkLabel": "Homework • Have you ever tried it? (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-9/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Have you ever tried it? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-9/classwork",
+                  "linkLabel": "Classwork • Have you ever tried it? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-9/homework",
+                  "linkLabel": "Homework • Have you ever tried it? (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -232,16 +264,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-10/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Have you ever tried it? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-10/classwork",
-              "linkLabel": "Classwork • Have you ever tried it? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-10/homework",
-              "linkLabel": "Homework • Have you ever tried it? (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-10/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Have you ever tried it? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-10/classwork",
+                  "linkLabel": "Classwork • Have you ever tried it? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-10/homework",
+                  "linkLabel": "Homework • Have you ever tried it? (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -261,8 +297,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-11/classwork",
-              "linkLabel": "Classwork • Review lessons 7-10 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-11/classwork",
+                  "linkLabel": "Classwork • Review lessons 7-10 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         }
@@ -281,16 +321,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-12/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Hit the road! (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-12/classwork",
-              "linkLabel": "Classwork • Hit the road! (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-12/homework",
-              "linkLabel": "Homework • Hit the road! (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-12/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Hit the road! (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-12/classwork",
+                  "linkLabel": "Classwork • Hit the road! (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-12/homework",
+                  "linkLabel": "Homework • Hit the road! (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -304,16 +348,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-13/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Hit the road! (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-13/classwork",
-              "linkLabel": "Classwork • Hit the road! (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-13/homework",
-              "linkLabel": "Homework • Hit the road! (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-13/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Hit the road! (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-13/classwork",
+                  "linkLabel": "Classwork • Hit the road! (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-13/homework",
+                  "linkLabel": "Homework • Hit the road! (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -327,16 +375,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-14/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Sure! I'll do it. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-14/classwork",
-              "linkLabel": "Classwork • Sure! I'll do it. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-14/homework",
-              "linkLabel": "Homework • Sure! I'll do it. (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-14/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Sure! I'll do it. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-14/classwork",
+                  "linkLabel": "Classwork • Sure! I'll do it. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-14/homework",
+                  "linkLabel": "Homework • Sure! I'll do it. (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -350,16 +402,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-15/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Sure! I'll do it. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-15/classwork",
-              "linkLabel": "Classwork • Sure! I'll do it. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-15/homework",
-              "linkLabel": "Homework • Sure! I'll do it. (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-15/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Sure! I'll do it. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-15/classwork",
+                  "linkLabel": "Classwork • Sure! I'll do it. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-15/homework",
+                  "linkLabel": "Homework • Sure! I'll do it. (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -379,8 +435,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-16/classwork",
-              "linkLabel": "Classwork • Review lessons 12-15 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-16/classwork",
+                  "linkLabel": "Classwork • Review lessons 12-15 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         }
@@ -399,16 +459,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-17/flipped-classroom",
-              "linkLabel": "Flipped Classroom • What do you use this for? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-17/classwork",
-              "linkLabel": "Classwork • What do you use this for? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-17/homework",
-              "linkLabel": "Homework • What do you use this for? (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-17/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • What do you use this for? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-17/classwork",
+                  "linkLabel": "Classwork • What do you use this for? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-17/homework",
+                  "linkLabel": "Homework • What do you use this for? (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -422,16 +486,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-18/flipped-classroom",
-              "linkLabel": "Flipped Classroom • What do you use this for? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-18/classwork",
-              "linkLabel": "Classwork • What do you use this for? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-18/homework",
-              "linkLabel": "Homework • What do you use this for? (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-18/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • What do you use this for? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-18/classwork",
+                  "linkLabel": "Classwork • What do you use this for? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-18/homework",
+                  "linkLabel": "Homework • What do you use this for? (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -445,16 +513,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-19/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Time to celebrate (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-19/classwork",
-              "linkLabel": "Classwork • Time to celebrate (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-19/homework",
-              "linkLabel": "Homework • Time to celebrate (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-19/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Time to celebrate (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-19/classwork",
+                  "linkLabel": "Classwork • Time to celebrate (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-19/homework",
+                  "linkLabel": "Homework • Time to celebrate (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -468,16 +540,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-20/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Time to celebrate (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-20/classwork",
-              "linkLabel": "Classwork • Time to celebrate (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-20/homework",
-              "linkLabel": "Homework • Time to celebrate (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-20/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Time to celebrate (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-20/classwork",
+                  "linkLabel": "Classwork • Time to celebrate (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-20/homework",
+                  "linkLabel": "Homework • Time to celebrate (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -497,8 +573,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-21/classwork",
-              "linkLabel": "Classwork • Review lessons 17-20 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-21/classwork",
+                  "linkLabel": "Classwork • Review lessons 17-20 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         }
@@ -523,8 +603,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-22/classwork",
-              "linkLabel": "Classwork • Review lessons 2-20 + Written Test"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-22/classwork",
+                  "linkLabel": "Classwork • Review lessons 2-20 + Written Test"
+                }
+              ]
             }
           ]
         }
@@ -543,16 +627,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-23/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Only time will tell. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-23/classwork",
-              "linkLabel": "Classwork • Only time will tell. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-23/homework",
-              "linkLabel": "Homework • Only time will tell. (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-23/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Only time will tell. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-23/classwork",
+                  "linkLabel": "Classwork • Only time will tell. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-23/homework",
+                  "linkLabel": "Homework • Only time will tell. (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -566,16 +654,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-24/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Only time will tell. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-24/classwork",
-              "linkLabel": "Classwork • Only time will tell. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-24/homework",
-              "linkLabel": "Homework • Only time will tell. (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-24/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Only time will tell. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-24/classwork",
+                  "linkLabel": "Classwork • Only time will tell. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-24/homework",
+                  "linkLabel": "Homework • Only time will tell. (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -589,16 +681,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-25/flipped-classroom",
-              "linkLabel": "Flipped Classroom • I like working with people. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-25/classwork",
-              "linkLabel": "Classwork • I like working with people. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-25/homework",
-              "linkLabel": "Homework • I like working with people. (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-25/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • I like working with people. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-25/classwork",
+                  "linkLabel": "Classwork • I like working with people. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-25/homework",
+                  "linkLabel": "Homework • I like working with people. (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -612,16 +708,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-26/flipped-classroom",
-              "linkLabel": "Flipped Classroom • I like working with people. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-26/classwork",
-              "linkLabel": "Classwork • I like working with people. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-26/homework",
-              "linkLabel": "Homework • I like working with people. (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-26/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • I like working with people. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-26/classwork",
+                  "linkLabel": "Classwork • I like working with people. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-26/homework",
+                  "linkLabel": "Homework • I like working with people. (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -641,8 +741,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-27/classwork",
-              "linkLabel": "Classwork • Review lessons 23-26 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-27/classwork",
+                  "linkLabel": "Classwork • Review lessons 23-26 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         }
@@ -661,16 +765,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-28/flipped-classroom",
-              "linkLabel": "Flipped Classroom • It's really worth seeing! (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-28/classwork",
-              "linkLabel": "Classwork • It's really worth seeing! (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-28/homework",
-              "linkLabel": "Homework • It's really worth seeing! (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-28/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • It's really worth seeing! (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-28/classwork",
+                  "linkLabel": "Classwork • It's really worth seeing! (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-28/homework",
+                  "linkLabel": "Homework • It's really worth seeing! (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -684,16 +792,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-29/flipped-classroom",
-              "linkLabel": "Flipped Classroom • It's really worth seeing! (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-29/classwork",
-              "linkLabel": "Classwork • It's really worth seeing! (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-29/homework",
-              "linkLabel": "Homework • It's really worth seeing! (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-29/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • It's really worth seeing! (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-29/classwork",
+                  "linkLabel": "Classwork • It's really worth seeing! (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-29/homework",
+                  "linkLabel": "Homework • It's really worth seeing! (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -707,16 +819,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-30/flipped-classroom",
-              "linkLabel": "Flipped Classroom • It's a long story. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-30/classwork",
-              "linkLabel": "Classwork • It's a long story. (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-30/homework",
-              "linkLabel": "Homework • It's a long story. (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-30/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • It's a long story. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-30/classwork",
+                  "linkLabel": "Classwork • It's a long story. (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-30/homework",
+                  "linkLabel": "Homework • It's a long story. (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -730,16 +846,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-31/flipped-classroom",
-              "linkLabel": "Flipped Classroom • It's a long story. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-31/classwork",
-              "linkLabel": "Classwork • It's a long story. (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-31/homework",
-              "linkLabel": "Homework • It's a long story. (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-31/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • It's a long story. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-31/classwork",
+                  "linkLabel": "Classwork • It's a long story. (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-31/homework",
+                  "linkLabel": "Homework • It's a long story. (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -759,8 +879,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-32/classwork",
-              "linkLabel": "Classwork • Review lessons 28-31 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-32/classwork",
+                  "linkLabel": "Classwork • Review lessons 28-31 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         }
@@ -779,16 +903,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-33/flipped-classroom",
-              "linkLabel": "Flipped Classroom • That's entertainment! (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-33/classwork",
-              "linkLabel": "Classwork • That's entertainment! (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-33/homework",
-              "linkLabel": "Homework • That's entertainment! (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-33/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • That's entertainment! (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-33/classwork",
+                  "linkLabel": "Classwork • That's entertainment! (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-33/homework",
+                  "linkLabel": "Homework • That's entertainment! (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -802,16 +930,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-34/flipped-classroom",
-              "linkLabel": "Flipped Classroom • That's entertainment! (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-34/classwork",
-              "linkLabel": "Classwork • That's entertainment! (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-34/homework",
-              "linkLabel": "Homework • That's entertainment! (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-34/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • That's entertainment! (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-34/classwork",
+                  "linkLabel": "Classwork • That's entertainment! (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-34/homework",
+                  "linkLabel": "Homework • That's entertainment! (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -825,16 +957,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-35/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Now I get it! (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-35/classwork",
-              "linkLabel": "Classwork • Now I get it! (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-35/homework",
-              "linkLabel": "Homework • Now I get it! (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-35/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Now I get it! (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-35/classwork",
+                  "linkLabel": "Classwork • Now I get it! (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-35/homework",
+                  "linkLabel": "Homework • Now I get it! (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -848,16 +984,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-36/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Now I get it! (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-36/classwork",
-              "linkLabel": "Classwork • Now I get it! (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-36/homework",
-              "linkLabel": "Homework • Now I get it! (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-36/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Now I get it! (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-36/classwork",
+                  "linkLabel": "Classwork • Now I get it! (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-36/homework",
+                  "linkLabel": "Homework • Now I get it! (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -877,8 +1017,12 @@
               "content": "• identify areas that need improvement"
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-37/classwork",
-              "linkLabel": "Classwork • Review lessons 33-36 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-37/classwork",
+                  "linkLabel": "Classwork • Review lessons 33-36 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         }
@@ -897,16 +1041,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-38/flipped-classroom",
-              "linkLabel": "Flipped Classroom • I wouldn't do that? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-38/classwork",
-              "linkLabel": "Classwork • I wouldn't do that? (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-38/homework",
-              "linkLabel": "Homework • I wouldn't do that? (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-38/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • I wouldn't do that? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-38/classwork",
+                  "linkLabel": "Classwork • I wouldn't do that? (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-38/homework",
+                  "linkLabel": "Homework • I wouldn't do that? (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -920,16 +1068,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-39/flipped-classroom",
-              "linkLabel": "Flipped Classroom • I wouldn't do that? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-39/classwork",
-              "linkLabel": "Classwork • I wouldn't do that? (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-39/homework",
-              "linkLabel": "Homework • I wouldn't do that? (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-39/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • I wouldn't do that? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-39/classwork",
+                  "linkLabel": "Classwork • I wouldn't do that? (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-39/homework",
+                  "linkLabel": "Homework • I wouldn't do that? (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -943,16 +1095,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-40/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Making excuses (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-40/classwork",
-              "linkLabel": "Classwork • Making excuses (Cycle 1)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-40/homework",
-              "linkLabel": "Homework • Making excuses (Cycle 1)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-40/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Making excuses (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-40/classwork",
+                  "linkLabel": "Classwork • Making excuses (Cycle 1)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-40/homework",
+                  "linkLabel": "Homework • Making excuses (Cycle 1)"
+                }
+              ]
             }
           ]
         },
@@ -966,16 +1122,20 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-41/flipped-classroom",
-              "linkLabel": "Flipped Classroom • Making excuses (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-41/classwork",
-              "linkLabel": "Classwork • Making excuses (Cycle 2)"
-            },
-            {
-              "link": "/materials/courses/pre-intermediate/lesson-41/homework",
-              "linkLabel": "Homework • Making excuses (Cycle 2)"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-41/flipped-classroom",
+                  "linkLabel": "Flipped Classroom • Making excuses (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-41/classwork",
+                  "linkLabel": "Classwork • Making excuses (Cycle 2)"
+                },
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-41/homework",
+                  "linkLabel": "Homework • Making excuses (Cycle 2)"
+                }
+              ]
             }
           ]
         },
@@ -995,8 +1155,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-42/classwork",
-              "linkLabel": "Classwork • Review lessons 38-41 + Written and Oral Quiz"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-42/classwork",
+                  "linkLabel": "Classwork • Review lessons 38-41 + Written and Oral Quiz"
+                }
+              ]
             }
           ]
         },
@@ -1016,8 +1180,12 @@
               "applyHr": true
             },
             {
-              "link": "/materials/courses/pre-intermediate/lesson-43/classwork",
-              "linkLabel": "Classwork • Review lessons 23-41 + Written Test"
+              "links": [
+                {
+                  "link": "/materials/courses/pre-intermediate/lesson-43/classwork",
+                  "linkLabel": "Classwork • Review lessons 23-41 + Written Test"
+                }
+              ]
             }
           ]
         }

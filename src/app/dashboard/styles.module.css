@@ -1,0 +1,14 @@
+.container {
+  width: 100%;
+  overflow-x: auto;
+  padding: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 120px 200px 100px 100px;
+  grid-gap: 1rem;
+  min-width: min-content;
+  width: max-content;
+  padding: 10px;
+}

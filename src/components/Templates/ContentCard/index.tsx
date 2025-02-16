@@ -74,47 +74,52 @@ const CardContentRenderer = ({ cardContent }: { cardContent: CardContent }) => {
             )}
             {content.applyHr && <hr className={styles["hr"]} />}
 
-            {content.links?.map((link, linkIndex) => (
-              <div key={linkIndex} className={styles["grid-icon-text"]}>
+            {content.links?.map((link, index) => (
+              <div key={index} className={styles["grid-icon-text"]}>
+                {/* link / linkLabel */}
                 {link.link && (
                   <Link href={link.link}>
-                    <p>
-                      {content.showIndex ? `${linkIndex + 1}. ` : ""}
-                      {link.linkLabel}
-                    </p>
+                    <p
+                      dangerouslySetInnerHTML={{
+                        __html: content.showIndex
+                          ? `${index + 1}. ${link.linkLabel}`
+                          : link.linkLabel,
+                      }}
+                    />
                   </Link>
+                )}
+
+                {/* globeLink / globeLabel */}
+                {link.globeLink && (
+                  <div className={styles["grid-icon-globe"]}>
+                    <Image
+                      src={globeIcon}
+                      alt="Globe icon"
+                      className={`icon-general ${styles["globe-icon"]}`}
+                    />
+                    <Link href={link.globeLink}>
+                      <p>
+                        {content.showIndex ? `${index + 1}. ` : ""}
+                        {link.checkboxLabel}
+                      </p>
+                    </Link>
+                  </div>
+                )}
+                {/* checkboxLink / checkboxLabel */}
+                {link.checkboxLink && link.checkboxLabel && (
+                  <div className={styles["flex-checkbox"]}>
+                    <input type="checkbox" className={styles["checkbox-mt"]} />
+                    <Link href={link.checkboxLink}>
+                      <p>
+                        {content.showIndex ? `${index + 1}. ` : ""}
+                        {link.checkboxLabel}
+                      </p>
+                    </Link>
+                    {link.time && <Time time={link.time} />}
+                  </div>
                 )}
               </div>
             ))}
-
-            {/* Globe Image / Globe Link */}
-            {content.globeLink && content.globeLabel && (
-              <div className={styles["grid-icon-globe"]}>
-                <Image
-                  src={globeIcon}
-                  alt="Globe icon"
-                  className={`icon-general ${styles["globe-icon"]}`}
-                />
-                <Link href={content.globeLink}>
-                  <p>{content.globeLabel}</p>
-                </Link>
-              </div>
-            )}
-
-            {/* Checkbox Link / Checkbox Label Link */}
-            {content.checkboxLink && content.checkboxLabel && (
-              <div className={styles["flex-checkbox"]}>
-                <input type="checkbox" className={styles["checkbox-mt"]} />
-                <Link href={content.checkboxLink}>
-                  <p
-                    dangerouslySetInnerHTML={{
-                      __html: content.checkboxLabel,
-                    }}
-                  />
-                </Link>
-                {content.time && <Time time={content.time} />}
-              </div>
-            )}
           </div>
         );
       })}

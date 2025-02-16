@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import {Button, SignIn, SignUp} from "@/components";
+import { Button, SignIn, SignUp } from "@/components";
 import Image from "next/image";
 import {
   ukUSflag,
@@ -22,7 +22,7 @@ const iconContent = [
   {
     imgSrc: groupIcon,
     imgAlt: "Group Icon",
-    content: "Aula individual ou em grupo."
+    content: "Aula individual ou em grupo.",
   },
   {
     imgSrc: laptopComputerIcon,
@@ -34,7 +34,8 @@ const iconContent = [
   {
     imgSrc: clockIcon,
     imgAlt: "Group Icon",
-    content: "Aulas de 50 minutes ou mais conforme a disponibilidade do aluno e do professor.",
+    content:
+      "Aulas de 50 minutes ou mais conforme a disponibilidade do aluno e do professor.",
     link: "https://calendar.google.com/calendar/u/0?cid=cGF1bG9mZXJuYW5kbzc4QGdtYWlsLmNvbQ",
     linkLabel: "Clique aqui",
   },
@@ -51,6 +52,7 @@ const iconContent = [
     linkLabel: "Preço",
   },
 ];
+
 const iconContentContact = [
   {
     imgSrc: emailIcon,
@@ -82,15 +84,9 @@ export default function Home() {
 
       {isModalOpen && (
         <div className={styles["wrapper-student-access"]}>
-          {isFlipped ? (
-            <div className={styles["sign-in-container"]}>
-              <SignIn handleFlipAction={handleFlip} />
-            </div>
-          ) : (
-            <div className={styles["sign-up-container"]}>
-               <SignUp handleFlipAction={handleFlip} />
-            </div>
-          )}
+          <div className={styles["sign-in-container"]}>
+            <SignIn handleFlipAction={handleFlip} />
+          </div>
         </div>
       )}
       {/**/}

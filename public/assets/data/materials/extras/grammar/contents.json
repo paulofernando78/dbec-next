@@ -12,12 +12,16 @@
           "cardLabel": "Grammar in Use",
           "contents": [
             {
-              "link": "/materials/extras/grammar/elementary",
-              "linkLabel": "Elementary"
-            },
-            {
-              "link": "/materials/extras/grammar/intermediate",
-              "linkLabel": "Intermediate"
+              "links": [
+                {
+                  "link": "/materials/extras/grammar/elementary",
+                  "linkLabel": "Elementary"
+                },
+                {
+                  "link": "/materials/extras/grammar/intermediate",
+                  "linkLabel": "Intermediate"
+                }
+              ]
             }
           ]
         }

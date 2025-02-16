@@ -135,24 +135,33 @@
               "content": "<b>Kids</b>"
             },
             {
+              "showIndex": true,
               "links": [
                 {
                   "link": "/materials/extras/audiobooks/beginner/kids/chicken-run",
                   "linkLabel": "Chicken Run",
                   "time": "3:26"
-                },
+                }
+              ]
+            },
+            {
+              "applyHr": true
+            },
+            {
+              "content": "<b>Young learners / Adults</b>"
+            },
+            {
+              "showIndex": true,
+              "links": [
                 {
-                  "applyHr": true
-                },
-                {
-                  "content": "<b>Young learners / Adults</b>"
-                },
-                {
-                  "link": "/materials/extras/audiobooks/beginner/...",
+                  "link": "/materials/extras/audiobooks/beginner/young-learners-adult/",
                   "linkLabel": "...",
                   "time": "0:00"
                 }
               ]
+            },
+            {
+              "applyHr": true
             }
           ]
         }

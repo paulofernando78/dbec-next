@@ -12,12 +12,16 @@
           "cardLabel": "Idioms",
           "contents": [
             {
-              "link": "/materials/specific-purposes/business/sbelaa",
-              "linkLabel": "Speak Business English Like an American"
-            },
-            {
-              "link": "/materials/specific-purposes/business/sbbelaa",
-              "linkLabel": "Speak BETTER Business English Like an American"
+              "links": [
+                {
+                  "link": "/materials/specific-purposes/business/sbelaa",
+                  "linkLabel": "Business English Like an American"
+                },
+                {
+                  "link": "/materials/specific-purposes/business/sbbelaa",
+                  "linkLabel": "Better Business English Like an American"
+                }
+              ]
             }
           ]
         }
