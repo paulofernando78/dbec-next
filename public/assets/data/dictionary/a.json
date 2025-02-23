@@ -2,6 +2,36 @@
   {
     "definitions": [
       {
+        "word": "allow",
+        "phonetics": "/əˈlaʊ/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to give permission for someone to do something, or to make it possible for something to happen",
+        "ptDefinition": "permitir, deixar, autorizar que algo aconteça ou que alguém faça algo",
+        "examples": [
+          {
+            "enExample": "Smoking is not allowed in the building.", 
+            "ptExample": "Não é permitido fumar no prédio."
+          },
+          {
+            "enExample": "The teacher allowed the students to leave early.",
+            "ptExample": "O professor permitiu que os alunos saíssem mais cedo."
+          }
+        ],
+        "synonyms": ["permit", "let", "authorize", "enable"],
+        "antonyms": ["forbid", "prohibit", "prevent", "deny"],
+        "seeAlso": ["permit", "authorize"],
+        "notes": [
+          {
+            "enNote": "Allow is often followed by an object and infinitive (allow someone to do something)",
+            "ptNote": "Allow é frequentemente seguido por um objeto e infinitivo (permitir que alguém faça algo)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "all in a day's work",
         "partOfSpeech": "idiom",
         "enDefinition": "something that is considered a normal part of one's job or routine",

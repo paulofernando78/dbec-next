@@ -62,7 +62,8 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                 <div className={`margin-bottom ${styles["padding-left"]}`}>
                   {definition.word && (
                     <div className={styles["word-margin-bottom"]}>
-                      <p className={`bold ${styles["flex"]}`}>
+                      {/* Chabged from <p> to <div> to avoid hydration */}
+                      <div className={`bold ${styles["flex"]}`}>
                         <span className={styles["audio-container"]}>
                           {loadingAudios[`word-${index}`] ? (
                             <LoadingAnimation />
@@ -101,7 +102,7 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                         <span className="font-bold">
                           {definition.word}
                         </span>
-                      </p>
+                      </div>
                       <p className="phonetics">{definition.phonetics}</p>
                       <p className="times-new-roman-dictionary">
                         {definition.partOfSpeech}
@@ -156,14 +157,14 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                           </div>
                         )}
 
-                        <li className="display-inline">
+                        <p className="display-inline">
                           {definition.enDefinition}{" "}
                           {definition.ptDefinition && (
                             <span className="portuguese">
                               {definition.ptDefinition}
                             </span>
                           )}
-                        </li>
+                        </p>
                       </li>
                     </ul>
                   </div>
@@ -225,11 +226,11 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                                       />
                                     )}
                                   </div>
-                                  <span>{example.enExample}</span>{" "}
+                                  <p className="display-inline">{example.enExample}</p>{" "}
                                   {example.ptExample && (
-                                    <span className="portuguese">
+                                    <p className="portuguese">
                                       {example.ptExample}
-                                    </span>
+                                    </p>
                                   )}
                                 </li>
                               </ul>

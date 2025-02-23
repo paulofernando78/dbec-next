@@ -10,10 +10,6 @@
   text-align: justify;
 }
 
-.underline {
-  text-decoration: underline;
-}
-
 .customized-hr {
   margin: 10px;
 }
@@ -24,16 +20,23 @@
 
 /* SPACING */
 
-.margin-top {
-  margin-top: 1.25rem;
+.line-break {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  overflow: visible;
 }
 
 .margin-auto {
   margin: auto;
 }
 
+.margin-top {
+  margin-top: 1.25rem;
+}
+
 .margin-right {
-  margin-right: 8px;
+  margin-right: 0.5rem;
 }
 
 .margin-bottom {
@@ -41,7 +44,7 @@
 }
 
 .margin-left {
-  margin-left: 1.25rem;
+  margin-left: 0.5rem;
 }
 
 .margin-bottom:last-child {
@@ -52,26 +55,16 @@
   margin-top: 50px;
 }
 
-.margin-left {
-  margin-right: 8px;
-}
-
 .margin-block {
   margin: 1.25rem 0;
 }
 
 .margin-inline {
-  margin: 0 8px;
-}
-.margin-inline-3px {
-  margin: 0 3px;
+  margin: 0 0.5rem;
 }
 
-.line-break {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  overflow: visible;
+.margin-inline-3px {
+  margin: 0 3px;
 }
 
 .white-space-pre-wrap {
