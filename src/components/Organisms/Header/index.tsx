@@ -1,14 +1,23 @@
 "use client";
 
-// components
+// Components
 import Link from "next/link";
 
-// CSS
+// Styles
 import styles from "./style.module.css";
 
 // Images
 import Image from "next/image";
 import { btnIcon } from "@/img/index";
+
+// Fonts
+import { Lato } from "next/font/google";
+
+const lato = Lato({
+  subsets: ["latin"],
+  weight: ["400", "700"]
+  
+});
 
 // Typescript
 import { HeaderProps } from "./type";
@@ -24,7 +33,7 @@ export const Header = ({ show, toggleShow }: HeaderProps) => {
       />
       <Link href="/materials">
         <p className={styles["logo-name"]}>
-          <b>DAILY BASIS ENGLISH COURSE</b>
+          <b className={lato.className}>DAILY BASIS ENGLISH COURSE</b>
         </p>
       </Link>
     </div>

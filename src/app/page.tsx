@@ -1,6 +1,9 @@
 "use client";
+
+// Components
 import { useState } from "react";
 import { Button, SignIn, SignUp } from "@/components";
+import { IconContent } from "@/components/Molecules/IconContent";
 import Image from "next/image";
 import {
   ukUSflag,
@@ -14,9 +17,18 @@ import {
   emailIcon,
   whatsappIcon,
 } from "@/img/index";
+
+// Font
+import { Lato } from "next/font/google";
+
+const lato = Lato({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
+// Styles
 import "./global.css";
-import { IconContent } from "@/components/Molecules/IconContent";
-import styles from "./styles.module.css";
+import styles from "./page.module.css";
 
 const iconContent = [
   {
@@ -92,7 +104,7 @@ export default function Home() {
       {/**/}
       <div className="margin-top bg">
         <div className="flex-col-center">
-          <p className="dbec">DAILY BASIS ENGLISH COURSE</p>
+          <p className={`${lato.className} dbec`}>DAILY BASIS ENGLISH COURSE</p>
           <Image src={ukUSflag} alt="Uk / USA flag" className="uk-us-flag" />
           <Image
             src={howYouDoing}

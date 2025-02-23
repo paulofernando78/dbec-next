@@ -1,13 +1,16 @@
 "use client";
+
+// Components
 import Link from "next/link";
 import Image from "next/image";
+
+// Hooks
 import { useMediaQuery } from "@/hooks/useMediaQuery";
 
-// CSS
+// Styles
 import styles from "./styles.module.css";
 
 // Images
-
 import {
   // Courses
   placementTest,
@@ -48,6 +51,8 @@ import {
   examsIcon,
   miscIcon,
 } from "@/img/index";
+
+// Types
 import { NavBarProps } from "./types";
 
 const navBarLinks = [
@@ -274,7 +279,7 @@ export const NavBar = ({ show, toggleShow }: NavBarProps) => {
 
         <div className="line-break">
           {navBarLinks.map((navBarLink, index) => (
-            <div key={index} className="line-break">
+            <div key={index} className="margin-bottom">
               <p className="font-bold">{navBarLink.label}</p>
               <div>
                 {navBarLink.links.map((link, linkIndex) => (
