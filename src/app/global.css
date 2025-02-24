@@ -7,9 +7,11 @@
 
 :root {
   scrollbar-gutter: stable;
+  --background: #ffffff;
+  --text-color: #000000;
+  --box-shadow: 0 0 5px 0.5px #999;
   --p-size: 1.2rem;
   --img-border: 5px solid rgba(211, 211, 211, 0.233);
-  --box-shadow: 0 0 5px 0.5px #999;
   --border-radius: 5px;
   --padding: 2px 7px;
   --beginner: #fcc418;
@@ -19,8 +21,6 @@
   --upper-intermediate: #9b59b6;
   --advanced: #8e44ad;
   --isActive: #f77d7a;
-  --background: #ffffff;
-  --text-color: #000000;
 }
 
 [data-theme="dark"] {
