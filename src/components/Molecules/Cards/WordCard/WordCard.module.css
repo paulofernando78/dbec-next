@@ -1,5 +1,5 @@
 .wordcard-container {
-  background-color: rgba(255, 255, 0, 0.083);
+  background: lightgrey;
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   margin-bottom: 10px;

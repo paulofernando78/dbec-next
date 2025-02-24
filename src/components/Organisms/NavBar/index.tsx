@@ -8,7 +8,7 @@ import Image from "next/image";
 import { useMediaQuery } from "@/hooks/useMediaQuery";
 
 // Styles
-import styles from "./styles.module.css";
+import styles from "./NavBar.module.css";
 
 // Images
 import {
@@ -54,7 +54,6 @@ import {
 
 // Types
 import { NavBarProps } from "./types";
-import { ThemeSwitch } from "../ThemeSwitch";
 
 const navBarLinks = [
   // Courses
@@ -275,8 +274,7 @@ export const NavBar = ({ show, toggleShow }: NavBarProps) => {
 
   return show || !isSmallDevice ? (
     <nav className={styles["nav-bar"]}>
-      <ThemeSwitch />
-      <ul className="line-break margin-top">
+      <ul className="line-break">
         {/* <input type="text" placeholder="search" /> */}
 
         <div className="line-break">

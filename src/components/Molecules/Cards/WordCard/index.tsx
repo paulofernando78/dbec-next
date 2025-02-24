@@ -1,11 +1,22 @@
 "use client";
 
+// Components
 import Image from "next/image";
+
+// Hooks
 import { useState } from "react";
+
+// Images
 import { closeIcon } from "@/img/index";
-import { IDictionaryDefinitions, WordCardProps } from "./types";
-import styles from "./styles.module.css";
+
+// CSS
+import styles from "./WordCard.module.css";
+
+// Utils
 import { handleTextToSpeech } from "@/utils/textToSpeech";
+
+// Types
+import { IDictionaryDefinitions, WordCardProps } from "./types";
 
 export function WordCard({ dictionary, onClose }: WordCardProps) {
   const [playingAudios, setPlayingAudios] = useState<{

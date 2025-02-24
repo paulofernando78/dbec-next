@@ -27,14 +27,14 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Chris:</b> Todd, we got our shipment of wood yesterday. We're short by 18 tons."
+              "enText": "<b>Chris:</b> Todd, we got our shipment of wood yesterday. We're <b>short by</b> 18 tons."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Todd:</b> Our wood supplier must've made mistake. I could've sworn that I ordered the right amount."
+              "enText": "<b>Todd:</b> Our wood supplier must've made mistake. <b>I could've sworn that</b> I ordered the right amount."
             }
           ]
         },
@@ -48,21 +48,21 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Todd:</b> Oops, you're right. I accidentally ordered two tons instead of twenty. No big deal. I'll just put in another order."
+              "enText": "<b>Todd:</b> Oops, you're right. I accidentally ordered two tons instead of twenty. <b>No big deal</b>. I'll just put in another order."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Chris:</b> When filling out order forms, you need to dot your i's and cross your t's. You shouldn't be making careless mistakes like this."
+              "enText": "<b>Chris:</b> When filling out order forms, you need to <b>dot your i's and cross your t's</b>. You shouldn't be making careless mistakes like this."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Todd::</b> I just forgot to add a zero after the two. Don't make a mountain out of a molehill. No need to blow things out of proportion."
+              "enText": "<b>Todd::</b> I just forgot to add a zero after the two. Don't <b>make a mountain out of a molehill</b>. No need to <b>blow things out of proportion</b>."
             }
           ]
         },
@@ -76,14 +76,14 @@
         {
           "paragraphs": [
             {
-              "enText": "<b>Todd::</b> Okay, sorry I dropped the ball."
+              "enText": "<b>Todd::</b> Okay, sorry I <b>dropped the ball</b>."
             }
           ]
         },
         {
           "paragraphs": [
             {
-              "enText": "<b>Chris:</b> Todd, this may be a bitter pill to swallow, but your work lately hasn't been up to scratch. You've really been asleep at the wheel!"
+              "enText": "<b>Chris:</b> Todd, this may be a <b>bitter pill to swallow</b>, but your work lately hasn't been <b>up to scratch</b>. You've really been <b>asleep at the wheel</b>!"
             }
           ]
         }
@@ -103,7 +103,7 @@
           "radio": [
             {
               "id": "73ac5bcc-85d8-4331-ab8c-832422231433",
-              "question": "1. In the future, please be sure to dot your i's and cross your t's.",
+              "question": "1. In the future, please be sure to <b>dot your i's and cross your t's</b>.",
               "options": [
                 {
                   "id": "a2a117f0-5bb2-41e3-943c-7e1f243984c6",
@@ -124,7 +124,7 @@
             },
             {
               "id": "9288f118-b38e-4b0f-9dc0-d19e18ca37bf",
-              "question": "2. It's just a small mistake. No need to make a mountain out of a molehill.",
+              "question": "2. It's just a small mistake. No need to <b>make a mountain out of a molehill</b>.",
               "options": [
                 {
                   "id": "851b3bc3-6b5d-44e9-a51d-6adbfe3b9580",
@@ -145,7 +145,7 @@
             },
             {
               "id": "33aac898-248f-4f87-985d-f8f1b0c2bbbe",
-              "question": "3. Lately your work hasn't been up to scratch.",
+              "question": "3. Lately your work hasn't been <b>up to scratch</b>.",
               "options": [
                 {
                   "id": "0ea5617b-a136-41c7-8ee3-0f7897b962d0",
@@ -166,7 +166,7 @@
             },
             {
               "id": "2f8e0160-c593-4f00-873b-abecf4cd4a27",
-              "question": "4. This may be a bitter pill to swallow, but several of us have noticed that your performance has been poor for the past six months.",
+              "question": "4. This may be a <b>bitter pill to swallow</b>, but several of us have noticed that your performance has been poor for the past six months.",
               "options": [
                 {
                   "id": "54347f21-c6f7-4022-9582-0377ac566efc",
@@ -187,7 +187,7 @@
             },
             {
               "id": "1b05ea37-8a59-42d3-a7f3-79d83340a54a",
-              "question": "5. You dropped the ball. The proposal was due last Friday!",
+              "question": "5. You <b>dropped the ball</b>. The proposal was due last Friday!",
               "options": [
                 {
                   "id": "d8c4590d-7791-488d-b5c5-bf21f0c0f03c",
@@ -208,7 +208,7 @@
             },
             {
               "id": "17811fb2-e78a-444c-a28f-0d101700af5e",
-              "question": "6. I could've sworn that I told you about the meeting.",
+              "question": "6. <b>I could've sworn that</b> I told you about the meeting.",
               "options": [
                 {
                   "id": "c10540b3-1a3e-4b41-ae05-73cf785c70d9",

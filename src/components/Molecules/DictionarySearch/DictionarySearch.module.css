@@ -1,7 +1,7 @@
 .dictionary-search-container {
   border-radius: 5px;
   padding: 5px;
-  background-color: white;
+  background: white;
   margin-bottom: 10px;
   box-shadow: var(--box-shadow);
 }
@@ -15,7 +15,7 @@
 
 .wordcard {
   height: 500px;
-  background-color: white;
+  background: grey;
   overflow: auto;
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);

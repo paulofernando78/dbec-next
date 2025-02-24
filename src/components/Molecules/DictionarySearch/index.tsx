@@ -1,11 +1,17 @@
 "use client";
 
+// Components
 import { useState } from "react";
 import { Button } from "@/components/Atoms/Button";
 import { WordCard } from "@/components/Molecules/Cards/WordCard";
-import styles from "./style.module.css";
 import { IDictionary } from "@/components/Molecules/Cards/WordCard/types";
+
+// Utils
 import { searchWords } from "@/utils/searchWords";
+
+// CSS
+import styles from "./DictionarySearch.module.css";
+
 
 export const DictionarySearch = () => {
   const [text, setText] = useState(""); // Entrada do usuário
