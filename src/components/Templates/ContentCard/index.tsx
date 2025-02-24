@@ -4,7 +4,7 @@ import { Whiteboard } from "@/components/Molecules/Whiteboard";
 import Image from "next/image";
 
 // CSS
-import styles from "./styles.module.css";
+import styles from "./ContentCard.module.css";
 
 // Images
 import globeIcon from "@/img/icon/globe.png";

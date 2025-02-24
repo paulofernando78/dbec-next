@@ -1,9 +1,9 @@
-@import url('../styles/reset.css');
-@import url('../styles/utilities.css');
-@import url('../styles/components.css');
+@import url("../styles/reset.css");
+@import url("../styles/utilities.css");
+@import url("../styles/components.css");
 
 /* Lato */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 :root {
   scrollbar-gutter: stable;
@@ -19,24 +19,19 @@
   --upper-intermediate: #9b59b6;
   --advanced: #8e44ad;
   --isActive: #f77d7a;
+  --background: #ffffff;
+  --text-color: #000000;
 }
 
-::-webkit-scrollbar {
-  width: 0.7rem;
-}
-
-::-webkit-scrollbar-track {
-  background: hsl(10, 10%, 90%);
-  border-radius: 100vw;
-}
-
-::-webkit-scrollbar-thumb {
-  background: hsl(10, 5%, 70%);
-  border-radius: 100vw;
-  border: 0.1rem solid hsl(10, 10%, 90%);
+[data-theme="dark"] {
+  --background: #1a1a1a;
+  --text-color: #ffffff;
+  --box-shadow: 0 0 5px 0.5px rgba(255, 255, 255, 0.2);
 }
 
 body {
+  background-color: var(--background);
+  color: var(--text-color);
   max-width: 1050px;
   margin: 0 auto;
   /* user-select: none; */
@@ -52,10 +47,6 @@ li {
 
 hr {
   border-color: rgba(255, 255, 255, 0.5);
-}
-
-.margin-top {
-  margin-top: 50px;
 }
 
 .dbec {
@@ -139,7 +130,9 @@ p {
   color: #00a2ff;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
   field-sizing: content;
 }
 

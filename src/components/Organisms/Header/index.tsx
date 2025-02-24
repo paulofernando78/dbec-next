@@ -15,7 +15,8 @@ import { Lato } from "next/font/google";
 
 const lato = Lato({
   subsets: ["latin"],
-  weight: ["400", "700"]
+  weight: ["400", "700"],
+  preload: false
   
 });
 

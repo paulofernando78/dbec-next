@@ -54,6 +54,7 @@ import {
 
 // Types
 import { NavBarProps } from "./types";
+import { ThemeSwitch } from "../ThemeSwitch";
 
 const navBarLinks = [
   // Courses
@@ -274,7 +275,8 @@ export const NavBar = ({ show, toggleShow }: NavBarProps) => {
 
   return show || !isSmallDevice ? (
     <nav className={styles["nav-bar"]}>
-      <ul className="line-break">
+      <ThemeSwitch />
+      <ul className="line-break margin-top">
         {/* <input type="text" placeholder="search" /> */}
 
         <div className="line-break">

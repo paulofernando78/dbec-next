@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./global.css";
 import { Montserrat } from "next/font/google";
+import { ThemeWrapper } from "./ThemeWrapper";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -18,9 +19,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${montserrat.className} font-sans`}>
+    <html
+      lang="en"
+      className={`${montserrat.className} font-sans`}
+      suppressHydrationWarning
+    >
       <body>
-        <main>{children}</main>
+        <ThemeWrapper>
+          <main>{children}</main>
+        </ThemeWrapper>
       </body>
     </html>
   );
