@@ -54,6 +54,7 @@ import {
 
 // Types
 import { NavBarProps } from "./types";
+import { Neumorphism } from "@/components/Atoms/Neumorphism";
 
 const navBarLinks = [
   // Courses
@@ -273,38 +274,40 @@ export const NavBar = ({ show, toggleShow }: NavBarProps) => {
   const isSmallDevice = useMediaQuery("only screen and (max-width : 768px)");
 
   return show || !isSmallDevice ? (
-    <nav className={styles["nav-bar"]}>
-      <ul className="line-break">
-        {/* <input type="text" placeholder="search" /> */}
+    <Neumorphism>
+      <nav className={styles["nav-bar"]}>
+        <ul className="line-break">
+          {/* <input type="text" placeholder="search" /> */}
 
-        <div className="line-break">
-          {navBarLinks.map((navBarLink, index) => (
-            <div key={index} className="margin-bottom">
-              <p className="font-bold">{navBarLink.label}</p>
-              <div>
-                {navBarLink.links.map((link, linkIndex) => (
-                  <div key={linkIndex} className={styles["nav-list"]}>
-                    <Image
-                      src={link.imgSrc}
-                      alt={link.altName}
-                      className={styles["nav-icon-size"]}
-                      style={{ width: link.width }}
-                    />
-                    <Link
-                      href={link.link}
-                      className={styles["nav-bar-link"]}
-                      onClick={() => toggleShow()}
-                    >
-                      <p>{link.name}</p>
-                    </Link>
-                  </div>
-                ))}
+          <div className="line-break">
+            {navBarLinks.map((navBarLink, index) => (
+              <div key={index} className="margin-bottom">
+                <p className="font-bold">{navBarLink.label}</p>
+                <div>
+                  {navBarLink.links.map((link, linkIndex) => (
+                    <div key={linkIndex} className={styles["nav-list"]}>
+                      <Image
+                        src={link.imgSrc}
+                        alt={link.altName}
+                        className={styles["nav-icon-size"]}
+                        style={{ width: link.width }}
+                      />
+                      <Link
+                        href={link.link}
+                        className={styles["nav-bar-link"]}
+                        onClick={() => toggleShow()}
+                      >
+                        <p>{link.name}</p>
+                      </Link>
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
-        </div>
-      </ul>
-    </nav>
+            ))}
+          </div>
+        </ul>
+      </nav>
+    </Neumorphism>
   ) : (
     ""
   );

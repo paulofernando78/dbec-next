@@ -1,13 +1,8 @@
 .nav-bar {
-  width: 244px;
-  padding: 8px;
-  color: white;
-  background-color: #062745;
+  width: 228px;
   border-radius: 5px;
   overflow: auto;
-  box-shadow: var(--box-shadow);
-  height: 93vh;
-  /* z-index: 1; */
+  height: 100vh;
 }
 
 .nav-icon-size {
@@ -35,7 +30,7 @@
 }
 
 .nav-bar-link {
-  color: white;
+  font-weight: bold;
   font-family: var(--font);
 }
 

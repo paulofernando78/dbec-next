@@ -2,7 +2,7 @@
 
 // Components
 import { useState } from "react";
-import { Button } from "@/components/Atoms/Button";
+import { Button } from "@/components/Atoms/Button/Button";
 import { WordCard } from "@/components/Molecules/Cards/WordCard";
 import { IDictionary } from "@/components/Molecules/Cards/WordCard/types";
 
@@ -11,7 +11,6 @@ import { searchWords } from "@/utils/searchWords";
 
 // CSS
 import styles from "./DictionarySearch.module.css";
-
 
 export const DictionarySearch = () => {
   const [text, setText] = useState(""); // Entrada do usuário

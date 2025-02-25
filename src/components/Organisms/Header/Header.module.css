@@ -1,48 +1,49 @@
 .header-container {
   width: max-content;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px;
-  background-color: #062745;
-  border-radius: var(--border-radius);
-  margin-bottom: 10px;
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-
-/* .usa-uk-flag-icon {
-  width: 23px;
-  height: fit-content;
-  margin-right: 7px;
-} */
-
-.header-inner-container {
-  display: flex;
-  align-items: start;
   flex-direction: column;
-  gap: 12px;
+  gap: 1.25rem;
 }
 
-.btn-menu {
+.header-btn-menu {
   width: 28px;
   height: fit-content;
   display: none;
 }
 
+.header-inner-container {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header-logo-name {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
 .logo-name {
   font-size: 1rem;
-  color: white;
-  font-family: "Lato", sans-serif;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  /* color: white; */
 }
 
 @media (max-width: 768px) {
   .header-container {
-    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     height: 42px;
     justify-content: space-between;
     gap: 15px;
-    padding: 1px;
+  }
+
+  .header-btn-menu {
+    display: block;
+    /* margin-left: 8px;
+    margin-top: 2px; */
   }
 
   .header-inner-container {
@@ -54,13 +55,10 @@
     gap: 12px;
   }
 
-  .btn-menu {
-    display: block;
-    margin-left: 8px;
-    margin-top: 2px;
-  }
-
-  .usa-uk-flag-icon {
-    display: none;
+  .header-logo-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25rem;
   }
 }

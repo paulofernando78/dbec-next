@@ -1,0 +1,21 @@
+
+
+.yellow-highlight {
+  background-color: yellow;
+}
+
+.beginner {
+  color: var(--beginner);
+}
+
+.elementary {
+  color: var(--elementary);
+}
+
+.pre-intermediate {
+  color: var(--pre-intermediate);
+}
+
+.intermediate {
+  color: var(--intermediate);
+}

@@ -1,8 +1,8 @@
 import { SignIn } from "./Organisms/SignIn";
-import { SignUp } from "./Organisms/SignUp"
+import { SignUp } from "./Organisms/SignUp";
 
 import { Whiteboard } from "./Molecules/Whiteboard";
-import { Button } from "./Atoms/Button";
+import { Button } from "./Atoms/Button/Button";
 import { Card } from "./Molecules/Cards/Card";
 import { Ribbon } from "./Molecules/Ribbon";
 import { BoardCard } from "./Molecules/Cards/BoardCard";
@@ -18,7 +18,7 @@ import { ScrollToTop } from "./Atoms/ScrollToTop";
 
 export {
   SignIn,
-    SignUp,
+  SignUp,
   Whiteboard,
   Button,
   Card,

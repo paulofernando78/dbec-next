@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button } from "@/components/Atoms/Button";
+import { Button } from "@/components/Atoms/Button/Button";
 import { Radio } from "@/components/Molecules/ExerciseTemplates/Radio";
 import styles from "./styles.module.css";
 import { ExercisesProps } from "./type";

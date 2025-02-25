@@ -21,25 +21,31 @@ const lato = Lato({
 
 // Typescript
 import { HeaderProps } from "./type";
-import { ThemeSwitch } from "../ThemeSwitch";
+import { ThemeSwitch } from "../../Molecules/ThemeSwitch";
+import { Neumorphism } from "@/components/Atoms/Neumorphism";
 
 export const Header = ({ show, toggleShow }: HeaderProps) => {
   return (
-    <div className={styles["header-container"]}>
+    <Neumorphism>
+      <div className={styles["header-container"]}>
         <Image
           src={btnIcon}
           alt="Button icon"
-          className={styles["btn-menu"]}
+          className={styles["header-btn-menu"]}
           onClick={() => toggleShow()}
         />
-      <div className={styles["header-inner-container"]}>
-        <Link href="/materials">
-          <p className={styles["logo-name"]}>
-            <b className={lato.className}>DAILY BASIS ENGLISH COURSE</b>
-          </p>
-        </Link>
-      <ThemeSwitch />
+        <div className={styles["header-inner-container"]}>
+          <div className={styles["header-logo-name"]}>
+            <Link href="/materials">
+              <p className={styles["logo-name"]}>
+                <b className={lato.className}>DAILY BASIS ENGLISH COURSE</b>
+              </p>
+            </Link>
+            {/* <p className="">Welcome, ...</p> */}
+          </div>
+        </div>
+        <ThemeSwitch />
       </div>
-    </div>
+    </Neumorphism>
   );
 };

@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
 import { useState } from "react";
-import { Button } from "@/components/Atoms/Button";
+import { Button } from "@/components/Atoms/Button/Button";
 import "./type";
 import Link from "next/link";
 

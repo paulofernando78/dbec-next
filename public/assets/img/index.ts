@@ -103,6 +103,7 @@ import expandDown from "./icon/expand-down.png";
 import loadingIcon from "./icon/loading.png";
 
 // M
+import moonIcon from "./icon/moon.png";
 
 // N
 import notesIcon from "./icon/notes.png";
@@ -123,6 +124,7 @@ import searchIcon from "./icon/search.png";
 import smallSwimmingPool from "./bitmoji/small-swimming-pool.png";
 import speakerIcon from "./icon/speaker.png";
 import stopIcon from "./icon/stop-button.png";
+import sunIcon from "./icon/sun.png";
 
 // T
 import timeIcon from "./icon/time.png";
@@ -248,6 +250,7 @@ export {
   loadingIcon,
 
   // M
+  moonIcon,
 
   // N
   notesIcon,
@@ -268,6 +271,7 @@ export {
   smallSwimmingPool,
   speakerIcon,
   stopIcon,
+  sunIcon,
 
   // T
   timeIcon,

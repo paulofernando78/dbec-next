@@ -1,4 +1,4 @@
-import { Button } from "@/components/Atoms/Button";
+import { Button } from "@/components/Atoms/Button/Button";
 import Link from "next/link";
 import styles from "./styles.module.css";
 import "./type";

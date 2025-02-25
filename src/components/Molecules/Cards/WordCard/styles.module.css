@@ -1,0 +1,182 @@
+.wordcard-container {
+  background-color: rgba(255, 255, 0, 0.083);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  margin-bottom: 10px;
+  margin: 5px;
+  position: relative;
+}
+
+.input-style::placeholder {
+  font-size: var(--p-size);
+}
+
+.margin-top {
+  margin-top: 0.3rem;
+}
+
+.close-button {
+  position: absolute;
+  right: 5px
+}
+
+.audio-container {
+  display: inline-block;
+  margin-right: 8px;
+  position: relative;
+  top: 4px;
+}
+
+/* Play */
+
+.play {
+  width: 21px;
+  height: 21px;
+  clip-path: polygon(50% 30%, 85% 100%, 10% 100%);
+  background: black;
+  transform: scale(0.5, 0.8);
+  transform: rotate(90deg);
+  position: relative;
+  left: 4px;
+}
+
+.play::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 21;
+  height: 21;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 21px solid red;
+  transform: scale(1.1);
+  z-index: -1;
+}
+
+/* Loading */
+
+.loading {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  border: 5px solid #bbb;
+  border-top: 5px solid #000;
+  animation: rotate 1.5s linear infinite;
+  transform: scale(0.85);
+}
+
+/* Playing */
+
+.waves-flex {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  width: 21px;
+  height: 21px;
+}
+
+.waves {
+  background: black;
+  width: 3px;
+  height: 21px;
+  border-radius: 10%;
+  outline: 1px solid;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  position: relative;
+  left: 4px;
+}
+.wave-1 {
+  animation-name: wave-1;
+  animation-duration: .5s;
+}
+
+@keyframes wave-1 {
+  0% {
+    transform: scaleY(.8);
+  }
+  50% {
+    transform: scaleY(.5);
+  }
+  100% {
+    transform: scaleY(.8);
+  }
+}
+
+.wave-2 {
+  animation-name: wave-2;
+  animation-duration: .5s;
+  animation-delay: 0.2s;
+}
+
+@keyframes wave-2 {
+  0% {
+    transform: scaleY(.8);
+  }
+  50% {
+    transform: scaleY(.5);
+  }
+  100% {
+    transform: scaleY(.8);
+  }
+}
+
+.wave-3 {
+  animation-name: wave-3;
+  animation-duration: .5s;
+  animation-delay: 0.5s;
+}
+
+@keyframes wave-3 {
+  0% {
+    transform: scaleY(.8);
+  }
+  50% {
+    transform: scaleY(.5);
+  }
+  100% {
+    transform: scaleY(.8);
+  }
+}
+
+.close-button {
+  cursor: pointer;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.word-margin-bottom {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.margin-right {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.border {
+  padding: 1px 5px 9px 5px;
+}
+
+.padding-left {
+  padding-left: 4px;
+}
+
+.border-left {
+  margin-left: 4px;
+  padding-left: 10px;
+  border-left: 3px solid black;
+  border-radius: 5px 0 0 5px;
+}

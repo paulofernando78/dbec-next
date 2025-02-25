@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
 import { useState } from "react";
-import { Button } from "@/components/Atoms/Button";
-import {SignUpProps} from "@components/Organisms/SignUp/type";
+import { Button } from "@/components/Atoms/Button/Button";
+import { SignUpProps } from "@components/Organisms/SignUp/type";
 
 export const SignUp = ({ handleFlipAction }: SignUpProps) => {
   const [username, setUsername] = useState("");

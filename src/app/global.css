@@ -1,18 +1,20 @@
 @import url("../styles/reset.css");
 @import url("../styles/utilities.css");
 @import url("../styles/components.css");
-
-/* Lato */
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("../styles/typography.css");
+@import url("../styles/colors.css");
 
 :root {
   scrollbar-gutter: stable;
   --background: #ffffff;
   --text-color: #000000;
-  --box-shadow: 0 0 5px 0.5px #999;
+  --morphism-bg: rgb(240, 240, 240);
+  --border-radius: 6px;
+  --box-shadow: -7px -7px 20px 0px #fff9,
+  -4px -4px 5px 0 #fff9, 7px 7px 20px 0px #0002,
+  4px 4px 5px 0 #0001;
   --p-size: 1.2rem;
   --img-border: 5px solid rgba(211, 211, 211, 0.233);
-  --border-radius: 5px;
   --padding: 2px 7px;
   --beginner: #fcc418;
   --elementary: #ec3b3b;
@@ -27,10 +29,11 @@
   --background: #1a1a1a;
   --text-color: #ffffff;
   --box-shadow: 0 0 5px 0.5px rgba(255, 255, 255, 0.2);
+  --morphism-bg: #1a1a1a;
 }
 
 body {
-  background-color: var(--background);
+  background: var(--background);
   color: var(--text-color);
   max-width: 1050px;
   margin: 0 auto;
@@ -141,56 +144,6 @@ iframe {
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   border: 0;
-}
-
-/* COLORS */
-
-.yellow-highlight {
-  background-color: yellow;
-}
-
-.white {
-  color: white;
-}
-
-.black {
-  color: black;
-}
-
-.bg-black {
-  background-color: black;
-}
-
-.red {
-  color: red;
-}
-
-.blue {
-  color: #00a2ff;
-}
-
-.beginner {
-  color: var(--beginner);
-}
-
-.elementary {
-  color: var(--elementary);
-}
-
-.pre-intermediate {
-  color: var(--pre-intermediate);
-}
-
-.intermediate {
-  color: var(--intermediate);
-}
-
-.bg-red {
-  background-color: red;
-}
-
-.bg-lightgrey {
-  background-color: lightgrey;
 }
 
 @media (width < 768px) {
