@@ -1,8 +1,7 @@
 import { SignIn } from "./Organisms/SignIn";
 import { SignUp } from "./Organisms/SignUp";
-
+import { Button } from "@/components/Atoms/Button/Button";
 import { Whiteboard } from "./Molecules/Whiteboard";
-import { Button } from "./Atoms/Button/Button";
 import { Card } from "./Molecules/Cards/Card";
 import { Ribbon } from "./Molecules/Ribbon";
 import { BoardCard } from "./Molecules/Cards/BoardCard";

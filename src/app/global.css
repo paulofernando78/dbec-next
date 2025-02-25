@@ -6,13 +6,14 @@
 
 :root {
   scrollbar-gutter: stable;
-  --background: #ffffff;
+  --background: #e8e8e8;
   --text-color: #000000;
-  --morphism-bg: rgb(240, 240, 240);
+  --morphism-bg:#DDE1E7;
   --border-radius: 6px;
-  --box-shadow: -7px -7px 20px 0px #fff9,
-  -4px -4px 5px 0 #fff9, 7px 7px 20px 0px #0002,
-  4px 4px 5px 0 #0001;
+  --box-shadow: -3px -3px 10px #ffffff,  /* Light inner shadow */
+  5px 5px 10px rgba(0, 0, 0, 0.15), /* Dark inner shadow */
+  -7px -7px 20px rgba(255, 255, 255, 0.7),  /* Soft outer highlight */
+  7px 7px 20px rgba(0, 0, 0, 0.2); /* Soft outer shadow */
   --p-size: 1.2rem;
   --img-border: 5px solid rgba(211, 211, 211, 0.233);
   --padding: 2px 7px;
@@ -28,7 +29,10 @@
 [data-theme="dark"] {
   --background: #1a1a1a;
   --text-color: #ffffff;
-  --box-shadow: 0 0 5px 0.5px rgba(255, 255, 255, 0.2);
+  --box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.1), /* Soft light inner shadow */
+  5px 5px 10px rgba(0, 0, 0, 0.5), /* Darker inner shadow */
+  -7px -7px 20px rgba(255, 255, 255, 0.05), /* Outer light highlight */
+  7px 7px 20px rgba(0, 0, 0, 0.6);
   --morphism-bg: #1a1a1a;
 }
 
@@ -85,58 +89,6 @@ hr {
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   padding: 10px;
-}
-
-/* TIPOGRAPHY */
-
-h1 {
-  font-size: 2.3rem;
-}
-
-h2 {
-  font-size: 1.8rem;
-}
-
-h3 {
-  font-size: 1.6rem;
-}
-
-p {
-  font-size: var(--p-size);
-}
-
-.p-font {
-  font-size: var(--p-size);
-}
-
-.p-size-small {
-  font-size: 0.9rem;
-}
-
-.p-size-smaller {
-  font-size: 0.7rem;
-}
-
-.times-new-roman-dictionary {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.1rem;
-  font-style: italic;
-}
-
-.portuguese {
-  color: rgba(128, 128, 128, 0.75);
-}
-
-.phonetics {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.2rem;
-  color: #00a2ff;
-}
-
-input,
-textarea,
-select {
-  field-sizing: content;
 }
 
 iframe {

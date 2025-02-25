@@ -1,10 +1,12 @@
 "use client";
 
 // Components
-import { useState } from "react";
-import { Button } from "@/components/Atoms/Button/Button";
 import { WordCard } from "@/components/Molecules/Cards/WordCard";
 import { IDictionary } from "@/components/Molecules/Cards/WordCard/types";
+import { Button } from "@/components/Atoms/Button/Button";
+
+// Hooks
+import { useState } from "react";
 
 // Utils
 import { searchWords } from "@/utils/searchWords";

@@ -1,12 +1,14 @@
 .flex-button {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
-.btn-customazation {
-    border: none;
-    font-size: var(--p-size);
-    cursor: pointer;
-    transition: all 0.3s;
+.btn-customization {
+  border: none;
+  font-size: var(--p-size);
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);
+  padding: 0.5rem;
+  transition: all 0.3s;
 }
-

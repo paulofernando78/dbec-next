@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Button, Whiteboard } from "@/components";
+import { Whiteboard } from "@/components";
 import styles from "./styles.module.css";
 
 export default function UsersDashboard() {

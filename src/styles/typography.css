@@ -1,0 +1,45 @@
+/* TIPOGRAPHY */
+
+h1 {
+  font-size: 2.3rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: var(--p-size);
+}
+
+.p-font {
+  font-size: var(--p-size);
+}
+
+.p-size-small {
+  font-size: 0.9rem;
+}
+
+.p-size-smaller {
+  font-size: 0.7rem;
+}
+
+.times-new-roman-dictionary {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.portuguese {
+  color: rgba(128, 128, 128, 0.75);
+}
+
+.phonetics {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  color: #00a2ff;
+}

@@ -2,7 +2,7 @@
 
 // Components
 import { useState } from "react";
-import { Button, SignIn, SignUp } from "@/components";
+import { Button, SignIn } from "@/components";
 import { IconContent } from "@/components/Molecules/IconContent";
 import Image from "next/image";
 import {

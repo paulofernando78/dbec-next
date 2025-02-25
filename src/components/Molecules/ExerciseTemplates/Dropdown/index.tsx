@@ -7,7 +7,7 @@ import { useState } from "react";
 import { Button } from "@/components/Atoms/Button/Button";
 
 // CSS
-import styles from "./styles.module.css";
+import styles from "./Dropdown.module.css";
 
 // Images
 import Image from "next/image";

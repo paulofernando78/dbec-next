@@ -1,8 +1,15 @@
-import { Button } from "@/components/Atoms/Button/Button";
+// Components
 import Link from "next/link";
-import styles from "./styles.module.css";
-import "./type";
+import { Button } from "@/components/Atoms/Button/Button";
+
+// Hooks
 import { useState, useEffect } from "react";
+
+// CSS
+import styles from "./styles.module.css";
+
+// Typescript
+import "./type";
 
 export const Login = ({ isOpen, setIsOpen }: LoginProps) => {
   const [closing, setClosing] = useState(false);

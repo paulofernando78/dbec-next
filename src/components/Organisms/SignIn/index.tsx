@@ -1,9 +1,19 @@
 "use client";
 
-import { useState } from "react";
-import { Button } from "@/components/Atoms/Button/Button";
-import "./type";
 import Link from "next/link";
+
+// Components
+import { Button } from "@/components/Atoms/Button/Button";
+
+// Hooks
+import { useState } from "react";
+
+// CSS
+import styles from "./SignIn.module.css";
+
+// Typescript
+import "./type";
+import { Neumorphism } from "@/components/Atoms/Neumorphism";
 
 export const SignIn = ({ handleFlipAction }: SignInProps) => {
   const [username, setUsername] = useState("");
@@ -40,38 +50,43 @@ export const SignIn = ({ handleFlipAction }: SignInProps) => {
   };
 
   return (
-    <form
-      className="auth-container"
-      onSubmit={(e) => {
-        e.preventDefault();
-        handleSubmit();
-      }}
-    >
-      <p className="font-bold">Username</p>
-      <input
-        type="text"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-        required
-      ></input>
-      <p className="font-bold">Password</p>
-      <input
-        type="password"
-        className="p-font auth-container-password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-        required
-      ></input>
-
-      {error && <p style={{ color: "red" }}>{error}</p>}
-
-      <Button label="Sign in / Log in" type="submit" onClick={handleSubmit} />
-      <p className="p-size-small">
-        Not a member?{" "}
-        <Link href="#contact-me" className="cursor-pointer underline">
-          Contat me!
-        </Link>
-      </p>
-    </form>
+    <Neumorphism>
+      <form
+        className={styles["container"]}
+        onSubmit={(e) => {
+          e.preventDefault();
+          handleSubmit();
+        }}
+      >
+        <p className="font-bold">Username</p>
+        <input
+          type="text"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+          className={styles["username-input"]}
+          required
+        ></input>
+        <p className="font-bold">Password</p>
+        <input
+          type="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          className={styles["password-input"]}
+          required
+        ></input>
+  
+        {error && <p className={styles["error"]}>{error}</p>}
+  
+        <div className={styles["login-button"]}>
+          <Button label="Sign in / Log in" type="submit" onClick={handleSubmit} width="100%"/>
+        </div>
+        <p className="p-size-small">
+          Not a member?{" "}
+          <Link href="#contact-me" className="cursor-pointer underline">
+            Contact me!
+          </Link>
+        </p>
+      </form>
+    </Neumorphism>
   );
 };
