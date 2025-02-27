@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+
 // Hooks
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
@@ -14,7 +15,6 @@ import { ButtonProps } from "./Button.types";
 export const Button = ({
   label,
   onClick,
-  isActive = false,
   type = "button",
   width = "40px",
   height = "40px",
@@ -23,6 +23,7 @@ export const Button = ({
   imgAlt,
 }: ButtonProps) => {
   const [show, setShow] = useState(false);
+  const [isActive, toggleActive] = useButtonContext();
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   // Carregar o áudio quando o componente montar
@@ -43,6 +44,7 @@ export const Button = ({
     if (onClick) {
       onClick();
     }
+    toggleActive();
   };
 
   return (
@@ -68,3 +70,14 @@ export const Button = ({
     </>
   );
 };
+
+function useButtonContext(): [boolean, () => void] {
+  const [isActive, setIsActive] = useState(false);
+  
+  const toggleActive = () => {
+    setIsActive(prev => !prev);
+  };
+
+  return [isActive, toggleActive];
+}
+

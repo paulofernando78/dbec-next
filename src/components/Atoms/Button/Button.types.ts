@@ -11,5 +11,5 @@ export interface ButtonProps {
   children?: React.ReactNode;
   imgSrc?: StaticImageData;
   imgAlt?: string;
-  isActive: boolean;
+  isActive?: boolean; // Make this optional since it's managed internally
 }
