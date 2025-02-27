@@ -2,8 +2,8 @@
 import { Button } from "@/components/Atoms/Button";
 
 // Images
-import { closeIcon } from "@/img/index";
+import { xIcon } from "@/img/index";
 
-export const CloseButton = ({onClick}: {onClick: () => void}) => {
-  return <Button imgSrc={closeIcon} imgAlt="Search icon" onClick={onClick}/>;
+export const CloseButton = ({ onClick }: { onClick: () => void }) => {
+  return <Button imgSrc={xIcon} imgAlt="Search icon" onClick={onClick} />;
 };

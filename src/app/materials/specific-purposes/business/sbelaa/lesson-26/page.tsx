@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 
 // Components
-import { LessonTemplate } from "@/components/Templates/Lesson/Index";
+import { LessonTemplate } from "@/components/Templates/Lesson/Lesson";
 
 const CONTENTS_JSON_PATH =
   "/assets/data/materials/specific-purposes/business/sbelaa/lesson-26.json";

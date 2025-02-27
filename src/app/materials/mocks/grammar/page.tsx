@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 
 // Components
-import { LessonTemplate } from "@/components/Templates/Lesson/Index";
+import { LessonTemplate } from "@/components/Templates/Lesson/Lesson";
 
 export default function GrammarMock() {
   const [lessonData, setLessonData] = useState(null);
@@ -34,7 +34,5 @@ export default function GrammarMock() {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading lesson data.</p>;
 
-  return (
-    <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />
-  );
+  return <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />;
 }

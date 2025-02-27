@@ -75,6 +75,7 @@ import incorrectIcon from "./icon/incorrect.png";
 import brFlagIcon from "./icon/flag/brazil.png";
 
 // C
+import checkIcon from "./icon/check.png";
 import clockWakeUpHate from "./bitmoji/clock-wakeup-hate.png";
 import closeIcon from "./icon/close.png";
 
@@ -83,7 +84,7 @@ import dictionaryIcon from "./icon/dictionary.png";
 import dictionaryOpenIcon from "./icon/dictionary-open.png";
 
 // E
-import EyeIcon from "./icon/eye.png";
+import eyeIcon from "./icon/eye.png";
 import expandForward from "./icon/expand-forward.png";
 import expandDown from "./icon/expand-down.png";
 
@@ -118,6 +119,9 @@ import playingIcon from "./icon/playing.png";
 import questionMarkGif from "./gif/question-mark.gif";
 
 // R
+import resetIcon from "./icon/reset.png";
+import resetIconSVG from "./icon/reset.svg";
+
 
 // S
 import searchIcon from "./icon/search.png";
@@ -141,6 +145,7 @@ import ukFlagIcon from "./icon/flag/uk.png";
 
 // X
 import xmas1 from "./bitmoji/xmas1.png";
+import xIcon from "./icon/x.png";
 
 // Y
 
@@ -223,6 +228,7 @@ export {
   brFlagIcon,
 
   // C
+  checkIcon,
   clockWakeUpHate,
   closeIcon,
 
@@ -231,7 +237,7 @@ export {
   dictionaryOpenIcon,
 
   // E
-  EyeIcon,
+  eyeIcon,
   expandForward,
   expandDown,
 
@@ -266,6 +272,8 @@ export {
   questionMarkGif,
 
   // R
+  resetIcon,
+  resetIconSVG,
 
   // S
   searchIcon,
@@ -289,6 +297,7 @@ export {
 
   // X
   xmas1,
+  xIcon,
 
   // Y
 

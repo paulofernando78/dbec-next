@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 
 // Components
-import { LessonTemplate } from "@/components/Templates/Lesson/Index";
+import { LessonTemplate } from "@/components/Templates/Lesson/Lesson";
 
 export default function ExtrasGrammarIntermediateUnit133() {
   const [lessonData, setLessonData] = useState(null);

@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 
 // Components
-import { LessonTemplate } from "@/components/Templates/Lesson/Index";
+import { LessonTemplate } from "@/components/Templates/Lesson/Lesson";
 
 const VOALink =
   "/assets/data/materials/extras/skills/listening/articles/health-and-lifestyle/doctors-give-new-guidelines-for-preventing-stroke.json";
