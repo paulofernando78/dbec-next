@@ -124,6 +124,7 @@ import searchIcon from "./icon/search.png";
 import smallSwimmingPool from "./bitmoji/small-swimming-pool.png";
 import speakerIcon from "./icon/speaker.png";
 import stopIcon from "./icon/stop-button.png";
+import studentsAccessIcon from "./icon/students-access.png";
 import sunIcon from "./icon/sun.png";
 
 // T
@@ -271,6 +272,7 @@ export {
   smallSwimmingPool,
   speakerIcon,
   stopIcon,
+  studentsAccessIcon, 
   sunIcon,
 
   // T

@@ -30,6 +30,7 @@ const lato = Lato({
 import "./global.css";
 import styles from "./page.module.css";
 import { ThemeSwitch } from "@/components/Molecules/Buttons/ThemeSwitch";
+import { StudentsAccessButton } from "@/components";
 
 const iconContent = [
   {
@@ -83,23 +84,18 @@ const iconContentContact = [
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isFlipped, setIsFlipped] = useState(true);
-
-  const handleFlip = () => {
-    setIsFlipped((prev) => !prev);
-  };
 
   return (
     <div>
       <div className={styles["page-container"]}>
-        <Button label="Student Access" onClick={() => setIsModalOpen(true)} isActive={true}/>
+        <StudentsAccessButton onClick={() => setIsModalOpen(true)}/>
         <ThemeSwitch />
       </div>
 
       {isModalOpen && (
         <div className={styles["wrapper-student-access"]}>
           <div className={styles["sign-in-container"]}>
-            <SignIn handleFlipAction={handleFlip} />
+            <SignIn />
           </div>
         </div>
       )}

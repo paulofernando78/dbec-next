@@ -11,11 +11,9 @@ import { useState } from "react";
 // CSS
 import styles from "./SignIn.module.css";
 
-// Typescript
-import "./type";
 import { Neumorphism } from "@/components/Atoms/Neumorphism";
 
-export const SignIn = ({ handleFlipAction }: SignInProps) => {
+export const SignIn = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");

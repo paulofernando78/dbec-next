@@ -63,8 +63,7 @@ export const DictionarySearch = () => {
     <>
       <div className={styles["dictionary-search-container"]}>
         <div className={styles["image-input-button-flex"]}>
-          <DictionarySearchButton />
-          <Button label="Search" onClick={handleShowWordCard} isActive={false}/>
+          <DictionarySearchButton onClick={handleShowWordCard}/>
           <input
             type="text"
             placeholder="Dictionary"
