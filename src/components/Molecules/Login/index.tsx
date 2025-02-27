@@ -42,9 +42,9 @@ export const Login = ({ isOpen, setIsOpen }: LoginProps) => {
         <span className={styles["login-close-btn"]}>
           <Button
             label="Login"
-            onClick={() => (window.location.href = "/materials")}
+            onClick={() => (window.location.href = "/materials")} isActive={true}
           ></Button>
-          <Button label="✖" onClick={handleClose} />
+          <Button label="✖" onClick={handleClose}  isActive={true}/>
         </span>
         <p className="p-size-small">
           Not a member? <Link href="#contact-me">Contact me!</Link>

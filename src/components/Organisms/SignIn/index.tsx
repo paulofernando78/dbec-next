@@ -78,7 +78,7 @@ export const SignIn = ({ handleFlipAction }: SignInProps) => {
         {error && <p className={styles["error"]}>{error}</p>}
   
         <div className={styles["login-button"]}>
-          <Button label="Sign in / Log in" type="submit" onClick={handleSubmit} width="100%"/>
+          <Button label="Sign in / Log in" type="submit" onClick={handleSubmit} width="100%" isActive={true}/>
         </div>
         <p className="p-size-small">
           Not a member?{" "}

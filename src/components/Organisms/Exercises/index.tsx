@@ -82,12 +82,12 @@ export const Exercises = ({ exercises = [], id }: ExercisesProps) => {
           )}
 
           <div className="flex-8px-center-wrap">
-            <Button label="Check answers" onClick={handleCheckAnswer} />
+            <Button label="Check answers" onClick={handleCheckAnswer} isActive={true}/>
             <Button
               label={`${showAnswer ? "Hide" : "Show"} answers`}
-              onClick={handleShowAnswer}
+              onClick={handleShowAnswer} isActive={true}
             />
-            <Button label="Reset" onClick={handleResetAnswers} />
+            <Button label="Reset" onClick={handleResetAnswers} isActive={true}/>
           </div>
         </div>
       ))}

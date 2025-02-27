@@ -130,10 +130,10 @@ export const Dropdown: React.FC<DropdownProps> = ({ questions }) => {
         </div>
         <div className="flex-8px">
           <div>
-            <Button label="Check answers" onClick={handleCheckAnswers} />
+            <Button label="Check answers" onClick={handleCheckAnswers} isActive={true}/>
           </div>
           <div>
-            <Button label="Reset" onClick={handleReset} />
+            <Button label="Reset" onClick={handleReset} isActive={true}/>
           </div>
         </div>
       </div>

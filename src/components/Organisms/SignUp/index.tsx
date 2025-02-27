@@ -64,7 +64,7 @@ export const SignUp = ({ handleFlipAction }: SignUpProps) => {
 
       {error && <p style={{ color: "red" }}>{error}</p>}
 
-      <Button label="Sign up" type="submit" onClick={handleSubmit} />
+      <Button label="Sign up" type="submit" onClick={handleSubmit} isActive={true}/>
       <p className="p-size-small">
         Already a member?{" "}
         <span onClick={handleFlipAction} className="cursor-pointer underline">

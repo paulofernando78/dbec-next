@@ -25,7 +25,7 @@ export const ThemeSwitch = () => {
   return (
     <div className={styles["container"]}>
       <Button
-        onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+        onClick={() => setTheme(theme === "light" ? "dark" : "light")} isActive={true}
         width="40px"
         height="40px"
       >

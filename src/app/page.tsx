@@ -92,7 +92,7 @@ export default function Home() {
   return (
     <div>
       <div className={styles["page-container"]}>
-        <Button label="Student Access" onClick={() => setIsModalOpen(true)} />
+        <Button label="Student Access" onClick={() => setIsModalOpen(true)} isActive={true}/>
         <ThemeSwitch />
       </div>
 
