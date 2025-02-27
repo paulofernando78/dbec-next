@@ -14,26 +14,11 @@ import { searchWords } from "@/utils/searchWords";
 // CSS
 import styles from "./DictionarySearch.module.css";
 import { DictionarySearchButton } from "@components/index";
+import { CloseButton } from "../Buttons/CloseButton/CloseButton";
 
 export const DictionarySearch = () => {
   const [text, setText] = useState(""); // Entrada do usuário
   const [dicts, setDicts] = useState<IDictionary[]>([]); // Palavras encontradas
-
-  // async function handleShowWordCard() {
-  //   if (text) {
-  //     // Realiza o filtro das palavras usado 'searchWords'
-  //     const wordsFound = await searchWords(text);
-  //     // Valida se contêm items na lista antes de atualiza-la
-  //     if (wordsFound?.length) {
-  //       // Se houver itens, atualiza a lista.
-  //       setDicts(wordsFound);
-  //     }
-  //   }
-  // }
-
-  // const handleRemoveWordCard = (keyword: string) => {
-  //   setDicts((prev) => prev.filter((dict) => dict.keyword !== keyword));
-  // };
 
   async function handleShowWordCard() {
     if (text) {
@@ -53,6 +38,11 @@ export const DictionarySearch = () => {
     );
   };
 
+  const handleClearSearch = () => {
+    setText("");
+    setDicts([]);
+  };
+
   function detectEnterClick(e: React.KeyboardEvent) {
     if (e.key === "Enter") {
       handleShowWordCard();
@@ -63,13 +53,15 @@ export const DictionarySearch = () => {
     <>
       <div className={styles["dictionary-search-container"]}>
         <div className={styles["image-input-button-flex"]}>
-          <DictionarySearchButton onClick={handleShowWordCard}/>
+          <DictionarySearchButton onClick={handleShowWordCard} />
           <input
             type="text"
             placeholder="Dictionary"
+            value={text} // Add value to create a controlled input
             onChange={(e) => setText(e.target.value)}
             onKeyUp={detectEnterClick}
           />
+          <CloseButton onClick={handleClearSearch} />
         </div>
       </div>
       {dicts.length != 0 && (
