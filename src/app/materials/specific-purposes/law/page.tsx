@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
 
 export default function Law() {
   return (

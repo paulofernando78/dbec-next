@@ -1,6 +1,6 @@
 // Components
 import Link from "next/link";
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
 import Image from "next/image";
 
 // CSS

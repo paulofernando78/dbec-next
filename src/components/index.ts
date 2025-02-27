@@ -1,7 +1,11 @@
 import { SignIn } from "./Organisms/SignIn";
 import { SignUp } from "./Organisms/SignUp";
-import { Button } from "@/components/Atoms/Button/Button";
-import { Whiteboard } from "./Molecules/Whiteboard";
+import { Header } from "./Organisms/Header";
+import { NavBar } from "./Organisms/NavBar";
+import { Whiteboard } from "./Molecules/Whiteboard/Whiteboard";
+import { Button } from "@/components/Atoms/Button/";
+import { HeaderMenuButton } from "./Molecules/Buttons/HeaderMenuButton/HeaderMenuButton";
+import { DictionarySearchButton } from "./Molecules/Buttons/DictionarySearchButton/DictionarySearchButton";
 import { Card } from "./Molecules/Cards/Card";
 import { Ribbon } from "./Molecules/Ribbon";
 import { BoardCard } from "./Molecules/Cards/BoardCard";
@@ -18,8 +22,12 @@ import { ScrollToTop } from "./Atoms/ScrollToTop";
 export {
   SignIn,
   SignUp,
+  Header,
+  NavBar,
   Whiteboard,
   Button,
+  HeaderMenuButton,
+  DictionarySearchButton,
   Card,
   Ribbon,
   BoardCard,

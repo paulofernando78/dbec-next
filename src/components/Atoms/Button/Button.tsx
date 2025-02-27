@@ -3,29 +3,34 @@
 import React from "react";
 // Hooks
 import { useState, useEffect, useRef } from "react";
+import Image from "next/image";
 
 // CSS
 import styles from "./Button.module.css";
 
 // Typescript
-import { ButtonProps } from "./ButtonProps";
+import { ButtonProps } from "./Button.types";
 
 export const Button = ({
   label,
   onClick,
-  toggle,
+  isActive = false,
   type = "button",
-  width,
-  height
+  width = "40px",
+  height = "40px",
+  children,
+  imgSrc,
+  imgAlt,
 }: ButtonProps) => {
   const [show, setShow] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
+  // Carregar o áudio quando o componente montar
   useEffect(() => {
     audioRef.current = new Audio("/assets/audio/click.mp3");
   }, []);
 
-  const playsound = () => {
+  const playSound = () => {
     if (audioRef.current) {
       audioRef.current.play().catch((error) => {
         console.log("Audio playback failed:", error);
@@ -34,11 +39,7 @@ export const Button = ({
   };
 
   const handleClick = () => {
-    playsound();
-
-    if (toggle) {
-      setShow(!show);
-    }
+    playSound();
     if (onClick) {
       onClick();
     }
@@ -49,12 +50,21 @@ export const Button = ({
       <button
         onClick={handleClick}
         type={type}
-        style={{ width: width, height: height }}
-        className={styles["btn-customization"]}
+        style={{ minWidth: width, minHeight: height }}
+        className={`${styles["btn"]} ${isActive ? styles["active"] : ""}`}
       >
         {label && <b>{label}</b>}
+        {children}
+        {imgSrc && (
+          <Image
+            src={imgSrc}
+            alt={imgAlt || ""}
+            width={24}
+            height={24}
+            className={styles["btn-img"]}
+          />
+        )}
       </button>
-      {toggle && show && <p>...</p>}
     </>
   );
 };

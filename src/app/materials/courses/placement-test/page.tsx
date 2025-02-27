@@ -1,4 +1,4 @@
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
 import styles from "./styles.module.css";
 import { TextArea } from "@/components/Molecules/TextArea";
 

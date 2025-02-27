@@ -28,7 +28,7 @@ import { Exercise } from "@/components/Templates/Lesson/types";
 import Iframe from "@/components/Atoms/Iframe";
 import Image from "next/image";
 import { Content } from "@/components/Atoms/Content";
-import { DictionarySearch } from "@/components/Molecules/DictionarySearch";
+import { DictionarySearch } from "@/components/Molecules/DictionarySearch/DictionarySearch";
 
 const baseImgScr = "/assets/img";
 
@@ -61,7 +61,7 @@ export const LessonTemplate = ({
 
         {/* Dictionary */}
         {/* position-sticky has z-index: 2 */}
-        <div className="position-sticky" style={{ zIndex: "3" }}> 
+        <div className="position-sticky" style={{ zIndex: "3" }}>
           <DictionarySearch />
         </div>
 
@@ -149,10 +149,7 @@ export const LessonTemplate = ({
 
             {/* Iframe */}
             {lesson.iframeSrc && (
-              <Iframe
-                src={lesson.iframeSrc}
-                height={lesson.iframeHeight}
-              />
+              <Iframe src={lesson.iframeSrc} height={lesson.iframeHeight} />
             )}
 
             {/* Exercises */}

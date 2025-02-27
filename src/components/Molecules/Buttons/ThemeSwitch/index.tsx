@@ -28,14 +28,15 @@ export const ThemeSwitch = () => {
         onClick={() => setTheme(theme === "light" ? "dark" : "light")}
         width="40px"
         height="40px"
-      />
-      <Image
-        src={theme === "dark" ? sunIcon : moonIcon}
-        alt="Theme Icon"
-        width={30}
-        height={30}
-        className={styles["img-position"]}
-      />
+      >
+        <Image
+          src={theme === "dark" ? sunIcon : moonIcon}
+          alt="Theme Icon"
+          width={30}
+          height={30}
+          className={styles["img-position"]}
+        />
+      </Button>
     </div>
   );
 };

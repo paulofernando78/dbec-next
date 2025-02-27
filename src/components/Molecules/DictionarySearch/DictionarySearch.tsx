@@ -3,7 +3,7 @@
 // Components
 import { WordCard } from "@/components/Molecules/Cards/WordCard";
 import { IDictionary } from "@/components/Molecules/Cards/WordCard/types";
-import { Button } from "@/components/Atoms/Button/Button";
+import { Button } from "@/components/Atoms/Button/";
 
 // Hooks
 import { useState } from "react";
@@ -13,6 +13,7 @@ import { searchWords } from "@/utils/searchWords";
 
 // CSS
 import styles from "./DictionarySearch.module.css";
+import { DictionarySearchButton } from "@components/index";
 
 export const DictionarySearch = () => {
   const [text, setText] = useState(""); // Entrada do usuário
@@ -62,6 +63,7 @@ export const DictionarySearch = () => {
     <>
       <div className={styles["dictionary-search-container"]}>
         <div className={styles["image-input-button-flex"]}>
+          <DictionarySearchButton />
           <Button label="Search" onClick={handleShowWordCard} />
           <input
             type="text"

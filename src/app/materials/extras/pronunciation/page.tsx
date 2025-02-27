@@ -1,6 +1,6 @@
 "use client";
 
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
 import { DescriptionCard } from "@/components/Molecules/Cards/DescriptionCard";
 import { DictionaryCard } from "@/components";
 import { ScrollToTop } from "@/components/Atoms/ScrollToTop";

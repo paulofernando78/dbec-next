@@ -1,4 +1,4 @@
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
 import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 
 export default function BeginnerLesson3Homework() {

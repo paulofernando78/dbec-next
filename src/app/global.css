@@ -3,28 +3,7 @@
 @import url("../styles/components.css");
 @import url("../styles/typography.css");
 @import url("../styles/colors.css");
-
-:root {
-  scrollbar-gutter: stable;
-  --background: #e8e8e8;
-  --text-color: #000000;
-  --morphism-bg:#DDE1E7;
-  --border-radius: 6px;
-  --box-shadow: -3px -3px 10px #ffffff,  /* Light inner shadow */
-  5px 5px 10px rgba(0, 0, 0, 0.15), /* Dark inner shadow */
-  -7px -7px 20px rgba(255, 255, 255, 0.7),  /* Soft outer highlight */
-  7px 7px 20px rgba(0, 0, 0, 0.2); /* Soft outer shadow */
-  --p-size: 1.2rem;
-  --img-border: 5px solid rgba(211, 211, 211, 0.233);
-  --padding: 2px 7px;
-  --beginner: #fcc418;
-  --elementary: #ec3b3b;
-  --pre-intermediate: #1f8feb;
-  --intermediate: #81c221;
-  --upper-intermediate: #9b59b6;
-  --advanced: #8e44ad;
-  --isActive: #f77d7a;
-}
+@import url("../styles/variables.css");
 
 [data-theme="dark"] {
   --background: #1a1a1a;
@@ -41,7 +20,7 @@ body {
   color: var(--text-color);
   max-width: 1050px;
   margin: 0 auto;
-  /* user-select: none; */
+  user-select: none;
 }
 
 main {

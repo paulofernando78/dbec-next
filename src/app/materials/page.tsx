@@ -1,8 +1,7 @@
-
-import { DictionarySearch } from "@/components/Molecules/DictionarySearch";
+import { DictionarySearch } from "@/components/Molecules/DictionarySearch/DictionarySearch";
 import HowYouFeeling from "@/components/Molecules/HowYouFeeling";
 import { Welcome } from "@/components/Molecules/Welcome";
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
 
 export default function Material() {
   return (

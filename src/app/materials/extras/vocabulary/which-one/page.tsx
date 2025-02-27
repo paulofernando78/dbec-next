@@ -1,7 +1,7 @@
 import { DictionaryCard } from "@components/Molecules/Cards/DictionaryCard";
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
 import React from "react";
-import { DictionarySearch } from "@/components/Molecules/DictionarySearch";
+import { DictionarySearch } from "@/components/Molecules/DictionarySearch/DictionarySearch";
 
 const lists = [
   { text: "advice vs. advise" },
@@ -40,9 +40,7 @@ export default function WhichOne() {
         <DictionarySearch />
         <ul>
           {lists.map((list, index) => (
-            <li key={index}>
-              {list.text}
-            </li>
+            <li key={index}>{list.text}</li>
           ))}
         </ul>
       </div>

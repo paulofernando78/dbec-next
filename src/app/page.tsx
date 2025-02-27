@@ -29,7 +29,7 @@ const lato = Lato({
 // Styles
 import "./global.css";
 import styles from "./page.module.css";
-import { ThemeSwitch } from "@/components/Molecules/ThemeSwitch";
+import { ThemeSwitch } from "@/components/Molecules/Buttons/ThemeSwitch";
 
 const iconContent = [
   {
@@ -93,7 +93,7 @@ export default function Home() {
     <div>
       <div className={styles["page-container"]}>
         <Button label="Student Access" onClick={() => setIsModalOpen(true)} />
-      <ThemeSwitch />
+        <ThemeSwitch />
       </div>
 
       {isModalOpen && (

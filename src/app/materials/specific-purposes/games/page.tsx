@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
 import { Card } from "@/components";
 
 export default function Games() {
@@ -8,7 +8,7 @@ export default function Games() {
       <Whiteboard title="Specific Purposes" subtitle="Games" />
       <div className="line-break">
         <div className="line-break">
-            <b>SIERRA</b>
+          <b>SIERRA</b>
           <div>
             <Link href="/specific-purposes/games/">
               <p>Larry I</p>
@@ -57,7 +57,7 @@ export default function Games() {
           </div>
         </div>
         <div className="line-break">
-            <b>LucasArts</b>
+          <b>LucasArts</b>
           <div>
             <Link href="/specific-purposes/games/maniac-mansion">
               <p>Maniac Mansion (1987)</p>
@@ -84,8 +84,7 @@ export default function Games() {
               <p>Full Throttle (1995)</p>
             </Link>
           </div>
-          <div>
-          </div>
+          <div></div>
           <Link href="/specific-purposes/games/minecraft">
             <p>Minecraft (2011)</p>
           </Link>

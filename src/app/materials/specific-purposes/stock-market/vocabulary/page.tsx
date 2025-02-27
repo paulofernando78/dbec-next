@@ -1,5 +1,5 @@
-import { DictionaryCard} from "@components/Molecules/Cards/DictionaryCard";
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
+import { DictionaryCard } from "@components/Molecules/Cards/DictionaryCard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
 import React from "react";
 
 export default function Vocaulary() {

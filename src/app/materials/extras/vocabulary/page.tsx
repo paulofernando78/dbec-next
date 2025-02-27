@@ -1,4 +1,4 @@
-import { Whiteboard } from "@/components/Molecules/Whiteboard";
+import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
 import Link from "next/link";
 
 const links = [

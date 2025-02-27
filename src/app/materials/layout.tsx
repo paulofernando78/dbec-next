@@ -4,7 +4,8 @@ import { Inter } from "next/font/google";
 // CSS
 import styles from "./layout.module.css";
 
-import HeaderNavBar from "@/components/HeaderNavBar";
+// Components
+import NavigationWrapper from "../../components/Organisms/NavigationWrapper/NavigationWrapper";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +22,7 @@ export default function RootLayout({
   return (
     <div className={styles.layout}>
       <div className={styles.headerNav}>
-        <HeaderNavBar />
+        <NavigationWrapper />
       </div>
       <span className={styles.children}>{children}</span>
     </div>

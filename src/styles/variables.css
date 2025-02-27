@@ -1,0 +1,27 @@
+:root {
+  scrollbar-gutter: stable;
+  --background: #F2F2F2;
+  --text-color: #000000;
+  --p-size: 1.2rem;
+  --border: 1px solid lightgray;
+  --img-border: 5px solid rgba(211, 211, 211, 0.233);
+  --border-radius: 5px;
+  --padding: 0.5rem;
+
+  /* Book colors */
+  --beginner: #fcc418;
+  --elementary: #ec3b3b;
+  --pre-intermediate: #1f8feb;
+  --intermediate: #81c221;
+  --upper-intermediate: #9b59b6;
+  --advanced: #8e44ad;
+  --isActive: #f77d7a;
+
+  /* Neumorphism */
+  --neumorphism:
+    -3px -5px 10px rgba(255, 255, 255, 1),
+    0px 4px 15px rgba(0, 0, 0, 0.15);
+  --neumorphism-active:
+    inset 0px -6px 10px rgba(255, 255, 255, 1),
+    inset 0px 4px 15px rgba(59, 25, 25, 0.25);
+}
