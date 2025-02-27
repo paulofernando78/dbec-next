@@ -13,7 +13,7 @@ import { searchWords } from "@/utils/searchWords";
 
 // CSS
 import styles from "./DictionarySearch.module.css";
-import { DictionarySearchButton } from "@components/index";
+import { DictionarySearchButton } from "@/components/index";
 import { CloseButton } from "../Buttons/CloseButton/CloseButton";
 
 export const DictionarySearch = () => {

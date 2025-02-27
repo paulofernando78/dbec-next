@@ -31,22 +31,20 @@
       "@/audio/*": [
         "./public/assets/audio/*"
       ],
-      "@components/*": [
+      "@/components/*": [
         "./src/components/*"
       ],
       "@/types/*": [
         "./src/types/*"
       ]
     },
-    "target": "ES2017"
+    "target": "ES2020"
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    ".next/types/**/*.ts",
-    "src/app/materials/courses/placement-test/page.tsx",
-    "src/components/Molecules/Paragraph/types.ts"
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

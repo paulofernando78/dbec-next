@@ -3,14 +3,14 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 
 // Components
-import { WordCard } from "@/components/Molecules/Cards/WordCard";
+import { WordCard } from "@/components/index";
 
 // CSS
 import styles from "./styles.module.css";
 
 // Images
 // import PlayButton from "../../../public/assets/img/icon/play-button.png";
-import { EyeIcon } from "@/img/index";
+import { eyeIcon } from "@/img/index";
 
 // Types
 import { DictionaryCardProps } from "./types";
@@ -54,7 +54,7 @@ export const DictionaryCard = ({
           className={styles["play-button"]}
         /> */}
         <Image
-          src={EyeIcon}
+          src={eyeIcon}
           alt="Eye icon"
           className={styles["eye"]}
           onClick={() => setVisible(!visible)}

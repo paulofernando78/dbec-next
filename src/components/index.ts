@@ -4,10 +4,14 @@ import { SignUp } from "./Organisms/SignUp";
 
 // Buttons
 import { Button } from "@/components/Atoms/Button/";
-
+import { CloseButton } from "./Molecules/Buttons/CloseButton/CloseButton";
 import { HeaderMenuButton } from "./Molecules/Buttons/HeaderMenuButton/HeaderMenuButton";
 import { DictionarySearchButton } from "./Molecules/Buttons/DictionarySearchButton/DictionarySearchButton";
 import { StudentsAccessButton } from "./Molecules/Buttons/StudentsAccessButton/StudentsAccessButton";
+
+// Cards
+import { WordCard } from "./Molecules/Cards/WordCard/";
+import { DictionaryCard } from "./Molecules/Cards/DictionaryCard";
 
 // General
 import { Header } from "./Organisms/Header";
@@ -23,7 +27,6 @@ import SwiperFraction from "./Organisms/Swiper/Fraction";
 import { FlipCard } from "./Molecules/Cards/FlipCard";
 import { Dropdown } from "./Molecules/ExerciseTemplates/Dropdown";
 import { FillInTheBlanks } from "./Molecules/ExerciseTemplates/FillInTheBlank";
-import { DictionaryCard } from "./Molecules/Cards/DictionaryCard";
 import { ScrollToTop } from "./Atoms/ScrollToTop";
 
 export {
@@ -32,15 +35,20 @@ export {
   SignUp,
 
   // Buttons
+  Button,
+  CloseButton,
   StudentsAccessButton,
   HeaderMenuButton,
   DictionarySearchButton,
+
+  // Cards
+  WordCard,
+  DictionaryCard,
 
   // General
   Header,
   NavBar,
   Whiteboard,
-  Button,
   Card,
   Ribbon,
   BoardCard,
@@ -51,6 +59,5 @@ export {
   FlipCard,
   Dropdown,
   FillInTheBlanks,
-  DictionaryCard,
   ScrollToTop,
 };
