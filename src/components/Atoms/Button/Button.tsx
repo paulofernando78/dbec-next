@@ -39,13 +39,28 @@ export const Button = ({
     }
   };
 
-  const handleClick = () => {
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
     playSound();
     if (onClick) {
-      onClick();
+      onClick(e);
     }
-    toggleActive();
   };
+
+  const handleMouseDown = () => {
+    toggleActive(true);
+  }
+
+  const handleMouseUp = () => {
+    toggleActive(false);
+  }
+
+  const handleTouchStart = () => {
+    toggleActive(true);
+  }
+
+  const handleTouchEnd = () => {
+    toggleActive(false);
+  }
 
   return (
     <>
@@ -54,6 +69,10 @@ export const Button = ({
         type={type}
         style={{ minWidth: width, minHeight: height }}
         className={`${styles["btn"]} ${isActive ? styles["active"] : ""}`}
+        onMouseDown={handleMouseDown}
+        onMouseUp={handleMouseUp}
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
       >
         {label && <b>{label}</b>}
         {children}
@@ -71,11 +90,11 @@ export const Button = ({
   );
 };
 
-function useButtonContext(): [boolean, () => void] {
+function useButtonContext(): [boolean, (value: boolean) => void] {
   const [isActive, setIsActive] = useState(false);
   
-  const toggleActive = () => {
-    setIsActive(prev => !prev);
+  const toggleActive = (value: boolean) => {
+    setIsActive(value);
   };
 
   return [isActive, toggleActive];

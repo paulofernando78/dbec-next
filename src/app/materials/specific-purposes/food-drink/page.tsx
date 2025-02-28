@@ -46,7 +46,7 @@ export default function FoodAndDrink() {
           <span className="font-bold">Meat</span>
           <div className="line-break">
             <DictionaryCard audioSrc="/m/minced-meat.mp3" word="minced meat" />
-            <Collapsible label="What's the difference between 'minced meat' and 'ground meat'?">
+            <Collapsible title="Meat Comparison" label="What's the difference between 'minced meat' and 'ground meat'?">
               <div className="line-break">
                 <p>
                   <span className="font-bold">Minced meat</span> is meat that

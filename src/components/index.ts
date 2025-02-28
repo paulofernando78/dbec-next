@@ -10,28 +10,36 @@ import { DictionarySearchButton } from "./Molecules/Buttons/DictionarySearchButt
 import { StudentsAccessButton } from "./Molecules/Buttons/StudentsAccessButton/StudentsAccessButton";
 
 // Cards
-import { WordCard } from "./Molecules/Cards/WordCard/";
+import { Card } from "./Molecules/Cards/Card";
+import { BoardCard } from "./Molecules/Cards/BoardCard";
 import { DictionaryCard } from "./Molecules/Cards/DictionaryCard";
+import { WordCard } from "./Molecules/Cards/WordCard/";
+
+// Exercises
+import { Dropdown } from "./Molecules/ExerciseTemplates/Dropdown";
+import { FillInTheBlanks } from "./Molecules/ExerciseTemplates/FillInTheBlank";
+
 
 // Templates
 import { Lesson } from "./Templates/Lesson";
 
 // General
-import { Header } from "./Organisms/Header";
-import { NavBar } from "./Organisms/NavBar";
-import { Whiteboard } from "./Molecules/Whiteboard/Whiteboard";
-import { DictionarySearch } from "./Molecules/DictionarySearch/DictionarySearch";
-import { Card } from "./Molecules/Cards/Card";
-import { Ribbon } from "./Molecules/Ribbon";
-import { BoardCard } from "./Molecules/Cards/BoardCard";
 import { AudioPlayer } from "./Atoms/AudioPlayer/AudioPlayer";
-import { VideoPlayer } from "./Atoms/VideoPlayer/VideoPlayer";
-import { Paragraph } from "./Molecules/Paragraph";
-import SwiperFraction from "./Organisms/Swiper/Fraction";
+import { Content } from "./Atoms/Content/Content";
+import { DictionarySearch } from "./Molecules/DictionarySearch/DictionarySearch";
+import { Exercises } from "./Organisms/Exercises/Exercises";
 import { FlipCard } from "./Molecules/Cards/FlipCard";
-import { Dropdown } from "./Molecules/ExerciseTemplates/Dropdown";
-import { FillInTheBlanks } from "./Molecules/ExerciseTemplates/FillInTheBlank";
+import { Header } from "./Organisms/Header";
+import { Iframe } from "./Atoms/Iframe/Iframe";
+import { NavBar } from "./Organisms/NavBar";
+import { Paragraph } from "./Molecules/Paragraph";
+import { Ribbon } from "./Molecules/Ribbon";
 import { ScrollToTop } from "./Atoms/ScrollToTop/ScrollToTop";
+import { SubRibbon } from "./Molecules/SubRibbon";
+import SwiperFraction from "./Organisms/Swiper/Fraction";
+import { UnderConstruction } from "./Molecules/UnderConstruction";
+import { VideoPlayer } from "./Atoms/VideoPlayer/VideoPlayer";
+import { Whiteboard } from "./Molecules/Whiteboard/Whiteboard";
 
 export {
   // Main page
@@ -46,26 +54,33 @@ export {
   DictionarySearchButton,
 
   // Cards
-  WordCard,
+  Card,
+  BoardCard,
   DictionaryCard,
+  WordCard,
+
+// Exercises
+  Dropdown,
+  FillInTheBlanks,
 
   // Templates
   Lesson,
 
   // General
+  AudioPlayer,
+  Content,
+  DictionarySearch,
+  Exercises,
+  FlipCard,
+  Iframe,
   Header,
   NavBar,
-  Whiteboard,
-  DictionarySearch,
-  Card,
-  Ribbon,
-  BoardCard,
-  AudioPlayer,
-  VideoPlayer,
   Paragraph,
-  SwiperFraction,
-  FlipCard,
-  Dropdown,
-  FillInTheBlanks,
+  Ribbon,
   ScrollToTop,
+  SubRibbon,
+  SwiperFraction,
+  UnderConstruction,
+  VideoPlayer,
+  Whiteboard,
 };

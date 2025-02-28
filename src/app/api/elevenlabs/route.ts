@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { Buffer } from 'buffer';
 
 export async function POST(request: Request) {
   try {
@@ -52,7 +53,10 @@ export async function POST(request: Request) {
     }
 
     const audioBuffer = await response.arrayBuffer();
-    const audioBase64 = Buffer.from(audioBuffer).toString("base64");
+
+    // More explicit typing to help TypeScript understand
+    const buffer = Buffer.from(audioBuffer);
+    const audioBase64 = buffer.toString("base64");
 
     return NextResponse.json({ audio: audioBase64 });
   } catch (error: any) {

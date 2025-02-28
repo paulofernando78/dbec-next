@@ -1,7 +1,7 @@
 .dictionary-search-container {
   border-radius: 5px;
   padding: 5px;
-  background: white;
+  background: var(--background);
   margin-bottom: 10px;
   box-shadow: var(--box-shadow);
 }

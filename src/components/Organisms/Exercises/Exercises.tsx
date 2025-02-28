@@ -1,8 +1,10 @@
+"use client"
+
 import { useState } from "react";
 import { Button } from "@/components/Atoms/Button/Button";
 import { Radio } from "@/components/Molecules/ExerciseTemplates/Radio";
 import styles from "./styles.module.css";
-import { ExercisesProps } from "./type";
+import { ExercisesProps } from "./Exercises.type";
 import { CheckAnswersButton } from "@/components/Molecules/Buttons/CheckAnswersButton/CheckAnswersButton";
 import { ShowAnswersButton } from "@/components/Molecules/Buttons/ShowAnswersButton/ShowAnswersButton";
 import { ResetAnswersButton } from "@/components/Molecules/Buttons/ResetAnswersButton/ResetAnswersButton";

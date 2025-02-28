@@ -17,12 +17,12 @@ import {
   Card,
   ScrollToTop,
   DictionarySearch,
+  UnderConstruction,
+  Content,
+  Exercises,
+  SubRibbon,
+  Iframe
 } from "@/components/index";
-import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
-import Iframe from "@/components/Atoms/Iframe/Iframe";
-import { Content } from "@/components/Atoms/Content/Content";
-import { Exercises } from "@/components/Organisms/Exercises/Exercises";
-import { SubRibbon } from "@/components/Molecules/SubRibbon";
 
 // CSS
 import styles from "./styles.module.css";

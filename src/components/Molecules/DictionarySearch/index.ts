@@ -1,0 +1,1 @@
+export { DictionarySearch } from "./DictionarySearch";

@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",  // Add baseUrl for path mapping
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/types"
+    ],
     "lib": [
       "dom",
       "dom.iterable",
@@ -38,7 +43,10 @@
         "./src/types/*"
       ]
     },
-    "target": "ES2020"
+    "target": "ES2020",
+    "forceConsistentCasingInFileNames": true,  // Ensure consistent file naming
+    "noFallthroughCasesInSwitch": true,  // Stricter switch case handling
+    "sourceMap": true  // Enable source maps for debugging
   },
   "include": [
     "next-env.d.ts",

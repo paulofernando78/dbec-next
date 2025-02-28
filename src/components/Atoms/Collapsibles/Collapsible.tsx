@@ -7,7 +7,7 @@ import { useState } from "react";
 import Image from "next/image";
 
 // CSS
-import styles from "./styles.module.css";
+import styles from "./Collapsible.module.css";
 
 // Images / Icons
 import { expandForward, expandDown } from "@/img/index";

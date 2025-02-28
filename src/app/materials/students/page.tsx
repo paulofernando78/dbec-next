@@ -1,5 +1,5 @@
 import { Whiteboard } from "@/components";
-import Iframe from "@/components/Atoms/Iframe/Iframe";
+import { Iframe } from "@/components/index";
 import React from "react";
 
 export default function Students() {

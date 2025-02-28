@@ -1,8 +1,8 @@
-import type StaticImageData from "next/legacy/image";
+import type { StaticImageData } from "next/legacy/image";
 
 export interface ButtonProps {
   label?: string;
-  onClick?: () => void;
+  onClick?: ((event: React.MouseEvent<HTMLButtonElement>) => void) | (() => void);
   toggle?: boolean;
   type?: "button" | "submit" | "reset";
   width?: string | number;

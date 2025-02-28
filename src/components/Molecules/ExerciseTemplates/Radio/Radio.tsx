@@ -1,7 +1,12 @@
+// Images
 import Image from "next/image";
 import { correctIcon, incorrectIcon } from "@/img/index";
-import styles from "./styles.module.css";
-import { RadioProps } from "./type";
+
+// CSS
+import styles from "./Radio.module.css";
+
+// Typescript
+import { RadioProps } from "./Radio.type";
 
 export const Radio = ({
   radio,

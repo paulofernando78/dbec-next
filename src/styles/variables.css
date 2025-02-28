@@ -1,6 +1,6 @@
 :root {
   scrollbar-gutter: stable;
-  --background: #F2F2F2;
+  --background: #f2f2f2;
   --text-color: #000000;
   --p-size: 1.2rem;
   --border: 1px solid lightgray;
@@ -19,9 +19,7 @@
 
   /* Neumorphism */
   --neumorphism:
-    -3px -5px 10px rgba(255, 255, 255, 1),
-    0px 4px 15px rgba(0, 0, 0, 0.15);
+    -3px -5px 10px rgba(255, 255, 255, 1), 0px 4px 15px rgba(0, 0, 0, 0.15);
   --neumorphism-active:
-    inset 0px -6px 10px rgba(255, 255, 255, 1),
-    inset 0px 4px 15px rgba(59, 25, 25, 0.25);
+    0px -2px 5px rgb(255, 255, 255), inset 0px 2px 5px rgba(0, 0, 0, 0.15);
 }
