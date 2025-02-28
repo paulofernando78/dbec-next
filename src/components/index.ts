@@ -16,7 +16,6 @@ import { DictionaryCard } from "./Molecules/Cards/DictionaryCard";
 // Templates
 import { Lesson } from "./Templates/Lesson";
 
-
 // General
 import { Header } from "./Organisms/Header";
 import { NavBar } from "./Organisms/NavBar";
@@ -25,14 +24,14 @@ import { DictionarySearch } from "./Molecules/DictionarySearch/DictionarySearch"
 import { Card } from "./Molecules/Cards/Card";
 import { Ribbon } from "./Molecules/Ribbon";
 import { BoardCard } from "./Molecules/Cards/BoardCard";
-import { AudioPlayer } from "./Atoms/AudioPlayer";
-import { VideoPlayer } from "./Atoms/VideoPlayer";
+import { AudioPlayer } from "./Atoms/AudioPlayer/AudioPlayer";
+import { VideoPlayer } from "./Atoms/VideoPlayer/VideoPlayer";
 import { Paragraph } from "./Molecules/Paragraph";
 import SwiperFraction from "./Organisms/Swiper/Fraction";
 import { FlipCard } from "./Molecules/Cards/FlipCard";
 import { Dropdown } from "./Molecules/ExerciseTemplates/Dropdown";
 import { FillInTheBlanks } from "./Molecules/ExerciseTemplates/FillInTheBlank";
-import { ScrollToTop } from "./Atoms/ScrollToTop";
+import { ScrollToTop } from "./Atoms/ScrollToTop/ScrollToTop";
 
 export {
   // Main page
@@ -50,7 +49,7 @@ export {
   WordCard,
   DictionaryCard,
 
-// Templates
+  // Templates
   Lesson,
 
   // General

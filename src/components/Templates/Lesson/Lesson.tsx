@@ -1,6 +1,6 @@
 "use client";
 
-import React from 'react';
+import React from "react";
 import Image from "next/image";
 
 // Components
@@ -16,11 +16,11 @@ import {
   FlipCard,
   Card,
   ScrollToTop,
-  DictionarySearch
+  DictionarySearch,
 } from "@/components/index";
 import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
-import Iframe from "@/components/Atoms/Iframe";
-import { Content } from "@/components/Atoms/Content";
+import Iframe from "@/components/Atoms/Iframe/Iframe";
+import { Content } from "@/components/Atoms/Content/Content";
 import { Exercises } from "@/components/Organisms/Exercises/Exercises";
 import { SubRibbon } from "@/components/Molecules/SubRibbon";
 

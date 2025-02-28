@@ -1,4 +1,4 @@
-interface IframeProps {
+export interface IframeProps {
   src: string;
   height?: string | number;
   allowFullScreen?: boolean;

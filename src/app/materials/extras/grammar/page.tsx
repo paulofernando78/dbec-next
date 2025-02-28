@@ -1,18 +1,25 @@
 "use client";
 import { useEffect, useState } from "react";
 
-import { ContentCard } from "@/components/Templates/ContentCard";
-import { MainContent, Whiteboard } from "@/components/Templates/ContentCard/type";
+import { ContentCard } from "@/components/Templates/ContentCard/ContentCard";
+import {
+  MainContent,
+  Whiteboard,
+} from "@/components/Templates/ContentCard/type";
 
 export default function ExtrasGrammar() {
-  const [contentData, setContentData] = useState<{ whiteboard?: Whiteboard; contents: MainContent[] }>({
+  const [contentData, setContentData] = useState<{
+    whiteboard?: Whiteboard;
+    contents: MainContent[];
+  }>({
     whiteboard: undefined,
     contents: [],
   });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  const CONTENTS_JSON_PATH = "/assets/data/materials/extras/grammar/contents.json";
+  const CONTENTS_JSON_PATH =
+    "/assets/data/materials/extras/grammar/contents.json";
 
   useEffect(() => {
     fetch(CONTENTS_JSON_PATH)

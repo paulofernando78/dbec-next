@@ -1,5 +1,5 @@
 // Components
-import { AudioPlayer } from "../../Atoms/AudioPlayer";
+import { AudioPlayer } from "../../Atoms/AudioPlayer/AudioPlayer";
 
 export const Welcome = () => {
   return (

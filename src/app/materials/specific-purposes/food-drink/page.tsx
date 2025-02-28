@@ -1,8 +1,8 @@
 "use client";
 import Link from "next/link";
 import { Whiteboard, DictionaryCard } from "@/components/index";
-import { ScrollToTop } from "@/components/Atoms/ScrollToTop";
-import { Collapsible } from "@/components/Atoms/Collapsibles";
+import { ScrollToTop } from "@/components/Atoms/ScrollToTop/ScrollToTop";
+import { Collapsible } from "@/components/Atoms/Collapsibles/Collapsible";
 
 export default function FoodAndDrink() {
   return (

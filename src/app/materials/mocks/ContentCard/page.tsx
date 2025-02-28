@@ -1,8 +1,11 @@
 "use client";
 import { useEffect, useState } from "react";
 
-import { ContentCard } from "@/components/Templates/ContentCard";
-import { MainContent, Whiteboard } from "@/components/Templates/ContentCard/type";
+import { ContentCard } from "@/components/Templates/ContentCard/ContentCard";
+import {
+  MainContent,
+  Whiteboard,
+} from "@/components/Templates/ContentCard/type";
 
 export default function ContentCardTemplate() {
   const [contentData, setContentData] = useState<{
@@ -15,8 +18,7 @@ export default function ContentCardTemplate() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  const contentCardTemplate =
-    "/assets/data/materials/mocks/contentCard.json";
+  const contentCardTemplate = "/assets/data/materials/mocks/contentCard.json";
 
   useEffect(() => {
     fetch(contentCardTemplate)

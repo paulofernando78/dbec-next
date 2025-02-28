@@ -1,8 +1,11 @@
 "use client";
 import { useEffect, useState } from "react";
 
-import { ContentCard } from "@/components/Templates/ContentCard";
-import { MainContent, Whiteboard } from "@/components/Templates/ContentCard/type";
+import { ContentCard } from "@/components/Templates/ContentCard/ContentCard";
+import {
+  MainContent,
+  Whiteboard,
+} from "@/components/Templates/ContentCard/type";
 
 export default function ExtrasSkillsListeningArticlesScienceAndTechnology() {
   const [contentData, setContentData] = useState<{

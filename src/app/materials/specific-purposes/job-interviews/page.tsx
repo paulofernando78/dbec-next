@@ -3,9 +3,8 @@
 // Hooks
 import { useEffect, useState } from "react";
 
-
 // Components
-import { ContentCard } from "@/components/Templates/ContentCard";
+import { ContentCard } from "@/components/Templates/ContentCard/ContentCard";
 import {
   MainContent,
   Whiteboard,

@@ -1,18 +1,25 @@
 "use client";
 import { useEffect, useState } from "react";
 
-import { ContentCard } from "@/components/Templates/ContentCard";
-import { MainContent, Whiteboard } from "@/components/Templates/ContentCard/type";
+import { ContentCard } from "@/components/Templates/ContentCard/ContentCard";
+import {
+  MainContent,
+  Whiteboard,
+} from "@/components/Templates/ContentCard/type";
 
 export default function ExtrasGrammarIntermediate() {
-  const [contentData, setContentData] = useState<{ whiteboard?: Whiteboard; contents: MainContent[] }>({
+  const [contentData, setContentData] = useState<{
+    whiteboard?: Whiteboard;
+    contents: MainContent[];
+  }>({
     whiteboard: undefined,
     contents: [],
   });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  const extrasGrammarIntermediateContents = "/assets/data/materials/extras/grammar/intermediate/contents.json";
+  const extrasGrammarIntermediateContents =
+    "/assets/data/materials/extras/grammar/intermediate/contents.json";
 
   useEffect(() => {
     fetch(extrasGrammarIntermediateContents)

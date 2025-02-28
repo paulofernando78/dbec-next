@@ -1,12 +1,12 @@
 import React, { FC } from "react";
-import "./types";
+import { IframeProps } from "./Iframe.types";
 
-const Iframe: FC<IframeProps> = ({
+export const Iframe = ({
   src,
   height,
   allowFullScreen = false,
   loading = "lazy",
-}) => {
+}: IframeProps) => {
   if (!src) {
     return <p>Error: Invalid iframe source.</p>;
   }
@@ -14,11 +14,9 @@ const Iframe: FC<IframeProps> = ({
   return (
     <iframe
       src={src}
-      style={{ height: height }}
+      style={{ height }}
       allowFullScreen={allowFullScreen}
       loading={loading}
     />
   );
 };
-
-export default Iframe;

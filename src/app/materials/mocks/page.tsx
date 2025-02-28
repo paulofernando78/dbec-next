@@ -3,9 +3,8 @@
 // Hooks
 import { useEffect, useState } from "react";
 
-
 // Components
-import { ContentCard } from "@/components/Templates/ContentCard";
+import { ContentCard } from "@/components/Templates/ContentCard/ContentCard";
 import {
   MainContent,
   Whiteboard,
@@ -21,8 +20,7 @@ export default function CourseBeginner() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
-  const CONTENTS_JSON_PATH =
-    "/assets/data/materials/mocks/contents.json";
+  const CONTENTS_JSON_PATH = "/assets/data/materials/mocks/contents.json";
 
   useEffect(() => {
     fetch(CONTENTS_JSON_PATH)
@@ -50,4 +48,3 @@ export default function CourseBeginner() {
     </>
   );
 }
-

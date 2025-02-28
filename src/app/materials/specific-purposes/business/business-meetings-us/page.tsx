@@ -1,4 +1,4 @@
-import { ContentCard } from "@/components/Templates/ContentCard";
+import { ContentCard } from "@/components/Templates/ContentCard/ContentCard";
 
 const whiteboard = {
   title: "Specific Purposes",
@@ -74,8 +74,6 @@ const contents = [
 
 export default function BusinessMeetingUs() {
   return (
-    <>
-      {/* <ContentCard whiteboard={whiteboard} contents={contents} /> */}
-    </>
+    <>{/* <ContentCard whiteboard={whiteboard} contents={contents} /> */}</>
   );
 }

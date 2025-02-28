@@ -1,4 +1,4 @@
-import { VideoPlayer } from "@/components/Atoms/VideoPlayer";
+import { VideoPlayer } from "@/components/Atoms/VideoPlayer/VideoPlayer";
 import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
 import React from "react";
 

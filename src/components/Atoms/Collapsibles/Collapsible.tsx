@@ -13,7 +13,7 @@ import styles from "./styles.module.css";
 import { expandForward, expandDown } from "@/img/index";
 
 // Typescript
-import { CollapsibleProps } from "./type";
+import { CollapsibleProps } from "./Collapsible.type";
 
 export const Collapsible = ({ label, children }: CollapsibleProps) => {
   const [isOpen, setOpen] = useState(false);

@@ -1,5 +1,5 @@
 import styles from "./style.module.css";
-import { AudioPlayerProps } from "./types";
+import { AudioPlayerProps } from "./AudioPlayer.types";
 
 export const AudioPlayer: React.FC<AudioPlayerProps> = ({ audioSrc }) => {
   const baseAudioSrc = "/assets/audio";

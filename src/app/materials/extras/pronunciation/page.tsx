@@ -3,7 +3,7 @@
 import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
 import { DescriptionCard } from "@/components/Molecules/Cards/DescriptionCard";
 import { DictionaryCard } from "@/components";
-import { ScrollToTop } from "@/components/Atoms/ScrollToTop";
+import { ScrollToTop } from "@/components/Atoms/ScrollToTop/ScrollToTop";
 import { Card } from "@/components";
 
 const links = [

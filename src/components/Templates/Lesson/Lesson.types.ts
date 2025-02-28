@@ -1,4 +1,4 @@
-import { Content } from "@/components/Atoms/Content/type";
+import { Content } from "@/components/Atoms/Content/Content.type";
 import { WhiteboardProps } from "@/components/Molecules/Whiteboard/type";
 import { SwiperFractionProps } from "@/components/Organisms/Swiper/Fraction/types";
 // import { RadioQuestion } from "@/components/Molecules/ExerciseTemplates/Radio/type";
@@ -19,7 +19,7 @@ export interface RadioQuestion {
 }
 
 export interface Exercise {
-  id: string
+  id: string;
   title: string;
   subtitle?: string;
 }
@@ -29,7 +29,7 @@ export interface ExercisesProps {
 }
 
 export interface LessonData {
-  contents: Content[]
+  contents: Content[];
   title: string;
   time: string;
   bgColor?: string;
@@ -52,10 +52,10 @@ export interface LessonData {
   iframeSrc?: string;
   iframeWidth?: string | number;
   iframeHeight?: string | number;
-  exercises?: Exercise[]
+  exercises?: Exercise[];
   dropdown?: DropdownQuestion[];
   // fillInTheBlanks?: FillInTheBlanksQuestion[];
-  id?: string
+  id?: string;
 }
 
 export interface LessonTemplateProps {

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { AudioPlayer } from "../../Atoms/AudioPlayer";
+import { AudioPlayer } from "../../Atoms/AudioPlayer/AudioPlayer";
 import styles from "./styles.module.css";
 
 const emojis = [

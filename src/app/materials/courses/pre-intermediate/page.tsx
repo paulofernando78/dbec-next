@@ -4,8 +4,11 @@
 import { useEffect, useState } from "react";
 
 // Components
-import { ContentCard } from "@/components/Templates/ContentCard";
-import { MainContent, Whiteboard } from "@/components/Templates/ContentCard/type";
+import { ContentCard } from "@/components/Templates/ContentCard/ContentCard";
+import {
+  MainContent,
+  Whiteboard,
+} from "@/components/Templates/ContentCard/type";
 
 export default function PreIntermediate() {
   const [contentData, setContentData] = useState<{

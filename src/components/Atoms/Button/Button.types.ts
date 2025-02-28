@@ -1,5 +1,4 @@
-import { ReactNode } from "react";
-import { StaticImageData } from "next/image";
+import type StaticImageData from "next/legacy/image";
 
 export interface ButtonProps {
   label?: string;
@@ -11,5 +10,5 @@ export interface ButtonProps {
   children?: React.ReactNode;
   imgSrc?: StaticImageData;
   imgAlt?: string;
-  isActive?: boolean; // Make this optional since it's managed internally
+  isActive?: boolean;
 }

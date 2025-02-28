@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import { VideoPlayerProps } from "./types";
+import { VideoPlayerProps } from "./VideoPlayer.types";
 
 export const VideoPlayer = ({ videoSrc }: VideoPlayerProps) => {
   return (
