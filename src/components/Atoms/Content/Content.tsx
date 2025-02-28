@@ -1,17 +1,13 @@
 import React from "react";
 
 // Components
-import Image from "next/image";
+import { Ribbon, Time } from "@/components/index";
 
 // CSS
 import styles from "./styles.module.css";
 
-import { timeIcon } from "@/img/index";
-
 // TypeScript
 import { ContentProps } from "./Content.type";
-import { Ribbon } from "@/components/Molecules/Ribbon";
-import { Time } from "@/components/Molecules/Time";
 
 export const Content = ({ contents }: ContentProps) => {
   return (

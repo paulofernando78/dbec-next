@@ -1,36 +1,21 @@
-/* .beginner-border {
-  border: solid #eab308;
-}
-
-.elementary-border {
-  border: solid red;
-}
-
-.pre-intermediate-border {
-  border: solid blue;
-}
-
-.intermediate-border {
-  border: solid green;
+/* .content-card__container {
+  border: var(--border);
+  border-radius: var(--border-radius);
 } */
 
-.card-border-shadow {
+.card-description__container {
+  border: var(--border);
   border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
+  overflow: hidden;
 }
 
 .card-description-label {
   padding: var(--padding);
-  border-radius: 5px 5px 0 0;
 }
 
 .card-description-content {
   margin: 6px 7px;
 }
-
-/* .link-height {
-  line-height: 20px;
-} */
 
 .hr {
   margin-block: 8px;

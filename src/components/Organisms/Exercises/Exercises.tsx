@@ -1,12 +1,18 @@
-"use client"
+"use client";
 
 import { useState } from "react";
+
+// Components
 import { Radio } from "@/components/Molecules/ExerciseTemplates/Radio";
-import styles from "./styles.module.css";
-import { ExercisesProps } from "./Exercises.type";
 import { CheckAnswersButton } from "@/components/Molecules/Buttons/CheckAnswersButton/CheckAnswersButton";
 import { ShowAnswersButton } from "@/components/Molecules/Buttons/ShowAnswersButton/ShowAnswersButton";
 import { ResetAnswersButton } from "@/components/Molecules/Buttons/ResetAnswersButton/ResetAnswersButton";
+
+// CSS
+import styles from "./Exercises.module.css";
+
+// Typesript
+import { ExercisesProps } from "./Exercises.type";
 
 export const Exercises = ({ exercises = [], id }: ExercisesProps) => {
   const [selectedOption, setSelectedOption] = useState<Record<string, string>>(
@@ -51,6 +57,14 @@ export const Exercises = ({ exercises = [], id }: ExercisesProps) => {
               />
             </>
           )}
+          <div className="flex-8px-center-wrap">
+            <CheckAnswersButton onClick={handleCheckAnswer} />
+            <ShowAnswersButton
+              onClick={handleShowAnswer}
+              showAnswer={showAnswer}
+            />
+            <ResetAnswersButton onClick={handleResetAnswers} />
+          </div>
           {showAnswer && (
             <div>
               {exercise.radio?.map((question, index) => {
@@ -84,12 +98,6 @@ export const Exercises = ({ exercises = [], id }: ExercisesProps) => {
               })}
             </div>
           )}
-
-          <div className="flex-8px-center-wrap">
-            <CheckAnswersButton onClick={handleCheckAnswer} />
-            <ShowAnswersButton onClick={handleShowAnswer} showAnswer={showAnswer} />
-            <ResetAnswersButton onClick={handleResetAnswers} />
-          </div>
         </div>
       ))}
     </>

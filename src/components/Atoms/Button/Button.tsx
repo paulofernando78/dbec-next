@@ -24,23 +24,40 @@ export const Button = ({
 }: ButtonProps) => {
   const [show, setShow] = useState(false);
   const [isActive, toggleActive] = useButtonContext();
-  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const clickSoundRef = useRef<HTMLAudioElement | null>(null);
+  const releaseSoundRef = useRef<HTMLAudioElement | null>(null);
 
-  // Carregar o áudio quando o componente montar
+  // Initialize both audio files in a single useEffect
   useEffect(() => {
-    audioRef.current = new Audio("/assets/audio/click.mp3");
+    clickSoundRef.current = new Audio("/assets/audio/button-clicked-sound.mp3");
+    releaseSoundRef.current = new Audio(
+      "/assets/audio/button-released-sound.mp3"
+    );
+
+    // Optional: Clean up audio objects when component unmounts
+    return () => {
+      clickSoundRef.current = null;
+      releaseSoundRef.current = null;
+    };
   }, []);
 
-  const playSound = () => {
-    if (audioRef.current) {
-      audioRef.current.play().catch((error) => {
-        console.log("Audio playback failed:", error);
+  const buttonClickedSound = () => {
+    if (clickSoundRef.current) {
+      clickSoundRef.current.play().catch((error) => {
+        console.log("Click audio playback failed:", error);
+      });
+    }
+  };
+
+  const buttonReleasedSound = () => {
+    if (releaseSoundRef.current) {
+      releaseSoundRef.current.play().catch((error) => {
+        console.log("Release audio playback failed:", error);
       });
     }
   };
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
-    playSound();
     if (onClick) {
       onClick(e);
     }
@@ -48,19 +65,23 @@ export const Button = ({
 
   const handleMouseDown = () => {
     toggleActive(true);
-  }
+    buttonClickedSound();
+  };
 
   const handleMouseUp = () => {
     toggleActive(false);
-  }
+    buttonReleasedSound();
+  };
 
   const handleTouchStart = () => {
     toggleActive(true);
-  }
+    buttonClickedSound();
+  };
 
   const handleTouchEnd = () => {
     toggleActive(false);
-  }
+    buttonReleasedSound();
+  };
 
   return (
     <>
@@ -92,11 +113,10 @@ export const Button = ({
 
 function useButtonContext(): [boolean, (value: boolean) => void] {
   const [isActive, setIsActive] = useState(false);
-  
+
   const toggleActive = (value: boolean) => {
     setIsActive(value);
   };
 
   return [isActive, toggleActive];
 }
-

@@ -8,7 +8,7 @@ import { ContentCard } from "@/components/Templates/ContentCard/ContentCard";
 import {
   MainContent,
   Whiteboard,
-} from "@/components/Templates/ContentCard/type";
+} from "@/components/Templates/ContentCard/ContentCard.type";
 export default function SpecificPurposesBusinessSbelaa() {
   const [contentData, setContentData] = useState<{
     whiteboard?: Whiteboard;

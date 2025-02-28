@@ -1,12 +1,12 @@
 :root {
   scrollbar-gutter: stable;
-  --background: #f2f2f2;
-  --text-color: #000000;
-  --p-size: 1.2rem;
-  --border: 1px solid lightgray;
-  --img-border: 5px solid rgba(211, 211, 211, 0.233);
-  --border-radius: 5px;
   --padding: 0.5rem;
+  --background: #f2f2f2;
+  --border: 1px solid lightgray;
+  --border-radius: 5px;
+  --img-border: 5px solid rgba(211, 211, 211, 0.233);
+  --p-size: 1.2rem;
+  --text-color: #000000;
 
   /* Book colors */
   --beginner: #fcc418;
@@ -19,7 +19,9 @@
 
   /* Neumorphism */
   --neumorphism:
-    -3px -5px 10px rgba(255, 255, 255, 1), 0px 4px 15px rgba(0, 0, 0, 0.15);
+    -3px -3px 6px rgba(255, 255, 255, 1),
+     3px 3px 6px rgba(0, 0, 0, 0.15);
   --neumorphism-active:
-    0px -2px 5px rgb(255, 255, 255), inset 0px 2px 5px rgba(0, 0, 0, 0.15);
+  inset -3px -3px 6px rgba(255, 255, 255, 1),
+  inset 3px 3px 6px rgba(0, 0, 0, 0.15);
 }

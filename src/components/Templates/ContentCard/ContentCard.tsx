@@ -10,7 +10,7 @@ import styles from "./ContentCard.module.css";
 import globeIcon from "@/img/icon/globe.png";
 
 // Typescript
-import { CardContent, ContentCardProps } from "./type";
+import { CardContent, ContentCardProps } from "./ContentCard.type";
 import { Time } from "@/components/Molecules/Time";
 
 export const ContentCard = ({ contentData }: ContentCardProps) => {
@@ -49,7 +49,7 @@ export const ContentCard = ({ contentData }: ContentCardProps) => {
 
 const CardContentRenderer = ({ cardContent }: { cardContent: CardContent }) => {
   return (
-    <div className="card-border-shadow">
+    <div className={styles["card-description__container"]}>
       {/* Label */}
       {cardContent.cardLabel && (
         <p

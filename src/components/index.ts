@@ -37,6 +37,7 @@ import { Ribbon } from "./Molecules/Ribbon";
 import { ScrollToTop } from "./Atoms/ScrollToTop/ScrollToTop";
 import { SubRibbon } from "./Molecules/SubRibbon";
 import SwiperFraction from "./Organisms/Swiper/Fraction";
+import { Time } from "./Molecules/Time";
 import { UnderConstruction } from "./Molecules/UnderConstruction";
 import { VideoPlayer } from "./Atoms/VideoPlayer/VideoPlayer";
 import { Whiteboard } from "./Molecules/Whiteboard/Whiteboard";
@@ -80,6 +81,7 @@ export {
   ScrollToTop,
   SubRibbon,
   SwiperFraction,
+  Time,
   UnderConstruction,
   VideoPlayer,
   Whiteboard,
