@@ -1,5 +1,7 @@
 "use client";
 
+import React from 'react';
+
 // Components
 import {
   Whiteboard,
@@ -19,12 +21,11 @@ import {
 import styles from "./styles.module.css";
 
 // Typescript
-import { LessonTemplateProps } from "@/components/Templates/Lesson/types";
+import { LessonTemplateProps } from "@/components/Templates/Lesson/Lesson.types";
 import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
 import { SubRibbon } from "@/components/Molecules/SubRibbon";
-import React from "react";
 import { Exercises } from "@/components/Organisms/Exercises/Exercises";
-import { Exercise } from "@/components/Templates/Lesson/types";
+import { Exercise } from "@/components/Templates/Lesson/Lesson.types";
 import Iframe from "@/components/Atoms/Iframe";
 import Image from "next/image";
 import { Content } from "@/components/Atoms/Content";
@@ -164,3 +165,21 @@ export const Lesson = ({
     </div>
   );
 };
+
+// import React, { ReactNode } from 'react';
+
+// interface LessonProps {
+//   title?: string;
+//   children?: ReactNode;
+// }
+
+// export const Lesson: React.FC<LessonProps> = ({ title, children }) => {
+//   return (
+//     <div className="lesson-container">
+//       {title && <h1 className="lesson-title">{title}</h1>}
+//       <div className="lesson-content">
+//         {children}
+//       </div>
+//     </div>
+//   );
+// };
