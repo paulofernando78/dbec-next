@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Image from "next/image";
 
 // Components
 import {
@@ -15,21 +16,20 @@ import {
   FlipCard,
   Card,
   ScrollToTop,
-} from "@/components";
+  DictionarySearch
+} from "@/components/index";
+import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
+import Iframe from "@/components/Atoms/Iframe";
+import { Content } from "@/components/Atoms/Content";
+import { Exercises } from "@/components/Organisms/Exercises/Exercises";
+import { SubRibbon } from "@/components/Molecules/SubRibbon";
 
 // CSS
 import styles from "./styles.module.css";
 
 // Typescript
 import { LessonTemplateProps } from "@/components/Templates/Lesson/Lesson.types";
-import { UnderConstruction } from "@/components/Molecules/UnderConstruction";
-import { SubRibbon } from "@/components/Molecules/SubRibbon";
-import { Exercises } from "@/components/Organisms/Exercises/Exercises";
 import { Exercise } from "@/components/Templates/Lesson/Lesson.types";
-import Iframe from "@/components/Atoms/Iframe";
-import Image from "next/image";
-import { Content } from "@/components/Atoms/Content";
-import { DictionarySearch } from "@/components/Molecules/DictionarySearch/DictionarySearch";
 
 const baseImgScr = "/assets/img";
 
