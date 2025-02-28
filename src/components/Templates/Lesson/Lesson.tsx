@@ -32,7 +32,7 @@ import { DictionarySearch } from "@/components/Molecules/DictionarySearch/Dictio
 
 const baseImgScr = "/assets/img";
 
-export const LessonTemplate = ({
+export const Lesson = ({
   lessonData,
   isUnderConstruction,
 }: LessonTemplateProps) => {

@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 
 // Components
-import { LessonTemplate } from "@/components/Templates/Lesson/Lesson";
+import { Lesson } from "@/components/index";
 
 const CONTENTS_JSON_PATH =
   "/assets/data/materials/specific-purposes/business/sbbelaa/lesson-11.json";
@@ -38,7 +38,7 @@ export default function SpeakBusinessEnglishLikeAnAmericanLesson11() {
 
   return (
     <>
-      <LessonTemplate lessonData={lessonData} isUnderConstruction={true} />
+      <Lesson lessonData={lessonData} isUnderConstruction={true} />
     </>
   );
 }

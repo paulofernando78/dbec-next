@@ -1,9 +1,7 @@
 "use client";
 import Link from "next/link";
-import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
-import { DictionaryCard } from "@components/Molecules/Cards/DictionaryCard";
+import { Whiteboard, DictionaryCard } from "@/components/index";
 import { ScrollToTop } from "@/components/Atoms/ScrollToTop";
-import { Card } from "@/components";
 import { Collapsible } from "@/components/Atoms/Collapsibles";
 
 export default function FoodAndDrink() {

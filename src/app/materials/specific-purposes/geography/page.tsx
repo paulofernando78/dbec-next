@@ -1,5 +1,4 @@
-import { DictionaryCard } from "@components/Molecules/Cards/DictionaryCard";
-import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
+import { Whiteboard, DictionaryCard } from "@/components/index";
 import Image from "next/image";
 
 export default function Geography() {

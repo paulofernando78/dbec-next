@@ -35,6 +35,6 @@ export default function XXX() {
   if (error) return <p>Error loading lesson data.</p>;
 
   return (
-    <LessonTemplate lessonData={lessonData} isUnderConstruction={true} />
+    <Lesson lessonData={lessonData} isUnderConstruction={true} />
   );
 }

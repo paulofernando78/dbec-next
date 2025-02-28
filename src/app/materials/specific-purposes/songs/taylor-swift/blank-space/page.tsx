@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 
 // Components
-import { LessonTemplate } from "@/components/Templates/Lesson/Lesson";
+import { Lesson } from "@/components/index";
 
 const songs = [
   {
@@ -367,7 +367,7 @@ export default function TaylorSwiftbBlankSpace() {
 
   return (
     <>
-      <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />
+      <Lesson lessonData={lessonData} isUnderConstruction={false} />
     </>
   );
 }

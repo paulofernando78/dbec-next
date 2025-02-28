@@ -1,1 +1,1 @@
-export { LessonTemplate } from "./Lesson";
+export { Lesson } from "./Lesson";

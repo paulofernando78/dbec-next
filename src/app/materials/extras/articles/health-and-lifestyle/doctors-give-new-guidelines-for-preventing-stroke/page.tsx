@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 
 // Components
-import { LessonTemplate } from "@/components/Templates/Lesson/Lesson";
+import { Lesson } from "@/components/index";
 
 const VOALink =
   "/assets/data/materials/extras/skills/listening/articles/health-and-lifestyle/doctors-give-new-guidelines-for-preventing-stroke.json";
@@ -38,7 +38,7 @@ export default function LessonData() {
 
   return (
     <>
-      <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />
+      <Lesson lessonData={lessonData} isUnderConstruction={false} />
     </>
   );
 }

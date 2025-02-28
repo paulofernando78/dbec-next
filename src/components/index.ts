@@ -1,6 +1,6 @@
 // Main page
 import { SignIn } from "./Organisms/SignIn";
-import { SignUp } from "./Organisms/SignUp";
+import { SignUp } from "./Organisms/SignUp/SignUp";
 
 // Buttons
 import { Button } from "@/components/Atoms/Button/";
@@ -13,10 +13,15 @@ import { StudentsAccessButton } from "./Molecules/Buttons/StudentsAccessButton/S
 import { WordCard } from "./Molecules/Cards/WordCard/";
 import { DictionaryCard } from "./Molecules/Cards/DictionaryCard";
 
+// Templates
+import { Lesson } from "./Templates/Lesson";
+
+
 // General
 import { Header } from "./Organisms/Header";
 import { NavBar } from "./Organisms/NavBar";
 import { Whiteboard } from "./Molecules/Whiteboard/Whiteboard";
+import { DictionarySearch } from "./Molecules/DictionarySearch/DictionarySearch";
 import { Card } from "./Molecules/Cards/Card";
 import { Ribbon } from "./Molecules/Ribbon";
 import { BoardCard } from "./Molecules/Cards/BoardCard";
@@ -45,10 +50,14 @@ export {
   WordCard,
   DictionaryCard,
 
+// Templates
+  Lesson,
+
   // General
   Header,
   NavBar,
   Whiteboard,
+  DictionarySearch,
   Card,
   Ribbon,
   BoardCard,

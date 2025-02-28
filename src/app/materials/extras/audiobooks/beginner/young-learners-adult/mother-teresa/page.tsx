@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 
 // Components
-import { LessonTemplate } from "@/components/Templates/Lesson/Lesson";
+import { Lesson } from "@/components/index";
 
 const CONTENTS_JSON_PATH =
   "/assets/data/materials/extras/listening/audiobooks/beginner/general/mother-teresa.json";
@@ -36,5 +36,5 @@ export default function Audiobook() {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading lesson data.</p>;
 
-  return <LessonTemplate lessonData={lessonData} isUnderConstruction={true} />;
+  return <Lesson lessonData={lessonData} isUnderConstruction={true} />;
 }

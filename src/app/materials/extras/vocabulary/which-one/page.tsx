@@ -1,7 +1,5 @@
-import { DictionaryCard } from "@components/Molecules/Cards/DictionaryCard";
-import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
 import React from "react";
-import { DictionarySearch } from "@/components/Molecules/DictionarySearch/DictionarySearch";
+import { Whiteboard, DictionarySearch } from "@/components/index";
 
 const lists = [
   { text: "advice vs. advise" },

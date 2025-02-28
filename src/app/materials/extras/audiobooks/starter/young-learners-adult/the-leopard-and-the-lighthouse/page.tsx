@@ -4,7 +4,7 @@
 import { useEffect, useState } from "react";
 
 // Components
-import { LessonTemplate } from "@/components/Templates/Lesson/Lesson";
+import { Lesson } from "@/components/index";
 
 export default function AudioBook() {
   const [lessonData, setLessonData] = useState(null);
@@ -35,5 +35,5 @@ export default function AudioBook() {
   if (loading) return <p>Loading...</p>;
   if (error) return <p>Error loading lesson data.</p>;
 
-  return <LessonTemplate lessonData={lessonData} isUnderConstruction={false} />;
+  return <Lesson lessonData={lessonData} isUnderConstruction={false} />;
 }

@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { Whiteboard } from "@/components/Molecules/Whiteboard/Whiteboard";
-import { DictionaryCard } from "@components/Molecules/Cards/DictionaryCard";
+import { Whiteboard, DictionaryCard } from "@/components/index";
 import { usaFlagIcon, brFlagIcon } from "@/img/index";
 
 const wordLists: WordList[] = [
