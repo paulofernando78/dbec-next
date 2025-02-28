@@ -16,8 +16,8 @@ export const Button = ({
   label,
   onClick,
   type = "button",
-  width = "40px",
-  height = "40px",
+  width = "35px",
+  height = "35px",
   children,
   imgSrc,
   imgAlt,
@@ -80,8 +80,8 @@ export const Button = ({
           <Image
             src={imgSrc}
             alt={imgAlt || ""}
-            width={24}
-            height={24}
+            width={22}
+            height={22}
             className={styles["btn-img"]}
           />
         )}

@@ -1,7 +1,6 @@
 "use client"
 
 import { useState } from "react";
-import { Button } from "@/components/Atoms/Button/Button";
 import { Radio } from "@/components/Molecules/ExerciseTemplates/Radio";
 import styles from "./styles.module.css";
 import { ExercisesProps } from "./Exercises.type";
@@ -88,8 +87,7 @@ export const Exercises = ({ exercises = [], id }: ExercisesProps) => {
 
           <div className="flex-8px-center-wrap">
             <CheckAnswersButton onClick={handleCheckAnswer} />
-            <ShowAnswersButton onClick={handleShowAnswer} />
-            <Button label={`${showAnswer ? "Hide" : "Show"} answers`} />
+            <ShowAnswersButton onClick={handleShowAnswer} showAnswer={showAnswer} />
             <ResetAnswersButton onClick={handleResetAnswers} />
           </div>
         </div>

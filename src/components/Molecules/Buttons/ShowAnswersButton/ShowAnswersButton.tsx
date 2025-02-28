@@ -2,8 +2,19 @@
 import { Button } from "@/components/Atoms/Button";
 
 // Images
-import { eyeIcon } from "@/img/index";
+import { eyeIcon, eyeIcon2 } from "@/img/index";
 
-export const ShowAnswersButton = ({ onClick }: { onClick: () => void }) => {
-  return <Button imgSrc={eyeIcon} imgAlt="Search icon" onClick={onClick} />;
+interface ShowAnswersButtonProps {
+  onClick: () => void;
+  showAnswer: boolean;
+}
+
+export const ShowAnswersButton = ({ onClick, showAnswer }: ShowAnswersButtonProps) => {
+  return (
+    <Button 
+      imgSrc={showAnswer ? eyeIcon2 : eyeIcon} 
+      imgAlt={showAnswer ? "Hide answers icon" : "Show answers icon"} 
+      onClick={onClick} 
+    />
+  );
 };

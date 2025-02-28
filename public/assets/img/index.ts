@@ -85,6 +85,7 @@ import dictionaryOpenIcon from "./icon/dictionary-open.png";
 
 // E
 import eyeIcon from "./icon/eye.png";
+import eyeIcon2 from "./icon/eye2.png";
 import expandForward from "./icon/expand-forward.png";
 import expandDown from "./icon/expand-down.png";
 
@@ -238,6 +239,7 @@ export {
 
   // E
   eyeIcon,
+  eyeIcon2,
   expandForward,
   expandDown,
 
