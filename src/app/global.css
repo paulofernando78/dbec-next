@@ -5,16 +5,6 @@
 @import url("../styles/colors.css");
 @import url("../styles/variables.css");
 
-[data-theme="dark"] {
-  --background: #1a1a1a;
-  --text-color: #ffffff;
-  --box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.1), /* Soft light inner shadow */
-  5px 5px 10px rgba(0, 0, 0, 0.5), /* Darker inner shadow */
-  -7px -7px 20px rgba(255, 255, 255, 0.05), /* Outer light highlight */
-  7px 7px 20px rgba(0, 0, 0, 0.6);
-  --morphism-bg: #1a1a1a;
-}
-
 body {
   background: var(--background);
   color: var(--text-color);
