@@ -2,7 +2,7 @@
 
 // Components
 import { WordCard } from "@/components/Molecules/Cards/WordCard";
-import { IDictionary } from "@/components/Molecules/Cards/WordCard/types";
+import { IDictionary } from "@/components/Molecules/Cards/WordCard/WordCard.types";
 import { Button } from "@/components/Atoms/Button/";
 
 // Hooks

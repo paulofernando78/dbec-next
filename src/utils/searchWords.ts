@@ -1,4 +1,4 @@
-import { IDictionary } from "@/components/Molecules/Cards/WordCard/types";
+import { IDictionary } from "@/components/Molecules/Cards/WordCard/WordCard.types";
 
 const alphabet = [
   "a",
@@ -60,9 +60,9 @@ async function getDictionaryData(): Promise<IDictionary[]> {
 export async function searchWords(word: string): Promise<IDictionary[]> {
   try {
     const data: IDictionary[] = await getDictionaryData();
-    
+
     // Filtrar palavras usando o campo `word` das definições
-    const wordsFound = data.filter((dict) => 
+    const wordsFound = data.filter((dict) =>
       dict.definitions.some((definition) =>
         definition.word?.toLowerCase().includes(word.toLowerCase())
       )

@@ -14,7 +14,7 @@ import { eyeIcon } from "@/img/index";
 
 // Types
 import { DictionaryCardProps } from "./types";
-import { IDictionary } from "@/components/Molecules/Cards/WordCard/types";
+import { IDictionary } from "@/components/Molecules/Cards/WordCard/WordCard.types";
 
 // Utils
 import { searchWords } from "@/utils/searchWords";

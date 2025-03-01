@@ -1,13 +1,7 @@
 "use client";
 
-// Components
-import Image from "next/image";
-
 // Hooks
 import { useState } from "react";
-
-// Images
-import { closeIcon } from "@/img/index";
 
 // CSS
 import styles from "./WordCard.module.css";
@@ -16,7 +10,7 @@ import styles from "./WordCard.module.css";
 import { handleTextToSpeech } from "@/utils/textToSpeech";
 
 // Types
-import { IDictionaryDefinitions, WordCardProps } from "./types";
+import { IDictionaryDefinitions, WordCardProps } from "./WordCard.types";
 
 export function WordCard({ dictionary, onClose }: WordCardProps) {
   const [playingAudios, setPlayingAudios] = useState<{
@@ -64,16 +58,10 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
             (definition: IDictionaryDefinitions, index: number) => (
               <div key={index}>
                 {/* Word with play button */}
-                <Image
-                  src={closeIcon}
-                  alt="Close icon"
-                  className={`icon-general ${styles["close-button"]}`}
-                  onClick={() => onClose(dictionary.keyword)}
-                />
                 <div className={`margin-bottom ${styles["padding-left"]}`}>
                   {definition.word && (
                     <div className={styles["word-margin-bottom"]}>
-                      {/* Chabged from <p> to <div> to avoid hydration */}
+                      {/* Changed from <p> to <div> to avoid hydration */}
                       <div className={`bold ${styles["flex"]}`}>
                         <span className={styles["audio-container"]}>
                           {loadingAudios[`word-${index}`] ? (
@@ -110,9 +98,7 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                             />
                           )}
                         </span>
-                        <span className="font-bold">
-                          {definition.word}
-                        </span>
+                        <span className="font-bold">{definition.word}</span>
                       </div>
                       <p className="phonetics">{definition.phonetics}</p>
                       <p className="times-new-roman-dictionary">
@@ -237,7 +223,9 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                                       />
                                     )}
                                   </div>
-                                  <p className="display-inline">{example.enExample}</p>{" "}
+                                  <p className="display-inline">
+                                    {example.enExample}
+                                  </p>{" "}
                                   {example.ptExample && (
                                     <p className="portuguese">
                                       {example.ptExample}
@@ -256,10 +244,7 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                       <p className="font-bold">Synonyms</p>
                       <ul>
                         {definition.synonyms?.map((synonym, synonymIndex) => (
-                          <li
-                            key={synonymIndex}
-                            className="display-inline"
-                          >
+                          <li key={synonymIndex} className="display-inline">
                             {synonym}
                             {definition.synonyms &&
                               synonymIndex < definition.synonyms.length - 1 &&
@@ -276,10 +261,7 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                       <p className="font-bold">Antonyms</p>
                       <ul>
                         {definition.antonyms?.map((antonym, antonymIndex) => (
-                          <li
-                            key={antonymIndex}
-                            className="display-inline"
-                          >
+                          <li key={antonymIndex} className="display-inline">
                             {antonym}
                             {definition.antonyms &&
                               antonymIndex < definition.antonyms.length - 1 &&
