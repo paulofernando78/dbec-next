@@ -2,6 +2,35 @@
   {
     "definitions": [
       {
+        "word": "a far cry from",
+        "partOfSpeech": "idiom",
+        "enDefinition": "very different from; not at all like",
+        "ptDefinition": "muito diferente de; nem um pouco parecido com",
+        "examples": [
+          {
+            "enExample": "The small apartment was a far cry from the luxury house she grew up in.",
+            "ptExample": "O pequeno apartamento era muito diferente da casa luxuosa onde ela cresceu."
+          },
+          {
+            "enExample": "His current job is a far cry from what he originally planned to do.",
+            "ptExample": "Seu trabalho atual é muito diferente do que ele originalmente planejava fazer."
+          }
+        ],
+        "synonyms": ["worlds apart from", "completely different from", "nothing like"],
+        "antonyms": ["similar to", "close to", "comparable to"],
+        "seeAlso": ["different from", "unlike"],
+        "notes": [
+          {
+            "enNote": "This idiom emphasizes a stark contrast or significant difference between two things.",
+            "ptNote": "Esta expressão enfatiza um contraste marcante ou diferença significativa entre duas coisas."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "allow",
         "phonetics": "/əˈlaʊ/",
         "partOfSpeech": "verb",

@@ -7,17 +7,12 @@
   position: relative;
 }
 
-.input-style::placeholder {
+/* .input-style::placeholder {
   font-size: var(--p-size);
-}
+} */
 
 .margin-top {
   margin-top: 0.3rem;
-}
-
-.close-button {
-  position: absolute;
-  right: 5px
 }
 
 .audio-container {

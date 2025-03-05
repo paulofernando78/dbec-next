@@ -12,7 +12,7 @@ import { handleTextToSpeech } from "@/utils/textToSpeech";
 // Types
 import { IDictionaryDefinitions, WordCardProps } from "./WordCard.types";
 
-export function WordCard({ dictionary, onClose }: WordCardProps) {
+export function WordCard({ dictionary }: WordCardProps) {
   const [playingAudios, setPlayingAudios] = useState<{
     [key: string]: boolean;
   }>({});
@@ -21,7 +21,7 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
   }>({});
   const [error, setError] = useState<string | null>(null);
 
-  // Play omponent
+  // Play
   function Play({ onClick }: { onClick?: () => void; className?: string }) {
     return (
       <>
@@ -30,12 +30,12 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
     );
   }
 
-  // Loading Animation Component
+  // Loading Animation
   function LoadingAnimation() {
     return <div className={`${styles["loading"]}`}></div>;
   }
 
-  // Playing Animation Component
+  // Playing Animation
   function PlayingAnimation() {
     return (
       <div className={styles["waves-flex"]}>
@@ -98,7 +98,7 @@ export function WordCard({ dictionary, onClose }: WordCardProps) {
                             />
                           )}
                         </span>
-                        <span className="font-bold">{definition.word}</span>
+                        <span className="font-bold p-font">{definition.word}</span>
                       </div>
                       <p className="phonetics">{definition.phonetics}</p>
                       <p className="times-new-roman-dictionary">

@@ -2,6 +2,32 @@
   {
     "definitions": [
       {
+        "word": "enthral",
+        "phonetics": "/ɪnˈθrɔːl/",
+        "partOfSpeech": "verb",
+        "enDefinition": "to capture the fascinated attention of someone; to charm or captivate completely",
+        "ptDefinition": "cativar ou fascinar completamente; encantar",
+        "examples": [
+          {
+            "enExample": "The magician's performance enthralled the audience.",
+            "ptExample": "A apresentação do mágico encantou a plateia."
+          }
+        ],
+        "synonyms": ["captivate", "fascinate", "spellbind", "enchant"],
+        "antonyms": ["bore", "repel", "disinterest"],
+        "seeAlso": ["charm", "mesmerize"],
+        "notes": [
+          {
+            "enNote": "British spelling variant of 'enthrall'",
+            "ptNote": "Variante britânica de 'enthrall'"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "enthrall",
         "phonetics": "/ɪnˈθrɔːl/",
         "partOfSpeech": "verb",
