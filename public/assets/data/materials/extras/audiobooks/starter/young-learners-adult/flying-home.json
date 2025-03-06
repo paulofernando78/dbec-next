@@ -641,12 +641,12 @@
                 {
                   "id": "f83e7f54-3fc5-4c63-86d0-5cf24a384028",
                   "label": "He eats 20",
-                  "isCorrect": false
+                  "isCorrect": true
                 },
                 {
                   "id": "a5577b98-ca0d-47e3-b126-1c5904406b83",
                   "label": "He eats 25.",
-                  "isCorrect": true
+                  "isCorrect": false
                 }
               ]
             }
