@@ -145,7 +145,7 @@ import ukFlagIcon from "./icon/flag/uk.png";
 // W
 
 // X
-// import xmas1 from "./bitmoji/xmas1.png";
+import xmas1 from "./bitmoji/xmas1.png";
 import xIcon from "./icon/x.png";
 
 // Y
@@ -298,7 +298,7 @@ export {
   // W
 
   // X
-  // xmas1,
+  xmas1,
   xIcon,
 
   // Y
