@@ -6,6 +6,7 @@
   --border: 1px solid rgb(153, 153, 153);
   --border-radius: 5px;
   --img-border: 5px solid rgba(211, 211, 211, 0.233);
+  --img-border: 5px solid grey;
   --p-size: 1.2rem;
   --text-color: #000000;
 

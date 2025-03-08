@@ -9,7 +9,7 @@
   padding: var(--padding);
   background: var(--button__color);
   box-shadow: var(--neumorphism);
-  border-radius: 5px;
+  border-radius: 50%;
   cursor: pointer;
   position: relative;
 }

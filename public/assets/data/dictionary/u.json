@@ -2,6 +2,31 @@
   {
     "definitions": [
       {
+        "word": "until someone is blue in the face",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to do or say something repeatedly for a long time without success or result",
+        "ptDefinition": "fazer ou dizer algo repetidamente por muito tempo sem sucesso ou resultado",
+        "examples": [
+          {
+            "enExample": "You can argue until you're blue in the face, but I won't change my mind.",
+            "ptExample": "Você pode argumentar até ficar roxo, mas não vou mudar de ideia."
+          }
+        ],
+        "synonyms": ["repeatedly", "persistently", "endlessly"],
+        "antonyms": ["briefly", "momentarily"],
+        "seeAlso": ["beat a dead horse", "waste one's breath"],
+        "notes": [
+          {
+            "enNote": "This idiom refers to the blue-ish color someone's face might turn when they're out of breath from talking too much.",
+            "ptNote": "Esta expressão se refere à cor azulada que o rosto de alguém pode ficar quando está sem fôlego de tanto falar."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "up to scratch",
         "partOfSpeech": "idiom",
         "enDefinition": "meeting the required standard; satisfactory",
@@ -71,9 +96,9 @@
   {
     "definitions": [
       {
-	      "word": "upgrade",
-		    "phonetics": "/ʌpˈɡreɪd/",
-		    "partOfSpeech": "verb",
+        "word": "upgrade",
+        "phonetics": "/ʌpˈɡreɪd/",
+        "partOfSpeech": "verb",
         "enDefinition": "to improve the quality or usefulness of something, or change it for something newer or of a better standard",
         "ptDefinition": "melhorar, aprimorar, atualizar",
         "examples": [
@@ -82,7 +107,7 @@
             "ptExample": "Nós fomos atualizados e voamos de classe executiva."
           }
         ],
-	      "synonyms": ["boost", "enhance", "increase", "promote", "raise"],
+        "synonyms": ["boost", "enhance", "increase", "promote", "raise"],
         "antonyms": ["decrease", "diminish", "lower", "reduce"]
       }
     ]

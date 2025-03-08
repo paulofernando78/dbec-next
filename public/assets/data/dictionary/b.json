@@ -2,6 +2,123 @@
   {
     "definitions": [
       {
+        "word": "bat around some ideas",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to discuss different ideas or possibilities in an informal way",
+        "ptDefinition": "discutir diferentes ideias ou possibilidades de maneira informal",
+        "examples": [
+          {
+            "enExample": "Let's bat around some ideas for the new marketing campaign.",
+            "ptExample": "Vamos discutir algumas ideias para a nova campanha de marketing."
+          },
+          {
+            "enExample": "The team spent an hour batting around ideas for the project.",
+            "ptExample": "A equipe passou uma hora discutindo ideias para o projeto."
+          }
+        ],
+        "synonyms": ["brainstorm", "discuss", "bounce ideas"],
+        "antonyms": ["decide", "conclude", "finalize"],
+        "seeAlso": ["brainstorming", "think tank"],
+        "notes": [
+          {
+            "enNote": "This informal phrase suggests a casual, collaborative discussion of possibilities without making immediate decisions.",
+            "ptNote": "Esta frase informal sugere uma discussão casual e colaborativa de possibilidades sem tomar decisões imediatas."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "between a rock and a hard place",
+        "partOfSpeech": "idiom",
+        "enDefinition": "in a difficult situation where both possible choices or actions are unpleasant",
+        "ptDefinition": "em uma situação difícil onde ambas as escolhas ou ações possíveis são desagradáveis",
+        "examples": [
+          {
+            "enExample": "He was between a rock and a hard place: either lie to his boss or betray his friend.",
+            "ptExample": "Ele estava entre a cruz e a espada: ou mentia para seu chefe ou traía seu amigo."
+          },
+          {
+            "enExample": "The company is between a rock and a hard place - they must either cut jobs or face bankruptcy.",
+            "ptExample": "A empresa está em uma situação difícil - deve cortar empregos ou enfrentar a falência."
+          }
+        ],
+        "synonyms": ["in a dilemma", "in a bind", "caught in the middle"],
+        "antonyms": ["in an easy situation", "having clear choices"],
+        "seeAlso": ["catch-22", "no-win situation"],
+        "notes": [
+          {
+            "enNote": "This idiom emphasizes being faced with two equally undesirable alternatives with no good outcome.",
+            "ptNote": "Este idioma enfatiza estar enfrentando duas alternativas igualmente indesejáveis sem nenhum resultado bom."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "belt-tightening",
+        "phonetics": "/ˈbelt ˌtaɪtnɪŋ/",
+        "partOfSpeech": "noun",
+        "enDefinition": "reduction in spending; measures taken to reduce costs or spending",
+        "ptDefinition": "redução de gastos; medidas tomadas para reduzir custos ou despesas",
+        "examples": [
+          {
+            "enExample": "The company announced some belt-tightening measures due to the economic downturn.",
+            "ptExample": "A empresa anunciou algumas medidas de redução de gastos devido à desaceleração econômica."
+          },
+          {
+            "enExample": "The family had to do some belt-tightening after the loss of income.",
+            "ptExample": "A família teve que fazer algumas reduções de gastos após a perda de renda."
+          }
+        ],
+        "synonyms": ["austerity", "budget cuts", "cost reduction"],
+        "antonyms": ["spending increase", "expansion"],
+        "seeAlso": ["budget", "economize", "cost-cutting"],
+        "notes": [
+          {
+            "enNote": "This metaphorical expression comes from the act of tightening one's belt when losing weight, suggesting having to make do with less.",
+            "ptNote": "Esta expressão metafórica vem do ato de apertar o cinto ao perder peso, sugerindo ter que se contentar com menos."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "bottom line",
+        "partOfSpeech": "idiom",
+        "enDefinition": "the final total of an account or financial statement; the most important or fundamental factor",
+        "ptDefinition": "o resultado final de uma conta ou demonstração financeira; o fator mais importante ou fundamental",
+        "examples": [
+          {
+            "enExample": "The bottom line is that we need to cut costs to remain profitable.",
+            "ptExample": "O resultado final é que precisamos cortar custos para permanecer lucrativos."
+          },
+          {
+            "enExample": "When it comes to the bottom line, quality is more important than quantity.",
+            "ptExample": "Quando se trata do que realmente importa, qualidade é mais importante que quantidade."
+          }
+        ],
+        "synonyms": ["final result", "ultimate outcome", "essential point"],
+        "antonyms": ["preliminary result", "initial consideration"],
+        "seeAlso": ["net profit", "final analysis"],
+        "notes": [
+          {
+            "enNote": "This phrase originated from accounting, where the bottom line refers to the final line of a financial statement showing the net profit or loss.",
+            "ptNote": "Esta frase originou-se da contabilidade, onde a linha inferior refere-se à última linha de uma demonstração financeira mostrando o lucro ou prejuízo líquido."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "burn the midnight oil",
         "partOfSpeech": "idiom",
         "enDefinition": "to stay up late working on a project or task",

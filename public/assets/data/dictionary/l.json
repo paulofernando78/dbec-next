@@ -2,6 +2,62 @@
   {
     "definitions": [
       {
+        "word": "let's agree to disagree",
+        "partOfSpeech": "idiom",
+        "enDefinition": "a phrase used to end a discussion when both parties cannot reach an agreement but wish to remain cordial",
+        "ptDefinition": "uma frase usada para encerrar uma discussão quando ambas as partes não conseguem chegar a um acordo mas desejam manter a cordialidade",
+        "examples": [
+          {
+            "enExample": "We clearly have different views on this political issue, so let's agree to disagree.",
+            "ptExample": "Claramente temos visões diferentes sobre esta questão política, então vamos concordar em discordar."
+          },
+          {
+            "enExample": "After debating for hours, they decided to agree to disagree about the best approach.",
+            "ptExample": "Depois de debater por horas, eles decidiram concordar em discordar sobre a melhor abordagem."
+          }
+        ],
+        "synonyms": ["agree to differ", "accept our differences"],
+        "antonyms": ["insist on agreement", "force consensus"],
+        "notes": [
+          {
+            "enNote": "This phrase is used to maintain respect and civility when two parties have irreconcilable views",
+            "ptNote": "Esta frase é usada para manter o respeito e a civilidade quando duas partes têm visões irreconciliáveis"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "last resort",
+        "partOfSpeech": "noun phrase",
+        "enDefinition": "something that is tried after everything else has failed; the final possibility or option",
+        "ptDefinition": "último recurso; última alternativa quando todas as outras opções falharam",
+        "examples": [
+          {
+            "enExample": "Surgery should be used as a last resort when all other treatments have failed.",
+            "ptExample": "A cirurgia deve ser usada como último recurso quando todos os outros tratamentos falharem."
+          },
+          {
+            "enExample": "Bankruptcy was their last resort after trying everything to save the business.",
+            "ptExample": "A falência foi seu último recurso depois de tentar tudo para salvar o negócio."
+          }
+        ],
+        "synonyms": ["final option", "last choice", "final alternative"],
+        "antonyms": ["first choice", "preferred option", "primary solution"],
+        "notes": [
+          {
+            "enNote": "The phrase implies that this option should only be considered when all other possibilities have been exhausted",
+            "ptNote": "A frase implica que esta opção só deve ser considerada quando todas as outras possibilidades foram esgotadas"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "Louvre",
         "enDefinition": "the world's largest art museum located in Paris, France, housed in a historic palace and home to many famous works including the Mona Lisa",
         "ptDefinition": "o maior museu de arte do mundo localizado em Paris, França, instalado em um palácio histórico e lar de muitas obras famosas, incluindo a Mona Lisa",

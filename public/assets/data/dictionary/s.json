@@ -2,6 +2,35 @@
   {
     "definitions": [
       {
+        "word": "save a bundle",
+        "partOfSpeech": "idiom",
+        "enDefinition": "to save a large amount of money",
+        "ptDefinition": "economizar uma grande quantia de dinheiro",
+        "examples": [
+          {
+            "enExample": "We saved a bundle by buying our plane tickets six months in advance.",
+            "ptExample": "Economizamos muito comprando nossas passagens aéreas com seis meses de antecedência."
+          },
+          {
+            "enExample": "You can save a bundle if you shop during the sales.",
+            "ptExample": "Você pode economizar muito se comprar durante as promoções."
+          }
+        ],
+        "synonyms": ["save a lot", "save big", "save plenty"],
+        "antonyms": ["spend a fortune", "pay full price"],
+        "seeAlso": ["bargain", "discount"],
+        "notes": [
+          {
+            "enNote": "Informal expression commonly used in contexts of shopping and financial decisions",
+            "ptNote": "Expressão informal comumente usada em contextos de compras e decisões financeiras"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "short by",
         "phonetics": "/ʃɔrt baɪ/",
         "partOfSpeech": "phrasal verb", 

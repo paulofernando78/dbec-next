@@ -2,6 +2,64 @@
   {
     "definitions": [
       {
+        "word": "the name of the game",
+        "partOfSpeech": "idiom",
+        "enDefinition": "the most important aspect or main purpose of an activity or situation",
+        "ptDefinition": "o aspecto mais importante ou objetivo principal de uma atividade ou situação",
+        "examples": [
+          {
+            "enExample": "In business, making a profit is the name of the game.",
+            "ptExample": "Nos negócios, obter lucro é o objetivo principal."
+          },
+          {
+            "enExample": "Speed is the name of the game in this competition.",
+            "ptExample": "Velocidade é o que mais importa nesta competição."
+          }
+        ],
+        "synonyms": ["main point", "key aspect", "crucial element"],
+        "antonyms": ["minor detail", "secondary aspect"],
+        "seeAlso": ["bottom line", "key factor"],
+        "notes": [
+          {
+            "enNote": "This idiom emphasizes what is most essential or crucial in a particular situation.",
+            "ptNote": "Este idiom enfatiza o que é mais essencial ou crucial em uma determinada situação."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
+        "word": "the lesser of two evils",
+        "partOfSpeech": "idiom",
+        "enDefinition": "the less unpleasant or undesirable of two poor choices or possibilities",
+        "ptDefinition": "a opção menos desagradável ou indesejável entre duas escolhas ruins ou possibilidades",
+        "examples": [
+          {
+            "enExample": "Neither candidate was ideal, but we had to choose the lesser of two evils.",
+            "ptExample": "Nenhum dos candidatos era ideal, mas tivemos que escolher o menor dos males."
+          },
+          {
+            "enExample": "Taking the longer route was the lesser of two evils compared to sitting in traffic for hours.",
+            "ptExample": "Tomar o caminho mais longo era o menor dos males comparado a ficar preso no trânsito por horas."
+          }
+        ],
+        "synonyms": ["better option", "better choice", "better alternative"],
+        "antonyms": ["win-win situation", "ideal choice"],
+        "seeAlso": ["catch-22", "dilemma"],
+        "notes": [
+          {
+            "enNote": "This idiom is used when someone must choose between two undesirable options.",
+            "ptNote": "Este idiom é usado quando alguém deve escolher entre duas opções indesejáveis."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "definitions": [
+      {
         "word": "track something down",
         "phonetics": "/træk ˈsʌmθɪŋ daʊn/",
         "partOfSpeech": "phrasal verb",

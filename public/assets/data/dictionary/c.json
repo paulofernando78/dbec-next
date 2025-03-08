@@ -2,6 +2,32 @@
   {
     "definitions": [
       {
+        "word": "cut back on",
+        "phonetics": "/kʌt bæk ɒn/",
+        "partOfSpeech": "phrasal verb",
+        "enDefinition": "to reduce the amount or quantity of something",
+        "ptDefinition": "reduzir a quantidade de algo",
+        "examples": [
+          {
+        "enExample": "We need to cut back on our expenses this month.",
+        "ptExample": "Precisamos reduzir nossas despesas este mês."
+          },
+          {
+        "enExample": "The doctor advised him to cut back on sugar.",
+        "ptExample": "O médico o aconselhou a reduzir o consumo de açúcar."
+          }
+        ],
+        "synonyms": ["reduce", "decrease", "lessen", "diminish"],
+        "antonyms": ["increase", "expand", "raise"],
+        "seeAlso": ["cut down on", "reduce"],
+        "notes": [
+          {
+        "enNote": "This phrasal verb is commonly used when discussing budgets, consumption, or lifestyle changes.",
+        "ptNote": "Este verbo frasal é comumente usado ao discutir orçamentos, consumo ou mudanças no estilo de vida."
+          }
+        ]
+      },
+      {
         "word": "clock in",
         "phonetics": "/klɑk ɪn/",
         "partOfSpeech": "phrasal verb",

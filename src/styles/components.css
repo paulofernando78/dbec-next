@@ -30,7 +30,7 @@ input[type="radio"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border: 1px solid #333;
+  box-shadow: var(--neumorphism);
   border-radius: 50%;
   cursor: pointer;
   position: relative;
@@ -47,6 +47,8 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked::before {
+  /* box-shadow: var(--neumorphism); */
+  border-radius: 50%;
   content: "";
   display: inline-block;
   width: 31px;
